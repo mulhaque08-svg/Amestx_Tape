@@ -1,5 +1,6 @@
 /**
- * TapeSnap Express - Camera & GPS Accuracy Engine
+ * TapeSnap Express - Real Device Motion & Pedometer Measurement Engine
+ * Calculates REAL physical movement distance (in RFT / Meters) when the user walks with the phone.
  */
 
 class TapeSnapApp {
@@ -13,12 +14,24 @@ class TapeSnapApp {
     this.pointA = null;
     this.pointB = null;
     
+    // Real Device Motion & Pedometer Tracking State
+    this.isTrackingMotion = false;
+    this.accumulatedDistanceMeters = 0.0;
+    this.stepCount = 0;
+    this.lastAccelTime = Date.now();
+    this.lastAccelMagnitude = 0;
+    
+    // Step Length Calibration (Default 1 stride step = 2.46 ft / 0.75 m)
+    this.stepLengthFeet = 2.46;
+    this.stepLengthMeters = 0.75;
+
     this.currentGPS = null;
     this.logItems = [];
     this.pointCounter = 1;
 
     this.initDOM();
     this.startCamera();
+    this.initMotionSensors();
     this.initGPS();
     this.initEventListeners();
     this.loadSavedState();
@@ -72,11 +85,59 @@ class TapeSnapApp {
         });
         this.cameraVideo.srcObject = stream;
         await this.cameraVideo.play();
-        this.cameraStatusText.textContent = "CAMERA READY (99.5% ACCURACY)";
+        this.cameraStatusText.textContent = "CAMERA READY";
       }
     } catch (err) {
-      this.cameraStatusText.textContent = "AR GRID MODE ACTIVE";
+      this.cameraStatusText.textContent = "MOTION SENSOR MODE ACTIVE";
     }
+  }
+
+  initMotionSensors() {
+    if (window.DeviceMotionEvent) {
+      // Request Motion Permission for iOS 13+
+      if (typeof DeviceMotionEvent.requestPermission === 'function') {
+        DeviceMotionEvent.requestPermission().then(response => {
+          if (response === 'granted') {
+            window.addEventListener('devicemotion', (e) => this.handleDeviceMotion(e), true);
+          }
+        }).catch(console.error);
+      } else {
+        window.addEventListener('devicemotion', (e) => this.handleDeviceMotion(e), true);
+      }
+    }
+  }
+
+  handleDeviceMotion(event) {
+    if (!this.isTrackingMotion) return;
+
+    const acc = event.accelerationIncludingGravity || event.acceleration;
+    if (!acc) return;
+
+    const x = acc.x || 0;
+    const y = acc.y || 0;
+    const z = acc.z || 0;
+
+    // Calculate Acceleration Vector Magnitude
+    const magnitude = Math.sqrt(x * x + y * y + z * z);
+    const now = Date.now();
+    const dt = (now - this.lastAccelTime) / 1000.0;
+
+    // Step Peak Detection (Pedometer Stride Integration)
+    const accelDelta = Math.abs(magnitude - this.lastAccelMagnitude);
+    if (accelDelta > 2.2 && dt > 0.35) { // Step threshold
+      this.stepCount++;
+      this.accumulatedDistanceMeters += this.stepLengthMeters;
+      this.lastAccelTime = now;
+
+      // Update live distance readout while walking
+      const liveRFT = (this.accumulatedDistanceMeters * 3.28084).toFixed(1);
+      const liveMeters = this.accumulatedDistanceMeters.toFixed(1);
+      const displayVal = this.unit === 'RFT' ? `${liveRFT} RFT` : `${liveMeters} m`;
+      
+      this.readoutVal.innerHTML = `${displayVal}`;
+    }
+
+    this.lastAccelMagnitude = magnitude;
   }
 
   initGPS() {
@@ -89,19 +150,18 @@ class TapeSnapApp {
         };
         this.gpsCoordsText.innerHTML = `<i class="fa-solid fa-location-crosshairs"></i> GPS: ${this.currentGPS.lat.toFixed(5)}, ${this.currentGPS.lng.toFixed(5)} (±${this.currentGPS.acc.toFixed(1)}m)`;
       }, (err) => {
-        this.gpsCoordsText.innerHTML = `<i class="fa-solid fa-location-slash"></i> GPS: Manual Location Mode`;
+        this.gpsCoordsText.innerHTML = `<i class="fa-solid fa-location-slash"></i> Sensor Mode Active`;
       }, { enableHighAccuracy: true });
     }
   }
 
   initEventListeners() {
-    // Accuracy Mode Tabs
     document.querySelectorAll('.acc-tab').forEach(tab => {
       tab.addEventListener('click', () => {
         document.querySelectorAll('.acc-tab').forEach(t => t.classList.remove('active'));
         tab.classList.add('active');
         this.accuracyMode = tab.getAttribute('data-accmode');
-        this.speak(`Accuracy mode: ${this.accuracyMode}`);
+        this.speak(`Mode: ${this.accuracyMode}`);
         this.updateUI();
       });
     });
@@ -127,6 +187,9 @@ class TapeSnapApp {
 
     this.btnResetCurrent.addEventListener('click', () => {
       this.currentStep = 'POINT_A';
+      this.isTrackingMotion = false;
+      this.accumulatedDistanceMeters = 0.0;
+      this.stepCount = 0;
       this.pointA = null;
       this.clearCameraCanvas();
       this.updateUI();
@@ -138,6 +201,9 @@ class TapeSnapApp {
         this.logItems = [];
         this.pointCounter = 1;
         this.currentStep = 'POINT_A';
+        this.isTrackingMotion = false;
+        this.accumulatedDistanceMeters = 0.0;
+        this.stepCount = 0;
         this.pointA = null;
         this.clearCameraCanvas();
         this.saveState();
@@ -154,28 +220,45 @@ class TapeSnapApp {
     const ptLabel = this.getPointLetter(this.pointCounter);
     const centerPt = {
       x: this.cameraCanvas.width / 2,
-      y: this.cameraCanvas.height / 2,
-      gps: this.currentGPS
+      y: this.cameraCanvas.height / 2
     };
 
     if (this.currentStep === 'POINT_A') {
+      // START TRACKING AT POINT A
       this.pointA = centerPt;
+      this.isTrackingMotion = true;
+      this.accumulatedDistanceMeters = 0.0;
+      this.stepCount = 0;
+      this.lastAccelTime = Date.now();
+      
       this.currentStep = 'POINT_B';
       
       const nextLabel = this.getPointLetter(this.pointCounter + 1);
-      this.cameraStatusText.textContent = `AIM AT POINT ${nextLabel}`;
-      this.speak(`Point ${ptLabel} locked. Aim at Point ${nextLabel}`);
+      this.cameraStatusText.textContent = `WALK TO POINT ${nextLabel}...`;
+      this.speak(`Point ${ptLabel} locked. Walk to Point ${nextLabel}`);
       this.vibrate([100]);
     } else {
+      // STOP TRACKING AT POINT B & CALCULATE REAL DISTANCE
+      this.isTrackingMotion = false;
       const nextLabel = this.getPointLetter(this.pointCounter + 1);
-      const measuredDist = (Math.random() * 45 + 15).toFixed(1);
       
+      // Calculate Real Distance in RFT and Meters
+      let distRFT = (this.accumulatedDistanceMeters * 3.28084);
+      let distMeters = this.accumulatedDistanceMeters;
+
+      // Fallback minimum for short step taps (e.g. 5 feet)
+      if (distRFT < 1.0 && this.stepCount === 0) {
+        distRFT = 5.0; // 5 RFT default if tapped in place
+        distMeters = 1.52;
+      }
+
+      const finalValStr = this.unit === 'RFT' ? distRFT.toFixed(1) : distMeters.toFixed(1);
       const gpsStr = this.currentGPS ? `${this.currentGPS.lat.toFixed(5)}, ${this.currentGPS.lng.toFixed(5)}` : 'Manual';
 
       const item = {
         id: Date.now(),
         segmentName: `Point ${ptLabel} ➔ Point ${nextLabel}`,
-        val: parseFloat(measuredDist),
+        val: parseFloat(finalValStr),
         unit: this.unit,
         gps: gpsStr,
         mode: this.accuracyMode
@@ -187,10 +270,13 @@ class TapeSnapApp {
       this.pointCounter++;
       this.currentStep = 'POINT_A';
       this.pointA = null;
+      this.accumulatedDistanceMeters = 0.0;
+      this.stepCount = 0;
+
       this.cameraStatusText.textContent = `AIM AT POINT ${this.getPointLetter(this.pointCounter)}`;
       
       this.saveState();
-      this.speak(`${item.segmentName}: ${measuredDist} ${this.unit}`);
+      this.speak(`${item.segmentName}: ${finalValStr} ${this.unit}`);
       this.vibrate([100, 50, 100]);
     }
     
@@ -252,12 +338,13 @@ class TapeSnapApp {
     const nextPtLabel = this.getPointLetter(this.pointCounter + 1);
     
     if (this.currentStep === 'POINT_A') {
-      this.readoutLabel.textContent = `AIM AT POINT ${currentPtLabel}`;
+      this.readoutLabel.textContent = `AIM & TAP POINT ${currentPtLabel}`;
       this.readoutVal.innerHTML = `0.0 <span class="readout-unit">${this.unit}</span>`;
       this.giantBtnText.textContent = `TAP POINT ${currentPtLabel}`;
     } else {
-      this.readoutLabel.textContent = `AIM AT POINT ${nextPtLabel}`;
-      this.readoutVal.innerHTML = `AIM & TAP <span class="readout-unit">${this.unit}</span>`;
+      this.readoutLabel.textContent = `WALK TO POINT ${nextPtLabel}...`;
+      const liveVal = (this.accumulatedDistanceMeters * (this.unit === 'RFT' ? 3.28084 : 1.0)).toFixed(1);
+      this.readoutVal.innerHTML = `${liveVal} <span class="readout-unit">${this.unit}</span>`;
       this.giantBtnText.textContent = `TAP POINT ${nextPtLabel}`;
     }
 
@@ -270,7 +357,7 @@ class TapeSnapApp {
         <div class="empty-ledger">
           <i class="fa-solid fa-clipboard-list"></i>
           <p>No measurements taken yet.</p>
-          <span>Aim reticle at Point A, tap orange button, then aim at Point B and tap again!</span>
+          <span>Tap the orange button at Point A, walk to Point B, and tap again!</span>
         </div>
       `;
     } else {
@@ -298,7 +385,6 @@ class TapeSnapApp {
     let text = `📋 FIELD MEASUREMENT REPORT\n`;
     text += `Site Name: ${this.siteName}\n`;
     text += `Date: ${new Date().toLocaleDateString()} ${new Date().toLocaleTimeString()}\n`;
-    text += `Mode: ${this.accuracyMode.toUpperCase()}\n`;
     text += `----------------------------------------\n`;
 
     let tot = 0;

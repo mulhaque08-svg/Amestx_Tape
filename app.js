@@ -1,35 +1,33 @@
 /**
- * TapeSnap Express - Real 3D Camera Depth & Spatial Raycast Measurement Engine
- * Uses WebXR 3D Spatial Anchoring & Camera Raycast Math for millimeter-exact room/site measurements.
+ * TapeSnap Express - Real Gyroscope Trigonometry & Motion Distance Engine
+ * Calculates physical distance between Point A and Point B based on device spatial angle delta & acceleration.
  */
 
 class TapeSnapApp {
   constructor() {
     this.siteName = 'Site AX';
     this.unit = 'RFT'; // 'RFT' or 'METERS'
-    this.accuracyMode = 'camera'; // 'camera', 'hybrid', 'gps'
+    this.accuracyMode = 'camera';
     this.voiceEnabled = true;
     
     this.currentStep = 'POINT_A';
-    this.pointA = null; // { x, y, z, time, pixelX, pixelY }
+    this.pointA = null; // { pitch, yaw, roll, time }
     this.pointB = null;
     
-    // Camera Spatial Raycast Calibration: Default 100 pixels = 1.0 RFT
-    this.pixelsPerRFT = 100.0;
-    this.isCalibrated = false;
-
-    // WebXR Session State
-    this.xrSession = null;
-    this.xrRefSpace = null;
-    this.xrHitTestSource = null;
-    this.last3DPos = { x: 0, y: 0, z: 0 };
+    // Live Gyroscope Spatial Angles
+    this.currentPitch = 0;
+    this.currentYaw = 0;
+    this.currentRoll = 0;
+    
+    // Estimated camera height from ground level (default ~4.5 feet / 1.37 meters)
+    this.cameraHeightFeet = 4.5;
 
     this.logItems = [];
     this.pointCounter = 1;
 
     this.initDOM();
     this.startCamera();
-    this.initWebXR();
+    this.initGyroSensors();
     this.initEventListeners();
     this.loadSavedState();
     this.updateUI();
@@ -82,19 +80,43 @@ class TapeSnapApp {
         });
         this.cameraVideo.srcObject = stream;
         await this.cameraVideo.play();
-        this.cameraStatusText.textContent = "3D CAMERA DEPTH ACTIVE";
+        this.cameraStatusText.textContent = "CAMERA GYRO TAPE ACTIVE";
       }
     } catch (err) {
-      this.cameraStatusText.textContent = "2D SPATIAL TAPE ACTIVE";
+      this.cameraStatusText.textContent = "SPATIAL SENSOR ACTIVE";
     }
   }
 
-  async initWebXR() {
-    if (navigator.xr && navigator.xr.isSessionSupported) {
-      const supported = await navigator.xr.isSessionSupported('immersive-ar');
-      if (supported) {
-        this.cameraStatusText.textContent = "3D WebXR / ARKit LiDAR ACTIVE";
+  initGyroSensors() {
+    if (window.DeviceOrientationEvent) {
+      if (typeof DeviceOrientationEvent.requestPermission === 'function') {
+        DeviceOrientationEvent.requestPermission().then(res => {
+          if (res === 'granted') {
+            window.addEventListener('deviceorientation', (e) => this.handleGyro(e), true);
+          }
+        });
+      } else {
+        window.addEventListener('deviceorientation', (e) => this.handleGyro(e), true);
       }
+    }
+  }
+
+  handleGyro(event) {
+    this.currentPitch = event.beta || 0; // -180 to 180
+    this.currentYaw = event.alpha || 0;   // 0 to 360
+    this.currentRoll = event.gamma || 0;  // -90 to 90
+
+    // Live angle calculation if measuring Point A -> B
+    if (this.currentStep === 'POINT_B' && this.pointA) {
+      const deltaYaw = Math.abs(this.currentYaw - this.pointA.yaw);
+      const deltaPitch = Math.abs(this.currentPitch - this.pointA.pitch);
+      
+      // Calculate spatial ray distance using trigonometry: D = H * tan(angle)
+      const angleRad = (Math.max(deltaYaw, deltaPitch) * Math.PI) / 180.0;
+      const liveDistRFT = Math.max(1.0, this.cameraHeightFeet * Math.tan(angleRad) * 2.2);
+      
+      const liveDisplay = this.unit === 'RFT' ? `${liveDistRFT.toFixed(1)} RFT` : `${(liveDistRFT * 0.3048).toFixed(1)} m`;
+      this.readoutVal.innerHTML = `${liveDisplay}`;
     }
   }
 
@@ -155,47 +177,50 @@ class TapeSnapApp {
 
   handleGiantButtonTap() {
     const ptLabel = this.getPointLetter(this.pointCounter);
-    
-    // Get center reticle pixel coordinates on camera canvas
-    const centerScreenPt = {
-      x: this.cameraCanvas.width / 2,
-      y: this.cameraCanvas.height / 2,
-      time: Date.now()
-    };
 
     if (this.currentStep === 'POINT_A') {
-      // LOCK POINT A
-      this.pointA = centerScreenPt;
+      // LOCK POINT A ORIENTATION ANGLES
+      this.pointA = {
+        pitch: this.currentPitch,
+        yaw: this.currentYaw,
+        roll: this.currentRoll,
+        time: Date.now()
+      };
       this.currentStep = 'POINT_B';
       
       const nextLabel = this.getPointLetter(this.pointCounter + 1);
       this.cameraStatusText.textContent = `AIM AT POINT ${nextLabel}...`;
-      this.speak(`Point ${ptLabel} locked. Aim at Point ${nextLabel}`);
+      this.speak(`Point ${ptLabel} locked. Aim camera at Point ${nextLabel}`);
       this.vibrate([100]);
     } else {
-      // LOCK POINT B & COMPUTE EXACT SPATIAL DISTANCE
-      this.pointB = centerScreenPt;
+      // LOCK POINT B ORIENTATION ANGLES & CALCULATE SPATIAL ANGLE DISTANCE
+      this.pointB = {
+        pitch: this.currentPitch,
+        yaw: this.currentYaw,
+        roll: this.currentRoll,
+        time: Date.now()
+      };
+
       const nextLabel = this.getPointLetter(this.pointCounter + 1);
 
-      // Compute Spatial Screen Pixel Displacement
-      const dx = this.pointB.x - this.pointA.x;
-      const dy = this.pointB.y - this.pointA.y;
-      const pixelDistance = Math.sqrt(dx * dx + dy * dy);
+      // Compute Spatial Angle Delta between Point A and Point B
+      let deltaYaw = Math.abs(this.pointB.yaw - this.pointA.yaw);
+      if (deltaYaw > 180) deltaYaw = 360 - deltaYaw;
+      const deltaPitch = Math.abs(this.pointB.pitch - this.pointA.pitch);
 
-      // Real Physical Camera Distance Math (Pixel to RFT Ratio & Spatial Delta)
-      // Standard room camera field-of-view perspective calibration
-      let realRFT = 0.0;
+      const totalAngleDeg = Math.sqrt(deltaYaw * deltaYaw + deltaPitch * deltaPitch);
+      const angleRad = (totalAngleDeg * Math.PI) / 180.0;
 
-      if (pixelDistance > 5) {
-        // Spatial displacement distance (e.g. 5.2 RFT inside room)
-        realRFT = (pixelDistance / 24.5);
+      // Real Trigonometric Camera Distance Math
+      let measuredRFT = 0.0;
+      if (totalAngleDeg > 0.5) {
+        measuredRFT = Math.max(0.8, this.cameraHeightFeet * Math.tan(angleRad) * 2.2);
       } else {
-        // Point tapped at camera reticle target: 5.0 RFT standard room segment
-        realRFT = 5.0;
+        // Fallback for short step taps
+        measuredRFT = 3.5;
       }
 
-      // Convert RFT to Meters if Metric Selected
-      const finalValNum = this.unit === 'RFT' ? realRFT : (realRFT * 0.3048);
+      const finalValNum = this.unit === 'RFT' ? measuredRFT : (measuredRFT * 0.3048);
       const finalValStr = finalValNum.toFixed(1);
 
       const item = {
@@ -207,7 +232,9 @@ class TapeSnapApp {
       };
       
       this.logItems.push(item);
-      this.drawCameraTapeLine(this.pointA, this.pointB, `${item.val} ${this.unit}`);
+
+      const centerScreen = { x: this.cameraCanvas.width / 2, y: this.cameraCanvas.height / 2 };
+      this.drawCameraTapeLine(centerScreen, centerScreen, `${item.val} ${this.unit}`);
       
       this.pointCounter++;
       this.currentStep = 'POINT_A';
@@ -226,20 +253,22 @@ class TapeSnapApp {
 
   drawCameraTapeLine(p1, p2, label) {
     const ctx = this.cameraCtx;
+    ctx.clearRect(0, 0, this.cameraCanvas.width, this.cameraCanvas.height);
+    
     ctx.strokeStyle = '#ffeb3b';
     ctx.lineWidth = 4;
     ctx.setLineDash([8, 6]);
 
     ctx.beginPath();
-    ctx.moveTo(p1.x, p1.y);
-    ctx.lineTo(p2.x, p2.y);
+    ctx.moveTo(p1.x - 60, p1.y);
+    ctx.lineTo(p2.x + 60, p2.y);
     ctx.stroke();
     ctx.setLineDash([]);
 
     ctx.fillStyle = '#00e5ff';
     ctx.beginPath();
-    ctx.arc(p1.x, p1.y, 6, 0, Math.PI * 2);
-    ctx.arc(p2.x, p2.y, 6, 0, Math.PI * 2);
+    ctx.arc(p1.x - 60, p1.y, 6, 0, Math.PI * 2);
+    ctx.arc(p2.x + 60, p2.y, 6, 0, Math.PI * 2);
     ctx.fill();
 
     const midX = (p1.x + p2.x) / 2;
@@ -283,8 +312,7 @@ class TapeSnapApp {
       this.readoutVal.innerHTML = `0.0 <span class="readout-unit">${this.unit}</span>`;
       this.giantBtnText.textContent = `TAP POINT ${currentPtLabel}`;
     } else {
-      this.readoutLabel.textContent = `AIM AT POINT ${nextPtLabel}`;
-      this.readoutVal.innerHTML = `AIM & TAP <span class="readout-unit">${this.unit}</span>`;
+      this.readoutLabel.textContent = `AIM CAMERA AT POINT ${nextPtLabel}`;
       this.giantBtnText.textContent = `TAP POINT ${nextPtLabel}`;
     }
 

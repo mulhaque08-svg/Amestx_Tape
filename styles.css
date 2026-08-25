@@ -1,4 +1,4 @@
-/* TapeSnap Express - Simple Digital Camera Field Tape CSS */
+/* TapeSnap Express - Simple Digital Camera & GPS Tape CSS */
 :root {
   --bg-dark: #0a0d14;
   --bg-card: #131824;
@@ -50,14 +50,14 @@ body, html {
 
 /* Header */
 .express-header {
-  height: 52px;
+  height: 48px;
   background: var(--bg-card);
-  border-bottom: 2px solid #1e293b;
+  border-bottom: 1px solid #1e293b;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 14px;
-  gap: 10px;
+  padding: 0 12px;
+  gap: 8px;
   z-index: 10;
 }
 
@@ -69,7 +69,7 @@ body, html {
 }
 
 .site-input-group label {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 900;
   color: var(--tape-yellow);
   white-space: nowrap;
@@ -77,11 +77,11 @@ body, html {
 
 .site-input-group input {
   background: var(--bg-input);
-  border: 2px solid #334155;
+  border: 1.5px solid #334155;
   color: #fff;
   font-weight: 800;
-  font-size: 0.95rem;
-  padding: 4px 8px;
+  font-size: 0.9rem;
+  padding: 3px 6px;
   border-radius: 6px;
   width: 100%;
   outline: none;
@@ -98,13 +98,13 @@ body, html {
 }
 
 .btn-icon-toggle {
-  width: 34px;
-  height: 34px;
+  width: 32px;
+  height: 32px;
   border-radius: 6px;
-  border: 2px solid #334155;
+  border: 1.5px solid #334155;
   background: var(--bg-input);
   color: var(--text-muted);
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   cursor: pointer;
 }
 
@@ -117,18 +117,45 @@ body, html {
   background: var(--tape-orange);
   color: #000;
   font-weight: 900;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   border: none;
-  padding: 4px 10px;
-  border-radius: 16px;
+  padding: 4px 8px;
+  border-radius: 14px;
   cursor: pointer;
 }
 
-/* CAMERA WINDOW CONTAINER (Apple Measure Style) */
+/* ACCURACY MODE SWITCHER BAR */
+.accuracy-selector-bar {
+  display: flex;
+  background: var(--bg-dark);
+  border-bottom: 1px solid #1e293b;
+  padding: 2px 4px;
+}
+
+.acc-tab {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 6px 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.acc-tab.active {
+  background: var(--bg-input);
+  color: var(--tape-cyan);
+  border-bottom: 2px solid var(--tape-cyan);
+}
+
+/* CAMERA WINDOW CONTAINER */
 .camera-window-container {
   position: relative;
   width: 100%;
-  height: 200px;
+  height: 180px;
   background: #000;
   overflow: hidden;
   border-bottom: 2px solid var(--tape-cyan);
@@ -149,14 +176,13 @@ body, html {
   pointer-events: none;
 }
 
-/* Target Reticle Overlay */
 .camera-reticle {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
   pointer-events: none;
 }
 
@@ -187,14 +213,14 @@ body, html {
 
 .camera-status-badge {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 8px;
+  left: 8px;
   background: rgba(10, 13, 20, 0.85);
   backdrop-filter: blur(8px);
   border: 1px solid var(--tape-yellow);
-  padding: 4px 10px;
-  border-radius: 12px;
-  font-size: 0.7rem;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 0.65rem;
   font-weight: 800;
   color: var(--tape-yellow);
   display: flex;
@@ -215,8 +241,8 @@ body, html {
   flex: 1;
   display: flex;
   flex-direction: column;
-  padding: 12px;
-  gap: 12px;
+  padding: 10px;
+  gap: 10px;
   overflow-y: auto;
 }
 
@@ -225,13 +251,13 @@ body, html {
   background: linear-gradient(135deg, #161e2e, #0f1523);
   border: 2px solid var(--tape-cyan);
   border-radius: var(--radius);
-  padding: 10px;
+  padding: 8px;
   text-align: center;
   box-shadow: 0 4px 16px rgba(0, 229, 255, 0.15);
 }
 
 .readout-label {
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   font-weight: 900;
   color: var(--tape-cyan);
   letter-spacing: 0.5px;
@@ -239,7 +265,7 @@ body, html {
 
 .readout-number {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 800;
   color: #ffffff;
   margin: 2px 0;
@@ -247,9 +273,16 @@ body, html {
 }
 
 .readout-unit {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: var(--tape-yellow);
   font-weight: 900;
+}
+
+.gps-coords-text {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  font-family: 'JetBrains Mono', monospace;
+  margin-top: 2px;
 }
 
 /* Giant 50m Orange Reel Button */
@@ -257,16 +290,16 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4px 0;
+  padding: 2px 0;
 }
 
 .btn-giant-reel {
-  width: 140px;
-  height: 140px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   background: linear-gradient(145deg, #ff7043, #d84315);
   border: 5px solid #ffab91;
-  box-shadow: 0 10px 28px rgba(255, 87, 34, 0.5), inset 0 3px 8px rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 24px rgba(255, 87, 34, 0.5), inset 0 3px 8px rgba(255, 255, 255, 0.4);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -280,11 +313,11 @@ body, html {
 }
 
 .reel-handle {
-  width: 110px;
-  height: 110px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   background: #000;
-  border: 4px solid var(--tape-yellow);
+  border: 3.5px solid var(--tape-yellow);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -297,16 +330,16 @@ body, html {
   gap: 2px;
   color: #fff;
   text-align: center;
-  padding: 6px;
+  padding: 4px;
 }
 
 .reel-icon {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: var(--tape-yellow);
 }
 
 .giant-btn-text {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 900;
   color: #fff;
   line-height: 1.1;
@@ -326,7 +359,7 @@ body, html {
   color: var(--text-muted);
   font-weight: 700;
   font-size: 0.75rem;
-  padding: 8px;
+  padding: 6px;
   border-radius: 6px;
   cursor: pointer;
   display: flex;
@@ -339,7 +372,7 @@ body, html {
   color: var(--tape-red);
 }
 
-/* Ledger List (Excel Notepad Preview) */
+/* Ledger List */
 .ledger-container {
   flex: 1;
   background: var(--bg-card);
@@ -348,12 +381,12 @@ body, html {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  min-height: 140px;
+  min-height: 130px;
 }
 
 .ledger-header {
   background: #182234;
-  padding: 8px 12px;
+  padding: 6px 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -361,7 +394,7 @@ body, html {
 }
 
 .ledger-header h3 {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 800;
   color: var(--tape-cyan);
   display: flex;
@@ -370,20 +403,20 @@ body, html {
 }
 
 .ledger-total {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: var(--text-muted);
 }
 
 .ledger-total strong {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: var(--tape-green);
 }
 
 .ledger-list {
   flex: 1;
   overflow-y: auto;
-  padding: 8px;
+  padding: 6px;
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -394,24 +427,24 @@ body, html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 16px;
+  padding: 12px;
   color: var(--text-dim);
   text-align: center;
 }
 
 .empty-ledger i {
-  font-size: 1.6rem;
-  margin-bottom: 6px;
+  font-size: 1.4rem;
+  margin-bottom: 4px;
   opacity: 0.5;
 }
 
 .empty-ledger p {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 700;
 }
 
 .empty-ledger span {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
   margin-top: 2px;
 }
 
@@ -419,40 +452,40 @@ body, html {
   background: var(--bg-input);
   border-left: 4px solid var(--tape-yellow);
   border-radius: 6px;
-  padding: 8px 10px;
+  padding: 6px 8px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .item-segment-name {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 800;
   color: #fff;
 }
 
 .item-segment-val {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 800;
   color: var(--tape-yellow);
 }
 
 /* Footer Export Bar */
 .express-footer {
-  height: 60px;
+  height: 56px;
   background: var(--bg-card);
   border-top: 2px solid #1e293b;
   display: flex;
-  padding: 8px 12px;
-  gap: 10px;
+  padding: 8px 10px;
+  gap: 8px;
 }
 
 .btn-export {
   flex: 1;
   border: none;
   border-radius: 8px;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 800;
   cursor: pointer;
   display: flex;

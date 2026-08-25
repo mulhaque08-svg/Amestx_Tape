@@ -1,7 +1,6 @@
 /**
- * TapeSnap Express - Surveyor GPS UTM Grid Coordinate Measurement Engine
- * Calculates physical RFT distance between GPS coordinates (Lat1, Lon1) and (Lat2, Lon2)
- * using Universal Transverse Mercator (UTM) projected grid math as used by professional land surveyors.
+ * TapeSnap Express - Dynamic Real-Time Live GPS Distance Engine
+ * Updates the screen readout in REAL-TIME (X.X RFT) as the user walks from Point A to Point B.
  */
 
 class TapeSnapApp {
@@ -15,6 +14,7 @@ class TapeSnapApp {
     this.pointB = null;
     
     this.currentGPS = null;
+    this.liveWalkRFT = 0.0;
     this.logItems = [];
     this.pointCounter = 1;
 
@@ -75,7 +75,7 @@ class TapeSnapApp {
         });
         this.cameraVideo.srcObject = stream;
         await this.cameraVideo.play();
-        this.cameraStatusText.textContent = "SURVEYOR GPS CAMERA ACTIVE";
+        this.cameraStatusText.textContent = "REAL-TIME GPS TAPE ACTIVE";
       }
     } catch (err) {
       this.cameraStatusText.textContent = "GPS SENSORS ACTIVE";
@@ -95,15 +95,26 @@ class TapeSnapApp {
         };
 
         this.gpsCoordsText.innerHTML = `<i class="fa-solid fa-location-crosshairs"></i> GPS: ${this.currentGPS.lat.toFixed(5)}, ${this.currentGPS.lng.toFixed(5)} (±${this.currentGPS.acc.toFixed(1)}m)`;
+
+        // REAL-TIME LIVE DISTANCE COMPUTATION WHILE WALKING FROM POINT A
+        if (this.currentStep === 'POINT_B' && this.pointA) {
+          const dEasting = this.currentGPS.easting - this.pointA.easting;
+          const dNorthing = this.currentGPS.northing - this.pointA.northing;
+          const distMeters = Math.sqrt(dEasting * dEasting + dNorthing * dNorthing);
+          
+          this.liveWalkRFT = distMeters * 3.28084;
+          const displayVal = this.unit === 'RFT' ? `${this.liveWalkRFT.toFixed(1)} RFT` : `${(distMeters).toFixed(1)} m`;
+          
+          this.readoutVal.innerHTML = `${displayVal}`;
+        }
       }, (err) => {
-        this.gpsCoordsText.innerHTML = `<i class="fa-solid fa-location-slash"></i> GPS: Location access denied`;
+        this.gpsCoordsText.innerHTML = `<i class="fa-solid fa-location-slash"></i> GPS: Allow Location in Safari`;
       }, { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 });
     }
   }
 
   /**
    * Convert WGS84 Lat/Lon to UTM Projected Grid Meter Coordinates (Easting, Northing)
-   * Standard algorithm used by professional surveyors and GIS software
    */
   latLonToUTM(lat, lon) {
     const a = 6378137.0; // WGS84 Major Axis
@@ -155,7 +166,6 @@ class TapeSnapApp {
       this.updateUI();
     });
 
-    // Voice Mic Button
     this.btnVoiceMic.addEventListener('click', () => {
       const input = prompt("Speak or enter distance (e.g. 3.5, 12.8):", "3.5");
       if (input !== null) {
@@ -166,7 +176,6 @@ class TapeSnapApp {
       }
     });
 
-    // Enter Number Manually
     this.btnManualInput.addEventListener('click', () => {
       const input = prompt("Enter measurement number (e.g. 3.5, 12.8):", "3.5");
       if (input !== null) {
@@ -182,6 +191,7 @@ class TapeSnapApp {
     this.btnResetCurrent.addEventListener('click', () => {
       this.currentStep = 'POINT_A';
       this.pointA = null;
+      this.liveWalkRFT = 0.0;
       this.clearCameraCanvas();
       this.updateUI();
       this.speak("Point reset");
@@ -193,6 +203,7 @@ class TapeSnapApp {
         this.pointCounter = 1;
         this.currentStep = 'POINT_A';
         this.pointA = null;
+        this.liveWalkRFT = 0.0;
         this.clearCameraCanvas();
         this.saveState();
         this.updateUI();
@@ -208,21 +219,22 @@ class TapeSnapApp {
     const ptLabel = this.getPointLetter(this.pointCounter);
 
     if (this.currentStep === 'POINT_A') {
-      // CAPTURE GPS POINT A (LAT, LON, UTM EASTING/NORTHING)
       if (!this.currentGPS) {
-        alert("Acquiring GPS location... Please allow location access.");
+        alert("Acquiring GPS location... Please ensure Location Services are allowed in Safari.");
         return;
       }
 
+      // LOCK POINT A
       this.pointA = { ...this.currentGPS, time: Date.now() };
+      this.liveWalkRFT = 0.0;
       this.currentStep = 'POINT_B';
       
       const nextLabel = this.getPointLetter(this.pointCounter + 1);
-      this.cameraStatusText.textContent = `WALK TO POINT ${nextLabel}...`;
-      this.speak(`GPS Point ${ptLabel} captured. Walk to Point ${nextLabel}`);
+      this.cameraStatusText.textContent = `WALKING TO POINT ${nextLabel}...`;
+      this.speak(`Point ${ptLabel} locked. Walk to Point ${nextLabel}`);
       this.vibrate([100]);
     } else {
-      // CAPTURE GPS POINT B & COMPUTE SURVEYOR UTM GRID DISTANCE
+      // LOCK POINT B
       if (!this.currentGPS) {
         alert("Acquiring GPS location for Point B...");
         return;
@@ -230,24 +242,20 @@ class TapeSnapApp {
 
       this.pointB = { ...this.currentGPS, time: Date.now() };
 
-      // Surveyor UTM Grid Distance Math: D = √((E2 - E1)² + (N2 - N1)²)
       const dEasting = this.pointB.easting - this.pointA.easting;
       const dNorthing = this.pointB.northing - this.pointA.northing;
       const distanceMeters = Math.sqrt(dEasting * dEasting + dNorthing * dNorthing);
-
-      // Convert Meters to RFT (1m = 3.28084 feet)
       let distanceRFT = distanceMeters * 3.28084;
 
-      // Fallback for micro-taps if standing in place
-      if (distanceRFT < 0.5) {
-        distanceRFT = 3.5;
+      if (distanceRFT < 0.2) {
+        distanceRFT = this.liveWalkRFT > 0 ? this.liveWalkRFT : 3.5;
       }
 
       const nextLabel = this.getPointLetter(this.pointCounter + 1);
       const finalValNum = this.unit === 'RFT' ? distanceRFT : (distanceRFT * 0.3048);
       const finalValStr = finalValNum.toFixed(1);
 
-      const gpsDataStr = `A: ${this.pointA.lat.toFixed(5)}, ${this.pointA.lng.toFixed(5)} | B: ${this.pointB.lat.toFixed(5)}, ${this.pointB.lng.toFixed(5)}`;
+      const gpsDataStr = `${this.pointA.lat.toFixed(5)}, ${this.pointA.lng.toFixed(5)}`;
 
       const item = {
         id: Date.now(),
@@ -266,6 +274,7 @@ class TapeSnapApp {
       this.currentStep = 'POINT_A';
       this.pointA = null;
       this.pointB = null;
+      this.liveWalkRFT = 0.0;
 
       this.saveState();
       this.speak(`${item.segmentName}: ${finalValStr} ${this.unit}`);
@@ -298,6 +307,7 @@ class TapeSnapApp {
     this.pointCounter++;
     this.currentStep = 'POINT_A';
     this.pointA = null;
+    this.liveWalkRFT = 0.0;
 
     this.saveState();
     this.speak(`${item.segmentName}: ${finalValStr} ${this.unit}`);
@@ -362,11 +372,13 @@ class TapeSnapApp {
     const nextPtLabel = this.getPointLetter(this.pointCounter + 1);
     
     if (this.currentStep === 'POINT_A') {
-      this.readoutLabel.textContent = `GPS TAP POINT ${currentPtLabel}`;
+      this.readoutLabel.textContent = `AIM & TAP POINT ${currentPtLabel}`;
       this.readoutVal.innerHTML = `0.0 <span class="readout-unit">${this.unit}</span>`;
       this.giantBtnText.textContent = `TAP POINT ${currentPtLabel}`;
     } else {
-      this.readoutLabel.textContent = `WALK & GPS TAP POINT ${nextPtLabel}`;
+      this.readoutLabel.textContent = `WALK TO POINT ${nextPtLabel}...`;
+      const displayVal = (this.liveWalkRFT * (this.unit === 'RFT' ? 1.0 : 0.3048)).toFixed(1);
+      this.readoutVal.innerHTML = `${displayVal} <span class="readout-unit">${this.unit}</span>`;
       this.giantBtnText.textContent = `TAP POINT ${nextPtLabel}`;
     }
 
@@ -388,7 +400,7 @@ class TapeSnapApp {
         const row = document.createElement('div');
         row.className = 'ledger-item';
         row.innerHTML = `
-          <span class="item-segment-name"><i class="fa-solid fa-satellite"></i> ${item.segmentName} <small style="color:#64748b; font-size:0.65rem;">(${item.gps || ''})</small></span>
+          <span class="item-segment-name"><i class="fa-solid fa-satellite"></i> ${item.segmentName}</span>
           <span class="item-segment-val">${item.val.toFixed(1)} ${item.unit}</span>
         `;
         this.ledgerList.appendChild(row);
@@ -412,7 +424,7 @@ class TapeSnapApp {
     let tot = 0;
     this.logItems.forEach((item, idx) => {
       tot += item.val;
-      text += `${idx + 1}. ${item.segmentName}: ${item.val.toFixed(1)} ${item.unit} [GPS: ${item.gps || ''}]\n`;
+      text += `${idx + 1}. ${item.segmentName}: ${item.val.toFixed(1)} ${item.unit}\n`;
     });
 
     text += `----------------------------------------\n`;

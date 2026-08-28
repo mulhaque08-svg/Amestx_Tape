@@ -1,4 +1,4 @@
-/* TapeSnap Express - Pure Point A & B Tap Measuring Tape CSS */
+/* TapeSnap Express - Restored Yesterday's Version with Giant Orange Tap Circle */
 :root {
   --bg-dark: #0a0d14;
   --bg-card: #131824;
@@ -124,7 +124,7 @@ body, html {
   cursor: pointer;
 }
 
-/* CAMERA / SATELLITE WINDOW CONTAINER */
+/* CAMERA WINDOW CONTAINER */
 .camera-window-container {
   position: relative;
   width: 100%;
@@ -140,16 +140,6 @@ body, html {
   object-fit: cover;
 }
 
-.satellite-map-stage {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  display: none;
-}
-
 #cameraCanvas {
   position: absolute;
   top: 0;
@@ -157,7 +147,6 @@ body, html {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  z-index: 2;
 }
 
 .camera-reticle {
@@ -168,7 +157,6 @@ body, html {
   width: 44px;
   height: 44px;
   pointer-events: none;
-  z-index: 3;
 }
 
 .reticle-ring {
@@ -211,7 +199,6 @@ body, html {
   display: flex;
   align-items: center;
   gap: 6px;
-  z-index: 4;
 }
 
 .badge-dot {
@@ -220,27 +207,6 @@ body, html {
   background: var(--tape-green);
   border-radius: 50%;
   box-shadow: 0 0 6px var(--tape-green);
-}
-
-.map-quick-controls {
-  position: absolute;
-  bottom: 8px;
-  right: 8px;
-  display: flex;
-  gap: 6px;
-  z-index: 4;
-}
-
-.map-ctrl-btn {
-  background: rgba(19, 24, 36, 0.9);
-  backdrop-filter: blur(8px);
-  border: 1px solid var(--tape-cyan);
-  color: var(--tape-cyan);
-  font-weight: 800;
-  font-size: 0.65rem;
-  padding: 4px 8px;
-  border-radius: 6px;
-  cursor: pointer;
 }
 
 /* Main Area */
@@ -285,7 +251,7 @@ body, html {
   font-weight: 900;
 }
 
-/* Giant 50m Orange Reel Button */
+/* GIANT ORANGE MEASURING TAPE REEL CIRCLE BUTTON */
 .giant-button-container {
   display: flex;
   justify-content: center;

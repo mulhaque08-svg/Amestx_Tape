@@ -10,9 +10,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@700;800&display=swap" rel="stylesheet">
   
-  <!-- Leaflet CSS for Satellite Map -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
-  
   <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
@@ -30,17 +27,16 @@
       </div>
       
       <div class="header-right">
-        <button id="btnVoiceToggle" class="btn-icon-toggle active" title="Voice Spoken Readout ON/OFF">
+        <button id="btnVoiceToggle" class="btn-icon-toggle active" title="Voice Readout ON/OFF">
           <i class="fa-solid fa-volume-high"></i>
         </button>
         <button id="btnUnitToggle" class="unit-pill" title="Toggle Unit">RFT (Feet)</button>
       </div>
     </header>
 
-    <!-- LIVE CAMERA / SATELLITE MAP WINDOW -->
+    <!-- LIVE CAMERA WINDOW -->
     <section class="camera-window-container">
       <video id="cameraVideo" autoplay playsinline muted></video>
-      <div id="satelliteMap" class="satellite-map-stage"></div>
       <canvas id="cameraCanvas"></canvas>
       
       <!-- Target Reticle Overlay (Apple Measure App Style) -->
@@ -49,17 +45,10 @@
         <div class="reticle-dot"></div>
       </div>
       
-      <!-- Status Badge -->
+      <!-- Camera Status Badge -->
       <div id="cameraStatusBadge" class="camera-status-badge">
         <span class="badge-dot"></span>
         <span id="cameraStatusText">AIM RETICLE AT POINT A</span>
-      </div>
-
-      <!-- Quick Map Action Controls -->
-      <div class="map-quick-controls">
-        <button id="btnLocateMe" class="map-ctrl-btn" title="Locate My GPS Position">
-          <i class="fa-solid fa-crosshairs"></i> My Location
-        </button>
       </div>
     </section>
 
@@ -71,8 +60,8 @@
         <span class="readout-label" id="readoutLabel">POINT A ➔ POINT B</span>
         <div class="readout-number" id="readoutVal">0.0 <span class="readout-unit">RFT</span></div>
       </div>
-      
-      <!-- Giant 50m Orange Measuring Tape Reel Button (Pure Tap Point A & B) -->
+
+      <!-- GIANT ORANGE MEASURING TAPE REEL CIRCLE BUTTON -->
       <div class="giant-button-container">
         <button id="btnGiantMeasure" class="btn-giant-reel">
           <div class="reel-handle">
@@ -105,7 +94,7 @@
           <div class="empty-ledger">
             <i class="fa-solid fa-clipboard-list"></i>
             <p>No measurements taken yet.</p>
-            <span>Aim reticle at Point A, tap orange button, then aim at Point B and tap again!</span>
+            <span>Aim reticle at Point A, tap giant orange button, then aim at Point B and tap again!</span>
           </div>
         </div>
       </div>
@@ -127,8 +116,6 @@
 
   </div>
 
-  <!-- Leaflet JS -->
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
   <!-- App JavaScript Module -->
   <script type="module" src="app.js"></script>
 </body>

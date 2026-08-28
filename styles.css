@@ -1,4 +1,4 @@
-/* TapeSnap Express - Simple Digital Camera & GPS Tape CSS */
+/* TapeSnap Express - Google Satellite Map Site Tape CSS */
 :root {
   --bg-dark: #0a0d14;
   --bg-card: #131824;
@@ -124,108 +124,39 @@ body, html {
   cursor: pointer;
 }
 
-/* ACCURACY MODE SWITCHER BAR */
-.accuracy-selector-bar {
-  display: flex;
-  background: var(--bg-dark);
-  border-bottom: 1px solid #1e293b;
-  padding: 2px 4px;
-}
-
-.acc-tab {
-  flex: 1;
-  border: none;
-  background: transparent;
-  color: var(--text-muted);
-  font-size: 0.65rem;
-  font-weight: 700;
-  padding: 6px 2px;
-  border-radius: 4px;
-  cursor: pointer;
-  white-space: nowrap;
-}
-
-.acc-tab.active {
-  background: var(--bg-input);
-  color: var(--tape-cyan);
-  border-bottom: 2px solid var(--tape-cyan);
-}
-
-/* CAMERA WINDOW CONTAINER */
-.camera-window-container {
+/* SATELLITE MAP WINDOW CONTAINER (Google / Esri Satellite Style) */
+.map-window-container {
   position: relative;
   width: 100%;
-  height: 180px;
+  height: 240px;
   background: #000;
   overflow: hidden;
   border-bottom: 2px solid var(--tape-cyan);
 }
 
-#cameraVideo {
+.satellite-map-stage {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  z-index: 1;
 }
 
-#cameraCanvas {
+.map-status-badge {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-}
-
-.camera-reticle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 40px;
-  height: 40px;
-  pointer-events: none;
-}
-
-.reticle-ring {
-  position: absolute;
-  inset: 0;
-  border: 2px dashed var(--tape-yellow);
-  border-radius: 50%;
-  animation: spin-reticle 10s linear infinite;
-}
-
-@keyframes spin-reticle {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-.reticle-dot {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 8px;
-  height: 8px;
-  background: var(--tape-cyan);
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  box-shadow: 0 0 10px var(--tape-cyan);
-}
-
-.camera-status-badge {
-  position: absolute;
-  top: 8px;
-  left: 8px;
-  background: rgba(10, 13, 20, 0.85);
+  top: 10px;
+  left: 10px;
+  background: rgba(10, 13, 20, 0.9);
   backdrop-filter: blur(8px);
-  border: 1px solid var(--tape-yellow);
-  padding: 3px 8px;
-  border-radius: 10px;
+  border: 1.5px solid var(--tape-yellow);
+  padding: 4px 10px;
+  border-radius: 12px;
   font-size: 0.65rem;
   font-weight: 800;
   color: var(--tape-yellow);
   display: flex;
   align-items: center;
   gap: 6px;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 .badge-dot {
@@ -234,6 +165,62 @@ body, html {
   background: var(--tape-green);
   border-radius: 50%;
   box-shadow: 0 0 6px var(--tape-green);
+}
+
+.map-quick-controls {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  gap: 6px;
+  z-index: 1000;
+}
+
+.map-ctrl-btn {
+  background: rgba(19, 24, 36, 0.9);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--tape-cyan);
+  color: var(--tape-cyan);
+  font-weight: 800;
+  font-size: 0.7rem;
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.map-ctrl-btn.btn-danger-soft {
+  border-color: var(--tape-red);
+  color: var(--tape-red);
+}
+
+/* Custom Leaflet Map Pin Markers */
+.leaflet-div-icon.custom-map-pin {
+  background: transparent;
+  border: none;
+}
+
+.map-pin-inner {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--tape-cyan);
+  border: 3px solid #000;
+  box-shadow: 0 0 14px var(--tape-cyan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 0.65rem;
+  color: #000;
+}
+
+.map-pin-inner.pin-b {
+  background: var(--tape-yellow);
+  box-shadow: 0 0 14px var(--tape-yellow);
 }
 
 /* Main Area */
@@ -278,98 +265,52 @@ body, html {
   font-weight: 900;
 }
 
-.gps-coords-text {
-  font-size: 0.65rem;
-  color: var(--text-muted);
-  font-family: 'JetBrains Mono', monospace;
-  margin-top: 2px;
-}
-
-/* Giant 50m Orange Reel Button */
-.giant-button-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2px 0;
-}
-
-.btn-giant-reel {
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  background: linear-gradient(145deg, #ff7043, #d84315);
-  border: 5px solid #ffab91;
-  box-shadow: 0 8px 24px rgba(255, 87, 34, 0.5), inset 0 3px 8px rgba(255, 255, 255, 0.4);
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-}
-
-.btn-giant-reel:active {
-  transform: scale(0.92);
-  box-shadow: 0 4px 16px rgba(255, 87, 34, 0.8);
-}
-
-.reel-handle {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: #000;
-  border: 3.5px solid var(--tape-yellow);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.reel-inner-circle {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2px;
-  color: #fff;
-  text-align: center;
-  padding: 4px;
-}
-
-.reel-icon {
-  font-size: 1.6rem;
-  color: var(--tape-yellow);
-}
-
-.giant-btn-text {
-  font-size: 0.7rem;
-  font-weight: 900;
-  color: #fff;
-  line-height: 1.1;
-  text-transform: uppercase;
-}
-
-/* Quick Actions */
-.segment-quick-actions {
+/* Quick Voice Mic & Distance Input Bar */
+.quick-input-bar {
   display: flex;
   gap: 8px;
 }
 
-.btn-sub-action {
+.btn-voice-mic {
   flex: 1;
-  background: var(--bg-card);
-  border: 1px solid #334155;
-  color: var(--text-muted);
-  font-weight: 700;
+  background: linear-gradient(135deg, #ff0055, #ff007f);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: 900;
   font-size: 0.75rem;
-  padding: 6px;
-  border-radius: 6px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 4px;
+  gap: 6px;
+  box-shadow: 0 4px 12px rgba(255, 0, 85, 0.3);
 }
 
-.btn-danger {
-  color: var(--tape-red);
+.btn-voice-mic.listening {
+  animation: pulse-mic 1s infinite alternate;
+}
+
+@keyframes pulse-mic {
+  from { transform: scale(1); box-shadow: 0 0 10px #ff0055; }
+  to { transform: scale(1.03); box-shadow: 0 0 20px #ff0055; }
+}
+
+.btn-manual-key {
+  flex: 1;
+  background: var(--bg-card);
+  border: 1.5px solid var(--tape-cyan);
+  color: var(--tape-cyan);
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: 900;
+  font-size: 0.75rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
 }
 
 /* Ledger List */
@@ -381,7 +322,7 @@ body, html {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  min-height: 130px;
+  min-height: 120px;
 }
 
 .ledger-header {

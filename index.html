@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>TapeSnap Express - Simple Digital Field Measuring Tape</title>
+  <title>TapeSnap Express - Digital Field Measuring Tape with GPS</title>
   
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,7 +34,7 @@
       </div>
     </header>
 
-    <!-- LIVE CAMERA WINDOW -->
+    <!-- LIVE CAMERA WINDOW WITH GPS COORDINATES TELEMETRY BAR -->
     <section class="camera-window-container">
       <video id="cameraVideo" autoplay playsinline muted></video>
       <canvas id="cameraCanvas"></canvas>
@@ -48,7 +48,13 @@
       <!-- Camera Status Badge -->
       <div id="cameraStatusBadge" class="camera-status-badge">
         <span class="badge-dot"></span>
-        <span id="cameraStatusText">AIM RETICLE AT POINT A</span>
+        <span id="cameraStatusText">CAMERA + GPS ACTIVE</span>
+      </div>
+
+      <!-- Live GPS Telemetry Overlay Bar -->
+      <div class="gps-telemetry-bar">
+        <i class="fa-solid fa-satellite-dish"></i>
+        <span id="gpsCoordsText">GPS: Acquiring satellite lock...</span>
       </div>
     </section>
 
@@ -94,7 +100,7 @@
           <div class="empty-ledger">
             <i class="fa-solid fa-clipboard-list"></i>
             <p>No measurements taken yet.</p>
-            <span>Aim reticle at Point A, tap giant orange button, then aim at Point B and tap again!</span>
+            <span>Aim camera reticle at Point A, tap orange button, then walk to Point B and tap again!</span>
           </div>
         </div>
       </div>

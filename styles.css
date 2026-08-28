@@ -1,4 +1,4 @@
-/* TapeSnap Express - Restored Yesterday's Version with Giant Orange Tap Circle */
+/* TapeSnap Express - Camera + Live GPS Telemetry Tape CSS */
 :root {
   --bg-dark: #0a0d14;
   --bg-card: #131824;
@@ -124,7 +124,7 @@ body, html {
   cursor: pointer;
 }
 
-/* CAMERA WINDOW CONTAINER */
+/* CAMERA WINDOW CONTAINER WITH LIVE GPS TELEMETRY */
 .camera-window-container {
   position: relative;
   width: 100%;
@@ -207,6 +207,27 @@ body, html {
   background: var(--tape-green);
   border-radius: 50%;
   box-shadow: 0 0 6px var(--tape-green);
+}
+
+/* LIVE GPS TELEMETRY OVERLAY BAR */
+.gps-telemetry-bar {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  right: 8px;
+  background: rgba(10, 13, 20, 0.9);
+  backdrop-filter: blur(8px);
+  border: 1.5px solid var(--tape-cyan);
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--tape-cyan);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 /* Main Area */

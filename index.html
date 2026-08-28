@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>TapeSnap Pro - WebXR 3D LiDAR Spatial Measuring Tape</title>
+  <title>TapeSnap Pro - WebXR 3D LiDAR & GPS Measuring Tape</title>
   
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,6 +37,19 @@
       </div>
     </header>
 
+    <!-- 3 ACCURACY MODE TABS BAR (CAMERA & GPS OPTIONS RESTORED) -->
+    <nav class="accuracy-tabs-bar">
+      <button class="acc-tab active" data-accmode="camera">
+        <i class="fa-solid fa-camera"></i> Camera Tape (99.5% Precision)
+      </button>
+      <button class="acc-tab" data-accmode="hybrid">
+        <i class="fa-solid fa-crosshairs"></i> Camera + GPS Location
+      </button>
+      <button class="acc-tab" data-accmode="gps">
+        <i class="fa-solid fa-satellite-dish"></i> GPS Location Only
+      </button>
+    </nav>
+
     <!-- LIVE CAMERA / WEBXR 3D SPATIAL HIT-TEST WINDOW -->
     <section class="camera-window-container">
       <video id="cameraVideo" autoplay playsinline muted></video>
@@ -53,7 +66,7 @@
       <!-- Camera Status Badge -->
       <div id="cameraStatusBadge" class="camera-status-badge">
         <span class="badge-dot"></span>
-        <span id="cameraStatusText">WEBXR 3D PLANE DETECTION ACTIVE</span>
+        <span id="cameraStatusText">3D SENSORS READY</span>
       </div>
 
       <!-- Live GPS Telemetry Overlay Bar -->

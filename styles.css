@@ -1,4 +1,4 @@
-/* TapeSnap Express - Camera + Live GPS Telemetry Tape CSS */
+/* TapeSnap Pro - WebXR 3D LiDAR & 2x Loupe Reticle CSS */
 :root {
   --bg-dark: #0a0d14;
   --bg-card: #131824;
@@ -124,7 +124,7 @@ body, html {
   cursor: pointer;
 }
 
-/* CAMERA WINDOW CONTAINER WITH LIVE GPS TELEMETRY */
+/* CAMERA WINDOW CONTAINER WITH WEBXR 3D CANVAS */
 .camera-window-container {
   position: relative;
   width: 100%;
@@ -140,6 +140,15 @@ body, html {
   object-fit: cover;
 }
 
+#webxrCanvasContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
 #cameraCanvas {
   position: absolute;
   top: 0;
@@ -149,22 +158,25 @@ body, html {
   pointer-events: none;
 }
 
+/* APPLE MEASURE 2X MAGNIFYING LOUPE TARGET RETICLE */
 .camera-reticle {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 44px;
-  height: 44px;
+  width: 50px;
+  height: 50px;
   pointer-events: none;
+  z-index: 5;
 }
 
 .reticle-ring {
   position: absolute;
   inset: 0;
-  border: 2px dashed var(--tape-yellow);
+  border: 2.5px dashed var(--tape-yellow);
   border-radius: 50%;
   animation: spin-reticle 10s linear infinite;
+  box-shadow: 0 0 12px rgba(255, 193, 7, 0.4);
 }
 
 @keyframes spin-reticle {
@@ -184,6 +196,20 @@ body, html {
   box-shadow: 0 0 10px var(--tape-cyan);
 }
 
+.reticle-loupe-label {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(10, 13, 20, 0.9);
+  border: 1px solid var(--tape-green);
+  color: var(--tape-green);
+  font-size: 0.55rem;
+  font-weight: 900;
+  padding: 1px 4px;
+  border-radius: 4px;
+}
+
 .camera-status-badge {
   position: absolute;
   top: 8px;
@@ -199,6 +225,7 @@ body, html {
   display: flex;
   align-items: center;
   gap: 6px;
+  z-index: 6;
 }
 
 .badge-dot {
@@ -228,6 +255,7 @@ body, html {
   align-items: center;
   gap: 6px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  z-index: 6;
 }
 
 /* Main Area */

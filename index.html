@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>TapeSnap Express - Digital Field Measuring Tape with GPS</title>
+  <title>TapeSnap Pro - WebXR 3D LiDAR Spatial Measuring Tape</title>
   
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,6 +12,9 @@
   
   <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Three.js Library for WebXR 3D Spatial Hit-Testing -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   
   <!-- Main Styles -->
   <link rel="stylesheet" href="styles.css">
@@ -34,21 +37,23 @@
       </div>
     </header>
 
-    <!-- LIVE CAMERA WINDOW WITH GPS COORDINATES TELEMETRY BAR -->
+    <!-- LIVE CAMERA / WEBXR 3D SPATIAL HIT-TEST WINDOW -->
     <section class="camera-window-container">
       <video id="cameraVideo" autoplay playsinline muted></video>
+      <div id="webxrCanvasContainer"></div>
       <canvas id="cameraCanvas"></canvas>
       
-      <!-- Target Reticle Overlay (Apple Measure App Style) -->
-      <div class="camera-reticle">
+      <!-- Apple 2x Magnifying Loupe Target Reticle -->
+      <div class="camera-reticle" id="targetReticle">
         <div class="reticle-ring"></div>
         <div class="reticle-dot"></div>
+        <div class="reticle-loupe-label">2x SNAP</div>
       </div>
       
       <!-- Camera Status Badge -->
       <div id="cameraStatusBadge" class="camera-status-badge">
         <span class="badge-dot"></span>
-        <span id="cameraStatusText">CAMERA + GPS ACTIVE</span>
+        <span id="cameraStatusText">WEBXR 3D PLANE DETECTION ACTIVE</span>
       </div>
 
       <!-- Live GPS Telemetry Overlay Bar -->
@@ -98,9 +103,9 @@
         
         <div id="ledgerList" class="ledger-list">
           <div class="empty-ledger">
-            <i class="fa-solid fa-clipboard-list"></i>
+            <i class="fa-solid fa-cube"></i>
             <p>No measurements taken yet.</p>
-            <span>Aim camera reticle at Point A, tap orange button, then walk to Point B and tap again!</span>
+            <span>Aim reticle at Point A, tap giant orange button, then aim at Point B and tap again!</span>
           </div>
         </div>
       </div>

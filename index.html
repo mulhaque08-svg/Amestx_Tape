@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>TapeSnap Express - Google Satellite Map Site Measuring Tape</title>
+  <title>TapeSnap Express - Simple Digital Field Measuring Tape</title>
   
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@700;800&display=swap" rel="stylesheet">
   
-  <!-- Leaflet CSS for Google/Esri High-Res Satellite Map -->
+  <!-- Leaflet CSS for Satellite Map -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
   
   <!-- FontAwesome Icons -->
@@ -30,30 +30,35 @@
       </div>
       
       <div class="header-right">
-        <button id="btnVoiceToggle" class="btn-icon-toggle active" title="Voice Readout ON/OFF">
+        <button id="btnVoiceToggle" class="btn-icon-toggle active" title="Voice Spoken Readout ON/OFF">
           <i class="fa-solid fa-volume-high"></i>
         </button>
         <button id="btnUnitToggle" class="unit-pill" title="Toggle Unit">RFT (Feet)</button>
       </div>
     </header>
 
-    <!-- SATELLITE MAP WINDOW (Google / Esri Satellite Distance Measurement Technique) -->
-    <section class="map-window-container">
+    <!-- LIVE CAMERA / SATELLITE MAP WINDOW -->
+    <section class="camera-window-container">
+      <video id="cameraVideo" autoplay playsinline muted></video>
       <div id="satelliteMap" class="satellite-map-stage"></div>
+      <canvas id="cameraCanvas"></canvas>
       
-      <!-- Live Map Status Overlay Badge -->
-      <div class="map-status-badge">
+      <!-- Target Reticle Overlay (Apple Measure App Style) -->
+      <div class="camera-reticle">
+        <div class="reticle-ring"></div>
+        <div class="reticle-dot"></div>
+      </div>
+      
+      <!-- Status Badge -->
+      <div id="cameraStatusBadge" class="camera-status-badge">
         <span class="badge-dot"></span>
-        <span id="mapStatusText">TAP SATELLITE MAP TO DROP POINT A</span>
+        <span id="cameraStatusText">AIM RETICLE AT POINT A</span>
       </div>
 
       <!-- Quick Map Action Controls -->
       <div class="map-quick-controls">
-        <button id="btnLocateMe" class="map-ctrl-btn" title="Locate My Current GPS Position">
+        <button id="btnLocateMe" class="map-ctrl-btn" title="Locate My GPS Position">
           <i class="fa-solid fa-crosshairs"></i> My Location
-        </button>
-        <button id="btnClearMapPins" class="map-ctrl-btn btn-danger-soft" title="Clear Map Pins">
-          <i class="fa-solid fa-arrow-rotate-left"></i> Reset Pins
         </button>
       </div>
     </section>
@@ -66,17 +71,26 @@
         <span class="readout-label" id="readoutLabel">POINT A ➔ POINT B</span>
         <div class="readout-number" id="readoutVal">0.0 <span class="readout-unit">RFT</span></div>
       </div>
-
-      <!-- Quick Voice Mic & Distance Input Bar -->
-      <div class="quick-input-bar">
-        <button id="btnVoiceMic" class="btn-voice-mic" title="Speak Distance Out Loud">
-          <i class="fa-solid fa-microphone"></i>
-          <span>SPEAK DISTANCE</span>
+      
+      <!-- Giant 50m Orange Measuring Tape Reel Button (Pure Tap Point A & B) -->
+      <div class="giant-button-container">
+        <button id="btnGiantMeasure" class="btn-giant-reel">
+          <div class="reel-handle">
+            <div class="reel-inner-circle">
+              <i class="fa-solid fa-tape reel-icon"></i>
+              <span id="giantBtnText" class="giant-btn-text">TAP POINT A</span>
+            </div>
+          </div>
         </button>
+      </div>
 
-        <button id="btnManualInput" class="btn-manual-key" title="Enter Number Manually">
-          <i class="fa-solid fa-keyboard"></i>
-          <span>ENTER NUMBER</span>
+      <!-- Quick Actions -->
+      <div class="segment-quick-actions">
+        <button id="btnResetCurrent" class="btn-sub-action">
+          <i class="fa-solid fa-rotate-left"></i> Reset Point
+        </button>
+        <button id="btnClearAll" class="btn-sub-action btn-danger">
+          <i class="fa-solid fa-trash"></i> Clear All
         </button>
       </div>
 
@@ -89,9 +103,9 @@
         
         <div id="ledgerList" class="ledger-list">
           <div class="empty-ledger">
-            <i class="fa-solid fa-map-location-dot"></i>
+            <i class="fa-solid fa-clipboard-list"></i>
             <p>No measurements taken yet.</p>
-            <span>Tap satellite map to drop Point A & Point B, or speak distance to log into Excel!</span>
+            <span>Aim reticle at Point A, tap orange button, then aim at Point B and tap again!</span>
           </div>
         </div>
       </div>
@@ -113,7 +127,7 @@
 
   </div>
 
-  <!-- Leaflet JS for Satellite Map Measurement -->
+  <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
   <!-- App JavaScript Module -->
   <script type="module" src="app.js"></script>

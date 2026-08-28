@@ -1,140 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Measurement Tool</title>
-    <style>
-        body { margin: 0; font-family: sans-serif; background: #1a1a1a; color: #fff; text-align: center; }
-        .mode-toggle { display: flex; justify-content: center; gap: 10px; padding: 15px; background: #2a2a2a; }
-        button { padding: 10px 16px; border: none; border-radius: 6px; font-weight: bold; cursor: pointer; }
-        .active-btn { background: #ffcc00; color: #000; }
-        .inactive-btn { background: #444; color: #fff; }
-        .container { padding: 20px; }
-        .readout { font-size: 1.5rem; margin: 20px 0; color: #00ffcc; font-weight: bold; }
-        video { width: 100%; max-width: 500px; border-radius: 8px; transform: scaleX(1); }
-        .action-btn { background: #00ffcc; color: #000; font-size: 1.1rem; margin: 5px; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>TapeSnap Express - Simple Digital Field Measuring Tape</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="express-app">
+    
+    <!-- Top Site Bar -->
+    <header class="express-header">
+      <div class="site-input-group">
+        <label for="siteNameInput"><i class="fa-solid fa-location-dot"></i> SITE:</label>
+        <input type="text" id="siteNameInput" value="Site AX" placeholder="Site Name...">
+      </div>
+      
+      <div class="header-right">
+        <button id="btnVoiceToggle" class="btn-icon-toggle active" title="Voice Readout ON/OFF">
+          <i class="fa-solid fa-volume-high"></i>
+        </button>
+        <button id="btnUnitToggle" class="unit-pill" title="Toggle Unit">RFT (Feet)</button>
+      </div>
+    </header>
 
-    <div class="mode-toggle">
-        <button id="indoorBtn" class="active-btn" onclick="setMode('indoor')">Indoor (Camera AR)</button>
-        <button id="outdoorBtn" class="inactive-btn" onclick="setMode('outdoor')">Outdoor (GPS)</button>
-    </div>
+    <!-- LIVE CAMERA WINDOW -->
+    <section class="camera-window-container">
+      <video id="cameraVideo" autoplay playsinline muted></video>
+      <canvas id="cameraCanvas"></canvas>
+      
+      <!-- Target Reticle Overlay (Apple Measure App Style) -->
+      <div class="camera-reticle">
+        <div class="reticle-ring"></div>
+        <div class="reticle-dot"></div>
+      </div>
+      
+      <!-- Camera Status Badge -->
+      <div id="cameraStatusBadge" class="camera-status-badge">
+        <span class="badge-dot"></span>
+        <span id="cameraStatusText">AIM RETICLE AT POINT A</span>
+      </div>
+    </section>
 
-    <!-- INDOOR CAMERA SECTION -->
-    <div id="indoorSection" class="container">
-        <h3>Indoor Optical Mode</h3>
-        <p>Point at surface/corners. Use reference target for precision.</p>
-        <video id="cameraFeed" autoplay playsinline></video>
-        <div class="readout" id="indoorReadout">Ready for Camera Target</div>
-    </div>
+    <!-- Main Measuring Stage -->
+    <main class="express-main">
+      
+      <!-- Current Live Segment Display -->
+      <div class="live-readout-card">
+        <span class="readout-label" id="readoutLabel">POINT A ➔ POINT B</span>
+        <div class="readout-number" id="readoutVal">0.0 <span class="readout-unit">RFT</span></div>
+      </div>
 
-    <!-- OUTDOOR GPS SECTION -->
-    <div id="outdoorSection" class="container" style="display: none;">
-        <h3>Outdoor Site GPS Mode</h3>
-        <p>Stand at Point A, record it, then walk to Point B.</p>
-        <button class="action-btn" onclick="recordPointA()">Set Point A (Start)</button>
-        <button class="action-btn" onclick="recordPointB()">Set Point B (End)</button>
-        <div class="readout" id="outdoorReadout">Distance: 0.00 ft</div>
-        <p id="gpsStatus">Accuracy: Waiting...</p>
-    </div>
+      <!-- GIANT ORANGE MEASURING TAPE REEL CIRCLE BUTTON -->
+      <div class="giant-button-container">
+        <button id="btnGiantMeasure" class="btn-giant-reel">
+          <div class="reel-handle">
+            <div class="reel-inner-circle">
+              <i class="fa-solid fa-tape reel-icon"></i>
+              <span id="giantBtnText" class="giant-btn-text">TAP POINT A</span>
+            </div>
+          </div>
+        </button>
+      </div>
 
-    <script>
-        let currentMode = 'indoor';
-        let stream = null;
-        let pointA = null;
-        let pointB = null;
+      <!-- Quick Actions -->
+      <div class="segment-quick-actions">
+        <button id="btnResetCurrent" class="btn-sub-action">
+          <i class="fa-solid fa-rotate-left"></i> Reset Point
+        </button>
+        <button id="btnClearAll" class="btn-sub-action btn-danger">
+          <i class="fa-solid fa-trash"></i> Clear All
+        </button>
+      </div>
 
-        function setMode(mode) {
-            currentMode = mode;
-            if (mode === 'indoor') {
-                document.getElementById('indoorSection').style.display = 'block';
-                document.getElementById('outdoorSection').style.display = 'none';
-                document.getElementById('indoorBtn').className = 'active-btn';
-                document.getElementById('outdoorBtn').className = 'inactive-btn';
-                startCamera();
-            } else {
-                document.getElementById('indoorSection').style.display = 'none';
-                document.getElementById('outdoorSection').style.display = 'block';
-                document.getElementById('outdoorBtn').className = 'active-btn';
-                document.getElementById('indoorBtn').className = 'inactive-btn';
-                stopCamera();
-            }
-        }
+      <!-- Measurements Tally Ledger (Excel Notepad Preview) -->
+      <div class="ledger-container">
+        <div class="ledger-header">
+          <h3><i class="fa-solid fa-list-ol"></i> Site Log (<span id="logCount">0</span>)</h3>
+          <div class="ledger-total">TOTAL: <strong id="totalTallyVal">0.0 RFT</strong></div>
+        </div>
+        
+        <div id="ledgerList" class="ledger-list">
+          <div class="empty-ledger">
+            <i class="fa-solid fa-clipboard-list"></i>
+            <p>No measurements taken yet.</p>
+            <span>Aim reticle at Point A, tap giant orange button, then aim at Point B and tap again!</span>
+          </div>
+        </div>
+      </div>
 
-        // Camera Management
-        async function startCamera() {
-            try {
-                stream = await navigator.mediaDevices.getUserMedia({
-                    video: { facingMode: { ideal: "environment" } },
-                    audio: false
-                });
-                document.getElementById('cameraFeed').srcObject = stream;
-            } catch (err) {
-                document.getElementById('indoorReadout').innerText = "Camera access denied or unavailable";
-            }
-        }
+    </main>
 
-        function stopCamera() {
-            if (stream) {
-                stream.getTracks().forEach(track => track.stop());
-                stream = null;
-            }
-        }
+    <!-- Bottom Office Export Bar -->
+    <footer class="express-footer">
+      <button id="btnExportNotepad" class="btn-export btn-notepad">
+        <i class="fa-solid fa-copy"></i>
+        <span>Copy for Notepad / WhatsApp</span>
+      </button>
+      
+      <button id="btnExportExcel" class="btn-export btn-excel">
+        <i class="fa-solid fa-file-excel"></i>
+        <span>Save Excel Sheet (.CSV)</span>
+      </button>
+    </footer>
 
-        // GPS Math (Haversine Formula)
-        function calculateHaversine(lat1, lon1, lat2, lon2) {
-            const R = 20902231; // Earth radius in feet
-            const toRad = deg => (deg * Math.PI) / 180;
-            const dLat = toRad(lat2 - lat1);
-            const dLon = toRad(lon2 - lon1);
+  </div>
 
-            const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-                      Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) *
-                      Math.sin(dLon / 2) * Math.sin(dLon / 2);
-
-            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-            return (R * c).toFixed(2); // returns distance in feet
-        }
-
-        function getGPSPosition() {
-            return new Promise((resolve, reject) => {
-                navigator.geolocation.getCurrentPosition(
-                    pos => resolve(pos.coords),
-                    err => reject(err),
-                    { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
-                );
-            });
-        }
-
-        async function recordPointA() {
-            try {
-                pointA = await getGPSPosition();
-                document.getElementById('gpsStatus').innerText = `Point A Locked (±${(pointA.accuracy * 3.28).toFixed(1)} ft)`;
-            } catch (e) {
-                alert("GPS Error: Enable location services.");
-            }
-        }
-
-        async function recordPointB() {
-            if (!pointA) {
-                alert("Please set Point A first!");
-                return;
-            }
-            try {
-                pointB = await getGPSPosition();
-                const distFeet = calculateHaversine(pointA.latitude, pointA.longitude, pointB.latitude, pointB.longitude);
-                document.getElementById('outdoorReadout').innerText = `Distance: ${distFeet} ft`;
-                document.getElementById('gpsStatus').innerText = `Point B Locked (±${(pointB.accuracy * 3.28).toFixed(1)} ft)`;
-            } catch (e) {
-                alert("GPS Error: Enable location services.");
-            }
-        }
-
-        // Start indoor mode by default on page load
-        startCamera();
-    </script>
+  <!-- App JavaScript Module -->
+  <script type="module" src="app.js"></script>
 </body>
 </html>

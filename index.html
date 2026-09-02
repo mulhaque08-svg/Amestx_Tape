@@ -313,27 +313,62 @@
       instruction.innerText = "Cleared. Tap screen to drop Point A";
     }
 
-    // Export to Excel / CSV
+   // Export to Excel (CSV) - Clean Row-by-Row Layout
     function exportToCSV() {
       if (segments.length === 0) {
         alert("Please record at least 2 points first.");
         return;
       }
 
-      let csv = "Segment,From,To,Length (Ft & In),Length (Feet Decimal),Length (Meters)\n";
+      // Header row
+      let rows = [
+        ["Segment", "From", "To", "Feet", "Inches", "Total Feet (Dec)", "Meters"]
+      ];
+
       let totalMeters = 0;
 
       segments.forEach(s => {
-        csv += `"${s.from} to ${s.to}",${s.from},${s.to},"${s.formatted}",${s.feetDecimal},${s.meters.toFixed(3)}\n`;
+        const totalInches = s.meters * 39.3701;
+        const ft = Math.floor(totalInches / 12);
+        const inc = Math.round(totalInches % 12);
+
+        rows.push([
+          `${s.from} to ${s.to}`,
+          s.from,
+          s.to,
+          `${ft} ft`,
+          `${inc} in`,
+          s.feetDecimal,
+          s.meters.toFixed(3)
+        ]);
+
         totalMeters += s.meters;
       });
 
-      const totalFeet = (totalMeters * 3.28084).toFixed(2);
-      csv += `TOTAL,-,-,-,${totalFeet},${totalMeters.toFixed(3)}\n`;
+      // Calculate totals
+      const totalInches = totalMeters * 39.3701;
+      const totFt = Math.floor(totalInches / 12);
+      const totInc = Math.round(totalInches % 12);
+      const totalFeetDec = (totalMeters * 3.28084).toFixed(2);
 
-      downloadFile(csv, "site-measurement.csv", "text/csv");
+      // Total summary row
+      rows.push([
+        "TOTAL",
+        "-",
+        "-",
+        `${totFt} ft`,
+        `${totInc} in`,
+        totalFeetDec,
+        totalMeters.toFixed(3)
+      ]);
+
+      // Convert array to standard RFC-4180 CSV format
+      const csvContent = "\uFEFF" + rows.map(row => 
+        row.map(cell => `"${String(cell).replace(/"/g, '""')}"`).join(",")
+      ).join("\r\n");
+
+      downloadFile(csvContent, "site-measurement.csv", "text/csv;charset=utf-8;");
     }
-
     // Export to Notepad (.txt)
     function exportToNotepad() {
       if (segments.length === 0) {

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-  <title>AR Digital Tape Measure</title>
+  <title>USA Amtech AR Site Measure</title>
   <style>
     body {
       margin: 0;
@@ -23,82 +23,131 @@
       justify-content: space-between;
       align-items: center;
       box-sizing: border-box;
-      padding: 24px 16px;
+      padding: 20px 16px;
       z-index: 10;
+    }
+    .top-bar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
     }
     .status-card {
       background: rgba(0, 0, 0, 0.75);
       backdrop-filter: blur(10px);
-      padding: 12px 20px;
-      border-radius: 24px;
+      padding: 10px 18px;
+      border-radius: 20px;
       border: 1px solid rgba(255, 255, 255, 0.15);
       color: #fff;
-      font-size: 15px;
-      font-weight: 500;
+      font-size: 14px;
       text-align: center;
       max-width: 90%;
     }
     .readout-card {
-      background: rgba(18, 18, 18, 0.85);
+      background: rgba(18, 18, 18, 0.88);
       backdrop-filter: blur(12px);
       border: 1px solid #00e5ff;
       border-radius: 16px;
-      padding: 16px 28px;
+      padding: 12px 20px;
       text-align: center;
       color: #fff;
       display: none;
-      box-shadow: 0 8px 32px rgba(0, 229, 255, 0.2);
+      box-shadow: 0 8px 30px rgba(0, 229, 255, 0.25);
+      max-width: 90%;
+      width: 300px;
+    }
+    .total-title {
+      font-size: 0.8rem;
+      color: #aaa;
+      text-transform: uppercase;
+      letter-spacing: 1px;
     }
     .readout-val {
       font-size: 2rem;
       font-weight: 700;
       color: #00e5ff;
-      letter-spacing: 0.5px;
     }
     .readout-sub {
-      font-size: 0.9rem;
-      color: #aaa;
-      margin-top: 4px;
+      font-size: 0.85rem;
+      color: #ccc;
     }
-    .action-controls {
+    .segment-log {
+      max-height: 80px;
+      overflow-y: auto;
+      font-size: 0.75rem;
+      color: #bbb;
+      margin-top: 8px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 6px;
+      text-align: left;
+    }
+    .bottom-controls {
       display: flex;
-      gap: 12px;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
       pointer-events: auto;
-      margin-bottom: 12px;
+      margin-bottom: 16px;
+    }
+    .btn-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: center;
     }
     button {
       background: #00e5ff;
       color: #000;
       font-weight: 700;
       border: none;
-      padding: 14px 24px;
-      font-size: 1rem;
-      border-radius: 30px;
+      padding: 12px 20px;
+      font-size: 0.9rem;
+      border-radius: 25px;
       cursor: pointer;
-      box-shadow: 0 4px 14px rgba(0, 229, 255, 0.4);
+      box-shadow: 0 4px 14px rgba(0, 229, 255, 0.35);
     }
     button.secondary {
       background: rgba(255, 255, 255, 0.2);
       color: #fff;
       box-shadow: none;
     }
+    button.export-btn {
+      background: #28a745;
+      color: #fff;
+      box-shadow: none;
+    }
+    button.notepad-btn {
+      background: #ffc107;
+      color: #000;
+      box-shadow: none;
+    }
   </style>
 
-  <!-- Import Three.js & WebXR Polyfills -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
 <body>
 
   <div id="ui-container">
-    <div class="status-card" id="instruction">Point camera at floor or wall to detect surface</div>
-    
-    <div class="readout-card" id="readoutCard">
-      <div class="readout-val" id="distanceReadout">0' 0"</div>
-      <div class="readout-sub" id="metricReadout">0.00 m</div>
+    <div class="top-bar">
+      <div class="status-card" id="instruction">Point camera at the ground or surface</div>
+      
+      <div class="readout-card" id="readoutCard">
+        <div class="total-title">Total Distance (A &rarr; Last Point)</div>
+        <div class="readout-val" id="totalReadout">0' 0"</div>
+        <div class="readout-sub" id="metricReadout">0.00 m</div>
+        <div class="segment-log" id="segmentLog"></div>
+      </div>
     </div>
 
-    <div class="action-controls">
-      <button id="resetBtn" class="secondary" style="display:none;" onclick="resetMeasurement()">Clear</button>
+    <div class="bottom-controls">
+      <div class="btn-row" id="exportControls" style="display:none;">
+        <button class="export-btn" onclick="exportToCSV()">Export Excel (CSV)</button>
+        <button class="notepad-btn" onclick="exportToNotepad()">Export Notepad (.txt)</button>
+        <button class="secondary" onclick="resetMeasurement()">Clear</button>
+      </div>
+
       <button id="arBtn">Enter AR Measure</button>
     </div>
   </div>
@@ -111,13 +160,17 @@
 
     let reticle;
     let points = [];
-    let measurementLine = null;
+    let segments = [];
+    let lineMeshes = [];
+
+    const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     const instruction = document.getElementById('instruction');
     const readoutCard = document.getElementById('readoutCard');
-    const distanceReadout = document.getElementById('distanceReadout');
+    const totalReadout = document.getElementById('totalReadout');
     const metricReadout = document.getElementById('metricReadout');
-    const resetBtn = document.getElementById('resetBtn');
+    const segmentLog = document.getElementById('segmentLog');
+    const exportControls = document.getElementById('exportControls');
     const arBtn = document.getElementById('arBtn');
 
     init();
@@ -135,7 +188,7 @@
       renderer.xr.enabled = true;
       document.body.appendChild(renderer.domElement);
 
-      // Create Ring Reticle to show locked surface plane
+      // Tracking Reticle Ring
       const ringGeo = new THREE.RingGeometry(0.04, 0.05, 32).rotateX(-Math.PI / 2);
       const ringMat = new THREE.MeshBasicMaterial({ color: 0x00e5ff });
       reticle = new THREE.Mesh(ringGeo, ringMat);
@@ -143,19 +196,18 @@
       reticle.visible = false;
       scene.add(reticle);
 
-      // Check WebXR AR Support
       if ('xr' in navigator) {
         navigator.xr.isSessionSupported('immersive-ar').then((supported) => {
           if (supported) {
             arBtn.addEventListener('click', startAR);
           } else {
             arBtn.innerText = "WebXR Not Supported";
-            instruction.innerText = "AR requires Android Chrome (ARCore) or WebXR Viewer on iOS";
+            instruction.innerText = "Please open this URL inside Mozilla WebXR Viewer";
           }
         });
       } else {
         arBtn.innerText = "WebXR Unavailable";
-        instruction.innerText = "Open via HTTPS on a mobile device";
+        instruction.innerText = "Please open this URL inside Mozilla WebXR Viewer";
       }
 
       window.addEventListener('resize', onWindowResize, false);
@@ -172,8 +224,8 @@
       await renderer.xr.setSession(session);
 
       arBtn.style.display = 'none';
-      resetBtn.style.display = 'inline-block';
-      instruction.innerText = "Scan flat ground. Tap screen to drop Point A";
+      exportControls.style.display = 'flex';
+      instruction.innerText = "Tap screen to drop Point A";
 
       session.addEventListener('select', onSelect);
       renderer.setAnimationLoop(render);
@@ -182,57 +234,146 @@
     function onSelect() {
       if (!reticle.visible) return;
 
-      if (points.length >= 2) {
-        resetMeasurement();
-      }
-
-      // Extract current reticle position
       const pos = new THREE.Vector3();
       pos.setFromMatrixPosition(reticle.matrix);
 
-      // Create a 3D Marker Dot
+      const ptIndex = points.length;
+      const ptLabel = alphabet[ptIndex % alphabet.length];
+
+      // Draw Marker Sphere
       const dotGeo = new THREE.SphereGeometry(0.015, 16, 16);
       const dotMat = new THREE.MeshBasicMaterial({ color: 0xff0055 });
       const dot = new THREE.Mesh(dotGeo, dotMat);
       dot.position.copy(pos);
       scene.add(dot);
-      points.push({ mesh: dot, coord: pos });
 
-      if (points.length === 1) {
-        instruction.innerText = "Point A set! Move to Point B and tap";
-      } else if (points.length === 2) {
-        drawLineAndMeasure(points[0].coord, points[1].coord);
-        instruction.innerText = "Measurement complete!";
+      points.push({ label: ptLabel, mesh: dot, coord: pos });
+
+      // Connect with line if we have 2 or more points
+      if (points.length > 1) {
+        const prevPoint = points[points.length - 2];
+        const currentPoint = points[points.length - 1];
+
+        // Draw connecting line
+        const lineMat = new THREE.LineBasicMaterial({ color: 0x00e5ff, linewidth: 3 });
+        const lineGeo = new THREE.BufferGeometry().setFromPoints([prevPoint.coord, currentPoint.coord]);
+        const line = new THREE.Line(lineGeo, lineMat);
+        scene.add(line);
+        lineMeshes.push(line);
+
+        // Segment calculation
+        const distMeters = prevPoint.coord.distanceTo(currentPoint.coord);
+        const distFt = distMeters * 3.28084;
+        const totalInches = distMeters * 39.3701;
+        const ft = Math.floor(totalInches / 12);
+        const inches = Math.round(totalInches % 12);
+
+        segments.push({
+          from: prevPoint.label,
+          to: currentPoint.label,
+          meters: distMeters,
+          formatted: `${ft}' ${inches}"`,
+          feetDecimal: distFt.toFixed(2)
+        });
+
+        updateTotals();
+        instruction.innerText = `Point ${currentPoint.label} placed! Tap to drop next point`;
+      } else {
+        instruction.innerText = "Point A placed! Tap to drop Point B";
       }
     }
 
-    function drawLineAndMeasure(p1, p2) {
-      // 3D Connecting Line
-      const material = new THREE.LineBasicMaterial({ color: 0x00e5ff, linewidth: 3 });
-      const geometry = new THREE.BufferGeometry().setFromPoints([p1, p2]);
-      measurementLine = new THREE.Line(geometry, material);
-      scene.add(measurementLine);
+    function updateTotals() {
+      let totalMeters = 0;
+      let logHtml = "";
 
-      // Euclidean Distance Calculation
-      const distMeters = p1.distanceTo(p2);
-      const totalInches = distMeters * 39.3701;
+      segments.forEach(s => {
+        totalMeters += s.meters;
+        logHtml += `<div>${s.from} &rarr; ${s.to}: <strong>${s.formatted}</strong> (${s.feetDecimal} ft)</div>`;
+      });
+
+      const totalInches = totalMeters * 39.3701;
       const feet = Math.floor(totalInches / 12);
       const inches = Math.round(totalInches % 12);
 
-      distanceReadout.innerText = `${feet}' ${inches}"`;
-      metricReadout.innerText = `${distMeters.toFixed(3)} m (${totalInches.toFixed(1)} in)`;
+      totalReadout.innerText = `${feet}' ${inches}"`;
+      metricReadout.innerText = `${(totalMeters * 3.28084).toFixed(2)} ft | ${totalMeters.toFixed(2)} m`;
+      segmentLog.innerHTML = logHtml;
       readoutCard.style.display = 'block';
     }
 
     function resetMeasurement() {
       points.forEach(p => scene.remove(p.mesh));
+      lineMeshes.forEach(l => scene.remove(l));
       points = [];
-      if (measurementLine) {
-        scene.remove(measurementLine);
-        measurementLine = null;
-      }
+      segments = [];
+      lineMeshes = [];
       readoutCard.style.display = 'none';
-      instruction.innerText = "Tap screen to drop Point A";
+      segmentLog.innerHTML = '';
+      instruction.innerText = "Cleared. Tap screen to drop Point A";
+    }
+
+    // Export to Excel / CSV
+    function exportToCSV() {
+      if (segments.length === 0) {
+        alert("Please record at least 2 points first.");
+        return;
+      }
+
+      let csv = "Segment,From,To,Length (Ft & In),Length (Feet Decimal),Length (Meters)\n";
+      let totalMeters = 0;
+
+      segments.forEach(s => {
+        csv += `"${s.from} to ${s.to}",${s.from},${s.to},"${s.formatted}",${s.feetDecimal},${s.meters.toFixed(3)}\n`;
+        totalMeters += s.meters;
+      });
+
+      const totalFeet = (totalMeters * 3.28084).toFixed(2);
+      csv += `TOTAL,-,-,-,${totalFeet},${totalMeters.toFixed(3)}\n`;
+
+      downloadFile(csv, "site-measurement.csv", "text/csv");
+    }
+
+    // Export to Notepad (.txt)
+    function exportToNotepad() {
+      if (segments.length === 0) {
+        alert("Please record at least 2 points first.");
+        return;
+      }
+
+      let txt = "========================================\n";
+      txt += "       USA AMTECH SITE MEASUREMENTS      \n";
+      txt += "========================================\n\n";
+
+      let totalMeters = 0;
+      segments.forEach((s, idx) => {
+        txt += `Segment ${idx + 1} (${s.from} -> ${s.to}): ${s.formatted} (${s.feetDecimal} ft / ${s.meters.toFixed(3)} m)\n`;
+        totalMeters += s.meters;
+      });
+
+      const totalInches = totalMeters * 39.3701;
+      const ft = Math.floor(totalInches / 12);
+      const inches = Math.round(totalInches % 12);
+      const totalFeet = (totalMeters * 3.28084).toFixed(2);
+
+      txt += "\n----------------------------------------\n";
+      txt += `TOTAL RUN: ${ft}' ${inches}" (${totalFeet} ft / ${totalMeters.toFixed(2)} m)\n`;
+      txt += "----------------------------------------\n";
+      txt += `Date: ${new Date().toLocaleString()}\n`;
+
+      downloadFile(txt, "site-measurement.txt", "text/plain");
+    }
+
+    function downloadFile(content, fileName, mimeType) {
+      const blob = new Blob([content], { type: mimeType });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = fileName;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
     }
 
     function render(timestamp, frame) {
@@ -240,16 +381,14 @@
         const session = renderer.xr.getSession();
 
         if (!hitTestSourceRequested) {
-          session.requestReferenceSpace('viewer').then((referenceSpace) => {
-            session.requestHitTestSource({ space: referenceSpace }).then((source) => {
+          session.requestReferenceSpace('viewer').then((refSpace) => {
+            session.requestHitTestSource({ space: refSpace }).then((source) => {
               hitTestSource = source;
             });
           });
-
           session.requestReferenceSpace('local').then((space) => {
             xrRefSpace = space;
           });
-
           hitTestSourceRequested = true;
         }
 
@@ -258,7 +397,6 @@
           if (hitTestResults.length > 0) {
             const hit = hitTestResults[0];
             const pose = hit.getPose(xrRefSpace);
-
             reticle.visible = true;
             reticle.matrix.fromArray(pose.transform.matrix);
           } else {
@@ -266,7 +404,6 @@
           }
         }
       }
-
       renderer.render(scene, camera);
     }
 

@@ -1384,24 +1384,95 @@
 
         function downloadBidTabExcelCurrent() {
             if (!currentCSJ) return;
-            const url = `/api/export-excel?csj=${encodeURIComponent(currentCSJ)}`;
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = `CSJ_${currentCSJ}_Bid_Tabulation.xlsx`;
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
+            fetch(`/api/export-excel?csj=${encodeURIComponent(currentCSJ)}`)
+                .then(res => {
+                    if (res.ok && !res.headers.get('content-type')?.includes('text/html')) {
+                        return res.blob().then(blob => {
+                            const a = document.createElement('a');
+                            a.href = URL.createObjectURL(blob);
+                            a.download = `CSJ_${currentCSJ}_Bid_Tabulation.xlsx`;
+                            document.body.appendChild(a);
+                            a.click();
+                            document.body.removeChild(a);
+                        });
+                    } else {
+                        throw new Error("Static host fallback");
+                    }
+                })
+                .catch(() => {
+                    const items = (currentProjectData && currentProjectData.items) ? currentProjectData.items : [];
+                    const bidders = (currentProjectData && currentProjectData.bidders) ? currentProjectData.bidders : [];
+
+                    let headerRow = "Difference,Item Code,Description,Unit,Quantity,Eng. Est.";
+                    bidders.forEach((b, idx) => {
+                        headerRow += `,${idx + 1}) "${(b.vendorName || '').replace(/"/g, '""')}"`;
+                    });
+                    headerRow += "\n";
+
+                    let csv = headerRow;
+                    items.forEach(it => {
+                        const lowBidderName = bidders.length > 0 ? bidders[0].vendorName : '';
+                        const lowUnit = (it.bidders && it.bidders[lowBidderName]) || 0;
+                        const diff = lowUnit - (it.engEstUnit || 0);
+
+                        let row = `${diff.toFixed(2)},${it.code || ''},"${(it.description || '').replace(/"/g, '""')}",${it.unit || ''},${it.quantity || 0},${it.engEstUnit || 0}`;
+                        bidders.forEach(b => {
+                            const price = (it.bidders && it.bidders[b.vendorName]) || 0;
+                            row += `,${price}`;
+                        });
+                        csv += row + "\n";
+                    });
+
+                    const blob = new Blob(["\ufeff" + csv], { type: 'text/csv;charset=utf-8;' });
+                    const a = document.createElement('a');
+                    a.href = URL.createObjectURL(blob);
+                    a.download = `CSJ_${currentCSJ}_Bid_Tabulation.csv`;
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                });
         }
 
         function downloadEstimateExcelCurrent() {
             if (!currentCSJ) return;
-            const url = `/api/export-estimate-excel?csj=${encodeURIComponent(currentCSJ)}`;
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = `CSJ_${currentCSJ}_Task_Items_Estimate.xlsx`;
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
+            fetch(`/api/export-estimate-excel?csj=${encodeURIComponent(currentCSJ)}`)
+                .then(res => {
+                    if (res.ok && !res.headers.get('content-type')?.includes('text/html')) {
+                        return res.blob().then(blob => {
+                            const a = document.createElement('a');
+                            a.href = URL.createObjectURL(blob);
+                            a.download = `CSJ_${currentCSJ}_Task_Items_Estimate.xlsx`;
+                            document.body.appendChild(a);
+                            a.click();
+                            document.body.removeChild(a);
+                        });
+                    } else {
+                        throw new Error("Static host fallback");
+                    }
+                })
+                .catch(() => {
+                    const items = (currentProjectData && currentProjectData.items) ? currentProjectData.items : [];
+                    let csv = "ALT,ITEM NO.,SPEC CO.,ITEM DESCRIPTION,UNIT,APPROX QUANTITY,UNIT PRICE,EXTENDED PRICE\n";
+
+                    items.forEach(it => {
+                        const parts = (it.code || "").split(" ");
+                        const itemNo = parts[0] || "";
+                        const specCode = parts[1] || "";
+                        const desc = `"${(it.description || '').replace(/"/g, '""')}"`;
+                        const qty = it.quantity || 0;
+                        const unitPrice = it.lowUnit || it.engEstUnit || 0;
+                        const extPrice = qty * unitPrice;
+                        csv += `"",${itemNo},${specCode},${desc},${it.unit || ''},${qty},${unitPrice},${extPrice}\n`;
+                    });
+
+                    const blob = new Blob(["\ufeff" + csv], { type: 'text/csv;charset=utf-8;' });
+                    const a = document.createElement('a');
+                    a.href = URL.createObjectURL(blob);
+                    a.download = `CSJ_${currentCSJ}_Task_Items_Estimate.csv`;
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                });
         }
 
         // Initialize safely when DOM is fully interactive

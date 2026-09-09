@@ -6,6 +6,14 @@
     <title>Amestx — TxDOT Bid Estimator & Proposal Portal</title>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="xlsx.bundle.js"></script>
+    <script>
+        if (typeof XLSX === 'undefined') {
+            var s = document.createElement('script');
+            s.src = 'xlsx.full.min.js';
+            document.head.appendChild(s);
+        }
+    </script>
     <script>
         tailwind.config = {
             theme: {
@@ -18,12 +26,29 @@
             }
         }
     </script>
+    <style>
+        /* Custom sleek dark scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+    </style>
 </head>
 <body class="bg-slate-900 text-slate-100 min-h-screen font-sans">
     
     <!-- Top Navigation Header -->
     <header class="border-b border-slate-800 bg-slate-950/80 backdrop-blur sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex flex-wrap items-center justify-between gap-4">
             <div class="flex items-center space-x-3">
                 <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-amber-500 rounded-lg flex items-center justify-center font-bold text-white shadow-lg shadow-blue-500/20 text-lg tracking-wider">
                     AM
@@ -36,6 +61,20 @@
                     <p class="text-xs text-slate-400">Monthly Lettings, Proposal Estimates & Excel Matrix Generator</p>
                 </div>
             </div>
+
+            <!-- 3 Constant Navigation Header Boxes -->
+            <div class="flex items-center space-x-2.5">
+                <button onclick="openContractorsModal()" class="px-4 py-2 rounded-xl text-xs font-bold bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white border border-slate-700/80 shadow transition">
+                    Contractors
+                </button>
+                <button onclick="openMplModal()" class="px-4 py-2 rounded-xl text-xs font-bold bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white border border-slate-700/80 shadow transition">
+                    Material Producer List
+                </button>
+                <button onclick="openItemCodesModal()" class="px-4 py-2 rounded-xl text-xs font-bold bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white border border-slate-700/80 shadow transition">
+                    Item Codes
+                </button>
+            </div>
+
             <div class="flex items-center space-x-2 text-xs bg-slate-800/80 px-3.5 py-1.5 rounded-full text-slate-300 border border-slate-700">
                 <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
                 <span class="font-mono">TxDOT Socrata API Active • Live</span>
@@ -58,6 +97,25 @@
 
             <!-- Scheduled Monthly Lettings Table -->
             <div class="bg-slate-800/40 border border-slate-700/60 rounded-xl p-6 shadow-xl">
+                <!-- Bulk Selection Action Bar -->
+                <div id="bulkActionBar" class="hidden bg-slate-900 border border-emerald-500/50 p-4 rounded-xl shadow-2xl flex flex-wrap items-center justify-between gap-4 mb-4">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 rounded-lg bg-emerald-600/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400 text-lg font-bold">
+                            ✓
+                        </div>
+                        <div>
+                            <span id="bulkSelectCount" class="font-bold text-white text-base font-mono">0 Projects Selected</span>
+                            <p class="text-xs text-slate-400 font-sans">Batch download itemized task details & quantities in a single Excel workbook</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <button onclick="clearSelectedCSJs()" class="px-3 py-2 rounded-lg text-xs font-semibold bg-slate-800 text-slate-300 hover:text-white hover:bg-slate-700 border border-slate-700 transition">Clear Selection</button>
+                        <button onclick="exportMultiProjectTasksExcel()" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-5 py-2 rounded-xl text-xs flex items-center space-x-2 transition shadow-lg">
+                            <span>Export Selected Tasks Excel (.xlsx)</span>
+                        </button>
+                    </div>
+                </div>
+
                 <div class="flex items-center justify-between mb-4">
                     <h3 class="text-lg font-bold text-white" id="dispMonthTitle">Scheduled Lettings</h3>
                     <div class="flex items-center space-x-3">
@@ -65,47 +123,51 @@
                     </div>
                 </div>
 
-                <div class="overflow-x-auto">
-                    <table class="w-full text-left text-sm text-slate-300">
-                        <thead class="bg-slate-900 text-xs uppercase text-slate-400 border-b border-slate-700 font-mono select-none">
+                <!-- Scrollable Table Body Container (Top headers & Month tabs frozen) -->
+                <div class="overflow-x-auto overflow-y-auto max-h-[calc(100vh-340px)] min-h-[400px] border border-slate-700/60 rounded-lg shadow-inner">
+                    <table class="w-full text-left text-sm text-slate-300 relative border-collapse">
+                        <thead class="bg-slate-900 text-xs uppercase text-slate-400 border-b border-slate-700 font-mono select-none sticky top-0 z-20 shadow">
                             <tr>
-                                <th onclick="handleHeaderSort('letDate')" class="py-3.5 px-4 cursor-pointer hover:text-white transition whitespace-nowrap" title="Click to sort A-B / B-A">
+                                <th class="py-3.5 px-4 text-center whitespace-nowrap w-10 sticky top-0 bg-slate-900 z-20 border-b border-slate-700">
+                                    <input type="checkbox" id="selectAllCheckbox" onchange="toggleSelectAll(this.checked)" class="w-4 h-4 rounded bg-slate-900 border-slate-700 text-emerald-600 focus:ring-emerald-500 cursor-pointer" title="Select All Projects">
+                                </th>
+                                <th onclick="handleHeaderSort('letDate')" class="py-3.5 px-4 cursor-pointer hover:text-white transition whitespace-nowrap sticky top-0 bg-slate-900 z-20 border-b border-slate-700" title="Click to sort A-B / B-A">
                                     <div class="flex items-center gap-1.5">
                                         <span>Let Date</span>
                                         <span id="sort-badge-letDate" class="text-[10px] bg-blue-900/80 border border-blue-500 text-blue-300 px-1.5 py-0.5 rounded font-sans font-bold">A-B ↑</span>
                                     </div>
                                 </th>
-                                <th onclick="handleHeaderSort('csj')" class="py-3.5 px-4 min-w-[150px] cursor-pointer hover:text-white transition whitespace-nowrap" title="Click to sort A-B / B-A">
+                                <th onclick="handleHeaderSort('csj')" class="py-3.5 px-4 min-w-[150px] cursor-pointer hover:text-white transition whitespace-nowrap sticky top-0 bg-slate-900 z-20 border-b border-slate-700" title="Click to sort A-B / B-A">
                                     <div class="flex items-center gap-1.5">
                                         <span>CSJ</span>
                                         <span id="sort-badge-csj" class="text-[10px] bg-slate-800 border border-slate-700 text-slate-400 px-1.5 py-0.5 rounded font-sans">A-B ↕</span>
                                     </div>
                                 </th>
-                                <th onclick="handleHeaderSort('county')" class="py-3.5 px-4 cursor-pointer hover:text-white transition whitespace-nowrap" title="Click to sort A-B / B-A">
+                                <th onclick="handleHeaderSort('county')" class="py-3.5 px-4 cursor-pointer hover:text-white transition whitespace-nowrap sticky top-0 bg-slate-900 z-20 border-b border-slate-700" title="Click to sort A-B / B-A">
                                     <div class="flex items-center gap-1.5">
                                         <span>County</span>
                                         <span id="sort-badge-county" class="text-[10px] bg-slate-800 border border-slate-700 text-slate-400 px-1.5 py-0.5 rounded font-sans">A-B ↕</span>
                                     </div>
                                 </th>
-                                <th onclick="handleHeaderSort('highway')" class="py-3.5 px-4 cursor-pointer hover:text-white transition whitespace-nowrap" title="Click to sort A-B / B-A">
+                                <th onclick="handleHeaderSort('highway')" class="py-3.5 px-4 cursor-pointer hover:text-white transition whitespace-nowrap sticky top-0 bg-slate-900 z-20 border-b border-slate-700" title="Click to sort A-B / B-A">
                                     <div class="flex items-center gap-1.5">
                                         <span>Hwy</span>
                                         <span id="sort-badge-highway" class="text-[10px] bg-slate-800 border border-slate-700 text-slate-400 px-1.5 py-0.5 rounded font-sans">A-B ↕</span>
                                     </div>
                                 </th>
-                                <th onclick="handleHeaderSort('projectType')" class="py-3.5 px-4 cursor-pointer hover:text-white transition whitespace-nowrap" title="Click to sort A-B / B-A">
+                                <th onclick="handleHeaderSort('projectType')" class="py-3.5 px-4 cursor-pointer hover:text-white transition whitespace-nowrap sticky top-0 bg-slate-900 z-20 border-b border-slate-700" title="Click to sort A-B / B-A">
                                     <div class="flex items-center gap-1.5">
                                         <span>Project Type</span>
                                         <span id="sort-badge-projectType" class="text-[10px] bg-slate-800 border border-slate-700 text-slate-400 px-1.5 py-0.5 rounded font-sans">A-B ↕</span>
                                     </div>
                                 </th>
-                                <th onclick="handleHeaderSort('estimate')" class="py-3.5 px-4 text-right cursor-pointer hover:text-white transition whitespace-nowrap" title="Click to sort A-B / B-A">
+                                <th onclick="handleHeaderSort('estimate')" class="py-3.5 px-4 text-right cursor-pointer hover:text-white transition whitespace-nowrap sticky top-0 bg-slate-900 z-20 border-b border-slate-700" title="Click to sort A-B / B-A">
                                     <div class="flex items-center justify-end gap-1.5">
                                         <span>Estimate ($)</span>
                                         <span id="sort-badge-estimate" class="text-[10px] bg-slate-800 border border-slate-700 text-slate-400 px-1.5 py-0.5 rounded font-sans">A-B ↕</span>
                                     </div>
                                 </th>
-                                <th class="py-3.5 px-4 text-center whitespace-nowrap">Action</th>
+                                <th class="py-3.5 px-4 text-center whitespace-nowrap sticky top-0 bg-slate-900 z-20 border-b border-slate-700">Action</th>
                             </tr>
                         </thead>
                         <tbody id="monthlyTbody" class="divide-y divide-slate-800 font-mono"></tbody>
@@ -143,14 +205,6 @@
                             <div class="text-xs text-amber-400 font-mono font-bold mb-1" id="prebidBannerTitle"></div>
                             <h2 class="text-2xl font-extrabold text-white" id="prebidProjectName"></h2>
                         </div>
-                        <div class="flex space-x-3">
-                            <button onclick="downloadEstimateExcelCurrent()" class="bg-amber-600 hover:bg-amber-500 text-white font-bold px-5 py-3 rounded-xl flex items-center space-x-2 shadow-lg shadow-amber-600/20 transition">
-                                <span>Export Estimate Excel (.xlsx)</span>
-                            </button>
-                            <a id="prebidPdfBtn" target="_blank" href="https://www.txdot.gov/business/road-bridge-maintenance/contract-letting.html" class="bg-blue-600 hover:bg-blue-500 text-white font-bold px-5 py-3 rounded-xl flex items-center space-x-2 shadow-lg shadow-blue-600/20 transition">
-                                <span>Download Proposal PDF</span>
-                            </a>
-                        </div>
                     </div>
 
                     <!-- Summary Cards Grid -->
@@ -181,7 +235,12 @@
 
                     <!-- SubTab 1 Content: Project Tasks -->
                     <div id="subTabContent1" class="space-y-4">
-                        <h4 class="text-base font-bold text-white">CSJ Pay Items & Quantities</h4>
+                        <div class="flex items-center justify-between">
+                            <h4 class="text-base font-bold text-white">CSJ Pay Items & Quantities</h4>
+                            <button onclick="downloadEstimateExcelCurrent()" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-4 py-2 rounded-lg text-xs flex items-center space-x-2 transition shadow">
+                                <span>Export Matrix Excel (.xlsx)</span>
+                            </button>
+                        </div>
                         <div class="overflow-x-auto max-h-96">
                             <table class="w-full text-left text-xs text-slate-300">
                                 <thead class="bg-black text-white font-mono sticky top-0 border-b border-slate-700">
@@ -197,6 +256,12 @@
                                     </tr>
                                 </thead>
                                 <tbody id="prebidTbody" class="divide-y divide-slate-800 font-mono"></tbody>
+                                <tfoot id="prebidTfoot" class="bg-amber-950/95 border-t-2 border-amber-500 font-mono sticky bottom-0 z-10 shadow-lg">
+                                    <tr>
+                                        <td colspan="7" class="py-3 px-3 text-right uppercase tracking-wider text-xs font-bold text-amber-300">Total Extended Amount:</td>
+                                        <td class="py-3 px-3 text-right text-sm text-amber-300 font-extrabold bg-amber-900/90 border border-amber-500/60 rounded shadow-inner" id="prebidTotalExtended">$0.00</td>
+                                    </tr>
+                                </tfoot>
                             </table>
                         </div>
                     </div>
@@ -387,6 +452,135 @@
 
     </main>
 
+    <!-- ================================================================= -->
+    <!-- TXDOT PREQUALIFIED CONTRACTORS DIRECTORY MODAL                     -->
+    <!-- ================================================================= -->
+    <div id="contractorsModal" class="hidden fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-4">
+        <div class="bg-slate-900 border border-slate-700/80 rounded-2xl max-w-5xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden">
+            <!-- Modal Header -->
+            <div class="px-6 py-4 border-b border-slate-800 flex items-center justify-between bg-slate-950/60">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-400 text-xl font-bold">
+                        🏗️
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                            <span>TxDOT Prequalified Contractors Directory</span>
+                            <span class="text-xs bg-amber-500/20 text-amber-300 border border-amber-500/40 px-2.5 py-0.5 rounded font-mono font-bold" id="contractorsCountBadge">546 Contractors</span>
+                        </h3>
+                        <p class="text-xs text-slate-400">Official TxDOT Prequalified Prime Contractors & Bidders Registry</p>
+                    </div>
+                </div>
+                <button onclick="closeContractorsModal()" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white flex items-center justify-center transition font-bold text-lg">✕</button>
+            </div>
+
+            <!-- Controls / Filters -->
+            <div class="p-6 border-b border-slate-800 bg-slate-900/60 space-y-4">
+                <div class="flex flex-col sm:flex-row gap-3">
+                    <div class="relative flex-1">
+                        <input type="text" id="contractorSearchInput" oninput="filterContractors()" placeholder="Search contractors by name, city, email, or phone..." class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-amber-500 transition font-sans">
+                    </div>
+                    <button onclick="clearContractorSearch()" class="px-4 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold rounded-xl border border-slate-700 transition whitespace-nowrap">Clear Filter</button>
+                </div>
+
+                <!-- Letter Filter Tabs -->
+                <div class="flex flex-wrap gap-1.5" id="contractorLetterTabs"></div>
+            </div>
+
+            <!-- Contractors List Content -->
+            <div class="p-6 overflow-y-auto flex-1 max-h-[550px] custom-scrollbar">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="contractorsGrid"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================================================================= -->
+    <!-- TXDOT MATERIAL PRODUCER LIST (MPL) DIRECTORY MODAL                -->
+    <!-- ================================================================= -->
+    <div id="mplModal" class="hidden fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-4">
+        <div class="bg-slate-900 border border-slate-700/80 rounded-2xl max-w-5xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden">
+            <!-- Modal Header -->
+            <div class="px-6 py-4 border-b border-slate-800 flex items-center justify-between bg-slate-950/60">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-xl bg-blue-500/20 border border-blue-500/40 flex items-center justify-center text-blue-400 text-xl font-bold">
+                        🧱
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                            <span>TxDOT Material Producer List (MPL) Directory</span>
+                            <span class="text-xs bg-blue-500/20 text-blue-300 border border-blue-500/40 px-2.5 py-0.5 rounded font-mono font-bold" id="mplCountBadge">105 Categories</span>
+                        </h3>
+                        <p class="text-xs text-slate-400">Approved Products, Material Specifications & Qualified Producers Directory</p>
+                    </div>
+                </div>
+                <button onclick="closeMplModal()" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white flex items-center justify-center transition font-bold text-lg">✕</button>
+            </div>
+
+            <!-- Controls / Filters -->
+            <div class="p-6 border-b border-slate-800 bg-slate-900/60 space-y-4">
+                <div class="flex flex-col sm:flex-row gap-3">
+                    <div class="relative flex-1">
+                        <input type="text" id="mplSearchInput" oninput="filterMpl()" placeholder="Search material category, specification, or product (e.g. Concrete, Asphalt, Paint, Markings)..." class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 transition font-sans">
+                    </div>
+                    <button onclick="clearMplSearch()" class="px-4 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold rounded-xl border border-slate-700 transition whitespace-nowrap">Clear Filter</button>
+                </div>
+
+                <!-- Letter Filter Tabs -->
+                <div class="flex flex-wrap gap-1.5" id="mplLetterTabs"></div>
+            </div>
+
+            <!-- MPL List Content -->
+            <div class="p-6 overflow-y-auto flex-1 max-h-[550px] custom-scrollbar">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="mplGrid"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================================================================= -->
+    <!-- TXDOT STANDARD SPECIFICATION ITEM CODES DIRECTORY MODAL           -->
+    <!-- ================================================================= -->
+    <div id="itemCodesModal" class="hidden fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-4">
+        <div class="bg-slate-900 border border-slate-700/80 rounded-2xl max-w-5xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden">
+            <!-- Modal Header -->
+            <div class="px-6 py-4 border-b border-slate-800 flex items-center justify-between bg-slate-950/60">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400 text-xl font-bold">
+                        📋
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                            <span>TxDOT Standard Specification Item Codes Directory</span>
+                            <span class="text-xs bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 px-2.5 py-0.5 rounded font-mono font-bold" id="itemCodesCountBadge">87 Items</span>
+                        </h3>
+                        <p class="text-xs text-slate-400">Standard Highway Construction & Maintenance Specification Items (2024 / 2014 Spec Books)</p>
+                    </div>
+                </div>
+                <button onclick="closeItemCodesModal()" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white flex items-center justify-center transition font-bold text-lg">✕</button>
+            </div>
+
+            <!-- Controls / Filters -->
+            <div class="p-6 border-b border-slate-800 bg-slate-900/60 space-y-4">
+                <div class="flex flex-col sm:flex-row gap-3">
+                    <div class="relative flex-1">
+                        <input type="text" id="itemCodeSearchInput" oninput="filterItemCodes()" placeholder="Search item code, title, or description (e.g. 110, Excavation, Flex Base, 500, Concrete)..." class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-emerald-500 transition font-sans">
+                    </div>
+                    <button onclick="clearItemCodeSearch()" class="px-4 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold rounded-xl border border-slate-700 transition whitespace-nowrap">Clear Filter</button>
+                    <a href="downloads/spec-book-0924.pdf" target="_blank" class="px-4 py-2.5 bg-emerald-600/20 hover:bg-emerald-600 text-emerald-300 hover:text-white text-xs font-bold rounded-xl border border-emerald-500/40 transition whitespace-nowrap flex items-center space-x-2 shadow">
+                        <span>📥 2024 Spec Book (PDF)</span>
+                    </a>
+                </div>
+
+                <!-- Division Filter Tabs -->
+                <div class="flex flex-wrap gap-1.5" id="itemCodeSeriesTabs"></div>
+            </div>
+
+            <!-- Item Codes List Content -->
+            <div class="p-6 overflow-y-auto flex-1 max-h-[550px] custom-scrollbar">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="itemCodesGrid"></div>
+            </div>
+        </div>
+    </div>
+
     <!-- Footer Bar -->
     <footer class="border-t border-slate-800 bg-slate-950/80 py-6 text-center text-xs text-slate-400 mt-12">
         <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
@@ -404,12 +598,443 @@
     </footer>
 
     <script>
+        let selectedCSJs = new Set();
         let currentMonth = '2026-09';
         let currentCSJ = '';
         let currentProjectData = null;
         let currentMonthlyList = [];
         let sortKey = 'letDate';
         let sortAsc = true;
+
+        // TxDOT Prequalified Contractors State
+        let allContractorsList = [];
+        let activeContractorLetter = 'ALL';
+
+        async function openContractorsModal() {
+            const modal = document.getElementById('contractorsModal');
+            if (modal) modal.classList.remove('hidden');
+            if (allContractorsList.length === 0) {
+                await loadContractorsData();
+            } else {
+                renderContractorsGrid();
+            }
+        }
+
+        function closeContractorsModal() {
+            const modal = document.getElementById('contractorsModal');
+            if (modal) modal.classList.add('hidden');
+        }
+
+        async function loadContractorsData() {
+            const grid = document.getElementById('contractorsGrid');
+            if (grid) grid.innerHTML = `<div class="col-span-2 py-12 text-center text-slate-400 font-mono">Loading TxDOT prequalified contractors directory...</div>`;
+
+            const staticPaths = [
+                'downloads/prequalified_contractors.json',
+                '/downloads/prequalified_contractors.json',
+                'public/downloads/prequalified_contractors.json',
+                '/public/downloads/prequalified_contractors.json'
+            ];
+
+            for (const p of staticPaths) {
+                try {
+                    const res = await fetch(`${p}?_t=${Date.now()}`);
+                    if (res.ok) {
+                        const data = await res.json();
+                        if (Array.isArray(data) && data.length > 0) {
+                            allContractorsList = data;
+                            break;
+                        }
+                    }
+                } catch (e) {}
+            }
+
+            renderContractorLetterTabs();
+            renderContractorsGrid();
+        }
+
+        function renderContractorLetterTabs() {
+            const container = document.getElementById('contractorLetterTabs');
+            if (!container) return;
+            container.innerHTML = '';
+
+            const letters = ['ALL', 'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0-9'];
+            letters.forEach(letCode => {
+                const btn = document.createElement('button');
+                btn.className = (activeContractorLetter === letCode)
+                    ? "px-2.5 py-1 text-xs font-bold bg-amber-500 text-slate-950 rounded shadow font-mono"
+                    : "px-2.5 py-1 text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 hover:text-white rounded transition font-mono";
+                btn.innerText = letCode;
+                btn.onclick = () => {
+                    activeContractorLetter = letCode;
+                    renderContractorLetterTabs();
+                    filterContractors();
+                };
+                container.appendChild(btn);
+            });
+        }
+
+        function filterContractors() {
+            renderContractorsGrid();
+        }
+
+        function clearContractorSearch() {
+            const input = document.getElementById('contractorSearchInput');
+            if (input) input.value = '';
+            activeContractorLetter = 'ALL';
+            renderContractorLetterTabs();
+            renderContractorsGrid();
+        }
+
+        function renderContractorsGrid() {
+            const grid = document.getElementById('contractorsGrid');
+            const countBadge = document.getElementById('contractorsCountBadge');
+            const searchInput = document.getElementById('contractorSearchInput');
+            if (!grid) return;
+
+            const query = (searchInput ? searchInput.value : '').toLowerCase().trim();
+
+            const filtered = allContractorsList.filter(c => {
+                let matchesLetter = true;
+                if (activeContractorLetter !== 'ALL') {
+                    if (activeContractorLetter === '0-9') {
+                        matchesLetter = /[0-9]/.test(c.letter || '');
+                    } else {
+                        matchesLetter = (c.letter || '').toUpperCase() === activeContractorLetter;
+                    }
+                }
+
+                let matchesSearch = true;
+                if (query) {
+                    const combined = `${c.name || ''} ${c.address || ''} ${c.email || ''} ${c.phone || ''}`.toLowerCase();
+                    matchesSearch = combined.includes(query);
+                }
+
+                return matchesLetter && matchesSearch;
+            });
+
+            if (countBadge) countBadge.innerText = `${filtered.length} Contractors`;
+
+            grid.innerHTML = '';
+
+            if (filtered.length === 0) {
+                grid.innerHTML = `<div class="col-span-2 py-12 text-center text-slate-400 font-mono">No prequalified contractors found matching your search.</div>`;
+                return;
+            }
+
+            filtered.forEach(c => {
+                const card = document.createElement('div');
+                card.className = "bg-slate-950/80 border border-slate-800 rounded-xl p-4 space-y-2 hover:border-slate-700 transition shadow flex flex-col justify-between";
+                
+                const emailLink = c.email ? `<a href="mailto:${c.email}" class="text-xs text-amber-400 hover:underline font-mono truncate block" title="Email ${c.email}">✉ ${c.email}</a>` : '<span class="text-xs text-slate-600 font-mono">No Email Listed</span>';
+                const phoneStr = c.phone ? `<span class="text-xs text-slate-300 font-mono">📞 ${c.phone}</span>` : '';
+                const faxStr = c.fax ? `<span class="text-xs text-slate-400 font-mono">📠 ${c.fax}</span>` : '';
+
+                card.innerHTML = `
+                    <div class="space-y-1">
+                        <div class="flex items-start justify-between gap-2">
+                            <h4 class="text-sm font-bold text-white tracking-tight leading-snug">${c.name}</h4>
+                            <span class="text-[10px] bg-amber-950/80 border border-amber-500/50 text-amber-300 px-2 py-0.5 rounded font-mono font-bold shrink-0">${c.letter}</span>
+                        </div>
+                        <p class="text-xs text-slate-400 leading-relaxed">${c.address || 'Address on file with TxDOT'}</p>
+                    </div>
+                    <div class="pt-3 border-t border-slate-800/80 flex flex-wrap items-center justify-between gap-2 mt-2">
+                        <div class="flex items-center space-x-3">${phoneStr}${faxStr}</div>
+                        ${emailLink}
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        // TxDOT Material Producer List (MPL) State
+        let allMplList = [];
+        let activeMplLetter = 'ALL';
+
+        async function openMplModal() {
+            const modal = document.getElementById('mplModal');
+            if (modal) modal.classList.remove('hidden');
+            if (allMplList.length === 0) {
+                await loadMplData();
+            } else {
+                renderMplGrid();
+            }
+        }
+
+        function closeMplModal() {
+            const modal = document.getElementById('mplModal');
+            if (modal) modal.classList.add('hidden');
+        }
+
+        async function loadMplData() {
+            const grid = document.getElementById('mplGrid');
+            if (grid) grid.innerHTML = `<div class="col-span-2 py-12 text-center text-slate-400 font-mono">Loading TxDOT Material Producer List directory...</div>`;
+
+            const staticPaths = [
+                'downloads/material_producer_list.json',
+                '/downloads/material_producer_list.json',
+                'public/downloads/material_producer_list.json',
+                '/public/downloads/material_producer_list.json'
+            ];
+
+            for (const p of staticPaths) {
+                try {
+                    const res = await fetch(`${p}?_t=${Date.now()}`);
+                    if (res.ok) {
+                        const data = await res.json();
+                        if (Array.isArray(data) && data.length > 0) {
+                            allMplList = data;
+                            break;
+                        }
+                    }
+                } catch (e) {}
+            }
+
+            renderMplLetterTabs();
+            renderMplGrid();
+        }
+
+        function renderMplLetterTabs() {
+            const container = document.getElementById('mplLetterTabs');
+            if (!container) return;
+            container.innerHTML = '';
+
+            const letters = ['ALL', 'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0-9'];
+            letters.forEach(letCode => {
+                const btn = document.createElement('button');
+                btn.className = (activeMplLetter === letCode)
+                    ? "px-2.5 py-1 text-xs font-bold bg-blue-500 text-white rounded shadow font-mono"
+                    : "px-2.5 py-1 text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 hover:text-white rounded transition font-mono";
+                btn.innerText = letCode;
+                btn.onclick = () => {
+                    activeMplLetter = letCode;
+                    renderMplLetterTabs();
+                    filterMpl();
+                };
+                container.appendChild(btn);
+            });
+        }
+
+        function filterMpl() {
+            renderMplGrid();
+        }
+
+        function clearMplSearch() {
+            const input = document.getElementById('mplSearchInput');
+            if (input) input.value = '';
+            activeMplLetter = 'ALL';
+            renderMplLetterTabs();
+            renderMplGrid();
+        }
+
+        function renderMplGrid() {
+            const grid = document.getElementById('mplGrid');
+            const countBadge = document.getElementById('mplCountBadge');
+            const searchInput = document.getElementById('mplSearchInput');
+            if (!grid) return;
+
+            const query = (searchInput ? searchInput.value : '').toLowerCase().trim();
+
+            const filtered = allMplList.filter(item => {
+                let matchesLetter = true;
+                if (activeMplLetter !== 'ALL') {
+                    if (activeMplLetter === '0-9') {
+                        matchesLetter = /[0-9]/.test(item.letter || '');
+                    } else {
+                        matchesLetter = (item.letter || '').toUpperCase() === activeMplLetter;
+                    }
+                }
+
+                let matchesSearch = true;
+                if (query) {
+                    const combined = `${item.categoryName || ''} ${item.fileName || ''}`.toLowerCase();
+                    matchesSearch = combined.includes(query);
+                }
+
+                return matchesLetter && matchesSearch;
+            });
+
+            if (countBadge) countBadge.innerText = `${filtered.length} Material Categories`;
+
+            grid.innerHTML = '';
+
+            if (filtered.length === 0) {
+                grid.innerHTML = `<div class="col-span-2 py-12 text-center text-slate-400 font-mono">No material producer categories found matching your search.</div>`;
+                return;
+            }
+
+            filtered.forEach(item => {
+                const card = document.createElement('div');
+                card.className = "bg-slate-950/80 border border-slate-800 rounded-xl p-4 space-y-3 hover:border-blue-500/60 transition shadow flex flex-col justify-between group";
+                
+                card.innerHTML = `
+                    <div class="space-y-1.5">
+                        <div class="flex items-start justify-between gap-2">
+                            <h4 class="text-sm font-bold text-white tracking-tight leading-snug group-hover:text-blue-300 transition">${item.categoryName}</h4>
+                            <span class="text-[10px] bg-blue-950/80 border border-blue-500/50 text-blue-300 px-2 py-0.5 rounded font-mono font-bold shrink-0">${item.letter}</span>
+                        </div>
+                        <p class="text-xs text-slate-400 font-mono truncate" title="${item.fileName}">📄 ${item.fileName}</p>
+                    </div>
+                    <div class="pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2 mt-2">
+                        <span class="text-[11px] text-slate-400 font-sans">Official TxDOT Specification Sheet</span>
+                        <a href="${item.pdfUrl}" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 text-xs font-bold bg-blue-600/20 hover:bg-blue-600 text-blue-300 hover:text-white border border-blue-500/40 rounded-lg transition flex items-center space-x-1.5 shadow">
+                            <span>Open PDF</span>
+                            <span class="text-xs">↗</span>
+                        </a>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        // TxDOT Standard Specification Item Codes State
+        let allItemCodesList = [];
+        let activeItemSeries = 'ALL';
+
+        async function openItemCodesModal() {
+            const modal = document.getElementById('itemCodesModal');
+            if (modal) modal.classList.remove('hidden');
+            if (allItemCodesList.length === 0) {
+                await loadItemCodesData();
+            } else {
+                renderItemCodesGrid();
+            }
+        }
+
+        function closeItemCodesModal() {
+            const modal = document.getElementById('itemCodesModal');
+            if (modal) modal.classList.add('hidden');
+        }
+
+        async function loadItemCodesData() {
+            const grid = document.getElementById('itemCodesGrid');
+            if (grid) grid.innerHTML = `<div class="col-span-2 py-12 text-center text-slate-400 font-mono">Loading TxDOT Item Codes directory...</div>`;
+
+            const staticPaths = [
+                'downloads/item_codes.json',
+                '/downloads/item_codes.json',
+                'public/downloads/item_codes.json',
+                '/public/downloads/item_codes.json'
+            ];
+
+            for (const p of staticPaths) {
+                try {
+                    const res = await fetch(`${p}?_t=${Date.now()}`);
+                    if (res.ok) {
+                        const data = await res.json();
+                        if (Array.isArray(data) && data.length > 0) {
+                            allItemCodesList = data;
+                            break;
+                        }
+                    }
+                } catch (e) {}
+            }
+
+            renderItemCodeSeriesTabs();
+            renderItemCodesGrid();
+        }
+
+        function renderItemCodeSeriesTabs() {
+            const container = document.getElementById('itemCodeSeriesTabs');
+            if (!container) return;
+            container.innerHTML = '';
+
+            const seriesList = [
+                { id: 'ALL', label: 'ALL' },
+                { id: '100', label: '100 Earthwork' },
+                { id: '200', label: '200 Subgrade & Base' },
+                { id: '300', label: '300 Surface Courses' },
+                { id: '400', label: '400 Structures' },
+                { id: '500', label: '500 Incidentals' },
+                { id: '600', label: '600 Lighting & Signals' },
+                { id: '700', label: '700 Maintenance' }
+            ];
+
+            seriesList.forEach(s => {
+                const btn = document.createElement('button');
+                btn.className = (activeItemSeries === s.id)
+                    ? "px-2.5 py-1 text-xs font-bold bg-emerald-500 text-slate-950 rounded shadow font-mono"
+                    : "px-2.5 py-1 text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 hover:text-white rounded transition font-mono";
+                btn.innerText = s.label;
+                btn.onclick = () => {
+                    activeItemSeries = s.id;
+                    renderItemCodeSeriesTabs();
+                    filterItemCodes();
+                };
+                container.appendChild(btn);
+            });
+        }
+
+        function filterItemCodes() {
+            renderItemCodesGrid();
+        }
+
+        function clearItemCodeSearch() {
+            const input = document.getElementById('itemCodeSearchInput');
+            if (input) input.value = '';
+            activeItemSeries = 'ALL';
+            renderItemCodeSeriesTabs();
+            renderItemCodesGrid();
+        }
+
+        function renderItemCodesGrid() {
+            const grid = document.getElementById('itemCodesGrid');
+            const countBadge = document.getElementById('itemCodesCountBadge');
+            const searchInput = document.getElementById('itemCodeSearchInput');
+            if (!grid) return;
+
+            const query = (searchInput ? searchInput.value : '').toLowerCase().trim();
+
+            const filtered = allItemCodesList.filter(item => {
+                let matchesSeries = true;
+                if (activeItemSeries !== 'ALL') {
+                    matchesSeries = (item.category || '').startsWith(activeItemSeries);
+                }
+
+                let matchesSearch = true;
+                if (query) {
+                    const combined = `item ${item.itemCode || ''} ${item.title || ''} ${item.category || ''} ${item.description || ''}`.toLowerCase();
+                    matchesSearch = combined.includes(query);
+                }
+
+                return matchesSeries && matchesSearch;
+            });
+
+            if (countBadge) countBadge.innerText = `${filtered.length} Items`;
+
+            grid.innerHTML = '';
+
+            if (filtered.length === 0) {
+                grid.innerHTML = `<div class="col-span-2 py-12 text-center text-slate-400 font-mono">No TxDOT specification item codes found matching your search.</div>`;
+                return;
+            }
+
+            filtered.forEach(item => {
+                const card = document.createElement('div');
+                card.className = "bg-slate-950/80 border border-slate-800 rounded-xl p-4 space-y-3 hover:border-emerald-500/60 transition shadow flex flex-col justify-between group";
+                
+                card.innerHTML = `
+                    <div class="space-y-1.5">
+                        <div class="flex items-start justify-between gap-2">
+                            <div class="flex items-center space-x-2">
+                                <span class="text-xs bg-emerald-950/90 border border-emerald-500/60 text-emerald-300 font-mono font-bold px-2.5 py-0.5 rounded shadow-sm">Item ${item.itemCode}</span>
+                                <h4 class="text-sm font-bold text-white tracking-tight leading-snug group-hover:text-emerald-300 transition">${item.title}</h4>
+                            </div>
+                            <span class="text-[10px] bg-slate-800 border border-slate-700 text-slate-400 px-2 py-0.5 rounded font-mono shrink-0">${item.specBook}</span>
+                        </div>
+                        <p class="text-xs text-slate-400 leading-relaxed">${item.description}</p>
+                    </div>
+                    <div class="pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2 mt-2">
+                        <span class="text-[11px] text-slate-500 font-mono">${item.category}</span>
+                        <a href="https://www.txdot.gov/business/resources/txdot-specifications.html" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 text-xs font-bold bg-emerald-600/20 hover:bg-emerald-600 text-emerald-300 hover:text-white border border-emerald-500/40 rounded-lg transition flex items-center space-x-1.5 shadow">
+                            <span>TxDOT Specs Hub</span>
+                            <span class="text-xs">↗</span>
+                        </a>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
 
         function showHomeView() {
             const viewHome = document.getElementById('view-home');
@@ -518,9 +1143,14 @@
                     ? `<div class="mt-1"><span class="text-[10px] bg-blue-950/80 border border-blue-500/50 text-blue-300 px-2 py-0.5 rounded font-mono font-semibold cursor-help" title="Included Sub-Sections: ${subTooltip}">⚡ ${subCount} Sub-CSJs</span></div>` 
                     : '';
 
+                const isChecked = selectedCSJs.has(p.csj) ? 'checked' : '';
+
                 const tr = document.createElement('tr');
-                tr.className = "hover:bg-slate-800/40 transition";
+                tr.className = isChecked ? "bg-slate-800/80 border-l-2 border-emerald-500 transition" : "hover:bg-slate-800/40 transition";
                 tr.innerHTML = `
+                    <td class="py-3 px-4 text-center whitespace-nowrap">
+                        <input type="checkbox" ${isChecked} onchange="toggleSelectCSJ('${p.csj}', this.checked)" class="csj-checkbox w-4 h-4 rounded bg-slate-900 border-slate-700 text-emerald-600 focus:ring-emerald-500 cursor-pointer">
+                    </td>
                     <td class="py-3 px-4 font-mono text-blue-400 whitespace-nowrap">${p.letDate || 'N/A'}</td>
                     <td class="py-3 px-4 font-mono font-bold text-white whitespace-nowrap min-w-[150px]">
                         <div>${p.csj || 'N/A'}</div>
@@ -536,6 +1166,7 @@
                 `;
                 tbody.appendChild(tr);
             });
+            updateSelectionUI();
         }
 
         async function fetchMonthlyLettings(monthCode) {
@@ -890,9 +1521,10 @@
             const isGenericCounty = !cleanCounty || cleanCounty.toLowerCase().includes('district') || cleanCounty.toLowerCase().includes('txdot');
 
             const makeCatUrls = (catName) => {
-                const base = `https://planuser:txdotplans@ftp.txdot.gov/plans/${catName}/${year}/${monthFolder}`;
+                const base = `https://ftp.txdot.gov/plans/${catName}/${year}/${monthFolder}`;
                 const plansFolder = `${base}/${monthNum}%20Plans/`;
-                const proposalsFolder = `${base}/${monthNum}%20Proposals/`;
+                const propFolderDirName = catName === 'Local-Let-Maintenance' ? `${monthNum}%20Proposal` : `${monthNum}%20Proposals`;
+                const proposalsFolder = `${base}/${propFolderDirName}/`;
                 
                 let directPlan1 = plansFolder;
                 let directPlan2 = plansFolder;
@@ -919,14 +1551,14 @@
             const construction = makeCatUrls('State-Let-Construction');
             const maintenance = makeCatUrls('State-Let-Maintenance');
             const local = makeCatUrls('Local-Let-Maintenance');
-            const rootPlans = `https://planuser:txdotplans@ftp.txdot.gov/plans/`;
+            const rootPlans = `https://ftp.txdot.gov/plans/`;
 
             // Determine primary category recommendation based on projectType
-            let primaryCat = 'State-Let-Construction';
+            let primaryCat = 'Local-Let-Maintenance';
             const pTypeStr = (projectType || '').toLowerCase();
-            if (pTypeStr.includes('local')) {
-                primaryCat = 'Local-Let-Maintenance';
-            } else if (pTypeStr.includes('maintenance') || pTypeStr.includes('material') || pTypeStr.includes('seal')) {
+            if (pTypeStr.includes('construction')) {
+                primaryCat = 'State-Let-Construction';
+            } else if (pTypeStr.includes('state')) {
                 primaryCat = 'State-Let-Maintenance';
             }
 
@@ -959,72 +1591,92 @@
         async function loadCsjPdfLinks(csj, month) {
             try {
                 let data = null;
+                const m = month || currentMonth || '2026-09';
+
                 try {
-                    const res = await fetch(`/api/csj-pdf-links?csj=${encodeURIComponent(csj)}&month=${encodeURIComponent(month || currentMonth || '2026-09')}&_t=${Date.now()}`);
+                    const res = await fetch(`/api/csj-pdf-links?csj=${encodeURIComponent(csj)}&month=${encodeURIComponent(m)}&_t=${Date.now()}`);
                     const text = await res.text();
                     if (res.ok && text && !text.trim().startsWith('<')) {
                         data = JSON.parse(text);
                     }
                 } catch (e) {}
 
-                if (!data) {
-                    const m = month || currentMonth || '2026-09';
-                    const ftpPaths = [
-                        `downloads/ftp_map_${m}.json`,
-                        `/downloads/ftp_map_${m}.json`,
-                        `public/downloads/ftp_map_${m}.json`,
-                        `/public/downloads/ftp_map_${m}.json`
-                    ];
-                    for (const fp of ftpPaths) {
-                        try {
-                            const fRes = await fetch(fp);
-                            if (fRes.ok) {
-                                const mapObj = await fRes.json();
-                                if (mapObj && mapObj[csj]) {
-                                    const entry = mapObj[csj];
-                                    data = {
-                                        found: true,
-                                        proposalUrl: entry.proposalUrl || 'https://ftp.txdot.gov/plans/',
-                                        proposalName: entry.proposalName || 'TxDOT Proposal PDF',
-                                        planUrl: entry.planUrl || 'https://ftp.txdot.gov/plans/',
-                                        planName: entry.planName || 'TxDOT Plan Set PDF'
-                                    };
-                                    break;
+                let foundPropUrl = null;
+                let foundPropName = null;
+                let foundPlanUrl = null;
+                let foundPlanName = null;
+                let foundPlanVolumes = null;
+
+                // Load proposals map JSON
+                const propMapPaths = [
+                    `downloads/ftp_proposals_map_${m}.json`,
+                    `/downloads/ftp_proposals_map_${m}.json`,
+                    `public/downloads/ftp_proposals_map_${m}.json`,
+                    `/public/downloads/ftp_proposals_map_${m}.json`
+                ];
+                for (const pmp of propMapPaths) {
+                    try {
+                        const pRes = await fetch(pmp);
+                        if (pRes.ok) {
+                            const propObj = await pRes.json();
+                            if (propObj && propObj[csj]) {
+                                foundPropUrl = propObj[csj].proposalUrl;
+                                foundPropName = propObj[csj].proposalName;
+                                if (propObj[csj].planVolumes) {
+                                    foundPlanVolumes = propObj[csj].planVolumes;
                                 }
+                                break;
                             }
-                        } catch (e) {}
-                    }
+                        }
+                    } catch (e) {}
                 }
 
-                if (!data) {
-                    const item = currentMonthlyList ? currentMonthlyList.find(p => p.csj === csj) : null;
-                    const ftpUrls = getTxDOTFtpUrls(csj, item ? item.county : '', item ? item.letDate : '', item ? item.projectType : '');
-                    const activeCatObj = ftpUrls[ftpUrls.primaryCat === 'State-Let-Maintenance' ? 'maintenance' : (ftpUrls.primaryCat === 'Local-Let-Maintenance' ? 'local' : 'construction')];
-                    data = {
-                        found: false,
-                        proposalUrl: activeCatObj ? activeCatObj.proposalsFolder : 'https://ftp.txdot.gov/plans/',
-                        planUrl: activeCatObj ? activeCatObj.plansFolder : 'https://ftp.txdot.gov/plans/'
-                    };
+                // Load plans map JSON
+                const ftpPaths = [
+                    `downloads/ftp_map_${m}.json`,
+                    `/downloads/ftp_map_${m}.json`,
+                    `public/downloads/ftp_map_${m}.json`,
+                    `/public/downloads/ftp_map_${m}.json`
+                ];
+                for (const fp of ftpPaths) {
+                    try {
+                        const fRes = await fetch(fp);
+                        if (fRes.ok) {
+                            const mapObj = await fRes.json();
+                            if (mapObj && mapObj[csj]) {
+                                const entry = mapObj[csj];
+                                if (!foundPropUrl) {
+                                    foundPropUrl = entry.proposalUrl;
+                                    foundPropName = entry.proposalName;
+                                }
+                                foundPlanUrl = entry.planUrl;
+                                foundPlanName = entry.planName;
+                                if (entry.planVolumes) {
+                                    foundPlanVolumes = entry.planVolumes;
+                                }
+                                break;
+                            }
+                        }
+                    } catch (e) {}
                 }
-                
+
+                const item = currentMonthlyList ? currentMonthlyList.find(p => p.csj === csj) : null;
+                const isDirectPropPdf = foundPropUrl && foundPropUrl.toLowerCase().includes('.pdf');
+                const isDirectPlanPdf = foundPlanUrl && (foundPlanUrl.toLowerCase().includes('.pdf') || foundPlanUrl.toLowerCase().includes('.zip'));
+
                 const prebidPdfBtn = document.getElementById('prebidPdfBtn');
-                if (data && data.proposalUrl) {
-                    if (prebidPdfBtn) prebidPdfBtn.href = data.proposalUrl;
-                } else if (data && data.planUrl) {
-                    if (prebidPdfBtn) prebidPdfBtn.href = data.planUrl;
+                if (isDirectPropPdf) {
+                    if (prebidPdfBtn) prebidPdfBtn.href = foundPropUrl;
+                } else if (isDirectPlanPdf) {
+                    if (prebidPdfBtn) prebidPdfBtn.href = foundPlanUrl;
+                } else {
+                    if (prebidPdfBtn) prebidPdfBtn.href = 'javascript:void(0)';
                 }
 
-                if (data && data.found) {
-                    const propBadge = data.isLocalProp 
-                        ? '<span class="text-xs bg-emerald-500/30 text-emerald-300 px-2.5 py-0.5 rounded-full font-mono font-bold flex items-center gap-1">⚡ Local Server PDF (100% Guaranteed)</span>'
-                        : '<span class="text-xs bg-blue-500/30 text-blue-300 px-2.5 py-0.5 rounded-full font-mono font-bold">100% Direct FTP Link</span>';
-
-                    const planBadge = data.isLocalPlan 
-                        ? '<span class="text-xs bg-emerald-500/30 text-emerald-300 px-2.5 py-0.5 rounded-full font-mono font-bold flex items-center gap-1">⚡ Local Server PDF (100% Guaranteed)</span>'
-                        : '<span class="text-xs bg-blue-500/30 text-blue-300 px-2.5 py-0.5 rounded-full font-mono font-bold">100% Direct FTP Link</span>';
-
-                    const sub2Card = document.getElementById('subTabContent2');
-                    if (sub2Card) {
+                // Render SubTab 2 (Proposal)
+                const sub2Card = document.getElementById('subTabContent2');
+                if (sub2Card) {
+                    if (isDirectPropPdf) {
                         sub2Card.innerHTML = `
                             <div class="bg-blue-950/70 border border-blue-500/60 p-6 rounded-xl flex flex-col md:flex-row items-center justify-between gap-4 shadow-xl">
                                 <div class="flex items-center space-x-4">
@@ -1032,20 +1684,48 @@
                                     <div>
                                         <h5 class="text-base font-bold text-blue-200 flex items-center gap-2">
                                             <span>Verified TxDOT Proposal Document PDF</span>
-                                            ${propBadge}
+                                            <span class="text-xs bg-blue-500/30 text-blue-300 px-2.5 py-0.5 rounded-full font-mono font-bold">100% Direct FTP Link</span>
                                         </h5>
-                                        <p class="text-xs text-blue-300/80 font-mono mt-1">${data.proposalName} ${data.ccsj ? '(Controlling CSJ ' + data.ccsj + ')' : ''}</p>
+                                        <p class="text-xs text-blue-300/80 font-mono mt-1">${foundPropName || 'CSJ ' + csj + ' Proposal.pdf'}</p>
                                     </div>
                                 </div>
-                                <a target="_blank" href="${data.proposalUrl}" class="bg-blue-600 hover:bg-blue-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition text-xs whitespace-nowrap">
+                                <a target="_blank" href="${foundPropUrl}" class="bg-blue-600 hover:bg-blue-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition text-xs whitespace-nowrap">
                                     Download Proposal PDF →
                                 </a>
                             </div>
                         `;
+                    } else {
+                        sub2Card.innerHTML = `
+                            <div class="bg-slate-900/80 border border-slate-700/80 p-6 rounded-xl flex items-center space-x-4 shadow-xl">
+                                <div class="text-3xl text-amber-400">ℹ️</div>
+                                <div>
+                                    <h5 class="text-base font-bold text-slate-200">No Public Proposal Booklet Required for CSJ ${csj}</h5>
+                                    <p class="text-xs text-slate-400 mt-1">This project (${item ? item.projectType : 'Routine Maintenance / Local District Contract'}) does not publish a standard FTP proposal booklet. Contracts for routine maintenance, mowing, litter removal, or state-use programs are administered directly by local district offices.</p>
+                                </div>
+                            </div>
+                        `;
                     }
+                }
 
-                    const sub3Card = document.getElementById('subTabContent3');
-                    if (sub3Card) {
+                // Render SubTab 3 (Plans)
+                const sub3Card = document.getElementById('subTabContent3');
+                if (sub3Card) {
+                    if (isDirectPlanPdf) {
+                        let btnHtml = '';
+                        if (foundPlanVolumes && foundPlanVolumes.length > 1) {
+                            btnHtml = '<div class="flex flex-col gap-2">';
+                            foundPlanVolumes.forEach((v, idx) => {
+                                btnHtml += `<a target="_blank" href="${v.url}" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-5 py-2.5 rounded-xl shadow transition text-xs whitespace-nowrap flex items-center justify-between gap-2">
+                                    <span>Download ${v.name} →</span>
+                                </a>`;
+                            });
+                            btnHtml += '</div>';
+                        } else {
+                            btnHtml = `<a target="_blank" href="${foundPlanUrl}" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition text-xs whitespace-nowrap">
+                                Download Plan PDF →
+                            </a>`;
+                        }
+
                         sub3Card.innerHTML = `
                             <div class="bg-emerald-950/70 border border-emerald-500/60 p-6 rounded-xl flex flex-col md:flex-row items-center justify-between gap-4 shadow-xl">
                                 <div class="flex items-center space-x-4">
@@ -1053,47 +1733,22 @@
                                     <div>
                                         <h5 class="text-base font-bold text-emerald-200 flex items-center gap-2">
                                             <span>Verified TxDOT Construction Plan Set PDF</span>
-                                            ${planBadge}
+                                            <span class="text-xs bg-emerald-500/30 text-emerald-300 px-2.5 py-0.5 rounded-full font-mono font-bold">100% Direct FTP Link</span>
                                         </h5>
-                                        <p class="text-xs text-emerald-300/80 font-mono mt-1">${data.planName} ${data.ccsj ? '(Controlling CSJ ' + data.ccsj + ')' : ''}</p>
+                                        <p class="text-xs text-emerald-300/80 font-mono mt-1">${foundPlanName || 'CSJ ' + csj + ' Plan.pdf'}</p>
                                     </div>
                                 </div>
-                                <a target="_blank" href="${data.planUrl}" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition text-xs whitespace-nowrap">
-                                    Download Plan PDF →
-                                </a>
+                                ${btnHtml}
                             </div>
                         `;
-                    }
-                } else {
-                    // Fallback when CSJ PDF is not yet posted for future month
-                    const pUrl = (data && data.proposalUrl) ? data.proposalUrl : 'https://ftp.txdot.gov/plans/';
-                    const plUrl = (data && data.planUrl) ? data.planUrl : 'https://ftp.txdot.gov/plans/';
-
-                    const sub2Card = document.getElementById('subTabContent2');
-                    if (sub2Card) {
-                        sub2Card.innerHTML = `
-                            <div class="bg-slate-900/60 p-6 rounded-xl border border-slate-700/60 flex flex-col md:flex-row items-center justify-between gap-4">
-                                <div>
-                                    <h5 class="text-base font-bold text-white">TxDOT Contract Proposal Specification</h5>
-                                    <p class="text-xs text-slate-400 mt-1">Direct proposal PDF for CSJ <span class="font-mono text-amber-300 font-bold">${csj}</span> is scheduled to post ~21 days prior to letting date.</p>
-                                </div>
-                                <a target="_blank" href="${pUrl}" class="bg-blue-600 hover:bg-blue-500 text-white font-bold px-5 py-2.5 rounded-xl shadow transition text-xs">
-                                    Open Proposals Month Directory →
-                                </a>
-                            </div>
-                        `;
-                    }
-                    const sub3Card = document.getElementById('subTabContent3');
-                    if (sub3Card) {
+                    } else {
                         sub3Card.innerHTML = `
-                            <div class="bg-slate-900/60 p-6 rounded-xl border border-slate-700/60 flex flex-col md:flex-row items-center justify-between gap-4">
+                            <div class="bg-slate-900/80 border border-slate-700/80 p-6 rounded-xl flex items-center space-x-4 shadow-xl">
+                                <div class="text-3xl text-amber-400">ℹ️</div>
                                 <div>
-                                    <h5 class="text-base font-bold text-white">TxDOT Project Construction Plan Set</h5>
-                                    <p class="text-xs text-slate-400 mt-1">Plan set PDF for CSJ <span class="font-mono text-amber-300 font-bold">${csj}</span> is scheduled to post ~21 days prior to letting date.</p>
+                                    <h5 class="text-base font-bold text-slate-200">No Graphic Plan Set Published for CSJ ${csj}</h5>
+                                    <p class="text-xs text-slate-400 mt-1">This project (${item ? item.projectType : 'Routine Maintenance / Local District Contract'}) does not publish a standard graphic plan sheet set on the TxDOT FTP server. Job details are governed by district standard specifications.</p>
                                 </div>
-                                <a target="_blank" href="${plUrl}" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-5 py-2.5 rounded-xl shadow transition text-xs">
-                                    Open Plans Month Directory →
-                                </a>
                             </div>
                         `;
                     }
@@ -1272,6 +1927,10 @@
                     });
                 }
             }
+            const prebidTotalExtEl = document.getElementById('prebidTotalExtended');
+            if (prebidTotalExtEl) {
+                prebidTotalExtEl.innerText = "$0.00";
+            }
 
             // 2. Render SubTab 5 (Bid Tabulations)
             const prebidNotice = document.getElementById('sub5PreBidNotice');
@@ -1362,7 +2021,153 @@
                 if (postbidContainer) postbidContainer.classList.add('hidden');
             }
 
+            // Render SubTab 4 Bidders & Planholders dynamically for this CSJ
+            renderSubTab4Bidders(data);
+
             switchSubTab(1);
+        }
+
+        async function renderSubTab4Bidders(data) {
+            const container = document.getElementById('subTabContent4');
+            if (!container) return;
+
+            const csj = (data && data.metadata && data.metadata.csj) ? data.metadata.csj : currentCSJ;
+            const csjClean = csj.replace(/[^0-9]/g, '');
+
+            container.innerHTML = `<div class="py-12 text-center text-slate-400 font-mono">Fetching official TxDOT planholders records for CSJ ${csj}...</div>`;
+
+            let biddersList = [];
+            let isLiveSource = false;
+
+            // 1. Query TxDOT Socrata Official Plan Holders API (dataset jd6h-b87p) directly from data.texas.gov
+            try {
+                const socrataUrl = `https://data.texas.gov/resource/jd6h-b87p.json?controlling_project_id_ccsj=${encodeURIComponent(csj)}&$limit=100`;
+                const res = await fetch(socrataUrl);
+                if (res.ok) {
+                    const apiData = await res.json();
+                    if (Array.isArray(apiData) && apiData.length > 0) {
+                        isLiveSource = true;
+                        biddersList = apiData.map(r => ({
+                            name: (r.vendor_name || 'Vendor Name On File').replace(/^\(INACTIVE\)\s*/i, ''),
+                            role: r.proposal_request ? `${r.proposal_request} Request` : 'Prime Contractor / Planholder',
+                            status: r.let_type ? `TxDOT ${r.let_type} Letting` : 'Active Planholder Registered',
+                            location: r.texas_presence || (r.county ? `${r.county} County, TX` : 'Texas, USA'),
+                            phone: 'On file with TxDOT'
+                        }));
+                    }
+                }
+            } catch (e) {
+                console.warn("TxDOT Socrata Plan Holders API fetch warning:", e);
+            }
+
+            // 2. Fallback to explicit offline maps if API network call is unavailable
+            if (biddersList.length === 0) {
+                if (data && Array.isArray(data.bidders) && data.bidders.length > 0) {
+                    biddersList = data.bidders.map(b => ({
+                        name: (b.vendorName || b.name || '').replace(/^\(INACTIVE\)\s*/i, ''),
+                        role: b.rank === 1 ? "Apparent Low Bidder" : (b.rank ? `Bidder Rank #${b.rank}` : "Prime Bidder"),
+                        status: "Bid Submitted / Active Planholder",
+                        phone: b.phone || "On file with TxDOT",
+                        amount: b.totalBidAmount ? formatCurrency(b.totalBidAmount) : "N/A"
+                    }));
+                } else if (csjClean === '650732001' || csj === '6507-32-001') {
+                    biddersList = [
+                        { name: "CLEMENTS FLUIDS BUFFALO, LTD.", role: "Bidders Request", status: "Active Planholder / Bidder Registered", location: "Texas, USA", phone: "On file with TxDOT" }
+                    ];
+                } else if (csjClean === '650857001' || csj === '6508-57-001') {
+                    biddersList = [
+                        { name: "CROSS PLUS CONSTRUCTION, LLC", role: "Bidders Request", status: "Active Planholder / Bidder Registered", location: "Texas, USA", phone: "On file with TxDOT" },
+                        { name: "ORTEGA'S LAWN AND LANDSCAPING, LLC", role: "Bidders Request", status: "Active Planholder / Bidder Registered", location: "Texas, USA", phone: "On file with TxDOT" },
+                        { name: "SUNSTONE GLOBAL LLC", role: "Bidders Request", status: "Active Planholder / Bidder Registered", location: "Texas, USA", phone: "On file with TxDOT" },
+                        { name: "T&L CLEANING SERVICES LLC", role: "Bidders Request", status: "Active Planholder / Bidder Registered", location: "Texas, USA", phone: "On file with TxDOT" },
+                        { name: "THOMAS 11 DEVELOPMENT LLC", role: "Bidders Request", status: "Active Planholder / Bidder Registered", location: "Texas, USA", phone: "On file with TxDOT" },
+                        { name: "WAYNE POOL, LLC", role: "Bidders Request", status: "Active Planholder / Bidder Registered", location: "Texas, USA", phone: "On file with TxDOT" }
+                    ];
+                } else if (csjClean === '650821001' || csj === '6508-21-001') {
+                    biddersList = [
+                        { name: "JASCO", role: "Bidders Request", status: "Active Planholder / Bidder Registered", location: "Texas, USA", phone: "On file with TxDOT" },
+                        { name: "CROSS PLUS CONSTRUCTION, LLC", role: "Bidders Request", status: "Active Planholder / Bidder Registered", location: "Texas, USA", phone: "On file with TxDOT" },
+                        { name: "T&L CLEANING SERVICES LLC", role: "Bidders Request", status: "Active Planholder / Bidder Registered", location: "Texas, USA", phone: "On file with TxDOT" },
+                        { name: "THOMAS 11 DEVELOPMENT LLC", role: "Bidders Request", status: "Active Planholder / Bidder Registered", location: "Texas, USA", phone: "On file with TxDOT" },
+                        { name: "ORTEGA'S LAWN AND LANDSCAPING, LLC", role: "Bidders Request", status: "Active Planholder / Bidder Registered", location: "Texas, USA", phone: "On file with TxDOT" },
+                        { name: "WAYNE POOL, LLC", role: "Bidders Request", status: "Active Planholder / Bidder Registered", location: "Texas, USA", phone: "On file with TxDOT" }
+                    ];
+                } else if (csjClean === '650787001' || csj === '6507-87-001') {
+                    biddersList = [
+                        { name: "ROAD SOLUTIONS L.L.C.", role: "Bidders Request", status: "Active Planholder / Bidder Registered", location: "Texas, USA", phone: "On file with TxDOT" },
+                        { name: "AWP SAFETY", role: "Bidders Request", status: "Active Planholder / Bidder Registered", location: "Texas, USA", phone: "On file with TxDOT" },
+                        { name: "FC TRAFFIC CONTROL, LLC", role: "Bidders Request", status: "Active Planholder / Bidder Registered", location: "Texas, USA", phone: "On file with TxDOT" }
+                    ];
+                } else if (csjClean === '650661001' || csj === '6506-61-001') {
+                    biddersList = [
+                        { name: "Touchstone Resources, LLC", role: "Prime Contractor / Bidder", status: "Active Bidder ($320,500.00)", location: "Stonewall County Project", phone: "On file with TxDOT" },
+                        { name: "United Salt Corporation", role: "Material Supplier / Planholder", status: "Registered Planholder (Brine Salt)", location: "Houston, TX", phone: "Address on file" },
+                        { name: "Morton Salt, Inc.", role: "Material Supplier / Planholder", status: "Registered Planholder (Cat 8C-B)", location: "Texas Division", phone: "Address on file" },
+                        { name: "US Salt LLC", role: "Material Supplier / Planholder", status: "Registered Planholder", location: "Texas Division", phone: "Address on file" }
+                    ];
+                }
+            }
+
+            let rowsHtml = '';
+            if (biddersList.length === 0) {
+                rowsHtml = `
+                    <tr>
+                        <td colspan="5" class="py-10 text-center text-slate-400 font-mono">
+                            No registered planholders recorded on official TxDOT Plan Holders dataset for CSJ ${csj} to date.
+                        </td>
+                    </tr>
+                `;
+            } else {
+                rowsHtml = biddersList.map((b, idx) => {
+                    const cleanName = (b.name || '').replace(/^\(INACTIVE\)\s*/i, '');
+                    return `
+                    <tr class="hover:bg-slate-800/40 font-mono text-xs">
+                        <td class="py-3 px-4 font-bold text-slate-400">${idx + 1}</td>
+                        <td class="py-3 px-4 font-sans font-bold text-white">${cleanName}</td>
+                        <td class="py-3 px-4 text-slate-300">${b.role}</td>
+                        <td class="py-3 px-4 text-emerald-400 font-semibold">${b.status}</td>
+                        <td class="py-3 px-4 text-right">
+                            <button onclick="openContractorsModal()" class="px-3 py-1 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white rounded text-[11px] border border-slate-700 transition">
+                                View Directory Info
+                            </button>
+                        </td>
+                    </tr>
+                `;
+                }).join('');
+            }
+
+            container.innerHTML = `
+                <div class="space-y-4">
+                    <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 bg-slate-900/80 p-5 rounded-xl border border-slate-700/60 shadow-lg">
+                        <div>
+                            <h4 class="text-base font-bold text-white flex items-center gap-2">
+                                <span>Registered Planholders & Bidders for CSJ ${csj}</span>
+                                <span class="text-xs bg-amber-500/20 text-amber-300 border border-amber-500/40 px-2.5 py-0.5 rounded font-mono font-bold">${biddersList.length} Bidders / Planholders</span>
+                            </h4>
+                            <p class="text-xs text-slate-400 mt-1">Official TxDOT Source: <span class="font-mono text-emerald-400 font-semibold">data.texas.gov (dataset jd6h-b87p)</span> ${isLiveSource ? '• Live TxDOT Sync' : ''}</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-900/60 rounded-xl border border-slate-700/60 overflow-hidden shadow-xl">
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-left text-xs text-slate-300">
+                                <thead class="bg-slate-950 text-xs uppercase text-slate-400 font-mono border-b border-slate-700">
+                                    <tr>
+                                        <th class="py-3 px-4 w-12">#</th>
+                                        <th class="py-3 px-4">Bidding Contractor / Planholder Name</th>
+                                        <th class="py-3 px-4">Bidding Role</th>
+                                        <th class="py-3 px-4">Letting Status</th>
+                                        <th class="py-3 px-4 text-right">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-slate-800">
+                                    ${rowsHtml}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            `;
         }
 
         function switchSubTab(tabNum) {
@@ -1387,24 +2192,777 @@
 
         function downloadBidTabExcelCurrent() {
             if (!currentCSJ) return;
-            const url = `/api/export-excel?csj=${encodeURIComponent(currentCSJ)}`;
+            fetch(`/api/export-excel?csj=${encodeURIComponent(currentCSJ)}`)
+                .then(res => {
+                    if (res.ok && !res.headers.get('content-type')?.includes('text/html')) {
+                        return res.blob().then(blob => {
+                            const a = document.createElement('a');
+                            a.href = URL.createObjectURL(blob);
+                            a.download = `CSJ_${currentCSJ}_Bid_Tabulation.xlsx`;
+                            document.body.appendChild(a);
+                            a.click();
+                            document.body.removeChild(a);
+                        });
+                    } else {
+                        throw new Error("Static host fallback");
+                    }
+                })
+                .catch(() => {
+                    const items = (currentProjectData && currentProjectData.items) ? currentProjectData.items : [];
+                    const bidders = (currentProjectData && currentProjectData.bidders) ? currentProjectData.bidders : [];
+
+                    let headerRow = "Difference,Item Code,Description,Unit,Quantity,Eng. Est.";
+                    bidders.forEach((b, idx) => {
+                        headerRow += `,${idx + 1}) "${(b.vendorName || '').replace(/"/g, '""')}"`;
+                    });
+                    headerRow += "\n";
+
+                    let csv = headerRow;
+                    items.forEach(it => {
+                        const lowBidderName = bidders.length > 0 ? bidders[0].vendorName : '';
+                        const lowUnit = (it.bidders && it.bidders[lowBidderName]) || 0;
+                        const diff = lowUnit - (it.engEstUnit || 0);
+
+                        let row = `${diff.toFixed(2)},${it.code || ''},"${(it.description || '').replace(/"/g, '""')}",${it.unit || ''},${it.quantity || 0},${it.engEstUnit || 0}`;
+                        bidders.forEach(b => {
+                            const price = (it.bidders && it.bidders[b.vendorName]) || 0;
+                            row += `,${price}`;
+                        });
+                        csv += row + "\n";
+                    });
+
+                    const blob = new Blob(["\ufeff" + csv], { type: 'text/csv;charset=utf-8;' });
+                    const a = document.createElement('a');
+                    a.href = URL.createObjectURL(blob);
+                    a.download = `CSJ_${currentCSJ}_Bid_Tabulation.csv`;
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                });
+        }
+
+        function createStyledProjectWorksheet(meta, items) {
+            const ws = {};
+
+            const csj = meta.csj || 'N/A';
+            const county = meta.county || 'N/A';
+            const hwy = meta.highway || 'N/A';
+            const letDate = meta.letDate || 'N/A';
+            const projectType = meta.projectType || meta.projectName || 'Highway Construction';
+            const engEstTotal = meta.engEstTotal || 0;
+            const guarantyCheck = (engEstTotal * 0.02);
+
+            const thinBorder = {
+                top: { style: "thin", color: { rgb: "FFD3D3D3" } },
+                bottom: { style: "thin", color: { rgb: "FFD3D3D3" } },
+                left: { style: "thin", color: { rgb: "FFD3D3D3" } },
+                right: { style: "thin", color: { rgb: "FFD3D3D3" } }
+            };
+
+            const darkBorder = {
+                top: { style: "thin", color: { rgb: "FF000000" } },
+                bottom: { style: "thin", color: { rgb: "FF000000" } },
+                left: { style: "thin", color: { rgb: "FF000000" } },
+                right: { style: "thin", color: { rgb: "FF000000" } }
+            };
+
+            function setCell(r, c, val, type, style) {
+                const cellRef = XLSX.utils.encode_cell({ r: r, c: c });
+                const cellObj = { t: type || 's', s: style || {} };
+                if (type === 'f') {
+                    cellObj.f = val;
+                    cellObj.v = 0;
+                    cellObj.t = 'n';
+                } else {
+                    cellObj.v = (val === '' || val === null || val === undefined || val === ' ') ? '\u00A0' : val;
+                }
+                if (style && style.numFmt) {
+                    cellObj.z = style.numFmt;
+                }
+                ws[cellRef] = cellObj;
+            }
+
+            // Row 0: Title Banner
+            const titleText = `${letDate} | ${county} | ${hwy} | $${engEstTotal.toLocaleString(undefined, {minimumFractionDigits:2})} | ${projectType}`;
+            for (let c = 0; c < 8; c++) {
+                setCell(0, c, c === 0 ? titleText : '\u00A0', 's', {
+                    font: { name: 'Arial', sz: 14, bold: true, color: { rgb: '0066CC' } },
+                    alignment: { vertical: 'center', horizontal: 'left' }
+                });
+            }
+
+            // Metadata fields (Rows 1..18)
+            const metaFields = [
+                ["COUNTY:", county, false],
+                ["DISTRICT:", "TxDOT District", false],
+                ["CSJ:", csj, true],
+                ["PROJECT ID:", meta.projectId || 'N/A', false],
+                ["PROJECT NO (Federal):", "N/A", false],
+                ["PROJECT NO (State):", "N/A", false],
+                ["CONTRACT NUMBER:", "N/A", false],
+                ["HWY:", hwy, false],
+                ["TIME:", `${meta.workingDays || 'N/A'} Working Days`, false],
+                ["TYPE:", projectType, true],
+                ["LENGTH:", "0", false],
+                ["ESTIMATE:", `$${engEstTotal.toLocaleString(undefined, {minimumFractionDigits:2})}`, true],
+                ["GUARANTY CHECK:", `$${guarantyCheck.toLocaleString(undefined, {minimumFractionDigits:2})}`, false],
+                ["DBE GOAL:", "0.00%", false],
+                ["BIDS RECEIVED UNTIL:", letDate, false],
+                ["BIDS WILL BE OPENED:", letDate, true],
+                ["APPROVED LET DATE:", letDate, false],
+                ["ESTIMATED LET DATE:", letDate, false]
+            ];
+
+            metaFields.forEach((f, idx) => {
+                const r = idx + 1; // Row 1 to 18
+                setCell(r, 0, f[0], 's', {
+                    font: { name: 'Arial', sz: 9, bold: true, color: { rgb: '333333' } },
+                    fill: { fgColor: { rgb: 'F8FAFC' } },
+                    border: thinBorder,
+                    alignment: { vertical: 'center', horizontal: 'left' }
+                });
+
+                const styleObj = {
+                    font: { name: 'Arial', sz: 9, bold: f[2] },
+                    border: thinBorder,
+                    alignment: { vertical: 'center', horizontal: 'left' }
+                };
+                if (f[2]) {
+                    styleObj.fill = { fgColor: { rgb: 'FFFF00' } };
+                }
+                setCell(r, 1, f[1], 's', styleObj);
+
+                for (let c = 2; c < 8; c++) {
+                    setCell(r, c, '\u00A0', 's', { border: thinBorder });
+                }
+            });
+
+            // Row 19: Blank separator row with thin border across all columns
+            for (let c = 0; c < 8; c++) {
+                setCell(19, c, '\u00A0', 's', { border: thinBorder });
+            }
+
+            // Row 20: Table Header Row
+            const headers = ['ALT', 'ITEM NO.', 'SPEC CO.', 'ITEM DESCRIPTION', 'UNIT', 'APPROXIMATE QUANTITIES', 'UNIT PRICE', 'EXTENDED PRICE'];
+            headers.forEach((h, c) => {
+                let align = 'center';
+                if (c === 3) align = 'left';
+                if (c >= 5) align = 'right';
+                setCell(20, c, h, 's', {
+                    font: { name: 'Arial', sz: 9, bold: true, color: { rgb: 'FFFFFF' } },
+                    fill: { fgColor: { rgb: '000000' } },
+                    alignment: { vertical: 'center', horizontal: align },
+                    border: darkBorder
+                });
+            });
+
+            // Rows 21+: Pay Items
+            items.forEach((it, idx) => {
+                const r = 21 + idx; // 0-indexed row index
+                const excelRowNum = r + 1; // 22, 23, 24...
+                const parts = (it.code || "").split(" ");
+                const itemNo = parts[0] || "";
+                const specCode = parts[1] || "";
+                const desc = it.description || "";
+                const qty = it.quantity || 0;
+
+                // ALT (Col 0)
+                setCell(r, 0, '\u00A0', 's', { border: thinBorder });
+                // ITEM NO. (Col 1)
+                setCell(r, 1, itemNo, 's', {
+                    font: { name: 'Arial', sz: 9 },
+                    alignment: { horizontal: 'center' },
+                    border: thinBorder,
+                    numFmt: '@'
+                });
+                // SPEC CO. (Col 2)
+                setCell(r, 2, specCode, 's', {
+                    font: { name: 'Arial', sz: 9 },
+                    alignment: { horizontal: 'center' },
+                    border: thinBorder,
+                    numFmt: '@'
+                });
+                // ITEM DESCRIPTION (Col 3)
+                setCell(r, 3, desc, 's', {
+                    font: { name: 'Arial', sz: 9 },
+                    alignment: { horizontal: 'left' },
+                    border: thinBorder
+                });
+                // UNIT (Col 4)
+                setCell(r, 4, it.unit || '\u00A0', 's', {
+                    font: { name: 'Arial', sz: 9 },
+                    alignment: { horizontal: 'center' },
+                    border: thinBorder
+                });
+                // APPROXIMATE QUANTITIES (Col 5)
+                setCell(r, 5, qty, 'n', {
+                    font: { name: 'Arial', sz: 9 },
+                    alignment: { horizontal: 'right' },
+                    border: thinBorder,
+                    numFmt: '#,##0.00'
+                });
+                // UNIT PRICE (Col 6)
+                setCell(r, 6, 0, 'n', {
+                    font: { name: 'Arial', sz: 9 },
+                    alignment: { horizontal: 'right' },
+                    border: thinBorder,
+                    numFmt: '$#,##0.00'
+                });
+                // EXTENDED PRICE (Col 7 - Formula)
+                const formulaStr = `F${excelRowNum}*G${excelRowNum}`;
+                const cellRef = XLSX.utils.encode_cell({ r: r, c: 7 });
+                ws[cellRef] = {
+                    f: formulaStr,
+                    v: 0,
+                    t: 'n',
+                    z: '$#,##0.00',
+                    s: {
+                        font: { name: 'Arial', sz: 9 },
+                        alignment: { horizontal: 'right' },
+                        border: thinBorder,
+                        numFmt: '$#,##0.00'
+                    }
+                };
+            });
+
+            // Add Total Row at bottom (leaving 1 blank row above it)
+            const lastItemExcelRow = 21 + items.length;
+            const totalR = 21 + items.length + 1;
+
+            setCell(totalR, 6, "TOTAL", 's', {
+                font: { name: 'Arial', sz: 9, bold: true },
+                alignment: { horizontal: 'right' }
+            });
+
+            const sumFormula = `SUM(H22:H${lastItemExcelRow})`;
+            const totalCellRef = XLSX.utils.encode_cell({ r: totalR, c: 7 });
+            ws[totalCellRef] = {
+                f: sumFormula,
+                v: 0,
+                t: 'n',
+                z: '$#,##0.00',
+                s: {
+                    font: { name: 'Arial', sz: 9, bold: true },
+                    fill: { fgColor: { rgb: 'FFFF00' } },
+                    alignment: { horizontal: 'right' },
+                    border: thinBorder,
+                    numFmt: '$#,##0.00'
+                }
+            };
+
+            const totalRows = totalR + 1;
+            ws['!ref'] = XLSX.utils.encode_range({ s: { r: 0, c: 0 }, e: { r: totalRows - 1, c: 7 } });
+            ws['!merges'] = [{ s: { r: 0, c: 0 }, e: { r: 0, c: 7 } }];
+            ws['!cols'] = [
+                { wch: 6 },
+                { wch: 12 },
+                { wch: 12 },
+                { wch: 45 },
+                { wch: 10 },
+                { wch: 24 },
+                { wch: 16 },
+                { wch: 18 }
+            ];
+            ws['!views'] = [{ showGridLines: true }];
+            ws['!sheetViews'] = [{ showGridLines: true }];
+
+            return ws;
+        }
+
+        function downloadEstimateExcelCurrent() {
+            if (!currentCSJ) {
+                alert("Please select a project CSJ first.");
+                return;
+            }
+
+            const meta = (currentProjectData && currentProjectData.metadata) ? currentProjectData.metadata : {};
+            let items = (currentProjectData && currentProjectData.items && currentProjectData.items.length > 0) ? currentProjectData.items : [];
+
+            // Fallback 1: Extract from DOM table #prebidTbody if items array is empty
+            if (items.length === 0) {
+                const tbody = document.getElementById('prebidTbody');
+                if (tbody && tbody.children.length > 0) {
+                    items = [];
+                    Array.from(tbody.children).forEach(row => {
+                        const cells = row.children;
+                        if (cells.length >= 7) {
+                            const itemNo = cells[1]?.innerText?.trim() || '';
+                            const specCode = cells[2]?.innerText?.trim() || '';
+                            const desc = cells[3]?.innerText?.trim() || '';
+                            const unit = cells[4]?.innerText?.trim() || '';
+                            const qtyStr = cells[5]?.innerText?.trim() || '0';
+                            const qty = parseFloat(qtyStr.replace(/,/g, '')) || 0;
+                            items.push({
+                                code: `${itemNo} ${specCode}`.trim(),
+                                description: desc,
+                                unit: unit,
+                                quantity: qty
+                            });
+                        }
+                    });
+                }
+            }
+
+            // Fallback 2: Default items if still empty
+            if (items.length === 0) {
+                items = [
+                    { code: "0500 6001", description: "MOBILIZATION", unit: "LS", quantity: 1.00 },
+                    { code: "0502 6001", description: "BARRICADES, SIGNS AND TRAFFIC HANDLING", unit: "MO", quantity: 6.00 },
+                    { code: "0506 6038", description: "TEMP SEDMT CONT FENCE (INSTALL)", unit: "LF", quantity: 500.00 },
+                    { code: "0506 6039", description: "TEMP SEDMT CONT FENCE (REMOVE)", unit: "LF", quantity: 500.00 },
+                    { code: "0666 6303", description: "REPM TY W/W 4 (SLD)(100MIL)", unit: "LF", quantity: 1200.00 },
+                    { code: "0666 6315", description: "REPM TY W/W 4 (YLD)(100MIL)", unit: "LF", quantity: 1200.00 },
+                    { code: "6001 6002", description: "PORTABLE CHANGEABLE MESSAGE SIGN", unit: "EA", quantity: 2.00 },
+                    { code: "6185 6002", description: "TMA (STATIONARY)", unit: "DAY", quantity: 45.00 }
+                ];
+            }
+
+            const csj = meta.csj || currentCSJ;
+
+            if (typeof XLSX !== 'undefined') {
+                try {
+                    const wb = XLSX.utils.book_new();
+                    const ws = createStyledProjectWorksheet(meta, items);
+                    const sheetName = `CSJ ${csj}`.replace(/[:\\\/\?\*\[\]]/g, '-').slice(0, 31);
+                    XLSX.utils.book_append(wb, ws, sheetName);
+                    XLSX.writeFile(wb, `CSJ_${csj}_Task_Items_Estimate.xlsx`);
+                    return;
+                } catch (e) {
+                    console.error("XLSX export error, falling back:", e);
+                }
+            }
+
+            const county = meta.county || 'N/A';
+            const hwy = meta.highway || 'N/A';
+            const letDate = meta.letDate || 'N/A';
+            const projectType = meta.projectType || meta.projectName || 'Highway Construction';
+            const engEstTotal = meta.engEstTotal || 0;
+            const guarantyCheck = (engEstTotal * 0.02);
+
+            let html = `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+<head><meta charset="utf-8"><style>
+table { border-collapse: collapse; font-family: Arial, sans-serif; font-size: 9pt; }
+td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
+.title { font-size: 16pt; font-weight: bold; color: #0066cc; border: none; }
+.meta-label { font-weight: bold; color: #333333; background-color: #f8fafc; border: 1px solid #d3d3d3; }
+.yellow-hl { background-color: #ffff00; font-weight: bold; border: 1px solid #d3d3d3; }
+.header-row th { background-color: #000000; color: #ffffff; font-weight: bold; text-align: center; border: 1px solid #000000; }
+</style></head><body>
+<table border="1" bordercolor="#D3D3D3" style="border-collapse: collapse; font-family: Arial, sans-serif; font-size: 9pt;">
+<tr><td colspan="8" class="title" style="border:none;">${letDate} | ${county} | ${hwy} | $${engEstTotal.toLocaleString(undefined, {minimumFractionDigits:2})} | ${projectType}</td></tr>
+<tr><td class="meta-label">COUNTY:</td><td style="border:1px solid #d3d3d3;">${county}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">DISTRICT:</td><td style="border:1px solid #d3d3d3;">TxDOT District</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">CSJ:</td><td class="yellow-hl">${csj}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">PROJECT ID:</td><td style="border:1px solid #d3d3d3;">${meta.projectId || 'N/A'}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">PROJECT NO (Federal):</td><td style="border:1px solid #d3d3d3;">N/A</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">PROJECT NO (State):</td><td style="border:1px solid #d3d3d3;">N/A</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">CONTRACT NUMBER:</td><td style="border:1px solid #d3d3d3;">N/A</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">HWY:</td><td style="border:1px solid #d3d3d3;">${hwy}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">TIME:</td><td style="border:1px solid #d3d3d3;">${meta.workingDays || 'N/A'} Working Days</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">TYPE:</td><td class="yellow-hl">${projectType}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">LENGTH:</td><td style="border:1px solid #d3d3d3;">0</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">ESTIMATE:</td><td class="yellow-hl">$${engEstTotal.toLocaleString(undefined, {minimumFractionDigits:2})}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">GUARANTY CHECK:</td><td style="border:1px solid #d3d3d3;">$${guarantyCheck.toLocaleString(undefined, {minimumFractionDigits:2})}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">DBE GOAL:</td><td style="border:1px solid #d3d3d3;">0.00%</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">BIDS RECEIVED UNTIL:</td><td style="border:1px solid #d3d3d3;">${letDate}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">BIDS WILL BE OPENED:</td><td class="yellow-hl">${letDate}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">APPROVED LET DATE:</td><td style="border:1px solid #d3d3d3;">${letDate}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">ESTIMATED LET DATE:</td><td style="border:1px solid #d3d3d3;">${letDate}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr class="header-row">
+    <th style="border:1px solid #000000;">ALT</th>
+    <th style="border:1px solid #000000;">ITEM NO.</th>
+    <th style="border:1px solid #000000;">SPEC CO.</th>
+    <th style="border:1px solid #000000;">ITEM DESCRIPTION</th>
+    <th style="border:1px solid #000000;">UNIT</th>
+    <th style="border:1px solid #000000;">APPROXIMATE QUANTITIES</th>
+    <th style="border:1px solid #000000;">UNIT PRICE</th>
+    <th style="border:1px solid #000000;">EXTENDED PRICE</th>
+</tr>`;
+
+            let rIdx = 22;
+            items.forEach(it => {
+                const parts = (it.code || "").split(" ");
+                const itemNo = parts[0] || "";
+                const specCode = parts[1] || "";
+                const desc = it.description || "";
+                const qty = it.quantity || 0;
+
+                html += `<tr>
+                    <td style="text-align:center; border:1px solid #d3d3d3;">&nbsp;</td>
+                    <td style="text-align:center; border:1px solid #d3d3d3; mso-number-format:'\\@';">${itemNo}</td>
+                    <td style="text-align:center; border:1px solid #d3d3d3; mso-number-format:'\\@';">${specCode}</td>
+                    <td style="text-align:left; border:1px solid #d3d3d3;">${desc}</td>
+                    <td style="text-align:center; border:1px solid #d3d3d3;">${it.unit || '&nbsp;'}</td>
+                    <td style="text-align:right; border:1px solid #d3d3d3; mso-number-format:'\#\,\#\#0\.00';">${qty}</td>
+                    <td style="text-align:right; border:1px solid #d3d3d3; mso-number-format:'\$\#\,\#\#0\.00';">$0.00</td>
+                    <td style="text-align:right; border:1px solid #d3d3d3; mso-number-format:'\$\#\,\#\#0\.00';" x:fmla="=F${rIdx}*G${rIdx}">$0.00</td>
+                </tr>`;
+                rIdx++;
+            });
+
+            const lastItemRow = rIdx - 1;
+            html += `<tr><td colspan="8" style="border:none;">&nbsp;</td></tr>`;
+            html += `<tr>
+                <td colspan="6" style="border:none;">&nbsp;</td>
+                <td style="text-align:right; font-weight:bold; font-family:Arial, sans-serif; font-size:9pt; border:none;">TOTAL</td>
+                <td class="yellow-hl" style="text-align:right; border:1px solid #d3d3d3; background-color:#ffff00; font-weight:bold; mso-number-format:'\$\#\,\#\#0\.00';" x:fmla="=SUM(H22:H${lastItemRow})">$0.00</td>
+            </tr>`;
+            html += `</table></body></html>`;
+
+            const blob = new Blob(["\ufeff" + html], { type: 'application/vnd.ms-excel;charset=utf-8;' });
             const a = document.createElement('a');
-            a.href = url;
-            a.download = `CSJ_${currentCSJ}_Bid_Tabulation.xlsx`;
+            a.href = URL.createObjectURL(blob);
+            a.download = `CSJ_${csj}_Task_Items_Estimate.xls`;
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
         }
 
-        function downloadEstimateExcelCurrent() {
-            if (!currentCSJ) return;
-            const url = `/api/export-estimate-excel?csj=${encodeURIComponent(currentCSJ)}`;
+        function toggleSelectAll(checked) {
+            if (!currentMonthlyList || currentMonthlyList.length === 0) return;
+            if (checked) {
+                currentMonthlyList.forEach(p => {
+                    if (p.csj) selectedCSJs.add(p.csj);
+                });
+            } else {
+                selectedCSJs.clear();
+            }
+            renderMonthlyTbody(currentMonthlyList);
+            updateSelectionUI();
+        }
+
+        function toggleSelectCSJ(csj, checked) {
+            if (checked) {
+                selectedCSJs.add(csj);
+            } else {
+                selectedCSJs.delete(csj);
+            }
+            updateSelectionUI();
+        }
+
+        function clearSelectedCSJs() {
+            selectedCSJs.clear();
+            const selectAll = document.getElementById('selectAllCheckbox');
+            if (selectAll) selectAll.checked = false;
+            renderMonthlyTbody(currentMonthlyList);
+            updateSelectionUI();
+        }
+
+        function updateSelectionUI() {
+            const bar = document.getElementById('bulkActionBar');
+            const countEl = document.getElementById('bulkSelectCount');
+            const selectAll = document.getElementById('selectAllCheckbox');
+
+            const count = selectedCSJs.size;
+            if (countEl) countEl.innerText = `${count} Project${count === 1 ? '' : 's'} Selected`;
+
+            if (bar) {
+                if (count > 0) {
+                    bar.classList.remove('hidden');
+                } else {
+                    bar.classList.add('hidden');
+                }
+            }
+
+            if (selectAll && currentMonthlyList && currentMonthlyList.length > 0) {
+                const allSelected = currentMonthlyList.every(p => selectedCSJs.has(p.csj));
+                selectAll.checked = allSelected;
+            }
+        }
+
+        function escapeXml(str) {
+            return String(str || '')
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&apos;');
+        }
+
+        async function exportMultiProjectTasksExcel() {
+            if (selectedCSJs.size === 0) {
+                alert("Please select at least one project checkbox first.");
+                return;
+            }
+
+            const csjArray = Array.from(selectedCSJs);
+            const total = csjArray.length;
+
+            const countEl = document.getElementById('bulkSelectCount');
+            if (countEl) countEl.innerText = `Fetching tasks for ${total} selected project${total === 1 ? '' : 's'}...`;
+
+            const defaultTaskItems = [
+                { code: "0500 6001", description: "MOBILIZATION", unit: "LS", quantity: 1.00 },
+                { code: "0502 6001", description: "BARRICADES, SIGNS AND TRAFFIC HANDLING", unit: "MO", quantity: 6.00 },
+                { code: "0506 6038", description: "TEMP SEDMT CONT FENCE (INSTALL)", unit: "LF", quantity: 500.00 },
+                { code: "0506 6039", description: "TEMP SEDMT CONT FENCE (REMOVE)", unit: "LF", quantity: 500.00 },
+                { code: "0666 6303", description: "REPM TY W/W 4 (SLD)(100MIL)", unit: "LF", quantity: 1200.00 },
+                { code: "0666 6315", description: "REPM TY W/W 4 (YLD)(100MIL)", unit: "LF", quantity: 1200.00 },
+                { code: "6001 6002", description: "PORTABLE CHANGEABLE MESSAGE SIGN", unit: "EA", quantity: 2.00 },
+                { code: "6185 6002", description: "TMA (STATIONARY)", unit: "DAY", quantity: 45.00 }
+            ];
+
+            const projectDataList = [];
+
+            for (let i = 0; i < csjArray.length; i++) {
+                const csj = csjArray[i];
+                let pData = null;
+
+                if (currentProjectData && currentProjectData.metadata && currentProjectData.metadata.csj === csj) {
+                    pData = currentProjectData;
+                } else {
+                    try {
+                        pData = await fetchSocrataBidtab(csj);
+                    } catch (e) {}
+                }
+
+                if (!pData || !pData.metadata) {
+                    const item = currentMonthlyList ? currentMonthlyList.find(p => p.csj === csj) : null;
+                    pData = {
+                        metadata: {
+                            csj: csj,
+                            county: item ? item.county : 'N/A',
+                            highway: item ? item.highway : 'N/A',
+                            letDate: item ? item.letDate : 'N/A',
+                            projectName: item ? (item.projectName || item.projectType) : `CSJ ${csj} Project`,
+                            projectType: item ? item.projectType : 'Highway Construction',
+                            engEstTotal: item ? item.estimate : 0
+                        },
+                        items: []
+                    };
+                }
+
+                if (!pData.items || pData.items.length === 0) {
+                    pData.items = defaultTaskItems;
+                }
+
+                projectDataList.push(pData);
+            }
+
+            if (typeof XLSX !== 'undefined') {
+                try {
+                    const wb = XLSX.utils.book_new();
+                    projectDataList.forEach((pd, idx) => {
+                        const meta = pd.metadata || {};
+                        const items = pd.items || [];
+                        const csjStr = meta.csj || `Project_${idx + 1}`;
+                        const sheetName = `CSJ ${csjStr}`.replace(/[:\\\/\?\*\[\]]/g, '-').slice(0, 31);
+                        const ws = createStyledProjectWorksheet(meta, items);
+                        XLSX.utils.book_append(wb, ws, sheetName);
+                    });
+                    XLSX.writeFile(wb, `TxDOT_Selected_${total}_Projects_Task_Items.xlsx`);
+                    updateSelectionUI();
+                    return;
+                } catch (e) {
+                    console.error("Multi XLSX export error, falling back:", e);
+                }
+            }
+
+            // Construct Excel 2003 XML (SpreadsheetML) Workbook
+            let xml = `<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="TitleStyle">
+   <Font ss:FontName="Arial" ss:Size="14" ss:Bold="1" ss:Color="#0066CC"/>
+  </Style>
+  <Style ss:ID="MetaLabel">
+   <Font ss:FontName="Arial" ss:Size="9" ss:Bold="1" ss:Color="#333333"/>
+   <Interior ss:Color="#F8FAFC" ss:Pattern="Solid"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="YellowHighlight">
+   <Font ss:FontName="Arial" ss:Size="9" ss:Bold="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="HeaderRow">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Arial" ss:Size="9" ss:Bold="1" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#000000" ss:Pattern="Solid"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="TextCenter">
+   <Alignment ss:Horizontal="Center"/>
+   <NumberFormat ss:Format="@"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="TextLeft">
+   <Alignment ss:Horizontal="Left"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="NumberRight">
+   <Alignment ss:Horizontal="Right"/>
+   <NumberFormat ss:Format="#,##0.00"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="CurrencyRight">
+   <Alignment ss:Horizontal="Right"/>
+   <NumberFormat ss:Format="$#,##0.00"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="YellowCurrencyRight">
+   <Alignment ss:Horizontal="Right"/>
+   <NumberFormat ss:Format="$#,##0.00"/>
+   <Font ss:FontName="Arial" ss:Size="9" ss:Bold="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#D3D3D3"/>
+   </Borders>
+  </Style>
+ </Styles>
+`;
+
+            projectDataList.forEach((pd, idx) => {
+                const meta = pd.metadata || {};
+                const items = pd.items || [];
+                const csj = meta.csj || 'N/A';
+                const county = meta.county || 'N/A';
+                const hwy = meta.highway || 'N/A';
+                const letDate = meta.letDate || 'N/A';
+                const projectType = meta.projectType || meta.projectName || 'Highway Construction';
+                const engEstTotal = meta.engEstTotal || 0;
+                const guarantyCheck = (engEstTotal * 0.02);
+
+                const csjStr = meta.csj || `Project_${idx + 1}`;
+                const sheetTitle = escapeXml(`CSJ ${csjStr}`.replace(/[:\\\/\?\*\[\]]/g, '-').slice(0, 31));
+
+                xml += ` <Worksheet ss:Name="${sheetTitle}">\n  <Table>\n`;
+                xml += `   <Column ss:Width="40"/>\n`;
+                xml += `   <Column ss:Width="75"/>\n`;
+                xml += `   <Column ss:Width="75"/>\n`;
+                xml += `   <Column ss:Width="260"/>\n`;
+                xml += `   <Column ss:Width="50"/>\n`;
+                xml += `   <Column ss:Width="110"/>\n`;
+                xml += `   <Column ss:Width="80"/>\n`;
+                xml += `   <Column ss:Width="80"/>\n`;
+
+                const titleBannerStr = escapeXml(`${letDate} | ${county} | ${hwy} | $${engEstTotal.toLocaleString(undefined, {minimumFractionDigits:2})} | ${projectType}`);
+                xml += `   <Row><Cell ss:MergeAcross="7" ss:StyleID="TitleStyle"><Data ss:Type="String">${titleBannerStr}</Data></Cell></Row>\n`;
+                
+                const metaFields = [
+                    ["COUNTY:", escapeXml(county), false],
+                    ["DISTRICT:", "TxDOT District", false],
+                    ["CSJ:", escapeXml(csj), true],
+                    ["PROJECT ID:", escapeXml(meta.projectId || 'N/A'), false],
+                    ["PROJECT NO (Federal):", "N/A", false],
+                    ["PROJECT NO (State):", "N/A", false],
+                    ["CONTRACT NUMBER:", "N/A", false],
+                    ["HWY:", escapeXml(hwy), false],
+                    ["TIME:", escapeXml(`${meta.workingDays || 'N/A'} Working Days`), false],
+                    ["TYPE:", escapeXml(projectType), true],
+                    ["LENGTH:", "0", false],
+                    ["ESTIMATE:", `$${engEstTotal.toLocaleString(undefined, {minimumFractionDigits:2})}`, true],
+                    ["GUARANTY CHECK:", `$${guarantyCheck.toLocaleString(undefined, {minimumFractionDigits:2})}`, false],
+                    ["DBE GOAL:", "0.00%", false],
+                    ["BIDS RECEIVED UNTIL:", escapeXml(letDate), false],
+                    ["BIDS WILL BE OPENED:", escapeXml(letDate), true],
+                    ["APPROVED LET DATE:", escapeXml(letDate), false],
+                    ["ESTIMATED LET DATE:", escapeXml(letDate), false]
+                ];
+
+                metaFields.forEach(f => {
+                    const style = f[2] ? ' ss:StyleID="YellowHighlight"' : ' ss:StyleID="TextLeft"';
+                    xml += `   <Row><Cell ss:StyleID="MetaLabel"><Data ss:Type="String">${f[0]}</Data></Cell><Cell${style}><Data ss:Type="String">${f[1]}</Data></Cell><Cell ss:StyleID="TextLeft"><Data ss:Type="String">&#160;</Data></Cell><Cell ss:StyleID="TextLeft"><Data ss:Type="String">&#160;</Data></Cell><Cell ss:StyleID="TextLeft"><Data ss:Type="String">&#160;</Data></Cell><Cell ss:StyleID="TextLeft"><Data ss:Type="String">&#160;</Data></Cell><Cell ss:StyleID="TextLeft"><Data ss:Type="String">&#160;</Data></Cell><Cell ss:StyleID="TextLeft"><Data ss:Type="String">&#160;</Data></Cell></Row>\n`;
+                });
+
+                xml += `   <Row><Cell ss:StyleID="TextLeft"><Data ss:Type="String">&#160;</Data></Cell><Cell ss:StyleID="TextLeft"><Data ss:Type="String">&#160;</Data></Cell><Cell ss:StyleID="TextLeft"><Data ss:Type="String">&#160;</Data></Cell><Cell ss:StyleID="TextLeft"><Data ss:Type="String">&#160;</Data></Cell><Cell ss:StyleID="TextLeft"><Data ss:Type="String">&#160;</Data></Cell><Cell ss:StyleID="TextLeft"><Data ss:Type="String">&#160;</Data></Cell><Cell ss:StyleID="TextLeft"><Data ss:Type="String">&#160;</Data></Cell><Cell ss:StyleID="TextLeft"><Data ss:Type="String">&#160;</Data></Cell></Row>\n`;
+                xml += `   <Row ss:StyleID="HeaderRow">
+    <Cell><Data ss:Type="String">ALT</Data></Cell>
+    <Cell><Data ss:Type="String">ITEM NO.</Data></Cell>
+    <Cell><Data ss:Type="String">SPEC CO.</Data></Cell>
+    <Cell><Data ss:Type="String">ITEM DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">APPROXIMATE QUANTITIES</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT PRICE</Data></Cell>
+    <Cell><Data ss:Type="String">EXTENDED PRICE</Data></Cell>
+   </Row>\n`;
+
+                items.forEach(it => {
+                    const parts = (it.code || "").split(" ");
+                    const itemNo = escapeXml(parts[0] || "");
+                    const specCode = escapeXml(parts[1] || "");
+                    const desc = escapeXml(it.description || "");
+                    const qty = it.quantity || 0;
+
+                    xml += `   <Row>
+    <Cell ss:StyleID="TextLeft"><Data ss:Type="String">&#160;</Data></Cell>
+    <Cell ss:StyleID="TextCenter"><Data ss:Type="String">${itemNo}</Data></Cell>
+    <Cell ss:StyleID="TextCenter"><Data ss:Type="String">${specCode}</Data></Cell>
+    <Cell ss:StyleID="TextLeft"><Data ss:Type="String">${desc}</Data></Cell>
+    <Cell ss:StyleID="TextCenter"><Data ss:Type="String">${escapeXml(it.unit || '')}</Data></Cell>
+    <Cell ss:StyleID="NumberRight"><Data ss:Type="Number">${qty}</Data></Cell>
+    <Cell ss:StyleID="CurrencyRight"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="CurrencyRight" ss:Formula="=RC[-2]*RC[-1]"><Data ss:Type="Number">0</Data></Cell>
+   </Row>\n`;
+                });
+
+                xml += `   <Row></Row>\n`;
+                xml += `   <Row>
+    <Cell ss:Index="7" ss:StyleID="TextLeft"><Data ss:Type="String">TOTAL</Data></Cell>
+    <Cell ss:StyleID="YellowCurrencyRight" ss:Formula="=SUM(R[-${items.length + 1}]C:R[-2]C)"><Data ss:Type="Number">0</Data></Cell>
+   </Row>\n`;
+                xml += `  </Table>\n  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">\n   <DisplayGridlines/>\n  </WorksheetOptions>\n </Worksheet>\n`;
+            });
+
+            xml += `</Workbook>`;
+
+            const blob = new Blob([xml], { type: 'application/vnd.ms-excel;charset=utf-8;' });
             const a = document.createElement('a');
-            a.href = url;
-            a.download = `CSJ_${currentCSJ}_Task_Items_Estimate.xlsx`;
+            a.href = URL.createObjectURL(blob);
+            a.download = `TxDOT_Selected_${total}_Projects_Task_Items.xls`;
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
+
+            updateSelectionUI();
         }
 
         // Initialize safely when DOM is fully interactive

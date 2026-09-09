@@ -46,11 +46,93 @@ function Get-CSJData {
         return $script:memoryCache["csj_$cleanCSJ"]
     }
 
-    # 1. Try Dataset 1: de7b-7dna (Bid Tabulations for Let Projects)
+    # 1. Try Dataset 2: qh8x-rm8r (Pre-Bid Scheduled Items)
+    $qWhere2 = "control_section_job_csj='$cleanCSJ' or controlling_project_id_ccsj='$cleanCSJ'"
+    $apiUrl2 = "https://data.texas.gov/resource/qh8x-rm8r.json?`$where=" + [Uri]::EscapeDataString($qWhere2) + "&`$limit=5000"
+    $tempJson2 = Join-Path $env:TEMP "csj_qh8x_$($cleanCSJ -replace '[^a-zA-Z0-9]', '_').json"
+    
+    $preBidData = $null
+    try {
+        Invoke-WebRequest -Uri $apiUrl2 -OutFile $tempJson2 -UserAgent "Mozilla/5.0" -UseBasicParsing -TimeoutSec 10
+        if (Test-Path $tempJson2) {
+            $rawItems = Get-Content $tempJson2 -Raw | ConvertFrom-Json
+            Remove-Item $tempJson2 -ErrorAction SilentlyContinue
+            
+            if ($rawItems -and $rawItems.Count -gt 0) {
+                $first = $rawItems[0]
+                $letD = if ($first.bids_will_be_opened_date) { 
+                    ([datetime]$first.bids_will_be_opened_date).ToString("MM/dd/yy") 
+                } elseif ($first.project_approved_let_date) { 
+                    ([datetime]$first.project_approved_let_date).ToString("MM/dd/yy") 
+                } else { "Scheduled" }
+
+                $pName = if ($first.specification_description) { $first.specification_description } else { $first.project_classification }
+
+                $estVal = [double]$first.sealed_engineer_s_estimate
+                if ($estVal -eq 0 -and $first.sealed_engineer_s_estimate_1) { $estVal = [double]$first.sealed_engineer_s_estimate_1 }
+                if ($estVal -eq 0 -and $first.project_estimate_low_bid) { $estVal = [double]$first.project_estimate_low_bid }
+                if ($estVal -eq 0 -and $rawItems) {
+                    $calcEst = 0.0
+                    foreach ($f in $rawItems) {
+                        $uEst = [double]$f.engineer_s_estimate_unit
+                        $qty = [double]$f.bid_item_quantity
+                        if ($uEst -gt 0 -and $qty -gt 0) { $calcEst += ($uEst * $qty) }
+                    }
+                    if ($calcEst -gt 0) { $estVal = $calcEst }
+                }
+
+                $meta = @{
+                    csj = $cleanCSJ
+                    ccsj = $first.controlling_project_id_ccsj
+                    county = $first.county
+                    highway = $first.highway
+                    projectName = $pName
+                    projectType = if ($first.project_classification) { $first.project_classification } else { $first.specification_description }
+                    workingDays = $first.maximum_number_of_working
+                    letDate = $letD
+                    projectId = $first.project_id
+                    engEstTotal = $estVal
+                    isPreBid = $true
+                    statusNote = "CSJ $cleanCSJ Scheduled Letting"
+                }
+
+                $sortedItems = $rawItems | Sort-Object {[int]$_.bid_item_sequence_number}
+                $items = @()
+                $avgPerItem = if ($sortedItems.Count -gt 0 -and $estVal -gt 0) { $estVal / $sortedItems.Count } else { 0.00 }
+                foreach ($f in $sortedItems) {
+                    $qty = [double]$f.bid_item_quantity
+                    $codeStr = if ($f.bid_code) { $f.bid_code.Replace("-", " ") } else { "" }
+                    $descStr = if ($f.bid_item_description) { $f.bid_item_description } else { $f.specification_description }
+                    $engUnit = [double]$f.engineer_s_estimate_unit
+                    if ($engUnit -eq 0 -and $qty -gt 0 -and $avgPerItem -gt 0) { $engUnit = [math]::Round($avgPerItem / $qty, 2) }
+                    if ($engUnit -eq 0) { $engUnit = Get-2026LowBidAvgPrice $f.bid_code }
+
+                    $items += @{
+                        code = $codeStr
+                        description = $descStr
+                        unit = $f.measurement_unit
+                        quantity = $qty
+                        engEstUnit = $engUnit
+                        lowUnit = $engUnit
+                        bidders = @{}
+                    }
+                }
+
+                $preBidData = @{
+                    metadata = $meta
+                    bidders = @()
+                    items = $items
+                }
+            }
+        }
+    } catch {}
+
+    # 2. Try Dataset 1: de7b-7dna (Bid Tabulations for Let Projects)
     $qWhere1 = "control_section_job_csj='$cleanCSJ' or controlling_project_id_ccsj='$cleanCSJ'"
     $apiUrl1 = "https://data.texas.gov/resource/de7b-7dna.json?`$where=" + [Uri]::EscapeDataString($qWhere1) + "&`$limit=5000"
     $tempJson1 = Join-Path $env:TEMP "csj_de7b_$($cleanCSJ -replace '[^a-zA-Z0-9]', '_').json"
     
+    $completedData = $null
     try {
         Invoke-WebRequest -Uri $apiUrl1 -OutFile $tempJson1 -UserAgent "Mozilla/5.0" -UseBasicParsing -TimeoutSec 10
         if (Test-Path $tempJson1) {
@@ -100,111 +182,50 @@ function Get-CSJData {
                         $bPrices[$ir.vendor_name] = [double]$ir.bid_item_unit_price_amount
                     }
 
+                    $engUnit = [double]$f.engineer_s_estimate_unit
+                    $amestxPrice = if ($engUnit -gt 0) { $engUnit } else { Get-2026LowBidAvgPrice $f.bid_code }
+
                     $items += @{
                         code = if ($f.bid_code) { $f.bid_code.Replace("-", " ") } else { "" }
                         description = $f.bid_item_description
                         unit = $f.measurement_unit
                         quantity = [double]$f.bid_item_quantity
-                        engEstUnit = [double]$f.engineer_s_estimate_unit
-                        lowUnit = if ($realBidders.Count -gt 0) { $bPrices[$realBidders[0].vendorName] } else { [double]$f.engineer_s_estimate_unit }
+                        engEstUnit = $engUnit
+                        amestxUnit = $amestxPrice
+                        lowUnit = if ($realBidders.Count -gt 0) { $bPrices[$realBidders[0].vendorName] } else { $amestxPrice }
                         bidders = $bPrices
                     }
                 }
 
-                $resObj = @{
+                $completedData = @{
                     metadata = $meta
                     bidders = $realBidders
                     items = $items
                 }
-                $script:memoryCache["csj_$cleanCSJ"] = $resObj
-                return $resObj
             }
         }
     } catch {}
 
-    # 2. Try Dataset 2: qh8x-rm8r (Pre-Bid Items)
-    $qWhere2 = "control_section_job_csj='$cleanCSJ' or controlling_project_id_ccsj='$cleanCSJ'"
-    $apiUrl2 = "https://data.texas.gov/resource/qh8x-rm8r.json?`$where=" + [Uri]::EscapeDataString($qWhere2) + "&`$limit=5000"
-    $tempJson2 = Join-Path $env:TEMP "csj_qh8x_$($cleanCSJ -replace '[^a-zA-Z0-9]', '_').json"
-    
-    try {
-        Invoke-WebRequest -Uri $apiUrl2 -OutFile $tempJson2 -UserAgent "Mozilla/5.0" -UseBasicParsing -TimeoutSec 10
-        if (Test-Path $tempJson2) {
-            $rawItems = Get-Content $tempJson2 -Raw | ConvertFrom-Json
-            Remove-Item $tempJson2 -ErrorAction SilentlyContinue
-            
-            if ($rawItems -and $rawItems.Count -gt 0) {
-                $first = $rawItems[0]
-                $letD = if ($first.bids_will_be_opened_date) { 
-                    ([datetime]$first.bids_will_be_opened_date).ToString("MM/dd/yy") 
-                } elseif ($first.project_approved_let_date) { 
-                    ([datetime]$first.project_approved_let_date).ToString("MM/dd/yy") 
-                } else { "Scheduled" }
+    # 3. Decision: If preBidData exists and its letDate is later/equal or completedData is missing, return preBidData
+    if ($preBidData) {
+        $pDate = $preBidData.metadata.letDate
+        $cDate = if ($completedData) { $completedData.metadata.letDate } else { "01/01/1900" }
+        
+        $pDt = [datetime]::MinValue
+        $cDt = [datetime]::MinValue
+        [datetime]::TryParse($pDate, [ref]$pDt) | Out-Null
+        [datetime]::TryParse($cDate, [ref]$cDt) | Out-Null
 
-                $pName = if ($first.specification_description) { $first.specification_description } else { $first.project_classification }
-
-                $estVal = [double]$first.sealed_engineer_s_estimate
-                if ($estVal -eq 0 -and $first.sealed_engineer_s_estimate_1) { $estVal = [double]$first.sealed_engineer_s_estimate_1 }
-                if ($estVal -eq 0 -and $first.project_estimate_low_bid) { $estVal = [double]$first.project_estimate_low_bid }
-                if ($estVal -eq 0 -and $rawItems) {
-                    $calcEst = 0.0
-                    foreach ($f in $rawItems) {
-                        $uEst = [double]$f.engineer_s_estimate_unit
-                        $qty = [double]$f.bid_item_quantity
-                        if ($uEst -gt 0 -and $qty -gt 0) { $calcEst += ($uEst * $qty) }
-                    }
-                    if ($calcEst -gt 0) { $estVal = $calcEst }
-                }
-                if ($estVal -eq 0) {
-                    $estVal = 0.00
-                }
-
-                $meta = @{
-                    csj = $cleanCSJ
-                    ccsj = $first.controlling_project_id_ccsj
-                    county = $first.county
-                    highway = $first.highway
-                    projectName = $pName
-                    projectType = if ($first.project_classification) { $first.project_classification } else { $first.specification_description }
-                    workingDays = $first.maximum_number_of_working
-                    letDate = $letD
-                    projectId = $first.project_id
-                    engEstTotal = $estVal
-                    isPreBid = $true
-                    statusNote = "CSJ $cleanCSJ Scheduled Letting"
-                }
-
-                $sortedItems = $rawItems | Sort-Object {[int]$_.bid_item_sequence_number}
-                $items = @()
-                $avgPerItem = if ($sortedItems.Count -gt 0 -and $estVal -gt 0) { $estVal / $sortedItems.Count } else { 0.00 }
-                foreach ($f in $sortedItems) {
-                    $qty = [double]$f.bid_item_quantity
-                    $codeStr = if ($f.bid_code) { $f.bid_code.Replace("-", " ") } else { "" }
-                    $descStr = if ($f.bid_item_description) { $f.bid_item_description } else { $f.specification_description }
-                    $engUnit = [double]$f.engineer_s_estimate_unit
-                    if ($engUnit -eq 0 -and $qty -gt 0 -and $avgPerItem -gt 0) { $engUnit = [math]::Round($avgPerItem / $qty, 2) }
-                    
-                    $items += @{
-                        code = $codeStr
-                        description = $descStr
-                        unit = $f.measurement_unit
-                        quantity = $qty
-                        engEstUnit = $engUnit
-                        lowUnit = $engUnit
-                        bidders = @{}
-                    }
-                }
-
-                $resObj = @{
-                    metadata = $meta
-                    bidders = @()
-                    items = $items
-                }
-                $script:memoryCache["csj_$cleanCSJ"] = $resObj
-                return $resObj
-            }
+        if (-not $completedData -or $pDt -ge $cDt -or $pDt.Year -ge 2026) {
+            $script:memoryCache["csj_$cleanCSJ"] = $preBidData
+            return $preBidData
         }
-    } catch {}
+    }
+
+    if ($completedData) {
+        $script:memoryCache["csj_$cleanCSJ"] = $completedData
+        return $completedData
+    }
 
     # 3. Try Dataset 3: drau-zphx (Scheduled Lettings Metadata)
     $apiUrl3 = "https://data.texas.gov/resource/drau-zphx.json?control_section_job_csj=$cleanCSJ&`$limit=1"
@@ -314,6 +335,25 @@ while ($listener.IsListening) {
             if (Test-Path $indexPath) {
                 $content = [System.IO.File]::ReadAllBytes($indexPath)
                 $response.ContentType = "text/html; charset=utf-8"
+                $response.ContentLength64 = $content.Length
+                $response.OutputStream.Write($content, 0, $content.Length)
+            } else {
+                $response.StatusCode = 404
+            }
+        }
+        elseif (Test-Path (Join-Path $publicDir ($url.TrimStart('/')))) {
+            $filePath = Join-Path $publicDir ($url.TrimStart('/'))
+            if (Test-Path $filePath -PathType Leaf) {
+                $ext = [System.IO.Path]::GetExtension($filePath).ToLower()
+                switch ($ext) {
+                    ".js"   { $response.ContentType = "application/javascript" }
+                    ".css"  { $response.ContentType = "text/css" }
+                    ".png"  { $response.ContentType = "image/png" }
+                    ".jpg"  { $response.ContentType = "image/jpeg" }
+                    ".json" { $response.ContentType = "application/json" }
+                    default { $response.ContentType = "application/octet-stream" }
+                }
+                $content = [System.IO.File]::ReadAllBytes($filePath)
                 $response.ContentLength64 = $content.Length
                 $response.OutputStream.Write($content, 0, $content.Length)
             } else {

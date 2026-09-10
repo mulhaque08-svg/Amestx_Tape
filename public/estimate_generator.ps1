@@ -24,26 +24,97 @@ $itemsList = @()
 $isPreBid = $false
 
 # Cache for 2026 TxDOT Low Bidder Average Unit Prices
-$avgPriceCache = @{}
+function Normalize-TxDotBidCode([string]$bidCode) {
+    if ([string]::IsNullOrWhiteSpace($bidCode)) { return "" }
+    $clean = $bidCode.Replace(" ", "-").Trim()
+    $parts = $clean -split '-'
+    if ($parts.Count -eq 2) {
+        $p1 = $parts[0].TrimStart('0')
+        if ([string]::IsNullOrWhiteSpace($p1)) { $p1 = "0" }
+        $p2 = $parts[1].TrimStart('0')
+        if ([string]::IsNullOrWhiteSpace($p2)) { $p2 = "0" }
+        return "$p1-$p2"
+    }
+    return $clean
+}
 
-function Get-2026LowBidAvgPrice ([string]$bidCode) {
-    if ([string]::IsNullOrWhiteSpace($bidCode)) { return 0.00 }
-    $cleanCode = $bidCode.Replace(" ", "-").Trim()
-    if ($avgPriceCache.ContainsKey($cleanCode)) { return $avgPriceCache[$cleanCode] }
+function Is-Item800([string]$code) {
+    if ([string]::IsNullOrWhiteSpace($code)) { return $false }
+    $clean = $code.Trim()
+    if ($clean -eq "800" -or $clean -eq "0800") { return $true }
+    if ($clean -like "800-*" -or $clean -like "0800-*" -or $clean -like "800 *" -or $clean -like "0800 *") { return $true }
+    $parts = $clean -split '[\s\-]+'
+    if ($parts.Count -gt 0) {
+        $p0 = $parts[0].TrimStart('0')
+        if ($p0 -eq "800") { return $true }
+    }
+    return $false
+}
+
+function Get-AmestxCompositePrice ([string]$bidCode, [double]$engEstUnit = 0.00, [double]$lowBidUnit = 0.00, [double]$highBidUnit = 0.00) {
+    if (Is-Item800 $bidCode) { return 0.00 }
+    $prices = @()
+    if ($lowBidUnit -gt 0) { $prices += $lowBidUnit }
+    if ($highBidUnit -gt 0 -and $highBidUnit -ne $lowBidUnit) { $prices += $highBidUnit }
+    if ($engEstUnit -gt 0) { $prices += $engEstUnit }
+
+    if ($prices.Count -ge 2) {
+        $sum = 0.0
+        foreach ($p in $prices) { $sum += $p }
+        return [math]::Round($sum / $prices.Count, 2)
+    }
+
+    $normCode = Normalize-TxDotBidCode $bidCode
+    if ([string]::IsNullOrWhiteSpace($normCode)) { 
+        if ($engEstUnit -gt 0) { return $engEstUnit }
+        if ($lowBidUnit -gt 0) { return $lowBidUnit }
+        return 0.00 
+    }
+    
+    if ($avgPriceCache.ContainsKey($normCode)) { 
+        $cached = $avgPriceCache[$normCode]
+        if ($cached -gt 0) {
+            $benchmarks = @($cached)
+            if ($engEstUnit -gt 0) { $benchmarks += $engEstUnit }
+            $bSum = 0.0
+            foreach ($b in $benchmarks) { $bSum += $b }
+            return [math]::Round($bSum / $benchmarks.Count, 2)
+        }
+    }
     
     try {
-        $encodedCode = [System.Uri]::EscapeDataString($cleanCode)
-        $url = "https://data.texas.gov/resource/de7b-7dna.json?`%24select=bid_code`%2CAVG(bid_item_unit_price_amount)`%20as`%20avg_price&`%24where=low_bidder_flag`%3Dtrue`%20AND`%20bid_code`%3D'$encodedCode'&`%24group=bid_code"
-        $res = curl.exe -s $url | ConvertFrom-Json
-        if ($res -and $res.Count -gt 0 -and $res[0].avg_price) {
-            $val = [double]$res[0].avg_price
-            $avgPriceCache[$cleanCode] = $val
-            return $val
+        $urlLow = "https://data.texas.gov/resource/de7b-7dna.json?`$select=bid_code,AVG(bid_item_unit_price_amount)+as+low_avg&`$where=(low_bidder_flag='true'+OR+low_bidder_flag='True'+OR+bid_rank_sequence_number='1')+AND+bid_code='$normCode'&`$group=bid_code"
+        $resLow = Invoke-RestMethod -Uri $urlLow -UserAgent "Mozilla/5.0" -UseBasicParsing -TimeoutSec 5
+
+        $urlAll = "https://data.texas.gov/resource/de7b-7dna.json?`$select=bid_code,AVG(bid_item_unit_price_amount)+as+all_avg&`$where=bid_code='$normCode'&`$group=bid_code"
+        $resAll = Invoke-RestMethod -Uri $urlAll -UserAgent "Mozilla/5.0" -UseBasicParsing -TimeoutSec 5
+
+        $bList = @()
+        if ($resLow -and $resLow.Count -gt 0 -and $resLow[0].low_avg) {
+            $bList += [double]$resLow[0].low_avg
+        }
+        if ($resAll -and $resAll.Count -gt 0 -and $resAll[0].all_avg) {
+            $bList += [double]$resAll[0].all_avg
+        }
+        if ($engEstUnit -gt 0) {
+            $bList += $engEstUnit
+        }
+
+        if ($bList.Count -gt 0) {
+            $sum = 0.0
+            foreach ($b in $bList) { $sum += $b }
+            $compAvg = [math]::Round($sum / $bList.Count, 2)
+            $avgPriceCache[$normCode] = $compAvg
+            return $compAvg
         }
     } catch {}
 
-    $avgPriceCache[$cleanCode] = 0.00
+    if ($engEstUnit -gt 0) { return $engEstUnit }
     return 0.00
+}
+
+function Get-2026LowBidAvgPrice ([string]$bidCode) {
+    return Get-AmestxCompositePrice -bidCode $bidCode
 }
 
 if ($raw -and $raw.Count -gt 0) {
@@ -310,15 +381,36 @@ $fullRange.Borders.Weight = 2
 $fullRange.Borders.Color = 13882323
 
 # --- MANDATORY LEGAL DISCLAIMER AT BOTTOM ---
-$discStartRow = $totalRowIdx + 3
-$discEndRow = $discStartRow + 4
-$discRange = $ws.Range("A${discStartRow}:H${discEndRow}")
-$discRange.Merge()
-$discRange.Value = "This estimate has been generated by Amestex using historical average bid prices and publicly available data.`nIt is provided solely as a preliminary reference to assist bidders in understanding potential cost ranges.`nActual bid pricing may vary based on market conditions, project location, labor availability, material costs, and each bidder’s internal calculations.`nAmestex does not guarantee the accuracy of this estimate and is not responsible for any miscalculations or pricing decisions made by bidders.`nAll bidders must independently determine and submit their own unit prices based on their professional judgment and project‑specific factors."
-$discRange.Font.Italic = $true
-$discRange.Font.Size = 8
-$discRange.Font.Color = 8421504 # Grey font
-$discRange.WrapText = $true
+$discTitleRow = $totalRowIdx + 1
+$rTitle = $ws.Range("A${discTitleRow}:H${discTitleRow}")
+$rTitle.Merge()
+$rTitle.Value = "DISCLAIMER"
+$rTitle.Font.Bold = $true
+$rTitle.Font.Underline = 2 # Single Underline
+$rTitle.Font.Color = 255 # Bright Red (#FF0000)
+$rTitle.Font.Size = 9.5
+$rTitle.HorizontalAlignment = -4108 # Center
+
+$discLines = @(
+    "This estimate has been generated by Amestx using historical average bid prices and publicly available data.",
+    "It is provided solely as a preliminary reference to assist bidders in understanding potential cost ranges.",
+    "Actual bid pricing may vary based on market conditions, project location, labor availability, material costs, and each bidder's internal calculations.",
+    "Amestx does not guarantee the accuracy of this estimate and is not responsible for any miscalculations or pricing decisions made by bidders.",
+    "All bidders must independently determine and submit their own unit prices based on their professional judgment and project-specific factors."
+)
+
+$currRow = $discTitleRow + 1
+foreach ($line in $discLines) {
+    $rLine = $ws.Range("A${currRow}:H${currRow}")
+    $rLine.Merge()
+    $rLine.Value = $line
+    $rLine.Font.Italic = $true
+    $rLine.Font.Bold = $true
+    $rLine.Font.Size = 8.5
+    $rLine.Font.Color = 7368816 # Medium Gray (#707070)
+    $rLine.HorizontalAlignment = -4108 # Center
+    $currRow++
+}
 
 # AutoFit Columns
 $ws.Columns.AutoFit()

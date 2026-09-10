@@ -1,4 +1,6 @@
-$port = 8080
+param(
+    [int]$port = 8081
+)
 $listener = New-Object System.Net.HttpListener
 
 $listener.Prefixes.Add("http://localhost:$port/")
@@ -23,6 +25,103 @@ $excelGenScript = Join-Path $baseDir "excel_generator.ps1"
 $estimateGenScript = Join-Path $baseDir "estimate_generator.ps1"
 
 $script:memoryCache = @{}
+$script:avgPriceCache = @{}
+
+function Normalize-TxDotBidCode([string]$bidCode) {
+    if ([string]::IsNullOrWhiteSpace($bidCode)) { return "" }
+    $clean = $bidCode.Replace(" ", "-").Trim()
+    $parts = $clean -split '-'
+    if ($parts.Count -eq 2) {
+        $p1 = $parts[0].TrimStart('0')
+        if ([string]::IsNullOrWhiteSpace($p1)) { $p1 = "0" }
+        $p2 = $parts[1].TrimStart('0')
+        if ([string]::IsNullOrWhiteSpace($p2)) { $p2 = "0" }
+        return "$p1-$p2"
+    }
+    return $clean
+}
+
+function Is-Item800([string]$code) {
+    if ([string]::IsNullOrWhiteSpace($code)) { return $false }
+    $clean = $code.Trim()
+    if ($clean -eq "800" -or $clean -eq "0800") { return $true }
+    if ($clean -like "800-*" -or $clean -like "0800-*" -or $clean -like "800 *" -or $clean -like "0800 *") { return $true }
+    $parts = $clean -split '[\s\-]+'
+    if ($parts.Count -gt 0) {
+        $p0 = $parts[0].TrimStart('0')
+        if ($p0 -eq "800") { return $true }
+    }
+    return $false
+}
+
+function Get-AmestxCompositePrice ([string]$bidCode, [double]$engEstUnit = 0.00, [double]$lowBidUnit = 0.00, [double]$highBidUnit = 0.00) {
+    if (Is-Item800 $bidCode) { return 0.00 }
+    # 1. If project bids exist (Low Bidder, High Bidder, Eng Est)
+    $prices = @()
+    if ($lowBidUnit -gt 0) { $prices += $lowBidUnit }
+    if ($highBidUnit -gt 0 -and $highBidUnit -ne $lowBidUnit) { $prices += $highBidUnit }
+    if ($engEstUnit -gt 0) { $prices += $engEstUnit }
+
+    if ($prices.Count -ge 2) {
+        $sum = 0.0
+        foreach ($p in $prices) { $sum += $p }
+        return [math]::Round($sum / $prices.Count, 2)
+    }
+
+    # 2. Otherwise query TxDOT statewide dataset for historical benchmarks
+    $normCode = Normalize-TxDotBidCode $bidCode
+    if ([string]::IsNullOrWhiteSpace($normCode)) { 
+        if ($engEstUnit -gt 0) { return $engEstUnit }
+        if ($lowBidUnit -gt 0) { return $lowBidUnit }
+        return 0.00 
+    }
+    
+    if ($script:avgPriceCache.ContainsKey($normCode)) { 
+        $cached = $script:avgPriceCache[$normCode]
+        if ($cached -gt 0) {
+            $benchmarks = @($cached)
+            if ($engEstUnit -gt 0) { $benchmarks += $engEstUnit }
+            $bSum = 0.0
+            foreach ($b in $benchmarks) { $bSum += $b }
+            return [math]::Round($bSum / $benchmarks.Count, 2)
+        }
+    }
+    
+    try {
+        # Query TxDOT Socrata Dataset de7b-7dna for both low-bidder avg and overall market avg
+        $urlLow = "https://data.texas.gov/resource/de7b-7dna.json?`$select=bid_code,AVG(bid_item_unit_price_amount)+as+low_avg&`$where=(low_bidder_flag='true'+OR+low_bidder_flag='True'+OR+bid_rank_sequence_number='1')+AND+bid_code='$normCode'&`$group=bid_code"
+        $resLow = Invoke-RestMethod -Uri $urlLow -UserAgent "Mozilla/5.0" -UseBasicParsing -TimeoutSec 5
+
+        $urlAll = "https://data.texas.gov/resource/de7b-7dna.json?`$select=bid_code,AVG(bid_item_unit_price_amount)+as+all_avg&`$where=bid_code='$normCode'&`$group=bid_code"
+        $resAll = Invoke-RestMethod -Uri $urlAll -UserAgent "Mozilla/5.0" -UseBasicParsing -TimeoutSec 5
+
+        $bList = @()
+        if ($resLow -and $resLow.Count -gt 0 -and $resLow[0].low_avg) {
+            $bList += [double]$resLow[0].low_avg
+        }
+        if ($resAll -and $resAll.Count -gt 0 -and $resAll[0].all_avg) {
+            $bList += [double]$resAll[0].all_avg
+        }
+        if ($engEstUnit -gt 0) {
+            $bList += $engEstUnit
+        }
+
+        if ($bList.Count -gt 0) {
+            $sum = 0.0
+            foreach ($b in $bList) { $sum += $b }
+            $compAvg = [math]::Round($sum / $bList.Count, 2)
+            $script:avgPriceCache[$normCode] = $compAvg
+            return $compAvg
+        }
+    } catch {}
+
+    if ($engEstUnit -gt 0) { return $engEstUnit }
+    return 0.00
+}
+
+function Get-2026LowBidAvgPrice ([string]$bidCode) {
+    return Get-AmestxCompositePrice -bidCode $bidCode
+}
 
 function Get-DefaultItems {
     return @(
@@ -98,14 +197,14 @@ function Get-CSJData {
 
                 $sortedItems = $rawItems | Sort-Object {[int]$_.bid_item_sequence_number}
                 $items = @()
-                $avgPerItem = if ($sortedItems.Count -gt 0 -and $estVal -gt 0) { $estVal / $sortedItems.Count } else { 0.00 }
                 foreach ($f in $sortedItems) {
                     $qty = [double]$f.bid_item_quantity
                     $codeStr = if ($f.bid_code) { $f.bid_code.Replace("-", " ") } else { "" }
                     $descStr = if ($f.bid_item_description) { $f.bid_item_description } else { $f.specification_description }
                     $engUnit = [double]$f.engineer_s_estimate_unit
-                    if ($engUnit -eq 0 -and $qty -gt 0 -and $avgPerItem -gt 0) { $engUnit = [math]::Round($avgPerItem / $qty, 2) }
-                    if ($engUnit -eq 0) { $engUnit = Get-2026LowBidAvgPrice $f.bid_code }
+
+                    # Amestx Composite Unit Price (Low Avg + Market Avg + Eng Est) / N
+                    $amestxPrice = Get-AmestxCompositePrice -bidCode $f.bid_code -engEstUnit $engUnit
 
                     $items += @{
                         code = $codeStr
@@ -113,7 +212,8 @@ function Get-CSJData {
                         unit = $f.measurement_unit
                         quantity = $qty
                         engEstUnit = $engUnit
-                        lowUnit = $engUnit
+                        amestxUnit = $amestxPrice
+                        lowUnit = if ($amestxPrice -gt 0) { $amestxPrice } else { $engUnit }
                         bidders = @{}
                     }
                 }
@@ -183,7 +283,11 @@ function Get-CSJData {
                     }
 
                     $engUnit = [double]$f.engineer_s_estimate_unit
-                    $amestxPrice = if ($engUnit -gt 0) { $engUnit } else { Get-2026LowBidAvgPrice $f.bid_code }
+                    $lowUnitVal = if ($realBidders.Count -gt 0 -and $bPrices.ContainsKey($realBidders[0].vendorName)) { $bPrices[$realBidders[0].vendorName] } else { 0.00 }
+                    $highUnitVal = if ($realBidders.Count -gt 1 -and $bPrices.ContainsKey($realBidders[-1].vendorName)) { $bPrices[$realBidders[-1].vendorName] } else { $lowUnitVal }
+
+                    # Amestx Composite Unit Price (Low Bidder + High Bidder + Eng Est) / N
+                    $amestxPrice = Get-AmestxCompositePrice -bidCode $f.bid_code -engEstUnit $engUnit -lowBidUnit $lowUnitVal -highBidUnit $highUnitVal
 
                     $items += @{
                         code = if ($f.bid_code) { $f.bid_code.Replace("-", " ") } else { "" }
@@ -192,7 +296,7 @@ function Get-CSJData {
                         quantity = [double]$f.bid_item_quantity
                         engEstUnit = $engUnit
                         amestxUnit = $amestxPrice
-                        lowUnit = if ($realBidders.Count -gt 0) { $bPrices[$realBidders[0].vendorName] } else { $amestxPrice }
+                        lowUnit = if ($lowUnitVal -gt 0) { $lowUnitVal } else { $amestxPrice }
                         bidders = $bPrices
                     }
                 }
@@ -330,8 +434,24 @@ while ($listener.IsListening) {
         $url = $request.Url.AbsolutePath
         $query = $request.QueryString
 
-        if ($url -eq "/" -or $url -eq "/index.html") {
+        if ($url -eq "/" -or $url -eq "/home" -or $url -eq "/home.html") {
+            $homePath = Join-Path $publicDir "home.html"
+            if (-not (Test-Path $homePath)) { $homePath = Join-Path $baseDir "home.html" }
+            if (-not (Test-Path $homePath)) { $homePath = Join-Path $publicDir "index.html" }
+            if (-not (Test-Path $homePath)) { $homePath = Join-Path $baseDir "index.html" }
+
+            if (Test-Path $homePath) {
+                $content = [System.IO.File]::ReadAllBytes($homePath)
+                $response.ContentType = "text/html; charset=utf-8"
+                $response.ContentLength64 = $content.Length
+                $response.OutputStream.Write($content, 0, $content.Length)
+            } else {
+                $response.StatusCode = 404
+            }
+        }
+        elseif ($url -eq "/app" -or $url -eq "/index.html") {
             $indexPath = Join-Path $publicDir "index.html"
+            if (-not (Test-Path $indexPath)) { $indexPath = Join-Path $baseDir "index.html" }
             if (Test-Path $indexPath) {
                 $content = [System.IO.File]::ReadAllBytes($indexPath)
                 $response.ContentType = "text/html; charset=utf-8"
@@ -341,11 +461,16 @@ while ($listener.IsListening) {
                 $response.StatusCode = 404
             }
         }
-        elseif (Test-Path (Join-Path $publicDir ($url.TrimStart('/')))) {
+        elseif ((Test-Path (Join-Path $publicDir ($url.TrimStart('/')))) -or (Test-Path (Join-Path $baseDir ($url.TrimStart('/'))))) {
             $filePath = Join-Path $publicDir ($url.TrimStart('/'))
+            if (-not (Test-Path $filePath -PathType Leaf)) {
+                $filePath = Join-Path $baseDir ($url.TrimStart('/'))
+            }
             if (Test-Path $filePath -PathType Leaf) {
                 $ext = [System.IO.Path]::GetExtension($filePath).ToLower()
                 switch ($ext) {
+                    ".html" { $response.ContentType = "text/html; charset=utf-8" }
+                    ".htm"  { $response.ContentType = "text/html; charset=utf-8" }
                     ".js"   { $response.ContentType = "application/javascript" }
                     ".css"  { $response.ContentType = "text/css" }
                     ".png"  { $response.ContentType = "image/png" }

@@ -2807,35 +2807,178 @@
                     XLSX.writeFile(wb, `CSJ_${csj}_Bid_Tabulation.xlsx`);
                     return;
                 } catch (e) {
-                    console.error("XLSX Bid Tab export error, falling back:", e);
+                    console.error("XLSX Bid Tab export error, falling back to styled HTML spreadsheet:", e);
                 }
             }
 
-            // CSV Fallback
-            let headerRow = "Difference,Item Code,Description,Unit,Quantity,Eng. Est.";
-            bidders.forEach((b, idx) => {
-                headerRow += `,${idx + 1}) "${(b.vendorName || '').replace(/"/g, '""')}"`;
-            });
-            headerRow += "\n";
+            // HTML Excel Fallback with complete colors, styles, fonts, borders, and highlights
+            const county = meta.county || 'N/A';
+            const hwy = meta.highway || 'N/A';
+            const letDate = meta.letDate || 'N/A';
+            const projectType = meta.projectType || meta.projectName || 'Highway Construction';
+            const engEstTotal = parseFloat(meta.engEstTotal) || 0;
+            const guarantyCheck = (engEstTotal * 0.02);
 
-            let csv = headerRow;
+            const lowBidderName = bidders.length > 0 ? (bidders[0].vendorName || 'BIDDER 1') : 'LOW BIDDER';
+            const maxCols = Math.max(11, 7 + 2 + Math.max(0, bidders.length - 1));
+
+            let html = `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+<head><meta charset="utf-8"><style>
+table { border-collapse: collapse; font-family: Arial, sans-serif; font-size: 9pt; }
+td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
+.title { font-size: 14pt; font-weight: bold; color: #0066cc; border: none; }
+.meta-label { font-weight: bold; color: #333333; background-color: #f8fafc; border: 1px solid #d3d3d3; }
+.yellow-hl { background-color: #ffff00; font-weight: bold; border: 1px solid #d3d3d3; }
+.header-row th { background-color: #000000; color: #ffffff; font-weight: bold; text-align: center; border: 1px solid #000000; }
+.red-diff { color: #ff0000; font-weight: bold; text-align: right; }
+.green-low { color: #00b050; font-weight: bold; text-align: right; }
+.purple-eng { color: #7030a0; text-align: right; }
+.blue-qty { color: #0066cc; text-align: right; }
+</style></head><body>
+<table border="1" bordercolor="#D3D3D3" style="border-collapse: collapse; font-family: Arial, sans-serif; font-size: 9pt;">
+<tr><td colspan="${maxCols}" class="title" style="border:none;">${letDate} | ${county} | ${hwy} | $${engEstTotal.toLocaleString(undefined, {minimumFractionDigits:2})} | ${projectType}</td></tr>`;
+
+            const metaFields = [
+                ["COUNTY:", county, false],
+                ["DISTRICT:", meta.district || "TxDOT District", false],
+                ["CSJ:", csj, true],
+                ["PROJECT ID:", meta.projectId || 'N/A', false],
+                ["PROJECT NO (Federal):", meta.projectNoFed || "N/A", false],
+                ["PROJECT NO (State):", meta.projectNoState || "N/A", false],
+                ["CONTRACT NUMBER:", meta.contractNum || "N/A", false],
+                ["HWY:", hwy, false],
+                ["TIME:", `${meta.workingDays || '180.0'} Working Days`, false],
+                ["TYPE:", projectType, true],
+                ["LENGTH:", meta.length || "0", false],
+                ["ESTIMATE:", `$${engEstTotal.toLocaleString(undefined, {minimumFractionDigits:2})}`, true],
+                ["GUARANTY CHECK:", `$${guarantyCheck.toLocaleString(undefined, {minimumFractionDigits:2})}`, false],
+                ["DBE GOAL:", meta.dbeGoal || "0.00%", false],
+                ["BIDS RECEIVED UNTIL:", letDate, true],
+                ["BIDS WILL BE OPENED:", letDate, true],
+                ["APPROVED LET DATE:", letDate, false],
+                ["ESTIMATED LET DATE:", letDate, false]
+            ];
+
+            metaFields.forEach((f, idx) => {
+                const valTd = f[2] ? `<td class="yellow-hl">${f[1]}</td>` : `<td>${f[1]}</td>`;
+                let rightPart = ``;
+                if (idx === 2) {
+                    rightPart = `<td style="font-weight:bold;">Bidder</td><td style="font-weight:bold;text-align:right;">Bid Amount</td><td style="font-weight:bold;text-align:right;">% Over/Under</td><td style="font-weight:bold;">Company</td><td style="font-weight:bold;">Contact Info</td>`;
+                } else if (idx === 3) {
+                    rightPart = `<td style="font-weight:bold;">Eng. Est.</td><td style="font-weight:bold;text-align:right;mso-number-format:'\\$\\#\\,\\#\\#0\\.00';">$${engEstTotal.toLocaleString(undefined, {minimumFractionDigits:2})}</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>`;
+                } else if (idx >= 4 && idx < 4 + bidders.length) {
+                    const bIdx = idx - 4;
+                    const b = bidders[bIdx];
+                    let bTotal = parseFloat(b.totalBid) || 0;
+                    if (!bTotal && b.vendorName) {
+                        bTotal = items.reduce((acc, it) => {
+                            const price = parseFloat(it.bidders && it.bidders[b.vendorName]) || 0;
+                            return acc + ((parseFloat(it.quantity) || 0) * price);
+                        }, 0);
+                    }
+                    const isLow = (bIdx === 0);
+                    const styleStr = isLow ? 'color:#00b050;font-weight:bold;' : 'color:#000000;';
+                    const pctDiff = engEstTotal > 0 ? ((bTotal - engEstTotal) / engEstTotal * 100).toFixed(2) + '%' : '0.00%';
+                    rightPart = `<td style="${styleStr}">Bidder ${bIdx + 1}</td><td style="${styleStr}text-align:right;mso-number-format:'\\$\\#\\,\\#\\#0\\.00';">$${bTotal.toLocaleString(undefined, {minimumFractionDigits:2})}</td><td style="${styleStr}text-align:right;">${pctDiff}</td><td style="${styleStr}">${b.vendorName || ''}</td><td>${b.contactInfo || '&nbsp;'}</td>`;
+                } else {
+                    rightPart = `<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>`;
+                }
+                html += `<tr><td class="meta-label">${f[0]}</td>${valTd}${rightPart}`;
+                for (let c = 7; c < maxCols; c++) html += `<td>&nbsp;</td>`;
+                html += `</tr>`;
+            });
+
+            html += `<tr><td colspan="${maxCols}" style="border:none;">&nbsp;</td></tr>`;
+            html += `<tr><td colspan="${maxCols}" style="border:none;">&nbsp;</td></tr>`;
+
+            html += `<tr class="header-row">
+                <th style="border:1px solid #000000;">Difference</th>
+                <th style="border:1px solid #000000;">ITEM NO.</th>
+                <th style="border:1px solid #000000;">SPEC CO.</th>
+                <th style="border:1px solid #000000;">ITEM DESCRIPTION</th>
+                <th style="border:1px solid #000000;">UNIT</th>
+                <th style="border:1px solid #000000;">APPROXIMATE QUANTITIES</th>
+                <th style="border:1px solid #000000;">Eng. Est.</th>
+                <th style="border:1px solid #000000;">1) ${lowBidderName}</th>
+                <th style="border:1px solid #000000;">1) ${lowBidderName}</th>`;
+
+            bidders.slice(1).forEach((b, idx) => {
+                html += `<th style="border:1px solid #000000;">${idx + 2}) ${b.vendorName || `BIDDER ${idx + 2}`}</th>`;
+            });
+            html += `</tr>`;
+
+            let rIdx = 23;
             items.forEach(it => {
-                const lowBidderName = bidders.length > 0 ? bidders[0].vendorName : '';
-                const lowUnit = (it.bidders && it.bidders[lowBidderName]) || it.lowUnit || 0;
-                const diff = lowUnit - (it.engEstUnit || 0);
+                const parts = (it.code || "").split(" ");
+                const itemNo = parts[0] || "";
+                const specCode = parts[1] || "";
+                const desc = it.description || "";
+                const qty = parseFloat(it.quantity) || 0;
+                const engEstUnit = parseFloat(it.engEstUnit) || 0;
 
-                let row = `${diff.toFixed(2)},${it.code || ''},"${(it.description || '').replace(/"/g, '""')}",${it.unit || ''},${it.quantity || 0},${it.engEstUnit || 0}`;
-                bidders.forEach(b => {
-                    const price = (it.bidders && it.bidders[b.vendorName]) || 0;
-                    row += `,${price}`;
+                const lowUnitRaw = (it.bidders && bidders.length > 0 && bidders[0].vendorName && it.bidders[bidders[0].vendorName] !== undefined)
+                    ? it.bidders[bidders[0].vendorName]
+                    : (it.lowUnit || 0);
+                const lowUnit = parseFloat(lowUnitRaw) || 0;
+                const diff = lowUnit - engEstUnit;
+
+                html += `<tr>
+                    <td class="red-diff" style="mso-number-format:'0\\.00';">${diff.toFixed(2)}</td>
+                    <td style="text-align:center; mso-number-format:'\\@';">${itemNo}</td>
+                    <td style="text-align:center; mso-number-format:'\\@';">${specCode}</td>
+                    <td style="text-align:left;">${desc}</td>
+                    <td style="text-align:center;">${it.unit || '&nbsp;'}</td>
+                    <td class="blue-qty" style="mso-number-format:'\\#\\,\\#\\#0\\.000';">${qty}</td>
+                    <td class="purple-eng" style="mso-number-format:'\\$\\#\\,\\#\\#0\\.000';">$${engEstUnit.toFixed(3)}</td>
+                    <td class="green-low" style="mso-number-format:'\\$\\#\\,\\#\\#0\\.000';">$${lowUnit.toFixed(3)}</td>
+                    <td class="green-low" style="mso-number-format:'\\$\\#\\,\\#\\#0\\.00';" x:fmla="=F${rIdx}*H${rIdx}">$${(qty * lowUnit).toFixed(2)}</td>`;
+
+                bidders.slice(1).forEach(b => {
+                    const price = parseFloat(it.bidders && it.bidders[b.vendorName]) || 0;
+                    html += `<td style="text-align:right; mso-number-format:'\\$\\#\\,\\#\\#0\\.000';">$${price.toFixed(3)}</td>`;
                 });
-                csv += row + "\n";
+
+                html += `</tr>`;
+                rIdx++;
             });
 
-            const blob = new Blob(["\ufeff" + csv], { type: 'text/csv;charset=utf-8;' });
+            const lastItemRow = rIdx - 1;
+
+            const lowBidderTotalRaw = bidders.length > 0 && bidders[0].totalBid
+                ? bidders[0].totalBid
+                : items.reduce((acc, it) => {
+                    const lowUnitRaw = (it.bidders && bidders.length > 0 && bidders[0].vendorName && it.bidders[bidders[0].vendorName] !== undefined)
+                        ? it.bidders[bidders[0].vendorName]
+                        : (it.lowUnit || 0);
+                    return acc + ((parseFloat(it.quantity) || 0) * (parseFloat(lowUnitRaw) || 0));
+                }, 0);
+            const lowBidderTotal = parseFloat(lowBidderTotalRaw) || 0;
+
+            html += `<tr>
+                <td colspan="5" style="border:none;">&nbsp;</td>
+                <td style="text-align:right; font-weight:bold;">TOTAL</td>
+                <td class="purple-eng" style="font-weight:bold; mso-number-format:'\\$\\#\\,\\#\\#0\\.00';">$${engEstTotal.toFixed(2)}</td>
+                <td class="yellow-hl green-low" style="mso-number-format:'\\$\\#\\,\\#\\#0\\.00';">$${lowBidderTotal.toFixed(2)}</td>
+                <td class="yellow-hl green-low" style="mso-number-format:'\\$\\#\\,\\#\\#0\\.00';" x:fmla="=SUM(I23:I${lastItemRow})">$${lowBidderTotal.toFixed(2)}</td>`;
+
+            bidders.slice(1).forEach(b => {
+                let bTotalRaw = b.totalBid || 0;
+                if (!bTotalRaw && b.vendorName) {
+                    bTotalRaw = items.reduce((acc, it) => {
+                        const price = parseFloat(it.bidders && it.bidders[b.vendorName]) || 0;
+                        return acc + ((parseFloat(it.quantity) || 0) * price);
+                    }, 0);
+                }
+                const bTotal = parseFloat(bTotalRaw) || 0;
+                html += `<td class="yellow-hl" style="text-align:right; font-weight:bold; mso-number-format:'\\$\\#\\,\\#\\#0\\.00';">$${bTotal.toFixed(2)}</td>`;
+            });
+
+            html += `</tr></table></body></html>`;
+
+            const blob = new Blob(["\ufeff" + html], { type: 'application/vnd.ms-excel;charset=utf-8;' });
             const a = document.createElement('a');
             a.href = URL.createObjectURL(blob);
-            a.download = `CSJ_${csj}_Bid_Tabulation.csv`;
+            a.download = `CSJ_${csj}_Bid_Tabulation.xls`;
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
@@ -2853,7 +2996,7 @@
             const hwy = meta.highway || 'N/A';
             const letDate = meta.letDate || 'N/A';
             const projectType = meta.projectType || meta.projectName || 'Highway Construction';
-            const engEstTotal = meta.engEstTotal || 0;
+            const engEstTotal = parseFloat(meta.engEstTotal) || 0;
             const guarantyCheck = (engEstTotal * 0.02);
 
             const thinBorder = {
@@ -2874,11 +3017,15 @@
                 const cellRef = XLSX.utils.encode_cell({ r: r, c: c });
                 const cellObj = { t: type || 's', s: style || {} };
                 if (type === 'f') {
-                    cellObj.f = val;
+                    cellObj.f = String(val);
                     cellObj.v = 0;
                     cellObj.t = 'n';
+                } else if (type === 'n') {
+                    cellObj.t = 'n';
+                    cellObj.v = typeof val === 'number' ? val : (parseFloat(val) || 0);
                 } else {
-                    cellObj.v = (val === '' || val === null || val === undefined) ? '\u00A0' : val;
+                    cellObj.t = 's';
+                    cellObj.v = (val === '' || val === null || val === undefined) ? '\u00A0' : String(val);
                 }
                 if (style && style.numFmt) {
                     cellObj.z = style.numFmt;
@@ -2959,11 +3106,11 @@
 
             bidders.forEach((b, idx) => {
                 const sumR = 5 + idx;
-                let bTotal = b.totalBid || 0;
+                let bTotal = parseFloat(b.totalBid) || 0;
                 if (!bTotal && b.vendorName) {
                     bTotal = items.reduce((acc, it) => {
-                        const price = (it.bidders && it.bidders[b.vendorName]) || 0;
-                        return acc + ((it.quantity || 0) * price);
+                        const price = parseFloat(it.bidders && it.bidders[b.vendorName]) || 0;
+                        return acc + ((parseFloat(it.quantity) || 0) * price);
                     }, 0);
                 }
 
@@ -3023,12 +3170,13 @@
                 const itemNo = parts[0] || "";
                 const specCode = parts[1] || "";
                 const desc = it.description || "";
-                const qty = it.quantity || 0;
-                const engEstUnit = it.engEstUnit || 0;
+                const qty = parseFloat(it.quantity) || 0;
+                const engEstUnit = parseFloat(it.engEstUnit) || 0;
 
-                const lowUnit = (it.bidders && bidders.length > 0 && bidders[0].vendorName && it.bidders[bidders[0].vendorName] !== undefined)
+                const lowUnitRaw = (it.bidders && bidders.length > 0 && bidders[0].vendorName && it.bidders[bidders[0].vendorName] !== undefined)
                     ? it.bidders[bidders[0].vendorName]
                     : (it.lowUnit || 0);
+                const lowUnit = parseFloat(lowUnitRaw) || 0;
 
                 const diff = lowUnit - engEstUnit;
 
@@ -3113,7 +3261,8 @@
                 // Cols 9+: Additional Bidders Unit Prices
                 bidders.slice(1).forEach((b, bIdx) => {
                     const c = 9 + bIdx;
-                    const bPrice = (it.bidders && it.bidders[b.vendorName] !== undefined) ? it.bidders[b.vendorName] : 0;
+                    const bPriceRaw = (it.bidders && it.bidders[b.vendorName] !== undefined) ? it.bidders[b.vendorName] : 0;
+                    const bPrice = parseFloat(bPriceRaw) || 0;
                     setCell(r, c, bPrice, 'n', {
                         font: { name: 'Arial', sz: 9 },
                         alignment: { horizontal: 'right' },
@@ -3133,21 +3282,22 @@
                 alignment: { horizontal: 'right' }
             });
 
-            const engEstCalculatedTotal = items.reduce((acc, it) => acc + ((it.quantity || 0) * (it.engEstUnit || 0)), 0);
+            const engEstCalculatedTotal = items.reduce((acc, it) => acc + ((parseFloat(it.quantity) || 0) * (parseFloat(it.engEstUnit) || 0)), 0);
             setCell(totalR, 6, engEstCalculatedTotal || engEstTotal, 'n', {
                 font: { name: 'Arial', sz: 9, bold: true, color: { rgb: '7030A0' } },
                 alignment: { horizontal: 'right' },
                 numFmt: '$#,##0.00'
             });
 
-            const lowBidderTotal = bidders.length > 0 && bidders[0].totalBid
+            const lowBidderTotalRaw = bidders.length > 0 && bidders[0].totalBid
                 ? bidders[0].totalBid
                 : items.reduce((acc, it) => {
-                    const lowUnit = (it.bidders && bidders.length > 0 && bidders[0].vendorName && it.bidders[bidders[0].vendorName] !== undefined)
+                    const lowUnitRaw = (it.bidders && bidders.length > 0 && bidders[0].vendorName && it.bidders[bidders[0].vendorName] !== undefined)
                         ? it.bidders[bidders[0].vendorName]
                         : (it.lowUnit || 0);
-                    return acc + ((it.quantity || 0) * lowUnit);
+                    return acc + ((parseFloat(it.quantity) || 0) * (parseFloat(lowUnitRaw) || 0));
                 }, 0);
+            const lowBidderTotal = parseFloat(lowBidderTotalRaw) || 0;
 
             setCell(totalR, 7, lowBidderTotal, 'n', {
                 font: { name: 'Arial', sz: 9, bold: true, color: { rgb: '00B050' } },
@@ -3175,13 +3325,14 @@
 
             bidders.slice(1).forEach((b, bIdx) => {
                 const c = 9 + bIdx;
-                let bTotal = b.totalBid || 0;
-                if (!bTotal && b.vendorName) {
-                    bTotal = items.reduce((acc, it) => {
-                        const price = (it.bidders && it.bidders[b.vendorName]) || 0;
-                        return acc + ((it.quantity || 0) * price);
+                let bTotalRaw = b.totalBid || 0;
+                if (!bTotalRaw && b.vendorName) {
+                    bTotalRaw = items.reduce((acc, it) => {
+                        const price = parseFloat(it.bidders && it.bidders[b.vendorName]) || 0;
+                        return acc + ((parseFloat(it.quantity) || 0) * price);
                     }, 0);
                 }
+                const bTotal = parseFloat(bTotalRaw) || 0;
                 setCell(totalR, c, bTotal, 'n', {
                     font: { name: 'Arial', sz: 9, bold: true },
                     fill: { fgColor: { rgb: 'FFFF00' } },

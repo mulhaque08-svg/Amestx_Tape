@@ -66,31 +66,45 @@
             background-color: var(--bg-body) !important;
             color: #1e293b !important;
         }
-        body.theme-light-mode header {
-            background-color: #ffffff !important;
-            border-color: #dde2f6 !important;
+        /* Ensure Header and Footer are ALWAYS Dark Slate Grey (#1E293B) across ALL themes */
+        header,
+        header.bg-slate-950\/90,
+        body.theme-light-mode header,
+        body.theme-light-mode header.bg-slate-950\/90,
+        footer,
+        footer.bg-slate-900,
+        body.theme-light-mode footer,
+        body.theme-light-mode footer.bg-slate-900 {
+            background-color: #1e293b !important;
+            border-color: #334155 !important;
+            color: #ffffff !important;
         }
-        /* Primary Headings & Dark Text */
-        body.theme-light-mode h1,
-        body.theme-light-mode h2,
-        body.theme-light-mode h3,
-        body.theme-light-mode h4,
-        body.theme-light-mode h5,
-        body.theme-light-mode .text-white {
+
+        body.theme-light-mode header *,
+        body.theme-light-mode footer * {
+            color: #ffffff !important;
+        }
+        body.theme-light-mode header a.hover\:text-amber-300:hover,
+        body.theme-light-mode footer a.text-amber-400 {
+            color: #fbbf24 !important;
+        }
+
+        /* Primary Headings & Dark Text for main content body */
+        body.theme-light-mode main h1,
+        body.theme-light-mode main h2,
+        body.theme-light-mode main h3,
+        body.theme-light-mode main h4,
+        body.theme-light-mode main h5 {
             color: #0f172a !important;
         }
         body.theme-light-mode .text-slate-100,
         body.theme-light-mode .text-slate-200,
-        body.theme-light-mode .text-slate-300 {
-            color: #1e293b !important;
-        }
+        body.theme-light-mode .text-slate-300,
         body.theme-light-mode .text-slate-400,
-        body.theme-light-mode .text-slate-500 {
-            color: #475569 !important;
-        }
+        body.theme-light-mode .text-slate-500,
         body.theme-light-mode .text-slate-600,
         body.theme-light-mode .text-slate-700 {
-            color: #64748b !important;
+            color: #0f172a !important;
         }
 
         /* High-Contrast Colored Accents in Light Mode */
@@ -116,27 +130,34 @@
             color: #6b21a8 !important; /* Deep purple */
         }
 
-        /* Card Backgrounds & Borders in Light Mode */
-        body.theme-light-mode .bg-slate-900,
-        body.theme-light-mode .bg-slate-950 {
+        /* Light Colored Boxes & Cards in Light Mode (Scoped to Main Content & Modals) */
+        body.theme-light-mode main #monthTabsHeaderBlock,
+        body.theme-light-mode main #searchBarHeaderBlock,
+        body.theme-light-mode main #tableContainerBox,
+        body.theme-light-mode main .bg-slate-800,
+        body.theme-light-mode main .bg-slate-800\/40,
+        body.theme-light-mode main .bg-slate-800\/60,
+        body.theme-light-mode main .bg-slate-800\/80,
+        body.theme-light-mode main .bg-slate-800\/90,
+        body.theme-light-mode main .bg-slate-900,
+        body.theme-light-mode main .bg-slate-900\/60,
+        body.theme-light-mode main .bg-slate-900\/80,
+        body.theme-light-mode main .bg-slate-900\/90,
+        body.theme-light-mode main .bg-slate-950,
+        body.theme-light-mode main .bg-slate-950\/60,
+        body.theme-light-mode main .bg-slate-950\/80,
+        body.theme-light-mode main .bg-slate-950\/90,
+        body.theme-light-mode #contractorsModal .bg-slate-900,
+        body.theme-light-mode #contractorsModal .bg-slate-950,
+        body.theme-light-mode #mplModal .bg-slate-900,
+        body.theme-light-mode #mplModal .bg-slate-950,
+        body.theme-light-mode #itemCodesModal .bg-slate-900,
+        body.theme-light-mode #itemCodesModal .bg-slate-950 {
             background-color: #FFFFFF !important;
-            border-color: #DDE2F6 !important;
-        }
-        body.theme-light-mode .bg-slate-800\/40,
-        body.theme-light-mode .bg-slate-800\/80,
-        body.theme-light-mode .bg-slate-900\/60,
-        body.theme-light-mode .bg-slate-900\/80,
-        body.theme-light-mode .bg-slate-950\/60,
-        body.theme-light-mode .bg-slate-950\/80,
-        body.theme-light-mode .bg-slate-950\/90 {
-            background-color: #F8FAFC !important;
             border-color: #CBD5E1 !important;
+            color: #0F172A !important;
         }
-        body.theme-light-mode .bg-slate-800 {
-            background-color: #F1F5F9 !important;
-            border-color: #CBD5E1 !important;
-            color: #1e293b !important;
-        }
+
         body.theme-light-mode .border-slate-800,
         body.theme-light-mode .border-slate-700,
         body.theme-light-mode .border-slate-700\/60,
@@ -144,19 +165,35 @@
             border-color: #CBD5E1 !important;
         }
 
+        /* Top Side Action Buttons & Inactive Month Tabs in Light Mode */
+        body.theme-light-mode a.bg-slate-800\/90,
+        body.theme-light-mode button.bg-slate-800\/90,
+        body.theme-light-mode button.bg-slate-700\/60,
+        body.theme-light-mode button.bg-slate-800 {
+            background-color: #F1F5F9 !important;
+            border-color: #CBD5E1 !important;
+            color: #0F172A !important;
+        }
+        body.theme-light-mode a.bg-slate-800\/90:hover,
+        body.theme-light-mode button.bg-slate-800\/90:hover,
+        body.theme-light-mode button.bg-slate-700\/60:hover {
+            background-color: #E2E8F0 !important;
+            color: #000000 !important;
+        }
+
         /* Table Headers & Rows in Light Mode */
         body.theme-light-mode table thead,
         body.theme-light-mode table thead tr,
         body.theme-light-mode table thead th {
             background-color: #F1F5F9 !important;
-            color: #334155 !important;
+            color: #0F172A !important;
             border-color: #CBD5E1 !important;
         }
         body.theme-light-mode table tbody tr {
             border-color: #E2E8F0 !important;
         }
         body.theme-light-mode table tbody tr:hover {
-            background-color: #F1F5F9 !important;
+            background-color: #F8FAFC !important;
         }
 
         /* Inputs & Selects in Light Mode */
@@ -167,21 +204,14 @@
             border-color: #cbd5e1 !important;
         }
         body.theme-light-mode input::placeholder {
-            color: #64748b !important;
+            color: #475569 !important;
         }
 
-        /* Solid Buttons Text Preservation (White text on dark/colored buttons) */
+        /* View Project & Action Buttons in Light Mode */
         body.theme-light-mode button.bg-amber-600,
         body.theme-light-mode button.bg-amber-600\/80,
-        body.theme-light-mode button.bg-amber-600 *,
-        body.theme-light-mode button.bg-blue-600,
-        body.theme-light-mode button.bg-blue-600 *,
-        body.theme-light-mode button.bg-emerald-600,
-        body.theme-light-mode button.bg-emerald-600 *,
-        body.theme-light-mode a.bg-blue-600,
-        body.theme-light-mode a.bg-blue-600 *,
-        body.theme-light-mode a.bg-emerald-600,
-        body.theme-light-mode a.bg-emerald-600 * {
+        body.theme-light-mode button.bg-amber-600\/90 {
+            background-color: #EA580C !important;
             color: #FFFFFF !important;
         }
 
@@ -245,10 +275,9 @@
             <!-- Header Right: Theme Switcher & Status Badge -->
             <div class="flex items-center space-x-3 flex-nowrap shrink-0">
                 <select id="themeSelector" onchange="applyColorTheme(this.value)" class="px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-800/90 hover:bg-slate-700 text-amber-300 border border-amber-500/40 shadow transition cursor-pointer focus:outline-none whitespace-nowrap">
-                    <option value="default">🎨 Theme: Slate</option>
-                    <option value="rl-light">🌸 Theme: RL Light</option>
-                    <option value="rl-dark">🟣 Theme: RL Dark</option>
                     <option value="txdot-navy">⚓ Theme: Navy</option>
+                    <option value="rl-dark">🟣 Theme: RL Dark</option>
+                    <option value="slate-light">☀️ Theme: Light Slate</option>
                 </select>
 
                 <!-- API Status Badge -->
@@ -284,7 +313,7 @@
                     <!-- Center: Monthly TxDOT Letting Title & Month Tabs -->
                     <div class="lg:col-span-6 text-center space-y-2.5">
                         <h2 class="text-xl font-extrabold text-white tracking-wide">Monthly TxDOT Letting</h2>
-                        <div class="flex flex-wrap justify-center gap-2.5" id="monthTabsContainer"></div>
+                        <div class="flex flex-nowrap justify-center gap-1.5 overflow-x-auto py-0.5" id="monthTabsContainer"></div>
                     </div>
 
                     <!-- Right Side: 2 Uniform Buttons (Top Right & Bottom Right) -->
@@ -839,19 +868,30 @@
         </div>
     </div>
 
-    <!-- Footer Bar -->
-    <footer class="border-t border-slate-800 bg-slate-950/80 py-6 text-center text-xs text-slate-400 mt-12">
-        <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div>
-                © 2026 <span class="font-bold text-white">Amestx™</span>. All rights reserved.
+    <!-- Footer -->
+    <footer class="border-t border-slate-700/80 bg-slate-900 py-8 text-slate-300 text-xs transition-colors mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-6">
+            
+            <!-- Left: Brand Logo & Copyright -->
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 bg-gradient-to-br from-blue-600 via-indigo-600 to-amber-500 rounded-lg flex items-center justify-center text-white font-bold text-xs shadow-md">
+                    AM
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="font-extrabold text-white text-sm">Amestx™</span>
+                    <span class="text-slate-300 text-xs">© 2026 Amestx Inc. All rights reserved.</span>
+                </div>
             </div>
-            <div class="flex items-center space-x-3 text-slate-400 font-mono text-xs">
-                <a href="#privacy" onclick="alert('Amestx Privacy Policy: Contractor data and estimate sessions are confidential.')" class="hover:text-blue-400 transition">Privacy Policy</a>
-                <span class="text-slate-700">|</span>
-                <a href="#terms" onclick="alert('Amestx Terms of Service: Subscription service provided for TxDOT contractor estimating and bid analysis.')" class="hover:text-blue-400 transition">Terms of Service</a>
-                <span class="text-slate-700">|</span>
+
+            <!-- Right: Legal Policies & Support -->
+            <div class="flex flex-wrap items-center justify-center gap-3 sm:gap-5 font-medium text-xs text-slate-200">
+                <a href="#privacy" onclick="alert('Amestx Privacy Policy: All contractor estimating data, CSJ queries, and baseline models are 100% private and confidential.')" class="hover:text-blue-400 transition">Privacy Policy</a>
+                <span class="text-slate-600">|</span>
+                <a href="#terms" onclick="alert('Amestx Terms of Service: Subscription service for Texas highway civil contractor estimating and monthly letting analysis.')" class="hover:text-blue-400 transition">Terms of Service</a>
+                <span class="text-slate-600">|</span>
                 <a href="mailto:support@amestx.com" class="hover:text-blue-400 transition">Contact & Support</a>
             </div>
+
         </div>
     </footer>
 
@@ -1348,12 +1388,12 @@
                 const yr = d.getFullYear();
                 const mo = String(d.getMonth() + 1).padStart(2, '0');
                 const monthCode = `${yr}-${mo}`;
-                const label = d.toLocaleString('en-US', { month: 'short', year: 'numeric' });
+                const label = d.toLocaleString('en-US', { month: 'short', year: '2-digit' });
 
                 const btn = document.createElement('button');
                 btn.className = monthCode === currentMonth 
-                    ? "bg-blue-600 text-white font-bold px-4 py-2 rounded-lg shadow font-sans text-xs sm:text-sm" 
-                    : "bg-slate-700/60 hover:bg-slate-700 text-slate-300 px-4 py-2 rounded-lg transition font-sans text-xs sm:text-sm";
+                    ? "bg-blue-600 text-white font-bold px-2.5 py-1.5 rounded-lg shadow font-sans text-[11px] sm:text-xs whitespace-nowrap" 
+                    : "bg-slate-700/60 hover:bg-slate-700 text-slate-300 px-2.5 py-1.5 rounded-lg transition font-sans text-[11px] sm:text-xs whitespace-nowrap";
                 btn.innerText = label;
                 btn.onclick = () => {
                     currentMonth = monthCode;
@@ -1477,24 +1517,32 @@
 
         function applyColorTheme(themeName) {
             const root = document.documentElement;
+            if (themeName === 'navy') themeName = 'txdot-navy';
+            if (themeName === 'plum') themeName = 'rl-dark';
+            if (themeName === 'light') themeName = 'slate-light';
+            if (themeName !== 'rl-dark' && themeName !== 'slate-light' && themeName !== 'txdot-navy') {
+                themeName = 'txdot-navy';
+            }
+
             localStorage.setItem('amestx_color_theme', themeName);
+            localStorage.setItem('amestx_theme', themeName === 'slate-light' ? 'light' : (themeName === 'rl-dark' ? 'rl-dark' : 'navy'));
             const sel = document.getElementById('themeSelector');
             if (sel) sel.value = themeName;
 
-            if (themeName === 'rl-light') {
-                // Remote Leverage Light Theme (remoteleverage.com/case-study/)
-                root.style.setProperty('--bg-body', '#FFF4FE');
-                root.style.setProperty('--bg-header', '#F2F1ED');
+            if (themeName === 'slate-light') {
+                // Light Slate Theme (Off-White Slate, Dark Grey Header/Footer, Orange, Green & Blue)
+                root.style.setProperty('--bg-body', '#F1F5F9');
+                root.style.setProperty('--bg-header', '#1E293B');
                 root.style.setProperty('--bg-card', '#FFFFFF');
-                root.style.setProperty('--border-card', '#DDE2F6');
-                root.style.setProperty('--text-main', '#1A1A1A');
-                root.style.setProperty('--text-muted', '#4A4A68');
-                root.style.setProperty('--brand-primary', '#650367');
-                root.style.setProperty('--brand-accent', '#650367');
-                root.style.setProperty('--brand-green', '#027B60');
+                root.style.setProperty('--border-card', '#CBD5E1');
+                root.style.setProperty('--text-main', '#0F172A');
+                root.style.setProperty('--text-muted', '#475569');
+                root.style.setProperty('--brand-primary', '#2563EB'); // Blue
+                root.style.setProperty('--brand-accent', '#EA580C');  // Vibrant Orange
+                root.style.setProperty('--brand-green', '#059669');   // Emerald Green
                 document.body.classList.add('theme-light-mode');
             } else if (themeName === 'rl-dark') {
-                // Remote Leverage Dark Purple Theme
+                // Remote Leverage RL Dark Purple Theme
                 root.style.setProperty('--bg-body', '#140217');
                 root.style.setProperty('--bg-header', '#25042A');
                 root.style.setProperty('--bg-card', '#2E0534');
@@ -1505,8 +1553,8 @@
                 root.style.setProperty('--brand-accent', '#E879F9');
                 root.style.setProperty('--brand-green', '#027B60');
                 document.body.classList.remove('theme-light-mode');
-            } else if (themeName === 'txdot-navy') {
-                // TxDOT Classic Navy
+            } else {
+                // TxDOT Classic Navy Theme (Default)
                 root.style.setProperty('--bg-body', '#0B132B');
                 root.style.setProperty('--bg-header', '#1C2541');
                 root.style.setProperty('--bg-card', '#1C2541');
@@ -1516,18 +1564,6 @@
                 root.style.setProperty('--brand-primary', '#5BC0BE');
                 root.style.setProperty('--brand-accent', '#6FFFE9');
                 root.style.setProperty('--brand-green', '#10B981');
-                document.body.classList.remove('theme-light-mode');
-            } else {
-                // Default Amestx Slate Dark
-                root.style.setProperty('--bg-body', '#0f172a');
-                root.style.setProperty('--bg-header', 'rgba(2, 6, 23, 0.85)');
-                root.style.setProperty('--bg-card', 'rgba(30, 41, 59, 0.4)');
-                root.style.setProperty('--border-card', 'rgba(51, 65, 85, 0.6)');
-                root.style.setProperty('--text-main', '#f8fafc');
-                root.style.setProperty('--text-muted', '#94a3b8');
-                root.style.setProperty('--brand-primary', '#3b82f6');
-                root.style.setProperty('--brand-accent', '#f59e0b');
-                root.style.setProperty('--brand-green', '#10b981');
                 document.body.classList.remove('theme-light-mode');
             }
         }
@@ -3646,7 +3682,7 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
 
         // Initialize safely when DOM is fully interactive
         function initApp() {
-            const savedTheme = localStorage.getItem('amestx_color_theme') || 'default';
+            const savedTheme = localStorage.getItem('amestx_color_theme') || localStorage.getItem('amestx_theme') || 'txdot-navy';
             applyColorTheme(savedTheme);
             showHomeView();
         }

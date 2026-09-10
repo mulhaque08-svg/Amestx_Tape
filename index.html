@@ -2758,54 +2758,445 @@
         }
 
         function downloadBidTabExcelCurrent() {
-            if (!currentCSJ) return;
-            fetch(`/api/export-excel?csj=${encodeURIComponent(currentCSJ)}`)
-                .then(res => {
-                    if (res.ok && !res.headers.get('content-type')?.includes('text/html')) {
-                        return res.blob().then(blob => {
-                            const a = document.createElement('a');
-                            a.href = URL.createObjectURL(blob);
-                            a.download = `CSJ_${currentCSJ}_Bid_Tabulation.xlsx`;
-                            document.body.appendChild(a);
-                            a.click();
-                            document.body.removeChild(a);
-                        });
-                    } else {
-                        throw new Error("Static host fallback");
-                    }
-                })
-                .catch(() => {
-                    const items = (currentProjectData && currentProjectData.items) ? currentProjectData.items : [];
-                    const bidders = (currentProjectData && currentProjectData.bidders) ? currentProjectData.bidders : [];
+            if (!currentCSJ) {
+                alert("Please select a project CSJ first.");
+                return;
+            }
 
-                    let headerRow = "Difference,Item Code,Description,Unit,Quantity,Eng. Est.";
-                    bidders.forEach((b, idx) => {
-                        headerRow += `,${idx + 1}) "${(b.vendorName || '').replace(/"/g, '""')}"`;
+            const meta = (currentProjectData && currentProjectData.metadata) ? currentProjectData.metadata : {};
+            let items = (currentProjectData && currentProjectData.items && currentProjectData.items.length > 0) ? currentProjectData.items : [];
+            let bidders = (currentProjectData && currentProjectData.bidders && currentProjectData.bidders.length > 0) ? currentProjectData.bidders : [];
+
+            if (items.length === 0) {
+                const tbody = document.getElementById('bidTabTbody') || document.getElementById('prebidTbody');
+                if (tbody && tbody.children.length > 0) {
+                    items = [];
+                    Array.from(tbody.children).forEach(row => {
+                        const cells = row.children;
+                        if (cells.length >= 6) {
+                            const diffStr = cells[0]?.innerText?.replace(/[\$,]/g, '').trim() || '0';
+                            const itemNo = cells[1]?.innerText?.trim() || '';
+                            const specCode = cells[2]?.innerText?.trim() || '';
+                            const desc = cells[3]?.innerText?.trim() || '';
+                            const unit = cells[4]?.innerText?.trim() || '';
+                            const qtyStr = cells[5]?.innerText?.trim() || '0';
+                            const qty = parseFloat(qtyStr.replace(/,/g, '')) || 0;
+                            const engEstStr = cells[6]?.innerText?.replace(/[\$,]/g, '').trim() || '0';
+                            const engEst = parseFloat(engEstStr) || 0;
+
+                            items.push({
+                                code: `${itemNo} ${specCode}`.trim(),
+                                description: desc,
+                                unit: unit,
+                                quantity: qty,
+                                engEstUnit: engEst
+                            });
+                        }
                     });
-                    headerRow += "\n";
+                }
+            }
 
-                    let csv = headerRow;
-                    items.forEach(it => {
-                        const lowBidderName = bidders.length > 0 ? bidders[0].vendorName : '';
-                        const lowUnit = (it.bidders && it.bidders[lowBidderName]) || 0;
-                        const diff = lowUnit - (it.engEstUnit || 0);
+            const csj = meta.csj || currentCSJ;
 
-                        let row = `${diff.toFixed(2)},${it.code || ''},"${(it.description || '').replace(/"/g, '""')}",${it.unit || ''},${it.quantity || 0},${it.engEstUnit || 0}`;
-                        bidders.forEach(b => {
-                            const price = (it.bidders && it.bidders[b.vendorName]) || 0;
-                            row += `,${price}`;
-                        });
-                        csv += row + "\n";
-                    });
+            if (typeof XLSX !== 'undefined') {
+                try {
+                    const wb = XLSX.utils.book_new();
+                    const ws = createStyledBidTabWorksheet(meta, items, bidders);
+                    const sheetName = `Bid Tab CSJ ${csj}`.replace(/[:\\\/\?\*\[\]]/g, '-').slice(0, 31);
+                    XLSX.utils.book_append(wb, ws, sheetName);
+                    XLSX.writeFile(wb, `CSJ_${csj}_Bid_Tabulation.xlsx`);
+                    return;
+                } catch (e) {
+                    console.error("XLSX Bid Tab export error, falling back:", e);
+                }
+            }
 
-                    const blob = new Blob(["\ufeff" + csv], { type: 'text/csv;charset=utf-8;' });
-                    const a = document.createElement('a');
-                    a.href = URL.createObjectURL(blob);
-                    a.download = `CSJ_${currentCSJ}_Bid_Tabulation.csv`;
-                    document.body.appendChild(a);
-                    a.click();
-                    document.body.removeChild(a);
+            // CSV Fallback
+            let headerRow = "Difference,Item Code,Description,Unit,Quantity,Eng. Est.";
+            bidders.forEach((b, idx) => {
+                headerRow += `,${idx + 1}) "${(b.vendorName || '').replace(/"/g, '""')}"`;
+            });
+            headerRow += "\n";
+
+            let csv = headerRow;
+            items.forEach(it => {
+                const lowBidderName = bidders.length > 0 ? bidders[0].vendorName : '';
+                const lowUnit = (it.bidders && it.bidders[lowBidderName]) || it.lowUnit || 0;
+                const diff = lowUnit - (it.engEstUnit || 0);
+
+                let row = `${diff.toFixed(2)},${it.code || ''},"${(it.description || '').replace(/"/g, '""')}",${it.unit || ''},${it.quantity || 0},${it.engEstUnit || 0}`;
+                bidders.forEach(b => {
+                    const price = (it.bidders && it.bidders[b.vendorName]) || 0;
+                    row += `,${price}`;
                 });
+                csv += row + "\n";
+            });
+
+            const blob = new Blob(["\ufeff" + csv], { type: 'text/csv;charset=utf-8;' });
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(blob);
+            a.download = `CSJ_${csj}_Bid_Tabulation.csv`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+
+        function createStyledBidTabWorksheet(meta, items, bidders) {
+            meta = meta || {};
+            items = items || [];
+            bidders = bidders || [];
+
+            const ws = {};
+
+            const csj = meta.csj || currentCSJ || 'N/A';
+            const county = meta.county || 'N/A';
+            const hwy = meta.highway || 'N/A';
+            const letDate = meta.letDate || 'N/A';
+            const projectType = meta.projectType || meta.projectName || 'Highway Construction';
+            const engEstTotal = meta.engEstTotal || 0;
+            const guarantyCheck = (engEstTotal * 0.02);
+
+            const thinBorder = {
+                top: { style: "thin", color: { rgb: "FFD3D3D3" } },
+                bottom: { style: "thin", color: { rgb: "FFD3D3D3" } },
+                left: { style: "thin", color: { rgb: "FFD3D3D3" } },
+                right: { style: "thin", color: { rgb: "FFD3D3D3" } }
+            };
+
+            const darkBorder = {
+                top: { style: "thin", color: { rgb: "FF000000" } },
+                bottom: { style: "thin", color: { rgb: "FF000000" } },
+                left: { style: "thin", color: { rgb: "FF000000" } },
+                right: { style: "thin", color: { rgb: "FF000000" } }
+            };
+
+            function setCell(r, c, val, type, style) {
+                const cellRef = XLSX.utils.encode_cell({ r: r, c: c });
+                const cellObj = { t: type || 's', s: style || {} };
+                if (type === 'f') {
+                    cellObj.f = val;
+                    cellObj.v = 0;
+                    cellObj.t = 'n';
+                } else {
+                    cellObj.v = (val === '' || val === null || val === undefined) ? '\u00A0' : val;
+                }
+                if (style && style.numFmt) {
+                    cellObj.z = style.numFmt;
+                }
+                ws[cellRef] = cellObj;
+            }
+
+            const numBidders = bidders.length;
+            const maxCols = Math.max(11, 7 + 2 + Math.max(0, numBidders - 1));
+
+            // Row 0: Title Banner
+            const titleText = `${letDate} | ${county} | ${hwy} | $${engEstTotal.toLocaleString(undefined, {minimumFractionDigits:2})} | ${projectType}`;
+            for (let c = 0; c < maxCols; c++) {
+                setCell(0, c, c === 0 ? titleText : '\u00A0', 's', {
+                    font: { name: 'Arial', sz: 12, bold: true, color: { rgb: '0066CC' } },
+                    alignment: { vertical: 'center', horizontal: 'left' }
+                });
+            }
+
+            // Metadata fields (Rows 1..18)
+            const metaFields = [
+                ["COUNTY:", county, false],
+                ["DISTRICT:", meta.district || "TxDOT District", false],
+                ["CSJ:", csj, true],
+                ["PROJECT ID:", meta.projectId || 'N/A', false],
+                ["PROJECT NO (Federal):", meta.projectNoFed || "N/A", false],
+                ["PROJECT NO (State):", meta.projectNoState || "N/A", false],
+                ["CONTRACT NUMBER:", meta.contractNum || "N/A", false],
+                ["HWY:", hwy, false],
+                ["TIME:", `${meta.workingDays || '180.0'} Working Days`, false],
+                ["TYPE:", projectType, true],
+                ["LENGTH:", meta.length || "0", false],
+                ["ESTIMATE:", `$${engEstTotal.toLocaleString(undefined, {minimumFractionDigits:2})}`, true],
+                ["GUARANTY CHECK:", `$${guarantyCheck.toLocaleString(undefined, {minimumFractionDigits:2})}`, false],
+                ["DBE GOAL:", meta.dbeGoal || "0.00%", false],
+                ["BIDS RECEIVED UNTIL:", letDate, true],
+                ["BIDS WILL BE OPENED:", letDate, true],
+                ["APPROVED LET DATE:", letDate, false],
+                ["ESTIMATED LET DATE:", letDate, false]
+            ];
+
+            metaFields.forEach((f, idx) => {
+                const r = idx + 1; // Row 1 to 18
+                setCell(r, 0, f[0], 's', {
+                    font: { name: 'Arial', sz: 9, bold: true, color: { rgb: '333333' } },
+                    fill: { fgColor: { rgb: 'F8FAFC' } },
+                    border: thinBorder,
+                    alignment: { vertical: 'center', horizontal: 'left' }
+                });
+
+                const styleObj = {
+                    font: { name: 'Arial', sz: 9, bold: f[2] },
+                    border: thinBorder,
+                    alignment: { vertical: 'center', horizontal: 'left' }
+                };
+                if (f[2]) {
+                    styleObj.fill = { fgColor: { rgb: 'FFFF00' } };
+                }
+                setCell(r, 1, f[1], 's', styleObj);
+            });
+
+            // Top Right Bidder Summary Table (Rows 3..n, Cols 2..6)
+            const summaryHeaders = ['Bidder', 'Bid Amount', '% Over/Under', 'Company', 'Contact Info'];
+            summaryHeaders.forEach((sh, i) => {
+                setCell(3, 2 + i, sh, 's', {
+                    font: { name: 'Arial', sz: 9, bold: true },
+                    border: thinBorder,
+                    alignment: { vertical: 'center', horizontal: i === 1 || i === 2 ? 'right' : 'left' }
+                });
+            });
+
+            // Row 4: Eng Est Summary
+            setCell(4, 2, 'Eng. Est.', 's', { font: { name: 'Arial', sz: 9, bold: true }, border: thinBorder });
+            setCell(4, 3, engEstTotal, 'n', { font: { name: 'Arial', sz: 9, bold: true }, numFmt: '$#,##0.00', border: thinBorder, alignment: { horizontal: 'right' } });
+            setCell(4, 4, '\u00A0', 's', { border: thinBorder });
+            setCell(4, 5, '\u00A0', 's', { border: thinBorder });
+            setCell(4, 6, '\u00A0', 's', { border: thinBorder });
+
+            bidders.forEach((b, idx) => {
+                const sumR = 5 + idx;
+                let bTotal = b.totalBid || 0;
+                if (!bTotal && b.vendorName) {
+                    bTotal = items.reduce((acc, it) => {
+                        const price = (it.bidders && it.bidders[b.vendorName]) || 0;
+                        return acc + ((it.quantity || 0) * price);
+                    }, 0);
+                }
+
+                const isLow = (idx === 0);
+                const fontColor = isLow ? { rgb: '00B050' } : { rgb: '000000' };
+
+                setCell(sumR, 2, `Bidder ${idx + 1}`, 's', { font: { name: 'Arial', sz: 9, bold: isLow, color: fontColor }, border: thinBorder });
+                setCell(sumR, 3, bTotal, 'n', { font: { name: 'Arial', sz: 9, bold: isLow, color: fontColor }, numFmt: '$#,##0.00', border: thinBorder, alignment: { horizontal: 'right' } });
+
+                const pctDiff = engEstTotal > 0 ? ((bTotal - engEstTotal) / engEstTotal) : 0;
+                setCell(sumR, 4, pctDiff, 'n', { font: { name: 'Arial', sz: 9, bold: isLow, color: fontColor }, numFmt: '0.00%', border: thinBorder, alignment: { horizontal: 'right' } });
+                setCell(sumR, 5, b.vendorName || `Bidder ${idx + 1}`, 's', { font: { name: 'Arial', sz: 9, bold: isLow }, border: thinBorder });
+                setCell(sumR, 6, b.contactInfo || '\u00A0', 's', { font: { name: 'Arial', sz: 9 }, border: thinBorder });
+            });
+
+            // Rows 19 & 20: Blank Separators
+            for (let c = 0; c < maxCols; c++) {
+                setCell(19, c, '\u00A0', 's', { border: thinBorder });
+                setCell(20, c, '\u00A0', 's', { border: thinBorder });
+            }
+
+            // Row 21: Main Table Black Headers
+            const lowBidderName = bidders.length > 0 ? (bidders[0].vendorName || 'BIDDER 1') : 'LOW BIDDER';
+            const tableHeaders = [
+                'Difference',
+                'ITEM NO.',
+                'SPEC CO.',
+                'ITEM DESCRIPTION',
+                'UNIT',
+                'APPROXIMATE QUANTITIES',
+                'Eng. Est.',
+                `1) ${lowBidderName}`,
+                `1) ${lowBidderName}`
+            ];
+
+            bidders.slice(1).forEach((b, idx) => {
+                tableHeaders.push(`${idx + 2}) ${b.vendorName || `BIDDER ${idx + 2}`}`);
+            });
+
+            tableHeaders.forEach((h, c) => {
+                let align = 'center';
+                if (c === 3) align = 'left';
+                if (c >= 5) align = 'right';
+                setCell(21, c, h, 's', {
+                    font: { name: 'Arial', sz: 9, bold: true, color: { rgb: 'FFFFFF' } },
+                    fill: { fgColor: { rgb: '000000' } },
+                    alignment: { vertical: 'center', horizontal: align },
+                    border: darkBorder
+                });
+            });
+
+            // Rows 22+: Pay Items
+            items.forEach((it, idx) => {
+                const r = 22 + idx; // 0-indexed row 22 = Excel row 23
+                const excelRowNum = r + 1;
+                const parts = (it.code || "").split(" ");
+                const itemNo = parts[0] || "";
+                const specCode = parts[1] || "";
+                const desc = it.description || "";
+                const qty = it.quantity || 0;
+                const engEstUnit = it.engEstUnit || 0;
+
+                const lowUnit = (it.bidders && bidders.length > 0 && bidders[0].vendorName && it.bidders[bidders[0].vendorName] !== undefined)
+                    ? it.bidders[bidders[0].vendorName]
+                    : (it.lowUnit || 0);
+
+                const diff = lowUnit - engEstUnit;
+
+                // Col 0: Difference (RED font)
+                setCell(r, 0, diff, 'n', {
+                    font: { name: 'Arial', sz: 9, color: { rgb: 'FF0000' } },
+                    alignment: { horizontal: 'right' },
+                    border: thinBorder,
+                    numFmt: '0.00'
+                });
+
+                // Col 1: ITEM NO.
+                setCell(r, 1, itemNo, 's', {
+                    font: { name: 'Arial', sz: 9 },
+                    alignment: { horizontal: 'center' },
+                    border: thinBorder,
+                    numFmt: '@'
+                });
+
+                // Col 2: SPEC CO.
+                setCell(r, 2, specCode, 's', {
+                    font: { name: 'Arial', sz: 9 },
+                    alignment: { horizontal: 'center' },
+                    border: thinBorder,
+                    numFmt: '@'
+                });
+
+                // Col 3: ITEM DESCRIPTION
+                setCell(r, 3, desc, 's', {
+                    font: { name: 'Arial', sz: 9 },
+                    alignment: { horizontal: 'left' },
+                    border: thinBorder
+                });
+
+                // Col 4: UNIT
+                setCell(r, 4, it.unit || '\u00A0', 's', {
+                    font: { name: 'Arial', sz: 9 },
+                    alignment: { horizontal: 'center' },
+                    border: thinBorder
+                });
+
+                // Col 5: APPROXIMATE QUANTITIES (Blue font)
+                setCell(r, 5, qty, 'n', {
+                    font: { name: 'Arial', sz: 9, color: { rgb: '0066CC' } },
+                    alignment: { horizontal: 'right' },
+                    border: thinBorder,
+                    numFmt: '#,##0.000'
+                });
+
+                // Col 6: Eng. Est. (Purple font)
+                setCell(r, 6, engEstUnit, 'n', {
+                    font: { name: 'Arial', sz: 9, color: { rgb: '7030A0' } },
+                    alignment: { horizontal: 'right' },
+                    border: thinBorder,
+                    numFmt: '$#,##0.000'
+                });
+
+                // Col 7: 1) Low Bidder Unit Price (BOLD GREEN font)
+                setCell(r, 7, lowUnit, 'n', {
+                    font: { name: 'Arial', sz: 9, bold: true, color: { rgb: '00B050' } },
+                    alignment: { horizontal: 'right' },
+                    border: thinBorder,
+                    numFmt: '$#,##0.000'
+                });
+
+                // Col 8: 1) Low Bidder Extended Amount (BOLD GREEN font, Formula = F*H)
+                const formulaStr = `F${excelRowNum}*H${excelRowNum}`;
+                const cellRef = XLSX.utils.encode_cell({ r: r, c: 8 });
+                ws[cellRef] = {
+                    f: formulaStr,
+                    v: qty * lowUnit,
+                    t: 'n',
+                    z: '$#,##0.00',
+                    s: {
+                        font: { name: 'Arial', sz: 9, bold: true, color: { rgb: '00B050' } },
+                        alignment: { horizontal: 'right' },
+                        border: thinBorder,
+                        numFmt: '$#,##0.00'
+                    }
+                };
+
+                // Cols 9+: Additional Bidders Unit Prices
+                bidders.slice(1).forEach((b, bIdx) => {
+                    const c = 9 + bIdx;
+                    const bPrice = (it.bidders && it.bidders[b.vendorName] !== undefined) ? it.bidders[b.vendorName] : 0;
+                    setCell(r, c, bPrice, 'n', {
+                        font: { name: 'Arial', sz: 9 },
+                        alignment: { horizontal: 'right' },
+                        border: thinBorder,
+                        numFmt: '$#,##0.000'
+                    });
+                });
+            });
+
+            // TOTAL Row at bottom
+            const totalR = 22 + items.length;
+            const firstItemExcelRow = 23;
+            const lastItemExcelRow = 22 + items.length;
+
+            setCell(totalR, 5, "TOTAL", 's', {
+                font: { name: 'Arial', sz: 9, bold: true },
+                alignment: { horizontal: 'right' }
+            });
+
+            const engEstCalculatedTotal = items.reduce((acc, it) => acc + ((it.quantity || 0) * (it.engEstUnit || 0)), 0);
+            setCell(totalR, 6, engEstCalculatedTotal || engEstTotal, 'n', {
+                font: { name: 'Arial', sz: 9, bold: true, color: { rgb: '7030A0' } },
+                alignment: { horizontal: 'right' },
+                numFmt: '$#,##0.00'
+            });
+
+            const lowBidderTotal = bidders.length > 0 && bidders[0].totalBid
+                ? bidders[0].totalBid
+                : items.reduce((acc, it) => {
+                    const lowUnit = (it.bidders && bidders.length > 0 && bidders[0].vendorName && it.bidders[bidders[0].vendorName] !== undefined)
+                        ? it.bidders[bidders[0].vendorName]
+                        : (it.lowUnit || 0);
+                    return acc + ((it.quantity || 0) * lowUnit);
+                }, 0);
+
+            setCell(totalR, 7, lowBidderTotal, 'n', {
+                font: { name: 'Arial', sz: 9, bold: true, color: { rgb: '00B050' } },
+                fill: { fgColor: { rgb: 'FFFF00' } },
+                alignment: { horizontal: 'right' },
+                border: thinBorder,
+                numFmt: '$#,##0.00'
+            });
+
+            const lowExtFormula = `SUM(I${firstItemExcelRow}:I${lastItemExcelRow})`;
+            const lowExtCellRef = XLSX.utils.encode_cell({ r: totalR, c: 8 });
+            ws[lowExtCellRef] = {
+                f: lowExtFormula,
+                v: lowBidderTotal,
+                t: 'n',
+                z: '$#,##0.00',
+                s: {
+                    font: { name: 'Arial', sz: 9, bold: true, color: { rgb: '00B050' } },
+                    fill: { fgColor: { rgb: 'FFFF00' } },
+                    alignment: { horizontal: 'right' },
+                    border: thinBorder,
+                    numFmt: '$#,##0.00'
+                }
+            };
+
+            bidders.slice(1).forEach((b, bIdx) => {
+                const c = 9 + bIdx;
+                let bTotal = b.totalBid || 0;
+                if (!bTotal && b.vendorName) {
+                    bTotal = items.reduce((acc, it) => {
+                        const price = (it.bidders && it.bidders[b.vendorName]) || 0;
+                        return acc + ((it.quantity || 0) * price);
+                    }, 0);
+                }
+                setCell(totalR, c, bTotal, 'n', {
+                    font: { name: 'Arial', sz: 9, bold: true },
+                    fill: { fgColor: { rgb: 'FFFF00' } },
+                    alignment: { horizontal: 'right' },
+                    border: thinBorder,
+                    numFmt: '$#,##0.00'
+                });
+            });
+
+            ws['!merges'] = [
+                { s: { r: 0, c: 0 }, e: { r: 0, c: maxCols - 1 } }
+            ];
+            ws['!ref'] = XLSX.utils.encode_range({ s: { r: 0, c: 0 }, e: { r: totalR + 2, c: maxCols - 1 } });
+
+            return ws;
         }
 
         function createStyledProjectWorksheet(meta, items, isZeroPrice = false) {

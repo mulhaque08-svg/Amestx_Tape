@@ -23,42 +23,78 @@ try {
 $itemsList = @()
 $isPreBid = $false
 
+# Cache for 2026 TxDOT Low Bidder Average Unit Prices
+$avgPriceCache = @{}
+
+function Get-2026LowBidAvgPrice ([string]$bidCode) {
+    if ([string]::IsNullOrWhiteSpace($bidCode)) { return 0.00 }
+    $cleanCode = $bidCode.Replace(" ", "-").Trim()
+    if ($avgPriceCache.ContainsKey($cleanCode)) { return $avgPriceCache[$cleanCode] }
+    
+    try {
+        $encodedCode = [System.Uri]::EscapeDataString($cleanCode)
+        $url = "https://data.texas.gov/resource/de7b-7dna.json?`%24select=bid_code`%2CAVG(bid_item_unit_price_amount)`%20as`%20avg_price&`%24where=low_bidder_flag`%3Dtrue`%20AND`%20bid_code`%3D'$encodedCode'&`%24group=bid_code"
+        $res = curl.exe -s $url | ConvertFrom-Json
+        if ($res -and $res.Count -gt 0 -and $res[0].avg_price) {
+            $val = [double]$res[0].avg_price
+            $avgPriceCache[$cleanCode] = $val
+            return $val
+        }
+    } catch {}
+
+    $avgPriceCache[$cleanCode] = 0.00
+    return 0.00
+}
+
 if ($raw -and $raw.Count -gt 0) {
     $firstRow = $raw[0]
 
     # Parse Metadata
-    $county = if ($firstRow.county) { $firstRow.county } else { "Randall" }
-    $district = if ($firstRow.district_division) { $firstRow.district_division } else { "Amarillo" }
-    $projectId = if ($firstRow.project_id) { $firstRow.project_id } else { "A00130901" }
-    $fedProjNo = if ($firstRow.federal_project_number) { $firstRow.federal_project_number } else { "F 2B20(183)" }
+    $county = if ($firstRow.county) { $firstRow.county } else { "N/A" }
+    $district = if ($firstRow.district_division) { $firstRow.district_division } else { "TxDOT District" }
+    $projectId = if ($firstRow.project_id) { $firstRow.project_id } else { "N/A" }
+    $fedProjNo = if ($firstRow.federal_project_number) { $firstRow.federal_project_number } else { "N/A" }
     $stateProjNo = if ($firstRow.state_project_number) { $firstRow.state_project_number } else { "N/A" }
-    $contractNo = if ($firstRow.control_section_job_csj) { "0326" + ($firstRow.control_section_job_csj -replace '[^0-9]', '').Substring(0,4) } else { "03263025" }
-    $hwy = if ($firstRow.highway) { $firstRow.highway } else { "US 87" }
-    $workingDays = if ($firstRow.maximum_number_of_working) { $firstRow.maximum_number_of_working + " Working Days" } else { "110 Working Days" }
-    $projectType = if ($firstRow.project_classification) { $firstRow.project_classification } else { "Construct Pedestrian Infrastructure" }
+    $contractNo = if ($firstRow.contract_number) { $firstRow.contract_number } else { "N/A" }
+    $hwy = if ($firstRow.highway) { $firstRow.highway } else { "N/A" }
+    $workingDays = if ($firstRow.maximum_number_of_working) { $firstRow.maximum_number_of_working + " Working Days" } else { "N/A" }
+    $projectType = if ($firstRow.project_classification) { $firstRow.project_classification } else { "N/A" }
     $length = "0.000"
     $estimateTotal = [double]$firstRow.sealed_engineer_s_estimate
-    if ($estimateTotal -eq 0) { $estimateTotal = 2609321.85 }
 
     $letDateRaw = $firstRow.project_actual_let_date
-    $bidsOpened = if ($letDateRaw) { ([datetime]$letDateRaw).ToString("M/dd/yyyy") } else { "3/04/2026" }
+    $bidsOpened = if ($letDateRaw) { ([datetime]$letDateRaw).ToString("M/dd/yyyy") } else { "N/A" }
 
     # Parse Unique Items
     $itemsGroup = $raw | Group-Object bid_code, bid_item_sequence_number | Where-Object {$_.Group[0].bid_code -ne ""} | Sort-Object {[int]$_.Group[0].bid_item_sequence_number}
     
     foreach ($ig in $itemsGroup) {
-        $item = $ig.Group[0]
-        $parts = $item.bid_code.Split("-")
+        $itemRows = $ig.Group
+        $item = $itemRows[0]
+        $codeStr = if ($item.bid_code) { $item.bid_code.Replace("-", " ").Trim() } else { "" }
+        $parts = $codeStr -split '\s+'
         $itemNo = if ($parts.Length -gt 0) { $parts[0] } else { "" }
         $specCode = if ($parts.Length -gt 1) { $parts[1] } else { "" }
         
+        # Get low bidder unit price or engineer estimate or 2026 low bidder average
+        $unitPrice = 0.00
+        $lowRow = $itemRows | Where-Object { $_.low_bidder_flag -eq "True" -or $_.bid_rank_sequence_number -eq "1" } | Select-Object -First 1
+        if ($lowRow -and $lowRow.bid_item_unit_price_amount) {
+            $unitPrice = [double]$lowRow.bid_item_unit_price_amount
+        } elseif ($item.engineer_s_estimate_unit) {
+            $unitPrice = [double]$item.engineer_s_estimate_unit
+        } else {
+            $unitPrice = Get-2026LowBidAvgPrice $item.bid_code
+        }
+
         $itemsList += @{
+            code = $codeStr
             itemNo = $itemNo
             specCode = $specCode
             description = $item.bid_item_description
             unit = $item.measurement_unit
             quantity = [double]$item.bid_item_quantity
-            engEstPrice = 0.00
+            engEstPrice = $unitPrice
         }
     }
 }
@@ -91,34 +127,39 @@ else {
     $isPreBid = $true
 
     $county = if ($firstRow.county) { $firstRow.county } else { $projInfo.county }
-    $district = if ($firstRow.district_division) { $firstRow.district_division } else { $projInfo.district_division }
+    $district = if ($firstRow.district_division) { $firstRow.district_division } else { if ($projInfo.district_division) { $projInfo.district_division } else { "TxDOT District" } }
     $projectId = if ($firstRow.project_id) { $firstRow.project_id } else { $projInfo.project_id }
     $fedProjNo = if ($projInfo -and $projInfo.federal_project_number) { $projInfo.federal_project_number } else { "N/A" }
     $stateProjNo = if ($projInfo -and $projInfo.state_project_number) { $projInfo.state_project_number } else { "N/A" }
-    $contractNo = if ($projInfo -and $projInfo.contract_number) { $projInfo.contract_number } else { "9261602" }
+    $contractNo = if ($projInfo -and $projInfo.contract_number) { $projInfo.contract_number } else { "N/A" }
     $hwy = if ($firstRow.highway) { $firstRow.highway } else { $projInfo.highway }
-    $workingDays = if ($firstRow.maximum_number_of_working) { $firstRow.maximum_number_of_working + " Working Days" } else { "41 Working Days" }
+    $workingDays = if ($firstRow.maximum_number_of_working) { $firstRow.maximum_number_of_working + " Working Days" } else { "N/A" }
     $projectType = if ($firstRow.project_classification) { $firstRow.project_classification } else { $projInfo.project_classification }
     $length = "0.000"
     $estimateTotal = if ($firstRow.sealed_engineer_s_estimate) { [double]$firstRow.sealed_engineer_s_estimate } else { [double]$projInfo.sealed_engineer_s_estimate }
     
     $letDateRaw = if ($firstRow.bids_will_be_opened_date) { $firstRow.bids_will_be_opened_date } else { $firstRow.project_approved_let_date }
-    $bidsOpened = if ($letDateRaw) { ([datetime]$letDateRaw).ToString("M/dd/yyyy") } else { "9/29/2026" }
+    $bidsOpened = if ($letDateRaw) { ([datetime]$letDateRaw).ToString("M/dd/yyyy") } else { "N/A" }
 
     $sortedItems = $rawItems | Sort-Object {[int]$_.bid_item_sequence_number}
     foreach ($item in $sortedItems) {
-        $parts = if ($item.bid_code) { $item.bid_code.Split("-") } else { @("","") }
+        $codeStr = if ($item.bid_code) { $item.bid_code.Replace("-", " ").Trim() } else { "" }
+        $parts = $codeStr -split '\s+'
         $itemNo = if ($parts.Length -gt 0) { $parts[0] } else { "" }
         $specCode = if ($parts.Length -gt 1) { $parts[1] } else { "" }
         $descStr = if ($item.bid_item_description) { $item.bid_item_description } else { $item.specification_description }
 
+        # Fetch 2026 TxDOT Low Bidder Average Unit Price
+        $avgUnitPrice = Get-2026LowBidAvgPrice $item.bid_code
+
         $itemsList += @{
+            code = $codeStr
             itemNo = $itemNo
             specCode = $specCode
             description = $descStr
             unit = $item.measurement_unit
             quantity = [double]$item.bid_item_quantity
-            engEstPrice = 0.00
+            engEstPrice = $avgUnitPrice
         }
     }
 }
@@ -126,7 +167,7 @@ else {
 Remove-Item $tempCsvPath -ErrorAction SilentlyContinue
 
 $guarantyCheck = [math]::Round($estimateTotal * 0.02, 2)
-$dbeGoal = "0.0%"
+$dbeGoal = "0.00%"
 
 # Initialize Excel COM
 $excel = New-Object -ComObject Excel.Application
@@ -142,9 +183,11 @@ $ws.Cells.Font.Name = "Arial"
 $ws.Cells.Font.Size = 8.5
 
 # Top Banner Title (Row 1)
-$ws.Cells.Item(1, 1).Value = "$bidsOpened | $county | $hwy | $estimateTotal | $projectType"
-$ws.Cells.Item(1, 1).Font.Color = 12615680 # Dark Blue font
+$estFormatted = $estimateTotal.ToString("C2")
+$ws.Cells.Item(1, 1).Value = "$bidsOpened | $county | $hwy | $estFormatted | $projectType"
+$ws.Cells.Item(1, 1).Font.Color = 12615680 # Dark Blue font (#0066CC)
 $ws.Cells.Item(1, 1).Font.Bold = $true
+$ws.Cells.Item(1, 1).Font.Size = 12
 
 # Header Key-Value Block
 $headers = @(
@@ -164,8 +207,8 @@ $headers = @(
     @("DBE GOAL:", $dbeGoal),
     @("BIDS RECEIVED UNTIL:", $bidsOpened),
     @("BIDS WILL BE OPENED:", $bidsOpened),
-    @("APPROVED LET DATE:", "9/2026"),
-    @("ESTIMATED LET DATE:", "9/2026")
+    @("APPROVED LET DATE:", $bidsOpened),
+    @("ESTIMATED LET DATE:", $bidsOpened)
 )
 
 $r = 2
@@ -181,8 +224,8 @@ foreach ($h in $headers) {
     }
 
     # Yellow Highlight Fills for Key Fields (CSJ, TYPE, ESTIMATE, BIDS OPENED)
-    if ($h[0] -eq "CSJ:" -or $h[0] -eq "TYPE:" -or $h[0] -eq "ESTIMATE:" -or $h[0] -eq "BIDS WILL BE OPENED:") {
-        $ws.Cells.Item($r, 2).Interior.Color = 65535 # Bright Yellow
+    if ($h[0] -eq "CSJ:" -or $h[0] -eq "TYPE:" -or $h[0] -eq "ESTIMATE:" -or $h[0] -eq "BIDS RECEIVED UNTIL:" -or $h[0] -eq "BIDS WILL BE OPENED:") {
+        $ws.Cells.Item($r, 2).Interior.Color = 65535 # Bright Yellow (#FFFF00)
         $ws.Cells.Item($r, 2).Font.Bold = $true
     }
     
@@ -232,10 +275,10 @@ foreach ($item in $itemsList) {
     
     # Col F: APPROXIMATE QUANTITIES
     $ws.Cells.Item($rowIdx, 6).Value = "$($item.quantity)"
-    $ws.Cells.Item($rowIdx, 6).NumberFormat = "#,##0.00"
+    $ws.Cells.Item($rowIdx, 6).NumberFormat = "#,##0.000"
     
-    # Col G: UNIT PRICE ($0.00 or Estimate Unit Price)
-    $ws.Cells.Item($rowIdx, 7).Value = "$($item.engEstPrice)"
+    # Col G: UNIT PRICE (2026 TxDOT Low Bidder Average Unit Price)
+    $ws.Cells.Item($rowIdx, 7).Value = [double]$item.engEstPrice
     $ws.Cells.Item($rowIdx, 7).NumberFormat = "$#,##0.00"
     
     # Col H: EXTENDED PRICE (Formula = Qty * Unit Price)
@@ -244,6 +287,38 @@ foreach ($item in $itemsList) {
     
     $rowIdx++
 }
+
+# Add Total Row at bottom
+$totalRowIdx = $rowIdx + 1
+
+$ws.Cells.Item($totalRowIdx, 7).Value = "TOTAL"
+$ws.Cells.Item($totalRowIdx, 7).Font.Bold = $true
+$ws.Cells.Item($totalRowIdx, 7).HorizontalAlignment = -4152 # Right align
+
+$firstItemRow = 22
+$lastItemRow = $rowIdx - 1
+$ws.Cells.Item($totalRowIdx, 8).Formula = "=SUM(H$firstItemRow:H$lastItemRow)"
+$ws.Cells.Item($totalRowIdx, 8).NumberFormat = "$#,##0.00"
+$ws.Cells.Item($totalRowIdx, 8).Interior.Color = 65535 # Bright Yellow (#FFFF00)
+$ws.Cells.Item($totalRowIdx, 8).Font.Bold = $true
+
+# Apply continuous thin grey borders to the full table range A2:H
+$lastDataRow = $totalRowIdx
+$fullRange = $ws.Range("A2:H$lastDataRow")
+$fullRange.Borders.LineStyle = 1
+$fullRange.Borders.Weight = 2
+$fullRange.Borders.Color = 13882323
+
+# --- MANDATORY LEGAL DISCLAIMER AT BOTTOM ---
+$discStartRow = $totalRowIdx + 3
+$discEndRow = $discStartRow + 4
+$discRange = $ws.Range("A${discStartRow}:H${discEndRow}")
+$discRange.Merge()
+$discRange.Value = "This estimate has been generated by Amestex using historical average bid prices and publicly available data.`nIt is provided solely as a preliminary reference to assist bidders in understanding potential cost ranges.`nActual bid pricing may vary based on market conditions, project location, labor availability, material costs, and each bidder’s internal calculations.`nAmestex does not guarantee the accuracy of this estimate and is not responsible for any miscalculations or pricing decisions made by bidders.`nAll bidders must independently determine and submit their own unit prices based on their professional judgment and project‑specific factors."
+$discRange.Font.Italic = $true
+$discRange.Font.Size = 8
+$discRange.Font.Color = 8421504 # Grey font
+$discRange.WrapText = $true
 
 # AutoFit Columns
 $ws.Columns.AutoFit()
@@ -258,4 +333,4 @@ $excel.Quit()
 [System.GC]::Collect()
 [System.GC]::WaitForPendingFinalizers()
 
-Write-Host "SUCCESS: Estimate Excel Sheet generated at $OutputPath"
+Write-Host "SUCCESS: Estimate Excel Sheet with 2026 Low Bidder Averages & Disclaimer generated at $OutputPath"

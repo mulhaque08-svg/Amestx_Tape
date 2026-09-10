@@ -1,0 +1,1632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amestx™ — Leading TxDOT Civil Construction Report & Bid Estimator</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['DM Sans', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* ---------------------------------------------------- */
+        /* Theme Variables & Dynamic Styles                     */
+        /* ---------------------------------------------------- */
+
+        /* Default 🟣 Plum Theme (inspired by media_1788985078585.jpg) */
+        :root, body.theme-plum {
+            --bg-header: #14021c;
+            --bg-dark-section: #16031f;
+            --bg-dark-card: #20032b;
+            --bg-dark-card-inner: #260833;
+            --border-dark: #4a155f;
+            --text-dark-muted: #d8b4fe;
+            --accent-primary: #2563eb;
+            --accent-gold: #d97706;
+            --hero-white-bg: #ffffff;
+            --hero-text-main: #1a0424;
+            --hero-text-sub: #4c1d5c;
+            --tabs-white-bg: #ffffff;
+        }
+
+        /* ⚓ Navy Theme (inspired by media_1788985281530.png) */
+        body.theme-navy {
+            --bg-header: #0b132b;
+            --bg-dark-section: #0a1128;
+            --bg-dark-card: #1c2541;
+            --bg-dark-card-inner: #151e38;
+            --border-dark: #2e3b55;
+            --text-dark-muted: #93c5fd;
+            --accent-primary: #2563eb;
+            --accent-gold: #d97706;
+            --hero-white-bg: #f8fafc;
+            --hero-text-main: #0b132b;
+            --hero-text-sub: #334155;
+            --tabs-white-bg: #ffffff;
+        }
+
+        /* ☀️ Light Theme */
+        body.theme-light {
+            --bg-header: #1e293b; /* Dark Slate Grey Header & Footer */
+            --bg-dark-section: #f1f5f9; /* Soft Slate Off-White Section 2 Backdrop */
+            --bg-dark-card: #ffffff;
+            --bg-dark-card-inner: #f8fafc;
+            --border-dark: #cbd5e1;
+            --text-dark-muted: #475569;
+            --accent-primary: #2563eb;
+            --accent-gold: #d97706;
+            --hero-white-bg: #f8fafc;
+            --hero-text-main: #0f172a;
+            --hero-text-sub: #334155;
+            --tabs-white-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background-color: var(--hero-white-bg);
+            color: var(--hero-text-main);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .dark-header-bg {
+            background-color: var(--bg-header) !important;
+            border-color: var(--border-dark) !important;
+        }
+
+        .dark-section-bg {
+            background-color: var(--bg-dark-section) !important;
+            border-color: var(--border-dark) !important;
+        }
+
+        .dark-card-bg {
+            background-color: var(--bg-dark-card) !important;
+            border-color: var(--border-dark) !important;
+        }
+
+        .dark-card-inner {
+            background-color: var(--bg-dark-card-inner) !important;
+            border-color: var(--border-dark) !important;
+        }
+
+        .dark-border {
+            border-color: var(--border-dark) !important;
+        }
+
+        /* High-Contrast Protection for Hero Preview Window in Light Theme & All Modes */
+        #heroMockupCard .mockup-title-text,
+        body.theme-light #heroMockupCard .mockup-title-text,
+        body.theme-light #heroMockupCard .text-slate-200 {
+            color: #ffffff !important;
+        }
+
+        #heroMockupCard .mockup-sync-badge,
+        body.theme-light #heroMockupCard .mockup-sync-badge {
+            color: #34d399 !important;
+            background-color: #022c22 !important;
+            border: 1px solid #059669 !important;
+        }
+
+        #heroMockupCard .mockup-tab-inactive,
+        body.theme-light #heroMockupCard .mockup-tab-inactive,
+        body.theme-light #heroMockupCard .bg-slate-800.text-slate-300 {
+            background-color: #334155 !important;
+            color: #ffffff !important;
+            border: 1px solid #475569 !important;
+        }
+
+        body.theme-light #heroMockupCard .bg-slate-950 {
+            background-color: #020617 !important;
+        }
+
+        body.theme-light #heroMockupCard .bg-slate-900 {
+            background-color: #0f172a !important;
+        }
+
+        body.theme-light #heroMockupCard table th {
+            color: #cbd5e1 !important;
+            background-color: #1e293b !important;
+        }
+
+        body.theme-light #heroMockupCard table td {
+            color: #f8fafc !important;
+        }
+
+        body.theme-light #heroMockupCard table td.text-blue-400 {
+            color: #60a5fa !important;
+        }
+
+        body.theme-light #heroMockupCard table td.text-emerald-400 {
+            color: #34d399 !important;
+        }
+
+        body.theme-light #heroMockupCard .text-amber-400 {
+            color: #fbbf24 !important;
+        }
+
+        /* Pricing Section High-Contrast Overrides in Light Theme */
+        body.theme-light #pricing h2,
+        body.theme-light #pricing h3,
+        body.theme-light #pricing .text-4xl,
+        body.theme-light #pricing .text-2xl {
+            color: #0f172a !important;
+        }
+
+        body.theme-light #pricing p,
+        body.theme-light #pricing li,
+        body.theme-light #pricing ul {
+            color: #1e293b !important;
+        }
+
+        /* RECOMMENDED FOR NEW USERS Pill Badge (Must ALWAYS stay solid white on blue!) */
+        body.theme-light #pricing span.bg-blue-600,
+        body.theme-light #pricing .bg-blue-600,
+        body.theme-light #pricing .bg-blue-600 * {
+            background-color: #2563eb !important;
+            color: #ffffff !important;
+        }
+
+        /* Pricing Card Header Badges in Light Mode */
+        body.theme-light #pricing span.text-blue-400 {
+            color: #1d4ed8 !important;
+            font-weight: 800 !important;
+        }
+
+        body.theme-light #pricing span.text-amber-300 {
+            color: #b45309 !important;
+            font-weight: 800 !important;
+        }
+
+        /* Light Mode High Contrast Overrides for Section 2 (#tutorial), Section 3 (#tabs-showcase), and Section 4 (#pricing) */
+        body.theme-light h1,
+        body.theme-light h2,
+        body.theme-light h3,
+        body.theme-light h4,
+        body.theme-light h5,
+        body.theme-light h6,
+        body.theme-light #tutorial h2,
+        body.theme-light #tutorial h3 {
+            color: #0f172a !important;
+        }
+
+        body.theme-light p,
+        body.theme-light li,
+        body.theme-light #tabs-showcase span,
+        body.theme-light #tabs-showcase div {
+            color: #1e293b !important;
+        }
+
+        /* Preserve white text for primary solid buttons */
+        body.theme-light button.bg-blue-600,
+        body.theme-light button.bg-blue-600 *,
+        body.theme-light button.bg-amber-500,
+        body.theme-light button.bg-amber-500 *,
+        body.theme-light a.bg-blue-600,
+        body.theme-light a.bg-blue-600 * {
+            color: #ffffff !important;
+        }
+
+        /* Card Backgrounds in Light Mode */
+        body.theme-light .dark-card-bg,
+        body.theme-light #tutorial .dark-card-bg,
+        body.theme-light #pricing .dark-card-bg,
+        body.theme-light #tabs-showcase .dark-card-bg {
+            background-color: #ffffff !important;
+            border-color: #cbd5e1 !important;
+        }
+
+        /* Pricing Card Secondary Action Buttons ("Select Pro Plan", "Contact Enterprise Sales") */
+        body.theme-light #pricing button.dark-card-inner {
+            background-color: #f1f5f9 !important;
+            border-color: #cbd5e1 !important;
+            color: #0f172a !important;
+            font-weight: 800 !important;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        body.theme-light #pricing button.dark-card-inner:hover {
+            background-color: #2563eb !important;
+            color: #ffffff !important;
+            border-color: #2563eb !important;
+        }
+
+        /* Theme Selector Dropdown in Light Mode Header */
+        body.theme-light #themeSelectorHome {
+            background-color: #334155 !important;
+            color: #fbbf24 !important;
+            border-color: #475569 !important;
+        }
+        body.theme-light #themeSelectorHome option {
+            background-color: #1e293b !important;
+            color: #ffffff !important;
+        }
+
+        /* Header & Footer Locked Dark Slate Theme Background Across All Modes */
+        header,
+        body.theme-light header,
+        footer,
+        body.theme-light footer {
+            background-color: #1e293b !important;
+            border-color: #334155 !important;
+            color: #ffffff !important;
+        }
+
+        body.theme-light header *,
+        body.theme-light footer * {
+            color: #ffffff !important;
+        }
+        body.theme-light footer a.text-amber-400 {
+            color: #fbbf24 !important;
+        }
+
+        .glow-blue {
+            box-shadow: 0 0 25px rgba(37, 99, 235, 0.4);
+        }
+
+        .glow-gold {
+            box-shadow: 0 0 25px rgba(217, 119, 6, 0.35);
+        }
+    </style>
+</head>
+<body class="theme-plum min-h-screen flex flex-col selection:bg-blue-600 selection:text-white">
+
+    <!-- Top Navigation Header (Matching Estimator Page Signature Bar) -->
+    <header class="sticky top-0 z-50 w-full border-b dark-header-bg text-white shadow-2xl transition-colors">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            
+            <!-- Signature Brand Logo (Matching Estimator Page 100%) -->
+            <a href="home.html" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 bg-gradient-to-br from-blue-600 via-indigo-600 to-amber-500 rounded-lg flex items-center justify-center font-bold text-white shadow-lg shadow-blue-500/30 text-lg tracking-wider group-hover:scale-105 transition-transform">
+                    AM
+                </div>
+                <div class="flex flex-col text-left">
+                    <div class="flex items-center gap-2">
+                        <span class="text-xl font-bold tracking-tight text-white">Amestx™</span>
+                        <span class="text-xs bg-amber-500/20 text-amber-300 border border-amber-500/40 px-2.5 py-0.5 rounded font-mono font-bold">TxDOT Bid Estimator</span>
+                    </div>
+                    <span class="text-[11px] text-slate-300 font-medium">Monthly Lettings, Proposal Estimates & Excel Matrix</span>
+                </div>
+            </a>
+
+
+
+            <!-- Top Action Buttons & Theme Selector Dropdown -->
+            <div class="flex items-center gap-3">
+                
+                <!-- Theme Toggle Select Dropdown (Navy, RL Dark, Light Slate) -->
+                <select id="themeSelectorHome" onchange="switchHomeTheme(this.value)" class="px-3 py-2 rounded-xl text-xs font-bold dark-card-bg text-amber-300 border dark-border hover:border-amber-400 cursor-pointer focus:outline-none transition shadow">
+                    <option value="navy">⚓ Theme: Navy</option>
+                    <option value="rl-dark">🟣 Theme: RL Dark</option>
+                    <option value="light">☀️ Theme: Light Slate</option>
+                </select>
+
+                <button onclick="openLoginModal()" class="hidden sm:inline-flex text-xs font-bold text-slate-200 hover:text-white px-4 py-2.5 rounded-xl border dark-border hover:bg-white/10 transition">
+                    Sign In
+                </button>
+
+                <button onclick="openTrialModal()" class="bg-blue-600 hover:bg-blue-500 text-white font-extrabold text-xs px-5 py-2.5 rounded-xl glow-blue transition-all transform hover:-translate-y-0.5 flex items-center gap-2">
+                    <span>Start 15-Day Free Trial</span>
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow">
+        
+        <!-- SECTION 1: HERO SECTION (Clean White Background with High Contrast Typography) -->
+        <section id="hero" class="pt-12 pb-20 lg:pt-20 lg:pb-28 border-b dark-border transition-colors">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    
+                    <!-- Hero Left Text Column (Clean White Background for Maximum Legibility) -->
+                    <div class="lg:col-span-7 space-y-6 text-left">
+                        
+                        <!-- Tagline Pill -->
+                        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-blue-200 bg-blue-50 text-blue-900 text-xs font-bold uppercase tracking-wider shadow-sm">
+                            <span class="w-2 h-2 rounded-full bg-blue-600 animate-ping"></span>
+                            #1 TxDOT Estimation & Bidding App for Texas Contractors
+                        </div>
+
+                        <!-- Main Headline (Contractor Focused Bidding Platform Pitch) -->
+                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1]">
+                            The premier <span class="text-blue-600 font-black">TxDOT</span> bid estimation platform
+                        </h1>
+
+                        <!-- Subheadline -->
+                        <p class="text-lg sm:text-xl text-slate-700 font-normal leading-relaxed max-w-2xl">
+                            Empower your team to bid monthly TxDOT projects faster with instant access to proposal PDFs, engineering plan sheets, contractor address directories, competitor bid tabs, and automated baseline estimates.
+                        </p>
+
+                        <!-- CTA Button Row (Signature Gold & Blue Buttons matching Estimator Page) -->
+                        <div class="pt-4 flex flex-wrap items-center gap-4">
+                            <!-- Gold Button matching View Project from Estimator Page -->
+                            <button onclick="openTrialModal()" class="bg-amber-500 hover:bg-amber-600 text-slate-950 font-extrabold text-lg px-8 py-4 rounded-2xl shadow-xl shadow-amber-500/25 transition-all transform hover:-translate-y-1 flex items-center gap-3">
+                                <span>Request a Demo / 15-Day Free Trial</span>
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                            </button>
+
+                            <button onclick="openTutorialModal()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold text-base px-6 py-4 rounded-2xl flex items-center gap-2.5 transition shadow-lg shadow-blue-600/20">
+                                <span class="text-xl">🍿</span>
+                                <span>Watch AI Voice Tutorial</span>
+                            </button>
+                        </div>
+
+                        <!-- Key Benefits -->
+                        <div class="pt-4 flex flex-wrap items-center gap-6 text-xs font-semibold text-slate-700">
+                            <span class="flex items-center gap-1.5 text-emerald-700 font-bold">
+                                <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                                Instant 15-Day Free Access
+                            </span>
+                            <span class="flex items-center gap-1.5 text-slate-700">
+                                <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                                No Credit Card Required
+                            </span>
+                            <span class="flex items-center gap-1.5 text-slate-700">
+                                <svg class="w-4 h-4 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                                1,500+ TxDOT Lettings Loaded
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <!-- Hero Right Column (Live Estimator Preview Box) -->
+                    <div id="heroMockupCard" class="lg:col-span-5 relative">
+                        <div class="relative rounded-2xl p-1.5 bg-slate-900 shadow-2xl border border-slate-700 transition-colors">
+                            
+                            <!-- Window Title Bar -->
+                            <div class="bg-slate-950 rounded-t-xl px-4 py-3 flex items-center justify-between border-b border-slate-800 transition-colors">
+                                <div class="flex items-center gap-2">
+                                    <span class="w-3 h-3 rounded-full bg-blue-500 inline-block"></span>
+                                    <span class="w-3 h-3 rounded-full bg-amber-500 inline-block"></span>
+                                    <span class="w-3 h-3 rounded-full bg-emerald-500 inline-block"></span>
+                                    <span class="ml-2 text-xs font-mono text-slate-100 font-bold mockup-title-text">Amestx.com — Live TxDOT Estimator</span>
+                                </div>
+                                <span class="text-[11px] font-mono text-emerald-400 bg-emerald-950 px-2 py-0.5 rounded border border-emerald-700 font-extrabold mockup-sync-badge">SYNC ACTIVE</span>
+                            </div>
+
+                            <!-- Live App Preview Content -->
+                            <div class="bg-slate-900 p-5 rounded-b-xl space-y-4 text-left font-sans text-white transition-colors">
+                                
+                                <!-- Search bar preview (Orange Background Box in Hero Mockup) -->
+                                <div class="flex items-center gap-2 p-2 bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 text-slate-950 rounded-xl border border-amber-400 shadow-lg">
+                                    <span class="text-xs font-black text-slate-950 px-2 uppercase tracking-wider">CSJ:</span>
+                                    <input type="text" value="0015-13-042 (IH 35 Travis)" readonly class="w-full bg-transparent text-sm font-mono font-extrabold text-slate-950 outline-none">
+                                    <span class="text-xs font-black bg-slate-950 text-amber-300 px-3.5 py-1.5 rounded-lg shadow uppercase tracking-wider">SEARCH</span>
+                                </div>
+
+                                <!-- 6-Tabs Preview Bar -->
+                                <div class="grid grid-cols-6 gap-1 text-[10px] font-bold text-center">
+                                    <div class="p-1.5 rounded bg-blue-600 text-white truncate shadow font-extrabold">1. Tasks</div>
+                                    <div class="p-1.5 rounded bg-slate-800 text-slate-100 border border-slate-700 truncate font-semibold mockup-tab-inactive">2. Proposal</div>
+                                    <div class="p-1.5 rounded bg-slate-800 text-slate-100 border border-slate-700 truncate font-semibold mockup-tab-inactive">3. Plans</div>
+                                    <div class="p-1.5 rounded bg-slate-800 text-slate-100 border border-slate-700 truncate font-semibold mockup-tab-inactive">4. Address</div>
+                                    <div class="p-1.5 rounded bg-amber-500 text-slate-950 font-black shadow">5. Bid Tab</div>
+                                    <div class="p-1.5 rounded bg-slate-800 text-slate-100 border border-slate-700 truncate font-semibold mockup-tab-inactive">6. Estimate</div>
+                                </div>
+
+                                <!-- Live Data Snippet Table -->
+                                <div class="border border-slate-800 bg-slate-950 rounded-xl overflow-hidden text-xs">
+                                    <table class="w-full text-left font-mono">
+                                        <thead class="bg-slate-800 text-slate-300 text-[10px]">
+                                            <tr>
+                                                <th class="p-2">ITEM CODE</th>
+                                                <th class="p-2">DESCRIPTION</th>
+                                                <th class="p-2 text-right">ENG EST</th>
+                                                <th class="p-2 text-right">LOW BID</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="divide-y divide-slate-800 text-slate-200">
+                                            <tr>
+                                                <td class="p-2 text-blue-400 font-bold">0100-6002</td>
+                                                <td class="p-2 font-sans truncate max-w-[120px]">PREPARING ROW</td>
+                                                <td class="p-2 text-right">$450.00</td>
+                                                <td class="p-2 text-right text-emerald-400 font-bold">$385.00</td>
+                                            </tr>
+                                            <tr class="bg-slate-900/50">
+                                                <td class="p-2 text-blue-400 font-bold">0247-6053</td>
+                                                <td class="p-2 font-sans truncate max-w-[120px]">FL BS (CMP IN PLC)</td>
+                                                <td class="p-2 text-right">$85.00</td>
+                                                <td class="p-2 text-right text-emerald-400 font-bold">$79.50</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="p-2 text-blue-400 font-bold">0500-6001</td>
+                                                <td class="p-2 font-sans truncate max-w-[120px]">MOBILIZATION</td>
+                                                <td class="p-2 text-right">$125,000</td>
+                                                <td class="p-2 text-right text-emerald-400 font-bold">$118,000</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <!-- Action bar preview -->
+                                <div class="pt-1 flex items-center justify-between text-xs">
+                                    <span class="text-slate-300 font-medium">Total Project Value: <strong class="text-amber-400 font-bold">$4,850,210.00</strong></span>
+                                    <a href="index.html" class="text-xs font-bold text-amber-400 hover:text-amber-300 hover:underline flex items-center gap-1 bg-amber-500/10 px-2.5 py-1 rounded-lg border border-amber-500/30">
+                                        Launch Full App &rarr;
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: INTERACTIVE AI VOICE TUTORIAL (Dynamic Dark Section) -->
+        <section id="tutorial" class="py-20 dark-section-bg text-white border-t border-b dark-border transition-colors">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <!-- Section Header -->
+                <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                    <span class="px-3.5 py-1.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 text-xs font-bold uppercase tracking-wider">
+                        🍿 INTERACTIVE VIDEO & AI NARRATION
+                    </span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
+                        See How Amestx™ Transforms TxDOT Estimating
+                    </h2>
+                    <p class="text-slate-300 text-base sm:text-lg">
+                        Watch our automated interactive presentation complete with built-in AI Voice narration covering all 6 tabs in 2 minutes.
+                    </p>
+                </div>
+
+                <!-- Tutorial Interactive Card -->
+                <div class="p-8 sm:p-12 rounded-3xl border dark-border dark-card-bg shadow-2xl relative overflow-hidden transition-colors">
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                        
+                        <div class="lg:col-span-7 space-y-6 text-left">
+                            <div class="flex items-center gap-3">
+                                <span class="p-2 rounded-lg bg-blue-600/30 text-blue-300 font-mono font-bold text-xs border border-blue-500/40">AUDIO SYNC ACTIVE</span>
+                                <span class="text-xs text-slate-300">Web Speech API Voice Engine</span>
+                            </div>
+                            
+                            <h3 class="text-2xl sm:text-3xl font-extrabold text-white">
+                                7 Interactive Presentation Chapters
+                            </h3>
+
+                            <ul class="space-y-3.5 text-sm text-slate-200 font-medium">
+                                <li class="flex items-center gap-3">
+                                    <span class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xs shadow-md">1</span>
+                                    <span><strong>CSJ & Let Date Search</strong> — Instant filtering across all 25 TxDOT Districts.</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <span class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xs shadow-md">2</span>
+                                    <span><strong>Official Proposal & Plan Sheet PDFs</strong> — Direct 1-click viewing.</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <span class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center font-bold text-xs shadow-md">3</span>
+                                    <span><strong>Bidder Address Directory</strong> — Verified phone numbers & business addresses.</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <span class="w-6 h-6 rounded-full bg-amber-500 text-slate-950 flex items-center justify-center font-bold text-xs shadow-md">4</span>
+                                    <span><strong>Bid Tabulation Matrix & Baseline Estimates</strong> — Historical rate calculations.</span>
+                                </li>
+                            </ul>
+
+                            <div class="pt-4 flex items-center gap-4">
+                                <button onclick="openTutorialModal()" class="bg-blue-600 hover:bg-blue-500 text-white font-extrabold text-base px-8 py-4 rounded-xl glow-blue transition-all flex items-center gap-3">
+                                    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                                    <span>Launch AI Voice Tutorial</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Right Video Box Preview — YouTube Animation Walkthrough -->
+                        <div class="lg:col-span-5 relative group cursor-pointer" onclick="openYouTubeModal('youtube')">
+                            <div class="aspect-video rounded-2xl dark-card-inner border dark-border hover:border-red-500/80 overflow-hidden flex flex-col items-center justify-center relative transition shadow-2xl bg-gradient-to-br from-slate-900 to-red-950/40">
+                                <div class="w-16 h-16 rounded-2xl bg-red-600 hover:bg-red-500 text-white flex items-center justify-center shadow-xl shadow-red-600/40 group-hover:scale-110 transition-transform">
+                                    <svg class="w-8 h-8 fill-current ml-1" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                                </div>
+                                <div class="mt-4 text-center px-4">
+                                    <span class="text-xs font-bold text-white group-hover:text-red-300 transition flex items-center justify-center gap-1.5">
+                                        <svg class="w-4 h-4 text-red-500 fill-current" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                                        Watch Animated Presentation on YouTube
+                                    </span>
+                                    <span class="text-[10px] text-slate-400 font-mono block mt-0.5">Click to launch YouTube Video Player</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION 3: 6 CORE TABS SHOWCASE (Clean White Background with High-Contrast Cards) -->
+        <section id="tabs-showcase" class="py-20 bg-white border-b dark-border">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+                
+                <div class="text-center max-w-3xl mx-auto space-y-4">
+                    <span class="px-3.5 py-1.5 rounded-full bg-blue-100 text-blue-900 border border-blue-200 text-xs font-bold uppercase tracking-wider">
+                        🚀 COMPLETE TXDOT ESTIMATING SUITE
+                    </span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900">
+                        All 6 Essential Tabs Included
+                    </h2>
+                    <p class="text-slate-700 text-base sm:text-lg">
+                        Designed specifically for Texas heavy civil contractors, estimators, and project managers.
+                    </p>
+                </div>
+
+                <!-- 6 Feature Cards Grid (High-Contrast Cards on White) -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-left">
+                    
+                    <!-- Tab 1 -->
+                    <div class="p-8 rounded-2xl border dark-border dark-card-bg text-white hover:border-blue-500 transition-all shadow-xl space-y-4">
+                        <div class="w-12 h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center font-mono font-bold text-lg shadow-md">
+                            01
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Tab 1: Tasks & Bid Leads</h3>
+                        <p class="text-sm text-slate-300 leading-relaxed">
+                            Search projects by CSJ number, highway, or county. Filter letting dates across all 25 TxDOT districts with instant estimate totals.
+                        </p>
+                    </div>
+
+                    <!-- Tab 2 -->
+                    <div class="p-8 rounded-2xl border dark-border dark-card-bg text-white hover:border-blue-500 transition-all shadow-xl space-y-4">
+                        <div class="w-12 h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center font-mono font-bold text-lg shadow-md">
+                            02
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Tab 2: Official Proposals</h3>
+                        <p class="text-sm text-slate-300 leading-relaxed">
+                            One-click access to official TxDOT bidding proposal PDFs and contract addendums without navigating complex state portals.
+                        </p>
+                    </div>
+
+                    <!-- Tab 3 -->
+                    <div class="p-8 rounded-2xl border dark-border dark-card-bg text-white hover:border-emerald-500 transition-all shadow-xl space-y-4">
+                        <div class="w-12 h-12 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-mono font-bold text-lg shadow-md">
+                            03
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Tab 3: Full Plan Sets</h3>
+                        <p class="text-sm text-slate-300 leading-relaxed">
+                            Direct viewer for complete engineering plan sheets, cross-sections, traffic control, and bridge structural drawings.
+                        </p>
+                    </div>
+
+                    <!-- Tab 4 -->
+                    <div class="p-8 rounded-2xl border dark-border dark-card-bg text-white hover:border-amber-500 transition-all shadow-xl space-y-4">
+                        <div class="w-12 h-12 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center font-mono font-bold text-lg shadow-md">
+                            04
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Tab 4: View Address Info</h3>
+                        <p class="text-sm text-slate-300 leading-relaxed">
+                            Comprehensive directory for every prime bidder and subcontractor. Click "View Address Info" for direct address & contact details.
+                        </p>
+                    </div>
+
+                    <!-- Tab 5 -->
+                    <div class="p-8 rounded-2xl border dark-border dark-card-bg text-white hover:border-purple-400 transition-all shadow-xl space-y-4">
+                        <div class="w-12 h-12 rounded-xl bg-purple-600 text-white flex items-center justify-center font-mono font-bold text-lg shadow-md">
+                            05
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Tab 5: Bid Tabulation Matrix</h3>
+                        <p class="text-sm text-slate-300 leading-relaxed">
+                            Line-item unit price comparison across all bidders vs engineer estimate. Identify competitor pricing trends down to the item code.
+                        </p>
+                    </div>
+
+                    <!-- Tab 6 -->
+                    <div class="p-8 rounded-2xl border dark-border dark-card-bg text-white hover:border-blue-500 transition-all shadow-xl space-y-4">
+                        <div class="w-12 h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center font-mono font-bold text-lg shadow-md">
+                            06
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Tab 6: Baseline & Excel Export</h3>
+                        <p class="text-sm text-slate-300 leading-relaxed">
+                            Automated TxDOT baseline cost model calculation and instant export in official formatted Excel bid tab structure.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION 4: PRICING & 15-DAY FREE TRIAL (Dynamic Dark Backdrop) -->
+        <section id="pricing" class="py-20 dark-section-bg text-white transition-colors">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+                
+                <div class="text-center max-w-3xl mx-auto space-y-4">
+                    <span class="px-3.5 py-1.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 text-xs font-bold uppercase tracking-wider">
+                        💳 TRANSPARENT PRICING
+                    </span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
+                        Start with a 15-Day Free Trial
+                    </h2>
+                    <p class="text-slate-300 text-base sm:text-lg">
+                        Test all 6 tabs with complete access. Upgrade anytime.
+                    </p>
+                </div>
+
+                <!-- Pricing Cards Grid -->
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch text-left">
+                    
+                    <!-- Free Trial Card -->
+                    <div class="p-8 rounded-3xl border-2 border-blue-500 dark-card-bg relative flex flex-col justify-between space-y-6 shadow-2xl transition-colors">
+                        <div class="space-y-4">
+                            <span class="px-3 py-1 rounded-full bg-blue-600 text-white text-[11px] font-extrabold uppercase tracking-widest shadow-md">
+                                RECOMMENDED FOR NEW USERS
+                            </span>
+                            <h3 class="text-2xl font-extrabold text-white">15-Day Free Trial</h3>
+                            <div class="flex items-baseline gap-1">
+                                <span class="text-4xl font-black text-white">$0</span>
+                                <span class="text-sm font-semibold text-slate-300">/ 15 Days Access</span>
+                            </div>
+                            <p class="text-xs text-slate-300">Full access to test all 6 tabs with your business email.</p>
+                            
+                            <hr class="border-slate-700">
+
+                            <ul class="space-y-3 text-xs font-semibold text-slate-200">
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                                    All 6 Tabs Unlocked
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                                    Unlimited CSJ & District Search
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                                    Bidder Address Directory Access
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                                    Formatted Excel Export
+                                </li>
+                            </ul>
+                        </div>
+
+                        <button onclick="openTrialModal()" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-extrabold py-3.5 px-4 rounded-xl glow-blue transition text-sm">
+                            Start 15-Day Free Trial &rarr;
+                        </button>
+                    </div>
+
+                    <!-- Pro Estimator Card -->
+                    <div class="p-8 rounded-3xl border dark-border dark-card-bg relative flex flex-col justify-between space-y-6 transition-colors">
+                        <div class="space-y-4">
+                            <span class="text-xs font-mono font-bold text-blue-400 uppercase tracking-wider">SINGLE ESTIMATOR</span>
+                            <h3 class="text-2xl font-extrabold text-white">Pro Estimator</h3>
+                            <div class="flex items-baseline gap-1">
+                                <span class="text-4xl font-black text-white">$199</span>
+                                <span class="text-sm font-semibold text-slate-300">/ month</span>
+                            </div>
+                            <p class="text-xs text-slate-300">Ideal for active contractors & estimators bidding monthly TxDOT lettings.</p>
+
+                            <hr class="border-slate-700">
+
+                            <ul class="space-y-3 text-xs font-semibold text-slate-200">
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                                    Single User License
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                                    Historical Letting Archives (2020 - 2026)
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                                    Priority FTP Syncing
+                                </li>
+                            </ul>
+                        </div>
+
+                        <button onclick="openTrialModal()" class="w-full dark-card-inner hover:bg-white/10 text-slate-200 font-bold py-3.5 px-4 rounded-xl border dark-border transition text-sm">
+                            Select Pro Plan
+                        </button>
+                    </div>
+
+                    <!-- Enterprise Card -->
+                    <div class="p-8 rounded-3xl border dark-border dark-card-bg relative flex flex-col justify-between space-y-6 transition-colors">
+                        <div class="space-y-4">
+                            <span class="text-xs font-mono font-bold text-amber-300 uppercase tracking-wider">CORPORATE TEAM</span>
+                            <h3 class="text-2xl font-extrabold text-white">Enterprise Team</h3>
+                            <div class="flex items-baseline gap-1">
+                                <span class="text-4xl font-black text-white">$499</span>
+                                <span class="text-sm font-semibold text-slate-300">/ month</span>
+                            </div>
+                            <p class="text-xs text-slate-300">Multi-estimator team access with custom item rate models & API support.</p>
+
+                            <hr class="border-slate-700">
+
+                            <ul class="space-y-3 text-xs font-semibold text-slate-200">
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                                    Up to 10 Estimator Seats
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                                    Custom Baseline Pricing Engine
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                                    Dedicated Account Manager
+                                </li>
+                            </ul>
+                        </div>
+
+                        <button onclick="openTrialModal()" class="w-full dark-card-inner hover:bg-white/10 text-slate-200 font-bold py-3.5 px-4 rounded-xl border dark-border transition text-sm">
+                            Contact Enterprise Sales
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-700/80 bg-slate-900 py-8 text-slate-300 text-xs transition-colors">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-6">
+            
+            <!-- Left: Brand Logo & Copyright -->
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 bg-gradient-to-br from-blue-600 via-indigo-600 to-amber-500 rounded-lg flex items-center justify-center text-white font-bold text-xs shadow-md">
+                    AM
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="font-extrabold text-white text-sm">Amestx™</span>
+                    <span class="text-slate-300 text-xs">© 2026 Amestx Inc. All rights reserved.</span>
+                </div>
+            </div>
+
+            <!-- Right: Legal Policies & Support -->
+            <div class="flex flex-wrap items-center justify-center gap-3 sm:gap-5 font-medium text-xs text-slate-200">
+                <a href="#privacy" onclick="alert('Amestx Privacy Policy: All contractor estimating data, CSJ queries, and baseline models are 100% private and confidential.')" class="hover:text-blue-400 transition">Privacy Policy</a>
+                <span class="text-slate-600">|</span>
+                <a href="#terms" onclick="alert('Amestx Terms of Service: Subscription service for Texas highway civil contractor estimating and monthly letting analysis.')" class="hover:text-blue-400 transition">Terms of Service</a>
+                <span class="text-slate-600">|</span>
+                <a href="mailto:support@amestx.com" class="hover:text-blue-400 transition">Contact & Support</a>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div id="trialModal" class="fixed inset-0 z-50 bg-slate-950/90 backdrop-blur-md hidden flex items-center justify-center p-4">
+        <div class="dark-card-bg border dark-border rounded-3xl max-w-md w-full p-8 relative shadow-2xl text-left text-white">
+            <button onclick="closeTrialModal()" class="absolute top-5 right-5 text-slate-400 hover:text-white text-xl font-bold">&times;</button>
+            <div class="space-y-4">
+                <div class="w-12 h-12 rounded-2xl bg-blue-600/30 text-blue-300 flex items-center justify-center font-bold text-xl border border-blue-500/40">🚀</div>
+                <h3 class="text-2xl font-extrabold text-white">Start 15-Day Free Trial</h3>
+                <p class="text-xs text-slate-300">Enter your email to unlock all 6 tabs with instant trial access.</p>
+                <form onsubmit="handleTrialSubmit(event)" class="space-y-4 pt-2">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-300 mb-1">Full Name</label>
+                        <input type="text" required placeholder="John Doe" class="w-full dark-header-bg border dark-border rounded-xl px-4 py-3 text-sm text-white focus:border-blue-500 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-300 mb-1">Business Email</label>
+                        <input type="email" required placeholder="john@contractor.com" class="w-full dark-header-bg border dark-border rounded-xl px-4 py-3 text-sm text-white focus:border-blue-500 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-300 mb-1">Company / Firm Name</label>
+                        <input type="text" required placeholder="Texas Heavy Civil LLC" class="w-full dark-header-bg border dark-border rounded-xl px-4 py-3 text-sm text-white focus:border-blue-500 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-300 mb-1">Phone Number (Tel #)</label>
+                        <input type="tel" required placeholder="(512) 555-0199" class="w-full dark-header-bg border dark-border rounded-xl px-4 py-3 text-sm text-white focus:border-blue-500 outline-none">
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-extrabold py-3.5 px-4 rounded-xl glow-blue transition text-sm mt-4">
+                        Activate 15-Day Free Access & Launch App &rarr;
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="loginModal" class="fixed inset-0 z-50 bg-slate-950/90 backdrop-blur-md hidden flex items-center justify-center p-4">
+        <div class="dark-card-bg border dark-border rounded-3xl max-w-md w-full p-8 relative shadow-2xl text-left text-white">
+            <button onclick="closeLoginModal()" class="absolute top-5 right-5 text-slate-400 hover:text-white text-xl font-bold">&times;</button>
+            <div class="space-y-4">
+                <div class="w-12 h-12 rounded-2xl bg-amber-500/30 text-amber-300 flex items-center justify-center font-bold text-xl border border-amber-500/40">🔑</div>
+                <h3 class="text-2xl font-extrabold text-white">Sign In to Amestx™</h3>
+                <p class="text-xs text-slate-300">Access your saved TxDOT searches and baseline estimate files.</p>
+                <form onsubmit="handleLoginSubmit(event)" class="space-y-4 pt-2">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-300 mb-1">Email Address</label>
+                        <input type="email" required placeholder="estimator@contractor.com" class="w-full dark-header-bg border dark-border rounded-xl px-4 py-3 text-sm text-white focus:border-amber-500 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-300 mb-1">Password</label>
+                        <input type="password" required placeholder="••••••••" class="w-full dark-header-bg border dark-border rounded-xl px-4 py-3 text-sm text-white focus:border-amber-500 outline-none">
+                    </div>
+                    <button type="submit" class="w-full bg-amber-500 hover:bg-amber-600 text-slate-950 font-extrabold py-3.5 px-4 rounded-xl shadow-lg transition text-sm mt-4">
+                        Sign In & Open Estimator &rarr;
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Interactive AI Voice Tutorial Modal -->
+    <div id="tutorialModal" class="fixed inset-0 z-50 bg-slate-950/95 backdrop-blur-lg hidden items-center justify-center p-2 sm:p-4 overflow-y-auto">
+        <div class="bg-slate-900 border border-slate-700/80 rounded-3xl max-w-5xl w-full max-h-[92vh] relative shadow-2xl flex flex-col overflow-hidden text-slate-100">
+            
+            <!-- Modal Top Navigation Bar -->
+            <div class="bg-slate-950 px-6 py-4 border-b border-slate-800 flex items-center justify-between shrink-0">
+                <div class="flex items-center gap-3 text-white">
+                    <span class="text-xl">🍿</span>
+                    <div>
+                        <span class="font-extrabold text-base block leading-tight">Amestx™ Interactive Tutorial Presentation</span>
+                        <span class="text-xs text-amber-400 font-mono">Web Speech API Voice Engine Narration</span>
+                    </div>
+                </div>
+                
+                <div class="flex items-center gap-3">
+                    <a href="amestx_video_tutorial.html" target="_blank" class="hidden sm:inline-flex text-xs font-bold text-blue-400 hover:text-blue-300 border border-blue-500/40 px-3 py-1.5 rounded-xl bg-blue-950/50 hover:bg-blue-900/60 transition flex items-center gap-1">
+                        <span>Fullscreen</span> ↗
+                    </a>
+                    <select id="voiceSelect" onchange="changeVoice()" class="bg-slate-900 text-amber-300 border border-amber-500/40 text-xs font-mono font-bold px-2.5 py-1.5 rounded-xl focus:outline-none max-w-[150px] sm:max-w-[200px] cursor-pointer">
+                        <option value="">🎙️ Loading AI Voices...</option>
+                    </select>
+                    <button id="muteVoiceBtn" onclick="toggleMuteVoice()" class="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold rounded-xl border border-slate-700 transition flex items-center space-x-1">
+                        <span id="muteVoiceIcon">🔊</span>
+                        <span id="muteVoiceText" class="hidden sm:inline">Voice On</span>
+                    </button>
+                    <button onclick="closeTutorialModal()" class="text-slate-400 hover:text-white font-bold text-2xl px-3 py-1 bg-slate-800 hover:bg-slate-700 rounded-xl transition">&times;</button>
+                </div>
+            </div>
+
+            <!-- Modal Content Body -->
+            <div class="p-4 sm:p-6 overflow-y-auto flex-grow space-y-6">
+                
+                <!-- MAIN INTERACTIVE DEMO PLAYER -->
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+                    
+                    <!-- Left Chapter Selector Navigation -->
+                    <div class="lg:col-span-4 bg-slate-950/90 border border-slate-800 rounded-2xl p-4 shadow-xl flex flex-col justify-between space-y-4">
+                        <div>
+                            <div class="flex items-center justify-between mb-1">
+                                <h3 class="text-sm font-bold text-white flex items-center gap-2">
+                                    <span>🎬 Tutorial Chapters</span>
+                                </h3>
+                                <div id="soundWaveIndicator" class="flex items-center space-x-1 hidden">
+                                    <span class="w-1 h-3 bg-amber-400 rounded animate-pulse"></span>
+                                    <span class="w-1 h-4 bg-amber-400 rounded animate-pulse"></span>
+                                    <span class="w-1 h-2 bg-amber-400 rounded animate-pulse"></span>
+                                </div>
+                            </div>
+                            <p class="text-[11px] text-slate-400 mb-3">Click any step or listen to automated voiceover</p>
+
+                            <div class="space-y-2 max-h-[220px] overflow-y-auto pr-1" id="chapterList">
+                                <!-- Rendered by JS -->
+                            </div>
+                        </div>
+
+                        <div class="pt-3 border-t border-slate-800 space-y-2.5">
+                            <div class="flex items-center justify-between text-xs font-mono text-slate-400">
+                                <span id="playerStatus">Playing Step 1 of 7</span>
+                                <span id="timerDisplay" class="text-amber-400 font-bold">AI Voice Active</span>
+                            </div>
+                            <div class="w-full bg-slate-950 h-2 rounded-full overflow-hidden border border-slate-800">
+                                <div id="progressBar" class="bg-gradient-to-r from-blue-500 to-amber-500 h-full transition-all duration-300" style="width: 14%;"></div>
+                            </div>
+                            <div class="flex items-center justify-between gap-2 pt-1">
+                                <button onclick="prevStep()" class="flex-1 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold rounded-lg border border-slate-700 transition">← Prev</button>
+                                <button id="playPauseBtn" onclick="togglePlayPause()" class="flex-1 py-1.5 bg-amber-600 hover:bg-amber-500 text-white text-xs font-bold rounded-lg transition shadow">⏸ Pause</button>
+                                <button onclick="nextStep()" class="flex-1 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold rounded-lg border border-slate-700 transition">Next →</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Interactive Canvas / Screen Simulation -->
+                    <div class="lg:col-span-8 bg-slate-950 border border-slate-800 rounded-2xl p-5 shadow-2xl flex flex-col justify-between space-y-4 relative overflow-hidden">
+                        
+                        <!-- Screen Header & Title -->
+                        <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+                            <div class="flex items-center space-x-2">
+                                <span class="w-2.5 h-2.5 rounded-full bg-rose-500"></span>
+                                <span class="w-2.5 h-2.5 rounded-full bg-amber-500"></span>
+                                <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
+                                <span class="text-[11px] font-mono text-slate-400 ml-2">https://amestx.com/portal/csj-estimator</span>
+                            </div>
+                            <span id="screenBadge" class="text-[10px] font-mono font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40 px-2 py-0.5 rounded">Live Simulation</span>
+                        </div>
+
+                        <!-- Animated Display Card Screen with 3D Young Female Studio Presenter Background -->
+                        <div id="simulationCard" class="relative rounded-2xl overflow-hidden min-h-[300px] flex flex-col justify-between p-5 border border-slate-800 shadow-2xl bg-slate-900" style="background-image: linear-gradient(to bottom, rgba(15, 23, 42, 0.82), rgba(2, 6, 23, 0.95)), url('female_presenter_studio.jpg'); background-size: cover; background-position: center;">
+                            <!-- Dynamic Content Rendered Here by JS -->
+                        </div>
+
+                        <!-- ToonBee Style Kinetic Voiceover Captions -->
+                        <div class="bg-slate-950/90 border border-amber-500/60 p-3.5 rounded-xl text-center shadow-2xl relative overflow-hidden backdrop-blur-md">
+                            <div class="font-black text-amber-400 uppercase tracking-widest text-[10px] flex items-center justify-between border-b border-slate-800/80 pb-1 mb-1">
+                                <span class="flex items-center gap-1.5">
+                                    <span class="w-2 h-2 rounded-full bg-red-500 animate-ping"></span>
+                                    <span>🎬 3D ANIMATED VOICE & KINETIC SUBTITLES:</span>
+                                </span>
+                                <span id="speakingStatusTag" class="text-[10px] bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded font-mono font-normal">AI Speaking...</span>
+                            </div>
+                            <p id="scriptCaptionText" class="text-amber-300 font-extrabold tracking-wide text-xs sm:text-sm leading-snug drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] pt-0.5"></p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Theme Switcher & Modal Logic -->
+    <script>
+        function switchHomeTheme(themeName) {
+            document.body.className = '';
+            if (themeName === 'txdot-navy') themeName = 'navy';
+            if (themeName === 'plum') themeName = 'rl-dark';
+            if (themeName === 'slate-light') themeName = 'light';
+            if (themeName !== 'rl-dark' && themeName !== 'light' && themeName !== 'navy') themeName = 'navy';
+
+            if (themeName === 'rl-dark') {
+                document.body.classList.add('theme-plum');
+            } else if (themeName === 'light') {
+                document.body.classList.add('theme-light');
+            } else {
+                document.body.classList.add('theme-navy');
+            }
+            localStorage.setItem('amestx_theme', themeName);
+            localStorage.setItem('amestx_color_theme', themeName === 'light' ? 'slate-light' : (themeName === 'rl-dark' ? 'rl-dark' : 'txdot-navy'));
+            const sel = document.getElementById('themeSelectorHome');
+            if (sel) sel.value = themeName;
+        }
+
+        // Restore saved theme
+        const savedThemeHome = localStorage.getItem('amestx_theme') || localStorage.getItem('amestx_color_theme') || 'navy';
+        switchHomeTheme(savedThemeHome);
+
+        function openTrialModal() {
+            document.getElementById('trialModal').classList.remove('hidden');
+        }
+        function closeTrialModal() {
+            document.getElementById('trialModal').classList.add('hidden');
+        }
+
+        function openLoginModal() {
+            document.getElementById('loginModal').classList.remove('hidden');
+        }
+        function closeLoginModal() {
+            document.getElementById('loginModal').classList.add('hidden');
+        }
+
+        // Interactive Tutorial Engine
+        const tutorialSteps = [
+            {
+                id: 1,
+                title: "1. Search CSJ & Monthly Lettings",
+                subTitle: "Home Page — Frozen Header & Search Window",
+                duration: 12,
+                badge: "Tab 0: Home Search",
+                script: "Welcome to Amestx TxDOT Estimator! Contractors can search any highway project by CSJ number or browse monthly scheduled lettings with frozen navigation, search filters, and month tabs.",
+                render: () => `
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between bg-slate-950 p-3 rounded-lg border border-slate-800">
+                            <span class="text-xs font-bold text-white">Monthly TxDOT Letting (2026-09)</span>
+                            <span class="text-[11px] bg-blue-500/20 text-blue-300 px-2 py-0.5 rounded font-mono font-bold">188 Projects</span>
+                        </div>
+                        <div class="relative">
+                            <input type="text" value="6506-61-001" readonly class="w-full bg-slate-950 border-2 border-amber-500 text-white font-mono text-sm px-4 py-2.5 rounded-xl">
+                            <span class="absolute right-3 top-2.5 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded">Searching...</span>
+                        </div>
+                        <div class="bg-slate-950/80 p-3 rounded-lg border border-slate-800 text-xs font-mono text-slate-300 flex justify-between">
+                            <span>CSJ: 6506-61-001</span>
+                            <span>County: Stonewall</span>
+                            <span class="text-emerald-400 font-bold">$340,995.75</span>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                id: 2,
+                title: "2. Tab 1: Project Tasks & Quantities",
+                subTitle: "Clean Task Item List & Zero-Price Export",
+                duration: 12,
+                badge: "Tab 1: Project Tasks",
+                script: "Tab 1 displays the complete pay item list, spec codes, descriptions, and quantities. Click Export Excel to download a clean styled spreadsheet with zero dollars prices ready for your custom bidding.",
+                render: () => `
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs font-bold text-white">1. Project Tasks — CSJ 6506-61-001</span>
+                            <span class="bg-emerald-600 text-white text-[10px] font-bold px-2.5 py-1 rounded">Export Excel ($0.00)</span>
+                        </div>
+                        <table class="w-full text-left text-xs font-mono">
+                            <thead class="bg-black text-slate-400">
+                                <tr><th class="p-2">Item</th><th class="p-2">Description</th><th class="p-2">Unit</th><th class="p-2 text-right">Qty</th><th class="p-2 text-right">Price</th></tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-800 text-slate-300">
+                                <tr><td class="p-2 text-blue-400">0500 6001</td><td class="p-2">MOBILIZATION</td><td class="p-2">LS</td><td class="p-2 text-right">1.00</td><td class="p-2 text-right text-slate-500">$0.00</td></tr>
+                                <tr><td class="p-2 text-blue-400">0502 6001</td><td class="p-2">BARRICADES & SIGNS</td><td class="p-2">MO</td><td class="p-2 text-right">6.00</td><td class="p-2 text-right text-slate-500">$0.00</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                `
+            },
+            {
+                id: 3,
+                title: "3. Tab 2 & 3: Official Proposals & Plans",
+                subTitle: "1-Click Direct TxDOT FTP PDF Downloads",
+                duration: 12,
+                badge: "Tab 2 & 3: PDF Booklets",
+                script: "Never search state FTP directories manually again! Tabs 2 and 3 provide 1-click verified download links directly to TxDOT official proposal booklets and multi-volume graphic plan sheet sets.",
+                render: () => `
+                    <div class="space-y-4">
+                        <div class="bg-blue-950/80 border border-blue-500/50 p-4 rounded-xl flex items-center justify-between">
+                            <div class="flex items-center space-x-3">
+                                <span class="text-2xl">📄</span>
+                                <div>
+                                    <div class="text-xs font-bold text-white">Verified TxDOT Proposal PDF</div>
+                                    <div class="text-[10px] text-blue-300 font-mono">CSJ_6506-61-001_Proposal.pdf</div>
+                                </div>
+                            </div>
+                            <span class="bg-blue-600 text-white text-xs font-bold px-3 py-1.5 rounded">Download PDF →</span>
+                        </div>
+                        <div class="bg-emerald-950/80 border border-emerald-500/50 p-4 rounded-xl flex items-center justify-between">
+                            <div class="flex items-center space-x-3">
+                                <span class="text-2xl">🗺️</span>
+                                <div>
+                                    <div class="text-xs font-bold text-white">Verified Construction Plan Set PDF</div>
+                                    <div class="text-[10px] text-emerald-300 font-mono">CSJ_6506-61-001_Plan_Vol1.pdf</div>
+                                </div>
+                            </div>
+                            <span class="bg-emerald-600 text-white text-xs font-bold px-3 py-1.5 rounded">Download Plan →</span>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                id: 4,
+                title: "4. Tab 4: Bidders & Address Directory",
+                subTitle: "Live Registered Planholders & Contractor Lookup",
+                duration: 12,
+                badge: "Tab 4: Address Info",
+                script: "Tab 4 displays all registered planholders and bidding prime contractors. Click View Address Info to open the prequalified directory pre-searched with the contractor's address, phone, and email.",
+                render: () => `
+                    <div class="space-y-3">
+                        <div class="text-xs font-bold text-white">Registered Planholders & Bidders for CSJ 6506-61-001</div>
+                        <div class="bg-slate-950 p-3 rounded-lg border border-slate-800 flex items-center justify-between text-xs font-mono">
+                            <div>
+                                <div class="font-bold text-white">TOUCHSTONE RESOURCES, LLC</div>
+                                <div class="text-[10px] text-emerald-400">Bid Submitted / Active Planholder</div>
+                            </div>
+                            <span class="bg-amber-600 text-white text-[10px] font-bold px-3 py-1 rounded">View Address Info</span>
+                        </div>
+                        <div class="bg-amber-950/60 border border-amber-500/60 p-3 rounded-lg text-[11px] font-mono text-amber-200">
+                            📍 Address: Houston, TX • Phone: (713) 555-0199 • Email: info@touchstoneresources.com
+                        </div>
+                    </div>
+                `
+            },
+            {
+                id: 5,
+                title: "5. Tab 5: Bid Tabulation Matrix",
+                subTitle: "Post-Bid Low Bidder Rate Comparison",
+                duration: 12,
+                badge: "Tab 5: Bid Matrix",
+                script: "After bid date, Tab 5 reveals participating bidders, total bid amounts, percentage differences over under engineer's estimate, and an itemized unit rate comparison matrix across all prime contractors.",
+                render: () => `
+                    <div class="space-y-3">
+                        <div class="text-xs font-bold text-white">Participating Bidders Ranking</div>
+                        <div class="bg-emerald-950/40 border-l-4 border-emerald-500 p-2.5 rounded text-xs font-mono flex justify-between">
+                            <span class="font-bold text-emerald-400">1) Touchstone Resources</span>
+                            <span class="font-bold text-white">$320,500.00</span>
+                            <span class="text-emerald-400 font-bold">-6.01% Low Bidder</span>
+                        </div>
+                        <div class="bg-slate-950 p-2.5 rounded text-xs font-mono flex justify-between text-slate-300">
+                            <span>2) NSG Logistics, LLC</span>
+                            <span>$345,120.00</span>
+                            <span class="text-rose-400">+1.21%</span>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                id: 6,
+                title: "6. Tab 6: Amestx™ Project Estimate",
+                subTitle: "2026 Historical Average Bid Unit Rates",
+                duration: 12,
+                badge: "Tab 6: Amestx Estimate",
+                script: "Tab 6 automatically calculates a baseline project estimate using 2026 TxDOT historical low bidder average unit prices to give your team instant competitive price intelligence.",
+                render: () => `
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs font-bold text-white">Amestx Baseline Estimate — CSJ 6506-61-001</span>
+                            <span class="text-xs font-mono font-bold text-amber-300">$340,995.75</span>
+                        </div>
+                        <div class="bg-amber-950/40 border border-amber-500/40 p-3 rounded-lg text-[10px] text-amber-200 italic">
+                            Calculated using 2026 TxDOT historical low bidder average unit prices.
+                        </div>
+                    </div>
+                `
+            },
+            {
+                id: 7,
+                title: "7. Excel Export & Client Subscriptions",
+                subTitle: "Approved Yellow Metadata Spreadsheet ML",
+                duration: 12,
+                badge: "Excel Export & Pricing",
+                script: "Export styled Excel workbooks with blue title banner, yellow metadata highlights, black table headers, and formulas. Subscribe today to unlock unlimited TxDOT estimator access at Amestx dot com!",
+                render: () => `
+                    <div class="space-y-3 text-center">
+                        <div class="bg-emerald-950/80 border border-emerald-500/60 p-4 rounded-xl text-emerald-200 text-xs font-mono space-y-1 shadow-lg">
+                            <div class="font-bold text-white text-sm">CSJ_6506-61-001_Task_Items.xls</div>
+                            <div>✓ Styled HTML XML SpreadsheetML Format Generated</div>
+                            <div class="text-amber-300 font-bold">Includes Blue Title Banner & Yellow Highlights</div>
+                        </div>
+                        <div class="pt-2">
+                            <button onclick="openTrialModal(); closeTutorialModal();" class="bg-amber-500 hover:bg-amber-600 text-slate-950 font-extrabold px-6 py-3 rounded-xl shadow-xl transition text-xs uppercase tracking-wider">
+                                Subscribe Now — Unlock Full Access →
+                            </button>
+                        </div>
+                    </div>
+                `
+            }
+        ];
+
+        let currentStepIdx = 0;
+        let isPlaying = true;
+        let isMuted = false;
+        let selectedVoice = null;
+
+        function initVoices() {
+            if (!('speechSynthesis' in window)) return;
+            const voiceSelect = document.getElementById('voiceSelect');
+            const voices = window.speechSynthesis.getVoices();
+            if (voices.length === 0) return;
+            if (voiceSelect) voiceSelect.innerHTML = '';
+
+            // Prioritize soft young lady voices (Zira, Samantha, Victoria, Jenny, Aria, Karen, Google US Female)
+            let femaleVoice = voices.find(v => v.lang.includes('en') && (
+                v.name.includes('Zira') || 
+                v.name.includes('Samantha') || 
+                v.name.includes('Victoria') || 
+                v.name.includes('Karen') || 
+                v.name.includes('Jenny') || 
+                v.name.includes('Aria') || 
+                v.name.includes('Female') ||
+                v.name.includes('Zira Desktop')
+            ));
+            
+            if (!femaleVoice) femaleVoice = voices.find(v => v.lang.includes('en'));
+
+            voices.filter(v => v.lang.includes('en')).forEach(v => {
+                const opt = document.createElement('option');
+                opt.value = v.name;
+                const isFemale = v.name.includes('Zira') || v.name.includes('Samantha') || v.name.includes('Victoria') || v.name.includes('Female') || v.name.includes('Jenny') || v.name.includes('Aria') || v.name.includes('Karen');
+                opt.innerText = `${isFemale ? '👩‍💼 Soft Female Voice — ' : '🎙️ '}${v.name.replace('Microsoft ', '').replace('Google ', '')}`;
+                if (femaleVoice && v.name === femaleVoice.name) opt.selected = true;
+                if (voiceSelect) voiceSelect.appendChild(opt);
+            });
+
+            selectedVoice = femaleVoice || voices[0];
+        }
+
+        if ('speechSynthesis' in window) {
+            window.speechSynthesis.onvoiceschanged = initVoices;
+        }
+
+        function changeVoice() {
+            const voiceSelect = document.getElementById('voiceSelect');
+            if (!voiceSelect) return;
+            const voices = window.speechSynthesis.getVoices();
+            selectedVoice = voices.find(v => v.name === voiceSelect.value) || selectedVoice;
+            speakCurrentStep();
+        }
+
+        function speakCurrentStep() {
+            if (!('speechSynthesis' in window)) return;
+            window.speechSynthesis.cancel();
+
+            if (isMuted || !isPlaying) {
+                const indicator = document.getElementById('soundWaveIndicator');
+                const tag = document.getElementById('speakingStatusTag');
+                if (indicator) indicator.classList.add('hidden');
+                if (tag) {
+                    tag.innerText = isMuted ? "Muted" : "Paused";
+                    tag.className = "text-[10px] bg-slate-800 text-slate-400 px-2 py-0.5 rounded font-mono font-normal";
+                }
+                return;
+            }
+
+            const step = tutorialSteps[currentStepIdx];
+            const utterance = new SpeechSynthesisUtterance(step.script);
+            if (selectedVoice) utterance.voice = selectedVoice;
+            utterance.rate = 0.95;  // Soft, clear cadence
+            utterance.pitch = 1.1;   // Soft young lady pitch
+
+            const indicator = document.getElementById('soundWaveIndicator');
+            const tag = document.getElementById('speakingStatusTag');
+
+            utterance.onstart = () => {
+                if (indicator) indicator.classList.remove('hidden');
+                if (tag) {
+                    tag.innerText = "👩‍💼 Soft AI Voice Speaking...";
+                    tag.className = "text-[10px] bg-amber-500/20 text-amber-300 px-2 py-0.5 rounded font-mono font-normal";
+                }
+            };
+
+            utterance.onend = () => {
+                if (indicator) indicator.classList.add('hidden');
+                if (tag) {
+                    tag.innerText = "Step Complete";
+                    tag.className = "text-[10px] bg-blue-500/20 text-blue-300 px-2 py-0.5 rounded font-mono font-normal";
+                }
+                if (isPlaying) {
+                    setTimeout(() => {
+                        if (isPlaying) nextStep();
+                    }, 1200);
+                }
+            };
+
+            window.speechSynthesis.speak(utterance);
+        }
+
+        function renderChapters() {
+            const container = document.getElementById('chapterList');
+            if (!container) return;
+            container.innerHTML = '';
+
+            tutorialSteps.forEach((s, idx) => {
+                const active = idx === currentStepIdx;
+                const btn = document.createElement('button');
+                btn.className = active
+                    ? "w-full text-left p-2.5 rounded-xl bg-blue-600/30 border border-blue-500 text-white shadow-lg transition flex items-center justify-between"
+                    : "w-full text-left p-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-300 hover:text-white transition flex items-center justify-between";
+                
+                btn.innerHTML = `
+                    <div>
+                        <div class="text-xs font-bold">${s.title}</div>
+                        <div class="text-[10px] ${active ? 'text-blue-300' : 'text-slate-500'} font-mono">${s.subTitle}</div>
+                    </div>
+                    <span class="text-[10px] ${active ? 'bg-blue-500 text-white' : 'bg-slate-800 text-slate-400'} px-2 py-0.5 rounded font-mono font-bold">${idx + 1}</span>
+                `;
+                btn.onclick = () => jumpToStep(idx);
+                container.appendChild(btn);
+            });
+        }
+
+        function updateScreen() {
+            const step = tutorialSteps[currentStepIdx];
+            const card = document.getElementById('simulationCard');
+            const badge = document.getElementById('screenBadge');
+            const caption = document.getElementById('scriptCaptionText');
+            const status = document.getElementById('playerStatus');
+            const progress = document.getElementById('progressBar');
+
+            if (card) card.innerHTML = step.render();
+            if (badge) badge.innerText = step.badge;
+            if (caption) caption.innerText = step.script;
+            if (status) status.innerText = `Playing Step ${currentStepIdx + 1} of ${tutorialSteps.length}`;
+            if (progress) progress.style.width = `${((currentStepIdx + 1) / tutorialSteps.length) * 100}%`;
+
+            renderChapters();
+            speakCurrentStep();
+        }
+
+        function nextStep() {
+            currentStepIdx = (currentStepIdx + 1) % tutorialSteps.length;
+            updateScreen();
+        }
+
+        function prevStep() {
+            currentStepIdx = (currentStepIdx - 1 + tutorialSteps.length) % tutorialSteps.length;
+            updateScreen();
+        }
+
+        function jumpToStep(idx) {
+            currentStepIdx = idx;
+            updateScreen();
+        }
+
+        function togglePlayPause() {
+            isPlaying = !isPlaying;
+            const btn = document.getElementById('playPauseBtn');
+            if (btn) btn.innerText = isPlaying ? "⏸ Pause" : "▶ Play";
+            if (!isPlaying && 'speechSynthesis' in window) {
+                window.speechSynthesis.pause();
+            } else if (isPlaying && 'speechSynthesis' in window) {
+                window.speechSynthesis.resume();
+            }
+            speakCurrentStep();
+        }
+
+        function toggleMuteVoice() {
+            isMuted = !isMuted;
+            const icon = document.getElementById('muteVoiceIcon');
+            const text = document.getElementById('muteVoiceText');
+            if (icon) icon.innerText = isMuted ? "🔇" : "🔊";
+            if (text) text.innerText = isMuted ? "Muted" : "Voice On";
+            speakCurrentStep();
+        }
+
+        function restartDemo() {
+            currentStepIdx = 0;
+            isPlaying = true;
+            const btn = document.getElementById('playPauseBtn');
+            if (btn) btn.innerText = "⏸ Pause";
+            updateScreen();
+        }
+
+        function openTutorialModal() {
+            openYouTubeModal('native');
+        }
+
+        function closeTutorialModal() {
+            closeYouTubeModal();
+        }
+
+        function handleTrialSubmit(e) {
+            e.preventDefault();
+            const inputs = e.target.querySelectorAll('input');
+            const userData = {
+                name: inputs[0].value,
+                email: inputs[1].value,
+                company: inputs[2].value,
+                phone: inputs[3] ? inputs[3].value : '',
+                trialActive: true,
+                startDate: new Date().toISOString()
+            };
+            localStorage.setItem('amestx_user', JSON.stringify(userData));
+            window.location.href = 'index.html?trial=activated';
+        }
+
+        function handleLoginSubmit(e) {
+            e.preventDefault();
+            const inputs = e.target.querySelectorAll('input');
+            const userData = {
+                email: inputs[0].value,
+                trialActive: true
+            };
+            localStorage.setItem('amestx_user', JSON.stringify(userData));
+            window.location.href = 'index.html?login=success';
+        }
+
+        // Configurable Video Player Modes: 'mp4', 'youtube', 'native'
+        let defaultYouTubeVideoId = "ScMzIvxBSi4";
+        let activeVideoPlayerTab = "native";
+
+        function extractYouTubeId(url) {
+            if (!url) return defaultYouTubeVideoId;
+            let match = url.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))([\w-]{11})/);
+            return (match && match[1]) ? match[1] : url.trim();
+        }
+
+        function setVideoPlayerMode(mode) {
+            activeVideoPlayerTab = mode;
+            const mp4Stage = document.getElementById('mp4VideoStage');
+            const youtubeStage = document.getElementById('youtubeVideoStage');
+            const nativeStage = document.getElementById('nativeVideoStage');
+
+            const btnMp4 = document.getElementById('btnModeMp4');
+            const btnYoutube = document.getElementById('btnModeYoutube');
+            const btnNative = document.getElementById('btnModeNative');
+            const urlBar = document.getElementById('youtubeUrlControlBar');
+            const mp4VideoEl = document.getElementById('mp4VideoElement');
+            const iframe = document.getElementById('youtubeIframe');
+
+            // Reset stages
+            if (mp4Stage) mp4Stage.classList.add('hidden');
+            if (youtubeStage) youtubeStage.classList.add('hidden');
+            if (nativeStage) nativeStage.classList.add('hidden');
+            if (urlBar) urlBar.classList.add('hidden');
+
+            // Reset active button styles
+            const inactiveClass = "px-3.5 py-1.5 rounded-xl font-extrabold text-xs bg-slate-800 text-slate-300 hover:text-white border border-slate-700 transition flex items-center gap-1";
+            if (btnMp4) btnMp4.className = inactiveClass;
+            if (btnYoutube) btnYoutube.className = inactiveClass;
+            if (btnNative) btnNative.className = inactiveClass;
+
+            // Pause speeches & videos
+            if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+            if (mp4VideoEl) mp4VideoEl.pause();
+            if (iframe) iframe.src = "";
+
+            if (mode === 'mp4') {
+                if (mp4Stage) mp4Stage.classList.remove('hidden');
+                if (btnMp4) btnMp4.className = "px-3.5 py-1.5 rounded-xl font-extrabold text-xs bg-emerald-600 text-white shadow-lg transition flex items-center gap-1";
+                if (mp4VideoEl) mp4VideoEl.play().catch(() => {});
+            } else if (mode === 'youtube') {
+                if (youtubeStage) youtubeStage.classList.remove('hidden');
+                if (urlBar) urlBar.classList.remove('hidden');
+                if (btnYoutube) btnYoutube.className = "px-3.5 py-1.5 rounded-xl font-extrabold text-xs bg-red-600 text-white shadow-lg transition flex items-center gap-1";
+                updateYouTubePlayerFromInput();
+            } else if (mode === 'native') {
+                if (nativeStage) nativeStage.classList.remove('hidden');
+                if (btnNative) btnNative.className = "px-3.5 py-1.5 rounded-xl font-extrabold text-xs bg-amber-500 text-slate-950 shadow-lg transition flex items-center gap-1";
+                initVoices();
+                restartDemo();
+            }
+        }
+
+        function openYouTubeModal(defaultMode = 'youtube') {
+            const modal = document.getElementById('youtubeModal');
+            if (modal) {
+                modal.classList.remove('hidden');
+                modal.classList.add('flex');
+            }
+            setVideoPlayerMode(defaultMode);
+        }
+
+        function loadLocalVideoFile(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            const videoEl = document.getElementById('mp4VideoElement');
+            if (videoEl) {
+                const objectUrl = URL.createObjectURL(file);
+                videoEl.src = objectUrl;
+                videoEl.play();
+                const fileNotice = document.getElementById('mp4FileNotice');
+                if (fileNotice) {
+                    fileNotice.innerHTML = `Playing: <span class="text-emerald-400 font-bold">${file.name}</span> (${(file.size / (1024*1024)).toFixed(2)} MB)`;
+                }
+            }
+        }
+
+        function updateYouTubePlayerFromInput() {
+            const urlInput = document.getElementById('youtubeUrlInput');
+            if (!urlInput) return;
+            const videoId = extractYouTubeId(urlInput.value);
+            const iframe = document.getElementById('youtubeIframe');
+            const directBtn = document.getElementById('youtubeDirectBtn');
+            if (iframe) iframe.src = "https://www.youtube.com/embed/" + videoId + "?autoplay=1";
+            if (directBtn) directBtn.href = "https://www.youtube.com/watch?v=" + videoId;
+        }
+
+        function closeYouTubeModal() {
+            const modal = document.getElementById('youtubeModal');
+            const iframe = document.getElementById('youtubeIframe');
+            const mp4VideoEl = document.getElementById('mp4VideoElement');
+            if (mp4VideoEl) mp4VideoEl.pause();
+            if (iframe) iframe.src = "";
+            if (modal) {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+            }
+            if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+        }
+    </script>
+
+    <!-- Animated Video Presentation & MP4 Player Modal -->
+    <div id="youtubeModal" class="fixed inset-0 z-50 bg-slate-950/95 backdrop-blur-lg hidden items-center justify-center p-2 sm:p-4 overflow-y-auto">
+        <div class="bg-slate-900 border border-slate-700/80 rounded-3xl max-w-5xl w-full relative shadow-2xl flex flex-col overflow-hidden text-slate-100">
+            
+            <!-- Modal Header Bar -->
+            <div class="bg-slate-950 px-6 py-4 border-b border-slate-800 flex items-center justify-between shrink-0 flex-wrap gap-3">
+                <div class="flex items-center gap-3 text-white">
+                    <svg class="w-7 h-7 text-emerald-400 fill-current shrink-0" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                    <div>
+                        <span class="font-extrabold text-base block leading-tight">Amestx™ TxDOT Estimator Video Player</span>
+                        <span class="text-xs text-emerald-400 font-mono">HTML5 MP4 Player • YouTube Stream • 3D Studio Showcase</span>
+                    </div>
+                </div>
+                
+                <div class="flex items-center gap-2 flex-wrap">
+                    <button id="btnModeMp4" onclick="setVideoPlayerMode('mp4')" class="px-3.5 py-1.5 rounded-xl font-extrabold text-xs bg-emerald-600 text-white shadow-lg transition flex items-center gap-1">
+                        🎥 MP4 Video File
+                    </button>
+                    <button id="btnModeYoutube" onclick="setVideoPlayerMode('youtube')" class="px-3.5 py-1.5 rounded-xl font-extrabold text-xs bg-slate-800 text-slate-300 hover:text-white border border-slate-700 transition flex items-center gap-1">
+                        🔴 YouTube Stream
+                    </button>
+                    <button id="btnModeNative" onclick="setVideoPlayerMode('native')" class="px-3.5 py-1.5 rounded-xl font-extrabold text-xs bg-slate-800 text-slate-300 hover:text-white border border-slate-700 transition flex items-center gap-1">
+                        🎬 3D Studio Sim
+                    </button>
+                    <a id="youtubeDirectBtn" href="https://www.youtube.com/watch?v=ScMzIvxBSi4" target="_blank" class="hidden sm:inline-flex text-xs font-bold text-red-400 hover:text-red-300 border border-red-500/40 px-3 py-1.5 rounded-xl bg-red-950/40 hover:bg-red-900/60 transition items-center gap-1">
+                        <span>YouTube</span> ↗
+                    </a>
+                    <button onclick="closeYouTubeModal()" class="text-slate-400 hover:text-white font-bold text-2xl px-3 py-1 bg-slate-800 hover:bg-slate-700 rounded-xl transition">&times;</button>
+                </div>
+            </div>
+
+            <!-- YouTube Video URL Input Control Bar (Hidden in MP4/Native Mode) -->
+            <div id="youtubeUrlControlBar" class="bg-slate-950 px-6 py-2.5 border-b border-slate-800/80 hidden flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+                <div class="flex items-center gap-2 w-full">
+                    <span class="font-bold text-slate-300 whitespace-nowrap shrink-0">🎥 YouTube URL / Video ID:</span>
+                    <input id="youtubeUrlInput" type="text" value="https://www.youtube.com/watch?v=ScMzIvxBSi4" placeholder="Paste any YouTube video link..." class="flex-grow bg-slate-900 border border-slate-700 text-amber-300 font-mono px-3 py-1.5 rounded-xl text-xs focus:border-red-500 focus:outline-none">
+                    <button onclick="updateYouTubePlayerFromInput()" class="bg-red-600 hover:bg-red-500 text-white font-extrabold px-4 py-1.5 rounded-xl shadow transition whitespace-nowrap flex items-center gap-1.5 shrink-0">
+                        <span>▶ Load Stream</span>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Video Stage Body -->
+            <div class="p-4 sm:p-6 bg-black flex-grow flex items-center justify-center overflow-y-auto min-h-[480px]">
+                
+                <!-- STAGE A: Native HTML5 MP4 Video Player Stage -->
+                <div id="mp4VideoStage" class="w-full flex flex-col items-center justify-center space-y-4 hidden">
+                    <div class="w-full aspect-video rounded-2xl overflow-hidden shadow-2xl border border-slate-800 bg-slate-950 relative">
+                        <video id="mp4VideoElement" controls autoplay controlsList="nodownload" class="w-full h-full object-contain">
+                            <source src="video/estimator_demo.mp4" type="video/mp4">
+                            <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
+                            Your browser does not support HTML5 video playback.
+                        </video>
+                    </div>
+
+                    <!-- Local MP4 Loader & Custom Video Instructions Bar -->
+                    <div class="w-full bg-slate-900 border border-slate-800 rounded-2xl p-4 flex flex-col md:flex-row items-center justify-between gap-4 text-xs">
+                        <div class="flex items-center gap-3 w-full md:w-auto">
+                            <label for="localVideoPicker" class="bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold px-4 py-2 rounded-xl shadow transition cursor-pointer flex items-center gap-2 whitespace-nowrap">
+                                <span>📁 Test Local MP4 File...</span>
+                                <input type="file" id="localVideoPicker" accept="video/mp4,video/*" class="hidden" onchange="loadLocalVideoFile(event)">
+                            </label>
+                            <span id="mp4FileNotice" class="text-slate-400 font-mono">Playing demo video. Click left to load your own .mp4!</span>
+                        </div>
+                        <div class="text-right text-slate-400 font-mono text-[11px]">
+                            💡 <strong class="text-slate-200">Set default video:</strong> Place your `.mp4` file into <code class="text-amber-400">public/video/estimator_demo.mp4</code>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- STAGE B: YouTube Embed Iframe Stage -->
+                <div id="youtubeVideoStage" class="w-full aspect-video rounded-2xl overflow-hidden shadow-2xl border border-slate-800 relative bg-slate-950 hidden">
+                    <iframe id="youtubeIframe" src="" class="w-full h-full border-0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <!-- STAGE C: Native 3D Female Presenter Studio Stage -->
+                <div id="nativeVideoStage" class="w-full aspect-video rounded-2xl overflow-hidden shadow-2xl border border-slate-800 relative bg-slate-900 flex flex-col justify-between p-6" style="background-image: linear-gradient(to bottom, rgba(15, 23, 42, 0.82), rgba(2, 6, 23, 0.95)), url('female_presenter_studio.jpg'); background-size: cover; background-position: center;">
+                    
+                    <!-- Video Stage Top Header -->
+                    <div class="flex items-center justify-between border-b border-slate-800/80 pb-3">
+                        <div class="flex items-center space-x-2">
+                            <span class="w-3 h-3 rounded-full bg-rose-500"></span>
+                            <span class="w-3 h-3 rounded-full bg-amber-500"></span>
+                            <span class="w-3 h-3 rounded-full bg-emerald-500"></span>
+                            <span class="text-xs font-mono text-slate-300 ml-2">Amestx™ 3D Female Studio Presentation</span>
+                        </div>
+                        <span id="screenBadge" class="text-xs font-mono font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40 px-3 py-1 rounded-lg">Playing Video Scene 1/7</span>
+                    </div>
+
+                    <!-- Video Interactive Display Screen -->
+                    <div id="simulationCard" class="my-auto py-4">
+                        <!-- Dynamic Estimator Tab Content Rendered Here by JS -->
+                    </div>
+
+                    <!-- ToonBee Style Kinetic Subtitle Overlay & Scrubber Timeline -->
+                    <div class="space-y-3 pt-2">
+                        <div class="bg-slate-950/95 border border-amber-500/60 p-3.5 rounded-xl text-center shadow-2xl relative overflow-hidden backdrop-blur-md">
+                            <div class="font-black text-amber-400 uppercase tracking-widest text-[10px] flex items-center justify-between border-b border-slate-800/80 pb-1 mb-1">
+                                <span class="flex items-center gap-1.5">
+                                    <span class="w-2 h-2 rounded-full bg-red-500 animate-ping"></span>
+                                    <span>🎬 3D ANIMATED VOICE & KINETIC SUBTITLES:</span>
+                                </span>
+                                <span id="speakingStatusTag" class="text-[10px] bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded font-mono font-normal">AI Speaking...</span>
+                            </div>
+                            <p id="scriptCaptionText" class="text-amber-300 font-extrabold tracking-wide text-xs sm:text-sm leading-snug drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] pt-0.5"></p>
+                        </div>
+
+                        <!-- Video Player Timeline Scrubber Bar -->
+                        <div class="bg-slate-950/90 border border-slate-800 p-2.5 rounded-xl flex items-center justify-between gap-3 text-xs font-mono">
+                            <button id="playPauseBtn" onclick="togglePlayPause()" class="px-3 py-1 bg-amber-600 hover:bg-amber-500 text-white font-extrabold rounded-lg transition shadow">⏸ Pause</button>
+                            <button onclick="prevStep()" class="px-2.5 py-1 bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold rounded-lg border border-slate-700 transition">⏪ Prev</button>
+                            <span id="playerStatus" class="text-slate-300 text-[11px] whitespace-nowrap">Step 1 / 7</span>
+                            
+                            <div class="flex-grow bg-slate-900 h-2.5 rounded-full overflow-hidden border border-slate-800 relative cursor-pointer" onclick="nextStep()">
+                                <div id="progressBar" class="bg-gradient-to-r from-blue-500 via-amber-500 to-emerald-500 h-full transition-all duration-300" style="width: 14%;"></div>
+                            </div>
+
+                            <button onclick="nextStep()" class="px-2.5 py-1 bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold rounded-lg border border-slate-700 transition">Next ⏩</button>
+                            <button id="muteVoiceBtn" onclick="toggleMuteVoice()" class="px-2.5 py-1 bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold rounded-lg border border-slate-700 transition">
+                                <span id="muteVoiceIcon">🔊</span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

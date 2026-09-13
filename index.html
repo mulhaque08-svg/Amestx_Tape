@@ -4480,18 +4480,8 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                     }
                 } catch(e) {}
             } else {
-                const defaultProfile = {
-                    name: "Trial User",
-                    company: "Texas Civil Contractor",
-                    email: "user@amestx.com",
-                    registeredAt: Date.now()
-                };
-                localStorage.setItem('amestx_user_profile', JSON.stringify(defaultProfile));
-                if (badge) {
-                    badge.className = "flex items-center space-x-2 text-xs bg-amber-950/90 border border-amber-500/60 px-3.5 py-1.5 rounded-full text-amber-300 shrink-0 font-bold shadow";
-                    badge.innerHTML = `<span>⏱️ 7-Day Free Trial (7 Days Left)</span>`;
-                    badge.classList.remove('hidden');
-                }
+                // NO REGISTRATION FOUND! Require user to register email on home.html first
+                window.location.href = "home.html?register=1";
             }
         }
 

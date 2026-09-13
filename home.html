@@ -1389,19 +1389,25 @@
             }
 
             const trial = getTrialInfo();
-            if (trial) {
-                if (!trial.isExpired) {
-                    window.location.href = "index.html";
-                    return;
-                } else {
-                    openRegistrationModal();
-                    return;
-                }
+            if (trial && !trial.isExpired) {
+                window.location.href = "index.html";
+                return;
             }
-            openRegistrationModal();
+
+            openRegistrationModal(true);
         }
 
-        function openRegistrationModal() {
+        function showNewRegistrationForm() {
+            const banner = document.getElementById('regStatusBanner');
+            const form = document.getElementById('regForm');
+            if (banner) banner.className = "hidden";
+            if (form) {
+                form.reset();
+                form.classList.remove('hidden');
+            }
+        }
+
+        function openRegistrationModal(forceForm) {
             const modal = document.getElementById('registrationModal');
             const banner = document.getElementById('regStatusBanner');
             const form = document.getElementById('regForm');
@@ -1409,6 +1415,12 @@
             const sub = getSubscriptionInfo();
 
             if (modal) modal.classList.remove('hidden');
+
+            if (forceForm) {
+                if (banner) banner.className = "hidden";
+                if (form) form.classList.remove('hidden');
+                return;
+            }
 
             if (sub && sub.active) {
                 if (banner) {
@@ -1436,6 +1448,9 @@
                                 <button onclick="closeRegistrationModal(); openPaymentModal('Pro Estimator');" class="w-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black py-2.5 px-3 rounded-xl shadow transition">
                                     Upgrade to Pro Estimator ($139/mo or $97/yr) &rarr;
                                 </button>
+                                <button onclick="showNewRegistrationForm()" class="w-full bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold py-1.5 px-3 rounded-xl border border-slate-700 transition text-[11px]">
+                                    ✏️ Register New Email Address
+                                </button>
                             </div>
                         `;
                     }
@@ -1446,9 +1461,14 @@
                         banner.innerHTML = `
                             <div class="flex items-center gap-2 font-bold text-amber-300">⏱️ Active 7-Day Free Trial (${trial.daysRemaining} Days Remaining)</div>
                             <div class="text-[11px] text-slate-300">Registered to: <strong>${trial.name} (${trial.company})</strong> — <em>${trial.email}</em></div>
-                            <button onclick="window.location.href='index.html'" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-extrabold py-2 px-3 rounded-xl transition shadow">
-                                Continue to Free App &rarr;
-                            </button>
+                            <div class="flex flex-col gap-2 pt-1">
+                                <button onclick="window.location.href='index.html'" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-extrabold py-2 px-3 rounded-xl transition shadow">
+                                    Continue to Free App &rarr;
+                                </button>
+                                <button onclick="showNewRegistrationForm()" class="w-full bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold py-1.5 px-3 rounded-xl border border-slate-700 transition text-[11px]">
+                                    ✏️ Register New / Different Email Address
+                                </button>
+                            </div>
                         `;
                     }
                     if (form) form.classList.add('hidden');
@@ -1627,6 +1647,11 @@
             const selector = document.getElementById('themeSelectorHome');
             if (selector) switchHomeTheme(selector.value || 'navy');
             goToSlide(0);
+
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.has('register') || urlParams.has('openRegistration')) {
+                openRegistrationModal(true);
+            }
         });
         window.addEventListener('resize', function() {
             goToSlide(currentSlide);

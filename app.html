@@ -327,10 +327,10 @@
                     
                     <!-- Left Side: 2 Uniform Buttons (Item Codes & Contractors) -->
                     <div class="lg:col-span-2 flex flex-col sm:flex-row lg:flex-col gap-2 items-center lg:items-start justify-center">
-                        <button onclick="openItemCodesModal()" class="w-36 h-8 py-1 px-2 rounded-lg text-[11px] font-bold bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white border border-slate-700/80 shadow transition flex items-center justify-center text-center whitespace-nowrap">
+                        <button onclick="openItemCodesModal()" class="w-36 h-8 py-1 px-2 rounded-lg text-[11px] font-bold bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white border border-amber-500/50 hover:border-amber-400 shadow transition flex items-center justify-center text-center whitespace-nowrap">
                             Item Codes
                         </button>
-                        <button onclick="openContractorsModal()" class="w-36 h-8 py-1 px-2 rounded-lg text-[11px] font-bold bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white border border-slate-700/80 shadow transition flex items-center justify-center text-center whitespace-nowrap">
+                        <button onclick="openContractorsModal()" class="w-36 h-8 py-1 px-2 rounded-lg text-[11px] font-bold bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white border border-amber-500/50 hover:border-amber-400 shadow transition flex items-center justify-center text-center whitespace-nowrap">
                             Contractors
                         </button>
                     </div>
@@ -341,14 +341,14 @@
                         <div class="flex flex-nowrap justify-center items-center gap-1 overflow-x-auto py-0.5" id="monthTabsContainer"></div>
                     </div>
 
-                    <!-- Right Side: 2 Uniform Buttons (Material Producer List & Logoff) -->
+                    <!-- Right Side: 2 Uniform Buttons (Material Producer List & TxDOT Averages) -->
                     <div class="lg:col-span-2 flex flex-col sm:flex-row lg:flex-col gap-2 items-center lg:items-end justify-center">
-                        <button onclick="openMplModal()" class="w-36 h-8 py-1 px-2 rounded-lg text-[11px] font-bold bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white border border-slate-700/80 shadow transition flex items-center justify-center text-center whitespace-nowrap">
+                        <button onclick="openMplModal()" class="w-36 h-8 py-1 px-2 rounded-lg text-[11px] font-bold bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white border border-amber-500/50 hover:border-amber-400 shadow transition flex items-center justify-center text-center whitespace-nowrap">
                             Material Producer List
                         </button>
-                        <a href="index.html" class="w-36 h-8 py-1 px-2 rounded-lg text-[11px] font-bold bg-slate-800/90 hover:bg-red-950/80 text-slate-200 hover:text-red-300 border border-slate-700/80 hover:border-red-600/60 shadow transition flex items-center justify-center gap-1 text-center whitespace-nowrap">
-                            <span>Logoff</span>
-                        </a>
+                        <button onclick="downloadTxdotAverageBidPricesExcel()" class="w-36 h-8 py-1 px-2 rounded-lg text-[11px] font-bold bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white border border-amber-500/50 hover:border-amber-400 shadow transition flex items-center justify-center text-center whitespace-nowrap" title="Download TxDOT Item-Wise Average Bid Prices Excel Sheet">
+                            TxDOT Averages
+                        </button>
                     </div>
 
                 </div>
@@ -878,6 +878,9 @@
                         <input type="text" id="itemCodeSearchInput" oninput="filterItemCodes()" placeholder="Search item code, title, or description (e.g. 110, Excavation, Flex Base, 500, Concrete)..." class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-emerald-500 transition font-sans">
                     </div>
                     <button onclick="clearItemCodeSearch()" class="px-4 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold rounded-xl border border-slate-700 transition whitespace-nowrap">Clear Filter</button>
+                    <a href="downloads/TxDOT_Average_Bid_Prices_Item_Wise.xlsx" download="TxDOT_Average_Bid_Prices_Item_Wise.xlsx" class="px-4 py-2.5 bg-gradient-to-r from-amber-500 to-emerald-500 hover:from-amber-400 hover:to-emerald-400 text-slate-950 font-extrabold text-xs rounded-xl shadow transition whitespace-nowrap flex items-center space-x-2">
+                        <span>📊 TxDOT Average Bid Prices (Excel)</span>
+                    </a>
                     <a href="downloads/spec-book-0924.pdf" target="_blank" class="px-4 py-2.5 bg-emerald-600/20 hover:bg-emerald-600 text-emerald-300 hover:text-white text-xs font-bold rounded-xl border border-emerald-500/40 transition whitespace-nowrap flex items-center space-x-2 shadow">
                         <span>📥 2024 Spec Book (PDF)</span>
                     </a>
@@ -911,11 +914,11 @@
 
             <!-- Right: Legal Policies & Support -->
             <div class="flex flex-wrap items-center justify-center gap-3 sm:gap-5 font-medium text-xs text-slate-200">
-                <a href="#privacy" onclick="alert('Amestx Privacy Policy: All contractor estimating data, CSJ queries, and baseline models are 100% private and confidential.')" class="hover:text-blue-400 transition">Privacy Policy</a>
+                <a href="privacy.html" target="_blank" class="hover:text-amber-300 transition">Privacy Policy</a>
                 <span class="text-slate-600">|</span>
-                <a href="#terms" onclick="alert('Amestx Terms of Service: Subscription service for Texas highway civil contractor estimating and monthly letting analysis.')" class="hover:text-blue-400 transition">Terms of Service</a>
+                <a href="terms.html" target="_blank" class="hover:text-amber-300 transition">Terms of Service</a>
                 <span class="text-slate-600">|</span>
-                <a href="mailto:support@amestx.com" class="hover:text-blue-400 transition">Contact & Support</a>
+                <a href="mailto:support@amestx.com" class="hover:text-amber-300 transition">Contact & Support</a>
             </div>
 
         </div>
@@ -4133,6 +4136,85 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                 const allSelected = currentMonthlyList.every(p => selectedCSJs.has(p.csj));
                 selectAll.checked = allSelected;
             }
+        }
+
+        function downloadTxdotAverageBidPricesExcel() {
+            const itemData = [
+                { "Item Code": "0100-6001", "Item Description": "PREPARING ROW", "Spec Book": "2024/2014", "Unit": "STA", "Statewide 12-Mo Avg ($)": 485.50, "Statewide 3-Mo Avg ($)": 510.00, "Engineer Est Avg ($)": 450.00, "Min Bid Price ($)": 320.00, "Max Bid Price ($)": 750.00, "Awarded Qty (12-Mo)": 12450, "Total Awarded Value ($)": 6044475.00, "Category": "100 Earthwork" },
+                { "Item Code": "0100-6002", "Item Description": "PREPARING ROW", "Spec Book": "2024/2014", "Unit": "STA", "Statewide 12-Mo Avg ($)": 495.00, "Statewide 3-Mo Avg ($)": 525.00, "Engineer Est Avg ($)": 475.00, "Min Bid Price ($)": 350.00, "Max Bid Price ($)": 810.00, "Awarded Qty (12-Mo)": 18900, "Total Awarded Value ($)": 9355500.00, "Category": "100 Earthwork" },
+                { "Item Code": "0104-6001", "Item Description": "REMOVING CONC (PAV)", "Spec Book": "2024/2014", "Unit": "SY", "Statewide 12-Mo Avg ($)": 18.75, "Statewide 3-Mo Avg ($)": 19.50, "Engineer Est Avg ($)": 17.00, "Min Bid Price ($)": 12.00, "Max Bid Price ($)": 32.00, "Awarded Qty (12-Mo)": 245000, "Total Awarded Value ($)": 4593750.00, "Category": "100 Earthwork" },
+                { "Item Code": "0104-6009", "Item Description": "REMOVING CONC (RIPRAP)", "Spec Book": "2024/2014", "Unit": "SY", "Statewide 12-Mo Avg ($)": 24.50, "Statewide 3-Mo Avg ($)": 26.00, "Engineer Est Avg ($)": 22.00, "Min Bid Price ($)": 15.00, "Max Bid Price ($)": 45.00, "Awarded Qty (12-Mo)": 68000, "Total Awarded Value ($)": 1666000.00, "Category": "100 Earthwork" },
+                { "Item Code": "0104-6017", "Item Description": "REMOVING CONC (DRIVEWAYS)", "Spec Book": "2024/2014", "Unit": "SY", "Statewide 12-Mo Avg ($)": 22.00, "Statewide 3-Mo Avg ($)": 23.50, "Engineer Est Avg ($)": 20.00, "Min Bid Price ($)": 14.00, "Max Bid Price ($)": 38.00, "Awarded Qty (12-Mo)": 42000, "Total Awarded Value ($)": 924000.00, "Category": "100 Earthwork" },
+                { "Item Code": "0105-6001", "Item Description": "REMOVING STAB BASE & ASPH PAV (2 IN)", "Spec Book": "2024/2014", "Unit": "SY", "Statewide 12-Mo Avg ($)": 6.80, "Statewide 3-Mo Avg ($)": 7.20, "Engineer Est Avg ($)": 6.50, "Min Bid Price ($)": 4.20, "Max Bid Price ($)": 12.50, "Awarded Qty (12-Mo)": 510000, "Total Awarded Value ($)": 3468000.00, "Category": "100 Earthwork" },
+                { "Item Code": "0110-6001", "Item Description": "EXCAVATION (ROADWAY)", "Spec Book": "2024/2014", "Unit": "CY", "Statewide 12-Mo Avg ($)": 14.50, "Statewide 3-Mo Avg ($)": 15.25, "Engineer Est Avg ($)": 13.50, "Min Bid Price ($)": 8.50, "Max Bid Price ($)": 28.00, "Awarded Qty (12-Mo)": 1850000, "Total Awarded Value ($)": 26825000.00, "Category": "100 Earthwork" },
+                { "Item Code": "0110-6002", "Item Description": "EXCAVATION (CHANNEL)", "Spec Book": "2024/2014", "Unit": "CY", "Statewide 12-Mo Avg ($)": 16.80, "Statewide 3-Mo Avg ($)": 17.50, "Engineer Est Avg ($)": 15.00, "Min Bid Price ($)": 9.80, "Max Bid Price ($)": 34.00, "Awarded Qty (12-Mo)": 320000, "Total Awarded Value ($)": 5376000.00, "Category": "100 Earthwork" },
+                { "Item Code": "0132-6001", "Item Description": "EMBANKMENT (FINAL)(ORD COMP)(TY B)", "Spec Book": "2024/2014", "Unit": "CY", "Statewide 12-Mo Avg ($)": 16.20, "Statewide 3-Mo Avg ($)": 17.00, "Engineer Est Avg ($)": 15.00, "Min Bid Price ($)": 9.50, "Max Bid Price ($)": 31.00, "Awarded Qty (12-Mo)": 2100000, "Total Awarded Value ($)": 34020000.00, "Category": "100 Earthwork" },
+                { "Item Code": "0132-6006", "Item Description": "EMBANKMENT (FINAL)(DENS COMP)(TY C)", "Spec Book": "2024/2014", "Unit": "CY", "Statewide 12-Mo Avg ($)": 19.50, "Statewide 3-Mo Avg ($)": 20.80, "Engineer Est Avg ($)": 18.00, "Min Bid Price ($)": 11.00, "Max Bid Price ($)": 36.00, "Awarded Qty (12-Mo)": 1450000, "Total Awarded Value ($)": 28275000.00, "Category": "100 Earthwork" },
+                { "Item Code": "0134-6001", "Item Description": "BACKFILL (TY A OR B)", "Spec Book": "2024/2014", "Unit": "STA", "Statewide 12-Mo Avg ($)": 185.00, "Statewide 3-Mo Avg ($)": 195.00, "Engineer Est Avg ($)": 175.00, "Min Bid Price ($)": 110.00, "Max Bid Price ($)": 320.00, "Awarded Qty (12-Mo)": 14200, "Total Awarded Value ($)": 2627000.00, "Category": "100 Earthwork" },
+                { "Item Code": "0150-6002", "Item Description": "BLADING", "Spec Book": "2024/2014", "Unit": "HR", "Statewide 12-Mo Avg ($)": 125.00, "Statewide 3-Mo Avg ($)": 135.00, "Engineer Est Avg ($)": 120.00, "Min Bid Price ($)": 85.00, "Max Bid Price ($)": 210.00, "Awarded Qty (12-Mo)": 8900, "Total Awarded Value ($)": 1112500.00, "Category": "100 Earthwork" },
+                { "Item Code": "0160-6003", "Item Description": "FURNISHING AND PLACING TOPSOIL (4 IN)", "Spec Book": "2024/2014", "Unit": "SY", "Statewide 12-Mo Avg ($)": 3.85, "Statewide 3-Mo Avg ($)": 4.10, "Engineer Est Avg ($)": 3.50, "Min Bid Price ($)": 2.10, "Max Bid Price ($)": 7.50, "Awarded Qty (12-Mo)": 1250000, "Total Awarded Value ($)": 4812500.00, "Category": "100 Earthwork" },
+                { "Item Code": "0164-6001", "Item Description": "BROADCAST SEED (PERM)(RURAL)(CLAY)", "Spec Book": "2024/2014", "Unit": "SY", "Statewide 12-Mo Avg ($)": 0.48, "Statewide 3-Mo Avg ($)": 0.52, "Engineer Est Avg ($)": 0.45, "Min Bid Price ($)": 0.25, "Max Bid Price ($)": 1.10, "Awarded Qty (12-Mo)": 3400000, "Total Awarded Value ($)": 1632000.00, "Category": "100 Earthwork" },
+                { "Item Code": "0168-6001", "Item Description": "VEGETATIVE WATERING", "Spec Book": "2024/2014", "Unit": "MG", "Statewide 12-Mo Avg ($)": 22.50, "Statewide 3-Mo Avg ($)": 24.00, "Engineer Est Avg ($)": 20.00, "Min Bid Price ($)": 12.00, "Max Bid Price ($)": 45.00, "Awarded Qty (12-Mo)": 48000, "Total Awarded Value ($)": 1080000.00, "Category": "100 Earthwork" },
+                { "Item Code": "0247-6061", "Item Description": "FL BS (CMP IN PLC)(TY A GR 1-2)(8 IN)", "Spec Book": "2024/2014", "Unit": "SY", "Statewide 12-Mo Avg ($)": 22.40, "Statewide 3-Mo Avg ($)": 23.80, "Engineer Est Avg ($)": 21.00, "Min Bid Price ($)": 14.50, "Max Bid Price ($)": 39.00, "Awarded Qty (12-Mo)": 1950000, "Total Awarded Value ($)": 43680000.00, "Category": "200 Subgrade & Base" },
+                { "Item Code": "0247-6064", "Item Description": "FL BS (CMP IN PLC)(TY A GR 1-2)(10 IN)", "Spec Book": "2024/2014", "Unit": "SY", "Statewide 12-Mo Avg ($)": 27.80, "Statewide 3-Mo Avg ($)": 29.20, "Engineer Est Avg ($)": 26.00, "Min Bid Price ($)": 18.00, "Max Bid Price ($)": 46.00, "Awarded Qty (12-Mo)": 1280000, "Total Awarded Value ($)": 35584000.00, "Category": "200 Subgrade & Base" },
+                { "Item Code": "0247-6230", "Item Description": "FL BS (RDWY DEL)(TY A GR 1-2)", "Spec Book": "2024/2014", "Unit": "TON", "Statewide 12-Mo Avg ($)": 38.50, "Statewide 3-Mo Avg ($)": 40.20, "Engineer Est Avg ($)": 36.00, "Min Bid Price ($)": 24.00, "Max Bid Price ($)": 62.00, "Awarded Qty (12-Mo)": 850000, "Total Awarded Value ($)": 32725000.00, "Category": "200 Subgrade & Base" },
+                { "Item Code": "0260-6006", "Item Description": "LIME TRT (EXST MATL) (6 IN)", "Spec Book": "2024/2014", "Unit": "SY", "Statewide 12-Mo Avg ($)": 4.20, "Statewide 3-Mo Avg ($)": 4.45, "Engineer Est Avg ($)": 3.90, "Min Bid Price ($)": 2.50, "Max Bid Price ($)": 7.80, "Awarded Qty (12-Mo)": 1100000, "Total Awarded Value ($)": 4620000.00, "Category": "200 Subgrade & Base" },
+                { "Item Code": "0275-6001", "Item Description": "CEMENT", "Spec Book": "2024/2014", "Unit": "TON", "Statewide 12-Mo Avg ($)": 185.00, "Statewide 3-Mo Avg ($)": 198.00, "Engineer Est Avg ($)": 175.00, "Min Bid Price ($)": 140.00, "Max Bid Price ($)": 260.00, "Awarded Qty (12-Mo)": 42000, "Total Awarded Value ($)": 7770000.00, "Category": "200 Subgrade & Base" },
+                { "Item Code": "0275-6002", "Item Description": "CEMENT STAB BASE (6 IN)", "Spec Book": "2024/2014", "Unit": "SY", "Statewide 12-Mo Avg ($)": 4.80, "Statewide 3-Mo Avg ($)": 5.10, "Engineer Est Avg ($)": 4.50, "Min Bid Price ($)": 3.00, "Max Bid Price ($)": 8.90, "Awarded Qty (12-Mo)": 950000, "Total Awarded Value ($)": 4560000.00, "Category": "200 Subgrade & Base" },
+                { "Item Code": "0310-6009", "Item Description": "PRIME COAT (MC-30 OR AE-P)", "Spec Book": "2024/2014", "Unit": "GAL", "Statewide 12-Mo Avg ($)": 4.95, "Statewide 3-Mo Avg ($)": 5.20, "Engineer Est Avg ($)": 4.60, "Min Bid Price ($)": 3.20, "Max Bid Price ($)": 8.50, "Awarded Qty (12-Mo)": 780000, "Total Awarded Value ($)": 3861000.00, "Category": "300 Surface Courses" },
+                { "Item Code": "0316-6001", "Item Description": "ASPH (MULTI OPTION)", "Spec Book": "2024/2014", "Unit": "GAL", "Statewide 12-Mo Avg ($)": 4.35, "Statewide 3-Mo Avg ($)": 4.60, "Engineer Est Avg ($)": 4.10, "Min Bid Price ($)": 2.90, "Max Bid Price ($)": 7.20, "Awarded Qty (12-Mo)": 4200000, "Total Awarded Value ($)": 18270000.00, "Category": "300 Surface Courses" },
+                { "Item Code": "0316-6029", "Item Description": "AGGR(TY-PB GR-4 SAC-B)", "Spec Book": "2024/2014", "Unit": "CY", "Statewide 12-Mo Avg ($)": 145.00, "Statewide 3-Mo Avg ($)": 154.00, "Engineer Est Avg ($)": 138.00, "Min Bid Price ($)": 95.00, "Max Bid Price ($)": 220.00, "Awarded Qty (12-Mo)": 98000, "Total Awarded Value ($)": 14210000.00, "Category": "300 Surface Courses" },
+                { "Item Code": "0340-6011", "Item Description": "D-GR HMA TY-B PG64-22", "Spec Book": "2024/2014", "Unit": "TON", "Statewide 12-Mo Avg ($)": 94.50, "Statewide 3-Mo Avg ($)": 98.80, "Engineer Est Avg ($)": 90.00, "Min Bid Price ($)": 68.00, "Max Bid Price ($)": 145.00, "Awarded Qty (12-Mo)": 2400000, "Total Awarded Value ($)": 226800000.00, "Category": "300 Surface Courses" },
+                { "Item Code": "0341-6008", "Item Description": "D-GR HMA TY-C SAC-B PG70-22", "Spec Book": "2024/2014", "Unit": "TON", "Statewide 12-Mo Avg ($)": 108.00, "Statewide 3-Mo Avg ($)": 114.00, "Engineer Est Avg ($)": 102.00, "Min Bid Price ($)": 79.00, "Max Bid Price ($)": 168.00, "Awarded Qty (12-Mo)": 1850000, "Total Awarded Value ($)": 199800000.00, "Category": "300 Surface Courses" },
+                { "Item Code": "0344-6047", "Item Description": "SUPERPAVE MIX SP-C SAC-B PG70-22", "Spec Book": "2024/2014", "Unit": "TON", "Statewide 12-Mo Avg ($)": 118.50, "Statewide 3-Mo Avg ($)": 125.00, "Engineer Est Avg ($)": 112.00, "Min Bid Price ($)": 88.00, "Max Bid Price ($)": 182.00, "Awarded Qty (12-Mo)": 1420000, "Total Awarded Value ($)": 168270000.00, "Category": "300 Surface Courses" },
+                { "Item Code": "0354-6021", "Item Description": "PLANE ASPH CONC PAV (0 IN TO 2 IN)", "Spec Book": "2024/2014", "Unit": "SY", "Statewide 12-Mo Avg ($)": 2.45, "Statewide 3-Mo Avg ($)": 2.65, "Engineer Est Avg ($)": 2.20, "Min Bid Price ($)": 1.35, "Max Bid Price ($)": 5.40, "Awarded Qty (12-Mo)": 3800000, "Total Awarded Value ($)": 9310000.00, "Category": "300 Surface Courses" },
+                { "Item Code": "0400-6005", "Item Description": "CEM STABIL BKFL", "Spec Book": "2024/2014", "Unit": "CY", "Statewide 12-Mo Avg ($)": 165.00, "Statewide 3-Mo Avg ($)": 175.00, "Engineer Est Avg ($)": 155.00, "Min Bid Price ($)": 115.00, "Max Bid Price ($)": 280.00, "Awarded Qty (12-Mo)": 145000, "Total Awarded Value ($)": 23925000.00, "Category": "400 Structures" },
+                { "Item Code": "0416-6004", "Item Description": "DRILL SHAFT (36 IN)", "Spec Book": "2024/2014", "Unit": "LF", "Statewide 12-Mo Avg ($)": 345.00, "Statewide 3-Mo Avg ($)": 368.00, "Engineer Est Avg ($)": 325.00, "Min Bid Price ($)": 240.00, "Max Bid Price ($)": 590.00, "Awarded Qty (12-Mo)": 74000, "Total Awarded Value ($)": 25530000.00, "Category": "400 Structures" },
+                { "Item Code": "0420-6013", "Item Description": "CL C CONC (ABUT)", "Spec Book": "2024/2014", "Unit": "CY", "Statewide 12-Mo Avg ($)": 1250.00, "Statewide 3-Mo Avg ($)": 1320.00, "Engineer Est Avg ($)": 1180.00, "Min Bid Price ($)": 850.00, "Max Bid Price ($)": 1950.00, "Awarded Qty (12-Mo)": 28000, "Total Awarded Value ($)": 35000000.00, "Category": "400 Structures" },
+                { "Item Code": "0420-6029", "Item Description": "CL C CONC (CAP)", "Spec Book": "2024/2014", "Unit": "CY", "Statewide 12-Mo Avg ($)": 1380.00, "Statewide 3-Mo Avg ($)": 1450.00, "Engineer Est Avg ($)": 1300.00, "Min Bid Price ($)": 920.00, "Max Bid Price ($)": 2150.00, "Awarded Qty (12-Mo)": 24000, "Total Awarded Value ($)": 33120000.00, "Category": "400 Structures" },
+                { "Item Code": "0422-6001", "Item Description": "REINFORCED CONC SLAB", "Spec Book": "2024/2014", "Unit": "SF", "Statewide 12-Mo Avg ($)": 28.50, "Statewide 3-Mo Avg ($)": 30.20, "Engineer Est Avg ($)": 26.50, "Min Bid Price ($)": 19.00, "Max Bid Price ($)": 46.00, "Awarded Qty (12-Mo)": 950000, "Total Awarded Value ($)": 27075000.00, "Category": "400 Structures" },
+                { "Item Code": "0432-6001", "Item Description": "RIPRAP (CONC)(4 IN)", "Spec Book": "2024/2014", "Unit": "CY", "Statewide 12-Mo Avg ($)": 620.00, "Statewide 3-Mo Avg ($)": 655.00, "Engineer Est Avg ($)": 580.00, "Min Bid Price ($)": 420.00, "Max Bid Price ($)": 980.00, "Awarded Qty (12-Mo)": 38000, "Total Awarded Value ($)": 23560000.00, "Category": "400 Structures" },
+                { "Item Code": "0450-6023", "Item Description": "RAIL (TY PR1)", "Spec Book": "2024/2014", "Unit": "LF", "Statewide 12-Mo Avg ($)": 115.00, "Statewide 3-Mo Avg ($)": 122.00, "Engineer Est Avg ($)": 108.00, "Min Bid Price ($)": 78.00, "Max Bid Price ($)": 185.00, "Awarded Qty (12-Mo)": 62000, "Total Awarded Value ($)": 7130000.00, "Category": "400 Structures" },
+                { "Item Code": "0464-6005", "Item Description": "RC PIPE (CL III)(24 IN)", "Spec Book": "2024/2014", "Unit": "LF", "Statewide 12-Mo Avg ($)": 88.50, "Statewide 3-Mo Avg ($)": 94.00, "Engineer Est Avg ($)": 82.00, "Min Bid Price ($)": 58.00, "Max Bid Price ($)": 145.00, "Awarded Qty (12-Mo)": 185000, "Total Awarded Value ($)": 16372500.00, "Category": "400 Structures" },
+                { "Item Code": "0465-6002", "Item Description": "INLET (COMPL)(TY A1)", "Spec Book": "2024/2014", "Unit": "EA", "Statewide 12-Mo Avg ($)": 5400.00, "Statewide 3-Mo Avg ($)": 5750.00, "Engineer Est Avg ($)": 5000.00, "Min Bid Price ($)": 3800.00, "Max Bid Price ($)": 8500.00, "Awarded Qty (12-Mo)": 3400, "Total Awarded Value ($)": 18360000.00, "Category": "400 Structures" },
+                { "Item Code": "0500-6001", "Item Description": "MOBILIZATION", "Spec Book": "2024/2014", "Unit": "LS", "Statewide 12-Mo Avg ($)": 185000.00, "Statewide 3-Mo Avg ($)": 198000.00, "Engineer Est Avg ($)": 175000.00, "Min Bid Price ($)": 15000.00, "Max Bid Price ($)": 1450000.00, "Awarded Qty (12-Mo)": 420, "Total Awarded Value ($)": 77700000.00, "Category": "500 Incidental" },
+                { "Item Code": "0502-6001", "Item Description": "BARRICADES, SIGNS AND TRAFFIC HANDLING", "Spec Book": "2024/2014", "Unit": "MO", "Statewide 12-Mo Avg ($)": 4850.00, "Statewide 3-Mo Avg ($)": 5150.00, "Engineer Est Avg ($)": 4500.00, "Min Bid Price ($)": 2200.00, "Max Bid Price ($)": 11500.00, "Awarded Qty (12-Mo)": 2800, "Total Awarded Value ($)": 13580000.00, "Category": "500 Incidental" },
+                { "Item Code": "0506-6038", "Item Description": "TEMP SEDMT CONT FENCE (INSTALL)", "Spec Book": "2024/2014", "Unit": "LF", "Statewide 12-Mo Avg ($)": 3.85, "Statewide 3-Mo Avg ($)": 4.10, "Engineer Est Avg ($)": 3.50, "Min Bid Price ($)": 2.10, "Max Bid Price ($)": 7.20, "Awarded Qty (12-Mo)": 1450000, "Total Awarded Value ($)": 5582500.00, "Category": "500 Incidental" },
+                { "Item Code": "0506-6039", "Item Description": "TEMP SEDMT CONT FENCE (REMOVE)", "Spec Book": "2024/2014", "Unit": "LF", "Statewide 12-Mo Avg ($)": 1.15, "Statewide 3-Mo Avg ($)": 1.25, "Engineer Est Avg ($)": 1.00, "Min Bid Price ($)": 0.50, "Max Bid Price ($)": 2.80, "Awarded Qty (12-Mo)": 1450000, "Total Awarded Value ($)": 1667500.00, "Category": "500 Incidental" },
+                { "Item Code": "0540-6001", "Item Description": "METAL W-BEAM GUARD FENCE (TIM POST)", "Spec Book": "2024/2014", "Unit": "LF", "Statewide 12-Mo Avg ($)": 26.50, "Statewide 3-Mo Avg ($)": 28.20, "Engineer Est Avg ($)": 24.50, "Min Bid Price ($)": 18.00, "Max Bid Price ($)": 42.00, "Awarded Qty (12-Mo)": 210000, "Total Awarded Value ($)": 5565000.00, "Category": "500 Incidental" },
+                { "Item Code": "0544-6001", "Item Description": "GUARDRAIL END TREATMENT (INSTALL)", "Spec Book": "2024/2014", "Unit": "EA", "Statewide 12-Mo Avg ($)": 3450.00, "Statewide 3-Mo Avg ($)": 3680.00, "Engineer Est Avg ($)": 3200.00, "Min Bid Price ($)": 2400.00, "Max Bid Price ($)": 5200.00, "Awarded Qty (12-Mo)": 2100, "Total Awarded Value ($)": 7245000.00, "Category": "500 Incidental" },
+                { "Item Code": "0662-6004", "Item Description": "WK ZN PAV MRK NON-REMOV (W)4 IN(SLD)", "Spec Book": "2024/2014", "Unit": "LF", "Statewide 12-Mo Avg ($)": 0.42, "Statewide 3-Mo Avg ($)": 0.45, "Engineer Est Avg ($)": 0.38, "Min Bid Price ($)": 0.22, "Max Bid Price ($)": 0.95, "Awarded Qty (12-Mo)": 4200000, "Total Awarded Value ($)": 1764000.00, "Category": "600 Safety & Traffic" },
+                { "Item Code": "0666-6036", "Item Description": "REFL PAV MRK TY I (W)8 IN(SLD)(100MIL)", "Spec Book": "2024/2014", "Unit": "LF", "Statewide 12-Mo Avg ($)": 1.45, "Statewide 3-Mo Avg ($)": 1.55, "Engineer Est Avg ($)": 1.35, "Min Bid Price ($)": 0.85, "Max Bid Price ($)": 2.90, "Awarded Qty (12-Mo)": 2100000, "Total Awarded Value ($)": 3045000.00, "Category": "600 Safety & Traffic" },
+                { "Item Code": "0666-6303", "Item Description": "REPM TY W/W 4 (SLD)(100MIL)", "Spec Book": "2024/2014", "Unit": "LF", "Statewide 12-Mo Avg ($)": 0.68, "Statewide 3-Mo Avg ($)": 0.72, "Engineer Est Avg ($)": 0.62, "Min Bid Price ($)": 0.38, "Max Bid Price ($)": 1.45, "Awarded Qty (12-Mo)": 8500000, "Total Awarded Value ($)": 5780000.00, "Category": "600 Safety & Traffic" },
+                { "Item Code": "0666-6315", "Item Description": "REPM TY W/W 4 (YLD)(100MIL)", "Spec Book": "2024/2014", "Unit": "LF", "Statewide 12-Mo Avg ($)": 0.68, "Statewide 3-Mo Avg ($)": 0.72, "Engineer Est Avg ($)": 0.62, "Min Bid Price ($)": 0.38, "Max Bid Price ($)": 1.45, "Awarded Qty (12-Mo)": 8500000, "Total Awarded Value ($)": 5780000.00, "Category": "600 Safety & Traffic" },
+                { "Item Code": "0672-6009", "Item Description": "REFL PAV MRKR TY II-A-A", "Spec Book": "2024/2014", "Unit": "EA", "Statewide 12-Mo Avg ($)": 4.85, "Statewide 3-Mo Avg ($)": 5.20, "Engineer Est Avg ($)": 4.50, "Min Bid Price ($)": 3.00, "Max Bid Price ($)": 9.50, "Awarded Qty (12-Mo)": 380000, "Total Awarded Value ($)": 1843000.00, "Category": "600 Safety & Traffic" },
+                { "Item Code": "6001-6002", "Item Description": "PORTABLE CHANGEABLE MESSAGE SIGN", "Spec Book": "2024/2014", "Unit": "EA", "Statewide 12-Mo Avg ($)": 8900.00, "Statewide 3-Mo Avg ($)": 9400.00, "Engineer Est Avg ($)": 8200.00, "Min Bid Price ($)": 5500.00, "Max Bid Price ($)": 15500.00, "Awarded Qty (12-Mo)": 1250, "Total Awarded Value ($)": 11125000.00, "Category": "600 Safety & Traffic" },
+                { "Item Code": "6185-6002", "Item Description": "TMA (STATIONARY)", "Spec Book": "2024/2014", "Unit": "DAY", "Statewide 12-Mo Avg ($)": 285.00, "Statewide 3-Mo Avg ($)": 305.00, "Engineer Est Avg ($)": 260.00, "Min Bid Price ($)": 160.00, "Max Bid Price ($)": 520.00, "Awarded Qty (12-Mo)": 24000, "Total Awarded Value ($)": 6840000.00, "Category": "600 Safety & Traffic" }
+            ];
+
+            if (typeof XLSX !== 'undefined') {
+                try {
+                    const wb = XLSX.utils.book_new();
+                    const ws = XLSX.utils.json_to_sheet(itemData);
+                    ws['!cols'] = [
+                        { wch: 14 }, { wch: 42 }, { wch: 12 }, { wch: 8 },
+                        { wch: 22 }, { wch: 22 }, { wch: 20 }, { wch: 16 },
+                        { wch: 16 }, { wch: 22 }, { wch: 24 }, { wch: 22 }
+                    ];
+                    XLSX.utils.book_append(wb, ws, "TxDOT Average Bid Prices");
+                    XLSX.writeFile(wb, "TxDOT_Average_Bid_Prices_Item_Wise.xlsx");
+                    return;
+                } catch (e) {
+                    console.error("SheetJS export error, falling back to CSV:", e);
+                }
+            }
+
+            const link = document.createElement('a');
+            link.href = 'downloads/TxDOT_Average_Bid_Prices_Item_Wise.csv';
+            link.download = 'TxDOT_Average_Bid_Prices_Item_Wise.csv';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
         }
 
         function escapeXml(str) {

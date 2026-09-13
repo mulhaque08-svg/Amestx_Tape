@@ -1,0 +1,1636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amestx™ — Leading TxDOT Civil Construction Report & Bid Estimator</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['DM Sans', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Theme Variables & Dynamic Styles */
+        :root, body.theme-plum {
+            --bg-header: #14021c;
+            --bg-dark-section: #16031f;
+            --bg-dark-card: #20032b;
+            --bg-dark-card-inner: #260833;
+            --border-dark: #4a155f;
+            --text-dark-muted: #d8b4fe;
+            --accent-primary: #2563eb;
+            --accent-gold: #d97706;
+            --hero-white-bg: #14021c;
+            --hero-text-main: #ffffff;
+            --hero-text-sub: #e9d5ff;
+        }
+
+        body.theme-navy {
+            --bg-header: #0b132b;
+            --bg-dark-section: #0a1128;
+            --bg-dark-card: #1c2541;
+            --bg-dark-card-inner: #151e38;
+            --border-dark: #2e3b55;
+            --text-dark-muted: #93c5fd;
+            --accent-primary: #2563eb;
+            --accent-gold: #d97706;
+            --hero-white-bg: #0a1128;
+            --hero-text-main: #ffffff;
+            --hero-text-sub: #cbd5e1;
+        }
+
+        body.theme-rl-dark {
+            --bg-header: #14021c;
+            --bg-dark-section: #16031f;
+            --bg-dark-card: #20032b;
+            --bg-dark-card-inner: #260833;
+            --border-dark: #4a155f;
+            --text-dark-muted: #d8b4fe;
+            --accent-primary: #2563eb;
+            --accent-gold: #d97706;
+            --hero-white-bg: #14021c;
+            --hero-text-main: #ffffff;
+            --hero-text-sub: #e9d5ff;
+        }
+
+        body.theme-light {
+            --bg-header: #a6a6a6;
+            --bg-dark-section: #f8fafc;
+            --bg-dark-card: #ffffff;
+            --bg-dark-card-inner: #f1f5f9;
+            --border-dark: #cbd5e1;
+            --text-dark-muted: #475569;
+            --accent-primary: #2563eb;
+            --accent-gold: #d97706;
+            --hero-white-bg: #f8fafc;
+            --hero-text-main: #0f172a;
+            --hero-text-sub: #334155;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background-color: var(--hero-white-bg);
+            color: var(--hero-text-main);
+            overflow: hidden; /* Lock vertical scroll for horizontal slide presentation */
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        /* Login Page Background Shading (Lighter Top to Full Bottom) across all 3 themes */
+        body.theme-navy,
+        body.theme-navy #horizontalSlider,
+        body.theme-navy .slide-item {
+            background: linear-gradient(180deg, rgba(28, 37, 65, 0.35) 0%, rgba(11, 19, 43, 1.0) 100%) !important;
+        }
+
+        body.theme-plum,
+        body.theme-rl-dark,
+        body.theme-plum #horizontalSlider,
+        body.theme-rl-dark #horizontalSlider,
+        body.theme-plum .slide-item,
+        body.theme-rl-dark .slide-item {
+            background: linear-gradient(180deg, rgba(46, 5, 52, 0.35) 0%, rgba(20, 2, 28, 1.0) 100%) !important;
+        }
+
+        body.theme-light,
+        body.theme-light #horizontalSlider,
+        body.theme-light .slide-item {
+            background: linear-gradient(180deg, #ffffff 0%, rgba(241, 245, 249, 1.0) 100%) !important;
+        }
+
+        .dark-header-bg {
+            background-color: var(--bg-header) !important;
+            border-color: var(--border-dark) !important;
+        }
+
+        .dark-section-bg {
+            background-color: var(--bg-dark-section) !important;
+            border-color: var(--border-dark) !important;
+        }
+
+        .dark-card-bg {
+            background-color: var(--bg-dark-card) !important;
+            border-color: var(--border-dark) !important;
+        }
+
+        .dark-card-inner {
+            background-color: var(--bg-dark-card-inner) !important;
+            border-color: var(--border-dark) !important;
+        }
+
+        .dark-border {
+            border-color: var(--border-dark) !important;
+        }
+
+        /* Smooth horizontal slide scroll container */
+        #horizontalSlider {
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
+            height: calc(100vh - 144px); /* Viewport height minus header (80px) and footer (64px) */
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        .slide-item {
+            min-width: 100vw;
+            width: 100vw;
+            height: 100%;
+            flex-shrink: 0;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 1.5rem 2rem;
+            box-sizing: border-box;
+        }
+
+        /* Custom sleek horizontal scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 4px;
+        }
+
+        .glow-blue {
+            box-shadow: 0 0 25px rgba(37, 99, 235, 0.4);
+        }
+
+        .glow-gold {
+            box-shadow: 0 0 25px rgba(217, 119, 6, 0.35);
+        }
+
+        /* High Contrast Overrides for Light Theme */
+        body.theme-light h1,
+        body.theme-light h2,
+        body.theme-light h3,
+        body.theme-light h4,
+        body.theme-light h5,
+        body.theme-light h6 {
+            color: #0f172a !important;
+        }
+
+        body.theme-light p,
+        body.theme-light li,
+        body.theme-light .text-slate-300,
+        body.theme-light .text-slate-200 {
+            color: #334155 !important;
+        }
+
+        body.theme-light .dark-card-bg {
+            background-color: #ffffff !important;
+            border-color: #cbd5e1 !important;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08) !important;
+        }
+
+        body.theme-light .dark-card-inner {
+            background-color: #f1f5f9 !important;
+            border-color: #cbd5e1 !important;
+        }
+
+        body.theme-light .dark-section-bg {
+            background-color: #f1f5f9 !important;
+            border-color: #cbd5e1 !important;
+        }
+
+        /* Dark Grey Header & Footer (#1e293b) for Light Theme Only on Login Page */
+        body.theme-light header,
+        body.theme-light footer {
+            background-color: #1e293b !important;
+            border-color: #334155 !important;
+            color: #ffffff !important;
+        }
+
+        body.theme-light header *,
+        body.theme-light footer * {
+            color: #ffffff !important;
+        }
+
+        body.theme-light header a.hover\:text-amber-300:hover,
+        body.theme-light footer a.hover\:text-amber-300:hover {
+            color: #fbbf24 !important;
+        }
+
+        body.theme-light #themeSelectorHome {
+            background-color: #334155 !important;
+            color: #fbbf24 !important;
+            border-color: #475569 !important;
+        }
+
+        body.theme-light #themeSelectorHome option {
+            background-color: #1e293b !important;
+            color: #ffffff !important;
+        }
+
+        body.theme-light button.bg-blue-600,
+        body.theme-light button.bg-blue-600 *,
+        body.theme-light button.bg-amber-500,
+        body.theme-light a.bg-amber-500 {
+            color: #ffffff !important;
+        }
+        body.theme-light a.bg-amber-500 *,
+        body.theme-light button.bg-amber-500 * {
+            color: #0f172a !important;
+        }
+    </style>
+</head>
+<body class="theme-navy h-screen w-screen flex flex-col justify-between selection:bg-blue-600 selection:text-white">
+
+    <!-- Top Navigation Header -->
+    <header class="h-20 w-full border-b dark-header-bg text-white shadow-2xl transition-colors shrink-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between">
+            
+            <!-- Signature Brand Logo -->
+            <a href="home.html" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 bg-gradient-to-br from-blue-600 via-indigo-600 to-amber-500 rounded-lg flex items-center justify-center font-bold text-white shadow-lg shadow-blue-500/30 text-lg tracking-wider group-hover:scale-105 transition-transform">
+                    AM
+                </div>
+                <div class="flex flex-col text-left">
+                    <div class="flex items-center gap-2">
+                        <span class="text-xl font-bold tracking-tight text-white">Amestx™</span>
+                        <span class="text-xs bg-amber-500/20 text-amber-300 border border-amber-500/40 px-2.5 py-0.5 rounded font-mono font-bold">TxDOT Bid Estimator</span>
+                    </div>
+                    <span class="text-[11px] text-slate-300 font-medium">Monthly Lettings, Proposal Estimates & Excel Matrix</span>
+                </div>
+            </a>
+
+            <!-- Header Action Items: Theme Selector, Free Trial Button & Sign In -->
+            <div class="flex items-center gap-3">
+                <!-- Theme Selector Dropdown -->
+                <select id="themeSelectorHome" onchange="switchHomeTheme(this.value)" class="px-3 py-2 rounded-xl text-xs font-bold dark-card-bg text-amber-300 border dark-border hover:border-amber-400 cursor-pointer focus:outline-none transition shadow">
+                    <option value="navy">⚓ Theme: Navy</option>
+                    <option value="rl-dark">🟣 Theme: RL Dark</option>
+                    <option value="light">☀️ Theme: Light Slate</option>
+                </select>
+
+                <!-- Free Trial Button -->
+                <button onclick="openRegistrationModal()" class="bg-blue-600 hover:bg-blue-500 text-white font-extrabold text-xs px-4 py-2.5 rounded-xl glow-blue transition-all flex items-center gap-2">
+                    <span>Start 7-Day Free Trial</span>
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </button>
+
+                <!-- Sign In Button -->
+                <button onclick="handleSignInClick()" class="inline-flex text-xs font-extrabold text-slate-950 bg-amber-500 hover:bg-amber-400 px-4 py-2.5 rounded-xl shadow-lg transition items-center gap-1.5 cursor-pointer">
+                    <span>Sign In / Launch App</span>
+                    <span>&rarr;</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Horizontal Presentation Container -->
+    <main id="horizontalSlider" class="flex-grow">
+        
+        <!-- SLIDE 1: HERO OVERVIEW & MOCKUP -->
+        <section id="slide-1" class="slide-item">
+            <div class="max-w-7xl mx-auto w-full">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    
+                    <!-- Hero Left Text Column -->
+                    <div class="lg:col-span-7 space-y-5 text-left">
+                        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-blue-400/40 bg-blue-950/60 text-blue-300 text-xs font-bold uppercase tracking-wider shadow-sm">
+                            <span class="w-2 h-2 rounded-full bg-blue-400 animate-ping"></span>
+                            #1 TxDOT Estimation & Bidding App for Texas Contractors
+                        </div>
+
+                        <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1]">
+                            The premier <span class="text-blue-500 font-black">TxDOT</span> bid estimation platform
+                        </h1>
+
+                        <p class="text-sm sm:text-lg text-slate-300 font-normal leading-relaxed max-w-2xl">
+                            Empower your team to bid monthly TxDOT projects faster with instant access to proposal PDFs, engineering plan sheets, contractor address directories, competitor bid tabs, and automated baseline estimates.
+                        </p>
+
+                        <div class="pt-2 flex flex-wrap items-center gap-4">
+                            <button onclick="openRegistrationModal()" class="bg-amber-500 hover:bg-amber-400 text-slate-950 font-extrabold text-base px-6 py-3.5 rounded-xl shadow-xl transition-all transform hover:-translate-y-0.5 flex items-center gap-2.5">
+                                <span>Request Demo / 7-Day Free Trial</span>
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                            </button>
+
+                            <button onclick="goToSlide(1)" class="bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm px-5 py-3.5 rounded-xl flex items-center gap-2 transition shadow-lg">
+                                <span>🍿 Watch AI Voice Tutorial</span>
+                            </button>
+                        </div>
+
+                        <div class="pt-2 flex flex-wrap items-center gap-5 text-xs font-semibold text-slate-300">
+                            <span class="flex items-center gap-1.5 text-emerald-400 font-bold">✓ Instant 7-Day Access</span>
+                            <span class="flex items-center gap-1.5 text-slate-300">✓ No Credit Card Required</span>
+                            <span class="flex items-center gap-1.5 text-amber-300">✓ 1,500+ TxDOT Lettings Loaded</span>
+                        </div>
+                    </div>
+
+                    <!-- Hero Right Column (Live Mockup Card) -->
+                    <div id="heroMockupCard" class="lg:col-span-5 relative">
+                        <div class="relative rounded-2xl p-1 bg-slate-900 shadow-2xl border border-slate-700">
+                            <div class="bg-slate-950 rounded-t-xl px-4 py-2.5 flex items-center justify-between border-b border-slate-800">
+                                <div class="flex items-center gap-2">
+                                    <span class="w-2.5 h-2.5 rounded-full bg-blue-500"></span>
+                                    <span class="w-2.5 h-2.5 rounded-full bg-amber-500"></span>
+                                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
+                                    <span class="ml-2 text-xs font-mono text-slate-200 font-bold mockup-title-text">Amestx.com — Live TxDOT Estimator</span>
+                                </div>
+                                <span class="text-[10px] font-mono text-emerald-400 bg-emerald-950 px-2 py-0.5 rounded border border-emerald-700 font-extrabold">LIVE DEMO</span>
+                            </div>
+
+                            <div class="bg-slate-900 p-4 rounded-b-xl space-y-3 text-left text-white">
+                                <div class="flex items-center gap-2 p-2 bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 text-slate-950 rounded-xl font-mono text-xs font-extrabold shadow">
+                                    <span>CSJ: 0015-13-042 (IH 35 Travis)</span>
+                                </div>
+                                <div class="grid grid-cols-6 gap-1 text-[10px] font-bold text-center">
+                                    <div class="p-1 rounded bg-blue-600 text-white font-extrabold">1. Tasks</div>
+                                    <div class="p-1 rounded bg-slate-800 text-slate-300 border border-slate-700">2. Proposal</div>
+                                    <div class="p-1 rounded bg-slate-800 text-slate-300 border border-slate-700">3. Plans</div>
+                                    <div class="p-1 rounded bg-slate-800 text-slate-300 border border-slate-700">4. Address</div>
+                                    <div class="p-1 rounded bg-amber-500 text-slate-950 font-black">5. Bid Tab</div>
+                                    <div class="p-1 rounded bg-slate-800 text-slate-300 border border-slate-700">6. Estimate</div>
+                                </div>
+                                <div class="border border-slate-800 bg-slate-950 rounded-xl overflow-hidden text-[11px] font-mono">
+                                    <table class="w-full text-left">
+                                        <thead class="bg-slate-800 text-slate-300 text-[10px]">
+                                            <tr>
+                                                <th class="p-1.5">ITEM</th>
+                                                <th class="p-1.5">DESCRIPTION</th>
+                                                <th class="p-1.5 text-right">ENG EST</th>
+                                                <th class="p-1.5 text-right">LOW BID</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="divide-y divide-slate-800 text-slate-200">
+                                            <tr>
+                                                <td class="p-1.5 text-blue-400 font-bold">0100-6002</td>
+                                                <td class="p-1.5 font-sans truncate max-w-[100px]">PREPARING ROW</td>
+                                                <td class="p-1.5 text-right">$450.00</td>
+                                                <td class="p-1.5 text-right text-emerald-400 font-bold">$385.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="p-1.5 text-blue-400 font-bold">0500-6001</td>
+                                                <td class="p-1.5 font-sans truncate max-w-[100px]">MOBILIZATION</td>
+                                                <td class="p-1.5 text-right">$125,000</td>
+                                                <td class="p-1.5 text-right text-emerald-400 font-bold">$118,000</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="pt-1 flex items-center justify-between text-xs">
+                                    <span class="text-slate-300 font-medium">Total: <strong class="text-amber-400">$4,850,210.00</strong></span>
+                                    <button onclick="handleSignInClick()" class="text-xs font-bold text-amber-400 hover:text-amber-300 underline cursor-pointer">Launch Full App &rarr;</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 2: INTERACTIVE PRESENTATION & VIDEO TUTORIAL -->
+        <section id="slide-2" class="slide-item dark-section-bg">
+            <div class="max-w-7xl mx-auto w-full space-y-6">
+                <div class="text-center max-w-3xl mx-auto space-y-2">
+                    <span class="px-3.5 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 text-xs font-bold uppercase tracking-wider">
+                        🍿 INTERACTIVE VIDEO & AI NARRATION
+                    </span>
+                    <h2 class="text-2xl sm:text-4xl font-extrabold text-white">
+                        See How Amestx™ Transforms TxDOT Estimating
+                    </h2>
+                    <p class="text-slate-300 text-xs sm:text-base">
+                        Watch our automated interactive presentation complete with built-in AI Voice narration covering all 6 tabs in 2 minutes.
+                    </p>
+                </div>
+
+                <div class="p-6 sm:p-8 rounded-3xl border dark-border dark-card-bg shadow-2xl">
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+                        <div class="lg:col-span-7 space-y-4 text-left">
+                            <div class="flex items-center gap-2">
+                                <span class="p-1.5 rounded bg-blue-600/30 text-blue-300 font-mono font-bold text-xs border border-blue-500/40">AUDIO SYNC ACTIVE</span>
+                                <span class="text-xs text-slate-300">Web Speech API Voice Engine</span>
+                            </div>
+                            
+                            <h3 class="text-xl sm:text-2xl font-extrabold text-white">
+                                7 Interactive Presentation Chapters
+                            </h3>
+
+                            <ul class="space-y-2.5 text-xs sm:text-sm text-slate-200 font-medium">
+                                <li class="flex items-center gap-2.5">
+                                    <span class="w-5 h-5 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xs">1</span>
+                                    <span><strong>CSJ & Let Date Search</strong> — Instant filtering across all 25 TxDOT Districts.</span>
+                                </li>
+                                <li class="flex items-center gap-2.5">
+                                    <span class="w-5 h-5 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xs">2</span>
+                                    <span><strong>Official Proposal & Plan Sheet PDFs</strong> — Direct 1-click viewing.</span>
+                                </li>
+                                <li class="flex items-center gap-2.5">
+                                    <span class="w-5 h-5 rounded-full bg-emerald-600 text-white flex items-center justify-center font-bold text-xs">3</span>
+                                    <span><strong>Bidder Address Directory</strong> — Verified phone numbers & business addresses.</span>
+                                </li>
+                                <li class="flex items-center gap-2.5">
+                                    <span class="w-5 h-5 rounded-full bg-amber-500 text-slate-950 flex items-center justify-center font-bold text-xs">4</span>
+                                    <span><strong>Bid Tabulation Matrix & Baseline Estimates</strong> — Historical rate calculations.</span>
+                                </li>
+                            </ul>
+
+                            <div class="pt-2">
+                                <button onclick="openTutorialModal()" class="bg-blue-600 hover:bg-blue-500 text-white font-extrabold text-sm px-6 py-3 rounded-xl glow-blue transition flex items-center gap-2">
+                                    <span>Launch AI Voice Tutorial</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="lg:col-span-5 relative group cursor-pointer" onclick="openYouTubeModal('youtube')">
+                            <div class="aspect-video rounded-2xl dark-card-inner border dark-border hover:border-red-500/80 overflow-hidden flex flex-col items-center justify-center relative transition shadow-2xl bg-gradient-to-br from-slate-900 to-red-950/40 p-4">
+                                <div class="w-14 h-14 rounded-2xl bg-red-600 hover:bg-red-500 text-white flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform">
+                                    <svg class="w-7 h-7 fill-current ml-1" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                                </div>
+                                <span class="text-xs font-bold text-white mt-3 flex items-center gap-1">
+                                    <span>Watch Animated Presentation on YouTube</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 3: 6 ESSENTIAL TABS SHOWCASE -->
+        <section id="slide-3" class="slide-item">
+            <div class="max-w-7xl mx-auto w-full space-y-6">
+                <div class="text-center max-w-3xl mx-auto space-y-2">
+                    <span class="px-3.5 py-1 rounded-full bg-blue-500/20 text-blue-300 border border-blue-500/40 text-xs font-bold uppercase tracking-wider">
+                        🚀 COMPLETE TXDOT ESTIMATING SUITE
+                    </span>
+                    <h2 class="text-2xl sm:text-4xl font-extrabold text-white">
+                        All 6 Essential Tabs Included
+                    </h2>
+                    <p class="text-slate-300 text-xs sm:text-base">
+                        Designed specifically for Texas heavy civil contractors, estimators, and project managers.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 text-left">
+                    <div class="p-5 rounded-2xl border dark-border dark-card-bg text-white hover:border-blue-500 transition shadow-xl space-y-2">
+                        <div class="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center font-mono font-bold text-sm">01</div>
+                        <h3 class="text-base font-bold text-white">Tab 1: Tasks & Bid Leads</h3>
+                        <p class="text-xs text-slate-300 leading-relaxed">Search projects by CSJ number, highway, or county. Filter letting dates across all 25 TxDOT districts.</p>
+                    </div>
+
+                    <div class="p-5 rounded-2xl border dark-border dark-card-bg text-white hover:border-blue-500 transition shadow-xl space-y-2">
+                        <div class="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center font-mono font-bold text-sm">02</div>
+                        <h3 class="text-base font-bold text-white">Tab 2: Official Proposals</h3>
+                        <p class="text-xs text-slate-300 leading-relaxed">One-click access to official TxDOT bidding proposal PDFs and contract addendums.</p>
+                    </div>
+
+                    <div class="p-5 rounded-2xl border dark-border dark-card-bg text-white hover:border-emerald-500 transition shadow-xl space-y-2">
+                        <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-mono font-bold text-sm">03</div>
+                        <h3 class="text-base font-bold text-white">Tab 3: Full Plan Sets</h3>
+                        <p class="text-xs text-slate-300 leading-relaxed">Direct viewer for engineering plan sheets, cross-sections, traffic control, and structural drawings.</p>
+                    </div>
+
+                    <div class="p-5 rounded-2xl border dark-border dark-card-bg text-white hover:border-amber-500 transition shadow-xl space-y-2">
+                        <div class="w-10 h-10 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center font-mono font-bold text-sm">04</div>
+                        <h3 class="text-base font-bold text-white">Tab 4: View Address Info</h3>
+                        <p class="text-xs text-slate-300 leading-relaxed">Comprehensive directory for prime bidders and subcontractors with direct contact details.</p>
+                    </div>
+
+                    <div class="p-5 rounded-2xl border dark-border dark-card-bg text-white hover:border-purple-400 transition shadow-xl space-y-2">
+                        <div class="w-10 h-10 rounded-xl bg-purple-600 text-white flex items-center justify-center font-mono font-bold text-sm">05</div>
+                        <h3 class="text-base font-bold text-white">Tab 5: Bid Tabulation Matrix</h3>
+                        <p class="text-xs text-slate-300 leading-relaxed">Line-item unit price comparison across all bidders vs engineer estimate. Identify pricing trends.</p>
+                    </div>
+
+                    <div class="p-5 rounded-2xl border dark-border dark-card-bg text-white hover:border-blue-500 transition shadow-xl space-y-2">
+                        <div class="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center font-mono font-bold text-sm">06</div>
+                        <h3 class="text-base font-bold text-white">Tab 6: Baseline & Excel Export</h3>
+                        <p class="text-xs text-slate-300 leading-relaxed">Automated TxDOT baseline cost model calculation and instant export in official formatted Excel structure.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 4: PRICING TIERS & FREE TRIAL -->
+        <section id="slide-4" class="slide-item dark-section-bg">
+            <div class="max-w-7xl mx-auto w-full space-y-6">
+                <div class="text-center max-w-3xl mx-auto space-y-3">
+                    <span class="px-3.5 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 text-xs font-bold uppercase tracking-wider">
+                        💳 TRANSPARENT PRICING
+                    </span>
+                    <h2 class="text-2xl sm:text-4xl font-extrabold text-white">
+                        Simple, Flexible Subscription Plans
+                    </h2>
+                    <p class="text-slate-300 text-xs sm:text-base">
+                        Test all 6 tabs with complete 7-day trial access. Choose Monthly or Save 30% with Yearly Billing.
+                    </p>
+
+                    <!-- Monthly vs Yearly Billing Switch -->
+                    <div class="pt-2 flex items-center justify-center gap-3">
+                        <span class="text-xs font-bold text-slate-300" id="billingLabelMonthly">Monthly Billing</span>
+                        <button onclick="toggleBillingCycle()" id="billingToggleBtn" class="w-14 h-7 bg-blue-600 rounded-full p-1 transition-colors relative focus:outline-none shadow-inner" title="Toggle Monthly / Yearly (30% OFF)">
+                            <div id="billingToggleDot" class="w-5 h-5 bg-white rounded-full transition-transform transform translate-x-7 shadow"></div>
+                        </button>
+                        <span class="text-xs font-bold text-amber-300 flex items-center gap-1.5" id="billingLabelYearly">
+                            <span>Yearly Subscription</span>
+                            <span class="bg-amber-500 text-slate-950 font-black text-[10px] px-2 py-0.5 rounded-full uppercase shadow">SAVE 30%</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-stretch text-left">
+                    <!-- 7-Day Free Trial Card -->
+                    <div class="p-6 rounded-3xl border-2 border-blue-500 dark-card-bg relative flex flex-col justify-between space-y-4 shadow-2xl">
+                        <div class="space-y-3">
+                            <span class="px-3 py-1 rounded-full bg-blue-600 text-white text-[10px] font-extrabold uppercase tracking-widest shadow">
+                                RECOMMENDED FOR NEW USERS
+                            </span>
+                            <h3 class="text-xl font-extrabold text-white">7-Day Free Trial</h3>
+                            <div class="flex items-baseline gap-1">
+                                <span class="text-4xl font-black text-white">$0</span>
+                                <span class="text-xs font-semibold text-slate-300">/ 7 Days Access</span>
+                            </div>
+                            <div class="text-xs text-emerald-400 font-bold bg-emerald-950/60 border border-emerald-500/40 px-3 py-1.5 rounded-lg">
+                                ✓ No Credit Card Required • Instant Full Access
+                            </div>
+                            <hr class="border-slate-700">
+                            <ul class="space-y-2 text-xs font-semibold text-slate-200">
+                                <li class="flex items-center gap-2">✓ All 6 Tabs Unlocked</li>
+                                <li class="flex items-center gap-2">✓ Unlimited CSJ & District Search</li>
+                                <li class="flex items-center gap-2">✓ Bidder Address Directory Access</li>
+                                <li class="flex items-center gap-2">✓ Formatted Excel Export Engine</li>
+                            </ul>
+                        </div>
+                        <button onclick="openRegistrationModal()" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-extrabold py-3 px-4 rounded-xl glow-blue transition text-xs">
+                            Start 7-Day Free Trial &rarr;
+                        </button>
+                    </div>
+
+                    <!-- Pro Estimator Card -->
+                    <div class="p-6 rounded-3xl border dark-border dark-card-bg relative flex flex-col justify-between space-y-4 shadow-xl">
+                        <div class="space-y-3">
+                            <div class="flex items-center justify-between">
+                                <span class="text-xs font-mono font-bold text-blue-400 uppercase">SINGLE ESTIMATOR</span>
+                                <span class="text-[10px] bg-amber-500/20 text-amber-300 border border-amber-500/40 px-2 py-0.5 rounded font-bold">30% YEARLY DISCOUNT</span>
+                            </div>
+                            <h3 class="text-xl font-extrabold text-white">Pro Estimator</h3>
+                            
+                            <!-- Dual Price Option Display -->
+                            <div class="space-y-1">
+                                <div class="flex items-baseline gap-1">
+                                    <span class="text-4xl font-black text-white" id="proPriceDisp">$97</span>
+                                    <span class="text-xs font-semibold text-slate-300" id="proUnitDisp">/ month (Billed Annually)</span>
+                                </div>
+                                <div class="text-[11px] text-slate-400 font-mono" id="proSubtextDisp">
+                                    Monthly Rate: <span class="text-slate-200 font-bold">$139 / mo</span> • <span class="text-amber-300 font-bold">Yearly: $97 / mo (30% OFF)</span>
+                                </div>
+                            </div>
+
+                            <hr class="border-slate-700">
+                            <ul class="space-y-2 text-xs font-semibold text-slate-200">
+                                <li class="flex items-center gap-2">✓ Single Estimator License</li>
+                                <li class="flex items-center gap-2">✓ Monthly Rate: <strong>$139 / month</strong></li>
+                                <li class="flex items-center gap-2 text-amber-300">✓ Yearly Rate: <strong>$97 / month (30% OFF)</strong></li>
+                                <li class="flex items-center gap-2">✓ Historical Letting Archives (2020 - 2026)</li>
+                                <li class="flex items-center gap-2">✓ Priority FTP Syncing & Formatted Exports</li>
+                            </ul>
+                        </div>
+                        <button onclick="openPaymentModal('Pro Estimator')" class="w-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-extrabold py-3 px-4 rounded-xl transition text-xs shadow-lg">
+                            Select Pro Plan &rarr;
+                        </button>
+                    </div>
+
+                    <!-- Corporate Team Card -->
+                    <div class="p-6 rounded-3xl border dark-border dark-card-bg relative flex flex-col justify-between space-y-4 shadow-xl">
+                        <div class="space-y-3">
+                            <div class="flex items-center justify-between">
+                                <span class="text-xs font-mono font-bold text-amber-300 uppercase">5 ESTIMATOR SEATS</span>
+                                <span class="text-[10px] bg-amber-500/20 text-amber-300 border border-amber-500/40 px-2 py-0.5 rounded font-bold">30% YEARLY DISCOUNT</span>
+                            </div>
+                            <h3 class="text-xl font-extrabold text-white">Corporate Team</h3>
+                            
+                            <!-- Dual Price Option Display -->
+                            <div class="space-y-1">
+                                <div class="flex items-baseline gap-1">
+                                    <span class="text-4xl font-black text-white" id="corpPriceDisp">$307</span>
+                                    <span class="text-xs font-semibold text-slate-300" id="corpUnitDisp">/ month (Billed Annually)</span>
+                                </div>
+                                <div class="text-[11px] text-slate-400 font-mono" id="corpSubtextDisp">
+                                    Monthly Rate: <span class="text-slate-200 font-bold">$439 / mo</span> • <span class="text-amber-300 font-bold">Yearly: $307 / mo (30% OFF)</span>
+                                </div>
+                            </div>
+
+                            <hr class="border-slate-700">
+                            <ul class="space-y-2 text-xs font-semibold text-slate-200">
+                                <li class="flex items-center gap-2">✓ <strong>5 Estimator Seats Included</strong></li>
+                                <li class="flex items-center gap-2">✓ Monthly Team Rate: <strong>$439 / month</strong></li>
+                                <li class="flex items-center gap-2 text-amber-300">✓ Yearly Team Rate: <strong>$307 / month (30% OFF)</strong></li>
+                                <li class="flex items-center gap-2">✓ Shared Team Workbooks & Multi-User Access</li>
+                                <li class="flex items-center gap-2">✓ Priority Support & Custom Baseline Engine</li>
+                            </ul>
+                        </div>
+                        <button onclick="openPaymentModal('Corporate Team (5 Seats)')" class="w-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-extrabold py-3 px-4 rounded-xl transition text-xs shadow-lg">
+                            Select Corporate Plan &rarr;
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Registration & Free Trial Modal -->
+    <div id="registrationModal" class="fixed inset-0 z-[100] bg-slate-950/90 backdrop-blur flex items-center justify-center p-3 sm:p-6 hidden">
+        <div class="bg-slate-900 border border-slate-700 rounded-3xl w-full max-w-lg overflow-hidden shadow-2xl flex flex-col">
+            <!-- Header -->
+            <div class="px-6 py-4 bg-slate-950 border-b border-slate-800 flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <div class="w-8 h-8 bg-gradient-to-br from-blue-600 to-amber-500 rounded-lg flex items-center justify-center font-bold text-white text-xs">AM</div>
+                    <div>
+                        <h3 class="text-sm font-bold text-white">Amestx™ 7-Day Free Trial Registration</h3>
+                        <p class="text-[11px] text-slate-400">Unlock instant full access to all 6 TxDOT Estimator tabs</p>
+                    </div>
+                </div>
+                <button onclick="closeRegistrationModal()" class="w-7 h-7 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white flex items-center justify-center font-bold text-sm transition">✕</button>
+            </div>
+
+            <!-- Dynamic Alert / Registration Form Body -->
+            <div class="p-6 space-y-4 text-left overflow-y-auto max-h-[80vh]">
+                
+                <!-- Status Banner container (populated dynamically) -->
+                <div id="regStatusBanner" class="hidden"></div>
+
+                <form id="regForm" onsubmit="submitRegistration(event)" class="space-y-3.5">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-300 mb-1">Full Name <span class="text-rose-400">*</span></label>
+                        <input type="text" id="regFullName" required placeholder="e.g. John Miller" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-500 focus:border-blue-500 focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-300 mb-1">Company / Business Name <span class="text-rose-400">*</span></label>
+                        <input type="text" id="regCompany" required placeholder="e.g. Lone Star Paving & Civil LLC" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-500 focus:border-blue-500 focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-300 mb-1">Business Email Address <span class="text-rose-400">*</span></label>
+                        <input type="email" id="regEmail" required placeholder="e.g. jmiller@lonestarpaving.com" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-500 focus:border-blue-500 focus:outline-none">
+                        <p class="text-[10px] text-slate-400 mt-1">💡 Free trial is active for 7 days from registration email date.</p>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <div>
+                            <label class="block text-xs font-bold text-slate-300 mb-1">Phone Number <span class="text-rose-400">*</span></label>
+                            <input type="tel" id="regPhone" required placeholder="e.g. (512) 555-0199" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-500 focus:border-blue-500 focus:outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-300 mb-1">Business Specialty <span class="text-rose-400">*</span></label>
+                            <select id="regRole" required class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2.5 text-xs text-white focus:border-blue-500 focus:outline-none">
+                                <option value="General Contractor">General Heavy Civil Contractor</option>
+                                <option value="TxDOT Subcontractor">TxDOT Subcontractor</option>
+                                <option value="Estimator / Consultant">Estimator / Engineering Consultant</option>
+                                <option value="Materials Supplier">Materials / Equipment Supplier</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="pt-2">
+                        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-extrabold py-3 px-4 rounded-xl glow-blue transition text-xs flex items-center justify-center gap-2 shadow-lg">
+                            <span>🚀 Submit Registration & Launch 7-Day Free Trial</span>
+                            <span>&rarr;</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Secure Payment Checkout Modal -->
+    <div id="paymentModal" class="fixed inset-0 z-[100] bg-slate-950/90 backdrop-blur flex items-center justify-center p-3 sm:p-6 hidden">
+        <div class="bg-slate-900 border border-slate-700 rounded-3xl w-full max-w-lg overflow-hidden shadow-2xl flex flex-col">
+            <!-- Header -->
+            <div class="px-6 py-4 bg-slate-950 border-b border-slate-800 flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <div class="w-8 h-8 bg-gradient-to-br from-amber-500 to-emerald-500 rounded-lg flex items-center justify-center font-bold text-slate-950 text-xs">💳</div>
+                    <div>
+                        <h3 class="text-sm font-bold text-white" id="payModalPlanTitle">Amestx™ Secure Checkout</h3>
+                        <p class="text-[11px] text-slate-400">Unlock Unlimited Pro Access & Historical Baseline Data</p>
+                    </div>
+                </div>
+                <button onclick="closePaymentModal()" class="w-7 h-7 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white flex items-center justify-center font-bold text-sm transition">✕</button>
+            </div>
+
+            <!-- Modal Content -->
+            <div class="p-6 space-y-4 text-left overflow-y-auto max-h-[80vh]">
+                
+                <!-- Plan Summary Card -->
+                <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800 space-y-2">
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs font-bold text-amber-300 uppercase tracking-wide" id="payPlanBadge">PRO ESTIMATOR PLAN</span>
+                        <span class="text-[10px] font-mono bg-emerald-950 text-emerald-400 border border-emerald-700 px-2 py-0.5 rounded font-bold" id="payBillingCycleBadge">YEARLY BILLING (30% OFF)</span>
+                    </div>
+                    <div class="flex items-baseline justify-between pt-1">
+                        <div class="text-2xl font-black text-white" id="payPriceDisplay">$97 <span class="text-xs font-normal text-slate-400">/ month</span></div>
+                        <div class="text-xs text-slate-300 font-mono" id="payTotalBilledDisplay">Billed $1,164 annually</div>
+                    </div>
+                    <div class="text-[11px] text-slate-400 leading-relaxed pt-1 border-t border-slate-800">
+                        ✓ Includes all 6 tabs, unlimited CSJ search, address directories, and formatted Excel matrix exports.
+                    </div>
+                </div>
+
+                <form id="payForm" onsubmit="submitPayment(event)" class="space-y-3">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-300 mb-1">Cardholder Name <span class="text-rose-400">*</span></label>
+                        <input type="text" id="payName" required placeholder="e.g. John Doe" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3.5 py-2 text-xs text-white placeholder-slate-500 focus:border-amber-500 focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-300 mb-1">Billing Email <span class="text-rose-400">*</span></label>
+                        <input type="email" id="payEmail" required placeholder="e.g. jdoe@company.com" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3.5 py-2 text-xs text-white placeholder-slate-500 focus:border-amber-500 focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-300 mb-1">Card Number <span class="text-rose-400">*</span></label>
+                        <input type="text" id="payCard" required placeholder="4532 •••• •••• 8892" maxlength="19" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3.5 py-2 text-xs text-white font-mono placeholder-slate-500 focus:border-amber-500 focus:outline-none">
+                    </div>
+                    <div class="grid grid-cols-3 gap-2">
+                        <div>
+                            <label class="block text-xs font-bold text-slate-300 mb-1">Expires <span class="text-rose-400">*</span></label>
+                            <input type="text" id="payExp" required placeholder="MM/YY" maxlength="5" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2 text-xs text-white font-mono placeholder-slate-500 focus:border-amber-500 focus:outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-300 mb-1">CVC <span class="text-rose-400">*</span></label>
+                            <input type="text" id="payCvc" required placeholder="123" maxlength="4" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2 text-xs text-white font-mono placeholder-slate-500 focus:border-amber-500 focus:outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-300 mb-1">Zip Code <span class="text-rose-400">*</span></label>
+                            <input type="text" id="payZip" required placeholder="78701" maxlength="5" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2 text-xs text-white font-mono placeholder-slate-500 focus:border-amber-500 focus:outline-none">
+                        </div>
+                    </div>
+
+                    <!-- Discount / Promo Code Input -->
+                    <div>
+                        <label class="block text-xs font-bold text-slate-300 mb-1">Discount Code (Optional)</label>
+                        <div class="flex gap-2">
+                            <input type="text" id="payPromo" placeholder="TXDOT2026 or AGC30" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3.5 py-2 text-xs text-amber-300 font-mono placeholder-slate-500 focus:border-amber-500 focus:outline-none uppercase">
+                            <button type="button" onclick="applyPromoCode()" class="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold text-xs rounded-xl border border-slate-700 shrink-0">Apply</button>
+                        </div>
+                        <div id="promoMsg" class="text-[10px] text-emerald-400 font-bold mt-1 hidden">✓ Discount verified: Additional 30% Off Applied!</div>
+                    </div>
+
+                    <div class="pt-2">
+                        <button type="submit" id="paySubmitBtn" class="w-full bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black py-3 px-4 rounded-xl shadow-xl transition text-xs flex items-center justify-center gap-2">
+                            <span>💳 Complete Payment & Activate Subscription</span>
+                            <span>&rarr;</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Interactive AI Presenter & Chapter Presentation Tutorial Modal -->
+    <div id="tutorialModal" class="fixed inset-0 z-[100] bg-slate-950/90 backdrop-blur flex items-center justify-center p-3 sm:p-6 hidden">
+        <div class="bg-slate-900 border border-slate-700 rounded-3xl w-full max-w-5xl max-h-[92vh] overflow-hidden shadow-2xl flex flex-col">
+            <!-- Modal Top Bar -->
+            <div class="px-6 py-3.5 bg-slate-950 border-b border-slate-800 flex items-center justify-between shrink-0">
+                <div class="flex items-center space-x-3">
+                    <div class="w-3 h-3 rounded-full bg-rose-500"></div>
+                    <div class="w-3 h-3 rounded-full bg-amber-500"></div>
+                    <div class="w-3 h-3 rounded-full bg-emerald-500"></div>
+                    <span class="text-xs sm:text-sm font-bold text-white font-mono ml-2">Amestx™ Interactive AI Studio & Chapter Presentation</span>
+                </div>
+                <div class="flex items-center gap-3">
+                    <a href="https://youtube.com" target="_blank" onclick="stopVoiceAudio()" class="text-xs font-mono font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40 px-3 py-1 rounded-lg hover:bg-amber-500/30 transition flex items-center gap-1.5">
+                        <span>↗️ Open Video on YouTube</span>
+                    </a>
+                    <button onclick="closeTutorialModal()" class="w-8 h-8 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white flex items-center justify-center font-bold text-base transition">✕</button>
+                </div>
+            </div>
+
+            <!-- Chapter Navigation Selector Pills -->
+            <div class="bg-slate-950/90 px-3 py-2 border-b border-slate-800 overflow-x-auto flex items-center justify-between gap-1 text-[11px] font-mono shrink-0">
+                <span class="text-slate-400 font-bold px-1 shrink-0 text-[10px] uppercase">Chapters:</span>
+                <div class="flex items-center justify-start sm:justify-between w-full gap-1 overflow-x-auto py-0.5">
+                    <button onclick="selectTutorialChapter(0)" class="tut-chap-btn px-2.5 py-1 rounded-lg bg-blue-600 text-white font-bold transition shrink-0 whitespace-nowrap">1. Overview</button>
+                    <button onclick="selectTutorialChapter(1)" class="tut-chap-btn px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition shrink-0 whitespace-nowrap">2. Search (T1)</button>
+                    <button onclick="selectTutorialChapter(2)" class="tut-chap-btn px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition shrink-0 whitespace-nowrap">3. Proposal (T2)</button>
+                    <button onclick="selectTutorialChapter(3)" class="tut-chap-btn px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition shrink-0 whitespace-nowrap">4. Plans (T3)</button>
+                    <button onclick="selectTutorialChapter(4)" class="tut-chap-btn px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition shrink-0 whitespace-nowrap">5. Address (T4)</button>
+                    <button onclick="selectTutorialChapter(5)" class="tut-chap-btn px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition shrink-0 whitespace-nowrap">6. Bid Tabs (T5)</button>
+                    <button onclick="selectTutorialChapter(6)" class="tut-chap-btn px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition shrink-0 whitespace-nowrap">7. Excel (T6)</button>
+                </div>
+            </div>
+
+            <!-- Stage Display Container -->
+            <div class="p-4 sm:p-6 bg-slate-950 flex-grow flex flex-col justify-between overflow-y-auto space-y-4">
+                
+                <!-- Interactive Stage View (Default active view) -->
+                <div id="interactiveStageContainer" class="w-full min-h-[260px] sm:min-h-[300px] rounded-2xl p-5 border border-slate-800 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 flex flex-col justify-between shadow-2xl relative">
+                    
+                    <!-- Top Stage Header -->
+                    <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+                        <div class="flex items-center gap-3">
+                            <span id="tutChapterBadge" class="px-3 py-1 rounded-md bg-blue-600 text-white font-mono font-bold text-xs uppercase tracking-wider">CHAPTER 1 OF 7</span>
+                            <h3 id="tutChapterTitle" class="text-base sm:text-xl font-extrabold text-white">Welcome to Amestx™ TxDOT Bid Estimator</h3>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span id="voiceStatusBadge" class="text-[11px] font-mono font-bold text-emerald-400 bg-emerald-950/80 px-2.5 py-1 rounded-md border border-emerald-700/60 flex items-center gap-1.5">
+                                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+                                <span>🎙️ AI Speech Ready</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Middle Stage Dynamic Visual Mockup & Information Display -->
+                    <div id="tutStageGraphic" class="my-3 py-4 px-5 bg-slate-900/90 rounded-xl border border-slate-800 text-left space-y-3">
+                        <!-- Content rendered dynamically per chapter by JS -->
+                    </div>
+
+                    <!-- Subtitle Box -->
+                    <div class="bg-slate-900 border border-slate-800 rounded-xl p-3.5 text-left">
+                        <span class="text-[10px] font-mono text-amber-300 font-bold block mb-1">🗣️ AI NARRATION & KINETIC CAPTIONS:</span>
+                        <p id="tutSubtitleText" class="text-xs sm:text-sm text-slate-100 font-medium leading-relaxed">
+                            Welcome to Amestx™ TxDOT Bid Estimator. Search monthly lettings, view proposals & plan sheets, analyze competitor bid tabulations, and export formatted Excel estimates in seconds.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Modal Footer Controls -->
+            <div class="px-6 py-3.5 bg-slate-950 border-t border-slate-800 flex flex-wrap items-center justify-between gap-3 text-xs font-mono shrink-0">
+                <div class="flex items-center gap-2">
+                    <button onclick="playCurrentChapterVoice()" class="bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold px-4 py-2 rounded-xl transition flex items-center gap-1.5 shadow">
+                        <span>🔊 Speak AI Voice</span>
+                    </button>
+                    <button id="stopAudioBtn" onclick="togglePauseResumeVoice()" class="bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 font-bold px-4 py-2 rounded-xl transition flex items-center gap-1.5">
+                        <span>⏹ Stop Audio</span>
+                    </button>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <button onclick="prevTutorialChapter()" class="bg-slate-800 hover:bg-slate-700 text-white font-bold px-4 py-2 rounded-xl transition">
+                        &larr; Prev Chapter
+                    </button>
+                    <button onclick="nextTutorialChapter()" class="bg-blue-600 hover:bg-blue-500 text-white font-extrabold px-5 py-2 rounded-xl transition shadow glow-blue">
+                        Next Chapter &rarr;
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Fixed Presentation Footer Navigation Bar (Matching Post-Login App Footer Style) -->
+    <footer class="h-16 w-full bg-slate-950/95 border-t border-slate-800 text-white px-6 flex items-center justify-between z-50 shrink-0 text-xs font-mono">
+        
+        <!-- Left: Copyright Notice (Same as post-login pages) -->
+        <div class="flex items-center space-x-2 text-slate-400 font-sans">
+            <div class="w-6 h-6 bg-gradient-to-br from-blue-600 to-amber-500 rounded flex items-center justify-center font-bold text-white text-xs">AM</div>
+            <span>Amestx™ © 2026 Amestx Inc. All rights reserved.</span>
+        </div>
+
+        <!-- Center: Interactive Slide Indicator Dots -->
+        <div class="flex items-center space-x-2">
+            <button onclick="goToSlide(0)" class="slide-dot w-3 h-3 rounded-full bg-amber-400 transition-all shadow" title="Slide 1: Hero Overview"></button>
+            <button onclick="goToSlide(1)" class="slide-dot w-3 h-3 rounded-full bg-slate-700 hover:bg-slate-500 transition-all" title="Slide 2: Video & AI Presentation"></button>
+            <button onclick="goToSlide(2)" class="slide-dot w-3 h-3 rounded-full bg-slate-700 hover:bg-slate-500 transition-all" title="Slide 3: All 6 Essential Tabs"></button>
+            <button onclick="goToSlide(3)" class="slide-dot w-3 h-3 rounded-full bg-slate-700 hover:bg-slate-500 transition-all" title="Slide 4: Pricing & Free Trial"></button>
+        </div>
+
+        <!-- Right: Policy & Support Links (Same as post-login pages) -->
+        <div class="flex items-center space-x-4 text-slate-400 font-sans">
+            <a href="javascript:void(0)" onclick="alert('Amestx™ Privacy Policy: All user data is encrypted and protected under TxDOT data governance standard compliance.')" class="hover:text-amber-300 transition">Privacy Policy</a>
+            <span>•</span>
+            <a href="javascript:void(0)" onclick="alert('Amestx™ Terms of Service: Authorized Texas contractor use only.')" class="hover:text-amber-300 transition">Terms of Service</a>
+            <span>•</span>
+            <a href="javascript:void(0)" onclick="alert('Amestx™ Support: Contact support@amestx.com or call our engineering hotline.')" class="hover:text-amber-300 transition">Contact & Support</a>
+        </div>
+
+    </footer>
+
+    <!-- Interactive Mouse-Wheel & Keyboard Slide Navigation Controller Script -->
+    <script>
+        let currentSlide = 0;
+        const totalSlides = 4;
+        let isScrollingGuard = false;
+
+        function goToSlide(index) {
+            if (index < 0) index = 0;
+            if (index >= totalSlides) index = totalSlides - 1;
+            currentSlide = index;
+
+            const slider = document.getElementById('horizontalSlider');
+            if (slider) {
+                slider.scrollTo({
+                    left: window.innerWidth * currentSlide,
+                    behavior: 'smooth'
+                });
+            }
+
+            // Update Slide Navigation Dots
+            const dots = document.querySelectorAll('.slide-dot');
+            dots.forEach((dot, i) => {
+                if (i === currentSlide) {
+                    dot.className = "slide-dot w-3 h-3 rounded-full bg-amber-400 scale-125 transition-all shadow";
+                } else {
+                    dot.className = "slide-dot w-3 h-3 rounded-full bg-slate-700 hover:bg-slate-500 transition-all";
+                }
+            });
+        }
+
+        function nextSlide() {
+            if (currentSlide < totalSlides - 1) {
+                goToSlide(currentSlide + 1);
+            }
+        }
+
+        function prevSlide() {
+            if (currentSlide > 0) {
+                goToSlide(currentSlide - 1);
+            }
+        }
+
+        // Intercept Mouse Wheel Scroll for Horizontal Slide Navigation
+        window.addEventListener('wheel', function(e) {
+            if (isScrollingGuard) return;
+
+            const delta = Math.abs(e.deltaY) > Math.abs(e.deltaX) ? e.deltaY : e.deltaX;
+            if (Math.abs(delta) > 15) {
+                if (delta > 0 && currentSlide < totalSlides - 1) {
+                    isScrollingGuard = true;
+                    nextSlide();
+                    setTimeout(() => { isScrollingGuard = false; }, 500);
+                } else if (delta < 0 && currentSlide > 0) {
+                    isScrollingGuard = true;
+                    prevSlide();
+                    setTimeout(() => { isScrollingGuard = false; }, 500);
+                }
+            }
+        }, { passive: true });
+
+        // Keyboard Arrow & Page Key Navigation
+        window.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeTutorialModal();
+            } else if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === 'PageDown') {
+                nextSlide();
+            } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp' || e.key === 'PageUp') {
+                prevSlide();
+            }
+        });
+
+        // Touch Swipe Navigation for Mobile Devices
+        let touchStartX = 0;
+        window.addEventListener('touchstart', function(e) {
+            if (e.touches && e.touches[0]) {
+                touchStartX = e.touches[0].clientX;
+            }
+        }, { passive: true });
+
+        window.addEventListener('touchend', function(e) {
+            if (e.changedTouches && e.changedTouches[0]) {
+                const touchEndX = e.changedTouches[0].clientX;
+                const diffX = touchStartX - touchEndX;
+                if (Math.abs(diffX) > 40) {
+                    if (diffX > 0) nextSlide();
+                    else prevSlide();
+                }
+            }
+        }, { passive: true });
+
+        // Switch Theme Function
+        function switchHomeTheme(theme) {
+            if (!theme) return;
+            document.body.className = document.body.className.replace(/\btheme-\S+/g, '');
+            document.body.classList.add('theme-' + theme);
+            const selector = document.getElementById('themeSelectorHome');
+            if (selector && selector.value !== theme) {
+                selector.value = theme;
+            }
+        }
+
+        // Modal & Interactive Tutorial Presentation Controller Functions
+        let currentTutChapter = 0;
+        let isVideoMode = false;
+        let selectedFemaleVoice = null;
+
+        function loadFemaleVoice() {
+            if (!('speechSynthesis' in window)) return;
+            const voices = window.speechSynthesis.getVoices();
+            if (!voices || voices.length === 0) return;
+
+            const femaleKeywords = [
+                'zira', 'jenny', 'aria', 'samantha', 'victoria', 'karen',
+                'moira', 'fiona', 'susan', 'cora', 'female', 'google us english',
+                'microsoft zira', 'microsoft jenny', 'microsoft aria'
+            ];
+
+            for (let key of femaleKeywords) {
+                let match = voices.find(v => v.lang.startsWith('en') && v.name.toLowerCase().includes(key));
+                if (match) {
+                    selectedFemaleVoice = match;
+                    return;
+                }
+            }
+
+            let englishVoices = voices.filter(v => v.lang.startsWith('en'));
+            selectedFemaleVoice = englishVoices.find(v => !/david|mark|george|male|guy/i.test(v.name)) || englishVoices[0] || voices[0];
+        }
+
+        if ('speechSynthesis' in window) {
+            window.speechSynthesis.onvoiceschanged = loadFemaleVoice;
+            loadFemaleVoice();
+        }
+
+        const tutorialChapters = [
+            {
+                title: "Chapter 1: Overview — Welcome to Amestx™ TxDOT Bid Estimator",
+                badge: "CHAPTER 1 OF 7",
+                narration: "Welcome to Chapter 1 Overview of Amestx TxDOT Bid Estimator. Designed specifically for Texas heavy civil contractors, estimators, and project managers. Access over 50 Billion Dollars in historical TxDOT letting data across all 25 state districts.",
+                graphicHtml: `
+                    <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+                        <div class="space-y-2">
+                            <span class="text-xs font-bold text-amber-400 bg-amber-950 px-2.5 py-1 rounded border border-amber-700">TEXAS HEAVY CIVIL ESTIMATING SUITE</span>
+                            <h4 class="text-lg font-bold text-white">Full-Featured Estimating & Bid Analytics Platform</h4>
+                            <p class="text-xs text-slate-300">Empower your estimating team with instant proposal PDFs, plan sheet viewers, contractor directories, and automated baseline Excel models.</p>
+                        </div>
+                        <div class="grid grid-cols-2 gap-2 text-center text-xs font-mono w-full sm:w-auto shrink-0">
+                            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800"><div class="text-amber-400 font-bold text-base">25</div><div class="text-slate-400 text-[10px]">TxDOT Districts</div></div>
+                            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800"><div class="text-blue-400 font-bold text-base">1,500+</div><div class="text-slate-400 text-[10px]">Active Lettings</div></div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                title: "Chapter 2 (Tab 1): Search Monthly Lettings & CSJ Numbers",
+                badge: "CHAPTER 2 OF 7 — (APP TAB 1)",
+                narration: "Chapter 2 covers Tab 1 of the app. In Tab 1, you can instantly search monthly TxDOT lettings by Control Section Job CSJ number, highway name, or Texas county with real-time status tracking.",
+                graphicHtml: `
+                    <div class="space-y-3">
+                        <div class="flex items-center gap-2 p-2 bg-slate-950 rounded-lg border border-slate-800 text-xs font-mono">
+                            <span class="text-blue-400 font-bold">🔍 SEARCH:</span>
+                            <span class="text-slate-200 bg-slate-800 px-2 py-0.5 rounded font-bold">0015-13-042</span>
+                            <span class="text-slate-400 ml-auto">District: Austin (14) | Hwy: IH 35</span>
+                        </div>
+                        <div class="grid grid-cols-3 gap-2 text-center text-xs font-mono">
+                            <div class="p-2 bg-blue-950/40 border border-blue-800 text-blue-300 rounded font-bold">IH 35 Travis County</div>
+                            <div class="p-2 bg-slate-950 border border-slate-800 text-slate-300 rounded">US 290 Harris County</div>
+                            <div class="p-2 bg-slate-950 border border-slate-800 text-slate-300 rounded">SH 130 Williamson</div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                title: "Chapter 3 (Tab 2): Official Bidding Proposal PDFs",
+                badge: "CHAPTER 3 OF 7 — (APP TAB 2)",
+                narration: "Chapter 3 covers Tab 2 of the app. Tab 2 provides direct 1-click access to official TxDOT bidding proposal PDF documents, contract addendums, and spec book requirements.",
+                graphicHtml: `
+                    <div class="flex items-center justify-between p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs font-mono">
+                        <div class="flex items-center gap-3">
+                            <div class="w-9 h-9 rounded bg-red-600/30 border border-red-500/50 flex items-center justify-center font-bold text-red-400 text-xs">PDF</div>
+                            <div>
+                                <div class="text-white font-bold">Official TxDOT Bidding Proposal PDF</div>
+                                <div class="text-slate-400 text-[10px]">CSJ: 0015-13-042 | 84 Pages | Verified Official File</div>
+                            </div>
+                        </div>
+                        <span class="px-3.5 py-1.5 bg-red-600/90 text-white rounded-lg font-bold text-xs shadow flex items-center gap-1 cursor-default"><span>View PDF</span> &rarr;</span>
+                    </div>
+                `
+            },
+            {
+                title: "Chapter 4 (Tab 3): Full Plan Sheet PDF Viewer",
+                badge: "CHAPTER 4 OF 7 — (APP TAB 3)",
+                narration: "Chapter 4 covers Tab 3 of the app. Tab 3 unlocks the embedded CAD and engineering plan sheet viewer to examine roadway cross sections, bridge layouts, and traffic control drawings.",
+                graphicHtml: `
+                    <div class="flex items-center justify-between p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs font-mono">
+                        <div class="flex items-center gap-3">
+                            <div class="w-9 h-9 rounded bg-blue-600/30 border border-blue-500/50 flex items-center justify-center font-bold text-blue-400 text-xs">CAD</div>
+                            <div>
+                                <div class="text-white font-bold">Official TxDOT Engineering Plan Set PDF</div>
+                                <div class="text-slate-400 text-[10px]">CSJ: 0015-13-042 | 420 Plan Sheets | Verified CAD Sheet File</div>
+                            </div>
+                        </div>
+                        <span class="px-3.5 py-1.5 bg-blue-600/90 text-white rounded-lg font-bold text-xs shadow flex items-center gap-1 cursor-default"><span>View Plan PDF</span> &rarr;</span>
+                    </div>
+                `
+            },
+            {
+                title: "Chapter 5 (Tab 4): Verified Prime & Subcontractor Directory",
+                badge: "CHAPTER 5 OF 7 — (APP TAB 4)",
+                narration: "Chapter 5 covers Tab 4 of the app. Tab 4 contains the complete TxDOT contractor directory with verified business addresses, direct phone numbers, and past bidding history.",
+                graphicHtml: `
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs font-mono">
+                        <div class="p-3 bg-slate-950 rounded-lg border border-slate-800 space-y-1">
+                            <div class="text-amber-400 font-bold">Austin Bridge & Road LP</div>
+                            <div class="text-slate-300 text-[10px]">📍 Irving, TX | 📞 (214) 555-0199</div>
+                            <div class="text-emerald-400 font-bold text-[10px]">✓ Prequalified Prime Contractor</div>
+                        </div>
+                        <div class="p-3 bg-slate-950 rounded-lg border border-slate-800 space-y-1">
+                            <div class="text-blue-400 font-bold">Webber LLC</div>
+                            <div class="text-slate-300 text-[10px]">📍 The Woodlands, TX | 📞 (281) 555-0144</div>
+                            <div class="text-emerald-400 font-bold text-[10px]">✓ Prequalified Prime Contractor</div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                title: "Chapter 6 (Tab 5): Competitor Bid Tabulation Matrix",
+                badge: "CHAPTER 6 OF 7 — (APP TAB 5)",
+                narration: "Chapter 6 covers Tab 5 of the app. Tab 5 displays the line item unit price bid tabulation matrix to compare prices across all submitting bidders versus the engineer estimate.",
+                graphicHtml: `
+                    <div class="overflow-x-auto rounded-lg border border-slate-800 text-[11px] font-mono">
+                        <table class="w-full text-left bg-slate-950">
+                            <thead class="bg-slate-800 text-slate-300">
+                                <tr><th class="p-1.5">ITEM</th><th class="p-1.5">DESCRIPTION</th><th class="p-1.5 text-right">ENG EST</th><th class="p-1.5 text-right">LOW BID</th></tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-800 text-slate-200">
+                                <tr><td class="p-1.5 text-blue-400 font-bold">0100-6002</td><td class="p-1.5">PREPARING ROW</td><td class="p-1.5 text-right">$450.00</td><td class="p-1.5 text-right text-emerald-400 font-bold">$385.00</td></tr>
+                                <tr><td class="p-1.5 text-blue-400 font-bold">0500-6001</td><td class="p-1.5">MOBILIZATION</td><td class="p-1.5 text-right">$125,000</td><td class="p-1.5 text-right text-emerald-400 font-bold">$118,000</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                `
+            },
+            {
+                title: "Chapter 7 (Tab 6): Automated Baseline & Excel Export",
+                badge: "CHAPTER 7 OF 7 — (APP TAB 6)",
+                narration: "Chapter 7 covers Tab 6 of the app. Tab 6 calculates automated historical baseline unit pricing models and exports your complete estimate directly into formatted Microsoft Excel spreadsheets.",
+                graphicHtml: `
+                    <div class="flex items-center justify-between p-3 bg-slate-950 rounded-xl border border-emerald-500/40 text-xs font-mono">
+                        <div class="space-y-1">
+                            <div class="text-emerald-400 font-bold">📊 Formatted Excel Matrix Ready</div>
+                            <div class="text-slate-300 text-[10px]">Includes 12-Month Moving Average & Lowest Bidder Benchmark</div>
+                        </div>
+                        <span class="px-4 py-2 bg-emerald-600/90 text-white rounded-lg font-bold text-xs shadow flex items-center gap-1 cursor-default">📥 Formatted Excel Export</span>
+                    </div>
+                `
+            }
+        ];
+
+        function renderTutorialChapter(index) {
+            if (index < 0) index = 0;
+            if (index >= tutorialChapters.length) index = tutorialChapters.length - 1;
+            currentTutChapter = index;
+
+            const chap = tutorialChapters[currentTutChapter];
+            const badge = document.getElementById('tutChapterBadge');
+            const title = document.getElementById('tutChapterTitle');
+            const graphic = document.getElementById('tutStageGraphic');
+            const subtitle = document.getElementById('tutSubtitleText');
+
+            if (badge) badge.innerText = chap.badge;
+            if (title) title.innerText = chap.title;
+            if (graphic) graphic.innerHTML = chap.graphicHtml;
+            if (subtitle) subtitle.innerText = chap.narration;
+
+            const buttons = document.querySelectorAll('.tut-chap-btn');
+            buttons.forEach((btn, i) => {
+                if (i === currentTutChapter) {
+                    btn.className = "tut-chap-btn px-2.5 py-1 rounded-lg bg-blue-600 text-white font-bold transition shrink-0 whitespace-nowrap shadow";
+                } else {
+                    btn.className = "tut-chap-btn px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition shrink-0 whitespace-nowrap";
+                }
+            });
+        }
+
+        function selectTutorialChapter(index) {
+            stopVoiceAudio();
+            renderTutorialChapter(index);
+            playCurrentChapterVoice();
+        }
+
+        function nextTutorialChapter() {
+            stopVoiceAudio();
+            if (currentTutChapter < tutorialChapters.length - 1) {
+                renderTutorialChapter(currentTutChapter + 1);
+            } else {
+                renderTutorialChapter(0);
+            }
+            playCurrentChapterVoice();
+        }
+
+        function prevTutorialChapter() {
+            stopVoiceAudio();
+            if (currentTutChapter > 0) {
+                renderTutorialChapter(currentTutChapter - 1);
+            } else {
+                renderTutorialChapter(tutorialChapters.length - 1);
+            }
+            playCurrentChapterVoice();
+        }
+
+        let isManualSpeechStop = false;
+
+        function playCurrentChapterVoice() {
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+                loadFemaleVoice();
+                isManualSpeechStop = false;
+
+                const stopBtn = document.getElementById('stopAudioBtn');
+                if (stopBtn) {
+                    stopBtn.innerHTML = `<span>⏸ Pause Audio</span>`;
+                    stopBtn.className = "bg-rose-600 hover:bg-rose-500 text-white font-extrabold px-4 py-2 rounded-xl transition flex items-center gap-1.5 shadow";
+                }
+
+                const chap = tutorialChapters[currentTutChapter];
+                const utterance = new SpeechSynthesisUtterance(chap.narration);
+                
+                if (selectedFemaleVoice) {
+                    utterance.voice = selectedFemaleVoice;
+                }
+                utterance.pitch = 1.1; // Realistic female voice pitch
+                utterance.rate = 0.95;  // Warm, natural speaking cadence
+
+                const voiceLabel = selectedFemaleVoice ? selectedFemaleVoice.name : 'Female Voice';
+                const statusBadge = document.getElementById('voiceStatusBadge');
+                if (statusBadge) {
+                    statusBadge.innerHTML = `<span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span><span>🎙️ AI Female Voice (${voiceLabel}): Speaking Chapter ${currentTutChapter + 1}...</span>`;
+                }
+
+                utterance.onend = function() {
+                    if (currentTutChapter === tutorialChapters.length - 1) {
+                        // Chapter 7 completed! Silently move stage back to Chapter 1 without playing audio.
+                        renderTutorialChapter(0);
+                        if (statusBadge) {
+                            statusBadge.innerHTML = `<span class="w-2 h-2 rounded-full bg-slate-400"></span><span>🎙️ Presentation Finished (Returned to Chapter 1)</span>`;
+                        }
+                    } else {
+                        // Individual chapter speech completed! Stay on chapter and stop speech.
+                        if (statusBadge) {
+                            statusBadge.innerHTML = `<span class="w-2 h-2 rounded-full bg-slate-400"></span><span>🎙️ Chapter ${currentTutChapter + 1} Speech Completed</span>`;
+                        }
+                    }
+
+                    if (stopBtn) {
+                        stopBtn.innerHTML = `<span>⏹ Stop Audio</span>`;
+                        stopBtn.className = "bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 font-bold px-4 py-2 rounded-xl transition flex items-center gap-1.5";
+                    }
+                };
+
+                window.speechSynthesis.speak(utterance);
+            }
+        }
+
+        function togglePauseResumeVoice() {
+            if (!('speechSynthesis' in window)) return;
+
+            const stopBtn = document.getElementById('stopAudioBtn');
+            const statusBadge = document.getElementById('voiceStatusBadge');
+
+            if (window.speechSynthesis.speaking) {
+                if (window.speechSynthesis.paused) {
+                    // Speech is currently paused -> RESUME IT!
+                    isManualSpeechStop = false;
+                    window.speechSynthesis.resume();
+                    if (stopBtn) {
+                        stopBtn.innerHTML = `<span>⏸ Pause Audio</span>`;
+                        stopBtn.className = "bg-rose-600 hover:bg-rose-500 text-white font-extrabold px-4 py-2 rounded-xl transition flex items-center gap-1.5 shadow";
+                    }
+                    if (statusBadge) {
+                        const voiceLabel = selectedFemaleVoice ? selectedFemaleVoice.name : 'Female Voice';
+                        statusBadge.innerHTML = `<span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span><span>🎙️ AI Female Voice (${voiceLabel}): Resumed Chapter ${currentTutChapter + 1}...</span>`;
+                    }
+                } else {
+                    // Speech is currently playing -> PAUSE IT!
+                    isManualSpeechStop = true;
+                    window.speechSynthesis.pause();
+                    if (stopBtn) {
+                        stopBtn.innerHTML = `<span>▶ Resume Audio</span>`;
+                        stopBtn.className = "bg-amber-500 hover:bg-amber-400 text-slate-950 font-extrabold px-4 py-2 rounded-xl transition flex items-center gap-1.5 shadow";
+                    }
+                    if (statusBadge) {
+                        statusBadge.innerHTML = `<span class="w-2 h-2 rounded-full bg-amber-400"></span><span>🎙️ Speech Paused (Click Resume to continue)</span>`;
+                    }
+                }
+            } else {
+                // Speech is not playing -> Start playing current chapter!
+                playCurrentChapterVoice();
+            }
+        }
+
+        function stopVoiceAudio() {
+            isManualSpeechStop = true;
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+            }
+            const stopBtn = document.getElementById('stopAudioBtn');
+            if (stopBtn) {
+                stopBtn.innerHTML = `<span>⏹ Stop Audio</span>`;
+                stopBtn.className = "bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 font-bold px-4 py-2 rounded-xl transition flex items-center gap-1.5";
+            }
+            const statusBadge = document.getElementById('voiceStatusBadge');
+            if (statusBadge) {
+                statusBadge.innerHTML = `<span class="w-2 h-2 rounded-full bg-slate-400"></span><span>🎙️ Speech Stopped</span>`;
+            }
+        }
+
+        function toggleVideoMode() {
+            const streamContainer = document.getElementById('youtubeStreamContainer');
+            const stageContainer = document.getElementById('interactiveStageContainer');
+            const btn = document.getElementById('toggleStreamBtn');
+
+            isVideoMode = !isVideoMode;
+            if (isVideoMode) {
+                if (streamContainer) streamContainer.classList.remove('hidden');
+                if (stageContainer) stageContainer.classList.add('hidden');
+                if (btn) btn.innerHTML = `<span>🎓 Switch to Interactive Presentation</span>`;
+                stopVoiceAudio();
+            } else {
+                if (streamContainer) streamContainer.classList.add('hidden');
+                if (stageContainer) stageContainer.classList.remove('hidden');
+                if (btn) btn.innerHTML = `<span>📺 Stream YouTube Video</span>`;
+            }
+        }
+
+        // Check 7-Day Free Trial & Subscription Status Functions
+        function getTrialInfo() {
+            const profileStr = localStorage.getItem('amestx_user_profile');
+            if (!profileStr) return null;
+            try {
+                const profile = JSON.parse(profileStr);
+                const registeredAt = profile.registeredAt || Date.now();
+                const elapsedMs = Date.now() - registeredAt;
+                const elapsedDays = elapsedMs / (1000 * 60 * 60 * 24);
+                const daysRemaining = Math.max(0, Math.ceil(7 - elapsedDays));
+                const isExpired = elapsedDays > 7;
+                return {
+                    ...profile,
+                    registeredAt,
+                    elapsedDays,
+                    daysRemaining,
+                    isExpired
+                };
+            } catch(e) {
+                return null;
+            }
+        }
+
+        function getSubscriptionInfo() {
+            const subStr = localStorage.getItem('amestx_subscription');
+            if (!subStr) return null;
+            try {
+                return JSON.parse(subStr);
+            } catch(e) {
+                return null;
+            }
+        }
+
+        function handleSignInClick() {
+            const sub = getSubscriptionInfo();
+            if (sub && sub.active) {
+                window.location.href = "index.html";
+                return;
+            }
+
+            const trial = getTrialInfo();
+            if (trial) {
+                if (!trial.isExpired) {
+                    window.location.href = "index.html";
+                    return;
+                } else {
+                    openRegistrationModal();
+                    return;
+                }
+            }
+            openRegistrationModal();
+        }
+
+        function openRegistrationModal() {
+            const modal = document.getElementById('registrationModal');
+            const banner = document.getElementById('regStatusBanner');
+            const form = document.getElementById('regForm');
+            const trial = getTrialInfo();
+            const sub = getSubscriptionInfo();
+
+            if (modal) modal.classList.remove('hidden');
+
+            if (sub && sub.active) {
+                if (banner) {
+                    banner.className = "p-3.5 bg-emerald-950/80 border border-emerald-600/60 rounded-2xl text-xs text-white space-y-2 block";
+                    banner.innerHTML = `
+                        <div class="flex items-center gap-2 font-bold text-emerald-400">⭐ Subscribed: ${sub.plan || 'Pro Estimator'}</div>
+                        <div class="text-[11px] text-slate-300">Logged in as <strong>${sub.email || 'Subscriber'}</strong>. Unlimited access active.</div>
+                        <button onclick="window.location.href='index.html'" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold py-2 px-3 rounded-xl transition">
+                            Launch App Dashboard &rarr;
+                        </button>
+                    `;
+                }
+                if (form) form.classList.add('hidden');
+            } else if (trial) {
+                if (trial.isExpired) {
+                    if (banner) {
+                        const expDate = new Date(trial.registeredAt + (7 * 24 * 60 * 60 * 1000)).toLocaleDateString();
+                        banner.className = "p-3.5 bg-rose-950/90 border border-rose-600/80 rounded-2xl text-xs text-white space-y-2 block shadow-lg";
+                        banner.innerHTML = `
+                            <div class="flex items-center gap-2 font-bold text-rose-400">⚠️ 7-Day Free Trial Expired</div>
+                            <div class="text-[11px] text-slate-200 leading-relaxed">
+                                Your free trial registered for <strong>${trial.email}</strong> on ${new Date(trial.registeredAt).toLocaleDateString()} expired after 7 days on ${expDate}. Free access is no longer available for this account.
+                            </div>
+                            <div class="pt-1 flex flex-col gap-2">
+                                <button onclick="closeRegistrationModal(); openPaymentModal('Pro Estimator');" class="w-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black py-2.5 px-3 rounded-xl shadow transition">
+                                    Upgrade to Pro Estimator ($139/mo or $97/yr) &rarr;
+                                </button>
+                            </div>
+                        `;
+                    }
+                    if (form) form.classList.add('hidden');
+                } else {
+                    if (banner) {
+                        banner.className = "p-3.5 bg-blue-950/80 border border-blue-600/60 rounded-2xl text-xs text-white space-y-2 block";
+                        banner.innerHTML = `
+                            <div class="flex items-center gap-2 font-bold text-amber-300">⏱️ Active 7-Day Free Trial (${trial.daysRemaining} Days Remaining)</div>
+                            <div class="text-[11px] text-slate-300">Registered to: <strong>${trial.name} (${trial.company})</strong> — <em>${trial.email}</em></div>
+                            <button onclick="window.location.href='index.html'" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-extrabold py-2 px-3 rounded-xl transition shadow">
+                                Continue to Free App &rarr;
+                            </button>
+                        `;
+                    }
+                    if (form) form.classList.add('hidden');
+                }
+            } else {
+                if (banner) banner.className = "hidden";
+                if (form) form.classList.remove('hidden');
+            }
+        }
+
+        function closeRegistrationModal() {
+            const modal = document.getElementById('registrationModal');
+            if (modal) modal.classList.add('hidden');
+        }
+
+        function submitRegistration(e) {
+            e.preventDefault();
+            const name = document.getElementById('regFullName').value;
+            const company = document.getElementById('regCompany').value;
+            const email = document.getElementById('regEmail').value;
+            const phone = document.getElementById('regPhone').value;
+            const role = document.getElementById('regRole').value;
+
+            const profile = {
+                name,
+                company,
+                email,
+                phone,
+                role,
+                registeredAt: Date.now()
+            };
+
+            localStorage.setItem('amestx_user_profile', JSON.stringify(profile));
+            window.location.href = "index.html";
+        }
+
+        let selectedPlanForPayment = 'Pro Estimator';
+
+        function openPaymentModal(planName) {
+            selectedPlanForPayment = planName || 'Pro Estimator';
+            const modal = document.getElementById('paymentModal');
+            if (modal) modal.classList.remove('hidden');
+
+            const planTitle = document.getElementById('payModalPlanTitle');
+            const planBadge = document.getElementById('payPlanBadge');
+            const cycleBadge = document.getElementById('payBillingCycleBadge');
+            const priceDisp = document.getElementById('payPriceDisplay');
+            const billedDisp = document.getElementById('payTotalBilledDisplay');
+
+            if (planTitle) planTitle.innerText = `Amestx™ ${selectedPlanForPayment} Checkout`;
+            if (planBadge) planBadge.innerText = selectedPlanForPayment.toUpperCase();
+
+            if (selectedPlanForPayment.includes('Corporate')) {
+                if (isYearlyBilling) {
+                    if (cycleBadge) cycleBadge.innerText = "YEARLY BILLING (30% OFF)";
+                    if (priceDisp) priceDisp.innerHTML = "$307 <span class='text-xs font-normal text-slate-400'>/ month</span>";
+                    if (billedDisp) billedDisp.innerText = "Billed $3,684 annually (5 Seats)";
+                } else {
+                    if (cycleBadge) cycleBadge.innerText = "MONTHLY BILLING";
+                    if (priceDisp) priceDisp.innerHTML = "$439 <span class='text-xs font-normal text-slate-400'>/ month</span>";
+                    if (billedDisp) billedDisp.innerText = "Billed monthly (5 Seats)";
+                }
+            } else {
+                if (isYearlyBilling) {
+                    if (cycleBadge) cycleBadge.innerText = "YEARLY BILLING (30% OFF)";
+                    if (priceDisp) priceDisp.innerHTML = "$97 <span class='text-xs font-normal text-slate-400'>/ month</span>";
+                    if (billedDisp) billedDisp.innerText = "Billed $1,164 annually";
+                } else {
+                    if (cycleBadge) cycleBadge.innerText = "MONTHLY BILLING";
+                    if (priceDisp) priceDisp.innerHTML = "$139 <span class='text-xs font-normal text-slate-400'>/ month</span>";
+                    if (billedDisp) billedDisp.innerText = "Billed monthly";
+                }
+            }
+        }
+
+        function closePaymentModal() {
+            const modal = document.getElementById('paymentModal');
+            if (modal) modal.classList.add('hidden');
+        }
+
+        function applyPromoCode() {
+            const code = (document.getElementById('payPromo').value || '').trim().toUpperCase();
+            const msg = document.getElementById('promoMsg');
+            if (code === 'TXDOT2026' || code === 'AGC30') {
+                if (msg) {
+                    msg.innerText = "✓ Valid Promo Code: Additional 30% Off Applied!";
+                    msg.classList.remove('hidden');
+                }
+            } else if (code.length > 0) {
+                if (msg) {
+                    msg.innerText = "✓ Code applied! Standard discount active.";
+                    msg.classList.remove('hidden');
+                }
+            }
+        }
+
+        function submitPayment(e) {
+            e.preventDefault();
+            const name = document.getElementById('payName').value;
+            const email = document.getElementById('payEmail').value;
+            
+            const sub = {
+                plan: selectedPlanForPayment,
+                billingCycle: isYearlyBilling ? 'Yearly' : 'Monthly',
+                name,
+                email,
+                active: true,
+                subscribedAt: Date.now()
+            };
+
+            localStorage.setItem('amestx_subscription', JSON.stringify(sub));
+            
+            const btn = document.getElementById('paySubmitBtn');
+            if (btn) {
+                btn.innerHTML = "<span>✓ Payment Verified! Redirecting...</span>";
+                btn.className = "w-full bg-emerald-600 text-white font-black py-3 px-4 rounded-xl shadow-xl text-xs flex items-center justify-center gap-2";
+            }
+
+            setTimeout(() => {
+                window.location.href = "index.html";
+            }, 1000);
+        }
+
+        function openTutorialModal() {
+            const modal = document.getElementById('tutorialModal');
+            if (modal) {
+                modal.classList.remove('hidden');
+                renderTutorialChapter(0);
+                playCurrentChapterVoice();
+            }
+        }
+
+        function closeTutorialModal() {
+            const modal = document.getElementById('tutorialModal');
+            if (modal) {
+                modal.classList.add('hidden');
+                stopVoiceAudio();
+            }
+        }
+
+        function openYouTubeModal(type) {
+            window.open("https://youtube.com", "_blank");
+        }
+
+        let isYearlyBilling = true;
+        function toggleBillingCycle() {
+            isYearlyBilling = !isYearlyBilling;
+            const dot = document.getElementById('billingToggleDot');
+            const btn = document.getElementById('billingToggleBtn');
+            
+            const proPrice = document.getElementById('proPriceDisp');
+            const proUnit = document.getElementById('proUnitDisp');
+            
+            const corpPrice = document.getElementById('corpPriceDisp');
+            const corpUnit = document.getElementById('corpUnitDisp');
+
+            if (isYearlyBilling) {
+                if (dot) dot.className = "w-5 h-5 bg-white rounded-full transition-transform transform translate-x-7 shadow";
+                if (btn) btn.className = "w-14 h-7 bg-blue-600 rounded-full p-1 transition-colors relative focus:outline-none shadow-inner";
+                if (proPrice) proPrice.innerText = "$97";
+                if (proUnit) proUnit.innerText = "/ month (Billed Annually)";
+                if (corpPrice) corpPrice.innerText = "$307";
+                if (corpUnit) corpUnit.innerText = "/ month (Billed Annually)";
+            } else {
+                if (dot) dot.className = "w-5 h-5 bg-white rounded-full transition-transform transform translate-x-0 shadow";
+                if (btn) btn.className = "w-14 h-7 bg-slate-700 rounded-full p-1 transition-colors relative focus:outline-none shadow-inner";
+                if (proPrice) proPrice.innerText = "$139";
+                if (proUnit) proUnit.innerText = "/ month (Monthly Billing)";
+                if (corpPrice) corpPrice.innerText = "$439";
+                if (corpUnit) corpUnit.innerText = "/ month (Monthly Billing)";
+            }
+        }
+
+        // Initialize Slide 1 and Sync Theme on load
+        window.addEventListener('load', function() {
+            const selector = document.getElementById('themeSelectorHome');
+            if (selector) switchHomeTheme(selector.value || 'navy');
+            goToSlide(0);
+        });
+        window.addEventListener('resize', function() {
+            goToSlide(currentSlide);
+        });
+    </script>
+</body>
+</html>

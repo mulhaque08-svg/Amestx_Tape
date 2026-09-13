@@ -6,6 +6,8 @@ $listener = New-Object System.Net.HttpListener
 $listener.Prefixes.Add("http://localhost:$port/")
 $listener.Prefixes.Add("http://127.0.0.1:$port/")
 try { $listener.Prefixes.Add("http://[::1]:$port/") } catch {}
+try { $listener.Prefixes.Add("http://localhost:80/") } catch {}
+try { $listener.Prefixes.Add("http://127.0.0.1:80/") } catch {}
 
 try {
     $listener.Start()
@@ -56,19 +58,20 @@ function Is-Item800([string]$code) {
 
 function Get-AmestxCompositePrice ([string]$bidCode, [double]$engEstUnit = 0.00, [double]$lowBidUnit = 0.00, [double]$highBidUnit = 0.00) {
     if (Is-Item800 $bidCode) { return 0.00 }
-    # 1. If project bids exist (Low Bidder, High Bidder, Eng Est)
+
+    # 1. Direct Project Bids (Low Bidder + High Bidder + Engineer Estimate) / N
     $prices = @()
     if ($lowBidUnit -gt 0) { $prices += $lowBidUnit }
-    if ($highBidUnit -gt 0 -and $highBidUnit -ne $lowBidUnit) { $prices += $highBidUnit }
+    if ($highBidUnit -gt 0) { $prices += $highBidUnit }
     if ($engEstUnit -gt 0) { $prices += $engEstUnit }
 
-    if ($prices.Count -ge 2) {
+    if ($prices.Count -gt 0) {
         $sum = 0.0
         foreach ($p in $prices) { $sum += $p }
         return [math]::Round($sum / $prices.Count, 2)
     }
 
-    # 2. Otherwise query TxDOT statewide dataset for historical benchmarks
+    # 2. Historical 12-Month Benchmarks from TxDOT Dataset (de7b-7dna)
     $normCode = Normalize-TxDotBidCode $bidCode
     if ([string]::IsNullOrWhiteSpace($normCode)) { 
         if ($engEstUnit -gt 0) { return $engEstUnit }
@@ -76,7 +79,7 @@ function Get-AmestxCompositePrice ([string]$bidCode, [double]$engEstUnit = 0.00,
         return 0.00 
     }
     
-    if ($script:avgPriceCache.ContainsKey($normCode)) { 
+    if ($script:avgPriceCache -and $script:avgPriceCache.ContainsKey($normCode)) { 
         $cached = $script:avgPriceCache[$normCode]
         if ($cached -gt 0) {
             $benchmarks = @($cached)
@@ -88,29 +91,28 @@ function Get-AmestxCompositePrice ([string]$bidCode, [double]$engEstUnit = 0.00,
     }
     
     try {
-        # Query TxDOT Socrata Dataset de7b-7dna for both low-bidder avg and overall market avg
-        $urlLow = "https://data.texas.gov/resource/de7b-7dna.json?`$select=bid_code,AVG(bid_item_unit_price_amount)+as+low_avg&`$where=(low_bidder_flag='true'+OR+low_bidder_flag='True'+OR+bid_rank_sequence_number='1')+AND+bid_code='$normCode'&`$group=bid_code"
+        $last12Mo = ([datetime]::Now.AddMonths(-12)).ToString("yyyy-MM-01T00:00:00")
+
+        $urlLow = "https://data.texas.gov/resource/de7b-7dna.json?`$select=bid_code,AVG(bid_item_unit_price_amount)+as+low_avg&`$where=project_actual_let_date>='$last12Mo'+AND+(low_bidder_flag='true'+OR+low_bidder_flag='True'+OR+bid_rank_sequence_number='1')+AND+bid_code='$normCode'&`$group=bid_code"
         $resLow = Invoke-RestMethod -Uri $urlLow -UserAgent "Mozilla/5.0" -UseBasicParsing -TimeoutSec 5
 
-        $urlAll = "https://data.texas.gov/resource/de7b-7dna.json?`$select=bid_code,AVG(bid_item_unit_price_amount)+as+all_avg&`$where=bid_code='$normCode'&`$group=bid_code"
+        $urlHigh = "https://data.texas.gov/resource/de7b-7dna.json?`$select=bid_code,AVG(bid_item_unit_price_amount)+as+high_avg&`$where=project_actual_let_date>='$last12Mo'+AND+(bid_rank_sequence_number='2'+OR+bid_rank_sequence_number='3')+AND+bid_code='$normCode'&`$group=bid_code"
+        $resHigh = Invoke-RestMethod -Uri $urlHigh -UserAgent "Mozilla/5.0" -UseBasicParsing -TimeoutSec 5
+
+        $urlAll = "https://data.texas.gov/resource/de7b-7dna.json?`$select=bid_code,AVG(bid_item_unit_price_amount)+as+all_avg&`$where=project_actual_let_date>='$last12Mo'+AND+bid_code='$normCode'&`$group=bid_code"
         $resAll = Invoke-RestMethod -Uri $urlAll -UserAgent "Mozilla/5.0" -UseBasicParsing -TimeoutSec 5
 
         $bList = @()
-        if ($resLow -and $resLow.Count -gt 0 -and $resLow[0].low_avg) {
-            $bList += [double]$resLow[0].low_avg
-        }
-        if ($resAll -and $resAll.Count -gt 0 -and $resAll[0].all_avg) {
-            $bList += [double]$resAll[0].all_avg
-        }
-        if ($engEstUnit -gt 0) {
-            $bList += $engEstUnit
-        }
+        if ($resLow -and $resLow.Count -gt 0 -and $resLow[0].low_avg) { $bList += [double]$resLow[0].low_avg }
+        if ($resHigh -and $resHigh.Count -gt 0 -and $resHigh[0].high_avg) { $bList += [double]$resHigh[0].high_avg }
+        if ($resAll -and $resAll.Count -gt 0 -and $resAll[0].all_avg) { $bList += [double]$resAll[0].all_avg }
+        if ($engEstUnit -gt 0) { $bList += $engEstUnit }
 
         if ($bList.Count -gt 0) {
             $sum = 0.0
             foreach ($b in $bList) { $sum += $b }
             $compAvg = [math]::Round($sum / $bList.Count, 2)
-            $script:avgPriceCache[$normCode] = $compAvg
+            if ($script:avgPriceCache) { $script:avgPriceCache[$normCode] = $compAvg }
             return $compAvg
         }
     } catch {}
@@ -195,11 +197,30 @@ function Get-CSJData {
                     statusNote = "CSJ $cleanCSJ Scheduled Letting"
                 }
 
-                $sortedItems = $rawItems | Sort-Object {[int]$_.bid_item_sequence_number}
+                # Filter out empty/invalid item rows
+                $validItems = $rawItems | Where-Object {
+                    -not [string]::IsNullOrWhiteSpace($_.bid_code) -or -not [string]::IsNullOrWhiteSpace($_.bid_item_description) -or -not [string]::IsNullOrWhiteSpace($_.specification_description)
+                }
+
+                # Group items by bid_code (falling back to description) and sort by sequence
+                $itemGroups = $validItems | Group-Object {
+                    if (-not [string]::IsNullOrWhiteSpace($_.bid_code)) { $_.bid_code.ToString().Trim() }
+                    else { $_.bid_item_description.ToString().Trim() }
+                } | Sort-Object { [int]$_.Group[0].bid_item_sequence_number }
+
                 $items = @()
-                foreach ($f in $sortedItems) {
-                    $qty = [double]$f.bid_item_quantity
-                    $codeStr = if ($f.bid_code) { $f.bid_code.Replace("-", " ") } else { "" }
+                foreach ($ig in $itemGroups) {
+                    $rows = $ig.Group
+                    $f = $rows[0]
+
+                    $totalQty = 0.0
+                    foreach ($r in $rows) {
+                        $qVal = 0.0
+                        if ($r.bid_item_quantity) { [double]::TryParse($r.bid_item_quantity, [ref]$qVal) | Out-Null }
+                        $totalQty += $qVal
+                    }
+
+                    $codeStr = if ($f.bid_code) { $f.bid_code.Replace("-", " ").Trim() } else { "" }
                     $descStr = if ($f.bid_item_description) { $f.bid_item_description } else { $f.specification_description }
                     $engUnit = [double]$f.engineer_s_estimate_unit
 
@@ -210,7 +231,7 @@ function Get-CSJData {
                         code = $codeStr
                         description = $descStr
                         unit = $f.measurement_unit
-                        quantity = $qty
+                        quantity = $totalQty
                         engEstUnit = $engUnit
                         amestxUnit = $amestxPrice
                         lowUnit = if ($amestxPrice -gt 0) { $amestxPrice } else { $engUnit }
@@ -301,34 +322,27 @@ function Get-CSJData {
                     }
                 }
 
+                $biddersArr = @()
+                if ($realBidders) { $biddersArr = @($realBidders) }
+
                 $completedData = @{
                     metadata = $meta
-                    bidders = $realBidders
+                    bidders = $biddersArr
                     items = $items
                 }
             }
         }
     } catch {}
 
-    # 3. Decision: If preBidData exists and its letDate is later/equal or completedData is missing, return preBidData
-    if ($preBidData) {
-        $pDate = $preBidData.metadata.letDate
-        $cDate = if ($completedData) { $completedData.metadata.letDate } else { "01/01/1900" }
-        
-        $pDt = [datetime]::MinValue
-        $cDt = [datetime]::MinValue
-        [datetime]::TryParse($pDate, [ref]$pDt) | Out-Null
-        [datetime]::TryParse($cDate, [ref]$cDt) | Out-Null
-
-        if (-not $completedData -or $pDt -ge $cDt -or $pDt.Year -ge 2026) {
-            $script:memoryCache["csj_$cleanCSJ"] = $preBidData
-            return $preBidData
-        }
-    }
-
-    if ($completedData) {
+    # 3. Decision: If completedData exists with items from de7b-7dna, it contains official let results
+    if ($completedData -and $completedData.items -and $completedData.items.Count -gt 0) {
         $script:memoryCache["csj_$cleanCSJ"] = $completedData
         return $completedData
+    }
+
+    if ($preBidData) {
+        $script:memoryCache["csj_$cleanCSJ"] = $preBidData
+        return $preBidData
     }
 
     # 3. Try Dataset 3: drau-zphx (Scheduled Lettings Metadata)
@@ -550,9 +564,10 @@ while ($listener.IsListening) {
 
                     $projectsMap = @{}
 
-                    # Query 1: Completed Lettings (de7b-7dna)
+                    # Query 1: Completed Lettings (de7b-7dna) - Group project fields to prevent 50,000 line item truncation
                     $q1 = "project_actual_let_date >= '$startDate' and project_actual_let_date < '$endDate'"
-                    $url1 = "https://data.texas.gov/resource/de7b-7dna.json?`$where=" + [Uri]::EscapeDataString($q1) + "&`$limit=50000"
+                    $select1 = "control_section_job_csj,controlling_project_id_ccsj,project_name,project_classification,county,highway,sealed_engineer_s_estimate,sealed_engineer_s_estimate_1,project_actual_let_date"
+                    $url1 = "https://data.texas.gov/resource/de7b-7dna.json?`$select=" + [Uri]::EscapeDataString($select1) + "&`$where=" + [Uri]::EscapeDataString($q1) + "&`$group=" + [Uri]::EscapeDataString($select1) + "&`$limit=50000"
                     try {
                         $raw1 = Invoke-RestMethod -Uri $url1 -TimeoutSec 15
                         if ($raw1) {

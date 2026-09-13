@@ -256,7 +256,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between">
             
             <!-- Signature Brand Logo -->
-            <a href="home.html" class="flex items-center gap-3 group">
+            <a href="index.html" class="flex items-center gap-3 group">
                 <div class="w-10 h-10 bg-gradient-to-br from-blue-600 via-indigo-600 to-amber-500 rounded-lg flex items-center justify-center font-bold text-white shadow-lg shadow-blue-500/30 text-lg tracking-wider group-hover:scale-105 transition-transform">
                     AM
                 </div>
@@ -269,7 +269,7 @@
                 </div>
             </a>
 
-            <!-- Header Action Items: Theme Selector, Free Trial Button & Sign In -->
+            <!-- Header Action Items: Theme Selector & Sign In -->
             <div class="flex items-center gap-3">
                 <!-- Theme Selector Dropdown -->
                 <select id="themeSelectorHome" onchange="switchHomeTheme(this.value)" class="px-3 py-2 rounded-xl text-xs font-bold dark-card-bg text-amber-300 border dark-border hover:border-amber-400 cursor-pointer focus:outline-none transition shadow">
@@ -277,12 +277,6 @@
                     <option value="rl-dark">🟣 Theme: RL Dark</option>
                     <option value="light">☀️ Theme: Light Slate</option>
                 </select>
-
-                <!-- Free Trial Button -->
-                <button onclick="openRegistrationModal()" class="bg-blue-600 hover:bg-blue-500 text-white font-extrabold text-xs px-4 py-2.5 rounded-xl glow-blue transition-all flex items-center gap-2">
-                    <span>Start 7-Day Free Trial</span>
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
-                </button>
 
                 <!-- Sign In Button -->
                 <button onclick="handleSignInClick()" class="inline-flex text-xs font-extrabold text-slate-950 bg-amber-500 hover:bg-amber-400 px-4 py-2.5 rounded-xl shadow-lg transition items-center gap-1.5 cursor-pointer">
@@ -1354,6 +1348,10 @@
             if (!profileStr) return null;
             try {
                 const profile = JSON.parse(profileStr);
+                if (profile.email === 'user@amestx.com' || profile.name === 'Trial User' || !profile.email) {
+                    localStorage.removeItem('amestx_user_profile');
+                    return null;
+                }
                 const registeredAt = profile.registeredAt || Date.now();
                 const elapsedMs = Date.now() - registeredAt;
                 const elapsedDays = elapsedMs / (1000 * 60 * 60 * 24);
@@ -1384,13 +1382,13 @@
         function handleSignInClick() {
             const sub = getSubscriptionInfo();
             if (sub && sub.active) {
-                window.location.href = "index.html";
+                window.location.href = "app.html";
                 return;
             }
 
             const trial = getTrialInfo();
             if (trial && !trial.isExpired) {
-                window.location.href = "index.html";
+                window.location.href = "app.html";
                 return;
             }
 
@@ -1428,7 +1426,7 @@
                     banner.innerHTML = `
                         <div class="flex items-center gap-2 font-bold text-emerald-400">⭐ Subscribed: ${sub.plan || 'Pro Estimator'}</div>
                         <div class="text-[11px] text-slate-300">Logged in as <strong>${sub.email || 'Subscriber'}</strong>. Unlimited access active.</div>
-                        <button onclick="window.location.href='index.html'" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold py-2 px-3 rounded-xl transition">
+                        <button onclick="window.location.href='app.html'" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold py-2 px-3 rounded-xl transition">
                             Launch App Dashboard &rarr;
                         </button>
                     `;
@@ -1462,7 +1460,7 @@
                             <div class="flex items-center gap-2 font-bold text-amber-300">⏱️ Active 7-Day Free Trial (${trial.daysRemaining} Days Remaining)</div>
                             <div class="text-[11px] text-slate-300">Registered to: <strong>${trial.name} (${trial.company})</strong> — <em>${trial.email}</em></div>
                             <div class="flex flex-col gap-2 pt-1">
-                                <button onclick="window.location.href='index.html'" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-extrabold py-2 px-3 rounded-xl transition shadow">
+                                <button onclick="window.location.href='app.html'" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-extrabold py-2 px-3 rounded-xl transition shadow">
                                     Continue to Free App &rarr;
                                 </button>
                                 <button onclick="showNewRegistrationForm()" class="w-full bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold py-1.5 px-3 rounded-xl border border-slate-700 transition text-[11px]">
@@ -1502,7 +1500,7 @@
             };
 
             localStorage.setItem('amestx_user_profile', JSON.stringify(profile));
-            window.location.href = "index.html";
+            window.location.href = "app.html";
         }
 
         let selectedPlanForPayment = 'Pro Estimator';
@@ -1588,7 +1586,7 @@
             }
 
             setTimeout(() => {
-                window.location.href = "index.html";
+                window.location.href = "app.html";
             }, 1000);
         }
 

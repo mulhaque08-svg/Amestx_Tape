@@ -280,6 +280,9 @@
                     <option value="slate-light">☀️ Theme: Light Slate</option>
                 </select>
 
+                <!-- User Account / Trial Status Badge -->
+                <div id="userAccountStatusBadge" class="hidden flex items-center space-x-2 text-xs px-3.5 py-1.5 rounded-full shrink-0 font-bold"></div>
+
                 <!-- API Status Badge -->
                 <div class="flex items-center space-x-2 text-xs bg-slate-800/80 px-3.5 py-1.5 rounded-full text-slate-300 border border-slate-700 shrink-0">
                     <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
@@ -289,6 +292,28 @@
         </div>
     </header>
 
+    <!-- Expired 7-Day Trial Modal Overlay -->
+    <div id="trialExpiredModal" class="fixed inset-0 z-[200] bg-slate-950/95 backdrop-blur flex items-center justify-center p-4 hidden">
+        <div class="bg-slate-900 border-2 border-rose-500/80 rounded-3xl max-w-md w-full p-6 text-center space-y-4 shadow-2xl">
+            <div class="w-12 h-12 rounded-2xl bg-rose-950 text-rose-400 border border-rose-600 flex items-center justify-center font-bold text-xl mx-auto">⚠️</div>
+            <h3 class="text-xl font-extrabold text-white">7-Day Free Trial Expired</h3>
+            <p id="trialExpiredMsg" class="text-xs text-slate-300 leading-relaxed">
+                Your 7-day trial period has expired. Free access to TxDOT Bid Estimator is no longer active for this account.
+            </p>
+            <div class="p-3 bg-slate-950 rounded-xl border border-slate-800 text-left text-xs font-mono space-y-1 text-slate-300">
+                <div class="text-emerald-400 font-bold">✓ Retain all saved workbooks & estimates</div>
+                <div>✓ Historical TxDOT letting archives unlocked</div>
+                <div>✓ Pro Estimator ($139/mo or $97/yr)</div>
+            </div>
+            <div class="pt-2 flex flex-col gap-2">
+                <a href="home.html#slide-4" class="w-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black py-3 px-4 rounded-xl shadow-lg transition text-xs flex items-center justify-center gap-2">
+                    <span>💳 Upgrade Subscription Plan & Continue</span>
+                    <span>&rarr;</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
     <!-- Main Content Container -->
     <main class="max-w-7xl mx-auto px-6 py-4">
         
@@ -297,33 +322,33 @@
         <!-- ================================================================= -->
         <div id="view-home" class="space-y-3">
             <!-- BOX 1: Monthly TxDOT Letting Heading, Month Tabs & 4 Uniform Side Buttons -->
-            <div id="monthTabsHeaderBlock" class="bg-slate-800/40 border border-slate-700/60 rounded-xl p-4 shadow-lg sticky top-[73px] z-40">
-                <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 items-center">
+            <div id="monthTabsHeaderBlock" class="bg-slate-800/40 border border-slate-700/60 rounded-xl p-3 shadow-lg sticky top-[73px] z-40">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-3 items-center">
                     
-                    <!-- Left Side: 2 Uniform Buttons (Top Left & Bottom Left) -->
-                    <div class="lg:col-span-3 flex flex-col sm:flex-row lg:flex-col gap-2 items-center lg:items-start justify-center">
-                        <a href="home.html" class="w-44 h-9 py-1.5 px-3 rounded-lg text-xs font-bold bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white border border-slate-700/80 shadow transition flex items-center justify-center gap-1 text-center whitespace-nowrap">
-                            <span>← www.Amestx.com</span>
-                        </a>
-                        <button onclick="openContractorsModal()" class="w-44 h-9 py-1.5 px-3 rounded-lg text-xs font-bold bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white border border-slate-700/80 shadow transition flex items-center justify-center text-center whitespace-nowrap">
+                    <!-- Left Side: 2 Uniform Buttons (Item Codes & Contractors) -->
+                    <div class="lg:col-span-2 flex flex-col sm:flex-row lg:flex-col gap-2 items-center lg:items-start justify-center">
+                        <button onclick="openItemCodesModal()" class="w-36 h-8 py-1 px-2 rounded-lg text-[11px] font-bold bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white border border-slate-700/80 shadow transition flex items-center justify-center text-center whitespace-nowrap">
+                            Item Codes
+                        </button>
+                        <button onclick="openContractorsModal()" class="w-36 h-8 py-1 px-2 rounded-lg text-[11px] font-bold bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white border border-slate-700/80 shadow transition flex items-center justify-center text-center whitespace-nowrap">
                             Contractors
                         </button>
                     </div>
 
-                    <!-- Center: Monthly TxDOT Letting Title & Month Tabs -->
-                    <div class="lg:col-span-6 text-center space-y-2.5">
+                    <!-- Center: Monthly TxDOT Letting Title & Month Tabs (12 Months in 1 Line) -->
+                    <div class="lg:col-span-8 text-center space-y-2">
                         <h2 class="text-xl font-extrabold text-white tracking-wide">Monthly TxDOT Letting</h2>
-                        <div class="flex flex-nowrap justify-center gap-1.5 overflow-x-auto py-0.5" id="monthTabsContainer"></div>
+                        <div class="flex flex-nowrap justify-center items-center gap-1 overflow-x-auto py-0.5" id="monthTabsContainer"></div>
                     </div>
 
-                    <!-- Right Side: 2 Uniform Buttons (Top Right & Bottom Right) -->
-                    <div class="lg:col-span-3 flex flex-col sm:flex-row lg:flex-col gap-2 items-center lg:items-end justify-center">
-                        <button onclick="openMplModal()" class="w-44 h-9 py-1.5 px-3 rounded-lg text-xs font-bold bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white border border-slate-700/80 shadow transition flex items-center justify-center text-center whitespace-nowrap">
+                    <!-- Right Side: 2 Uniform Buttons (Material Producer List & Logoff) -->
+                    <div class="lg:col-span-2 flex flex-col sm:flex-row lg:flex-col gap-2 items-center lg:items-end justify-center">
+                        <button onclick="openMplModal()" class="w-36 h-8 py-1 px-2 rounded-lg text-[11px] font-bold bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white border border-slate-700/80 shadow transition flex items-center justify-center text-center whitespace-nowrap">
                             Material Producer List
                         </button>
-                        <button onclick="openItemCodesModal()" class="w-44 h-9 py-1.5 px-3 rounded-lg text-xs font-bold bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white border border-slate-700/80 shadow transition flex items-center justify-center text-center whitespace-nowrap">
-                            Item Codes
-                        </button>
+                        <a href="home.html" class="w-36 h-8 py-1 px-2 rounded-lg text-[11px] font-bold bg-slate-800/90 hover:bg-red-950/80 text-slate-200 hover:text-red-300 border border-slate-700/80 hover:border-red-600/60 shadow transition flex items-center justify-center gap-1 text-center whitespace-nowrap">
+                            <span>Logoff</span>
+                        </a>
                     </div>
 
                 </div>
@@ -899,6 +924,7 @@
     <script>
         let selectedCSJs = new Set();
         let currentMonth = '2026-09';
+        let selectedYear = '2026';
         let currentCSJ = '';
         let currentProjectData = null;
         let currentMonthlyList = [];
@@ -1383,9 +1409,35 @@
             if (!container) return;
             container.innerHTML = '';
 
-            const today = new Date(2026, 8, 1); // Sep 2026 baseline
-            for (let i = -3; i <= 3; i++) {
-                const d = new Date(today.getFullYear(), today.getMonth() + i, 1);
+            // 1. Year Dropdown Selector (2021 to 2026)
+            const yearSelect = document.createElement('select');
+            yearSelect.id = 'yearSelectDropdown';
+            yearSelect.className = "bg-slate-900 text-amber-300 font-extrabold px-2.5 py-1 rounded-md border border-amber-500/70 hover:border-amber-400 shadow text-[11px] cursor-pointer focus:outline-none focus:ring-1 focus:ring-amber-500 mr-2 whitespace-nowrap transition";
+            
+            const years = ['2026', '2025', '2024', '2023', '2022', '2021'];
+            years.forEach(y => {
+                const opt = document.createElement('option');
+                opt.value = y;
+                opt.className = "bg-slate-900 text-amber-300 font-bold";
+                opt.innerText = `Year: ${y}`;
+                if (y === selectedYear) opt.selected = true;
+                yearSelect.appendChild(opt);
+            });
+
+            yearSelect.onchange = (e) => {
+                selectedYear = e.target.value;
+                const currentMonthNum = (currentMonth && currentMonth.includes('-')) ? currentMonth.split('-')[1] : '09';
+                currentMonth = `${selectedYear}-${currentMonthNum}`;
+                renderMonthButtons();
+                fetchMonthlyLettings(currentMonth);
+            };
+
+            container.appendChild(yearSelect);
+
+            // 2. 12 Month Buttons for Selected Year
+            const yrNum = parseInt(selectedYear, 10);
+            for (let m = 0; m < 12; m++) {
+                const d = new Date(yrNum, m, 1);
                 const yr = d.getFullYear();
                 const mo = String(d.getMonth() + 1).padStart(2, '0');
                 const monthCode = `${yr}-${mo}`;
@@ -1393,8 +1445,8 @@
 
                 const btn = document.createElement('button');
                 btn.className = monthCode === currentMonth 
-                    ? "bg-blue-600 text-white font-bold px-2.5 py-1.5 rounded-lg shadow font-sans text-[11px] sm:text-xs whitespace-nowrap" 
-                    : "bg-slate-700/60 hover:bg-slate-700 text-slate-300 px-2.5 py-1.5 rounded-lg transition font-sans text-[11px] sm:text-xs whitespace-nowrap";
+                    ? "bg-blue-600 text-white font-bold px-2 py-1 rounded-md shadow font-sans text-[11px] whitespace-nowrap" 
+                    : "bg-slate-700/60 hover:bg-slate-700 text-slate-300 px-2 py-1 rounded-md transition font-sans text-[11px] whitespace-nowrap";
                 btn.innerText = label;
                 btn.onclick = () => {
                     currentMonth = monthCode;
@@ -1510,9 +1562,9 @@
                 });
             }
             if (isFiltered) {
-                countEl.innerText = `Found ${visibleCount} of ${fullList.length} Projects (${totalSubSections} Sub-Sections)`;
+                countEl.innerText = `Found ${visibleCount} of ${fullList.length} Master Contracts (${totalSubSections} TxDOT Projects)`;
             } else {
-                countEl.innerText = `${fullList.length} Projects (${totalSubSections} Sub-Sections)`;
+                countEl.innerText = `${fullList.length} Master Contracts (${totalSubSections} TxDOT Projects)`;
             }
         }
 
@@ -1718,7 +1770,7 @@
                     totalSubSections += cnt;
                 });
 
-                if (countEl) countEl.innerText = `${list.length} Projects (${totalSubSections} Sub-Sections)`;
+                if (countEl) countEl.innerText = `${list.length} Master Contracts (${totalSubSections} TxDOT Projects)`;
 
                 if (!tbody) return;
 
@@ -1793,21 +1845,31 @@
                             statusNote: `CSJ ${cleanCSJ} Scheduled Letting`
                         };
 
-                        const sorted2 = raw2.sort((a, b) => parseInt(a.bid_item_sequence_number || '0', 10) - parseInt(b.bid_item_sequence_number || '0', 10));
-                        const avgPerItem = (sorted2.length > 0 && estVal > 0) ? (estVal / sorted2.length) : 0;
-                        const items = sorted2.map(r => {
-                            const q = parseFloat(r.bid_item_quantity || 0);
-                            let u = parseFloat(r.engineer_s_estimate_unit || 0);
-                            if (u === 0 && q > 0 && avgPerItem > 0) {
-                                u = Math.round((avgPerItem / q) * 100) / 100;
+                        const valid2 = raw2.filter(r => (r.bid_code && r.bid_code.trim()) || (r.bid_item_description && r.bid_item_description.trim()) || (r.specification_description && r.specification_description.trim()));
+                        const itemMap2 = {};
+                        valid2.forEach(r => {
+                            const codeKey = (r.bid_code || r.bid_item_description || r.specification_description || '').trim();
+                            if (!itemMap2[codeKey]) {
+                                itemMap2[codeKey] = {
+                                    code: (r.bid_code || '').replace('-', ' ').trim(),
+                                    description: r.bid_item_description || r.specification_description || '',
+                                    unit: r.measurement_unit || '',
+                                    quantity: 0,
+                                    engEstUnit: parseFloat(r.engineer_s_estimate_unit || 0),
+                                    seq: parseInt(r.bid_item_sequence_number || '0', 10)
+                                };
                             }
+                            itemMap2[codeKey].quantity += parseFloat(r.bid_item_quantity || 0);
+                        });
+
+                        const items = Object.values(itemMap2).sort((a, b) => a.seq - b.seq).map(it => {
                             return {
-                                code: (r.bid_code || '').replace('-', ' '),
-                                description: r.bid_item_description || r.specification_description || '',
-                                unit: r.measurement_unit || '',
-                                quantity: q,
-                                engEstUnit: u,
-                                lowUnit: u,
+                                code: it.code,
+                                description: it.description,
+                                unit: it.unit,
+                                quantity: it.quantity,
+                                engEstUnit: it.engEstUnit,
+                                lowUnit: it.engEstUnit,
                                 bidders: {}
                             };
                         });
@@ -1912,16 +1974,12 @@
                 console.warn("Client Socrata Dataset 1 fetch error:", err);
             }
 
-            if (preBidData) {
-                const pDate = preBidData.metadata.letDate || '';
-                const cDate = completedData ? (completedData.metadata.letDate || '') : '';
-                const pYear = parseInt((pDate.split('/')[2] || '0'), 10);
-                const cYear = parseInt((cDate.split('/')[2] || '0'), 10);
-                if (!completedData || pYear >= 26 || pDate >= cDate) {
-                    return preBidData;
-                }
+            if (completedData && completedData.items && completedData.items.length > 0) {
+                return completedData;
             }
-            if (completedData) return completedData;
+            if (preBidData) {
+                return preBidData;
+            }
             return null;
         }
 
@@ -1942,7 +2000,7 @@
                 }
 
                 // 2. Try direct TxDOT Socrata API query for static hosting (amestx.com)
-                if (!data || data.error || (data.bidders && data.bidders.length === 0 && data.items && data.items.length === 0)) {
+                if (!data || data.error || (!data.items || data.items.length === 0)) {
                     try {
                         const socData = await fetchSocrataBidtab(csj);
                         if (socData && socData.metadata) {
@@ -1984,8 +2042,10 @@
                     if (monthlyMatch.highway && monthlyMatch.highway !== 'N/A') data.metadata.highway = monthlyMatch.highway;
                     if (monthlyMatch.projectType) data.metadata.projectType = monthlyMatch.projectType;
                     if (monthlyMatch.estimate && monthlyMatch.estimate > 0) data.metadata.engEstTotal = monthlyMatch.estimate;
-                    data.metadata.isPreBid = true;
-                    data.metadata.statusNote = "Scheduled Pre-Bid Proposal";
+                    if (data.metadata.isPreBid === undefined || data.metadata.isPreBid === null) {
+                        data.metadata.isPreBid = true;
+                        data.metadata.statusNote = "Scheduled Pre-Bid Proposal";
+                    }
                 }
 
                 if (!data) {
@@ -2294,7 +2354,8 @@
             if (vPre) vPre.classList.remove('hidden');
 
             const meta = data.metadata;
-            const isCompleted = (meta && meta.isPreBid === false) || (meta && meta.statusNote === "Completed Let Project") || (data.bidders && data.bidders.length > 0);
+            const biddersArr = Array.isArray(data.bidders) ? data.bidders : [];
+            const hasCompletedItems = Array.isArray(data.items) && data.items.length > 0 && data.items.some(i => (i.engEstUnit > 0 || i.lowUnit > 0 || (i.bidders && Object.keys(i.bidders).length > 0)));
 
             let isPastBidDate = false;
             if (meta && meta.letDate && meta.letDate !== "Scheduled" && meta.letDate !== "N/A") {
@@ -2303,6 +2364,11 @@
                     isPastBidDate = true;
                 }
             }
+
+            const isCompleted = (meta && meta.isPreBid === false) || 
+                                (meta && meta.statusNote === "Completed Let Project") || 
+                                (biddersArr.length > 0) || 
+                                (hasCompletedItems && isPastBidDate);
 
             // Generate TxDOT FTP 2026 Plan & Proposal URLs across categories
             const ftpUrls = getTxDOTFtpUrls(meta.csj, meta.county, meta.letDate, meta.projectType);
@@ -2511,50 +2577,59 @@
 
                 // Render Bidders Ranking Table inside SubTab 5
                 const biddersTbody = document.getElementById('sub5BiddersTbody');
-                const biddersArr = Array.isArray(data.bidders) ? data.bidders : [];
                 if (biddersTbody) {
                     biddersTbody.innerHTML = '';
-                    biddersArr.forEach(b => {
-                        const diffPct = ((b.totalBidAmount - meta.engEstTotal) / (meta.engEstTotal || 1)) * 100;
-                        const isLow = b.rank == 1;
-                        const tr = document.createElement('tr');
-                        tr.className = isLow ? "bg-emerald-950/30 border-l-4 border-emerald-500" : "hover:bg-slate-800/40";
-                        tr.innerHTML = `
-                            <td class="py-3 px-4 font-bold ${isLow ? 'text-emerald-400' : 'text-slate-400'}">Bidder ${b.rank}</td>
-                            <td class="py-3 px-4 text-white font-sans font-medium">${b.vendorName}</td>
-                            <td class="py-3 px-4 text-right font-bold ${isLow ? 'text-emerald-400' : 'text-slate-200'}">${formatCurrency(b.totalBidAmount)}</td>
-                            <td class="py-3 px-4 text-right ${diffPct < 0 ? 'text-emerald-400' : 'text-rose-400'}">${diffPct > 0 ? '+' : ''}${diffPct.toFixed(2)}%</td>
-                            <td class="py-3 px-4 text-center">${isLow ? '<span class="bg-emerald-500/20 text-emerald-300 text-xs px-2.5 py-0.5 rounded-full font-bold">Low Bidder</span>' : ''}</td>
+                    if (biddersArr.length > 0) {
+                        biddersArr.forEach(b => {
+                            const diffPct = ((b.totalBidAmount - meta.engEstTotal) / (meta.engEstTotal || 1)) * 100;
+                            const isLow = b.rank == 1;
+                            const tr = document.createElement('tr');
+                            tr.className = isLow ? "bg-emerald-950/30 border-l-4 border-emerald-500" : "hover:bg-slate-800/40";
+                            tr.innerHTML = `
+                                <td class="py-3 px-4 font-bold ${isLow ? 'text-emerald-400' : 'text-slate-400'}">Bidder ${b.rank}</td>
+                                <td class="py-3 px-4 text-white font-sans font-medium">${b.vendorName}</td>
+                                <td class="py-3 px-4 text-right font-bold ${isLow ? 'text-emerald-400' : 'text-slate-200'}">${formatCurrency(b.totalBidAmount)}</td>
+                                <td class="py-3 px-4 text-right ${diffPct < 0 ? 'text-emerald-400' : 'text-rose-400'}">${diffPct > 0 ? '+' : ''}${diffPct.toFixed(2)}%</td>
+                                <td class="py-3 px-4 text-center">${isLow ? '<span class="bg-emerald-500/20 text-emerald-300 text-xs px-2.5 py-0.5 rounded-full font-bold">Low Bidder</span>' : ''}</td>
+                            `;
+                            biddersTbody.appendChild(tr);
+                        });
+                    } else {
+                        biddersTbody.innerHTML = `
+                            <tr class="bg-slate-900/40">
+                                <td colspan="5" class="py-3 px-4 text-slate-300 font-mono text-xs text-center">
+                                    State Use / Direct Maintenance / Engineer Estimate Project — No commercial contractor bids submitted. Official itemized engineer's estimate matrix rendered below.
+                                </td>
+                            </tr>
                         `;
-                        biddersTbody.appendChild(tr);
-                    });
+                    }
                 }
 
                 // Render Itemized Matrix Table inside SubTab 5
                 const matrixThead = document.getElementById('sub5MatrixThead');
                 const matrixTbody = document.getElementById('sub5MatrixTbody');
-                if (matrixThead && matrixTbody && biddersArr.length > 0) {
-                    const lowBidderName = biddersArr[0].vendorName;
+                if (matrixThead && matrixTbody && data.items && data.items.length > 0) {
+                    if (biddersArr.length > 0) {
+                        const lowBidderName = biddersArr[0].vendorName;
 
-                    let trHead = `<tr>
-                        <th class="py-3 px-3 text-rose-400">Difference</th>
-                        <th class="py-3 px-3">Item Code</th>
-                        <th class="py-3 px-3">Description</th>
-                        <th class="py-3 px-3">Unit</th>
-                        <th class="py-3 px-3 text-right text-sky-400">Quantity</th>
-                        <th class="py-3 px-3 text-right text-purple-400">Eng. Est.</th>
-                        <th class="py-3 px-3 text-right text-emerald-400">1) ${lowBidderName}</th>
-                        <th class="py-3 px-3 text-right text-emerald-400">1) ${lowBidderName} (Ext)</th>
-                    `;
+                        let trHead = `<tr>
+                            <th class="py-3 px-3 text-rose-400">Difference</th>
+                            <th class="py-3 px-3">Item Code</th>
+                            <th class="py-3 px-3">Description</th>
+                            <th class="py-3 px-3">Unit</th>
+                            <th class="py-3 px-3 text-right text-sky-400">Quantity</th>
+                            <th class="py-3 px-3 text-right text-purple-400">Eng. Est.</th>
+                            <th class="py-3 px-3 text-right text-emerald-400">1) ${lowBidderName}</th>
+                            <th class="py-3 px-3 text-right text-emerald-400">1) ${lowBidderName} (Ext)</th>
+                        `;
 
-                    for (let i = 1; i < biddersArr.length; i++) {
-                        trHead += `<th class="py-3 px-3 text-right text-slate-300">${i + 1}) ${biddersArr[i].vendorName}</th>`;
-                    }
-                    trHead += `</tr>`;
-                    matrixThead.innerHTML = trHead;
+                        for (let i = 1; i < biddersArr.length; i++) {
+                            trHead += `<th class="py-3 px-3 text-right text-slate-300">${i + 1}) ${biddersArr[i].vendorName}</th>`;
+                        }
+                        trHead += `</tr>`;
+                        matrixThead.innerHTML = trHead;
 
-                    matrixTbody.innerHTML = '';
-                    if (data.items) {
+                        matrixTbody.innerHTML = '';
                         data.items.forEach(item => {
                             const lowUnit = (item.bidders && item.bidders[lowBidderName]) || 0;
                             const lowExt = (item.quantity || 0) * lowUnit;
@@ -2579,6 +2654,44 @@
                             const tr = document.createElement('tr');
                             tr.className = "hover:bg-slate-800/40";
                             tr.innerHTML = trRow;
+                            matrixTbody.appendChild(tr);
+                        });
+                    } else {
+                        // Matrix view for 0 commercial contractor bidders (Engineer's Estimate & Amestx Benchmark matrix)
+                        let trHead = `<tr>
+                            <th class="py-3 px-3 text-rose-400">Difference</th>
+                            <th class="py-3 px-3">Item Code</th>
+                            <th class="py-3 px-3">Description</th>
+                            <th class="py-3 px-3">Unit</th>
+                            <th class="py-3 px-3 text-right text-sky-400">Quantity</th>
+                            <th class="py-3 px-3 text-right text-purple-400">Eng. Est. Unit</th>
+                            <th class="py-3 px-3 text-right text-emerald-400 font-bold">Eng. Est. Total</th>
+                            <th class="py-3 px-3 text-right text-amber-400">Amestx Est. Unit</th>
+                            <th class="py-3 px-3 text-right text-amber-400 font-bold">Amestx Est. Total</th>
+                        </tr>`;
+                        matrixThead.innerHTML = trHead;
+
+                        matrixTbody.innerHTML = '';
+                        data.items.forEach(item => {
+                            const engUnit = item.engEstUnit || 0;
+                            const engExt = (item.quantity || 0) * engUnit;
+                            const amestxU = item.amestxUnit || engUnit;
+                            const amestxExt = (item.quantity || 0) * amestxU;
+                            const diff = amestxU - engUnit;
+
+                            const tr = document.createElement('tr');
+                            tr.className = "hover:bg-slate-800/40";
+                            tr.innerHTML = `
+                                <td class="py-2.5 px-3 font-mono text-slate-400 text-center">${diff === 0 ? '$0.00' : (diff < 0 ? `(${formatCurrency(Math.abs(diff))})` : formatCurrency(diff))}</td>
+                                <td class="py-2.5 px-3 font-mono text-center text-slate-300">${item.code || ''}</td>
+                                <td class="py-2.5 px-3 font-sans text-white">${item.description || ''}</td>
+                                <td class="py-2.5 px-3 font-mono text-center text-slate-400">${item.unit || ''}</td>
+                                <td class="py-2.5 px-3 font-mono text-right text-sky-400">${(item.quantity || 0).toLocaleString(undefined, {minimumFractionDigits:3})}</td>
+                                <td class="py-2.5 px-3 font-mono text-right text-purple-400">${formatCurrency(engUnit)}</td>
+                                <td class="py-2.5 px-3 font-mono text-right text-emerald-400 font-bold">${formatCurrency(engExt)}</td>
+                                <td class="py-2.5 px-3 font-mono text-right text-amber-300">${formatCurrency(amestxU)}</td>
+                                <td class="py-2.5 px-3 font-mono text-right text-amber-300 font-bold">${formatCurrency(amestxExt)}</td>
+                            `;
                             matrixTbody.appendChild(tr);
                         });
                     }
@@ -4257,10 +4370,77 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
             updateSelectionUI();
         }
 
+        function checkUserTrialStatus() {
+            const subStr = localStorage.getItem('amestx_subscription');
+            const badge = document.getElementById('userAccountStatusBadge');
+            
+            if (subStr) {
+                try {
+                    const sub = JSON.parse(subStr);
+                    if (sub && sub.active) {
+                        if (badge) {
+                            badge.className = "flex items-center space-x-2 text-xs bg-emerald-950/90 border border-emerald-500/80 px-3.5 py-1.5 rounded-full text-emerald-300 shrink-0 font-bold shadow";
+                            badge.innerHTML = `<span>⭐ ${sub.plan || 'Pro Subscribed'}</span>`;
+                            badge.classList.remove('hidden');
+                        }
+                        return;
+                    }
+                } catch(e) {}
+            }
+
+            const profileStr = localStorage.getItem('amestx_user_profile');
+            if (profileStr) {
+                try {
+                    const profile = JSON.parse(profileStr);
+                    const registeredAt = profile.registeredAt || Date.now();
+                    const elapsedMs = Date.now() - registeredAt;
+                    const elapsedDays = elapsedMs / (1000 * 60 * 60 * 24);
+                    const daysRemaining = Math.max(0, Math.ceil(7 - elapsedDays));
+
+                    if (elapsedDays > 7) {
+                        const modal = document.getElementById('trialExpiredModal');
+                        const msg = document.getElementById('trialExpiredMsg');
+                        if (modal) {
+                            if (msg) {
+                                const expDate = new Date(registeredAt + (7 * 24 * 60 * 60 * 1000)).toLocaleDateString();
+                                msg.innerHTML = `Your 7-day free trial registered for <strong>${profile.email}</strong> on ${new Date(registeredAt).toLocaleDateString()} expired after 7 days on <strong>${expDate}</strong>.<br><br>Free access is no longer active for this account. Please upgrade to a paid plan to continue.`;
+                            }
+                            modal.classList.remove('hidden');
+                        }
+                        if (badge) {
+                            badge.className = "flex items-center space-x-2 text-xs bg-rose-950/90 border border-rose-600 px-3.5 py-1.5 rounded-full text-rose-300 shrink-0 font-bold shadow";
+                            badge.innerHTML = `<span>⚠️ Trial Expired (7 Days)</span>`;
+                            badge.classList.remove('hidden');
+                        }
+                    } else {
+                        if (badge) {
+                            badge.className = "flex items-center space-x-2 text-xs bg-amber-950/90 border border-amber-500/60 px-3.5 py-1.5 rounded-full text-amber-300 shrink-0 font-bold shadow";
+                            badge.innerHTML = `<span>⏱️ 7-Day Free Trial (${daysRemaining} Days Left)</span>`;
+                            badge.classList.remove('hidden');
+                        }
+                    }
+                } catch(e) {}
+            } else {
+                const defaultProfile = {
+                    name: "Trial User",
+                    company: "Texas Civil Contractor",
+                    email: "user@amestx.com",
+                    registeredAt: Date.now()
+                };
+                localStorage.setItem('amestx_user_profile', JSON.stringify(defaultProfile));
+                if (badge) {
+                    badge.className = "flex items-center space-x-2 text-xs bg-amber-950/90 border border-amber-500/60 px-3.5 py-1.5 rounded-full text-amber-300 shrink-0 font-bold shadow";
+                    badge.innerHTML = `<span>⏱️ 7-Day Free Trial (7 Days Left)</span>`;
+                    badge.classList.remove('hidden');
+                }
+            }
+        }
+
         // Initialize safely when DOM is fully interactive
         function initApp() {
             const savedTheme = localStorage.getItem('amestx_color_theme') || localStorage.getItem('amestx_theme') || 'txdot-navy';
             applyColorTheme(savedTheme);
+            checkUserTrialStatus();
             showHomeView();
         }
 

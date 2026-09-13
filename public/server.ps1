@@ -6,8 +6,6 @@ $listener = New-Object System.Net.HttpListener
 $listener.Prefixes.Add("http://localhost:$port/")
 $listener.Prefixes.Add("http://127.0.0.1:$port/")
 try { $listener.Prefixes.Add("http://[::1]:$port/") } catch {}
-try { $listener.Prefixes.Add("http://localhost:80/") } catch {}
-try { $listener.Prefixes.Add("http://127.0.0.1:80/") } catch {}
 
 try {
     $listener.Start()
@@ -448,14 +446,12 @@ while ($listener.IsListening) {
         $url = $request.Url.AbsolutePath
         $query = $request.QueryString
 
-        if ($url -eq "/" -or $url -eq "/home" -or $url -eq "/home.html") {
-            $homePath = Join-Path $publicDir "home.html"
-            if (-not (Test-Path $homePath)) { $homePath = Join-Path $baseDir "home.html" }
-            if (-not (Test-Path $homePath)) { $homePath = Join-Path $publicDir "index.html" }
-            if (-not (Test-Path $homePath)) { $homePath = Join-Path $baseDir "index.html" }
+        if ($url -eq "/" -or $url -eq "/home" -or $url -eq "/home.html" -or $url -eq "/index.html") {
+            $indexPath = Join-Path $publicDir "index.html"
+            if (-not (Test-Path $indexPath)) { $indexPath = Join-Path $baseDir "index.html" }
 
-            if (Test-Path $homePath) {
-                $content = [System.IO.File]::ReadAllBytes($homePath)
+            if (Test-Path $indexPath) {
+                $content = [System.IO.File]::ReadAllBytes($indexPath)
                 $response.ContentType = "text/html; charset=utf-8"
                 $response.ContentLength64 = $content.Length
                 $response.OutputStream.Write($content, 0, $content.Length)
@@ -463,11 +459,11 @@ while ($listener.IsListening) {
                 $response.StatusCode = 404
             }
         }
-        elseif ($url -eq "/app" -or $url -eq "/index.html") {
-            $indexPath = Join-Path $publicDir "index.html"
-            if (-not (Test-Path $indexPath)) { $indexPath = Join-Path $baseDir "index.html" }
-            if (Test-Path $indexPath) {
-                $content = [System.IO.File]::ReadAllBytes($indexPath)
+        elseif ($url -eq "/app" -or $url -eq "/app.html") {
+            $appPath = Join-Path $publicDir "app.html"
+            if (-not (Test-Path $appPath)) { $appPath = Join-Path $baseDir "app.html" }
+            if (Test-Path $appPath) {
+                $content = [System.IO.File]::ReadAllBytes($appPath)
                 $response.ContentType = "text/html; charset=utf-8"
                 $response.ContentLength64 = $content.Length
                 $response.OutputStream.Write($content, 0, $content.Length)

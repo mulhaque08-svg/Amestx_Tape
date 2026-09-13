@@ -1756,6 +1756,65 @@
                     }
                 }
 
+                // 3. Fallback to querying TxDOT Open Data API (data.texas.gov) directly from browser
+                if (!rawData) {
+                    try {
+                        console.log(`Querying TxDOT Open Data API directly for ${monthCode}...`);
+                        const year = monthCode.substring(0, 4);
+                        const mNum = monthCode.substring(5, 7);
+                        const mInt = parseInt(mNum, 10);
+                        const nextYear = mInt === 12 ? (parseInt(year, 10) + 1) : year;
+                        const nextM = mInt === 12 ? '01' : String(mInt + 1).padStart(2, '0');
+                        
+                        const startDate = `${monthCode}-01T00:00:00`;
+                        const endDate = `${nextYear}-${nextM}-01T00:00:00`;
+
+                        const url1 = `https://data.texas.gov/resource/de7b-7dna.json?$where=project_actual_let_date >= '${startDate}' and project_actual_let_date < '${endDate}'&$limit=5000`;
+                        const url2 = `https://data.texas.gov/resource/drau-zphx.json?$where=project_estimated_let_date >= '${startDate}' and project_estimated_let_date < '${endDate}'&$limit=5000`;
+
+                        const [r1, r2] = await Promise.allSettled([
+                            fetch(url1).then(r => r.ok ? r.json() : []),
+                            fetch(url2).then(r => r.ok ? r.json() : [])
+                        ]);
+
+                        const items1 = (r1.status === 'fulfilled' && Array.isArray(r1.value)) ? r1.value : [];
+                        const items2 = (r2.status === 'fulfilled' && Array.isArray(r2.value)) ? r2.value : [];
+                        const combined = [...items1, ...items2];
+
+                        if (combined.length > 0) {
+                            const projectsMap = {};
+                            combined.forEach(row => {
+                                const ccsj = (row.controlling_project_id_ccsj || row.control_section_job_csj || '').toString().trim();
+                                if (!ccsj) return;
+                                if (!projectsMap[ccsj]) {
+                                    const letD = row.project_actual_let_date || row.project_estimated_let_date || '';
+                                    const formattedLetD = letD ? new Date(letD).toLocaleDateString('en-US', {month:'2-digit', day:'2-digit', year:'numeric'}) : 'N/A';
+                                    const countyName = row.county ? (row.county.charAt(0).toUpperCase() + row.county.slice(1).toLowerCase()) : 'TxDOT District';
+                                    const hway = row.highway || 'TxDOT Hwy';
+                                    const pType = row.type_of_work || row.project_classification || row.project_type || 'Highway Construction';
+                                    const est = parseFloat(row.sealed_engineer_s_estimate || row.sealed_engineer_s_estimate_1 || row.project_estimate_low_bid || 0);
+
+                                    projectsMap[ccsj] = {
+                                        csj: ccsj,
+                                        letDate: formattedLetD,
+                                        county: countyName,
+                                        highway: hway,
+                                        estimate: est,
+                                        projectType: pType,
+                                        typeOfWork: pType,
+                                        projectName: row.project_name || pType,
+                                        subCSJs: [ccsj],
+                                        subCSJCount: 1
+                                    };
+                                }
+                            });
+                            rawData = Object.values(projectsMap);
+                        }
+                    } catch (txDotErr) {
+                        console.error("Direct TxDOT API fallback error:", txDotErr);
+                    }
+                }
+
                 if (!rawData) {
                     throw new Error(`Could not load monthly cache data for ${monthCode}`);
                 }

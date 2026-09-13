@@ -1931,6 +1931,7 @@
                                 unit: it.unit,
                                 quantity: it.quantity,
                                 engEstUnit: it.engEstUnit,
+                                amestxUnit: it.engEstUnit,
                                 lowUnit: it.engEstUnit,
                                 bidders: {}
                             };
@@ -2022,11 +2023,19 @@
 
                         const items = Object.values(itemMap).sort((a, b) => a.seq - b.seq);
                         items.forEach(it => {
-                            if (realBidders.length > 0 && it.bidders[realBidders[0].vendorName] !== undefined) {
-                                it.lowUnit = it.bidders[realBidders[0].vendorName];
-                            } else {
-                                it.lowUnit = it.engEstUnit;
-                            }
+                            const lowP = (realBidders.length > 0 && it.bidders[realBidders[0].vendorName] !== undefined) ? it.bidders[realBidders[0].vendorName] : 0;
+                            const highP = (realBidders.length > 1 && it.bidders[realBidders[realBidders.length - 1].vendorName] !== undefined) ? it.bidders[realBidders[realBidders.length - 1].vendorName] : lowP;
+                            const engP = it.engEstUnit || 0;
+
+                            let vals = [];
+                            if (lowP > 0) vals.push(lowP);
+                            if (highP > 0) vals.push(highP);
+                            if (engP > 0) vals.push(engP);
+
+                            let amestxP = vals.length > 0 ? (vals.reduce((a, b) => a + b, 0) / vals.length) : lowP;
+
+                            it.lowUnit = lowP > 0 ? lowP : it.engEstUnit;
+                            it.amestxUnit = amestxP > 0 ? amestxP : (lowP > 0 ? lowP : it.engEstUnit);
                         });
 
                         completedData = { metadata, bidders: realBidders, items };
@@ -2602,7 +2611,7 @@
                             const p = c.split(/[\s\-]+/);
                             return (p.length > 0 && p[0].replace(/^0+/, '') === '800');
                         };
-                        const uPrice = isItem800(item.code, itemNo) ? 0 : ((item.amestxUnit && item.amestxUnit > 0) ? item.amestxUnit : ((item.engEstUnit && item.engEstUnit > 0) ? item.engEstUnit : ((item.avgPrice && item.avgPrice > 0) ? item.avgPrice : ((item.lowUnit && item.lowUnit > 0) ? item.lowUnit : 0))));
+                        const uPrice = isItem800(item.code, itemNo) ? 0 : ((item.amestxUnit && item.amestxUnit > 0) ? item.amestxUnit : ((item.lowUnit && item.lowUnit > 0) ? item.lowUnit : ((item.avgPrice && item.avgPrice > 0) ? item.avgPrice : ((item.engEstUnit && item.engEstUnit > 0) ? item.engEstUnit : 0))));
                         const extPrice = qty * uPrice;
                         totalExtSum += extPrice;
 
@@ -2737,7 +2746,7 @@
                         data.items.forEach(item => {
                             const engUnit = item.engEstUnit || 0;
                             const engExt = (item.quantity || 0) * engUnit;
-                            const amestxU = item.amestxUnit || engUnit;
+                            const amestxU = (item.amestxUnit && item.amestxUnit > 0) ? item.amestxUnit : ((item.lowUnit && item.lowUnit > 0) ? item.lowUnit : ((item.avgPrice && item.avgPrice > 0) ? item.avgPrice : engUnit));
                             const amestxExt = (item.quantity || 0) * amestxU;
                             const diff = amestxU - engUnit;
 
@@ -3701,7 +3710,7 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                     const p = c.split(/[\s\-]+/);
                     return (p.length > 0 && p[0].replace(/^0+/, '') === '800');
                 };
-                const uPrice = (isZeroPrice || isItem800Sheet(it.code)) ? 0 : ((it.amestxUnit && it.amestxUnit > 0) ? it.amestxUnit : ((it.engEstUnit && it.engEstUnit > 0) ? it.engEstUnit : ((it.avgPrice && it.avgPrice > 0) ? it.avgPrice : ((it.lowUnit && it.lowUnit > 0) ? it.lowUnit : 0))));
+                const uPrice = (isZeroPrice || isItem800Sheet(it.code)) ? 0 : ((it.amestxUnit && it.amestxUnit > 0) ? it.amestxUnit : ((it.lowUnit && it.lowUnit > 0) ? it.lowUnit : ((it.avgPrice && it.avgPrice > 0) ? it.avgPrice : ((it.engEstUnit && it.engEstUnit > 0) ? it.engEstUnit : 0))));
                 setCell(r, 6, uPrice, 'n', {
                     font: { name: 'Arial', sz: 9 },
                     alignment: { horizontal: 'right' },
@@ -3736,7 +3745,7 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
 
             let totalExtVal = isZeroPrice ? 0 : items.reduce((sum, it) => {
                 const qty = it.quantity || 0;
-                const up = isItem800Sheet(it.code) ? 0 : ((it.amestxUnit && it.amestxUnit > 0) ? it.amestxUnit : ((it.engEstUnit && it.engEstUnit > 0) ? it.engEstUnit : ((it.avgPrice && it.avgPrice > 0) ? it.avgPrice : ((it.lowUnit && it.lowUnit > 0) ? it.lowUnit : 0))));
+                const up = isItem800Sheet(it.code) ? 0 : ((it.amestxUnit && it.amestxUnit > 0) ? it.amestxUnit : ((it.lowUnit && it.lowUnit > 0) ? it.lowUnit : ((it.avgPrice && it.avgPrice > 0) ? it.avgPrice : ((it.engEstUnit && it.engEstUnit > 0) ? it.engEstUnit : 0))));
                 return sum + (qty * up);
             }, 0);
 
@@ -4049,7 +4058,7 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                 const specCode = parts[1] || "";
                 const desc = it.description || "";
                 const qty = it.quantity || 0;
-                const uPrice = (it.amestxUnit && it.amestxUnit > 0) ? it.amestxUnit : ((it.engEstUnit && it.engEstUnit > 0) ? it.engEstUnit : ((it.avgPrice && it.avgPrice > 0) ? it.avgPrice : ((it.lowUnit && it.lowUnit > 0) ? it.lowUnit : 0)));
+                const uPrice = (it.amestxUnit && it.amestxUnit > 0) ? it.amestxUnit : ((it.lowUnit && it.lowUnit > 0) ? it.lowUnit : ((it.avgPrice && it.avgPrice > 0) ? it.avgPrice : ((it.engEstUnit && it.engEstUnit > 0) ? it.engEstUnit : 0)));
                 const extPrice = qty * uPrice;
                 totalExtSum += extPrice;
 

@@ -486,6 +486,16 @@ while ($listener.IsListening) {
                     ".png"  { $response.ContentType = "image/png" }
                     ".jpg"  { $response.ContentType = "image/jpeg" }
                     ".json" { $response.ContentType = "application/json" }
+                    ".xlsx" { 
+                        $response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" 
+                        $fn = [System.IO.Path]::GetFileName($filePath)
+                        $response.AddHeader("Content-Disposition", "attachment; filename=`"$fn`"")
+                    }
+                    ".csv" { 
+                        $response.ContentType = "text/csv; charset=utf-8" 
+                        $fn = [System.IO.Path]::GetFileName($filePath)
+                        $response.AddHeader("Content-Disposition", "attachment; filename=`"$fn`"")
+                    }
                     default { $response.ContentType = "application/octet-stream" }
                 }
                 $content = [System.IO.File]::ReadAllBytes($filePath)
@@ -506,6 +516,14 @@ while ($listener.IsListening) {
                     $response.ContentType = "application/pdf"
                     $fileName = [System.IO.Path]::GetFileName($localFilePath)
                     $response.AddHeader("Content-Disposition", "inline; filename=`"$fileName`"")
+                } elseif ($localFilePath.EndsWith(".xlsx")) {
+                    $response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                    $fileName = [System.IO.Path]::GetFileName($localFilePath)
+                    $response.AddHeader("Content-Disposition", "attachment; filename=`"$fileName`"")
+                } elseif ($localFilePath.EndsWith(".csv")) {
+                    $response.ContentType = "text/csv; charset=utf-8"
+                    $fileName = [System.IO.Path]::GetFileName($localFilePath)
+                    $response.AddHeader("Content-Disposition", "attachment; filename=`"$fileName`"")
                 } elseif ($localFilePath.EndsWith(".json")) {
                     $response.ContentType = "application/json"
                 } else {

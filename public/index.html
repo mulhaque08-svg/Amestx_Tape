@@ -244,33 +244,46 @@
             border-color: #cbd5e1 !important;
         }
 
-        /* Dark Grey Header & Footer (#1e293b) for Light Theme Only on Login Page */
-        body.theme-light header,
+        /* Clean White Header & Footer (#FFFFFF) for White from Amtek Theme (like AmtekPro) */
+        body.theme-light header {
+            background-color: #ffffff !important;
+            border-color: #e2e8f0 !important;
+            color: #0f172a !important;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+        }
+
         body.theme-light footer {
-            background-color: #1e293b !important;
-            border-color: #334155 !important;
-            color: #ffffff !important;
+            background-color: #f8fafc !important;
+            border-color: #e2e8f0 !important;
+            color: #0f172a !important;
         }
 
         body.theme-light header *,
         body.theme-light footer * {
-            color: #ffffff !important;
+            color: #0f172a !important;
+        }
+
+        body.theme-light header p,
+        body.theme-light footer p,
+        body.theme-light header span.text-slate-300,
+        body.theme-light footer span.text-slate-300 {
+            color: #475569 !important;
         }
 
         body.theme-light header a.hover\:text-amber-300:hover,
         body.theme-light footer a.hover\:text-amber-300:hover {
-            color: #fbbf24 !important;
+            color: #2563eb !important;
         }
 
         body.theme-light #themeSelectorHome {
-            background-color: #334155 !important;
-            color: #fbbf24 !important;
-            border-color: #475569 !important;
+            background-color: #ffffff !important;
+            color: #0f172a !important;
+            border-color: #cbd5e1 !important;
         }
 
         body.theme-light #themeSelectorHome option {
-            background-color: #1e293b !important;
-            color: #ffffff !important;
+            background-color: #ffffff !important;
+            color: #0f172a !important;
         }
 
         body.theme-light button.bg-blue-600,
@@ -283,9 +296,40 @@
         body.theme-light button.bg-amber-500 * {
             color: #0f172a !important;
         }
+
+        /* Navy Theme Header & Dropdown Legibility Fix */
+        body.theme-navy #themeSelectorHome {
+            background-color: #1c2541 !important;
+            color: #00f0ff !important;
+            border: 1px solid #00f0ff !important;
+            box-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+        }
+
+        body.theme-navy #themeSelectorHome option {
+            background-color: #0b132b !important;
+            color: #ffffff !important;
+        }
+
+        /* Neon Glowing Outlines for Feature Boxes & Cards */
+        .neon-box-cyan {
+            border: 1px solid #00f0ff !important;
+            box-shadow: 0 0 15px rgba(0, 240, 255, 0.25) !important;
+        }
+        .neon-box-amber {
+            border: 1px solid #ffe600 !important;
+            box-shadow: 0 0 15px rgba(255, 230, 0, 0.3) !important;
+        }
+        .neon-box-green {
+            border: 1px solid #00ff88 !important;
+            box-shadow: 0 0 15px rgba(0, 255, 136, 0.25) !important;
+        }
+        .neon-box-purple {
+            border: 1px solid #e081ff !important;
+            box-shadow: 0 0 15px rgba(224, 129, 255, 0.25) !important;
+        }
     </style>
 </head>
-<body class="theme-navy h-screen w-screen flex flex-col justify-between selection:bg-blue-600 selection:text-white">
+<body class="theme-light h-screen w-screen flex flex-col justify-between selection:bg-blue-600 selection:text-white">
 
     <!-- Top Navigation Header -->
     <header class="h-20 w-full border-b dark-header-bg text-white shadow-2xl transition-colors shrink-0 z-50">
@@ -299,7 +343,6 @@
                 <div class="flex flex-col text-left">
                     <div class="flex items-center gap-2">
                         <span class="text-xl font-bold tracking-tight text-white">Amestx™</span>
-                        <span class="text-xs bg-amber-500/20 text-amber-300 border border-amber-500/40 px-2.5 py-0.5 rounded font-mono font-bold">TxDOT Bid Estimator</span>
                     </div>
                     <span class="text-[11px] text-slate-300 font-medium">Monthly Lettings, Proposal Estimates & Excel Matrix</span>
                 </div>
@@ -308,10 +351,9 @@
             <!-- Header Action Items: Theme Selector & Sign In -->
             <div class="flex items-center gap-3">
                 <!-- Theme Selector Dropdown -->
-                <select id="themeSelectorHome" onchange="switchHomeTheme(this.value)" class="px-3 py-2 rounded-xl text-xs font-bold dark-card-bg text-amber-300 border dark-border hover:border-amber-400 cursor-pointer focus:outline-none transition shadow">
+                <select id="themeSelectorHome" onchange="switchHomeTheme(this.value)" class="px-3 py-2 rounded-xl text-xs font-bold dark-card-bg text-slate-800 border border-slate-300 cursor-pointer focus:outline-none transition shadow">
+                    <option value="light">⚡ Theme: White</option>
                     <option value="navy">⚓ Theme: Navy</option>
-                    <option value="rl-dark">🟣 Theme: RL Dark</option>
-                    <option value="light">☀️ Theme: Light Slate</option>
                 </select>
 
                 <!-- Sign In Button -->
@@ -372,52 +414,52 @@
                                     <span class="w-2.5 h-2.5 rounded-full bg-blue-500"></span>
                                     <span class="w-2.5 h-2.5 rounded-full bg-amber-500"></span>
                                     <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
-                                    <span class="ml-2 text-xs font-mono text-slate-200 font-bold mockup-title-text">Amestx.com — Live TxDOT Estimator</span>
+                                    <span class="ml-2 text-xs font-mono !text-white font-extrabold tracking-wide">Amestx.com — Live TxDOT Estimator</span>
                                 </div>
-                                <span class="text-[10px] font-mono text-emerald-400 bg-emerald-950 px-2 py-0.5 rounded border border-emerald-700 font-extrabold">LIVE DEMO</span>
+                                <span class="text-[10px] font-mono !text-emerald-400 bg-emerald-950 px-2 py-0.5 rounded border border-emerald-700 font-extrabold">LIVE DEMO</span>
                             </div>
 
-                            <div class="bg-slate-900 p-4 rounded-b-xl space-y-3 text-left text-white">
-                                <div class="flex items-center gap-2 p-2 bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 text-slate-950 rounded-xl font-mono text-xs font-extrabold shadow">
+                            <div class="bg-slate-900 p-4 rounded-b-xl space-y-3 text-left !text-white">
+                                <div class="flex items-center gap-2 p-2 bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 !text-slate-950 rounded-xl font-mono text-xs font-extrabold shadow">
                                     <span>CSJ: 0015-13-042 (IH 35 Travis)</span>
                                 </div>
                                 <div class="grid grid-cols-6 gap-1 text-[10px] font-bold text-center">
-                                    <div class="p-1 rounded bg-blue-600 text-white font-extrabold">1. Tasks</div>
-                                    <div class="p-1 rounded bg-slate-800 text-slate-300 border border-slate-700">2. Proposal</div>
-                                    <div class="p-1 rounded bg-slate-800 text-slate-300 border border-slate-700">3. Plans</div>
-                                    <div class="p-1 rounded bg-slate-800 text-slate-300 border border-slate-700">4. Address</div>
-                                    <div class="p-1 rounded bg-amber-500 text-slate-950 font-black">5. Bid Tab</div>
-                                    <div class="p-1 rounded bg-slate-800 text-slate-300 border border-slate-700">6. Estimate</div>
+                                    <div class="p-1 rounded bg-blue-600 !text-white font-extrabold shadow">1. Tasks</div>
+                                    <div class="p-1 rounded bg-slate-950 !text-cyan-300 border border-cyan-500/50 font-bold">2. Proposal</div>
+                                    <div class="p-1 rounded bg-slate-950 !text-cyan-300 border border-cyan-500/50 font-bold">3. Plans</div>
+                                    <div class="p-1 rounded bg-slate-950 !text-cyan-300 border border-cyan-500/50 font-bold">4. Address</div>
+                                    <div class="p-1 rounded bg-amber-500 !text-slate-950 font-black shadow">5. Bid Tab</div>
+                                    <div class="p-1 rounded bg-slate-950 !text-cyan-300 border border-cyan-500/50 font-bold">6. Estimate</div>
                                 </div>
                                 <div class="border border-slate-800 bg-slate-950 rounded-xl overflow-hidden text-[11px] font-mono">
                                     <table class="w-full text-left">
-                                        <thead class="bg-slate-800 text-slate-300 text-[10px]">
+                                        <thead class="bg-slate-800 !text-white font-extrabold text-[10px]">
                                             <tr>
-                                                <th class="p-1.5">ITEM</th>
-                                                <th class="p-1.5">DESCRIPTION</th>
-                                                <th class="p-1.5 text-right">ENG EST</th>
-                                                <th class="p-1.5 text-right">LOW BID</th>
+                                                <th class="p-1.5 !text-white font-extrabold">ITEM</th>
+                                                <th class="p-1.5 !text-white font-extrabold">DESCRIPTION</th>
+                                                <th class="p-1.5 text-right !text-white font-extrabold">ENG EST</th>
+                                                <th class="p-1.5 text-right !text-white font-extrabold">LOW BID</th>
                                             </tr>
                                         </thead>
                                         <tbody class="divide-y divide-slate-800 text-slate-200">
                                             <tr>
-                                                <td class="p-1.5 text-blue-400 font-bold">0100-6002</td>
-                                                <td class="p-1.5 font-sans truncate max-w-[100px]">PREPARING ROW</td>
-                                                <td class="p-1.5 text-right">$450.00</td>
-                                                <td class="p-1.5 text-right text-emerald-400 font-bold">$385.00</td>
+                                                <td class="p-1.5 !text-cyan-400 font-extrabold">0100-6002</td>
+                                                <td class="p-1.5 font-sans truncate max-w-[100px] !text-white font-bold">PREPARING ROW</td>
+                                                <td class="p-1.5 text-right !text-amber-300 font-bold">$450.00</td>
+                                                <td class="p-1.5 text-right !text-emerald-400 font-extrabold">$385.00</td>
                                             </tr>
                                             <tr>
-                                                <td class="p-1.5 text-blue-400 font-bold">0500-6001</td>
-                                                <td class="p-1.5 font-sans truncate max-w-[100px]">MOBILIZATION</td>
-                                                <td class="p-1.5 text-right">$125,000</td>
-                                                <td class="p-1.5 text-right text-emerald-400 font-bold">$118,000</td>
+                                                <td class="p-1.5 !text-cyan-400 font-extrabold">0500-6001</td>
+                                                <td class="p-1.5 font-sans truncate max-w-[100px] !text-white font-bold">MOBILIZATION</td>
+                                                <td class="p-1.5 text-right !text-amber-300 font-bold">$125,000</td>
+                                                <td class="p-1.5 text-right !text-emerald-400 font-extrabold">$118,000</td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
                                 <div class="pt-1 flex items-center justify-between text-xs">
-                                    <span class="text-slate-300 font-medium">Total: <strong class="text-amber-400">$4,850,210.00</strong></span>
-                                    <button onclick="handleSignInClick()" class="text-xs font-bold text-amber-400 hover:text-amber-300 underline cursor-pointer">Launch Full App &rarr;</button>
+                                    <span class="!text-slate-200 font-medium">Total: <strong class="!text-amber-400 font-extrabold">$4,850,210.00</strong></span>
+                                    <button onclick="handleSignInClick()" class="text-xs font-extrabold !text-amber-400 hover:!text-amber-300 underline cursor-pointer">Launch Full App &rarr;</button>
                                 </div>
                             </div>
                         </div>
@@ -427,64 +469,78 @@
             </div>
         </section>
 
-        <!-- SLIDE 2: 6 ESSENTIAL TABS SHOWCASE -->
+        <!-- SLIDE 2: EASY TO DOWNLOAD INFORMATION — FULL PROJECT DATA & ESTIMATING TOOLS -->
         <section id="slide-2" class="slide-item">
             <div class="max-w-7xl mx-auto w-full space-y-6">
                 <div class="text-center max-w-3xl mx-auto space-y-2">
-                    <span class="px-3.5 py-1 rounded-full bg-blue-500/20 text-blue-300 border border-blue-500/40 text-xs font-bold uppercase tracking-wider">
-                        🚀 COMPLETE TXDOT ESTIMATING SUITE
+                    <span class="px-3.5 py-1 rounded-full bg-cyan-500/20 text-cyan-400 border border-cyan-500/40 text-xs font-bold uppercase tracking-wider neon-border-cyan">
+                        🚀 EASY TO DOWNLOAD INFORMATION & ESTIMATING SUITE
                     </span>
-                    <h2 class="text-2xl sm:text-4xl font-extrabold text-white">
-                        All 6 Essential Tabs Included
+                    <h2 class="text-2xl sm:text-4xl font-extrabold text-white neon-text-cyan">
+                        Easy to Download Information — Full Project Data & Estimating Tools
                     </h2>
-                    <p class="text-slate-300 text-xs sm:text-base">
-                        Designed specifically for Texas heavy civil contractors, estimators, and project managers.
+                    <p class="text-slate-200 text-xs sm:text-base font-medium">
+                        Designed specifically for Texas civil contractors, estimators, and project managers with one-click data downloads & automated cost models.
                     </p>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 text-left">
-                    <div class="p-5 rounded-2xl border dark-border dark-card-bg text-white hover:border-blue-500 transition shadow-xl space-y-2">
-                        <div class="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center font-mono font-bold text-sm">01</div>
-                        <h3 class="text-base font-bold text-white">Tab 1: Tasks & Bid Leads</h3>
-                        <p class="text-xs text-slate-300 leading-relaxed">Search projects by CSJ number, highway, or county. Filter letting dates across all 25 TxDOT districts.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-left">
+                    <div class="p-4 rounded-2xl border dark-border dark-card-bg text-white hover:border-cyan-400 transition shadow-xl space-y-2 neon-box-cyan">
+                        <div class="w-9 h-9 rounded-xl bg-cyan-500 text-slate-950 flex items-center justify-center font-mono font-black text-xs">01</div>
+                        <h3 class="text-sm font-bold text-white">Tab 1: Tasks & Bid Leads</h3>
+                        <p class="text-xs text-slate-200 leading-relaxed font-medium">Search projects by CSJ number, highway, or county. Filter letting dates across all 25 TxDOT districts.</p>
                     </div>
 
-                    <div class="p-5 rounded-2xl border dark-border dark-card-bg text-white hover:border-blue-500 transition shadow-xl space-y-2">
-                        <div class="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center font-mono font-bold text-sm">02</div>
-                        <h3 class="text-base font-bold text-white">Tab 2: Official Proposals</h3>
-                        <p class="text-xs text-slate-300 leading-relaxed">One-click access to official TxDOT bidding proposal PDFs and contract addendums.</p>
+                    <div class="p-4 rounded-2xl border dark-border dark-card-bg text-white hover:border-cyan-400 transition shadow-xl space-y-2 neon-box-cyan">
+                        <div class="w-9 h-9 rounded-xl bg-blue-600 text-white flex items-center justify-center font-mono font-black text-xs">02</div>
+                        <h3 class="text-sm font-bold text-white">Tab 2: Official Proposals</h3>
+                        <p class="text-xs text-slate-200 leading-relaxed font-medium">One-click access to official TxDOT bidding proposal PDFs and contract addendums.</p>
                     </div>
 
-                    <div class="p-5 rounded-2xl border dark-border dark-card-bg text-white hover:border-emerald-500 transition shadow-xl space-y-2">
-                        <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-mono font-bold text-sm">03</div>
-                        <h3 class="text-base font-bold text-white">Tab 3: Full Plan Sets</h3>
-                        <p class="text-xs text-slate-300 leading-relaxed">Direct viewer for engineering plan sheets, cross-sections, traffic control, and structural drawings.</p>
+                    <div class="p-4 rounded-2xl border dark-border dark-card-bg text-white hover:border-emerald-400 transition shadow-xl space-y-2 neon-box-green">
+                        <div class="w-9 h-9 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-mono font-black text-xs">03</div>
+                        <h3 class="text-sm font-bold text-white">Tab 3: Full Plan Sets</h3>
+                        <p class="text-xs text-slate-200 leading-relaxed font-medium">Direct viewer for engineering plan sheets, cross-sections, traffic control, and structural drawings.</p>
                     </div>
 
-                    <div class="p-5 rounded-2xl border dark-border dark-card-bg text-white hover:border-amber-500 transition shadow-xl space-y-2">
-                        <div class="w-10 h-10 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center font-mono font-bold text-sm">04</div>
-                        <h3 class="text-base font-bold text-white">Tab 4: Bidders List</h3>
-                        <p class="text-xs text-slate-300 leading-relaxed">Comprehensive directory for prime bidders and subcontractors with direct contact details.</p>
+                    <div class="p-4 rounded-2xl border dark-border dark-card-bg text-white hover:border-amber-400 transition shadow-xl space-y-2 neon-box-amber">
+                        <div class="w-9 h-9 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center font-mono font-black text-xs">04</div>
+                        <h3 class="text-sm font-bold text-white">Tab 4: Bidders List</h3>
+                        <p class="text-xs text-slate-200 leading-relaxed font-medium">Comprehensive directory for prime bidders and subcontractors with direct contact details.</p>
                     </div>
 
-                    <div class="p-5 rounded-2xl border dark-border dark-card-bg text-white hover:border-purple-400 transition shadow-xl space-y-2">
-                        <div class="w-10 h-10 rounded-xl bg-purple-600 text-white flex items-center justify-center font-mono font-bold text-sm">05</div>
-                        <h3 class="text-base font-bold text-white">Tab 5: Bid Tabulation Matrix</h3>
-                        <p class="text-xs text-slate-300 leading-relaxed">Line-item unit price comparison across all bidders vs engineer estimate. Identify pricing trends.</p>
+                    <div class="p-4 rounded-2xl border dark-border dark-card-bg text-white hover:border-purple-400 transition shadow-xl space-y-2 neon-box-purple">
+                        <div class="w-9 h-9 rounded-xl bg-purple-600 text-white flex items-center justify-center font-mono font-black text-xs">05</div>
+                        <h3 class="text-sm font-bold text-white">Tab 5: Bid Tabulation Matrix</h3>
+                        <p class="text-xs text-slate-200 leading-relaxed font-medium">Line-item unit price comparison across all bidders vs engineer estimate. Identify pricing trends.</p>
                     </div>
 
                     <!-- Highlighted Tab 6: Amestx Exclusive Niche Feature -->
-                    <div class="p-5 rounded-2xl border-2 border-amber-400 bg-gradient-to-br from-slate-900 via-amber-950/50 to-slate-900 text-white transition shadow-2xl space-y-2 relative overflow-hidden">
+                    <div class="p-4 rounded-2xl border-2 border-amber-400 bg-gradient-to-br from-slate-900 via-amber-950/50 to-slate-900 text-white transition shadow-2xl space-y-2 relative overflow-hidden neon-box-amber">
                         <div class="flex items-center justify-between">
-                            <div class="w-10 h-10 rounded-xl bg-amber-400 text-slate-950 flex items-center justify-center font-mono font-black text-sm shadow">06</div>
-                            <span class="px-2.5 py-1 rounded-full bg-amber-400 text-slate-950 text-[10px] font-black uppercase tracking-wider shadow flex items-center gap-1">
+                            <div class="w-9 h-9 rounded-xl bg-amber-400 text-slate-950 flex items-center justify-center font-mono font-black text-xs shadow">06</div>
+                            <span class="px-2 py-0.5 rounded-full bg-amber-400 text-slate-950 text-[9px] font-black uppercase tracking-wider shadow flex items-center gap-1">
                                 ⭐ EXCLUSIVE AMESTX NICHE
                             </span>
                         </div>
-                        <h3 class="text-base font-extrabold text-amber-300">Tab 6: Amestx Prepare Estimate</h3>
-                        <p class="text-xs text-slate-200 leading-relaxed">
+                        <h3 class="text-sm font-extrabold text-amber-300">Tab 6: Amestx Prepare Estimate</h3>
+                        <p class="text-[11px] text-slate-200 leading-relaxed">
                             Automated baseline cost model calculation & estimate sheet creation. <strong class="text-amber-300">Proprietary Amestx feature — no competitor offers this!</strong> Instant formatted Excel export.
                         </p>
+                    </div>
+
+                    <!-- Tab 7: TxDOT 12-Mo & 3-Mo Average Prices -->
+                    <div class="p-4 rounded-2xl border dark-border dark-card-bg text-white hover:border-cyan-400 transition shadow-xl space-y-2 neon-box-cyan">
+                        <div class="w-9 h-9 rounded-xl bg-cyan-600 text-white flex items-center justify-center font-mono font-black text-xs">07</div>
+                        <h3 class="text-sm font-bold text-white">Tab 7: TxDOT Average Unit Prices</h3>
+                        <p class="text-xs text-slate-200 leading-relaxed font-medium">Statewide & district 12-month/3-month average unit price lookup, min/max bid ranges, and historical bid volumes.</p>
+                    </div>
+
+                    <!-- Tab 8: Searchable TxDOT Item Codes & Spec Database -->
+                    <div class="p-4 rounded-2xl border dark-border dark-card-bg text-white hover:border-emerald-400 transition shadow-xl space-y-2 neon-box-green">
+                        <div class="w-9 h-9 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-mono font-black text-xs">08</div>
+                        <h3 class="text-sm font-bold text-white">Tab 8: TxDOT Item Codes & Specs</h3>
+                        <p class="text-xs text-slate-200 leading-relaxed font-medium">Instant searchable database for 2024 & 2014 TxDOT item codes, spec descriptions, units, and downloadable Excel rates.</p>
                     </div>
                 </div>
             </div>
@@ -501,7 +557,7 @@
                         See How Amestx™ Transforms TxDOT Estimating
                     </h2>
                     <p class="text-slate-300 text-xs sm:text-base">
-                        Watch our automated interactive presentation complete with built-in AI Voice narration covering all 6 tabs in 2 minutes.
+                        Watch our automated interactive presentation complete with built-in AI Voice narration covering all 8 tabs in 2 minutes.
                     </p>
                 </div>
 
@@ -514,27 +570,47 @@
                             </div>
                             
                             <h3 class="text-xl sm:text-2xl font-extrabold text-white">
-                                7 Interactive Presentation Chapters
+                                9 Interactive Presentation Chapters
                             </h3>
 
-                            <ul class="space-y-2.5 text-xs sm:text-sm text-slate-200 font-medium">
-                                <li class="flex items-center gap-2.5">
-                                    <span class="w-5 h-5 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xs">1</span>
-                                    <span><strong>CSJ & Let Date Search</strong> — Instant filtering across all 25 TxDOT Districts.</span>
-                                </li>
-                                <li class="flex items-center gap-2.5">
-                                    <span class="w-5 h-5 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xs">2</span>
-                                    <span><strong>Official Proposal & Plan Sheet PDFs</strong> — Direct 1-click viewing.</span>
-                                </li>
-                                <li class="flex items-center gap-2.5">
-                                    <span class="w-5 h-5 rounded-full bg-emerald-600 text-white flex items-center justify-center font-bold text-xs">3</span>
-                                    <span><strong>Bidder Address Directory</strong> — Verified phone numbers & business addresses.</span>
-                                </li>
-                                <li class="flex items-center gap-2.5">
-                                    <span class="w-5 h-5 rounded-full bg-amber-500 text-slate-950 flex items-center justify-center font-bold text-xs">4</span>
-                                    <span><strong>Bid Tabulation Matrix & Baseline Estimates</strong> — Historical rate calculations.</span>
-                                </li>
-                            </ul>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs sm:text-xs text-slate-200 font-medium">
+                                <ul class="space-y-2">
+                                    <li class="flex items-start gap-2">
+                                        <span class="w-5 h-5 rounded-full bg-cyan-600 text-white flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">1</span>
+                                        <span><strong>Tasks & Bid Leads</strong> — Search CSJs across 25 districts.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <span class="w-5 h-5 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">2</span>
+                                        <span><strong>Official Proposals</strong> — 1-click proposal PDFs.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <span class="w-5 h-5 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">3</span>
+                                        <span><strong>Full Plan Sets</strong> — CAD & drawing PDF viewer.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <span class="w-5 h-5 rounded-full bg-amber-500 text-slate-950 flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">4</span>
+                                        <span><strong>Bidders List</strong> — Participating project bidders & contact details.</span>
+                                    </li>
+                                </ul>
+                                <ul class="space-y-2">
+                                    <li class="flex items-start gap-2">
+                                        <span class="w-5 h-5 rounded-full bg-emerald-600 text-white flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">5</span>
+                                        <span><strong>Bid Tabulation Matrix</strong> — Competitor price comparison.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <span class="w-5 h-5 rounded-full bg-teal-600 text-white flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">6</span>
+                                        <span><strong>Amestx Baseline Est</strong> — Formatted Excel export.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <span class="w-5 h-5 rounded-full bg-sky-500 text-slate-950 flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">7</span>
+                                        <span><strong>Average Unit Prices</strong> — Amestx custom unit price bid estimate.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <span class="w-5 h-5 rounded-full bg-purple-500 text-white flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">8</span>
+                                        <span><strong>Item Codes & Specs</strong> — 2024 & 2014 TxDOT specs.</span>
+                                    </li>
+                                </ul>
+                            </div>
 
                             <div class="pt-2">
                                 <button onclick="openTutorialModal()" class="bg-blue-600 hover:bg-blue-500 text-white font-extrabold text-sm px-6 py-3 rounded-xl glow-blue transition flex items-center gap-2">
@@ -569,18 +645,18 @@
                         Simple, Flexible Subscription Plans
                     </h2>
                     <p class="text-slate-300 text-xs sm:text-base">
-                        Test all 6 tabs with complete 7-day trial access. Choose Monthly or Save 30% with Yearly Billing.
+                        Test all 8 tabs with complete 7-day trial access. Choose Monthly or Save 25% with Yearly Billing.
                     </p>
 
                     <!-- Monthly vs Yearly Billing Switch -->
                     <div class="pt-2 flex items-center justify-center gap-3">
                         <span class="text-xs font-bold text-slate-300" id="billingLabelMonthly">Monthly Billing</span>
-                        <button onclick="toggleBillingCycle()" id="billingToggleBtn" class="w-14 h-7 bg-blue-600 rounded-full p-1 transition-colors relative focus:outline-none shadow-inner" title="Toggle Monthly / Yearly (30% OFF)">
+                        <button onclick="toggleBillingCycle()" id="billingToggleBtn" class="w-14 h-7 bg-blue-600 rounded-full p-1 transition-colors relative focus:outline-none shadow-inner" title="Toggle Monthly / Yearly (25% OFF)">
                             <div id="billingToggleDot" class="w-5 h-5 bg-white rounded-full transition-transform transform translate-x-7 shadow"></div>
                         </button>
                         <span class="text-xs font-bold text-amber-300 flex items-center gap-1.5" id="billingLabelYearly">
                             <span>Yearly Subscription</span>
-                            <span class="bg-amber-500 text-slate-950 font-black text-[10px] px-2 py-0.5 rounded-full uppercase shadow">SAVE 30%</span>
+                            <span class="bg-amber-500 text-slate-950 font-black text-[10px] px-2 py-0.5 rounded-full uppercase shadow">SAVE 25%</span>
                         </span>
                     </div>
                 </div>
@@ -602,7 +678,7 @@
                             </div>
                             <hr class="border-slate-700">
                             <ul class="space-y-2 text-xs font-semibold text-slate-200">
-                                <li class="flex items-center gap-2">✓ All 6 Tabs Unlocked</li>
+                                <li class="flex items-center gap-2">✓ All 8 Tabs Unlocked</li>
                                 <li class="flex items-center gap-2">✓ Unlimited CSJ & District Search</li>
                                 <li class="flex items-center gap-2">✓ Bidder Address Directory Access</li>
                                 <li class="flex items-center gap-2">✓ Formatted Excel Export Engine</li>
@@ -618,26 +694,26 @@
                         <div class="space-y-3">
                             <div class="flex items-center justify-between">
                                 <span class="text-xs font-mono font-bold text-blue-400 uppercase">SINGLE ESTIMATOR</span>
-                                <span class="text-[10px] bg-amber-500/20 text-amber-300 border border-amber-500/40 px-2 py-0.5 rounded font-bold">30% YEARLY DISCOUNT</span>
+                                <span class="text-[10px] bg-amber-500/20 text-amber-300 border border-amber-500/40 px-2 py-0.5 rounded font-bold">25% YEARLY DISCOUNT</span>
                             </div>
                             <h3 class="text-xl font-extrabold text-white">Pro Estimator</h3>
                             
                             <!-- Dual Price Option Display -->
                             <div class="space-y-1">
                                 <div class="flex items-baseline gap-1">
-                                    <span class="text-4xl font-black text-white" id="proPriceDisp">$97</span>
+                                    <span class="text-4xl font-black text-white" id="proPriceDisp">$96.75</span>
                                     <span class="text-xs font-semibold text-slate-300" id="proUnitDisp">/ month (Billed Annually)</span>
                                 </div>
                                 <div class="text-[11px] text-slate-400 font-mono" id="proSubtextDisp">
-                                    Monthly Rate: <span class="text-slate-200 font-bold">$139 / mo</span> • <span class="text-amber-300 font-bold">Yearly: $97 / mo (30% OFF)</span>
+                                    Monthly Rate: <span class="text-slate-200 font-bold">$129 / mo</span> • <span class="text-amber-300 font-bold">Yearly: $96.75 / mo (25% OFF)</span>
                                 </div>
                             </div>
 
                             <hr class="border-slate-700">
                             <ul class="space-y-2 text-xs font-semibold text-slate-200">
                                 <li class="flex items-center gap-2">✓ Single Estimator License</li>
-                                <li class="flex items-center gap-2">✓ Monthly Rate: <strong>$139 / month</strong></li>
-                                <li class="flex items-center gap-2 text-amber-300">✓ Yearly Rate: <strong>$97 / month (30% OFF)</strong></li>
+                                <li class="flex items-center gap-2">✓ Monthly Rate: <strong>$129 / month</strong></li>
+                                <li class="flex items-center gap-2 text-amber-300">✓ Yearly Rate: <strong>$96.75 / month (25% OFF)</strong></li>
                                 <li class="flex items-center gap-2">✓ Historical Letting Archives (2020 - 2026)</li>
                                 <li class="flex items-center gap-2">✓ Priority FTP Syncing & Formatted Exports</li>
                             </ul>
@@ -652,26 +728,26 @@
                         <div class="space-y-3">
                             <div class="flex items-center justify-between">
                                 <span class="text-xs font-mono font-bold text-amber-300 uppercase">5 ESTIMATOR SEATS</span>
-                                <span class="text-[10px] bg-amber-500/20 text-amber-300 border border-amber-500/40 px-2 py-0.5 rounded font-bold">30% YEARLY DISCOUNT</span>
+                                <span class="text-[10px] bg-amber-500/20 text-amber-300 border border-amber-500/40 px-2 py-0.5 rounded font-bold">25% YEARLY DISCOUNT</span>
                             </div>
                             <h3 class="text-xl font-extrabold text-white">Corporate Team</h3>
                             
                             <!-- Dual Price Option Display -->
                             <div class="space-y-1">
                                 <div class="flex items-baseline gap-1">
-                                    <span class="text-4xl font-black text-white" id="corpPriceDisp">$307</span>
+                                    <span class="text-4xl font-black text-white" id="corpPriceDisp">$307.50</span>
                                     <span class="text-xs font-semibold text-slate-300" id="corpUnitDisp">/ month (Billed Annually)</span>
                                 </div>
                                 <div class="text-[11px] text-slate-400 font-mono" id="corpSubtextDisp">
-                                    Monthly Rate: <span class="text-slate-200 font-bold">$439 / mo</span> • <span class="text-amber-300 font-bold">Yearly: $307 / mo (30% OFF)</span>
+                                    Monthly Rate: <span class="text-slate-200 font-bold">$410 / mo</span> • <span class="text-amber-300 font-bold">Yearly: $307.50 / mo (25% OFF)</span>
                                 </div>
                             </div>
 
                             <hr class="border-slate-700">
                             <ul class="space-y-2 text-xs font-semibold text-slate-200">
                                 <li class="flex items-center gap-2">✓ <strong>5 Estimator Seats Included</strong></li>
-                                <li class="flex items-center gap-2">✓ Monthly Team Rate: <strong>$439 / month</strong></li>
-                                <li class="flex items-center gap-2 text-amber-300">✓ Yearly Team Rate: <strong>$307 / month (30% OFF)</strong></li>
+                                <li class="flex items-center gap-2">✓ Monthly Team Rate: <strong>$410 / month</strong></li>
+                                <li class="flex items-center gap-2 text-amber-300">✓ Yearly Team Rate: <strong>$307.50 / month (25% OFF)</strong></li>
                                 <li class="flex items-center gap-2">✓ Shared Team Workbooks & Multi-User Access</li>
                                 <li class="flex items-center gap-2">✓ Priority Support & Custom Baseline Engine</li>
                             </ul>
@@ -777,7 +853,7 @@
                         <div class="text-xs text-slate-300 font-mono" id="payTotalBilledDisplay">Billed $1,164 annually</div>
                     </div>
                     <div class="text-[11px] text-slate-400 leading-relaxed pt-1 border-t border-slate-800">
-                        ✓ Includes all 6 tabs, unlimited CSJ search, address directories, and formatted Excel matrix exports.
+                        ✓ Includes all 8 tabs, unlimited CSJ search, address directories, and formatted Excel matrix exports.
                     </div>
                 </div>
 
@@ -839,7 +915,7 @@
                     <div class="w-3 h-3 rounded-full bg-rose-500"></div>
                     <div class="w-3 h-3 rounded-full bg-amber-500"></div>
                     <div class="w-3 h-3 rounded-full bg-emerald-500"></div>
-                    <span class="text-xs sm:text-sm font-bold text-white font-mono ml-2">Amestx™ Interactive AI Studio & Chapter Presentation</span>
+                    <span class="text-xs sm:text-sm font-bold text-white font-mono ml-2">Amestx™ Interactive AI Studio & Features Presentation</span>
                 </div>
                 <div class="flex items-center gap-3">
                     <a href="https://youtube.com" target="_blank" onclick="stopVoiceAudio()" class="text-xs font-mono font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40 px-3 py-1 rounded-lg hover:bg-amber-500/30 transition flex items-center gap-1.5">
@@ -849,17 +925,19 @@
                 </div>
             </div>
 
-            <!-- Chapter Navigation Selector Pills -->
-            <div class="bg-slate-950/90 px-3 py-2 border-b border-slate-800 overflow-x-auto flex items-center justify-between gap-1 text-[11px] font-mono shrink-0">
-                <span class="text-slate-400 font-bold px-1 shrink-0 text-[10px] uppercase">Chapters:</span>
-                <div class="flex items-center justify-start sm:justify-between w-full gap-1 overflow-x-auto py-0.5">
-                    <button onclick="selectTutorialChapter(0)" class="tut-chap-btn px-2.5 py-1 rounded-lg bg-blue-600 text-white font-bold transition shrink-0 whitespace-nowrap">1. Overview</button>
-                    <button onclick="selectTutorialChapter(1)" class="tut-chap-btn px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition shrink-0 whitespace-nowrap">2. Search (T1)</button>
-                    <button onclick="selectTutorialChapter(2)" class="tut-chap-btn px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition shrink-0 whitespace-nowrap">3. Proposal (T2)</button>
-                    <button onclick="selectTutorialChapter(3)" class="tut-chap-btn px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition shrink-0 whitespace-nowrap">4. Plans (T3)</button>
-                    <button onclick="selectTutorialChapter(4)" class="tut-chap-btn px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition shrink-0 whitespace-nowrap">5. Address (T4)</button>
-                    <button onclick="selectTutorialChapter(5)" class="tut-chap-btn px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition shrink-0 whitespace-nowrap">6. Bid Tabs (T5)</button>
-                    <button onclick="selectTutorialChapter(6)" class="tut-chap-btn px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition shrink-0 whitespace-nowrap">7. Excel (T6)</button>
+            <!-- Feature Navigation Selector Pills -->
+            <div class="bg-slate-950 px-3 py-2 border-b border-slate-800 flex items-center justify-between gap-1 text-[11px] font-mono shrink-0">
+                <span class="text-amber-400 font-extrabold px-1 shrink-0 text-[11px] uppercase tracking-wider">FEATURES:</span>
+                <div class="flex items-center justify-between w-full gap-1 overflow-x-auto py-0.5">
+                    <button onclick="selectTutorialChapter(0)" class="tut-chap-btn px-2 py-1 rounded-lg bg-blue-600 text-white font-extrabold shadow-lg border border-blue-400 transition shrink-0 whitespace-nowrap">Feature 1</button>
+                    <button onclick="selectTutorialChapter(1)" class="tut-chap-btn px-2 py-1 rounded-lg bg-slate-900 text-cyan-300 border border-cyan-500/50 hover:bg-cyan-950/70 hover:text-white hover:border-cyan-300 font-bold transition shrink-0 whitespace-nowrap">Feature 2</button>
+                    <button onclick="selectTutorialChapter(2)" class="tut-chap-btn px-2 py-1 rounded-lg bg-slate-900 text-cyan-300 border border-cyan-500/50 hover:bg-cyan-950/70 hover:text-white hover:border-cyan-300 font-bold transition shrink-0 whitespace-nowrap">Feature 3</button>
+                    <button onclick="selectTutorialChapter(3)" class="tut-chap-btn px-2 py-1 rounded-lg bg-slate-900 text-cyan-300 border border-cyan-500/50 hover:bg-cyan-950/70 hover:text-white hover:border-cyan-300 font-bold transition shrink-0 whitespace-nowrap">Feature 4</button>
+                    <button onclick="selectTutorialChapter(4)" class="tut-chap-btn px-2 py-1 rounded-lg bg-slate-900 text-cyan-300 border border-cyan-500/50 hover:bg-cyan-950/70 hover:text-white hover:border-cyan-300 font-bold transition shrink-0 whitespace-nowrap">Feature 5</button>
+                    <button onclick="selectTutorialChapter(5)" class="tut-chap-btn px-2 py-1 rounded-lg bg-slate-900 text-cyan-300 border border-cyan-500/50 hover:bg-cyan-950/70 hover:text-white hover:border-cyan-300 font-bold transition shrink-0 whitespace-nowrap">Feature 6</button>
+                    <button onclick="selectTutorialChapter(6)" class="tut-chap-btn px-2 py-1 rounded-lg bg-slate-900 text-cyan-300 border border-cyan-500/50 hover:bg-cyan-950/70 hover:text-white hover:border-cyan-300 font-bold transition shrink-0 whitespace-nowrap">Feature 7</button>
+                    <button onclick="selectTutorialChapter(7)" class="tut-chap-btn px-2 py-1 rounded-lg bg-slate-900 text-cyan-300 border border-cyan-500/50 hover:bg-cyan-950/70 hover:text-white hover:border-cyan-300 font-bold transition shrink-0 whitespace-nowrap">Feature 8</button>
+                    <button onclick="selectTutorialChapter(8)" class="tut-chap-btn px-2 py-1 rounded-lg bg-slate-900 text-cyan-300 border border-cyan-500/50 hover:bg-cyan-950/70 hover:text-white hover:border-cyan-300 font-bold transition shrink-0 whitespace-nowrap">Feature 9</button>
                 </div>
             </div>
 
@@ -872,7 +950,7 @@
                     <!-- Top Stage Header -->
                     <div class="flex items-center justify-between border-b border-slate-800 pb-3">
                         <div class="flex items-center gap-3">
-                            <span id="tutChapterBadge" class="px-3 py-1 rounded-md bg-blue-600 text-white font-mono font-bold text-xs uppercase tracking-wider">CHAPTER 1 OF 7</span>
+                            <span id="tutChapterBadge" class="px-3 py-1 rounded-md bg-blue-600 text-white font-mono font-bold text-xs uppercase tracking-wider">CHAPTER 1 OF 9</span>
                             <h3 id="tutChapterTitle" class="text-base sm:text-xl font-extrabold text-white">Welcome to Amestx™ TxDOT Bid Estimator</h3>
                         </div>
                         <div class="flex items-center gap-2">
@@ -903,20 +981,23 @@
             <!-- Modal Footer Controls -->
             <div class="px-6 py-3.5 bg-slate-950 border-t border-slate-800 flex flex-wrap items-center justify-between gap-3 text-xs font-mono shrink-0">
                 <div class="flex items-center gap-2">
-                    <button onclick="playCurrentChapterVoice()" class="bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold px-4 py-2 rounded-xl transition flex items-center gap-1.5 shadow">
-                        <span>🔊 Speak AI Voice</span>
+                    <button onclick="startFullPresentationTour()" class="bg-blue-600 hover:bg-blue-500 text-white font-extrabold px-3.5 py-2 rounded-xl transition flex items-center gap-1.5 shadow glow-blue" title="Play all 9 features sequentially from Feature 1">
+                        <span>▶ Play Full Tour</span>
                     </button>
-                    <button id="stopAudioBtn" onclick="togglePauseResumeVoice()" class="bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 font-bold px-4 py-2 rounded-xl transition flex items-center gap-1.5">
+                    <button onclick="playSingleChapterVoice()" class="bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold px-3.5 py-2 rounded-xl transition flex items-center gap-1.5 shadow" title="Speak only the current feature">
+                        <span>🔊 Speak Feature</span>
+                    </button>
+                    <button id="stopAudioBtn" onclick="togglePauseResumeVoice()" class="bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 font-bold px-3.5 py-2 rounded-xl transition flex items-center gap-1.5">
                         <span>⏹ Stop Audio</span>
                     </button>
                 </div>
 
                 <div class="flex items-center gap-2">
                     <button onclick="prevTutorialChapter()" class="bg-slate-800 hover:bg-slate-700 text-white font-bold px-4 py-2 rounded-xl transition">
-                        &larr; Prev Chapter
+                        &larr; Prev Feature
                     </button>
                     <button onclick="nextTutorialChapter()" class="bg-blue-600 hover:bg-blue-500 text-white font-extrabold px-5 py-2 rounded-xl transition shadow glow-blue">
-                        Next Chapter &rarr;
+                        Next Feature &rarr;
                     </button>
                 </div>
             </div>
@@ -1087,15 +1168,15 @@
 
         const tutorialChapters = [
             {
-                title: "Chapter 1: Overview — Welcome to Amestx™ TxDOT Bid Estimator",
-                badge: "CHAPTER 1 OF 7",
-                narration: "Welcome to Chapter 1 Overview of Amestx TxDOT Bid Estimator. Designed specifically for Texas heavy civil contractors, estimators, and project managers. Access over 50 Billion Dollars in historical TxDOT letting data across all 25 state districts.",
+                title: "Feature 1: Overview — Welcome to Amestx™ TxDOT Bid Estimator",
+                badge: "FEATURE 1 OF 9",
+                narration: "Welcome to Feature 1 Overview of Amestx TxDOT Bid Estimator. Designed specifically for Texas heavy civil contractors, estimators, and project managers. Access over 50 Billion Dollars in historical TxDOT letting data across all 25 state districts with our essential tools.",
                 graphicHtml: `
                     <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
                         <div class="space-y-2">
                             <span class="text-xs font-bold text-amber-400 bg-amber-950 px-2.5 py-1 rounded border border-amber-700">TEXAS HEAVY CIVIL ESTIMATING SUITE</span>
                             <h4 class="text-lg font-bold text-white">Full-Featured Estimating & Bid Analytics Platform</h4>
-                            <p class="text-xs text-slate-300">Empower your estimating team with instant proposal PDFs, plan sheet viewers, contractor directories, and automated baseline Excel models.</p>
+                            <p class="text-xs text-slate-300">Empower your estimating team with instant proposal PDFs, plan sheet viewers, contractor directories, average unit price lookups, spec book databases, and automated baseline Excel models.</p>
                         </div>
                         <div class="grid grid-cols-2 gap-2 text-center text-xs font-mono w-full sm:w-auto shrink-0">
                             <div class="p-3 bg-slate-950 rounded-lg border border-slate-800"><div class="text-amber-400 font-bold text-base">25</div><div class="text-slate-400 text-[10px]">TxDOT Districts</div></div>
@@ -1105,9 +1186,9 @@
                 `
             },
             {
-                title: "Chapter 2 (Tab 1): Search Monthly Lettings & CSJ Numbers",
-                badge: "CHAPTER 2 OF 7 — (APP TAB 1)",
-                narration: "Chapter 2 covers Tab 1 of the app. In Tab 1, you can instantly search monthly TxDOT lettings by Control Section Job CSJ number, highway name, or Texas county with real-time status tracking.",
+                title: "Feature 2: Tasks & Bid Leads Search",
+                badge: "FEATURE 2 OF 9",
+                narration: "Feature 2 provides instant search for monthly TxDOT lettings by Control Section Job CSJ number, highway name, or Texas county with real-time status tracking across all 25 districts.",
                 graphicHtml: `
                     <div class="space-y-3">
                         <div class="flex items-center gap-2 p-2 bg-slate-950 rounded-lg border border-slate-800 text-xs font-mono">
@@ -1124,9 +1205,9 @@
                 `
             },
             {
-                title: "Chapter 3 (Tab 2): Official Bidding Proposal PDFs",
-                badge: "CHAPTER 3 OF 7 — (APP TAB 2)",
-                narration: "Chapter 3 covers Tab 2 of the app. Tab 2 provides direct 1-click access to official TxDOT bidding proposal PDF documents, contract addendums, and spec book requirements.",
+                title: "Feature 3: Official Bidding Proposal PDFs",
+                badge: "FEATURE 3 OF 9",
+                narration: "Feature 3 provides direct 1-click access to official TxDOT bidding proposal PDF documents, contract addendums, and spec book requirements.",
                 graphicHtml: `
                     <div class="flex items-center justify-between p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs font-mono">
                         <div class="flex items-center gap-3">
@@ -1141,9 +1222,9 @@
                 `
             },
             {
-                title: "Chapter 4 (Tab 3): Full Plan Sheet PDF Viewer",
-                badge: "CHAPTER 4 OF 7 — (APP TAB 3)",
-                narration: "Chapter 4 covers Tab 3 of the app. Tab 3 unlocks the embedded CAD and engineering plan sheet viewer to examine roadway cross sections, bridge layouts, and traffic control drawings.",
+                title: "Feature 4: Full Plan Sheet PDF Viewer",
+                badge: "FEATURE 4 OF 9",
+                narration: "Feature 4 unlocks the embedded CAD and engineering plan sheet viewer to examine roadway cross sections, bridge layouts, and traffic control drawings.",
                 graphicHtml: `
                     <div class="flex items-center justify-between p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs font-mono">
                         <div class="flex items-center gap-3">
@@ -1158,28 +1239,28 @@
                 `
             },
             {
-                title: "Chapter 5 (Tab 4): Verified Prime & Subcontractor Directory",
-                badge: "CHAPTER 5 OF 7 — (APP TAB 4)",
-                narration: "Chapter 5 covers Tab 4 of the app. Tab 4 contains the complete TxDOT contractor directory with verified business addresses, direct phone numbers, and past bidding history.",
+                title: "Feature 5: Project Bidders List & Contact Directory",
+                badge: "FEATURE 5 OF 9",
+                narration: "Feature 5 lists all participating prime contractors and subcontractors for the selected project, complete with company names, business addresses, phone numbers, and contact details.",
                 graphicHtml: `
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs font-mono">
                         <div class="p-3 bg-slate-950 rounded-lg border border-slate-800 space-y-1">
                             <div class="text-amber-400 font-bold">Austin Bridge & Road LP</div>
                             <div class="text-slate-300 text-[10px]">📍 Irving, TX | 📞 (214) 555-0199</div>
-                            <div class="text-emerald-400 font-bold text-[10px]">✓ Prequalified Prime Contractor</div>
+                            <div class="text-emerald-400 font-bold text-[10px]">✓ Participating Prime Bidder</div>
                         </div>
                         <div class="p-3 bg-slate-950 rounded-lg border border-slate-800 space-y-1">
                             <div class="text-blue-400 font-bold">Webber LLC</div>
                             <div class="text-slate-300 text-[10px]">📍 The Woodlands, TX | 📞 (281) 555-0144</div>
-                            <div class="text-emerald-400 font-bold text-[10px]">✓ Prequalified Prime Contractor</div>
+                            <div class="text-emerald-400 font-bold text-[10px]">✓ Participating Prime Bidder</div>
                         </div>
                     </div>
                 `
             },
             {
-                title: "Chapter 6 (Tab 5): Competitor Bid Tabulation Matrix",
-                badge: "CHAPTER 6 OF 7 — (APP TAB 5)",
-                narration: "Chapter 6 covers Tab 5 of the app. Tab 5 displays the line item unit price bid tabulation matrix to compare prices across all submitting bidders versus the engineer estimate.",
+                title: "Feature 6: Competitor Bid Tabulation Matrix",
+                badge: "FEATURE 6 OF 9",
+                narration: "Feature 6 displays the line item unit price bid tabulation matrix to compare prices across all submitting bidders versus the engineer estimate.",
                 graphicHtml: `
                     <div class="overflow-x-auto rounded-lg border border-slate-800 text-[11px] font-mono">
                         <table class="w-full text-left bg-slate-950">
@@ -1195,9 +1276,9 @@
                 `
             },
             {
-                title: "Chapter 7 (Tab 6): Automated Baseline & Excel Export",
-                badge: "CHAPTER 7 OF 7 — (APP TAB 6)",
-                narration: "Chapter 7 covers Tab 6 of the app. Tab 6 calculates automated historical baseline unit pricing models and exports your complete estimate directly into formatted Microsoft Excel spreadsheets.",
+                title: "Feature 7: Automated Baseline & Excel Export",
+                badge: "FEATURE 7 OF 9",
+                narration: "Feature 7 calculates automated historical baseline unit pricing models and exports your complete estimate directly into formatted Microsoft Excel spreadsheets.",
                 graphicHtml: `
                     <div class="flex items-center justify-between p-3 bg-slate-950 rounded-xl border border-emerald-500/40 text-xs font-mono">
                         <div class="space-y-1">
@@ -1205,6 +1286,47 @@
                             <div class="text-slate-300 text-[10px]">Includes 12-Month Moving Average & Lowest Bidder Benchmark</div>
                         </div>
                         <span class="px-4 py-2 bg-emerald-600/90 text-white rounded-lg font-bold text-xs shadow flex items-center gap-1 cursor-default">📥 Formatted Excel Export</span>
+                    </div>
+                `
+            },
+            {
+                title: "Feature 8: Amestx Calculated Unit Price Estimate",
+                badge: "FEATURE 8 OF 9",
+                narration: "Feature 8 provides Amestx's proprietary calculated unit price estimates to give your team a competitive edge when preparing contract bids.",
+                graphicHtml: `
+                    <div class="space-y-2 font-mono text-xs">
+                        <div class="flex items-center justify-between p-2.5 bg-slate-950 rounded-lg border border-cyan-500/40">
+                            <div>
+                                <div class="text-cyan-400 font-bold">ITEM 0100-6002: PREPARING ROW</div>
+                                <div class="text-slate-300 text-[10px]">Amestx Calculated Unit Price: <span class="text-emerald-400 font-bold">$448.33 / STA</span></div>
+                            </div>
+                            <span class="px-2 py-1 bg-cyan-950 text-cyan-300 border border-cyan-700 rounded text-[10px] font-bold">Proprietary Amestx Niche</span>
+                        </div>
+                        <div class="grid grid-cols-3 gap-2 text-center text-[10px]">
+                            <div class="p-2 bg-slate-950 rounded border border-slate-800"><div class="text-slate-400">12-Mo Low Bid</div><div class="text-emerald-400 font-bold">$310.00</div></div>
+                            <div class="p-2 bg-slate-950 rounded border border-slate-800"><div class="text-slate-400">12-Mo High Bid</div><div class="text-red-400 font-bold">$585.00</div></div>
+                            <div class="p-2 bg-slate-950 rounded border border-slate-800"><div class="text-slate-400">Engineer Est</div><div class="text-amber-300 font-bold">$450.00</div></div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                title: "Feature 9: TxDOT Item Codes & Specifications Database",
+                badge: "FEATURE 9 OF 9",
+                narration: "Feature 9 features a searchable database for all 2024 and 2014 TxDOT item codes, standard specification descriptions, measurement units, and downloadable Excel unit price rates.",
+                graphicHtml: `
+                    <div class="space-y-2 font-mono text-xs">
+                        <div class="flex items-center justify-between p-2.5 bg-slate-950 rounded-lg border border-purple-500/40">
+                            <div>
+                                <div class="text-purple-400 font-bold">SPEC BOOK 2024 & 2014 DATABASE</div>
+                                <div class="text-slate-300 text-[10px]">Searchable Item Codes, Descriptions & Units</div>
+                            </div>
+                            <span class="px-2 py-1 bg-purple-950 text-purple-300 border border-purple-700 rounded text-[10px] font-bold">Excel Rates Download</span>
+                        </div>
+                        <div class="p-2 bg-slate-950 rounded border border-slate-800 text-[10px] text-slate-300 flex justify-between">
+                            <span>Item 0500-6001 MOBILIZATION (LS)</span>
+                            <span class="text-purple-300 font-bold">2024 TxDOT Spec Standard</span>
+                        </div>
                     </div>
                 `
             }
@@ -1229,21 +1351,36 @@
             const buttons = document.querySelectorAll('.tut-chap-btn');
             buttons.forEach((btn, i) => {
                 if (i === currentTutChapter) {
-                    btn.className = "tut-chap-btn px-2.5 py-1 rounded-lg bg-blue-600 text-white font-bold transition shrink-0 whitespace-nowrap shadow";
+                    btn.className = "tut-chap-btn px-2.5 py-1 rounded-lg bg-blue-600 text-white font-extrabold shadow-lg shadow-blue-500/30 border border-blue-400 transition shrink-0 whitespace-nowrap";
                 } else {
-                    btn.className = "tut-chap-btn px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition shrink-0 whitespace-nowrap";
+                    btn.className = "tut-chap-btn px-2.5 py-1 rounded-lg bg-slate-900 text-cyan-300 border border-cyan-500/50 hover:bg-cyan-950/70 hover:text-white hover:border-cyan-300 font-bold transition shrink-0 whitespace-nowrap";
                 }
             });
         }
 
         function selectTutorialChapter(index) {
             stopVoiceAudio();
+            isFullTourActive = false;
             renderTutorialChapter(index);
+            playCurrentChapterVoice();
+        }
+
+        function startFullPresentationTour() {
+            stopVoiceAudio();
+            isFullTourActive = true;
+            renderTutorialChapter(0);
+            playCurrentChapterVoice();
+        }
+
+        function playSingleChapterVoice() {
+            stopVoiceAudio();
+            isFullTourActive = false;
             playCurrentChapterVoice();
         }
 
         function nextTutorialChapter() {
             stopVoiceAudio();
+            isFullTourActive = false;
             if (currentTutChapter < tutorialChapters.length - 1) {
                 renderTutorialChapter(currentTutChapter + 1);
             } else {
@@ -1254,6 +1391,7 @@
 
         function prevTutorialChapter() {
             stopVoiceAudio();
+            isFullTourActive = false;
             if (currentTutChapter > 0) {
                 renderTutorialChapter(currentTutChapter - 1);
             } else {
@@ -1262,6 +1400,7 @@
             playCurrentChapterVoice();
         }
 
+        let isFullTourActive = false;
         let isManualSpeechStop = false;
 
         function playCurrentChapterVoice() {
@@ -1273,7 +1412,7 @@
                 const stopBtn = document.getElementById('stopAudioBtn');
                 if (stopBtn) {
                     stopBtn.innerHTML = `<span>⏸ Pause Audio</span>`;
-                    stopBtn.className = "bg-rose-600 hover:bg-rose-500 text-white font-extrabold px-4 py-2 rounded-xl transition flex items-center gap-1.5 shadow";
+                    stopBtn.className = "bg-rose-600 hover:bg-rose-500 text-white font-extrabold px-3.5 py-2 rounded-xl transition flex items-center gap-1.5 shadow";
                 }
 
                 const chap = tutorialChapters[currentTutChapter];
@@ -1288,26 +1427,40 @@
                 const voiceLabel = selectedFemaleVoice ? selectedFemaleVoice.name : 'Female Voice';
                 const statusBadge = document.getElementById('voiceStatusBadge');
                 if (statusBadge) {
-                    statusBadge.innerHTML = `<span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span><span>🎙️ AI Female Voice (${voiceLabel}): Speaking Chapter ${currentTutChapter + 1}...</span>`;
+                    const modeLabel = isFullTourActive ? `Full Tour — Feature ${currentTutChapter + 1}/9` : `Feature ${currentTutChapter + 1}`;
+                    statusBadge.innerHTML = `<span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span><span>🎙️ AI Voice (${voiceLabel}): Speaking ${modeLabel}...</span>`;
                 }
 
                 utterance.onend = function() {
-                    if (currentTutChapter === tutorialChapters.length - 1) {
-                        // Chapter 7 completed! Silently move stage back to Chapter 1 without playing audio.
-                        renderTutorialChapter(0);
-                        if (statusBadge) {
-                            statusBadge.innerHTML = `<span class="w-2 h-2 rounded-full bg-slate-400"></span><span>🎙️ Presentation Finished (Returned to Chapter 1)</span>`;
+                    if (isManualSpeechStop) {
+                        if (stopBtn) {
+                            stopBtn.innerHTML = `<span>⏹ Stop Audio</span>`;
+                            stopBtn.className = "bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 font-bold px-3.5 py-2 rounded-xl transition flex items-center gap-1.5";
                         }
-                    } else {
-                        // Individual chapter speech completed! Stay on chapter and stop speech.
-                        if (statusBadge) {
-                            statusBadge.innerHTML = `<span class="w-2 h-2 rounded-full bg-slate-400"></span><span>🎙️ Chapter ${currentTutChapter + 1} Speech Completed</span>`;
-                        }
+                        return;
                     }
 
-                    if (stopBtn) {
-                        stopBtn.innerHTML = `<span>⏹ Stop Audio</span>`;
-                        stopBtn.className = "bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 font-bold px-4 py-2 rounded-xl transition flex items-center gap-1.5";
+                    if (isFullTourActive) {
+                        if (currentTutChapter < tutorialChapters.length - 1) {
+                            renderTutorialChapter(currentTutChapter + 1);
+                            setTimeout(() => {
+                                if (isFullTourActive && !isManualSpeechStop) {
+                                    playCurrentChapterVoice();
+                                }
+                            }, 350);
+                        } else {
+                            isFullTourActive = false;
+                            renderTutorialChapter(0);
+                            stopVoiceAudio();
+                            if (statusBadge) {
+                                statusBadge.innerHTML = `<span class="w-2 h-2 rounded-full bg-emerald-400"></span><span>🎙️ Tour Completed — Jumped to Feature 1 (Audio Stopped)</span>`;
+                            }
+                        }
+                    } else {
+                        stopVoiceAudio();
+                        if (statusBadge) {
+                            statusBadge.innerHTML = `<span class="w-2 h-2 rounded-full bg-slate-400"></span><span>🎙️ Feature ${currentTutChapter + 1} Speech Completed (Audio Stopped)</span>`;
+                        }
                     }
                 };
 
@@ -1328,11 +1481,12 @@
                     window.speechSynthesis.resume();
                     if (stopBtn) {
                         stopBtn.innerHTML = `<span>⏸ Pause Audio</span>`;
-                        stopBtn.className = "bg-rose-600 hover:bg-rose-500 text-white font-extrabold px-4 py-2 rounded-xl transition flex items-center gap-1.5 shadow";
+                        stopBtn.className = "bg-rose-600 hover:bg-rose-500 text-white font-extrabold px-3.5 py-2 rounded-xl transition flex items-center gap-1.5 shadow";
                     }
                     if (statusBadge) {
                         const voiceLabel = selectedFemaleVoice ? selectedFemaleVoice.name : 'Female Voice';
-                        statusBadge.innerHTML = `<span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span><span>🎙️ AI Female Voice (${voiceLabel}): Resumed Chapter ${currentTutChapter + 1}...</span>`;
+                        const modeLabel = isFullTourActive ? `Full Tour — Ch ${currentTutChapter + 1}/9` : `Chapter ${currentTutChapter + 1}`;
+                        statusBadge.innerHTML = `<span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span><span>🎙️ AI Voice (${voiceLabel}): Resumed ${modeLabel}...</span>`;
                     }
                 } else {
                     // Speech is currently playing -> PAUSE IT!
@@ -1340,27 +1494,27 @@
                     window.speechSynthesis.pause();
                     if (stopBtn) {
                         stopBtn.innerHTML = `<span>▶ Resume Audio</span>`;
-                        stopBtn.className = "bg-amber-500 hover:bg-amber-400 text-slate-950 font-extrabold px-4 py-2 rounded-xl transition flex items-center gap-1.5 shadow";
+                        stopBtn.className = "bg-amber-500 hover:bg-amber-400 text-slate-950 font-extrabold px-3.5 py-2 rounded-xl transition flex items-center gap-1.5 shadow";
                     }
                     if (statusBadge) {
                         statusBadge.innerHTML = `<span class="w-2 h-2 rounded-full bg-amber-400"></span><span>🎙️ Speech Paused (Click Resume to continue)</span>`;
                     }
                 }
             } else {
-                // Speech is not playing -> Start playing current chapter!
                 playCurrentChapterVoice();
             }
         }
 
         function stopVoiceAudio() {
             isManualSpeechStop = true;
+            isFullTourActive = false;
             if ('speechSynthesis' in window) {
                 window.speechSynthesis.cancel();
             }
             const stopBtn = document.getElementById('stopAudioBtn');
             if (stopBtn) {
                 stopBtn.innerHTML = `<span>⏹ Stop Audio</span>`;
-                stopBtn.className = "bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 font-bold px-4 py-2 rounded-xl transition flex items-center gap-1.5";
+                stopBtn.className = "bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 font-bold px-3.5 py-2 rounded-xl transition flex items-center gap-1.5";
             }
             const statusBadge = document.getElementById('voiceStatusBadge');
             if (statusBadge) {
@@ -1488,7 +1642,7 @@
                             </div>
                             <div class="pt-1 flex flex-col gap-2">
                                 <button onclick="closeRegistrationModal(); openPaymentModal('Pro Estimator');" class="w-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black py-2.5 px-3 rounded-xl shadow transition">
-                                    Upgrade to Pro Estimator ($139/mo or $97/yr) &rarr;
+                                    Upgrade to Pro Estimator ($129/mo or $96.75/yr) &rarr;
                                 </button>
                                 <button onclick="showNewRegistrationForm()" class="w-full bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold py-1.5 px-3 rounded-xl border border-slate-700 transition text-[11px]">
                                     ✏️ Register New Email Address
@@ -1565,22 +1719,22 @@
 
             if (selectedPlanForPayment.includes('Corporate')) {
                 if (isYearlyBilling) {
-                    if (cycleBadge) cycleBadge.innerText = "YEARLY BILLING (30% OFF)";
-                    if (priceDisp) priceDisp.innerHTML = "$307 <span class='text-xs font-normal text-slate-400'>/ month</span>";
-                    if (billedDisp) billedDisp.innerText = "Billed $3,684 annually (5 Seats)";
+                    if (cycleBadge) cycleBadge.innerText = "YEARLY BILLING (25% OFF)";
+                    if (priceDisp) priceDisp.innerHTML = "$307.50 <span class='text-xs font-normal text-slate-400'>/ month</span>";
+                    if (billedDisp) billedDisp.innerText = "Billed $3,690 annually (5 Seats)";
                 } else {
                     if (cycleBadge) cycleBadge.innerText = "MONTHLY BILLING";
-                    if (priceDisp) priceDisp.innerHTML = "$439 <span class='text-xs font-normal text-slate-400'>/ month</span>";
+                    if (priceDisp) priceDisp.innerHTML = "$410 <span class='text-xs font-normal text-slate-400'>/ month</span>";
                     if (billedDisp) billedDisp.innerText = "Billed monthly (5 Seats)";
                 }
             } else {
                 if (isYearlyBilling) {
-                    if (cycleBadge) cycleBadge.innerText = "YEARLY BILLING (30% OFF)";
-                    if (priceDisp) priceDisp.innerHTML = "$97 <span class='text-xs font-normal text-slate-400'>/ month</span>";
-                    if (billedDisp) billedDisp.innerText = "Billed $1,164 annually";
+                    if (cycleBadge) cycleBadge.innerText = "YEARLY BILLING (25% OFF)";
+                    if (priceDisp) priceDisp.innerHTML = "$96.75 <span class='text-xs font-normal text-slate-400'>/ month</span>";
+                    if (billedDisp) billedDisp.innerText = "Billed $1,161 annually";
                 } else {
                     if (cycleBadge) cycleBadge.innerText = "MONTHLY BILLING";
-                    if (priceDisp) priceDisp.innerHTML = "$139 <span class='text-xs font-normal text-slate-400'>/ month</span>";
+                    if (priceDisp) priceDisp.innerHTML = "$129 <span class='text-xs font-normal text-slate-400'>/ month</span>";
                     if (billedDisp) billedDisp.innerText = "Billed monthly";
                 }
             }
@@ -1638,8 +1792,7 @@
             const modal = document.getElementById('tutorialModal');
             if (modal) {
                 modal.classList.remove('hidden');
-                renderTutorialChapter(0);
-                playCurrentChapterVoice();
+                startFullPresentationTour();
             }
         }
 
@@ -1670,16 +1823,16 @@
             if (isYearlyBilling) {
                 if (dot) dot.className = "w-5 h-5 bg-white rounded-full transition-transform transform translate-x-7 shadow";
                 if (btn) btn.className = "w-14 h-7 bg-blue-600 rounded-full p-1 transition-colors relative focus:outline-none shadow-inner";
-                if (proPrice) proPrice.innerText = "$97";
+                if (proPrice) proPrice.innerText = "$96.75";
                 if (proUnit) proUnit.innerText = "/ month (Billed Annually)";
-                if (corpPrice) corpPrice.innerText = "$307";
+                if (corpPrice) corpPrice.innerText = "$307.50";
                 if (corpUnit) corpUnit.innerText = "/ month (Billed Annually)";
             } else {
                 if (dot) dot.className = "w-5 h-5 bg-white rounded-full transition-transform transform translate-x-0 shadow";
                 if (btn) btn.className = "w-14 h-7 bg-slate-700 rounded-full p-1 transition-colors relative focus:outline-none shadow-inner";
-                if (proPrice) proPrice.innerText = "$139";
+                if (proPrice) proPrice.innerText = "$129";
                 if (proUnit) proUnit.innerText = "/ month (Monthly Billing)";
-                if (corpPrice) corpPrice.innerText = "$439";
+                if (corpPrice) corpPrice.innerText = "$410";
                 if (corpUnit) corpUnit.innerText = "/ month (Monthly Billing)";
             }
         }
@@ -1687,7 +1840,7 @@
         // Initialize Slide 1 and Sync Theme on load
         window.addEventListener('load', function() {
             const selector = document.getElementById('themeSelectorHome');
-            if (selector) switchHomeTheme(selector.value || 'navy');
+            if (selector) switchHomeTheme(selector.value || 'light');
             goToSlide(0);
 
             const urlParams = new URLSearchParams(window.location.search);

@@ -401,6 +401,107 @@
             color: #0f172a !important;
         }
 
+        /* High-Contrast White Text Overrides for Solid Blue Buttons & Badges in Light Mode */
+        body.theme-light-mode .bg-blue-600,
+        body.theme-amtekpro-light .bg-blue-600,
+        body.theme-light-mode .bg-blue-600 *,
+        body.theme-amtekpro-light .bg-blue-600 *,
+        body.theme-light-mode #monthTabsContainer button.bg-blue-600,
+        body.theme-amtekpro-light #monthTabsContainer button.bg-blue-600,
+        body.theme-light-mode #monthTabsContainer button.bg-blue-600 *,
+        body.theme-amtekpro-light #monthTabsContainer button.bg-blue-600 *,
+        body.theme-light-mode #searchBarHeaderBlock button,
+        body.theme-amtekpro-light #searchBarHeaderBlock button,
+        body.theme-light-mode #searchBarHeaderBlock button *,
+        body.theme-amtekpro-light #searchBarHeaderBlock button * {
+            background-color: #2563EB !important;
+            color: #FFFFFF !important;
+            font-weight: 800 !important;
+        }
+
+        body.theme-light-mode #monthTabsContainer button:not(.bg-blue-600),
+        body.theme-amtekpro-light #monthTabsContainer button:not(.bg-blue-600) {
+            background-color: #E2E8F0 !important;
+            color: #1E293B !important;
+            border: 1px solid #CBD5E1 !important;
+            font-weight: 600 !important;
+        }
+
+        /* High-Contrast Table Header Sort Badges Overrides */
+        body.theme-light-mode table th span[id^="sort-badge-"].bg-blue-600,
+        body.theme-amtekpro-light table th span[id^="sort-badge-"].bg-blue-600 {
+            background-color: #0284C7 !important;
+            color: #FFFFFF !important;
+            font-weight: 800 !important;
+            border: 1px solid #0369A1 !important;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) !important;
+        }
+
+        body.theme-txdot-navy table th span[id^="sort-badge-"].bg-blue-600 {
+            background-color: #00F0FF !important;
+            color: #0B132B !important;
+            font-weight: 800 !important;
+            border: 1px solid #00F0FF !important;
+            box-shadow: 0 0 10px rgba(0, 240, 255, 0.4) !important;
+        }
+
+        body.theme-light-mode table th span[id^="sort-badge-"]:not(.bg-blue-600),
+        body.theme-amtekpro-light table th span[id^="sort-badge-"]:not(.bg-blue-600) {
+            background-color: #F1F5F9 !important;
+            color: #334155 !important;
+            border: 1px solid #CBD5E1 !important;
+            font-weight: 700 !important;
+        }
+
+        body.theme-txdot-navy table th span[id^="sort-badge-"]:not(.bg-blue-600) {
+            background-color: #1C2541 !important;
+            color: #94A3B8 !important;
+            border: 1px solid #3A506B !important;
+            font-weight: 700 !important;
+        }
+
+        /* High-Contrast Contractor Card Email Links */
+        .contractor-email-link,
+        a.contractor-email-link,
+        body.theme-light-mode .contractor-email-link,
+        body.theme-amtekpro-light .contractor-email-link,
+        body.theme-light-mode #contractorsGrid a.contractor-email-link,
+        body.theme-amtekpro-light #contractorsGrid a.contractor-email-link,
+        body.theme-light-mode #contractorsGrid .contractor-email-link,
+        body.theme-amtekpro-light #contractorsGrid .contractor-email-link {
+            color: #D97706 !important;
+            font-weight: 700 !important;
+            display: inline-block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+            background: none !important;
+            border: none !important;
+        }
+
+        body.theme-light-mode #contractorsGrid a.contractor-email-link:hover,
+        body.theme-amtekpro-light #contractorsGrid a.contractor-email-link:hover {
+            color: #B45309 !important;
+            text-decoration: underline !important;
+        }
+
+        body.theme-txdot-navy .contractor-email-link,
+        body.theme-txdot-navy a.contractor-email-link,
+        body.theme-txdot-navy #contractorsGrid a.contractor-email-link,
+        body.theme-txdot-navy #contractorsGrid .contractor-email-link {
+            color: #00F0FF !important;
+            font-weight: 700 !important;
+            display: inline-block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+            background: none !important;
+            border: none !important;
+        }
+
+        body.theme-txdot-navy #contractorsGrid a.contractor-email-link:hover {
+            color: #38BDF8 !important;
+            text-decoration: underline !important;
+        }
+
         /* High-Contrast Colored Accents in Light Mode */
         body.theme-light-mode .text-blue-400,
         body.theme-light-mode .text-blue-300,
@@ -526,6 +627,32 @@
         body.theme-light-mode #itemCodesGrid span,
         body.theme-amtekpro-light #itemCodesGrid span {
             color: #334155 !important;
+        }
+
+        /* High-Contrast Directory Action Buttons & Active Letter Filter Tabs */
+        body.theme-light-mode #mplGrid a.bg-blue-600,
+        body.theme-amtekpro-light #mplGrid a.bg-blue-600,
+        body.theme-light-mode #mplGrid a.bg-blue-600 span,
+        body.theme-amtekpro-light #mplGrid a.bg-blue-600 span,
+        body.theme-light-mode #itemCodesGrid a.bg-emerald-600,
+        body.theme-amtekpro-light #itemCodesGrid a.bg-emerald-600,
+        body.theme-light-mode #itemCodesGrid a.bg-emerald-600 span,
+        body.theme-amtekpro-light #itemCodesGrid a.bg-emerald-600 span {
+            color: #FFFFFF !important;
+        }
+
+        body.theme-light-mode #mplLetterTabs button.bg-blue-600,
+        body.theme-amtekpro-light #mplLetterTabs button.bg-blue-600,
+        body.theme-light-mode #contractorLetterTabs button.bg-blue-600,
+        body.theme-amtekpro-light #contractorLetterTabs button.bg-blue-600,
+        body.theme-light-mode #itemCodeSeriesTabs button.bg-emerald-600,
+        body.theme-amtekpro-light #itemCodeSeriesTabs button.bg-emerald-600,
+        body.theme-txdot-navy #mplLetterTabs button.bg-blue-600,
+        body.theme-txdot-navy #contractorLetterTabs button.bg-blue-600,
+        body.theme-txdot-navy #itemCodeSeriesTabs button.bg-blue-600 {
+            background-color: #2563EB !important;
+            color: #FFFFFF !important;
+            font-weight: 800 !important;
         }
 
         /* High-Contrast Table Footer & Sky Blue Total Bar in Light Mode */
@@ -1377,12 +1504,6 @@
                         <input type="text" id="itemCodeSearchInput" oninput="filterItemCodes()" placeholder="Search item code, title, or description (e.g. 110, Excavation, Flex Base, 500, Concrete)..." class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-emerald-500 transition font-sans">
                     </div>
                     <button onclick="clearItemCodeSearch()" class="px-4 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold rounded-xl border border-slate-700 transition whitespace-nowrap">Clear Filter</button>
-                    <a href="downloads/TxDOT_Average_Bid_Prices_Item_Wise.xlsx" download="TxDOT_Average_Bid_Prices_Item_Wise.xlsx" class="px-4 py-2.5 bg-gradient-to-r from-amber-500 to-emerald-500 hover:from-amber-400 hover:to-emerald-400 text-slate-950 font-extrabold text-xs rounded-xl shadow transition whitespace-nowrap flex items-center space-x-2">
-                        <span>📊 TxDOT Average Bid Prices (Excel)</span>
-                    </a>
-                    <a href="downloads/spec-book-0924.pdf" target="_blank" class="px-4 py-2.5 bg-emerald-600/20 hover:bg-emerald-600 text-emerald-300 hover:text-white text-xs font-bold rounded-xl border border-emerald-500/40 transition whitespace-nowrap flex items-center space-x-2 shadow">
-                        <span>📥 2024 Spec Book (PDF)</span>
-                    </a>
                 </div>
 
                 <!-- Division Filter Tabs -->
@@ -1424,6 +1545,21 @@
     </footer>
 
     <script>
+        function applyColorTheme(themeName) {
+            document.body.classList.remove('theme-amtekpro-light', 'theme-txdot-navy', 'theme-light-mode');
+            if (themeName === 'txdot-navy') {
+                document.body.classList.add('theme-txdot-navy');
+            } else {
+                document.body.classList.add('theme-amtekpro-light', 'theme-light-mode');
+            }
+            localStorage.setItem('amestx_color_theme', themeName);
+            const selector = document.getElementById('themeSelector');
+            if (selector) selector.value = themeName;
+            if (typeof renderContractorsGrid === 'function' && typeof allContractorsList !== 'undefined' && allContractorsList.length > 0) {
+                renderContractorsGrid();
+            }
+        }
+
         let selectedCSJs = new Set();
         let currentMonth = '2026-09';
         let selectedYear = '2026';
@@ -1587,9 +1723,11 @@
                     ? "bg-amber-500 text-slate-950 font-bold" 
                     : "bg-amber-100 dark:bg-amber-950/80 border border-amber-300 dark:border-amber-500/50 text-amber-900 dark:text-amber-300";
 
+                const isNavyTheme = document.body.classList.contains('theme-txdot-navy');
+                const emailTextColor = isNavyTheme ? '#00F0FF' : '#D97706';
                 const emailLink = c.email 
-                    ? `<a href="mailto:${c.email}" class="text-xs text-amber-700 dark:text-amber-400 hover:underline font-mono font-bold truncate block" title="Email ${c.email}">✉ ${c.email}</a>` 
-                    : '<span class="text-xs text-slate-400 font-mono">No Email Listed</span>';
+                    ? `<a href="mailto:${c.email}" style="color: ${emailTextColor} !important; opacity: 1 !important; visibility: visible !important; display: inline-block !important;" class="contractor-email-link text-xs hover:underline font-mono font-bold whitespace-nowrap" title="Email ${c.email}">✉ ${c.email}</a>` 
+                    : '<span class="text-xs text-slate-400 font-mono italic">No Email Listed</span>';
                 const phoneStr = c.phone ? `<span class="text-xs text-slate-700 dark:text-slate-300 font-mono font-semibold">📞 ${c.phone}</span>` : '';
                 const faxStr = c.fax ? `<span class="text-xs text-slate-500 dark:text-slate-400 font-mono">📠 ${c.fax}</span>` : '';
 
@@ -1602,8 +1740,8 @@
                         <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed font-sans mt-1">📍 <span class="font-semibold text-slate-800 dark:text-slate-200">${c.address && c.address !== 'Address on file with TxDOT' ? c.address : c.name + ' - Official Registered Office, TxDOT Division, TX'}</span></p>
                     </div>
                     <div class="pt-3 border-t border-slate-200 dark:border-slate-800/80 flex flex-wrap items-center justify-between gap-2 mt-2">
-                        <div class="flex items-center space-x-3">${phoneStr}${faxStr}</div>
-                        ${emailLink}
+                        <div class="flex items-center space-x-3 shrink-0">${phoneStr}${faxStr}</div>
+                        <div class="shrink-0 max-w-full">${emailLink}</div>
                     </div>
                 `;
                 grid.appendChild(card);
@@ -1740,9 +1878,9 @@
                     </div>
                     <div class="pt-3 border-t border-slate-200 dark:border-slate-800/80 flex items-center justify-between gap-2 mt-2">
                         <span class="text-[11px] text-slate-500 dark:text-slate-400 font-sans">Official TxDOT Specification Sheet</span>
-                        <a href="${item.pdfUrl}" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 text-xs font-bold bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition flex items-center space-x-1.5 shadow">
-                            <span>Open PDF</span>
-                            <span class="text-xs">↗</span>
+                        <a href="${item.pdfUrl}" target="_blank" rel="noopener noreferrer" class="px-3.5 py-1.5 text-xs font-extrabold bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition flex items-center space-x-1.5 shadow">
+                            <span class="text-white font-extrabold">Open PDF</span>
+                            <span class="text-xs text-white font-extrabold">↗</span>
                         </a>
                     </div>
                 `;
@@ -1753,6 +1891,15 @@
         // TxDOT Standard Specification Item Codes State
         let allItemCodesList = [];
         let activeItemSeries = 'ALL';
+
+        function getTxDotSpecPdfUrl(code) {
+            if (!code) return 'https://ftp.dot.state.tx.us/pub/txdot-info/cmd/cserve/specs/2024/standard/';
+            const str = String(code).trim();
+            const firstPart = str.split(/[\s\-]+/)[0] || '';
+            const numOnly = firstPart.replace(/^0+/, '');
+            if (!numOnly) return 'https://ftp.dot.state.tx.us/pub/txdot-info/cmd/cserve/specs/2024/standard/';
+            return `https://ftp.dot.state.tx.us/pub/txdot-info/cmd/cserve/specs/2024/standard/s${numOnly}.pdf`;
+        }
 
         async function openItemCodesModal() {
             const modal = document.getElementById('itemCodesModal');
@@ -1873,6 +2020,8 @@
             }
 
             filtered.forEach(item => {
+                const itemNum = (item.itemCode || '').toString().trim().replace(/^0+/, '');
+                const specPdfUrl = getTxDotSpecPdfUrl(item.itemCode);
                 const card = document.createElement('div');
                 card.className = "item-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 space-y-3 hover:border-emerald-500 transition shadow-sm flex flex-col justify-between group";
                 
@@ -1880,7 +2029,10 @@
                     <div class="space-y-1.5">
                         <div class="flex items-start justify-between gap-2">
                             <div class="flex items-center space-x-2">
-                                <span class="text-xs bg-emerald-100 dark:bg-emerald-950/90 border border-emerald-300 dark:border-emerald-500/60 text-emerald-900 dark:text-emerald-300 font-mono font-bold px-2.5 py-0.5 rounded shadow-sm">Item ${item.itemCode}</span>
+                                <a href="${specPdfUrl}" target="_blank" rel="noopener noreferrer" title="Open TxDOT s${itemNum}.pdf Specification PDF" class="text-xs bg-emerald-100 dark:bg-emerald-950/90 hover:bg-emerald-200 border border-emerald-300 dark:border-emerald-500/60 text-emerald-900 dark:text-emerald-300 font-mono font-bold px-2.5 py-0.5 rounded shadow-sm flex items-center gap-1 transition">
+                                    <span>Item ${item.itemCode}</span>
+                                    <span class="text-[10px]">↗</span>
+                                </a>
                                 <h4 class="text-sm font-extrabold text-slate-900 dark:text-white tracking-tight leading-snug group-hover:text-emerald-600 dark:group-hover:text-emerald-300 transition">${item.title}</h4>
                             </div>
                             <span class="text-[10px] bg-slate-100 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-400 px-2 py-0.5 rounded font-mono shrink-0">${item.specBook}</span>
@@ -1889,10 +2041,15 @@
                     </div>
                     <div class="pt-3 border-t border-slate-200 dark:border-slate-800/80 flex items-center justify-between gap-2 mt-2">
                         <span class="text-[11px] text-slate-500 font-mono">${item.category}</span>
-                        <a href="downloads/spec-book-0924.pdf" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 text-xs font-bold bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg transition flex items-center space-x-1.5 shadow">
-                            <span>TxDOT Specs Hub</span>
-                            <span class="text-xs">↗</span>
-                        </a>
+                        <div class="flex items-center space-x-2">
+                            <a href="${specPdfUrl}" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 text-xs font-bold bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg transition flex items-center space-x-1.5 shadow">
+                                <span>📄 s${itemNum}.pdf</span>
+                                <span class="text-xs">↗</span>
+                            </a>
+                            <a href="downloads/spec-book-0924.pdf" target="_blank" rel="noopener noreferrer" class="px-2.5 py-1.5 text-[11px] font-extrabold bg-amber-500 hover:bg-amber-400 text-slate-950 rounded-lg transition flex items-center space-x-1 shadow border border-amber-400">
+                                <span>📕 Book</span>
+                            </a>
+                        </div>
                     </div>
                 `;
                 grid.appendChild(card);
@@ -1969,10 +2126,10 @@
                 const badge = document.getElementById(`sort-badge-${k}`);
                 if (!badge) return;
                 if (k === sortKey) {
-                    badge.className = "text-[10px] bg-blue-900/80 border border-blue-500 text-blue-300 px-1.5 py-0.5 rounded font-sans font-bold";
+                    badge.className = "text-[10px] bg-blue-600 text-white dark:bg-blue-900/80 dark:text-blue-300 border border-blue-500 px-1.5 py-0.5 rounded font-sans font-extrabold shadow-sm";
                     badge.innerText = sortAsc ? "A-B ↑" : "B-A ↓";
                 } else {
-                    badge.className = "text-[10px] bg-slate-800 border border-slate-700 text-slate-400 px-1.5 py-0.5 rounded font-sans";
+                    badge.className = "text-[10px] bg-slate-200 text-slate-800 dark:bg-slate-800 dark:text-slate-400 border border-slate-300 dark:border-slate-700 px-1.5 py-0.5 rounded font-sans font-semibold";
                     badge.innerText = "A-B ↕";
                 }
             });
@@ -3079,12 +3236,16 @@
                         const itemNo = parts[0] || "";
                         const specCode = parts[1] || "";
                         const qty = item.quantity || 0;
+                        const itemNoClean = itemNo.replace(/^0+/, '');
+                        const pdfUrl = getTxDotSpecPdfUrl(itemNo);
 
                         const tr = document.createElement('tr');
                         tr.className = "hover:bg-slate-800/30";
                         tr.innerHTML = `
                             <td class="py-2 px-3 text-slate-700 dark:text-slate-300 font-mono text-center font-semibold text-xs">${item.alt || item.altCode || item.alt_code || '-'}</td>
-                            <td class="py-2 px-3 text-slate-300 font-mono text-center">${itemNo}</td>
+                            <td class="py-2 px-3 text-slate-300 font-mono text-center">
+                                <a href="${pdfUrl}" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:text-sky-300 hover:underline font-bold" title="Open TxDOT s${itemNoClean}.pdf Spec Sheet">${itemNo} <span class="text-[10px] text-emerald-400 font-mono">(s${itemNoClean}.pdf ↗)</span></a>
+                            </td>
                             <td class="py-2 px-3 text-slate-300 font-mono text-center">${specCode}</td>
                             <td class="py-2 px-3 text-slate-900 dark:text-white font-sans font-medium">${item.description || ''}</td>
                             <td class="py-2 px-3 text-slate-400 text-center">${item.unit || ''}</td>
@@ -3112,6 +3273,8 @@
                         const itemNo = parts[0] || "";
                         const specCode = parts[1] || "";
                         const qty = item.quantity || 0;
+                        const itemNoClean = itemNo.replace(/^0+/, '');
+                        const pdfUrl = getTxDotSpecPdfUrl(itemNo);
                         const isItem800 = (code, iNo) => {
                             const c = (code || iNo || '').toString().trim();
                             if (c === '800' || c === '0800') return true;
@@ -3127,7 +3290,9 @@
                         tr.className = "hover:bg-slate-800/30";
                         tr.innerHTML = `
                             <td class="py-2 px-3 text-slate-700 dark:text-slate-300 font-mono text-center font-semibold text-xs">${item.alt || item.altCode || item.alt_code || '-'}</td>
-                            <td class="py-2 px-3 text-slate-300 font-mono text-center">${itemNo}</td>
+                            <td class="py-2 px-3 text-slate-300 font-mono text-center">
+                                <a href="${pdfUrl}" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:text-sky-300 hover:underline font-bold" title="Open TxDOT s${itemNoClean}.pdf Spec Sheet">${itemNo} <span class="text-[10px] text-emerald-400 font-mono">(s${itemNoClean}.pdf ↗)</span></a>
+                            </td>
                             <td class="py-2 px-3 text-slate-300 font-mono text-center">${specCode}</td>
                             <td class="py-2 px-3 text-slate-900 dark:text-white font-sans font-medium">${item.description || ''}</td>
                             <td class="py-2 px-3 text-slate-400 text-center">${item.unit || ''}</td>
@@ -3216,7 +3381,9 @@
 
                             let trRow = `
                                 <td class="py-2.5 px-3 font-mono text-rose-400 font-bold">${diff < 0 ? `(${Math.abs(diff).toFixed(2)})` : diff.toFixed(2)}</td>
-                                <td class="py-2.5 px-3 font-mono text-center text-slate-300">${item.code || ''}</td>
+                                <td class="py-2.5 px-3 font-mono text-center text-slate-300">
+                                    <a href="${getTxDotSpecPdfUrl(item.code || '')}" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:text-sky-300 hover:underline font-bold" title="Open TxDOT s${(item.code || '').toString().trim().split(/[\s\-]+/)[0].replace(/^0+/, '')}.pdf Spec Sheet">${item.code || ''} <span class="text-[10px] text-emerald-400 font-mono">(s${(item.code || '').toString().trim().split(/[\s\-]+/)[0].replace(/^0+/, '')}.pdf ↗)</span></a>
+                                </td>
                                 <td class="py-2.5 px-3 font-sans text-slate-900 dark:text-white font-medium">${item.description || ''}</td>
                                 <td class="py-2.5 px-3 font-mono text-center text-slate-400">${item.unit || ''}</td>
                                 <td class="py-2.5 px-3 font-mono text-right text-sky-400">${(item.quantity || 0).toLocaleString(undefined, {minimumFractionDigits:3})}</td>
@@ -3262,7 +3429,9 @@
                             tr.className = "hover:bg-slate-800/40";
                             tr.innerHTML = `
                                 <td class="py-2.5 px-3 font-mono text-slate-400 text-center">${diff === 0 ? '$0.00' : (diff < 0 ? `(${formatCurrency(Math.abs(diff))})` : formatCurrency(diff))}</td>
-                                <td class="py-2.5 px-3 font-mono text-center text-slate-300">${item.code || ''}</td>
+                                <td class="py-2.5 px-3 font-mono text-center text-slate-300">
+                                    <a href="${getTxDotSpecPdfUrl(item.code || '')}" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:text-sky-300 hover:underline font-bold" title="Open TxDOT s${(item.code || '').toString().trim().split(/[\s\-]+/)[0].replace(/^0+/, '')}.pdf Spec Sheet">${item.code || ''} <span class="text-[10px] text-emerald-400 font-mono">(s${(item.code || '').toString().trim().split(/[\s\-]+/)[0].replace(/^0+/, '')}.pdf ↗)</span></a>
+                                </td>
                                 <td class="py-2.5 px-3 font-sans text-slate-900 dark:text-white font-medium">${item.description || ''}</td>
                                 <td class="py-2.5 px-3 font-mono text-center text-slate-400">${item.unit || ''}</td>
                                 <td class="py-2.5 px-3 font-mono text-right text-sky-400">${(item.quantity || 0).toLocaleString(undefined, {minimumFractionDigits:3})}</td>

@@ -53,17 +53,20 @@ function Is-Item800([string]$code) {
 
 function Get-AmestxCompositePrice ([string]$bidCode, [double]$engEstUnit = 0.00, [double]$lowBidUnit = 0.00, [double]$highBidUnit = 0.00) {
     if (Is-Item800 $bidCode) { return 0.00 }
+
+    # 1. Direct Project Bids (Low Bidder + High Bidder + Engineer Estimate) / N
     $prices = @()
     if ($lowBidUnit -gt 0) { $prices += $lowBidUnit }
-    if ($highBidUnit -gt 0 -and $highBidUnit -ne $lowBidUnit) { $prices += $highBidUnit }
+    if ($highBidUnit -gt 0) { $prices += $highBidUnit }
     if ($engEstUnit -gt 0) { $prices += $engEstUnit }
 
-    if ($prices.Count -ge 2) {
+    if ($prices.Count -gt 0) {
         $sum = 0.0
         foreach ($p in $prices) { $sum += $p }
         return [math]::Round($sum / $prices.Count, 2)
     }
 
+    # 2. Historical 12-Month Benchmarks from TxDOT Dataset (de7b-7dna)
     $normCode = Normalize-TxDotBidCode $bidCode
     if ([string]::IsNullOrWhiteSpace($normCode)) { 
         if ($engEstUnit -gt 0) { return $engEstUnit }
@@ -71,7 +74,7 @@ function Get-AmestxCompositePrice ([string]$bidCode, [double]$engEstUnit = 0.00,
         return 0.00 
     }
     
-    if ($avgPriceCache.ContainsKey($normCode)) { 
+    if ($avgPriceCache -and $avgPriceCache.ContainsKey($normCode)) { 
         $cached = $avgPriceCache[$normCode]
         if ($cached -gt 0) {
             $benchmarks = @($cached)
@@ -83,28 +86,28 @@ function Get-AmestxCompositePrice ([string]$bidCode, [double]$engEstUnit = 0.00,
     }
     
     try {
-        $urlLow = "https://data.texas.gov/resource/de7b-7dna.json?`$select=bid_code,AVG(bid_item_unit_price_amount)+as+low_avg&`$where=(low_bidder_flag='true'+OR+low_bidder_flag='True'+OR+bid_rank_sequence_number='1')+AND+bid_code='$normCode'&`$group=bid_code"
+        $last12Mo = ([datetime]::Now.AddMonths(-12)).ToString("yyyy-MM-01T00:00:00")
+
+        $urlLow = "https://data.texas.gov/resource/de7b-7dna.json?`$select=bid_code,AVG(bid_item_unit_price_amount)+as+low_avg&`$where=project_actual_let_date>='$last12Mo'+AND+(low_bidder_flag='true'+OR+low_bidder_flag='True'+OR+bid_rank_sequence_number='1')+AND+bid_code='$normCode'&`$group=bid_code"
         $resLow = Invoke-RestMethod -Uri $urlLow -UserAgent "Mozilla/5.0" -UseBasicParsing -TimeoutSec 5
 
-        $urlAll = "https://data.texas.gov/resource/de7b-7dna.json?`$select=bid_code,AVG(bid_item_unit_price_amount)+as+all_avg&`$where=bid_code='$normCode'&`$group=bid_code"
+        $urlHigh = "https://data.texas.gov/resource/de7b-7dna.json?`$select=bid_code,AVG(bid_item_unit_price_amount)+as+high_avg&`$where=project_actual_let_date>='$last12Mo'+AND+(bid_rank_sequence_number='2'+OR+bid_rank_sequence_number='3')+AND+bid_code='$normCode'&`$group=bid_code"
+        $resHigh = Invoke-RestMethod -Uri $urlHigh -UserAgent "Mozilla/5.0" -UseBasicParsing -TimeoutSec 5
+
+        $urlAll = "https://data.texas.gov/resource/de7b-7dna.json?`$select=bid_code,AVG(bid_item_unit_price_amount)+as+all_avg&`$where=project_actual_let_date>='$last12Mo'+AND+bid_code='$normCode'&`$group=bid_code"
         $resAll = Invoke-RestMethod -Uri $urlAll -UserAgent "Mozilla/5.0" -UseBasicParsing -TimeoutSec 5
 
         $bList = @()
-        if ($resLow -and $resLow.Count -gt 0 -and $resLow[0].low_avg) {
-            $bList += [double]$resLow[0].low_avg
-        }
-        if ($resAll -and $resAll.Count -gt 0 -and $resAll[0].all_avg) {
-            $bList += [double]$resAll[0].all_avg
-        }
-        if ($engEstUnit -gt 0) {
-            $bList += $engEstUnit
-        }
+        if ($resLow -and $resLow.Count -gt 0 -and $resLow[0].low_avg) { $bList += [double]$resLow[0].low_avg }
+        if ($resHigh -and $resHigh.Count -gt 0 -and $resHigh[0].high_avg) { $bList += [double]$resHigh[0].high_avg }
+        if ($resAll -and $resAll.Count -gt 0 -and $resAll[0].all_avg) { $bList += [double]$resAll[0].all_avg }
+        if ($engEstUnit -gt 0) { $bList += $engEstUnit }
 
         if ($bList.Count -gt 0) {
             $sum = 0.0
             foreach ($b in $bList) { $sum += $b }
             $compAvg = [math]::Round($sum / $bList.Count, 2)
-            $avgPriceCache[$normCode] = $compAvg
+            if ($avgPriceCache) { $avgPriceCache[$normCode] = $compAvg }
             return $compAvg
         }
     } catch {}
@@ -212,8 +215,28 @@ else {
     $letDateRaw = if ($firstRow.bids_will_be_opened_date) { $firstRow.bids_will_be_opened_date } else { $firstRow.project_approved_let_date }
     $bidsOpened = if ($letDateRaw) { ([datetime]$letDateRaw).ToString("M/dd/yyyy") } else { "N/A" }
 
-    $sortedItems = $rawItems | Sort-Object {[int]$_.bid_item_sequence_number}
-    foreach ($item in $sortedItems) {
+    # Filter out empty/invalid item rows
+    $validItems = $rawItems | Where-Object {
+        -not [string]::IsNullOrWhiteSpace($_.bid_code) -or -not [string]::IsNullOrWhiteSpace($_.bid_item_description) -or -not [string]::IsNullOrWhiteSpace($_.specification_description)
+    }
+
+    # Group items by bid_code (falling back to description) and sort by sequence
+    $itemGroups = $validItems | Group-Object {
+        if (-not [string]::IsNullOrWhiteSpace($_.bid_code)) { $_.bid_code.ToString().Trim() }
+        else { $_.bid_item_description.ToString().Trim() }
+    } | Sort-Object { [int]$_.Group[0].bid_item_sequence_number }
+
+    foreach ($ig in $itemGroups) {
+        $rows = $ig.Group
+        $item = $rows[0]
+
+        $totalQty = 0.0
+        foreach ($r in $rows) {
+            $qVal = 0.0
+            if ($r.bid_item_quantity) { [double]::TryParse($r.bid_item_quantity, [ref]$qVal) | Out-Null }
+            $totalQty += $qVal
+        }
+
         $codeStr = if ($item.bid_code) { $item.bid_code.Replace("-", " ").Trim() } else { "" }
         $parts = $codeStr -split '\s+'
         $itemNo = if ($parts.Length -gt 0) { $parts[0] } else { "" }
@@ -229,7 +252,7 @@ else {
             specCode = $specCode
             description = $descStr
             unit = $item.measurement_unit
-            quantity = [double]$item.bid_item_quantity
+            quantity = $totalQty
             engEstPrice = $avgUnitPrice
         }
     }

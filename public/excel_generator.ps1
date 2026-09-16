@@ -381,27 +381,32 @@ $ws.Cells.Item($totalRow, 6).Value = "TOTAL"
 $ws.Cells.Item($totalRow, 6).Font.Bold = $true
 $ws.Cells.Item($totalRow, 6).HorizontalAlignment = -4152 # Right align
 
-# Eng Est Total (SUMPRODUCT Qty * Eng Est Unit Price, PURPLE font color)
+# Eng Est Total (SUMPRODUCT Qty * Eng Est Unit Price, PURPLE font color, Bright Yellow fill)
 $ws.Cells.Item($totalRow, 7).Formula = "=SUMPRODUCT(F23:F" + ($totalRow - 1) + ", G23:G" + ($totalRow - 1) + ")"
 $ws.Cells.Item($totalRow, 7).NumberFormat = "$#,##0.00"
 $ws.Cells.Item($totalRow, 7).Font.Bold = $true
-$ws.Cells.Item($totalRow, 7).Font.Color = 10498160 # Purple
+$ws.Cells.Item($totalRow, 7).Font.Color = 10498160 # Purple (#7030A0)
+$ws.Cells.Item($totalRow, 7).Interior.Color = 65535 # Bright Yellow (#FFFF00)
+$ws.Cells.Item($totalRow, 7).Interior.Pattern = 1 # xlSolid
 
 if ($realBidders.Count -gt 0) {
-    # Low Bidder Unit Price Sum (GREEN font color)
+    # Low Bidder / Bidder 1 Unit Price Sum (GREEN font color matching top summary, Bright Yellow fill, Bold)
     $ws.Cells.Item($totalRow, 8).Formula = "=SUMPRODUCT(F23:F" + ($totalRow - 1) + ", H23:H" + ($totalRow - 1) + ")"
     $ws.Cells.Item($totalRow, 8).NumberFormat = "$#,##0.00"
     $ws.Cells.Item($totalRow, 8).Font.Bold = $true
-    $ws.Cells.Item($totalRow, 8).Font.Color = 52736 # Bright Green
+    $ws.Cells.Item($totalRow, 8).Font.Color = 32768 # Green font (#008000) matching Bidder 1 top summary
+    $ws.Cells.Item($totalRow, 8).Interior.Color = 65535 # Bright Yellow (#FFFF00)
+    $ws.Cells.Item($totalRow, 8).Interior.Pattern = 1 # xlSolid
 
-    # Low Bidder Extension Sum (GREEN font color, Yellow fill)
+    # Low Bidder / Bidder 1 Extension Sum (GREEN font color matching top summary, Bright Yellow fill, Bold)
     $ws.Cells.Item($totalRow, 9).Formula = "=SUM(I23:I" + ($totalRow - 1) + ")"
     $ws.Cells.Item($totalRow, 9).NumberFormat = "$#,##0.00"
     $ws.Cells.Item($totalRow, 9).Font.Bold = $true
-    $ws.Cells.Item($totalRow, 9).Font.Color = 52736 # Bright Green
-    $ws.Cells.Item($totalRow, 9).Interior.Color = 65535 # Bright Yellow
+    $ws.Cells.Item($totalRow, 9).Font.Color = 32768 # Green font (#008000) matching Bidder 1 top summary
+    $ws.Cells.Item($totalRow, 9).Interior.Color = 65535 # Bright Yellow (#FFFF00)
+    $ws.Cells.Item($totalRow, 9).Interior.Pattern = 1 # xlSolid
 
-    # Other Bidders Totals (SUMPRODUCT Qty * Unit Price, BLACK font color, Yellow fill)
+    # Other Bidders Totals (SUMPRODUCT Qty * Unit Price, BLACK font color, Bright Yellow fill, Bold)
     $c = 10
     for ($i = 1; $i -lt $realBidders.Count; $i++) {
         $colLetter = [char](64 + $c)
@@ -412,18 +417,22 @@ if ($realBidders.Count -gt 0) {
         $ws.Cells.Item($totalRow, $c).NumberFormat = "$#,##0.00"
         $ws.Cells.Item($totalRow, $c).Font.Bold = $true
         $ws.Cells.Item($totalRow, $c).Font.Color = 0 # Black
-        $ws.Cells.Item($totalRow, $c).Interior.Color = 65535 # Bright Yellow
+        $ws.Cells.Item($totalRow, $c).Interior.Color = 65535 # Bright Yellow (#FFFF00)
+        $ws.Cells.Item($totalRow, $c).Interior.Pattern = 1 # xlSolid
         $c++
     }
 } else {
     $ws.Cells.Item($totalRow, 8).Value = 0.00
     $ws.Cells.Item($totalRow, 8).NumberFormat = "$#,##0.00"
     $ws.Cells.Item($totalRow, 8).Font.Bold = $true
+    $ws.Cells.Item($totalRow, 8).Interior.Color = 65535 # Bright Yellow (#FFFF00)
+    $ws.Cells.Item($totalRow, 8).Interior.Pattern = 1 # xlSolid
     
     $ws.Cells.Item($totalRow, 9).Formula = "=SUM(I23:I" + ($totalRow - 1) + ")"
     $ws.Cells.Item($totalRow, 9).NumberFormat = "$#,##0.00"
     $ws.Cells.Item($totalRow, 9).Font.Bold = $true
-    $ws.Cells.Item($totalRow, 9).Interior.Color = 65535 # Bright Yellow
+    $ws.Cells.Item($totalRow, 9).Interior.Color = 65535 # Bright Yellow (#FFFF00)
+    $ws.Cells.Item($totalRow, 9).Interior.Pattern = 1 # xlSolid
 }
 
 # Border for TOTALS row

@@ -222,21 +222,23 @@
         body.theme-txdot-navy #mplModal > div,
         body.theme-txdot-navy #itemCodesModal > div {
             background-color: #0B132B !important;
-            border-color: #3A506B !important;
+            border: 2px solid #3A506B !important;
             color: #FFFFFF !important;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7) !important;
         }
 
         body.theme-txdot-navy #contractorsModal .border-b,
         body.theme-txdot-navy #mplModal .border-b,
         body.theme-txdot-navy #itemCodesModal .border-b {
             background-color: #1C2541 !important;
-            border-color: #3A506B !important;
+            border-bottom: 2px solid #3A506B !important;
         }
 
         body.theme-txdot-navy #contractorsModal h3,
         body.theme-txdot-navy #mplModal h3,
         body.theme-txdot-navy #itemCodesModal h3 {
             color: #FFFFFF !important;
+            font-weight: 800 !important;
         }
 
         body.theme-txdot-navy #contractorsModal p,
@@ -251,13 +253,17 @@
             background-color: #1C2541 !important;
             color: #E2E8F0 !important;
             border: 1px solid #3A506B !important;
+            font-weight: 600 !important;
         }
 
-        body.theme-txdot-navy #contractorLetterTabs button.bg-blue-600,
+        body.theme-txdot-navy #contractorLetterTabs button.bg-amber-500,
         body.theme-txdot-navy #mplLetterTabs button.bg-blue-600,
-        body.theme-txdot-navy #itemCodeSeriesTabs button.bg-blue-600 {
-            background-color: #2563EB !important;
+        body.theme-txdot-navy #itemCodeSeriesTabs button.bg-emerald-600 {
+            background-color: #059669 !important;
             color: #FFFFFF !important;
+            font-weight: 800 !important;
+            border-color: #10B981 !important;
+            box-shadow: 0 0 10px rgba(16, 185, 129, 0.4) !important;
         }
 
         body.theme-txdot-navy #contractorsGrid > div,
@@ -267,8 +273,8 @@
         body.theme-txdot-navy .mpl-card,
         body.theme-txdot-navy .item-card {
             background-color: #1C2541 !important;
-            border-color: #3A506B !important;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+            border: 1px solid #3A506B !important;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4) !important;
         }
 
         body.theme-txdot-navy #contractorsGrid h4,
@@ -278,21 +284,91 @@
         body.theme-txdot-navy .mpl-card h4,
         body.theme-txdot-navy .item-card h4 {
             color: #FFFFFF !important;
+            font-weight: 800 !important;
         }
 
         body.theme-txdot-navy #contractorsGrid p,
-        body.theme-txdot-navy #contractorsGrid span,
         body.theme-txdot-navy #mplGrid p,
-        body.theme-txdot-navy #mplGrid span,
         body.theme-txdot-navy #itemCodesGrid p,
-        body.theme-txdot-navy #itemCodesGrid span,
         body.theme-txdot-navy .contractor-card p,
-        body.theme-txdot-navy .contractor-card span,
         body.theme-txdot-navy .mpl-card p,
-        body.theme-txdot-navy .mpl-card span,
-        body.theme-txdot-navy .item-card p,
-        body.theme-txdot-navy .item-card span {
+        body.theme-txdot-navy .item-card p {
             color: #E2E8F0 !important;
+        }
+
+        /* Item Cards Top Badges Navy Overrides (FIX FOR WHITE-ON-WHITE INVISIBILITY) */
+        body.theme-txdot-navy .item-card a[title="Open TxDOT Specification Details"] {
+            background-color: #064E3B !important;
+            border: 1px solid #059669 !important;
+            box-shadow: 0 0 8px rgba(52, 211, 153, 0.2) !important;
+        }
+
+        body.theme-txdot-navy .item-card a[title="Open TxDOT Specification Details"] span {
+            color: #34D399 !important;
+            font-weight: 800 !important;
+        }
+
+        body.theme-txdot-navy .item-card span.bg-slate-100 {
+            background-color: #1E293B !important;
+            border: 1px solid #334155 !important;
+            color: #94A3B8 !important;
+            font-weight: 700 !important;
+        }
+
+        body.theme-txdot-navy .item-card span.text-slate-500 {
+            color: #38BDF8 !important;
+            font-weight: 700 !important;
+        }
+
+        /* Item Code Action Buttons inside Cards */
+        body.theme-txdot-navy .item-card a.bg-emerald-600 {
+            background-color: #059669 !important;
+            border: 1px solid #10B981 !important;
+        }
+
+        body.theme-txdot-navy .item-card a.bg-emerald-600 span {
+            color: #FFFFFF !important;
+            font-weight: 800 !important;
+        }
+
+        body.theme-txdot-navy .item-card a.bg-amber-500 {
+            background-color: #D97706 !important;
+            border: 1px solid #FBBF24 !important;
+        }
+
+        body.theme-txdot-navy .item-card a.bg-amber-500 span {
+            color: #0F172A !important;
+            font-weight: 900 !important;
+        }
+
+        /* Contractor & MPL Card Badges & Links in Navy Theme */
+        body.theme-txdot-navy .contractor-card span.bg-amber-100 {
+            background-color: #0B132B !important;
+            border: 1px solid #D97706 !important;
+            color: #FBBF24 !important;
+            font-weight: 700 !important;
+        }
+
+        body.theme-txdot-navy .contractor-card a.contractor-email-link {
+            color: #00F0FF !important;
+            font-weight: 700 !important;
+        }
+
+        body.theme-txdot-navy .mpl-card span.bg-blue-100 {
+            background-color: #0B132B !important;
+            border: 1px solid #2563EB !important;
+            color: #60A5FA !important;
+            font-weight: 700 !important;
+        }
+
+        body.theme-txdot-navy .mpl-card a.bg-blue-600 {
+            background-color: #2563EB !important;
+            color: #FFFFFF !important;
+        }
+
+        body.theme-txdot-navy .mpl-card a.bg-blue-600 span {
+            color: #FFFFFF !important;
+            font-weight: 800 !important;
         }
 
         body.theme-txdot-navy #contractorsModal input,
@@ -1575,6 +1651,7 @@
         let activeSelectedBidder = null;
 
         async function openContractorsModal(contractorName = '', bidderObj = null) {
+            if (!checkFeatureTrialAccess()) return;
             const modal = document.getElementById('contractorsModal');
             if (modal) modal.classList.remove('hidden');
 
@@ -1753,6 +1830,7 @@
         let activeMplLetter = 'ALL';
 
         async function openMplModal() {
+            if (!checkFeatureTrialAccess()) return;
             const modal = document.getElementById('mplModal');
             if (modal) modal.classList.remove('hidden');
             if (allMplList.length === 0) {
@@ -1898,17 +1976,23 @@
             const firstPart = str.split(/[\s\-]+/)[0] || '';
             const numOnly = firstPart.replace(/^0+/, '');
             if (!numOnly) return 'https://ftp.dot.state.tx.us/pub/txdot-info/cmd/cserve/specs/2024/standard/';
+            if (numOnly.startsWith('8')) {
+                if (['8039', '8040', '8042'].includes(numOnly)) {
+                    return `https://ftp.dot.state.tx.us/pub/txdot-info/cmd/cserve/specs/2014/spec/ss${numOnly}.pdf`;
+                }
+                return `https://ftp.dot.state.tx.us/pub/txdot-info/cmd/cserve/specs/2024/spec/ss${numOnly}.pdf`;
+            }
             return `https://ftp.dot.state.tx.us/pub/txdot-info/cmd/cserve/specs/2024/standard/s${numOnly}.pdf`;
         }
 
         async function openItemCodesModal() {
+            if (!checkFeatureTrialAccess()) return;
             const modal = document.getElementById('itemCodesModal');
             if (modal) modal.classList.remove('hidden');
             if (allItemCodesList.length === 0) {
                 await loadItemCodesData();
-            } else {
-                renderItemCodesGrid();
             }
+            renderItemCodesModal();
         }
 
         function closeItemCodesModal() {
@@ -1923,7 +2007,6 @@
             const staticPaths = [
                 'downloads/item_codes.json',
                 '/downloads/item_codes.json',
-                'public/downloads/item_codes.json',
                 '/public/downloads/item_codes.json'
             ];
 
@@ -1957,7 +2040,8 @@
                 { id: '400', label: '400 Structures' },
                 { id: '500', label: '500 Incidentals' },
                 { id: '600', label: '600 Lighting & Signals' },
-                { id: '700', label: '700 Maintenance' }
+                { id: '700', label: '700 Maintenance' },
+                { id: '800', label: '800 Materials Supply' }
             ];
 
             seriesList.forEach(s => {
@@ -1998,7 +2082,9 @@
             const filtered = allItemCodesList.filter(item => {
                 let matchesSeries = true;
                 if (activeItemSeries !== 'ALL') {
-                    matchesSeries = (item.category || '').startsWith(activeItemSeries);
+                    const cat = (item.category || '').toLowerCase();
+                    const code = (item.itemCode || '').toLowerCase();
+                    matchesSeries = cat.startsWith(activeItemSeries.toLowerCase()) || code.startsWith(activeItemSeries.toLowerCase()) || (activeItemSeries === '800' && (cat.includes('800') || code.startsWith('80')));
                 }
 
                 let matchesSearch = true;
@@ -2021,7 +2107,13 @@
 
             filtered.forEach(item => {
                 const itemNum = (item.itemCode || '').toString().trim().replace(/^0+/, '');
+                const is800Series = itemNum.startsWith('8') || (item.category || '').includes('800');
                 const specPdfUrl = getTxDotSpecPdfUrl(item.itemCode);
+                const bookUrl = 'downloads/spec-book-0924.pdf';
+
+                const pdfBtnLabel = is800Series ? `📄 ss${itemNum}.pdf` : `📄 s${itemNum}.pdf`;
+                const bookBtnLabel = '📕 Spec Book';
+
                 const card = document.createElement('div');
                 card.className = "item-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 space-y-3 hover:border-emerald-500 transition shadow-sm flex flex-col justify-between group";
                 
@@ -2029,7 +2121,7 @@
                     <div class="space-y-1.5">
                         <div class="flex items-start justify-between gap-2">
                             <div class="flex items-center space-x-2">
-                                <a href="${specPdfUrl}" target="_blank" rel="noopener noreferrer" title="Open TxDOT s${itemNum}.pdf Specification PDF" class="text-xs bg-emerald-100 dark:bg-emerald-950/90 hover:bg-emerald-200 border border-emerald-300 dark:border-emerald-500/60 text-emerald-900 dark:text-emerald-300 font-mono font-bold px-2.5 py-0.5 rounded shadow-sm flex items-center gap-1 transition">
+                                <a href="${specPdfUrl}" target="_blank" rel="noopener noreferrer" title="Open TxDOT Specification Details" class="text-xs bg-emerald-100 dark:bg-emerald-950/90 hover:bg-emerald-200 border border-emerald-300 dark:border-emerald-500/60 text-emerald-900 dark:text-emerald-300 font-mono font-bold px-2.5 py-0.5 rounded shadow-sm flex items-center gap-1 transition">
                                     <span>Item ${item.itemCode}</span>
                                     <span class="text-[10px]">↗</span>
                                 </a>
@@ -2043,11 +2135,11 @@
                         <span class="text-[11px] text-slate-500 font-mono">${item.category}</span>
                         <div class="flex items-center space-x-2">
                             <a href="${specPdfUrl}" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 text-xs font-bold bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg transition flex items-center space-x-1.5 shadow">
-                                <span>📄 s${itemNum}.pdf</span>
+                                <span>${pdfBtnLabel}</span>
                                 <span class="text-xs">↗</span>
                             </a>
-                            <a href="downloads/spec-book-0924.pdf" target="_blank" rel="noopener noreferrer" class="px-2.5 py-1.5 text-[11px] font-extrabold bg-amber-500 hover:bg-amber-400 text-slate-950 rounded-lg transition flex items-center space-x-1 shadow border border-amber-400">
-                                <span>📕 Book</span>
+                            <a href="${bookUrl}" target="_blank" rel="noopener noreferrer" class="px-2.5 py-1.5 text-[11px] font-extrabold bg-amber-500 hover:bg-amber-400 text-slate-950 rounded-lg transition flex items-center space-x-1 shadow border border-amber-400">
+                                <span>${bookBtnLabel}</span>
                             </a>
                         </div>
                     </div>
@@ -2088,6 +2180,7 @@
             });
 
             yearSelect.onchange = (e) => {
+                if (!checkFeatureTrialAccess()) return;
                 selectedYear = e.target.value;
                 const currentMonthNum = (currentMonth && currentMonth.includes('-')) ? currentMonth.split('-')[1] : '09';
                 currentMonth = `${selectedYear}-${currentMonthNum}`;
@@ -2112,6 +2205,7 @@
                     : "bg-slate-700/60 hover:bg-slate-700 text-slate-300 px-2 py-1 rounded-md transition font-sans text-[11px] whitespace-nowrap";
                 btn.innerText = label;
                 btn.onclick = () => {
+                    if (!checkFeatureTrialAccess()) return;
                     currentMonth = monthCode;
                     renderMonthButtons();
                     fetchMonthlyLettings(monthCode);
@@ -2287,6 +2381,7 @@
                 document.body.classList.add('theme-light-mode');
                 document.body.classList.add('theme-amtekpro-light');
             }
+            if (typeof checkUserTrialStatus === 'function') checkUserTrialStatus();
         }
 
         function handleCSJSearchInput(val) {
@@ -2350,6 +2445,7 @@
         }
 
         function executeCSJSearch() {
+            if (!checkFeatureTrialAccess()) return;
             const input = document.getElementById('csjSearchInput');
             if (!input) return;
             const raw = input.value.trim();
@@ -2720,6 +2816,7 @@
         }
 
         async function handleViewProject(csj) {
+            if (!checkFeatureTrialAccess()) return;
             currentCSJ = csj;
             try {
                 let data = null;
@@ -4825,6 +4922,7 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
         }
 
         function downloadTxdotAverageBidPricesExcel() {
+            if (!checkFeatureTrialAccess()) return;
             const link = document.createElement('a');
             link.href = 'downloads/TxDOT_Average_Bid_Prices_Item_Wise.xlsx';
             link.download = 'TxDOT_Average_Bid_Prices_Item_Wise.xlsx';
@@ -4845,6 +4943,7 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
         }
 
         async function exportMultiProjectTasksExcel() {
+            if (!checkFeatureTrialAccess()) return;
             if (selectedCSJs.size === 0) {
                 alert("Please select at least one project checkbox first.");
                 return;
@@ -5129,19 +5228,80 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
             updateSelectionUI();
         }
 
+        function checkFeatureTrialAccess(actionCallback) {
+            // 1. Active Subscription Check
+            const subStr = localStorage.getItem('amestx_subscription');
+            if (subStr) {
+                try {
+                    const sub = JSON.parse(subStr);
+                    if (sub && sub.active) {
+                        if (typeof actionCallback === 'function') actionCallback();
+                        return true;
+                    }
+                } catch(e) {}
+            }
+
+            // 2. Active 7-Day Free Trial Check
+            const profileStr = localStorage.getItem('amestx_user_profile');
+            if (profileStr) {
+                try {
+                    const profile = JSON.parse(profileStr);
+                    if (profile.email && profile.email !== 'user@amestx.com' && profile.name !== 'Trial User') {
+                        const registeredAt = profile.registeredAt || Date.now();
+                        const elapsedMs = Date.now() - registeredAt;
+                        const elapsedDays = elapsedMs / (1000 * 60 * 60 * 24);
+                        if (elapsedDays <= 7) {
+                            if (typeof actionCallback === 'function') actionCallback();
+                            return true;
+                        }
+                    }
+                } catch(e) {}
+            }
+
+            // If no subscription and trial expired or unregistered, redirect directly to payment checkout on index.html
+            window.location.href = "index.html?openPayment=1";
+            return false;
+        }
+
+        function setStatusBadgeStyle(type, content) {
+            const badge = document.getElementById('userAccountStatusBadge');
+            if (!badge) return;
+
+            const isLight = document.body.classList.contains('theme-light-mode') || document.body.classList.contains('theme-amtekpro-light');
+
+            let base = "flex items-center space-x-2 text-xs px-3.5 py-1.5 rounded-full shrink-0 font-extrabold shadow ";
+
+            if (type === 'subscribed') {
+                base += isLight 
+                    ? "bg-emerald-100 text-emerald-950 border border-emerald-600 font-extrabold" 
+                    : "bg-emerald-950/90 text-emerald-300 border border-emerald-500/80";
+            } else if (type === 'expired') {
+                base += isLight 
+                    ? "bg-rose-100 text-rose-950 border border-rose-600 font-extrabold" 
+                    : "bg-rose-950/90 text-rose-300 border border-rose-600";
+            } else if (type === 'trial') {
+                base += isLight 
+                    ? "bg-blue-100 text-blue-950 border-2 border-blue-600 font-black shadow-sm" 
+                    : "bg-blue-950/90 text-blue-300 border border-blue-500/80";
+            } else if (type === 'preview') {
+                base += isLight 
+                    ? "bg-amber-100 text-amber-950 border border-amber-600 font-extrabold" 
+                    : "bg-amber-950/90 text-amber-300 border border-amber-500/80";
+            }
+
+            badge.className = base;
+            badge.innerHTML = `<span>${content}</span>`;
+            badge.classList.remove('hidden');
+        }
+
         function checkUserTrialStatus() {
             const subStr = localStorage.getItem('amestx_subscription');
-            const badge = document.getElementById('userAccountStatusBadge');
             
             if (subStr) {
                 try {
                     const sub = JSON.parse(subStr);
                     if (sub && sub.active) {
-                        if (badge) {
-                            badge.className = "flex items-center space-x-2 text-xs bg-emerald-950/90 border border-emerald-500/80 px-3.5 py-1.5 rounded-full text-emerald-300 shrink-0 font-bold shadow";
-                            badge.innerHTML = `<span>⭐ ${sub.plan || 'Pro Subscribed'}</span>`;
-                            badge.classList.remove('hidden');
-                        }
+                        setStatusBadgeStyle('subscribed', `⭐ ${sub.plan || 'Pro Subscribed'}`);
                         return;
                     }
                 } catch(e) {}
@@ -5151,44 +5311,24 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
             if (profileStr) {
                 try {
                     const profile = JSON.parse(profileStr);
-                    if (profile.email === 'user@amestx.com' || profile.name === 'Trial User' || !profile.email) {
-                        localStorage.removeItem('amestx_user_profile');
-                        window.location.href = "index.html?register=1";
+                    if (profile.email && profile.email !== 'user@amestx.com' && profile.name !== 'Trial User') {
+                        const registeredAt = profile.registeredAt || Date.now();
+                        const elapsedMs = Date.now() - registeredAt;
+                        const elapsedDays = elapsedMs / (1000 * 60 * 60 * 24);
+                        const daysRemaining = Math.max(0, Math.ceil(7 - elapsedDays));
+
+                        if (elapsedDays > 7) {
+                            setStatusBadgeStyle('expired', `⚠️ Trial Expired (7 Days)`);
+                        } else {
+                            setStatusBadgeStyle('trial', `⏱️ Free Trial (${daysRemaining} Days Left)`);
+                        }
                         return;
                     }
-                    const registeredAt = profile.registeredAt || Date.now();
-                    const elapsedMs = Date.now() - registeredAt;
-                    const elapsedDays = elapsedMs / (1000 * 60 * 60 * 24);
-                    const daysRemaining = Math.max(0, Math.ceil(7 - elapsedDays));
-
-                    if (elapsedDays > 7) {
-                        const modal = document.getElementById('trialExpiredModal');
-                        const msg = document.getElementById('trialExpiredMsg');
-                        if (modal) {
-                            if (msg) {
-                                const expDate = new Date(registeredAt + (7 * 24 * 60 * 60 * 1000)).toLocaleDateString();
-                                msg.innerHTML = `Your 7-day free trial registered for <strong>${profile.email}</strong> on ${new Date(registeredAt).toLocaleDateString()} expired after 7 days on <strong>${expDate}</strong>.<br><br>Free access is no longer active for this account. Please upgrade to a paid plan to continue.`;
-                            }
-                            modal.classList.remove('hidden');
-                        }
-                        if (badge) {
-                            badge.className = "flex items-center space-x-2 text-xs bg-rose-950/90 border border-rose-600 px-3.5 py-1.5 rounded-full text-rose-300 shrink-0 font-bold shadow";
-                            badge.innerHTML = `<span>⚠️ Trial Expired (7 Days)</span>`;
-                            badge.classList.remove('hidden');
-                        }
-                    } else {
-                        if (badge) {
-                            badge.classList.add('hidden');
-                        }
-                    }
-                } catch(e) {
-                    localStorage.removeItem('amestx_user_profile');
-                    window.location.href = "index.html?register=1";
-                }
-            } else {
-                // NO REGISTRATION FOUND! Require user to register email on home.html first
-                window.location.href = "index.html?register=1";
+                } catch(e) {}
             }
+
+            // Unregistered new visitor previewing layout
+            setStatusBadgeStyle('preview', `👀 App Preview Mode`);
         }
 
         // Initialize safely when DOM is fully interactive

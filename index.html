@@ -234,9 +234,31 @@
             box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08) !important;
         }
 
-        body.theme-light .dark-card-inner {
-            background-color: #f1f5f9 !important;
-            border-color: #cbd5e1 !important;
+        /* Tab 6 Light Turquoise Card & High-Contrast Text Rules in White Theme */
+        body.theme-light #tab6NicheCard {
+            background-color: #ECFEFF !important;
+            border: 2px solid #06B6D4 !important;
+            box-shadow: 0 10px 25px -5px rgba(6, 182, 212, 0.25) !important;
+        }
+
+        body.theme-light #tab6NicheCard h3 {
+            color: #083344 !important;
+            font-weight: 800 !important;
+        }
+
+        body.theme-light #tab6NicheCard p {
+            color: #1E293B !important;
+            font-weight: 500 !important;
+        }
+
+        body.theme-light #tab6NicheCard strong {
+            color: #0E7490 !important;
+            font-weight: 800 !important;
+        }
+
+        body.theme-light #tab6NicheCard span {
+            color: #FFFFFF !important;
+            background-color: #0891B2 !important;
         }
 
         /* Hero Mockup Card Box Styling in White Theme ONLY */
@@ -425,9 +447,9 @@
                     <option value="navy">⚓ Theme: Navy</option>
                 </select>
 
-                <!-- Sign In Button -->
+                <!-- Launch App Button -->
                 <button onclick="handleSignInClick()" class="inline-flex text-xs font-extrabold text-slate-950 bg-amber-500 hover:bg-amber-400 px-4 py-2.5 rounded-xl shadow-lg transition items-center gap-1.5 cursor-pointer">
-                    <span>Sign In / Launch App</span>
+                    <span>Launch App</span>
                     <span>&rarr;</span>
                 </button>
             </div>
@@ -460,7 +482,7 @@
                         </p>
 
                         <div class="pt-2 flex flex-wrap items-center gap-4">
-                            <button onclick="openRegistrationModal()" class="bg-amber-500 hover:bg-amber-400 text-slate-950 font-extrabold text-base px-6 py-3.5 rounded-xl shadow-xl transition-all transform hover:-translate-y-0.5 flex items-center gap-2.5">
+                            <button onclick="handleSignInClick()" class="bg-amber-500 hover:bg-amber-400 text-slate-950 font-extrabold text-base px-6 py-3.5 rounded-xl shadow-xl transition-all transform hover:-translate-y-0.5 flex items-center gap-2.5">
                                 <span>Request Demo / 7-Day Free Trial</span>
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                             </button>
@@ -585,17 +607,17 @@
                         <p class="text-xs text-slate-200 leading-relaxed font-medium">Line-item unit price comparison across all bidders vs engineer estimate. Identify pricing trends.</p>
                     </div>
 
-                    <!-- Highlighted Tab 6: Amestx Exclusive Niche Feature -->
-                    <div class="p-4 rounded-2xl border-2 border-amber-400 bg-gradient-to-br from-slate-900 via-amber-950/50 to-slate-900 text-white transition shadow-2xl space-y-2 relative overflow-hidden neon-box-amber">
+                    <!-- Highlighted Tab 6: Amestx Exclusive Niche Feature (Light Turquoise Theme) -->
+                    <div id="tab6NicheCard" class="p-4 rounded-2xl border-2 border-cyan-500 dark:border-cyan-400 bg-cyan-50 dark:bg-gradient-to-br dark:from-slate-900 dark:via-cyan-950/60 dark:to-slate-900 transition shadow-xl space-y-2 relative overflow-hidden neon-box-cyan">
                         <div class="flex items-center justify-between">
-                            <div class="w-9 h-9 rounded-xl bg-amber-400 text-slate-950 flex items-center justify-center font-mono font-black text-xs shadow">06</div>
-                            <span class="px-2 py-0.5 rounded-full bg-amber-400 text-slate-950 text-[9px] font-black uppercase tracking-wider shadow flex items-center gap-1">
+                            <div class="w-9 h-9 rounded-xl bg-cyan-600 dark:bg-cyan-400 text-white dark:text-slate-950 flex items-center justify-center font-mono font-black text-xs shadow">06</div>
+                            <span class="px-2 py-0.5 rounded-full bg-cyan-600 dark:bg-cyan-400 text-white dark:text-slate-950 text-[9px] font-black uppercase tracking-wider shadow flex items-center gap-1">
                                 ⭐ EXCLUSIVE AMESTX NICHE
                             </span>
                         </div>
-                        <h3 class="text-sm font-extrabold text-amber-300">Tab 6: Amestx Prepare Estimate</h3>
-                        <p class="text-[11px] text-slate-200 leading-relaxed">
-                            Automated baseline cost model calculation & estimate sheet creation. <strong class="text-amber-300">Proprietary Amestx feature — no competitor offers this!</strong> Instant formatted Excel export.
+                        <h3 class="text-sm font-extrabold text-cyan-950 dark:text-cyan-300">Tab 6: Amestx Prepare Estimate</h3>
+                        <p class="text-[11px] text-slate-800 dark:text-slate-200 leading-relaxed font-medium">
+                            Automated baseline cost model calculation & estimate sheet creation. <strong class="text-cyan-900 dark:text-cyan-300 font-extrabold">Proprietary Amestx feature — no competitor offers this!</strong> Instant formatted Excel export.
                         </p>
                     </div>
 
@@ -771,19 +793,19 @@
                             <!-- Dual Price Option Display -->
                             <div class="space-y-1">
                                 <div class="flex items-baseline gap-1">
-                                    <span class="text-4xl font-black text-white" id="proPriceDisp">$96.75</span>
+                                    <span class="text-4xl font-black text-white" id="proPriceDisp">$99.00</span>
                                     <span class="text-xs font-semibold text-slate-300" id="proUnitDisp">/ month (Billed Annually)</span>
                                 </div>
                                 <div class="text-[11px] text-slate-400 font-mono" id="proSubtextDisp">
-                                    Monthly Rate: <span class="text-slate-200 font-bold">$129 / mo</span> • <span class="text-amber-300 font-bold">Yearly: $96.75 / mo (25% OFF)</span>
+                                    Monthly Rate: <span class="text-slate-200 font-bold">$129.00 / mo</span> • <span class="text-amber-300 font-bold">Yearly: $99.00 / mo (25% OFF)</span>
                                 </div>
                             </div>
 
                             <hr class="border-slate-700">
                             <ul class="space-y-2 text-xs font-semibold text-slate-200">
                                 <li class="flex items-center gap-2">✓ Single Estimator License</li>
-                                <li class="flex items-center gap-2">✓ Monthly Rate: <strong>$129 / month</strong></li>
-                                <li class="flex items-center gap-2 text-amber-300">✓ Yearly Rate: <strong>$96.75 / month (25% OFF)</strong></li>
+                                <li class="flex items-center gap-2">✓ Monthly Rate: <strong>$129.00 / month</strong></li>
+                                <li class="flex items-center gap-2 text-amber-300">✓ Yearly Rate: <strong>$99.00 / month (25% OFF)</strong></li>
                                 <li class="flex items-center gap-2">✓ Historical Letting Archives (2020 - 2026)</li>
                                 <li class="flex items-center gap-2">✓ Priority FTP Syncing & Formatted Exports</li>
                             </ul>
@@ -805,19 +827,19 @@
                             <!-- Dual Price Option Display -->
                             <div class="space-y-1">
                                 <div class="flex items-baseline gap-1">
-                                    <span class="text-4xl font-black text-white" id="corpPriceDisp">$307.50</span>
+                                    <span class="text-4xl font-black text-white" id="corpPriceDisp">$299.00</span>
                                     <span class="text-xs font-semibold text-slate-300" id="corpUnitDisp">/ month (Billed Annually)</span>
                                 </div>
                                 <div class="text-[11px] text-slate-400 font-mono" id="corpSubtextDisp">
-                                    Monthly Rate: <span class="text-slate-200 font-bold">$410 / mo</span> • <span class="text-amber-300 font-bold">Yearly: $307.50 / mo (25% OFF)</span>
+                                    Monthly Rate: <span class="text-slate-200 font-bold">$399.00 / mo</span> • <span class="text-amber-300 font-bold">Yearly: $299.00 / mo (25% OFF)</span>
                                 </div>
                             </div>
 
                             <hr class="border-slate-700">
                             <ul class="space-y-2 text-xs font-semibold text-slate-200">
                                 <li class="flex items-center gap-2">✓ <strong>5 Estimator Seats Included</strong></li>
-                                <li class="flex items-center gap-2">✓ Monthly Team Rate: <strong>$410 / month</strong></li>
-                                <li class="flex items-center gap-2 text-amber-300">✓ Yearly Team Rate: <strong>$307.50 / month (25% OFF)</strong></li>
+                                <li class="flex items-center gap-2">✓ Monthly Team Rate: <strong>$399.00 / month</strong></li>
+                                <li class="flex items-center gap-2 text-amber-300">✓ Yearly Team Rate: <strong>$299.00 / month (25% OFF)</strong></li>
                                 <li class="flex items-center gap-2">✓ Shared Team Workbooks & Multi-User Access</li>
                                 <li class="flex items-center gap-2">✓ Priority Support & Custom Baseline Engine</li>
                             </ul>
@@ -988,7 +1010,7 @@
                     <span class="text-xs sm:text-sm font-bold text-white font-mono ml-2">Amestx™ Interactive AI Studio & Features Presentation</span>
                 </div>
                 <div class="flex items-center gap-3">
-                    <a href="https://youtube.com" target="_blank" onclick="stopVoiceAudio()" class="text-xs font-mono font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40 px-3 py-1 rounded-lg hover:bg-amber-500/30 transition flex items-center gap-1.5">
+                    <a href="https://youtu.be/COtybqwXYbY" target="_blank" onclick="stopVoiceAudio()" class="text-xs font-mono font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40 px-3 py-1 rounded-lg hover:bg-amber-500/30 transition flex items-center gap-1.5">
                         <span>↗️ Open Video on YouTube</span>
                     </a>
                     <button onclick="closeTutorialModal()" class="w-8 h-8 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white flex items-center justify-center font-bold text-base transition">✕</button>
@@ -1750,7 +1772,7 @@
             if (modal) modal.classList.add('hidden');
         }
 
-        function submitRegistration(e) {
+        async function submitRegistration(e) {
             e.preventDefault();
             const name = document.getElementById('regFullName').value;
             const company = document.getElementById('regCompany').value;
@@ -1758,6 +1780,33 @@
             const phone = document.getElementById('regPhone').value;
             const role = document.getElementById('regRole').value;
 
+            const profilePayload = { name, company, email, phone, role };
+
+            try {
+                const res = await fetch('/api/register-trial', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(profilePayload)
+                });
+                if (res.ok) {
+                    const data = await res.json();
+                    if (data.expired) {
+                        alert(`⚠️ 7-Day Free Trial Expired for (${email} / ${phone}).\n\nRe-registering with this email or telephone number is not allowed.\nPlease select a subscription plan below to unlock full access.`);
+                        closeRegistrationModal();
+                        openPaymentModal('Pro Estimator');
+                        return;
+                    }
+                    if (data.profile) {
+                        localStorage.setItem('amestx_user_profile', JSON.stringify(data.profile));
+                        window.location.href = "app.html";
+                        return;
+                    }
+                }
+            } catch (err) {
+                console.warn("Server trial validation offline, falling back to local trial tracking", err);
+            }
+
+            // Fallback for offline / static client usage
             const profile = {
                 name,
                 company,
@@ -1790,21 +1839,21 @@
             if (selectedPlanForPayment.includes('Corporate')) {
                 if (isYearlyBilling) {
                     if (cycleBadge) cycleBadge.innerText = "YEARLY BILLING (25% OFF)";
-                    if (priceDisp) priceDisp.innerHTML = "$307.50 <span class='text-xs font-normal text-slate-400'>/ month</span>";
-                    if (billedDisp) billedDisp.innerText = "Billed $3,690 annually (5 Seats)";
+                    if (priceDisp) priceDisp.innerHTML = "$299.00 <span class='text-xs font-normal text-slate-400'>/ month</span>";
+                    if (billedDisp) billedDisp.innerText = "Billed $3,588 annually (5 Seats)";
                 } else {
                     if (cycleBadge) cycleBadge.innerText = "MONTHLY BILLING";
-                    if (priceDisp) priceDisp.innerHTML = "$410 <span class='text-xs font-normal text-slate-400'>/ month</span>";
+                    if (priceDisp) priceDisp.innerHTML = "$399.00 <span class='text-xs font-normal text-slate-400'>/ month</span>";
                     if (billedDisp) billedDisp.innerText = "Billed monthly (5 Seats)";
                 }
             } else {
                 if (isYearlyBilling) {
                     if (cycleBadge) cycleBadge.innerText = "YEARLY BILLING (25% OFF)";
-                    if (priceDisp) priceDisp.innerHTML = "$96.75 <span class='text-xs font-normal text-slate-400'>/ month</span>";
-                    if (billedDisp) billedDisp.innerText = "Billed $1,161 annually";
+                    if (priceDisp) priceDisp.innerHTML = "$99.00 <span class='text-xs font-normal text-slate-400'>/ month</span>";
+                    if (billedDisp) billedDisp.innerText = "Billed $1,188 annually";
                 } else {
                     if (cycleBadge) cycleBadge.innerText = "MONTHLY BILLING";
-                    if (priceDisp) priceDisp.innerHTML = "$129 <span class='text-xs font-normal text-slate-400'>/ month</span>";
+                    if (priceDisp) priceDisp.innerHTML = "$129.00 <span class='text-xs font-normal text-slate-400'>/ month</span>";
                     if (billedDisp) billedDisp.innerText = "Billed monthly";
                 }
             }
@@ -1875,7 +1924,7 @@
         }
 
         function openYouTubeModal(type) {
-            window.open("https://youtube.com", "_blank");
+            window.open("https://youtu.be/COtybqwXYbY", "_blank");
         }
 
         let isYearlyBilling = true;
@@ -1893,18 +1942,22 @@
             if (isYearlyBilling) {
                 if (dot) dot.className = "w-5 h-5 bg-white rounded-full transition-transform transform translate-x-7 shadow";
                 if (btn) btn.className = "w-14 h-7 bg-blue-600 rounded-full p-1 transition-colors relative focus:outline-none shadow-inner";
-                if (proPrice) proPrice.innerText = "$96.75";
+                if (proPrice) proPrice.innerText = "$99.00";
                 if (proUnit) proUnit.innerText = "/ month (Billed Annually)";
-                if (corpPrice) corpPrice.innerText = "$307.50";
+                if (corpPrice) corpPrice.innerText = "$299.00";
                 if (corpUnit) corpUnit.innerText = "/ month (Billed Annually)";
             } else {
                 if (dot) dot.className = "w-5 h-5 bg-white rounded-full transition-transform transform translate-x-0 shadow";
                 if (btn) btn.className = "w-14 h-7 bg-slate-700 rounded-full p-1 transition-colors relative focus:outline-none shadow-inner";
-                if (proPrice) proPrice.innerText = "$129";
+                if (proPrice) proPrice.innerText = "$129.00";
                 if (proUnit) proUnit.innerText = "/ month (Monthly Billing)";
-                if (corpPrice) corpPrice.innerText = "$410";
+                if (corpPrice) corpPrice.innerText = "$399.00";
                 if (corpUnit) corpUnit.innerText = "/ month (Monthly Billing)";
             }
+        }
+
+        function handleSignInClick() {
+            window.location.href = "app.html";
         }
 
         // Initialize Slide 1 and Sync Theme on load
@@ -1914,7 +1967,9 @@
             goToSlide(0);
 
             const urlParams = new URLSearchParams(window.location.search);
-            if (urlParams.has('register') || urlParams.has('openRegistration')) {
+            if (urlParams.has('openPayment') || urlParams.has('payment') || urlParams.has('expired')) {
+                openPaymentModal('Pro Estimator');
+            } else if (urlParams.has('register') || urlParams.has('openRegistration')) {
                 openRegistrationModal(true);
             }
         });

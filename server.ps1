@@ -902,18 +902,92 @@ while ($listener.IsListening) {
                 $response.OutputStream.Write($jsonBytes, 0, $jsonBytes.Length)
             }
         }
-        elseif ($url -eq "/api/trigger-month-download") {
-            $month = $query["month"]
-            if ([string]::IsNullOrWhiteSpace($month)) { $month = "2026-09" }
-            $dlScript = Join-Path $baseDir "download_monthly_pdfs.ps1"
-            if (Test-Path $dlScript) {
-                Start-Process powershell -ArgumentList "-ExecutionPolicy Bypass -File `"$dlScript`" -Month `"$month`"" -WindowStyle Hidden
-                $jsonStr = '{"success":true,"message":"Local PDF download job launched in background for ' + $month + '"}'
-            } else {
-                $jsonStr = '{"success":false,"error":"Downloader script not found"}'
-            }
-            $jsonBytes = [System.Text.Encoding]::UTF8.GetBytes($jsonStr)
+        elseif ($url -eq "/api/register-trial") {
             $response.ContentType = "application/json"
+            $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+            $dbFile = Join-Path $publicDir "downloads\registered_trial_users.json"
+
+            $bodyText = ""
+            if ($request.HasEntityBody) {
+                $reader = New-Object System.IO.StreamReader($request.InputStream, [System.Text.Encoding]::UTF8)
+                $bodyText = $reader.ReadToEnd()
+            }
+
+            $reqObj = if ($bodyText) { try { $bodyText | ConvertFrom-Json } catch { $null } } else { $null }
+
+            if (-not $reqObj -or -not $reqObj.email -or -not $reqObj.phone) {
+                $resData = @{ success = $false; error = "Email and Phone are required for trial registration" }
+            } else {
+                $normEmail = $reqObj.email.Trim().ToLower()
+                $normPhone = ($reqObj.phone -replace '[^\d]', '')
+
+                $userList = [System.Collections.Generic.List[psobject]]::new()
+                if (Test-Path $dbFile) {
+                    try {
+                        $rawDb = [System.IO.File]::ReadAllText($dbFile, [System.Text.Encoding]::UTF8)
+                        $parsedDb = $rawDb | ConvertFrom-Json
+                        if ($parsedDb) { foreach ($u in $parsedDb) { $userList.Add($u) } }
+                    } catch {}
+                }
+
+                $existing = $null
+                foreach ($u in $userList) {
+                    $uEmail = ($u.email + '').Trim().ToLower()
+                    $uPhone = (($u.phone + '') -replace '[^\d]', '')
+                    if (($normEmail -and $uEmail -eq $normEmail) -or ($normPhone -and $uPhone -eq $normPhone)) {
+                        $existing = $u
+                        break
+                    }
+                }
+
+                $nowMs = [DateTimeOffset]::Now.ToUnixTimeMilliseconds()
+                if ($existing) {
+                    $regMs = [int64]$existing.registeredAt
+                    $elapsedDays = ($nowMs - $regMs) / (1000 * 60 * 60 * 24)
+                    $isPaid = [bool]$existing.isPaid
+
+                    if ($elapsedDays -gt 7 -and -not $isPaid) {
+                        $resData = @{
+                            success = $false
+                            expired = $true
+                            message = "Your 7-day free trial registered for this email/phone expired. Re-registration is not allowed. Please select a subscription plan."
+                            profile = $existing
+                            registeredAt = $regMs
+                            elapsedDays = [Math]::Round($elapsedDays, 1)
+                        }
+                    } else {
+                        $resData = @{
+                            success = $true
+                            expired = $false
+                            daysRemaining = [Math]::Max(1, [Math]::Ceiling(7 - $elapsedDays))
+                            profile = $existing
+                        }
+                    }
+                } else {
+                    $newUser = [ordered]@{
+                        name = $reqObj.name
+                        company = $reqObj.company
+                        email = $normEmail
+                        phone = $normPhone
+                        role = $reqObj.role
+                        registeredAt = $nowMs
+                        isPaid = $false
+                    }
+                    $userList.Add($newUser)
+                    $jsonOut = $userList | ConvertTo-Json -Depth 5
+                    [System.IO.File]::WriteAllText($dbFile, $jsonOut, $utf8NoBom)
+
+                    $resData = @{
+                        success = $true
+                        expired = $false
+                        daysRemaining = 7
+                        profile = $newUser
+                    }
+                }
+            }
+
+            $jsonStr = $resData | ConvertTo-Json -Depth 5
+            $jsonBytes = [System.Text.Encoding]::UTF8.GetBytes($jsonStr)
             $response.ContentLength64 = $jsonBytes.Length
             $response.OutputStream.Write($jsonBytes, 0, $jsonBytes.Length)
         }

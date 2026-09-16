@@ -1,9 +1,16 @@
-﻿[
+[
     {
         "title":  "Preparing Right of Way",
         "itemCode":  "100",
         "specBook":  "2024 / 2014",
         "description":  "Preparing right of way by clearing, grubbing, removing, and disposing of trees, brush, and obstructions.",
+        "category":  "100 Series - Earthwork"
+    },
+    {
+        "title":  "Disposal of Wells",
+        "itemCode":  "103",
+        "specBook":  "2024 / 2014",
+        "description":  "Plugging and capping abandoned water, oil, gas, or monitoring wells within the right of way.",
         "category":  "100 Series - Earthwork"
     },
     {
@@ -52,63 +59,161 @@
         "title":  "Backfilling Pavement Edges",
         "itemCode":  "134",
         "specBook":  "2024 / 2014",
-        "description":  "Backfilling edges of pavement using flexible base, topsoil, or select material.",
+        "description":  "Backfilling and shaping edge of pavement shoulders with suitable earth or base material.",
         "category":  "100 Series - Earthwork"
     },
     {
         "title":  "Blading",
         "itemCode":  "150",
         "specBook":  "2024 / 2014",
-        "description":  "Blading and shaping slopes, shoulders, ditches, or subgrade with motor grader.",
+        "description":  "Blading, shaping, and smoothing roadbed, ditches, slopes, and subgrade.",
+        "category":  "100 Series - Earthwork"
+    },
+    {
+        "title":  "Road Grader Work",
+        "itemCode":  "152",
+        "specBook":  "2024 / 2014",
+        "description":  "Operating heavy motor grader for earthwork shaping, ditch cleaning, and subgrade preparation.",
+        "category":  "100 Series - Earthwork"
+    },
+    {
+        "title":  "Scraper Work",
+        "itemCode":  "154",
+        "specBook":  "2024 / 2014",
+        "description":  "Excavating and hauling earth materials using tractor-pulled or self-propelled scrapers.",
+        "category":  "100 Series - Earthwork"
+    },
+    {
+        "title":  "Bulldozer Work",
+        "itemCode":  "156",
+        "specBook":  "2024 / 2014",
+        "description":  "Heavy clearing, pushing, and leveling earth materials using crawler bulldozers.",
+        "category":  "100 Series - Earthwork"
+    },
+    {
+        "title":  "Specialized Excavation Work",
+        "itemCode":  "158",
+        "specBook":  "2024 / 2014",
+        "description":  "Specialized excavation equipment operation for rock cutting, restricted areas, or channel work.",
         "category":  "100 Series - Earthwork"
     },
     {
         "title":  "Topsoil",
         "itemCode":  "160",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and placing topsoil for vegetation growth and slope stabilization.",
+        "description":  "Furnishing, stockpiling, and placing fertile topsoil layer on slopes and roadside areas.",
         "category":  "100 Series - Earthwork"
     },
     {
         "title":  "Compost",
         "itemCode":  "161",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and applying compost manufactured topsoil or compost erosion control blankets.",
+        "description":  "Furnishing and applying organic compost manufactured topsoil or erosion control blankets.",
         "category":  "100 Series - Earthwork"
     },
     {
         "title":  "Sodding for Erosion Control",
         "itemCode":  "162",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and placing approved Bermuda or native grass sod for erosion control.",
+        "description":  "Furnishing and placing living grass sod blocks or rolls for permanent erosion control.",
         "category":  "100 Series - Earthwork"
     },
     {
         "title":  "Seeding for Erosion Control",
         "itemCode":  "164",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and applying seed mixes, fertilizer, and mulch for temporary or permanent erosion control.",
+        "description":  "Preparing seedbed and planting temporary or permanent grass seed mixtures.",
+        "category":  "100 Series - Earthwork"
+    },
+    {
+        "title":  "Fertilizer",
+        "itemCode":  "166",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing and broadcasting commercial agricultural fertilizer for vegetation establishment.",
         "category":  "100 Series - Earthwork"
     },
     {
         "title":  "Vegetative Watering",
         "itemCode":  "168",
         "specBook":  "2024 / 2014",
-        "description":  "Applying water to promote growth of seeded, sodded, or sprigged areas.",
+        "description":  "Applying water to promote growth and establishment of seeded, sodded, or sprigged vegetation.",
         "category":  "100 Series - Earthwork"
     },
     {
         "title":  "Soil Retention Blankets",
         "itemCode":  "169",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and installing biodegradable or synthetic soil retention blankets on slopes.",
+        "description":  "Furnishing and installing organic or synthetic soil retention erosion control blankets.",
         "category":  "100 Series - Earthwork"
+    },
+    {
+        "title":  "Irrigation System",
+        "itemCode":  "170",
+        "specBook":  "2024 / 2014",
+        "description":  "Installing automated landscape irrigation systems, valves, piping, backflow preventers, and heads.",
+        "category":  "100 Series - Earthwork"
+    },
+    {
+        "title":  "Wildflower Seeding",
+        "itemCode":  "180",
+        "specBook":  "2024 / 2014",
+        "description":  "Sowing native Texas wildflower seeds on highway rights of way and roadside areas.",
+        "category":  "100 Series - Earthwork"
+    },
+    {
+        "title":  "Landscape Planting",
+        "itemCode":  "192",
+        "specBook":  "2024 / 2014",
+        "description":  "Planting trees, shrubs, vines, ground covers, and perennial plants.",
+        "category":  "100 Series - Earthwork"
+    },
+    {
+        "title":  "Landscape Establishment",
+        "itemCode":  "193",
+        "specBook":  "2024 / 2014",
+        "description":  "Watering, weeding, pruning, and maintaining newly installed plant materials during establishment period.",
+        "category":  "100 Series - Earthwork"
+    },
+    {
+        "title":  "Roadside Amenity",
+        "itemCode":  "194",
+        "specBook":  "2024 / 2014",
+        "description":  "Installing roadside benches, trash receptacles, shade structures, and architectural landscape features.",
+        "category":  "100 Series - Earthwork"
+    },
+    {
+        "title":  "Sprinkling",
+        "itemCode":  "204",
+        "specBook":  "2024 / 2014",
+        "description":  "Applying water for dust control, subgrade moisture conditioning, and base compaction.",
+        "category":  "200 Series - Subgrade \u0026 Base"
+    },
+    {
+        "title":  "Rolling",
+        "itemCode":  "210",
+        "specBook":  "2024 / 2014",
+        "description":  "Compacting subgrade, subbase, flexible base, or surface treatments using tamping or pneumatic rollers.",
+        "category":  "200 Series - Subgrade \u0026 Base"
+    },
+    {
+        "title":  "Proof Rolling",
+        "itemCode":  "216",
+        "specBook":  "2024 / 2014",
+        "description":  "Testing stability of subgrade or subbase layers using heavy loaded pneumatic-tired proof rollers.",
+        "category":  "200 Series - Subgrade \u0026 Base"
     },
     {
         "title":  "Flexible Base",
         "itemCode":  "247",
         "specBook":  "2024 / 2014",
         "description":  "Constructing flexible base courses using crushed stone, gravel, or caliche.",
+        "category":  "200 Series - Subgrade \u0026 Base"
+    },
+    {
+        "title":  "Geogrid Base Reinforcement",
+        "itemCode":  "250",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing and placing polymeric geogrid structural reinforcement below flexible base courses.",
         "category":  "200 Series - Subgrade \u0026 Base"
     },
     {
@@ -126,6 +231,20 @@
         "category":  "200 Series - Subgrade \u0026 Base"
     },
     {
+        "title":  "Lime Treatment (Plant-Mixed)",
+        "itemCode":  "263",
+        "specBook":  "2024 / 2014",
+        "description":  "Treating base aggregate with hydrated lime mixed in a central mixing plant.",
+        "category":  "200 Series - Subgrade \u0026 Base"
+    },
+    {
+        "title":  "Lime-Fly Ash or Fly Ash Treatment (Road-Mixed)",
+        "itemCode":  "265",
+        "specBook":  "2024 / 2014",
+        "description":  "Treating subgrade or base material with lime and fly ash or fly ash alone by road mixing.",
+        "category":  "200 Series - Subgrade \u0026 Base"
+    },
+    {
         "title":  "Cement Treatment (Road-Mixed)",
         "itemCode":  "275",
         "specBook":  "2024 / 2014",
@@ -140,6 +259,20 @@
         "category":  "200 Series - Subgrade \u0026 Base"
     },
     {
+        "title":  "Emulsified Asphalt Treatment (Road-Mixed)",
+        "itemCode":  "290",
+        "specBook":  "2024 / 2014",
+        "description":  "Stabilizing subgrade or base material with emulsified asphalt binder by road mixing.",
+        "category":  "200 Series - Subgrade \u0026 Base"
+    },
+    {
+        "title":  "Foamed Asphalt Treatment (Road-Mixed)",
+        "itemCode":  "291",
+        "specBook":  "2024 / 2014",
+        "description":  "Stabilizing reclaimed asphalt pavement or subgrade using foamed asphalt binder.",
+        "category":  "200 Series - Subgrade \u0026 Base"
+    },
+    {
         "title":  "Asphalt Treatment (Plant-Mixed)",
         "itemCode":  "292",
         "specBook":  "2024 / 2014",
@@ -147,409 +280,997 @@
         "category":  "200 Series - Subgrade \u0026 Base"
     },
     {
+        "title":  "Ultra-High-Pressure Water Cutting Treatment",
+        "itemCode":  "295",
+        "specBook":  "2024 / 2014",
+        "description":  "Treating pavement surfaces using ultra-high-pressure water jets for texture and bond improvement.",
+        "category":  "200 Series - Subgrade \u0026 Base"
+    },
+    {
+        "title":  "Asphalts, Oils, and Emulsions",
+        "itemCode":  "300",
+        "specBook":  "2024 / 2014",
+        "description":  "Asphalt cements, cutback asphalts, performance-graded binders, and liquid emulsified asphalt specifications.",
+        "category":  "300 Series - Surface Courses"
+    },
+    {
+        "title":  "Aggregates for Surface Treatments",
+        "itemCode":  "302",
+        "specBook":  "2024 / 2014",
+        "description":  "Aggregates, precoated stone, gravel, and crushed slag for seal coats and surface treatments.",
+        "category":  "300 Series - Surface Courses"
+    },
+    {
+        "title":  "Salvaging, Hauling, and Stockpiling Reclaimable Asphalt Pavement",
+        "itemCode":  "305",
+        "specBook":  "2024 / 2014",
+        "description":  "Planing, salvaging, hauling, and stockpiling existing asphalt concrete pavement material.",
+        "category":  "300 Series - Surface Courses"
+    },
+    {
         "title":  "Prime Coat",
         "itemCode":  "310",
         "specBook":  "2024 / 2014",
-        "description":  "Applying asphaltic material to prepared base course prior to surface placement.",
+        "description":  "Preparing and treating subgrade or flexible base surface with liquid asphalt prime coat.",
+        "category":  "300 Series - Surface Courses"
+    },
+    {
+        "title":  "Emulsified Asphalt Treatment",
+        "itemCode":  "314",
+        "specBook":  "2024 / 2014",
+        "description":  "Applying diluted emulsified asphalt for dust control or surface seal treatment.",
+        "category":  "300 Series - Surface Courses"
+    },
+    {
+        "title":  "Fog Seal",
+        "itemCode":  "315",
+        "specBook":  "2024 / 2014",
+        "description":  "Applying light application of emulsified asphalt fog seal on asphalt pavement surfaces.",
         "category":  "300 Series - Surface Courses"
     },
     {
         "title":  "Seal Coat",
         "itemCode":  "316",
         "specBook":  "2024 / 2014",
-        "description":  "Applying single or multiple applications of asphalt binder and aggregate for surface treatment.",
+        "description":  "Constructing single or multiple chip seal surface treatments with asphalt binder and cover aggregate.",
+        "category":  "300 Series - Surface Courses"
+    },
+    {
+        "title":  "Equipment for Asphalt Concrete Pavement",
+        "itemCode":  "320",
+        "specBook":  "2024 / 2014",
+        "description":  "Standard requirements for asphalt pavers, rollers, haul trucks, and laydown equipment.",
+        "category":  "300 Series - Surface Courses"
+    },
+    {
+        "title":  "Limestone Rock Asphalt Pavement",
+        "itemCode":  "330",
+        "specBook":  "2024 / 2014",
+        "description":  "Constructing wearing courses composed of natural limestone rock asphalt aggregates and binder.",
+        "category":  "300 Series - Surface Courses"
+    },
+    {
+        "title":  "Hot-Mix Cold-Laid Asphalt Concrete Pavement",
+        "itemCode":  "334",
+        "specBook":  "2024 / 2014",
+        "description":  "Constructing pavement courses using hot-mixed cold-laid asphaltic concrete mixtures.",
         "category":  "300 Series - Surface Courses"
     },
     {
         "title":  "Dense-Graded Hot-Mix Asphalt (Small Quantity)",
         "itemCode":  "340",
         "specBook":  "2024 / 2014",
-        "description":  "Constructing dense-graded hot-mix asphalt (HMA) pavement for small quantity applications.",
+        "description":  "Constructing dense-graded hot-mix asphalt pavement for small quantity applications.",
         "category":  "300 Series - Surface Courses"
     },
     {
         "title":  "Dense-Graded Hot-Mix Asphalt",
         "itemCode":  "341",
         "specBook":  "2024 / 2014",
-        "description":  "Constructing dense-graded hot-mix asphalt surface or binder courses (Type B, C, D, F).",
+        "description":  "Constructing dense-graded hot-mix asphalt concrete pavement surface and binder layers.",
+        "category":  "300 Series - Surface Courses"
+    },
+    {
+        "title":  "Permeable Friction Course (PFC)",
+        "itemCode":  "342",
+        "specBook":  "2024 / 2014",
+        "description":  "Constructing open-graded permeable friction courses for splash reduction and high friction.",
         "category":  "300 Series - Surface Courses"
     },
     {
         "title":  "Superpave Mixtures",
         "itemCode":  "344",
         "specBook":  "2024 / 2014",
-        "description":  "Constructing hot-mix asphalt pavement using Superpave volumetric mix design.",
+        "description":  "Constructing Superpave volumetric designed asphalt concrete pavement courses.",
         "category":  "300 Series - Surface Courses"
     },
     {
         "title":  "Stone-Matrix Asphalt",
         "itemCode":  "346",
         "specBook":  "2024 / 2014",
-        "description":  "Constructing stone-matrix asphalt (SMA) wearing surface courses.",
+        "description":  "Constructing gap-graded stone-matrix asphalt (SMA) heavy duty pavement surfaces.",
         "category":  "300 Series - Surface Courses"
     },
     {
-        "title":  "Thin Overlay Mixtures (TOM)",
+        "title":  "Thin Surface Mixtures (TOM)",
         "itemCode":  "347",
         "specBook":  "2024 / 2014",
-        "description":  "Constructing thin overlay asphalt mixtures (Type F and Type C TOM).",
+        "description":  "Constructing thin overlay mixtures (TOM) for preventive maintenance treatments.",
         "category":  "300 Series - Surface Courses"
     },
     {
         "title":  "Thin Bonded Friction Courses",
         "itemCode":  "348",
         "specBook":  "2024 / 2014",
-        "description":  "Constructing permeable friction courses (PFC) or thin bonded wearing courses.",
+        "description":  "Constructing warm or hot thin bonded polymer modified asphalt wearing courses.",
+        "category":  "300 Series - Surface Courses"
+    },
+    {
+        "title":  "Microsurfacing",
+        "itemCode":  "350",
+        "specBook":  "2024 / 2014",
+        "description":  "Applying polymer-modified cold-mix emulsified asphalt microsurfacing paved overlays.",
         "category":  "300 Series - Surface Courses"
     },
     {
         "title":  "Flexible Pavement Structure Repair",
         "itemCode":  "351",
         "specBook":  "2024 / 2014",
-        "description":  "Repairing localized areas of failed flexible pavement structure.",
+        "description":  "Repairing failed base and asphalt pavement sections by full-depth saw cutting and replacement.",
         "category":  "300 Series - Surface Courses"
     },
     {
         "title":  "Planing and Texturing Pavement",
         "itemCode":  "354",
         "specBook":  "2024 / 2014",
-        "description":  "Milling, planing, and texturing existing asphalt or concrete pavement surfaces.",
+        "description":  "Cold milling, micro-milling, planing, and texturing existing asphalt or concrete pavement.",
+        "category":  "300 Series - Surface Courses"
+    },
+    {
+        "title":  "Fabric Underseal",
+        "itemCode":  "356",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing and installing paving fabric membrane underseal with asphalt binder.",
         "category":  "300 Series - Surface Courses"
     },
     {
         "title":  "Concrete Pavement",
         "itemCode":  "360",
         "specBook":  "2024 / 2014",
-        "description":  "Constructing Portland cement concrete pavement (CRCP or JCP).",
+        "description":  "Constructing continuously reinforced concrete pavement (CRCP) or jointed concrete pavement (CPCD).",
+        "category":  "300 Series - Surface Courses"
+    },
+    {
+        "title":  "Repair of Concrete Pavement",
+        "itemCode":  "361",
+        "specBook":  "2024 / 2014",
+        "description":  "Full-depth repair of damaged concrete pavement slabs, joints, and tie-bars.",
+        "category":  "300 Series - Surface Courses"
+    },
+    {
+        "title":  "Concrete Pavement Terminals",
+        "itemCode":  "368",
+        "specBook":  "2024 / 2014",
+        "description":  "Constructing anchor lug expansion terminals and transition slabs for concrete pavements.",
+        "category":  "300 Series - Surface Courses"
+    },
+    {
+        "title":  "Concrete Pavement Repair (Joints \u0026 Cracks)",
+        "itemCode":  "370",
+        "specBook":  "2024 / 2014",
+        "description":  "Partial-depth repair of joint spalls, transverse crack repair, and tie bar stitching.",
         "category":  "300 Series - Surface Courses"
     },
     {
         "title":  "Excavation and Backfill for Structures",
         "itemCode":  "400",
         "specBook":  "2024 / 2014",
-        "description":  "Excavating and backfilling for bridge bents, abutments, culverts, and retaining walls.",
+        "description":  "Excavating for bridges, culverts, retaining walls, and placing cement-stabilized backfill.",
         "category":  "400 Series - Structures"
     },
     {
         "title":  "Flowable Backfill",
         "itemCode":  "401",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and placing low-strength flowable backfill for utility trenches and structures.",
+        "description":  "Furnishing and placing controlled low-strength self-leveling flowable backfill mixture.",
         "category":  "400 Series - Structures"
     },
     {
         "title":  "Trench Excavation Protection",
         "itemCode":  "402",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and installing trench shoring, shielding, or excavation safety systems.",
+        "description":  "Furnishing and operating trench shoring, shield boxes, or slope protection for deep trenches.",
         "category":  "400 Series - Structures"
     },
     {
         "title":  "Temporary Special Shoring",
         "itemCode":  "403",
         "specBook":  "2024 / 2014",
-        "description":  "Designing, constructing, and removing temporary special shoring walls.",
+        "description":  "Designing and installing temporary sheet piling, soldier pile walls, or braced shoring systems.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Driving Piling",
+        "itemCode":  "404",
+        "specBook":  "2024 / 2014",
+        "description":  "Driving steel, timber, or prestressed concrete foundation piles for structural support.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Foundation Load Tests",
+        "itemCode":  "405",
+        "specBook":  "2024 / 2014",
+        "description":  "Performing static or dynamic axial compression foundation load testing on test piles.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Timber Piling",
+        "itemCode":  "406",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing treated or untreated structural timber foundation piles.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Steel Piling",
+        "itemCode":  "407",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing HP-shape steel bearing piles or steel pipe piles for deep foundations.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Prestressed Concrete Piling",
+        "itemCode":  "409",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing precast prestressed concrete square or octagonal foundation piles.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Soil Nail Anchors",
+        "itemCode":  "410",
+        "specBook":  "2024 / 2014",
+        "description":  "Installing soil nail ground anchors and grouting for soil retention and slope stabilization.",
         "category":  "400 Series - Structures"
     },
     {
         "title":  "Drilled Shaft Foundations",
         "itemCode":  "416",
         "specBook":  "2024 / 2014",
-        "description":  "Constructing reinforced concrete drilled shaft foundations for bridges and sign structures.",
+        "description":  "Constructing reinforced concrete drilled shaft foundations for bridge bents, abutments, and sign structures.",
         "category":  "400 Series - Structures"
     },
     {
         "title":  "Concrete Substructures",
         "itemCode":  "420",
         "specBook":  "2024 / 2014",
-        "description":  "Constructing cast-in-place concrete substructure bents, columns, caps, and abutments.",
+        "description":  "Constructing reinforced concrete bridge bents, caps, columns, footings, culverts, and wingwalls.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Hydraulic Cement Concrete",
+        "itemCode":  "421",
+        "specBook":  "2024 / 2014",
+        "description":  "Standard mix design, strength testing, and batching specifications for structural concrete Classes A, C, E, H, S.",
         "category":  "400 Series - Structures"
     },
     {
         "title":  "Concrete Superstructures",
         "itemCode":  "422",
         "specBook":  "2024 / 2014",
-        "description":  "Constructing cast-in-place reinforced concrete bridge decks and slab spans.",
+        "description":  "Constructing reinforced concrete bridge decks, slab spans, approach slabs, and diaphragms.",
         "category":  "400 Series - Structures"
     },
     {
         "title":  "Retaining Walls",
         "itemCode":  "423",
         "specBook":  "2024 / 2014",
-        "description":  "Constructing mechanically stabilized earth (MSE), precast, or cast-in-place retaining walls.",
+        "description":  "Constructing Mechanically Stabilized Earth (MSE) retaining walls, precast panel walls, or cast-in-place walls.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Precast Concrete Structural Members (Fabrication)",
+        "itemCode":  "424",
+        "specBook":  "2024 / 2014",
+        "description":  "Plant fabrication and quality assurance for precast concrete structural members.",
         "category":  "400 Series - Structures"
     },
     {
         "title":  "Precast Prestressed Concrete Structural Members",
         "itemCode":  "425",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and erecting precast prestressed concrete TxGirders, I-girders, and box beams.",
+        "description":  "Erecting precast prestressed concrete bridge beams (TxGirders, I-Girders, Box Beams, Deck Panels).",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Post-Tensioning",
+        "itemCode":  "426",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing and stressing post-tensioning high-strength steel strands and grouting ducts.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Surface Finishes for Concrete",
+        "itemCode":  "427",
+        "specBook":  "2024 / 2014",
+        "description":  "Applying special surface finishes, rub finishes, opaque sealers, or architectural textures to concrete.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Penetrating Concrete Surface Treatment",
+        "itemCode":  "428",
+        "specBook":  "2024 / 2014",
+        "description":  "Applying silane or siloxane water-repellent penetrating surface sealers to bridge decks.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Concrete Structure Repair",
+        "itemCode":  "429",
+        "specBook":  "2024 / 2014",
+        "description":  "Repairing deteriorated or damaged structural concrete members using pneumatic mortar or rapid repair mortar.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Pneumatically Placed Concrete",
+        "itemCode":  "431",
+        "specBook":  "2024 / 2014",
+        "description":  "Applying shotcrete or gunite pneumatically placed concrete for slope facing and structural repair.",
         "category":  "400 Series - Structures"
     },
     {
         "title":  "Riprap",
         "itemCode":  "432",
         "specBook":  "2024 / 2014",
-        "description":  "Constructing concrete, stone, or grouted riprap for slope protection and culverts.",
+        "description":  "Furnishing and placing stone, grouted, or slope concrete riprap for slope protection and abutment header banks.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Bridge Bearings",
+        "itemCode":  "434",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing and installing steel pot bearings, disc bearings, or elastomeric bridge bearing pads.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Cleaning and Sealing Joints",
+        "itemCode":  "438",
+        "specBook":  "2024 / 2014",
+        "description":  "Cleaning and sealing structural expansion joints with silicone or neoprene elastomeric sealants.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Bridge Deck Overlays",
+        "itemCode":  "439",
+        "specBook":  "2024 / 2014",
+        "description":  "Constructing latex-modified or silica-fume concrete protective bridge deck overlays.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Reinforcement for Concrete",
+        "itemCode":  "440",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing, bending, and placing black, epoxy-coated, or stainless steel reinforcing bars.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Steel Structures",
+        "itemCode":  "441",
+        "specBook":  "2024 / 2014",
+        "description":  "Fabricating and erecting structural steel bridge plate girders, rolled beams, trusses, and shoes.",
         "category":  "400 Series - Structures"
     },
     {
         "title":  "Metal for Structures",
         "itemCode":  "442",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and fabricating structural steel girders, plate girders, and diaphragms.",
+        "description":  "Furnishing structural steel shapes, plates, structural tubing, and stainless steel hardware.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Galvanizing",
+        "itemCode":  "445",
+        "specBook":  "2024 / 2014",
+        "description":  "Hot-dip galvanizing structural steel members, handrails, guardrails, and fasteners.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Field Cleaning and Painting Steel",
+        "itemCode":  "446",
+        "specBook":  "2024 / 2014",
+        "description":  "Abrasive blast cleaning and field painting structural steel bridge girders with protective coatings.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Structural Bolting",
+        "itemCode":  "447",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing and tensioning high-strength A325 or A490 structural steel connection bolts.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Structural Field Welding",
+        "itemCode":  "448",
+        "specBook":  "2024 / 2014",
+        "description":  "Performing certified structural field welding on steel girders, splices, diaphragm connections, and shoes.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Anchor Bolts",
+        "itemCode":  "449",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing and installing high-strength steel anchor bolts for bridge bearings and sign structures.",
         "category":  "400 Series - Structures"
     },
     {
         "title":  "Railing",
         "itemCode":  "450",
         "specBook":  "2024 / 2014",
-        "description":  "Constructing concrete or metal bridge railings (SSTR, T223, T551, C223).",
+        "description":  "Constructing concrete bridge rails (T223, T411, SSTR), metal railing, and combination pedestrian rails.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Retrofit Railing",
+        "itemCode":  "451",
+        "specBook":  "2024 / 2014",
+        "description":  "Retrofitting existing bridge railings to current crashworthy safety standards.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Bridge Expansion Joints",
+        "itemCode":  "454",
+        "specBook":  "2024 / 2014",
+        "description":  "Installing sealed expansion joint armor, modular joints, or header elastomeric joints on bridge decks.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Waterproofing Membranes for Structures",
+        "itemCode":  "458",
+        "specBook":  "2024 / 2014",
+        "description":  "Installing asphaltic or sheet waterproofing membranes on concrete bridge decks and culvert tops.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Waterproofing for Structures",
+        "itemCode":  "459",
+        "specBook":  "2024 / 2014",
+        "description":  "Applying penetrating waterproofing sealants or asphaltic dampproofing coatings on substructure units.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Corrugated Metal Pipe",
+        "itemCode":  "460",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing and laying galvanized or aluminized corrugated steel or aluminum culvert pipe.",
         "category":  "400 Series - Structures"
     },
     {
         "title":  "Concrete Box Culverts and Drains",
         "itemCode":  "462",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and installing precast or cast-in-place reinforced concrete box culverts.",
+        "description":  "Furnishing and installing precast or cast-in-place single or multiple barrel concrete box culverts.",
         "category":  "400 Series - Structures"
     },
     {
         "title":  "Reinforced Concrete Pipe",
         "itemCode":  "464",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and installing reinforced concrete pipe (RCP) for culverts and storm drains.",
+        "description":  "Furnishing and laying reinforced concrete storm sewer pipe (Class III, IV, V).",
         "category":  "400 Series - Structures"
     },
     {
         "title":  "Junction Boxes, Manholes, and Inlets",
         "itemCode":  "465",
         "specBook":  "2024 / 2014",
-        "description":  "Constructing junction boxes, storm sewer manholes, drop inlets, and curb inlets.",
+        "description":  "Constructing precast or cast-in-place drainage junction boxes, manholes, curb inlets, and drop inlets.",
         "category":  "400 Series - Structures"
     },
     {
         "title":  "Headwalls and Wingwalls",
         "itemCode":  "466",
         "specBook":  "2024 / 2014",
-        "description":  "Constructing cast-in-place or precast headwalls and wingwalls for pipe and box culverts.",
+        "description":  "Constructing concrete headwalls, wingwalls, and flared end sections for box culverts and pipes.",
         "category":  "400 Series - Structures"
     },
     {
         "title":  "Safety End Treatment",
         "itemCode":  "467",
         "specBook":  "2024 / 2014",
-        "description":  "Constructing safety end treatments (SET) for pipe and box culvert ends.",
+        "description":  "Furnishing and installing precast concrete safety end treatments (SET) with cross pipes for culverts.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Frames, Grates, Rings, and Covers",
+        "itemCode":  "471",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing iron casting frames, inlet grates, manhole rings, and heavy duty covers.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Laying Culvert Pipe",
+        "itemCode":  "472",
+        "specBook":  "2024 / 2014",
+        "description":  "Relaying salvaged culvert pipe or corrugated metal pipe sections.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Linear Drainage Channel",
+        "itemCode":  "474",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing and installing modular trench drain linear slotted drainage channel assemblies.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Jacking, Boring, or Tunneling Pipe or Box",
+        "itemCode":  "476",
+        "specBook":  "2024 / 2014",
+        "description":  "Installing steel casing pipe or reinforced concrete pipe under roadways using micro-tunneling or trenchless boring.",
         "category":  "400 Series - Structures"
     },
     {
         "title":  "Adjusting Manholes and Inlets",
         "itemCode":  "479",
         "specBook":  "2024 / 2014",
-        "description":  "Adjusting existing manhole covers, inlet rings, and grates to finished grade.",
+        "description":  "Adjusting existing manhole ring covers, inlet grates, and valve boxes to new finished pavement grade.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Cleaning Existing Culverts",
+        "itemCode":  "480",
+        "specBook":  "2024 / 2014",
+        "description":  "Desilting, hydro-flushing, and cleaning sediment from existing pipe culverts, box culverts, and storm drains.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Pipe for Drains",
+        "itemCode":  "481",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing and installing PVC, HDPE, or corrugated plastic drain pipe for bridge deck drains.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Concrete Bridge Deck Surfacing",
+        "itemCode":  "483",
+        "specBook":  "2024 / 2014",
+        "description":  "Diamond grinding, grooving, or hydro-demolition texturing of concrete bridge deck riding surfaces.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Timber Structures",
+        "itemCode":  "490",
+        "specBook":  "2024 / 2014",
+        "description":  "Constructing treated timber trestle bridges, timber caps, stringers, and timber decking.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Timber Preservative and Treatment",
+        "itemCode":  "491",
+        "specBook":  "2024 / 2014",
+        "description":  "Creosote or CCA preservative pressure treatment for structural timber members.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Timber Preservative and Treatment (Alternate)",
+        "itemCode":  "492",
+        "specBook":  "2024 / 2014",
+        "description":  "Pentachlorophenol pressure preservative treatment for structural timber.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Raising Existing Structures",
+        "itemCode":  "495",
+        "specBook":  "2024 / 2014",
+        "description":  "Synchronized hydraulic jacking and raising of existing bridge spans to increase vertical clearance.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Removing Structures",
+        "itemCode":  "496",
+        "specBook":  "2024 / 2014",
+        "description":  "Demolishing, removing, and disposing of existing concrete bridges, culverts, retaining walls, and buildings.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Structural Timber Demolition \u0026 Salvage",
+        "itemCode":  "497",
+        "specBook":  "2024 / 2014",
+        "description":  "Dismantling, salvaging, and stockpiling historic or reusable structural timber bridge components.",
+        "category":  "400 Series - Structures"
+    },
+    {
+        "title":  "Prestressed Concrete Member Repair",
+        "itemCode":  "499",
+        "specBook":  "2024 / 2014",
+        "description":  "Repairing damaged prestressed concrete bridge beams using epoxy injection and carbon fiber reinforcement.",
         "category":  "400 Series - Structures"
     },
     {
         "title":  "Mobilization",
         "itemCode":  "500",
         "specBook":  "2024 / 2014",
-        "description":  "Establishing field offices, moving equipment to site, and initial work setup.",
+        "description":  "Establishing field offices, moving heavy equipment, insurance, bonds, and initial project setup expenses.",
         "category":  "500 Series - Incidentals"
     },
     {
         "title":  "Barricades, Signs, and Traffic Handling",
         "itemCode":  "502",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing, installing, maintaining, and moving traffic control devices and barricades.",
+        "description":  "Furnishing, erecting, moving, and maintaining traffic control barricades, warning signs, and flaggers.",
+        "category":  "500 Series - Incidentals"
+    },
+    {
+        "title":  "Field Office and Laboratory",
+        "itemCode":  "504",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing temperature-controlled field office trailers and asphalt/concrete testing laboratories.",
         "category":  "500 Series - Incidentals"
     },
     {
         "title":  "Temporary Erosion, Sedimentation, and Environmental Controls",
         "itemCode":  "506",
         "specBook":  "2024 / 2014",
-        "description":  "Installing silt fence, rock filter dams, construction exits, and SWP3 controls.",
+        "description":  "Installing silt fence, rock filter dams, construction exits, and SWP3 environmental controls.",
         "category":  "500 Series - Incidentals"
     },
     {
         "title":  "Constructing Detours",
         "itemCode":  "508",
         "specBook":  "2024 / 2014",
-        "description":  "Constructing, maintaining, and removing temporary traffic detours.",
+        "description":  "Constructing, maintaining, and removing temporary traffic detour pavements and subgrade.",
+        "category":  "500 Series - Incidentals"
+    },
+    {
+        "title":  "One-Way Traffic Control",
+        "itemCode":  "510",
+        "specBook":  "2024 / 2014",
+        "description":  "Providing pilot car and flagger operations for single-lane one-way traffic handling in work zones.",
         "category":  "500 Series - Incidentals"
     },
     {
         "title":  "Portable Traffic Barrier",
         "itemCode":  "512",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing, moving, and connecting portable concrete traffic barrier (PCTB).",
+        "description":  "Furnishing, placing, moving, and connecting portable concrete traffic barrier (PCTB) walls.",
+        "category":  "500 Series - Incidentals"
+    },
+    {
+        "title":  "Permanent Concrete Traffic Barrier",
+        "itemCode":  "514",
+        "specBook":  "2024 / 2014",
+        "description":  "Constructing cast-in-place or slipformed permanent single-slope concrete traffic barrier walls.",
+        "category":  "500 Series - Incidentals"
+    },
+    {
+        "title":  "Weighing and Measuring Equipment",
+        "itemCode":  "520",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing certified commercial truck weigh scales and automatic batch plant measuring systems.",
+        "category":  "500 Series - Incidentals"
+    },
+    {
+        "title":  "Colored Textured Concrete and Concrete Pavers",
+        "itemCode":  "528",
+        "specBook":  "2024 / 2014",
+        "description":  "Constructing stamped, colored, textured concrete crosswalks, plazas, and interlocking concrete pavers.",
         "category":  "500 Series - Incidentals"
     },
     {
         "title":  "Concrete Curb, Gutter, and Combined Curb and Gutter",
         "itemCode":  "529",
         "specBook":  "2024 / 2014",
-        "description":  "Constructing hydraulic cement concrete curb, gutter, or combined curb and gutter.",
+        "description":  "Constructing concrete curb, barrier curb, and combined curb and gutter sections.",
         "category":  "500 Series - Incidentals"
     },
     {
         "title":  "Intersections, Driveways, and Turnouts",
         "itemCode":  "530",
         "specBook":  "2024 / 2014",
-        "description":  "Constructing concrete or asphalt driveway approaches, turnouts, and street intersections.",
+        "description":  "Constructing asphalt or concrete commercial/residential driveways, street intersections, and turnouts.",
         "category":  "500 Series - Incidentals"
     },
     {
         "title":  "Sidewalks",
         "itemCode":  "531",
         "specBook":  "2024 / 2014",
-        "description":  "Constructing concrete sidewalks and ADA curb ramps.",
+        "description":  "Constructing reinforced concrete pedestrian sidewalks and ADA accessible curb ramps with detectable warning tiles.",
+        "category":  "500 Series - Incidentals"
+    },
+    {
+        "title":  "Milled Rumble Strips",
+        "itemCode":  "533",
+        "specBook":  "2024 / 2014",
+        "description":  "Milling shoulder or centerline rumble strips in asphalt or concrete pavement for lane departure warning.",
         "category":  "500 Series - Incidentals"
     },
     {
         "title":  "Concrete Medians and Directional Islands",
         "itemCode":  "536",
         "specBook":  "2024 / 2014",
-        "description":  "Constructing concrete medians, raised islands, and traffic separators.",
+        "description":  "Constructing concrete median noses, raised islands, and directional traffic separators.",
+        "category":  "500 Series - Incidentals"
+    },
+    {
+        "title":  "Right of Way Markers",
+        "itemCode":  "538",
+        "specBook":  "2024 / 2014",
+        "description":  "Setting reinforced concrete right-of-way boundary marker posts and bronze survey disks.",
         "category":  "500 Series - Incidentals"
     },
     {
         "title":  "Metal Beam Guard Fence",
         "itemCode":  "540",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and erecting steel W-beam guardrail on timber or composite posts.",
+        "description":  "Furnishing and erecting steel post metal beam guard fence (MBGF) rail elements.",
         "category":  "500 Series - Incidentals"
     },
     {
         "title":  "Removing Metal Beam Guard Fence",
         "itemCode":  "542",
         "specBook":  "2024 / 2014",
-        "description":  "Removing and stockpiling or disposing of existing metal beam guard fence.",
+        "description":  "Dismantling, removing, and salvaging existing metal beam guard fence rail and posts.",
+        "category":  "500 Series - Incidentals"
+    },
+    {
+        "title":  "Cable Barrier System",
+        "itemCode":  "543",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing and erecting high-tension cable barrier systems and terminal anchors in medians.",
         "category":  "500 Series - Incidentals"
     },
     {
         "title":  "Guardrail End Treatments",
         "itemCode":  "544",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and installing crashworthy guardrail end treatments (GET / SGT).",
+        "description":  "Furnishing and installing crashworthy single-guardrail terminal end treatments (GET).",
         "category":  "500 Series - Incidentals"
     },
     {
-        "title":  "Crash Cushion Attenuators",
+        "title":  "Crash Cushions",
         "itemCode":  "545",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing, installing, and moving re-directive or non-redirective crash cushion attenuators.",
+        "description":  "Furnishing, installing, or moving re-directive impact crash cushions (Smart Cushion, QuadGuard).",
         "category":  "500 Series - Incidentals"
     },
     {
         "title":  "Chain Link Fence",
         "itemCode":  "550",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and constructing chain link security fence and gates.",
+        "description":  "Furnishing and erecting galvanized chain link security fencing, posts, fabric, and gates.",
         "category":  "500 Series - Incidentals"
     },
     {
         "title":  "Wire Fence",
         "itemCode":  "552",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and constructing barbed wire or woven wire field fence.",
+        "description":  "Furnishing and erecting barbed wire or woven wire right-of-way boundary fencing.",
+        "category":  "500 Series - Incidentals"
+    },
+    {
+        "title":  "Pipe Underdrains",
+        "itemCode":  "556",
+        "specBook":  "2024 / 2014",
+        "description":  "Installing perforated PVC or corrugated plastic underdrain pipe and filter aggregate for subgrade drainage.",
         "category":  "500 Series - Incidentals"
     },
     {
         "title":  "Mailbox Assemblies",
         "itemCode":  "560",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and mounting single or multiple crashworthy mailbox supports.",
+        "description":  "Furnishing and erecting crashworthy mailbox posts, mounting brackets, and mailbox enclosures.",
+        "category":  "500 Series - Incidentals"
+    },
+    {
+        "title":  "Moving Roadside Amenities",
+        "itemCode":  "562",
+        "specBook":  "2024 / 2014",
+        "description":  "Relocating existing roadside benches, mailboxes, trash receptacles, or historical markers.",
+        "category":  "500 Series - Incidentals"
+    },
+    {
+        "title":  "Noise Barriers",
+        "itemCode":  "568",
+        "specBook":  "2024 / 2014",
+        "description":  "Constructing precast concrete or absorptive noise abatement wall panels and structural posts.",
+        "category":  "500 Series - Incidentals"
+    },
+    {
+        "title":  "Trailer Mounted Solar Powered Trash Compactor",
+        "itemCode":  "575",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing solar-powered mobile trash compactors for highway rest stops and construction sites.",
+        "category":  "500 Series - Incidentals"
+    },
+    {
+        "title":  "Ride Quality for Pavement Surfaces",
+        "itemCode":  "585",
+        "specBook":  "2024 / 2014",
+        "description":  "Pavement smoothness testing using inertial profilers and International Roughness Index (IRI) evaluation.",
         "category":  "500 Series - Incidentals"
     },
     {
         "title":  "Roadway Illumination Assemblies",
         "itemCode":  "610",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and erecting roadway illumination poles, mast arms, and LED luminaires.",
+        "description":  "Furnishing and erecting highway light poles, aluminum mast arms, and LED roadway luminaires.",
+        "category":  "600 Series - Lighting \u0026 Signals"
+    },
+    {
+        "title":  "High Mast Illumination Poles",
+        "itemCode":  "613",
+        "specBook":  "2024 / 2014",
+        "description":  "Erecting 100 ft to 150 ft high mast illumination ring poles, lowering winches, and foundations.",
+        "category":  "600 Series - Lighting \u0026 Signals"
+    },
+    {
+        "title":  "High Mast Illumination Assemblies",
+        "itemCode":  "614",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing high mast ring luminaire fixtures, LED floodlights, and internal winch gearboxes.",
+        "category":  "600 Series - Lighting \u0026 Signals"
+    },
+    {
+        "title":  "Performance Reliability Determination",
+        "itemCode":  "616",
+        "specBook":  "2024 / 2014",
+        "description":  "Testing and burn-in performance verification for electrical illumination and signal control systems.",
+        "category":  "600 Series - Lighting \u0026 Signals"
+    },
+    {
+        "title":  "Temporary Roadway Illumination",
+        "itemCode":  "617",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing, installing, maintaining, and removing temporary light poles and wiring in work zones.",
         "category":  "600 Series - Lighting \u0026 Signals"
     },
     {
         "title":  "Conduit",
         "itemCode":  "618",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and installing PVC, HDPE, or metallic electrical conduit underground or attached to structures.",
+        "description":  "Installing PVC, rigid metal, or HDPE underground electrical conduit by open trenching or boring.",
         "category":  "600 Series - Lighting \u0026 Signals"
     },
     {
         "title":  "Electrical Conductors",
         "itemCode":  "620",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and pulling insulated electrical conductors and ground wires.",
+        "description":  "Pulling single-conductor insulated copper wiring (THHN/XHHW) through conduit systems.",
+        "category":  "600 Series - Lighting \u0026 Signals"
+    },
+    {
+        "title":  "Tray Cable",
+        "itemCode":  "621",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing and pulling multi-conductor tray cable for bridge lighting and sign illumination.",
         "category":  "600 Series - Lighting \u0026 Signals"
     },
     {
         "title":  "Ground Boxes",
         "itemCode":  "624",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and installing electrical ground boxes and aprons.",
+        "description":  "Installing precast polymer concrete or composite electrical ground junction boxes and aprons.",
+        "category":  "600 Series - Lighting \u0026 Signals"
+    },
+    {
+        "title":  "Zinc-Coated Steel Wire Strand",
+        "itemCode":  "625",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing zinc-coated span wire guy strands for overhead signal and pole tethering.",
+        "category":  "600 Series - Lighting \u0026 Signals"
+    },
+    {
+        "title":  "Treated Timber Poles",
+        "itemCode":  "627",
+        "specBook":  "2024 / 2014",
+        "description":  "Erecting treated wood utility poles for temporary electrical power or span-wire signal setups.",
         "category":  "600 Series - Lighting \u0026 Signals"
     },
     {
         "title":  "Electrical Services",
         "itemCode":  "628",
         "specBook":  "2024 / 2014",
-        "description":  "Installing electrical service enclosures, meters, and utility connections.",
+        "description":  "Installing electrical service disconnect enclosures, utility meter bases, and breaker panels.",
         "category":  "600 Series - Lighting \u0026 Signals"
     },
     {
         "title":  "Signs",
         "itemCode":  "636",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and installing guide, warning, and regulatory signs on roadside supports.",
+        "description":  "Furnishing aluminum sign substrates, retroreflective sheeting, and layout legends for highway signs.",
         "category":  "600 Series - Lighting \u0026 Signals"
     },
     {
         "title":  "Small Roadside Sign Assemblies",
         "itemCode":  "644",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing, fabricating, and erecting small roadside sign supports and stub posts.",
+        "description":  "Erecting small roadside warning, regulatory, and guide sign aluminum panels on breakaway posts.",
         "category":  "600 Series - Lighting \u0026 Signals"
     },
     {
-        "title":  "Large Roadside Sign Supports and Assemblies",
+        "title":  "Large Roadside Sign Supports",
         "itemCode":  "647",
         "specBook":  "2024 / 2014",
-        "description":  "Erecting large roadside sign supports, breakaway I-beams, and sign panels.",
+        "description":  "Erecting structural steel I-beam posts and stub multi-post foundations for large guide signs.",
+        "category":  "600 Series - Lighting \u0026 Signals"
+    },
+    {
+        "title":  "Overhead Sign Structures",
+        "itemCode":  "650",
+        "specBook":  "2024 / 2014",
+        "description":  "Erecting span truss or cantilever overhead sign bridge structures and walkway grates.",
+        "category":  "600 Series - Lighting \u0026 Signals"
+    },
+    {
+        "title":  "Sign Walkways",
+        "itemCode":  "654",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing and mounting maintenance walkways, handrails, and safety ladders on overhead sign bridges.",
+        "category":  "600 Series - Lighting \u0026 Signals"
+    },
+    {
+        "title":  "Foundations for Traffic Control Devices",
+        "itemCode":  "656",
+        "specBook":  "2024 / 2014",
+        "description":  "Constructing reinforced concrete drilled shaft foundations for light poles, traffic signals, and sign posts.",
+        "category":  "600 Series - Lighting \u0026 Signals"
+    },
+    {
+        "title":  "Delineator and Object Marker Assemblies",
+        "itemCode":  "658",
+        "specBook":  "2024 / 2014",
+        "description":  "Installing flexible post delineators, barrier reflectors, and object marker posts.",
         "category":  "600 Series - Lighting \u0026 Signals"
     },
     {
         "title":  "Work Zone Pavement Markings",
         "itemCode":  "662",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and placing temporary work zone paint, tape, or removable pavement markings.",
+        "description":  "Placing temporary removable paint, tape, or raised tabs for work zone traffic guidance.",
         "category":  "600 Series - Lighting \u0026 Signals"
     },
     {
         "title":  "Retroreflectorized Pavement Markings",
         "itemCode":  "666",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and applying thermoplastic or multipolymer retroreflectorized pavement stripes.",
+        "description":  "Applying thermoplastic retroreflectorized striping (4 inch, 8 inch, 12 inch, arrows, words).",
+        "category":  "600 Series - Lighting \u0026 Signals"
+    },
+    {
+        "title":  "Prefabricated Pavement Markings",
+        "itemCode":  "668",
+        "specBook":  "2024 / 2014",
+        "description":  "Applying preformed patterned tape or plastic pavement markings for crosswalks and symbols.",
         "category":  "600 Series - Lighting \u0026 Signals"
     },
     {
         "title":  "Raised Pavement Markers",
         "itemCode":  "672",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and placing reflectorized raised pavement markers (Jiggle buttons / RPMs).",
+        "description":  "Installing reflective raised pavement marker buttons (Type I-C, Type II-A-A, Type II-C-R).",
         "category":  "600 Series - Lighting \u0026 Signals"
     },
     {
         "title":  "Eliminating Existing Pavement Markings and Markers",
         "itemCode":  "677",
         "specBook":  "2024 / 2014",
-        "description":  "Removing or blacking out obsolete pavement stripes and markers.",
+        "description":  "Removing existing thermoplastic striping and markers by water blasting or mechanical grinding.",
+        "category":  "600 Series - Lighting \u0026 Signals"
+    },
+    {
+        "title":  "Pavement Surface Preparation for Markings",
+        "itemCode":  "678",
+        "specBook":  "2024 / 2014",
+        "description":  "Cleaning and air-blasting pavement surface prior to applying thermoplastic markings.",
         "category":  "600 Series - Lighting \u0026 Signals"
     },
     {
         "title":  "Highway Traffic Signals",
         "itemCode":  "680",
         "specBook":  "2024 / 2014",
-        "description":  "Installing traffic signal controllers, cabinets, and complete signalized intersections.",
+        "description":  "Installing complete traffic signal controller cabinets, intersection wiring, and turn-on testing.",
+        "category":  "600 Series - Lighting \u0026 Signals"
+    },
+    {
+        "title":  "Temporary Traffic Signals",
+        "itemCode":  "681",
+        "specBook":  "2024 / 2014",
+        "description":  "Installing and operating span-wire temporary traffic signal systems during construction phases.",
         "category":  "600 Series - Lighting \u0026 Signals"
     },
     {
@@ -563,49 +1284,350 @@
         "title":  "Traffic Signal Cables",
         "itemCode":  "684",
         "specBook":  "2024 / 2014",
-        "description":  "Furnishing and pulling multi-conductor traffic signal cable.",
+        "description":  "Pulling multi-conductor stranded copper traffic signal control cable.",
         "category":  "600 Series - Lighting \u0026 Signals"
     },
     {
-        "title":  "Pothole Repair",
+        "title":  "Roadside Flashing Beacon Assemblies",
+        "itemCode":  "685",
+        "specBook":  "2024 / 2014",
+        "description":  "Installing solar-powered or AC school zone and warning flashing beacon assemblies.",
+        "category":  "600 Series - Lighting \u0026 Signals"
+    },
+    {
+        "title":  "Traffic Signal Pole Assemblies",
+        "itemCode":  "686",
+        "specBook":  "2024 / 2014",
+        "description":  "Erecting steel traffic signal mast arm poles, luminaire arms, and anchor bolt foundations.",
+        "category":  "600 Series - Lighting \u0026 Signals"
+    },
+    {
+        "title":  "Pedestrian Pole Assemblies",
+        "itemCode":  "687",
+        "specBook":  "2024 / 2014",
+        "description":  "Erecting aluminum or steel pedestrian push-button poles and pedestrian signal heads.",
+        "category":  "600 Series - Lighting \u0026 Signals"
+    },
+    {
+        "title":  "Pedestrian and Vehicle Detectors",
+        "itemCode":  "688",
+        "specBook":  "2024 / 2014",
+        "description":  "Installing inductive loop wire detectors, radar vehicle sensors, or push buttons.",
+        "category":  "600 Series - Lighting \u0026 Signals"
+    },
+    {
+        "title":  "Maintenance of Traffic Signals",
+        "itemCode":  "690",
+        "specBook":  "2024 / 2014",
+        "description":  "Troubleshooting, repairing, and replacing traffic signal heads, loop detectors, and controller components.",
+        "category":  "600 Series - Lighting \u0026 Signals"
+    },
+    {
+        "title":  "Pothole Repair / ROW Maintenance",
         "itemCode":  "700",
         "specBook":  "2024 / 2014",
-        "description":  "Cleaning, tacking, and filling localized potholes with approved asphalt mix.",
+        "description":  "Cleaning, tacking, and filling localized potholes with approved asphalt concrete mixture.",
         "category":  "700 Series - Maintenance"
     },
     {
         "title":  "Cleaning and Sealing Joints and Cracks (Asphalt Concrete)",
         "itemCode":  "712",
         "specBook":  "2024 / 2014",
-        "description":  "Cleaning and hot-pour rubber sealant filling of pavement cracks and joints.",
+        "description":  "Cleaning and hot-pour rubberized asphalt sealant filling of cracks and joints in asphalt concrete pavement.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Cleaning and Sealing Joints and Cracks (Concrete Pavement)",
+        "itemCode":  "713",
+        "specBook":  "2024 / 2014",
+        "description":  "Cleaning, routing, and sealing expansion, contraction, and longitudinal joints in concrete pavement.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Repair of Spalling in Concrete Pavement",
+        "itemCode":  "720",
+        "specBook":  "2024 / 2014",
+        "description":  "Repairing spalled, delaminated, or damaged areas in concrete pavement using rapid-setting repair materials.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Fiber Reinforced Polymer Patching Material",
+        "itemCode":  "721",
+        "specBook":  "2024 / 2014",
+        "description":  "Repairing spalls and structural cracks in concrete structures and pavements using fiber-reinforced polymer patching materials.",
         "category":  "700 Series - Maintenance"
     },
     {
         "title":  "Roadside Mowing",
         "itemCode":  "730",
         "specBook":  "2024 / 2014",
-        "description":  "Mowing highway right of way, center medians, and roadside slopes.",
+        "description":  "Mowing highway right of way, center medians, roadside slopes, and channels to maintain vegetation height.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Herbicide Treatment",
+        "itemCode":  "731",
+        "specBook":  "2024 / 2014",
+        "description":  "Applying chemical herbicides for broadcast and spot weed control along highway right-of-way and shoulders.",
         "category":  "700 Series - Maintenance"
     },
     {
         "title":  "Litter Removal",
         "itemCode":  "734",
         "specBook":  "2024 / 2014",
-        "description":  "Collecting and disposing of trash and debris along highway right of way.",
+        "description":  "Collecting, picking up, and disposing of trash, litter, and debris along highway right-of-way and medians.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Debris Removal",
+        "itemCode":  "735",
+        "specBook":  "2024 / 2014",
+        "description":  "Removing large debris, fallen trees, dead animals, and obstacle hazards from mainlanes and shoulders.",
         "category":  "700 Series - Maintenance"
     },
     {
         "title":  "Cleaning and Sweeping Highways",
         "itemCode":  "738",
         "specBook":  "2024 / 2014",
-        "description":  "Sweeping and vacuuming debris from highway gutters, paved shoulders, and medians.",
+        "description":  "Sweeping, vacuuming, and disposing of accumulated dirt, sand, and trash from highway gutters and shoulders.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Graffiti Removal and Anti-Graffiti Coating",
+        "itemCode":  "740",
+        "specBook":  "2024 / 2014",
+        "description":  "Removing unauthorized graffiti from bridge structures and walls, and applying protective anti-graffiti coatings.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Picnic Area Maintenance",
+        "itemCode":  "745",
+        "specBook":  "2024 / 2014",
+        "description":  "Cleaning, maintaining, trash collection, and facility upkeep at highway rest areas, travel plazas, and picnic areas.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Landscape Maintenance",
+        "itemCode":  "751",
+        "specBook":  "2024 / 2014",
+        "description":  "Maintaining landscaped areas, flower beds, shrubs, ornamental trees, irrigation systems, and mulched beds.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Tree and Brush Removal",
+        "itemCode":  "752",
+        "specBook":  "2024 / 2014",
+        "description":  "Pruning, trimming, cutting, and removing trees, brush, and stumps obstructing sight distance or clear zones.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Cleaning and Reshaping Ditches",
+        "itemCode":  "760",
+        "specBook":  "2024 / 2014",
+        "description":  "Removing sediment, vegetation, and obstructions from roadside drainage ditches and reshaping channel flowlines.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Pump Station and Drainage System Cleaning",
+        "itemCode":  "764",
+        "specBook":  "2024 / 2014",
+        "description":  "Cleaning, desilting, and maintaining stormwater pump station wet wells, storm sewer pipes, culverts, and inlets.",
         "category":  "700 Series - Maintenance"
     },
     {
         "title":  "Guard Fence Repair",
         "itemCode":  "770",
         "specBook":  "2024 / 2014",
-        "description":  "Repairing damaged metal beam guard fence rail elements, posts, and end treatments.",
+        "description":  "Repairing, replacing, and realigning damaged metal beam guard fence rail elements, posts, blockouts, and end treatments.",
         "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Repair Cable Barrier System",
+        "itemCode":  "771",
+        "specBook":  "2024 / 2014",
+        "description":  "Repairing damaged high-tension cable barrier posts, tensioning cables, anchor assemblies, and hardware.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Post and Cable Fence",
+        "itemCode":  "772",
+        "specBook":  "2024 / 2014",
+        "description":  "Repairing or installing post and cable wire right-of-way access control fencing and posts.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Attenuator Repair",
+        "itemCode":  "774",
+        "specBook":  "2024 / 2014",
+        "description":  "Repairing and resetting damaged crash attenuators, impact cushions, cartridges, and transition modules.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Metal Rail Repair",
+        "itemCode":  "776",
+        "specBook":  "2024 / 2014",
+        "description":  "Repairing or replacing damaged metal bridge railing, pedestrian railing, handrails, and mounting hardware.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Permanent Concrete Traffic Barrier Repair",
+        "itemCode":  "777",
+        "specBook":  "2024 / 2014",
+        "description":  "Repairing chipped, cracked, or structurally damaged single-slope or Jersey shape concrete traffic barrier walls.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Concrete Rail Repair",
+        "itemCode":  "778",
+        "specBook":  "2024 / 2014",
+        "description":  "Repairing damaged concrete bridge rail, parapet walls, balusters, and end posts.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Concrete Crack Repair",
+        "itemCode":  "780",
+        "specBook":  "2024 / 2014",
+        "description":  "Injecting epoxy resin or approved sealants to repair structural cracks in concrete bridge decks and substructures.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Steel Member Repair",
+        "itemCode":  "784",
+        "specBook":  "2024 / 2014",
+        "description":  "Heat straightening, welding, reinforcing, or replacing damaged structural steel girders, beams, and diaphragms.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Bridge Joint Repair or Replacement",
+        "itemCode":  "785",
+        "specBook":  "2024 / 2014",
+        "description":  "Repairing, cleaning, or replacing damaged bridge deck expansion joint armor, seals, neoprene headers, and silicone sealant.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Carbon Fiber Reinforced Polymer",
+        "itemCode":  "786",
+        "specBook":  "2024 / 2014",
+        "description":  "Structurally strengthening concrete bridge bents, girders, and columns by bonding carbon fiber-reinforced polymer wrap.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Replacing Elastomeric Bearing Pads",
+        "itemCode":  "787",
+        "specBook":  "2024 / 2014",
+        "description":  "Jacking bridge superstructure girders to replace worn, deteriorated, or shifted elastomeric bearing pads.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Concrete Beam Repair",
+        "itemCode":  "788",
+        "specBook":  "2024 / 2014",
+        "description":  "Patching spalls, restoring exposed prestressing strands, and repairing damaged prestressed or reinforced concrete bridge beams.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Lane Closures",
+        "itemCode":  "790",
+        "specBook":  "2024 / 2014",
+        "description":  "Setting up, maintaining, and removing temporary traffic control lane closures, truck-mounted attenuators, and message boards.",
+        "category":  "700 Series - Maintenance"
+    },
+    {
+        "title":  "Materials Supply \u0026 Pass-Through Provisions",
+        "itemCode":  "800",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing construction materials only for local purchase contracts, stockpile delivery, or pass-through material supply provisions.",
+        "category":  "800 Series - Materials Supply"
+    },
+    {
+        "title":  "De-Icing Materials (Bulk Supply)",
+        "itemCode":  "8004",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing bulk solid or liquid chemical de-icing materials, rock salt, magnesium chloride, and anti-icing agents delivered to TxDOT stockpiles.",
+        "category":  "800 Series - Materials Supply"
+    },
+    {
+        "title":  "Emulsified Asphalt (Materials Only)",
+        "itemCode":  "8005",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing liquid asphalt emulsions, prime coats, tack coats, and surface treatment binder materials delivered to TxDOT designated sites.",
+        "category":  "800 Series - Materials Supply"
+    },
+    {
+        "title":  "Superpave Asphaltic Concrete Mixtures (Materials Only)",
+        "itemCode":  "8006",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing hot-mix asphaltic concrete mixtures (Type B, C, D, F, SMA, TOM) produced and loaded into haul trucks at the asphalt plant.",
+        "category":  "800 Series - Materials Supply"
+    },
+    {
+        "title":  "Dense-Graded Hot-Mix Asphalt (Materials Only)",
+        "itemCode":  "8010",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing dense-graded hot-mix asphaltic concrete pavement mixtures produced at the hot-mix plant location.",
+        "category":  "800 Series - Materials Supply"
+    },
+    {
+        "title":  "Aggregate for Surface Treatments (Materials Only)",
+        "itemCode":  "8011",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing aggregates, precoated crushed stone, gravel, and slag materials for seal coat surface treatments delivered to TxDOT stockpiles.",
+        "category":  "800 Series - Materials Supply"
+    },
+    {
+        "title":  "Asphalt Cement, Cutback Asphalt, and Emulsions (Materials Only)",
+        "itemCode":  "8012",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing binders, cutback asphalt, performance-graded asphalt cements, and crack sealants supplied in bulk tanks or drums.",
+        "category":  "800 Series - Materials Supply"
+    },
+    {
+        "title":  "Flexible Base (Materials Only)",
+        "itemCode":  "8013",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing crushed limestone, caliche, crushed concrete, and processed flexible base materials delivered to TxDOT maintenance yards.",
+        "category":  "800 Series - Materials Supply"
+    },
+    {
+        "title":  "Asphaltic Concrete Patching Material (Stockpile)",
+        "itemCode":  "8019",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing cold-mix or high-performance winter pothole patching mixtures delivered in bulk or bags to TxDOT stockpiles.",
+        "category":  "800 Series - Materials Supply"
+    },
+    {
+        "title":  "Riprap and Rock Filter Fabric (Materials Only)",
+        "itemCode":  "8020",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing stone riprap, rock filter dams, gabion mattress basket materials, and geotextile filter fabrics.",
+        "category":  "800 Series - Materials Supply"
+    },
+    {
+        "title":  "Winter Weather Material (Complex Chloride / Brine)",
+        "itemCode":  "8032",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing liquid brine blend de-icing complexes, corrosion-inhibited liquid calcium chloride, and anti-icing chemical solutions in bulk.",
+        "category":  "800 Series - Materials Supply"
+    },
+    {
+        "title":  "Small Roadside Sign Assemblies (Materials Only)",
+        "itemCode":  "8039",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing sign blanks, aluminum substrates, retroreflective sheeting, posts, sockets, and hardware for roadside signs.",
+        "category":  "800 Series - Materials Supply"
+    },
+    {
+        "title":  "Delineators and Object Markers (Materials Only)",
+        "itemCode":  "8040",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing flexible post delineators, object markers, barrier reflectors, and mounting brackets supplied in bulk.",
+        "category":  "800 Series - Materials Supply"
+    },
+    {
+        "title":  "Metal Beam Guard Fence \u0026 End Treatments (Materials Only)",
+        "itemCode":  "8042",
+        "specBook":  "2024 / 2014",
+        "description":  "Furnishing W-beam guardrail elements, steel posts, timber blockouts, hardware, and crashworthy end terminal components.",
+        "category":  "800 Series - Materials Supply"
     }
 ]

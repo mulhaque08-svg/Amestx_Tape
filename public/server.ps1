@@ -54,7 +54,7 @@ function Is-Item800([string]$code) {
     return $false
 }
 
-function Get-AmestxCompositePrice ([string]$bidCode, [double]$engEstUnit = 0.00, [double]$lowBidUnit = 0.00, [double]$highBidUnit = 0.00) {
+function Get-AmestxCompositePrice ([string]$bidCode, [double]$engEstUnit = 0.00, [double]$lowBidUnit = 0.00, [double]$highBidUnit = 0.00, [double]$engEstTotal = 0.00, [double]$quantity = 1.00) {
     if (Is-Item800 $bidCode) { return 0.00 }
 
     # 1. Direct Project Bids (Low Bidder + High Bidder + Engineer Estimate) / N
@@ -63,60 +63,84 @@ function Get-AmestxCompositePrice ([string]$bidCode, [double]$engEstUnit = 0.00,
     if ($highBidUnit -gt 0) { $prices += $highBidUnit }
     if ($engEstUnit -gt 0) { $prices += $engEstUnit }
 
+    $calculatedPrice = 0.00
+
     if ($prices.Count -gt 0) {
         $sum = 0.0
         foreach ($p in $prices) { $sum += $p }
-        return [math]::Round($sum / $prices.Count, 2)
-    }
+        $calculatedPrice = [math]::Round($sum / $prices.Count, 2)
+    } else {
+        # 2. Historical Benchmarks from TxDOT Dataset (de7b-7dna) with Item+Spec Code matching
+        $normCode = Normalize-TxDotBidCode $bidCode
+        if (-not [string]::IsNullOrWhiteSpace($normCode)) {
+            $parts = $normCode -split '-'
+            $codePadded = if ($parts.Count -eq 2) { ($parts[0].PadLeft(4, '0')) + "-" + ($parts[1].PadLeft(4, '0')) } else { $normCode }
+            $codeUnpadded = if ($parts.Count -eq 2) { ($parts[0].TrimStart('0')) + "-" + ($parts[1].TrimStart('0')) } else { $normCode }
 
-    # 2. Historical 12-Month Benchmarks from TxDOT Dataset (de7b-7dna)
-    $normCode = Normalize-TxDotBidCode $bidCode
-    if ([string]::IsNullOrWhiteSpace($normCode)) { 
-        if ($engEstUnit -gt 0) { return $engEstUnit }
-        if ($lowBidUnit -gt 0) { return $lowBidUnit }
-        return 0.00 
-    }
-    
-    if ($script:avgPriceCache -and $script:avgPriceCache.ContainsKey($normCode)) { 
-        $cached = $script:avgPriceCache[$normCode]
-        if ($cached -gt 0) {
-            $benchmarks = @($cached)
-            if ($engEstUnit -gt 0) { $benchmarks += $engEstUnit }
-            $bSum = 0.0
-            foreach ($b in $benchmarks) { $bSum += $b }
-            return [math]::Round($bSum / $benchmarks.Count, 2)
+            if ($script:avgPriceCache -and $script:avgPriceCache.ContainsKey($normCode)) {
+                $calculatedPrice = $script:avgPriceCache[$normCode]
+            } else {
+                try {
+                    $last12Mo = ([datetime]::Now.AddMonths(-24)).ToString("yyyy-MM-01T00:00:00")
+                    $whereClause = "project_actual_let_date>='$last12Mo'+AND+(bid_code='$normCode'+OR+bid_code='$codePadded'+OR+bid_code='$codeUnpadded')"
+
+                    $urlLow = "https://data.texas.gov/resource/de7b-7dna.json?`$select=AVG(bid_item_unit_price_amount)+as+low_avg&`$where=$whereClause+AND+(low_bidder_flag='true'+OR+low_bidder_flag='True'+OR+bid_rank_sequence_number='1')"
+                    $resLow = Invoke-RestMethod -Uri $urlLow -UserAgent "Mozilla/5.0" -UseBasicParsing -TimeoutSec 5
+
+                    $urlAll = "https://data.texas.gov/resource/de7b-7dna.json?`$select=AVG(bid_item_unit_price_amount)+as+all_avg&`$where=$whereClause"
+                    $resAll = Invoke-RestMethod -Uri $urlAll -UserAgent "Mozilla/5.0" -UseBasicParsing -TimeoutSec 5
+
+                    $bList = @()
+                    if ($resLow -and $resLow.Count -gt 0 -and $resLow[0].low_avg) { $bList += [double]$resLow[0].low_avg }
+                    if ($resAll -and $resAll.Count -gt 0 -and $resAll[0].all_avg) { $bList += [double]$resAll[0].all_avg }
+                    if ($engEstUnit -gt 0) { $bList += $engEstUnit }
+
+                    if ($bList.Count -gt 0) {
+                        $sum = 0.0
+                        foreach ($b in $bList) { $sum += $b }
+                        $calculatedPrice = [math]::Round($sum / $bList.Count, 2)
+                        if ($script:avgPriceCache) { $script:avgPriceCache[$normCode] = $calculatedPrice }
+                    }
+                } catch {}
+            }
         }
     }
-    
-    try {
-        $last12Mo = ([datetime]::Now.AddMonths(-12)).ToString("yyyy-MM-01T00:00:00")
 
-        $urlLow = "https://data.texas.gov/resource/de7b-7dna.json?`$select=bid_code,AVG(bid_item_unit_price_amount)+as+low_avg&`$where=project_actual_let_date>='$last12Mo'+AND+(low_bidder_flag='true'+OR+low_bidder_flag='True'+OR+bid_rank_sequence_number='1')+AND+bid_code='$normCode'&`$group=bid_code"
-        $resLow = Invoke-RestMethod -Uri $urlLow -UserAgent "Mozilla/5.0" -UseBasicParsing -TimeoutSec 5
+    if ($calculatedPrice -eq 0 -and $engEstUnit -gt 0) {
+        $calculatedPrice = $engEstUnit
+    }
 
-        $urlHigh = "https://data.texas.gov/resource/de7b-7dna.json?`$select=bid_code,AVG(bid_item_unit_price_amount)+as+high_avg&`$where=project_actual_let_date>='$last12Mo'+AND+(bid_rank_sequence_number='2'+OR+bid_rank_sequence_number='3')+AND+bid_code='$normCode'&`$group=bid_code"
-        $resHigh = Invoke-RestMethod -Uri $urlHigh -UserAgent "Mozilla/5.0" -UseBasicParsing -TimeoutSec 5
-
-        $urlAll = "https://data.texas.gov/resource/de7b-7dna.json?`$select=bid_code,AVG(bid_item_unit_price_amount)+as+all_avg&`$where=project_actual_let_date>='$last12Mo'+AND+bid_code='$normCode'&`$group=bid_code"
-        $resAll = Invoke-RestMethod -Uri $urlAll -UserAgent "Mozilla/5.0" -UseBasicParsing -TimeoutSec 5
-
-        $bList = @()
-        if ($resLow -and $resLow.Count -gt 0 -and $resLow[0].low_avg) { $bList += [double]$resLow[0].low_avg }
-        if ($resHigh -and $resHigh.Count -gt 0 -and $resHigh[0].high_avg) { $bList += [double]$resHigh[0].high_avg }
-        if ($resAll -and $resAll.Count -gt 0 -and $resAll[0].all_avg) { $bList += [double]$resAll[0].all_avg }
-        if ($engEstUnit -gt 0) { $bList += $engEstUnit }
-
-        if ($bList.Count -gt 0) {
-            $sum = 0.0
-            foreach ($b in $bList) { $sum += $b }
-            $compAvg = [math]::Round($sum / $bList.Count, 2)
-            if ($script:avgPriceCache) { $script:avgPriceCache[$normCode] = $compAvg }
-            return $compAvg
+    # Rule A: MOBILIZATION (Item 500 / 0500) strictly set to 5% of total project estimate
+    $cleanCode = $bidCode.Replace(" ", "").Replace("-", "")
+    if ($cleanCode -like "*500*" -or $cleanCode -like "*0500*") {
+        if ($engEstTotal -gt 0) {
+            return [math]::Round($engEstTotal * 0.05, 2)
         }
-    } catch {}
+    }
 
-    if ($engEstUnit -gt 0) { return $engEstUnit }
-    return 0.00
+    # Rule B: BARRICADES, SIGNS AND TRAFFIC HANDLING (Item 502 / 0502) capped at max 5% of total project estimate
+    if ($cleanCode -like "*502*" -or $cleanCode -like "*0502*") {
+        if ($engEstTotal -gt 0 -and $quantity -gt 0) {
+            $maxBarricadeExt = $engEstTotal * 0.05
+            if (($calculatedPrice * $quantity) -gt $maxBarricadeExt) {
+                return [math]::Round($maxBarricadeExt / $quantity, 2)
+            }
+        }
+    }
+
+    # Rule C: General Item Sanity Ceiling - single item extended total should not exceed project estimate
+    if ($engEstTotal -gt 0 -and $quantity -gt 0) {
+        $itemExt = $calculatedPrice * $quantity
+        if ($itemExt -gt $engEstTotal) {
+            if ($engEstUnit -gt 0 -and $engEstUnit -le $engEstTotal) {
+                return $engEstUnit
+            } else {
+                return [math]::Round(($engEstTotal * 0.70) / $quantity, 2)
+            }
+        }
+    }
+
+    return $calculatedPrice
 }
 
 function Get-2026LowBidAvgPrice ([string]$bidCode) {
@@ -223,7 +247,7 @@ function Get-CSJData {
                     $engUnit = [double]$f.engineer_s_estimate_unit
 
                     # Amestx Composite Unit Price (Low Avg + Market Avg + Eng Est) / N
-                    $amestxPrice = Get-AmestxCompositePrice -bidCode $f.bid_code -engEstUnit $engUnit
+                    $amestxPrice = Get-AmestxCompositePrice -bidCode $f.bid_code -engEstUnit $engUnit -engEstTotal $estVal -quantity $totalQty
 
                     $items += @{
                         code = $codeStr
@@ -874,18 +898,92 @@ while ($listener.IsListening) {
                 $response.OutputStream.Write($jsonBytes, 0, $jsonBytes.Length)
             }
         }
-        elseif ($url -eq "/api/trigger-month-download") {
-            $month = $query["month"]
-            if ([string]::IsNullOrWhiteSpace($month)) { $month = "2026-09" }
-            $dlScript = Join-Path $baseDir "download_monthly_pdfs.ps1"
-            if (Test-Path $dlScript) {
-                Start-Process powershell -ArgumentList "-ExecutionPolicy Bypass -File `"$dlScript`" -Month `"$month`"" -WindowStyle Hidden
-                $jsonStr = '{"success":true,"message":"Local PDF download job launched in background for ' + $month + '"}'
-            } else {
-                $jsonStr = '{"success":false,"error":"Downloader script not found"}'
-            }
-            $jsonBytes = [System.Text.Encoding]::UTF8.GetBytes($jsonStr)
+        elseif ($url -eq "/api/register-trial") {
             $response.ContentType = "application/json"
+            $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+            $dbFile = Join-Path $publicDir "downloads\registered_trial_users.json"
+
+            $bodyText = ""
+            if ($request.HasEntityBody) {
+                $reader = New-Object System.IO.StreamReader($request.InputStream, [System.Text.Encoding]::UTF8)
+                $bodyText = $reader.ReadToEnd()
+            }
+
+            $reqObj = if ($bodyText) { try { $bodyText | ConvertFrom-Json } catch { $null } } else { $null }
+
+            if (-not $reqObj -or -not $reqObj.email -or -not $reqObj.phone) {
+                $resData = @{ success = $false; error = "Email and Phone are required for trial registration" }
+            } else {
+                $normEmail = $reqObj.email.Trim().ToLower()
+                $normPhone = ($reqObj.phone -replace '[^\d]', '')
+
+                $userList = [System.Collections.Generic.List[psobject]]::new()
+                if (Test-Path $dbFile) {
+                    try {
+                        $rawDb = [System.IO.File]::ReadAllText($dbFile, [System.Text.Encoding]::UTF8)
+                        $parsedDb = $rawDb | ConvertFrom-Json
+                        if ($parsedDb) { foreach ($u in $parsedDb) { $userList.Add($u) } }
+                    } catch {}
+                }
+
+                $existing = $null
+                foreach ($u in $userList) {
+                    $uEmail = ($u.email + '').Trim().ToLower()
+                    $uPhone = (($u.phone + '') -replace '[^\d]', '')
+                    if (($normEmail -and $uEmail -eq $normEmail) -or ($normPhone -and $uPhone -eq $normPhone)) {
+                        $existing = $u
+                        break
+                    }
+                }
+
+                $nowMs = [DateTimeOffset]::Now.ToUnixTimeMilliseconds()
+                if ($existing) {
+                    $regMs = [int64]$existing.registeredAt
+                    $elapsedDays = ($nowMs - $regMs) / (1000 * 60 * 60 * 24)
+                    $isPaid = [bool]$existing.isPaid
+
+                    if ($elapsedDays -gt 7 -and -not $isPaid) {
+                        $resData = @{
+                            success = $false
+                            expired = $true
+                            message = "Your 7-day free trial registered for this email/phone expired. Re-registration is not allowed. Please select a subscription plan."
+                            profile = $existing
+                            registeredAt = $regMs
+                            elapsedDays = [Math]::Round($elapsedDays, 1)
+                        }
+                    } else {
+                        $resData = @{
+                            success = $true
+                            expired = $false
+                            daysRemaining = [Math]::Max(1, [Math]::Ceiling(7 - $elapsedDays))
+                            profile = $existing
+                        }
+                    }
+                } else {
+                    $newUser = [ordered]@{
+                        name = $reqObj.name
+                        company = $reqObj.company
+                        email = $normEmail
+                        phone = $normPhone
+                        role = $reqObj.role
+                        registeredAt = $nowMs
+                        isPaid = $false
+                    }
+                    $userList.Add($newUser)
+                    $jsonOut = $userList | ConvertTo-Json -Depth 5
+                    [System.IO.File]::WriteAllText($dbFile, $jsonOut, $utf8NoBom)
+
+                    $resData = @{
+                        success = $true
+                        expired = $false
+                        daysRemaining = 7
+                        profile = $newUser
+                    }
+                }
+            }
+
+            $jsonStr = $resData | ConvertTo-Json -Depth 5
+            $jsonBytes = [System.Text.Encoding]::UTF8.GetBytes($jsonStr)
             $response.ContentLength64 = $jsonBytes.Length
             $response.OutputStream.Write($jsonBytes, 0, $jsonBytes.Length)
         }

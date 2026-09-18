@@ -110,15 +110,11 @@ function Get-AmestxCompositePrice ([string]$bidCode, [double]$engEstUnit = 0.00,
         $calculatedPrice = $engEstUnit
     }
 
-    # 3. TxDOT Specifications Estimating Rules & Proportional Ceiling Logic:
-    # Rule A: MOBILIZATION (Item 500 / 0500) capped at max 8-10% of total project estimate (TxDOT Spec Item 500.3)
+    # Rule A: MOBILIZATION (Item 500 / 0500) strictly set to 5% of total project estimate
     $cleanCode = $bidCode.Replace(" ", "").Replace("-", "")
     if ($cleanCode -like "*500*" -or $cleanCode -like "*0500*") {
         if ($engEstTotal -gt 0) {
-            $mobCap = [math]::Round($engEstTotal * 0.08, 2)
-            if ($calculatedPrice -gt ($engEstTotal * 0.10) -or $calculatedPrice -eq 0) {
-                return $mobCap
-            }
+            return [math]::Round($engEstTotal * 0.05, 2)
         }
     }
 

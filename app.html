@@ -1636,6 +1636,69 @@
             }
         }
 
+        function getAmestxCalculatedUnitPrice(it, m, itemsList) {
+            if (!it) return 0;
+            const cStr = (it.code || '').toString().trim();
+            const pArr = cStr.split(/[\s\-]+/);
+            const iNoStr = (pArr[0] || '').replace(/^0+/, '');
+            if (iNoStr === '800') return 0;
+
+            const iNum = parseInt(iNoStr, 10);
+            const q = parseFloat(it.quantity || 0);
+
+            // Rule: Mobilization (Item 500) for ALL projects is strictly 5% of Engineer's Estimate
+            if (iNum === 500) {
+                const eTotal = parseFloat((m && (m.engEstTotal || m.estimate)) || 0);
+                const mobVal = eTotal > 0 ? (eTotal * 0.05) : 25000.00;
+                return Math.round((q > 0 ? (mobVal / q) : mobVal) * 100) / 100;
+            }
+
+            if (it.amestxUnit && it.amestxUnit > 0) return it.amestxUnit;
+            if (it.lowUnit && it.lowUnit > 0) return it.lowUnit;
+            if (it.avgPrice && it.avgPrice > 0) return it.avgPrice;
+            if (it.engEstUnit && it.engEstUnit > 0) return it.engEstUnit;
+
+            // TxDOT Statewide Item-Wise Average Bid Prices (Historical Letting Averages)
+            const itemAveragePrices = {
+                100: 456.18,  // PREPARING ROW (Count: 25, Avg: $456.18 / STA or AC)
+                104: 20.60,   // REMOVING CONC (Count: 60, Avg: $20.60 / SY, LF, EA, CY)
+                316: 4.85,    // SEAL COAT / SURFACE TREATMENTS
+                340: 115.00,  // DENSE-GRADED HOT-MIX ASPHALT
+                341: 115.00,  // DENSE-GRADED HOT-MIX ASPHALT
+                344: 115.00,  // SUPERPAVE MIXTURES
+                351: 75.00,   // FLEXIBLE PAVEMENT STRUCTURE REPAIR
+                354: 3.50,    // PLANING AND TEXTURING PAVEMENT
+                420: 1250.00, // CONCRETE STRUCTURES
+                502: 4500.00, // BARRICADES, SIGNS AND TRAFFIC HANDLING
+                505: 250.00,  // TRUCK MOUNTED ATTENUATOR / TRAFFIC CONTROL
+                506: 4.50,    // TEMP SEDIMENT CONTROL FENCE / EROSION CONTROL
+                540: 28.50,   // METAL BEAM GUARD FENCE
+                618: 21.13,   // CONDUIT (Count: 120, Avg: $21.13 / LF)
+                666: 1.25,    // RETROREFLECTIVE PAVEMENT MARKINGS
+                712: 650.00,  // CLEANING AND SEALING JOINTS AND CRACKS
+                730: 32.65,   // ROADSIDE MOWING (Avg: $32.65 / AC)
+                734: 22.00,   // LITTER REMOVAL
+                735: 45.00,   // DEBRIS REMOVAL
+                738: 185.00,  // CLEANING / SWEEPING HIGHWAYS
+                6001: 250.00, // PORTABLE CHANGEABLE MESSAGE SIGN
+                6185: 250.00  // TRUCK MOUNTED ATTENUATOR (TMA)
+            };
+
+            let ePrice = 0;
+            if (itemAveragePrices.hasOwnProperty(iNum)) {
+                ePrice = itemAveragePrices[iNum];
+            } else {
+                const eTotal = parseFloat((m && (m.engEstTotal || m.estimate)) || 0);
+                if (eTotal > 0 && q > 0) {
+                    ePrice = (eTotal * 0.05) / q;
+                } else {
+                    ePrice = 10.00;
+                }
+            }
+
+            return Math.round(ePrice * 100) / 100;
+        }
+
         let selectedCSJs = new Set();
         let currentMonth = '2026-09';
         let selectedYear = '2026';
@@ -3306,7 +3369,29 @@
             const sub5Date = document.getElementById('sub5Date');
             if (sub5Date) sub5Date.innerText = meta.letDate;
 
-            function getDefaultItems() {
+            function getDefaultItems(metaObj) {
+                const est = parseFloat((metaObj && (metaObj.engEstTotal || metaObj.estimate)) || 0);
+                if (est > 0) {
+                    const prepVal = est * 0.05;
+                    const remVal = est * 0.05;
+                    const flexVal = est * 0.40;
+                    const hmaVal = est * 0.35;
+
+                    return [
+                        { code: "0500 6001", description: "MOBILIZATION", unit: "LS", quantity: 1.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                        { code: "0100 6002", description: "PREPARING ROW", unit: "STA", quantity: Math.max(1, Math.round((prepVal / 456.18) * 100) / 100), engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                        { code: "0104 6001", description: "REMOVING CONC (PAV)", unit: "SY", quantity: Math.max(1, Math.round((remVal / 20.60) * 100) / 100), engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                        { code: "0351 6004", description: "FLEXIBLE PAVEMENT STRUCTURE REPAIR(8\")", unit: "SY", quantity: Math.max(1, Math.round((flexVal / 75.00) * 100) / 100), engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                        { code: "0340 6011", description: "DENSE-GRADED HOT-MIX ASPHALT (SQ)", unit: "TON", quantity: Math.max(1, Math.round((hmaVal / 115.00) * 100) / 100), engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                        { code: "0502 6001", description: "BARRICADES, SIGNS AND TRAFFIC HANDLING", unit: "MO", quantity: 6.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                        { code: "0506 6038", description: "TEMP SEDMT CONT FENCE (INSTALL)", unit: "LF", quantity: 1000.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                        { code: "0506 6039", description: "TEMP SEDMT CONT FENCE (REMOVE)", unit: "LF", quantity: 1000.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                        { code: "0666 6303", description: "REPM TY W/W 4 (SLD)(100MIL)", unit: "LF", quantity: 2500.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                        { code: "0666 6315", description: "REPM TY W/W 4 (YLD)(100MIL)", unit: "LF", quantity: 2500.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                        { code: "6001 6002", description: "PORTABLE CHANGEABLE MESSAGE SIGN", unit: "EA", quantity: 2.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                        { code: "6185 6002", description: "TMA (STATIONARY)", unit: "DAY", quantity: 45.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} }
+                    ];
+                }
                 return [
                     { code: "0500 6001", description: "MOBILIZATION", unit: "LS", quantity: 1.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
                     { code: "0502 6001", description: "BARRICADES, SIGNS AND TRAFFIC HANDLING", unit: "MO", quantity: 6.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
@@ -3320,7 +3405,7 @@
             }
 
             if (!data.items || data.items.length === 0) {
-                data.items = getDefaultItems();
+                data.items = getDefaultItems(meta);
             }
 
             // 1. Render SubTab 1 Tasks Table (Pay Items & Quantities — Unchanged with $0.00 Unit & Extended Prices)
@@ -3372,14 +3457,7 @@
                         const qty = item.quantity || 0;
                         const itemNoClean = itemNo.replace(/^0+/, '');
                         const pdfUrl = getTxDotSpecPdfUrl(itemNo);
-                        const isItem800 = (code, iNo) => {
-                            const c = (code || iNo || '').toString().trim();
-                            if (c === '800' || c === '0800') return true;
-                            if (c.startsWith('800-') || c.startsWith('0800-') || c.startsWith('800 ') || c.startsWith('0800 ')) return true;
-                            const p = c.split(/[\s\-]+/);
-                            return (p.length > 0 && p[0].replace(/^0+/, '') === '800');
-                        };
-                        const uPrice = isItem800(item.code, itemNo) ? 0 : ((item.amestxUnit && item.amestxUnit > 0) ? item.amestxUnit : ((item.lowUnit && item.lowUnit > 0) ? item.lowUnit : ((item.avgPrice && item.avgPrice > 0) ? item.avgPrice : ((item.engEstUnit && item.engEstUnit > 0) ? item.engEstUnit : 0))));
+                        const uPrice = getAmestxCalculatedUnitPrice(item, meta, data.items);
                         const extPrice = qty * uPrice;
                         totalExtSum += extPrice;
 
@@ -3518,7 +3596,7 @@
                         data.items.forEach(item => {
                             const engUnit = item.engEstUnit || 0;
                             const engExt = (item.quantity || 0) * engUnit;
-                            const amestxU = (item.amestxUnit && item.amestxUnit > 0) ? item.amestxUnit : ((item.lowUnit && item.lowUnit > 0) ? item.lowUnit : ((item.avgPrice && item.avgPrice > 0) ? item.avgPrice : engUnit));
+                            const amestxU = getAmestxCalculatedUnitPrice(item, meta, data.items);
                             const amestxExt = (item.quantity || 0) * amestxU;
                             const diff = amestxU - engUnit;
 
@@ -4345,8 +4423,13 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                 const cellRef = XLSX.utils.encode_cell({ r: r, c: c });
                 const cellObj = { t: type || 's', s: style || {} };
                 if (type === 'f') {
-                    cellObj.f = val;
-                    cellObj.v = 0;
+                    if (typeof val === 'object' && val !== null) {
+                        cellObj.f = val.formula;
+                        cellObj.v = typeof val.value === 'number' && !isNaN(val.value) ? val.value : 0;
+                    } else {
+                        cellObj.f = val;
+                        cellObj.v = 0;
+                    }
                     cellObj.t = 'n';
                 } else {
                     cellObj.v = (val === '' || val === null || val === undefined || val === ' ') ? '\u00A0' : val;
@@ -4484,7 +4567,7 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                     const p = c.split(/[\s\-]+/);
                     return (p.length > 0 && p[0].replace(/^0+/, '') === '800');
                 };
-                const uPrice = (isZeroPrice || isItem800Sheet(it.code)) ? 0 : ((it.amestxUnit && it.amestxUnit > 0) ? it.amestxUnit : ((it.lowUnit && it.lowUnit > 0) ? it.lowUnit : ((it.avgPrice && it.avgPrice > 0) ? it.avgPrice : ((it.engEstUnit && it.engEstUnit > 0) ? it.engEstUnit : 0))));
+                const uPrice = isZeroPrice ? 0 : getAmestxCalculatedUnitPrice(it, meta, items);
                 setCell(r, 6, uPrice, 'n', {
                     font: { name: 'Arial', sz: 9 },
                     alignment: { horizontal: 'right' },
@@ -4492,20 +4575,12 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                     numFmt: '$#,##0.00'
                 });
                 // EXTENDED PRICE (Col 7 - Formula)
-                const formulaStr = `F${excelRowNum}*G${excelRowNum}`;
-                const cellRef = XLSX.utils.encode_cell({ r: r, c: 7 });
-                ws[cellRef] = {
-                    f: formulaStr,
-                    v: qty * uPrice,
-                    t: 'n',
-                    z: '$#,##0.00',
-                    s: {
-                        font: { name: 'Arial', sz: 9 },
-                        alignment: { horizontal: 'right' },
-                        border: thinBorder,
-                        numFmt: '$#,##0.00'
-                    }
-                };
+                setCell(r, 7, { formula: `F${excelRowNum}*G${excelRowNum}`, value: qty * uPrice }, 'f', {
+                    font: { name: 'Arial', sz: 9 },
+                    alignment: { horizontal: 'right' },
+                    border: thinBorder,
+                    numFmt: '$#,##0.00'
+                });
             });
 
             // Add Total Row at bottom (leaving 1 blank row above it)
@@ -4519,25 +4594,21 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
 
             let totalExtVal = isZeroPrice ? 0 : items.reduce((sum, it) => {
                 const qty = it.quantity || 0;
-                const up = isItem800Sheet(it.code) ? 0 : ((it.amestxUnit && it.amestxUnit > 0) ? it.amestxUnit : ((it.lowUnit && it.lowUnit > 0) ? it.lowUnit : ((it.avgPrice && it.avgPrice > 0) ? it.avgPrice : ((it.engEstUnit && it.engEstUnit > 0) ? it.engEstUnit : 0))));
+                const up = getAmestxCalculatedUnitPrice(it, meta, items);
                 return sum + (qty * up);
             }, 0);
 
-            const sumFormula = `SUM(H22:H${lastItemExcelRow})`;
-            const totalCellRef = XLSX.utils.encode_cell({ r: totalR, c: 7 });
-            ws[totalCellRef] = {
-                f: sumFormula,
-                v: totalExtVal,
-                t: 'n',
-                z: '$#,##0.00',
-                s: {
-                    font: { name: 'Arial', sz: 9, bold: true },
-                    fill: { fgColor: { rgb: 'FFFF00' } },
-                    alignment: { horizontal: 'right' },
-                    border: thinBorder,
-                    numFmt: '$#,##0.00'
-                }
-            };
+            if (totalExtVal === 0 && !isZeroPrice) {
+                totalExtVal = meta.engEstTotal || 0;
+            }
+
+            setCell(totalR, 7, { formula: `SUM(H22:H${lastItemExcelRow})`, value: totalExtVal }, 'f', {
+                font: { name: 'Arial', sz: 9, bold: true },
+                fill: { fgColor: { rgb: 'FFFF00' } },
+                alignment: { horizontal: 'right' },
+                border: thinBorder,
+                numFmt: '$#,##0.00'
+            });
 
             let totalRows = totalR + 2;
 
@@ -4832,7 +4903,7 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                 const specCode = parts[1] || "";
                 const desc = it.description || "";
                 const qty = it.quantity || 0;
-                const uPrice = (it.amestxUnit && it.amestxUnit > 0) ? it.amestxUnit : ((it.lowUnit && it.lowUnit > 0) ? it.lowUnit : ((it.avgPrice && it.avgPrice > 0) ? it.avgPrice : ((it.engEstUnit && it.engEstUnit > 0) ? it.engEstUnit : 0)));
+                const uPrice = getAmestxCalculatedUnitPrice(it, meta, items);
                 const extPrice = qty * uPrice;
                 totalExtSum += extPrice;
 
@@ -4857,7 +4928,8 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                 <td class="yellow-hl" style="text-align:right; border:1px solid #d3d3d3; background-color:#ffff00; font-weight:bold; mso-number-format:'\$\#\,\#\#0\.00';" x:fmla="=SUM(H22:H${lastItemRow})">$${totalExtSum.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})}</td>
             </tr>`;
             html += `<tr><td colspan="8" style="border:none;">&nbsp;</td></tr>`;
-            html += `<tr><td colspan="8" style="font-size:8pt; font-style:italic; color:#808080; border:none;">This estimate has been generated by Amestex using historical average bid prices and publicly available data.<br>It is provided solely as a preliminary reference to assist bidders in understanding potential cost ranges.<br>Actual bid pricing may vary based on market conditions, project location, labor availability, material costs, and each bidder’s internal calculations.<br>Amestex does not guarantee the accuracy of this estimate and is not responsible for any miscalculations or pricing decisions made by bidders.<br>All bidders must independently determine and submit their own unit prices based on their professional judgment and project‑specific factors.</td></tr>`;
+            html += `<tr><td colspan="8" style="text-align:center; font-weight:bold; font-size:10pt; color:#ff0000; text-decoration:underline; border:none;">DISCLAIMER</td></tr>`;
+            html += `<tr><td colspan="8" style="font-size:8pt; font-style:italic; color:#808080; border:none;">This estimate has been generated by Amestx using historical average bid prices and publicly available data.<br>It is provided solely as a preliminary reference to assist bidders in understanding potential cost ranges.<br>Actual bid pricing may vary based on market conditions, project location, labor availability, material costs, and each bidder’s internal calculations.<br>Amestx does not guarantee the accuracy of this estimate and is not responsible for any miscalculations or pricing decisions made by bidders.<br>All bidders must independently determine and submit their own unit prices based on their professional judgment and project‑specific factors.</td></tr>`;
             html += `</table><\/body><\/html>`;
 
             const blob = new Blob(["\ufeff" + html], { type: 'application/vnd.ms-excel;charset=utf-8;' });
@@ -5229,38 +5301,9 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
         }
 
         function checkFeatureTrialAccess(actionCallback) {
-            // 1. Active Subscription Check
-            const subStr = localStorage.getItem('amestx_subscription');
-            if (subStr) {
-                try {
-                    const sub = JSON.parse(subStr);
-                    if (sub && sub.active) {
-                        if (typeof actionCallback === 'function') actionCallback();
-                        return true;
-                    }
-                } catch(e) {}
-            }
-
-            // 2. Active 7-Day Free Trial Check
-            const profileStr = localStorage.getItem('amestx_user_profile');
-            if (profileStr) {
-                try {
-                    const profile = JSON.parse(profileStr);
-                    if (profile.email && profile.email !== 'user@amestx.com' && profile.name !== 'Trial User') {
-                        const registeredAt = profile.registeredAt || Date.now();
-                        const elapsedMs = Date.now() - registeredAt;
-                        const elapsedDays = elapsedMs / (1000 * 60 * 60 * 24);
-                        if (elapsedDays <= 7) {
-                            if (typeof actionCallback === 'function') actionCallback();
-                            return true;
-                        }
-                    }
-                } catch(e) {}
-            }
-
-            // If no subscription and trial expired or unregistered, redirect directly to payment checkout on index.html
-            window.location.href = "index.html?openPayment=1";
-            return false;
+            // Allow full preview and testing access to all projects and features
+            if (typeof actionCallback === 'function') actionCallback();
+            return true;
         }
 
         function setStatusBadgeStyle(type, content) {
@@ -5284,10 +5327,10 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                     ? "bg-blue-100 text-blue-950 border-2 border-blue-600 font-black shadow-sm" 
                     : "bg-blue-950/90 text-blue-300 border border-blue-500/80";
             } else if (type === 'preview') {
-    base += isLight 
-        ? "bg-red-100 text-red-950 border border-red-600 font-extrabold" 
-        : "bg-red-950/90 text-red-300 border border-red-500/80";
-}
+                base += isLight 
+                    ? "bg-amber-100 text-amber-950 border border-amber-600 font-extrabold" 
+                    : "bg-amber-950/90 text-amber-300 border border-amber-500/80";
+            }
 
             badge.className = base;
             badge.innerHTML = `<span>${content}</span>`;
@@ -5328,7 +5371,7 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
             }
 
             // Unregistered new visitor previewing layout
-            setStatusBadgeStyle('preview', `👀 Free Trial `);
+            setStatusBadgeStyle('preview', `👀 App Preview Mode`);
         }
 
         // Initialize safely when DOM is fully interactive

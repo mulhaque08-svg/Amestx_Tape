@@ -1031,8 +1031,9 @@
 
     <!-- Expired 7-Day Trial Modal Overlay -->
     <div id="trialExpiredModal" class="fixed inset-0 z-[200] bg-slate-950/95 backdrop-blur flex items-center justify-center p-4 hidden">
-        <div class="bg-slate-900 border-2 border-rose-500/80 rounded-3xl max-w-md w-full p-6 text-center space-y-4 shadow-2xl">
-            <div class="w-12 h-12 rounded-2xl bg-rose-950 text-rose-400 border border-rose-600 flex items-center justify-center font-bold text-xl mx-auto shadow-inner">⚠️</div>
+        <div class="bg-slate-900 border border-slate-700 rounded-3xl max-w-md w-full p-6 text-center space-y-4 shadow-2xl relative">
+            <button onclick="document.getElementById('trialExpiredModal').classList.add('hidden')" style="color: #ffffff !important;" class="w-7 h-7 rounded-full bg-slate-800 hover:bg-slate-700 text-white flex items-center justify-center font-bold text-sm transition absolute top-4 right-4">✕</button>
+            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-blue-600 to-amber-500 text-white flex items-center justify-center font-extrabold text-sm mx-auto shadow-lg">AM</div>
             <h3 style="color: #ffffff !important;" class="text-2xl font-black text-white tracking-tight">7-Day Free Trial Expired</h3>
             <p id="trialExpiredMsg" style="color: #ffffff !important; background-color: #020617 !important; border-color: #334155 !important;" class="text-xs text-white font-bold leading-relaxed p-3.5 rounded-2xl border shadow-inner">
                 Your 7-day trial period has expired. Free access to TxDOT Bid Estimator is no longer active for this account.

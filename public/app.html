@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Google tag (gtag.js) -->
@@ -1021,6 +1021,64 @@
                     <span>💳 Upgrade Subscription Plan & Continue</span>
                     <span>&rarr;</span>
                 </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Registration & User Info Modal (App Page) -->
+    <div id="registrationModal" class="fixed inset-0 z-[200] bg-slate-950/90 backdrop-blur flex items-center justify-center p-3 sm:p-6 hidden">
+        <div class="bg-slate-900 border border-slate-700 rounded-3xl w-full max-w-lg overflow-hidden shadow-2xl flex flex-col">
+            <!-- Header -->
+            <div class="px-6 py-4 bg-slate-950 border-b border-slate-800 flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <div class="w-8 h-8 bg-gradient-to-br from-blue-600 to-amber-500 rounded-lg flex items-center justify-center font-bold text-white text-xs">AM</div>
+                    <div>
+                        <h3 class="text-base font-extrabold text-white tracking-tight">Amestx 7-Day Free Trial Registration</h3>
+                        <p class="text-xs text-slate-200 font-medium">Enter your info to view project details & top 4 info boxes</p>
+                    </div>
+                </div>
+                <button onclick="closeRegistrationModal()" class="w-7 h-7 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white flex items-center justify-center font-bold text-sm transition">✕</button>
+            </div>
+
+            <!-- Registration Form Body -->
+            <div class="p-6 space-y-4 text-left overflow-y-auto max-h-[80vh]">
+                <form id="regForm" onsubmit="submitRegistration(event)" class="space-y-3.5">
+                    <div>
+                        <label class="block text-xs font-black text-white mb-1">Full Name <span class="text-rose-400">*</span></label>
+                        <input type="text" id="regFullName" required placeholder="e.g. John Miller" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-400 focus:border-blue-500 focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-black text-white mb-1">Company / Business Name <span class="text-rose-400">*</span></label>
+                        <input type="text" id="regCompany" required placeholder="e.g. Lone Star Paving & Civil LLC" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-400 focus:border-blue-500 focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-black text-white mb-1">Business Email Address <span class="text-rose-400">*</span></label>
+                        <input type="email" id="regEmail" required placeholder="e.g. jmiller@lonestarpaving.com" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-400 focus:border-blue-500 focus:outline-none">
+                        <p class="text-[11px] text-amber-300 font-bold mt-1 flex items-center gap-1">💡 Free trial is active for 7 days from registration date.</p>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <div>
+                            <label class="block text-xs font-black text-white mb-1">Cell / Mobile Number <span class="text-rose-400">*</span></label>
+                            <input type="tel" id="regPhone" required placeholder="e.g. (512) 555-0199" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-400 focus:border-blue-500 focus:outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-black text-white mb-1">Business Specialty <span class="text-rose-400">*</span></label>
+                            <select id="regRole" required class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2.5 text-xs text-white focus:border-blue-500 focus:outline-none">
+                                <option value="General Contractor">General Heavy Civil Contractor</option>
+                                <option value="TxDOT Subcontractor">TxDOT Subcontractor</option>
+                                <option value="Estimator / Consultant">Estimator / Engineering Consultant</option>
+                                <option value="Materials Supplier">Materials / Equipment Supplier</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="pt-2">
+                        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-extrabold py-3 px-4 rounded-xl glow-blue transition text-xs flex items-center justify-center gap-2 shadow-lg">
+                            <span>🚀 Submit Info & View Project Details (7-Day Trial)</span>
+                            <span>&rarr;</span>
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -5309,10 +5367,87 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
             updateSelectionUI();
         }
 
+        let pendingTrialAction = null;
+
+        function openRegistrationModal(actionCallback) {
+            if (typeof actionCallback === 'function') {
+                pendingTrialAction = actionCallback;
+            }
+            const modal = document.getElementById('registrationModal');
+            if (modal) modal.classList.remove('hidden');
+        }
+
+        function closeRegistrationModal() {
+            const modal = document.getElementById('registrationModal');
+            if (modal) modal.classList.add('hidden');
+        }
+
+        async function submitRegistration(e) {
+            e.preventDefault();
+            const name = (document.getElementById('regFullName')?.value || '').trim();
+            const company = (document.getElementById('regCompany')?.value || '').trim();
+            const email = (document.getElementById('regEmail')?.value || '').trim();
+            const phone = (document.getElementById('regPhone')?.value || '').trim();
+            const role = (document.getElementById('regRole')?.value || 'General Contractor').trim();
+
+            if (!name || !email || !phone) return;
+
+            const profile = {
+                name,
+                company,
+                email,
+                phone,
+                role,
+                registeredAt: Date.now()
+            };
+
+            localStorage.setItem('amestx_user_profile', JSON.stringify(profile));
+            closeRegistrationModal();
+            checkUserTrialStatus();
+
+            if (typeof pendingTrialAction === 'function') {
+                const cb = pendingTrialAction;
+                pendingTrialAction = null;
+                cb();
+            }
+        }
+
         function checkFeatureTrialAccess(actionCallback) {
-            // Allow full preview and testing access to all projects and features
-            if (typeof actionCallback === 'function') actionCallback();
-            return true;
+            const subStr = localStorage.getItem('amestx_subscription');
+            if (subStr) {
+                try {
+                    const sub = JSON.parse(subStr);
+                    if (sub && sub.active) {
+                        if (typeof actionCallback === 'function') actionCallback();
+                        return true;
+                    }
+                } catch(e) {}
+            }
+
+            const profileStr = localStorage.getItem('amestx_user_profile');
+            if (profileStr) {
+                try {
+                    const profile = JSON.parse(profileStr);
+                    if (profile.email && profile.email !== 'user@amestx.com' && profile.name !== 'Trial User') {
+                        const registeredAt = profile.registeredAt || Date.now();
+                        const elapsedMs = Date.now() - registeredAt;
+                        const elapsedDays = elapsedMs / (1000 * 60 * 60 * 24);
+
+                        if (elapsedDays > 7) {
+                            const modal = document.getElementById('trialExpiredModal');
+                            if (modal) modal.classList.remove('hidden');
+                            return false;
+                        } else {
+                            if (typeof actionCallback === 'function') actionCallback();
+                            return true;
+                        }
+                    }
+                } catch(e) {}
+            }
+
+            // Unregistered user accessing project details or top 4 info boxes
+            openRegistrationModal(actionCallback);
+            return false;
         }
 
         function setStatusBadgeStyle(type, content) {

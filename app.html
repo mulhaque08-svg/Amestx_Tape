@@ -1017,7 +1017,11 @@
                 <div>✓ Pro Estimator ($139/mo or $97/yr)</div>
             </div>
             <div class="pt-2 flex flex-col gap-2">
-                <a href="index.html#slide-4" class="w-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black py-3 px-4 rounded-xl shadow-lg transition text-xs flex items-center justify-center gap-2">
+                <button onclick="document.getElementById('trialExpiredModal').classList.add('hidden'); openRegistrationModal();" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-extrabold py-3 px-4 rounded-xl shadow-lg transition text-xs flex items-center justify-center gap-2">
+                    <span>📝 Enter / Register Info for 7-Day Free Trial</span>
+                    <span>&rarr;</span>
+                </button>
+                <a href="index.html#slide-4" class="w-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black py-2.5 px-4 rounded-xl shadow-lg transition text-xs flex items-center justify-center gap-2">
                     <span>💳 Upgrade Subscription Plan & Continue</span>
                     <span>&rarr;</span>
                 </a>
@@ -5373,6 +5377,9 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
             if (typeof actionCallback === 'function') {
                 pendingTrialAction = actionCallback;
             }
+            const expModal = document.getElementById('trialExpiredModal');
+            if (expModal) expModal.classList.add('hidden');
+
             const modal = document.getElementById('registrationModal');
             if (modal) modal.classList.remove('hidden');
         }

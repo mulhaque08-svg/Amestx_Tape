@@ -963,6 +963,32 @@
         ::-webkit-scrollbar-thumb:hover {
             background: #475569;
         }
+
+        /* Strict High-Contrast Overrides for Modals in White/Navy Themes */
+        body.theme-light-mode #trialExpiredModal h3,
+        body.theme-amtekpro-light #trialExpiredModal h3,
+        body.theme-light-mode #registrationModal h3,
+        body.theme-amtekpro-light #registrationModal h3 {
+            color: #ffffff !important;
+        }
+        body.theme-light-mode #trialExpiredModal p,
+        body.theme-amtekpro-light #trialExpiredModal p,
+        body.theme-light-mode #registrationModal p,
+        body.theme-amtekpro-light #registrationModal p {
+            color: #f1f5f9 !important;
+        }
+        body.theme-light-mode #trialExpiredModal label,
+        body.theme-amtekpro-light #trialExpiredModal label,
+        body.theme-light-mode #registrationModal label,
+        body.theme-amtekpro-light #registrationModal label {
+            color: #ffffff !important;
+        }
+        body.theme-light-mode #trialExpiredModal div,
+        body.theme-amtekpro-light #trialExpiredModal div,
+        body.theme-light-mode #registrationModal div,
+        body.theme-amtekpro-light #registrationModal div {
+            color: #f8fafc !important;
+        }
     </style>
 </head>
 <body class="bg-slate-900 text-slate-100 min-h-screen font-sans">
@@ -1006,15 +1032,15 @@
     <!-- Expired 7-Day Trial Modal Overlay -->
     <div id="trialExpiredModal" class="fixed inset-0 z-[200] bg-slate-950/95 backdrop-blur flex items-center justify-center p-4 hidden">
         <div class="bg-slate-900 border-2 border-rose-500/80 rounded-3xl max-w-md w-full p-6 text-center space-y-4 shadow-2xl">
-            <div class="w-12 h-12 rounded-2xl bg-rose-950 text-rose-400 border border-rose-600 flex items-center justify-center font-bold text-xl mx-auto">⚠️</div>
-            <h3 class="text-xl font-extrabold text-white">7-Day Free Trial Expired</h3>
-            <p id="trialExpiredMsg" class="text-xs text-slate-300 leading-relaxed">
+            <div class="w-12 h-12 rounded-2xl bg-rose-950 text-rose-400 border border-rose-600 flex items-center justify-center font-bold text-xl mx-auto shadow-inner">⚠️</div>
+            <h3 style="color: #ffffff !important;" class="text-2xl font-black text-white tracking-tight">7-Day Free Trial Expired</h3>
+            <p id="trialExpiredMsg" style="color: #ffffff !important; background-color: #020617 !important; border-color: #334155 !important;" class="text-xs text-white font-bold leading-relaxed p-3.5 rounded-2xl border shadow-inner">
                 Your 7-day trial period has expired. Free access to TxDOT Bid Estimator is no longer active for this account.
             </p>
-            <div class="p-3 bg-slate-950 rounded-xl border border-slate-800 text-left text-xs font-mono space-y-1 text-slate-300">
-                <div class="text-emerald-400 font-bold">✓ Retain all saved workbooks & estimates</div>
-                <div>✓ Historical TxDOT letting archives unlocked</div>
-                <div>✓ Pro Estimator ($139/mo or $97/yr)</div>
+            <div style="background-color: #020617 !important; border-color: #334155 !important;" class="p-4 bg-slate-950 rounded-2xl border text-left text-xs font-mono space-y-2 shadow-inner">
+                <div style="color: #34d399 !important;" class="text-emerald-400 font-extrabold flex items-center gap-1.5">✓ Retain all saved workbooks & estimates</div>
+                <div style="color: #ffffff !important;" class="text-white font-bold flex items-center gap-1.5">✓ Historical TxDOT letting archives unlocked</div>
+                <div style="color: #fbbf24 !important;" class="text-amber-400 font-extrabold flex items-center gap-1.5">✓ Pro Estimator ($129/mo or $99/yr)</div>
             </div>
             <div class="pt-2 flex flex-col gap-2">
                 <button onclick="document.getElementById('trialExpiredModal').classList.add('hidden'); openRegistrationModal();" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-extrabold py-3 px-4 rounded-xl shadow-lg transition text-xs flex items-center justify-center gap-2">
@@ -1037,37 +1063,37 @@
                 <div class="flex items-center space-x-3">
                     <div class="w-8 h-8 bg-gradient-to-br from-blue-600 to-amber-500 rounded-lg flex items-center justify-center font-bold text-white text-xs">AM</div>
                     <div>
-                        <h3 class="text-base font-extrabold text-white tracking-tight">Amestx 7-Day Free Trial Registration</h3>
-                        <p class="text-xs text-slate-200 font-medium">Enter your info to view project details & top 4 info boxes</p>
+                        <h3 style="color: #ffffff !important;" class="text-base font-extrabold text-white tracking-tight">Amestx 7-Day Free Trial Registration</h3>
+                        <p style="color: #e2e8f0 !important;" class="text-xs text-slate-200 font-medium">Enter your info to view project details & top 4 info boxes</p>
                     </div>
                 </div>
-                <button onclick="closeRegistrationModal()" class="w-7 h-7 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white flex items-center justify-center font-bold text-sm transition">✕</button>
+                <button onclick="closeRegistrationModal()" style="color: #ffffff !important;" class="w-7 h-7 rounded-full bg-slate-800 hover:bg-slate-700 text-white flex items-center justify-center font-bold text-sm transition">✕</button>
             </div>
 
             <!-- Registration Form Body -->
             <div class="p-6 space-y-4 text-left overflow-y-auto max-h-[80vh]">
                 <form id="regForm" onsubmit="submitRegistration(event)" class="space-y-3.5">
                     <div>
-                        <label class="block text-xs font-black text-white mb-1">Full Name <span class="text-rose-400">*</span></label>
-                        <input type="text" id="regFullName" required placeholder="e.g. John Miller" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-400 focus:border-blue-500 focus:outline-none">
+                        <label style="color: #ffffff !important;" class="block text-xs font-black text-white mb-1">Full Name <span class="text-rose-400">*</span></label>
+                        <input type="text" id="regFullName" required placeholder="e.g. John Miller" style="color: #ffffff !important; background-color: #020617 !important;" class="w-full border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-400 focus:border-blue-500 focus:outline-none">
                     </div>
                     <div>
-                        <label class="block text-xs font-black text-white mb-1">Company / Business Name <span class="text-rose-400">*</span></label>
-                        <input type="text" id="regCompany" required placeholder="e.g. Lone Star Paving & Civil LLC" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-400 focus:border-blue-500 focus:outline-none">
+                        <label style="color: #ffffff !important;" class="block text-xs font-black text-white mb-1">Company / Business Name <span class="text-rose-400">*</span></label>
+                        <input type="text" id="regCompany" required placeholder="e.g. Lone Star Paving & Civil LLC" style="color: #ffffff !important; background-color: #020617 !important;" class="w-full border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-400 focus:border-blue-500 focus:outline-none">
                     </div>
                     <div>
-                        <label class="block text-xs font-black text-white mb-1">Business Email Address <span class="text-rose-400">*</span></label>
-                        <input type="email" id="regEmail" required placeholder="e.g. jmiller@lonestarpaving.com" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-400 focus:border-blue-500 focus:outline-none">
-                        <p class="text-[11px] text-amber-300 font-bold mt-1 flex items-center gap-1">💡 Free trial is active for 7 days from registration date.</p>
+                        <label style="color: #ffffff !important;" class="block text-xs font-black text-white mb-1">Business Email Address <span class="text-rose-400">*</span></label>
+                        <input type="email" id="regEmail" required placeholder="e.g. jmiller@lonestarpaving.com" style="color: #ffffff !important; background-color: #020617 !important;" class="w-full border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-400 focus:border-blue-500 focus:outline-none">
+                        <p style="color: #fbbf24 !important;" class="text-[11px] font-bold mt-1 flex items-center gap-1">💡 Free trial is active for 7 days from registration date.</p>
                     </div>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                         <div>
-                            <label class="block text-xs font-black text-white mb-1">Cell / Mobile Number <span class="text-rose-400">*</span></label>
-                            <input type="tel" id="regPhone" required placeholder="e.g. (512) 555-0199" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-400 focus:border-blue-500 focus:outline-none">
+                            <label style="color: #ffffff !important;" class="block text-xs font-black text-white mb-1">Cell / Mobile Number <span class="text-rose-400">*</span></label>
+                            <input type="tel" id="regPhone" required placeholder="e.g. (512) 555-0199" style="color: #ffffff !important; background-color: #020617 !important;" class="w-full border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-400 focus:border-blue-500 focus:outline-none">
                         </div>
                         <div>
-                            <label class="block text-xs font-black text-white mb-1">Business Specialty <span class="text-rose-400">*</span></label>
-                            <select id="regRole" required class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2.5 text-xs text-white focus:border-blue-500 focus:outline-none">
+                            <label style="color: #ffffff !important;" class="block text-xs font-black text-white mb-1">Business Specialty <span class="text-rose-400">*</span></label>
+                            <select id="regRole" required style="color: #ffffff !important; background-color: #020617 !important;" class="w-full border border-slate-700 rounded-xl px-3 py-2.5 text-xs text-white focus:border-blue-500 focus:outline-none">
                                 <option value="General Contractor">General Heavy Civil Contractor</option>
                                 <option value="TxDOT Subcontractor">TxDOT Subcontractor</option>
                                 <option value="Estimator / Consultant">Estimator / Engineering Consultant</option>

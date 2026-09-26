@@ -2141,19 +2141,26 @@
         let allItemCodesList = [];
         let activeItemSeries = 'ALL';
 
-        function getTxDotSpecPdfUrl(code) {
+        function getTxDotSpecPdfUrl(code, specBookYear) {
             if (!code) return 'https://ftp.dot.state.tx.us/pub/txdot-info/cmd/cserve/specs/2024/standard/';
             const str = String(code).trim();
             const firstPart = str.split(/[\s\-]+/)[0] || '';
             const numOnly = firstPart.replace(/^0+/, '');
             if (!numOnly) return 'https://ftp.dot.state.tx.us/pub/txdot-info/cmd/cserve/specs/2024/standard/';
+            const year = (specBookYear && String(specBookYear).includes('2014')) ? '2014' : '2024';
             if (numOnly.startsWith('8')) {
-                if (['8039', '8040', '8042'].includes(numOnly)) {
-                    return `https://ftp.dot.state.tx.us/pub/txdot-info/cmd/cserve/specs/2014/spec/ss${numOnly}.pdf`;
-                }
-                return `https://ftp.dot.state.tx.us/pub/txdot-info/cmd/cserve/specs/2024/spec/ss${numOnly}.pdf`;
+                return `https://ftp.dot.state.tx.us/pub/txdot-info/cmd/cserve/specs/${year}/spec/ss${numOnly}.pdf`;
             }
-            return `https://ftp.dot.state.tx.us/pub/txdot-info/cmd/cserve/specs/2024/standard/s${numOnly}.pdf`;
+            return `https://ftp.dot.state.tx.us/pub/txdot-info/cmd/cserve/specs/${year}/standard/s${numOnly}.pdf`;
+        }
+
+        function getTxDotSpecBookPdfUrl(code) {
+            const itemStr = String(code || '').trim().replace(/^0+/, '');
+            const firstDigit = itemStr.charAt(0);
+            if (['1', '2', '3', '4', '5', '6', '7'].includes(firstDigit)) {
+                return `https://ftp.txdot.gov/pub/txdot-info/des/specs/${firstDigit}00-item-series.pdf`;
+            }
+            return 'https://ftp.txdot.gov/pub/txdot-info/des/specs/specbook.pdf';
         }
 
         async function openItemCodesModal() {
@@ -2279,8 +2286,8 @@
             filtered.forEach(item => {
                 const itemNum = (item.itemCode || '').toString().trim().replace(/^0+/, '');
                 const is800Series = itemNum.startsWith('8') || (item.category || '').includes('800');
-                const specPdfUrl = getTxDotSpecPdfUrl(item.itemCode);
-                const bookUrl = 'downloads/spec-book-0924.pdf';
+                const specPdfUrl = getTxDotSpecPdfUrl(item.itemCode, item.specBook);
+                const bookUrl = getTxDotSpecBookPdfUrl(item.itemCode);
 
                 const pdfBtnLabel = is800Series ? `📄 ss${itemNum}.pdf` : `📄 s${itemNum}.pdf`;
                 const bookBtnLabel = '📕 Spec Book';

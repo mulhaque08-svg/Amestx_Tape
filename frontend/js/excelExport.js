@@ -19,7 +19,7 @@
         const letDate = meta.letDate || 'N/A';
         const projectType = meta.projectType || meta.projectName || 'Highway Construction';
         const engEstTotal = meta.engEstTotal || meta.estimate || 0;
-        const guarantyCheck = (engEstTotal * 0.02);
+        const guarantyCheck = meta.guaranty || `$${(engEstTotal * 0.02).toLocaleString(undefined, {minimumFractionDigits:2})}`;
 
         const thinBorder = {
             top: { style: "thin", color: { rgb: "FFD3D3D3" } },
@@ -70,7 +70,7 @@
             ["TYPE:", projectType],
             ["LENGTH:", "0"],
             ["ESTIMATE:", `$${engEstTotal.toLocaleString(undefined, {minimumFractionDigits:2})}`],
-            ["GUARANTY CHECK:", `$${guarantyCheck.toLocaleString(undefined, {minimumFractionDigits:2})}`],
+            ["GUARANTY CHECK:", typeof guarantyCheck === 'string' && guarantyCheck.startsWith('$') ? guarantyCheck : `$${parseFloat(guarantyCheck).toLocaleString(undefined, {minimumFractionDigits:2})}`],
             ["DBE GOAL:", "0.00%"],
             ["BIDS RECEIVED UNTIL:", letDate],
             ["BIDS WILL BE OPENED:", letDate],
@@ -174,6 +174,16 @@
         }
 
         ws['!ref'] = XLSX.utils.encode_range({ s: { r: 0, c: 0 }, e: { r: totalRows - 1, c: 7 } });
+        ws['!cols'] = [
+            { wch: 24 },
+            { wch: 20 },
+            { wch: 12 },
+            { wch: 55 },
+            { wch: 10 },
+            { wch: 25 },
+            { wch: 16 },
+            { wch: 25 }
+        ];
         return ws;
     }
 
@@ -191,7 +201,7 @@
             const wb = XLSX.utils.book_new();
             const ws = createStyledProjectWorksheet(meta, items, true); // true = $0.00 prices, NO disclaimer
             const sheetName = `CSJ ${csj}`.replace(/[:\\\/\?\*\[\]]/g, '-').slice(0, 31);
-            XLSX.utils.book_append(wb, ws, sheetName);
+            (XLSX.utils.book_append || XLSX.utils.book_append_sheet)(wb, ws, sheetName);
             XLSX.writeFile(wb, `CSJ_${csj}_Task_Items.xlsx`);
         }
     }
@@ -210,11 +220,12 @@
             const wb = XLSX.utils.book_new();
             const ws = createStyledProjectWorksheet(meta, items, false); // false = 12-month prices + Disclaimer
             const sheetName = `CSJ ${csj}`.replace(/[:\\\/\?\*\[\]]/g, '-').slice(0, 31);
-            XLSX.utils.book_append(wb, ws, sheetName);
+            (XLSX.utils.book_append || XLSX.utils.book_append_sheet)(wb, ws, sheetName);
             XLSX.writeFile(wb, `CSJ_${csj}_Task_Items_Estimate.xlsx`);
         }
     }
 
+    window.createStyledProjectWorksheet = createStyledProjectWorksheet;
     window.downloadProjectTasksExcelCurrent = downloadProjectTasksExcelCurrent;
     window.downloadEstimateExcelCurrent = downloadEstimateExcelCurrent;
 

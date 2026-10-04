@@ -489,7 +489,32 @@
             color: #0f172a !important;
         }
 
-        /* High-Contrast White Text Overrides for Solid Blue Buttons & Badges in Light Mode */
+        /* High-Contrast White Text Overrides for Solid Blue, Red & Green Action Buttons in Light Mode */
+        .bg-red-600,
+        .bg-red-600 *,
+        a[id^="actionPlanPdfBtn"],
+        a[id^="actionPlanPdfBtn"] *,
+        body.theme-light-mode a[id^="actionPlanPdfBtn"],
+        body.theme-light-mode a[id^="actionPlanPdfBtn"] *,
+        body.theme-amtekpro-light a[id^="actionPlanPdfBtn"],
+        body.theme-amtekpro-light a[id^="actionPlanPdfBtn"] *,
+        body.theme-txdot-navy a[id^="actionPlanPdfBtn"],
+        body.theme-txdot-navy a[id^="actionPlanPdfBtn"] * {
+            background-color: #DC2626 !important;
+            color: #FFFFFF !important;
+            font-weight: 800 !important;
+        }
+
+        .bg-blue-600,
+        .bg-blue-600 *,
+        a[id^="actionPropPdfBtn"],
+        a[id^="actionPropPdfBtn"] *,
+        body.theme-light-mode a[id^="actionPropPdfBtn"],
+        body.theme-light-mode a[id^="actionPropPdfBtn"] *,
+        body.theme-amtekpro-light a[id^="actionPropPdfBtn"],
+        body.theme-amtekpro-light a[id^="actionPropPdfBtn"] *,
+        body.theme-txdot-navy a[id^="actionPropPdfBtn"],
+        body.theme-txdot-navy a[id^="actionPropPdfBtn"] *,
         body.theme-light-mode .bg-blue-600,
         body.theme-amtekpro-light .bg-blue-600,
         body.theme-light-mode .bg-blue-600 *,
@@ -588,6 +613,136 @@
         body.theme-txdot-navy #contractorsGrid a.contractor-email-link:hover {
             color: #38BDF8 !important;
             text-decoration: underline !important;
+        }
+
+        /* TxDOT Averages Dropdown Menu Styling (High Contrast for Dark & Light Themes) */
+        .txdot-dropdown-window {
+            background-color: #0F172A !important;
+            border: 1px solid #334155 !important;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.6) !important;
+        }
+
+        .txdot-dropdown-header {
+            border-bottom: 1px solid #1E293B !important;
+        }
+
+        .txdot-dropdown-title {
+            color: #F8FAFC !important;
+        }
+
+        /* Light Theme Overrides for Dropdown Window */
+        body.theme-amtekpro-light .txdot-dropdown-window,
+        body.theme-light-mode .txdot-dropdown-window {
+            background-color: #FFFFFF !important;
+            border: 1px solid #CBD5E1 !important;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.15) !important;
+        }
+
+        body.theme-amtekpro-light .txdot-dropdown-header,
+        body.theme-light-mode .txdot-dropdown-header {
+            border-bottom: 1px solid #E2E8F0 !important;
+        }
+
+        body.theme-amtekpro-light .txdot-dropdown-title,
+        body.theme-light-mode .txdot-dropdown-title {
+            color: #0F172A !important;
+        }
+
+        /* Option Item - Inactive (Dark/Navy Theme) */
+        .txdot-avg-opt-inactive {
+            background-color: transparent !important;
+            color: #E2E8F0 !important;
+            border: 1px solid transparent !important;
+        }
+
+        .txdot-avg-opt-inactive * {
+            color: #E2E8F0 !important;
+        }
+
+        .txdot-avg-opt-inactive span.font-normal {
+            color: #94A3B8 !important;
+        }
+
+        .txdot-avg-opt-inactive:hover {
+            background-color: #1E293B !important;
+            color: #FFFFFF !important;
+            border-color: #334155 !important;
+        }
+
+        .txdot-avg-opt-inactive:hover * {
+            color: #FFFFFF !important;
+        }
+
+        .txdot-avg-opt-inactive:hover span.font-normal {
+            color: #CBD5E1 !important;
+        }
+
+        /* Option Item - Inactive (Light Theme Overrides) */
+        body.theme-amtekpro-light .txdot-avg-opt-inactive,
+        body.theme-light-mode .txdot-avg-opt-inactive {
+            background-color: transparent !important;
+            color: #1E293B !important;
+            border: 1px solid transparent !important;
+        }
+
+        body.theme-amtekpro-light .txdot-avg-opt-inactive *,
+        body.theme-light-mode .txdot-avg-opt-inactive * {
+            color: #1E293B !important;
+        }
+
+        body.theme-amtekpro-light .txdot-avg-opt-inactive span.font-normal,
+        body.theme-light-mode .txdot-avg-opt-inactive span.font-normal {
+            color: #64748B !important;
+        }
+
+        body.theme-amtekpro-light .txdot-avg-opt-inactive:hover,
+        body.theme-light-mode .txdot-avg-opt-inactive:hover {
+            background-color: #F1F5F9 !important;
+            color: #0F172A !important;
+            border-color: #CBD5E1 !important;
+        }
+
+        body.theme-amtekpro-light .txdot-avg-opt-inactive:hover *,
+        body.theme-light-mode .txdot-avg-opt-inactive:hover * {
+            color: #0F172A !important;
+        }
+
+        body.theme-amtekpro-light .txdot-avg-opt-inactive:hover span.font-normal,
+        body.theme-light-mode .txdot-avg-opt-inactive:hover span.font-normal {
+            color: #334155 !important;
+        }
+
+        /* Option Item - Active (Dark/Navy Theme) */
+        .txdot-avg-opt-active {
+            background-color: rgba(245, 158, 11, 0.2) !important;
+            color: #FCD34D !important;
+            border: 1px solid rgba(245, 158, 11, 0.5) !important;
+        }
+
+        .txdot-avg-opt-active * {
+            color: #FCD34D !important;
+        }
+
+        .txdot-avg-opt-active span.font-normal {
+            color: #FBBF24 !important;
+        }
+
+        /* Option Item - Active (Light Theme Overrides) */
+        body.theme-amtekpro-light .txdot-avg-opt-active,
+        body.theme-light-mode .txdot-avg-opt-active {
+            background-color: #FEF3C7 !important;
+            color: #92400E !important;
+            border: 1px solid #F59E0B !important;
+        }
+
+        body.theme-amtekpro-light .txdot-avg-opt-active *,
+        body.theme-light-mode .txdot-avg-opt-active * {
+            color: #92400E !important;
+        }
+
+        body.theme-amtekpro-light .txdot-avg-opt-active span.font-normal,
+        body.theme-light-mode .txdot-avg-opt-active span.font-normal {
+            color: #B45309 !important;
         }
 
         /* High-Contrast Colored Accents in Light Mode */
@@ -774,6 +929,8 @@
 
         body.theme-light-mode #prebidTotalExtended,
         body.theme-amtekpro-light #prebidTotalExtended,
+        body.theme-light-mode #sub4TotalExtended,
+        body.theme-amtekpro-light #sub4TotalExtended,
         body.theme-light-mode #sub6TotalExtended,
         body.theme-amtekpro-light #sub6TotalExtended {
             background-color: #059669 !important; /* High-contrast Emerald Green Badge */
@@ -810,9 +967,11 @@
             font-weight: 700 !important;
         }
 
-        /* Legal Disclaimer Notice Box in Tab 6 Light Theme */
+        /* Legal Disclaimer Notice Box in Tab 4 Light Theme */
         body.theme-light-mode main .mt-6.bg-slate-950\/90,
         body.theme-amtekpro-light main .mt-6.bg-slate-950\/90,
+        body.theme-light-mode #subTabContent4 .mt-6,
+        body.theme-amtekpro-light #subTabContent4 .mt-6,
         body.theme-light-mode #subTabContent6 .mt-6,
         body.theme-amtekpro-light #subTabContent6 .mt-6 {
             background-color: #F0F9FF !important; /* Soft Sky Blue Fill */
@@ -822,6 +981,8 @@
 
         body.theme-light-mode main .mt-6.bg-slate-950\/90 p,
         body.theme-amtekpro-light main .mt-6.bg-slate-950\/90 p,
+        body.theme-light-mode #subTabContent4 .mt-6 p,
+        body.theme-amtekpro-light #subTabContent4 .mt-6 p,
         body.theme-light-mode #subTabContent6 .mt-6 p,
         body.theme-amtekpro-light #subTabContent6 .mt-6 p {
             color: #334155 !important; /* Dark Slate Readable Text */
@@ -829,6 +990,8 @@
 
         body.theme-light-mode main .mt-6.bg-slate-950\/90 span.text-red-500,
         body.theme-amtekpro-light main .mt-6.bg-slate-950\/90 span.text-red-500,
+        body.theme-light-mode #subTabContent4 .mt-6 span.text-red-500,
+        body.theme-amtekpro-light #subTabContent4 .mt-6 span.text-red-500,
         body.theme-light-mode #subTabContent6 .mt-6 span.text-red-500,
         body.theme-amtekpro-light #subTabContent6 .mt-6 span.text-red-500 {
             color: #DC2626 !important; /* Bold Crimson Red Disclaimer Title */
@@ -1158,9 +1321,47 @@
                         <button onclick="openMplModal()" class="w-36 h-8 py-1 px-2 rounded-lg text-[11px] font-bold bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white border border-amber-500/50 hover:border-amber-400 shadow transition flex items-center justify-center text-center whitespace-nowrap">
                             Material Producer List
                         </button>
-                        <button onclick="downloadTxdotAverageBidPricesExcel()" class="w-36 h-8 py-1 px-2 rounded-lg text-[11px] font-bold bg-slate-800/90 hover:bg-slate-700 text-slate-200 hover:text-white border border-amber-500/50 hover:border-amber-400 shadow transition flex items-center justify-center text-center whitespace-nowrap" title="Download TxDOT Item-Wise Average Bid Prices Excel Sheet">
-                            TxDOT Averages
-                        </button>
+                        <div class="relative inline-block w-36">
+                            <button id="txdotAveragesDropdownBtn" onclick="toggleTxdotAveragesDropdown(event)" class="w-36 h-8 py-1 px-2.5 rounded-lg text-[11px] font-bold bg-slate-800/90 hover:bg-slate-700 text-amber-400 hover:text-amber-300 border border-amber-500/50 hover:border-amber-400 shadow transition flex items-center justify-between text-center whitespace-nowrap font-mono" title="TxDOT Bid Item Average Prices (3, 6, 12 Months)">
+                                <span class="truncate font-extrabold">TxDOT Averages</span>
+                                <span class="text-[10px] text-amber-400 font-bold ml-1">▼</span>
+                            </button>
+                            <!-- Custom Dropdown Window -->
+                            <div id="txdotAveragesDropdownMenu" class="hidden absolute right-0 mt-1 w-64 rounded-xl shadow-2xl z-50 p-2 space-y-1.5 backdrop-blur-md text-left txdot-dropdown-window">
+                                <div class="px-2 py-1 flex items-center justify-between txdot-dropdown-header">
+                                    <span class="text-[11px] font-bold uppercase tracking-wider txdot-dropdown-title">Average Price Period</span>
+                                    <span class="text-[9px] font-mono font-bold text-amber-400" id="txdotAvgMenuStatus">12-Mo Active</span>
+                                </div>
+                                <button onclick="selectTxdotAveragePeriod('3')" id="optAvg3" class="w-full text-left px-2.5 py-1.5 rounded-lg text-xs font-semibold flex items-center justify-between transition txdot-avg-opt-inactive">
+                                    <div class="flex flex-col">
+                                        <span class="font-bold">Last 3 Months</span>
+                                        <span class="text-[10px] font-sans font-normal">Recent 3-Mo Moving Average</span>
+                                    </div>
+                                    <span class="text-xs font-bold font-mono">3 Mo</span>
+                                </button>
+                                <button onclick="selectTxdotAveragePeriod('6')" id="optAvg6" class="w-full text-left px-2.5 py-1.5 rounded-lg text-xs font-semibold flex items-center justify-between transition txdot-avg-opt-inactive">
+                                    <div class="flex flex-col">
+                                        <span class="font-bold">Last 6 Months</span>
+                                        <span class="text-[10px] font-sans font-normal">Mid-Term 6-Mo Moving Average</span>
+                                    </div>
+                                    <span class="text-xs font-bold font-mono">6 Mo</span>
+                                </button>
+                                <button onclick="selectTxdotAveragePeriod('12')" id="optAvg12" class="w-full text-left px-2.5 py-1.5 rounded-lg text-xs font-semibold flex items-center justify-between transition txdot-avg-opt-active">
+                                    <div class="flex flex-col">
+                                        <span class="font-bold">Last 12 Months</span>
+                                        <span class="text-[10px] font-sans font-normal">12-Mo Moving Average (Default)</span>
+                                    </div>
+                                    <span class="text-xs font-bold font-mono">12 Mo</span>
+                                </button>
+                                <button onclick="selectTxdotAveragePeriod('24')" id="optAvg24" class="w-full text-left px-2.5 py-1.5 rounded-lg text-xs font-semibold flex items-center justify-between transition txdot-avg-opt-inactive">
+                                    <div class="flex flex-col">
+                                        <span class="font-bold">Last 24 Months</span>
+                                        <span class="text-[10px] font-sans font-normal">Master 24-Mo Average</span>
+                                    </div>
+                                    <span class="text-xs font-bold font-mono">24 Mo</span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -1390,24 +1591,30 @@
                     <span id="topNoticeMsg" class="font-bold text-amber-300 text-xs font-mono">CSJ <span id="noticeCSJ"></span> results will be announced after bid date</span>
                 </div>
 
-                <!-- 6 Interactive Sub-Tabs Card (Green Circle Area) -->
+                <!-- 4 Interactive Sub-Tabs Card (Green Circle Area) -->
                 <div class="bg-slate-800/40 border border-slate-700/60 rounded-xl p-4 shadow-xl space-y-4">
                     <div class="flex flex-wrap gap-2 border-b border-slate-700/60 pb-3" id="subTabsHeader">
                         <button onclick="switchSubTab(1)" id="btnSubTab1" class="px-3.5 py-2 rounded-lg text-xs font-bold bg-blue-600 text-white shadow">1. Project Tasks</button>
-                        <button onclick="switchSubTab(2)" id="btnSubTab2" class="px-3.5 py-2 rounded-lg text-xs font-medium bg-slate-800 text-slate-300 hover:text-white transition">2. Project Proposal</button>
-                        <button onclick="switchSubTab(3)" id="btnSubTab3" class="px-3.5 py-2 rounded-lg text-xs font-medium bg-slate-800 text-slate-300 hover:text-white transition">3. Project Plans</button>
-                        <button onclick="switchSubTab(4)" id="btnSubTab4" class="px-3.5 py-2 rounded-lg text-xs font-medium bg-slate-800 text-slate-300 hover:text-white transition">4. Bidders</button>
-                        <button onclick="switchSubTab(5)" id="btnSubTab5" class="px-3.5 py-2 rounded-lg text-xs font-medium bg-slate-800 text-slate-300 hover:text-white transition">5. Bid Tabulations</button>
-                        <button onclick="switchSubTab(6)" id="btnSubTab6" class="px-3.5 py-2 rounded-lg text-xs font-medium bg-slate-800 text-slate-300 hover:text-white transition">6. Project Estimate by Amestx</button>
+                        <button onclick="switchSubTab(2)" id="btnSubTab2" class="px-3.5 py-2 rounded-lg text-xs font-medium bg-slate-800 text-slate-300 hover:text-white transition">2. Bidders</button>
+                        <button onclick="switchSubTab(3)" id="btnSubTab3" class="px-3.5 py-2 rounded-lg text-xs font-medium bg-slate-800 text-slate-300 hover:text-white transition">3. Bid Tabulations</button>
+                        <button onclick="switchSubTab(4)" id="btnSubTab4" class="px-3.5 py-2 rounded-lg text-xs font-medium bg-slate-800 text-slate-300 hover:text-white transition">4. Project Estimate by Amestx</button>
                     </div>
 
                     <!-- SubTab 1 Content: Project Tasks -->
                     <div id="subTabContent1" class="space-y-3">
-                        <div class="flex items-center justify-between">
+                        <div class="flex flex-wrap items-center justify-between gap-2">
                             <h4 class="text-sm font-bold text-white">CSJ Pay Items & Quantities</h4>
-                            <button onclick="downloadProjectTasksExcelCurrent()" style="color: #ffffff !important;" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-3.5 py-1.5 rounded-lg text-xs flex items-center space-x-2 transition shadow">
-                                <span style="color: #ffffff !important;">Export Matrix Excel (.xlsx)</span>
-                            </button>
+                            <div class="flex flex-wrap items-center gap-2">
+                                <a id="actionPropPdfBtn" target="_blank" href="https://planuser:txdotplans@ftp.txdot.gov/plans/State-Let-Construction/2026/" style="color: #ffffff !important;" class="bg-blue-600 hover:bg-blue-500 text-white font-bold px-3.5 py-1.5 rounded-lg text-xs flex items-center space-x-1.5 transition shadow">
+                                    <span style="color: #ffffff !important;">Project Proposal 📄</span>
+                                </a>
+                                <a id="actionPlanPdfBtn" target="_blank" href="https://planuser:txdotplans@ftp.txdot.gov/plans/State-Let-Construction/2026/" style="color: #ffffff !important;" class="bg-red-600 hover:bg-red-500 text-white font-bold px-3.5 py-1.5 rounded-lg text-xs flex items-center space-x-1.5 transition shadow">
+                                    <span style="color: #ffffff !important;">Project Plans 📄</span>
+                                </a>
+                                <button onclick="downloadProjectTasksExcelCurrent()" style="color: #ffffff !important;" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-3.5 py-1.5 rounded-lg text-xs flex items-center space-x-2 transition shadow">
+                                    <span style="color: #ffffff !important;">Export Matrix Excel (.xlsx)</span>
+                                </button>
+                            </div>
                         </div>
                         <div class="overflow-x-auto max-h-[600px] border border-slate-700/60 rounded-xl shadow-inner">
                             <table class="w-full text-left text-xs text-slate-300">
@@ -1434,25 +1641,8 @@
                         </div>
                     </div>
 
-                    <!-- SubTab 2 Content: Project Proposal -->
+                    <!-- SubTab 2 Content: Bidders -->
                     <div id="subTabContent2" class="hidden space-y-4">
-                        <h4 class="text-base font-bold text-white">Official TxDOT Proposal Document (2026 FTP Portal)</h4>
-                        <div class="bg-slate-900/60 p-6 rounded-xl border border-slate-700/60 flex flex-col md:flex-row items-center justify-between gap-4">
-                            <div>
-                                <h5 class="text-lg font-bold text-white" id="sub2Title">TxDOT Contract Proposal Specification</h5>
-                                <p class="text-sm text-slate-400 mt-1">Official letting document containing general notes, special provisions, and specifications for CSJ <span id="sub2CSJ" class="font-mono text-amber-300"></span>.</p>
-                            </div>
-                            <a id="sub2PdfLink" target="_blank" href="https://planuser:txdotplans@ftp.txdot.gov/plans/State-Let-Construction/2026/" class="bg-blue-600 hover:bg-blue-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition whitespace-nowrap">
-                                <span>Download Proposal PDF</span>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- SubTab 3 Content: Project Plans -->
-                    <div id="subTabContent3" class="hidden space-y-4"></div>
-
-                    <!-- SubTab 4 Content: Bidders -->
-                    <div id="subTabContent4" class="hidden space-y-4">
                         <h4 class="text-base font-bold text-white">Registered Planholders & Contractors</h4>
                         <div class="bg-slate-900/60 p-6 rounded-xl border border-slate-700/60 space-y-3">
                             <p class="text-sm text-slate-300">List of prime contractors and subcontractors who have taken out plans for this letting project:</p>
@@ -1464,8 +1654,8 @@
                         </div>
                     </div>
 
-                    <!-- SubTab 5 Content: Bid Tabulations -->
-                    <div id="subTabContent5" class="hidden space-y-4">
+                    <!-- SubTab 3 Content: Bid Tabulations -->
+                    <div id="subTabContent3" class="hidden space-y-4">
                         <!-- Pre-Bid Notice Container (if bids not opened yet) -->
                         <div id="sub5PreBidNotice" class="bg-amber-950/40 border border-amber-500/50 p-8 rounded-xl text-center space-y-3 shadow-xl">
                             <div class="text-4xl mb-2">⏳</div>
@@ -1477,14 +1667,22 @@
 
                         <!-- Post-Bid Tabulation Matrix Container (if bids opened) -->
                         <div id="sub5PostBidContainer" class="hidden space-y-6">
-                            <div class="flex items-center justify-between border-b border-slate-700/60 pb-4">
+                            <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-700/60 pb-4">
                                 <div>
                                     <h4 class="text-lg font-bold text-white">Participating Bidders Ranking</h4>
                                     <p class="text-xs text-slate-400">Official letting results for CSJ <span id="sub5PostCSJ" class="font-mono text-amber-300"></span></p>
                                 </div>
-                                <button onclick="downloadBidTabExcelCurrent()" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-4 py-2 rounded-lg flex items-center space-x-2 transition shadow text-xs">
-                                    <span>Export Matrix Excel (.xlsx)</span>
-                                </button>
+                                <div class="flex flex-wrap items-center gap-2">
+                                    <a id="actionPropPdfBtnBidTab" target="_blank" href="https://planuser:txdotplans@ftp.txdot.gov/plans/State-Let-Construction/2026/" style="color: #ffffff !important;" class="bg-blue-600 hover:bg-blue-500 text-white font-bold px-3.5 py-1.5 rounded-lg text-xs flex items-center space-x-1.5 transition shadow">
+                                        <span style="color: #ffffff !important;">Project Proposal 📄</span>
+                                    </a>
+                                    <a id="actionPlanPdfBtnBidTab" target="_blank" href="https://planuser:txdotplans@ftp.txdot.gov/plans/State-Let-Construction/2026/" style="color: #ffffff !important;" class="bg-red-600 hover:bg-red-500 text-white font-bold px-3.5 py-1.5 rounded-lg text-xs flex items-center space-x-1.5 transition shadow">
+                                        <span style="color: #ffffff !important;">Project Plans 📄</span>
+                                    </a>
+                                    <button onclick="downloadBidTabExcelCurrent()" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-4 py-2 rounded-lg flex items-center space-x-2 transition shadow text-xs">
+                                        <span>Export Matrix Excel (.xlsx)</span>
+                                    </button>
+                                </div>
                             </div>
 
                             <div class="overflow-x-auto">
@@ -1521,16 +1719,24 @@
                         </div>
                     </div>
 
-                    <!-- SubTab 6 Content: Project Estimate by Amestx -->
-                    <div id="subTabContent6" class="hidden space-y-4">
-                        <div class="flex items-center justify-between">
+                    <!-- SubTab 4 Content: Project Estimate by Amestx -->
+                    <div id="subTabContent4" class="hidden space-y-4">
+                        <div class="flex flex-wrap items-center justify-between gap-2">
                             <div>
                                 <h4 class="text-base font-bold text-white">CSJ Pay Items & Quantities — Amestx Estimate</h4>
                                 <p class="text-xs text-slate-400">Calculated using 2026 TxDOT historical low bidder average unit prices</p>
                             </div>
-                            <button onclick="downloadEstimateExcelCurrent()" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-4 py-2 rounded-lg text-xs flex items-center space-x-2 transition shadow">
-                                <span>Export Matrix Excel (.xlsx)</span>
-                            </button>
+                            <div class="flex flex-wrap items-center gap-2">
+                                <a id="actionPropPdfBtnEst" target="_blank" href="https://planuser:txdotplans@ftp.txdot.gov/plans/State-Let-Construction/2026/" style="color: #ffffff !important;" class="bg-blue-600 hover:bg-blue-500 text-white font-bold px-3.5 py-1.5 rounded-lg text-xs flex items-center space-x-1.5 transition shadow">
+                                    <span style="color: #ffffff !important;">Project Proposal 📄</span>
+                                </a>
+                                <a id="actionPlanPdfBtnEst" target="_blank" href="https://planuser:txdotplans@ftp.txdot.gov/plans/State-Let-Construction/2026/" style="color: #ffffff !important;" class="bg-red-600 hover:bg-red-500 text-white font-bold px-3.5 py-1.5 rounded-lg text-xs flex items-center space-x-1.5 transition shadow">
+                                    <span style="color: #ffffff !important;">Project Plans 📄</span>
+                                </a>
+                                <button onclick="downloadEstimateExcelCurrent()" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-4 py-2 rounded-lg text-xs flex items-center space-x-2 transition shadow">
+                                    <span>Export Matrix Excel (.xlsx)</span>
+                                </button>
+                            </div>
                         </div>
                         <div class="overflow-x-auto max-h-[500px]">
                             <table class="w-full text-left text-xs text-slate-300">
@@ -1668,7 +1874,7 @@
                             <span>TxDOT Prequalified Contractors Directory</span>
                             <span class="text-xs bg-amber-500/20 text-amber-300 border border-amber-500/40 px-2.5 py-0.5 rounded font-mono font-bold" id="contractorsCountBadge">546 Contractors</span>
                         </h3>
-                        <p class="text-xs text-slate-400">Official TxDOT Prequalified Prime Contractors & Bidders Registry</p>
+                        <p class="text-xs text-slate-400 flex items-center gap-2"><span>Official TxDOT Prequalified Prime Contractors & Bidders Registry</span></p>
                     </div>
                 </div>
                 <button onclick="closeContractorsModal()" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white flex items-center justify-center transition font-bold text-lg">✕</button>
@@ -1807,9 +2013,15 @@
 
     <script>
 
-        let selectedCSJs = new Set();
-        let currentMonth = '2026-09';
-        let selectedYear = '2026';
+                let selectedCSJs = new Set();
+        
+        // Dynamically detect current calendar year & month (e.g. 2026-10 in Oct, 2026-11 in Nov)
+        const _now = new Date();
+        const _initYear = String(_now.getFullYear());
+        const _initMonth = String(_now.getMonth() + 1).padStart(2, '0');
+        
+        let currentMonth = `${_initYear}-${_initMonth}`;
+        let selectedYear = _initYear;
         let currentCSJ = '';
         let currentProjectData = null;
         let currentMonthlyList = [];
@@ -1983,7 +2195,10 @@
                     <div class="space-y-1">
                         <div class="flex items-start justify-between gap-2">
                             <h4 class="text-sm font-extrabold text-white tracking-tight leading-snug">${c.name}</h4>
-                            <span class="text-[10px] ${badgeClass} px-2 py-0.5 rounded font-mono shrink-0">${badgeLabel}</span>
+                            <div class="flex items-center gap-1.5 shrink-0">
+                                ${c.qualificationStatus ? `<span class="text-[10px] bg-cyan-950/80 text-cyan-300 border border-cyan-500/40 px-1.5 py-0.5 rounded font-mono font-semibold shrink-0" title="${c.qualificationStatus}">${c.qualificationStatus.includes('BQ') ? 'BQ' : (c.qualificationStatus.includes('CQ') ? 'CQ' : c.qualificationStatus)}</span>` : ''}
+                                <span class="text-[10px] ${badgeClass} px-2 py-0.5 rounded font-mono shrink-0">${badgeLabel}</span>
+                            </div>
                         </div>
                         <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed font-sans mt-1">📍 <span class="font-semibold text-slate-800 dark:text-slate-200">${c.address && c.address !== 'Address on file with TxDOT' ? c.address : c.name + ' - Official Registered Office, TxDOT Division, TX'}</span></p>
                     </div>
@@ -3097,9 +3312,10 @@
                 }
 
                 // 3. Fallback to constructing basic project data from loaded monthly cache list
-                if (!data || data.error) {
+                if (!data || data.error || !data.items || data.items.length === 0) {
                     const item = currentMonthlyList ? currentMonthlyList.find(p => p.csj === csj) : null;
                     if (item) {
+                        let cachedItems = (item.items && item.items.length > 0) ? item.items : [];
                         data = {
                             metadata: {
                                 csj: item.csj,
@@ -3114,8 +3330,32 @@
                                 statusNote: "Scheduled Pre-Bid Proposal"
                             },
                             bidders: [],
-                            items: []
+                            items: cachedItems
                         };
+                    }
+                }
+
+                // 4. Try loading from proposal_items_cache.json if items are still empty
+                if (data && (!data.items || data.items.length === 0)) {
+                    try {
+                        const cachePaths = [
+                            'downloads/proposal_items_cache.json',
+                            '/downloads/proposal_items_cache.json',
+                            'public/downloads/proposal_items_cache.json',
+                            '/public/downloads/proposal_items_cache.json'
+                        ];
+                        for (const cp of cachePaths) {
+                            const cRes = await fetch(`${cp}?_t=${Date.now()}`);
+                            if (cRes.ok) {
+                                const cObj = await cRes.json();
+                                if (cObj && cObj[csj] && cObj[csj].length > 0) {
+                                    data.items = cObj[csj];
+                                    break;
+                                }
+                            }
+                        }
+                    } catch (e) {
+                        console.warn("Proposal items cache fetch notice:", e);
                     }
                 }
 
@@ -3127,6 +3367,9 @@
                     if (monthlyMatch.highway && monthlyMatch.highway !== 'N/A') data.metadata.highway = monthlyMatch.highway;
                     if (monthlyMatch.projectType) data.metadata.projectType = monthlyMatch.projectType;
                     if (monthlyMatch.estimate && monthlyMatch.estimate > 0) data.metadata.engEstTotal = monthlyMatch.estimate;
+                    if (monthlyMatch.items && monthlyMatch.items.length > 0 && (!data.items || data.items.length === 0)) {
+                        data.items = monthlyMatch.items;
+                    }
                     if (data.metadata.isPreBid === undefined || data.metadata.isPreBid === null) {
                         data.metadata.isPreBid = true;
                         data.metadata.statusNote = "Scheduled Pre-Bid Proposal";
@@ -3373,108 +3616,21 @@
                 const fallbackPropUrl = (ftpUrls[ftpUrls.primaryCat] && ftpUrls[ftpUrls.primaryCat].proposalsFolder) ? ftpUrls[ftpUrls.primaryCat].proposalsFolder : ftpUrls.construction.proposalsFolder;
                 const fallbackPlanUrl = (ftpUrls[ftpUrls.primaryCat] && ftpUrls[ftpUrls.primaryCat].plansFolder) ? ftpUrls[ftpUrls.primaryCat].plansFolder : ftpUrls.construction.plansFolder;
 
-                const isDirectPropPdf = foundPropUrl && foundPropUrl.toLowerCase().includes('.pdf');
-                const isDirectPlanPdf = foundPlanUrl && (foundPlanUrl.toLowerCase().includes('.pdf') || foundPlanUrl.toLowerCase().includes('.zip'));
+                const isDirectPropPdf = Boolean(foundPropUrl && (foundPropUrl.toLowerCase().endsWith('.pdf') || foundPropUrl.toLowerCase().includes('.pdf')));
+                const isDirectPlanPdf = Boolean(foundPlanUrl && (foundPlanUrl.toLowerCase().endsWith('.pdf') || foundPlanUrl.toLowerCase().includes('.pdf')));
 
-                const prebidPdfBtn = document.getElementById('prebidPdfBtn');
-                if (isDirectPropPdf) {
-                    if (prebidPdfBtn) prebidPdfBtn.href = foundPropUrl;
-                } else if (isDirectPlanPdf) {
-                    if (prebidPdfBtn) prebidPdfBtn.href = foundPlanUrl;
-                } else {
-                    if (prebidPdfBtn) prebidPdfBtn.href = fallbackPropUrl;
-                }
+                const finalPropUrl = isDirectPropPdf ? foundPropUrl : fallbackPropUrl;
+                const finalPlanUrl = isDirectPlanPdf ? foundPlanUrl : fallbackPlanUrl;
 
-                // Render SubTab 2 (Proposal)
-                const sub2Card = document.getElementById('subTabContent2');
-                if (sub2Card) {
-                    if (isDirectPropPdf) {
-                        sub2Card.innerHTML = `
-                            <div class="bg-blue-950/70 border border-blue-500/60 p-6 rounded-xl flex flex-col md:flex-row items-center justify-between gap-4 shadow-xl">
-                                <div class="flex items-center space-x-4">
-                                    <div class="text-4xl">📄</div>
-                                    <div>
-                                        <h5 class="text-base font-bold text-blue-200 flex items-center gap-2">
-                                            <span>Verified TxDOT Proposal Document PDF</span>
-                                            <span class="text-xs bg-blue-500/30 text-blue-300 px-2.5 py-0.5 rounded-full font-mono font-bold">100% Direct FTP Link</span>
-                                        </h5>
-                                        <p class="text-xs text-blue-300/80 font-mono mt-1">${foundPropName || 'CSJ ' + csj + ' Proposal.pdf'}</p>
-                                    </div>
-                                </div>
-                                <a target="_blank" href="${foundPropUrl}" class="bg-blue-600 hover:bg-blue-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition text-xs whitespace-nowrap">
-                                    Download Proposal PDF →
-                                </a>
-                            </div>
-                        `;
-                    } else {
-                        sub2Card.innerHTML = `
-                            <div class="bg-blue-950/40 border border-blue-500/50 p-6 rounded-xl flex flex-col md:flex-row items-center justify-between gap-4 shadow-xl">
-                                <div class="flex items-center space-x-4">
-                                    <div class="text-3xl text-amber-400">📂</div>
-                                    <div>
-                                        <h5 class="text-base font-bold text-slate-100">TxDOT Official Proposals Directory (${ftpUrls.monthName} ${ftpUrls.year})</h5>
-                                        <p class="text-xs text-slate-300 mt-1">Direct PDF link for CSJ ${csj} is pending or managed locally. Click below to browse official TxDOT proposal booklets for ${ftpUrls.monthName} ${ftpUrls.year}:</p>
-                                    </div>
-                                </div>
-                                <a target="_blank" href="${fallbackPropUrl}" class="bg-blue-600 hover:bg-blue-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition text-xs whitespace-nowrap">
-                                    Browse ${ftpUrls.monthName} Proposals Folder →
-                                </a>
-                            </div>
-                        `;
-                    }
-                }
+                ['actionPropPdfBtn', 'actionPropPdfBtnEst', 'actionPropPdfBtnBidTab'].forEach(id => {
+                    const btn = document.getElementById(id);
+                    if (btn) btn.href = finalPropUrl;
+                });
 
-                // Render SubTab 3 (Plans)
-                const sub3Card = document.getElementById('subTabContent3');
-                if (sub3Card) {
-                    if (isDirectPlanPdf) {
-                        let btnHtml = '';
-                        if (foundPlanVolumes && foundPlanVolumes.length > 1) {
-                            btnHtml = '<div class="flex flex-col gap-2">';
-                            foundPlanVolumes.forEach((v, idx) => {
-                                btnHtml += `<a target="_blank" href="${v.url}" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-5 py-2.5 rounded-xl shadow transition text-xs whitespace-nowrap flex items-center justify-between gap-2">
-                                    <span>Download ${v.name} →</span>
-                                </a>`;
-                            });
-                            btnHtml += '</div>';
-                        } else {
-                            btnHtml = `<a target="_blank" href="${foundPlanUrl}" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition text-xs whitespace-nowrap">
-                                Download Plan PDF →
-                            </a>`;
-                        }
-
-                        sub3Card.innerHTML = `
-                            <div class="bg-emerald-950/70 border border-emerald-500/60 p-6 rounded-xl flex flex-col md:flex-row items-center justify-between gap-4 shadow-xl">
-                                <div class="flex items-center space-x-4">
-                                    <div class="text-4xl">🗺️</div>
-                                    <div>
-                                        <h5 class="text-base font-bold text-emerald-200 flex items-center gap-2">
-                                            <span>Verified TxDOT Construction Plan Set PDF</span>
-                                            <span class="text-xs bg-emerald-500/30 text-emerald-300 px-2.5 py-0.5 rounded-full font-mono font-bold">100% Direct FTP Link</span>
-                                        </h5>
-                                        <p class="text-xs text-emerald-300/80 font-mono mt-1">${foundPlanName || 'CSJ ' + csj + ' Plan.pdf'}</p>
-                                    </div>
-                                </div>
-                                ${btnHtml}
-                            </div>
-                        `;
-                    } else {
-                        sub3Card.innerHTML = `
-                            <div class="bg-emerald-950/40 border border-emerald-500/50 p-6 rounded-xl flex flex-col md:flex-row items-center justify-between gap-4 shadow-xl">
-                                <div class="flex items-center space-x-4">
-                                    <div class="text-3xl text-amber-400">📂</div>
-                                    <div>
-                                        <h5 class="text-base font-bold text-slate-100">TxDOT Official Construction Plans Directory (${ftpUrls.monthName} ${ftpUrls.year})</h5>
-                                        <p class="text-xs text-slate-300 mt-1">Direct plan sheet PDF for CSJ ${csj} is pending or managed locally. Click below to browse official TxDOT plan sets for ${ftpUrls.monthName} ${ftpUrls.year}:</p>
-                                    </div>
-                                </div>
-                                <a target="_blank" href="${fallbackPlanUrl}" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition text-xs whitespace-nowrap">
-                                    Browse ${ftpUrls.monthName} Plans Folder →
-                                </a>
-                            </div>
-                        `;
-                    }
-                }
+                ['actionPlanPdfBtn', 'actionPlanPdfBtnEst', 'actionPlanPdfBtnBidTab'].forEach(id => {
+                    const btn = document.getElementById(id);
+                    if (btn) btn.href = finalPlanUrl;
+                });
             } catch (e) {
                 console.error("Error loading CSJ PDF links:", e);
             }
@@ -3689,6 +3845,647 @@
             }
         }
 
+        // MASTER TxDOT CALCULATOR (GAL=10% FOR 316, CY=100% FULL COLUMN G)
+        // ====================================================================
+        let txdotPeriodMapData = null;
+        let txdotMasterItemMap = null;
+        let txdotItemBaseAvgMap = null;
+        let txdotMasterCsvRawText = null;
+
+        function toggleTxdotAveragesDropdown(event) {
+            if (event) event.stopPropagation();
+            const menu = document.getElementById('txdotAveragesDropdownMenu');
+            if (menu) menu.classList.toggle('hidden');
+        }
+
+        document.addEventListener('click', function(e) {
+            const btn = document.getElementById('txdotAveragesDropdownBtn');
+            const menu = document.getElementById('txdotAveragesDropdownMenu');
+            if (menu && !menu.classList.contains('hidden')) {
+                if (btn && !btn.contains(e.target) && !menu.contains(e.target)) {
+                    menu.classList.add('hidden');
+                }
+            }
+        });
+
+        function selectTxdotAveragePeriod(period) {
+            activeTxdotAveragePeriod = period;
+            txdotMasterItemMap = null;
+            ensureTxDOTMasterMapLoaded();
+
+            const statusEl = document.getElementById('txdotAvgMenuStatus');
+            if (statusEl) statusEl.innerText = `${period}-Mo Active`;
+
+            ['3', '6', '12', '24'].forEach(p => {
+                const btn = document.getElementById(`optAvg${p}`);
+                if (btn) {
+                    if (p === period) {
+                        btn.className = "w-full text-left px-2.5 py-1.5 rounded-lg text-xs font-semibold flex items-center justify-between transition txdot-avg-opt-active";
+                    } else {
+                        btn.className = "w-full text-left px-2.5 py-1.5 rounded-lg text-xs font-semibold flex items-center justify-between transition txdot-avg-opt-inactive";
+                    }
+                }
+            });
+
+            const menu = document.getElementById('txdotAveragesDropdownMenu');
+            if (menu) menu.classList.add('hidden');
+
+            if (typeof currentProjectData !== 'undefined' && currentProjectData) {
+                renderPreBidView(currentProjectData);
+            }
+
+            // Direct 1-click export to Excel sheet for selected period
+            downloadTxdotAverageBidPricesExcel(period);
+        }
+
+        function ensureTxDOTMasterMapLoaded() {
+            if (txdotMasterItemMap !== null && txdotPeriodMapData !== null) return;
+            txdotMasterItemMap = {};
+            txdotItemBaseAvgMap = {};
+            const baseSumMap = {};
+
+            // 1. Try loading multi-period JSON map (24, 12, 6, 3 mo sheets)
+            try {
+                const xhrJson = new XMLHttpRequest();
+                xhrJson.open('GET', 'downloads/txdot_averages_period_map.json', false);
+                xhrJson.send(null);
+                if (xhrJson.status === 200) {
+                    txdotPeriodMapData = JSON.parse(xhrJson.responseText);
+                    if (txdotPeriodMapData && txdotPeriodMapData['24']) {
+                        const map24 = txdotPeriodMapData['24'].items || {};
+                        for (const code in map24) {
+                            if (map24[code] && map24[code].colG > 0) {
+                                txdotMasterItemMap[code] = map24[code].colG;
+                            }
+                        }
+                        txdotItemBaseAvgMap = txdotPeriodMapData['24'].baseAvgG || {};
+                        return;
+                    }
+                }
+            } catch (e) {
+                console.warn("JSON period map load error, falling back to CSV:", e);
+            }
+
+            // Fallback: Parse Master CSV (Column G is index 6)
+            try {
+                const xhr = new XMLHttpRequest();
+                xhr.open('GET', 'downloads/TxDOT_Average_Bid_Prices_Item_Wise.csv', false);
+                xhr.send(null);
+                if (xhr.status === 200) {
+                    txdotMasterCsvRawText = xhr.responseText;
+                    const lines = xhr.responseText.split('\n');
+                    for (let i = 1; i < lines.length; i++) {
+                        const line = lines[i].trim();
+                        if (!line) continue;
+                        const parts = line.split(/,(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)/).map(s => s.replace(/^\"|\"$/g, '').trim());
+                        if (parts.length >= 7) {
+                            const rawCode = parts[0].replace(/[\s\-]+/g, '');
+                            const unit = (parts[3] || '').trim().toUpperCase();
+                            const pEng = parseFloat(parts[6]) || parseFloat(parts[4]) || 0;
+                            if (pEng > 0) {
+                                txdotMasterItemMap[rawCode] = pEng;
+                                if (rawCode.length >= 4) {
+                                    const itemNoOnly = rawCode.substring(0, 4).replace(/^0+/, '');
+                                    const baseKey = itemNoOnly + "_" + unit;
+                                    if (!baseSumMap[baseKey]) {
+                                        baseSumMap[baseKey] = { sum: 0, count: 0 };
+                                    }
+                                    baseSumMap[baseKey].sum += pEng;
+                                    baseSumMap[baseKey].count += 1;
+                                }
+                            }
+                        }
+                    }
+                    for (const bk in baseSumMap) {
+                        txdotItemBaseAvgMap[bk] = Math.round((baseSumMap[bk].sum / baseSumMap[bk].count) * 100) / 100;
+                    }
+                }
+            } catch (e) {
+                console.warn("Error loading TxDOT Master CSV:", e);
+            }
+        }
+
+        function getAmestxCalculatedUnitPrice(item, metaObj, allItems) {
+            if (!item) return 0;
+
+            ensureTxDOTMasterMapLoaded();
+
+            let rawCodeStr = (item.code || item.itemNo || item.item_no || '').toString().trim();
+            let specCodeStr = (item.specCode || item.spec_code || item.specCo || '').toString().trim();
+
+            if (!specCodeStr && (rawCodeStr.includes(' ') || rawCodeStr.includes('-'))) {
+                const parts = rawCodeStr.split(/[\s\-]+/);
+                rawCodeStr = parts[0] || '';
+                specCodeStr = parts[1] || '';
+            }
+
+            const cleanDigits = rawCodeStr.replace(/[^0-9]/g, '');
+            if (!specCodeStr && cleanDigits.length >= 7 && cleanDigits.length <= 8) {
+                const paddedDigits = cleanDigits.padStart(8, '0');
+                rawCodeStr = paddedDigits.substring(0, 4);
+                specCodeStr = paddedDigits.substring(4, 8);
+            }
+
+            const itemNoOnly = rawCodeStr.replace(/[^0-9]/g, '').replace(/^0+/, '');
+            const descUpper = (item.description || item.itemDescription || '').toString().toUpperCase();
+            const unitUpper = (item.unit || '').toString().toUpperCase().trim();
+            const itemQty = parseFloat(item.quantity) || 0;
+
+            let projEst = 0;
+            if (metaObj) {
+                projEst = parseFloat(metaObj.estimate || metaObj.engEstTotal || metaObj.engEst || metaObj.eng_est || 0);
+            }
+
+            // 1. ITEM 500 MOBILIZATION RULE: ALWAYS 5% OF THIS PROJECT'S ENGINEER ESTIMATE
+            if (itemNoOnly === '500' || descUpper.includes('MOBILIZATION')) {
+                if (projEst > 0) {
+                    return Math.round(projEst * 0.05 * 100) / 100;
+                }
+            }
+
+            const itemNoPadded = itemNoOnly.padStart(4, '0');
+            const specNoPadded = specCodeStr.replace(/[^0-9]/g, '').padStart(4, '0');
+            const primaryKey = itemNoPadded + specNoPadded;
+
+            let translatedSpecNo = specNoPadded;
+            if (specNoPadded.startsWith('7')) {
+                translatedSpecNo = '6' + specNoPadded.substring(1);
+            }
+            const translatedKey = itemNoPadded + translatedSpecNo;
+
+            // =========================================================================
+            // 2. HIERARCHICAL 4-TIER LOOKUP: 24-Mo -> 12-Mo -> 6-Mo -> 3-Mo (COLUMN G)
+            // =========================================================================
+            let val = 0;
+            let periodOrder = ['24', '12', '6', '3'];
+            if (typeof activeTxdotAveragePeriod !== 'undefined' && activeTxdotAveragePeriod) {
+                if (activeTxdotAveragePeriod === '12') periodOrder = ['12', '24', '6', '3'];
+                else if (activeTxdotAveragePeriod === '6') periodOrder = ['6', '12', '24', '3'];
+                else if (activeTxdotAveragePeriod === '3') periodOrder = ['3', '6', '12', '24'];
+                else if (activeTxdotAveragePeriod === '24') periodOrder = ['24', '12', '6', '3'];
+            }
+
+            if (txdotPeriodMapData) {
+                for (let i = 0; i < periodOrder.length; i++) {
+                    const p = periodOrder[i];
+                    const pObj = txdotPeriodMapData[p];
+                    if (pObj && pObj.items) {
+                        const itemsObj = pObj.items;
+                        if (itemsObj[primaryKey] && itemsObj[primaryKey].colG > 0) {
+                            val = itemsObj[primaryKey].colG;
+                            break;
+                        } else if (itemsObj[translatedKey] && itemsObj[translatedKey].colG > 0) {
+                            val = itemsObj[translatedKey].colG;
+                            break;
+                        }
+                    }
+                }
+            }
+
+            if (val <= 0) {
+                if (txdotMasterItemMap[primaryKey]) {
+                    val = txdotMasterItemMap[primaryKey];
+                } else if (txdotMasterItemMap[translatedKey]) {
+                    val = txdotMasterItemMap[translatedKey];
+                }
+            }
+
+            // =========================================================================
+            // 3. OUTLIER & SANITY PROTECTION FOR UNWEIGHTED SPECIAL SPEC CODES
+            // =========================================================================
+            // Item 502 Barricades & Traffic Handling
+            if (itemNoOnly === '502' || descUpper.includes('BARRICADES')) {
+                const extVal = val * itemQty;
+                if (val > 25000 || (projEst > 0 && extVal > projEst)) {
+                    let altVal = 0;
+                    if (txdotPeriodMapData) {
+                        for (let i = 0; i < periodOrder.length; i++) {
+                            const pObj = txdotPeriodMapData[periodOrder[i]];
+                            if (pObj && pObj.items) {
+                                if (pObj.items['05027001'] && pObj.items['05027001'].colG > 0 && pObj.items['05027001'].colG < 25000) {
+                                    altVal = pObj.items['05027001'].colG;
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                    if (altVal > 0 && (altVal * itemQty) <= projEst) {
+                        val = altVal;
+                    } else {
+                        val = 2500.00;
+                    }
+                }
+            }
+
+            // Item 100 Preparing Row
+            if (itemNoOnly === '100' || descUpper.includes('PREPARING ROW')) {
+                const extVal = val * itemQty;
+                if (val > 25000 || (projEst > 0 && extVal > projEst)) {
+                    let altVal = 0;
+                    if (txdotPeriodMapData) {
+                        for (let i = 0; i < periodOrder.length; i++) {
+                            const pObj = txdotPeriodMapData[periodOrder[i]];
+                            if (pObj && pObj.items) {
+                                if (pObj.items['01007002'] && pObj.items['01007002'].colG > 0 && pObj.items['01007002'].colG < 25000) {
+                                    altVal = pObj.items['01007002'].colG;
+                                    break;
+                                } else if (pObj.items['01006001'] && pObj.items['01006001'].colG > 0) {
+                                    altVal = pObj.items['01006001'].colG;
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                    if (altVal > 0 && (altVal * itemQty) <= (projEst * 0.5)) {
+                        val = altVal;
+                    } else {
+                        val = 456.18;
+                    }
+                }
+            }
+
+            if (val > 0) {
+                return Math.round(val * 100) / 100;
+            }
+
+            // =========================================================================
+            // LEVEL 2B: ITEM 666 STRIPING & MARKING DESCRIPTION KEYWORD MATCHER
+            // =========================================================================
+            if (itemNoOnly === '666' || descUpper.includes('PAV MRK') || descUpper.includes('PM TY')) {
+                if (unitUpper === 'LF' || unitUpper === 'LM') {
+                    if (descUpper.includes('6"(SLD)') || descUpper.includes('6" (SLD)') || descUpper.includes('6" SLD') || descUpper.includes('6"(SLD')) {
+                        return txdotMasterItemMap['06667175'] || txdotMasterItemMap['06666174'] || 0.17;
+                    }
+                    if (descUpper.includes('6"(BRK)') || descUpper.includes('6" (BRK)') || descUpper.includes('6" BRK') || descUpper.includes('6"(BRK')) {
+                        return txdotMasterItemMap['06667172'] || txdotMasterItemMap['06666171'] || 0.26;
+                    }
+                    if (descUpper.includes('6"(DOT)') || descUpper.includes('6" (DOT)') || descUpper.includes('6" DOT') || descUpper.includes('6"(DOT')) {
+                        return txdotMasterItemMap['06667172'] || 0.26;
+                    }
+                    if (descUpper.includes('8"(SLD)') || descUpper.includes('8" (SLD)') || descUpper.includes('8" SLD') || descUpper.includes('8"(SLD')) {
+                        return txdotMasterItemMap['06667451'] || txdotMasterItemMap['06667179'] || 0.43;
+                    }
+                    if (descUpper.includes('8"(DOT)') || descUpper.includes('8" (DOT)') || descUpper.includes('8" DOT') || descUpper.includes('8"(DOT')) {
+                        return 0.75;
+                    }
+                    if (descUpper.includes('12"(SLD)') || descUpper.includes('12" (SLD)') || descUpper.includes('12" SLD')) {
+                        return 1.85;
+                    }
+                    if (descUpper.includes('24"(SLD)') || descUpper.includes('24" (SLD)') || descUpper.includes('24" SLD')) {
+                        return 3.92;
+                    }
+                }
+            }
+
+            // =========================================================================
+            // LEVEL 3: ITEM BASE NUMBER CSV AVERAGE LOOKUP
+            // =========================================================================
+            const baseKey = itemNoOnly + "_" + unitUpper;
+            if (txdotItemBaseAvgMap && txdotItemBaseAvgMap[baseKey] && txdotItemBaseAvgMap[baseKey] > 0) {
+                return Math.round(txdotItemBaseAvgMap[baseKey] * 100) / 100;
+            }
+
+            // =========================================================================
+            // LEVEL 4: STANDARD TxDOT ITEM NUMBER INDUSTRY BENCHMARKS
+            // =========================================================================
+            const ITEM_BENCHMARKS = {
+                '164': { SY: 0.55, AC: 650.00, LB: 6.50 },
+                '162': { SY: 4.55 },
+                '160': { SY: 1.85, CY: 28.00 },
+                '161': { SY: 1.85, CY: 28.00 },
+                '169': { SY: 1.85, CY: 28.00 },
+                '168': { TGL: 19.85, MG: 19.85 },
+                '533': { LF: 0.25, LM: 0.25 },            // Mill Rumble Strips (Shoulder / Centerline)
+                '662': { EA: 0.85, LF: 0.85, LM: 0.85 },  // Work Zone Markings & Tabs
+                '666': { LF: 1.45, EA: 1.45, LM: 1.45 },  // Reflectorized Pavement Markings & Striping
+                '668': { EA: 4.50, LF: 2.25 },
+                '672': { EA: 4.50 },                      // Raised Pavement Markers
+                '512': { LF: 18.50, LM: 18.50 },          // PTB
+                '530': { SY: 68.00 },                     // Driveways
+                '540': { LF: 28.50, EA: 1250.00 },        // Metal Beam Guard Fence
+                '542': { LF: 4.50 },                      // Remove Guard Fence
+                '544': { EA: 2850.00 }                    // Guardrail End Treatment
+            };
+
+            if (ITEM_BENCHMARKS[itemNoOnly] && ITEM_BENCHMARKS[itemNoOnly][unitUpper]) {
+                return ITEM_BENCHMARKS[itemNoOnly][unitUpper];
+            }
+
+            // =========================================================================
+            // LEVEL 5: DESCRIPTION KEYWORD & SPECIFIC ITEM ANALYSIS
+            // =========================================================================
+            val = parseFloat(item.amestxUnit || item.avgPrice || item.unitPrice || 0);
+
+            if (val <= 0 || val === 1.85 || val === 250.00 || val === 25.00 || val === 115.00 || val === 3500.00) {
+
+                // 1. Rumble Strips (Item 533 or description)
+                if (itemNoOnly === '533' || descUpper.includes('RUMBLE')) {
+                    val = 0.25;
+                }
+                // 2. Work Zone Markings, Tabs, Buttons (Item 662)
+                else if (itemNoOnly === '662' || descUpper.includes('WK ZN') || descUpper.includes('SHT TERM') || descUpper.includes('TAB')) {
+                    val = 0.85;
+                }
+                // 3. Striping / Reflectorized Markings (Item 666, 668, 672)
+                else if (itemNoOnly === '666' || itemNoOnly === '668' || itemNoOnly === '672' || descUpper.includes('REFL') || descUpper.includes('PAV MRK') || descUpper.includes('STRIPE') || descUpper.includes('PM TY') || descUpper.includes('RE PROFILE')) {
+                    if (unitUpper === 'LF' || unitUpper === 'LM') val = 1.45;
+                    else val = 4.50;
+                }
+                // 4. Seeding & Erosion Control (Item 164)
+                else if (itemNoOnly === '164' || descUpper.includes('SEED') || descUpper.includes('BOND FBR')) {
+                    if (unitUpper === 'AC' || unitUpper === 'ACRE') val = 650.00;
+                    else if (unitUpper === 'LB') val = 6.50;
+                    else val = 0.55;
+                }
+                // 5. Sodding (Item 162)
+                else if (itemNoOnly === '162' || descUpper.includes('SOD')) {
+                    val = 4.55;
+                }
+                // 6. Topsoil, Compost, Blanket (Item 160, 161, 169)
+                else if (itemNoOnly === '160' || itemNoOnly === '161' || itemNoOnly === '169' || descUpper.includes('TOPSOIL') || descUpper.includes('COMPOST') || descUpper.includes('BLANKET')) {
+                    if (unitUpper === 'CY') val = 28.00;
+                    else val = 1.85;
+                }
+                // 7. Vegetative Watering (Item 168)
+                else if (itemNoOnly === '168' || descUpper.includes('VEGETATIVE WATERING')) {
+                    val = 19.85;
+                }
+                // 8. Cables & Fiber Optic (6004, 6005, 684)
+                else if (descUpper.includes('CBL') || descUpper.includes('CABLE') || descUpper.includes('ETHERNET') || descUpper.includes('FIBER')) {
+                    if (unitUpper === 'LF' || unitUpper === 'LM') {
+                        if (descUpper.includes('FIBER') || descUpper.includes('FO')) val = 6.80;
+                        else if (descUpper.includes('ETHERNET') || descUpper.includes('COM')) val = 4.80;
+                        else if (descUpper.includes('CONTROL') || descUpper.includes('WWD')) val = 5.20;
+                        else if (descUpper.includes('TRF SIG') || descUpper.includes('SIGNAL')) val = 4.20;
+                        else val = 4.50;
+                    } else {
+                        val = 350.00;
+                    }
+                }
+                // 9. DMS / Dynamic Message Signs & Cabinets (6004, 6006)
+                else if (itemNoOnly === '6004' || descUpper.includes('DMS') || descUpper.includes('DYNAMIC MESSAGE')) {
+                    if (descUpper.includes('CABINET') || descUpper.includes('FOUNDATION')) val = 24500.00;
+                    else val = 48500.00;
+                }
+                // 10. System Integration (6009)
+                else if (itemNoOnly === '6009' || descUpper.includes('SYSTEM INTEGRATION') || descUpper.includes('INTEGRATION')) {
+                    val = 85000.00;
+                }
+                // 11. Satellite Building / Equipment Shelter (6176)
+                else if (itemNoOnly === '6176' || descUpper.includes('SATELLITE BUILDING') || descUpper.includes('BUILDING SHELTER')) {
+                    val = 65000.00;
+                }
+                // 12. C-V2X Roadside Unit (6177)
+                else if (itemNoOnly === '6177' || descUpper.includes('V2X') || descUpper.includes('ROADSIDE UNIT')) {
+                    val = 11500.00;
+                }
+                // 13. ITS RVSD / Radar Vehicle Sensing (6010)
+                else if (itemNoOnly === '6010' || descUpper.includes('RVSD') || descUpper.includes('RADAR')) {
+                    if (descUpper.includes('RELOCATE')) val = 2400.00;
+                    else val = 7800.00;
+                }
+                // 14. ITS Poles & Towers (6011, 6250)
+                else if (itemNoOnly === '6011' || descUpper.includes('ITS POLE') || descUpper.includes('CAMERA POLE')) {
+                    if (descUpper.includes('RELOCATE')) val = 3500.00;
+                    else val = 14500.00;
+                }
+                // 15. Item 462 / Concrete Box Culverts
+                else if (itemNoOnly === '462' || descUpper.includes('BOX CULV') || descUpper.includes('CONC BOX')) {
+                    if (descUpper.includes('10 FT') || descUpper.includes('10FT') || descUpper.includes('9 FT') || descUpper.includes('9FT')) val = 750.00;
+                    else if (descUpper.includes('8 FT') || descUpper.includes('8FT')) val = 650.00;
+                    else if (descUpper.includes('7 FT') || descUpper.includes('7FT')) val = 580.00;
+                    else if (descUpper.includes('6 FT') || descUpper.includes('6FT')) val = 480.00;
+                    else if (descUpper.includes('5 FT') || descUpper.includes('5FT')) val = 380.00;
+                    else if (descUpper.includes('4 FT') || descUpper.includes('4FT')) val = 290.00;
+                    else if (descUpper.includes('3 FT') || descUpper.includes('3FT')) val = 220.00;
+                    else val = 450.00;
+                }
+                // 16. Item 464 / RC Pipe
+                else if (itemNoOnly === '464' || descUpper.includes('RC PIPE') || descUpper.includes('RCP')) {
+                    if (descUpper.includes('48 IN') || descUpper.includes('48"')) val = 180.00;
+                    else if (descUpper.includes('36 IN') || descUpper.includes('36"')) val = 145.00;
+                    else if (descUpper.includes('24 IN') || descUpper.includes('24"')) val = 112.42;
+                    else if (descUpper.includes('18 IN') || descUpper.includes('18"')) val = 103.78;
+                    else val = 115.00;
+                }
+                // 17. 7000-series Utilities & Maintenance
+                else if (itemNoOnly.startsWith('7') || descUpper.includes('WATER MAIN') || descUpper.includes('SEWER')) {
+                    if (descUpper.includes('WATER') || descUpper.includes('SEWER') || descUpper.includes('SAN')) {
+                        if (unitUpper === 'LF' || unitUpper === 'LM') {
+                            if (descUpper.includes('12 IN') || descUpper.includes('16 IN') || descUpper.includes('18 IN')) val = 165.00;
+                            else if (descUpper.includes('8 IN') || descUpper.includes('10 IN')) val = 125.00;
+                            else val = 85.00;
+                        } else if (unitUpper === 'EA' || unitUpper === 'EACH') {
+                            val = 4800.00;
+                        } else if (unitUpper === 'LS' || unitUpper === 'LUMP') {
+                            val = 65000.00;
+                        } else {
+                            val = 125.00;
+                        }
+                    } else if (descUpper.includes('MOW') || descUpper.includes('LITTER') || descUpper.includes('TREE') || descUpper.includes('VEG')) {
+                        if (unitUpper === 'AC' || unitUpper === 'ACRE') val = 65.00;
+                        else if (unitUpper === 'MI' || unitUpper === 'MILE') val = 350.00;
+                        else if (unitUpper === 'MO' || unitUpper === 'MONTH') val = 1800.00;
+                        else if (unitUpper === 'HR' || unitUpper === 'HOUR') val = 85.00;
+                        else if (unitUpper === 'CY') val = 35.00;
+                        else val = 450.00;
+                    } else {
+                        if (unitUpper === 'LF' || unitUpper === 'LM') val = 85.00;
+                        else if (unitUpper === 'EA' || unitUpper === 'EACH') val = 2800.00;
+                        else if (unitUpper === 'SY' || unitUpper === 'SQFT') val = 45.00;
+                        else if (unitUpper === 'LS' || unitUpper === 'LUMP') val = 25000.00;
+                        else val = 350.00;
+                    }
+                }
+                // 18. 8000-series Special Materials
+                else if (itemNoOnly.startsWith('8') || descUpper.includes('SPECIAL MATERIAL')) {
+                    if (unitUpper === 'LF' || unitUpper === 'LM') val = 45.00;
+                    else if (unitUpper === 'EA' || unitUpper === 'EACH') val = 3200.00;
+                    else if (unitUpper === 'TON' || unitUpper === 'TN') val = 140.00;
+                    else if (unitUpper === 'CY') val = 180.00;
+                    else if (unitUpper === 'SY' || unitUpper === 'SQFT') val = 35.00;
+                    else if (unitUpper === 'LS' || unitUpper === 'LUMP') val = 30000.00;
+                    else val = 450.00;
+                }
+                // 19. Concrete Repair & Asphalt Paving
+                else if (descUpper.includes('CONC') || descUpper.includes('PAV') || descUpper.includes('REPAIR')) {
+                    if (unitUpper === 'SY' || unitUpper === 'SQFT') val = 75.00;
+                    else if (unitUpper === 'CY') val = 450.00;
+                    else if (unitUpper === 'LF' || unitUpper === 'LM') val = 65.00;
+                    else if (unitUpper === 'EA' || unitUpper === 'EACH') val = 3500.00;
+                    else val = 150.00;
+                }
+                else if (descUpper.includes('ASPH') || descUpper.includes('HMA') || descUpper.includes('HOT MIX')) {
+                    if (unitUpper === 'TON' || unitUpper === 'TN') val = 115.00;
+                    else if (unitUpper === 'GAL' || unitUpper === 'GALLON') val = 4.20;
+                    else if (unitUpper === 'SY' || unitUpper === 'SQFT') val = 18.00;
+                    else if (unitUpper === 'LF' || unitUpper === 'LM') val = 0.25;
+                    else val = 115.00;
+                }
+                // 20. Guardrail & Barriers
+                else if (descUpper.includes('GUARDRAIL') || descUpper.includes('ATTEN') || descUpper.includes('BARRIER')) {
+                    if (unitUpper === 'LF' || unitUpper === 'LM') val = 38.00;
+                    else if (unitUpper === 'EA' || unitUpper === 'EACH') val = 3200.00;
+                    else val = 850.00;
+                }
+                // 21. Generic Unit Fallbacks
+                else if (unitUpper === 'BAG' || unitUpper === 'BAGS') {
+                    val = 11.90;
+                }
+                else if (unitUpper === 'LF' || unitUpper === 'LM' || unitUpper === 'LFR') {
+                    if (descUpper.includes('STRIPE') || descUpper.includes('LINE') || descUpper.includes('MARK') || descUpper.includes('TAPE') || descUpper.includes('REPM')) {
+                        val = 1.85;
+                    } else {
+                        val = 18.50;
+                    }
+                }
+                else if (unitUpper === 'SY' || unitUpper === 'SQFT' || unitUpper === 'SF') {
+                    val = unitUpper === 'SF' ? 4.50 : 8.50;
+                }
+                else if (unitUpper === 'CY' || unitUpper === 'CUYD') {
+                    val = 180.00;
+                }
+                else if (unitUpper === 'TON' || unitUpper === 'TN') {
+                    val = 110.00;
+                }
+                else if (unitUpper === 'GAL' || unitUpper === 'GALLON') {
+                    val = 4.50;
+                }
+                else if (unitUpper === 'EA' || unitUpper === 'EACH') {
+                    val = 850.00;
+                }
+                else if (unitUpper === 'LS' || unitUpper === 'LUMP') {
+                    val = 15000.00;
+                }
+                else if (unitUpper === 'MO' || unitUpper === 'MONTH') {
+                    val = 2500.00;
+                }
+                else if (unitUpper === 'DAY') {
+                    val = 150.00;
+                }
+                else if (unitUpper === 'HR' || unitUpper === 'HOUR') {
+                    val = 95.00;
+                }
+                else if (unitUpper === 'STA') {
+                    val = 450.00;
+                }
+                else if (unitUpper === 'AC' || unitUpper === 'ACRE') {
+                    val = 1800.00;
+                }
+                else {
+                    val = 350.00;
+                }
+            }
+
+            return Math.round(val * 100) / 100;
+        }
+
+        function getDefaultItems(metaObj) {
+            const est = parseFloat((metaObj && (metaObj.engEstTotal || metaObj.estimate)) || 0);
+            const pType = (metaObj && (metaObj.projectType || metaObj.typeOfWork || metaObj.projectName || metaObj.projectDescription || '')).toUpperCase();
+
+            // 1. HYDRAULIC CEMENT / CEMENT (e.g. CSJ 6508-16-001)
+            if (pType.includes('HYDRAULIC CEMENT') || pType.includes('CEMENT')) {
+                const targetQty = est > 0 ? Math.max(1, Math.round((est / 110.00) * 100) / 100) : 100.00;
+                return [
+                    { code: "8008 6001", description: "HYDRAULIC CEMENT (MATERIALS ONLY)", unit: "TON", quantity: targetQty, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} }
+                ];
+            }
+
+            // 2. AGGREGATE / FLEXIBLE BASE / LIMESTONE / ROCK / RIPRAP
+            if (pType.includes('AGGREGATE') || pType.includes('FLEXIBLE BASE') || pType.includes('LIMESTONE') || pType.includes('ROCK') || pType.includes('RIPRAP')) {
+                const targetQty = est > 0 ? Math.max(1, Math.round((est / 45.00) * 100) / 100) : 500.00;
+                return [
+                    { code: "8013 6001", description: "FLEXIBLE BASE (MATERIALS ONLY)", unit: "TON", quantity: targetQty, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} }
+                ];
+            }
+
+            // 3. EMULSION / CUTBACK / ASPHALT BINDER
+            if (pType.includes('EMULSION') || pType.includes('CUTBACK') || pType.includes('ASPHALT BINDER')) {
+                const targetQty = est > 0 ? Math.max(1, Math.round((est / 3.50) * 100) / 100) : 10000.00;
+                return [
+                    { code: "8005 6001", description: "EMULSIFIED ASPHALT (MATERIALS ONLY)", unit: "GAL", quantity: targetQty, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} }
+                ];
+            }
+
+            // 4. HOT MIX / DENSE-GRADED / MILL AND INLAY / ASPHALT PAVEMENT / ASPHALTIC PATCHING
+            if (pType.includes('HOT MIX') || pType.includes('HOT-MIX') || pType.includes('MILL AND INLAY') || pType.includes('PATCHING')) {
+                const targetQty = est > 0 ? Math.max(1, Math.round((est / 115.00) * 100) / 100) : 500.00;
+                return [
+                    { code: "8010 6001", description: "DENSE-GRADED HOT-MIX ASPHALT (MATERIALS ONLY)", unit: "TON", quantity: targetQty, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} }
+                ];
+            }
+
+            // 5. WINTER WEATHER / BRINE / DE-ICING / ROAD SALT / SNOW AND ICE
+            if (pType.includes('WINTER') || pType.includes('BRINE') || pType.includes('DE-ICING') || pType.includes('SALT') || pType.includes('SNOW')) {
+                const targetQty = est > 0 ? Math.max(1, Math.round((est / 120.00) * 100) / 100) : 500.00;
+                return [
+                    { code: "8004 6001", description: "DE-ICING & WINTER WEATHER MATERIALS (BULK)", unit: "TON", quantity: targetQty, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} }
+                ];
+            }
+
+            // 6. LITTER REMOVAL / CLEANING / SWEEPING / DEBRIS / DRIFTWOOD
+            if (pType.includes('LITTER') || pType.includes('SWEEPING') || pType.includes('DEBRIS') || pType.includes('DRIFTWOOD')) {
+                const targetQty = est > 0 ? Math.max(1, Math.round((est / 35.00) * 100) / 100) : 500.00;
+                return [
+                    { code: "0734 6001", description: "LITTER REMOVAL", unit: "AC", quantity: targetQty, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} }
+                ];
+            }
+
+            // 7. TREE TRIMMING / TREE REMOVAL / BRUSH REMOVAL / HERBICIDE
+            if (pType.includes('TREE') || pType.includes('BRUSH') || pType.includes('HERBICIDE')) {
+                const targetQty = est > 0 ? Math.max(1, Math.round((est / 450.00) * 100) / 100) : 100.00;
+                return [
+                    { code: "0752 6001", description: "TREE TRIMMING AND BRUSH REMOVAL", unit: "MI", quantity: targetQty, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} }
+                ];
+            }
+
+            // 8. GUARD FENCE / CABLE BARRIER / CRASH CUSHION REPAIR
+            if (pType.includes('GUARD FENCE') || pType.includes('MBGF') || pType.includes('CABLE BARRIER') || pType.includes('CRASH CUSHION')) {
+                const targetQty = est > 0 ? Math.max(1, Math.round((est / 25.00) * 100) / 100) : 1000.00;
+                return [
+                    { code: "0770 6001", description: "REPAIR RAIL / METAL BEAM GUARD FENCE", unit: "LF", quantity: targetQty, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} }
+                ];
+            }
+
+            // 9. CRACK SEAL / CONCRETE SPALL / CONCRETE STRUCTURE
+            if (pType.includes('CRACK SEAL') || pType.includes('SPALL') || pType.includes('CONCRETE STRUCTURE')) {
+                const targetQty = est > 0 ? Math.max(1, Math.round((est / 4.50) * 100) / 100) : 5000.00;
+                return [
+                    { code: "0712 6001", description: "JT / CRACK SEAL (RUBBER - ASPHALT)", unit: "LMI", quantity: targetQty, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} }
+                ];
+            }
+
+            // 10. General Highway/Bridge Construction fallback (only if est > 0 and no specific material category matched)
+            if (est > 0) {
+                const prepVal = est * 0.05;
+                const remVal = est * 0.05;
+                const flexVal = est * 0.40;
+                const hmaVal = est * 0.35;
+
+                return [
+                    { code: "0500 6001", description: "MOBILIZATION", unit: "LS", quantity: 1.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                    { code: "0100 6002", description: "PREPARING ROW", unit: "STA", quantity: Math.max(1, Math.round((prepVal / 456.18) * 100) / 100), engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                    { code: "0104 6001", description: "REMOVING CONC (PAV)", unit: "SY", quantity: Math.max(1, Math.round((remVal / 20.60) * 100) / 100), engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                    { code: "0351 6004", description: "FLEXIBLE PAVEMENT STRUCTURE REPAIR(8\")", unit: "SY", quantity: Math.max(1, Math.round((flexVal / 75.00) * 100) / 100), engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                    { code: "0340 6011", description: "DENSE-GRADED HOT-MIX ASPHALT (SQ)", unit: "TON", quantity: Math.max(1, Math.round((hmaVal / 115.00) * 100) / 100), engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                    { code: "0502 6001", description: "BARRICADES, SIGNS AND TRAFFIC HANDLING", unit: "MO", quantity: 6.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                    { code: "0506 6038", description: "TEMP SEDMT CONT FENCE (INSTALL)", unit: "LF", quantity: 1000.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                    { code: "0506 6039", description: "TEMP SEDMT CONT FENCE (REMOVE)", unit: "LF", quantity: 1000.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                    { code: "0666 6303", description: "REPM TY W/W 4 (SLD)(100MIL)", unit: "LF", quantity: 2500.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                    { code: "0666 6315", description: "REPM TY W/W 4 (YLD)(100MIL)", unit: "LF", quantity: 2500.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                    { code: "6001 6002", description: "PORTABLE CHANGEABLE MESSAGE SIGN", unit: "EA", quantity: 2.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                    { code: "6185 6002", description: "TMA (STATIONARY)", unit: "DAY", quantity: 45.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} }
+                ];
+            }
+
+            return [
+                { code: "0500 6001", description: "MOBILIZATION", unit: "LS", quantity: 1.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
+                { code: "0502 6001", description: "BARRICADES, SIGNS AND TRAFFIC HANDLING", unit: "MO", quantity: 6.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} }
+            ];
+        }
+
+
         // ====================================================================
         // RENDER UNIFIED 6 SUB-TABS PROJECT VIEW
         // ====================================================================
@@ -3722,32 +4519,6 @@
 
             // Active category object
             const activeCatObj = ftpUrls[ftpUrls.primaryCat === 'State-Let-Maintenance' ? 'maintenance' : (ftpUrls.primaryCat === 'Local-Let-Maintenance' ? 'local' : 'construction')];
-
-            // Update top Download Proposal PDF button (initial loading state until verified by loadCsjPdfLinks)
-            const prebidPdfBtn = document.getElementById('prebidPdfBtn');
-            if (prebidPdfBtn) prebidPdfBtn.href = "javascript:void(0)";
-
-            // Update SubTab 2 Proposal PDF Link View (Initial Loading State)
-            const sub2Container = document.getElementById('subTabContent2');
-            if (sub2Container) {
-                sub2Container.innerHTML = `
-                    <div class="bg-slate-900/60 p-6 rounded-xl border border-slate-800 text-slate-400 text-xs font-mono animate-pulse flex items-center space-x-3">
-                        <div class="w-3 h-3 bg-blue-500 rounded-full animate-ping"></div>
-                        <span>Verifying TxDOT FTP Server for direct Proposal PDF...</span>
-                    </div>
-                `;
-            }
-
-            // Update SubTab 3 Construction Plans View (Initial Loading State)
-            const sub3Container = document.getElementById('subTabContent3');
-            if (sub3Container) {
-                sub3Container.innerHTML = `
-                    <div class="bg-slate-900/60 p-6 rounded-xl border border-slate-800 text-slate-400 text-xs font-mono animate-pulse flex items-center space-x-3">
-                        <div class="w-3 h-3 bg-emerald-500 rounded-full animate-ping"></div>
-                        <span>Verifying TxDOT FTP Server for direct Plan Set PDF...</span>
-                    </div>
-                `;
-            }
 
             // Asynchronously fetch exact verified PDF links for this CSJ
             loadCsjPdfLinks(meta.csj, currentMonth);
@@ -3857,139 +4628,6 @@
             if (sub5Date) sub5Date.innerText = meta.letDate;
 
             // ====================================================================
-            // AMESTX 12-MONTH HISTORICAL AVERAGE UNIT PRICE CALCULATOR
-            // ====================================================================
-            function getAmestxCalculatedUnitPrice(item, metaObj, allItems) {
-                if (!item) return 0;
-
-                // Return Amestx's independent 12-month historical average unit price for the item
-                let val = parseFloat(item.amestxUnit || item.avgPrice || 0);
-                if (val <= 0) {
-                    val = parseFloat(item.lowUnit || item.engEstUnit || 0);
-                    // Filter out legacy fake quotient artifacts (209.41, 389.42, 777.82, 2177.90)
-                    if (val === 209.41 || val === 389.42 || val === 777.82 || val === 2177.9 || val === 2177.90) {
-                        val = 0;
-                    }
-                }
-
-                if (val <= 0) {
-                    const codeStr = (item.code || '').toString().trim();
-                    const itemNo = codeStr.split(/[\s\-]+/)[0].replace(/^0+/, '');
-
-                    const historicalAverages = {
-                        // 100 Series - Earthwork & Right of Way
-                        '100': 456.18,   // PREPARING ROW (STA)
-                        '104': 20.60,    // REMOVING CONC (PAV) (SY)
-                        '110': 18.50,    // EXCAVATION (ROADWAY) (CY)
-                        '132': 16.50,    // EMBANKMENT (CY)
-                        '164': 1200.00,  // DRILL SEED / BROADCAST SEED (AC)
-                        '168': 25.00,    // VEGETATIVE WATERING (MG)
-
-                        // 200 Series - Subgrade & Base
-                        '247': 48.50,    // FLEXIBLE BASE (CY/TON)
-                        '260': 185.00,   // LIME (TON)
-                        '275': 165.00,   // CEMENT (TON)
-
-                        // 300 Series - Surface Treatments & Pavement
-                        '316': 135.00,   // ASPHALT / SEAL COAT (TON/GAL)
-                        '340': 118.00,   // DENSE-GRADED HMA (TON)
-                        '341': 122.00,   // DENSE-GRADED HMA TY-B/C/D (TON)
-                        '351': 78.50,    // FLEXIBLE PAVEMENT REPAIR (SY)
-                        '354': 4.50,     // PLANING & MILLING (SY)
-
-                        // 400 Series - Structures & Culverts
-                        '400': 35.00,    // STRUCT EXCAV (CY)
-                        '420': 950.00,   // CONC BENT / ABUTMENT (CY)
-                        '432': 480.00,   // RIPRAP (CONC/STONE) (CY)
-                        '462': 380.00,   // CONC BOX CULV (LF)
-                        '464': 145.00,   // RC PIPE CULV (LF)
-                        '480': 2250.00,  // CLEAN EXIST CULVERTS (EA)
-
-                        // 500 Series - Incidentals & Mobilization
-                        '500': 3500.00,  // MOBILIZATION (CALLOUT/LS) (EA)
-                        '502': 2500.00,  // BARRICADES & TRAFFIC HANDLING (MO)
-                        '503': 185.00,   // PORTABLE CHANGEABLE MESSAGE SIGN (DAY)
-                        '505': 250.00,   // TMA STATIONARY (DAY)
-                        '506': 4.50,     // TEMP SEDMT CONT FENCE (LF)
-                        '540': 28.50,    // METAL BEAM GUARD FENCE (LF)
-                        '544': 2850.00,  // GUARDRAIL END TREAT (EA)
-
-                        // 600 Series - Traffic Control & Markings
-                        '662': 1.85,     // WORK ZONE PAV MARKINGS (LF)
-                        '666': 1.35,     // REPM TY W/W STRIPING (LF)
-                        '672': 4.50,     // RAISED PAV MARKER (EA)
-
-                        // 700 Series - Maintenance & Specialty
-                        '700': 2500.00,  // EMERGENCY MOBILIZATION (EA)
-                        '730': 55.00,    // ROADSIDE MOWING (AC)
-                        '735': 45.00,    // DRIFTWOOD REMOVAL (CY)
-                        '738': 350.00,   // CLEANING / SWEEPING HIGHWAYS (MI)
-                        '752': 450.00,   // TREE TRIMMING & BRUSH (MI/EA)
-                        '760': 0.50,     // DITCH CLEANING AND RESHAPING (LF)
-
-                        // 6000+ Series - Special Specs
-                        '6001': 185.00,  // PORTABLE CHANGEABLE MESSAGE SIGN (DAY)
-                        '6185': 250.00   // TMA STATIONARY (DAY)
-                    };
-
-                    if (historicalAverages[itemNo] !== undefined) {
-                        val = historicalAverages[itemNo];
-                    } else {
-                        const unitUpper = (item.unit || '').toString().toUpperCase().trim();
-                        if (unitUpper === 'LF' || unitUpper === 'LM') {
-                            val = 1.85;
-                        } else if (unitUpper === 'SY' || unitUpper === 'SQFT' || unitUpper === 'SF') {
-                            val = 8.50;
-                        } else if (unitUpper === 'CY' || unitUpper === 'TON') {
-                            val = 45.00;
-                        } else if (unitUpper === 'AC') {
-                            val = 1200.00;
-                        } else if (unitUpper === 'DAY' || unitUpper === 'HR') {
-                            val = 185.00;
-                        } else {
-                            val = 250.00;
-                        }
-                    }
-                }
-
-                return Math.round(val * 100) / 100;
-            }
-
-            function getDefaultItems(metaObj) {
-                const est = parseFloat((metaObj && (metaObj.engEstTotal || metaObj.estimate)) || 0);
-                if (est > 0) {
-                    const prepVal = est * 0.05;
-                    const remVal = est * 0.05;
-                    const flexVal = est * 0.40;
-                    const hmaVal = est * 0.35;
-
-                    return [
-                        { code: "0500 6001", description: "MOBILIZATION", unit: "LS", quantity: 1.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
-                        { code: "0100 6002", description: "PREPARING ROW", unit: "STA", quantity: Math.max(1, Math.round((prepVal / 456.18) * 100) / 100), engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
-                        { code: "0104 6001", description: "REMOVING CONC (PAV)", unit: "SY", quantity: Math.max(1, Math.round((remVal / 20.60) * 100) / 100), engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
-                        { code: "0351 6004", description: "FLEXIBLE PAVEMENT STRUCTURE REPAIR(8\")", unit: "SY", quantity: Math.max(1, Math.round((flexVal / 75.00) * 100) / 100), engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
-                        { code: "0340 6011", description: "DENSE-GRADED HOT-MIX ASPHALT (SQ)", unit: "TON", quantity: Math.max(1, Math.round((hmaVal / 115.00) * 100) / 100), engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
-                        { code: "0502 6001", description: "BARRICADES, SIGNS AND TRAFFIC HANDLING", unit: "MO", quantity: 6.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
-                        { code: "0506 6038", description: "TEMP SEDMT CONT FENCE (INSTALL)", unit: "LF", quantity: 1000.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
-                        { code: "0506 6039", description: "TEMP SEDMT CONT FENCE (REMOVE)", unit: "LF", quantity: 1000.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
-                        { code: "0666 6303", description: "REPM TY W/W 4 (SLD)(100MIL)", unit: "LF", quantity: 2500.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
-                        { code: "0666 6315", description: "REPM TY W/W 4 (YLD)(100MIL)", unit: "LF", quantity: 2500.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
-                        { code: "6001 6002", description: "PORTABLE CHANGEABLE MESSAGE SIGN", unit: "EA", quantity: 2.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
-                        { code: "6185 6002", description: "TMA (STATIONARY)", unit: "DAY", quantity: 45.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} }
-                    ];
-                }
-                return [
-                    { code: "0500 6001", description: "MOBILIZATION", unit: "LS", quantity: 1.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
-                    { code: "0502 6001", description: "BARRICADES, SIGNS AND TRAFFIC HANDLING", unit: "MO", quantity: 6.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
-                    { code: "0506 6038", description: "TEMP SEDMT CONT FENCE (INSTALL)", unit: "LF", quantity: 500.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
-                    { code: "0506 6039", description: "TEMP SEDMT CONT FENCE (REMOVE)", unit: "LF", quantity: 500.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
-                    { code: "0666 6303", description: "REPM TY W/W 4 (SLD)(100MIL)", unit: "LF", quantity: 1200.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
-                    { code: "0666 6315", description: "REPM TY W/W 4 (YLD)(100MIL)", unit: "LF", quantity: 1200.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
-                    { code: "6001 6002", description: "PORTABLE CHANGEABLE MESSAGE SIGN", unit: "EA", quantity: 2.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} },
-                    { code: "6185 6002", description: "TMA (STATIONARY)", unit: "DAY", quantity: 45.00, engEstUnit: 0.00, lowUnit: 0.00, bidders: {} }
-                ];
-            }
-
             if (!data.items || data.items.length === 0) {
                 data.items = getDefaultItems(meta);
             }
@@ -4217,7 +4855,7 @@
         }
 
         async function renderSubTab4Bidders(data) {
-            const container = document.getElementById('subTabContent4');
+            const container = document.getElementById('subTabContent2') || document.getElementById('subTabContent4');
             if (!container) return;
 
             const csj = (data && data.metadata && data.metadata.csj) ? data.metadata.csj : currentCSJ;
@@ -4368,7 +5006,7 @@
         }
 
         function switchSubTab(tabNum) {
-            for (let i = 1; i <= 6; i++) {
+            for (let i = 1; i <= 4; i++) {
                 const content = document.getElementById(`subTabContent${i}`);
                 const btn = document.getElementById(`btnSubTab${i}`);
                 if (content && btn) {
@@ -4405,7 +5043,8 @@
                         const cells = row.children;
                         if (cells.length >= 6) {
                             const diffStr = cells[0]?.innerText?.replace(/[\$,]/g, '').trim() || '0';
-                            const itemNo = cells[1]?.innerText?.trim() || '';
+                            const rawItemNo = cells[1]?.innerText?.trim() || '';
+                            const itemNo = rawItemNo.split(/\s+/)[0] || '';
                             const specCode = cells[2]?.innerText?.trim() || '';
                             const desc = cells[3]?.innerText?.trim() || '';
                             const unit = cells[4]?.innerText?.trim() || '';
@@ -4433,7 +5072,7 @@
                     const wb = XLSX.utils.book_new();
                     const ws = createStyledBidTabWorksheet(meta, items, bidders);
                     const sheetName = `Bid Tab CSJ ${csj}`.replace(/[:\\\/\?\*\[\]]/g, '-').slice(0, 31);
-                    XLSX.utils.book_append(wb, ws, sheetName);
+                    (XLSX.utils.book_append || XLSX.utils.book_append_sheet)(wb, ws, sheetName);
                     XLSX.writeFile(wb, `CSJ_${csj}_Bid_Tabulation.xlsx`);
                     return;
                 } catch (e) {
@@ -4464,7 +5103,7 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
 .green-low { color: #00b050; font-weight: bold; text-align: right; }
 .purple-eng { color: #7030a0; text-align: right; }
 .blue-qty { color: #0066cc; text-align: right; }
-</style></head><body>
+<\/style><\/head><body>
 <table border="1" bordercolor="#D3D3D3" style="border-collapse: collapse; font-family: Arial, sans-serif; font-size: 9pt;">
 <tr><td colspan="${maxCols}" class="title" style="border:none;">${letDate} | ${county} | ${hwy} | $${engEstTotal.toLocaleString(undefined, {minimumFractionDigits:2})} | ${projectType}</td></tr>`;
 
@@ -4976,10 +5615,26 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                 { s: { r: 0, c: 0 }, e: { r: 0, c: maxCols - 1 } }
             ];
             ws['!ref'] = XLSX.utils.encode_range({ s: { r: 0, c: 0 }, e: { r: totalR + 2, c: maxCols - 1 } });
+            const colsWidths = [
+                { wch: 24 },
+                { wch: 20 },
+                { wch: 12 },
+                { wch: 55 },
+                { wch: 10 },
+                { wch: 22 },
+                { wch: 16 },
+                { wch: 22 }
+            ];
+            for (let bIdx = 0; bIdx < bidders.length; bIdx++) {
+                colsWidths.push({ wch: 16 });
+                colsWidths.push({ wch: 22 });
+            }
+            ws['!cols'] = colsWidths;
 
             return ws;
         }
 
+        
         function createStyledProjectWorksheet(meta, items, isZeroPrice = false) {
             const ws = {};
 
@@ -4989,7 +5644,25 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
             const letDate = meta.letDate || 'N/A';
             const projectType = meta.projectType || meta.projectName || 'Highway Construction';
             const engEstTotal = parseFloat(meta.engEstTotal) || parseFloat(meta.estimate) || 0;
-            const guarantyCheck = (meta && meta.guaranty && meta.guaranty !== 'N/A') ? meta.guaranty : `$${(engEstTotal * 0.02).toLocaleString(undefined, {minimumFractionDigits:2})}`;
+            
+            // Robust Guaranty Check calculation (uses meta.guaranty if present; otherwise computes TxDOT rounded 2% with min $1,000)
+            const rawG = meta && (meta.guaranty || meta.guarantee || meta.guarantyCheck || meta.proposal_guarantee_amount);
+            let guarantyCheck = "N/A";
+            if (rawG && rawG !== "N/A") {
+                if (typeof rawG === 'number') {
+                    guarantyCheck = `$${rawG.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+                } else if (typeof rawG === 'string' && rawG.trim().length > 0) {
+                    guarantyCheck = rawG.trim().startsWith('$') ? rawG.trim() : `$${parseFloat(rawG.replace(/[\$,]/g, '')).toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+                }
+            }
+            if (guarantyCheck === "N/A" || guarantyCheck === "$NaN.00") {
+                if (engEstTotal > 0) {
+                    const calcG = Math.max(1000, Math.round((engEstTotal * 0.02) / 1000) * 1000);
+                    guarantyCheck = `$${calcG.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+                } else {
+                    guarantyCheck = "$1,000.00";
+                }
+            }
 
             const thinBorder = {
                 top: { style: "thin", color: { rgb: "FFD3D3D3" } },
@@ -5038,19 +5711,19 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
             // Metadata fields (Rows 1..18)
             const metaFields = [
                 ["COUNTY:", county, false],
-                ["DISTRICT:", "TxDOT District", false],
+                ["DISTRICT:", meta.district || "TxDOT District", false],
                 ["CSJ:", csj, true],
                 ["PROJECT ID:", meta.projectId || 'N/A', false],
-                ["PROJECT NO (Federal):", "N/A", false],
+                ["PROJECT NO (Federal):", meta.projectCode || meta.project || "N/A", false],
                 ["PROJECT NO (State):", "N/A", false],
-                ["CONTRACT NUMBER:", "N/A", false],
+                ["CONTRACT NUMBER:", meta.contractNum || meta.contractNumber || "N/A", false],
                 ["HWY:", hwy, false],
-                ["TIME:", `${meta.workingDays || 'N/A'} Working Days`, false],
+                ["TIME:", `${meta.workingDays || meta.time || 'N/A'}`, false],
                 ["TYPE:", projectType, true],
-                ["LENGTH:", "0", false],
+                ["LENGTH:", meta.length || "0", false],
                 ["ESTIMATE:", `$${engEstTotal.toLocaleString(undefined, {minimumFractionDigits:2})}`, true],
-                ["GUARANTY CHECK:", typeof guarantyCheck === 'string' && guarantyCheck.startsWith('$') ? guarantyCheck : `$${parseFloat(guarantyCheck).toLocaleString(undefined, {minimumFractionDigits:2})}`, false],
-                ["DBE GOAL:", "0.00%", false],
+                ["GUARANTY CHECK:", guarantyCheck, false],
+                ["DBE GOAL:", meta.dbeGoal || "0.00%", false],
                 ["BIDS RECEIVED UNTIL:", letDate, false],
                 ["BIDS WILL BE OPENED:", letDate, true],
                 ["APPROVED LET DATE:", letDate, false],
@@ -5102,57 +5775,44 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
 
             // Rows 21+: Pay Items
             items.forEach((it, idx) => {
-                const r = 21 + idx; // 0-indexed row index
-                const excelRowNum = r + 1; // 22, 23, 24...
+                const r = 21 + idx;
+                const excelRowNum = r + 1;
                 const parts = (it.code || "").split(" ");
                 const itemNo = parts[0] || "";
                 const specCode = parts[1] || "";
                 const desc = it.description || "";
                 const qty = it.quantity || 0;
 
-                // ALT (Col 0)
                 setCell(r, 0, '\u00A0', 's', { border: thinBorder });
-                // ITEM NO. (Col 1)
                 setCell(r, 1, itemNo, 's', {
                     font: { name: 'Arial', sz: 9 },
                     alignment: { horizontal: 'center' },
                     border: thinBorder,
                     numFmt: '@'
                 });
-                // SPEC CO. (Col 2)
                 setCell(r, 2, specCode, 's', {
                     font: { name: 'Arial', sz: 9 },
                     alignment: { horizontal: 'center' },
                     border: thinBorder,
                     numFmt: '@'
                 });
-                // ITEM DESCRIPTION (Col 3)
                 setCell(r, 3, desc, 's', {
                     font: { name: 'Arial', sz: 9 },
                     alignment: { horizontal: 'left' },
                     border: thinBorder
                 });
-                // UNIT (Col 4)
                 setCell(r, 4, it.unit || '\u00A0', 's', {
                     font: { name: 'Arial', sz: 9 },
                     alignment: { horizontal: 'center' },
                     border: thinBorder
                 });
-                // APPROXIMATE QUANTITIES (Col 5)
                 setCell(r, 5, qty, 'n', {
                     font: { name: 'Arial', sz: 9 },
                     alignment: { horizontal: 'right' },
                     border: thinBorder,
                     numFmt: '#,##0.00'
                 });
-                // UNIT PRICE (Col 6)
-                const isItem800Sheet = (code) => {
-                    const c = (code || '').toString().trim();
-                    if (c === '800' || c === '0800') return true;
-                    if (c.startsWith('800-') || c.startsWith('0800-') || c.startsWith('800 ') || c.startsWith('0800 ')) return true;
-                    const p = c.split(/[\s\-]+/);
-                    return (p.length > 0 && p[0].replace(/^0+/, '') === '800');
-                };
+
                 const uPrice = isZeroPrice ? 0 : getAmestxCalculatedUnitPrice(it, meta, items);
                 setCell(r, 6, uPrice, 'n', {
                     font: { name: 'Arial', sz: 9 },
@@ -5160,7 +5820,6 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                     border: thinBorder,
                     numFmt: '$#,##0.00'
                 });
-                // EXTENDED PRICE (Col 7 - Formula)
                 setCell(r, 7, { formula: `F${excelRowNum}*G${excelRowNum}`, value: qty * uPrice }, 'f', {
                     font: { name: 'Arial', sz: 9 },
                     alignment: { horizontal: 'right' },
@@ -5169,7 +5828,7 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                 });
             });
 
-            // Add Total Row at bottom (leaving 1 blank row above it)
+            // Add Total Row at bottom
             const lastItemExcelRow = 21 + items.length;
             const totalR = 21 + items.length + 1;
 
@@ -5199,11 +5858,10 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
             let totalRows = totalR + 2;
 
             if (!isZeroPrice) {
-                // Mandatory Legal Disclaimer only for Amestx Estimate (Tab 6)
-                const discTitleR = totalR + 1; // Row 30 (0-indexed: totalR + 1)
+                // Mandatory Legal Disclaimer for Amestx Estimate (Tab 6)
+                const discTitleR = totalR + 1;
                 const merges = ws['!merges'] || [{ s: { r: 0, c: 0 }, e: { r: 0, c: 7 } }];
 
-                // 1. DISCLAIMER Title
                 for (let c = 0; c < 8; c++) {
                     setCell(discTitleR, c, c === 0 ? 'DISCLAIMER' : '\u00A0', 's', {
                         font: { name: 'Arial', sz: 9.5, bold: true, underline: true, color: { rgb: 'FF0000' } },
@@ -5212,7 +5870,6 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                 }
                 merges.push({ s: { r: discTitleR, c: 0 }, e: { r: discTitleR, c: 7 } });
 
-                // 2. 5 Disclaimer Text Lines
                 const discLines = [
                     "This estimate has been generated by Amestx using historical average bid prices and publicly available data.",
                     "It is provided solely as a preliminary reference to assist bidders in understanding potential cost ranges.",
@@ -5241,6 +5898,16 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
             }
 
             ws['!ref'] = XLSX.utils.encode_range({ s: { r: 0, c: 0 }, e: { r: totalRows - 1, c: 7 } });
+            ws['!cols'] = [
+                { wch: 24 },
+                { wch: 20 },
+                { wch: 12 },
+                { wch: 55 },
+                { wch: 10 },
+                { wch: 25 },
+                { wch: 16 },
+                { wch: 25 }
+            ];
 
             return ws;
         }
@@ -5261,7 +5928,8 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                     Array.from(tbody.children).forEach(row => {
                         const cells = row.children;
                         if (cells.length >= 6) {
-                            const itemNo = cells[1]?.innerText?.trim() || '';
+                            const rawItemNo = cells[1]?.innerText?.trim() || '';
+                            const itemNo = rawItemNo.split(/\s+/)[0] || '';
                             const specCode = cells[2]?.innerText?.trim() || '';
                             const desc = cells[3]?.innerText?.trim() || '';
                             const unit = cells[4]?.innerText?.trim() || '';
@@ -5283,9 +5951,9 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
             if (typeof XLSX !== 'undefined') {
                 try {
                     const wb = XLSX.utils.book_new();
-                    const ws = createStyledProjectWorksheet(meta, items, true); // true = zero unit price ($0.00) for Tab 1 Project Tasks
+                    const ws = createStyledProjectWorksheet(meta, items, true);
                     const sheetName = `CSJ ${csj}`.replace(/[:\\\/\?\*\[\]]/g, '-').slice(0, 31);
-                    XLSX.utils.book_append(wb, ws, sheetName);
+                    (XLSX.utils.book_append || XLSX.utils.book_append_sheet)(wb, ws, sheetName);
                     XLSX.writeFile(wb, `CSJ_${csj}_Task_Items.xlsx`);
                     return;
                 } catch (e) {
@@ -5293,12 +5961,30 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                 }
             }
 
+            // HTML Excel Fallback
             const county = meta.county || 'N/A';
             const hwy = meta.highway || 'N/A';
             const letDate = meta.letDate || 'N/A';
             const projectType = meta.projectType || meta.projectName || 'Highway Construction';
             const engEstTotal = parseFloat(meta.engEstTotal) || parseFloat(meta.estimate) || 0;
-            const guarantyCheck = (meta && meta.guaranty && meta.guaranty !== 'N/A') ? meta.guaranty : `$${(engEstTotal * 0.02).toLocaleString(undefined, {minimumFractionDigits:2})}`;
+            
+            const rawG = meta && (meta.guaranty || meta.guarantee || meta.guarantyCheck || meta.proposal_guarantee_amount);
+            let guarantyCheck = "N/A";
+            if (rawG && rawG !== "N/A") {
+                if (typeof rawG === 'number') {
+                    guarantyCheck = `$${rawG.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+                } else if (typeof rawG === 'string' && rawG.trim().length > 0) {
+                    guarantyCheck = rawG.trim().startsWith('$') ? rawG.trim() : `$${parseFloat(rawG.replace(/[\$,]/g, '')).toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+                }
+            }
+            if (guarantyCheck === "N/A" || guarantyCheck === "$NaN.00") {
+                if (engEstTotal > 0) {
+                    const calcG = Math.max(1000, Math.round((engEstTotal * 0.02) / 1000) * 1000);
+                    guarantyCheck = `$${calcG.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+                } else {
+                    guarantyCheck = "$1,000.00";
+                }
+            }
 
             let html = `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
 <head><meta charset="utf-8"><style>
@@ -5308,23 +5994,23 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
 .meta-label { font-weight: bold; color: #333333; background-color: #f8fafc; border: 1px solid #d3d3d3; }
 .yellow-hl { background-color: #ffff00; font-weight: bold; border: 1px solid #d3d3d3; }
 .header-row th { background-color: #000000; color: #ffffff; font-weight: bold; text-align: center; border: 1px solid #000000; }
-</style></head><body>
+<\/style><\/head><body>
 <table border="1" bordercolor="#D3D3D3" style="border-collapse: collapse; font-family: Arial, sans-serif; font-size: 9pt;">
 <tr><td colspan="8" class="title" style="border:none;">${letDate} | ${county} | ${hwy} | $${engEstTotal.toLocaleString(undefined, {minimumFractionDigits:2})} | ${projectType}</td></tr>
 <tr><td class="meta-label">COUNTY:</td><td style="border:1px solid #d3d3d3;">${county}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
-<tr><td class="meta-label">DISTRICT:</td><td style="border:1px solid #d3d3d3;">TxDOT District</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">DISTRICT:</td><td style="border:1px solid #d3d3d3;">${meta.district || "TxDOT District"}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
 <tr><td class="meta-label">CSJ:</td><td class="yellow-hl">${csj}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
 <tr><td class="meta-label">PROJECT ID:</td><td style="border:1px solid #d3d3d3;">${meta.projectId || 'N/A'}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
-<tr><td class="meta-label">PROJECT NO (Federal):</td><td style="border:1px solid #d3d3d3;">N/A</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">PROJECT NO (Federal):</td><td style="border:1px solid #d3d3d3;">${meta.projectCode || meta.project || "N/A"}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
 <tr><td class="meta-label">PROJECT NO (State):</td><td style="border:1px solid #d3d3d3;">N/A</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
-<tr><td class="meta-label">CONTRACT NUMBER:</td><td style="border:1px solid #d3d3d3;">N/A</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">CONTRACT NUMBER:</td><td style="border:1px solid #d3d3d3;">${meta.contractNum || meta.contractNumber || "N/A"}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
 <tr><td class="meta-label">HWY:</td><td style="border:1px solid #d3d3d3;">${hwy}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
-<tr><td class="meta-label">TIME:</td><td style="border:1px solid #d3d3d3;">${meta.workingDays || 'N/A'} Working Days</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">TIME:</td><td style="border:1px solid #d3d3d3;">${meta.workingDays || meta.time || 'N/A'}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
 <tr><td class="meta-label">TYPE:</td><td class="yellow-hl">${projectType}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
-<tr><td class="meta-label">LENGTH:</td><td style="border:1px solid #d3d3d3;">0</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">LENGTH:</td><td style="border:1px solid #d3d3d3;">${meta.length || "0"}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
 <tr><td class="meta-label">ESTIMATE:</td><td class="yellow-hl">$${engEstTotal.toLocaleString(undefined, {minimumFractionDigits:2})}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
-<tr><td class="meta-label">GUARANTY CHECK:</td><td style="border:1px solid #d3d3d3;">${typeof guarantyCheck === 'string' && guarantyCheck.startsWith('$') ? guarantyCheck : `$${parseFloat(guarantyCheck).toLocaleString(undefined, {minimumFractionDigits:2})}`}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
-<tr><td class="meta-label">DBE GOAL:</td><td style="border:1px solid #d3d3d3;">0.00%</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">GUARANTY CHECK:</td><td style="border:1px solid #d3d3d3;">${guarantyCheck}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">DBE GOAL:</td><td style="border:1px solid #d3d3d3;">${meta.dbeGoal || "0.00%"}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
 <tr><td class="meta-label">BIDS RECEIVED UNTIL:</td><td style="border:1px solid #d3d3d3;">${letDate}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
 <tr><td class="meta-label">BIDS WILL BE OPENED:</td><td class="yellow-hl">${letDate}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
 <tr><td class="meta-label">APPROVED LET DATE:</td><td style="border:1px solid #d3d3d3;">${letDate}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
@@ -5341,120 +6027,125 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
     <th style="border:1px solid #000000;">EXTENDED PRICE</th>
 </tr>`;
 
-            let rIdx = 22;
-            items.forEach(it => {
-                const parts = (it.code || "").split(" ");
-                const itemNo = parts[0] || "";
-                const specCode = parts[1] || "";
-                const desc = it.description || "";
-                const qty = it.quantity || 0;
+    let rIdx = 22;
+    items.forEach(it => {
+        const parts = (it.code || "").split(" ");
+        const itemNo = parts[0] || "";
+        const specCode = parts[1] || "";
+        const desc = it.description || "";
+        const qty = it.quantity || 0;
 
-                html += `<tr>
-                    <td style="text-align:center; border:1px solid #d3d3d3;">&nbsp;</td>
-                    <td style="text-align:center; border:1px solid #d3d3d3; mso-number-format:'\\@';">${itemNo}</td>
-                    <td style="text-align:center; border:1px solid #d3d3d3; mso-number-format:'\\@';">${specCode}</td>
-                    <td style="text-align:left; border:1px solid #d3d3d3;">${desc}</td>
-                    <td style="text-align:center; border:1px solid #d3d3d3;">${it.unit || '&nbsp;'}</td>
-                    <td style="text-align:right; border:1px solid #d3d3d3; mso-number-format:'\#\,\#\#0\.00';">${qty}</td>
-                    <td style="text-align:right; border:1px solid #d3d3d3; mso-number-format:'\$\#\,\#\#0\.00';">$0.00</td>
-                    <td style="text-align:right; border:1px solid #d3d3d3; mso-number-format:'\$\#\,\#\#0\.00';" x:fmla="=F${rIdx}*G${rIdx}">$0.00</td>
-                </tr>`;
-                rIdx++;
-            });
+        html += `<tr>
+            <td style="text-align:center; border:1px solid #d3d3d3;">&nbsp;</td>
+            <td style="text-align:center; border:1px solid #d3d3d3; mso-number-format:'\\@';">${itemNo}</td>
+            <td style="text-align:center; border:1px solid #d3d3d3; mso-number-format:'\\@';">${specCode}</td>
+            <td style="text-align:left; border:1px solid #d3d3d3;">${desc}</td>
+            <td style="text-align:center; border:1px solid #d3d3d3;">${it.unit || '&nbsp;'}</td>
+            <td style="text-align:right; border:1px solid #d3d3d3; mso-number-format:'\#\,\#\#0\.00';">${qty}</td>
+            <td style="text-align:right; border:1px solid #d3d3d3; mso-number-format:'\$\#\,\#\#0\.00';">$0.00</td>
+            <td style="text-align:right; border:1px solid #d3d3d3; mso-number-format:'\$\#\,\#\#0\.00';" x:fmla="=F${rIdx}*G${rIdx}">$0.00</td>
+        </tr>`;
+        rIdx++;
+    });
 
-            const lastItemRow = rIdx - 1;
-            html += `<tr><td colspan="8" style="border:none;">&nbsp;</td></tr>`;
-            html += `<tr>
-                <td colspan="6" style="border:none;">&nbsp;</td>
-                <td style="text-align:right; font-weight:bold; font-family:Arial, sans-serif; font-size:9pt; border:none;">TOTAL</td>
-                <td class="yellow-hl" style="text-align:right; border:1px solid #d3d3d3; background-color:#ffff00; font-weight:bold; mso-number-format:'\$\#\,\#\#0\.00';" x:fmla="=SUM(H22:H${lastItemRow})">$0.00</td>
-            </tr>`;
-            html += `</table><\/body><\/html>`;
+    const lastItemRow = rIdx - 1;
+    html += `<tr><td colspan="8" style="border:none;">&nbsp;</td></tr>`;
+    html += `<tr>
+        <td colspan="6" style="border:none;">&nbsp;</td>
+        <td style="text-align:right; font-weight:bold; font-family:Arial, sans-serif; font-size:9pt; border:none;">TOTAL</td>
+        <td class="yellow-hl" style="text-align:right; border:1px solid #d3d3d3; background-color:#ffff00; font-weight:bold; mso-number-format:'\$\#\,\#\#0\.00';" x:fmla="=SUM(H22:H${lastItemRow})">$0.00</td>
+    </tr>`;
+    html += `</table><\/body><\/html>`;
 
-            const blob = new Blob(["\ufeff" + html], { type: 'application/vnd.ms-excel;charset=utf-8;' });
-            const a = document.createElement('a');
-            a.href = URL.createObjectURL(blob);
-            a.download = `CSJ_${csj}_Task_Items.xls`;
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-        }
+    const blob = new Blob(["\ufeff" + html], { type: 'application/vnd.ms-excel;charset=utf-8;' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `CSJ_${csj}_Task_Items.xls`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+}
 
-        function downloadEstimateExcelCurrent() {
-            if (!currentCSJ) {
-                alert("Please select a project CSJ first.");
-                return;
-            }
+function downloadEstimateExcelCurrent() {
+    if (!currentCSJ) {
+        alert("Please select a project CSJ first.");
+        return;
+    }
 
-            const meta = (currentProjectData && currentProjectData.metadata) ? currentProjectData.metadata : {};
-            let items = (currentProjectData && currentProjectData.items && currentProjectData.items.length > 0) ? currentProjectData.items : [];
+    const meta = (currentProjectData && currentProjectData.metadata) ? currentProjectData.metadata : {};
+    let items = (currentProjectData && currentProjectData.items && currentProjectData.items.length > 0) ? currentProjectData.items : [];
 
-            // Fallback 1: Extract from DOM table #prebidTbody if items array is empty
-            if (items.length === 0) {
-                const tbody = document.getElementById('prebidTbody');
-                if (tbody && tbody.children.length > 0) {
-                    items = [];
-                    Array.from(tbody.children).forEach(row => {
-                        const cells = row.children;
-                        if (cells.length >= 7) {
-                            const itemNo = cells[1]?.innerText?.trim() || '';
-                            const specCode = cells[2]?.innerText?.trim() || '';
-                            const desc = cells[3]?.innerText?.trim() || '';
-                            const unit = cells[4]?.innerText?.trim() || '';
-                            const qtyStr = cells[5]?.innerText?.trim() || '0';
-                            const qty = parseFloat(qtyStr.replace(/,/g, '')) || 0;
-                            const priceStr = cells[6]?.innerText?.replace(/[\$,]/g, '').trim() || '0';
-                            const uPrice = parseFloat(priceStr) || 0;
-                            items.push({
-                                code: `${itemNo} ${specCode}`.trim(),
-                                description: desc,
-                                unit: unit,
-                                quantity: qty,
-                                lowUnit: uPrice,
-                                avgPrice: uPrice
-                            });
-                        }
+    // Fallback: Extract from DOM table #sub6Tbody or #prebidTbody if items array is empty
+    if (items.length === 0) {
+        const tbody = document.getElementById('sub6Tbody') || document.getElementById('prebidTbody');
+        if (tbody && tbody.children.length > 0) {
+            items = [];
+            Array.from(tbody.children).forEach(row => {
+                const cells = row.children;
+                if (cells.length >= 7) {
+                    const rawItemNo = cells[1]?.innerText?.trim() || '';
+                    const itemNo = rawItemNo.split(/\s+/)[0] || '';
+                    const specCode = cells[2]?.innerText?.trim() || '';
+                    const desc = cells[3]?.innerText?.trim() || '';
+                    const unit = cells[4]?.innerText?.trim() || '';
+                    const qtyStr = cells[5]?.innerText?.trim() || '0';
+                    const qty = parseFloat(qtyStr.replace(/,/g, '')) || 0;
+                    const priceStr = cells[6]?.innerText?.replace(/[\$,]/g, '').trim() || '0';
+                    const uPrice = parseFloat(priceStr) || 0;
+                    items.push({
+                        code: `${itemNo} ${specCode}`.trim(),
+                        description: desc,
+                        unit: unit,
+                        quantity: qty,
+                        lowUnit: uPrice,
+                        avgPrice: uPrice
                     });
                 }
-            }
+            });
+        }
+    }
 
-            // Fallback 2: Default items if still empty
-            if (items.length === 0) {
-                items = [
-                    { code: "0500 6001", description: "MOBILIZATION", unit: "LS", quantity: 1.00 },
-                    { code: "0502 6001", description: "BARRICADES, SIGNS AND TRAFFIC HANDLING", unit: "MO", quantity: 6.00 },
-                    { code: "0506 6038", description: "TEMP SEDMT CONT FENCE (INSTALL)", unit: "LF", quantity: 500.00 },
-                    { code: "0506 6039", description: "TEMP SEDMT CONT FENCE (REMOVE)", unit: "LF", quantity: 500.00 },
-                    { code: "0666 6303", description: "REPM TY W/W 4 (SLD)(100MIL)", unit: "LF", quantity: 1200.00 },
-                    { code: "0666 6315", description: "REPM TY W/W 4 (YLD)(100MIL)", unit: "LF", quantity: 1200.00 },
-                    { code: "6001 6002", description: "PORTABLE CHANGEABLE MESSAGE SIGN", unit: "EA", quantity: 2.00 },
-                    { code: "6185 6002", description: "TMA (STATIONARY)", unit: "DAY", quantity: 45.00 }
-                ];
-            }
+    const csj = meta.csj || currentCSJ;
 
-            const csj = meta.csj || currentCSJ;
+    if (typeof XLSX !== 'undefined') {
+        try {
+            const wb = XLSX.utils.book_new();
+            const ws = createStyledProjectWorksheet(meta, items, false);
+            const sheetName = `CSJ ${csj}`.replace(/[:\\\/\?\*\[\]]/g, '-').slice(0, 31);
+            (XLSX.utils.book_append || XLSX.utils.book_append_sheet)(wb, ws, sheetName);
+            XLSX.writeFile(wb, `CSJ_${csj}_Task_Items_Estimate.xlsx`);
+            return;
+        } catch (e) {
+            console.error("XLSX export error, falling back:", e);
+        }
+    }
 
-            if (typeof XLSX !== 'undefined') {
-                try {
-                    const wb = XLSX.utils.book_new();
-                    const ws = createStyledProjectWorksheet(meta, items, false); // false = Amestx estimate prices for Tab 6
-                    const sheetName = `CSJ ${csj}`.replace(/[:\\\/\?\*\[\]]/g, '-').slice(0, 31);
-                    XLSX.utils.book_append(wb, ws, sheetName);
-                    XLSX.writeFile(wb, `CSJ_${csj}_Task_Items_Estimate.xlsx`);
-                    return;
-                } catch (e) {
-                    console.error("XLSX export error, falling back:", e);
-                }
-            }
+    // HTML Excel Fallback
+    const county = meta.county || 'N/A';
+    const hwy = meta.highway || 'N/A';
+    const letDate = meta.letDate || 'N/A';
+    const projectType = meta.projectType || meta.projectName || 'Highway Construction';
+    const engEstTotal = parseFloat(meta.engEstTotal) || parseFloat(meta.estimate) || 0;
+    
+    const rawG = meta && (meta.guaranty || meta.guarantee || meta.guarantyCheck || meta.proposal_guarantee_amount);
+    let guarantyCheck = "N/A";
+    if (rawG && rawG !== "N/A") {
+        if (typeof rawG === 'number') {
+            guarantyCheck = `$${rawG.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+        } else if (typeof rawG === 'string' && rawG.trim().length > 0) {
+            guarantyCheck = rawG.trim().startsWith('$') ? rawG.trim() : `$${parseFloat(rawG.replace(/[\$,]/g, '')).toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+        }
+    }
+    if (guarantyCheck === "N/A" || guarantyCheck === "$NaN.00") {
+        if (engEstTotal > 0) {
+            const calcG = Math.max(1000, Math.round((engEstTotal * 0.02) / 1000) * 1000);
+            guarantyCheck = `$${calcG.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+        } else {
+            guarantyCheck = "$1,000.00";
+        }
+    }
 
-            const county = meta.county || 'N/A';
-            const hwy = meta.highway || 'N/A';
-            const letDate = meta.letDate || 'N/A';
-            const projectType = meta.projectType || meta.projectName || 'Highway Construction';
-            const engEstTotal = parseFloat(meta.engEstTotal) || parseFloat(meta.estimate) || 0;
-            const guarantyCheck = (meta && meta.guaranty && meta.guaranty !== 'N/A') ? meta.guaranty : `$${(engEstTotal * 0.02).toLocaleString(undefined, {minimumFractionDigits:2})}`;
-
-            let html = `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+    let html = `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
 <head><meta charset="utf-8"><style>
 table { border-collapse: collapse; font-family: Arial, sans-serif; font-size: 9pt; }
 td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
@@ -5462,23 +6153,23 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
 .meta-label { font-weight: bold; color: #333333; background-color: #f8fafc; border: 1px solid #d3d3d3; }
 .yellow-hl { background-color: #ffff00; font-weight: bold; border: 1px solid #d3d3d3; }
 .header-row th { background-color: #000000; color: #ffffff; font-weight: bold; text-align: center; border: 1px solid #000000; }
-</style></head><body>
+<\/style><\/head><body>
 <table border="1" bordercolor="#D3D3D3" style="border-collapse: collapse; font-family: Arial, sans-serif; font-size: 9pt;">
 <tr><td colspan="8" class="title" style="border:none;">${letDate} | ${county} | ${hwy} | $${engEstTotal.toLocaleString(undefined, {minimumFractionDigits:2})} | ${projectType}</td></tr>
 <tr><td class="meta-label">COUNTY:</td><td style="border:1px solid #d3d3d3;">${county}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
-<tr><td class="meta-label">DISTRICT:</td><td style="border:1px solid #d3d3d3;">TxDOT District</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">DISTRICT:</td><td style="border:1px solid #d3d3d3;">${meta.district || "TxDOT District"}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
 <tr><td class="meta-label">CSJ:</td><td class="yellow-hl">${csj}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
 <tr><td class="meta-label">PROJECT ID:</td><td style="border:1px solid #d3d3d3;">${meta.projectId || 'N/A'}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
-<tr><td class="meta-label">PROJECT NO (Federal):</td><td style="border:1px solid #d3d3d3;">N/A</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">PROJECT NO (Federal):</td><td style="border:1px solid #d3d3d3;">${meta.projectCode || meta.project || "N/A"}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
 <tr><td class="meta-label">PROJECT NO (State):</td><td style="border:1px solid #d3d3d3;">N/A</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
-<tr><td class="meta-label">CONTRACT NUMBER:</td><td style="border:1px solid #d3d3d3;">N/A</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">CONTRACT NUMBER:</td><td style="border:1px solid #d3d3d3;">${meta.contractNum || meta.contractNumber || "N/A"}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
 <tr><td class="meta-label">HWY:</td><td style="border:1px solid #d3d3d3;">${hwy}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
-<tr><td class="meta-label">TIME:</td><td style="border:1px solid #d3d3d3;">${meta.workingDays || 'N/A'} Working Days</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">TIME:</td><td style="border:1px solid #d3d3d3;">${meta.workingDays || meta.time || 'N/A'}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
 <tr><td class="meta-label">TYPE:</td><td class="yellow-hl">${projectType}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
-<tr><td class="meta-label">LENGTH:</td><td style="border:1px solid #d3d3d3;">0</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">LENGTH:</td><td style="border:1px solid #d3d3d3;">${meta.length || "0"}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
 <tr><td class="meta-label">ESTIMATE:</td><td class="yellow-hl">$${engEstTotal.toLocaleString(undefined, {minimumFractionDigits:2})}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
-<tr><td class="meta-label">GUARANTY CHECK:</td><td style="border:1px solid #d3d3d3;">${typeof guarantyCheck === 'string' && guarantyCheck.startsWith('$') ? guarantyCheck : `$${parseFloat(guarantyCheck).toLocaleString(undefined, {minimumFractionDigits:2})}`}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
-<tr><td class="meta-label">DBE GOAL:</td><td style="border:1px solid #d3d3d3;">0.00%</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">GUARANTY CHECK:</td><td style="border:1px solid #d3d3d3;">${guarantyCheck}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
+<tr><td class="meta-label">DBE GOAL:</td><td style="border:1px solid #d3d3d3;">${meta.dbeGoal || "0.00%"}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
 <tr><td class="meta-label">BIDS RECEIVED UNTIL:</td><td style="border:1px solid #d3d3d3;">${letDate}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
 <tr><td class="meta-label">BIDS WILL BE OPENED:</td><td class="yellow-hl">${letDate}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
 <tr><td class="meta-label">APPROVED LET DATE:</td><td style="border:1px solid #d3d3d3;">${letDate}</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td><td style="border:1px solid #d3d3d3;">&nbsp;</td></tr>
@@ -5495,51 +6186,51 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
     <th style="border:1px solid #000000;">EXTENDED PRICE</th>
 </tr>`;
 
-            let rIdx = 22;
-            let totalExtSum = 0;
-            items.forEach(it => {
-                const parts = (it.code || "").split(" ");
-                const itemNo = parts[0] || "";
-                const specCode = parts[1] || "";
-                const desc = it.description || "";
-                const qty = it.quantity || 0;
-                const uPrice = getAmestxCalculatedUnitPrice(it, meta, items);
-                const extPrice = qty * uPrice;
-                totalExtSum += extPrice;
+    let rIdx = 22;
+    let totalExtSum = 0;
+    items.forEach(it => {
+        const parts = (it.code || "").split(" ");
+        const itemNo = parts[0] || "";
+        const specCode = parts[1] || "";
+        const desc = it.description || "";
+        const qty = it.quantity || 0;
+        const uPrice = getAmestxCalculatedUnitPrice(it, meta, items);
+        const extPrice = qty * uPrice;
+        totalExtSum += extPrice;
 
-                html += `<tr>
-                    <td style="text-align:center; border:1px solid #d3d3d3;">&nbsp;</td>
-                    <td style="text-align:center; border:1px solid #d3d3d3; mso-number-format:'\\@';">${itemNo}</td>
-                    <td style="text-align:center; border:1px solid #d3d3d3; mso-number-format:'\\@';">${specCode}</td>
-                    <td style="text-align:left; border:1px solid #d3d3d3;">${desc}</td>
-                    <td style="text-align:center; border:1px solid #d3d3d3;">${it.unit || '&nbsp;'}</td>
-                    <td style="text-align:right; border:1px solid #d3d3d3; mso-number-format:'\#\,\#\#0\.00';">${qty}</td>
-                    <td style="text-align:right; border:1px solid #d3d3d3; mso-number-format:'\$\#\,\#\#0\.00';">$${uPrice.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})}</td>
-                    <td style="text-align:right; border:1px solid #d3d3d3; mso-number-format:'\$\#\,\#\#0\.00';" x:fmla="=F${rIdx}*G${rIdx}">$${extPrice.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})}</td>
-                </tr>`;
-                rIdx++;
-            });
+        html += `<tr>
+            <td style="text-align:center; border:1px solid #d3d3d3;">&nbsp;</td>
+            <td style="text-align:center; border:1px solid #d3d3d3; mso-number-format:'\\@';">${itemNo}</td>
+            <td style="text-align:center; border:1px solid #d3d3d3; mso-number-format:'\\@';">${specCode}</td>
+            <td style="text-align:left; border:1px solid #d3d3d3;">${desc}</td>
+            <td style="text-align:center; border:1px solid #d3d3d3;">${it.unit || '&nbsp;'}</td>
+            <td style="text-align:right; border:1px solid #d3d3d3; mso-number-format:'\#\,\#\#0\.00';">${qty}</td>
+            <td style="text-align:right; border:1px solid #d3d3d3; mso-number-format:'\$\#\,\#\#0\.00';">$${uPrice.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})}</td>
+            <td style="text-align:right; border:1px solid #d3d3d3; mso-number-format:'\$\#\,\#\#0\.00';" x:fmla="=F${rIdx}*G${rIdx}">$${extPrice.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})}</td>
+        </tr>`;
+        rIdx++;
+    });
 
-            const lastItemRow = rIdx - 1;
-            html += `<tr><td colspan="8" style="border:none;">&nbsp;</td></tr>`;
-            html += `<tr>
-                <td colspan="6" style="border:none;">&nbsp;</td>
-                <td style="text-align:right; font-weight:bold; font-family:Arial, sans-serif; font-size:9pt; border:none;">TOTAL</td>
-                <td class="yellow-hl" style="text-align:right; border:1px solid #d3d3d3; background-color:#ffff00; font-weight:bold; mso-number-format:'\$\#\,\#\#0\.00';" x:fmla="=SUM(H22:H${lastItemRow})">$${totalExtSum.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})}</td>
-            </tr>`;
-            html += `<tr><td colspan="8" style="border:none;">&nbsp;</td></tr>`;
-            html += `<tr><td colspan="8" style="text-align:center; font-weight:bold; font-size:10pt; color:#ff0000; text-decoration:underline; border:none;">DISCLAIMER</td></tr>`;
-            html += `<tr><td colspan="8" style="font-size:8pt; font-style:italic; color:#808080; border:none;">This estimate has been generated by Amestx using historical average bid prices and publicly available data.<br>It is provided solely as a preliminary reference to assist bidders in understanding potential cost ranges.<br>Actual bid pricing may vary based on market conditions, project location, labor availability, material costs, and each bidder’s internal calculations.<br>Amestx does not guarantee the accuracy of this estimate and is not responsible for any miscalculations or pricing decisions made by bidders.<br>All bidders must independently determine and submit their own unit prices based on their professional judgment and project‑specific factors.</td></tr>`;
-            html += `</table><\/body><\/html>`;
+    const lastItemRow = rIdx - 1;
+    html += `<tr><td colspan="8" style="border:none;">&nbsp;</td></tr>`;
+    html += `<tr>
+        <td colspan="6" style="border:none;">&nbsp;</td>
+        <td style="text-align:right; font-weight:bold; font-family:Arial, sans-serif; font-size:9pt; border:none;">TOTAL</td>
+        <td class="yellow-hl" style="text-align:right; border:1px solid #d3d3d3; background-color:#ffff00; font-weight:bold; mso-number-format:'\$\#\,\#\#0\.00';" x:fmla="=SUM(H22:H${lastItemRow})">$${totalExtSum.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})}</td>
+    </tr>`;
+    html += `<tr><td colspan="8" style="border:none;">&nbsp;</td></tr>`;
+    html += `<tr><td colspan="8" style="text-align:center; font-weight:bold; font-size:10pt; color:#ff0000; text-decoration:underline; border:none;">DISCLAIMER</td></tr>`;
+    html += `<tr><td colspan="8" style="font-size:8pt; font-style:italic; color:#808080; border:none;">This estimate has been generated by Amestx using historical average bid prices and publicly available data.<br>It is provided solely as a preliminary reference to assist bidders in understanding potential cost ranges.<br>Actual bid pricing may vary based on market conditions, project location, labor availability, material costs, and each bidder’s internal calculations.<br>Amestx does not guarantee the accuracy of this estimate and is not responsible for any miscalculations or pricing decisions made by bidders.<br>All bidders must independently determine and submit their own unit prices based on their professional judgment and project‑specific factors.</td></tr>`;
+    html += `</table><\/body><\/html>`;
 
-            const blob = new Blob(["\ufeff" + html], { type: 'application/vnd.ms-excel;charset=utf-8;' });
-            const a = document.createElement('a');
-            a.href = URL.createObjectURL(blob);
-            a.download = `CSJ_${csj}_Task_Items_Estimate.xls`;
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-        }
+    const blob = new Blob(["\ufeff" + html], { type: 'application/vnd.ms-excel;charset=utf-8;' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `CSJ_${csj}_Task_Items_Estimate.xls`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+}
 
         function toggleSelectAll(checked) {
             if (!currentMonthlyList || currentMonthlyList.length === 0) return;
@@ -5593,15 +6284,27 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
             }
         }
 
-        function downloadTxdotAverageBidPricesExcel() {
+        function downloadTxdotAverageBidPricesExcel(period) {
             if (!checkFeatureTrialAccess()) return;
+            const p = period || (typeof activeTxdotAveragePeriod !== 'undefined' ? activeTxdotAveragePeriod : '12');
+
+            // Pull pre-processed high-speed Excel sheet directly from backend/downloads (<50ms)
+            let fileName = "TxDOT_12-Month_Average_Bid_Prices_7340_Items.xlsx";
+            if (p === '3') {
+                fileName = "TxDOT_3-Month_Average_Bid_Prices_3203_Items.xlsx";
+            } else if (p === '6') {
+                fileName = "TxDOT_6-Month_Average_Bid_Prices_5228_Items.xlsx";
+            } else if (p === '24') {
+                fileName = "TxDOT_24-Month_Average_Bid_Prices_11057_Items.xlsx";
+            }
+
             const link = document.createElement('a');
-            link.href = 'downloads/TxDOT_Average_Bid_Prices_Item_Wise.xlsx';
-            link.download = 'TxDOT_Average_Bid_Prices_Item_Wise.xlsx';
+            link.href = `downloads/${fileName}`;
+            link.download = fileName;
             document.body.appendChild(link);
             link.click();
             setTimeout(() => {
-                document.body.removeChild(link);
+                if (link && link.parentNode) document.body.removeChild(link);
             }, 100);
         }
 
@@ -5684,7 +6387,7 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                         const csjStr = meta.csj || `Project_${idx + 1}`;
                         const sheetName = `CSJ ${csjStr}`.replace(/[:\\\/\?\*\[\]]/g, '-').slice(0, 31);
                         const ws = createStyledProjectWorksheet(meta, items);
-                        XLSX.utils.book_append(wb, ws, sheetName);
+                        (XLSX.utils.book_append || XLSX.utils.book_append_sheet)(wb, ws, sheetName);
                     });
                     XLSX.writeFile(wb, `TxDOT_Selected_${total}_Projects_Task_Items.xlsx`);
                     updateSelectionUI();
@@ -5919,22 +6622,65 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
         }
 
         async function submitRegistration(e) {
-            e.preventDefault();
-            const name = (document.getElementById('regFullName')?.value || '').trim();
+            if (e && e.preventDefault) e.preventDefault();
+
+            const name = (document.getElementById('regFullName')?.value || document.getElementById('regName')?.value || '').trim();
             const company = (document.getElementById('regCompany')?.value || '').trim();
-            const email = (document.getElementById('regEmail')?.value || '').trim();
-            const phone = (document.getElementById('regPhone')?.value || '').trim();
+            const email = (document.getElementById('regEmail')?.value || '').trim().toLowerCase();
+            const phone = (document.getElementById('regPhone')?.value || '').trim().replace(/[^0-9]/g, '');
             const role = (document.getElementById('regRole')?.value || 'General Contractor').trim();
 
-            if (!name || !email || !phone) return;
+            if (!name || !email || !phone) {
+                alert("Please fill in your Name, Email, and Phone number.");
+                return;
+            }
 
+            // =========================================================================
+            // PERMANENT TRIAL ABUSE PREVENTION CHECK (EMAIL & PHONE REGISTRY)
+            // =========================================================================
+            let registeredMap = {};
+            try {
+                registeredMap = JSON.parse(localStorage.getItem('amestx_trial_registry') || '{}');
+            } catch(err) {}
+
+            const emailKey = `email_${email}`;
+            const phoneKey = `phone_${phone}`;
+
+            // Check if this Email OR Phone number was previously registered
+            const existingRecord = registeredMap[emailKey] || registeredMap[phoneKey];
+
+            if (existingRecord) {
+                const originalRegisteredAt = existingRecord.registeredAt || 0;
+                const elapsedDays = (Date.now() - originalRegisteredAt) / (1000 * 60 * 60 * 24);
+
+                if (elapsedDays > 7) {
+                    // BLOCK RE-REGISTRATION
+                    closeRegistrationModal();
+                    const modal = document.getElementById('trialExpiredModal');
+                    const msgEl = document.getElementById('trialExpiredMsg');
+                    if (msgEl) {
+                        msgEl.innerText = `The Email (${email}) or Phone (${phone}) has already completed its 7-day free trial. Please subscribe to a Pro plan to continue.`;
+                    }
+                    if (modal) modal.classList.remove('hidden');
+                    return; // STOP EXECUTION!
+                }
+            }
+
+            // Lock first-time registration timestamp
+            const firstRegistrationTime = existingRecord ? existingRecord.registeredAt : Date.now();
+            
+            registeredMap[emailKey] = { email, phone, registeredAt: firstRegistrationTime };
+            registeredMap[phoneKey] = { email, phone, registeredAt: firstRegistrationTime };
+            localStorage.setItem('amestx_trial_registry', JSON.stringify(registeredMap));
+
+            // Save user profile with original registration timestamp
             const profile = {
                 name,
                 company,
                 email,
                 phone,
                 role,
-                registeredAt: Date.now()
+                registeredAt: firstRegistrationTime
             };
 
             localStorage.setItem('amestx_user_profile', JSON.stringify(profile));
@@ -5947,6 +6693,11 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                 cb();
             }
         }
+
+        function handleRegistrationSubmit(e) {
+            return submitRegistration(e);
+        }
+        window.handleRegistrationSubmit = submitRegistration;
 
         function checkFeatureTrialAccess(actionCallback) {
             const subStr = localStorage.getItem('amestx_subscription');
@@ -5965,12 +6716,25 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                 try {
                     const profile = JSON.parse(profileStr);
                     if (profile.email && profile.email !== 'user@amestx.com' && profile.name !== 'Trial User') {
-                        const registeredAt = profile.registeredAt || Date.now();
-                        const elapsedMs = Date.now() - registeredAt;
-                        const elapsedDays = elapsedMs / (1000 * 60 * 60 * 24);
+                        
+                        // Cross-check against Permanent Registry
+                        let registeredMap = {};
+                        try { registeredMap = JSON.parse(localStorage.getItem('amestx_trial_registry') || '{}'); } catch(e) {}
+                        
+                        const emailKey = `email_${(profile.email || '').toLowerCase()}`;
+                        const phoneKey = `phone_${(profile.phone || '').replace(/[^0-9]/g, '')}`;
+                        const record = registeredMap[emailKey] || registeredMap[phoneKey];
+
+                        // Pin to original registration date
+                        const registeredAt = (record && record.registeredAt) ? record.registeredAt : (profile.registeredAt || Date.now());
+                        const elapsedDays = (Date.now() - registeredAt) / (1000 * 60 * 60 * 24);
 
                         if (elapsedDays > 7) {
                             const modal = document.getElementById('trialExpiredModal');
+                            const msgEl = document.getElementById('trialExpiredMsg');
+                            if (msgEl) {
+                                msgEl.innerText = "Your 7-day free trial has expired for this account. Upgrade to a Pro subscription to continue.";
+                            }
                             if (modal) modal.classList.remove('hidden');
                             return false;
                         } else {
@@ -5981,7 +6745,6 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                 } catch(e) {}
             }
 
-            // Unregistered user accessing project details or top 4 info boxes
             openRegistrationModal(actionCallback);
             return false;
         }

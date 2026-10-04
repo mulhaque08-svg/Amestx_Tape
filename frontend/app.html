@@ -6372,7 +6372,7 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                 }
 
                 if (!pData.items || pData.items.length === 0) {
-                    pData.items = defaultTaskItems;
+                    pData.items = (typeof getDefaultItems === 'function') ? getDefaultItems(pData.metadata) : defaultTaskItems;
                 }
 
                 projectDataList.push(pData);
@@ -6386,7 +6386,7 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                         const items = pd.items || [];
                         const csjStr = meta.csj || `Project_${idx + 1}`;
                         const sheetName = `CSJ ${csjStr}`.replace(/[:\\\/\?\*\[\]]/g, '-').slice(0, 31);
-                        const ws = createStyledProjectWorksheet(meta, items);
+                        const ws = createStyledProjectWorksheet(meta, items, true);
                         (XLSX.utils.book_append || XLSX.utils.book_append_sheet)(wb, ws, sheetName);
                     });
                     XLSX.writeFile(wb, `TxDOT_Selected_${total}_Projects_Task_Items.xlsx`);

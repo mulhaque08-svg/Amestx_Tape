@@ -6347,26 +6347,67 @@ td, th { padding: 4px 6px; border: 1px solid #d3d3d3; }
                 const csj = csjArray[i];
                 let pData = null;
 
-                if (currentProjectData && currentProjectData.metadata && currentProjectData.metadata.csj === csj) {
-                    pData = currentProjectData;
+                const monthlyMatch = currentMonthlyList ? currentMonthlyList.find(p => p.csj === csj) : null;
+
+                if (currentProjectData && currentProjectData.metadata && currentProjectData.metadata.csj === csj && currentProjectData.items && currentProjectData.items.length > 0) {
+                    pData = JSON.parse(JSON.stringify(currentProjectData));
                 } else {
                     try {
-                        pData = await fetchSocrataBidtab(csj);
+                        const socData = await fetchSocrataBidtab(csj);
+                        if (socData && socData.metadata && socData.items && socData.items.length > 0) {
+                            pData = socData;
+                        }
                     } catch (e) {}
                 }
 
                 if (!pData || !pData.metadata) {
-                    const item = currentMonthlyList ? currentMonthlyList.find(p => p.csj === csj) : null;
+                    if (monthlyMatch) {
+                        pData = {
+                            metadata: {
+                                csj: csj,
+                                county: monthlyMatch.county || 'N/A',
+                                highway: monthlyMatch.highway || 'N/A',
+                                letDate: monthlyMatch.letDate || 'N/A',
+                                projectName: monthlyMatch.projectName || monthlyMatch.projectType || `CSJ ${csj} Project`,
+                                projectType: monthlyMatch.projectType || 'Highway Construction',
+                                engEstTotal: monthlyMatch.estimate || 0
+                            },
+                            bidders: [],
+                            items: (monthlyMatch.items && monthlyMatch.items.length > 0) ? monthlyMatch.items : []
+                        };
+                    }
+                }
+
+                if (pData && pData.metadata && monthlyMatch) {
+                    if (monthlyMatch.items && monthlyMatch.items.length > 0 && (!pData.items || pData.items.length === 0)) {
+                        pData.items = monthlyMatch.items;
+                    }
+                }
+
+                if (pData && (!pData.items || pData.items.length === 0)) {
+                    try {
+                        const cachePaths = [
+                            'downloads/proposal_items_cache.json',
+                            '/downloads/proposal_items_cache.json',
+                            'public/downloads/proposal_items_cache.json',
+                            '/public/downloads/proposal_items_cache.json'
+                        ];
+                        for (const cp of cachePaths) {
+                            const cRes = await fetch(`${cp}?_t=${Date.now()}`);
+                            if (cRes.ok) {
+                                const cObj = await cRes.json();
+                                if (cObj && cObj[csj] && cObj[csj].length > 0) {
+                                    pData.items = cObj[csj];
+                                    break;
+                                }
+                            }
+                        }
+                    } catch (e) {}
+                }
+
+                if (!pData) {
                     pData = {
-                        metadata: {
-                            csj: csj,
-                            county: item ? item.county : 'N/A',
-                            highway: item ? item.highway : 'N/A',
-                            letDate: item ? item.letDate : 'N/A',
-                            projectName: item ? (item.projectName || item.projectType) : `CSJ ${csj} Project`,
-                            projectType: item ? item.projectType : 'Highway Construction',
-                            engEstTotal: item ? item.estimate : 0
-                        },
+                        metadata: { csj: csj, county: 'N/A', highway: 'N/A', letDate: 'N/A', projectName: `CSJ ${csj}`, projectType: 'Highway Construction', engEstTotal: 0 },
                         items: []
                     };
                 }

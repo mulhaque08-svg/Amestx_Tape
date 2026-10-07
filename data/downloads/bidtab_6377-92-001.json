@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "csj": "6377-92-001",
+    "county": "Tom Green",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637792001",
+    "projectType": "RAISED PAVEMENT MARKINGS",
+    "letDate": "03/30/21",
+    "engEstTotal": 296100.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BRYDL CONTRACTING, INC.",
+      "totalBidAmount": 257232.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "PAVEMENT MARKINGS INC.",
+      "totalBidAmount": 258100.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CENTERLINE TECHNOLOGIES, LLC",
+      "totalBidAmount": 353163.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 25000.0,
+      "bidders": {
+        "BRYDL CONTRACTING, INC.": 25000.0,
+        "PAVEMENT MARKINGS INC.": 3500.0,
+        "CENTERLINE TECHNOLOGIES, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0672 6006",
+      "description": "REFL PAV MRKR TY I-A",
+      "unit": "EA",
+      "quantity": 2000.0,
+      "engEstUnit": 3.15,
+      "lowUnit": 2.75,
+      "bidders": {
+        "BRYDL CONTRACTING, INC.": 2.75,
+        "PAVEMENT MARKINGS INC.": 3.6,
+        "CENTERLINE TECHNOLOGIES, LLC": 3.75
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 28000.0,
+      "engEstUnit": 3.3,
+      "lowUnit": 2.4,
+      "bidders": {
+        "BRYDL CONTRACTING, INC.": 2.4,
+        "PAVEMENT MARKINGS INC.": 2.4,
+        "CENTERLINE TECHNOLOGIES, LLC": 3.63
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 29000.0,
+      "engEstUnit": 3.1,
+      "lowUnit": 2.75,
+      "bidders": {
+        "BRYDL CONTRACTING, INC.": 2.75,
+        "PAVEMENT MARKINGS INC.": 3.6,
+        "CENTERLINE TECHNOLOGIES, LLC": 3.63
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 29000.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 2.75,
+      "bidders": {
+        "BRYDL CONTRACTING, INC.": 2.75,
+        "PAVEMENT MARKINGS INC.": 2.6,
+        "CENTERLINE TECHNOLOGIES, LLC": 3.75
+      }
+    }
+  ]
+}

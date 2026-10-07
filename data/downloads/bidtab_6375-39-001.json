@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6375-39-001",
+    "county": "Jefferson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637539001",
+    "projectType": "HYDRAULIC CEMENT CONCRETE",
+    "letDate": "03/25/21",
+    "engEstTotal": 7650.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MESA D CORP.",
+      "totalBidAmount": 7499.7
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 10500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8014 6003",
+      "description": "CL C CONC",
+      "unit": "CY",
+      "quantity": 30.0,
+      "engEstUnit": 255.0,
+      "lowUnit": 249.99,
+      "bidders": {
+        "MESA D CORP.": 249.99,
+        "DIGG COMMERCIAL, LLC": 350.0
+      }
+    }
+  ]
+}

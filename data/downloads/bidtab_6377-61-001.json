@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "csj": "6377-61-001",
+    "county": "Nacogdoches",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637761001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/24/21",
+    "engEstTotal": 269861.34,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SERVIN MOWING",
+      "totalBidAmount": 174795.62
+    },
+    {
+      "rank": 2,
+      "vendorName": "S G COMPANY, LLC",
+      "totalBidAmount": 223624.64
+    },
+    {
+      "rank": 3,
+      "vendorName": "AARON A CRUZ",
+      "totalBidAmount": 241001.66
+    },
+    {
+      "rank": 4,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 255717.42
+    },
+    {
+      "rank": 5,
+      "vendorName": "ACE CONTRACTORS, INC.",
+      "totalBidAmount": 285760.95
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 117.68,
+      "engEstUnit": 40.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "SERVIN MOWING": 1.0,
+        "S G COMPANY, LLC": 28.0,
+        "AARON A CRUZ": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 34.0,
+        "ACE CONTRACTORS, INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6265.7,
+      "engEstUnit": 35.0,
+      "lowUnit": 22.98,
+      "bidders": {
+        "SERVIN MOWING": 22.98,
+        "S G COMPANY, LLC": 28.0,
+        "AARON A CRUZ": 33.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 34.0,
+        "ACE CONTRACTORS, INC.": 37.5
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "SERVIN MOWING": 1.0,
+        "S G COMPANY, LLC": 28.0,
+        "AARON A CRUZ": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 1.0,
+        "ACE CONTRACTORS, INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 3389.82,
+      "engEstUnit": 12.0,
+      "lowUnit": 8.99,
+      "bidders": {
+        "SERVIN MOWING": 8.99,
+        "S G COMPANY, LLC": 12.0,
+        "AARON A CRUZ": 10.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 11.0,
+        "ACE CONTRACTORS, INC.": 12.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 117.68,
+      "engEstUnit": 10.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "SERVIN MOWING": 1.0,
+        "S G COMPANY, LLC": 12.0,
+        "AARON A CRUZ": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 11.0,
+        "ACE CONTRACTORS, INC.": 12.0
+      }
+    }
+  ]
+}

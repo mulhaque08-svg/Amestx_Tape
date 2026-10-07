@@ -1,0 +1,595 @@
+{
+  "metadata": {
+    "csj": "0913-09-102",
+    "county": "Wharton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2020(610)",
+    "projectType": "REPLACE BRIDGE AND APPROACHES",
+    "letDate": "04/07/21",
+    "engEstTotal": 1366306.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SB CONTRACTORS LLC",
+      "totalBidAmount": 1244083.8
+    },
+    {
+      "rank": 2,
+      "vendorName": "SEFBO PIPELINE BRIDGE, INCORPORATED",
+      "totalBidAmount": 1293582.86
+    },
+    {
+      "rank": 3,
+      "vendorName": "CONSTAR CONSTRUCTION",
+      "totalBidAmount": 1443198.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "HODGES AND SON CONSTRUCTION COMPANY, INC.",
+      "totalBidAmount": 1445785.2
+    },
+    {
+      "rank": 5,
+      "vendorName": "JOHN REED AND COMPANY, LLC",
+      "totalBidAmount": 1470739.63
+    },
+    {
+      "rank": 6,
+      "vendorName": "FUQUA CONSTRUCTION CO., INC.",
+      "totalBidAmount": 1574288.7
+    },
+    {
+      "rank": 7,
+      "vendorName": "HARPER BROTHERS CONSTRUCTION LLC",
+      "totalBidAmount": 1667553.6
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 8.09,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "SB CONTRACTORS LLC": 3000.0,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 4025.0,
+        "CONSTAR CONSTRUCTION": 1300.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 3000.0,
+        "JOHN REED AND COMPANY, LLC": 1000.0,
+        "FUQUA CONSTRUCTION CO., INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 928.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 7.52,
+      "bidders": {
+        "SB CONTRACTORS LLC": 7.52,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 12.08,
+        "CONSTAR CONSTRUCTION": 15.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 15.0,
+        "JOHN REED AND COMPANY, LLC": 18.0,
+        "FUQUA CONSTRUCTION CO., INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 368.0,
+      "engEstUnit": 17.0,
+      "lowUnit": 18.75,
+      "bidders": {
+        "SB CONTRACTORS LLC": 18.75,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 14.49,
+        "CONSTAR CONSTRUCTION": 18.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 15.0,
+        "JOHN REED AND COMPANY, LLC": 20.0,
+        "FUQUA CONSTRUCTION CO., INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "0132 6005",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 1216.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 14.78,
+      "bidders": {
+        "SB CONTRACTORS LLC": 14.78,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 29.9,
+        "CONSTAR CONSTRUCTION": 18.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 15.0,
+        "JOHN REED AND COMPANY, LLC": 18.0,
+        "FUQUA CONSTRUCTION CO., INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "0150 6002",
+      "description": "BLADING",
+      "unit": "HR",
+      "quantity": 48.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 78.0,
+      "bidders": {
+        "SB CONTRACTORS LLC": 78.0,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 149.5,
+        "CONSTAR CONSTRUCTION": 100.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 50.0,
+        "JOHN REED AND COMPANY, LLC": 20.0,
+        "FUQUA CONSTRUCTION CO., INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0164 6003",
+      "description": "BROADCAST SEED (PERM) (RURAL) (CLAY)",
+      "unit": "SY",
+      "quantity": 3545.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 0.69,
+      "bidders": {
+        "SB CONTRACTORS LLC": 0.69,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 1.88,
+        "CONSTAR CONSTRUCTION": 2.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.5,
+        "JOHN REED AND COMPANY, LLC": 1.0,
+        "FUQUA CONSTRUCTION CO., INC.": 1.2
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 888.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.19,
+      "bidders": {
+        "SB CONTRACTORS LLC": 2.19,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 3.11,
+        "CONSTAR CONSTRUCTION": 2.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.0,
+        "JOHN REED AND COMPANY, LLC": 1.0,
+        "FUQUA CONSTRUCTION CO., INC.": 1.2
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 888.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.19,
+      "bidders": {
+        "SB CONTRACTORS LLC": 2.19,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 3.11,
+        "CONSTAR CONSTRUCTION": 2.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.0,
+        "JOHN REED AND COMPANY, LLC": 1.0,
+        "FUQUA CONSTRUCTION CO., INC.": 1.2
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 31.2,
+      "engEstUnit": 50.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "SB CONTRACTORS LLC": 45.0,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 97.75,
+        "CONSTAR CONSTRUCTION": 135.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.0,
+        "JOHN REED AND COMPANY, LLC": 20.0,
+        "FUQUA CONSTRUCTION CO., INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0310 6012",
+      "description": "PRIME COAT (RC-250)",
+      "unit": "GAL",
+      "quantity": 233.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 15.69,
+      "bidders": {
+        "SB CONTRACTORS LLC": 15.69,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 4.49,
+        "CONSTAR CONSTRUCTION": 15.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 15.0,
+        "JOHN REED AND COMPANY, LLC": 14.35,
+        "FUQUA CONSTRUCTION CO., INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 131.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 137.97,
+      "bidders": {
+        "SB CONTRACTORS LLC": 137.97,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 143.75,
+        "CONSTAR CONSTRUCTION": 85.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 250.0,
+        "JOHN REED AND COMPANY, LLC": 60.0,
+        "FUQUA CONSTRUCTION CO., INC.": 190.0
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 520.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 15.98,
+      "bidders": {
+        "SB CONTRACTORS LLC": 15.98,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 22.5,
+        "CONSTAR CONSTRUCTION": 13.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 30.0,
+        "JOHN REED AND COMPANY, LLC": 2.0,
+        "FUQUA CONSTRUCTION CO., INC.": 45.0
+      }
+    },
+    {
+      "itemCode": "0409 6002",
+      "description": "PRESTR CONC PIL (18 IN SQ)",
+      "unit": "LF",
+      "quantity": 1480.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 105.01,
+      "bidders": {
+        "SB CONTRACTORS LLC": 105.01,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 161.0,
+        "CONSTAR CONSTRUCTION": 160.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 105.0,
+        "JOHN REED AND COMPANY, LLC": 175.0,
+        "FUQUA CONSTRUCTION CO., INC.": 117.505
+      }
+    },
+    {
+      "itemCode": "0420 6013",
+      "description": "CL C CONC (ABUT)",
+      "unit": "CY",
+      "quantity": 44.8,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1002.23,
+      "bidders": {
+        "SB CONTRACTORS LLC": 1002.23,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 1432.9,
+        "CONSTAR CONSTRUCTION": 1000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1200.0,
+        "JOHN REED AND COMPANY, LLC": 1000.0,
+        "FUQUA CONSTRUCTION CO., INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0420 6029",
+      "description": "CL C CONC (CAP)",
+      "unit": "CY",
+      "quantity": 31.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 1468.85,
+      "bidders": {
+        "SB CONTRACTORS LLC": 1468.85,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 1342.05,
+        "CONSTAR CONSTRUCTION": 1200.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1200.0,
+        "JOHN REED AND COMPANY, LLC": 1000.0,
+        "FUQUA CONSTRUCTION CO., INC.": 1400.0
+      }
+    },
+    {
+      "itemCode": "0422 6007",
+      "description": "REINF CONC SLAB (SLAB BEAM)",
+      "unit": "SF",
+      "quantity": 5566.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 20.36,
+      "bidders": {
+        "SB CONTRACTORS LLC": 20.36,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 21.85,
+        "CONSTAR CONSTRUCTION": 19.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 22.0,
+        "JOHN REED AND COMPANY, LLC": 14.0,
+        "FUQUA CONSTRUCTION CO., INC.": 24.0
+      }
+    },
+    {
+      "itemCode": "0425 6010",
+      "description": "PRESTR CONC SLAB BEAM (5SB12)",
+      "unit": "LF",
+      "quantity": 1091.9,
+      "engEstUnit": 160.0,
+      "lowUnit": 150.23,
+      "bidders": {
+        "SB CONTRACTORS LLC": 150.23,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 1.5,
+        "CONSTAR CONSTRUCTION": 195.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 160.0,
+        "JOHN REED AND COMPANY, LLC": 190.0,
+        "FUQUA CONSTRUCTION CO., INC.": 234.0
+      }
+    },
+    {
+      "itemCode": "0432 6024",
+      "description": "RIPRAP (STONE COMMON)(DRY)(12 IN)",
+      "unit": "CY",
+      "quantity": 59.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 265.36,
+      "bidders": {
+        "SB CONTRACTORS LLC": 265.36,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 233.45,
+        "CONSTAR CONSTRUCTION": 168.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 130.0,
+        "JOHN REED AND COMPANY, LLC": 150.0,
+        "FUQUA CONSTRUCTION CO., INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0432 6031",
+      "description": "RIPRAP (STONE PROTECTION)(12 IN)",
+      "unit": "CY",
+      "quantity": 544.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 131.6,
+      "bidders": {
+        "SB CONTRACTORS LLC": 131.6,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 233.45,
+        "CONSTAR CONSTRUCTION": 173.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 120.0,
+        "JOHN REED AND COMPANY, LLC": 140.0,
+        "FUQUA CONSTRUCTION CO., INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0450 6018",
+      "description": "RAIL (TY T631)",
+      "unit": "LF",
+      "quantity": 492.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 87.44,
+      "bidders": {
+        "SB CONTRACTORS LLC": 87.44,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 56.93,
+        "CONSTAR CONSTRUCTION": 84.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 85.0,
+        "JOHN REED AND COMPANY, LLC": 80.0,
+        "FUQUA CONSTRUCTION CO., INC.": 70.0
+      }
+    },
+    {
+      "itemCode": "0454 6004",
+      "description": "ARMOR JOINT (SEALED)",
+      "unit": "LF",
+      "quantity": 106.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 78.34,
+      "bidders": {
+        "SB CONTRACTORS LLC": 78.34,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 99.4,
+        "CONSTAR CONSTRUCTION": 88.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 75.0,
+        "JOHN REED AND COMPANY, LLC": 61.0,
+        "FUQUA CONSTRUCTION CO., INC.": 120.0
+      }
+    },
+    {
+      "itemCode": "0466 6170",
+      "description": "WINGWALL (FW - S) (HW=9 FT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 17759.75,
+      "bidders": {
+        "SB CONTRACTORS LLC": 17759.75,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 21895.0,
+        "CONSTAR CONSTRUCTION": 24300.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 26000.0,
+        "JOHN REED AND COMPANY, LLC": 22000.0,
+        "FUQUA CONSTRUCTION CO., INC.": 22000.0
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 5007.09,
+      "bidders": {
+        "SB CONTRACTORS LLC": 5007.09,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 15293.85,
+        "CONSTAR CONSTRUCTION": 15000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 32000.0,
+        "JOHN REED AND COMPANY, LLC": 25000.0,
+        "FUQUA CONSTRUCTION CO., INC.": 30000.0
+      }
+    },
+    {
+      "itemCode": "0496 6016",
+      "description": "REMOV STR (PIPE)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 527.25,
+      "bidders": {
+        "SB CONTRACTORS LLC": 527.25,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 650.0,
+        "CONSTAR CONSTRUCTION": 900.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 500.0,
+        "JOHN REED AND COMPANY, LLC": 500.0,
+        "FUQUA CONSTRUCTION CO., INC.": 450.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 110000.0,
+      "lowUnit": 125000.0,
+      "bidders": {
+        "SB CONTRACTORS LLC": 125000.0,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 50000.0,
+        "CONSTAR CONSTRUCTION": 119000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 115000.0,
+        "JOHN REED AND COMPANY, LLC": 130000.0,
+        "FUQUA CONSTRUCTION CO., INC.": 156458.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 2800.0,
+      "lowUnit": 2650.61,
+      "bidders": {
+        "SB CONTRACTORS LLC": 2650.61,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 2507.0,
+        "CONSTAR CONSTRUCTION": 3375.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 2600.0,
+        "JOHN REED AND COMPANY, LLC": 2425.0,
+        "FUQUA CONSTRUCTION CO., INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0550 6015",
+      "description": "REMOVE AND INSTALL EXISTING GATE",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1400.0,
+      "lowUnit": 1639.55,
+      "bidders": {
+        "SB CONTRACTORS LLC": 1639.55,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 1345.0,
+        "CONSTAR CONSTRUCTION": 540.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1200.0,
+        "JOHN REED AND COMPANY, LLC": 2000.0,
+        "FUQUA CONSTRUCTION CO., INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0552 6001",
+      "description": "WIRE FENCE (TY A)",
+      "unit": "LF",
+      "quantity": 88.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 32.79,
+      "bidders": {
+        "SB CONTRACTORS LLC": 32.79,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 15.0,
+        "CONSTAR CONSTRUCTION": 15.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 20.0,
+        "JOHN REED AND COMPANY, LLC": 33.0,
+        "FUQUA CONSTRUCTION CO., INC.": 16.0
+      }
+    },
+    {
+      "itemCode": "0552 6003",
+      "description": "WIRE FENCE (TY C)",
+      "unit": "LF",
+      "quantity": 54.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 54.65,
+      "bidders": {
+        "SB CONTRACTORS LLC": 54.65,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 25.0,
+        "CONSTAR CONSTRUCTION": 25.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 20.0,
+        "JOHN REED AND COMPANY, LLC": 55.0,
+        "FUQUA CONSTRUCTION CO., INC.": 16.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 23.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 21.86,
+      "bidders": {
+        "SB CONTRACTORS LLC": 21.86,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 23.0,
+        "CONSTAR CONSTRUCTION": 40.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 50.0,
+        "JOHN REED AND COMPANY, LLC": 25.0,
+        "FUQUA CONSTRUCTION CO., INC.": 32.0
+      }
+    },
+    {
+      "itemCode": "0467 6384",
+      "description": "SET (TY II) (24 IN) (HDPE) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 0.0,
+      "bidders": {
+        "SB CONTRACTORS LLC": 0.0,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 1589.88,
+        "CONSTAR CONSTRUCTION": 2100.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 0.0,
+        "JOHN REED AND COMPANY, LLC": 0.0,
+        "FUQUA CONSTRUCTION CO., INC.": 0.0
+      }
+    },
+    {
+      "itemCode": "0467 6413",
+      "description": "SET (TY II) (30 IN) (HDPE) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 0.0,
+      "bidders": {
+        "SB CONTRACTORS LLC": 0.0,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 2297.13,
+        "CONSTAR CONSTRUCTION": 2800.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 0.0,
+        "JOHN REED AND COMPANY, LLC": 0.0,
+        "FUQUA CONSTRUCTION CO., INC.": 0.0
+      }
+    },
+    {
+      "itemCode": "4122 6005",
+      "description": "THERMO PIPE(24\")(HDPE)(TY S)(CSB)",
+      "unit": "LF",
+      "quantity": 296.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 0.0,
+      "bidders": {
+        "SB CONTRACTORS LLC": 0.0,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 183.83,
+        "CONSTAR CONSTRUCTION": 40.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 0.0,
+        "JOHN REED AND COMPANY, LLC": 0.0,
+        "FUQUA CONSTRUCTION CO., INC.": 0.0
+      }
+    },
+    {
+      "itemCode": "4122 6020",
+      "description": "THERMO PIPE(30\")(HDPE)(TY S)(CSB)",
+      "unit": "LF",
+      "quantity": 296.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 0.0,
+      "bidders": {
+        "SB CONTRACTORS LLC": 0.0,
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 190.58,
+        "CONSTAR CONSTRUCTION": 50.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 0.0,
+        "JOHN REED AND COMPANY, LLC": 0.0,
+        "FUQUA CONSTRUCTION CO., INC.": 0.0
+      }
+    }
+  ]
+}

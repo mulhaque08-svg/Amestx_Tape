@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6375-36-001",
+    "county": "Liberty",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637536001",
+    "projectType": "AGGREGATE",
+    "letDate": "03/25/21",
+    "engEstTotal": 4000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MESA D CORP.",
+      "totalBidAmount": 3999.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 14000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8029 6001",
+      "description": "CONCRETE SAND(DELIVERY)(SITE 1)",
+      "unit": "CY",
+      "quantity": 100.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 39.99,
+      "bidders": {
+        "MESA D CORP.": 39.99,
+        "DIGG COMMERCIAL, LLC": 140.0
+      }
+    }
+  ]
+}

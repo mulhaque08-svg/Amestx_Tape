@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6375-26-001",
+    "county": "Jefferson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637526001",
+    "projectType": "HYDRAULIC CEMENT",
+    "letDate": "03/25/21",
+    "engEstTotal": 4950.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MESA D CORP.",
+      "totalBidAmount": 5670.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 5940.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 13200.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8012 6018",
+      "description": "HYDRAULIC CEMENT(TY I)(47LB)",
+      "unit": "BAG",
+      "quantity": 600.0,
+      "engEstUnit": 8.25,
+      "lowUnit": 9.45,
+      "bidders": {
+        "MESA D CORP.": 9.45,
+        "TOUCHSTONE RESOURCES, LLC": 9.9,
+        "DIGG COMMERCIAL, LLC": 22.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6374-23-001",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637423001",
+    "projectType": "ROADSIDE MOWING",
+    "letDate": "02/05/21",
+    "engEstTotal": 489688.22,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "YELLOWSTONE LANDSCAPE - CENTRAL, INC.",
+      "totalBidAmount": 420840.77
+    },
+    {
+      "rank": 2,
+      "vendorName": "ANGEL LADY SERVICES, LLC",
+      "totalBidAmount": 437838.62
+    },
+    {
+      "rank": 3,
+      "vendorName": "CLASSIC IRRIGATION & LANDSCAPE LLC",
+      "totalBidAmount": 541453.6
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 13.0,
+      "engEstUnit": 39.39,
+      "lowUnit": 1.0,
+      "bidders": {
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 1.0,
+        "ANGEL LADY SERVICES, LLC": 500.0,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 13548.02,
+      "engEstUnit": 31.49,
+      "lowUnit": 28.9,
+      "bidders": {
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 28.9,
+        "ANGEL LADY SERVICES, LLC": 31.0,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 31.49,
+      "lowUnit": 28.9,
+      "bidders": {
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 28.9,
+        "ANGEL LADY SERVICES, LLC": 31.0,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0752 6004",
+      "description": "TREE TRIMMING / BRUSH REMOVAL(CHANNELS)",
+      "unit": "AC",
+      "quantity": 66.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 400.0,
+        "ANGEL LADY SERVICES, LLC": 125.0,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 2000.0
+      }
+    }
+  ]
+}

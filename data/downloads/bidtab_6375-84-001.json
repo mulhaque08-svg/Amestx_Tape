@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "csj": "6375-84-001",
+    "county": "El Paso",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637584001",
+    "projectType": "FLEXIBLE PAVEMENT AND POTHOLE REPAIR",
+    "letDate": "02/05/21",
+    "engEstTotal": 420960.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DOUBLE H CONTRACTING INC.",
+      "totalBidAmount": 379650.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DEL MAR CONTRACTING, INC.",
+      "totalBidAmount": 421020.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MIJELUM, L.L.C.",
+      "totalBidAmount": 436650.01
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0351 6028",
+      "description": "FLEX PAVE STRUCTURE REPAIR (8\"-10\")",
+      "unit": "SY",
+      "quantity": 500.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "DOUBLE H CONTRACTING INC.": 80.0,
+        "DEL MAR CONTRACTING, INC.": 119.0,
+        "MIJELUM, L.L.C.": 130.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 35000.0,
+      "bidders": {
+        "DOUBLE H CONTRACTING INC.": 35000.0,
+        "DEL MAR CONTRACTING, INC.": 20000.0,
+        "MIJELUM, L.L.C.": 0.01
+      }
+    },
+    {
+      "itemCode": "0668 6001",
+      "description": "PREFAB PAV MRK TY B (W)(4\")(BRK)",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "DOUBLE H CONTRACTING INC.": 12.0,
+        "DEL MAR CONTRACTING, INC.": 5.0,
+        "MIJELUM, L.L.C.": 6.0
+      }
+    },
+    {
+      "itemCode": "0668 6065",
+      "description": "PREFAB PAV MRK TY C (W) (6\") (BRK)",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "DOUBLE H CONTRACTING INC.": 12.0,
+        "DEL MAR CONTRACTING, INC.": 7.0,
+        "MIJELUM, L.L.C.": 8.0
+      }
+    },
+    {
+      "itemCode": "0668 6101",
+      "description": "PREFAB PAV MRK TY C (Y) (4\") (SLD)",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "DOUBLE H CONTRACTING INC.": 12.0,
+        "DEL MAR CONTRACTING, INC.": 5.0,
+        "MIJELUM, L.L.C.": 6.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "DOUBLE H CONTRACTING INC.": 5.0,
+        "DEL MAR CONTRACTING, INC.": 12.0,
+        "MIJELUM, L.L.C.": 5.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "DOUBLE H CONTRACTING INC.": 5.0,
+        "DEL MAR CONTRACTING, INC.": 12.0,
+        "MIJELUM, L.L.C.": 5.0
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "DOUBLE H CONTRACTING INC.": 5.0,
+        "DEL MAR CONTRACTING, INC.": 12.0,
+        "MIJELUM, L.L.C.": 5.0
+      }
+    },
+    {
+      "itemCode": "0678 6001",
+      "description": "PAV SURF PREP FOR MRK (4\")",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 0.5,
+      "bidders": {
+        "DOUBLE H CONTRACTING INC.": 0.5,
+        "DEL MAR CONTRACTING, INC.": 2.0,
+        "MIJELUM, L.L.C.": 1.5
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 0.5,
+      "bidders": {
+        "DOUBLE H CONTRACTING INC.": 0.5,
+        "DEL MAR CONTRACTING, INC.": 3.0,
+        "MIJELUM, L.L.C.": 2.0
+      }
+    },
+    {
+      "itemCode": "0700 6007",
+      "description": "POTHOLE REPAIR (SAW - CUT)",
+      "unit": "TON",
+      "quantity": 1300.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 230.0,
+      "bidders": {
+        "DOUBLE H CONTRACTING INC.": 230.0,
+        "DEL MAR CONTRACTING, INC.": 242.0,
+        "MIJELUM, L.L.C.": 230.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 10.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "DOUBLE H CONTRACTING INC.": 5.0,
+        "DEL MAR CONTRACTING, INC.": 200.0,
+        "MIJELUM, L.L.C.": 1000.0
+      }
+    }
+  ]
+}

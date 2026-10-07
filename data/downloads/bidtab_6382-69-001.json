@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6382-69-001",
+    "county": "Nacogdoches",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638269001",
+    "projectType": "LIMESTONE ROCK AND ASPHALT",
+    "letDate": "06/04/21",
+    "engEstTotal": 416560.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 428880.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 555400.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8009 6013",
+      "description": "LRA (TY II)(GR-DS) (DELIVERY)(SITE 1)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 104.14,
+      "lowUnit": 103.32,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 103.32,
+        "MARTIN MARIETTA MATERIALS, INC.": 135.25
+      }
+    },
+    {
+      "itemCode": "8009 6014",
+      "description": "LRA (TY II)(GR-DS) (DELIVERY)(SITE 2)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 104.14,
+      "lowUnit": 111.12,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 111.12,
+        "MARTIN MARIETTA MATERIALS, INC.": 142.45
+      }
+    }
+  ]
+}

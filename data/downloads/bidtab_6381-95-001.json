@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6381-95-001",
+    "county": "Wharton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638195001",
+    "projectType": "HOT-MIX COLD-LAID",
+    "letDate": "06/08/21",
+    "engEstTotal": 299200.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "QUALITY HOT MIX, INC.",
+      "totalBidAmount": 297000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "LONE STAR PAVING COMPANY",
+      "totalBidAmount": 338800.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CENTURY ASPHALT, LTD.",
+      "totalBidAmount": 371800.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 417032.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8013 6002",
+      "description": "HMCL ACP TYPE D SAC-B AC-0.6 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 4400.0,
+      "engEstUnit": 68.0,
+      "lowUnit": 67.5,
+      "bidders": {
+        "QUALITY HOT MIX, INC.": 67.5,
+        "LONE STAR PAVING COMPANY": 77.0,
+        "CENTURY ASPHALT, LTD.": 84.5,
+        "COLORADO MATERIALS, LTD.": 94.78
+      }
+    }
+  ]
+}

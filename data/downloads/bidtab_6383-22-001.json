@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6383-22-001",
+    "county": "Leon",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638322001",
+    "projectType": "LIMESTONE ROCK AND ASPHALT",
+    "letDate": "06/01/21",
+    "engEstTotal": 287000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 284942.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 292908.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8009 6001",
+      "description": "LRA (TY I)(GR-AA) (DELIVERY)(SITE 1)",
+      "unit": "TON",
+      "quantity": 700.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 99.19,
+      "bidders": {
+        "MARTIN MARIETTA MATERIALS, INC.": 99.19,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 101.96
+      }
+    },
+    {
+      "itemCode": "8009 6002",
+      "description": "LRA (TY I)(GR-AA) (DELIVERY)(SITE 2)",
+      "unit": "TON",
+      "quantity": 700.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 103.34,
+      "bidders": {
+        "MARTIN MARIETTA MATERIALS, INC.": 103.34,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 105.26
+      }
+    },
+    {
+      "itemCode": "8009 6013",
+      "description": "LRA (TY II)(GR-DS) (DELIVERY)(SITE 1)",
+      "unit": "TON",
+      "quantity": 700.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 100.19,
+      "bidders": {
+        "MARTIN MARIETTA MATERIALS, INC.": 100.19,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 103.96
+      }
+    },
+    {
+      "itemCode": "8009 6014",
+      "description": "LRA (TY II)(GR-DS) (DELIVERY)(SITE 2)",
+      "unit": "TON",
+      "quantity": 700.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 104.34,
+      "bidders": {
+        "MARTIN MARIETTA MATERIALS, INC.": 104.34,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 107.26
+      }
+    }
+  ]
+}

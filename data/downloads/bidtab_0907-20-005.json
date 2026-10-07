@@ -1,0 +1,638 @@
+{
+  "metadata": {
+    "csj": "0907-20-005",
+    "county": "Kimble",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 907-20-5",
+    "projectType": "CONSTRUCT ACCESS ROADS AND PARKING",
+    "letDate": "06/03/21",
+    "engEstTotal": 1099860.3,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DIAMOND X CONTRACTING, INC",
+      "totalBidAmount": 1196977.8
+    },
+    {
+      "rank": 2,
+      "vendorName": "ACME BRIDGE COMPANY, INC.",
+      "totalBidAmount": 1373549.72
+    },
+    {
+      "rank": 3,
+      "vendorName": "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.",
+      "totalBidAmount": 1395577.64
+    },
+    {
+      "rank": 4,
+      "vendorName": "REECE ALBERT, INC.",
+      "totalBidAmount": 1437333.83
+    },
+    {
+      "rank": 5,
+      "vendorName": "RELMCO, INC.",
+      "totalBidAmount": 1475464.15
+    },
+    {
+      "rank": 6,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 2486464.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 10.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 3000.0,
+        "ACME BRIDGE COMPANY, INC.": 6000.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1396.46,
+        "REECE ALBERT, INC.": 6985.0,
+        "RELMCO, INC.": 5000.0,
+        "FNH CONSTRUCTION, LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 27.0,
+      "engEstUnit": 16.0,
+      "lowUnit": 32.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 32.0,
+        "ACME BRIDGE COMPANY, INC.": 29.1,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 39.72,
+        "REECE ALBERT, INC.": 33.4,
+        "RELMCO, INC.": 50.0,
+        "FNH CONSTRUCTION, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0105 6109",
+      "description": "REMOVING STAB BASE & ASPH PAV (8\"-19\")",
+      "unit": "SY",
+      "quantity": 2656.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 8.5,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 8.5,
+        "ACME BRIDGE COMPANY, INC.": 7.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 12.61,
+        "REECE ALBERT, INC.": 7.37,
+        "RELMCO, INC.": 10.0,
+        "FNH CONSTRUCTION, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 2843.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 14.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 14.0,
+        "ACME BRIDGE COMPANY, INC.": 25.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 19.59,
+        "REECE ALBERT, INC.": 15.1,
+        "RELMCO, INC.": 25.0,
+        "FNH CONSTRUCTION, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0132 6001",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY A)",
+      "unit": "CY",
+      "quantity": 2998.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 14.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 14.0,
+        "ACME BRIDGE COMPANY, INC.": 60.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 14.02,
+        "REECE ALBERT, INC.": 40.83,
+        "RELMCO, INC.": 20.0,
+        "FNH CONSTRUCTION, LLC": 35.0
+      }
+    },
+    {
+      "itemCode": "0161 6017",
+      "description": "COMPOST MANUF TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 8643.0,
+      "engEstUnit": 1.2,
+      "lowUnit": 4.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 4.0,
+        "ACME BRIDGE COMPANY, INC.": 4.4,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 6.81,
+        "REECE ALBERT, INC.": 5.08,
+        "RELMCO, INC.": 6.5,
+        "FNH CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0164 6003",
+      "description": "BROADCAST SEED (PERM) (RURAL) (CLAY)",
+      "unit": "SY",
+      "quantity": 8643.0,
+      "engEstUnit": 0.85,
+      "lowUnit": 1.2,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 1.2,
+        "ACME BRIDGE COMPANY, INC.": 0.17,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 0.19,
+        "REECE ALBERT, INC.": 0.45,
+        "RELMCO, INC.": 0.18,
+        "FNH CONSTRUCTION, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 229.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 60.0,
+        "ACME BRIDGE COMPANY, INC.": 35.6,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 62.09,
+        "REECE ALBERT, INC.": 20.54,
+        "RELMCO, INC.": 40.0,
+        "FNH CONSTRUCTION, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0169 6003",
+      "description": "SOIL RETENTION BLANKETS (CL 1) (TY C)",
+      "unit": "SY",
+      "quantity": 8643.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 2.0,
+        "ACME BRIDGE COMPANY, INC.": 0.87,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 0.92,
+        "REECE ALBERT, INC.": 2.4,
+        "RELMCO, INC.": 0.95,
+        "FNH CONSTRUCTION, LLC": 10.5
+      }
+    },
+    {
+      "itemCode": "0216 6001",
+      "description": "PROOF ROLLING",
+      "unit": "HR",
+      "quantity": 8.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 62.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 62.0,
+        "ACME BRIDGE COMPANY, INC.": 63.9,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 81.57,
+        "REECE ALBERT, INC.": 100.82,
+        "RELMCO, INC.": 100.0,
+        "FNH CONSTRUCTION, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0260 6002",
+      "description": "LIME (HYDRATED LIME (SLURRY))",
+      "unit": "TON",
+      "quantity": 166.0,
+      "engEstUnit": 190.0,
+      "lowUnit": 280.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 280.0,
+        "ACME BRIDGE COMPANY, INC.": 275.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 293.85,
+        "REECE ALBERT, INC.": 334.92,
+        "RELMCO, INC.": 200.0,
+        "FNH CONSTRUCTION, LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0260 6073",
+      "description": "LIME TRT (SUBGRADE)(8\")",
+      "unit": "SY",
+      "quantity": 9930.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 5.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 5.0,
+        "ACME BRIDGE COMPANY, INC.": 3.5,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 3.1,
+        "REECE ALBERT, INC.": 4.58,
+        "RELMCO, INC.": 6.0,
+        "FNH CONSTRUCTION, LLC": 12.0
+      }
+    },
+    {
+      "itemCode": "0360 6003",
+      "description": "CONC PVMT (CONT REINF - CRCP) (9\")",
+      "unit": "SY",
+      "quantity": 956.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 145.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 145.0,
+        "ACME BRIDGE COMPANY, INC.": 115.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 156.44,
+        "REECE ALBERT, INC.": 147.54,
+        "RELMCO, INC.": 165.0,
+        "FNH CONSTRUCTION, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0432 6002",
+      "description": "RIPRAP (CONC)(5 IN)",
+      "unit": "CY",
+      "quantity": 158.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 482.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 482.0,
+        "ACME BRIDGE COMPANY, INC.": 500.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 602.59,
+        "REECE ALBERT, INC.": 628.77,
+        "RELMCO, INC.": 425.0,
+        "FNH CONSTRUCTION, LLC": 650.0
+      }
+    },
+    {
+      "itemCode": "0467 6557",
+      "description": "SET (TY II) (DES 5) (CMP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 6100.0,
+      "lowUnit": 6600.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 6600.0,
+        "ACME BRIDGE COMPANY, INC.": 5270.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 10069.85,
+        "REECE ALBERT, INC.": 3259.66,
+        "RELMCO, INC.": 7351.4,
+        "FNH CONSTRUCTION, LLC": 5000.0
+      }
+    },
+    {
+      "itemCode": "0496 6004",
+      "description": "REMOV STR (SET)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 402.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 402.0,
+        "ACME BRIDGE COMPANY, INC.": 505.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 535.13,
+        "REECE ALBERT, INC.": 333.77,
+        "RELMCO, INC.": 1800.0,
+        "FNH CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 100000.0,
+      "lowUnit": 85000.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 85000.0,
+        "ACME BRIDGE COMPANY, INC.": 100000.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 134870.89,
+        "REECE ALBERT, INC.": 143000.0,
+        "RELMCO, INC.": 125000.0,
+        "FNH CONSTRUCTION, LLC": 200000.0
+      }
+    },
+    {
+      "itemCode": "0531 6001",
+      "description": "CONC SIDEWALKS (4\")",
+      "unit": "SY",
+      "quantity": 789.0,
+      "engEstUnit": 58.0,
+      "lowUnit": 83.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 83.0,
+        "ACME BRIDGE COMPANY, INC.": 60.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 75.43,
+        "REECE ALBERT, INC.": 77.76,
+        "RELMCO, INC.": 60.0,
+        "FNH CONSTRUCTION, LLC": 65.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 21.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 534.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 534.0,
+        "ACME BRIDGE COMPANY, INC.": 517.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 547.23,
+        "REECE ALBERT, INC.": 606.36,
+        "RELMCO, INC.": 535.7,
+        "FNH CONSTRUCTION, LLC": 850.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 620.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 620.0,
+        "ACME BRIDGE COMPANY, INC.": 599.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 631.93,
+        "REECE ALBERT, INC.": 702.23,
+        "RELMCO, INC.": 620.4,
+        "FNH CONSTRUCTION, LLC": 850.0
+      }
+    },
+    {
+      "itemCode": "0644 6009",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SB(P)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 561.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 561.0,
+        "ACME BRIDGE COMPANY, INC.": 543.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 574.73,
+        "REECE ALBERT, INC.": 637.49,
+        "RELMCO, INC.": 563.2,
+        "FNH CONSTRUCTION, LLC": 850.0
+      }
+    },
+    {
+      "itemCode": "0658 6099",
+      "description": "INSTL OM ASSM (OM-2Z)(WFLX)GND",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 102.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 102.0,
+        "ACME BRIDGE COMPANY, INC.": 98.7,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 113.83,
+        "REECE ALBERT, INC.": 115.79,
+        "RELMCO, INC.": 102.3,
+        "FNH CONSTRUCTION, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0662 6031",
+      "description": "WK ZN PAV MRK NON-REMOV(W)36\"(YLD TRI)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 10.25,
+      "lowUnit": 44.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 44.0,
+        "ACME BRIDGE COMPANY, INC.": 42.5,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 63.21,
+        "REECE ALBERT, INC.": 49.8,
+        "RELMCO, INC.": 44.0,
+        "FNH CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0662 6034",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 900.0,
+      "engEstUnit": 0.21,
+      "lowUnit": 2.2,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 2.2,
+        "ACME BRIDGE COMPANY, INC.": 2.1,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 2.33,
+        "REECE ALBERT, INC.": 2.49,
+        "RELMCO, INC.": 2.2,
+        "FNH CONSTRUCTION, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0662 6050",
+      "description": "WK ZN PAV MRK REMOV (REFL) TY II-A-A",
+      "unit": "EA",
+      "quantity": 68.0,
+      "engEstUnit": 5.5,
+      "lowUnit": 11.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 11.0,
+        "ACME BRIDGE COMPANY, INC.": 10.6,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 12.7,
+        "REECE ALBERT, INC.": 12.45,
+        "RELMCO, INC.": 11.0,
+        "FNH CONSTRUCTION, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0662 6063",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 785.0,
+      "engEstUnit": 0.66,
+      "lowUnit": 2.2,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 2.2,
+        "ACME BRIDGE COMPANY, INC.": 2.1,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 2.35,
+        "REECE ALBERT, INC.": 2.49,
+        "RELMCO, INC.": 2.2,
+        "FNH CONSTRUCTION, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0662 6092",
+      "description": "WK ZN PAV MRK REMOV (W)36\"(YLD TRI)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 54.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 54.0,
+        "ACME BRIDGE COMPANY, INC.": 53.1,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 62.69,
+        "REECE ALBERT, INC.": 62.25,
+        "RELMCO, INC.": 55.0,
+        "FNH CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0662 6095",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 1810.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.7,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 1.7,
+        "ACME BRIDGE COMPANY, INC.": 1.6,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1.71,
+        "REECE ALBERT, INC.": 1.87,
+        "RELMCO, INC.": 1.65,
+        "FNH CONSTRUCTION, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0668 6055",
+      "description": "PRE PM TY B(ACC PRK)(BL&WH)(W/BORDR)LG",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 210.0,
+      "lowUnit": 550.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 550.0,
+        "ACME BRIDGE COMPANY, INC.": 531.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 588.43,
+        "REECE ALBERT, INC.": 622.55,
+        "RELMCO, INC.": 550.0,
+        "FNH CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 60.0,
+      "engEstUnit": 2.8,
+      "lowUnit": 16.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 16.0,
+        "ACME BRIDGE COMPANY, INC.": 15.9,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 18.42,
+        "REECE ALBERT, INC.": 18.68,
+        "RELMCO, INC.": 16.5,
+        "FNH CONSTRUCTION, LLC": 15.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 560.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 2.2,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 2.2,
+        "ACME BRIDGE COMPANY, INC.": 2.1,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 2.41,
+        "REECE ALBERT, INC.": 2.49,
+        "RELMCO, INC.": 2.2,
+        "FNH CONSTRUCTION, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0678 6001",
+      "description": "PAV SURF PREP FOR MRK (4\")",
+      "unit": "LF",
+      "quantity": 599.0,
+      "engEstUnit": 0.18,
+      "lowUnit": 1.1,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 1.1,
+        "ACME BRIDGE COMPANY, INC.": 1.05,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1.29,
+        "REECE ALBERT, INC.": 1.25,
+        "RELMCO, INC.": 1.1,
+        "FNH CONSTRUCTION, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 84.0,
+      "engEstUnit": 0.33,
+      "lowUnit": 1.1,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 1.1,
+        "ACME BRIDGE COMPANY, INC.": 1.05,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 2.47,
+        "REECE ALBERT, INC.": 1.25,
+        "RELMCO, INC.": 1.1,
+        "FNH CONSTRUCTION, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0690 6059",
+      "description": "INSTALL OF PEDESTRIAN RAMPS",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 5500.0,
+      "lowUnit": 1700.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 1700.0,
+        "ACME BRIDGE COMPANY, INC.": 1620.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 3167.97,
+        "REECE ALBERT, INC.": 1992.15,
+        "RELMCO, INC.": 2200.0,
+        "FNH CONSTRUCTION, LLC": 5000.0
+      }
+    },
+    {
+      "itemCode": "1004 6001",
+      "description": "TREE PROTECTION",
+      "unit": "EA",
+      "quantity": 48.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 110.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 110.0,
+        "ACME BRIDGE COMPANY, INC.": 110.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 177.01,
+        "REECE ALBERT, INC.": 124.51,
+        "RELMCO, INC.": 550.0,
+        "FNH CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 533.0,
+      "engEstUnit": 3.8,
+      "lowUnit": 5.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 5.0,
+        "ACME BRIDGE COMPANY, INC.": 5.1,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 8.36,
+        "REECE ALBERT, INC.": 3.2,
+        "RELMCO, INC.": 8.0,
+        "FNH CONSTRUCTION, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "5057 6001",
+      "description": "PRECAST CONCRETE WHEEL STOPS",
+      "unit": "EA",
+      "quantity": 23.0,
+      "engEstUnit": 240.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "DIAMOND X CONTRACTING, INC": 65.0,
+        "ACME BRIDGE COMPANY, INC.": 189.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 87.51,
+        "REECE ALBERT, INC.": 161.66,
+        "RELMCO, INC.": 500.0,
+        "FNH CONSTRUCTION, LLC": 500.0
+      }
+    }
+  ]
+}

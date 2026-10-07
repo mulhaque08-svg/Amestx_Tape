@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6383-75-001",
+    "county": "Trinity",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638375001",
+    "projectType": "CUTBACK",
+    "letDate": "06/22/21",
+    "engEstTotal": 60885.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 47025.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CLEVELAND ASPHALT PRODUCTS, INC.",
+      "totalBidAmount": 53955.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6001",
+      "description": "CUTBACK ASPHALT (RC-250)(DELIVERY)",
+      "unit": "GAL",
+      "quantity": 16500.0,
+      "engEstUnit": 3.69,
+      "lowUnit": 2.85,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.85,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 3.27
+      }
+    }
+  ]
+}

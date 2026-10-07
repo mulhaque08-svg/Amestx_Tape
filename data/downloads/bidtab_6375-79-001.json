@@ -1,0 +1,918 @@
+{
+  "metadata": {
+    "csj": "6375-79-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637579001",
+    "projectType": "TRAFFIC SIGNAL MAINTENANCE",
+    "letDate": "04/07/21",
+    "engEstTotal": 1117825.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AMERICAN LIGHTING AND SIGNALIZATION, LLC",
+      "totalBidAmount": 1153793.1
+    },
+    {
+      "rank": 2,
+      "vendorName": "WG ENGINEERING & CONSTRUCTION, LLC",
+      "totalBidAmount": 1369576.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "SELECT MAINTENANCE, L.L.C.",
+      "totalBidAmount": 1417325.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "DURABLE SPECIALTIES, INC.",
+      "totalBidAmount": 1425000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6014",
+      "description": "REMOVING CONC (FOUNDATIONS)",
+      "unit": "CY",
+      "quantity": 15.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 102.25,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 102.25,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 285.0,
+        "SELECT MAINTENANCE, L.L.C.": 300.0,
+        "DURABLE SPECIALTIES, INC.": 125.0
+      }
+    },
+    {
+      "itemCode": "0416 6029",
+      "description": "DRILL SHAFT (RDWY ILL POLE) (30 IN)",
+      "unit": "LF",
+      "quantity": 40.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 199.63,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 199.63,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 250.0,
+        "SELECT MAINTENANCE, L.L.C.": 450.0,
+        "DURABLE SPECIALTIES, INC.": 305.0
+      }
+    },
+    {
+      "itemCode": "0416 6030",
+      "description": "DRILL SHAFT (TRF SIG POLE) (24 IN)",
+      "unit": "LF",
+      "quantity": 80.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 150.62,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 150.62,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 200.0,
+        "SELECT MAINTENANCE, L.L.C.": 350.0,
+        "DURABLE SPECIALTIES, INC.": 270.0
+      }
+    },
+    {
+      "itemCode": "0416 6031",
+      "description": "DRILL SHAFT (TRF SIG POLE) (30 IN)",
+      "unit": "LF",
+      "quantity": 30.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 210.61,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 210.61,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 245.0,
+        "SELECT MAINTENANCE, L.L.C.": 350.0,
+        "DURABLE SPECIALTIES, INC.": 310.0
+      }
+    },
+    {
+      "itemCode": "0416 6032",
+      "description": "DRILL SHAFT (TRF SIG POLE) (36 IN)",
+      "unit": "LF",
+      "quantity": 30.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 362.53,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 362.53,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 305.0,
+        "SELECT MAINTENANCE, L.L.C.": 400.0,
+        "DURABLE SPECIALTIES, INC.": 395.0
+      }
+    },
+    {
+      "itemCode": "0416 6033",
+      "description": "DRILL SHAFT (TRF SIG POLE) (42 IN)",
+      "unit": "LF",
+      "quantity": 30.0,
+      "engEstUnit": 425.0,
+      "lowUnit": 362.26,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 362.26,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 340.0,
+        "SELECT MAINTENANCE, L.L.C.": 600.0,
+        "DURABLE SPECIALTIES, INC.": 425.0
+      }
+    },
+    {
+      "itemCode": "0416 6034",
+      "description": "DRILL SHAFT (TRF SIG POLE) (48 IN)",
+      "unit": "LF",
+      "quantity": 30.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 425.21,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 425.21,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 420.0,
+        "SELECT MAINTENANCE, L.L.C.": 650.0,
+        "DURABLE SPECIALTIES, INC.": 475.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 90.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 949.66,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 949.66,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1050.0,
+        "SELECT MAINTENANCE, L.L.C.": 600.0,
+        "DURABLE SPECIALTIES, INC.": 1055.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 2297.5,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2297.5,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 2500.0,
+        "SELECT MAINTENANCE, L.L.C.": 6000.0,
+        "DURABLE SPECIALTIES, INC.": 2440.0
+      }
+    },
+    {
+      "itemCode": "0531 6001",
+      "description": "CONC SIDEWALKS (4\")",
+      "unit": "SY",
+      "quantity": 50.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 48.02,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 48.02,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 60.0,
+        "SELECT MAINTENANCE, L.L.C.": 100.0,
+        "DURABLE SPECIALTIES, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0618 6016",
+      "description": "CONDT (PVC) (SCH 40) (1\")",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 4.49,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 4.49,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 8.0,
+        "SELECT MAINTENANCE, L.L.C.": 15.0,
+        "DURABLE SPECIALTIES, INC.": 9.0
+      }
+    },
+    {
+      "itemCode": "0618 6023",
+      "description": "CONDT (PVC) (SCH 40) (2\")",
+      "unit": "LF",
+      "quantity": 1500.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 11.94,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 11.94,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 11.5,
+        "SELECT MAINTENANCE, L.L.C.": 15.0,
+        "DURABLE SPECIALTIES, INC.": 11.0
+      }
+    },
+    {
+      "itemCode": "0618 6024",
+      "description": "CONDT (PVC) (SCH 40) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 750.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 23.85,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 23.85,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 18.0,
+        "SELECT MAINTENANCE, L.L.C.": 18.0,
+        "DURABLE SPECIALTIES, INC.": 22.0
+      }
+    },
+    {
+      "itemCode": "0618 6029",
+      "description": "CONDT (PVC) (SCH 40) (3\")",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 13.0,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 13.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 12.5,
+        "SELECT MAINTENANCE, L.L.C.": 10.0,
+        "DURABLE SPECIALTIES, INC.": 12.0
+      }
+    },
+    {
+      "itemCode": "0618 6030",
+      "description": "CONDT (PVC) (SCH 40) (3\") (BORE)",
+      "unit": "LF",
+      "quantity": 1000.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 22.03,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 22.03,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 22.0,
+        "SELECT MAINTENANCE, L.L.C.": 30.0,
+        "DURABLE SPECIALTIES, INC.": 24.0
+      }
+    },
+    {
+      "itemCode": "0618 6033",
+      "description": "CONDT (PVC) (SCH 40) (4\")",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 15.4,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 15.4,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 14.0,
+        "SELECT MAINTENANCE, L.L.C.": 16.0,
+        "DURABLE SPECIALTIES, INC.": 14.0
+      }
+    },
+    {
+      "itemCode": "0618 6034",
+      "description": "CONDT (PVC) (SCH 40) (4\") (BORE)",
+      "unit": "LF",
+      "quantity": 1000.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 26.93,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 26.93,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 27.0,
+        "SELECT MAINTENANCE, L.L.C.": 23.0,
+        "DURABLE SPECIALTIES, INC.": 27.0
+      }
+    },
+    {
+      "itemCode": "0618 6046",
+      "description": "CONDT (PVC) (SCH 80) (2\")",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 12.79,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 12.79,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 13.0,
+        "SELECT MAINTENANCE, L.L.C.": 15.0,
+        "DURABLE SPECIALTIES, INC.": 9.0
+      }
+    },
+    {
+      "itemCode": "0618 6047",
+      "description": "CONDT (PVC) (SCH 80) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 24.15,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 24.15,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 22.0,
+        "SELECT MAINTENANCE, L.L.C.": 18.0,
+        "DURABLE SPECIALTIES, INC.": 22.0
+      }
+    },
+    {
+      "itemCode": "0618 6064",
+      "description": "CONDT (RM) (1\")",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 9.17,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 9.17,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 14.0,
+        "SELECT MAINTENANCE, L.L.C.": 15.0,
+        "DURABLE SPECIALTIES, INC.": 14.0
+      }
+    },
+    {
+      "itemCode": "0618 6068",
+      "description": "CONDT (RM) (1 1/2\")",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 11.21,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 11.21,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 17.0,
+        "SELECT MAINTENANCE, L.L.C.": 18.0,
+        "DURABLE SPECIALTIES, INC.": 14.0
+      }
+    },
+    {
+      "itemCode": "0618 6070",
+      "description": "CONDT (RM) (2\")",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 16.16,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 16.16,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 24.0,
+        "SELECT MAINTENANCE, L.L.C.": 20.0,
+        "DURABLE SPECIALTIES, INC.": 16.0
+      }
+    },
+    {
+      "itemCode": "0618 6074",
+      "description": "CONDT (RM) (3\")",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 22.61,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 22.61,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 42.0,
+        "SELECT MAINTENANCE, L.L.C.": 30.0,
+        "DURABLE SPECIALTIES, INC.": 18.0
+      }
+    },
+    {
+      "itemCode": "0618 6078",
+      "description": "CONDT (RM) (4\")",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 51.19,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 51.19,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 45.0,
+        "SELECT MAINTENANCE, L.L.C.": 35.0,
+        "DURABLE SPECIALTIES, INC.": 55.0
+      }
+    },
+    {
+      "itemCode": "0620 6003",
+      "description": "ELEC CONDR (NO.12) BARE",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.8,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 0.8,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1.25,
+        "SELECT MAINTENANCE, L.L.C.": 2.5,
+        "DURABLE SPECIALTIES, INC.": 1.25
+      }
+    },
+    {
+      "itemCode": "0620 6004",
+      "description": "ELEC CONDR (NO.12) INSULATED",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.11,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1.11,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1.25,
+        "SELECT MAINTENANCE, L.L.C.": 3.0,
+        "DURABLE SPECIALTIES, INC.": 1.25
+      }
+    },
+    {
+      "itemCode": "0620 6005",
+      "description": "ELEC CONDR (NO.10) BARE",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.96,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 0.96,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1.45,
+        "SELECT MAINTENANCE, L.L.C.": 3.0,
+        "DURABLE SPECIALTIES, INC.": 1.25
+      }
+    },
+    {
+      "itemCode": "0620 6006",
+      "description": "ELEC CONDR (NO.10) INSULATED",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.13,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1.13,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1.45,
+        "SELECT MAINTENANCE, L.L.C.": 3.0,
+        "DURABLE SPECIALTIES, INC.": 1.25
+      }
+    },
+    {
+      "itemCode": "0620 6007",
+      "description": "ELEC CONDR (NO.8) BARE",
+      "unit": "LF",
+      "quantity": 1500.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.72,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1.72,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1.7,
+        "SELECT MAINTENANCE, L.L.C.": 3.0,
+        "DURABLE SPECIALTIES, INC.": 2.25
+      }
+    },
+    {
+      "itemCode": "0620 6008",
+      "description": "ELEC CONDR (NO.8) INSULATED",
+      "unit": "LF",
+      "quantity": 3000.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.98,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1.98,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1.7,
+        "SELECT MAINTENANCE, L.L.C.": 3.0,
+        "DURABLE SPECIALTIES, INC.": 2.25
+      }
+    },
+    {
+      "itemCode": "0620 6009",
+      "description": "ELEC CONDR (NO.6) BARE",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.89,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2.89,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 2.0,
+        "SELECT MAINTENANCE, L.L.C.": 3.0,
+        "DURABLE SPECIALTIES, INC.": 3.25
+      }
+    },
+    {
+      "itemCode": "0620 6010",
+      "description": "ELEC CONDR (NO.6) INSULATED",
+      "unit": "LF",
+      "quantity": 1000.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.94,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2.94,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 2.0,
+        "SELECT MAINTENANCE, L.L.C.": 3.0,
+        "DURABLE SPECIALTIES, INC.": 3.25
+      }
+    },
+    {
+      "itemCode": "0620 6011",
+      "description": "ELEC CONDR (NO.4) BARE",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.97,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2.97,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3.3,
+        "SELECT MAINTENANCE, L.L.C.": 3.0,
+        "DURABLE SPECIALTIES, INC.": 4.25
+      }
+    },
+    {
+      "itemCode": "0620 6012",
+      "description": "ELEC CONDR (NO.4) INSULATED",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.72,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 3.72,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3.3,
+        "SELECT MAINTENANCE, L.L.C.": 3.0,
+        "DURABLE SPECIALTIES, INC.": 4.25
+      }
+    },
+    {
+      "itemCode": "0620 6015",
+      "description": "ELEC CONDR (NO.2) BARE",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.87,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 3.87,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 5.0,
+        "SELECT MAINTENANCE, L.L.C.": 2.5,
+        "DURABLE SPECIALTIES, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0620 6016",
+      "description": "ELEC CONDR (NO.2) INSULATED",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.88,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 3.88,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 5.0,
+        "SELECT MAINTENANCE, L.L.C.": 2.5,
+        "DURABLE SPECIALTIES, INC.": 4.25
+      }
+    },
+    {
+      "itemCode": "0621 6002",
+      "description": "TRAY CABLE (3 CONDR) (12 AWG)",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 1.79,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1.79,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 2.5,
+        "SELECT MAINTENANCE, L.L.C.": 2.5,
+        "DURABLE SPECIALTIES, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0621 6004",
+      "description": "TRAY CABLE (3 CONDR) (8 AWG)",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 4.28,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 4.28,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 4.3,
+        "SELECT MAINTENANCE, L.L.C.": 2.5,
+        "DURABLE SPECIALTIES, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0624 6002",
+      "description": "GROUND BOX TY A (122311)W/APRON",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 1110.55,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1110.55,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 980.0,
+        "SELECT MAINTENANCE, L.L.C.": 2000.0,
+        "DURABLE SPECIALTIES, INC.": 1025.0
+      }
+    },
+    {
+      "itemCode": "0624 6008",
+      "description": "GROUND BOX TY C (162911)W/APRON",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 1115.7,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1115.7,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1050.0,
+        "SELECT MAINTENANCE, L.L.C.": 2000.0,
+        "DURABLE SPECIALTIES, INC.": 1040.0
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 1297.02,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1297.02,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1150.0,
+        "SELECT MAINTENANCE, L.L.C.": 2000.0,
+        "DURABLE SPECIALTIES, INC.": 1055.0
+      }
+    },
+    {
+      "itemCode": "0624 6028",
+      "description": "REMOVE GROUND BOX",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 248.56,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 248.56,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 200.0,
+        "SELECT MAINTENANCE, L.L.C.": 150.0,
+        "DURABLE SPECIALTIES, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0625 6001",
+      "description": "ZINC-COAT STL WIRE STRAND (1/4\")",
+      "unit": "LF",
+      "quantity": 5000.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 1.33,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1.33,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 2.5,
+        "SELECT MAINTENANCE, L.L.C.": 5.0,
+        "DURABLE SPECIALTIES, INC.": 3.25
+      }
+    },
+    {
+      "itemCode": "0625 6002",
+      "description": "ZINC-COAT STL WIRE STRAND (3/16\")",
+      "unit": "LF",
+      "quantity": 5000.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 3.0,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 3.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 2.5,
+        "SELECT MAINTENANCE, L.L.C.": 6.0,
+        "DURABLE SPECIALTIES, INC.": 3.25
+      }
+    },
+    {
+      "itemCode": "0625 6003",
+      "description": "ZINC-COAT STL WIRE STRAND (3/8\")",
+      "unit": "LF",
+      "quantity": 5000.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 2.6,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2.6,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3.5,
+        "SELECT MAINTENANCE, L.L.C.": 6.0,
+        "DURABLE SPECIALTIES, INC.": 3.25
+      }
+    },
+    {
+      "itemCode": "0625 6004",
+      "description": "ZINC-COAT STL WIRE STRAND (5/16\")",
+      "unit": "LF",
+      "quantity": 5000.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 3.63,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 3.63,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3.5,
+        "SELECT MAINTENANCE, L.L.C.": 6.0,
+        "DURABLE SPECIALTIES, INC.": 3.25
+      }
+    },
+    {
+      "itemCode": "0628 6002",
+      "description": "REMOVE ELECTRICAL SERVICES",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 777.6,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 777.6,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 500.0,
+        "SELECT MAINTENANCE, L.L.C.": 450.0,
+        "DURABLE SPECIALTIES, INC.": 150.0
+      }
+    },
+    {
+      "itemCode": "0628 6185",
+      "description": "ELC SRV TY D 120/240 070(NS)SS(E)GC(O)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 7000.0,
+      "lowUnit": 7130.06,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 7130.06,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 7258.0,
+        "SELECT MAINTENANCE, L.L.C.": 8000.0,
+        "DURABLE SPECIALTIES, INC.": 9000.0
+      }
+    },
+    {
+      "itemCode": "0628 6187",
+      "description": "ELC SRV TY D 120/240 070(NS)SS(E)PS(U)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 7000.0,
+      "lowUnit": 6857.83,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 6857.83,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 6285.0,
+        "SELECT MAINTENANCE, L.L.C.": 8000.0,
+        "DURABLE SPECIALTIES, INC.": 7500.0
+      }
+    },
+    {
+      "itemCode": "0684 6031",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(5 CONDR)",
+      "unit": "LF",
+      "quantity": 1000.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.95,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1.95,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 2.0,
+        "SELECT MAINTENANCE, L.L.C.": 6.0,
+        "DURABLE SPECIALTIES, INC.": 3.25
+      }
+    },
+    {
+      "itemCode": "0684 6033",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(7 CONDR)",
+      "unit": "LF",
+      "quantity": 2500.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.92,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2.92,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 2.0,
+        "SELECT MAINTENANCE, L.L.C.": 6.0,
+        "DURABLE SPECIALTIES, INC.": 3.25
+      }
+    },
+    {
+      "itemCode": "0684 6035",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(9 CONDR)",
+      "unit": "LF",
+      "quantity": 5000.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 2.93,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2.93,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 2.3,
+        "SELECT MAINTENANCE, L.L.C.": 7.0,
+        "DURABLE SPECIALTIES, INC.": 4.25
+      }
+    },
+    {
+      "itemCode": "0684 6038",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(12 CONDR)",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.89,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 3.89,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3.0,
+        "SELECT MAINTENANCE, L.L.C.": 7.0,
+        "DURABLE SPECIALTIES, INC.": 4.25
+      }
+    },
+    {
+      "itemCode": "0684 6042",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(16 CONDR)",
+      "unit": "LF",
+      "quantity": 5000.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 3.99,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 3.99,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3.0,
+        "SELECT MAINTENANCE, L.L.C.": 7.0,
+        "DURABLE SPECIALTIES, INC.": 4.25
+      }
+    },
+    {
+      "itemCode": "0684 6046",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(20 CONDR)",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 5.86,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 5.86,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3.5,
+        "SELECT MAINTENANCE, L.L.C.": 10.0,
+        "DURABLE SPECIALTIES, INC.": 6.25
+      }
+    },
+    {
+      "itemCode": "0684 6079",
+      "description": "TRF SIG CBL (TY C)(12 AWG)(2 CONDR)",
+      "unit": "LF",
+      "quantity": 1000.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 0.97,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 0.97,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 2.0,
+        "SELECT MAINTENANCE, L.L.C.": 7.0,
+        "DURABLE SPECIALTIES, INC.": 1.25
+      }
+    },
+    {
+      "itemCode": "0684 6080",
+      "description": "TRF SIG CBL (TY C)(14 AWG)(2 CONDR)",
+      "unit": "LF",
+      "quantity": 3000.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 0.94,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 0.94,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 2.2,
+        "SELECT MAINTENANCE, L.L.C.": 5.0,
+        "DURABLE SPECIALTIES, INC.": 1.25
+      }
+    },
+    {
+      "itemCode": "0688 6004",
+      "description": "VEH LP DETECT (SAWCUT)",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 12.5,
+      "lowUnit": 14.78,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 14.78,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 15.0,
+        "SELECT MAINTENANCE, L.L.C.": 12.0,
+        "DURABLE SPECIALTIES, INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 25.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 67.48,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 67.48,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 260.0,
+        "SELECT MAINTENANCE, L.L.C.": 75.0,
+        "DURABLE SPECIALTIES, INC.": 75.0
+      }
+    },
+    {
+      "itemCode": "6027 6003",
+      "description": "CONDUIT (PREPARE)",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.99,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1.99,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 2.0,
+        "SELECT MAINTENANCE, L.L.C.": 1.8,
+        "DURABLE SPECIALTIES, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "6027 6008",
+      "description": "GROUND BOX (PREPARE)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 82.16,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 82.16,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 250.0,
+        "SELECT MAINTENANCE, L.L.C.": 250.0,
+        "DURABLE SPECIALTIES, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "6216 6001",
+      "description": "PREVENTATIVE MAINT (TRAFFIC SIGNALS)",
+      "unit": "EA",
+      "quantity": 350.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 974.29,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 974.29,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1485.0,
+        "SELECT MAINTENANCE, L.L.C.": 350.0,
+        "DURABLE SPECIALTIES, INC.": 1490.0
+      }
+    },
+    {
+      "itemCode": "6306 6007",
+      "description": "VIVDS CABLING",
+      "unit": "LF",
+      "quantity": 5000.0,
+      "engEstUnit": 2.25,
+      "lowUnit": 2.12,
+      "bidders": {
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2.12,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3.0,
+        "SELECT MAINTENANCE, L.L.C.": 3.5,
+        "DURABLE SPECIALTIES, INC.": 3.0
+      }
+    }
+  ]
+}

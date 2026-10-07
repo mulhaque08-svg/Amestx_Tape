@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6379-55-001",
+    "county": "Shelby",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637955001",
+    "projectType": "HYDRAULIC CEMENT",
+    "letDate": "04/27/21",
+    "engEstTotal": 188919.2,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MESA D CORP.",
+      "totalBidAmount": 204291.52
+    },
+    {
+      "rank": 2,
+      "vendorName": "AKA-MATERIALS",
+      "totalBidAmount": 205252.2
+    },
+    {
+      "rank": 3,
+      "vendorName": "KLP COMMERCIAL, L.L.C.",
+      "totalBidAmount": 219953.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 299727.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8012 6002",
+      "description": "HYDRAULIC CEMENT(TY I)(DEL)(SITE 2)",
+      "unit": "TON",
+      "quantity": 250.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 184.0,
+      "bidders": {
+        "MESA D CORP.": 184.0,
+        "AKA-MATERIALS": 205.0,
+        "KLP COMMERCIAL, L.L.C.": 220.0,
+        "DIGG COMMERCIAL, LLC": 275.0
+      }
+    },
+    {
+      "itemCode": "8012 6003",
+      "description": "HYDRAULIC CEMENT(TY I)(DEL)(SITE 3)",
+      "unit": "TON",
+      "quantity": 475.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 184.0,
+      "bidders": {
+        "MESA D CORP.": 184.0,
+        "AKA-MATERIALS": 205.0,
+        "KLP COMMERCIAL, L.L.C.": 219.0,
+        "DIGG COMMERCIAL, LLC": 275.0
+      }
+    },
+    {
+      "itemCode": "8012 6018",
+      "description": "HYDRAULIC CEMENT(TY I)(47LB)",
+      "unit": "BAG",
+      "quantity": 7168.0,
+      "engEstUnit": 8.15,
+      "lowUnit": 9.89,
+      "bidders": {
+        "MESA D CORP.": 9.89,
+        "AKA-MATERIALS": 7.9,
+        "KLP COMMERCIAL, L.L.C.": 8.5,
+        "DIGG COMMERCIAL, LLC": 14.0
+      }
+    }
+  ]
+}

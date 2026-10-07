@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6379-28-001",
+    "county": "Jefferson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637928001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "04/13/21",
+    "engEstTotal": 24500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 23100.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 25200.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 36400.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6078",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 1)",
+      "unit": "TON",
+      "quantity": 700.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 33.0,
+      "bidders": {
+        "MARTIN MARIETTA MATERIALS, INC.": 33.0,
+        "TEXAS MATERIALS GROUP, INC.": 36.0,
+        "DIGG COMMERCIAL, LLC": 52.0
+      }
+    }
+  ]
+}

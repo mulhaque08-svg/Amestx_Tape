@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6380-66-001",
+    "county": "Midland",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638066001",
+    "projectType": "EMULSION",
+    "letDate": "04/27/21",
+    "engEstTotal": 88500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "WRIGHT ASPHALT PRODUCTS COMPANY LLC",
+      "totalBidAmount": 85680.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 98040.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6020",
+      "description": "EMULSION(CHFRS-2P)(DEL)(GAL)(SITE 1)",
+      "unit": "GAL",
+      "quantity": 6000.0,
+      "engEstUnit": 2.75,
+      "lowUnit": 2.63,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 2.63,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.95
+      }
+    },
+    {
+      "itemCode": "8010 6088",
+      "description": "EMULSION(CSS-1H)(DEL)(GAL)(SITE 1)",
+      "unit": "GAL",
+      "quantity": 6000.0,
+      "engEstUnit": 2.4,
+      "lowUnit": 2.33,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 2.33,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.7
+      }
+    },
+    {
+      "itemCode": "8010 6089",
+      "description": "EMULSION(CSS-1H)(DEL)(GAL)(SITE 2)",
+      "unit": "GAL",
+      "quantity": 6000.0,
+      "engEstUnit": 2.4,
+      "lowUnit": 2.33,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 2.33,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.68
+      }
+    },
+    {
+      "itemCode": "8010 6090",
+      "description": "EMULSION(CSS-1H)(DEL)(GAL)(SITE 3)",
+      "unit": "GAL",
+      "quantity": 12000.0,
+      "engEstUnit": 2.4,
+      "lowUnit": 2.33,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 2.33,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.67
+      }
+    },
+    {
+      "itemCode": "8010 6091",
+      "description": "EMULSION(CSS-1H)(DEL)(GAL)(SITE 4)",
+      "unit": "GAL",
+      "quantity": 6000.0,
+      "engEstUnit": 2.4,
+      "lowUnit": 2.33,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 2.33,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.67
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6379-30-001",
+    "county": "Tyler",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637930001",
+    "projectType": "EMULSION",
+    "letDate": "04/13/21",
+    "engEstTotal": 2050.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CLEVELAND ASPHALT PRODUCTS, INC.",
+      "totalBidAmount": 1850.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ERGON ASPHALT & EMULSIONS, INC.",
+      "totalBidAmount": 2250.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6141",
+      "description": "EMULS (SS-1)(PICK UP)",
+      "unit": "GAL",
+      "quantity": 1000.0,
+      "engEstUnit": 2.05,
+      "lowUnit": 1.85,
+      "bidders": {
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 1.85,
+        "ERGON ASPHALT & EMULSIONS, INC.": 2.25
+      }
+    }
+  ]
+}

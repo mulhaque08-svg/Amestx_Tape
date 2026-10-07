@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6377-45-001",
+    "county": "Lubbock",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637745001",
+    "projectType": "ASPHALT",
+    "letDate": "04/06/21",
+    "engEstTotal": 295500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 247250.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6001",
+      "description": "CUTBACK ASPHALT (RC-250)(DELIVERY)",
+      "unit": "GAL",
+      "quantity": 70000.0,
+      "engEstUnit": 3.9,
+      "lowUnit": 3.29,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.29
+      }
+    },
+    {
+      "itemCode": "8010 6002",
+      "description": "CUTBACK ASPHALT (MC-30)(DELIVERY)",
+      "unit": "GAL",
+      "quantity": 5000.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 3.39,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.39
+      }
+    }
+  ]
+}

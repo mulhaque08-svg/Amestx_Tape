@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "csj": "6380-03-001",
+    "county": "Stonewall",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638003001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "04/20/21",
+    "engEstTotal": 126472.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "NOMAD MEDIAN SERVICES LLC",
+      "totalBidAmount": 100718.61
+    },
+    {
+      "rank": 2,
+      "vendorName": "KENNETH THOMASON",
+      "totalBidAmount": 101984.8
+    },
+    {
+      "rank": 3,
+      "vendorName": "TRIPLE T MAINTENANCE INC.",
+      "totalBidAmount": 105173.35
+    },
+    {
+      "rank": 4,
+      "vendorName": "TOP NOTCH FOAM",
+      "totalBidAmount": 111525.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "FOUR R OILFIELD SERVICES, LLC",
+      "totalBidAmount": 111824.14
+    },
+    {
+      "rank": 6,
+      "vendorName": "GREG SCRUGGS",
+      "totalBidAmount": 116756.85
+    },
+    {
+      "rank": 7,
+      "vendorName": "GORMAN OUTDOOR, INC.",
+      "totalBidAmount": 141019.0
+    },
+    {
+      "rank": 8,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 169571.01
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "NOMAD MEDIAN SERVICES LLC": 500.0,
+        "KENNETH THOMASON": 1.0,
+        "TRIPLE T MAINTENANCE INC.": 225.0,
+        "TOP NOTCH FOAM": 2000.0,
+        "FOUR R OILFIELD SERVICES, LLC": 1.0,
+        "GREG SCRUGGS": 0.001
+      }
+    },
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 577.0,
+      "engEstUnit": 28.5,
+      "lowUnit": 24.93,
+      "bidders": {
+        "NOMAD MEDIAN SERVICES LLC": 24.93,
+        "KENNETH THOMASON": 10.0,
+        "TRIPLE T MAINTENANCE INC.": 24.99,
+        "TOP NOTCH FOAM": 15.0,
+        "FOUR R OILFIELD SERVICES, LLC": 26.0,
+        "GREG SCRUGGS": 26.95
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 2788.0,
+      "engEstUnit": 28.5,
+      "lowUnit": 24.93,
+      "bidders": {
+        "NOMAD MEDIAN SERVICES LLC": 24.93,
+        "KENNETH THOMASON": 26.85,
+        "TRIPLE T MAINTENANCE INC.": 24.99,
+        "TOP NOTCH FOAM": 27.0,
+        "FOUR R OILFIELD SERVICES, LLC": 25.49,
+        "GREG SCRUGGS": 26.95
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "NOMAD MEDIAN SERVICES LLC": 10.0,
+        "KENNETH THOMASON": 5.0,
+        "TRIPLE T MAINTENANCE INC.": 0.01,
+        "TOP NOTCH FOAM": 30.0,
+        "FOUR R OILFIELD SERVICES, LLC": 0.5,
+        "GREG SCRUGGS": 0.001
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 1738.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 8.82,
+      "bidders": {
+        "NOMAD MEDIAN SERVICES LLC": 8.82,
+        "KENNETH THOMASON": 12.0,
+        "TRIPLE T MAINTENANCE INC.": 12.0,
+        "TOP NOTCH FOAM": 13.0,
+        "FOUR R OILFIELD SERVICES, LLC": 14.79,
+        "GREG SCRUGGS": 15.0
+      }
+    }
+  ]
+}

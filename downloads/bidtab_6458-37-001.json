@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6458-37-001",
+    "county": "Fannin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 645837001",
+    "projectType": "LIMESTONE ROCK ASPHALT",
+    "letDate": "11/16/23",
+    "engEstTotal": 240000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 250275.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 267720.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8040 6037",
+      "description": "LRA (TY I GR B) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 166.85,
+      "bidders": {
+        "MARTIN MARIETTA MATERIALS, INC.": 166.85,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 178.48
+      }
+    }
+  ]
+}

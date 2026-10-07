@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6448-31-001",
+    "county": "Jim Wells",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 644831001",
+    "projectType": "HOT MIX",
+    "letDate": "07/18/23",
+    "engEstTotal": 289500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ANDERSON COLUMBIA CO., INC.",
+      "totalBidAmount": 295150.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 363000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 300.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 91.0,
+      "bidders": {
+        "ANDERSON COLUMBIA CO., INC.": 91.0,
+        "TOUCHSTONE RESOURCES, LLC": 110.0
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2200.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 121.75,
+      "bidders": {
+        "ANDERSON COLUMBIA CO., INC.": 121.75,
+        "TOUCHSTONE RESOURCES, LLC": 150.0
+      }
+    }
+  ]
+}

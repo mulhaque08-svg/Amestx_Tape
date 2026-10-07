@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "csj": "6442-38-001",
+    "county": "Milam",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 644238001",
+    "projectType": "WINTER WEATHER MATERIAL",
+    "letDate": "08/02/23",
+    "engEstTotal": 430000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SOUTHWEST ENVIROTX PARTNERS, LLC",
+      "totalBidAmount": 341200.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 507200.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8042 6381",
+      "description": "BRINE SOLUTION(PICKUP)",
+      "unit": "GAL",
+      "quantity": 40000.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.33,
+      "bidders": {
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 0.33,
+        "TOUCHSTONE RESOURCES, LLC": 0.43
+      }
+    },
+    {
+      "itemCode": "8042 6400",
+      "description": "BRINE SOLUTION(PICKUP)(EXP)",
+      "unit": "GAL",
+      "quantity": 200000.0,
+      "engEstUnit": 0.35,
+      "lowUnit": 0.33,
+      "bidders": {
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 0.33,
+        "TOUCHSTONE RESOURCES, LLC": 0.45
+      }
+    },
+    {
+      "itemCode": "8042 6420",
+      "description": "FRACKING BRINE SOL(DEL)(SITE 1)",
+      "unit": "GAL",
+      "quantity": 80000.0,
+      "engEstUnit": 0.55,
+      "lowUnit": 0.45,
+      "bidders": {
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 0.45,
+        "TOUCHSTONE RESOURCES, LLC": 0.6
+      }
+    },
+    {
+      "itemCode": "8042 6421",
+      "description": "FRACKING BRINE SOL(DEL)(SITE 2)",
+      "unit": "GAL",
+      "quantity": 80000.0,
+      "engEstUnit": 0.55,
+      "lowUnit": 0.43,
+      "bidders": {
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 0.43,
+        "TOUCHSTONE RESOURCES, LLC": 0.6
+      }
+    },
+    {
+      "itemCode": "8042 6422",
+      "description": "FRACKING BRINE SOL(DEL)(SITE 3)",
+      "unit": "GAL",
+      "quantity": 80000.0,
+      "engEstUnit": 0.55,
+      "lowUnit": 0.43,
+      "bidders": {
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 0.43,
+        "TOUCHSTONE RESOURCES, LLC": 0.65
+      }
+    },
+    {
+      "itemCode": "8042 6439",
+      "description": "FRACKING BRINE SOL(DEL)(SITE 1)(EXP)",
+      "unit": "GAL",
+      "quantity": 120000.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 0.45,
+      "bidders": {
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 0.45,
+        "TOUCHSTONE RESOURCES, LLC": 0.7
+      }
+    },
+    {
+      "itemCode": "8042 6440",
+      "description": "FRACKING BRINE SOL(DEL)(SITE 2)(EXP)",
+      "unit": "GAL",
+      "quantity": 120000.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 0.43,
+      "bidders": {
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 0.43,
+        "TOUCHSTONE RESOURCES, LLC": 0.7
+      }
+    },
+    {
+      "itemCode": "8042 6441",
+      "description": "FRACKING BRINE SOL(DEL)(SITE 3)(EXP)",
+      "unit": "GAL",
+      "quantity": 120000.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 0.43,
+      "bidders": {
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 0.43,
+        "TOUCHSTONE RESOURCES, LLC": 0.7
+      }
+    }
+  ]
+}

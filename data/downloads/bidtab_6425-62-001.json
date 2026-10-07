@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6425-62-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642562001",
+    "projectType": "POTHOLE REPAIR",
+    "letDate": "03/07/23",
+    "engEstTotal": 553500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "PATHFIELD INVESTMENTS LLC",
+      "totalBidAmount": 864000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6003",
+      "description": "MOBILIZATION (CALLOUT 1)",
+      "unit": "EA",
+      "quantity": 60.0,
+      "engEstUnit": 1625.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 2500.0
+      }
+    },
+    {
+      "itemCode": "0700 6002",
+      "description": "POTHOLE REPAIR (STANDARD)",
+      "unit": "CY",
+      "quantity": 600.0,
+      "engEstUnit": 720.0,
+      "lowUnit": 1090.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 1090.0
+      }
+    }
+  ]
+}

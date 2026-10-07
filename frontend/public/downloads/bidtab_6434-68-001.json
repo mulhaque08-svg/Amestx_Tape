@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6434-68-001",
+    "county": "Montgomery",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643468001",
+    "projectType": "HIGH EDGE REMOVAL",
+    "letDate": "10/05/23",
+    "engEstTotal": 398047.8,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 310761.6
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 331721.6
+    },
+    {
+      "rank": 3,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 388889.4
+    },
+    {
+      "rank": 4,
+      "vendorName": "ISI CONTRACTING, INC.",
+      "totalBidAmount": 499578.72
+    },
+    {
+      "rank": 5,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 1147718.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0150 6001",
+      "description": "BLADING",
+      "unit": "STA",
+      "quantity": 421.0,
+      "engEstUnit": 135.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 60.0,
+        "TEXAS DRAINAGE INC.": 110.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 120.0,
+        "ISI CONTRACTING, INC.": 12.0,
+        "FNH CONSTRUCTION, LLC": 550.0
+      }
+    },
+    {
+      "itemCode": "0150 6003",
+      "description": "BLADING",
+      "unit": "LF",
+      "quantity": 258556.0,
+      "engEstUnit": 1.3,
+      "lowUnit": 1.1,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 1.1,
+        "TEXAS DRAINAGE INC.": 1.1,
+        "GARRET SHIELDS INFRASTRUCTURE": 1.15,
+        "ISI CONTRACTING, INC.": 0.12,
+        "FNH CONSTRUCTION, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 1000.0,
+        "TEXAS DRAINAGE INC.": 100.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 5000.0,
+        "ISI CONTRACTING, INC.": 4500.0,
+        "FNH CONSTRUCTION, LLC": 100000.0
+      }
+    }
+  ]
+}

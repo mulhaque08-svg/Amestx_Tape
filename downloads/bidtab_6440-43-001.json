@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6440-43-001",
+    "county": "Sutton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644043001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "06/13/23",
+    "engEstTotal": 250862.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CM COMPANY",
+      "totalBidAmount": 201406.2
+    },
+    {
+      "rank": 2,
+      "vendorName": "SQUARE G, INC.",
+      "totalBidAmount": 233389.32
+    },
+    {
+      "rank": 3,
+      "vendorName": "USA DT SERVICES, INC.",
+      "totalBidAmount": 238785.19
+    },
+    {
+      "rank": 4,
+      "vendorName": "CONCAN SERVICES LLC",
+      "totalBidAmount": 254730.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 261749.08
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 2052.0,
+      "engEstUnit": 34.0,
+      "lowUnit": 28.9,
+      "bidders": {
+        "CM COMPANY": 28.9,
+        "SQUARE G, INC.": 33.49,
+        "USA DT SERVICES, INC.": 27.2,
+        "CONCAN SERVICES LLC": 35.0,
+        "R&M INCORPORATED": 37.56
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 4916.0,
+      "engEstUnit": 34.0,
+      "lowUnit": 28.9,
+      "bidders": {
+        "CM COMPANY": 28.9,
+        "SQUARE G, INC.": 33.49,
+        "USA DT SERVICES, INC.": 27.2,
+        "CONCAN SERVICES LLC": 35.0,
+        "R&M INCORPORATED": 37.56
+      }
+    }
+  ]
+}

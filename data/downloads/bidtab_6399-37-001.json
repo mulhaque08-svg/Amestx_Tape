@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6399-37-001",
+    "county": "Burleson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639937001",
+    "projectType": "ASPHALT",
+    "letDate": "04/05/22",
+    "engEstTotal": 204600.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 200100.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6003",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 83.0,
+      "lowUnit": 80.5,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 80.5
+      }
+    },
+    {
+      "itemCode": "8011 6004",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 94.0,
+      "lowUnit": 92.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 92.0
+      }
+    }
+  ]
+}

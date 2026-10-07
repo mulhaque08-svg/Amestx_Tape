@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "0920-00-170",
+    "county": "Jefferson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2B24(406)",
+    "projectType": "INSTALL ADVANCED TRAFFIC MANAGEMENT SYSTEM",
+    "letDate": "08/02/24",
+    "engEstTotal": 260000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRAF-TEX, INC.",
+      "totalBidAmount": 181194.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DECO CONTRACTORS, INC.",
+      "totalBidAmount": 298500.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DOMINION ENGINEERING MANAGEMENT SERVICES (DEMS), LLC",
+      "totalBidAmount": 306950.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 12533.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 12533.0,
+        "DECO CONTRACTORS, INC.": 28500.0,
+        "DOMINION ENGINEERING MANAGEMENT SERVICES (DEMS), LLC": 40000.0
+      }
+    },
+    {
+      "itemCode": "6293 6002",
+      "description": "ATSC (TY 2)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 35000.0,
+      "lowUnit": 22333.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 22333.0,
+        "DECO CONTRACTORS, INC.": 38500.0,
+        "DOMINION ENGINEERING MANAGEMENT SERVICES (DEMS), LLC": 33850.0
+      }
+    }
+  ]
+}

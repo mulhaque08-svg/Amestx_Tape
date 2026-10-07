@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "0920-00-161",
+    "county": "Jefferson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2024(720)",
+    "projectType": "INSTALL/REPLACE SIGNS",
+    "letDate": "02/02/24",
+    "engEstTotal": 830450.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "VACA UNDERGROUND UTILITIES INC",
+      "totalBidAmount": 721370.25
+    },
+    {
+      "rank": 2,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 723458.75
+    },
+    {
+      "rank": 3,
+      "vendorName": "BATTERSON, LLP",
+      "totalBidAmount": 818839.75
+    },
+    {
+      "rank": 4,
+      "vendorName": "MB WESTERN INDUSTRIAL CONTRACTING COMPANY",
+      "totalBidAmount": 938173.75
+    },
+    {
+      "rank": 5,
+      "vendorName": "SELECT MAINTENANCE, L.L.C.",
+      "totalBidAmount": 978950.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "HAZMAT INTERNATIONAL, INC.",
+      "totalBidAmount": 1046050.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 1107162.25
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 120000.0,
+      "lowUnit": 75000.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 75000.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 75000.0,
+        "BATTERSON, LLP": 22000.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 90500.0,
+        "SELECT MAINTENANCE, L.L.C.": 100000.0,
+        "HAZMAT INTERNATIONAL, INC.": 50000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 114.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 100.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 50.0,
+        "BATTERSON, LLP": 100.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 100.0,
+        "SELECT MAINTENANCE, L.L.C.": 125.0,
+        "HAZMAT INTERNATIONAL, INC.": 200.0
+      }
+    }
+  ]
+}

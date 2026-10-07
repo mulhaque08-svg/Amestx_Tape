@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6467-70-001",
+    "county": "Shelby",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646770001",
+    "projectType": "FLEXIBLE BASE/TY E/SHELBY (NAC & SAN AUG)",
+    "letDate": "05/30/24",
+    "engEstTotal": 210040.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 205000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 222970.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6063",
+      "description": "FL BS (SITE DEL) (TY E GR 2) (SITE 1)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 52.51,
+      "lowUnit": 52.5,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 52.5,
+        "TEXAS MATERIALS GROUP, INC.": 59.4
+      }
+    },
+    {
+      "itemCode": "8007 6065",
+      "description": "FL BS (SITE DEL) (TY E GR 2)  (SITE 2)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 52.51,
+      "lowUnit": 47.5,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 47.5,
+        "TEXAS MATERIALS GROUP, INC.": 53.37
+      }
+    },
+    {
+      "itemCode": "8007 6118",
+      "description": "FL BS (SITE DEL) (TY E GR 2) (SITE 3)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 52.51,
+      "lowUnit": 52.5,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 52.5,
+        "TEXAS MATERIALS GROUP, INC.": 50.8
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6391-23-001",
+    "county": "Upshur",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639123001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "11/17/21",
+    "engEstTotal": 163960.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SOUTHERN EDGE CONTRACTORS LLC",
+      "totalBidAmount": 174321.4
+    },
+    {
+      "rank": 2,
+      "vendorName": "HX FARMS, INC.",
+      "totalBidAmount": 195991.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "EASTGATE SERVICES",
+      "totalBidAmount": 209508.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 40.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 32.45,
+      "bidders": {
+        "SOUTHERN EDGE CONTRACTORS LLC": 32.45,
+        "HX FARMS, INC.": 1.0,
+        "EASTGATE SERVICES": 39.0
+      }
+    },
+    {
+      "itemCode": "0730 6056",
+      "description": "FULL - WIDTH MOWING - TRACT (3)",
+      "unit": "AC",
+      "quantity": 5332.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 32.45,
+      "bidders": {
+        "SOUTHERN EDGE CONTRACTORS LLC": 32.45,
+        "HX FARMS, INC.": 36.75,
+        "EASTGATE SERVICES": 39.0
+      }
+    }
+  ]
+}

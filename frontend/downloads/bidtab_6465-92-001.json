@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6465-92-001",
+    "county": "Kaufman",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646592001",
+    "projectType": "LIME",
+    "letDate": "06/11/24",
+    "engEstTotal": 15500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS LIME COMPANY",
+      "totalBidAmount": 13500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 15000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8017 6005",
+      "description": "LIME (HYD) (DRY) (SITE 1)",
+      "unit": "BAG",
+      "quantity": 500.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 13.5,
+      "bidders": {
+        "TEXAS LIME COMPANY": 13.5,
+        "TOUCHSTONE RESOURCES, LLC": 15.0
+      }
+    },
+    {
+      "itemCode": "8017 6006",
+      "description": "LIME (HYD) (DRY) (SITE 2)",
+      "unit": "BAG",
+      "quantity": 500.0,
+      "engEstUnit": 17.0,
+      "lowUnit": 13.5,
+      "bidders": {
+        "TEXAS LIME COMPANY": 13.5,
+        "TOUCHSTONE RESOURCES, LLC": 15.0
+      }
+    }
+  ]
+}

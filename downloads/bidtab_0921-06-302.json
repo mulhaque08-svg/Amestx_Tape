@@ -1,0 +1,834 @@
+{
+  "metadata": {
+    "csj": "0921-06-302",
+    "county": "Cameron",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2021(460)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "02/02/23",
+    "engEstTotal": 1998623.29,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "LUCANIA CONSTRUCTION LLC",
+      "totalBidAmount": 2309683.25
+    },
+    {
+      "rank": 2,
+      "vendorName": "FOREMOST PAVING, INC.",
+      "totalBidAmount": 2434143.6
+    },
+    {
+      "rank": 3,
+      "vendorName": "TEXAS CORDIA CONSTRUCTION, LLC",
+      "totalBidAmount": 2826899.68
+    },
+    {
+      "rank": 4,
+      "vendorName": "IOC COMPANY LLC",
+      "totalBidAmount": 2888504.11
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 6.75,
+      "engEstUnit": 3500.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 2500.0,
+        "FOREMOST PAVING, INC.": 5500.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 2300.0,
+        "IOC COMPANY LLC": 15000.0
+      }
+    },
+    {
+      "itemCode": "0104 6001",
+      "description": "REMOVING CONC (PAV)",
+      "unit": "SY",
+      "quantity": 61.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 80.0,
+        "FOREMOST PAVING, INC.": 50.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 58.0,
+        "IOC COMPANY LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 17.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 70.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 70.0,
+        "FOREMOST PAVING, INC.": 35.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 62.0,
+        "IOC COMPANY LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "0104 6022",
+      "description": "REMOVING CONC (CURB AND GUTTER)",
+      "unit": "LF",
+      "quantity": 167.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 15.0,
+        "FOREMOST PAVING, INC.": 12.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 9.0,
+        "IOC COMPANY LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0104 6067",
+      "description": "REMOVING CONC (SAWCUT)",
+      "unit": "LF",
+      "quantity": 196.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 20.0,
+        "FOREMOST PAVING, INC.": 8.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 23.0,
+        "IOC COMPANY LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0105 6043",
+      "description": "REMOVING STAB BASE & ASPH PAV (0-6\")",
+      "unit": "SY",
+      "quantity": 996.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 20.0,
+        "FOREMOST PAVING, INC.": 15.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 11.0,
+        "IOC COMPANY LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 152.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 15.0,
+        "FOREMOST PAVING, INC.": 55.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 19.0,
+        "IOC COMPANY LLC": 45.0
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 90.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 70.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 70.0,
+        "FOREMOST PAVING, INC.": 34.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 29.0,
+        "IOC COMPANY LLC": 45.0
+      }
+    },
+    {
+      "itemCode": "0132 6006",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY C)",
+      "unit": "CY",
+      "quantity": 618.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 25.0,
+        "FOREMOST PAVING, INC.": 55.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 25.0,
+        "IOC COMPANY LLC": 45.0
+      }
+    },
+    {
+      "itemCode": "0160 6003",
+      "description": "FURNISHING AND PLACING TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 1553.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 5.0,
+        "FOREMOST PAVING, INC.": 13.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 3.0,
+        "IOC COMPANY LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0164 6023",
+      "description": "CELL FBR MLCH SEED(PERM)(RURAL)(CLAY)",
+      "unit": "SY",
+      "quantity": 1553.0,
+      "engEstUnit": 0.45,
+      "lowUnit": 1.2,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 1.2,
+        "FOREMOST PAVING, INC.": 1.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 2.25,
+        "IOC COMPANY LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0164 6029",
+      "description": "CELL FBR MLCH SEED(TEMP)(WARM)",
+      "unit": "SY",
+      "quantity": 303.0,
+      "engEstUnit": 0.4,
+      "lowUnit": 1.2,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 1.2,
+        "FOREMOST PAVING, INC.": 1.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 8.0,
+        "IOC COMPANY LLC": 0.41
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 58.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 55.0,
+        "FOREMOST PAVING, INC.": 65.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 40.0,
+        "IOC COMPANY LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0169 6005",
+      "description": "SOIL RETENTION BLANKETS (CL 2) (TY E)",
+      "unit": "SY",
+      "quantity": 120.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 8.0,
+        "FOREMOST PAVING, INC.": 6.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 8.25,
+        "IOC COMPANY LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "0260 6043",
+      "description": "LIME (HYD, COM OR QK)(SLURRY)",
+      "unit": "TON",
+      "quantity": 4.0,
+      "engEstUnit": 210.0,
+      "lowUnit": 750.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 750.0,
+        "FOREMOST PAVING, INC.": 300.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 250.0,
+        "IOC COMPANY LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0260 6079",
+      "description": "LIME TRT (SUBGRADE)(6\")",
+      "unit": "SY",
+      "quantity": 412.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 10.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 10.0,
+        "FOREMOST PAVING, INC.": 30.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 15.0,
+        "IOC COMPANY LLC": 4.5
+      }
+    },
+    {
+      "itemCode": "0275 6001",
+      "description": "CEMENT",
+      "unit": "TON",
+      "quantity": 17.0,
+      "engEstUnit": 195.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 300.0,
+        "FOREMOST PAVING, INC.": 210.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 200.0,
+        "IOC COMPANY LLC": 210.0
+      }
+    },
+    {
+      "itemCode": "0275 6046",
+      "description": "CEMENT TREAT (NEW BASE)(11\")",
+      "unit": "SY",
+      "quantity": 2114.0,
+      "engEstUnit": 32.0,
+      "lowUnit": 14.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 14.0,
+        "FOREMOST PAVING, INC.": 11.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 4.0,
+        "IOC COMPANY LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "0310 6009",
+      "description": "PRIME COAT (MC-30)",
+      "unit": "GAL",
+      "quantity": 505.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 15.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 15.0,
+        "FOREMOST PAVING, INC.": 10.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 7.0,
+        "IOC COMPANY LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "0360 6001",
+      "description": "CONC PVMT (CONT REINF - CRCP) (7\")",
+      "unit": "SY",
+      "quantity": 372.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 120.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 120.0,
+        "FOREMOST PAVING, INC.": 175.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 170.0,
+        "IOC COMPANY LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 152.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 140.0,
+        "FOREMOST PAVING, INC.": 120.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 86.0,
+        "IOC COMPANY LLC": 145.0
+      }
+    },
+    {
+      "itemCode": "0416 6002",
+      "description": "DRILL SHAFT (24 IN)",
+      "unit": "LF",
+      "quantity": 882.0,
+      "engEstUnit": 290.0,
+      "lowUnit": 253.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 253.0,
+        "FOREMOST PAVING, INC.": 200.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 280.0,
+        "IOC COMPANY LLC": 210.0
+      }
+    },
+    {
+      "itemCode": "0422 6007",
+      "description": "REINF CONC SLAB (SLAB BEAM)",
+      "unit": "SF",
+      "quantity": 6720.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 28.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 28.0,
+        "FOREMOST PAVING, INC.": 16.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 45.0,
+        "IOC COMPANY LLC": 35.0
+      }
+    },
+    {
+      "itemCode": "0422 6013",
+      "description": "BRIDGE SIDEWALK",
+      "unit": "SF",
+      "quantity": 980.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 15.0,
+        "FOREMOST PAVING, INC.": 15.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 30.0,
+        "IOC COMPANY LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0432 6002",
+      "description": "RIPRAP (CONC)(5 IN)",
+      "unit": "CY",
+      "quantity": 65.0,
+      "engEstUnit": 375.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 600.0,
+        "FOREMOST PAVING, INC.": 800.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 800.0,
+        "IOC COMPANY LLC": 650.0
+      }
+    },
+    {
+      "itemCode": "0432 6031",
+      "description": "RIPRAP (STONE PROTECTION)(12 IN)",
+      "unit": "CY",
+      "quantity": 148.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 200.0,
+        "FOREMOST PAVING, INC.": 200.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 215.0,
+        "IOC COMPANY LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0432 6046",
+      "description": "RIPRAP (MOW STRIP)(5 IN)",
+      "unit": "CY",
+      "quantity": 9.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 300.0,
+        "FOREMOST PAVING, INC.": 1000.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 850.0,
+        "IOC COMPANY LLC": 800.0
+      }
+    },
+    {
+      "itemCode": "0454 6020",
+      "description": "SEALED EXPANSION JOINT (4 IN) (SEJ - B)",
+      "unit": "LF",
+      "quantity": 94.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 250.0,
+        "FOREMOST PAVING, INC.": 160.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 245.0,
+        "IOC COMPANY LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0466 6130",
+      "description": "HEADWALL (CH - PW - S) (DIA= 24 IN)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 7100.0,
+      "lowUnit": 3500.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 3500.0,
+        "FOREMOST PAVING, INC.": 6000.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 18600.0,
+        "IOC COMPANY LLC": 15000.0
+      }
+    },
+    {
+      "itemCode": "0466 6199",
+      "description": "WINGWALL (SW - 0) (HW=11 FT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 30000.0,
+      "lowUnit": 30000.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 30000.0,
+        "FOREMOST PAVING, INC.": 50000.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 19250.0,
+        "IOC COMPANY LLC": 50000.0
+      }
+    },
+    {
+      "itemCode": "0467 6337",
+      "description": "SET (TY II) (15 IN) (RCP) (3: 1) (P)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 500.0,
+        "FOREMOST PAVING, INC.": 1000.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1590.0,
+        "IOC COMPANY LLC": 3673.6
+      }
+    },
+    {
+      "itemCode": "0467 6363",
+      "description": "SET (TY II) (18 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1300.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 1000.0,
+        "FOREMOST PAVING, INC.": 1300.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1745.0,
+        "IOC COMPANY LLC": 3320.8
+      }
+    },
+    {
+      "itemCode": "0496 6006",
+      "description": "REMOV STR (HEADWALL)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 300.0,
+        "FOREMOST PAVING, INC.": 900.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 3250.0,
+        "IOC COMPANY LLC": 3679.82
+      }
+    },
+    {
+      "itemCode": "0496 6007",
+      "description": "REMOV STR (PIPE)",
+      "unit": "LF",
+      "quantity": 430.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 15.0,
+        "FOREMOST PAVING, INC.": 20.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 12.0,
+        "IOC COMPANY LLC": 25.0
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 18000.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 18000.0,
+        "FOREMOST PAVING, INC.": 30000.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 15000.0,
+        "IOC COMPANY LLC": 100000.0
+      }
+    },
+    {
+      "itemCode": "0496 6010",
+      "description": "REMOV STR (BRIDGE 100 - 499 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 50000.0,
+      "lowUnit": 50000.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 50000.0,
+        "FOREMOST PAVING, INC.": 95000.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 38000.0,
+        "IOC COMPANY LLC": 100000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 180106.19,
+      "lowUnit": 215000.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 215000.0,
+        "FOREMOST PAVING, INC.": 205000.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 250000.0,
+        "IOC COMPANY LLC": 275000.0
+      }
+    },
+    {
+      "itemCode": "0529 6002",
+      "description": "CONC CURB (TY II)",
+      "unit": "LF",
+      "quantity": 362.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 25.0,
+        "FOREMOST PAVING, INC.": 32.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 45.0,
+        "IOC COMPANY LLC": 41.22
+      }
+    },
+    {
+      "itemCode": "0529 6008",
+      "description": "CONC CURB & GUTTER (TY II)",
+      "unit": "LF",
+      "quantity": 51.0,
+      "engEstUnit": 23.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 35.0,
+        "FOREMOST PAVING, INC.": 75.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 60.0,
+        "IOC COMPANY LLC": 49.87
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 253.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 120.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 120.0,
+        "FOREMOST PAVING, INC.": 85.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 56.0,
+        "IOC COMPANY LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0531 6003",
+      "description": "CONC SIDEWALKS (6\")",
+      "unit": "SY",
+      "quantity": 302.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 100.0,
+        "FOREMOST PAVING, INC.": 82.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 110.0,
+        "IOC COMPANY LLC": 187.36
+      }
+    },
+    {
+      "itemCode": "0531 6013",
+      "description": "CURB RAMPS (TY 10)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 2000.0,
+        "FOREMOST PAVING, INC.": 2400.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 2235.0,
+        "IOC COMPANY LLC": 4659.51
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 227.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 5.0,
+        "FOREMOST PAVING, INC.": 10.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 4.0,
+        "IOC COMPANY LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 325.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 40.0,
+        "FOREMOST PAVING, INC.": 850.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 270.0,
+        "IOC COMPANY LLC": 350.0
+      }
+    },
+    {
+      "itemCode": "0545 6006",
+      "description": "CRASH CUSH ATTEN (INSTL)(L)(N)(TL2)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 22000.0,
+      "lowUnit": 30000.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 30000.0,
+        "FOREMOST PAVING, INC.": 36600.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 29500.0,
+        "IOC COMPANY LLC": 26650.0
+      }
+    },
+    {
+      "itemCode": "0550 6015",
+      "description": "REMOVE AND INSTALL EXISTING GATE",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 800.0,
+        "FOREMOST PAVING, INC.": 2000.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 8335.0,
+        "IOC COMPANY LLC": 2682.07
+      }
+    },
+    {
+      "itemCode": "0644 6027",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(P)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 775.0,
+      "lowUnit": 750.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 750.0,
+        "FOREMOST PAVING, INC.": 1000.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1130.0,
+        "IOC COMPANY LLC": 1150.0
+      }
+    },
+    {
+      "itemCode": "0644 6030",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(T)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 1250.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 1250.0,
+        "FOREMOST PAVING, INC.": 1600.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1640.0,
+        "IOC COMPANY LLC": 1550.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 135.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 200.0,
+        "FOREMOST PAVING, INC.": 125.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 260.0,
+        "IOC COMPANY LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 11.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 25.0,
+        "FOREMOST PAVING, INC.": 85.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 20.0,
+        "IOC COMPANY LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 25.0,
+        "FOREMOST PAVING, INC.": 125.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 31.0,
+        "IOC COMPANY LLC": 36.65
+      }
+    },
+    {
+      "itemCode": "0658 6092",
+      "description": "INSTL DEL ASSM (D-DW)SZ 1(WFLX)GND",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 50.0,
+        "FOREMOST PAVING, INC.": 150.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 28.0,
+        "IOC COMPANY LLC": 53.0
+      }
+    },
+    {
+      "itemCode": "0658 6099",
+      "description": "INSTL OM ASSM (OM-2Z)(WFLX)GND",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 60.0,
+        "FOREMOST PAVING, INC.": 185.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 60.0,
+        "IOC COMPANY LLC": 55.75
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 12.0,
+        "FOREMOST PAVING, INC.": 10.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 10.0,
+        "IOC COMPANY LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "3076 6049",
+      "description": "D-GR HMA TY-D SAC-A PG76-22",
+      "unit": "TON",
+      "quantity": 278.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 220.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 220.0,
+        "FOREMOST PAVING, INC.": 265.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 175.0,
+        "IOC COMPANY LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "5001 6002",
+      "description": "GEOGRID BASE REINFORCEMENT (TY II)",
+      "unit": "SY",
+      "quantity": 2114.0,
+      "engEstUnit": 1.35,
+      "lowUnit": 3.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 3.0,
+        "FOREMOST PAVING, INC.": 5.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 3.0,
+        "IOC COMPANY LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 56.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 80.0,
+        "FOREMOST PAVING, INC.": 200.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 45.0,
+        "IOC COMPANY LLC": 250.0
+      }
+    }
+  ]
+}

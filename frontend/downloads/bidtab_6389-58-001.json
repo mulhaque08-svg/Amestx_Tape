@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "csj": "6389-58-001",
+    "county": "Callahan",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638958001",
+    "projectType": "MILL AND INLAY",
+    "letDate": "10/07/21",
+    "engEstTotal": 902063.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FOUTSCO PAVING COMPANY, LLC",
+      "totalBidAmount": 841350.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "J. H. STRAIN & SONS, INC.",
+      "totalBidAmount": 888525.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "RK HALL, LLC",
+      "totalBidAmount": 1046290.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "A. L. HELMCAMP, INC.",
+      "totalBidAmount": 1193510.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0310 6005",
+      "description": "PRIME COAT (AE-P)",
+      "unit": "GAL",
+      "quantity": 5800.0,
+      "engEstUnit": 4.15,
+      "lowUnit": 4.0,
+      "bidders": {
+        "FOUTSCO PAVING COMPANY, LLC": 4.0,
+        "J. H. STRAIN & SONS, INC.": 7.0,
+        "RK HALL, LLC": 6.0,
+        "A. L. HELMCAMP, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0351 6013",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(4\")",
+      "unit": "SY",
+      "quantity": 29000.0,
+      "engEstUnit": 29.0,
+      "lowUnit": 28.0,
+      "bidders": {
+        "FOUTSCO PAVING COMPANY, LLC": 28.0,
+        "J. H. STRAIN & SONS, INC.": 26.6,
+        "RK HALL, LLC": 32.07,
+        "A. L. HELMCAMP, INC.": 38.3
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "FOUTSCO PAVING COMPANY, LLC": 1000.0,
+        "J. H. STRAIN & SONS, INC.": 15000.0,
+        "RK HALL, LLC": 15000.0,
+        "A. L. HELMCAMP, INC.": 12000.0
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 2610.0,
+      "engEstUnit": 1.3,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FOUTSCO PAVING COMPANY, LLC": 1.0,
+        "J. H. STRAIN & SONS, INC.": 2.5,
+        "RK HALL, LLC": 4.0,
+        "A. L. HELMCAMP, INC.": 1.0
+      }
+    }
+  ]
+}

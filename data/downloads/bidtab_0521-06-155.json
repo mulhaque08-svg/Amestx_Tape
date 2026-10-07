@@ -1,0 +1,3463 @@
+{
+  "metadata": {
+    "csj": "0521-06-155",
+    "county": "Bexar",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2B24(547)",
+    "projectType": "INFRASTRUCTURE IMPROVEMENTS",
+    "letDate": "08/02/24",
+    "engEstTotal": 100496655.94,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ZACHRY CONSTRUCTION CORPORATION",
+      "totalBidAmount": 84474579.24
+    },
+    {
+      "rank": 2,
+      "vendorName": "WEBBER, LLC",
+      "totalBidAmount": 86680971.99
+    },
+    {
+      "rank": 3,
+      "vendorName": "FLUOR HEAVY CIVIL, LLC",
+      "totalBidAmount": 95599999.99
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 55.0,
+      "engEstUnit": 11000.0,
+      "lowUnit": 153000.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 153000.0,
+        "WEBBER, LLC": 130995.0,
+        "FLUOR HEAVY CIVIL, LLC": 173794.87
+      }
+    },
+    {
+      "itemCode": "0104 6001",
+      "description": "REMOVING CONC (PAV)",
+      "unit": "SY",
+      "quantity": 12078.0,
+      "engEstUnit": 39.0,
+      "lowUnit": 20.63,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 20.63,
+        "WEBBER, LLC": 35.0,
+        "FLUOR HEAVY CIVIL, LLC": 10.98
+      }
+    },
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 2728.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 9.08,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 9.08,
+        "WEBBER, LLC": 59.71,
+        "FLUOR HEAVY CIVIL, LLC": 5.61
+      }
+    },
+    {
+      "itemCode": "0104 6015",
+      "description": "REMOVING CONC (SIDEWALKS)",
+      "unit": "SY",
+      "quantity": 1736.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 5.69,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 5.69,
+        "WEBBER, LLC": 53.04,
+        "FLUOR HEAVY CIVIL, LLC": 6.69
+      }
+    },
+    {
+      "itemCode": "0104 6023",
+      "description": "REMOVING CONC (CTB)",
+      "unit": "LF",
+      "quantity": 2623.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 3.4,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3.4,
+        "WEBBER, LLC": 18.85,
+        "FLUOR HEAVY CIVIL, LLC": 10.4
+      }
+    },
+    {
+      "itemCode": "0104 6029",
+      "description": "REMOVING CONC (CURB OR CURB & GUTTER)",
+      "unit": "LF",
+      "quantity": 5805.0,
+      "engEstUnit": 68.0,
+      "lowUnit": 3.79,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3.79,
+        "WEBBER, LLC": 6.9,
+        "FLUOR HEAVY CIVIL, LLC": 2.17
+      }
+    },
+    {
+      "itemCode": "0104 6044",
+      "description": "REMOVING CONC (FLUME)",
+      "unit": "SY",
+      "quantity": 80.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 40.28,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 40.28,
+        "WEBBER, LLC": 151.7,
+        "FLUOR HEAVY CIVIL, LLC": 27.8
+      }
+    },
+    {
+      "itemCode": "0104 6054",
+      "description": "REMOVING CONCRETE(MOW STRIP)",
+      "unit": "LF",
+      "quantity": 5231.0,
+      "engEstUnit": 17.0,
+      "lowUnit": 1.76,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1.76,
+        "WEBBER, LLC": 9.61,
+        "FLUOR HEAVY CIVIL, LLC": 2.99
+      }
+    },
+    {
+      "itemCode": "0105 6094",
+      "description": "REMOVING STAB BASE & ASPH PAV(12\"-27\")",
+      "unit": "SY",
+      "quantity": 40480.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 7.89,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 7.89,
+        "WEBBER, LLC": 18.8,
+        "FLUOR HEAVY CIVIL, LLC": 17.29
+      }
+    },
+    {
+      "itemCode": "0106 6002",
+      "description": "OBLITERATING ABANDONED ROAD",
+      "unit": "SY",
+      "quantity": 407.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 33.68,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 33.68,
+        "WEBBER, LLC": 29.95,
+        "FLUOR HEAVY CIVIL, LLC": 16.78
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 78726.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 16.06,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 16.06,
+        "WEBBER, LLC": 8.0,
+        "FLUOR HEAVY CIVIL, LLC": 28.0
+      }
+    },
+    {
+      "itemCode": "0132 6001",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY A)",
+      "unit": "CY",
+      "quantity": 61397.0,
+      "engEstUnit": 18.0,
+      "lowUnit": 24.57,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 24.57,
+        "WEBBER, LLC": 20.0,
+        "FLUOR HEAVY CIVIL, LLC": 55.0
+      }
+    },
+    {
+      "itemCode": "0132 6002",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY A)",
+      "unit": "CY",
+      "quantity": 2943.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 86.5,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 86.5,
+        "WEBBER, LLC": 45.0,
+        "FLUOR HEAVY CIVIL, LLC": 85.0
+      }
+    },
+    {
+      "itemCode": "0160 6003",
+      "description": "FURNISHING AND PLACING TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 31606.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 4.29,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4.29,
+        "WEBBER, LLC": 3.22,
+        "FLUOR HEAVY CIVIL, LLC": 9.13
+      }
+    },
+    {
+      "itemCode": "0164 6039",
+      "description": "DRILL SEEDING (PERM) (URBAN) (CLAY)",
+      "unit": "SY",
+      "quantity": 31606.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.32,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.32,
+        "WEBBER, LLC": 0.2,
+        "FLUOR HEAVY CIVIL, LLC": 0.2
+      }
+    },
+    {
+      "itemCode": "0164 6051",
+      "description": "DRILL SEED (TEMP)(WARM OR COOL)",
+      "unit": "SY",
+      "quantity": 31606.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.23,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.23,
+        "WEBBER, LLC": 0.18,
+        "FLUOR HEAVY CIVIL, LLC": 0.18
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 984.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 27.52,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 27.52,
+        "WEBBER, LLC": 45.85,
+        "FLUOR HEAVY CIVIL, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0169 6001",
+      "description": "SOIL RETENTION BLANKETS (CL 1) (TY A)",
+      "unit": "SY",
+      "quantity": 31606.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 1.86,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1.86,
+        "WEBBER, LLC": 1.0,
+        "FLUOR HEAVY CIVIL, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0216 6001",
+      "description": "PROOF ROLLING",
+      "unit": "HR",
+      "quantity": 3.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 225.0,
+        "WEBBER, LLC": 11000.0,
+        "FLUOR HEAVY CIVIL, LLC": 128.56
+      }
+    },
+    {
+      "itemCode": "0276 6169",
+      "description": "CEM TRT(PLNT MX) (CL L)(TYA)(GR1-2)(6\")",
+      "unit": "SY",
+      "quantity": 1247.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 40.65,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 40.65,
+        "WEBBER, LLC": 35.75,
+        "FLUOR HEAVY CIVIL, LLC": 35.78
+      }
+    },
+    {
+      "itemCode": "0310 6027",
+      "description": "PRIME COAT(MC-30 OR AE-P)",
+      "unit": "GAL",
+      "quantity": 1540.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 5.72,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 5.72,
+        "WEBBER, LLC": 5.0,
+        "FLUOR HEAVY CIVIL, LLC": 4.58
+      }
+    },
+    {
+      "itemCode": "0351 6006",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(10\")",
+      "unit": "SY",
+      "quantity": 1947.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 148.52,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 148.52,
+        "WEBBER, LLC": 129.19,
+        "FLUOR HEAVY CIVIL, LLC": 116.5
+      }
+    },
+    {
+      "itemCode": "0354 6023",
+      "description": "PLANE ASPH CONC PAV(0\" TO 4\")",
+      "unit": "SY",
+      "quantity": 22209.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 9.77,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 9.77,
+        "WEBBER, LLC": 5.63,
+        "FLUOR HEAVY CIVIL, LLC": 5.09
+      }
+    },
+    {
+      "itemCode": "0356 6021",
+      "description": "PAV JT UNDERSEAL (24\")",
+      "unit": "LF",
+      "quantity": 184.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 49.7,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 49.7,
+        "WEBBER, LLC": 38.0,
+        "FLUOR HEAVY CIVIL, LLC": 60.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 3776.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 171.02,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 171.02,
+        "WEBBER, LLC": 325.0,
+        "FLUOR HEAVY CIVIL, LLC": 209.2
+      }
+    },
+    {
+      "itemCode": "0400 6007",
+      "description": "CUT & RESTORE CONC PAVING",
+      "unit": "SY",
+      "quantity": 1269.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 210.42,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 210.42,
+        "WEBBER, LLC": 258.07,
+        "FLUOR HEAVY CIVIL, LLC": 279.65
+      }
+    },
+    {
+      "itemCode": "0400 6009",
+      "description": "CEMENT STAB BACKFILL (INLET OR MH)",
+      "unit": "CY",
+      "quantity": 43.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 422.43,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 422.43,
+        "WEBBER, LLC": 325.0,
+        "FLUOR HEAVY CIVIL, LLC": 215.72
+      }
+    },
+    {
+      "itemCode": "0401 6001",
+      "description": "FLOWABLE BACKFILL",
+      "unit": "CY",
+      "quantity": 201.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 237.19,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 237.19,
+        "WEBBER, LLC": 325.0,
+        "FLUOR HEAVY CIVIL, LLC": 276.13
+      }
+    },
+    {
+      "itemCode": "0402 6001",
+      "description": "TRENCH EXCAVATION PROTECTION",
+      "unit": "LF",
+      "quantity": 1898.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 34.28,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 34.28,
+        "WEBBER, LLC": 41.33,
+        "FLUOR HEAVY CIVIL, LLC": 52.03
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 39820.0,
+      "engEstUnit": 42.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 45.0,
+        "WEBBER, LLC": 40.0,
+        "FLUOR HEAVY CIVIL, LLC": 45.3
+      }
+    },
+    {
+      "itemCode": "0416 6001",
+      "description": "DRILL SHAFT (18 IN)",
+      "unit": "LF",
+      "quantity": 286.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 164.69,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 164.69,
+        "WEBBER, LLC": 206.88,
+        "FLUOR HEAVY CIVIL, LLC": 209.29
+      }
+    },
+    {
+      "itemCode": "0416 6005",
+      "description": "DRILL SHAFT (42 IN)",
+      "unit": "LF",
+      "quantity": 2212.0,
+      "engEstUnit": 586.0,
+      "lowUnit": 385.48,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 385.48,
+        "WEBBER, LLC": 544.0,
+        "FLUOR HEAVY CIVIL, LLC": 434.91
+      }
+    },
+    {
+      "itemCode": "0416 6006",
+      "description": "DRILL SHAFT (48 IN)",
+      "unit": "LF",
+      "quantity": 42.0,
+      "engEstUnit": 495.0,
+      "lowUnit": 897.93,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 897.93,
+        "WEBBER, LLC": 909.0,
+        "FLUOR HEAVY CIVIL, LLC": 600.0
+      }
+    },
+    {
+      "itemCode": "0416 6010",
+      "description": "DRILL SHAFT (72 IN)",
+      "unit": "LF",
+      "quantity": 1806.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 939.01,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 939.01,
+        "WEBBER, LLC": 854.1,
+        "FLUOR HEAVY CIVIL, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0416 6015",
+      "description": "DRILL SHAFT (NON - REINFORCED) (12 IN)",
+      "unit": "LF",
+      "quantity": 7.0,
+      "engEstUnit": 124.0,
+      "lowUnit": 225.89,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 225.89,
+        "WEBBER, LLC": 200.0,
+        "FLUOR HEAVY CIVIL, LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "0416 6021",
+      "description": "DRILL SHAFT (SIGN MTS) (42 IN)",
+      "unit": "LF",
+      "quantity": 764.0,
+      "engEstUnit": 550.0,
+      "lowUnit": 542.16,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 542.16,
+        "WEBBER, LLC": 480.0,
+        "FLUOR HEAVY CIVIL, LLC": 436.04
+      }
+    },
+    {
+      "itemCode": "0416 6023",
+      "description": "DRILL SHAFT (SIGN MTS) (54 IN)",
+      "unit": "LF",
+      "quantity": 31.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 847.12,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 847.12,
+        "WEBBER, LLC": 750.0,
+        "FLUOR HEAVY CIVIL, LLC": 850.0
+      }
+    },
+    {
+      "itemCode": "0416 6029",
+      "description": "DRILL SHAFT (RDWY ILL POLE) (30 IN)",
+      "unit": "LF",
+      "quantity": 320.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 429.21,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 429.21,
+        "WEBBER, LLC": 380.0,
+        "FLUOR HEAVY CIVIL, LLC": 350.0
+      }
+    },
+    {
+      "itemCode": "0416 6032",
+      "description": "DRILL SHAFT (TRF SIG POLE) (36 IN)",
+      "unit": "LF",
+      "quantity": 13.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 530.86,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 530.86,
+        "WEBBER, LLC": 470.0,
+        "FLUOR HEAVY CIVIL, LLC": 450.0
+      }
+    },
+    {
+      "itemCode": "0422 6001",
+      "description": "REINF CONC SLAB",
+      "unit": "SF",
+      "quantity": 148665.0,
+      "engEstUnit": 27.0,
+      "lowUnit": 30.88,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 30.88,
+        "WEBBER, LLC": 28.08,
+        "FLUOR HEAVY CIVIL, LLC": 32.76
+      }
+    },
+    {
+      "itemCode": "0422 6015",
+      "description": "APPROACH SLAB",
+      "unit": "CY",
+      "quantity": 642.9,
+      "engEstUnit": 800.0,
+      "lowUnit": 766.79,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 766.79,
+        "WEBBER, LLC": 956.15,
+        "FLUOR HEAVY CIVIL, LLC": 728.49
+      }
+    },
+    {
+      "itemCode": "0429 6004",
+      "description": "CONC STR REPAIR(RAPID DECK REP(PRT DPT)",
+      "unit": "SF",
+      "quantity": 60.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 33.91,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 33.91,
+        "WEBBER, LLC": 157.63,
+        "FLUOR HEAVY CIVIL, LLC": 175.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 38.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 35.87,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 35.87,
+        "WEBBER, LLC": 259.25,
+        "FLUOR HEAVY CIVIL, LLC": 360.0
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 2247.0,
+      "engEstUnit": 845.0,
+      "lowUnit": 559.17,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 559.17,
+        "WEBBER, LLC": 405.0,
+        "FLUOR HEAVY CIVIL, LLC": 479.94
+      }
+    },
+    {
+      "itemCode": "0432 6002",
+      "description": "RIPRAP (CONC)(5 IN)",
+      "unit": "CY",
+      "quantity": 11.0,
+      "engEstUnit": 650.0,
+      "lowUnit": 803.58,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 803.58,
+        "WEBBER, LLC": 650.0,
+        "FLUOR HEAVY CIVIL, LLC": 808.79
+      }
+    },
+    {
+      "itemCode": "0432 6006",
+      "description": "RIPRAP (CONC)(CL B)",
+      "unit": "CY",
+      "quantity": 7.5,
+      "engEstUnit": 650.0,
+      "lowUnit": 940.41,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 940.41,
+        "WEBBER, LLC": 650.0,
+        "FLUOR HEAVY CIVIL, LLC": 1090.15
+      }
+    },
+    {
+      "itemCode": "0432 6043",
+      "description": "RIPRAP(CONC)(SIGN MOUNTS)(CL B)",
+      "unit": "CY",
+      "quantity": 10.0,
+      "engEstUnit": 940.0,
+      "lowUnit": 1352.54,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1352.54,
+        "WEBBER, LLC": 1013.78,
+        "FLUOR HEAVY CIVIL, LLC": 1220.16
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 286.0,
+      "engEstUnit": 570.0,
+      "lowUnit": 435.97,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 435.97,
+        "WEBBER, LLC": 360.0,
+        "FLUOR HEAVY CIVIL, LLC": 590.17
+      }
+    },
+    {
+      "itemCode": "0438 6001",
+      "description": "CLEANING AND SEALING EXISTING JOINTS",
+      "unit": "LF",
+      "quantity": 98.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 97.14,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 97.14,
+        "WEBBER, LLC": 88.0,
+        "FLUOR HEAVY CIVIL, LLC": 60.0
+      }
+    },
+    {
+      "itemCode": "0438 6011",
+      "description": "CLEANING AND SEALING JOINTS (FOAM)",
+      "unit": "LF",
+      "quantity": 98.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 169.42,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 169.42,
+        "WEBBER, LLC": 160.0,
+        "FLUOR HEAVY CIVIL, LLC": 129.0
+      }
+    },
+    {
+      "itemCode": "0451 6062",
+      "description": "RETROFIT RAIL (TY T2P)",
+      "unit": "LF",
+      "quantity": 409.0,
+      "engEstUnit": 672.0,
+      "lowUnit": 420.78,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 420.78,
+        "WEBBER, LLC": 308.03,
+        "FLUOR HEAVY CIVIL, LLC": 562.7
+      }
+    },
+    {
+      "itemCode": "0454 6018",
+      "description": "SEALED EXPANSION JOINT (4 IN) (SEJ - M)",
+      "unit": "LF",
+      "quantity": 441.5,
+      "engEstUnit": 220.0,
+      "lowUnit": 289.3,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 289.3,
+        "WEBBER, LLC": 295.49,
+        "FLUOR HEAVY CIVIL, LLC": 345.96
+      }
+    },
+    {
+      "itemCode": "0454 6019",
+      "description": "SEALED EXPANSION JOINT (5 IN) (SEJ - M)",
+      "unit": "LF",
+      "quantity": 441.0,
+      "engEstUnit": 270.0,
+      "lowUnit": 289.63,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 289.63,
+        "WEBBER, LLC": 295.6,
+        "FLUOR HEAVY CIVIL, LLC": 345.95
+      }
+    },
+    {
+      "itemCode": "0467 6109",
+      "description": "SET (TY I)(S=3 FT)(HW= 3 FT)(6:1)(C)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 13796.95,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 13796.95,
+        "WEBBER, LLC": 14419.81,
+        "FLUOR HEAVY CIVIL, LLC": 16485.83
+      }
+    },
+    {
+      "itemCode": "0467 6110",
+      "description": "SET (TY I)(S=3 FT)(HW= 3 FT)(6:1)(P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 8715.0,
+      "lowUnit": 10033.8,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 10033.8,
+        "WEBBER, LLC": 16447.61,
+        "FLUOR HEAVY CIVIL, LLC": 15866.01
+      }
+    },
+    {
+      "itemCode": "0467 6142",
+      "description": "SET (TY I)(S= 4 FT)(HW= 3 FT)(6:1) (P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 8500.0,
+      "lowUnit": 11288.19,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 11288.19,
+        "WEBBER, LLC": 15022.47,
+        "FLUOR HEAVY CIVIL, LLC": 19051.61
+      }
+    },
+    {
+      "itemCode": "0467 6168",
+      "description": "SET (TY I)(S= 5 FT)(HW= 2 FT)(6:1) (P)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 11000.0,
+      "lowUnit": 13234.38,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 13234.38,
+        "WEBBER, LLC": 19255.88,
+        "FLUOR HEAVY CIVIL, LLC": 18330.44
+      }
+    },
+    {
+      "itemCode": "0467 6174",
+      "description": "SET (TY I)(S= 5 FT)(HW= 3 FT)(6:1) (P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 13796.95,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 13796.95,
+        "WEBBER, LLC": 21938.08,
+        "FLUOR HEAVY CIVIL, LLC": 24472.75
+      }
+    },
+    {
+      "itemCode": "0467 6180",
+      "description": "SET (TY I)(S= 5 FT)(HW= 4 FT)(6:1) (P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 12000.0,
+      "lowUnit": 15051.34,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 15051.34,
+        "WEBBER, LLC": 22623.89,
+        "FLUOR HEAVY CIVIL, LLC": 26888.06
+      }
+    },
+    {
+      "itemCode": "0467 6391",
+      "description": "SET (TY II) (24 IN) (RCP) (4: 1) (P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2600.0,
+      "lowUnit": 4484.11,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4484.11,
+        "WEBBER, LLC": 2709.05,
+        "FLUOR HEAVY CIVIL, LLC": 2587.38
+      }
+    },
+    {
+      "itemCode": "0467 6394",
+      "description": "SET (TY II) (24 IN) (RCP) (6: 1) (C)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2575.0,
+      "lowUnit": 4866.99,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4866.99,
+        "WEBBER, LLC": 3571.05,
+        "FLUOR HEAVY CIVIL, LLC": 3293.68
+      }
+    },
+    {
+      "itemCode": "0467 6395",
+      "description": "SET (TY II) (24 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 2400.0,
+      "lowUnit": 4867.01,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4867.01,
+        "WEBBER, LLC": 3887.97,
+        "FLUOR HEAVY CIVIL, LLC": 3293.68
+      }
+    },
+    {
+      "itemCode": "0467 6423",
+      "description": "SET (TY II) (30 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 4100.0,
+      "lowUnit": 6165.92,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 6165.92,
+        "WEBBER, LLC": 6247.76,
+        "FLUOR HEAVY CIVIL, LLC": 5144.18
+      }
+    },
+    {
+      "itemCode": "0471 6007",
+      "description": "GRATE AND FRAME (BRIDGE DRAIN)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 4500.0,
+      "lowUnit": 3242.29,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3242.29,
+        "WEBBER, LLC": 5872.81,
+        "FLUOR HEAVY CIVIL, LLC": 3098.03
+      }
+    },
+    {
+      "itemCode": "0481 6013",
+      "description": "PIPE (PVC) (SCH 40) (6 IN)",
+      "unit": "LF",
+      "quantity": 279.0,
+      "engEstUnit": 181.0,
+      "lowUnit": 74.86,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 74.86,
+        "WEBBER, LLC": 150.0,
+        "FLUOR HEAVY CIVIL, LLC": 119.97
+      }
+    },
+    {
+      "itemCode": "0496 6002",
+      "description": "REMOV STR (INLET)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 1525.0,
+      "lowUnit": 1036.16,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1036.16,
+        "WEBBER, LLC": 1500.0,
+        "FLUOR HEAVY CIVIL, LLC": 1233.0
+      }
+    },
+    {
+      "itemCode": "0496 6004",
+      "description": "REMOV STR (SET)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 760.0,
+      "lowUnit": 1021.12,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1021.12,
+        "WEBBER, LLC": 1500.0,
+        "FLUOR HEAVY CIVIL, LLC": 624.98
+      }
+    },
+    {
+      "itemCode": "0496 6005",
+      "description": "REMOV STR (WINGWALL)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 2355.0,
+      "lowUnit": 760.95,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 760.95,
+        "WEBBER, LLC": 3000.0,
+        "FLUOR HEAVY CIVIL, LLC": 3002.12
+      }
+    },
+    {
+      "itemCode": "0496 6006",
+      "description": "REMOV STR (HEADWALL)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 3300.0,
+      "lowUnit": 1381.54,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1381.54,
+        "WEBBER, LLC": 3000.0,
+        "FLUOR HEAVY CIVIL, LLC": 3098.1
+      }
+    },
+    {
+      "itemCode": "0496 6007",
+      "description": "REMOV STR (PIPE)",
+      "unit": "LF",
+      "quantity": 5663.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 14.64,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 14.64,
+        "WEBBER, LLC": 30.0,
+        "FLUOR HEAVY CIVIL, LLC": 39.11
+      }
+    },
+    {
+      "itemCode": "0496 6008",
+      "description": "REMOV STR (BOX CULVERT)",
+      "unit": "LF",
+      "quantity": 620.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 23.27,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 23.27,
+        "WEBBER, LLC": 70.0,
+        "FLUOR HEAVY CIVIL, LLC": 71.4
+      }
+    },
+    {
+      "itemCode": "0496 6010",
+      "description": "REMOV STR (BRIDGE 100 - 499 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 200000.0,
+      "lowUnit": 209947.5,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 209947.5,
+        "WEBBER, LLC": 375000.0,
+        "FLUOR HEAVY CIVIL, LLC": 350000.0
+      }
+    },
+    {
+      "itemCode": "0496 6040",
+      "description": "REMOV STR (RET WALL)",
+      "unit": "LF",
+      "quantity": 340.0,
+      "engEstUnit": 73.0,
+      "lowUnit": 113.96,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 113.96,
+        "WEBBER, LLC": 200.0,
+        "FLUOR HEAVY CIVIL, LLC": 199.88
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 8933405.09,
+      "lowUnit": 8415000.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 8415000.0,
+        "WEBBER, LLC": 8650000.0,
+        "FLUOR HEAVY CIVIL, LLC": 9560000.0
+      }
+    },
+    {
+      "itemCode": "0508 6003",
+      "description": "CONSTRUCTING DETOURS (TY 1)",
+      "unit": "SY",
+      "quantity": 22904.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 120.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 120.0,
+        "WEBBER, LLC": 109.15,
+        "FLUOR HEAVY CIVIL, LLC": 94.0
+      }
+    },
+    {
+      "itemCode": "0508 6004",
+      "description": "CONSTRUCTING DETOURS (TY 2)",
+      "unit": "SY",
+      "quantity": 400.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 166.45,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 166.45,
+        "WEBBER, LLC": 121.03,
+        "FLUOR HEAVY CIVIL, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0510 6001",
+      "description": "ONE-WAY TRAF CONT (FLAGGER CONT)",
+      "unit": "HR",
+      "quantity": 1260.0,
+      "engEstUnit": 72.0,
+      "lowUnit": 67.77,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 67.77,
+        "WEBBER, LLC": 64.95,
+        "FLUOR HEAVY CIVIL, LLC": 40.23
+      }
+    },
+    {
+      "itemCode": "0510 6002",
+      "description": "ONE-WAY TRAF CONT (PILOT CAR)",
+      "unit": "HR",
+      "quantity": 252.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 73.42,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 73.42,
+        "WEBBER, LLC": 70.36,
+        "FLUOR HEAVY CIVIL, LLC": 52.26
+      }
+    },
+    {
+      "itemCode": "0512 6001",
+      "description": "PORT CTB (FUR & INST)(SGL SLOPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 27014.0,
+      "engEstUnit": 54.0,
+      "lowUnit": 29.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 29.0,
+        "WEBBER, LLC": 36.18,
+        "FLUOR HEAVY CIVIL, LLC": 36.34
+      }
+    },
+    {
+      "itemCode": "0512 6009",
+      "description": "PORT CTB (FUR & INST)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 7758.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 30.0,
+        "WEBBER, LLC": 35.54,
+        "FLUOR HEAVY CIVIL, LLC": 54.45
+      }
+    },
+    {
+      "itemCode": "0512 6010",
+      "description": "PORT CTB (FUR & INST)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 280.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 101.72,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 101.72,
+        "WEBBER, LLC": 98.79,
+        "FLUOR HEAVY CIVIL, LLC": 55.17
+      }
+    },
+    {
+      "itemCode": "0512 6025",
+      "description": "PORT CTB (MOVE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 19604.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 5.13,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 5.13,
+        "WEBBER, LLC": 7.8,
+        "FLUOR HEAVY CIVIL, LLC": 6.76
+      }
+    },
+    {
+      "itemCode": "0512 6033",
+      "description": "PORT CTB (MOVE)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 9411.0,
+      "engEstUnit": 17.0,
+      "lowUnit": 4.52,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4.52,
+        "WEBBER, LLC": 10.59,
+        "FLUOR HEAVY CIVIL, LLC": 10.07
+      }
+    },
+    {
+      "itemCode": "0512 6034",
+      "description": "PORT CTB (MOVE)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 1967.0,
+      "engEstUnit": 16.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 10.0,
+        "WEBBER, LLC": 17.28,
+        "FLUOR HEAVY CIVIL, LLC": 9.74
+      }
+    },
+    {
+      "itemCode": "0512 6037",
+      "description": "PORT CTB (STKPL)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 667.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 57.34,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 57.34,
+        "WEBBER, LLC": 20.66,
+        "FLUOR HEAVY CIVIL, LLC": 14.71
+      }
+    },
+    {
+      "itemCode": "0512 6045",
+      "description": "PORT CTB (STKPL)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 934.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 55.44,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 55.44,
+        "WEBBER, LLC": 19.61,
+        "FLUOR HEAVY CIVIL, LLC": 11.56
+      }
+    },
+    {
+      "itemCode": "0512 6046",
+      "description": "PORT CTB (STKPL)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 20.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 30.18,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 30.18,
+        "WEBBER, LLC": 57.74,
+        "FLUOR HEAVY CIVIL, LLC": 40.45
+      }
+    },
+    {
+      "itemCode": "0512 6049",
+      "description": "PORT CTB (REMOVE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 21547.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 7.85,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 7.85,
+        "WEBBER, LLC": 17.47,
+        "FLUOR HEAVY CIVIL, LLC": 8.8
+      }
+    },
+    {
+      "itemCode": "0512 6057",
+      "description": "PORT CTB (REMOVE)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 7055.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 5.0,
+        "WEBBER, LLC": 17.48,
+        "FLUOR HEAVY CIVIL, LLC": 11.66
+      }
+    },
+    {
+      "itemCode": "0512 6058",
+      "description": "PORT CTB (REMOVE)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 180.0,
+      "engEstUnit": 24.0,
+      "lowUnit": 18.44,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 18.44,
+        "WEBBER, LLC": 50.76,
+        "FLUOR HEAVY CIVIL, LLC": 12.67
+      }
+    },
+    {
+      "itemCode": "0514 6001",
+      "description": "PERM CTB (SGL SLOPE) (TY 1) (42 )",
+      "unit": "LF",
+      "quantity": 1026.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 81.78,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 81.78,
+        "WEBBER, LLC": 79.81,
+        "FLUOR HEAVY CIVIL, LLC": 102.29
+      }
+    },
+    {
+      "itemCode": "0514 6003",
+      "description": "PERM CTB (SGL SLOPE) (TY 3) (42 )",
+      "unit": "LF",
+      "quantity": 77.0,
+      "engEstUnit": 280.0,
+      "lowUnit": 670.66,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 670.66,
+        "WEBBER, LLC": 251.79,
+        "FLUOR HEAVY CIVIL, LLC": 293.44
+      }
+    },
+    {
+      "itemCode": "0514 6036",
+      "description": "PERM CTB (TRAN SSCB TO SSTR) (MOD)",
+      "unit": "LF",
+      "quantity": 30.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 634.2,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 634.2,
+        "WEBBER, LLC": 252.22,
+        "FLUOR HEAVY CIVIL, LLC": 319.63
+      }
+    },
+    {
+      "itemCode": "0529 6001",
+      "description": "CONC CURB (TY I)",
+      "unit": "LF",
+      "quantity": 6746.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 12.87,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 12.87,
+        "WEBBER, LLC": 11.0,
+        "FLUOR HEAVY CIVIL, LLC": 11.56
+      }
+    },
+    {
+      "itemCode": "0531 6003",
+      "description": "CONC SIDEWALKS (6\")",
+      "unit": "SY",
+      "quantity": 3156.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 87.15,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 87.15,
+        "WEBBER, LLC": 49.0,
+        "FLUOR HEAVY CIVIL, LLC": 70.77
+      }
+    },
+    {
+      "itemCode": "0531 6004",
+      "description": "CURB RAMPS (TY 1)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 2400.0,
+      "lowUnit": 3240.08,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3240.08,
+        "WEBBER, LLC": 2700.0,
+        "FLUOR HEAVY CIVIL, LLC": 3548.18
+      }
+    },
+    {
+      "itemCode": "0531 6005",
+      "description": "CURB RAMPS (TY 2)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 3420.63,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3420.63,
+        "WEBBER, LLC": 2700.0,
+        "FLUOR HEAVY CIVIL, LLC": 3548.18
+      }
+    },
+    {
+      "itemCode": "0531 6008",
+      "description": "CURB RAMPS (TY 5)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3635.81,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3635.81,
+        "WEBBER, LLC": 3000.0,
+        "FLUOR HEAVY CIVIL, LLC": 3854.31
+      }
+    },
+    {
+      "itemCode": "0531 6010",
+      "description": "CURB RAMPS (TY 7)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 4110.69,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4110.69,
+        "WEBBER, LLC": 3000.0,
+        "FLUOR HEAVY CIVIL, LLC": 3854.31
+      }
+    },
+    {
+      "itemCode": "0531 6016",
+      "description": "CURB RAMPS (TY 21)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3200.0,
+      "lowUnit": 3749.6,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3749.6,
+        "WEBBER, LLC": 3000.0,
+        "FLUOR HEAVY CIVIL, LLC": 3854.31
+      }
+    },
+    {
+      "itemCode": "0536 6002",
+      "description": "CONC MEDIAN",
+      "unit": "SY",
+      "quantity": 36.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 175.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 175.0,
+        "WEBBER, LLC": 120.0,
+        "FLUOR HEAVY CIVIL, LLC": 178.07
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 5000.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 2.83,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.83,
+        "WEBBER, LLC": 4.0,
+        "FLUOR HEAVY CIVIL, LLC": 2.04
+      }
+    },
+    {
+      "itemCode": "0542 6002",
+      "description": "REMOVE TERMINAL ANCHOR SECTION",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 480.0,
+      "lowUnit": 1784.61,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1784.61,
+        "WEBBER, LLC": 275.0,
+        "FLUOR HEAVY CIVIL, LLC": 204.08
+      }
+    },
+    {
+      "itemCode": "0542 6003",
+      "description": "REMOVE DOWNSTREAM ANCHOR TERMINAL",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 203.3,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 203.3,
+        "WEBBER, LLC": 275.0,
+        "FLUOR HEAVY CIVIL, LLC": 204.08
+      }
+    },
+    {
+      "itemCode": "0542 6004",
+      "description": "RM MTL BM GD FENCE TRANS (THRIE-BEAM)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 352.0,
+      "lowUnit": 395.31,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 395.31,
+        "WEBBER, LLC": 225.0,
+        "FLUOR HEAVY CIVIL, LLC": 239.8
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 2900.0,
+      "lowUnit": 4522.68,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4522.68,
+        "WEBBER, LLC": 3345.0,
+        "FLUOR HEAVY CIVIL, LLC": 2918.37
+      }
+    },
+    {
+      "itemCode": "0545 6003",
+      "description": "CRASH CUSH ATTEN (MOVE & RESET)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 1360.0,
+      "lowUnit": 2541.37,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2541.37,
+        "WEBBER, LLC": 875.0,
+        "FLUOR HEAVY CIVIL, LLC": 1341.84
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 790.65,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 790.65,
+        "WEBBER, LLC": 850.0,
+        "FLUOR HEAVY CIVIL, LLC": 744.9
+      }
+    },
+    {
+      "itemCode": "0545 6007",
+      "description": "CRASH CUSH ATTEN (INSTL)(L)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 28000.0,
+      "lowUnit": 36236.53,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 36236.53,
+        "WEBBER, LLC": 29500.0,
+        "FLUOR HEAVY CIVIL, LLC": 29897.96
+      }
+    },
+    {
+      "itemCode": "0545 6010",
+      "description": "CRASH CUSH ATTEN (INSTL)(L)(W)(TL3)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 45000.0,
+      "lowUnit": 48481.58,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 48481.58,
+        "WEBBER, LLC": 47200.0,
+        "FLUOR HEAVY CIVIL, LLC": 40612.24
+      }
+    },
+    {
+      "itemCode": "0545 6019",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 21.0,
+      "engEstUnit": 8720.0,
+      "lowUnit": 9702.73,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 9702.73,
+        "WEBBER, LLC": 8075.0,
+        "FLUOR HEAVY CIVIL, LLC": 7704.08
+      }
+    },
+    {
+      "itemCode": "0610 6009",
+      "description": "REMOVE RD IL ASM (TRANS-BASE)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 960.0,
+      "lowUnit": 530.86,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 530.86,
+        "WEBBER, LLC": 470.0,
+        "FLUOR HEAVY CIVIL, LLC": 357.14
+      }
+    },
+    {
+      "itemCode": "0610 6102",
+      "description": "REPLACE LUMINAIRE W/LED (250W EQ)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 858.42,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 858.42,
+        "WEBBER, LLC": 760.0,
+        "FLUOR HEAVY CIVIL, LLC": 1428.57
+      }
+    },
+    {
+      "itemCode": "0610 6104",
+      "description": "IN RD IL (U/P) (TY 1) (150W EQ) LED",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 2597.84,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2597.84,
+        "WEBBER, LLC": 2300.0,
+        "FLUOR HEAVY CIVIL, LLC": 1836.74
+      }
+    },
+    {
+      "itemCode": "0610 6216",
+      "description": "IN RD IL (TY SA) 40T-10 (250W EQ) LED",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 5300.0,
+      "lowUnit": 4969.79,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4969.79,
+        "WEBBER, LLC": 4400.0,
+        "FLUOR HEAVY CIVIL, LLC": 5408.16
+      }
+    },
+    {
+      "itemCode": "0610 6272",
+      "description": "IN RD IL (TY SA) 50B-10 (400W EQ) LED",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 7000.0,
+      "lowUnit": 6099.28,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 6099.28,
+        "WEBBER, LLC": 5400.0,
+        "FLUOR HEAVY CIVIL, LLC": 6122.45
+      }
+    },
+    {
+      "itemCode": "0610 6289",
+      "description": "IN RD IL (TY SA) 50T-10-10(400W EQ)LED",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 7002.9,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 7002.9,
+        "WEBBER, LLC": 6200.0,
+        "FLUOR HEAVY CIVIL, LLC": 6326.53
+      }
+    },
+    {
+      "itemCode": "0617 6001",
+      "description": "TEMP RD IL (RD IL ASM)",
+      "unit": "EA",
+      "quantity": 21.0,
+      "engEstUnit": 6000.0,
+      "lowUnit": 6325.17,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 6325.17,
+        "WEBBER, LLC": 5600.0,
+        "FLUOR HEAVY CIVIL, LLC": 1530.61
+      }
+    },
+    {
+      "itemCode": "0618 6023",
+      "description": "CONDT (PVC) (SCH 40) (2\")",
+      "unit": "LF",
+      "quantity": 9405.0,
+      "engEstUnit": 18.0,
+      "lowUnit": 16.94,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 16.94,
+        "WEBBER, LLC": 15.0,
+        "FLUOR HEAVY CIVIL, LLC": 15.31
+      }
+    },
+    {
+      "itemCode": "0618 6031",
+      "description": "CONDT (PVC) (SCH 40) (3\") (CONC ENCSE)",
+      "unit": "LF",
+      "quantity": 4865.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 42.92,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 42.92,
+        "WEBBER, LLC": 38.0,
+        "FLUOR HEAVY CIVIL, LLC": 34.69
+      }
+    },
+    {
+      "itemCode": "0618 6046",
+      "description": "CONDT (PVC) (SCH 80) (2\")",
+      "unit": "LF",
+      "quantity": 10.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 64.38,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 64.38,
+        "WEBBER, LLC": 57.0,
+        "FLUOR HEAVY CIVIL, LLC": 40.82
+      }
+    },
+    {
+      "itemCode": "0618 6047",
+      "description": "CONDT (PVC) (SCH 80) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 5465.0,
+      "engEstUnit": 32.0,
+      "lowUnit": 41.79,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 41.79,
+        "WEBBER, LLC": 37.0,
+        "FLUOR HEAVY CIVIL, LLC": 40.82
+      }
+    },
+    {
+      "itemCode": "0618 6053",
+      "description": "CONDT (PVC) (SCH 80) (3\")",
+      "unit": "LF",
+      "quantity": 10.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 97.14,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 97.14,
+        "WEBBER, LLC": 86.0,
+        "FLUOR HEAVY CIVIL, LLC": 40.82
+      }
+    },
+    {
+      "itemCode": "0618 6054",
+      "description": "CONDT (PVC) (SCH 80) (3\") (BORE)",
+      "unit": "LF",
+      "quantity": 5455.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 49.7,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 49.7,
+        "WEBBER, LLC": 44.0,
+        "FLUOR HEAVY CIVIL, LLC": 45.92
+      }
+    },
+    {
+      "itemCode": "0618 6062",
+      "description": "CONDT (RM) (3/4\")",
+      "unit": "LF",
+      "quantity": 445.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 42.92,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 42.92,
+        "WEBBER, LLC": 38.0,
+        "FLUOR HEAVY CIVIL, LLC": 26.53
+      }
+    },
+    {
+      "itemCode": "0618 6070",
+      "description": "CONDT (RM) (2\")",
+      "unit": "LF",
+      "quantity": 10.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 124.24,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 124.24,
+        "WEBBER, LLC": 110.0,
+        "FLUOR HEAVY CIVIL, LLC": 40.82
+      }
+    },
+    {
+      "itemCode": "0618 6074",
+      "description": "CONDT (RM) (3\")",
+      "unit": "LF",
+      "quantity": 1775.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 93.76,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 93.76,
+        "WEBBER, LLC": 83.0,
+        "FLUOR HEAVY CIVIL, LLC": 76.53
+      }
+    },
+    {
+      "itemCode": "0620 6002",
+      "description": "ELEC CONDR (NO.14) INSULATED",
+      "unit": "LF",
+      "quantity": 8710.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.3,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1.3,
+        "WEBBER, LLC": 1.15,
+        "FLUOR HEAVY CIVIL, LLC": 1.53
+      }
+    },
+    {
+      "itemCode": "0620 6007",
+      "description": "ELEC CONDR (NO.8) BARE",
+      "unit": "LF",
+      "quantity": 1730.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 3.11,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3.11,
+        "WEBBER, LLC": 2.75,
+        "FLUOR HEAVY CIVIL, LLC": 2.3
+      }
+    },
+    {
+      "itemCode": "0620 6008",
+      "description": "ELEC CONDR (NO.8) INSULATED",
+      "unit": "LF",
+      "quantity": 230.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.26,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.26,
+        "WEBBER, LLC": 2.0,
+        "FLUOR HEAVY CIVIL, LLC": 2.55
+      }
+    },
+    {
+      "itemCode": "0620 6009",
+      "description": "ELEC CONDR (NO.6) BARE",
+      "unit": "LF",
+      "quantity": 10940.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 2.32,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.32,
+        "WEBBER, LLC": 2.05,
+        "FLUOR HEAVY CIVIL, LLC": 2.45
+      }
+    },
+    {
+      "itemCode": "0620 6010",
+      "description": "ELEC CONDR (NO.6) INSULATED",
+      "unit": "LF",
+      "quantity": 27560.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 2.49,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.49,
+        "WEBBER, LLC": 2.2,
+        "FLUOR HEAVY CIVIL, LLC": 2.76
+      }
+    },
+    {
+      "itemCode": "0620 6015",
+      "description": "ELEC CONDR (NO.2) BARE",
+      "unit": "LF",
+      "quantity": 1270.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 4.29,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4.29,
+        "WEBBER, LLC": 3.8,
+        "FLUOR HEAVY CIVIL, LLC": 4.59
+      }
+    },
+    {
+      "itemCode": "0620 6016",
+      "description": "ELEC CONDR (NO.2) INSULATED",
+      "unit": "LF",
+      "quantity": 2530.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 4.86,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4.86,
+        "WEBBER, LLC": 4.3,
+        "FLUOR HEAVY CIVIL, LLC": 4.9
+      }
+    },
+    {
+      "itemCode": "0621 6005",
+      "description": "TRAY CABLE (4 CONDR) (12 AWG)",
+      "unit": "LF",
+      "quantity": 700.0,
+      "engEstUnit": 3.2,
+      "lowUnit": 4.07,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4.07,
+        "WEBBER, LLC": 3.6,
+        "FLUOR HEAVY CIVIL, LLC": 3.06
+      }
+    },
+    {
+      "itemCode": "0624 6002",
+      "description": "GROUND BOX TY A (122311)W/APRON",
+      "unit": "EA",
+      "quantity": 34.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1920.14,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1920.14,
+        "WEBBER, LLC": 1700.0,
+        "FLUOR HEAVY CIVIL, LLC": 1632.65
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 22.0,
+      "engEstUnit": 1550.0,
+      "lowUnit": 2484.89,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2484.89,
+        "WEBBER, LLC": 2200.0,
+        "FLUOR HEAVY CIVIL, LLC": 1734.69
+      }
+    },
+    {
+      "itemCode": "0624 6028",
+      "description": "REMOVE GROUND BOX",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 391.0,
+      "lowUnit": 192.01,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 192.01,
+        "WEBBER, LLC": 170.0,
+        "FLUOR HEAVY CIVIL, LLC": 561.23
+      }
+    },
+    {
+      "itemCode": "0627 6003",
+      "description": "TIMBER POLE (CL 2) 50 FT",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 4517.99,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4517.99,
+        "WEBBER, LLC": 4000.0,
+        "FLUOR HEAVY CIVIL, LLC": 1836.74
+      }
+    },
+    {
+      "itemCode": "0628 6152",
+      "description": "ELC SRV TY D 120/240 060(NS)SS(N)SP(O)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 7400.0,
+      "lowUnit": 10165.48,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 10165.48,
+        "WEBBER, LLC": 9000.0,
+        "FLUOR HEAVY CIVIL, LLC": 9387.76
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 960.07,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 960.07,
+        "WEBBER, LLC": 665.0,
+        "FLUOR HEAVY CIVIL, LLC": 864.25
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 19.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 1050.43,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1050.43,
+        "WEBBER, LLC": 765.0,
+        "FLUOR HEAVY CIVIL, LLC": 972.28
+      }
+    },
+    {
+      "itemCode": "0644 6030",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(T)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1050.0,
+      "lowUnit": 1355.39,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1355.39,
+        "WEBBER, LLC": 860.0,
+        "FLUOR HEAVY CIVIL, LLC": 1080.31
+      }
+    },
+    {
+      "itemCode": "0644 6034",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U-1EXT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1170.0,
+      "lowUnit": 1581.31,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1581.31,
+        "WEBBER, LLC": 1135.0,
+        "FLUOR HEAVY CIVIL, LLC": 1512.44
+      }
+    },
+    {
+      "itemCode": "0644 6065",
+      "description": "IN BRIDGE MNT CLEARANCE SGN ASSM(TY S)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 2936.69,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2936.69,
+        "WEBBER, LLC": 2600.0,
+        "FLUOR HEAVY CIVIL, LLC": 3240.94
+      }
+    },
+    {
+      "itemCode": "0644 6066",
+      "description": "IN SM RD SN SUP&AM (RAIL MOUNT)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 4500.0,
+      "lowUnit": 2823.75,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2823.75,
+        "WEBBER, LLC": 2500.0,
+        "FLUOR HEAVY CIVIL, LLC": 4321.26
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 180.72,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 180.72,
+        "WEBBER, LLC": 153.28,
+        "FLUOR HEAVY CIVIL, LLC": 216.06
+      }
+    },
+    {
+      "itemCode": "0647 6001",
+      "description": "INSTALL LRSS (STRUCT STEEL)",
+      "unit": "LB",
+      "quantity": 197.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 9.32,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 9.32,
+        "WEBBER, LLC": 8.25,
+        "FLUOR HEAVY CIVIL, LLC": 9.72
+      }
+    },
+    {
+      "itemCode": "0647 6003",
+      "description": "REMOVE LRSA",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 869.7,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 869.7,
+        "WEBBER, LLC": 770.0,
+        "FLUOR HEAVY CIVIL, LLC": 1404.41
+      }
+    },
+    {
+      "itemCode": "0650 6041",
+      "description": "INS OH SN SUP(35 FT CANT)(SPAN ONLY)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 31000.0,
+      "lowUnit": 43598.6,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 43598.6,
+        "WEBBER, LLC": 38600.0,
+        "FLUOR HEAVY CIVIL, LLC": 3781.1
+      }
+    },
+    {
+      "itemCode": "0650 6066",
+      "description": "INS OH SN SUP(55 FT BRDG)(SPAN ONLY)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 75000.0,
+      "lowUnit": 90359.78,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 90359.78,
+        "WEBBER, LLC": 80000.0,
+        "FLUOR HEAVY CIVIL, LLC": 68059.81
+      }
+    },
+    {
+      "itemCode": "0650 6071",
+      "description": "INS OH SN SUP(60 FT BRDG)(SPAN ONLY)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 55000.0,
+      "lowUnit": 99169.87,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 99169.87,
+        "WEBBER, LLC": 87800.0,
+        "FLUOR HEAVY CIVIL, LLC": 37811.01
+      }
+    },
+    {
+      "itemCode": "0650 6086",
+      "description": "INS OH SN SUP(75 FT BRDG)(SPAN ONLY)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 76000.0,
+      "lowUnit": 110351.89,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 110351.89,
+        "WEBBER, LLC": 97700.0,
+        "FLUOR HEAVY CIVIL, LLC": 83184.22
+      }
+    },
+    {
+      "itemCode": "0650 6096",
+      "description": "INS OH SN SUP(85 FT BRDG)(SPAN ONLY)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 75000.0,
+      "lowUnit": 121985.71,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 121985.71,
+        "WEBBER, LLC": 108000.0,
+        "FLUOR HEAVY CIVIL, LLC": 92907.05
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 42.0,
+      "lowUnit": 16.94,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 16.94,
+        "WEBBER, LLC": 32.21,
+        "FLUOR HEAVY CIVIL, LLC": 32.0
+      }
+    },
+    {
+      "itemCode": "0658 6047",
+      "description": "INSTL OM ASSM (OM-2Y)(WC)GND",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 71.96,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 71.96,
+        "WEBBER, LLC": 93.09,
+        "FLUOR HEAVY CIVIL, LLC": 93.0
+      }
+    },
+    {
+      "itemCode": "0658 6063",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BR)",
+      "unit": "EA",
+      "quantity": 46.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 50.95,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 50.95,
+        "WEBBER, LLC": 43.54,
+        "FLUOR HEAVY CIVIL, LLC": 45.0
+      }
+    },
+    {
+      "itemCode": "0658 6065",
+      "description": "INSTL DEL ASSM (D-SY)SZ 1(BRF)GF2(BR)",
+      "unit": "EA",
+      "quantity": 22.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 50.95,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 50.95,
+        "WEBBER, LLC": 38.96,
+        "FLUOR HEAVY CIVIL, LLC": 39.0
+      }
+    },
+    {
+      "itemCode": "0658 6069",
+      "description": "INSTL DEL ASSM (D-SW)SZ  (BRF)CTB (BR)",
+      "unit": "EA",
+      "quantity": 69.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 26.66,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 26.66,
+        "WEBBER, LLC": 21.99,
+        "FLUOR HEAVY CIVIL, LLC": 22.0
+      }
+    },
+    {
+      "itemCode": "0658 6070",
+      "description": "INSTL DEL ASSM (D-SY)SZ  (BRF)CTB (BR)",
+      "unit": "EA",
+      "quantity": 87.0,
+      "engEstUnit": 21.0,
+      "lowUnit": 26.66,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 26.66,
+        "WEBBER, LLC": 21.99,
+        "FLUOR HEAVY CIVIL, LLC": 22.0
+      }
+    },
+    {
+      "itemCode": "0662 6005",
+      "description": "WK ZN PAV MRK NON-REMOV (W)6\"(BRK)",
+      "unit": "LF",
+      "quantity": 1026.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.13,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1.13,
+        "WEBBER, LLC": 1.0,
+        "FLUOR HEAVY CIVIL, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0662 6008",
+      "description": "WK ZN PAV MRK NON-REMOV (W)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 5190.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.85,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.85,
+        "WEBBER, LLC": 0.75,
+        "FLUOR HEAVY CIVIL, LLC": 0.75
+      }
+    },
+    {
+      "itemCode": "0662 6037",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 5858.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.85,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.85,
+        "WEBBER, LLC": 0.75,
+        "FLUOR HEAVY CIVIL, LLC": 0.75
+      }
+    },
+    {
+      "itemCode": "0662 6064",
+      "description": "WK ZN PAV MRK REMOV (W)6\"(BRK)",
+      "unit": "LF",
+      "quantity": 12203.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.13,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1.13,
+        "WEBBER, LLC": 1.0,
+        "FLUOR HEAVY CIVIL, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0662 6065",
+      "description": "WK ZN PAV MRK REMOV (W)6\"(DOT)",
+      "unit": "LF",
+      "quantity": 87.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.26,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.26,
+        "WEBBER, LLC": 2.0,
+        "FLUOR HEAVY CIVIL, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0662 6067",
+      "description": "WK ZN PAV MRK REMOV (W)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 43816.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 0.9,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.9,
+        "WEBBER, LLC": 0.8,
+        "FLUOR HEAVY CIVIL, LLC": 0.8
+      }
+    },
+    {
+      "itemCode": "0662 6073",
+      "description": "WK ZN PAV MRK REMOV (W)12\"(SLD)",
+      "unit": "LF",
+      "quantity": 2084.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.96,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3.96,
+        "WEBBER, LLC": 3.5,
+        "FLUOR HEAVY CIVIL, LLC": 3.5
+      }
+    },
+    {
+      "itemCode": "0662 6080",
+      "description": "WK ZN PAV MRK REMOV (W)(ARROW)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 245.0,
+      "lowUnit": 338.85,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 338.85,
+        "WEBBER, LLC": 300.0,
+        "FLUOR HEAVY CIVIL, LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0662 6098",
+      "description": "WK ZN PAV MRK REMOV (Y)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 43655.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.9,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.9,
+        "WEBBER, LLC": 0.8,
+        "FLUOR HEAVY CIVIL, LLC": 0.8
+      }
+    },
+    {
+      "itemCode": "0668 6006",
+      "description": "PREFAB PAV MRK TY B (W)(6\")(BRK)",
+      "unit": "LF",
+      "quantity": 2509.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 7.91,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 7.91,
+        "WEBBER, LLC": 7.0,
+        "FLUOR HEAVY CIVIL, LLC": 7.0
+      }
+    },
+    {
+      "itemCode": "0668 6007",
+      "description": "PREFAB PAV MRK TY B (W)(6\")(SLD)",
+      "unit": "LF",
+      "quantity": 7806.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 2.83,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.83,
+        "WEBBER, LLC": 2.5,
+        "FLUOR HEAVY CIVIL, LLC": 2.5
+      }
+    },
+    {
+      "itemCode": "0668 6008",
+      "description": "PREFAB PAV MRK TY B (W)(6\")(DOT)",
+      "unit": "LF",
+      "quantity": 224.0,
+      "engEstUnit": 16.0,
+      "lowUnit": 5.65,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 5.65,
+        "WEBBER, LLC": 5.0,
+        "FLUOR HEAVY CIVIL, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0668 6010",
+      "description": "PREFAB PAV MRK TY B (W)(6\")(BRK)CNTST",
+      "unit": "LF",
+      "quantity": 5018.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 9.04,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 9.04,
+        "WEBBER, LLC": 8.0,
+        "FLUOR HEAVY CIVIL, LLC": 8.0
+      }
+    },
+    {
+      "itemCode": "0668 6019",
+      "description": "PREFAB PAV MRK TY B (W)(ARROW)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 560.0,
+      "lowUnit": 395.31,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 395.31,
+        "WEBBER, LLC": 350.0,
+        "FLUOR HEAVY CIVIL, LLC": 350.0
+      }
+    },
+    {
+      "itemCode": "0668 6020",
+      "description": "PREFAB PAV MRK TY B (W)(DBL ARROW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 734.17,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 734.17,
+        "WEBBER, LLC": 650.0,
+        "FLUOR HEAVY CIVIL, LLC": 650.0
+      }
+    },
+    {
+      "itemCode": "0668 6025",
+      "description": "PREFAB PAV MRK TY B (W)(LNDP ARROW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1800.0,
+      "lowUnit": 1524.82,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1524.82,
+        "WEBBER, LLC": 1350.0,
+        "FLUOR HEAVY CIVIL, LLC": 1350.0
+      }
+    },
+    {
+      "itemCode": "0668 6027",
+      "description": "PREFAB PAV MRK TY B (W)(WORD)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 536.51,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 536.51,
+        "WEBBER, LLC": 475.0,
+        "FLUOR HEAVY CIVIL, LLC": 475.0
+      }
+    },
+    {
+      "itemCode": "0668 6028",
+      "description": "PREFAB PAV MRK TY B (W)(ENTR GORE)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 11859.72,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 11859.72,
+        "WEBBER, LLC": 10500.0,
+        "FLUOR HEAVY CIVIL, LLC": 10500.0
+      }
+    },
+    {
+      "itemCode": "0668 6029",
+      "description": "PREFAB PAV MRK TY B (W)(EXIT GORE)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 11859.72,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 11859.72,
+        "WEBBER, LLC": 10500.0,
+        "FLUOR HEAVY CIVIL, LLC": 10500.0
+      }
+    },
+    {
+      "itemCode": "0668 6034",
+      "description": "PREFAB PAV MRK TY B (W)(36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 88.0,
+      "lowUnit": 84.72,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 84.72,
+        "WEBBER, LLC": 75.0,
+        "FLUOR HEAVY CIVIL, LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "0668 6047",
+      "description": "PREFAB PAV MRK TY B (Y)(6\")(SLD)",
+      "unit": "LF",
+      "quantity": 6770.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 2.83,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.83,
+        "WEBBER, LLC": 2.5,
+        "FLUOR HEAVY CIVIL, LLC": 2.5
+      }
+    },
+    {
+      "itemCode": "0668 6059",
+      "description": "PREFAB PAV MRK TY B (MULTI)(SHIELD)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 3953.24,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3953.24,
+        "WEBBER, LLC": 3500.0,
+        "FLUOR HEAVY CIVIL, LLC": 3500.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 51.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 6.22,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 6.22,
+        "WEBBER, LLC": 5.5,
+        "FLUOR HEAVY CIVIL, LLC": 5.5
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 6.22,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 6.22,
+        "WEBBER, LLC": 5.5,
+        "FLUOR HEAVY CIVIL, LLC": 5.5
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 690.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 6.22,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 6.22,
+        "WEBBER, LLC": 5.5,
+        "FLUOR HEAVY CIVIL, LLC": 5.5
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 5396.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.13,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1.13,
+        "WEBBER, LLC": 1.0,
+        "FLUOR HEAVY CIVIL, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 3026.0,
+      "engEstUnit": 1.75,
+      "lowUnit": 2.26,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.26,
+        "WEBBER, LLC": 2.0,
+        "FLUOR HEAVY CIVIL, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0681 6001",
+      "description": "TEMP TRAF SIGNALS",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 115000.0,
+      "lowUnit": 58169.11,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 58169.11,
+        "WEBBER, LLC": 51500.0,
+        "FLUOR HEAVY CIVIL, LLC": 51020.41
+      }
+    },
+    {
+      "itemCode": "0684 6009",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(4 CONDR)",
+      "unit": "LF",
+      "quantity": 275.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 3.79,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3.79,
+        "WEBBER, LLC": 3.35,
+        "FLUOR HEAVY CIVIL, LLC": 3.06
+      }
+    },
+    {
+      "itemCode": "0684 6012",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(7 CONDR)",
+      "unit": "LF",
+      "quantity": 2519.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 5.09,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 5.09,
+        "WEBBER, LLC": 4.5,
+        "FLUOR HEAVY CIVIL, LLC": 3.32
+      }
+    },
+    {
+      "itemCode": "0684 6080",
+      "description": "TRF SIG CBL (TY C)(14 AWG)(2 CONDR)",
+      "unit": "LF",
+      "quantity": 270.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.94,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.94,
+        "WEBBER, LLC": 2.6,
+        "FLUOR HEAVY CIVIL, LLC": 3.06
+      }
+    },
+    {
+      "itemCode": "0690 6001",
+      "description": "REMOVAL OF CONDUIT",
+      "unit": "LF",
+      "quantity": 927.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 12.42,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 12.42,
+        "WEBBER, LLC": 11.0,
+        "FLUOR HEAVY CIVIL, LLC": 9.69
+      }
+    },
+    {
+      "itemCode": "0690 6009",
+      "description": "REMOVAL OF CABLES",
+      "unit": "LF",
+      "quantity": 1791.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 0.9,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.9,
+        "WEBBER, LLC": 0.8,
+        "FLUOR HEAVY CIVIL, LLC": 3.06
+      }
+    },
+    {
+      "itemCode": "0690 6021",
+      "description": "REMOVAL OF TIMBER POLES",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 734.17,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 734.17,
+        "WEBBER, LLC": 650.0,
+        "FLUOR HEAVY CIVIL, LLC": 555.0
+      }
+    },
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 6.53,
+      "engEstUnit": 40.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 225.0,
+        "WEBBER, LLC": 350.0,
+        "FLUOR HEAVY CIVIL, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 21.41,
+      "engEstUnit": 55.0,
+      "lowUnit": 275.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 275.0,
+        "WEBBER, LLC": 280.0,
+        "FLUOR HEAVY CIVIL, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0735 6001",
+      "description": "DEBRIS REMOVAL (CNTR MEDIANS/MAINLANES)",
+      "unit": "CYC",
+      "quantity": 30.0,
+      "engEstUnit": 1820.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3000.0,
+        "WEBBER, LLC": 1640.0,
+        "FLUOR HEAVY CIVIL, LLC": 678.57
+      }
+    },
+    {
+      "itemCode": "0735 6003",
+      "description": "DEBRIS REMOVAL (FRONTAGE ROADS)",
+      "unit": "CYC",
+      "quantity": 30.0,
+      "engEstUnit": 1320.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3000.0,
+        "WEBBER, LLC": 1320.0,
+        "FLUOR HEAVY CIVIL, LLC": 678.57
+      }
+    },
+    {
+      "itemCode": "0735 6005",
+      "description": "DEBRIS REMOVAL (ENTRANCE/EXIT RAMPS)",
+      "unit": "CYC",
+      "quantity": 30.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3000.0,
+        "WEBBER, LLC": 1050.0,
+        "FLUOR HEAVY CIVIL, LLC": 678.57
+      }
+    },
+    {
+      "itemCode": "0738 6001",
+      "description": "CLEANING / SWEEPING (CENTER MEDIAN)",
+      "unit": "CYC",
+      "quantity": 30.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1500.0,
+        "WEBBER, LLC": 2950.0,
+        "FLUOR HEAVY CIVIL, LLC": 678.57
+      }
+    },
+    {
+      "itemCode": "0738 6003",
+      "description": "CLEANING / SWEEPING (OUTSIDE MAIN LANE)",
+      "unit": "CYC",
+      "quantity": 30.0,
+      "engEstUnit": 2142.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1500.0,
+        "WEBBER, LLC": 2950.0,
+        "FLUOR HEAVY CIVIL, LLC": 678.57
+      }
+    },
+    {
+      "itemCode": "0738 6005",
+      "description": "CLEANING / SWEEPING (FRONTAGE ROAD)",
+      "unit": "CYC",
+      "quantity": 30.0,
+      "engEstUnit": 1700.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2500.0,
+        "WEBBER, LLC": 1980.0,
+        "FLUOR HEAVY CIVIL, LLC": 678.57
+      }
+    },
+    {
+      "itemCode": "0738 6007",
+      "description": "CLEANING / SWEEPING(ENTRANCE/EXIT RAMP)",
+      "unit": "CYC",
+      "quantity": 30.0,
+      "engEstUnit": 1840.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1500.0,
+        "WEBBER, LLC": 2950.0,
+        "FLUOR HEAVY CIVIL, LLC": 678.57
+      }
+    },
+    {
+      "itemCode": "0740 6004",
+      "description": "ANTI - GRAFFITI COATING(PERMNENT-TY II)",
+      "unit": "SF",
+      "quantity": 34075.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.85,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.85,
+        "WEBBER, LLC": 0.79,
+        "FLUOR HEAVY CIVIL, LLC": 0.79
+      }
+    },
+    {
+      "itemCode": "3076 6001",
+      "description": "D-GR HMA TY-B PG64-22",
+      "unit": "TON",
+      "quantity": 14322.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 148.66,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 148.66,
+        "WEBBER, LLC": 130.0,
+        "FLUOR HEAVY CIVIL, LLC": 124.08
+      }
+    },
+    {
+      "itemCode": "3076 6035",
+      "description": "D-GR HMA TY-D PG64-22",
+      "unit": "TON",
+      "quantity": 112.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 222.99,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 222.99,
+        "WEBBER, LLC": 195.0,
+        "FLUOR HEAVY CIVIL, LLC": 254.26
+      }
+    },
+    {
+      "itemCode": "3076 6066",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 315.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 4.58,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4.58,
+        "WEBBER, LLC": 4.0,
+        "FLUOR HEAVY CIVIL, LLC": 4.32
+      }
+    },
+    {
+      "itemCode": "3077 6033",
+      "description": "SP MIXES SP-C SAC-A PG76-22",
+      "unit": "TON",
+      "quantity": 5707.0,
+      "engEstUnit": 135.0,
+      "lowUnit": 171.53,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 171.53,
+        "WEBBER, LLC": 150.0,
+        "FLUOR HEAVY CIVIL, LLC": 177.98
+      }
+    },
+    {
+      "itemCode": "3084 6001",
+      "description": "BONDING COURSE",
+      "unit": "GAL",
+      "quantity": 1743.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 5.72,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 5.72,
+        "WEBBER, LLC": 5.0,
+        "FLUOR HEAVY CIVIL, LLC": 5.59
+      }
+    },
+    {
+      "itemCode": "3085 6001",
+      "description": "UNDERSEAL COURSE",
+      "unit": "GAL",
+      "quantity": 3990.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 5.72,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 5.72,
+        "WEBBER, LLC": 5.0,
+        "FLUOR HEAVY CIVIL, LLC": 5.59
+      }
+    },
+    {
+      "itemCode": "4021 6001",
+      "description": "TIP TESTING(DRILL SHAFT)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 5250.0,
+      "lowUnit": 7341.74,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 7341.74,
+        "WEBBER, LLC": 7349.35,
+        "FLUOR HEAVY CIVIL, LLC": 4398.89
+      }
+    },
+    {
+      "itemCode": "4171 6001",
+      "description": "INSTALL BRIDGE IDENTIFICATION NUMBERS",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 903.59,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 903.59,
+        "WEBBER, LLC": 500.0,
+        "FLUOR HEAVY CIVIL, LLC": 770.19
+      }
+    },
+    {
+      "itemCode": "6004 6032",
+      "description": "ITS COM CBL (SERIAL)",
+      "unit": "LF",
+      "quantity": 410.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 3.96,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3.96,
+        "WEBBER, LLC": 3.5,
+        "FLUOR HEAVY CIVIL, LLC": 4.08
+      }
+    },
+    {
+      "itemCode": "6007 6011",
+      "description": "FIBER OPTIC CBL (SNGLE-MODE)(12 FIBER)",
+      "unit": "LF",
+      "quantity": 1005.0,
+      "engEstUnit": 5.5,
+      "lowUnit": 19.2,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 19.2,
+        "WEBBER, LLC": 17.0,
+        "FLUOR HEAVY CIVIL, LLC": 5.61
+      }
+    },
+    {
+      "itemCode": "6007 6017",
+      "description": "FIBER OPTIC CBL (SNGLE-MODE)(144 FIBER)",
+      "unit": "LF",
+      "quantity": 26200.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 5.37,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 5.37,
+        "WEBBER, LLC": 4.75,
+        "FLUOR HEAVY CIVIL, LLC": 5.82
+      }
+    },
+    {
+      "itemCode": "6007 6021",
+      "description": "FIBER OPTIC SPLICE ENCLOSURE",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 1600.0,
+      "lowUnit": 2597.84,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2597.84,
+        "WEBBER, LLC": 2300.0,
+        "FLUOR HEAVY CIVIL, LLC": 2142.86
+      }
+    },
+    {
+      "itemCode": "6007 6023",
+      "description": "FIBER OPTIC PATCH PANEL (12 POSITION)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1400.0,
+      "lowUnit": 1242.45,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1242.45,
+        "WEBBER, LLC": 1100.0,
+        "FLUOR HEAVY CIVIL, LLC": 1734.69
+      }
+    },
+    {
+      "itemCode": "6007 6026",
+      "description": "FIBER OPTIC CABLE ROAD MARKER",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 180.72,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 180.72,
+        "WEBBER, LLC": 160.0,
+        "FLUOR HEAVY CIVIL, LLC": 306.12
+      }
+    },
+    {
+      "itemCode": "6007 6027",
+      "description": "FIBER OPTIC PATCH PANEL (144 POSITION)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 6700.0,
+      "lowUnit": 3727.32,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3727.32,
+        "WEBBER, LLC": 3300.0,
+        "FLUOR HEAVY CIVIL, LLC": 4081.63
+      }
+    },
+    {
+      "itemCode": "6007 6094",
+      "description": "FIBER OPTIC FUSION SPLICE",
+      "unit": "EA",
+      "quantity": 240.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 192.01,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 192.01,
+        "WEBBER, LLC": 170.0,
+        "FLUOR HEAVY CIVIL, LLC": 112.24
+      }
+    },
+    {
+      "itemCode": "6007 6109",
+      "description": "FIBER OPTIC JUMPERS",
+      "unit": "EA",
+      "quantity": 168.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 225.89,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 225.89,
+        "WEBBER, LLC": 200.0,
+        "FLUOR HEAVY CIVIL, LLC": 51.02
+      }
+    },
+    {
+      "itemCode": "6008 6040",
+      "description": "ITS GND MNT CAB(TY 6)(CONF 1)(INS ONLY)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 12500.0,
+      "lowUnit": 2033.1,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2033.1,
+        "WEBBER, LLC": 1800.0,
+        "FLUOR HEAVY CIVIL, LLC": 10204.08
+      }
+    },
+    {
+      "itemCode": "6010 6002",
+      "description": "CCTV FIELD EQUIPMENT (DIGITAL)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 7300.0,
+      "lowUnit": 10165.48,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 10165.48,
+        "WEBBER, LLC": 9000.0,
+        "FLUOR HEAVY CIVIL, LLC": 8673.47
+      }
+    },
+    {
+      "itemCode": "6010 6004",
+      "description": "CCTV MOUNT (POLE)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 37.27,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 37.27,
+        "WEBBER, LLC": 33.0,
+        "FLUOR HEAVY CIVIL, LLC": 1326.53
+      }
+    },
+    {
+      "itemCode": "6010 6013",
+      "description": "REMOVE CCTV FIELD EQUIPMENT",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 722.87,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 722.87,
+        "WEBBER, LLC": 640.0,
+        "FLUOR HEAVY CIVIL, LLC": 1020.41
+      }
+    },
+    {
+      "itemCode": "6027 6003",
+      "description": "CONDUIT (PREPARE)",
+      "unit": "LF",
+      "quantity": 2005.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 2.54,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.54,
+        "WEBBER, LLC": 2.25,
+        "FLUOR HEAVY CIVIL, LLC": 4.08
+      }
+    },
+    {
+      "itemCode": "6027 6008",
+      "description": "GROUND BOX (PREPARE)",
+      "unit": "EA",
+      "quantity": 11.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 192.01,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 192.01,
+        "WEBBER, LLC": 170.0,
+        "FLUOR HEAVY CIVIL, LLC": 663.27
+      }
+    },
+    {
+      "itemCode": "6028 6001",
+      "description": "INSTALL DMS (POLE MTD CABINET)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 14344.61,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 14344.61,
+        "WEBBER, LLC": 12700.0,
+        "FLUOR HEAVY CIVIL, LLC": 21428.57
+      }
+    },
+    {
+      "itemCode": "6084 6001",
+      "description": "MODIFY EXISTING ELECTRICAL SERVICE",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 4500.0,
+      "lowUnit": 361.44,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 361.44,
+        "WEBBER, LLC": 320.0,
+        "FLUOR HEAVY CIVIL, LLC": 3571.43
+      }
+    },
+    {
+      "itemCode": "6093 6011",
+      "description": "REMOVE EXIST FIB OPT DMS SYS(TY-3)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 8700.0,
+      "lowUnit": 9148.93,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 9148.93,
+        "WEBBER, LLC": 8100.0,
+        "FLUOR HEAVY CIVIL, LLC": 13265.31
+      }
+    },
+    {
+      "itemCode": "6093 6014",
+      "description": "RELOCATE EXIST FIB OPT DMS SYS(TY-3)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 8245.29,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 8245.29,
+        "WEBBER, LLC": 7300.0,
+        "FLUOR HEAVY CIVIL, LLC": 13265.31
+      }
+    },
+    {
+      "itemCode": "6123 6001",
+      "description": "ETHERNET SWITCH (INSTALL ONLY)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 575.0,
+      "lowUnit": 688.99,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 688.99,
+        "WEBBER, LLC": 610.0,
+        "FLUOR HEAVY CIVIL, LLC": 714.29
+      }
+    },
+    {
+      "itemCode": "6125 6001",
+      "description": "TERMINAL SERVER (INSTALL ONLY)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 655.1,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 655.1,
+        "WEBBER, LLC": 580.0,
+        "FLUOR HEAVY CIVIL, LLC": 1326.53
+      }
+    },
+    {
+      "itemCode": "6155 6002",
+      "description": "RADAR COMMUNICATION CABLE",
+      "unit": "LF",
+      "quantity": 1817.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 4.29,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4.29,
+        "WEBBER, LLC": 3.8,
+        "FLUOR HEAVY CIVIL, LLC": 3.57
+      }
+    },
+    {
+      "itemCode": "6186 6002",
+      "description": "ITS GND BOX(PCAST) TY 1 (243636)W/APRN",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 5500.0,
+      "lowUnit": 8132.38,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 8132.38,
+        "WEBBER, LLC": 7200.0,
+        "FLUOR HEAVY CIVIL, LLC": 6122.45
+      }
+    },
+    {
+      "itemCode": "6186 6008",
+      "description": "ITS GND BOX(PCAST) TY 2 (366036)W/APRN",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 7800.0,
+      "lowUnit": 13779.87,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 13779.87,
+        "WEBBER, LLC": 12200.0,
+        "FLUOR HEAVY CIVIL, LLC": 8673.47
+      }
+    },
+    {
+      "itemCode": "6263 6002",
+      "description": "BLUETOOTH DETECTION SYSTEM (INSTALL)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 4500.0,
+      "lowUnit": 1242.45,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1242.45,
+        "WEBBER, LLC": 1100.0,
+        "FLUOR HEAVY CIVIL, LLC": 4387.76
+      }
+    },
+    {
+      "itemCode": "6304 6001",
+      "description": "ITS RVSD (DATA COLLECT ONLY) SYS",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 16000.0,
+      "lowUnit": 20669.81,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 20669.81,
+        "WEBBER, LLC": 18300.0,
+        "FLUOR HEAVY CIVIL, LLC": 6122.45
+      }
+    },
+    {
+      "itemCode": "6319 6001",
+      "description": "LED WRONG WAY DRIVER SYSTEM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 8300.0,
+      "lowUnit": 93409.42,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 93409.42,
+        "WEBBER, LLC": 82700.0,
+        "FLUOR HEAVY CIVIL, LLC": 8163.27
+      }
+    },
+    {
+      "itemCode": "7194 6016",
+      "description": "SAN SWR STRUCTURES (RECONSTRUCT EX MH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 54509.54,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 54509.54,
+        "WEBBER, LLC": 48260.0,
+        "FLUOR HEAVY CIVIL, LLC": 21894.38
+      }
+    },
+    {
+      "itemCode": "7194 6038",
+      "description": "SAN SWR BYPASS PUMPING (LARGE DIA)",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 91630.47,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 91630.47,
+        "WEBBER, LLC": 81125.0,
+        "FLUOR HEAVY CIVIL, LLC": 91497.08
+      }
+    },
+    {
+      "itemCode": "7196 6001",
+      "description": "TRENCH EXCAVATION PROTECTION",
+      "unit": "LF",
+      "quantity": 1299.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 16.94,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 16.94,
+        "WEBBER, LLC": 15.0,
+        "FLUOR HEAVY CIVIL, LLC": 78.06
+      }
+    },
+    {
+      "itemCode": "7196 6002",
+      "description": "DUCTILE IRON FITTINGS",
+      "unit": "TON",
+      "quantity": 7.01,
+      "engEstUnit": 13500.0,
+      "lowUnit": 15852.5,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 15852.5,
+        "WEBBER, LLC": 14035.0,
+        "FLUOR HEAVY CIVIL, LLC": 21838.14
+      }
+    },
+    {
+      "itemCode": "7196 6003",
+      "description": "HYDROSTATIC PRESSURE TEST",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 6381.66,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 6381.66,
+        "WEBBER, LLC": 5650.0,
+        "FLUOR HEAVY CIVIL, LLC": 7345.16
+      }
+    },
+    {
+      "itemCode": "7196 6004",
+      "description": "TEMPORARY BLOW-OFF(COMPLETE)(2\")",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 6215.63,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 6215.63,
+        "WEBBER, LLC": 5503.0,
+        "FLUOR HEAVY CIVIL, LLC": 2149.59
+      }
+    },
+    {
+      "itemCode": "7196 6005",
+      "description": "FLOWABLE FILL BACKFILL",
+      "unit": "CY",
+      "quantity": 29.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 311.74,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 311.74,
+        "WEBBER, LLC": 550.0,
+        "FLUOR HEAVY CIVIL, LLC": 167.43
+      }
+    },
+    {
+      "itemCode": "7196 6030",
+      "description": "GATE VALVE & BOX (COMPLETE)(16\")",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 16306.55,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 16306.55,
+        "WEBBER, LLC": 14437.0,
+        "FLUOR HEAVY CIVIL, LLC": 14647.32
+      }
+    },
+    {
+      "itemCode": "7196 6032",
+      "description": "FIRE HYDRANT ASSEMBLY",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 12710.24,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 12710.24,
+        "WEBBER, LLC": 11253.0,
+        "FLUOR HEAVY CIVIL, LLC": 11017.91
+      }
+    },
+    {
+      "itemCode": "7196 6034",
+      "description": "TIE-IN (COMPLETE)(12\")",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 6000.0,
+      "lowUnit": 12861.59,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 12861.59,
+        "WEBBER, LLC": 11387.0,
+        "FLUOR HEAVY CIVIL, LLC": 16259.08
+      }
+    },
+    {
+      "itemCode": "7196 6035",
+      "description": "TIE-IN (COMPLETE)(16\")",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 17092.68,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 17092.68,
+        "WEBBER, LLC": 15133.0,
+        "FLUOR HEAVY CIVIL, LLC": 20646.39
+      }
+    },
+    {
+      "itemCode": "7196 6039",
+      "description": "PIPE WATER MAIN (PVC) (12\")",
+      "unit": "LF",
+      "quantity": 13.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 297.06,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 297.06,
+        "WEBBER, LLC": 263.0,
+        "FLUOR HEAVY CIVIL, LLC": 217.49
+      }
+    },
+    {
+      "itemCode": "7196 6049",
+      "description": "PIPE WATER MAIN (PVC) (16\")",
+      "unit": "LF",
+      "quantity": 64.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 459.7,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 459.7,
+        "WEBBER, LLC": 407.0,
+        "FLUOR HEAVY CIVIL, LLC": 207.33
+      }
+    },
+    {
+      "itemCode": "7196 6059",
+      "description": "AIR RELEASE VALVE (COMPLETE)(2\")",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 24712.27,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 24712.27,
+        "WEBBER, LLC": 21879.0,
+        "FLUOR HEAVY CIVIL, LLC": 71326.52
+      }
+    },
+    {
+      "itemCode": "7196 6060",
+      "description": "WTR (JACK, BORE OR TUNNEL) (42\")",
+      "unit": "LF",
+      "quantity": 295.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1096.75,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1096.75,
+        "WEBBER, LLC": 971.0,
+        "FLUOR HEAVY CIVIL, LLC": 1072.99
+      }
+    },
+    {
+      "itemCode": "7196 6064",
+      "description": "STEEL CASING (42\") (BORE)",
+      "unit": "LF",
+      "quantity": 295.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 480.03,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 480.03,
+        "WEBBER, LLC": 425.0,
+        "FLUOR HEAVY CIVIL, LLC": 592.15
+      }
+    },
+    {
+      "itemCode": "7196 6066",
+      "description": "TEMPORARY BLOW-OFF (COMPLETE)(4 IN)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 19205.97,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 19205.97,
+        "WEBBER, LLC": 17004.0,
+        "FLUOR HEAVY CIVIL, LLC": 18923.09
+      }
+    },
+    {
+      "itemCode": "7196 6073",
+      "description": "PIPE WATER MAIN (PVC) (24\")",
+      "unit": "LF",
+      "quantity": 1157.0,
+      "engEstUnit": 445.0,
+      "lowUnit": 454.06,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 454.06,
+        "WEBBER, LLC": 402.0,
+        "FLUOR HEAVY CIVIL, LLC": 290.56
+      }
+    },
+    {
+      "itemCode": "7196 6075",
+      "description": "BUTTERFLY VALVE AND BOX (COMPL) (24\")",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 35000.0,
+      "lowUnit": 49464.07,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 49464.07,
+        "WEBBER, LLC": 43793.0,
+        "FLUOR HEAVY CIVIL, LLC": 47501.62
+      }
+    },
+    {
+      "itemCode": "7196 6076",
+      "description": "TIE-IN (COMPLETE) (24\")",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 12500.0,
+      "lowUnit": 21111.44,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 21111.44,
+        "WEBBER, LLC": 18691.0,
+        "FLUOR HEAVY CIVIL, LLC": 32885.83
+      }
+    },
+    {
+      "itemCode": "7196 6078",
+      "description": "CARRIER PIPE (OPEN CUT) (PVC) (24\")",
+      "unit": "LF",
+      "quantity": 65.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 446.15,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 446.15,
+        "WEBBER, LLC": 395.0,
+        "FLUOR HEAVY CIVIL, LLC": 330.08
+      }
+    },
+    {
+      "itemCode": "7196 6080",
+      "description": "STEEL CASING (42\") (OPEN CUT)",
+      "unit": "LF",
+      "quantity": 65.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 579.44,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 579.44,
+        "WEBBER, LLC": 513.0,
+        "FLUOR HEAVY CIVIL, LLC": 535.24
+      }
+    },
+    {
+      "itemCode": "7196 6082",
+      "description": "GROUT ABANDONMENT WATER MAIN (24\")",
+      "unit": "LF",
+      "quantity": 281.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 86.98,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 86.98,
+        "WEBBER, LLC": 77.0,
+        "FLUOR HEAVY CIVIL, LLC": 90.62
+      }
+    },
+    {
+      "itemCode": "7196 6126",
+      "description": "WATER MAIN REMOVAL (LARGER THAN 16\")",
+      "unit": "LF",
+      "quantity": 348.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 83.59,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 83.59,
+        "WEBBER, LLC": 74.0,
+        "FLUOR HEAVY CIVIL, LLC": 67.93
+      }
+    },
+    {
+      "itemCode": "7196 6164",
+      "description": "CARRIER PIPE (BORE)(PVC)(24\")",
+      "unit": "LF",
+      "quantity": 295.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 448.41,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 448.41,
+        "WEBBER, LLC": 397.0,
+        "FLUOR HEAVY CIVIL, LLC": 295.82
+      }
+    }
+  ]
+}

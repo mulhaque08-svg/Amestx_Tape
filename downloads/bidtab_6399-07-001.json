@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6399-07-001",
+    "county": "Karnes",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639907001",
+    "projectType": "HOT-MIX COLD-LAID",
+    "letDate": "04/19/22",
+    "engEstTotal": 289500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 270000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 279500.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 292250.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 317165.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "LONE STAR PAVING COMPANY",
+      "totalBidAmount": 346750.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8013 6009",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 1)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 94.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "BRAUNTEX MATERIALS, INC.": 90.0,
+        "TEXAS MATERIALS GROUP, INC.": 89.0,
+        "COLORADO MATERIALS, LTD.": 94.5,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 103.48,
+        "LONE STAR PAVING COMPANY": 112.25
+      }
+    },
+    {
+      "itemCode": "8013 6010",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 2)",
+      "unit": "TON",
+      "quantity": 2500.0,
+      "engEstUnit": 97.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "BRAUNTEX MATERIALS, INC.": 90.0,
+        "TEXAS MATERIALS GROUP, INC.": 94.0,
+        "COLORADO MATERIALS, LTD.": 98.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 106.17,
+        "LONE STAR PAVING COMPANY": 116.25
+      }
+    }
+  ]
+}

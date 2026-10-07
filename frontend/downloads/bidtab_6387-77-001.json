@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "csj": "6387-77-001",
+    "county": "Tarrant",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 638777001",
+    "projectType": "BRIDGE PREVENTATIVE MAINTENANCE",
+    "letDate": "11/04/21",
+    "engEstTotal": 295055.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GIBSON & ASSOCIATES, INC.",
+      "totalBidAmount": 257068.4
+    },
+    {
+      "rank": 2,
+      "vendorName": "RAGLE CONSTRUCTION, INC.",
+      "totalBidAmount": 283620.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0429 6005",
+      "description": "CONC STR REPAIR(DECK REP (FULL DEPTH))",
+      "unit": "SF",
+      "quantity": 50.4,
+      "engEstUnit": 150.0,
+      "lowUnit": 171.0,
+      "bidders": {
+        "GIBSON & ASSOCIATES, INC.": 171.0,
+        "RAGLE CONSTRUCTION, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 16000.0,
+      "bidders": {
+        "GIBSON & ASSOCIATES, INC.": 16000.0,
+        "RAGLE CONSTRUCTION, INC.": 28000.0
+      }
+    },
+    {
+      "itemCode": "0778 6001",
+      "description": "CONCRETE RAIL REPAIR (IN-KIND)",
+      "unit": "LF",
+      "quantity": 40.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 740.0,
+      "bidders": {
+        "GIBSON & ASSOCIATES, INC.": 740.0,
+        "RAGLE CONSTRUCTION, INC.": 450.0
+      }
+    },
+    {
+      "itemCode": "0784 6003",
+      "description": "REP STL BRIDGE MEMBER (DIAPHRAGM)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "GIBSON & ASSOCIATES, INC.": 10000.0,
+        "RAGLE CONSTRUCTION, INC.": 4500.0
+      }
+    },
+    {
+      "itemCode": "0784 6034",
+      "description": "REP STL BRIDGE MEMBER(STRAIGHTEN MEMB)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 90000.0,
+      "lowUnit": 33000.0,
+      "bidders": {
+        "GIBSON & ASSOCIATES, INC.": 33000.0,
+        "RAGLE CONSTRUCTION, INC.": 24000.0
+      }
+    },
+    {
+      "itemCode": "0784 6037",
+      "description": "REP STL BRIDGE MEMBER (WEB REP)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 7500.0,
+      "bidders": {
+        "GIBSON & ASSOCIATES, INC.": 7500.0,
+        "RAGLE CONSTRUCTION, INC.": 3500.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 5100.0,
+      "bidders": {
+        "GIBSON & ASSOCIATES, INC.": 5100.0,
+        "RAGLE CONSTRUCTION, INC.": 5000.0
+      }
+    }
+  ]
+}

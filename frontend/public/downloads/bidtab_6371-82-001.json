@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "csj": "6371-82-001",
+    "county": "Hardin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637182001",
+    "projectType": "KOUNTZE ~ ROW MOWING",
+    "letDate": "03/05/21",
+    "engEstTotal": 468840.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 503714.28
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 898.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 43.43,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 43.43
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 10698.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 43.43,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 43.43
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 1.0
+      }
+    }
+  ]
+}

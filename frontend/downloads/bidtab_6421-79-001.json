@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6421-79-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642179001",
+    "projectType": "HERBICIDE/INSECTICIDE",
+    "letDate": "12/01/22",
+    "engEstTotal": 437050.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "OPTERRA SOLUTIONS",
+      "totalBidAmount": 381500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 689640.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "JASCO",
+      "totalBidAmount": 702340.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 1022840.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 39700.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "OPTERRA SOLUTIONS": 2500.0,
+        "ANTHONY SERVICES": 60000.0,
+        "JASCO": 30000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 75000.0
+      }
+    },
+    {
+      "itemCode": "0731 6006",
+      "description": "BROADCAST APPLICATION",
+      "unit": "MI",
+      "quantity": 280.0,
+      "engEstUnit": 460.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "OPTERRA SOLUTIONS": 1000.0,
+        "ANTHONY SERVICES": 1200.0,
+        "JASCO": 1200.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 1578.0
+      }
+    },
+    {
+      "itemCode": "0731 6007",
+      "description": "PAVEMENT EDGES, STRUCTURES & FIXTURES",
+      "unit": "MI",
+      "quantity": 280.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 135.0,
+      "bidders": {
+        "OPTERRA SOLUTIONS": 135.0,
+        "ANTHONY SERVICES": 988.0,
+        "JASCO": 1200.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 1200.0
+      }
+    }
+  ]
+}

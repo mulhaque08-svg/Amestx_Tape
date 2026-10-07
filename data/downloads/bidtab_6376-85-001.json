@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6376-85-001",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637685001",
+    "projectType": "TREE TRIMMING AND BRUSH REMOVAL",
+    "letDate": "12/14/21",
+    "engEstTotal": 297000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "INTERSTATE ROAD WORKS, LLC",
+      "totalBidAmount": 251106.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ROAD SOLUTIONS L.L.C.",
+      "totalBidAmount": 255606.98
+    },
+    {
+      "rank": 3,
+      "vendorName": "LAWNSCAPES UNLIMITED",
+      "totalBidAmount": 313224.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "FOWLER CONSTRUCTION",
+      "totalBidAmount": 570106.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "YELLOWSTONE LANDSCAPE - CENTRAL, INC.",
+      "totalBidAmount": 631800.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "INTERSTATE ROAD WORKS, LLC": 1.0,
+        "ROAD SOLUTIONS L.L.C.": 561.956,
+        "LAWNSCAPES UNLIMITED": 1.0,
+        "FOWLER CONSTRUCTION": 1.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 2000.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "INTERSTATE ROAD WORKS, LLC": 1.0,
+        "ROAD SOLUTIONS L.L.C.": 817.982,
+        "LAWNSCAPES UNLIMITED": 1000.0,
+        "FOWLER CONSTRUCTION": 1.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 1500.0
+      }
+    }
+  ]
+}

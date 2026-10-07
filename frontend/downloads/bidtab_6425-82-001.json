@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6425-82-001",
+    "county": "Tyler",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642582001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/07/23",
+    "engEstTotal": 697300.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ACE CONTRACTORS, INC.",
+      "totalBidAmount": 638500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 933300.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 941740.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 3800.0,
+      "engEstUnit": 46.0,
+      "lowUnit": 19.5,
+      "bidders": {
+        "ACE CONTRACTORS, INC.": 19.5,
+        "CROSS PLUS CONSTRUCTION, LLC": 61.0,
+        "P-VILLE, INCORPORATED": 61.95
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 11400.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 49.5,
+      "bidders": {
+        "ACE CONTRACTORS, INC.": 49.5,
+        "CROSS PLUS CONSTRUCTION, LLC": 61.0,
+        "P-VILLE, INCORPORATED": 61.95
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ACE CONTRACTORS, INC.": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 61.0,
+        "P-VILLE, INCORPORATED": 1.0
+      }
+    }
+  ]
+}

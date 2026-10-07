@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "csj": "6462-33-001",
+    "county": "Kaufman",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646233001",
+    "projectType": "DITCH CLEANING AND RESHAPING",
+    "letDate": "04/04/24",
+    "engEstTotal": 1614100.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RHINO EQUITY, LLC",
+      "totalBidAmount": 1257800.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 1582900.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "3LW CIVIL LLC",
+      "totalBidAmount": 3465550.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0480 6002",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "CY",
+      "quantity": 20000.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 25.0,
+        "TEXAS DRAINAGE INC.": 55.0,
+        "3LW CIVIL LLC": 85.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 100.0,
+        "TEXAS DRAINAGE INC.": 100.0,
+        "3LW CIVIL LLC": 8500.0
+      }
+    },
+    {
+      "itemCode": "0760 6001",
+      "description": "DITCH CLEANING AND RESHAPING (FOOT)",
+      "unit": "LF",
+      "quantity": 100000.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 4.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 4.0,
+        "TEXAS DRAINAGE INC.": 2.5,
+        "3LW CIVIL LLC": 10.25
+      }
+    },
+    {
+      "itemCode": "0760 6002",
+      "description": "DITCH CLEAN / RESHAPING(CU YD IN PLACE)",
+      "unit": "CY",
+      "quantity": 6000.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 35.0,
+        "TEXAS DRAINAGE INC.": 15.0,
+        "3LW CIVIL LLC": 55.0
+      }
+    },
+    {
+      "itemCode": "7000 6001",
+      "description": "REML & DISPL DRIFTWOOD & DEBRIS",
+      "unit": "CY",
+      "quantity": 1000.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 50.0,
+        "TEXAS DRAINAGE INC.": 60.0,
+        "3LW CIVIL LLC": 110.0
+      }
+    },
+    {
+      "itemCode": "7083 6001",
+      "description": "CLEANING GUARDRAIL",
+      "unit": "LF",
+      "quantity": 11000.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 2.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 2.0,
+        "TEXAS DRAINAGE INC.": 2.5,
+        "3LW CIVIL LLC": 6.5
+      }
+    },
+    {
+      "itemCode": "7083 6003",
+      "description": "CLEANING DRAINAGE FLUMES",
+      "unit": "LF",
+      "quantity": 16900.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 2.0,
+        "TEXAS DRAINAGE INC.": 2.0,
+        "3LW CIVIL LLC": 4.5
+      }
+    }
+  ]
+}

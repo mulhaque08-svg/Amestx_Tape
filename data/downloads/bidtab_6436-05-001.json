@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "csj": "6436-05-001",
+    "county": "San Patricio",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643605001",
+    "projectType": "CRACK SEAL",
+    "letDate": "06/13/23",
+    "engEstTotal": 229430.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FYL ENTERPRISES, LLC",
+      "totalBidAmount": 116061.58
+    },
+    {
+      "rank": 2,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 140184.4
+    },
+    {
+      "rank": 3,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 147287.04
+    },
+    {
+      "rank": 4,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 253530.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "SCOUT 5 CONSTRUCTION LLC",
+      "totalBidAmount": 335356.24
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 20200.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "FYL ENTERPRISES, LLC": 1000.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 2300.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.001,
+        "D & M CONTRACTORS, LLC": 3000.0,
+        "SCOUT 5 CONSTRUCTION LLC": 4999.38
+      }
+    }
+  ]
+}

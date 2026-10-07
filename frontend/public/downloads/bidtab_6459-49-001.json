@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6459-49-001",
+    "county": "Coke",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645949001",
+    "projectType": "ROADSIGN ASSEMBLIES",
+    "letDate": "12/12/23",
+    "engEstTotal": 52977.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TWELVE STARS CONSTRUCTION COMPANY LLC",
+      "totalBidAmount": 22557.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "MARCOM'S MOWING SERVICE, LLC",
+      "totalBidAmount": 43637.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "JASCO",
+      "totalBidAmount": 52802.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 935.0,
+      "lowUnit": 550.0,
+      "bidders": {
+        "TWELVE STARS CONSTRUCTION COMPANY LLC": 550.0,
+        "MARCOM'S MOWING SERVICE, LLC": 1200.0,
+        "JASCO": 950.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 143.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "TWELVE STARS CONSTRUCTION COMPANY LLC": 50.0,
+        "MARCOM'S MOWING SERVICE, LLC": 150.0,
+        "JASCO": 250.0
+      }
+    }
+  ]
+}

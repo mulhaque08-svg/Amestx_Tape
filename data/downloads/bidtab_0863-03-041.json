@@ -1,0 +1,785 @@
+{
+  "metadata": {
+    "csj": "0863-03-041",
+    "county": "Hidalgo",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "STP 2024(932)HES",
+    "projectType": "HAZARD ELIMINATION & SAFETY",
+    "letDate": "04/04/24",
+    "engEstTotal": 1184241.35,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "THE LEVY COMPANY, INC.",
+      "totalBidAmount": 1182382.47
+    },
+    {
+      "rank": 2,
+      "vendorName": "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.",
+      "totalBidAmount": 1218180.3
+    },
+    {
+      "rank": 3,
+      "vendorName": "TRAF-TEX, INC.",
+      "totalBidAmount": 1291503.89
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0416 6030",
+      "description": "DRILL SHAFT (TRF SIG POLE) (24 IN)",
+      "unit": "LF",
+      "quantity": 144.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 267.52,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 267.52,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 140.0,
+        "TRAF-TEX, INC.": 111.0
+      }
+    },
+    {
+      "itemCode": "0416 6032",
+      "description": "DRILL SHAFT (TRF SIG POLE) (36 IN)",
+      "unit": "LF",
+      "quantity": 240.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 337.58,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 337.58,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 295.0,
+        "TRAF-TEX, INC.": 293.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 105000.0,
+      "lowUnit": 118238.24,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 118238.24,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 65000.0,
+        "TRAF-TEX, INC.": 34960.0
+      }
+    },
+    {
+      "itemCode": "0529 6024",
+      "description": "CONC CURB (MOUNTABLE)",
+      "unit": "LF",
+      "quantity": 491.0,
+      "engEstUnit": 15.05,
+      "lowUnit": 50.0,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 50.0,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 63.0,
+        "TRAF-TEX, INC.": 41.0
+      }
+    },
+    {
+      "itemCode": "0531 6001",
+      "description": "CONC SIDEWALKS (4\")",
+      "unit": "SY",
+      "quantity": 283.0,
+      "engEstUnit": 53.0,
+      "lowUnit": 68.0,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 68.0,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 100.0,
+        "TRAF-TEX, INC.": 81.0
+      }
+    },
+    {
+      "itemCode": "0531 6004",
+      "description": "CURB RAMPS (TY 1)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 3275.0,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 3275.0,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 3300.0,
+        "TRAF-TEX, INC.": 3725.0
+      }
+    },
+    {
+      "itemCode": "0531 6013",
+      "description": "CURB RAMPS (TY 10)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 3225.0,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 3225.0,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 2650.0,
+        "TRAF-TEX, INC.": 4080.0
+      }
+    },
+    {
+      "itemCode": "0618 6016",
+      "description": "CONDT (PVC) (SCH 40) (1\")",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 6.39,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 6.39,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 16.0,
+        "TRAF-TEX, INC.": 9.0
+      }
+    },
+    {
+      "itemCode": "0618 6023",
+      "description": "CONDT (PVC) (SCH 40) (2\")",
+      "unit": "LF",
+      "quantity": 590.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 13.61,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 13.61,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 22.0,
+        "TRAF-TEX, INC.": 17.71
+      }
+    },
+    {
+      "itemCode": "0618 6033",
+      "description": "CONDT (PVC) (SCH 40) (4\")",
+      "unit": "LF",
+      "quantity": 425.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 19.17,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 19.17,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 26.0,
+        "TRAF-TEX, INC.": 49.8
+      }
+    },
+    {
+      "itemCode": "0618 6059",
+      "description": "CONDT (PVC) (SCH 80) (4\") (BORE)",
+      "unit": "LF",
+      "quantity": 280.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 43.82,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 43.82,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 42.0,
+        "TRAF-TEX, INC.": 46.55
+      }
+    },
+    {
+      "itemCode": "0620 6007",
+      "description": "ELEC CONDR (NO.8) BARE",
+      "unit": "LF",
+      "quantity": 960.0,
+      "engEstUnit": 1.75,
+      "lowUnit": 1.38,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 1.38,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1.6,
+        "TRAF-TEX, INC.": 1.61
+      }
+    },
+    {
+      "itemCode": "0620 6009",
+      "description": "ELEC CONDR (NO.6) BARE",
+      "unit": "LF",
+      "quantity": 535.0,
+      "engEstUnit": 1.9,
+      "lowUnit": 1.58,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 1.58,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 2.0,
+        "TRAF-TEX, INC.": 1.7
+      }
+    },
+    {
+      "itemCode": "0620 6010",
+      "description": "ELEC CONDR (NO.6) INSULATED",
+      "unit": "LF",
+      "quantity": 520.0,
+      "engEstUnit": 1.8,
+      "lowUnit": 1.69,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 1.69,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 2.1,
+        "TRAF-TEX, INC.": 2.13
+      }
+    },
+    {
+      "itemCode": "0621 6005",
+      "description": "TRAY CABLE (4 CONDR) (12 AWG)",
+      "unit": "LF",
+      "quantity": 1595.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.16,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 2.16,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 2.4,
+        "TRAF-TEX, INC.": 3.57
+      }
+    },
+    {
+      "itemCode": "0624 6002",
+      "description": "GROUND BOX TY A (122311)W/APRON",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1070.43,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 1070.43,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 990.0,
+        "TRAF-TEX, INC.": 1098.0
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1444.98,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 1444.98,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1400.0,
+        "TRAF-TEX, INC.": 1172.0
+      }
+    },
+    {
+      "itemCode": "0625 6003",
+      "description": "ZINC-COAT STL WIRE STRAND (3/8\")",
+      "unit": "LF",
+      "quantity": 2860.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.56,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 3.56,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 2.5,
+        "TRAF-TEX, INC.": 2.62
+      }
+    },
+    {
+      "itemCode": "0628 6300",
+      "description": "ELC SRV TY T 120/240 000(NS)GS(L)TP(O)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2900.0,
+      "lowUnit": 4808.3,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 4808.3,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 3835.0,
+        "TRAF-TEX, INC.": 5072.0
+      }
+    },
+    {
+      "itemCode": "0628 6301",
+      "description": "ELC SRV TY T 120/240 000(NS)GS(L)TS(O)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3536.65,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 3536.65,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 2625.0,
+        "TRAF-TEX, INC.": 3657.0
+      }
+    },
+    {
+      "itemCode": "0644 6030",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(T)",
+      "unit": "EA",
+      "quantity": 13.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 1231.56,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 1231.56,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1150.0,
+        "TRAF-TEX, INC.": 1014.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 143.34,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 143.34,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 145.0,
+        "TRAF-TEX, INC.": 169.0
+      }
+    },
+    {
+      "itemCode": "0644 6078",
+      "description": "REMOVE SM RD SN SUP&AM (SIGN ONLY)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 57.34,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 57.34,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 600.0,
+        "TRAF-TEX, INC.": 169.0
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 222.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 250.0,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 320.0,
+        "TRAF-TEX, INC.": 278.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 280.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 350.0,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 320.0,
+        "TRAF-TEX, INC.": 389.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 7.5,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 7.5,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 7.0,
+        "TRAF-TEX, INC.": 8.35
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 268.0,
+      "engEstUnit": 3.8,
+      "lowUnit": 7.5,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 7.5,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 4.5,
+        "TRAF-TEX, INC.": 8.35
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 255.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 7.5,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 7.5,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 4.5,
+        "TRAF-TEX, INC.": 8.35
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 1140.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.55,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 0.55,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1.5,
+        "TRAF-TEX, INC.": 0.61
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 190.0,
+      "engEstUnit": 1.35,
+      "lowUnit": 0.75,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 0.75,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 3.0,
+        "TRAF-TEX, INC.": 0.85
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 161.0,
+      "engEstUnit": 3.75,
+      "lowUnit": 5.0,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 5.0,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 7.4,
+        "TRAF-TEX, INC.": 5.6
+      }
+    },
+    {
+      "itemCode": "0677 6008",
+      "description": "ELIM EXT PAV MRK & MRKS (ARROW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 100.0,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 112.0,
+        "TRAF-TEX, INC.": 111.0
+      }
+    },
+    {
+      "itemCode": "0677 6012",
+      "description": "ELIM EXT PAV MRK & MRKS (WORD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 100.0,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 112.0,
+        "TRAF-TEX, INC.": 111.0
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 33290.0,
+      "engEstUnit": 0.05,
+      "lowUnit": 0.06,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 0.06,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 0.13,
+        "TRAF-TEX, INC.": 0.1
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 3670.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.12,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 0.12,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 0.25,
+        "TRAF-TEX, INC.": 0.15
+      }
+    },
+    {
+      "itemCode": "0678 6006",
+      "description": "PAV SURF PREP FOR MRK (12\")",
+      "unit": "LF",
+      "quantity": 150.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.35,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 0.35,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 0.5,
+        "TRAF-TEX, INC.": 0.4
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 819.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 0.75,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 0.75,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1.1,
+        "TRAF-TEX, INC.": 0.85
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 25.0,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 12.0,
+        "TRAF-TEX, INC.": 28.0
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 25.0,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 12.0,
+        "TRAF-TEX, INC.": 28.0
+      }
+    },
+    {
+      "itemCode": "0682 6001",
+      "description": "VEH SIG SEC (12\")LED(GRN)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 271.36,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 271.36,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 285.0,
+        "TRAF-TEX, INC.": 244.0
+      }
+    },
+    {
+      "itemCode": "0682 6002",
+      "description": "VEH SIG SEC (12\")LED(GRN ARW)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 271.33,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 271.33,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 285.0,
+        "TRAF-TEX, INC.": 244.0
+      }
+    },
+    {
+      "itemCode": "0682 6003",
+      "description": "VEH SIG SEC (12\")LED(YEL)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 271.36,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 271.36,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 285.0,
+        "TRAF-TEX, INC.": 244.0
+      }
+    },
+    {
+      "itemCode": "0682 6004",
+      "description": "VEH SIG SEC (12\")LED(YEL ARW)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 271.35,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 271.35,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 285.0,
+        "TRAF-TEX, INC.": 244.0
+      }
+    },
+    {
+      "itemCode": "0682 6005",
+      "description": "VEH SIG SEC (12\")LED(RED)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 271.36,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 271.36,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 285.0,
+        "TRAF-TEX, INC.": 244.0
+      }
+    },
+    {
+      "itemCode": "0682 6006",
+      "description": "VEH SIG SEC (12\")LED(RED ARW)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 271.33,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 271.33,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 285.0,
+        "TRAF-TEX, INC.": 244.0
+      }
+    },
+    {
+      "itemCode": "0682 6018",
+      "description": "PED SIG SEC (LED)(COUNTDOWN)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 650.0,
+      "lowUnit": 664.74,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 664.74,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 510.0,
+        "TRAF-TEX, INC.": 654.33
+      }
+    },
+    {
+      "itemCode": "0682 6049",
+      "description": "BACKPLATE W/REFL BRDR(4 SEC)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 191.47,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 191.47,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 182.0,
+        "TRAF-TEX, INC.": 1751.0
+      }
+    },
+    {
+      "itemCode": "0682 6060",
+      "description": "BACKPLATE W/REFL BRDR(3 SEC)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 145.62,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 145.62,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 135.0,
+        "TRAF-TEX, INC.": 191.0
+      }
+    },
+    {
+      "itemCode": "0684 6007",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(2 CONDR)",
+      "unit": "LF",
+      "quantity": 3585.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.32,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 1.32,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1.7,
+        "TRAF-TEX, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0684 6010",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(5 CONDR)",
+      "unit": "LF",
+      "quantity": 6620.0,
+      "engEstUnit": 2.75,
+      "lowUnit": 2.23,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 2.23,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 2.5,
+        "TRAF-TEX, INC.": 2.33
+      }
+    },
+    {
+      "itemCode": "0684 6012",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(7 CONDR)",
+      "unit": "LF",
+      "quantity": 1830.0,
+      "engEstUnit": 3.3,
+      "lowUnit": 2.93,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 2.93,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 3.0,
+        "TRAF-TEX, INC.": 3.22
+      }
+    },
+    {
+      "itemCode": "0686 6019",
+      "description": "INS TRF SIG PL AM (S)STR(TY D)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 9000.0,
+      "lowUnit": 8194.16,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 8194.16,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 9870.0,
+        "TRAF-TEX, INC.": 9100.0
+      }
+    },
+    {
+      "itemCode": "0686 6020",
+      "description": "INS TRF SIG PL AM (S)STR(TY D)LUM",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 10300.0,
+      "lowUnit": 10324.13,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 10324.13,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 11510.0,
+        "TRAF-TEX, INC.": 10561.0
+      }
+    },
+    {
+      "itemCode": "0687 6001",
+      "description": "PED POLE ASSEMBLY",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1041.59,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 1041.59,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1250.0,
+        "TRAF-TEX, INC.": 2246.0
+      }
+    },
+    {
+      "itemCode": "0688 6001",
+      "description": "PED DETECT PUSH BUTTON (APS)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 765.07,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 765.07,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 872.0,
+        "TRAF-TEX, INC.": 3434.0
+      }
+    },
+    {
+      "itemCode": "0688 6003",
+      "description": "PED DETECTOR CONTROLLER UNIT",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3600.0,
+      "lowUnit": 3157.06,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 3157.06,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 3200.0,
+        "TRAF-TEX, INC.": 722.0
+      }
+    },
+    {
+      "itemCode": "6292 6001",
+      "description": "RVDS(PRESENCE DETECTION ONLY)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 10500.0,
+      "lowUnit": 8062.79,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 8062.79,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 9577.0,
+        "TRAF-TEX, INC.": 9632.0
+      }
+    },
+    {
+      "itemCode": "6292 6002",
+      "description": "RVDS(ADVANCE DETECTION ONLY)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 10200.0,
+      "lowUnit": 8485.52,
+      "bidders": {
+        "THE LEVY COMPANY, INC.": 8485.52,
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 9585.0,
+        "TRAF-TEX, INC.": 9573.0
+      }
+    }
+  ]
+}

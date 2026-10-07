@@ -1,0 +1,554 @@
+{
+  "metadata": {
+    "csj": "0106-07-030",
+    "county": "Haskell",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2022(761)",
+    "projectType": "BRIDGE MAINTENANCE",
+    "letDate": "08/03/22",
+    "engEstTotal": 1754558.57,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SCOTT TUCKER CONSTRUCTION COMPANY, LLC",
+      "totalBidAmount": 1729616.69
+    },
+    {
+      "rank": 2,
+      "vendorName": "SCR CIVIL CONSTRUCTION, LLC",
+      "totalBidAmount": 2100694.35
+    },
+    {
+      "rank": 3,
+      "vendorName": "SOUTHERN ROAD & BRIDGE, LLC",
+      "totalBidAmount": 3668712.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "OLYMPUS PAINTING CONTRACTORS, INC.",
+      "totalBidAmount": 4891444.05
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6008",
+      "description": "PREPARING ROW (TREE) (0\" TO 6\" DIA)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 763.94,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 763.94,
+        "SCR CIVIL CONSTRUCTION, LLC": 550.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 650.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 3000.0
+      }
+    },
+    {
+      "itemCode": "0401 6001",
+      "description": "FLOWABLE BACKFILL",
+      "unit": "CY",
+      "quantity": 40.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 402.12,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 402.12,
+        "SCR CIVIL CONSTRUCTION, LLC": 800.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 500.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0428 6001",
+      "description": "PENETRATING CONCRETE SURFACE TREATMENT",
+      "unit": "SY",
+      "quantity": 3462.0,
+      "engEstUnit": 53.0,
+      "lowUnit": 10.14,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 10.14,
+        "SCR CIVIL CONSTRUCTION, LLC": 12.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 20.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 20.4
+      }
+    },
+    {
+      "itemCode": "0429 6005",
+      "description": "CONC STR REPAIR(DECK REP (FULL DEPTH))",
+      "unit": "SF",
+      "quantity": 130.0,
+      "engEstUnit": 190.0,
+      "lowUnit": 128.3,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 128.3,
+        "SCR CIVIL CONSTRUCTION, LLC": 225.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 450.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 470.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 2535.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 104.71,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 104.71,
+        "SCR CIVIL CONSTRUCTION, LLC": 175.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 300.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 276.0
+      }
+    },
+    {
+      "itemCode": "0432 6031",
+      "description": "RIPRAP (STONE PROTECTION)(12 IN)",
+      "unit": "CY",
+      "quantity": 530.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 192.43,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 192.43,
+        "SCR CIVIL CONSTRUCTION, LLC": 340.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 350.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 290.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 52.0,
+      "engEstUnit": 610.0,
+      "lowUnit": 899.78,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 899.78,
+        "SCR CIVIL CONSTRUCTION, LLC": 760.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 750.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 700.0
+      }
+    },
+    {
+      "itemCode": "0438 6002",
+      "description": "CLEANING AND SEALING EXIST JOINTS(CL3)",
+      "unit": "LF",
+      "quantity": 1026.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 24.59,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 24.59,
+        "SCR CIVIL CONSTRUCTION, LLC": 35.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 45.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0438 6004",
+      "description": "CLEANING AND SEALING EXIST JOINTS(CL7)",
+      "unit": "LF",
+      "quantity": 84.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 125.58,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 125.58,
+        "SCR CIVIL CONSTRUCTION, LLC": 70.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 70.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 82.0
+      }
+    },
+    {
+      "itemCode": "0451 6024",
+      "description": "RETROFIT RAIL (TY SSTR)",
+      "unit": "LF",
+      "quantity": 450.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 318.48,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 318.48,
+        "SCR CIVIL CONSTRUCTION, LLC": 275.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 500.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 280.0
+      }
+    },
+    {
+      "itemCode": "0454 6008",
+      "description": "HEADER TYPE EXPANSION JOINT",
+      "unit": "CF",
+      "quantity": 40.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 412.68,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 412.68,
+        "SCR CIVIL CONSTRUCTION, LLC": 650.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 500.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 545.0
+      }
+    },
+    {
+      "itemCode": "0454 6009",
+      "description": "JOINT SEALANT",
+      "unit": "LF",
+      "quantity": 140.0,
+      "engEstUnit": 16.0,
+      "lowUnit": 59.53,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 59.53,
+        "SCR CIVIL CONSTRUCTION, LLC": 15.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 45.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 49.2
+      }
+    },
+    {
+      "itemCode": "0495 6001",
+      "description": "RAISING EXIST STRUCT",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 100000.0,
+      "lowUnit": 58370.72,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 58370.72,
+        "SCR CIVIL CONSTRUCTION, LLC": 90000.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 105000.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 250000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 155387.14,
+      "lowUnit": 172904.46,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 172904.46,
+        "SCR CIVIL CONSTRUCTION, LLC": 190000.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 350000.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 300000.0
+      }
+    },
+    {
+      "itemCode": "0512 6013",
+      "description": "PORT CTB (DES SOURCE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 1500.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 28.35,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 28.35,
+        "SCR CIVIL CONSTRUCTION, LLC": 15.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 4.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0512 6025",
+      "description": "PORT CTB (MOVE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 540.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 24.02,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 24.02,
+        "SCR CIVIL CONSTRUCTION, LLC": 15.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 8.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 35.0
+      }
+    },
+    {
+      "itemCode": "0512 6037",
+      "description": "PORT CTB (STKPL)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 1500.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 28.35,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 28.35,
+        "SCR CIVIL CONSTRUCTION, LLC": 15.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 15.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 37.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 450.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 6.16,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 6.16,
+        "SCR CIVIL CONSTRUCTION, LLC": 4.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 6.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0542 6002",
+      "description": "REMOVE TERMINAL ANCHOR SECTION",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 655.22,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 655.22,
+        "SCR CIVIL CONSTRUCTION, LLC": 340.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 400.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 360.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3855.22,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 3855.22,
+        "SCR CIVIL CONSTRUCTION, LLC": 3910.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 5000.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 3660.0
+      }
+    },
+    {
+      "itemCode": "0545 6003",
+      "description": "CRASH CUSH ATTEN (MOVE & RESET)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 3210.45,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 3210.45,
+        "SCR CIVIL CONSTRUCTION, LLC": 2500.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 125.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 1500.0
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1355.22,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 1355.22,
+        "SCR CIVIL CONSTRUCTION, LLC": 1000.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 10000.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 900.0
+      }
+    },
+    {
+      "itemCode": "0545 6022",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(W)(TL3)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 11000.0,
+      "lowUnit": 7355.22,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 7355.22,
+        "SCR CIVIL CONSTRUCTION, LLC": 7000.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 9000.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 9000.0
+      }
+    },
+    {
+      "itemCode": "0662 6050",
+      "description": "WK ZN PAV MRK REMOV (REFL) TY II-A-A",
+      "unit": "EA",
+      "quantity": 270.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 10.26,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 10.26,
+        "SCR CIVIL CONSTRUCTION, LLC": 5.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 50.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 8.0
+      }
+    },
+    {
+      "itemCode": "0662 6063",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 11856.0,
+      "engEstUnit": 0.7,
+      "lowUnit": 0.97,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 0.97,
+        "SCR CIVIL CONSTRUCTION, LLC": 0.85,
+        "SOUTHERN ROAD & BRIDGE, LLC": 4.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 1.1
+      }
+    },
+    {
+      "itemCode": "0662 6075",
+      "description": "WK ZN PAV MRK REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 72.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 39.73,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 39.73,
+        "SCR CIVIL CONSTRUCTION, LLC": 20.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 22.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "0662 6095",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 21600.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 0.92,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 0.92,
+        "SCR CIVIL CONSTRUCTION, LLC": 0.85,
+        "SOUTHERN ROAD & BRIDGE, LLC": 1.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 1.1
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 14339.0,
+      "engEstUnit": 0.75,
+      "lowUnit": 0.85,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 0.85,
+        "SCR CIVIL CONSTRUCTION, LLC": 0.75,
+        "SOUTHERN ROAD & BRIDGE, LLC": 3.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0678 6001",
+      "description": "PAV SURF PREP FOR MRK (4\")",
+      "unit": "LF",
+      "quantity": 215.0,
+      "engEstUnit": 1.15,
+      "lowUnit": 7.61,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 7.61,
+        "SCR CIVIL CONSTRUCTION, LLC": 1.15,
+        "SOUTHERN ROAD & BRIDGE, LLC": 3.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 2.5
+      }
+    },
+    {
+      "itemCode": "0780 6004",
+      "description": "CONC CRCK REPR(DISCRETE)(ROUT AND SEAL)",
+      "unit": "LF",
+      "quantity": 600.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 30.25,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 30.25,
+        "SCR CIVIL CONSTRUCTION, LLC": 70.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 115.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 89.0
+      }
+    },
+    {
+      "itemCode": "0784 6192",
+      "description": "REPAIR STEEL (CORROSION MITIGATION)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 1506.01,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 1506.01,
+        "SCR CIVIL CONSTRUCTION, LLC": 1650.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 25000.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 8000.0
+      }
+    },
+    {
+      "itemCode": "4002 6001",
+      "description": "REPLACE ELASTOMERIC BEARING PADS",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 14267.68,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 14267.68,
+        "SCR CIVIL CONSTRUCTION, LLC": 8000.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 6500.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 10000.0
+      }
+    },
+    {
+      "itemCode": "4206 6002",
+      "description": "STEEL BRIDGE ZONE PAINTING (REF NO. 1)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 81000.0,
+      "lowUnit": 70420.9,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 70420.9,
+        "SCR CIVIL CONSTRUCTION, LLC": 81100.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 200000.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 765000.0
+      }
+    },
+    {
+      "itemCode": "4206 6003",
+      "description": "STEEL BRIDGE ZONE PAINTING (REF NO. 2)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 74000.0,
+      "lowUnit": 85420.9,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 85420.9,
+        "SCR CIVIL CONSTRUCTION, LLC": 99000.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 300000.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 425000.0
+      }
+    },
+    {
+      "itemCode": "4206 6004",
+      "description": "STEEL BRIDGE ZONE PAINTING (REF. NO. 3)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 75000.0,
+      "lowUnit": 46420.9,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 46420.9,
+        "SCR CIVIL CONSTRUCTION, LLC": 61000.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 250000.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 500000.0
+      }
+    },
+    {
+      "itemCode": "4206 6005",
+      "description": "STEEL BRIDGE ZONE PAINTING (REF. NO. 4)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 6000.0,
+      "lowUnit": 14920.9,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 14920.9,
+        "SCR CIVIL CONSTRUCTION, LLC": 25300.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 50000.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 160000.0
+      }
+    },
+    {
+      "itemCode": "4206 6006",
+      "description": "STEEL BRIDGE ZONE PAINTING (REF. NO. 5)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 60000.0,
+      "lowUnit": 63920.9,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 63920.9,
+        "SCR CIVIL CONSTRUCTION, LLC": 76600.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 250000.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 360000.0
+      }
+    }
+  ]
+}

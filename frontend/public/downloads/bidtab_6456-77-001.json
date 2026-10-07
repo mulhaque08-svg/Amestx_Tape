@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "csj": "6456-77-001",
+    "county": "Liberty",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645677001",
+    "projectType": "TREE TRIMMING AND BRUSH REMOVAL",
+    "letDate": "12/05/23",
+    "engEstTotal": 304950.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARLANE CONSTRUCTION, LLC",
+      "totalBidAmount": 314750.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "LOOKS GREAT SERVICES OF MS, INC.",
+      "totalBidAmount": 398100.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "MARLANE CONSTRUCTION, LLC": 1000.0,
+        "LOOKS GREAT SERVICES OF MS, INC.": 3000.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 30.0,
+      "engEstUnit": 5800.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "MARLANE CONSTRUCTION, LLC": 5000.0,
+        "LOOKS GREAT SERVICES OF MS, INC.": 6800.0
+      }
+    },
+    {
+      "itemCode": "0752 6005",
+      "description": "TREE REMOVAL (4\" - 12\" DIA)",
+      "unit": "EA",
+      "quantity": 55.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "MARLANE CONSTRUCTION, LLC": 250.0,
+        "LOOKS GREAT SERVICES OF MS, INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0752 6006",
+      "description": "TREE REMOVAL (12\" - 18\" DIA)",
+      "unit": "EA",
+      "quantity": 55.0,
+      "engEstUnit": 210.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "MARLANE CONSTRUCTION, LLC": 300.0,
+        "LOOKS GREAT SERVICES OF MS, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0752 6007",
+      "description": "TREE REMOVAL (18\" - 24\" DIA)",
+      "unit": "EA",
+      "quantity": 45.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "MARLANE CONSTRUCTION, LLC": 500.0,
+        "LOOKS GREAT SERVICES OF MS, INC.": 700.0
+      }
+    },
+    {
+      "itemCode": "0752 6008",
+      "description": "TREE REMOVAL (24\" - 30\" DIA)",
+      "unit": "EA",
+      "quantity": 35.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "MARLANE CONSTRUCTION, LLC": 1000.0,
+        "LOOKS GREAT SERVICES OF MS, INC.": 900.0
+      }
+    },
+    {
+      "itemCode": "0752 6009",
+      "description": "TREE REMOVAL (30\" - 36\" DIA)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 560.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "MARLANE CONSTRUCTION, LLC": 2000.0,
+        "LOOKS GREAT SERVICES OF MS, INC.": 1500.0
+      }
+    }
+  ]
+}

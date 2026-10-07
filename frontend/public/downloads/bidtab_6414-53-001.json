@@ -1,0 +1,680 @@
+{
+  "metadata": {
+    "csj": "6414-53-001",
+    "county": "Liberty",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641453001",
+    "projectType": "MILL AND INLAY",
+    "letDate": "06/28/23",
+    "engEstTotal": 3253031.51,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC",
+      "totalBidAmount": 3176353.6
+    },
+    {
+      "rank": 2,
+      "vendorName": "FORDE CONSTRUCTION COMPANY, INC.",
+      "totalBidAmount": 3683191.79
+    },
+    {
+      "rank": 3,
+      "vendorName": "ICON GC, LLC",
+      "totalBidAmount": 3830000.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 3881653.55
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 210.0,
+      "engEstUnit": 27.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 85.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 75.0,
+        "ICON GC, LLC": 75.0,
+        "TEXAS MATERIALS GROUP, INC.": 74.0
+      }
+    },
+    {
+      "itemCode": "0132 6003",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY B)",
+      "unit": "CY",
+      "quantity": 190.0,
+      "engEstUnit": 61.0,
+      "lowUnit": 57.2,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 57.2,
+        "FORDE CONSTRUCTION COMPANY, INC.": 115.0,
+        "ICON GC, LLC": 60.0,
+        "TEXAS MATERIALS GROUP, INC.": 90.0
+      }
+    },
+    {
+      "itemCode": "0134 6004",
+      "description": "BACKFILL (TY A OR B)",
+      "unit": "STA",
+      "quantity": 148.0,
+      "engEstUnit": 264.0,
+      "lowUnit": 273.0,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 273.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 585.0,
+        "ICON GC, LLC": 360.0,
+        "TEXAS MATERIALS GROUP, INC.": 766.0
+      }
+    },
+    {
+      "itemCode": "0158 6003",
+      "description": "SPEC EXCAV WORK (HYD EXCAVATOR)",
+      "unit": "HR",
+      "quantity": 40.0,
+      "engEstUnit": 184.0,
+      "lowUnit": 301.0,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 301.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 100.0,
+        "ICON GC, LLC": 458.0,
+        "TEXAS MATERIALS GROUP, INC.": 309.0
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 24764.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 0.4,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 0.4,
+        "FORDE CONSTRUCTION COMPANY, INC.": 0.84,
+        "ICON GC, LLC": 0.42,
+        "TEXAS MATERIALS GROUP, INC.": 0.15
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 35.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 263.0,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 263.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 175.0,
+        "ICON GC, LLC": 180.0,
+        "TEXAS MATERIALS GROUP, INC.": 83.0
+      }
+    },
+    {
+      "itemCode": "0351 6004",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(8\")",
+      "unit": "SY",
+      "quantity": 450.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 109.0,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 109.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 206.0,
+        "ICON GC, LLC": 95.0,
+        "TEXAS MATERIALS GROUP, INC.": 129.0
+      }
+    },
+    {
+      "itemCode": "0354 6021",
+      "description": "PLANE ASPH CONC PAV(0\" TO 2\")",
+      "unit": "SY",
+      "quantity": 16712.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.5,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 3.5,
+        "FORDE CONSTRUCTION COMPANY, INC.": 9.5,
+        "ICON GC, LLC": 3.0,
+        "TEXAS MATERIALS GROUP, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0354 6043",
+      "description": "PLANE ASPH CONC PAV (1\")",
+      "unit": "SY",
+      "quantity": 13154.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 3.1,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 3.1,
+        "FORDE CONSTRUCTION COMPANY, INC.": 6.0,
+        "ICON GC, LLC": 3.0,
+        "TEXAS MATERIALS GROUP, INC.": 3.75
+      }
+    },
+    {
+      "itemCode": "0432 6024",
+      "description": "RIPRAP (STONE COMMON)(DRY)(12 IN)",
+      "unit": "CY",
+      "quantity": 110.0,
+      "engEstUnit": 219.0,
+      "lowUnit": 313.0,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 313.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 256.0,
+        "ICON GC, LLC": 172.0,
+        "TEXAS MATERIALS GROUP, INC.": 290.0
+      }
+    },
+    {
+      "itemCode": "0432 6026",
+      "description": "RIPRAP (STONE COMMON)(DRY)(18 IN)",
+      "unit": "CY",
+      "quantity": 200.0,
+      "engEstUnit": 240.0,
+      "lowUnit": 210.0,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 210.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 348.0,
+        "ICON GC, LLC": 172.0,
+        "TEXAS MATERIALS GROUP, INC.": 245.0
+      }
+    },
+    {
+      "itemCode": "0432 6027",
+      "description": "RIPRAP (STONE COMMON)(DRY)(24 IN)",
+      "unit": "CY",
+      "quantity": 475.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 276.0,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 276.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 348.0,
+        "ICON GC, LLC": 219.0,
+        "TEXAS MATERIALS GROUP, INC.": 236.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 43.0,
+      "engEstUnit": 43.0,
+      "lowUnit": 796.0,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 796.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 1100.0,
+        "ICON GC, LLC": 540.0,
+        "TEXAS MATERIALS GROUP, INC.": 890.0
+      }
+    },
+    {
+      "itemCode": "0432 6060",
+      "description": "RIPRAP (STONE TY R)(GROUT)(24 IN)",
+      "unit": "CY",
+      "quantity": 240.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 355.0,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 355.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 345.0,
+        "ICON GC, LLC": 283.0,
+        "TEXAS MATERIALS GROUP, INC.": 342.0
+      }
+    },
+    {
+      "itemCode": "0459 6009",
+      "description": "GABIONS (3' X 3')(GALV)",
+      "unit": "CY",
+      "quantity": 127.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 398.0,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 398.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 366.0,
+        "ICON GC, LLC": 475.0,
+        "TEXAS MATERIALS GROUP, INC.": 327.0
+      }
+    },
+    {
+      "itemCode": "0459 6011",
+      "description": "GABIONS (5'X 3')(GALV)",
+      "unit": "CY",
+      "quantity": 324.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 364.0,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 364.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 362.0,
+        "ICON GC, LLC": 368.0,
+        "TEXAS MATERIALS GROUP, INC.": 485.0
+      }
+    },
+    {
+      "itemCode": "0480 6001",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 4598.0,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 4598.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 5000.0,
+        "ICON GC, LLC": 3000.0,
+        "TEXAS MATERIALS GROUP, INC.": 1110.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 200000.0,
+      "lowUnit": 114000.0,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 114000.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 93000.0,
+        "ICON GC, LLC": 125059.45,
+        "TEXAS MATERIALS GROUP, INC.": 206600.0
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 2149.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 27.7,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 27.7,
+        "FORDE CONSTRUCTION COMPANY, INC.": 63.0,
+        "ICON GC, LLC": 31.0,
+        "TEXAS MATERIALS GROUP, INC.": 36.0
+      }
+    },
+    {
+      "itemCode": "0533 6002",
+      "description": "RUMBLE STRIPS (CENTERLINE)",
+      "unit": "LF",
+      "quantity": 10849.0,
+      "engEstUnit": 0.8,
+      "lowUnit": 0.3,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 0.3,
+        "FORDE CONSTRUCTION COMPANY, INC.": 0.7,
+        "ICON GC, LLC": 1.5,
+        "TEXAS MATERIALS GROUP, INC.": 0.3
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 3313.0,
+      "lowUnit": 3686.0,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 3686.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 3700.0,
+        "ICON GC, LLC": 4159.0,
+        "TEXAS MATERIALS GROUP, INC.": 3200.0
+      }
+    },
+    {
+      "itemCode": "0644 6009",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SB(P)",
+      "unit": "EA",
+      "quantity": 44.0,
+      "engEstUnit": 1027.0,
+      "lowUnit": 556.0,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 556.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 703.0,
+        "ICON GC, LLC": 1010.0,
+        "TEXAS MATERIALS GROUP, INC.": 715.0
+      }
+    },
+    {
+      "itemCode": "0644 6039",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SB(P)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 889.0,
+      "lowUnit": 906.0,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 906.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 874.0,
+        "ICON GC, LLC": 1010.0,
+        "TEXAS MATERIALS GROUP, INC.": 1050.0
+      }
+    },
+    {
+      "itemCode": "0644 6044",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SB(U)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 1202.0,
+      "lowUnit": 1142.0,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 1142.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 1200.0,
+        "ICON GC, LLC": 1010.0,
+        "TEXAS MATERIALS GROUP, INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 42.0,
+      "lowUnit": 42.3,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 42.3,
+        "FORDE CONSTRUCTION COMPANY, INC.": 25.0,
+        "ICON GC, LLC": 1010.0,
+        "TEXAS MATERIALS GROUP, INC.": 42.0
+      }
+    },
+    {
+      "itemCode": "0662 6008",
+      "description": "WK ZN PAV MRK NON-REMOV (W)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 5510.0,
+      "engEstUnit": 0.48,
+      "lowUnit": 0.5,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 0.5,
+        "FORDE CONSTRUCTION COMPANY, INC.": 0.6,
+        "ICON GC, LLC": 0.6,
+        "TEXAS MATERIALS GROUP, INC.": 0.55
+      }
+    },
+    {
+      "itemCode": "0662 6017",
+      "description": "WK ZN PAV MRK NON-REMOV (W)(ARROW)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 101.0,
+      "lowUnit": 60.4,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 60.4,
+        "FORDE CONSTRUCTION COMPANY, INC.": 133.0,
+        "ICON GC, LLC": 148.5,
+        "TEXAS MATERIALS GROUP, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0662 6035",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)6\"(BRK)",
+      "unit": "LF",
+      "quantity": 4863.0,
+      "engEstUnit": 0.48,
+      "lowUnit": 0.5,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 0.5,
+        "FORDE CONSTRUCTION COMPANY, INC.": 0.6,
+        "ICON GC, LLC": 0.75,
+        "TEXAS MATERIALS GROUP, INC.": 0.55
+      }
+    },
+    {
+      "itemCode": "0662 6037",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 22220.0,
+      "engEstUnit": 0.4,
+      "lowUnit": 0.5,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 0.5,
+        "FORDE CONSTRUCTION COMPANY, INC.": 0.6,
+        "ICON GC, LLC": 0.65,
+        "TEXAS MATERIALS GROUP, INC.": 0.55
+      }
+    },
+    {
+      "itemCode": "0662 6041",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 48.0,
+      "engEstUnit": 5.52,
+      "lowUnit": 2.4,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 2.4,
+        "FORDE CONSTRUCTION COMPANY, INC.": 6.25,
+        "ICON GC, LLC": 4.65,
+        "TEXAS MATERIALS GROUP, INC.": 4.5
+      }
+    },
+    {
+      "itemCode": "0668 6076",
+      "description": "PREFAB PAV MRK TY C (W) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 104.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 21.8,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 21.8,
+        "FORDE CONSTRUCTION COMPANY, INC.": 21.3,
+        "ICON GC, LLC": 20.8,
+        "TEXAS MATERIALS GROUP, INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 302.0,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 302.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 345.0,
+        "ICON GC, LLC": 386.0,
+        "TEXAS MATERIALS GROUP, INC.": 255.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 325.0,
+      "lowUnit": 302.0,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 302.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 425.0,
+        "ICON GC, LLC": 469.4,
+        "TEXAS MATERIALS GROUP, INC.": 360.0
+      }
+    },
+    {
+      "itemCode": "0668 6092",
+      "description": "PREFAB PAV MRK TY C (W) (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 30.2,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 30.2,
+        "FORDE CONSTRUCTION COMPANY, INC.": 42.0,
+        "ICON GC, LLC": 77.25,
+        "TEXAS MATERIALS GROUP, INC.": 89.0
+      }
+    },
+    {
+      "itemCode": "0668 6106",
+      "description": "PREFAB PAV MRK TY C (Y) (12\") (SLD)",
+      "unit": "LF",
+      "quantity": 115.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 10.9,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 10.9,
+        "FORDE CONSTRUCTION COMPANY, INC.": 11.0,
+        "ICON GC, LLC": 9.5,
+        "TEXAS MATERIALS GROUP, INC.": 8.0
+      }
+    },
+    {
+      "itemCode": "0668 6108",
+      "description": "PREFAB PAV MRK TY C (Y) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 104.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 21.8,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 21.8,
+        "FORDE CONSTRUCTION COMPANY, INC.": 22.0,
+        "ICON GC, LLC": 18.4,
+        "TEXAS MATERIALS GROUP, INC.": 16.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 122.0,
+      "engEstUnit": 3.2,
+      "lowUnit": 7.7,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 7.7,
+        "FORDE CONSTRUCTION COMPANY, INC.": 6.35,
+        "ICON GC, LLC": 7.7,
+        "TEXAS MATERIALS GROUP, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 771.0,
+      "engEstUnit": 3.2,
+      "lowUnit": 7.7,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 7.7,
+        "FORDE CONSTRUCTION COMPANY, INC.": 6.35,
+        "ICON GC, LLC": 7.7,
+        "TEXAS MATERIALS GROUP, INC.": 5.5
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 12008.0,
+      "engEstUnit": 1.33,
+      "lowUnit": 0.5,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 0.5,
+        "FORDE CONSTRUCTION COMPANY, INC.": 0.55,
+        "ICON GC, LLC": 0.75,
+        "TEXAS MATERIALS GROUP, INC.": 0.4
+      }
+    },
+    {
+      "itemCode": "0760 6001",
+      "description": "DITCH CLEANING AND RESHAPING (FOOT)",
+      "unit": "LF",
+      "quantity": 10796.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 8.6,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 8.6,
+        "FORDE CONSTRUCTION COMPANY, INC.": 7.0,
+        "ICON GC, LLC": 30.0,
+        "TEXAS MATERIALS GROUP, INC.": 16.0
+      }
+    },
+    {
+      "itemCode": "2005 6001",
+      "description": "FILTER FABRIC (TY 2)",
+      "unit": "SY",
+      "quantity": 850.0,
+      "engEstUnit": 8.5,
+      "lowUnit": 16.1,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 16.1,
+        "FORDE CONSTRUCTION COMPANY, INC.": 2.0,
+        "ICON GC, LLC": 1.8,
+        "TEXAS MATERIALS GROUP, INC.": 1.65
+      }
+    },
+    {
+      "itemCode": "3076 6035",
+      "description": "D-GR HMA TY-D PG64-22",
+      "unit": "TON",
+      "quantity": 738.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 156.0,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 156.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 219.0,
+        "ICON GC, LLC": 132.0,
+        "TEXAS MATERIALS GROUP, INC.": 169.0
+      }
+    },
+    {
+      "itemCode": "3076 6066",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 546.0,
+      "engEstUnit": 15.94,
+      "lowUnit": 8.9,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 8.9,
+        "FORDE CONSTRUCTION COMPANY, INC.": 6.0,
+        "ICON GC, LLC": 4.75,
+        "TEXAS MATERIALS GROUP, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "3077 6033",
+      "description": "SP MIXES SP-C SAC-A PG76-22",
+      "unit": "TON",
+      "quantity": 13584.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 123.5,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 123.5,
+        "FORDE CONSTRUCTION COMPANY, INC.": 126.0,
+        "ICON GC, LLC": 150.0,
+        "TEXAS MATERIALS GROUP, INC.": 149.0
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 8415.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 4.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 6.0,
+        "ICON GC, LLC": 4.75,
+        "TEXAS MATERIALS GROUP, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 200.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 98.9,
+      "bidders": {
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 98.9,
+        "FORDE CONSTRUCTION COMPANY, INC.": 150.0,
+        "ICON GC, LLC": 107.0,
+        "TEXAS MATERIALS GROUP, INC.": 207.0
+      }
+    }
+  ]
+}

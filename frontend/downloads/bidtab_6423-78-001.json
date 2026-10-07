@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6423-78-001",
+    "county": "Howard",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642378001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/08/23",
+    "engEstTotal": 476155.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 515275.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "L&L COMPANY",
+      "totalBidAmount": 686150.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "GREG SCRUGGS",
+      "totalBidAmount": 734269.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 824541.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1233.0,
+      "engEstUnit": 35.5,
+      "lowUnit": 35.0,
+      "bidders": {
+        "ABESCAPE GROUP LLC": 35.0,
+        "L&L COMPANY": 50.0,
+        "GREG SCRUGGS": 49.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 51.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 7948.0,
+      "engEstUnit": 36.75,
+      "lowUnit": 40.0,
+      "bidders": {
+        "ABESCAPE GROUP LLC": 40.0,
+        "L&L COMPANY": 50.0,
+        "GREG SCRUGGS": 49.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 51.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 6810.0,
+      "engEstUnit": 19.5,
+      "lowUnit": 20.0,
+      "bidders": {
+        "ABESCAPE GROUP LLC": 20.0,
+        "L&L COMPANY": 30.0,
+        "GREG SCRUGGS": 40.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 51.0
+      }
+    }
+  ]
+}

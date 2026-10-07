@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6466-10-001",
+    "county": "Washington",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646610001",
+    "projectType": "AGGREGATE",
+    "letDate": "07/24/24",
+    "engEstTotal": 127500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 133375.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 144210.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6113",
+      "description": "AGGR (TY B GR 5) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 90.75,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 90.75,
+        "COLORADO MATERIALS, LTD.": 95.34
+      }
+    },
+    {
+      "itemCode": "8039 6114",
+      "description": "AGGR (TY B GR 5) (DEL) (ST2)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 85.0,
+        "COLORADO MATERIALS, LTD.": 95.56
+      }
+    },
+    {
+      "itemCode": "8039 6115",
+      "description": "AGGR (TY B GR 5) (DEL) (ST3)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 91.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 91.0,
+        "COLORADO MATERIALS, LTD.": 97.52
+      }
+    }
+  ]
+}

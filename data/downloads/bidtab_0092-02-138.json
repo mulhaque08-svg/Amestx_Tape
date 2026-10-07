@@ -1,0 +1,1136 @@
+{
+  "metadata": {
+    "csj": "0092-02-138",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "STP 2B24(163)VRU",
+    "projectType": "INTERSECTION IMPROVEMENT",
+    "letDate": "06/05/24",
+    "engEstTotal": 2640793.42,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SELECT MAINTENANCE, L.L.C.",
+      "totalBidAmount": 2894528.77
+    },
+    {
+      "rank": 2,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 2970255.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ED BELL CONSTRUCTION COMPANY",
+      "totalBidAmount": 3069996.69
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 29.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 10000.0,
+        "FNH CONSTRUCTION, LLC": 10345.0,
+        "ED BELL CONSTRUCTION COMPANY": 9450.0
+      }
+    },
+    {
+      "itemCode": "0104 6001",
+      "description": "REMOVING CONC (PAV)",
+      "unit": "SY",
+      "quantity": 10500.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 12.0,
+        "FNH CONSTRUCTION, LLC": 17.5,
+        "ED BELL CONSTRUCTION COMPANY": 26.25
+      }
+    },
+    {
+      "itemCode": "0104 6015",
+      "description": "REMOVING CONC (SIDEWALKS)",
+      "unit": "SY",
+      "quantity": 225.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 30.0,
+        "FNH CONSTRUCTION, LLC": 20.0,
+        "ED BELL CONSTRUCTION COMPANY": 42.0
+      }
+    },
+    {
+      "itemCode": "0104 6017",
+      "description": "REMOVING CONC (DRIVEWAYS)",
+      "unit": "SY",
+      "quantity": 64.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 30.0,
+        "FNH CONSTRUCTION, LLC": 20.0,
+        "ED BELL CONSTRUCTION COMPANY": 42.0
+      }
+    },
+    {
+      "itemCode": "0104 6022",
+      "description": "REMOVING CONC (CURB AND GUTTER)",
+      "unit": "LF",
+      "quantity": 4406.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 6.5,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 6.5,
+        "FNH CONSTRUCTION, LLC": 20.0,
+        "ED BELL CONSTRUCTION COMPANY": 15.75
+      }
+    },
+    {
+      "itemCode": "0105 6043",
+      "description": "REMOVING STAB BASE & ASPH PAV (0-6\")",
+      "unit": "SY",
+      "quantity": 14053.0,
+      "engEstUnit": 9.5,
+      "lowUnit": 5.7,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 5.7,
+        "FNH CONSTRUCTION, LLC": 10.0,
+        "ED BELL CONSTRUCTION COMPANY": 5.25
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 1154.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 80.0,
+        "FNH CONSTRUCTION, LLC": 20.0,
+        "ED BELL CONSTRUCTION COMPANY": 5.25
+      }
+    },
+    {
+      "itemCode": "0132 6006",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY C)",
+      "unit": "CY",
+      "quantity": 2555.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 50.25,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 50.25,
+        "FNH CONSTRUCTION, LLC": 50.0,
+        "ED BELL CONSTRUCTION COMPANY": 21.0
+      }
+    },
+    {
+      "itemCode": "0161 6017",
+      "description": "COMPOST MANUF TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 11964.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 1.0,
+        "FNH CONSTRUCTION, LLC": 10.0,
+        "ED BELL CONSTRUCTION COMPANY": 1.05
+      }
+    },
+    {
+      "itemCode": "0162 6002",
+      "description": "BLOCK SODDING",
+      "unit": "SY",
+      "quantity": 11964.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 7.48,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 7.48,
+        "FNH CONSTRUCTION, LLC": 10.0,
+        "ED BELL CONSTRUCTION COMPANY": 4.0
+      }
+    },
+    {
+      "itemCode": "0164 6051",
+      "description": "DRILL SEED (TEMP)(WARM OR COOL)",
+      "unit": "SY",
+      "quantity": 11964.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 0.35,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.35,
+        "FNH CONSTRUCTION, LLC": 0.5,
+        "ED BELL CONSTRUCTION COMPANY": 0.3
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 3559.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 20.0,
+        "FNH CONSTRUCTION, LLC": 10.0,
+        "ED BELL CONSTRUCTION COMPANY": 1.05
+      }
+    },
+    {
+      "itemCode": "0260 6006",
+      "description": "LIME TRT (EXST MATL) (6\")",
+      "unit": "SY",
+      "quantity": 4241.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 7.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 7.0,
+        "FNH CONSTRUCTION, LLC": 12.0,
+        "ED BELL CONSTRUCTION COMPANY": 10.5
+      }
+    },
+    {
+      "itemCode": "0260 6016",
+      "description": "LIME (HYD, COM, OR QK(SLURRY))",
+      "unit": "TON",
+      "quantity": 75.0,
+      "engEstUnit": 340.0,
+      "lowUnit": 320.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 320.0,
+        "FNH CONSTRUCTION, LLC": 400.0,
+        "ED BELL CONSTRUCTION COMPANY": 420.0
+      }
+    },
+    {
+      "itemCode": "0310 6001",
+      "description": "PRIME COAT (MULTI OPTION)",
+      "unit": "GAL",
+      "quantity": 729.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 12.0,
+        "FNH CONSTRUCTION, LLC": 10.0,
+        "ED BELL CONSTRUCTION COMPANY": 10.5
+      }
+    },
+    {
+      "itemCode": "0416 6032",
+      "description": "DRILL SHAFT (TRF SIG POLE) (36 IN)",
+      "unit": "LF",
+      "quantity": 26.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 350.0,
+        "FNH CONSTRUCTION, LLC": 550.0,
+        "ED BELL CONSTRUCTION COMPANY": 714.0
+      }
+    },
+    {
+      "itemCode": "0416 6034",
+      "description": "DRILL SHAFT (TRF SIG POLE) (48 IN)",
+      "unit": "LF",
+      "quantity": 44.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 465.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 465.0,
+        "FNH CONSTRUCTION, LLC": 650.0,
+        "ED BELL CONSTRUCTION COMPANY": 756.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 259125.0,
+      "lowUnit": 290000.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 290000.0,
+        "FNH CONSTRUCTION, LLC": 290000.0,
+        "ED BELL CONSTRUCTION COMPANY": 304000.0
+      }
+    },
+    {
+      "itemCode": "0529 6008",
+      "description": "CONC CURB & GUTTER (TY II)",
+      "unit": "LF",
+      "quantity": 387.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 50.0,
+        "FNH CONSTRUCTION, LLC": 65.0,
+        "ED BELL CONSTRUCTION COMPANY": 94.5
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 1508.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 115.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 115.0,
+        "FNH CONSTRUCTION, LLC": 50.0,
+        "ED BELL CONSTRUCTION COMPANY": 130.02
+      }
+    },
+    {
+      "itemCode": "0531 6001",
+      "description": "CONC SIDEWALKS (4\")",
+      "unit": "SY",
+      "quantity": 45.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 100.0,
+        "FNH CONSTRUCTION, LLC": 650.0,
+        "ED BELL CONSTRUCTION COMPANY": 168.0
+      }
+    },
+    {
+      "itemCode": "0531 6008",
+      "description": "CURB RAMPS (TY 5)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 4000.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 4000.0,
+        "FNH CONSTRUCTION, LLC": 3250.0,
+        "ED BELL CONSTRUCTION COMPANY": 4200.0
+      }
+    },
+    {
+      "itemCode": "0531 6010",
+      "description": "CURB RAMPS (TY 7)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2850.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 2000.0,
+        "FNH CONSTRUCTION, LLC": 3250.0,
+        "ED BELL CONSTRUCTION COMPANY": 3150.0
+      }
+    },
+    {
+      "itemCode": "0531 6017",
+      "description": "CURB RAMPS (TY 22)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 6000.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 6000.0,
+        "FNH CONSTRUCTION, LLC": 3250.0,
+        "ED BELL CONSTRUCTION COMPANY": 7350.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 518.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 10.0,
+        "FNH CONSTRUCTION, LLC": 3.0,
+        "ED BELL CONSTRUCTION COMPANY": 5.25
+      }
+    },
+    {
+      "itemCode": "0542 6002",
+      "description": "REMOVE TERMINAL ANCHOR SECTION",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 310.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 500.0,
+        "FNH CONSTRUCTION, LLC": 500.0,
+        "ED BELL CONSTRUCTION COMPANY": 315.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 500.0,
+        "FNH CONSTRUCTION, LLC": 1500.0,
+        "ED BELL CONSTRUCTION COMPANY": 315.0
+      }
+    },
+    {
+      "itemCode": "0560 6004",
+      "description": "MAILBOX INSTALL-S (TWG-POST) TY 2",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 295.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 295.0,
+        "FNH CONSTRUCTION, LLC": 1000.0,
+        "ED BELL CONSTRUCTION COMPANY": 273.0
+      }
+    },
+    {
+      "itemCode": "0560 6005",
+      "description": "MAILBOX INSTALL-D (TWG-POST) TY 2",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 355.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 355.0,
+        "FNH CONSTRUCTION, LLC": 1000.0,
+        "ED BELL CONSTRUCTION COMPANY": 278.25
+      }
+    },
+    {
+      "itemCode": "0560 6023",
+      "description": "MAILBOX INSTALL-M (TWG-POST) TY 4",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 669.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 669.0,
+        "FNH CONSTRUCTION, LLC": 1000.0,
+        "ED BELL CONSTRUCTION COMPANY": 606.9
+      }
+    },
+    {
+      "itemCode": "0618 6023",
+      "description": "CONDT (PVC) (SCH 40) (2\")",
+      "unit": "LF",
+      "quantity": 360.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 26.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 26.0,
+        "FNH CONSTRUCTION, LLC": 22.0,
+        "ED BELL CONSTRUCTION COMPANY": 21.0
+      }
+    },
+    {
+      "itemCode": "0618 6029",
+      "description": "CONDT (PVC) (SCH 40) (3\")",
+      "unit": "LF",
+      "quantity": 80.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 26.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 26.0,
+        "FNH CONSTRUCTION, LLC": 33.0,
+        "ED BELL CONSTRUCTION COMPANY": 35.18
+      }
+    },
+    {
+      "itemCode": "0618 6033",
+      "description": "CONDT (PVC) (SCH 40) (4\")",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 26.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 26.0,
+        "FNH CONSTRUCTION, LLC": 44.0,
+        "ED BELL CONSTRUCTION COMPANY": 36.75
+      }
+    },
+    {
+      "itemCode": "0618 6034",
+      "description": "CONDT (PVC) (SCH 40) (4\") (BORE)",
+      "unit": "LF",
+      "quantity": 520.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 52.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 52.0,
+        "FNH CONSTRUCTION, LLC": 60.0,
+        "ED BELL CONSTRUCTION COMPANY": 39.9
+      }
+    },
+    {
+      "itemCode": "0618 6046",
+      "description": "CONDT (PVC) (SCH 80) (2\")",
+      "unit": "LF",
+      "quantity": 30.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 26.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 26.0,
+        "FNH CONSTRUCTION, LLC": 25.0,
+        "ED BELL CONSTRUCTION COMPANY": 27.83
+      }
+    },
+    {
+      "itemCode": "0620 6004",
+      "description": "ELEC CONDR (NO.12) INSULATED",
+      "unit": "LF",
+      "quantity": 160.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 3.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 3.0,
+        "FNH CONSTRUCTION, LLC": 3.0,
+        "ED BELL CONSTRUCTION COMPANY": 1.89
+      }
+    },
+    {
+      "itemCode": "0620 6008",
+      "description": "ELEC CONDR (NO.8) INSULATED",
+      "unit": "LF",
+      "quantity": 440.0,
+      "engEstUnit": 2.25,
+      "lowUnit": 2.2,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 2.2,
+        "FNH CONSTRUCTION, LLC": 3.0,
+        "ED BELL CONSTRUCTION COMPANY": 2.73
+      }
+    },
+    {
+      "itemCode": "0620 6009",
+      "description": "ELEC CONDR (NO.6) BARE",
+      "unit": "LF",
+      "quantity": 760.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.4,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 2.4,
+        "FNH CONSTRUCTION, LLC": 3.0,
+        "ED BELL CONSTRUCTION COMPANY": 2.63
+      }
+    },
+    {
+      "itemCode": "0620 6010",
+      "description": "ELEC CONDR (NO.6) INSULATED",
+      "unit": "LF",
+      "quantity": 630.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.7,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 2.7,
+        "FNH CONSTRUCTION, LLC": 3.0,
+        "ED BELL CONSTRUCTION COMPANY": 3.47
+      }
+    },
+    {
+      "itemCode": "0624 6002",
+      "description": "GROUND BOX TY A (122311)W/APRON",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1800.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 2500.0,
+        "FNH CONSTRUCTION, LLC": 1500.0,
+        "ED BELL CONSTRUCTION COMPANY": 1522.5
+      }
+    },
+    {
+      "itemCode": "0624 6008",
+      "description": "GROUND BOX TY C (162911)W/APRON",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1900.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 3000.0,
+        "FNH CONSTRUCTION, LLC": 2500.0,
+        "ED BELL CONSTRUCTION COMPANY": 1837.5
+      }
+    },
+    {
+      "itemCode": "0628 6144",
+      "description": "ELC SRV TY D 120/240 060(NS)SS(E)PS(U)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 9800.0,
+      "lowUnit": 25000.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 25000.0,
+        "FNH CONSTRUCTION, LLC": 9500.0,
+        "ED BELL CONSTRUCTION COMPANY": 12600.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 775.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 775.0,
+        "FNH CONSTRUCTION, LLC": 1500.0,
+        "ED BELL CONSTRUCTION COMPANY": 886.2
+      }
+    },
+    {
+      "itemCode": "0644 6007",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(U)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1185.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 1185.0,
+        "FNH CONSTRUCTION, LLC": 1500.0,
+        "ED BELL CONSTRUCTION COMPANY": 968.1
+      }
+    },
+    {
+      "itemCode": "0644 6015",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SB(U)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1375.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 1375.0,
+        "FNH CONSTRUCTION, LLC": 1500.0,
+        "ED BELL CONSTRUCTION COMPANY": 1025.85
+      }
+    },
+    {
+      "itemCode": "0644 6068",
+      "description": "RELOCATE SM RD SN SUP&AM TY 10BWG",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 665.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 665.0,
+        "FNH CONSTRUCTION, LLC": 1000.0,
+        "ED BELL CONSTRUCTION COMPANY": 577.5
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 167.0,
+      "engEstUnit": 6.5,
+      "lowUnit": 7.25,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 7.25,
+        "FNH CONSTRUCTION, LLC": 6.0,
+        "ED BELL CONSTRUCTION COMPANY": 6.25
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 216.0,
+      "engEstUnit": 7.5,
+      "lowUnit": 7.25,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 7.25,
+        "FNH CONSTRUCTION, LLC": 6.0,
+        "ED BELL CONSTRUCTION COMPANY": 6.25
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 12770.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.51,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.51,
+        "FNH CONSTRUCTION, LLC": 1.0,
+        "ED BELL CONSTRUCTION COMPANY": 3.0
+      }
+    },
+    {
+      "itemCode": "0677 6005",
+      "description": "ELIM EXT PAV MRK & MRKS (12\")",
+      "unit": "LF",
+      "quantity": 285.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 2.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 2.0,
+        "FNH CONSTRUCTION, LLC": 3.0,
+        "ED BELL CONSTRUCTION COMPANY": 13.3
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 93.0,
+      "engEstUnit": 5.5,
+      "lowUnit": 4.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 4.0,
+        "FNH CONSTRUCTION, LLC": 20.0,
+        "ED BELL CONSTRUCTION COMPANY": 16.69
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 14065.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.2,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.2,
+        "FNH CONSTRUCTION, LLC": 1.0,
+        "ED BELL CONSTRUCTION COMPANY": 0.05
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 1699.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.5,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.5,
+        "FNH CONSTRUCTION, LLC": 1.0,
+        "ED BELL CONSTRUCTION COMPANY": 0.11
+      }
+    },
+    {
+      "itemCode": "0678 6006",
+      "description": "PAV SURF PREP FOR MRK (12\")",
+      "unit": "LF",
+      "quantity": 74.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 1.0,
+        "FNH CONSTRUCTION, LLC": 1.0,
+        "ED BELL CONSTRUCTION COMPANY": 0.79
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 584.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 3.0,
+        "FNH CONSTRUCTION, LLC": 1.0,
+        "ED BELL CONSTRUCTION COMPANY": 1.05
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 27.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 60.0,
+        "FNH CONSTRUCTION, LLC": 250.0,
+        "ED BELL CONSTRUCTION COMPANY": 42.0
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 75.0,
+        "FNH CONSTRUCTION, LLC": 250.0,
+        "ED BELL CONSTRUCTION COMPANY": 42.0
+      }
+    },
+    {
+      "itemCode": "0678 6022",
+      "description": "PAV SURF PREP FOR MRK (18\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 40.0,
+        "FNH CONSTRUCTION, LLC": 250.0,
+        "ED BELL CONSTRUCTION COMPANY": 15.75
+      }
+    },
+    {
+      "itemCode": "0682 6001",
+      "description": "VEH SIG SEC (12\")LED(GRN)",
+      "unit": "EA",
+      "quantity": 11.0,
+      "engEstUnit": 510.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 300.0,
+        "FNH CONSTRUCTION, LLC": 350.0,
+        "ED BELL CONSTRUCTION COMPANY": 462.0
+      }
+    },
+    {
+      "itemCode": "0682 6002",
+      "description": "VEH SIG SEC (12\")LED(GRN ARW)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 510.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 300.0,
+        "FNH CONSTRUCTION, LLC": 350.0,
+        "ED BELL CONSTRUCTION COMPANY": 462.0
+      }
+    },
+    {
+      "itemCode": "0682 6003",
+      "description": "VEH SIG SEC (12\")LED(YEL)",
+      "unit": "EA",
+      "quantity": 11.0,
+      "engEstUnit": 510.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 300.0,
+        "FNH CONSTRUCTION, LLC": 350.0,
+        "ED BELL CONSTRUCTION COMPANY": 462.0
+      }
+    },
+    {
+      "itemCode": "0682 6004",
+      "description": "VEH SIG SEC (12\")LED(YEL ARW)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 510.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 300.0,
+        "FNH CONSTRUCTION, LLC": 350.0,
+        "ED BELL CONSTRUCTION COMPANY": 462.0
+      }
+    },
+    {
+      "itemCode": "0682 6005",
+      "description": "VEH SIG SEC (12\")LED(RED)",
+      "unit": "EA",
+      "quantity": 11.0,
+      "engEstUnit": 510.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 300.0,
+        "FNH CONSTRUCTION, LLC": 350.0,
+        "ED BELL CONSTRUCTION COMPANY": 462.0
+      }
+    },
+    {
+      "itemCode": "0682 6006",
+      "description": "VEH SIG SEC (12\")LED(RED ARW)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 510.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 300.0,
+        "FNH CONSTRUCTION, LLC": 350.0,
+        "ED BELL CONSTRUCTION COMPANY": 462.0
+      }
+    },
+    {
+      "itemCode": "0682 6018",
+      "description": "PED SIG SEC (LED)(COUNTDOWN)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 1000.0,
+        "FNH CONSTRUCTION, LLC": 4500.0,
+        "ED BELL CONSTRUCTION COMPANY": 1155.0
+      }
+    },
+    {
+      "itemCode": "0682 6054",
+      "description": "BACKPLATE W/REF BRDR(3 SEC)(VENT)ALUM",
+      "unit": "EA",
+      "quantity": 11.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 215.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 215.0,
+        "FNH CONSTRUCTION, LLC": 250.0,
+        "ED BELL CONSTRUCTION COMPANY": 231.0
+      }
+    },
+    {
+      "itemCode": "0682 6056",
+      "description": "BACKPLATE W/REF BRDR(5 SEC)(VENT)ALUM",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 270.0,
+      "lowUnit": 215.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 215.0,
+        "FNH CONSTRUCTION, LLC": 300.0,
+        "ED BELL CONSTRUCTION COMPANY": 304.5
+      }
+    },
+    {
+      "itemCode": "0684 6031",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(5 CONDR)",
+      "unit": "LF",
+      "quantity": 479.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 4.7,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 4.7,
+        "FNH CONSTRUCTION, LLC": 3.0,
+        "ED BELL CONSTRUCTION COMPANY": 4.31
+      }
+    },
+    {
+      "itemCode": "0684 6033",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(7 CONDR)",
+      "unit": "LF",
+      "quantity": 323.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 4.5,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 4.5,
+        "FNH CONSTRUCTION, LLC": 3.0,
+        "ED BELL CONSTRUCTION COMPANY": 4.73
+      }
+    },
+    {
+      "itemCode": "0684 6036",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(10 CONDR)",
+      "unit": "LF",
+      "quantity": 640.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 4.7,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 4.7,
+        "FNH CONSTRUCTION, LLC": 3.0,
+        "ED BELL CONSTRUCTION COMPANY": 5.46
+      }
+    },
+    {
+      "itemCode": "0684 6046",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(20 CONDR)",
+      "unit": "LF",
+      "quantity": 640.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 4.7,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 4.7,
+        "FNH CONSTRUCTION, LLC": 3.0,
+        "ED BELL CONSTRUCTION COMPANY": 8.93
+      }
+    },
+    {
+      "itemCode": "0684 6079",
+      "description": "TRF SIG CBL (TY C)(12 AWG)(2 CONDR)",
+      "unit": "LF",
+      "quantity": 1320.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.1,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 3.1,
+        "FNH CONSTRUCTION, LLC": 3.0,
+        "ED BELL CONSTRUCTION COMPANY": 2.52
+      }
+    },
+    {
+      "itemCode": "0686 6049",
+      "description": "INS TRF SIG PL AM(S)1 ARM(48')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 14500.0,
+      "lowUnit": 16000.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 16000.0,
+        "FNH CONSTRUCTION, LLC": 30000.0,
+        "ED BELL CONSTRUCTION COMPANY": 23415.0
+      }
+    },
+    {
+      "itemCode": "0686 6051",
+      "description": "INS TRF SIG PL AM(S)1 ARM(48')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 17000.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 17000.0,
+        "FNH CONSTRUCTION, LLC": 32000.0,
+        "ED BELL CONSTRUCTION COMPANY": 27825.0
+      }
+    },
+    {
+      "itemCode": "0686 6057",
+      "description": "INS TRF SIG PL AM(S)1 ARM(55')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 35000.0,
+      "lowUnit": 30000.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 30000.0,
+        "FNH CONSTRUCTION, LLC": 45000.0,
+        "ED BELL CONSTRUCTION COMPANY": 46410.0
+      }
+    },
+    {
+      "itemCode": "0686 6059",
+      "description": "INS TRF SIG PL AM(S)1 ARM(55')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 36000.0,
+      "lowUnit": 32000.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 32000.0,
+        "FNH CONSTRUCTION, LLC": 50000.0,
+        "ED BELL CONSTRUCTION COMPANY": 50925.0
+      }
+    },
+    {
+      "itemCode": "0687 6001",
+      "description": "PED POLE ASSEMBLY",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 4500.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 2500.0,
+        "FNH CONSTRUCTION, LLC": 6500.0,
+        "ED BELL CONSTRUCTION COMPANY": 4042.5
+      }
+    },
+    {
+      "itemCode": "0688 6001",
+      "description": "PED DETECT PUSH BUTTON (APS)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 1300.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 1000.0,
+        "FNH CONSTRUCTION, LLC": 1850.0,
+        "ED BELL CONSTRUCTION COMPANY": 2079.0
+      }
+    },
+    {
+      "itemCode": "0688 6003",
+      "description": "PED DETECTOR CONTROLLER UNIT",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 5000.0,
+        "FNH CONSTRUCTION, LLC": 6500.0,
+        "ED BELL CONSTRUCTION COMPANY": 6825.0
+      }
+    },
+    {
+      "itemCode": "0690 6099",
+      "description": "SALVAGE TRAFFIC SIGNAL",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 10000.0,
+        "FNH CONSTRUCTION, LLC": 15000.0,
+        "ED BELL CONSTRUCTION COMPANY": 5775.0
+      }
+    },
+    {
+      "itemCode": "3077 6001",
+      "description": "SP MIXES SP-B PG64-22",
+      "unit": "TON",
+      "quantity": 802.0,
+      "engEstUnit": 172.5,
+      "lowUnit": 225.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 225.0,
+        "FNH CONSTRUCTION, LLC": 180.0,
+        "ED BELL CONSTRUCTION COMPANY": 184.8
+      }
+    },
+    {
+      "itemCode": "3077 6023",
+      "description": "SP MIXES SP-C SAC-B PG70-22",
+      "unit": "TON",
+      "quantity": 394.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 225.0,
+        "FNH CONSTRUCTION, LLC": 250.0,
+        "ED BELL CONSTRUCTION COMPANY": 195.3
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 216.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 4.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 4.0,
+        "FNH CONSTRUCTION, LLC": 10.0,
+        "ED BELL CONSTRUCTION COMPANY": 4.2
+      }
+    },
+    {
+      "itemCode": "6186 6002",
+      "description": "ITS GND BOX(PCAST) TY 1 (243636)W/APRN",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 5500.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 5000.0,
+        "FNH CONSTRUCTION, LLC": 6500.0,
+        "ED BELL CONSTRUCTION COMPANY": 8715.0
+      }
+    },
+    {
+      "itemCode": "6292 6003",
+      "description": "RVDS(PRESENCE AND ADVANCE DET)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 10000.0,
+        "FNH CONSTRUCTION, LLC": 15000.0,
+        "ED BELL CONSTRUCTION COMPANY": 14175.0
+      }
+    }
+  ]
+}

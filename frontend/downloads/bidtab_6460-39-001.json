@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6460-39-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646039001",
+    "projectType": "POTHOLE REPAIR",
+    "letDate": "08/07/24",
+    "engEstTotal": 249250.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 309500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "O. TREVINO CONSTRUCTION, LLC",
+      "totalBidAmount": 357025.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 2500.0,
+        "O. TREVINO CONSTRUCTION, LLC": 550.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 5500.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 2500.0,
+        "O. TREVINO CONSTRUCTION, LLC": 4000.0
+      }
+    },
+    {
+      "itemCode": "0700 6010",
+      "description": "POTHOLE REPAIR(STANDARD)(PAVEMENT EDGE)",
+      "unit": "TON",
+      "quantity": 50.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 300.0,
+        "O. TREVINO CONSTRUCTION, LLC": 1925.0
+      }
+    }
+  ]
+}

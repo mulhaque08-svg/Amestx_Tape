@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6381-98-001",
+    "county": "Cameron",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638198001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "06/04/21",
+    "engEstTotal": 886445.58,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SJ&J CONSTRUCTION, LLC",
+      "totalBidAmount": 939772.05
+    },
+    {
+      "rank": 2,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 1054814.2
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 80000.0,
+      "lowUnit": 90000.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 90000.0,
+        "R&M INCORPORATED": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 15275.49,
+      "engEstUnit": 42.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 45.0,
+        "R&M INCORPORATED": 58.58
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 25.0,
+        "R&M INCORPORATED": 1.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 6395.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 25.0,
+        "R&M INCORPORATED": 25.0
+      }
+    }
+  ]
+}

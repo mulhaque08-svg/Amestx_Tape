@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6421-55-001",
+    "county": "Navarro",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642155001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/08/23",
+    "engEstTotal": 1737600.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 1683810.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "JASCO",
+      "totalBidAmount": 1798880.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "YELLOWSTONE LANDSCAPE - CENTRAL, INC.",
+      "totalBidAmount": 2354437.66
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 128000.0,
+      "lowUnit": 100000.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 100000.0,
+        "JASCO": 85000.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 190000.0
+      }
+    },
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 26.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 65.0,
+        "JASCO": 100.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 99.73
+      }
+    },
+    {
+      "itemCode": "0730 6104",
+      "description": "FULL-WIDTH MOWING (RURAL)",
+      "unit": "AC",
+      "quantity": 21316.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 70.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 70.0,
+        "JASCO": 80.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 99.73
+      }
+    }
+  ]
+}

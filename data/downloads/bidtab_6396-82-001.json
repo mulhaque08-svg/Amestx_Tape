@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6396-82-001",
+    "county": "Trinity",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639682001",
+    "projectType": "EMULSION",
+    "letDate": "03/08/22",
+    "engEstTotal": 250950.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 290700.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CLEVELAND ASPHALT PRODUCTS, INC.",
+      "totalBidAmount": 316050.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "WRIGHT ASPHALT PRODUCTS COMPANY LLC",
+      "totalBidAmount": 325500.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "ERGON ASPHALT & EMULSIONS, INC.",
+      "totalBidAmount": 364350.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6252",
+      "description": "CRS2P (DEL) (SITE 1)",
+      "unit": "GAL",
+      "quantity": 60000.0,
+      "engEstUnit": 2.39,
+      "lowUnit": 2.76,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.76,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 3.01,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.1,
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.47
+      }
+    },
+    {
+      "itemCode": "8010 6253",
+      "description": "CRS2P (DEL) (SITE 2)",
+      "unit": "GAL",
+      "quantity": 45000.0,
+      "engEstUnit": 2.39,
+      "lowUnit": 2.78,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.78,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 3.01,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.1,
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.47
+      }
+    }
+  ]
+}

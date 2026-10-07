@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6423-80-001",
+    "county": "Callahan",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642380001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/08/23",
+    "engEstTotal": 398641.25,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GREG SCRUGGS",
+      "totalBidAmount": 495705.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 562296.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 889.0,
+      "engEstUnit": 38.5,
+      "lowUnit": 45.0,
+      "bidders": {
+        "GREG SCRUGGS": 45.0,
+        "ABESCAPE GROUP LLC": 48.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6998.0,
+      "engEstUnit": 39.5,
+      "lowUnit": 45.0,
+      "bidders": {
+        "GREG SCRUGGS": 45.0,
+        "ABESCAPE GROUP LLC": 48.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 4293.0,
+      "engEstUnit": 18.75,
+      "lowUnit": 30.0,
+      "bidders": {
+        "GREG SCRUGGS": 30.0,
+        "ABESCAPE GROUP LLC": 40.0
+      }
+    }
+  ]
+}

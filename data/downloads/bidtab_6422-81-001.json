@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6422-81-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642281001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/09/23",
+    "engEstTotal": 143300.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ORTEGA'S LAWN AND LANDSCAPING, LLC",
+      "totalBidAmount": 120407.66
+    },
+    {
+      "rank": 2,
+      "vendorName": "MOIR WATERSHED SERVICES, LLC",
+      "totalBidAmount": 140360.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 147506.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "ORTEGA'S LAWN AND LANDSCAPING, LLC": 0.01,
+        "MOIR WATERSHED SERVICES, LLC": 1000.0,
+        "ANTHONY SERVICES": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 1.16,
+      "bidders": {
+        "ORTEGA'S LAWN AND LANDSCAPING, LLC": 1.16,
+        "MOIR WATERSHED SERVICES, LLC": 69.5,
+        "ANTHONY SERVICES": 45.0
+      }
+    },
+    {
+      "itemCode": "0730 6104",
+      "description": "FULL-WIDTH MOWING (RURAL)",
+      "unit": "AC",
+      "quantity": 2860.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 42.06,
+      "bidders": {
+        "ORTEGA'S LAWN AND LANDSCAPING, LLC": 42.06,
+        "MOIR WATERSHED SERVICES, LLC": 43.5,
+        "ANTHONY SERVICES": 50.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6383-11-001",
+    "county": "Parker",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638311001",
+    "projectType": "ULTRA HIGH PRESSURE WATER BLASTING",
+    "letDate": "10/05/23",
+    "engEstTotal": 306967.52,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 339026.18
+    },
+    {
+      "rank": 2,
+      "vendorName": "STRIPE-A-ZONE, LLC",
+      "totalBidAmount": 349607.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "O. TREVINO CONSTRUCTION, LLC",
+      "totalBidAmount": 401894.68
+    },
+    {
+      "rank": 4,
+      "vendorName": "TRAFFIC HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 436113.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 3428.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 500.0,
+        "STRIPE-A-ZONE, LLC": 2500.0,
+        "O. TREVINO CONSTRUCTION, LLC": 7500.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 9500.0
+      }
+    },
+    {
+      "itemCode": "2021 6001",
+      "description": "ULTRA HP WATER CUTTING TREATMENT",
+      "unit": "SY",
+      "quantity": 60274.0,
+      "engEstUnit": 3.93,
+      "lowUnit": 5.57,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 5.57,
+        "STRIPE-A-ZONE, LLC": 5.5,
+        "O. TREVINO CONSTRUCTION, LLC": 5.82,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 6.25
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10261.35,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 100.0,
+        "STRIPE-A-ZONE, LLC": 1500.0,
+        "O. TREVINO CONSTRUCTION, LLC": 3000.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 1200.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "0912-00-700",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2024(900)",
+    "projectType": "REHAB OF DYNAMIC MESSAGE SIGN",
+    "letDate": "04/05/24",
+    "engEstTotal": 1620463.24,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRAF-TEX, INC.",
+      "totalBidAmount": 862600.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "FLORIDA TRAFFIC CONTROL DEVICES, INC.",
+      "totalBidAmount": 888681.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "SICE, INC.",
+      "totalBidAmount": 1064018.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, LLC",
+      "totalBidAmount": 1229609.04
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 915678.56,
+      "lowUnit": 132820.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 132820.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 64577.0,
+        "SICE, INC.": 105328.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, LLC": 110894.4
+      }
+    },
+    {
+      "itemCode": "6028 6002",
+      "description": "INSTALL DMS (FOUNDATION MTD CABINET)",
+      "unit": "EA",
+      "quantity": 51.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 13360.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 13360.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 10528.34,
+        "SICE, INC.": 13597.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, LLC": 14308.8
+      }
+    },
+    {
+      "itemCode": "6032 6001",
+      "description": "SYSTEM INTEGRATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 32100.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 32100.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 20114.14,
+        "SICE, INC.": 42535.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, LLC": 58752.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "csj": "6417-10-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641710001",
+    "projectType": "VEGETATION MANAGEMENT",
+    "letDate": "12/01/22",
+    "engEstTotal": 699190.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CEN-TEX IRRIGATION SYSTEMS, INC.",
+      "totalBidAmount": 925595.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "JASCO",
+      "totalBidAmount": 1071500.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 1125330.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 65000.0,
+      "lowUnit": 75000.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 75000.0,
+        "JASCO": 50000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 100000.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 112.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 200.0,
+        "JASCO": 150.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 65.0
+      }
+    },
+    {
+      "itemCode": "0730 6105",
+      "description": "FULL-WIDTH MOWING (URBAN)",
+      "unit": "AC",
+      "quantity": 2838.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 74.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 74.0,
+        "JASCO": 85.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 65.0
+      }
+    },
+    {
+      "itemCode": "0731 6007",
+      "description": "PAVEMENT EDGES, STRUCTURES & FIXTURES",
+      "unit": "MI",
+      "quantity": 357.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 1075.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1075.0,
+        "JASCO": 1500.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 1100.0
+      }
+    },
+    {
+      "itemCode": "0731 6011",
+      "description": "BROADCAST APPLICATION",
+      "unit": "AC",
+      "quantity": 894.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 163.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 163.0,
+        "JASCO": 175.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 95.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 2838.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 29.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 29.0,
+        "JASCO": 25.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 25.0
+      }
+    }
+  ]
+}

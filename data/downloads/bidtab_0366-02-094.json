@@ -1,0 +1,792 @@
+{
+  "metadata": {
+    "csj": "0366-02-094",
+    "county": "Guadalupe",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 366-2-94",
+    "projectType": "RESURFACE ROADWAY",
+    "letDate": "02/01/23",
+    "engEstTotal": 12521320.97,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "HUNTER INDUSTRIES, LTD.",
+      "totalBidAmount": 7325978.26
+    },
+    {
+      "rank": 2,
+      "vendorName": "LONE STAR PAVING COMPANY",
+      "totalBidAmount": 7607492.55
+    },
+    {
+      "rank": 3,
+      "vendorName": "CLARK CONSTRUCTION OF TEXAS, INC.",
+      "totalBidAmount": 8596064.77
+    },
+    {
+      "rank": 4,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 9237977.82
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6054",
+      "description": "REMOVING CONCRETE(MOW STRIP)",
+      "unit": "LF",
+      "quantity": 4611.34,
+      "engEstUnit": 9.0,
+      "lowUnit": 9.18,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 9.18,
+        "LONE STAR PAVING COMPANY": 8.6,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 10.0,
+        "TEXAS MATERIALS GROUP, INC.": 8.0
+      }
+    },
+    {
+      "itemCode": "0134 6001",
+      "description": "BACKFILL (TY A)",
+      "unit": "STA",
+      "quantity": 314.46,
+      "engEstUnit": 220.0,
+      "lowUnit": 112.5,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 112.5,
+        "LONE STAR PAVING COMPANY": 125.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 379.69,
+        "TEXAS MATERIALS GROUP, INC.": 160.0
+      }
+    },
+    {
+      "itemCode": "0351 6028",
+      "description": "FLEX PAVE STRUCTURE REPAIR (8\"-10\")",
+      "unit": "SY",
+      "quantity": 55135.26,
+      "engEstUnit": 110.0,
+      "lowUnit": 46.74,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 46.74,
+        "LONE STAR PAVING COMPANY": 55.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 67.76,
+        "TEXAS MATERIALS GROUP, INC.": 68.5
+      }
+    },
+    {
+      "itemCode": "0354 6197",
+      "description": "PLANE ASPH CONC PAV(1.5\" MICRO-MILLING)",
+      "unit": "SY",
+      "quantity": 184920.91,
+      "engEstUnit": 1.7,
+      "lowUnit": 1.65,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1.65,
+        "LONE STAR PAVING COMPANY": 1.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 1.66,
+        "TEXAS MATERIALS GROUP, INC.": 1.9
+      }
+    },
+    {
+      "itemCode": "0416 6032",
+      "description": "DRILL SHAFT (TRF SIG POLE) (36 IN)",
+      "unit": "LF",
+      "quantity": 53.0,
+      "engEstUnit": 420.0,
+      "lowUnit": 290.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 290.0,
+        "LONE STAR PAVING COMPANY": 437.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 395.0,
+        "TEXAS MATERIALS GROUP, INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 283.29,
+      "engEstUnit": 620.0,
+      "lowUnit": 610.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 610.0,
+        "LONE STAR PAVING COMPANY": 560.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 585.0,
+        "TEXAS MATERIALS GROUP, INC.": 600.0
+      }
+    },
+    {
+      "itemCode": "0438 6008",
+      "description": "CLEANING AND SEALING JOINTS (CL 7)",
+      "unit": "LF",
+      "quantity": 560.0,
+      "engEstUnit": 34.0,
+      "lowUnit": 23.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 23.0,
+        "LONE STAR PAVING COMPANY": 23.75,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 22.79,
+        "TEXAS MATERIALS GROUP, INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0438 6009",
+      "description": "CLEANING EXISTING JOINTS",
+      "unit": "LF",
+      "quantity": 560.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 5.5,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 5.5,
+        "LONE STAR PAVING COMPANY": 5.75,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 5.5,
+        "TEXAS MATERIALS GROUP, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0454 6009",
+      "description": "JOINT SEALANT",
+      "unit": "LF",
+      "quantity": 560.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 5.5,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 5.5,
+        "LONE STAR PAVING COMPANY": 5.75,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 5.5,
+        "TEXAS MATERIALS GROUP, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 1138301.91,
+      "lowUnit": 598233.96,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 598233.96,
+        "LONE STAR PAVING COMPANY": 70000.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 150000.0,
+        "TEXAS MATERIALS GROUP, INC.": 230000.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 4564.65,
+      "engEstUnit": 4.2,
+      "lowUnit": 1.5,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1.5,
+        "LONE STAR PAVING COMPANY": 1.6,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 2.0,
+        "TEXAS MATERIALS GROUP, INC.": 1.8
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 3680.0,
+      "lowUnit": 2985.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 2985.0,
+        "LONE STAR PAVING COMPANY": 3600.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 4400.0,
+        "TEXAS MATERIALS GROUP, INC.": 2800.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 420.0,
+      "lowUnit": 275.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 275.0,
+        "LONE STAR PAVING COMPANY": 260.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 350.0,
+        "TEXAS MATERIALS GROUP, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0618 6046",
+      "description": "CONDT (PVC) (SCH 80) (2\")",
+      "unit": "LF",
+      "quantity": 23.0,
+      "engEstUnit": 21.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 30.0,
+        "LONE STAR PAVING COMPANY": 26.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 54.0,
+        "TEXAS MATERIALS GROUP, INC.": 54.0
+      }
+    },
+    {
+      "itemCode": "0618 6053",
+      "description": "CONDT (PVC) (SCH 80) (3\")",
+      "unit": "LF",
+      "quantity": 46.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 36.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 36.0,
+        "LONE STAR PAVING COMPANY": 60.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 39.0,
+        "TEXAS MATERIALS GROUP, INC.": 39.0
+      }
+    },
+    {
+      "itemCode": "0620 6009",
+      "description": "ELEC CONDR (NO.6) BARE",
+      "unit": "LF",
+      "quantity": 80.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.3,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 2.3,
+        "LONE STAR PAVING COMPANY": 3.15,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 1.6,
+        "TEXAS MATERIALS GROUP, INC.": 1.6
+      }
+    },
+    {
+      "itemCode": "0621 6005",
+      "description": "TRAY CABLE (4 CONDR) (12 AWG)",
+      "unit": "LF",
+      "quantity": 530.0,
+      "engEstUnit": 2.7,
+      "lowUnit": 3.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 3.0,
+        "LONE STAR PAVING COMPANY": 4.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 2.2,
+        "TEXAS MATERIALS GROUP, INC.": 2.2
+      }
+    },
+    {
+      "itemCode": "0624 6002",
+      "description": "GROUND BOX TY A (122311)W/APRON",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1240.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1200.0,
+        "LONE STAR PAVING COMPANY": 1890.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 975.0,
+        "TEXAS MATERIALS GROUP, INC.": 975.0
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1400.0,
+      "lowUnit": 1960.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1960.0,
+        "LONE STAR PAVING COMPANY": 2300.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 1500.0,
+        "TEXAS MATERIALS GROUP, INC.": 1500.0
+      }
+    },
+    {
+      "itemCode": "0625 6002",
+      "description": "ZINC-COAT STL WIRE STRAND (3/16\")",
+      "unit": "LF",
+      "quantity": 402.0,
+      "engEstUnit": 4.1,
+      "lowUnit": 2.1,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 2.1,
+        "LONE STAR PAVING COMPANY": 6.6,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 4.0,
+        "TEXAS MATERIALS GROUP, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0625 6004",
+      "description": "ZINC-COAT STL WIRE STRAND (5/16\")",
+      "unit": "LF",
+      "quantity": 402.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 2.45,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 2.45,
+        "LONE STAR PAVING COMPANY": 6.6,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 4.0,
+        "TEXAS MATERIALS GROUP, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0628 6167",
+      "description": "ELC SRV TY D 120/240 070(NS)AL(E)TP(O)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 7400.0,
+      "lowUnit": 5500.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 5500.0,
+        "LONE STAR PAVING COMPANY": 8000.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 6000.0,
+        "TEXAS MATERIALS GROUP, INC.": 6000.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 47.0,
+      "engEstUnit": 660.0,
+      "lowUnit": 645.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 645.0,
+        "LONE STAR PAVING COMPANY": 680.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 595.0,
+        "TEXAS MATERIALS GROUP, INC.": 725.0
+      }
+    },
+    {
+      "itemCode": "0644 6002",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P-BM)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 960.0,
+      "lowUnit": 685.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 685.0,
+        "LONE STAR PAVING COMPANY": 780.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 485.0,
+        "TEXAS MATERIALS GROUP, INC.": 810.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 32.0,
+      "engEstUnit": 820.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 900.0,
+        "LONE STAR PAVING COMPANY": 800.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 540.0,
+        "TEXAS MATERIALS GROUP, INC.": 860.0
+      }
+    },
+    {
+      "itemCode": "0644 6007",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(U)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1090.0,
+      "lowUnit": 1055.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1055.0,
+        "LONE STAR PAVING COMPANY": 1050.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 540.0,
+        "TEXAS MATERIALS GROUP, INC.": 1125.0
+      }
+    },
+    {
+      "itemCode": "0644 6034",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U-1EXT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2250.0,
+      "lowUnit": 1225.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1225.0,
+        "LONE STAR PAVING COMPANY": 1150.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 540.0,
+        "TEXAS MATERIALS GROUP, INC.": 1450.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 96.0,
+      "engEstUnit": 133.0,
+      "lowUnit": 74.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 74.0,
+        "LONE STAR PAVING COMPANY": 110.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 85.0,
+        "TEXAS MATERIALS GROUP, INC.": 112.0
+      }
+    },
+    {
+      "itemCode": "0658 6061",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2",
+      "unit": "EA",
+      "quantity": 35.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 25.0,
+        "LONE STAR PAVING COMPANY": 37.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 65.0,
+        "TEXAS MATERIALS GROUP, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 74.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 25.0,
+        "LONE STAR PAVING COMPANY": 37.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 55.0,
+        "TEXAS MATERIALS GROUP, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0662 6001",
+      "description": "WK ZN PAV MRK NON-REMOV (W)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 6703.0,
+      "engEstUnit": 0.45,
+      "lowUnit": 0.33,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.33,
+        "LONE STAR PAVING COMPANY": 0.6,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 0.25,
+        "TEXAS MATERIALS GROUP, INC.": 0.55
+      }
+    },
+    {
+      "itemCode": "0662 6004",
+      "description": "WK ZN PAV MRK NON-REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 34004.0,
+      "engEstUnit": 0.7,
+      "lowUnit": 0.24,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.24,
+        "LONE STAR PAVING COMPANY": 0.5,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 0.25,
+        "TEXAS MATERIALS GROUP, INC.": 0.45
+      }
+    },
+    {
+      "itemCode": "0662 6032",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 4124.0,
+      "engEstUnit": 0.38,
+      "lowUnit": 0.33,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.33,
+        "LONE STAR PAVING COMPANY": 0.65,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 0.25,
+        "TEXAS MATERIALS GROUP, INC.": 0.6
+      }
+    },
+    {
+      "itemCode": "0662 6034",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 25798.0,
+      "engEstUnit": 0.85,
+      "lowUnit": 0.24,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.24,
+        "LONE STAR PAVING COMPANY": 0.5,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 0.25,
+        "TEXAS MATERIALS GROUP, INC.": 0.45
+      }
+    },
+    {
+      "itemCode": "0662 6050",
+      "description": "WK ZN PAV MRK REMOV (REFL) TY II-A-A",
+      "unit": "EA",
+      "quantity": 438.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.8,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 4.8,
+        "LONE STAR PAVING COMPANY": 5.25,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 3.0,
+        "TEXAS MATERIALS GROUP, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0662 6060",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 8350.0,
+      "engEstUnit": 1.34,
+      "lowUnit": 0.87,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.87,
+        "LONE STAR PAVING COMPANY": 1.45,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 0.55,
+        "TEXAS MATERIALS GROUP, INC.": 1.3
+      }
+    },
+    {
+      "itemCode": "0662 6095",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 61227.0,
+      "engEstUnit": 1.16,
+      "lowUnit": 0.87,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.87,
+        "LONE STAR PAVING COMPANY": 0.7,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 0.55,
+        "TEXAS MATERIALS GROUP, INC.": 0.65
+      }
+    },
+    {
+      "itemCode": "0662 6109",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY W",
+      "unit": "EA",
+      "quantity": 3368.0,
+      "engEstUnit": 2.25,
+      "lowUnit": 1.6,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1.6,
+        "LONE STAR PAVING COMPANY": 1.25,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 1.0,
+        "TEXAS MATERIALS GROUP, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0662 6110",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y",
+      "unit": "EA",
+      "quantity": 5069.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.6,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1.6,
+        "LONE STAR PAVING COMPANY": 0.75,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 1.0,
+        "TEXAS MATERIALS GROUP, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 536.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 4.8,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 4.8,
+        "LONE STAR PAVING COMPANY": 5.25,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 4.0,
+        "TEXAS MATERIALS GROUP, INC.": 6.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 1977.0,
+      "engEstUnit": 4.2,
+      "lowUnit": 4.8,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 4.8,
+        "LONE STAR PAVING COMPANY": 5.25,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 4.0,
+        "TEXAS MATERIALS GROUP, INC.": 5.5
+      }
+    },
+    {
+      "itemCode": "0682 6003",
+      "description": "VEH SIG SEC (12\")LED(YEL)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 299.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 299.0,
+        "LONE STAR PAVING COMPANY": 377.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 250.0,
+        "TEXAS MATERIALS GROUP, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0682 6005",
+      "description": "VEH SIG SEC (12\")LED(RED)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 290.0,
+      "lowUnit": 299.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 299.0,
+        "LONE STAR PAVING COMPANY": 377.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 250.0,
+        "TEXAS MATERIALS GROUP, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0684 6009",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(4 CONDR)",
+      "unit": "LF",
+      "quantity": 750.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 1.65,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1.65,
+        "LONE STAR PAVING COMPANY": 3.5,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 2.5,
+        "TEXAS MATERIALS GROUP, INC.": 2.52
+      }
+    },
+    {
+      "itemCode": "0685 6003",
+      "description": "REMOVE RDSD FLASH BEACON ASSEMBLY",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 650.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 650.0,
+        "LONE STAR PAVING COMPANY": 840.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 950.0,
+        "TEXAS MATERIALS GROUP, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0685 6004",
+      "description": "INSTL RDSD FLSH BCN ASSM (SOLAR PWRD)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 5900.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 5900.0,
+        "LONE STAR PAVING COMPANY": 9000.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 5700.0,
+        "TEXAS MATERIALS GROUP, INC.": 6000.0
+      }
+    },
+    {
+      "itemCode": "0686 6007",
+      "description": "INS TRF SIG PL AM (S)STR(TY B)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 6400.0,
+      "lowUnit": 6500.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 6500.0,
+        "LONE STAR PAVING COMPANY": 7500.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 7000.0,
+        "TEXAS MATERIALS GROUP, INC.": 7250.0
+      }
+    },
+    {
+      "itemCode": "0686 6008",
+      "description": "INS TRF SIG PL AM (S)STR(TY B)LUM",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 8350.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 8350.0,
+        "LONE STAR PAVING COMPANY": 8400.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 8500.0,
+        "TEXAS MATERIALS GROUP, INC.": 9000.0
+      }
+    },
+    {
+      "itemCode": "3076 6043",
+      "description": "D-GR HMA TY-D PG70-22 (LEVEL-UP)",
+      "unit": "TON",
+      "quantity": 4253.18,
+      "engEstUnit": 175.0,
+      "lowUnit": 92.7,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 92.7,
+        "LONE STAR PAVING COMPANY": 105.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 85.44,
+        "TEXAS MATERIALS GROUP, INC.": 155.0
+      }
+    },
+    {
+      "itemCode": "3077 6053",
+      "description": "SP MIXES SP-D SAC-B PG70-22",
+      "unit": "TON",
+      "quantity": 544.68,
+      "engEstUnit": 150.0,
+      "lowUnit": 94.86,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 94.86,
+        "LONE STAR PAVING COMPANY": 110.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 128.6,
+        "TEXAS MATERIALS GROUP, INC.": 120.0
+      }
+    },
+    {
+      "itemCode": "3079 6017",
+      "description": "PFC-F PG76-22 SAC-A",
+      "unit": "TON",
+      "quantity": 14017.84,
+      "engEstUnit": 134.08,
+      "lowUnit": 130.14,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 130.14,
+        "LONE STAR PAVING COMPANY": 150.5,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 163.91,
+        "TEXAS MATERIALS GROUP, INC.": 177.0
+      }
+    },
+    {
+      "itemCode": "3079 6023",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 24810.89,
+      "engEstUnit": 3.75,
+      "lowUnit": 3.47,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 3.47,
+        "LONE STAR PAVING COMPANY": 3.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 3.0,
+        "TEXAS MATERIALS GROUP, INC.": 2.5
+      }
+    },
+    {
+      "itemCode": "3085 6001",
+      "description": "UNDERSEAL COURSE",
+      "unit": "GAL",
+      "quantity": 1037.49,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.95,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 4.95,
+        "LONE STAR PAVING COMPANY": 7.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 4.5,
+        "TEXAS MATERIALS GROUP, INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 234.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 119.07,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 119.07,
+        "LONE STAR PAVING COMPANY": 97.0,
+        "CLARK CONSTRUCTION OF TEXAS, INC.": 100.0,
+        "TEXAS MATERIALS GROUP, INC.": 100.0
+      }
+    }
+  ]
+}

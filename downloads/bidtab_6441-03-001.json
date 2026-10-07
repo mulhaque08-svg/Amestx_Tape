@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6441-03-001",
+    "county": "Ellis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644103001",
+    "projectType": "REMOVAL AND DISPOSAL OF DRIFTWOOD",
+    "letDate": "08/03/23",
+    "engEstTotal": 374147.9,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RHINO EQUITY, LLC",
+      "totalBidAmount": 332030.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "S FOWLER SERVICES LLC",
+      "totalBidAmount": 486000.3
+    },
+    {
+      "rank": 3,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 521230.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "BECK-REIT & SONS, LTD.",
+      "totalBidAmount": 538000.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 987000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6003",
+      "description": "MOBILIZATION (CALLOUT 1)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 2180.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 1000.0,
+        "S FOWLER SERVICES LLC": 500.0,
+        "SHALOM SERVICES CORPORATION": 100.0,
+        "BECK-REIT & SONS, LTD.": 1000.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 2000.0
+      }
+    },
+    {
+      "itemCode": "7000 6001",
+      "description": "REML & DISPL DRIFTWOOD & DEBRIS",
+      "unit": "CY",
+      "quantity": 8000.0,
+      "engEstUnit": 43.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 40.0,
+        "S FOWLER SERVICES LLC": 60.0,
+        "SHALOM SERVICES CORPORATION": 65.0,
+        "BECK-REIT & SONS, LTD.": 65.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 120.0
+      }
+    }
+  ]
+}

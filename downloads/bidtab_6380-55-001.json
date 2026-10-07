@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6380-55-001",
+    "county": "Kimble",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638055001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "11/09/21",
+    "engEstTotal": 166080.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 174366.08
+    },
+    {
+      "rank": 2,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 218472.4
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1796.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 32.66,
+      "bidders": {
+        "R&M INCORPORATED": 32.66,
+        "ABESCAPE GROUP LLC": 29.8
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 3542.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 32.66,
+      "bidders": {
+        "R&M INCORPORATED": 32.66,
+        "ABESCAPE GROUP LLC": 29.8
+      }
+    }
+  ]
+}

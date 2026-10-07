@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6471-55-001",
+    "county": "Stephens",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 647155001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "08/22/24",
+    "engEstTotal": 414036.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRIPLE T MAINTENANCE INC.",
+      "totalBidAmount": 349761.84
+    },
+    {
+      "rank": 2,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 373125.3
+    },
+    {
+      "rank": 3,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 393038.46
+    },
+    {
+      "rank": 4,
+      "vendorName": "RENEGADE SITE SOLUTIONS, LLC",
+      "totalBidAmount": 400727.7
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 9858.0,
+      "engEstUnit": 42.0,
+      "lowUnit": 35.48,
+      "bidders": {
+        "TRIPLE T MAINTENANCE INC.": 35.48,
+        "ABESCAPE GROUP LLC": 37.85,
+        "CROSS PLUS CONSTRUCTION, LLC": 39.87,
+        "RENEGADE SITE SOLUTIONS, LLC": 40.65
+      }
+    }
+  ]
+}

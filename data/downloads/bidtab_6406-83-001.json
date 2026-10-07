@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6406-83-001",
+    "county": "San Jacinto",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640683001",
+    "projectType": "CRACK SEAL",
+    "letDate": "06/30/22",
+    "engEstTotal": 237946.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SCOUT 5 CONSTRUCTION LLC",
+      "totalBidAmount": 122337.03
+    },
+    {
+      "rank": 2,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 124195.99
+    },
+    {
+      "rank": 3,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 127032.2
+    },
+    {
+      "rank": 4,
+      "vendorName": "BOEN LANDSCAPING & IRRIGATION, LLC",
+      "totalBidAmount": 150122.8
+    },
+    {
+      "rank": 5,
+      "vendorName": "NATIONAL INDUSTRIAL MAINTENANCE, INC.",
+      "totalBidAmount": 208455.48
+    },
+    {
+      "rank": 6,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 262657.81
+    },
+    {
+      "rank": 7,
+      "vendorName": "12TWELVE ROAD AND BRIDGE LLC",
+      "totalBidAmount": 477180.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 2000.1,
+      "bidders": {
+        "SCOUT 5 CONSTRUCTION LLC": 2000.1,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 3300.0,
+        "D & M CONTRACTORS, LLC": 3500.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 4000.0,
+        "NATIONAL INDUSTRIAL MAINTENANCE, INC.": 10000.0,
+        "CRACKSEAL OF TEXAS, LLC": 50000.0
+      }
+    },
+    {
+      "itemCode": "0502 6001",
+      "description": "BARRICADES, SIGNS AND TRAFFIC HANDLING",
+      "unit": "MO",
+      "quantity": 1.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "SCOUT 5 CONSTRUCTION LLC": 0.01,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 0.01,
+        "D & M CONTRACTORS, LLC": 50.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 500.0,
+        "NATIONAL INDUSTRIAL MAINTENANCE, INC.": 100.0,
+        "CRACKSEAL OF TEXAS, LLC": 10000.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "metadata": {
+    "csj": "0157-04-057",
+    "county": "Haskell",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 157-4-57",
+    "projectType": "PREVENTIVE MAINTENANCE",
+    "letDate": "01/06/22",
+    "engEstTotal": 5647938.7,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ZACK BURKETT CO.",
+      "totalBidAmount": 5473497.38
+    },
+    {
+      "rank": 2,
+      "vendorName": "A. L. HELMCAMP, INC.",
+      "totalBidAmount": 5582694.42
+    },
+    {
+      "rank": 3,
+      "vendorName": "J. H. STRAIN & SONS, INC.",
+      "totalBidAmount": 5830244.04
+    },
+    {
+      "rank": 4,
+      "vendorName": "RK HALL, LLC",
+      "totalBidAmount": 5973351.43
+    },
+    {
+      "rank": 5,
+      "vendorName": "DUININCK, INC.",
+      "totalBidAmount": 6144688.82
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0134 6002",
+      "description": "BACKFILL (TY B)",
+      "unit": "STA",
+      "quantity": 570.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 108.5,
+      "bidders": {
+        "ZACK BURKETT CO.": 108.5,
+        "A. L. HELMCAMP, INC.": 175.0,
+        "J. H. STRAIN & SONS, INC.": 225.0,
+        "RK HALL, LLC": 224.98,
+        "DUININCK, INC.": 160.0
+      }
+    },
+    {
+      "itemCode": "0351 6013",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(4\")",
+      "unit": "SY",
+      "quantity": 14813.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 26.8,
+      "bidders": {
+        "ZACK BURKETT CO.": 26.8,
+        "A. L. HELMCAMP, INC.": 43.0,
+        "J. H. STRAIN & SONS, INC.": 30.0,
+        "RK HALL, LLC": 33.16,
+        "DUININCK, INC.": 36.0
+      }
+    },
+    {
+      "itemCode": "0354 6021",
+      "description": "PLANE ASPH CONC PAV(0\" TO 2\")",
+      "unit": "SY",
+      "quantity": 1536.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "ZACK BURKETT CO.": 2.0,
+        "A. L. HELMCAMP, INC.": 3.8,
+        "J. H. STRAIN & SONS, INC.": 5.0,
+        "RK HALL, LLC": 14.63,
+        "DUININCK, INC.": 6.4
+      }
+    },
+    {
+      "itemCode": "0354 6045",
+      "description": "PLANE ASPH CONC PAV (2\")",
+      "unit": "SY",
+      "quantity": 3631.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "ZACK BURKETT CO.": 2.0,
+        "A. L. HELMCAMP, INC.": 4.0,
+        "J. H. STRAIN & SONS, INC.": 5.0,
+        "RK HALL, LLC": 7.19,
+        "DUININCK, INC.": 5.2
+      }
+    },
+    {
+      "itemCode": "0420 6066",
+      "description": "CL C CONC (RAIL FOUNDATION)",
+      "unit": "CY",
+      "quantity": 15.3,
+      "engEstUnit": 500.0,
+      "lowUnit": 2360.0,
+      "bidders": {
+        "ZACK BURKETT CO.": 2360.0,
+        "A. L. HELMCAMP, INC.": 2200.0,
+        "J. H. STRAIN & SONS, INC.": 1600.0,
+        "RK HALL, LLC": 2200.0,
+        "DUININCK, INC.": 2100.0
+      }
+    },
+    {
+      "itemCode": "0420 6136",
+      "description": "CL C CONC (RAC-R)",
+      "unit": "CY",
+      "quantity": 21.3,
+      "engEstUnit": 1500.0,
+      "lowUnit": 2360.0,
+      "bidders": {
+        "ZACK BURKETT CO.": 2360.0,
+        "A. L. HELMCAMP, INC.": 2200.0,
+        "J. H. STRAIN & SONS, INC.": 1600.0,
+        "RK HALL, LLC": 2200.0,
+        "DUININCK, INC.": 2100.0
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 28.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 767.0,
+      "bidders": {
+        "ZACK BURKETT CO.": 767.0,
+        "A. L. HELMCAMP, INC.": 690.0,
+        "J. H. STRAIN & SONS, INC.": 720.0,
+        "RK HALL, LLC": 715.0,
+        "DUININCK, INC.": 670.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 136.14,
+      "engEstUnit": 600.0,
+      "lowUnit": 826.0,
+      "bidders": {
+        "ZACK BURKETT CO.": 826.0,
+        "A. L. HELMCAMP, INC.": 740.0,
+        "J. H. STRAIN & SONS, INC.": 700.0,
+        "RK HALL, LLC": 770.0,
+        "DUININCK, INC.": 720.0
+      }
+    },
+    {
+      "itemCode": "0451 6024",
+      "description": "RETROFIT RAIL (TY SSTR)",
+      "unit": "LF",
+      "quantity": 293.83,
+      "engEstUnit": 150.0,
+      "lowUnit": 295.0,
+      "bidders": {
+        "ZACK BURKETT CO.": 295.0,
+        "A. L. HELMCAMP, INC.": 260.0,
+        "J. H. STRAIN & SONS, INC.": 145.0,
+        "RK HALL, LLC": 275.0,
+        "DUININCK, INC.": 260.0
+      }
+    },
+    {
+      "itemCode": "0496 6099",
+      "description": "REMOVE STR (RAIL)",
+      "unit": "LF",
+      "quantity": 193.41,
+      "engEstUnit": 40.0,
+      "lowUnit": 59.0,
+      "bidders": {
+        "ZACK BURKETT CO.": 59.0,
+        "A. L. HELMCAMP, INC.": 53.0,
+        "J. H. STRAIN & SONS, INC.": 12.0,
+        "RK HALL, LLC": 55.0,
+        "DUININCK, INC.": 51.5
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 400000.0,
+      "lowUnit": 286650.0,
+      "bidders": {
+        "ZACK BURKETT CO.": 286650.0,
+        "A. L. HELMCAMP, INC.": 460000.0,
+        "J. H. STRAIN & SONS, INC.": 325000.0,
+        "RK HALL, LLC": 248543.14,
+        "DUININCK, INC.": 550000.0
+      }
+    },
+    {
+      "itemCode": "0533 6001",
+      "description": "RUMBLE STRIPS (SHOULDER)",
+      "unit": "LF",
+      "quantity": 99374.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.27,
+      "bidders": {
+        "ZACK BURKETT CO.": 0.27,
+        "A. L. HELMCAMP, INC.": 0.22,
+        "J. H. STRAIN & SONS, INC.": 0.25,
+        "RK HALL, LLC": 0.06,
+        "DUININCK, INC.": 0.07
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 1850.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 3.54,
+      "bidders": {
+        "ZACK BURKETT CO.": 3.54,
+        "A. L. HELMCAMP, INC.": 2.2,
+        "J. H. STRAIN & SONS, INC.": 2.5,
+        "RK HALL, LLC": 2.2,
+        "DUININCK, INC.": 2.3
+      }
+    },
+    {
+      "itemCode": "0542 6002",
+      "description": "REMOVE TERMINAL ANCHOR SECTION",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 354.0,
+      "bidders": {
+        "ZACK BURKETT CO.": 354.0,
+        "A. L. HELMCAMP, INC.": 220.0,
+        "J. H. STRAIN & SONS, INC.": 220.0,
+        "RK HALL, LLC": 220.0,
+        "DUININCK, INC.": 210.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 4130.0,
+      "bidders": {
+        "ZACK BURKETT CO.": 4130.0,
+        "A. L. HELMCAMP, INC.": 3200.0,
+        "J. H. STRAIN & SONS, INC.": 3300.0,
+        "RK HALL, LLC": 3300.0,
+        "DUININCK, INC.": 3300.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 354.0,
+      "bidders": {
+        "ZACK BURKETT CO.": 354.0,
+        "A. L. HELMCAMP, INC.": 220.0,
+        "J. H. STRAIN & SONS, INC.": 220.0,
+        "RK HALL, LLC": 220.0,
+        "DUININCK, INC.": 210.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 71.0,
+      "engEstUnit": 650.0,
+      "lowUnit": 1062.0,
+      "bidders": {
+        "ZACK BURKETT CO.": 1062.0,
+        "A. L. HELMCAMP, INC.": 590.0,
+        "J. H. STRAIN & SONS, INC.": 715.0,
+        "RK HALL, LLC": 715.0,
+        "DUININCK, INC.": 575.0
+      }
+    },
+    {
+      "itemCode": "0644 6002",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P-BM)",
+      "unit": "EA",
+      "quantity": 60.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1327.5,
+      "bidders": {
+        "ZACK BURKETT CO.": 1327.5,
+        "A. L. HELMCAMP, INC.": 900.0,
+        "J. H. STRAIN & SONS, INC.": 980.0,
+        "RK HALL, LLC": 979.0,
+        "DUININCK, INC.": 885.0
+      }
+    },
+    {
+      "itemCode": "0644 6007",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(U)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1563.5,
+      "bidders": {
+        "ZACK BURKETT CO.": 1563.5,
+        "A. L. HELMCAMP, INC.": 1000.0,
+        "J. H. STRAIN & SONS, INC.": 1200.0,
+        "RK HALL, LLC": 1188.0,
+        "DUININCK, INC.": 980.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 118.0,
+      "bidders": {
+        "ZACK BURKETT CO.": 118.0,
+        "A. L. HELMCAMP, INC.": 110.0,
+        "J. H. STRAIN & SONS, INC.": 100.0,
+        "RK HALL, LLC": 92.74,
+        "DUININCK, INC.": 105.0
+      }
+    },
+    {
+      "itemCode": "0658 6010",
+      "description": "INSTL DEL ASSM (D-SW)SZ 2(WC)GND",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 118.0,
+      "bidders": {
+        "ZACK BURKETT CO.": 118.0,
+        "A. L. HELMCAMP, INC.": 85.0,
+        "J. H. STRAIN & SONS, INC.": 110.0,
+        "RK HALL, LLC": 110.0,
+        "DUININCK, INC.": 82.5
+      }
+    },
+    {
+      "itemCode": "0658 6013",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB",
+      "unit": "EA",
+      "quantity": 17.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 47.2,
+      "bidders": {
+        "ZACK BURKETT CO.": 47.2,
+        "A. L. HELMCAMP, INC.": 38.0,
+        "J. H. STRAIN & SONS, INC.": 45.0,
+        "RK HALL, LLC": 39.6,
+        "DUININCK, INC.": 5.75
+      }
+    },
+    {
+      "itemCode": "0658 6026",
+      "description": "INSTL DEL ASSM (D-SY)SZ (BRF)CTB",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 47.2,
+      "bidders": {
+        "ZACK BURKETT CO.": 47.2,
+        "A. L. HELMCAMP, INC.": 38.0,
+        "J. H. STRAIN & SONS, INC.": 40.0,
+        "RK HALL, LLC": 39.6,
+        "DUININCK, INC.": 5.75
+      }
+    },
+    {
+      "itemCode": "0658 6044",
+      "description": "INSTL DEL ASSM (D-DY)SZ 2(WC)GND",
+      "unit": "EA",
+      "quantity": 60.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 118.0,
+      "bidders": {
+        "ZACK BURKETT CO.": 118.0,
+        "A. L. HELMCAMP, INC.": 85.0,
+        "J. H. STRAIN & SONS, INC.": 110.0,
+        "RK HALL, LLC": 110.0,
+        "DUININCK, INC.": 82.5
+      }
+    },
+    {
+      "itemCode": "0658 6047",
+      "description": "INSTL OM ASSM (OM-2Y)(WC)GND",
+      "unit": "EA",
+      "quantity": 27.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 118.0,
+      "bidders": {
+        "ZACK BURKETT CO.": 118.0,
+        "A. L. HELMCAMP, INC.": 80.0,
+        "J. H. STRAIN & SONS, INC.": 110.0,
+        "RK HALL, LLC": 110.0,
+        "DUININCK, INC.": 77.5
+      }
+    },
+    {
+      "itemCode": "0658 6060",
+      "description": "REMOVE DELIN & OBJECT MARKER ASSMS",
+      "unit": "EA",
+      "quantity": 58.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 11.8,
+      "bidders": {
+        "ZACK BURKETT CO.": 11.8,
+        "A. L. HELMCAMP, INC.": 32.0,
+        "J. H. STRAIN & SONS, INC.": 15.0,
+        "RK HALL, LLC": 33.0,
+        "DUININCK, INC.": 31.0
+      }
+    },
+    {
+      "itemCode": "0658 6061",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2",
+      "unit": "EA",
+      "quantity": 21.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 41.3,
+      "bidders": {
+        "ZACK BURKETT CO.": 41.3,
+        "A. L. HELMCAMP, INC.": 24.0,
+        "J. H. STRAIN & SONS, INC.": 26.0,
+        "RK HALL, LLC": 25.3,
+        "DUININCK, INC.": 8.75
+      }
+    },
+    {
+      "itemCode": "0658 6064",
+      "description": "INSTL DEL ASSM (D-SY)SZ 1(BRF)GF2",
+      "unit": "EA",
+      "quantity": 17.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 41.3,
+      "bidders": {
+        "ZACK BURKETT CO.": 41.3,
+        "A. L. HELMCAMP, INC.": 24.0,
+        "J. H. STRAIN & SONS, INC.": 26.0,
+        "RK HALL, LLC": 25.3,
+        "DUININCK, INC.": 8.75
+      }
+    },
+    {
+      "itemCode": "0662 6109",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY W",
+      "unit": "EA",
+      "quantity": 5333.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ZACK BURKETT CO.": 1.0,
+        "A. L. HELMCAMP, INC.": 0.65,
+        "J. H. STRAIN & SONS, INC.": 1.85,
+        "RK HALL, LLC": 3.62,
+        "DUININCK, INC.": 0.93
+      }
+    },
+    {
+      "itemCode": "0668 6076",
+      "description": "PREFAB PAV MRK TY C (W) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 595.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 15.34,
+      "bidders": {
+        "ZACK BURKETT CO.": 15.34,
+        "A. L. HELMCAMP, INC.": 12.0,
+        "J. H. STRAIN & SONS, INC.": 12.0,
+        "RK HALL, LLC": 12.65,
+        "DUININCK, INC.": 12.0
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 1435.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 5.02,
+      "bidders": {
+        "ZACK BURKETT CO.": 5.02,
+        "A. L. HELMCAMP, INC.": 5.0,
+        "J. H. STRAIN & SONS, INC.": 5.12,
+        "RK HALL, LLC": 4.95,
+        "DUININCK, INC.": 4.65
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 110.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "ZACK BURKETT CO.": 50.0,
+        "A. L. HELMCAMP, INC.": 125.0,
+        "J. H. STRAIN & SONS, INC.": 200.0,
+        "RK HALL, LLC": 84.64,
+        "DUININCK, INC.": 77.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "csj": "6386-78-001",
+    "county": "Travis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638678001",
+    "projectType": "TREE TRIMMING AND BRUSH REMOVAL",
+    "letDate": "07/13/22",
+    "engEstTotal": 72871.55,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BA NEWTON'S ENTERPRISES LLC",
+      "totalBidAmount": 64043.08
+    },
+    {
+      "rank": 2,
+      "vendorName": "ROAD SOLUTIONS L.L.C.",
+      "totalBidAmount": 67453.52
+    },
+    {
+      "rank": 3,
+      "vendorName": "BUSHWACKERS CONTRACTING, LLC",
+      "totalBidAmount": 71784.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "GV LANDSCAPE AND CONSTRUCTION LLC",
+      "totalBidAmount": 71916.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "BLUE CHIP SERVICES, LLC",
+      "totalBidAmount": 154770.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 5261.05,
+      "lowUnit": 6500.0,
+      "bidders": {
+        "BA NEWTON'S ENTERPRISES LLC": 6500.0,
+        "ROAD SOLUTIONS L.L.C.": 10500.0,
+        "BUSHWACKERS CONTRACTING, LLC": 5000.0,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 16000.0,
+        "BLUE CHIP SERVICES, LLC": 4500.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 12.34,
+      "engEstUnit": 2200.0,
+      "lowUnit": 2262.0,
+      "bidders": {
+        "BA NEWTON'S ENTERPRISES LLC": 2262.0,
+        "ROAD SOLUTIONS L.L.C.": 2528.0,
+        "BUSHWACKERS CONTRACTING, LLC": 2800.0,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 2200.0,
+        "BLUE CHIP SERVICES, LLC": 3000.0
+      }
+    },
+    {
+      "itemCode": "0752 6004",
+      "description": "TREE TRIMMING / BRUSH REMOVAL(CHANNELS)",
+      "unit": "AC",
+      "quantity": 6.69,
+      "engEstUnit": 2250.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "BA NEWTON'S ENTERPRISES LLC": 2000.0,
+        "ROAD SOLUTIONS L.L.C.": 2000.0,
+        "BUSHWACKERS CONTRACTING, LLC": 2800.0,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 2200.0,
+        "BLUE CHIP SERVICES, LLC": 5000.0
+      }
+    },
+    {
+      "itemCode": "0752 6005",
+      "description": "TREE REMOVAL (4\" - 12\" DIA)",
+      "unit": "EA",
+      "quantity": 42.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "BA NEWTON'S ENTERPRISES LLC": 150.0,
+        "ROAD SOLUTIONS L.L.C.": 86.0,
+        "BUSHWACKERS CONTRACTING, LLC": 150.0,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 75.0,
+        "BLUE CHIP SERVICES, LLC": 800.0
+      }
+    },
+    {
+      "itemCode": "0752 6006",
+      "description": "TREE REMOVAL (12\" - 18\" DIA)",
+      "unit": "EA",
+      "quantity": 38.0,
+      "engEstUnit": 145.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "BA NEWTON'S ENTERPRISES LLC": 250.0,
+        "ROAD SOLUTIONS L.L.C.": 132.0,
+        "BUSHWACKERS CONTRACTING, LLC": 150.0,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 200.0,
+        "BLUE CHIP SERVICES, LLC": 1100.0
+      }
+    },
+    {
+      "itemCode": "0752 6009",
+      "description": "TREE REMOVAL (30\" - 36\" DIA)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "BA NEWTON'S ENTERPRISES LLC": 250.0,
+        "ROAD SOLUTIONS L.L.C.": 1250.0,
+        "BUSHWACKERS CONTRACTING, LLC": 500.0,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 300.0,
+        "BLUE CHIP SERVICES, LLC": 1800.0
+      }
+    }
+  ]
+}

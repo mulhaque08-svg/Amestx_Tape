@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6383-86-001",
+    "county": "Angelina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638386001",
+    "projectType": "INSTALLATION OF WATERBASE STRIPING",
+    "letDate": "08/11/21",
+    "engEstTotal": 269400.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "STRIPING TECHNOLOGY, L.P.",
+      "totalBidAmount": 225560.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "PMI PAVEMENT MARKING, LLC",
+      "totalBidAmount": 245960.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "STRIPE-A-ZONE, INC.",
+      "totalBidAmount": 263310.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "INTERSTATE BARRICADES & MARKINGS, INC.",
+      "totalBidAmount": 299000.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "TOTAL HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 469500.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 552500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 2000.0,
+        "PMI PAVEMENT MARKING, LLC": 1000.0,
+        "STRIPE-A-ZONE, INC.": 1000.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 1500.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 4000.0,
+        "TRP CONSTRUCTION GROUP, LLC": 7500.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6425-32-001",
+    "county": "Galveston",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642532001",
+    "projectType": "PUMP STATION & DRAINAGE SYSTEM CLEANING",
+    "letDate": "12/06/23",
+    "engEstTotal": 1322485.95,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AIMS COMPANIES",
+      "totalBidAmount": 836525.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 1029285.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "HAZMAT INTERNATIONAL, INC.",
+      "totalBidAmount": 1173634.75
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 1525.16,
+      "lowUnit": 400.0,
+      "bidders": {
+        "AIMS COMPANIES": 400.0,
+        "SHALOM SERVICES CORPORATION": 500.0,
+        "HAZMAT INTERNATIONAL, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "7019 6001",
+      "description": "STORM SEWER (TELEVISION INSPECTION)",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 3.81,
+      "lowUnit": 2.75,
+      "bidders": {
+        "AIMS COMPANIES": 2.75,
+        "SHALOM SERVICES CORPORATION": 1.0,
+        "HAZMAT INTERNATIONAL, INC.": 3.0
+      }
+    }
+  ]
+}

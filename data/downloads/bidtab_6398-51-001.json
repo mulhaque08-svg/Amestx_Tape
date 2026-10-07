@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6398-51-001",
+    "county": "Culberson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639851001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "05/05/22",
+    "engEstTotal": 498710.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "L&L COMPANY",
+      "totalBidAmount": 419539.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DOUBLE A CONTRACTING, L.P.",
+      "totalBidAmount": 492030.56
+    },
+    {
+      "rank": 3,
+      "vendorName": "MIJELUM, L.L.C.",
+      "totalBidAmount": 763885.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "L&L COMPANY": 1.0,
+        "DOUBLE A CONTRACTING, L.P.": 4000.0,
+        "MIJELUM, L.L.C.": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 11324.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 37.0,
+      "bidders": {
+        "L&L COMPANY": 37.0,
+        "DOUBLE A CONTRACTING, L.P.": 39.94,
+        "MIJELUM, L.L.C.": 66.0
+      }
+    }
+  ]
+}

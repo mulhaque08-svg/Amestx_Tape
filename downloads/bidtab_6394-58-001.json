@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "csj": "6394-58-001",
+    "county": "Lampasas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639458001",
+    "projectType": "CONCRETE STRUCTURE REPAIR",
+    "letDate": "06/11/24",
+    "engEstTotal": 288204.62,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 240308.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "RHINO EQUITY, LLC",
+      "totalBidAmount": 240470.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MPB, INC.",
+      "totalBidAmount": 279080.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 311785.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "SCR CIVIL CONSTRUCTION, LLC",
+      "totalBidAmount": 366285.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0420 6163",
+      "description": "CL S CONC (SLAB) (SPL) (HPC)",
+      "unit": "CY",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 3500.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 3500.0,
+        "RHINO EQUITY, LLC": 3000.0,
+        "MPB, INC.": 66500.0,
+        "ICOS MANAGEMENT, LLC": 11000.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 15000.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 43.0,
+      "engEstUnit": 343.05,
+      "lowUnit": 200.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 200.0,
+        "RHINO EQUITY, LLC": 290.0,
+        "MPB, INC.": 365.0,
+        "ICOS MANAGEMENT, LLC": 550.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 525.0
+      }
+    },
+    {
+      "itemCode": "0429 6011",
+      "description": "CONC STR REPR(REMOV AND REPL WINGWALL)",
+      "unit": "CY",
+      "quantity": 1.0,
+      "engEstUnit": 8412.53,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 2000.0,
+        "RHINO EQUITY, LLC": 12000.0,
+        "MPB, INC.": 9000.0,
+        "ICOS MANAGEMENT, LLC": 5500.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 8000.0
+      }
+    },
+    {
+      "itemCode": "0467 6004",
+      "description": "SET (REPLACE PIPE RUNNER)",
+      "unit": "EA",
+      "quantity": 94.0,
+      "engEstUnit": 1901.0,
+      "lowUnit": 432.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 432.0,
+        "RHINO EQUITY, LLC": 500.0,
+        "MPB, INC.": 1200.0,
+        "ICOS MANAGEMENT, LLC": 1980.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 2200.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 25995.36,
+      "lowUnit": 28000.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 28000.0,
+        "RHINO EQUITY, LLC": 30000.0,
+        "MPB, INC.": 25000.0,
+        "ICOS MANAGEMENT, LLC": 16000.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 36600.0
+      }
+    }
+  ]
+}

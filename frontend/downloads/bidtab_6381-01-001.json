@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6381-01-001",
+    "county": "Menard",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638101001",
+    "projectType": "TREE TRIMMING",
+    "letDate": "06/22/21",
+    "engEstTotal": 102118.75,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "HX FARMS, INC.",
+      "totalBidAmount": 82116.75
+    },
+    {
+      "rank": 2,
+      "vendorName": "NATIVE ECOLOGY SEEDING & TURF LLC",
+      "totalBidAmount": 91972.9
+    },
+    {
+      "rank": 3,
+      "vendorName": "BOEN LANDSCAPING & IRRIGATION, LLC",
+      "totalBidAmount": 112259.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "SJ&J CONSTRUCTION, LLC",
+      "totalBidAmount": 182987.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "HX FARMS, INC.": 15000.0,
+        "NATIVE ECOLOGY SEEDING & TURF LLC": 1.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 10000.0,
+        "SJ&J CONSTRUCTION, LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 63.895,
+      "engEstUnit": 1250.0,
+      "lowUnit": 1050.0,
+      "bidders": {
+        "HX FARMS, INC.": 1050.0,
+        "NATIVE ECOLOGY SEEDING & TURF LLC": 1439.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 1600.0,
+        "SJ&J CONSTRUCTION, LLC": 2500.0
+      }
+    }
+  ]
+}

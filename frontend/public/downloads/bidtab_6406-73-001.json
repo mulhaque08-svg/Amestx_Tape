@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6406-73-001",
+    "county": "Comal",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 640673001",
+    "projectType": "HOT MIX",
+    "letDate": "01/06/23",
+    "engEstTotal": 838035.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 854150.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 906730.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "LONE STAR PAVING COMPANY",
+      "totalBidAmount": 958375.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 962500.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 979000.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "AUSTIN ASPHALT, INC.",
+      "totalBidAmount": 1077725.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6004",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 5500.0,
+      "engEstUnit": 83.25,
+      "lowUnit": 82.67,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 82.67,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 85.93,
+        "LONE STAR PAVING COMPANY": 94.75,
+        "COLORADO MATERIALS, LTD.": 90.0,
+        "BRAUNTEX MATERIALS, INC.": 94.0,
+        "AUSTIN ASPHALT, INC.": 99.65
+      }
+    },
+    {
+      "itemCode": "8011 6015",
+      "description": "D-GR HMA(SQ)TY B PG 64-22(DELIVERY)",
+      "unit": "TON",
+      "quantity": 5500.0,
+      "engEstUnit": 69.12,
+      "lowUnit": 72.63,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 72.63,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 78.93,
+        "LONE STAR PAVING COMPANY": 79.5,
+        "COLORADO MATERIALS, LTD.": 85.0,
+        "BRAUNTEX MATERIALS, INC.": 84.0,
+        "AUSTIN ASPHALT, INC.": 96.3
+      }
+    }
+  ]
+}

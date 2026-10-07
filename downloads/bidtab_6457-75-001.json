@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6457-75-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645775001",
+    "projectType": "VEGETATION MANAGEMENT",
+    "letDate": "12/06/23",
+    "engEstTotal": 708520.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "OPTERRA SOLUTIONS, INC.",
+      "totalBidAmount": 775762.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "JASCO",
+      "totalBidAmount": 871570.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CEN-TEX IRRIGATION SYSTEMS, INC.",
+      "totalBidAmount": 944160.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 50000.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "OPTERRA SOLUTIONS, INC.": 2500.0,
+        "JASCO": 40000.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 25000.0
+      }
+    },
+    {
+      "itemCode": "0731 6007",
+      "description": "PAVEMENT EDGES, STRUCTURES & FIXTURES",
+      "unit": "MI",
+      "quantity": 297.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 1430.0,
+      "bidders": {
+        "OPTERRA SOLUTIONS, INC.": 1430.0,
+        "JASCO": 1600.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0731 6011",
+      "description": "BROADCAST APPLICATION",
+      "unit": "AC",
+      "quantity": 2848.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 99.0,
+      "bidders": {
+        "OPTERRA SOLUTIONS, INC.": 99.0,
+        "JASCO": 125.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 195.0
+      }
+    }
+  ]
+}

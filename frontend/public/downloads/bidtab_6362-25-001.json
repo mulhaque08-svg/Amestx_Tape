@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6362-25-001",
+    "county": "Eastland",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 636225001",
+    "projectType": "MILLING/ HYDROBLASTING (CALL-OUT)",
+    "letDate": "11/03/22",
+    "engEstTotal": 847496.09,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 726535.69
+    },
+    {
+      "rank": 2,
+      "vendorName": "L&L COMPANY",
+      "totalBidAmount": 752276.4
+    },
+    {
+      "rank": 3,
+      "vendorName": "D. I. J. CONSTRUCTION, INC.",
+      "totalBidAmount": 824336.6
+    },
+    {
+      "rank": 4,
+      "vendorName": "STRIPE-A-ZONE, LLC",
+      "totalBidAmount": 863969.25
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 77226.91,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 5000.0,
+        "L&L COMPANY": 1.0,
+        "D. I. J. CONSTRUCTION, INC.": 14000.0,
+        "STRIPE-A-ZONE, LLC": 25000.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 500.0,
+        "L&L COMPANY": 10000.0,
+        "D. I. J. CONSTRUCTION, INC.": 500.0,
+        "STRIPE-A-ZONE, LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "2021 6001",
+      "description": "ULTRA HP WATER CUTTING TREATMENT",
+      "unit": "SY",
+      "quantity": 192653.0,
+      "engEstUnit": 3.9,
+      "lowUnit": 3.73,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 3.73,
+        "L&L COMPANY": 3.8,
+        "D. I. J. CONSTRUCTION, INC.": 4.2,
+        "STRIPE-A-ZONE, LLC": 4.25
+      }
+    }
+  ]
+}

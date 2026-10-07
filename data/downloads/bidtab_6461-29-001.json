@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6461-29-001",
+    "county": "Victoria",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646129001",
+    "projectType": "BRIDGE JOINT REPAIR",
+    "letDate": "06/06/24",
+    "engEstTotal": 450000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 392750.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 518020.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0351 6019",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(3\")",
+      "unit": "SY",
+      "quantity": 75.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 30.0,
+        "CRACKSEAL OF TEXAS, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0361 6002",
+      "description": "FULL - DEPTH REPAIR CRCP (8\")",
+      "unit": "SY",
+      "quantity": 100.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 300.0,
+        "CRACKSEAL OF TEXAS, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0438 6001",
+      "description": "CLEANING AND SEALING EXISTING JOINTS",
+      "unit": "LF",
+      "quantity": 8000.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 40.0,
+        "CRACKSEAL OF TEXAS, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 4000.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 4000.0,
+        "CRACKSEAL OF TEXAS, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "3076 6077",
+      "description": "D-GR HMA TY-D SAC-B PG70-22 (EXEMPT)",
+      "unit": "TON",
+      "quantity": 250.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 80.0,
+        "CRACKSEAL OF TEXAS, LLC": 90.0
+      }
+    }
+  ]
+}

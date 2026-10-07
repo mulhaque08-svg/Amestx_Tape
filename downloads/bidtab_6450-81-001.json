@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "csj": "6450-81-001",
+    "county": "Orange",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 645081001",
+    "projectType": "HOT MIX",
+    "letDate": "09/06/23",
+    "engEstTotal": 3055000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 3211500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 4500.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 130.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 130.0
+      }
+    },
+    {
+      "itemCode": "8011 6004",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 15650.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 160.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 160.0
+      }
+    },
+    {
+      "itemCode": "8011 6014",
+      "description": "D-GR HMA(SQ)TY B PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 120.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 120.0
+      }
+    },
+    {
+      "itemCode": "8011 6016",
+      "description": "D-GR HMA(SQ)TY C PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 125.0
+      }
+    }
+  ]
+}

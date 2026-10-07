@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "csj": "6440-45-001",
+    "county": "Tom Green",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644045001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "06/13/23",
+    "engEstTotal": 172380.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "USA DT SERVICES, INC.",
+      "totalBidAmount": 141453.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MOIR WATERSHED SERVICES, LLC",
+      "totalBidAmount": 149565.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "EGGEMEYER MOWING & CONTRACTING, INC.",
+      "totalBidAmount": 158133.3
+    },
+    {
+      "rank": 4,
+      "vendorName": "PREMIER CONTRACTORS LLC",
+      "totalBidAmount": 177450.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 253500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 5070.0,
+      "engEstUnit": 34.0,
+      "lowUnit": 27.9,
+      "bidders": {
+        "USA DT SERVICES, INC.": 27.9,
+        "MOIR WATERSHED SERVICES, LLC": 29.5,
+        "EGGEMEYER MOWING & CONTRACTING, INC.": 31.19,
+        "PREMIER CONTRACTORS LLC": 35.0,
+        "R&M INCORPORATED": 50.0
+      }
+    }
+  ]
+}

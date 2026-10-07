@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6387-63-001",
+    "county": "Rockwall",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638763001",
+    "projectType": "VEGETATION MANAGEMENT",
+    "letDate": "10/26/21",
+    "engEstTotal": 130970.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "PRESLEY LAND MANAGEMENT LLC",
+      "totalBidAmount": 114538.62
+    },
+    {
+      "rank": 2,
+      "vendorName": "JASCO",
+      "totalBidAmount": 115824.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "GANT CONTRACTORS, INC.",
+      "totalBidAmount": 119038.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "EASTGATE SERVICES",
+      "totalBidAmount": 131745.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 12000.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "PRESLEY LAND MANAGEMENT LLC": 100.0,
+        "JASCO": 1000.0,
+        "GANT CONTRACTORS, INC.": 5000.0,
+        "EASTGATE SERVICES": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6104",
+      "description": "FULL-WIDTH MOWING (RURAL)",
+      "unit": "AC",
+      "quantity": 1512.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 43.43,
+      "bidders": {
+        "PRESLEY LAND MANAGEMENT LLC": 43.43,
+        "JASCO": 43.0,
+        "GANT CONTRACTORS, INC.": 42.0,
+        "EASTGATE SERVICES": 50.0
+      }
+    },
+    {
+      "itemCode": "0730 6105",
+      "description": "FULL-WIDTH MOWING (URBAN)",
+      "unit": "AC",
+      "quantity": 1122.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 43.43,
+      "bidders": {
+        "PRESLEY LAND MANAGEMENT LLC": 43.43,
+        "JASCO": 44.0,
+        "GANT CONTRACTORS, INC.": 45.0,
+        "EASTGATE SERVICES": 50.0
+      }
+    }
+  ]
+}

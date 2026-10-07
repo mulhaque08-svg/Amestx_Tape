@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6421-81-001",
+    "county": "Navarro",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642181001",
+    "projectType": "VEGETATION MANAGEMENT",
+    "letDate": "02/01/23",
+    "engEstTotal": 671525.8,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "OPTERRA SOLUTIONS",
+      "totalBidAmount": 522893.84
+    },
+    {
+      "rank": 2,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 648258.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 661956.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 61047.8,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "OPTERRA SOLUTIONS": 2500.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 40000.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 1.0
+      }
+    },
+    {
+      "itemCode": "0731 6006",
+      "description": "BROADCAST APPLICATION",
+      "unit": "MI",
+      "quantity": 330.96,
+      "engEstUnit": 1100.0,
+      "lowUnit": 857.0,
+      "bidders": {
+        "OPTERRA SOLUTIONS": 857.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 1200.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 1000.0
+      }
+    },
+    {
+      "itemCode": "0731 6007",
+      "description": "PAVEMENT EDGES, STRUCTURES & FIXTURES",
+      "unit": "MI",
+      "quantity": 330.96,
+      "engEstUnit": 700.0,
+      "lowUnit": 522.0,
+      "bidders": {
+        "OPTERRA SOLUTIONS": 522.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 600.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 1000.0
+      }
+    }
+  ]
+}

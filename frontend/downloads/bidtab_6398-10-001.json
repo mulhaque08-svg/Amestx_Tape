@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "csj": "6398-10-001",
+    "county": "Hutchinson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639810001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "09/07/22",
+    "engEstTotal": 313195.2,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS BLACKTOPS LLC",
+      "totalBidAmount": 380832.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 6000.0,
+      "bidders": {
+        "TEXAS BLACKTOPS LLC": 6000.0
+      }
+    },
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 318.0,
+      "engEstUnit": 37.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "TEXAS BLACKTOPS LLC": 45.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 7611.6,
+      "engEstUnit": 37.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "TEXAS BLACKTOPS LLC": 45.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 400.0,
+      "engEstUnit": 37.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "TEXAS BLACKTOPS LLC": 30.0
+      }
+    }
+  ]
+}

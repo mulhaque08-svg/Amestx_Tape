@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6390-78-001",
+    "county": "Dickens",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639078001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/04/22",
+    "engEstTotal": 739585.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KENNETH THOMASON",
+      "totalBidAmount": 664507.8
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS BLACKTOPS LLC",
+      "totalBidAmount": 845240.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 1044120.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 24860.0,
+      "engEstUnit": 29.75,
+      "lowUnit": 26.73,
+      "bidders": {
+        "KENNETH THOMASON": 26.73,
+        "TEXAS BLACKTOPS LLC": 34.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 42.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6453-72-001",
+    "county": "Panola",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645372001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "01/10/24",
+    "engEstTotal": 206492.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SERVIN MOWING",
+      "totalBidAmount": 178343.88
+    },
+    {
+      "rank": 2,
+      "vendorName": "LANGFORD CONTRACTORS",
+      "totalBidAmount": 230129.9
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6054",
+      "description": "FULL - WIDTH MOWING - TRACT (1)",
+      "unit": "AC",
+      "quantity": 5434.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 32.82,
+      "bidders": {
+        "SERVIN MOWING": 32.82,
+        "LANGFORD CONTRACTORS": 42.35
+      }
+    }
+  ]
+}

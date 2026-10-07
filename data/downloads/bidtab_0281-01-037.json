@@ -1,0 +1,372 @@
+{
+  "metadata": {
+    "csj": "0281-01-037",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2B23(265)",
+    "projectType": "INTERSECTION IMPROVEMENT",
+    "letDate": "08/02/23",
+    "engEstTotal": 4609086.29,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AUSTIN BRIDGE & ROAD SERVICES, LP",
+      "totalBidAmount": 3966360.02
+    },
+    {
+      "rank": 2,
+      "vendorName": "FOUTSCO PAVING COMPANY, LLC",
+      "totalBidAmount": 4427767.92
+    },
+    {
+      "rank": 3,
+      "vendorName": "PEACHTREE CONSTRUCTION, LTD.",
+      "totalBidAmount": 4763227.78
+    },
+    {
+      "rank": 4,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 4935962.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 84.71,
+      "engEstUnit": 1000.0,
+      "lowUnit": 4682.28,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 4682.28,
+        "FOUTSCO PAVING COMPANY, LLC": 25.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 2500.0,
+        "FNH CONSTRUCTION, LLC": 5500.0
+      }
+    },
+    {
+      "itemCode": "0105 6019",
+      "description": "REMOVING STAB BASE & ASPH PAV(14\")",
+      "unit": "SY",
+      "quantity": 19217.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 17.0,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 17.0,
+        "FOUTSCO PAVING COMPANY, LLC": 25.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 17.25,
+        "FNH CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 610.0,
+      "engEstUnit": 21.0,
+      "lowUnit": 6.91,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 6.91,
+        "FOUTSCO PAVING COMPANY, LLC": 20.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 72.0,
+        "FNH CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0132 6006",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY C)",
+      "unit": "CY",
+      "quantity": 363.0,
+      "engEstUnit": 21.0,
+      "lowUnit": 24.85,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 24.85,
+        "FOUTSCO PAVING COMPANY, LLC": 20.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 9.0,
+        "FNH CONSTRUCTION, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0150 6001",
+      "description": "BLADING",
+      "unit": "STA",
+      "quantity": 84.71,
+      "engEstUnit": 200.0,
+      "lowUnit": 1450.42,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 1450.42,
+        "FOUTSCO PAVING COMPANY, LLC": 10.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 750.0,
+        "FNH CONSTRUCTION, LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0164 6035",
+      "description": "DRILL SEEDING (PERM) (RURAL) (CLAY)",
+      "unit": "SY",
+      "quantity": 61539.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.22,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 0.22,
+        "FOUTSCO PAVING COMPANY, LLC": 0.2,
+        "PEACHTREE CONSTRUCTION, LTD.": 0.3,
+        "FNH CONSTRUCTION, LLC": 0.5
+      }
+    },
+    {
+      "itemCode": "0164 6051",
+      "description": "DRILL SEED (TEMP)(WARM OR COOL)",
+      "unit": "SY",
+      "quantity": 61539.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.09,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 0.09,
+        "FOUTSCO PAVING COMPANY, LLC": 0.01,
+        "PEACHTREE CONSTRUCTION, LTD.": 0.2,
+        "FNH CONSTRUCTION, LLC": 0.5
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 18244.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 0.14,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 0.14,
+        "FOUTSCO PAVING COMPANY, LLC": 0.01,
+        "PEACHTREE CONSTRUCTION, LTD.": 1.0,
+        "FNH CONSTRUCTION, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0354 6045",
+      "description": "PLANE ASPH CONC PAV (2\")",
+      "unit": "SY",
+      "quantity": 1858.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 20.25,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 20.25,
+        "FOUTSCO PAVING COMPANY, LLC": 40.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 36.0,
+        "FNH CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0467 6363",
+      "description": "SET (TY II) (18 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 1500.0,
+        "FOUTSCO PAVING COMPANY, LLC": 1500.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 2000.0,
+        "FNH CONSTRUCTION, LLC": 1650.0
+      }
+    },
+    {
+      "itemCode": "0496 6007",
+      "description": "REMOV STR (PIPE)",
+      "unit": "LF",
+      "quantity": 30.0,
+      "engEstUnit": 23.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 50.0,
+        "FOUTSCO PAVING COMPANY, LLC": 50.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 28.0,
+        "FNH CONSTRUCTION, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 333049.0,
+      "lowUnit": 396636.01,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 396636.01,
+        "FOUTSCO PAVING COMPANY, LLC": 450000.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 450000.0,
+        "FNH CONSTRUCTION, LLC": 400000.0
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 129.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 264.79,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 264.79,
+        "FOUTSCO PAVING COMPANY, LLC": 200.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 155.0,
+        "FNH CONSTRUCTION, LLC": 45.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 12137.5,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.25,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 2.25,
+        "FOUTSCO PAVING COMPANY, LLC": 2.25,
+        "PEACHTREE CONSTRUCTION, LTD.": 2.6,
+        "FNH CONSTRUCTION, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3100.0,
+      "lowUnit": 2775.0,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 2775.0,
+        "FOUTSCO PAVING COMPANY, LLC": 2500.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 3100.0,
+        "FNH CONSTRUCTION, LLC": 3250.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 225.0,
+        "FOUTSCO PAVING COMPANY, LLC": 300.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 260.0,
+        "FNH CONSTRUCTION, LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 160.0,
+      "engEstUnit": 27.0,
+      "lowUnit": 25.5,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 25.5,
+        "FOUTSCO PAVING COMPANY, LLC": 26.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 29.0,
+        "FNH CONSTRUCTION, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 870.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.55,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 1.55,
+        "FOUTSCO PAVING COMPANY, LLC": 1.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 4.0,
+        "FNH CONSTRUCTION, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 328.0,
+      "engEstUnit": 4.8,
+      "lowUnit": 3.88,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 3.88,
+        "FOUTSCO PAVING COMPANY, LLC": 4.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 4.75,
+        "FNH CONSTRUCTION, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 2220.0,
+      "engEstUnit": 5.65,
+      "lowUnit": 3.88,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 3.88,
+        "FOUTSCO PAVING COMPANY, LLC": 4.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 4.75,
+        "FNH CONSTRUCTION, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "3077 6001",
+      "description": "SP MIXES SP-B PG64-22",
+      "unit": "TON",
+      "quantity": 14554.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 111.0,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 111.0,
+        "FOUTSCO PAVING COMPANY, LLC": 153.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 143.0,
+        "FNH CONSTRUCTION, LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "3077 6023",
+      "description": "SP MIXES SP-C SAC-B PG70-22",
+      "unit": "TON",
+      "quantity": 2353.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 150.0,
+        "FOUTSCO PAVING COMPANY, LLC": 173.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 199.0,
+        "FNH CONSTRUCTION, LLC": 135.0
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 3827.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 0.15,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 0.15,
+        "FOUTSCO PAVING COMPANY, LLC": 0.01,
+        "PEACHTREE CONSTRUCTION, LTD.": 3.05,
+        "FNH CONSTRUCTION, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 7306.88,
+      "bidders": {
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 7306.88,
+        "FOUTSCO PAVING COMPANY, LLC": 30000.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 19000.0,
+        "FNH CONSTRUCTION, LLC": 16500.0
+      }
+    }
+  ]
+}

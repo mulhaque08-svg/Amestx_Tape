@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6412-71-001",
+    "county": "Crane",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641271001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "08/09/22",
+    "engEstTotal": 281280.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 281151.84
+    },
+    {
+      "rank": 2,
+      "vendorName": "L&L COMPANY",
+      "totalBidAmount": 334680.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6972.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 31.72,
+      "bidders": {
+        "ABESCAPE GROUP LLC": 31.72,
+        "L&L COMPANY": 48.0
+      }
+    }
+  ]
+}

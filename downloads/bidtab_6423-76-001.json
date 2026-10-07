@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6423-76-001",
+    "county": "Taylor",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642376001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/07/23",
+    "engEstTotal": 328872.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 382659.36
+    },
+    {
+      "rank": 2,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 503160.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 5424.0,
+      "engEstUnit": 41.0,
+      "lowUnit": 50.89,
+      "bidders": {
+        "ABESCAPE GROUP LLC": 50.89,
+        "CROSS PLUS CONSTRUCTION, LLC": 45.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 5424.0,
+      "engEstUnit": 18.25,
+      "lowUnit": 18.0,
+      "bidders": {
+        "ABESCAPE GROUP LLC": 18.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 45.0
+      }
+    }
+  ]
+}

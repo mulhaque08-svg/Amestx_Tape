@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "csj": "6376-03-001",
+    "county": "Borden",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637603001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "04/20/21",
+    "engEstTotal": 134421.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KENNETH THOMASON",
+      "totalBidAmount": 94882.6
+    },
+    {
+      "rank": 2,
+      "vendorName": "TRIPLE T MAINTENANCE INC.",
+      "totalBidAmount": 98610.73
+    },
+    {
+      "rank": 3,
+      "vendorName": "NOMAD MEDIAN SERVICES LLC",
+      "totalBidAmount": 99649.41
+    },
+    {
+      "rank": 4,
+      "vendorName": "GORMAN OUTDOOR, INC.",
+      "totalBidAmount": 110033.8
+    },
+    {
+      "rank": 5,
+      "vendorName": "TOP NOTCH FOAM",
+      "totalBidAmount": 111172.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "CLASSIC IRRIGATION & LANDSCAPE LLC",
+      "totalBidAmount": 118688.8
+    },
+    {
+      "rank": 7,
+      "vendorName": "GREG SCRUGGS",
+      "totalBidAmount": 120679.25
+    },
+    {
+      "rank": 8,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 133524.94
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "KENNETH THOMASON": 1.0,
+        "TRIPLE T MAINTENANCE INC.": 225.0,
+        "NOMAD MEDIAN SERVICES LLC": 500.0,
+        "GORMAN OUTDOOR, INC.": 1.0,
+        "TOP NOTCH FOAM": 2500.0,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 633.0,
+      "engEstUnit": 33.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "KENNETH THOMASON": 10.0,
+        "TRIPLE T MAINTENANCE INC.": 24.99,
+        "NOMAD MEDIAN SERVICES LLC": 24.93,
+        "GORMAN OUTDOOR, INC.": 30.0,
+        "TOP NOTCH FOAM": 20.0,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 29.4
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 3304.0,
+      "engEstUnit": 33.0,
+      "lowUnit": 26.65,
+      "bidders": {
+        "KENNETH THOMASON": 26.65,
+        "TRIPLE T MAINTENANCE INC.": 24.99,
+        "NOMAD MEDIAN SERVICES LLC": 24.93,
+        "GORMAN OUTDOOR, INC.": 26.95,
+        "TOP NOTCH FOAM": 28.0,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 29.4
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "KENNETH THOMASON": 5.0,
+        "TRIPLE T MAINTENANCE INC.": 0.001,
+        "NOMAD MEDIAN SERVICES LLC": 10.0,
+        "GORMAN OUTDOOR, INC.": 20.0,
+        "TOP NOTCH FOAM": 35.0,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 29.4
+      }
+    }
+  ]
+}

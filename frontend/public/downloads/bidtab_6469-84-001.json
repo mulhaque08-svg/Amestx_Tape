@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6469-84-001",
+    "county": "Runnels",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646984001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "08/05/24",
+    "engEstTotal": 189614.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 225577.33
+    },
+    {
+      "rank": 2,
+      "vendorName": "TRIPLE T MAINTENANCE INC.",
+      "totalBidAmount": 244311.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 5471.0,
+      "engEstUnit": 34.0,
+      "lowUnit": 41.23,
+      "bidders": {
+        "R&M INCORPORATED": 41.23,
+        "TRIPLE T MAINTENANCE INC.": 41.0
+      }
+    }
+  ]
+}

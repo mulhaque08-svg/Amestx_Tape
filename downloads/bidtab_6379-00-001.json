@@ -1,0 +1,227 @@
+{
+  "metadata": {
+    "csj": "6379-00-001",
+    "county": "Washington",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 637900001",
+    "projectType": "CULVERT REPAIR",
+    "letDate": "10/13/21",
+    "engEstTotal": 98300.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "STRUCTURAL INTEGRITY GROUP LLC",
+      "totalBidAmount": 83775.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "PRESLEY LAND MANAGEMENT LLC",
+      "totalBidAmount": 88545.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 99794.5
+    },
+    {
+      "rank": 4,
+      "vendorName": "SJ&J CONSTRUCTION, LLC",
+      "totalBidAmount": 106550.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "BXB GROUP INCORPORATION",
+      "totalBidAmount": 129051.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "SELECT MAINTENANCE, L.L.C.",
+      "totalBidAmount": 152090.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 184342.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0164 6001",
+      "description": "BROADCAST SEED (PERM) (RURAL) (SANDY)",
+      "unit": "SY",
+      "quantity": 1000.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 1.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 1.0,
+        "PRESLEY LAND MANAGEMENT LLC": 1.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 1.1,
+        "SJ&J CONSTRUCTION, LLC": 1.0,
+        "BXB GROUP INCORPORATION": 3.0,
+        "SELECT MAINTENANCE, L.L.C.": 1.0
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 500.0,
+      "engEstUnit": 0.75,
+      "lowUnit": 1.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 1.0,
+        "PRESLEY LAND MANAGEMENT LLC": 1.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 2.0,
+        "SJ&J CONSTRUCTION, LLC": 1.0,
+        "BXB GROUP INCORPORATION": 3.0,
+        "SELECT MAINTENANCE, L.L.C.": 0.5
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 500.0,
+      "engEstUnit": 0.65,
+      "lowUnit": 1.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 1.0,
+        "PRESLEY LAND MANAGEMENT LLC": 1.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 2.0,
+        "SJ&J CONSTRUCTION, LLC": 1.0,
+        "BXB GROUP INCORPORATION": 3.0,
+        "SELECT MAINTENANCE, L.L.C.": 0.5
+      }
+    },
+    {
+      "itemCode": "0401 6001",
+      "description": "FLOWABLE BACKFILL",
+      "unit": "CY",
+      "quantity": 20.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 375.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 375.0,
+        "PRESLEY LAND MANAGEMENT LLC": 300.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 299.0,
+        "SJ&J CONSTRUCTION, LLC": 200.0,
+        "BXB GROUP INCORPORATION": 499.0,
+        "SELECT MAINTENANCE, L.L.C.": 200.0
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 200.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 16.5,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 16.5,
+        "PRESLEY LAND MANAGEMENT LLC": 60.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 52.6,
+        "SJ&J CONSTRUCTION, LLC": 30.0,
+        "BXB GROUP INCORPORATION": 101.0,
+        "SELECT MAINTENANCE, L.L.C.": 5.0
+      }
+    },
+    {
+      "itemCode": "0403 6006",
+      "description": "TEMPORARY SPL SHORING (COFFERDAM)",
+      "unit": "SF",
+      "quantity": 120.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 44.5,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 44.5,
+        "PRESLEY LAND MANAGEMENT LLC": 20.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 140.0,
+        "SJ&J CONSTRUCTION, LLC": 110.0,
+        "BXB GROUP INCORPORATION": 86.0,
+        "SELECT MAINTENANCE, L.L.C.": 75.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 75.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 210.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 210.0,
+        "PRESLEY LAND MANAGEMENT LLC": 145.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 59.1,
+        "SJ&J CONSTRUCTION, LLC": 150.0,
+        "BXB GROUP INCORPORATION": 143.0,
+        "SELECT MAINTENANCE, L.L.C.": 80.0
+      }
+    },
+    {
+      "itemCode": "0429 6009",
+      "description": "CONC STR REPAIR (STANDARD)",
+      "unit": "SF",
+      "quantity": 143.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 200.0,
+        "PRESLEY LAND MANAGEMENT LLC": 110.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 110.0,
+        "SJ&J CONSTRUCTION, LLC": 150.0,
+        "BXB GROUP INCORPORATION": 124.0,
+        "SELECT MAINTENANCE, L.L.C.": 430.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 43.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 225.0,
+        "PRESLEY LAND MANAGEMENT LLC": 180.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 254.0,
+        "SJ&J CONSTRUCTION, LLC": 250.0,
+        "BXB GROUP INCORPORATION": 418.0,
+        "SELECT MAINTENANCE, L.L.C.": 300.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 3000.0,
+        "PRESLEY LAND MANAGEMENT LLC": 20000.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 18300.0,
+        "SJ&J CONSTRUCTION, LLC": 20000.0,
+        "BXB GROUP INCORPORATION": 14000.0,
+        "SELECT MAINTENANCE, L.L.C.": 14000.0
+      }
+    },
+    {
+      "itemCode": "0780 6002",
+      "description": "CNC CRACK REPAIR (DISCRETE)(INJECT)",
+      "unit": "LF",
+      "quantity": 30.0,
+      "engEstUnit": 135.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 50.0,
+        "PRESLEY LAND MANAGEMENT LLC": 120.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 127.0,
+        "SJ&J CONSTRUCTION, LLC": 150.0,
+        "BXB GROUP INCORPORATION": 139.0,
+        "SELECT MAINTENANCE, L.L.C.": 100.0
+      }
+    }
+  ]
+}

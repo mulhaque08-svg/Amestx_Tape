@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6467-61-001",
+    "county": "Palo Pinto",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646761001",
+    "projectType": "WINTER WEATHER MATERIAL",
+    "letDate": "08/15/24",
+    "engEstTotal": 68310.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SOUTHWEST ENVIROTX PARTNERS, LLC",
+      "totalBidAmount": 156640.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "NSG LOGISTICS, LLC",
+      "totalBidAmount": 160076.4
+    },
+    {
+      "rank": 3,
+      "vendorName": "THE BARGAIN SOURCE",
+      "totalBidAmount": 193738.6
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8042 6306",
+      "description": "COMPLEX CHLORIDE(SLD)(DEL)(SITE 1)",
+      "unit": "BAG",
+      "quantity": 220.0,
+      "engEstUnit": 155.25,
+      "lowUnit": 356.0,
+      "bidders": {
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 356.0,
+        "NSG LOGISTICS, LLC": 362.85,
+        "THE BARGAIN SOURCE": 439.85
+      }
+    },
+    {
+      "itemCode": "8042 6307",
+      "description": "COMPLEX CHLORIDE(SLD)(DEL)(SITE 2)",
+      "unit": "BAG",
+      "quantity": 220.0,
+      "engEstUnit": 155.25,
+      "lowUnit": 356.0,
+      "bidders": {
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 356.0,
+        "NSG LOGISTICS, LLC": 364.77,
+        "THE BARGAIN SOURCE": 440.78
+      }
+    }
+  ]
+}

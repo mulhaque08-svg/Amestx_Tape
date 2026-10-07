@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6464-17-001",
+    "county": "Kleberg",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646417001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/20/24",
+    "engEstTotal": 170387.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 199640.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 213120.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 301569.8
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 14700.0,
+      "lowUnit": 20000.0,
+      "bidders": {
+        "CRACKSEAL OF TEXAS, LLC": 20000.0,
+        "D & M CONTRACTORS, LLC": 11500.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 10000.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "csj": "6448-41-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644841001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/02/24",
+    "engEstTotal": 567906.8,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 423832.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 554388.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 563623.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 51627.89,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 1.0,
+        "RISE UP CONSTRUCTION LLC": 30000.0,
+        "ANTHONY SERVICES": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 300.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 25.5,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 25.5,
+        "RISE UP CONSTRUCTION LLC": 1.0,
+        "ANTHONY SERVICES": 50.0
+      }
+    },
+    {
+      "itemCode": "0730 6104",
+      "description": "FULL-WIDTH MOWING (RURAL)",
+      "unit": "AC",
+      "quantity": 1911.0,
+      "engEstUnit": 58.55,
+      "lowUnit": 42.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 42.0,
+        "RISE UP CONSTRUCTION LLC": 53.0,
+        "ANTHONY SERVICES": 60.0
+      }
+    },
+    {
+      "itemCode": "0730 6105",
+      "description": "FULL-WIDTH MOWING (URBAN)",
+      "unit": "AC",
+      "quantity": 4182.0,
+      "engEstUnit": 64.23,
+      "lowUnit": 50.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 50.0,
+        "RISE UP CONSTRUCTION LLC": 65.0,
+        "ANTHONY SERVICES": 72.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 6039.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 21.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 21.0,
+        "RISE UP CONSTRUCTION LLC": 25.0,
+        "ANTHONY SERVICES": 22.0
+      }
+    }
+  ]
+}

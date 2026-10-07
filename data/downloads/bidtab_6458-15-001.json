@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6458-15-001",
+    "county": "Red River",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645815001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/21/23",
+    "engEstTotal": 295500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RICKEY BAIRD",
+      "totalBidAmount": 257253.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SOUTHERN EDGE CONTRACTORS LLC",
+      "totalBidAmount": 305889.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "RICKEY BAIRD": 1.0,
+        "SOUTHERN EDGE CONTRACTORS LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 7108.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "RICKEY BAIRD": 35.0,
+        "SOUTHERN EDGE CONTRACTORS LLC": 43.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 242.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "RICKEY BAIRD": 35.0,
+        "SOUTHERN EDGE CONTRACTORS LLC": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6394-64-001",
+    "county": "Refugio",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639464001",
+    "projectType": "LIMESTONE ROCK AND ASPHALT",
+    "letDate": "02/15/22",
+    "engEstTotal": 283500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 375911.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 391160.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8040 6009",
+      "description": "LRA (TY I GR AA) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 400.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 95.49,
+      "bidders": {
+        "MARTIN MARIETTA MATERIALS, INC.": 95.49,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 99.4
+      }
+    },
+    {
+      "itemCode": "8040 6107",
+      "description": "LRA (TY II GR DS) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 3500.0,
+      "engEstUnit": 73.0,
+      "lowUnit": 96.49,
+      "bidders": {
+        "MARTIN MARIETTA MATERIALS, INC.": 96.49,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 100.4
+      }
+    }
+  ]
+}

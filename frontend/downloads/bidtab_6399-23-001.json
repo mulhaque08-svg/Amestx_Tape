@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6399-23-001",
+    "county": "Kimble",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639923001",
+    "projectType": "ASPHALT",
+    "letDate": "03/29/22",
+    "engEstTotal": 239286.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 231363.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "WRIGHT ASPHALT PRODUCTS COMPANY LLC",
+      "totalBidAmount": 270009.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6002",
+      "description": "CUTBACK ASPHALT (MC-30)(DELIVERY)",
+      "unit": "GAL",
+      "quantity": 28500.0,
+      "engEstUnit": 4.01,
+      "lowUnit": 3.89,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.89,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 4.28
+      }
+    },
+    {
+      "itemCode": "8010 6016",
+      "description": "ASPH (MC-800)(DEL)(SITE 1)",
+      "unit": "GAL",
+      "quantity": 5700.0,
+      "engEstUnit": 3.59,
+      "lowUnit": 3.49,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.49,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 4.28
+      }
+    },
+    {
+      "itemCode": "8010 6017",
+      "description": "ASPH (MC-800)(DEL)(SITE 2)",
+      "unit": "GAL",
+      "quantity": 17100.0,
+      "engEstUnit": 3.7,
+      "lowUnit": 3.51,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.51,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 4.35
+      }
+    },
+    {
+      "itemCode": "8010 6018",
+      "description": "ASPH (MC-800)(DEL)(SITE 4)",
+      "unit": "GAL",
+      "quantity": 11400.0,
+      "engEstUnit": 3.62,
+      "lowUnit": 3.56,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.56,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 4.32
+      }
+    }
+  ]
+}

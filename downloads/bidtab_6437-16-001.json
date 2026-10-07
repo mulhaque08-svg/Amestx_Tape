@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6437-16-001",
+    "county": "Tyler",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 643716001",
+    "projectType": "ASPHALT",
+    "letDate": "04/12/23",
+    "engEstTotal": 209100.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 318750.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8021 6010",
+      "description": "ASPH TRTMNT(PLANT-MIX)(DEL)(GR 4)(ST 1)",
+      "unit": "TON",
+      "quantity": 2500.0,
+      "engEstUnit": 82.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 125.0
+      }
+    },
+    {
+      "itemCode": "8021 6011",
+      "description": "ASPH TRTMNT(PLANT-MIX)(DEL)(GR 4)(ST 2)",
+      "unit": "TON",
+      "quantity": 50.0,
+      "engEstUnit": 82.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 125.0
+      }
+    }
+  ]
+}

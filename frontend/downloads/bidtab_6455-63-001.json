@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6455-63-001",
+    "county": "Terry",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 645563001",
+    "projectType": "AGGREGATE",
+    "letDate": "11/02/23",
+    "engEstTotal": 472500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "WEST TEXAS PAVING, INC.",
+      "totalBidAmount": 506000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 533100.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6100",
+      "description": "AGGR (TY B GR 4) (DEL) (ST2)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 79.0,
+      "bidders": {
+        "WEST TEXAS PAVING, INC.": 79.0,
+        "TOUCHSTONE RESOURCES, LLC": 85.0
+      }
+    },
+    {
+      "itemCode": "8039 6101",
+      "description": "AGGR (TY B GR 4) (DEL) (ST3)",
+      "unit": "TON",
+      "quantity": 900.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 82.0,
+      "bidders": {
+        "WEST TEXAS PAVING, INC.": 82.0,
+        "TOUCHSTONE RESOURCES, LLC": 85.0
+      }
+    },
+    {
+      "itemCode": "8039 6102",
+      "description": "AGGR (TY B GR 4) (DEL) (ST4)",
+      "unit": "TON",
+      "quantity": 1400.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 87.0,
+      "bidders": {
+        "WEST TEXAS PAVING, INC.": 87.0,
+        "TOUCHSTONE RESOURCES, LLC": 85.0
+      }
+    },
+    {
+      "itemCode": "8039 6103",
+      "description": "AGGR (TY B GR 4) (DEL) (ST5)",
+      "unit": "TON",
+      "quantity": 1200.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 79.0,
+      "bidders": {
+        "WEST TEXAS PAVING, INC.": 79.0,
+        "TOUCHSTONE RESOURCES, LLC": 84.0
+      }
+    },
+    {
+      "itemCode": "8039 6113",
+      "description": "AGGR (TY B GR 5) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 800.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 72.0,
+      "bidders": {
+        "WEST TEXAS PAVING, INC.": 72.0,
+        "TOUCHSTONE RESOURCES, LLC": 83.5
+      }
+    }
+  ]
+}

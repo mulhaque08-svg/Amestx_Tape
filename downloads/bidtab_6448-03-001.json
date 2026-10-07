@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6448-03-001",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644803001",
+    "projectType": "TREE TRIMMING AND BRUSH REMOVAL",
+    "letDate": "01/09/24",
+    "engEstTotal": 211913.21,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "YELLOWSTONE LANDSCAPE - CENTRAL, INC.",
+      "totalBidAmount": 311570.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "WILSONS FLAGGING CONTROL COMPANY LLC",
+      "totalBidAmount": 402016.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 100.0,
+        "WILSONS FLAGGING CONTROL COMPANY LLC": 1700.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1143.21,
+      "lowUnit": 100.0,
+      "bidders": {
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 100.0,
+        "WILSONS FLAGGING CONTROL COMPANY LLC": 3400.0
+      }
+    }
+  ]
+}

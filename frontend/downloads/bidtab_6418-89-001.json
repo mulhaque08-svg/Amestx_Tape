@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6418-89-001",
+    "county": "Kimble",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 641889001",
+    "projectType": "TREE TRIMMING",
+    "letDate": "10/24/22",
+    "engEstTotal": 135711.01,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CATOCON, INC.",
+      "totalBidAmount": 127620.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BOEN LANDSCAPING & IRRIGATION, LLC",
+      "totalBidAmount": 361700.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "PATHFIELD INVESTMENTS LLC",
+      "totalBidAmount": 508400.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "CATOCON, INC.": 15000.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 100000.0,
+        "PATHFIELD INVESTMENTS LLC": 50000.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 2.07,
+      "engEstUnit": 12000.0,
+      "lowUnit": 11000.0,
+      "bidders": {
+        "CATOCON, INC.": 11000.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 30000.0,
+        "PATHFIELD INVESTMENTS LLC": 100000.0
+      }
+    },
+    {
+      "itemCode": "0752 6004",
+      "description": "TREE TRIMMING / BRUSH REMOVAL(CHANNELS)",
+      "unit": "AC",
+      "quantity": 3.49,
+      "engEstUnit": 6953.54,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "CATOCON, INC.": 15000.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 40000.0,
+        "PATHFIELD INVESTMENTS LLC": 60000.0
+      }
+    },
+    {
+      "itemCode": "0752 6005",
+      "description": "TREE REMOVAL (4\" - 12\" DIA)",
+      "unit": "EA",
+      "quantity": 90.0,
+      "engEstUnit": 532.14,
+      "lowUnit": 400.0,
+      "bidders": {
+        "CATOCON, INC.": 400.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 500.0,
+        "PATHFIELD INVESTMENTS LLC": 300.0
+      }
+    }
+  ]
+}

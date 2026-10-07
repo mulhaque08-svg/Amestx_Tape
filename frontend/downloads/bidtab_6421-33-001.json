@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6421-33-001",
+    "county": "Wichita",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642133001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/02/23",
+    "engEstTotal": 331444.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MTS BRUSH HOGGING DOZER AND LAWN LLC",
+      "totalBidAmount": 298575.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BIG STATE MAINTENANCE, INC.",
+      "totalBidAmount": 329550.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1322.0,
+      "engEstUnit": 42.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "MTS BRUSH HOGGING DOZER AND LAWN LLC": 35.0,
+        "BIG STATE MAINTENANCE, INC.": 42.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6523.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "MTS BRUSH HOGGING DOZER AND LAWN LLC": 35.0,
+        "BIG STATE MAINTENANCE, INC.": 42.0
+      }
+    }
+  ]
+}

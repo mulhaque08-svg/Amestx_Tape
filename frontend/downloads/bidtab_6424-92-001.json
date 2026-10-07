@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6424-92-001",
+    "county": "Polk",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642492001",
+    "projectType": "DEBRIS REMOVAL",
+    "letDate": "11/03/22",
+    "engEstTotal": 347600.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC",
+      "totalBidAmount": 220008.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC",
+      "totalBidAmount": 287868.62
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 1.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0735 6002",
+      "description": "DEBRIS REMOVAL (CNTR MEDIANS/MAINLANES)",
+      "unit": "MI",
+      "quantity": 6792.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 20.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 10.07
+      }
+    },
+    {
+      "itemCode": "0735 6006",
+      "description": "DEBRIS REMOVAL (ENTRANCE/EXIT RAMPS)",
+      "unit": "MI",
+      "quantity": 1018.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 20.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 100.77
+      }
+    }
+  ]
+}

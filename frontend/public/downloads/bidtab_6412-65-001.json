@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6412-65-001",
+    "county": "Kaufman",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641265001",
+    "projectType": "HOT MIX",
+    "letDate": "07/26/22",
+    "engEstTotal": 204000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 204000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 220000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8006 6001",
+      "description": "SP MIXTURES SP-C PG64-22  (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 98.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FNH CONSTRUCTION, LLC": 100.0,
+        "TOUCHSTONE RESOURCES, LLC": 110.0
+      }
+    },
+    {
+      "itemCode": "8006 6005",
+      "description": "SP MIXTURES SP-D PG64-22  (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 98.0,
+      "lowUnit": 108.0,
+      "bidders": {
+        "FNH CONSTRUCTION, LLC": 108.0,
+        "TOUCHSTONE RESOURCES, LLC": 110.0
+      }
+    },
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 106.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FNH CONSTRUCTION, LLC": 100.0,
+        "TOUCHSTONE RESOURCES, LLC": 110.0
+      }
+    },
+    {
+      "itemCode": "8011 6016",
+      "description": "D-GR HMA(SQ)TY C PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 106.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FNH CONSTRUCTION, LLC": 100.0,
+        "TOUCHSTONE RESOURCES, LLC": 110.0
+      }
+    }
+  ]
+}

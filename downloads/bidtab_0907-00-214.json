@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "0907-00-214",
+    "county": "Tom Green",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 907-00-214",
+    "projectType": "HIGHWAY IMPROVEMENT",
+    "letDate": "10/06/23",
+    "engEstTotal": 3582512.31,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FLAT LINE, INC.",
+      "totalBidAmount": 3746246.46
+    },
+    {
+      "rank": 2,
+      "vendorName": "L&L COMPANY",
+      "totalBidAmount": 3789214.54
+    },
+    {
+      "rank": 3,
+      "vendorName": "VIZCAINO, L.P.",
+      "totalBidAmount": 4196246.11
+    },
+    {
+      "rank": 4,
+      "vendorName": "STRIPE-A-ZONE, LLC",
+      "totalBidAmount": 4219404.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "PAVEMENT MARKINGS INC.",
+      "totalBidAmount": 4478438.17
+    },
+    {
+      "rank": 6,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 4832978.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "6056 6002",
+      "description": "PREFORMED CENTERLINE RUMBLE STRIP",
+      "unit": "LF",
+      "quantity": 91293.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.55,
+      "bidders": {
+        "FLAT LINE, INC.": 4.55,
+        "L&L COMPANY": 3.5,
+        "VIZCAINO, L.P.": 4.0,
+        "STRIPE-A-ZONE, LLC": 4.75,
+        "PAVEMENT MARKINGS INC.": 3.8,
+        "TRP CONSTRUCTION GROUP, LLC": 4.5
+      }
+    }
+  ]
+}

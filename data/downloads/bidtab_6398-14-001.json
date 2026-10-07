@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6398-14-001",
+    "county": "Duval",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639814001",
+    "projectType": "AGGREGATE",
+    "letDate": "03/16/22",
+    "engEstTotal": 52700.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 66487.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 68000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 123964.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6239",
+      "description": "AGGR (TY PB GR 4) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 850.0,
+      "engEstUnit": 62.0,
+      "lowUnit": 78.22,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 78.22,
+        "TOUCHSTONE RESOURCES, LLC": 80.0,
+        "MARTIN MARIETTA MATERIALS, INC.": 145.84
+      }
+    }
+  ]
+}

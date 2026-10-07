@@ -1,0 +1,311 @@
+{
+  "metadata": {
+    "csj": "0903-29-027",
+    "county": "Archer",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2020(351)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "01/05/23",
+    "engEstTotal": 819246.48,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "HODGES AND SON CONSTRUCTION COMPANY, INC.",
+      "totalBidAmount": 824216.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "PMCO CONSTRUCTION LLC",
+      "totalBidAmount": 847975.05
+    },
+    {
+      "rank": 3,
+      "vendorName": "COPPELL CONSTRUCTION CO., INC.",
+      "totalBidAmount": 939480.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "EARTH BUILDERS, L.P.",
+      "totalBidAmount": 984350.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "ASHLAR CONTRACTING COMPANY",
+      "totalBidAmount": 996795.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 4.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 7500.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 7500.0,
+        "PMCO CONSTRUCTION LLC": 3000.0,
+        "COPPELL CONSTRUCTION CO., INC.": 6000.0,
+        "EARTH BUILDERS, L.P.": 10000.0,
+        "ASHLAR CONTRACTING COMPANY": 4400.0
+      }
+    },
+    {
+      "itemCode": "0110 6004",
+      "description": "EXCAVATION (ROADWAY AND CHANNEL)",
+      "unit": "CY",
+      "quantity": 125.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 40.0,
+        "PMCO CONSTRUCTION LLC": 28.0,
+        "COPPELL CONSTRUCTION CO., INC.": 96.0,
+        "EARTH BUILDERS, L.P.": 30.0,
+        "ASHLAR CONTRACTING COMPANY": 28.0
+      }
+    },
+    {
+      "itemCode": "0132 6003",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY B)",
+      "unit": "CY",
+      "quantity": 577.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 40.0,
+        "PMCO CONSTRUCTION LLC": 30.0,
+        "COPPELL CONSTRUCTION CO., INC.": 50.0,
+        "EARTH BUILDERS, L.P.": 35.0,
+        "ASHLAR CONTRACTING COMPANY": 32.0
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 1043.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.5,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.5,
+        "PMCO CONSTRUCTION LLC": 2.45,
+        "COPPELL CONSTRUCTION CO., INC.": 1.25,
+        "EARTH BUILDERS, L.P.": 1.5,
+        "ASHLAR CONTRACTING COMPANY": 3.0
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 1043.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.5,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.5,
+        "PMCO CONSTRUCTION LLC": 2.2,
+        "COPPELL CONSTRUCTION CO., INC.": 1.25,
+        "EARTH BUILDERS, L.P.": 1.5,
+        "ASHLAR CONTRACTING COMPANY": 3.0
+      }
+    },
+    {
+      "itemCode": "0164 6021",
+      "description": "CELL FBR MLCH SEED(PERM)(RURAL)(SANDY)",
+      "unit": "SY",
+      "quantity": 1043.0,
+      "engEstUnit": 8.3,
+      "lowUnit": 3.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 3.0,
+        "PMCO CONSTRUCTION LLC": 3.7,
+        "COPPELL CONSTRUCTION CO., INC.": 2.5,
+        "EARTH BUILDERS, L.P.": 4.0,
+        "ASHLAR CONTRACTING COMPANY": 5.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 12.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.0,
+        "PMCO CONSTRUCTION LLC": 100.0,
+        "COPPELL CONSTRUCTION CO., INC.": 30.0,
+        "EARTH BUILDERS, L.P.": 100.0,
+        "ASHLAR CONTRACTING COMPANY": 1300.0
+      }
+    },
+    {
+      "itemCode": "0216 6001",
+      "description": "PROOF ROLLING",
+      "unit": "HR",
+      "quantity": 8.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 20.0,
+        "PMCO CONSTRUCTION LLC": 200.0,
+        "COPPELL CONSTRUCTION CO., INC.": 300.0,
+        "EARTH BUILDERS, L.P.": 80.0,
+        "ASHLAR CONTRACTING COMPANY": 700.0
+      }
+    },
+    {
+      "itemCode": "0416 6002",
+      "description": "DRILL SHAFT (24 IN)",
+      "unit": "LF",
+      "quantity": 642.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 168.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 168.0,
+        "PMCO CONSTRUCTION LLC": 220.0,
+        "COPPELL CONSTRUCTION CO., INC.": 196.0,
+        "EARTH BUILDERS, L.P.": 250.0,
+        "ASHLAR CONTRACTING COMPANY": 260.0
+      }
+    },
+    {
+      "itemCode": "0422 6007",
+      "description": "REINF CONC SLAB (SLAB BEAM)",
+      "unit": "SF",
+      "quantity": 1820.0,
+      "engEstUnit": 17.5,
+      "lowUnit": 30.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 30.0,
+        "PMCO CONSTRUCTION LLC": 27.5,
+        "COPPELL CONSTRUCTION CO., INC.": 45.0,
+        "EARTH BUILDERS, L.P.": 38.0,
+        "ASHLAR CONTRACTING COMPANY": 55.0
+      }
+    },
+    {
+      "itemCode": "0432 6035",
+      "description": "RIPRAP (STONE PROTECTION)(24 IN)",
+      "unit": "CY",
+      "quantity": 687.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 160.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 160.0,
+        "PMCO CONSTRUCTION LLC": 140.0,
+        "COPPELL CONSTRUCTION CO., INC.": 160.0,
+        "EARTH BUILDERS, L.P.": 200.0,
+        "ASHLAR CONTRACTING COMPANY": 180.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 23.6,
+      "engEstUnit": 700.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 600.0,
+        "PMCO CONSTRUCTION LLC": 700.0,
+        "COPPELL CONSTRUCTION CO., INC.": 800.0,
+        "EARTH BUILDERS, L.P.": 600.0,
+        "ASHLAR CONTRACTING COMPANY": 900.0
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 30000.0,
+      "lowUnit": 16000.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 16000.0,
+        "PMCO CONSTRUCTION LLC": 20000.0,
+        "COPPELL CONSTRUCTION CO., INC.": 27500.0,
+        "EARTH BUILDERS, L.P.": 40000.0,
+        "ASHLAR CONTRACTING COMPANY": 14000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 73758.58,
+      "lowUnit": 75000.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 75000.0,
+        "PMCO CONSTRUCTION LLC": 84000.0,
+        "COPPELL CONSTRUCTION CO., INC.": 80000.0,
+        "EARTH BUILDERS, L.P.": 100000.0,
+        "ASHLAR CONTRACTING COMPANY": 90000.0
+      }
+    },
+    {
+      "itemCode": "0508 6001",
+      "description": "CONSTRUCTING DETOURS",
+      "unit": "SY",
+      "quantity": 722.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 45.0,
+        "PMCO CONSTRUCTION LLC": 115.0,
+        "COPPELL CONSTRUCTION CO., INC.": 80.0,
+        "EARTH BUILDERS, L.P.": 35.0,
+        "ASHLAR CONTRACTING COMPANY": 36.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 3000.0,
+        "PMCO CONSTRUCTION LLC": 3400.0,
+        "COPPELL CONSTRUCTION CO., INC.": 3015.0,
+        "EARTH BUILDERS, L.P.": 3200.0,
+        "ASHLAR CONTRACTING COMPANY": 3600.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 30.0,
+        "PMCO CONSTRUCTION LLC": 100.0,
+        "COPPELL CONSTRUCTION CO., INC.": 45.0,
+        "EARTH BUILDERS, L.P.": 40.0,
+        "ASHLAR CONTRACTING COMPANY": 120.0
+      }
+    },
+    {
+      "itemCode": "4171 6001",
+      "description": "INSTALL BRIDGE IDENTIFICATION NUMBERS",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 500.0,
+        "PMCO CONSTRUCTION LLC": 476.0,
+        "COPPELL CONSTRUCTION CO., INC.": 650.0,
+        "EARTH BUILDERS, L.P.": 500.0,
+        "ASHLAR CONTRACTING COMPANY": 500.0
+      }
+    }
+  ]
+}

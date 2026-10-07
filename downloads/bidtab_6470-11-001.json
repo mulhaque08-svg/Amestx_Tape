@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6470-11-001",
+    "county": "Kaufman",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 647011001",
+    "projectType": "HYDRAULIC CEMENT",
+    "letDate": "08/07/24",
+    "engEstTotal": 89180.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 85064.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "AKA-MATERIALS",
+      "totalBidAmount": 85113.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8012 6024",
+      "description": "HYDRAULIC CEMENT(TY I)(DEL)(94LBS)(ST1)",
+      "unit": "BAG",
+      "quantity": 4900.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 12.4,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 12.4,
+        "AKA-MATERIALS": 12.49
+      }
+    },
+    {
+      "itemCode": "8012 6025",
+      "description": "HYDRAULIC CEMENT(TY I)(DEL)(94LBS)(ST2)",
+      "unit": "BAG",
+      "quantity": 1960.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 12.4,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 12.4,
+        "AKA-MATERIALS": 12.2
+      }
+    }
+  ]
+}

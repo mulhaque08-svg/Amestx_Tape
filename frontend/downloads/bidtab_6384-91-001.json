@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6384-91-001",
+    "county": "Rockwall",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638491001",
+    "projectType": "SWEEPING AND DEBRIS REMOVAL",
+    "letDate": "09/01/21",
+    "engEstTotal": 778610.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.",
+      "totalBidAmount": 597395.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 1346540.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 24000.0,
+      "bidders": {
+        "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.": 24000.0,
+        "FNH CONSTRUCTION, LLC": 140000.0
+      }
+    }
+  ]
+}

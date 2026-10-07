@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6447-22-001",
+    "county": "Hunt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 644722001",
+    "projectType": "DENSE GRADED HOT MIX",
+    "letDate": "08/03/23",
+    "engEstTotal": 469125.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RK HALL, LLC",
+      "totalBidAmount": 439560.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "AUSTIN ASPHALT, INC.",
+      "totalBidAmount": 470250.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 652500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 4500.0,
+      "engEstUnit": 104.25,
+      "lowUnit": 97.68,
+      "bidders": {
+        "RK HALL, LLC": 97.68,
+        "AUSTIN ASPHALT, INC.": 104.5,
+        "TEXAS MATERIALS GROUP, INC.": 145.0
+      }
+    }
+  ]
+}

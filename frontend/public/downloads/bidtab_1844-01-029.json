@@ -1,0 +1,938 @@
+{
+  "metadata": {
+    "csj": "1844-01-029",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "STP 2B24(354)VRU",
+    "projectType": "HAZARD ELIMINATION & SAFETY",
+    "letDate": "08/02/24",
+    "engEstTotal": 2958919.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SER CONSTRUCTION PARTNERS, LLC",
+      "totalBidAmount": 2826450.12
+    },
+    {
+      "rank": 2,
+      "vendorName": "ENVIRONMENTAL ALLIES, INC.",
+      "totalBidAmount": 2869606.75
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 55.0,
+      "engEstUnit": 1600.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 3000.0,
+        "ENVIRONMENTAL ALLIES, INC.": 6000.0
+      }
+    },
+    {
+      "itemCode": "0104 6017",
+      "description": "REMOVING CONC (DRIVEWAYS)",
+      "unit": "SY",
+      "quantity": 711.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 17.6,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 17.6,
+        "ENVIRONMENTAL ALLIES, INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0104 6021",
+      "description": "REMOVING CONC (CURB)",
+      "unit": "LF",
+      "quantity": 502.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 15.5,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 15.5,
+        "ENVIRONMENTAL ALLIES, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0104 6036",
+      "description": "REMOVING CONC (SIDEWALK OR RAMP)",
+      "unit": "SY",
+      "quantity": 452.0,
+      "engEstUnit": 33.0,
+      "lowUnit": 11.8,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 11.8,
+        "ENVIRONMENTAL ALLIES, INC.": 8.0
+      }
+    },
+    {
+      "itemCode": "0104 6040",
+      "description": "REMOVING CONC (PAVERS)",
+      "unit": "SY",
+      "quantity": 54.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 17.9,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 17.9,
+        "ENVIRONMENTAL ALLIES, INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "0105 6058",
+      "description": "REMOVING STAB BASE & ASPH PAV (10\"-12\")",
+      "unit": "SY",
+      "quantity": 4587.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 23.1,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 23.1,
+        "ENVIRONMENTAL ALLIES, INC.": 8.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 1574.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 21.9,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 21.9,
+        "ENVIRONMENTAL ALLIES, INC.": 32.0
+      }
+    },
+    {
+      "itemCode": "0162 6002",
+      "description": "BLOCK SODDING",
+      "unit": "SY",
+      "quantity": 2012.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 6.2,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 6.2,
+        "ENVIRONMENTAL ALLIES, INC.": 9.0
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 156.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 0.2,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 0.2,
+        "ENVIRONMENTAL ALLIES, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0166 6001",
+      "description": "FERTILIZER",
+      "unit": "AC",
+      "quantity": 0.45,
+      "engEstUnit": 3000.0,
+      "lowUnit": 977.5,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 977.5,
+        "ENVIRONMENTAL ALLIES, INC.": 1750.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 52.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 31.6,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 31.6,
+        "ENVIRONMENTAL ALLIES, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0305 6003",
+      "description": "SALV, HAUL & STKPL RCL APH PV (2 TO 4\")",
+      "unit": "SY",
+      "quantity": 4587.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 13.9,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 13.9,
+        "ENVIRONMENTAL ALLIES, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0400 6001",
+      "description": "STRUCT EXCAV",
+      "unit": "CY",
+      "quantity": 127.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 15.5,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 15.5,
+        "ENVIRONMENTAL ALLIES, INC.": 75.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 1236.0,
+      "engEstUnit": 190.0,
+      "lowUnit": 62.1,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 62.1,
+        "ENVIRONMENTAL ALLIES, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0400 6006",
+      "description": "CUT & RESTORING PAV",
+      "unit": "SY",
+      "quantity": 16.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 425.9,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 425.9,
+        "ENVIRONMENTAL ALLIES, INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "0416 6032",
+      "description": "DRILL SHAFT (TRF SIG POLE) (36 IN)",
+      "unit": "LF",
+      "quantity": 101.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 339.3,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 339.3,
+        "ENVIRONMENTAL ALLIES, INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0416 6033",
+      "description": "DRILL SHAFT (TRF SIG POLE) (42 IN)",
+      "unit": "LF",
+      "quantity": 22.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 488.8,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 488.8,
+        "ENVIRONMENTAL ALLIES, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0432 6009",
+      "description": "RIPRAP (CONC) (CL B) (4\")",
+      "unit": "CY",
+      "quantity": 25.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 600.9,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 600.9,
+        "ENVIRONMENTAL ALLIES, INC.": 900.0
+      }
+    },
+    {
+      "itemCode": "0467 6395",
+      "description": "SET (TY II) (24 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 5500.0,
+      "lowUnit": 2329.0,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 2329.0,
+        "ENVIRONMENTAL ALLIES, INC.": 3000.0
+      }
+    },
+    {
+      "itemCode": "0496 6007",
+      "description": "REMOV STR (PIPE)",
+      "unit": "LF",
+      "quantity": 71.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 31.7,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 31.7,
+        "ENVIRONMENTAL ALLIES, INC.": 45.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 269500.0,
+      "lowUnit": 280000.0,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 280000.0,
+        "ENVIRONMENTAL ALLIES, INC.": 221000.0
+      }
+    },
+    {
+      "itemCode": "0529 6005",
+      "description": "CONC CURB (MONO) (TY II)",
+      "unit": "LF",
+      "quantity": 166.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 10.0,
+        "ENVIRONMENTAL ALLIES, INC.": 7.5
+      }
+    },
+    {
+      "itemCode": "0530 6004",
+      "description": "DRIVEWAYS (CONC)",
+      "unit": "SY",
+      "quantity": 470.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 100.0,
+        "ENVIRONMENTAL ALLIES, INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 4233.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 85.0,
+        "ENVIRONMENTAL ALLIES, INC.": 58.0
+      }
+    },
+    {
+      "itemCode": "0530 6025",
+      "description": "DRIVEWAYS (CONC) (FAST TRACK)",
+      "unit": "SY",
+      "quantity": 240.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 120.0,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 120.0,
+        "ENVIRONMENTAL ALLIES, INC.": 165.0
+      }
+    },
+    {
+      "itemCode": "0531 6001",
+      "description": "CONC SIDEWALKS (4\")",
+      "unit": "SY",
+      "quantity": 5281.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 94.25,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 94.25,
+        "ENVIRONMENTAL ALLIES, INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "0531 6004",
+      "description": "CURB RAMPS (TY 1)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 2800.0,
+      "lowUnit": 2803.3,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 2803.3,
+        "ENVIRONMENTAL ALLIES, INC.": 2000.0
+      }
+    },
+    {
+      "itemCode": "0531 6008",
+      "description": "CURB RAMPS (TY 5)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 3600.0,
+      "lowUnit": 4363.1,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 4363.1,
+        "ENVIRONMENTAL ALLIES, INC.": 2400.0
+      }
+    },
+    {
+      "itemCode": "0531 6010",
+      "description": "CURB RAMPS (TY 7)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 2800.0,
+      "lowUnit": 2822.8,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 2822.8,
+        "ENVIRONMENTAL ALLIES, INC.": 2100.0
+      }
+    },
+    {
+      "itemCode": "0531 6013",
+      "description": "CURB RAMPS (TY 10)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 3300.0,
+      "lowUnit": 2765.2,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 2765.2,
+        "ENVIRONMENTAL ALLIES, INC.": 1500.0
+      }
+    },
+    {
+      "itemCode": "0531 6016",
+      "description": "CURB RAMPS (TY 21)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 3250.0,
+      "lowUnit": 2930.5,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 2930.5,
+        "ENVIRONMENTAL ALLIES, INC.": 3000.0
+      }
+    },
+    {
+      "itemCode": "0618 6046",
+      "description": "CONDT (PVC) (SCH 80) (2\")",
+      "unit": "LF",
+      "quantity": 510.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 15.8,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 15.8,
+        "ENVIRONMENTAL ALLIES, INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0618 6047",
+      "description": "CONDT (PVC) (SCH 80) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 165.0,
+      "engEstUnit": 17.0,
+      "lowUnit": 23.9,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 23.9,
+        "ENVIRONMENTAL ALLIES, INC.": 42.0
+      }
+    },
+    {
+      "itemCode": "0618 6053",
+      "description": "CONDT (PVC) (SCH 80) (3\")",
+      "unit": "LF",
+      "quantity": 275.0,
+      "engEstUnit": 17.0,
+      "lowUnit": 28.2,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 28.2,
+        "ENVIRONMENTAL ALLIES, INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "0618 6054",
+      "description": "CONDT (PVC) (SCH 80) (3\") (BORE)",
+      "unit": "LF",
+      "quantity": 450.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 28.2,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 28.2,
+        "ENVIRONMENTAL ALLIES, INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "0618 6058",
+      "description": "CONDT (PVC) (SCH 80) (4\")",
+      "unit": "LF",
+      "quantity": 45.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 46.9,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 46.9,
+        "ENVIRONMENTAL ALLIES, INC.": 38.0
+      }
+    },
+    {
+      "itemCode": "0620 6007",
+      "description": "ELEC CONDR (NO.8) BARE",
+      "unit": "LF",
+      "quantity": 1435.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.4,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 2.4,
+        "ENVIRONMENTAL ALLIES, INC.": 2.25
+      }
+    },
+    {
+      "itemCode": "0620 6012",
+      "description": "ELEC CONDR (NO.4) INSULATED",
+      "unit": "LF",
+      "quantity": 740.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.5,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 3.5,
+        "ENVIRONMENTAL ALLIES, INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "0621 6005",
+      "description": "TRAY CABLE (4 CONDR) (12 AWG)",
+      "unit": "LF",
+      "quantity": 1180.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.7,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 3.7,
+        "ENVIRONMENTAL ALLIES, INC.": 3.5
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 13.0,
+      "engEstUnit": 1080.0,
+      "lowUnit": 1420.3,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 1420.3,
+        "ENVIRONMENTAL ALLIES, INC.": 1800.0
+      }
+    },
+    {
+      "itemCode": "0628 6145",
+      "description": "ELC SRV TY D 120/240 060(NS)SS(E)SP(O)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 5800.0,
+      "lowUnit": 5951.3,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 5951.3,
+        "ENVIRONMENTAL ALLIES, INC.": 10000.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 37.0,
+      "engEstUnit": 635.0,
+      "lowUnit": 522.9,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 522.9,
+        "ENVIRONMENTAL ALLIES, INC.": 850.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 885.0,
+      "lowUnit": 693.0,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 693.0,
+        "ENVIRONMENTAL ALLIES, INC.": 950.0
+      }
+    },
+    {
+      "itemCode": "0644 6030",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(T)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 975.0,
+      "lowUnit": 856.2,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 856.2,
+        "ENVIRONMENTAL ALLIES, INC.": 1250.0
+      }
+    },
+    {
+      "itemCode": "0644 6033",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1150.0,
+      "lowUnit": 804.9,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 804.9,
+        "ENVIRONMENTAL ALLIES, INC.": 1300.0
+      }
+    },
+    {
+      "itemCode": "0644 6034",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U-1EXT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1175.0,
+      "lowUnit": 973.0,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 973.0,
+        "ENVIRONMENTAL ALLIES, INC.": 2000.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 49.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 69.0,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 69.0,
+        "ENVIRONMENTAL ALLIES, INC.": 150.0
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 260.0,
+      "lowUnit": 316.3,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 316.3,
+        "ENVIRONMENTAL ALLIES, INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 325.0,
+      "lowUnit": 437.0,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 437.0,
+        "ENVIRONMENTAL ALLIES, INC.": 425.0
+      }
+    },
+    {
+      "itemCode": "0668 6092",
+      "description": "PREFAB PAV MRK TY C (W) (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 74.8,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 74.8,
+        "ENVIRONMENTAL ALLIES, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0677 6005",
+      "description": "ELIM EXT PAV MRK & MRKS (12\")",
+      "unit": "LF",
+      "quantity": 662.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.2,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 1.2,
+        "ENVIRONMENTAL ALLIES, INC.": 2.75
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 418.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.3,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 2.3,
+        "ENVIRONMENTAL ALLIES, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 2048.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.2,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 1.2,
+        "ENVIRONMENTAL ALLIES, INC.": 1.25
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 10.4,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 10.4,
+        "ENVIRONMENTAL ALLIES, INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 10.4,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 10.4,
+        "ENVIRONMENTAL ALLIES, INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "0678 6023",
+      "description": "PAV SURF PREP FOR MRK (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 11.5,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 11.5,
+        "ENVIRONMENTAL ALLIES, INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "0682 6001",
+      "description": "VEH SIG SEC (12\")LED(GRN)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 210.0,
+      "lowUnit": 339.3,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 339.3,
+        "ENVIRONMENTAL ALLIES, INC.": 315.0
+      }
+    },
+    {
+      "itemCode": "0682 6002",
+      "description": "VEH SIG SEC (12\")LED(GRN ARW)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 339.3,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 339.3,
+        "ENVIRONMENTAL ALLIES, INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "0682 6003",
+      "description": "VEH SIG SEC (12\")LED(YEL)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 210.0,
+      "lowUnit": 339.3,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 339.3,
+        "ENVIRONMENTAL ALLIES, INC.": 325.0
+      }
+    },
+    {
+      "itemCode": "0682 6004",
+      "description": "VEH SIG SEC (12\")LED(YEL ARW)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 227.0,
+      "lowUnit": 339.3,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 339.3,
+        "ENVIRONMENTAL ALLIES, INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "0682 6005",
+      "description": "VEH SIG SEC (12\")LED(RED)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 210.0,
+      "lowUnit": 339.3,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 339.3,
+        "ENVIRONMENTAL ALLIES, INC.": 325.0
+      }
+    },
+    {
+      "itemCode": "0682 6006",
+      "description": "VEH SIG SEC (12\")LED(RED ARW)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 210.0,
+      "lowUnit": 339.3,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 339.3,
+        "ENVIRONMENTAL ALLIES, INC.": 365.0
+      }
+    },
+    {
+      "itemCode": "0682 6060",
+      "description": "BACKPLATE W/REFL BRDR(3 SEC)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 187.0,
+      "lowUnit": 270.3,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 270.3,
+        "ENVIRONMENTAL ALLIES, INC.": 175.0
+      }
+    },
+    {
+      "itemCode": "0684 6029",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(3 CONDR)",
+      "unit": "LF",
+      "quantity": 2780.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.1,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 2.1,
+        "ENVIRONMENTAL ALLIES, INC.": 3.5
+      }
+    },
+    {
+      "itemCode": "0684 6031",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(5 CONDR)",
+      "unit": "LF",
+      "quantity": 2780.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 2.4,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 2.4,
+        "ENVIRONMENTAL ALLIES, INC.": 3.75
+      }
+    },
+    {
+      "itemCode": "0684 6033",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(7 CONDR)",
+      "unit": "LF",
+      "quantity": 5100.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.9,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 2.9,
+        "ENVIRONMENTAL ALLIES, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0687 6001",
+      "description": "PED POLE ASSEMBLY",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 2788.8,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 2788.8,
+        "ENVIRONMENTAL ALLIES, INC.": 3000.0
+      }
+    },
+    {
+      "itemCode": "0688 6001",
+      "description": "PED DETECT PUSH BUTTON (APS)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 1017.8,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 1017.8,
+        "ENVIRONMENTAL ALLIES, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0688 6003",
+      "description": "PED DETECTOR CONTROLLER UNIT",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2300.0,
+      "lowUnit": 4019.3,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 4019.3,
+        "ENVIRONMENTAL ALLIES, INC.": 4250.0
+      }
+    },
+    {
+      "itemCode": "0760 6001",
+      "description": "DITCH CLEANING AND RESHAPING (FOOT)",
+      "unit": "LF",
+      "quantity": 6736.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 8.6,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 8.6,
+        "ENVIRONMENTAL ALLIES, INC.": 8.25
+      }
+    },
+    {
+      "itemCode": "1004 6001",
+      "description": "TREE PROTECTION",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 575.0,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 575.0,
+        "ENVIRONMENTAL ALLIES, INC.": 900.0
+      }
+    },
+    {
+      "itemCode": "6038 6013",
+      "description": "MULTIPOLYMER PAV MRK (W)(24\")(SLD)",
+      "unit": "LF",
+      "quantity": 644.0,
+      "engEstUnit": 8.5,
+      "lowUnit": 12.7,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 12.7,
+        "ENVIRONMENTAL ALLIES, INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "6058 6001",
+      "description": "BBU SYSTEM (EXTERNAL BATT CABINET)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 7400.0,
+      "lowUnit": 10114.3,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 10114.3,
+        "ENVIRONMENTAL ALLIES, INC.": 9250.0
+      }
+    },
+    {
+      "itemCode": "6306 6009",
+      "description": "VIVDS PROSR SYS (INSTALL ONLY)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 730.0,
+      "lowUnit": 776.3,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 776.3,
+        "ENVIRONMENTAL ALLIES, INC.": 1650.0
+      }
+    },
+    {
+      "itemCode": "6306 6010",
+      "description": "VIVDS CAM ASSY (INSTALL ONLY)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 776.3,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 776.3,
+        "ENVIRONMENTAL ALLIES, INC.": 1650.0
+      }
+    },
+    {
+      "itemCode": "6306 6012",
+      "description": "VIVDS CABLING (INSTALL ONLY)",
+      "unit": "LF",
+      "quantity": 1720.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.1,
+      "bidders": {
+        "SER CONSTRUCTION PARTNERS, LLC": 2.1,
+        "ENVIRONMENTAL ALLIES, INC.": 2.25
+      }
+    }
+  ]
+}

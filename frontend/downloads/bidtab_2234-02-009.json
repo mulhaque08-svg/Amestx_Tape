@@ -1,0 +1,856 @@
+{
+  "metadata": {
+    "csj": "2234-02-009",
+    "county": "Karnes",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 2234-2-9",
+    "projectType": "WIDEN ROAD - ADD SHOULDERS",
+    "letDate": "05/02/24",
+    "engEstTotal": 8238066.88,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CK NEWBERRY, LLC",
+      "totalBidAmount": 8073872.88
+    },
+    {
+      "rank": 2,
+      "vendorName": "J. CARROLL WEAVER, INC.",
+      "totalBidAmount": 8138799.06
+    },
+    {
+      "rank": 3,
+      "vendorName": "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.",
+      "totalBidAmount": 8384523.24
+    },
+    {
+      "rank": 4,
+      "vendorName": "ACME BRIDGE COMPANY, INC.",
+      "totalBidAmount": 8677943.3
+    },
+    {
+      "rank": 5,
+      "vendorName": "HUNTER INDUSTRIES, LTD.",
+      "totalBidAmount": 8698076.33
+    },
+    {
+      "rank": 6,
+      "vendorName": "DEAN WORD COMPANY, LTD.",
+      "totalBidAmount": 8755917.82
+    },
+    {
+      "rank": 7,
+      "vendorName": "LCR TOTAL TRANSPORT LLC",
+      "totalBidAmount": 8953080.2
+    },
+    {
+      "rank": 8,
+      "vendorName": "CLARK CONSTRUCTION OF TEXAS, INC.",
+      "totalBidAmount": 10301306.85
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 371.6,
+      "engEstUnit": 500.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 200.0,
+        "J. CARROLL WEAVER, INC.": 234.08,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 122.42,
+        "ACME BRIDGE COMPANY, INC.": 750.0,
+        "HUNTER INDUSTRIES, LTD.": 231.0,
+        "DEAN WORD COMPANY, LTD.": 1150.0
+      }
+    },
+    {
+      "itemCode": "0100 6006",
+      "description": "PREP ROW (TREE)(LESS THAN 24\" DIA)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 1460.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 1000.0,
+        "J. CARROLL WEAVER, INC.": 3136.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1212.2,
+        "ACME BRIDGE COMPANY, INC.": 1210.0,
+        "HUNTER INDUSTRIES, LTD.": 550.0,
+        "DEAN WORD COMPANY, LTD.": 1144.52
+      }
+    },
+    {
+      "itemCode": "0100 6007",
+      "description": "PREP ROW (TREE)(GREATER THAN 24\" DIA)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 1889.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 2000.0,
+        "J. CARROLL WEAVER, INC.": 3136.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1541.79,
+        "ACME BRIDGE COMPANY, INC.": 1690.0,
+        "HUNTER INDUSTRIES, LTD.": 1650.0,
+        "DEAN WORD COMPANY, LTD.": 1594.62
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 420.0,
+      "engEstUnit": 18.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 30.0,
+        "J. CARROLL WEAVER, INC.": 23.8,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 14.51,
+        "ACME BRIDGE COMPANY, INC.": 21.3,
+        "HUNTER INDUSTRIES, LTD.": 38.5,
+        "DEAN WORD COMPANY, LTD.": 14.21
+      }
+    },
+    {
+      "itemCode": "0112 6001",
+      "description": "SUBGRADE WIDENING (ORD COMP)",
+      "unit": "STA",
+      "quantity": 371.6,
+      "engEstUnit": 375.0,
+      "lowUnit": 275.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 275.0,
+        "J. CARROLL WEAVER, INC.": 171.45,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 392.58,
+        "ACME BRIDGE COMPANY, INC.": 286.0,
+        "HUNTER INDUSTRIES, LTD.": 1043.4,
+        "DEAN WORD COMPANY, LTD.": 1248.67
+      }
+    },
+    {
+      "itemCode": "0132 6003",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY B)",
+      "unit": "CY",
+      "quantity": 6384.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 20.0,
+        "J. CARROLL WEAVER, INC.": 23.01,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 20.86,
+        "ACME BRIDGE COMPANY, INC.": 26.4,
+        "HUNTER INDUSTRIES, LTD.": 19.7,
+        "DEAN WORD COMPANY, LTD.": 26.09
+      }
+    },
+    {
+      "itemCode": "0150 6002",
+      "description": "BLADING",
+      "unit": "HR",
+      "quantity": 50.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 150.0,
+        "J. CARROLL WEAVER, INC.": 106.4,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 170.34,
+        "ACME BRIDGE COMPANY, INC.": 115.0,
+        "HUNTER INDUSTRIES, LTD.": 108.0,
+        "DEAN WORD COMPANY, LTD.": 62.8
+      }
+    },
+    {
+      "itemCode": "0164 6021",
+      "description": "CELL FBR MLCH SEED(PERM)(RURAL)(SANDY)",
+      "unit": "SY",
+      "quantity": 99088.0,
+      "engEstUnit": 0.45,
+      "lowUnit": 0.45,
+      "bidders": {
+        "CK NEWBERRY, LLC": 0.45,
+        "J. CARROLL WEAVER, INC.": 0.47,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 0.55,
+        "ACME BRIDGE COMPANY, INC.": 0.47,
+        "HUNTER INDUSTRIES, LTD.": 0.5,
+        "DEAN WORD COMPANY, LTD.": 0.54
+      }
+    },
+    {
+      "itemCode": "0164 6051",
+      "description": "DRILL SEED (TEMP)(WARM OR COOL)",
+      "unit": "SY",
+      "quantity": 24772.0,
+      "engEstUnit": 0.19,
+      "lowUnit": 0.19,
+      "bidders": {
+        "CK NEWBERRY, LLC": 0.19,
+        "J. CARROLL WEAVER, INC.": 0.26,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 0.2,
+        "ACME BRIDGE COMPANY, INC.": 0.42,
+        "HUNTER INDUSTRIES, LTD.": 0.2,
+        "DEAN WORD COMPANY, LTD.": 0.19
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 1600.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 16.0,
+        "J. CARROLL WEAVER, INC.": 36.28,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 15.11,
+        "ACME BRIDGE COMPANY, INC.": 32.7,
+        "HUNTER INDUSTRIES, LTD.": 19.8,
+        "DEAN WORD COMPANY, LTD.": 20.79
+      }
+    },
+    {
+      "itemCode": "0169 6004",
+      "description": "SOIL RETENTION BLANKETS (CL 1) (TY D)",
+      "unit": "SY",
+      "quantity": 1000.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 2.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 2.0,
+        "J. CARROLL WEAVER, INC.": 4.2,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 3.25,
+        "ACME BRIDGE COMPANY, INC.": 2.1,
+        "HUNTER INDUSTRIES, LTD.": 4.68,
+        "DEAN WORD COMPANY, LTD.": 1.22
+      }
+    },
+    {
+      "itemCode": "0169 6006",
+      "description": "SOIL RETENTION BLANKETS (CL 2) (TY F)",
+      "unit": "SY",
+      "quantity": 1000.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 2.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 2.0,
+        "J. CARROLL WEAVER, INC.": 8.12,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 3.25,
+        "ACME BRIDGE COMPANY, INC.": 2.1,
+        "HUNTER INDUSTRIES, LTD.": 4.68,
+        "DEAN WORD COMPANY, LTD.": 1.22
+      }
+    },
+    {
+      "itemCode": "0216 6001",
+      "description": "PROOF ROLLING",
+      "unit": "HR",
+      "quantity": 28.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 60.0,
+        "J. CARROLL WEAVER, INC.": 39.2,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 75.03,
+        "ACME BRIDGE COMPANY, INC.": 77.1,
+        "HUNTER INDUSTRIES, LTD.": 96.0,
+        "DEAN WORD COMPANY, LTD.": 78.0
+      }
+    },
+    {
+      "itemCode": "0275 6001",
+      "description": "CEMENT",
+      "unit": "TON",
+      "quantity": 1687.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 185.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 185.0,
+        "J. CARROLL WEAVER, INC.": 222.45,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 248.56,
+        "ACME BRIDGE COMPANY, INC.": 219.0,
+        "HUNTER INDUSTRIES, LTD.": 209.0,
+        "DEAN WORD COMPANY, LTD.": 189.12
+      }
+    },
+    {
+      "itemCode": "0275 6025",
+      "description": "CEM TRT (MX EXST MTL & NW BS)(DC)(6\")",
+      "unit": "SY",
+      "quantity": 138864.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 1.5,
+      "bidders": {
+        "CK NEWBERRY, LLC": 1.5,
+        "J. CARROLL WEAVER, INC.": 1.77,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1.7,
+        "ACME BRIDGE COMPANY, INC.": 2.56,
+        "HUNTER INDUSTRIES, LTD.": 2.16,
+        "DEAN WORD COMPANY, LTD.": 2.0
+      }
+    },
+    {
+      "itemCode": "0351 6002",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(6\")",
+      "unit": "SY",
+      "quantity": 666.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 100.0,
+        "J. CARROLL WEAVER, INC.": 47.66,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 116.7,
+        "ACME BRIDGE COMPANY, INC.": 64.3,
+        "HUNTER INDUSTRIES, LTD.": 52.42,
+        "DEAN WORD COMPANY, LTD.": 150.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 512.0,
+      "engEstUnit": 173.0,
+      "lowUnit": 185.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 185.0,
+        "J. CARROLL WEAVER, INC.": 142.24,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 133.82,
+        "ACME BRIDGE COMPANY, INC.": 135.0,
+        "HUNTER INDUSTRIES, LTD.": 206.78,
+        "DEAN WORD COMPANY, LTD.": 202.1
+      }
+    },
+    {
+      "itemCode": "0400 6006",
+      "description": "CUT & RESTORING PAV",
+      "unit": "SY",
+      "quantity": 307.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 55.0,
+        "J. CARROLL WEAVER, INC.": 75.04,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 73.6,
+        "ACME BRIDGE COMPANY, INC.": 70.9,
+        "HUNTER INDUSTRIES, LTD.": 199.81,
+        "DEAN WORD COMPANY, LTD.": 141.31
+      }
+    },
+    {
+      "itemCode": "0402 6001",
+      "description": "TRENCH EXCAVATION PROTECTION",
+      "unit": "LF",
+      "quantity": 131.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 15.0,
+        "J. CARROLL WEAVER, INC.": 13.44,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 13.29,
+        "ACME BRIDGE COMPANY, INC.": 12.4,
+        "HUNTER INDUSTRIES, LTD.": 9.29,
+        "DEAN WORD COMPANY, LTD.": 23.03
+      }
+    },
+    {
+      "itemCode": "0432 6035",
+      "description": "RIPRAP (STONE PROTECTION)(24 IN)",
+      "unit": "CY",
+      "quantity": 44.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 325.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 325.0,
+        "J. CARROLL WEAVER, INC.": 347.2,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 353.2,
+        "ACME BRIDGE COMPANY, INC.": 332.0,
+        "HUNTER INDUSTRIES, LTD.": 342.99,
+        "DEAN WORD COMPANY, LTD.": 241.8
+      }
+    },
+    {
+      "itemCode": "0460 6002",
+      "description": "CMP (GAL STL 18 IN)",
+      "unit": "LF",
+      "quantity": 1236.0,
+      "engEstUnit": 148.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 75.0,
+        "J. CARROLL WEAVER, INC.": 81.76,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 67.9,
+        "ACME BRIDGE COMPANY, INC.": 77.9,
+        "HUNTER INDUSTRIES, LTD.": 88.29,
+        "DEAN WORD COMPANY, LTD.": 51.03
+      }
+    },
+    {
+      "itemCode": "0467 6227",
+      "description": "SET (TY I)(S= 6 FT)(HW= 7 FT)(3:1) (C)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 12000.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 10000.0,
+        "J. CARROLL WEAVER, INC.": 12712.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 19352.36,
+        "ACME BRIDGE COMPANY, INC.": 12200.0,
+        "HUNTER INDUSTRIES, LTD.": 13139.98,
+        "DEAN WORD COMPANY, LTD.": 6968.06
+      }
+    },
+    {
+      "itemCode": "0467 6348",
+      "description": "SET (TY II) (18 IN) (CMP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 88.0,
+      "engEstUnit": 1280.0,
+      "lowUnit": 1750.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 1750.0,
+        "J. CARROLL WEAVER, INC.": 1286.88,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1466.89,
+        "ACME BRIDGE COMPANY, INC.": 1550.0,
+        "HUNTER INDUSTRIES, LTD.": 2220.01,
+        "DEAN WORD COMPANY, LTD.": 1518.74
+      }
+    },
+    {
+      "itemCode": "0467 6358",
+      "description": "SET (TY II) (18 IN) (RCP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1125.0,
+      "lowUnit": 1900.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 1900.0,
+        "J. CARROLL WEAVER, INC.": 2141.44,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1691.67,
+        "ACME BRIDGE COMPANY, INC.": 2030.0,
+        "HUNTER INDUSTRIES, LTD.": 2400.07,
+        "DEAN WORD COMPANY, LTD.": 1658.49
+      }
+    },
+    {
+      "itemCode": "0467 6390",
+      "description": "SET (TY II) (24 IN) (RCP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 32.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 2100.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 2100.0,
+        "J. CARROLL WEAVER, INC.": 2240.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 2015.63,
+        "ACME BRIDGE COMPANY, INC.": 2090.0,
+        "HUNTER INDUSTRIES, LTD.": 2989.05,
+        "DEAN WORD COMPANY, LTD.": 2260.6
+      }
+    },
+    {
+      "itemCode": "0467 6419",
+      "description": "SET (TY II) (30 IN) (RCP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 2750.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 2500.0,
+        "J. CARROLL WEAVER, INC.": 3209.92,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 2487.51,
+        "ACME BRIDGE COMPANY, INC.": 2990.0,
+        "HUNTER INDUSTRIES, LTD.": 4122.87,
+        "DEAN WORD COMPANY, LTD.": 2632.31
+      }
+    },
+    {
+      "itemCode": "0467 6450",
+      "description": "SET (TY II) (36 IN) (RCP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3750.0,
+      "lowUnit": 4000.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 4000.0,
+        "J. CARROLL WEAVER, INC.": 5468.96,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 5031.46,
+        "ACME BRIDGE COMPANY, INC.": 5130.0,
+        "HUNTER INDUSTRIES, LTD.": 5918.86,
+        "DEAN WORD COMPANY, LTD.": 3682.77
+      }
+    },
+    {
+      "itemCode": "0467 6461",
+      "description": "SET (TY II) (42 IN) (RCP) (3: 1) (C)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 4750.0,
+      "lowUnit": 4800.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 4800.0,
+        "J. CARROLL WEAVER, INC.": 6438.88,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 8348.2,
+        "ACME BRIDGE COMPANY, INC.": 6010.0,
+        "HUNTER INDUSTRIES, LTD.": 8006.43,
+        "DEAN WORD COMPANY, LTD.": 4480.97
+      }
+    },
+    {
+      "itemCode": "0467 6463",
+      "description": "SET (TY II) (42 IN) (RCP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 5500.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 5000.0,
+        "J. CARROLL WEAVER, INC.": 6678.56,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 8202.37,
+        "ACME BRIDGE COMPANY, INC.": 6230.0,
+        "HUNTER INDUSTRIES, LTD.": 8892.81,
+        "DEAN WORD COMPANY, LTD.": 4665.08
+      }
+    },
+    {
+      "itemCode": "0496 6016",
+      "description": "REMOV STR (PIPE)",
+      "unit": "EA",
+      "quantity": 33.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 2000.0,
+        "J. CARROLL WEAVER, INC.": 976.05,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 675.85,
+        "ACME BRIDGE COMPANY, INC.": 642.0,
+        "HUNTER INDUSTRIES, LTD.": 681.92,
+        "DEAN WORD COMPANY, LTD.": 886.51
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 674143.5,
+      "lowUnit": 725000.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 725000.0,
+        "J. CARROLL WEAVER, INC.": 334316.83,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 781828.32,
+        "ACME BRIDGE COMPANY, INC.": 786000.0,
+        "HUNTER INDUSTRIES, LTD.": 777025.02,
+        "DEAN WORD COMPANY, LTD.": 835000.0
+      }
+    },
+    {
+      "itemCode": "0530 6003",
+      "description": "INTERSECTIONS (SURF TREAT)",
+      "unit": "SY",
+      "quantity": 824.0,
+      "engEstUnit": 24.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 40.0,
+        "J. CARROLL WEAVER, INC.": 16.8,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 50.13,
+        "ACME BRIDGE COMPANY, INC.": 35.8,
+        "HUNTER INDUSTRIES, LTD.": 41.4,
+        "DEAN WORD COMPANY, LTD.": 46.56
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 2236.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 50.0,
+        "J. CARROLL WEAVER, INC.": 39.2,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 55.74,
+        "ACME BRIDGE COMPANY, INC.": 39.8,
+        "HUNTER INDUSTRIES, LTD.": 50.6,
+        "DEAN WORD COMPANY, LTD.": 68.65
+      }
+    },
+    {
+      "itemCode": "0530 6006",
+      "description": "DRIVEWAYS (SURF TREAT)",
+      "unit": "SY",
+      "quantity": 1526.0,
+      "engEstUnit": 53.0,
+      "lowUnit": 36.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 36.0,
+        "J. CARROLL WEAVER, INC.": 16.8,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 46.81,
+        "ACME BRIDGE COMPANY, INC.": 23.6,
+        "HUNTER INDUSTRIES, LTD.": 41.4,
+        "DEAN WORD COMPANY, LTD.": 45.38
+      }
+    },
+    {
+      "itemCode": "0530 6009",
+      "description": "TURNOUTS (SURF TREAT)",
+      "unit": "SY",
+      "quantity": 73.0,
+      "engEstUnit": 32.0,
+      "lowUnit": 26.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 26.0,
+        "J. CARROLL WEAVER, INC.": 13.44,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 141.77,
+        "ACME BRIDGE COMPANY, INC.": 20.6,
+        "HUNTER INDUSTRIES, LTD.": 101.2,
+        "DEAN WORD COMPANY, LTD.": 45.39
+      }
+    },
+    {
+      "itemCode": "0560 6004",
+      "description": "MAILBOX INSTALL-S (TWG-POST) TY 2",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 395.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 300.0,
+        "J. CARROLL WEAVER, INC.": 364.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 291.51,
+        "ACME BRIDGE COMPANY, INC.": 269.0,
+        "HUNTER INDUSTRIES, LTD.": 366.91,
+        "DEAN WORD COMPANY, LTD.": 253.76
+      }
+    },
+    {
+      "itemCode": "0560 6005",
+      "description": "MAILBOX INSTALL-D (TWG-POST) TY 2",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 364.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 350.0,
+        "J. CARROLL WEAVER, INC.": 431.2,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 335.51,
+        "ACME BRIDGE COMPANY, INC.": 311.0,
+        "HUNTER INDUSTRIES, LTD.": 428.06,
+        "DEAN WORD COMPANY, LTD.": 293.59
+      }
+    },
+    {
+      "itemCode": "0644 6027",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(P)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 870.0,
+      "lowUnit": 650.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 650.0,
+        "J. CARROLL WEAVER, INC.": 952.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 946.01,
+        "ACME BRIDGE COMPANY, INC.": 897.0,
+        "HUNTER INDUSTRIES, LTD.": 794.96,
+        "DEAN WORD COMPANY, LTD.": 845.92
+      }
+    },
+    {
+      "itemCode": "0644 6028",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(P-BM)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 750.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 750.0,
+        "J. CARROLL WEAVER, INC.": 1344.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1028.51,
+        "ACME BRIDGE COMPANY, INC.": 976.0,
+        "HUNTER INDUSTRIES, LTD.": 917.27,
+        "DEAN WORD COMPANY, LTD.": 920.59
+      }
+    },
+    {
+      "itemCode": "0644 6030",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(T)",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 825.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 825.0,
+        "J. CARROLL WEAVER, INC.": 1103.2,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1116.51,
+        "ACME BRIDGE COMPANY, INC.": 1060.0,
+        "HUNTER INDUSTRIES, LTD.": 1008.99,
+        "DEAN WORD COMPANY, LTD.": 1000.21
+      }
+    },
+    {
+      "itemCode": "0644 6037",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U-WC)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 975.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 975.0,
+        "J. CARROLL WEAVER, INC.": 1624.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1661.01,
+        "ACME BRIDGE COMPANY, INC.": 1580.0,
+        "HUNTER INDUSTRIES, LTD.": 1192.45,
+        "DEAN WORD COMPANY, LTD.": 1492.86
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 47.0,
+      "engEstUnit": 139.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 75.0,
+        "J. CARROLL WEAVER, INC.": 95.2,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 138.21,
+        "ACME BRIDGE COMPANY, INC.": 121.0,
+        "HUNTER INDUSTRIES, LTD.": 91.73,
+        "DEAN WORD COMPANY, LTD.": 114.45
+      }
+    },
+    {
+      "itemCode": "0658 6073",
+      "description": "INSTL OM ASSM (OM-2Y)(WC)GND(BI)",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 60.0,
+        "J. CARROLL WEAVER, INC.": 184.8,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 103.09,
+        "ACME BRIDGE COMPANY, INC.": 87.6,
+        "HUNTER INDUSTRIES, LTD.": 73.38,
+        "DEAN WORD COMPANY, LTD.": 82.6
+      }
+    },
+    {
+      "itemCode": "0662 6035",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)6\"(BRK)",
+      "unit": "LF",
+      "quantity": 6363.0,
+      "engEstUnit": 0.35,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 1.0,
+        "J. CARROLL WEAVER, INC.": 0.58,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 0.59,
+        "ACME BRIDGE COMPANY, INC.": 0.55,
+        "HUNTER INDUSTRIES, LTD.": 0.52,
+        "DEAN WORD COMPANY, LTD.": 0.54
+      }
+    },
+    {
+      "itemCode": "0662 6037",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 41197.0,
+      "engEstUnit": 0.4,
+      "lowUnit": 0.55,
+      "bidders": {
+        "CK NEWBERRY, LLC": 0.55,
+        "J. CARROLL WEAVER, INC.": 0.58,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 0.57,
+        "ACME BRIDGE COMPANY, INC.": 0.55,
+        "HUNTER INDUSTRIES, LTD.": 0.52,
+        "DEAN WORD COMPANY, LTD.": 0.54
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 1855.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 1.0,
+        "J. CARROLL WEAVER, INC.": 1.12,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1.43,
+        "ACME BRIDGE COMPANY, INC.": 1.45,
+        "HUNTER INDUSTRIES, LTD.": 1.63,
+        "DEAN WORD COMPANY, LTD.": 1.37
+      }
+    },
+    {
+      "itemCode": "0668 6076",
+      "description": "PREFAB PAV MRK TY C (W) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 84.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 16.0,
+        "J. CARROLL WEAVER, INC.": 17.92,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 18.91,
+        "ACME BRIDGE COMPANY, INC.": 16.9,
+        "HUNTER INDUSTRIES, LTD.": 16.0,
+        "DEAN WORD COMPANY, LTD.": 2.97
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 835.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 5.0,
+        "J. CARROLL WEAVER, INC.": 5.6,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 5.63,
+        "ACME BRIDGE COMPANY, INC.": 5.3,
+        "HUNTER INDUSTRIES, LTD.": 5.0,
+        "DEAN WORD COMPANY, LTD.": 6.71
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 7500.0,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 15000.0,
+        "J. CARROLL WEAVER, INC.": 7280.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 25465.04,
+        "ACME BRIDGE COMPANY, INC.": 12000.0,
+        "HUNTER INDUSTRIES, LTD.": 11649.37,
+        "DEAN WORD COMPANY, LTD.": 8917.25
+      }
+    },
+    {
+      "itemCode": "6056 6002",
+      "description": "PREFORMED CENTERLINE RUMBLE STRIP",
+      "unit": "LF",
+      "quantity": 943.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 8.0,
+        "J. CARROLL WEAVER, INC.": 8.96,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 8.92,
+        "ACME BRIDGE COMPANY, INC.": 8.4,
+        "HUNTER INDUSTRIES, LTD.": 8.0,
+        "DEAN WORD COMPANY, LTD.": 7.96
+      }
+    }
+  ]
+}

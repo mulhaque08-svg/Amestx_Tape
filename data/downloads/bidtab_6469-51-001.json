@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6469-51-001",
+    "county": "Brown",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646951001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/22/24",
+    "engEstTotal": 948449.76,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 767379.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 999515.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 86222.76,
+      "lowUnit": 590000.0,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 590000.0,
+        "D & M CONTRACTORS, LLC": 6000.0
+      }
+    }
+  ]
+}

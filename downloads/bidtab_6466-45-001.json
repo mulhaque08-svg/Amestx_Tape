@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6466-45-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646645001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "06/11/24",
+    "engEstTotal": 18750.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 17500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MERITORIOUS CONTRACTORS LLC",
+      "totalBidAmount": 17750.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6077",
+      "description": "FL BS (SITE DEL) (TY A GR 4) (SITE 3)",
+      "unit": "TON",
+      "quantity": 250.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 70.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 70.0,
+        "MERITORIOUS CONTRACTORS LLC": 71.0
+      }
+    }
+  ]
+}

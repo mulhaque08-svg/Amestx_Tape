@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "csj": "6438-98-001",
+    "county": "San Patricio",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643898001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "05/04/23",
+    "engEstTotal": 530455.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BK FIELD OPERATIONS LLC",
+      "totalBidAmount": 435720.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "USA DT SERVICES, INC.",
+      "totalBidAmount": 527435.23
+    },
+    {
+      "rank": 3,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 538530.5
+    },
+    {
+      "rank": 4,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 550227.9
+    },
+    {
+      "rank": 5,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 586595.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 6900.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 1.0,
+        "USA DT SERVICES, INC.": 45487.67,
+        "TALBRAN ENTERPRISES LLC": 3850.0,
+        "R&M INCORPORATED": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 2000.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 7914.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 42.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 42.0,
+        "USA DT SERVICES, INC.": 20.86,
+        "TALBRAN ENTERPRISES LLC": 49.75,
+        "R&M INCORPORATED": 52.35,
+        "CROSS PLUS CONSTRUCTION, LLC": 55.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 1.0,
+        "USA DT SERVICES, INC.": 19.11,
+        "TALBRAN ENTERPRISES LLC": 6.0,
+        "R&M INCORPORATED": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 55.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 5433.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 19.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 19.0,
+        "USA DT SERVICES, INC.": 24.48,
+        "TALBRAN ENTERPRISES LLC": 23.0,
+        "R&M INCORPORATED": 25.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 25.0
+      }
+    }
+  ]
+}

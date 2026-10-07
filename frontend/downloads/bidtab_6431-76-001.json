@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6431-76-001",
+    "county": "Webb",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643176001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "01/19/23",
+    "engEstTotal": 298610.6,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MTS BRUSH HOGGING DOZER AND LAWN LLC",
+      "totalBidAmount": 271496.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DOUBLE S TRACTOR SERVICES, LLC",
+      "totalBidAmount": 275452.11
+    },
+    {
+      "rank": 3,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 280309.39
+    },
+    {
+      "rank": 4,
+      "vendorName": "KENKO CONTRACTORS PRO LLC",
+      "totalBidAmount": 663839246.88
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 936.2,
+      "engEstUnit": 43.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "MTS BRUSH HOGGING DOZER AND LAWN LLC": 40.0,
+        "DOUBLE S TRACTOR SERVICES, LLC": 41.5,
+        "R&M INCORPORATED": 42.23,
+        "KENKO CONTRACTORS PRO LLC": 33703.2
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 2042.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "MTS BRUSH HOGGING DOZER AND LAWN LLC": 40.0,
+        "DOUBLE S TRACTOR SERVICES, LLC": 41.5,
+        "R&M INCORPORATED": 42.23,
+        "KENKO CONTRACTORS PRO LLC": 73512.0
+      }
+    },
+    {
+      "itemCode": "0730 6054",
+      "description": "FULL - WIDTH MOWING - TRACT (1)",
+      "unit": "AC",
+      "quantity": 3659.2,
+      "engEstUnit": 45.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "MTS BRUSH HOGGING DOZER AND LAWN LLC": 40.0,
+        "DOUBLE S TRACTOR SERVICES, LLC": 41.5,
+        "R&M INCORPORATED": 42.23,
+        "KENKO CONTRACTORS PRO LLC": 131731.2
+      }
+    }
+  ]
+}

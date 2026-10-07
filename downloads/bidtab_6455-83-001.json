@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "csj": "6455-83-001",
+    "county": "Dewitt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645583001",
+    "projectType": "JANITORIAL MAINTENANCE",
+    "letDate": "12/11/23",
+    "engEstTotal": 77650.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JANI-KING OF AUSTIN",
+      "totalBidAmount": 77592.01
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "JANI-KING OF AUSTIN": 0.01
+      }
+    },
+    {
+      "itemCode": "7158 6001",
+      "description": "JANITORIAL SERVICES - WEEKLY",
+      "unit": "CYC",
+      "quantity": 104.0,
+      "engEstUnit": 725.0,
+      "lowUnit": 694.0,
+      "bidders": {
+        "JANI-KING OF AUSTIN": 694.0
+      }
+    },
+    {
+      "itemCode": "7158 6004",
+      "description": "JANITORIAL SERVICES - WINDOW WASHING",
+      "unit": "CYC",
+      "quantity": 1.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1050.0,
+      "bidders": {
+        "JANI-KING OF AUSTIN": 1050.0
+      }
+    },
+    {
+      "itemCode": "7158 6005",
+      "description": "JANITORIAL SERVICES-CARPET CLEAN(STEAM)",
+      "unit": "CYC",
+      "quantity": 2.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 2183.0,
+      "bidders": {
+        "JANI-KING OF AUSTIN": 2183.0
+      }
+    }
+  ]
+}

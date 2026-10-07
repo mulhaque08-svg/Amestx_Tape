@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6405-66-001",
+    "county": "Caldwell",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640566001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "04/05/23",
+    "engEstTotal": 431472.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "USA DT SERVICES, INC.",
+      "totalBidAmount": 544613.28
+    },
+    {
+      "rank": 2,
+      "vendorName": "CEN-TEX IRRIGATION SYSTEMS, INC.",
+      "totalBidAmount": 558950.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 690889.2
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 52287.55,
+      "bidders": {
+        "USA DT SERVICES, INC.": 52287.55,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1.0,
+        "R&M INCORPORATED": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1846.0,
+      "engEstUnit": 44.0,
+      "lowUnit": 23.71,
+      "bidders": {
+        "USA DT SERVICES, INC.": 23.71,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 42.0,
+        "R&M INCORPORATED": 73.5
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 7892.0,
+      "engEstUnit": 44.0,
+      "lowUnit": 23.71,
+      "bidders": {
+        "USA DT SERVICES, INC.": 23.71,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 61.0,
+        "R&M INCORPORATED": 70.35
+      }
+    }
+  ]
+}

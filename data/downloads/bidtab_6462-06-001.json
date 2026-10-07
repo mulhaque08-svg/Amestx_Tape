@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6462-06-001",
+    "county": "Bexar",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646206001",
+    "projectType": "LARGE SIGN REPLACEMENT",
+    "letDate": "08/22/24",
+    "engEstTotal": 247291.52,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 212600.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TAYLOR CONTRACTING LLC",
+      "totalBidAmount": 286410.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ABOVE ALL CONTRACTING LLC",
+      "totalBidAmount": 302630.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0416 6018",
+      "description": "DRILL SHAFT (SIGN MTS) (24 IN)",
+      "unit": "LF",
+      "quantity": 152.0,
+      "engEstUnit": 325.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "TAYLOR CONTRACTING LLC": 200.0,
+        "ABOVE ALL CONTRACTING LLC": 350.0
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 60.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 600.0,
+        "TAYLOR CONTRACTING LLC": 200.0,
+        "ABOVE ALL CONTRACTING LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "TAYLOR CONTRACTING LLC": 2500.0,
+        "ABOVE ALL CONTRACTING LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0647 6001",
+      "description": "INSTALL LRSS (STRUCT STEEL)",
+      "unit": "LB",
+      "quantity": 8810.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 8.0,
+        "TAYLOR CONTRACTING LLC": 5.0,
+        "ABOVE ALL CONTRACTING LLC": 10.0
+      }
+    }
+  ]
+}

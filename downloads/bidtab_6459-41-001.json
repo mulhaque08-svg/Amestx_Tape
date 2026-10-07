@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6459-41-001",
+    "county": "Medina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645941001",
+    "projectType": "PICNIC AREA MAINTENANCE",
+    "letDate": "11/15/23",
+    "engEstTotal": 91525.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ABOVE ALL CONSTRUCTION",
+      "totalBidAmount": 62427.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MICHAEL SANCHEZ",
+      "totalBidAmount": 91300.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "JCW CONSTRUCTION, LLC",
+      "totalBidAmount": 141215.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ABOVE ALL CONSTRUCTION": 1.0,
+        "MICHAEL SANCHEZ": 300.0,
+        "JCW CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0745 6061",
+      "description": "GROUNDS MAINT (MOWING / TRIMMING)",
+      "unit": "CYC",
+      "quantity": 15.0,
+      "engEstUnit": 475.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ABOVE ALL CONSTRUCTION": 1.0,
+        "MICHAEL SANCHEZ": 300.0,
+        "JCW CONSTRUCTION, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0745 6154",
+      "description": "JANITORIAL MAINT (PICNIC AREAS)",
+      "unit": "CYC",
+      "quantity": 208.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "ABOVE ALL CONSTRUCTION": 300.0,
+        "MICHAEL SANCHEZ": 400.0,
+        "JCW CONSTRUCTION, LLC": 650.0
+      }
+    }
+  ]
+}

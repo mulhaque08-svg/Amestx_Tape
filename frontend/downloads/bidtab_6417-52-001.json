@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6417-52-001",
+    "county": "Tarrant",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641752001",
+    "projectType": "DITCH CLEANING AND RESHAPING",
+    "letDate": "10/18/22",
+    "engEstTotal": 246664.07,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 192057.2
+    },
+    {
+      "rank": 2,
+      "vendorName": "PATHFIELD INVESTMENTS LLC",
+      "totalBidAmount": 300820.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 16390.1,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 100.0,
+        "PATHFIELD INVESTMENTS LLC": 20000.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 6250.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 100.0,
+        "PATHFIELD INVESTMENTS LLC": 3000.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1472.39,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 100.0,
+        "PATHFIELD INVESTMENTS LLC": 5000.0
+      }
+    },
+    {
+      "itemCode": "0760 6001",
+      "description": "DITCH CLEANING AND RESHAPING (FOOT)",
+      "unit": "LF",
+      "quantity": 75140.0,
+      "engEstUnit": 2.27,
+      "lowUnit": 2.48,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 2.48,
+        "PATHFIELD INVESTMENTS LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 41.0,
+      "engEstUnit": 48.58,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 100.0,
+        "PATHFIELD INVESTMENTS LLC": 150.0
+      }
+    }
+  ]
+}

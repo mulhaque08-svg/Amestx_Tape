@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6462-44-001",
+    "county": "Archer",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646244001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/19/24",
+    "engEstTotal": 226788.44,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 218697.25
+    },
+    {
+      "rank": 2,
+      "vendorName": "BIG STATE MAINTENANCE, INC.",
+      "totalBidAmount": 249493.56
+    },
+    {
+      "rank": 3,
+      "vendorName": "LG SOLAR, LLC",
+      "totalBidAmount": 255865.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "PROFESSIONAL TRAFFIC CONTROL LLC",
+      "totalBidAmount": 308028.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 315536.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1085.0,
+      "engEstUnit": 38.8,
+      "lowUnit": 39.77,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 39.77,
+        "BIG STATE MAINTENANCE, INC.": 15.0,
+        "LG SOLAR, LLC": 35.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 39.0,
+        "ABESCAPE GROUP LLC": 58.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 4332.0,
+      "engEstUnit": 40.92,
+      "lowUnit": 39.9,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 39.9,
+        "BIG STATE MAINTENANCE, INC.": 53.83,
+        "LG SOLAR, LLC": 45.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 59.0,
+        "ABESCAPE GROUP LLC": 58.0
+      }
+    }
+  ]
+}

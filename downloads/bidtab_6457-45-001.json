@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "csj": "6457-45-001",
+    "county": "Bowie",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645745001",
+    "projectType": "LANDSCAPE MAINTENANCE",
+    "letDate": "11/02/23",
+    "engEstTotal": 305162.4,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SOUTHERN EDGE CONTRACTORS LLC",
+      "totalBidAmount": 410162.4
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 2200.0,
+      "bidders": {
+        "SOUTHERN EDGE CONTRACTORS LLC": 2200.0
+      }
+    },
+    {
+      "itemCode": "0751 6005",
+      "description": "LITTER PICKUP",
+      "unit": "AC",
+      "quantity": 3540.96,
+      "engEstUnit": 25.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "SOUTHERN EDGE CONTRACTORS LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0751 6007",
+      "description": "MOWING, TRIMMING, AND EDGING",
+      "unit": "AC",
+      "quantity": 3540.96,
+      "engEstUnit": 40.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "SOUTHERN EDGE CONTRACTORS LLC": 15.0
+      }
+    },
+    {
+      "itemCode": "0751 6011",
+      "description": "PRUNING",
+      "unit": "CYC",
+      "quantity": 2.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 35000.0,
+      "bidders": {
+        "SOUTHERN EDGE CONTRACTORS LLC": 35000.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6412-15-001",
+    "county": "Runnels",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 641215001",
+    "projectType": "DEBRIS REMOVAL",
+    "letDate": "07/19/22",
+    "engEstTotal": 74950.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BECK-REIT & SONS, LTD.",
+      "totalBidAmount": 74226.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 150200.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 7000.0,
+      "lowUnit": 8000.0,
+      "bidders": {
+        "BECK-REIT & SONS, LTD.": 8000.0,
+        "FNH CONSTRUCTION, LLC": 15000.0
+      }
+    },
+    {
+      "itemCode": "0502 6001",
+      "description": "BARRICADES, SIGNS AND TRAFFIC HANDLING",
+      "unit": "MO",
+      "quantity": 1.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BECK-REIT & SONS, LTD.": 1.0,
+        "FNH CONSTRUCTION, LLC": 8500.0
+      }
+    },
+    {
+      "itemCode": "7000 6001",
+      "description": "REML & DISPL DRIFTWOOD & DEBRIS",
+      "unit": "CY",
+      "quantity": 950.0,
+      "engEstUnit": 61.0,
+      "lowUnit": 69.69,
+      "bidders": {
+        "BECK-REIT & SONS, LTD.": 69.69,
+        "FNH CONSTRUCTION, LLC": 126.0
+      }
+    }
+  ]
+}

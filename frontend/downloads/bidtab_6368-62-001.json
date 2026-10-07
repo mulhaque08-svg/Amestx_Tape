@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6368-62-001",
+    "county": "Lavaca",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 636862001",
+    "projectType": "FULL WIDTH AND STRIP MOWING",
+    "letDate": "02/05/21",
+    "engEstTotal": 354060.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 310390.64
+    },
+    {
+      "rank": 2,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 431595.08
+    },
+    {
+      "rank": 3,
+      "vendorName": "T&L CLEANING SERVICES LLC",
+      "totalBidAmount": 433132.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 2380.0,
+      "engEstUnit": 27.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 20.0,
+        "ABESCAPE GROUP LLC": 30.89,
+        "T&L CLEANING SERVICES LLC": 31.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 11592.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 22.67,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 22.67,
+        "ABESCAPE GROUP LLC": 30.89,
+        "T&L CLEANING SERVICES LLC": 31.0
+      }
+    }
+  ]
+}

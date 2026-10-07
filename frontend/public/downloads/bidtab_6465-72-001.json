@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6465-72-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646572001",
+    "projectType": "AGGREGATE",
+    "letDate": "05/08/24",
+    "engEstTotal": 148000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RK HALL, LLC",
+      "totalBidAmount": 148000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 160000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 223500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6099",
+      "description": "AGGR (TY B GR 4) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 74.0,
+      "lowUnit": 74.0,
+      "bidders": {
+        "RK HALL, LLC": 74.0,
+        "TOUCHSTONE RESOURCES, LLC": 80.0,
+        "MARTIN MARIETTA MATERIALS, INC.": 111.75
+      }
+    }
+  ]
+}

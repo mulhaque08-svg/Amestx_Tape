@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6428-38-001",
+    "county": "Wichita",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642838001",
+    "projectType": "TRAFFIC CONTROL SERVICES",
+    "letDate": "06/27/23",
+    "engEstTotal": 452500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "NIXON ENGINEERING",
+      "totalBidAmount": 482000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "FC TRAFFIC CONTROL, INC.",
+      "totalBidAmount": 500100.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TRAFFIC HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 669400.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "BARRICADES UNLIMITED",
+      "totalBidAmount": 760000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "7148 6009",
+      "description": "EXIT OR ENTRANCE RAMP CLOSURE",
+      "unit": "HR",
+      "quantity": 100.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "NIXON ENGINEERING": 500.0,
+        "FC TRAFFIC CONTROL, INC.": 1.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 74.0,
+        "BARRICADES UNLIMITED": 400.0
+      }
+    }
+  ]
+}

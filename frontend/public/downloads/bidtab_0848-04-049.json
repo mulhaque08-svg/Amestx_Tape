@@ -1,0 +1,848 @@
+{
+  "metadata": {
+    "csj": "0848-04-049",
+    "county": "Medina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2022(263)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "01/06/22",
+    "engEstTotal": 2908908.9,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RELMCO, INC.",
+      "totalBidAmount": 3176381.37
+    },
+    {
+      "rank": 2,
+      "vendorName": "ACME BRIDGE COMPANY, INC.",
+      "totalBidAmount": 3472260.87
+    },
+    {
+      "rank": 3,
+      "vendorName": "DAN WILLIAMS COMPANY",
+      "totalBidAmount": 3665748.8
+    },
+    {
+      "rank": 4,
+      "vendorName": "HARPER BROTHERS CONSTRUCTION LLC",
+      "totalBidAmount": 4035749.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 9.35,
+      "engEstUnit": 3000.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "RELMCO, INC.": 2500.0,
+        "ACME BRIDGE COMPANY, INC.": 2140.0,
+        "DAN WILLIAMS COMPANY": 19500.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 15500.0
+      }
+    },
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 1615.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "RELMCO, INC.": 15.0,
+        "ACME BRIDGE COMPANY, INC.": 10.7,
+        "DAN WILLIAMS COMPANY": 14.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 4.0
+      }
+    },
+    {
+      "itemCode": "0104 6028",
+      "description": "REMOVING CONC (MISC)",
+      "unit": "SY",
+      "quantity": 31.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "RELMCO, INC.": 15.0,
+        "ACME BRIDGE COMPANY, INC.": 23.5,
+        "DAN WILLIAMS COMPANY": 45.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0105 6011",
+      "description": "REMOVING STAB BASE AND ASPH PAV (2\"-6\")",
+      "unit": "SY",
+      "quantity": 1767.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 7.0,
+      "bidders": {
+        "RELMCO, INC.": 7.0,
+        "ACME BRIDGE COMPANY, INC.": 3.9,
+        "DAN WILLIAMS COMPANY": 2.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 157.0,
+      "engEstUnit": 9.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "RELMCO, INC.": 20.0,
+        "ACME BRIDGE COMPANY, INC.": 19.3,
+        "DAN WILLIAMS COMPANY": 30.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 65.0
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 2195.0,
+      "engEstUnit": 16.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "RELMCO, INC.": 15.0,
+        "ACME BRIDGE COMPANY, INC.": 11.3,
+        "DAN WILLIAMS COMPANY": 20.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 15.0
+      }
+    },
+    {
+      "itemCode": "0132 6003",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY B)",
+      "unit": "CY",
+      "quantity": 1655.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 18.0,
+      "bidders": {
+        "RELMCO, INC.": 18.0,
+        "ACME BRIDGE COMPANY, INC.": 8.4,
+        "DAN WILLIAMS COMPANY": 14.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 22.0
+      }
+    },
+    {
+      "itemCode": "0160 6003",
+      "description": "FURNISHING AND PLACING TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 2067.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "RELMCO, INC.": 5.0,
+        "ACME BRIDGE COMPANY, INC.": 2.7,
+        "DAN WILLIAMS COMPANY": 2.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 4.0
+      }
+    },
+    {
+      "itemCode": "0164 6003",
+      "description": "BROADCAST SEED (PERM) (RURAL) (CLAY)",
+      "unit": "SY",
+      "quantity": 2067.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 1.0,
+      "bidders": {
+        "RELMCO, INC.": 1.0,
+        "ACME BRIDGE COMPANY, INC.": 0.53,
+        "DAN WILLIAMS COMPANY": 0.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.5
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 33.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "RELMCO, INC.": 50.0,
+        "ACME BRIDGE COMPANY, INC.": 42.7,
+        "DAN WILLIAMS COMPANY": 16.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 26.0
+      }
+    },
+    {
+      "itemCode": "0169 6001",
+      "description": "SOIL RETENTION BLANKETS (CL 1) (TY A)",
+      "unit": "SY",
+      "quantity": 2067.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "RELMCO, INC.": 3.0,
+        "ACME BRIDGE COMPANY, INC.": 1.35,
+        "DAN WILLIAMS COMPANY": 1.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.1
+      }
+    },
+    {
+      "itemCode": "0216 6001",
+      "description": "PROOF ROLLING",
+      "unit": "HR",
+      "quantity": 42.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "RELMCO, INC.": 80.0,
+        "ACME BRIDGE COMPANY, INC.": 54.6,
+        "DAN WILLIAMS COMPANY": 55.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 70.0
+      }
+    },
+    {
+      "itemCode": "0310 6027",
+      "description": "PRIME COAT(MC-30 OR AE-P)",
+      "unit": "GAL",
+      "quantity": 425.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 7.0,
+      "bidders": {
+        "RELMCO, INC.": 7.0,
+        "ACME BRIDGE COMPANY, INC.": 4.25,
+        "DAN WILLIAMS COMPANY": 4.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 4.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 129.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "RELMCO, INC.": 150.0,
+        "ACME BRIDGE COMPANY, INC.": 140.0,
+        "DAN WILLIAMS COMPANY": 210.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 185.0
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 920.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "RELMCO, INC.": 35.0,
+        "ACME BRIDGE COMPANY, INC.": 87.5,
+        "DAN WILLIAMS COMPANY": 24.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 95.0
+      }
+    },
+    {
+      "itemCode": "0416 6006",
+      "description": "DRILL SHAFT (48 IN)",
+      "unit": "LF",
+      "quantity": 887.0,
+      "engEstUnit": 345.0,
+      "lowUnit": 535.0,
+      "bidders": {
+        "RELMCO, INC.": 535.0,
+        "ACME BRIDGE COMPANY, INC.": 293.0,
+        "DAN WILLIAMS COMPANY": 400.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 370.0
+      }
+    },
+    {
+      "itemCode": "0416 6087",
+      "description": "CORE HOLE",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "RELMCO, INC.": 300.0,
+        "ACME BRIDGE COMPANY, INC.": 224.0,
+        "DAN WILLIAMS COMPANY": 250.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0420 6013",
+      "description": "CL C CONC (ABUT)",
+      "unit": "CY",
+      "quantity": 68.1,
+      "engEstUnit": 900.0,
+      "lowUnit": 1127.0,
+      "bidders": {
+        "RELMCO, INC.": 1127.0,
+        "ACME BRIDGE COMPANY, INC.": 976.0,
+        "DAN WILLIAMS COMPANY": 1200.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1650.0
+      }
+    },
+    {
+      "itemCode": "0420 6029",
+      "description": "CL C CONC (CAP)",
+      "unit": "CY",
+      "quantity": 208.5,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1127.0,
+      "bidders": {
+        "RELMCO, INC.": 1127.0,
+        "ACME BRIDGE COMPANY, INC.": 1010.0,
+        "DAN WILLIAMS COMPANY": 1300.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1310.0
+      }
+    },
+    {
+      "itemCode": "0420 6037",
+      "description": "CL C CONC (COLUMN)",
+      "unit": "CY",
+      "quantity": 110.0,
+      "engEstUnit": 925.0,
+      "lowUnit": 925.4,
+      "bidders": {
+        "RELMCO, INC.": 925.4,
+        "ACME BRIDGE COMPANY, INC.": 788.0,
+        "DAN WILLIAMS COMPANY": 1000.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1045.0
+      }
+    },
+    {
+      "itemCode": "0422 6001",
+      "description": "REINF CONC SLAB",
+      "unit": "SF",
+      "quantity": 17940.0,
+      "engEstUnit": 16.0,
+      "lowUnit": 17.0,
+      "bidders": {
+        "RELMCO, INC.": 17.0,
+        "ACME BRIDGE COMPANY, INC.": 23.5,
+        "DAN WILLIAMS COMPANY": 25.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0422 6015",
+      "description": "APPROACH SLAB",
+      "unit": "CY",
+      "quantity": 113.5,
+      "engEstUnit": 585.0,
+      "lowUnit": 847.0,
+      "bidders": {
+        "RELMCO, INC.": 847.0,
+        "ACME BRIDGE COMPANY, INC.": 623.0,
+        "DAN WILLIAMS COMPANY": 575.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 700.0
+      }
+    },
+    {
+      "itemCode": "0423 6003",
+      "description": "RETAINING WALL (TEMP WALL)",
+      "unit": "SF",
+      "quantity": 330.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "RELMCO, INC.": 40.0,
+        "ACME BRIDGE COMPANY, INC.": 58.5,
+        "DAN WILLIAMS COMPANY": 34.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "0425 6035",
+      "description": "PRESTR CONC GIRDER (TX28)",
+      "unit": "LF",
+      "quantity": 2321.62,
+      "engEstUnit": 145.0,
+      "lowUnit": 145.0,
+      "bidders": {
+        "RELMCO, INC.": 145.0,
+        "ACME BRIDGE COMPANY, INC.": 183.0,
+        "DAN WILLIAMS COMPANY": 185.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 240.0
+      }
+    },
+    {
+      "itemCode": "0432 6006",
+      "description": "RIPRAP (CONC)(CL B)",
+      "unit": "CY",
+      "quantity": 2.0,
+      "engEstUnit": 535.0,
+      "lowUnit": 1600.0,
+      "bidders": {
+        "RELMCO, INC.": 1600.0,
+        "ACME BRIDGE COMPANY, INC.": 1040.0,
+        "DAN WILLIAMS COMPANY": 850.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0432 6014",
+      "description": "RIPRAP (STONE TY R)(DRY)(6 IN)",
+      "unit": "CY",
+      "quantity": 3.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "RELMCO, INC.": 800.0,
+        "ACME BRIDGE COMPANY, INC.": 356.0,
+        "DAN WILLIAMS COMPANY": 400.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1400.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 31.0,
+      "engEstUnit": 460.0,
+      "lowUnit": 450.0,
+      "bidders": {
+        "RELMCO, INC.": 450.0,
+        "ACME BRIDGE COMPANY, INC.": 751.0,
+        "DAN WILLIAMS COMPANY": 600.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 750.0
+      }
+    },
+    {
+      "itemCode": "0450 6004",
+      "description": "RAIL (TY T221)",
+      "unit": "LF",
+      "quantity": 820.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "RELMCO, INC.": 65.0,
+        "ACME BRIDGE COMPANY, INC.": 81.7,
+        "DAN WILLIAMS COMPANY": 77.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0451 6019",
+      "description": "RETROFIT RAIL (TY T631)",
+      "unit": "LF",
+      "quantity": 239.5,
+      "engEstUnit": 80.0,
+      "lowUnit": 91.85,
+      "bidders": {
+        "RELMCO, INC.": 91.85,
+        "ACME BRIDGE COMPANY, INC.": 138.0,
+        "DAN WILLIAMS COMPANY": 130.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0454 6018",
+      "description": "SEALED EXPANSION JOINT (4 IN) (SEJ - M)",
+      "unit": "LF",
+      "quantity": 155.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "RELMCO, INC.": 150.0,
+        "ACME BRIDGE COMPANY, INC.": 141.0,
+        "DAN WILLIAMS COMPANY": 125.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 145.0
+      }
+    },
+    {
+      "itemCode": "0459 6008",
+      "description": "GABION MATTRESSES (GALV)(18 IN)",
+      "unit": "SY",
+      "quantity": 2204.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 91.0,
+      "bidders": {
+        "RELMCO, INC.": 91.0,
+        "ACME BRIDGE COMPANY, INC.": 112.0,
+        "DAN WILLIAMS COMPANY": 120.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 105.0
+      }
+    },
+    {
+      "itemCode": "0459 6011",
+      "description": "GABIONS (5'X 3')(GALV)",
+      "unit": "CY",
+      "quantity": 499.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 187.6,
+      "bidders": {
+        "RELMCO, INC.": 187.6,
+        "ACME BRIDGE COMPANY, INC.": 276.0,
+        "DAN WILLIAMS COMPANY": 265.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0467 6356",
+      "description": "SET (TY II) (18 IN) (RCP) (3: 1) (C)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1800.0,
+      "bidders": {
+        "RELMCO, INC.": 1800.0,
+        "ACME BRIDGE COMPANY, INC.": 1880.0,
+        "DAN WILLIAMS COMPANY": 1750.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 4500.0
+      }
+    },
+    {
+      "itemCode": "0496 6010",
+      "description": "REMOV STR (BRIDGE 100 - 499 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 75000.0,
+      "lowUnit": 50000.0,
+      "bidders": {
+        "RELMCO, INC.": 50000.0,
+        "ACME BRIDGE COMPANY, INC.": 96100.0,
+        "DAN WILLIAMS COMPANY": 52000.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 55000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 263250.0,
+      "lowUnit": 285000.0,
+      "bidders": {
+        "RELMCO, INC.": 285000.0,
+        "ACME BRIDGE COMPANY, INC.": 290000.0,
+        "DAN WILLIAMS COMPANY": 360000.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 320000.0
+      }
+    },
+    {
+      "itemCode": "0510 6003",
+      "description": "ONE-WAY TRAF CONT (PORT TRAF SIG)",
+      "unit": "MO",
+      "quantity": 25.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 2400.0,
+      "bidders": {
+        "RELMCO, INC.": 2400.0,
+        "ACME BRIDGE COMPANY, INC.": 2110.0,
+        "DAN WILLIAMS COMPANY": 1.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3400.0
+      }
+    },
+    {
+      "itemCode": "0512 6005",
+      "description": "PORT CTB (FUR & INST)(F-SHAPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 940.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "RELMCO, INC.": 16.0,
+        "ACME BRIDGE COMPANY, INC.": 46.3,
+        "DAN WILLIAMS COMPANY": 25.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 45.0
+      }
+    },
+    {
+      "itemCode": "0512 6029",
+      "description": "PORT CTB (MOVE)(F-SHAPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 1780.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "RELMCO, INC.": 10.0,
+        "ACME BRIDGE COMPANY, INC.": 2.35,
+        "DAN WILLIAMS COMPANY": 5.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 7.0
+      }
+    },
+    {
+      "itemCode": "0512 6053",
+      "description": "PORT CTB (REMOVE)(F-SHAPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 940.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "RELMCO, INC.": 10.0,
+        "ACME BRIDGE COMPANY, INC.": 9.5,
+        "DAN WILLIAMS COMPANY": 12.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 13.0
+      }
+    },
+    {
+      "itemCode": "0529 6001",
+      "description": "CONC CURB (TY I)",
+      "unit": "LF",
+      "quantity": 40.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "RELMCO, INC.": 30.0,
+        "ACME BRIDGE COMPANY, INC.": 37.2,
+        "DAN WILLIAMS COMPANY": 47.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 450.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.2,
+      "bidders": {
+        "RELMCO, INC.": 2.2,
+        "ACME BRIDGE COMPANY, INC.": 2.1,
+        "DAN WILLIAMS COMPANY": 5.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.5
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 2700.0,
+      "lowUnit": 3355.0,
+      "bidders": {
+        "RELMCO, INC.": 3355.0,
+        "ACME BRIDGE COMPANY, INC.": 2310.0,
+        "DAN WILLIAMS COMPANY": 4000.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3600.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 375.0,
+      "lowUnit": 220.0,
+      "bidders": {
+        "RELMCO, INC.": 220.0,
+        "ACME BRIDGE COMPANY, INC.": 317.0,
+        "DAN WILLIAMS COMPANY": 400.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 206.0
+      }
+    },
+    {
+      "itemCode": "0545 6003",
+      "description": "CRASH CUSH ATTEN (MOVE & RESET)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 850.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "RELMCO, INC.": 600.0,
+        "ACME BRIDGE COMPANY, INC.": 793.0,
+        "DAN WILLIAMS COMPANY": 650.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 750.0
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 650.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "RELMCO, INC.": 500.0,
+        "ACME BRIDGE COMPANY, INC.": 528.0,
+        "DAN WILLIAMS COMPANY": 650.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0545 6019",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 6500.0,
+      "lowUnit": 8500.0,
+      "bidders": {
+        "RELMCO, INC.": 8500.0,
+        "ACME BRIDGE COMPANY, INC.": 9940.0,
+        "DAN WILLIAMS COMPANY": 10500.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 9400.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 535.0,
+      "lowUnit": 704.0,
+      "bidders": {
+        "RELMCO, INC.": 704.0,
+        "ACME BRIDGE COMPANY, INC.": 555.0,
+        "DAN WILLIAMS COMPANY": 600.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 525.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 22.0,
+      "bidders": {
+        "RELMCO, INC.": 22.0,
+        "ACME BRIDGE COMPANY, INC.": 127.0,
+        "DAN WILLIAMS COMPANY": 120.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 120.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 20.9,
+      "bidders": {
+        "RELMCO, INC.": 20.9,
+        "ACME BRIDGE COMPANY, INC.": 33.8,
+        "DAN WILLIAMS COMPANY": 20.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 32.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 25.3,
+      "bidders": {
+        "RELMCO, INC.": 25.3,
+        "ACME BRIDGE COMPANY, INC.": 38.1,
+        "DAN WILLIAMS COMPANY": 33.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 36.0
+      }
+    },
+    {
+      "itemCode": "0662 6063",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 2880.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.32,
+      "bidders": {
+        "RELMCO, INC.": 1.32,
+        "ACME BRIDGE COMPANY, INC.": 1.25,
+        "DAN WILLIAMS COMPANY": 1.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0662 6075",
+      "description": "WK ZN PAV MRK REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 72.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 16.5,
+      "bidders": {
+        "RELMCO, INC.": 16.5,
+        "ACME BRIDGE COMPANY, INC.": 15.9,
+        "DAN WILLIAMS COMPANY": 15.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 15.0
+      }
+    },
+    {
+      "itemCode": "0662 6095",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 2880.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.32,
+      "bidders": {
+        "RELMCO, INC.": 1.32,
+        "ACME BRIDGE COMPANY, INC.": 1.25,
+        "DAN WILLIAMS COMPANY": 1.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "RELMCO, INC.": 55.0,
+        "ACME BRIDGE COMPANY, INC.": 52.9,
+        "DAN WILLIAMS COMPANY": 50.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "3084 6001",
+      "description": "BONDING COURSE",
+      "unit": "GAL",
+      "quantity": 319.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 5.5,
+      "bidders": {
+        "RELMCO, INC.": 5.5,
+        "ACME BRIDGE COMPANY, INC.": 5.3,
+        "DAN WILLIAMS COMPANY": 5.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "4171 6001",
+      "description": "INSTALL BRIDGE IDENTIFICATION NUMBERS",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "RELMCO, INC.": 300.0,
+        "ACME BRIDGE COMPANY, INC.": 267.0,
+        "DAN WILLIAMS COMPANY": 550.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 350.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "RELMCO, INC.": 15000.0,
+        "ACME BRIDGE COMPANY, INC.": 157000.0,
+        "DAN WILLIAMS COMPANY": 10000.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 14000.0
+      }
+    },
+    {
+      "itemCode": "7202 6025",
+      "description": "STRMWTR TREAT UNIT (54 IN) (3 CART)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 75000.0,
+      "lowUnit": 55000.0,
+      "bidders": {
+        "RELMCO, INC.": 55000.0,
+        "ACME BRIDGE COMPANY, INC.": 50600.0,
+        "DAN WILLIAMS COMPANY": 62000.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 85000.0
+      }
+    }
+  ]
+}

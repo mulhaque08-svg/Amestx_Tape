@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6391-69-001",
+    "county": "Fayette",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639169001",
+    "projectType": "HOT MIX",
+    "letDate": "03/07/23",
+    "engEstTotal": 564000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 480000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 559500.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "QUALITY HOT MIX, INC.",
+      "totalBidAmount": 606000.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 677700.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6042",
+      "description": "D-GR HMA (SQ)(TY-D PG 64-22 SAC-B)(DEL)",
+      "unit": "TON",
+      "quantity": 6000.0,
+      "engEstUnit": 94.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "BRAUNTEX MATERIALS, INC.": 80.0,
+        "COLORADO MATERIALS, LTD.": 93.25,
+        "QUALITY HOT MIX, INC.": 101.0,
+        "TEXAS MATERIALS GROUP, INC.": 112.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6380-59-001",
+    "county": "Sterling",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638059001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "11/09/21",
+    "engEstTotal": 171516.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SQUARE G, INC.",
+      "totalBidAmount": 161831.7
+    },
+    {
+      "rank": 2,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 181187.4
+    },
+    {
+      "rank": 3,
+      "vendorName": "CM COMPANY",
+      "totalBidAmount": 193834.56
+    },
+    {
+      "rank": 4,
+      "vendorName": "DOUBLE A CONTRACTING, L.P.",
+      "totalBidAmount": 217338.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6486.0,
+      "engEstUnit": 26.0,
+      "lowUnit": 24.95,
+      "bidders": {
+        "SQUARE G, INC.": 24.95,
+        "ABESCAPE GROUP LLC": 25.9,
+        "CM COMPANY": 28.96,
+        "DOUBLE A CONTRACTING, L.P.": 33.0
+      }
+    }
+  ]
+}

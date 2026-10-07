@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "csj": "6451-75-001",
+    "county": "Nacogdoches",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645175001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY - NACOGDOCHES",
+    "letDate": "02/01/24",
+    "engEstTotal": 375627.9,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 272318.15
+    },
+    {
+      "rank": 2,
+      "vendorName": "SERVIN MOWING",
+      "totalBidAmount": 275005.02
+    },
+    {
+      "rank": 3,
+      "vendorName": "JOSE ERNESTO SALAZAR, LLC",
+      "totalBidAmount": 351140.48
+    },
+    {
+      "rank": 4,
+      "vendorName": "S G COMPANY, LLC",
+      "totalBidAmount": 373298.12
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 117.68,
+      "engEstUnit": 30.0,
+      "lowUnit": 35.94,
+      "bidders": {
+        "R&M INCORPORATED": 35.94,
+        "SERVIN MOWING": 34.8,
+        "JOSE ERNESTO SALAZAR, LLC": 46.0,
+        "S G COMPANY, LLC": 49.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6265.7,
+      "engEstUnit": 50.0,
+      "lowUnit": 35.94,
+      "bidders": {
+        "R&M INCORPORATED": 35.94,
+        "SERVIN MOWING": 34.8,
+        "JOSE ERNESTO SALAZAR, LLC": 46.0,
+        "S G COMPANY, LLC": 49.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "R&M INCORPORATED": 1.0,
+        "SERVIN MOWING": 34.8,
+        "JOSE ERNESTO SALAZAR, LLC": 20.0,
+        "S G COMPANY, LLC": 15.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 3389.82,
+      "engEstUnit": 15.0,
+      "lowUnit": 12.2,
+      "bidders": {
+        "R&M INCORPORATED": 12.2,
+        "SERVIN MOWING": 14.0,
+        "JOSE ERNESTO SALAZAR, LLC": 14.0,
+        "S G COMPANY, LLC": 15.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 117.68,
+      "engEstUnit": 15.0,
+      "lowUnit": 12.2,
+      "bidders": {
+        "R&M INCORPORATED": 12.2,
+        "SERVIN MOWING": 14.0,
+        "JOSE ERNESTO SALAZAR, LLC": 14.0,
+        "S G COMPANY, LLC": 15.0
+      }
+    }
+  ]
+}

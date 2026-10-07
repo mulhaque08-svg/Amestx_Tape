@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "csj": "6431-30-001",
+    "county": "Bell",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 643130001",
+    "projectType": "HOT MIX",
+    "letDate": "02/02/23",
+    "engEstTotal": 822500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BIG CREEK CONSTRUCTION, LTD.",
+      "totalBidAmount": 820000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "LONE STAR PAVING COMPANY",
+      "totalBidAmount": 827750.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 859000.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 910875.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 72.0,
+      "bidders": {
+        "BIG CREEK CONSTRUCTION, LTD.": 72.0,
+        "LONE STAR PAVING COMPANY": 74.5,
+        "TEXAS MATERIALS GROUP, INC.": 70.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 85.85
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 7000.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 91.0,
+      "bidders": {
+        "BIG CREEK CONSTRUCTION, LTD.": 91.0,
+        "LONE STAR PAVING COMPANY": 92.5,
+        "TEXAS MATERIALS GROUP, INC.": 95.5,
+        "KNIFE RIVER CORPORATION - SOUTH": 100.1
+      }
+    },
+    {
+      "itemCode": "8011 6014",
+      "description": "D-GR HMA(SQ)TY B PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 64.0,
+      "bidders": {
+        "BIG CREEK CONSTRUCTION, LTD.": 64.0,
+        "LONE STAR PAVING COMPANY": 63.5,
+        "TEXAS MATERIALS GROUP, INC.": 65.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 76.5
+      }
+    },
+    {
+      "itemCode": "8011 6015",
+      "description": "D-GR HMA(SQ)TY B PG 64-22(DELIVERY)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 83.0,
+      "bidders": {
+        "BIG CREEK CONSTRUCTION, LTD.": 83.0,
+        "LONE STAR PAVING COMPANY": 79.5,
+        "TEXAS MATERIALS GROUP, INC.": 90.5,
+        "KNIFE RIVER CORPORATION - SOUTH": 90.75
+      }
+    }
+  ]
+}

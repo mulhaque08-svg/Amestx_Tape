@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6415-24-001",
+    "county": "Ellis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641524001",
+    "projectType": "HOT MIX",
+    "letDate": "10/12/22",
+    "engEstTotal": 285000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 229400.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BIG CREEK CONSTRUCTION, LTD.",
+      "totalBidAmount": 244150.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8006 6003",
+      "description": "SP MIXTURES SP-C PG70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 250.0,
+      "engEstUnit": 103.0,
+      "lowUnit": 88.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 88.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 95.0
+      }
+    },
+    {
+      "itemCode": "8006 6007",
+      "description": "SP MIXTURES SP-D PG70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 250.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 88.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 88.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 95.0
+      }
+    },
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 81.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 81.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 85.5
+      }
+    },
+    {
+      "itemCode": "8011 6016",
+      "description": "D-GR HMA(SQ)TY C PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 300.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 78.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 78.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 85.5
+      }
+    }
+  ]
+}

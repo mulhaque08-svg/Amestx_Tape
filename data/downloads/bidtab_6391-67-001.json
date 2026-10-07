@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6391-67-001",
+    "county": "Taylor",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639167001",
+    "projectType": "DEBRIS REMOVAL",
+    "letDate": "12/01/21",
+    "engEstTotal": 498000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 636432.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 895200.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0735 6167",
+      "description": "DEBRIS REMOV-CNTR MED/MN LNS/RAMPS",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 15500.0,
+      "lowUnit": 14800.0,
+      "bidders": {
+        "ANTHONY SERVICES": 14800.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 31000.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6424-90-001",
+    "county": "Angelina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642490001",
+    "projectType": "DEBRIS REMOVAL",
+    "letDate": "11/02/22",
+    "engEstTotal": 460640.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC",
+      "totalBidAmount": 282328.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 415060.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC",
+      "totalBidAmount": 539936.2
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 1.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 1000.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 1097.77
+      }
+    },
+    {
+      "itemCode": "0735 6002",
+      "description": "DEBRIS REMOVAL (CNTR MEDIANS/MAINLANES)",
+      "unit": "MI",
+      "quantity": 10107.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 20.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 35.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 20.77
+      }
+    },
+    {
+      "itemCode": "0735 6006",
+      "description": "DEBRIS REMOVAL (ENTRANCE/EXIT RAMPS)",
+      "unit": "MI",
+      "quantity": 529.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 20.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 35.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 107.77
+      }
+    }
+  ]
+}

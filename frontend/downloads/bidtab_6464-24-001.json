@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "csj": "6464-24-001",
+    "county": "Brewster",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646424001",
+    "projectType": "TRAFFIC CONTROL SERVICES",
+    "letDate": "04/05/24",
+    "engEstTotal": 482500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "APACHE BARRICADE & SIGN",
+      "totalBidAmount": 517500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 75000.0,
+      "bidders": {
+        "APACHE BARRICADE & SIGN": 75000.0
+      }
+    },
+    {
+      "itemCode": "0510 6001",
+      "description": "ONE-WAY TRAF CONT (FLAGGER CONT)",
+      "unit": "HR",
+      "quantity": 300.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "APACHE BARRICADE & SIGN": 125.0
+      }
+    },
+    {
+      "itemCode": "0510 6002",
+      "description": "ONE-WAY TRAF CONT (PILOT CAR)",
+      "unit": "HR",
+      "quantity": 800.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "APACHE BARRICADE & SIGN": 150.0
+      }
+    },
+    {
+      "itemCode": "7148 6001",
+      "description": "1 LN CLOSURE 2 LN RD NO SHOULDERS",
+      "unit": "HR",
+      "quantity": 300.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "APACHE BARRICADE & SIGN": 150.0
+      }
+    },
+    {
+      "itemCode": "7148 6002",
+      "description": "1 LN CLOSURE 2 LN RD PAVED SHOULDERS",
+      "unit": "HR",
+      "quantity": 1000.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "APACHE BARRICADE & SIGN": 100.0
+      }
+    },
+    {
+      "itemCode": "7148 6016",
+      "description": "WORK AREA ON SHOULDER",
+      "unit": "HR",
+      "quantity": 200.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "APACHE BARRICADE & SIGN": 100.0
+      }
+    }
+  ]
+}

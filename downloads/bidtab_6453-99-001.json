@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6453-99-001",
+    "county": "Coleman",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645399001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/14/23",
+    "engEstTotal": 299475.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRIPLE T MAINTENANCE INC.",
+      "totalBidAmount": 202977.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "T&L CLEANING SERVICES LLC",
+      "totalBidAmount": 211629.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "GREG SCRUGGS",
+      "totalBidAmount": 229198.2
+    },
+    {
+      "rank": 4,
+      "vendorName": "BIG STATE MAINTENANCE, INC.",
+      "totalBidAmount": 329422.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 6655.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 30.5,
+      "bidders": {
+        "TRIPLE T MAINTENANCE INC.": 30.5,
+        "T&L CLEANING SERVICES LLC": 31.8,
+        "GREG SCRUGGS": 34.44,
+        "BIG STATE MAINTENANCE, INC.": 49.5
+      }
+    }
+  ]
+}

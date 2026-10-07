@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6399-88-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639988001",
+    "projectType": "SWEEPING AND DEBRIS REMOVAL",
+    "letDate": "06/29/22",
+    "engEstTotal": 2726697.68,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SWEEPING CORPORATION OF AMERICA, LLC",
+      "totalBidAmount": 2900071.15
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 100000.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 0.01
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 0.01
+      }
+    }
+  ]
+}

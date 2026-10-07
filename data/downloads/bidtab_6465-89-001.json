@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6465-89-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646589001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/07/24",
+    "engEstTotal": 230480.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 232474.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 299522.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 425066.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 1.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0,
+        "D & M CONTRACTORS, LLC": 35000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 40.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 1.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 450.0,
+        "D & M CONTRACTORS, LLC": 2.0
+      }
+    }
+  ]
+}

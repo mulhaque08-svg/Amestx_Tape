@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6449-63-001",
+    "county": "San Augustine",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644963001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY - SAN AUGUSTINE",
+    "letDate": "01/17/24",
+    "engEstTotal": 237683.02,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 181625.1
+    },
+    {
+      "rank": 2,
+      "vendorName": "ACE CONTRACTORS, INC.",
+      "totalBidAmount": 288800.32
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 4071.38,
+      "engEstUnit": 50.0,
+      "lowUnit": 36.44,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 36.44,
+        "ACE CONTRACTORS, INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 18.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 1.0,
+        "ACE CONTRACTORS, INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 2372.43,
+      "engEstUnit": 14.0,
+      "lowUnit": 14.0,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 14.0,
+        "ACE CONTRACTORS, INC.": 17.5
+      }
+    }
+  ]
+}

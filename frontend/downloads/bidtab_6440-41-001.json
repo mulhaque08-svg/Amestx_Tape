@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6440-41-001",
+    "county": "Kimble",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644041001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "06/13/23",
+    "engEstTotal": 193642.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "USA DT SERVICES, INC.",
+      "totalBidAmount": 192844.45
+    },
+    {
+      "rank": 2,
+      "vendorName": "CONCAN SERVICES LLC",
+      "totalBidAmount": 196280.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 202871.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1796.0,
+      "engEstUnit": 34.0,
+      "lowUnit": 28.09,
+      "bidders": {
+        "USA DT SERVICES, INC.": 28.09,
+        "CONCAN SERVICES LLC": 35.0,
+        "R&M INCORPORATED": 38.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 3542.0,
+      "engEstUnit": 34.0,
+      "lowUnit": 28.09,
+      "bidders": {
+        "USA DT SERVICES, INC.": 28.09,
+        "CONCAN SERVICES LLC": 35.0,
+        "R&M INCORPORATED": 38.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "csj": "6455-43-001",
+    "county": "Falls",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645543001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "11/01/23",
+    "engEstTotal": 503203.88,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "T&L CLEANING SERVICES LLC",
+      "totalBidAmount": 493061.8
+    },
+    {
+      "rank": 2,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 533840.43
+    },
+    {
+      "rank": 3,
+      "vendorName": "JASCO",
+      "totalBidAmount": 557026.5
+    },
+    {
+      "rank": 4,
+      "vendorName": "CEN-TEX IRRIGATION SYSTEMS, INC.",
+      "totalBidAmount": 635466.36
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6542.2,
+      "engEstUnit": 60.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 65.0,
+        "P-VILLE, INCORPORATED": 74.85,
+        "JASCO": 65.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 81.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 60.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 65.0,
+        "P-VILLE, INCORPORATED": 1.0,
+        "JASCO": 65.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 81.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 3145.34,
+      "engEstUnit": 22.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 20.0,
+        "P-VILLE, INCORPORATED": 14.0,
+        "JASCO": 25.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 24.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 24.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 20.0,
+        "P-VILLE, INCORPORATED": 1.0,
+        "JASCO": 25.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 24.0
+      }
+    }
+  ]
+}

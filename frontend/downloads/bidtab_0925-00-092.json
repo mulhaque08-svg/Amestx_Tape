@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "0925-00-092",
+    "county": "Childress",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 925-00-92",
+    "projectType": "SURFACING/ROADWAY RESTORATION",
+    "letDate": "10/06/23",
+    "engEstTotal": 758069.3,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 637223.85
+    },
+    {
+      "rank": 2,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 894956.89
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 60000.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 5000.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 5000.0
+      }
+    }
+  ]
+}

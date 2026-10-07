@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6461-94-001",
+    "county": "Brewster",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646194001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/06/24",
+    "engEstTotal": 817000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MIJELUM, L.L.C.",
+      "totalBidAmount": 704001.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "JOSE ERNESTO SALAZAR, LLC",
+      "totalBidAmount": 760000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "L&L COMPANY",
+      "totalBidAmount": 981201.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "MIJELUM, L.L.C.": 1.0,
+        "JOSE ERNESTO SALAZAR, LLC": 5000.0,
+        "L&L COMPANY": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 20000.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 34.0,
+      "bidders": {
+        "MIJELUM, L.L.C.": 34.0,
+        "JOSE ERNESTO SALAZAR, LLC": 36.25,
+        "L&L COMPANY": 49.0
+      }
+    }
+  ]
+}

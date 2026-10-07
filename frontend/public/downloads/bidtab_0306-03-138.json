@@ -1,0 +1,542 @@
+{
+  "metadata": {
+    "csj": "0306-03-138",
+    "county": "Jefferson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 306-3-138",
+    "projectType": "SURFACING/ROADWAY RESTORATION",
+    "letDate": "01/05/24",
+    "engEstTotal": 5853727.64,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SELECT MAINTENANCE, L.L.C.",
+      "totalBidAmount": 6555483.35
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 6836413.61
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6021",
+      "description": "REMOVING CONC (CURB)",
+      "unit": "LF",
+      "quantity": 300.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 4.0,
+        "TEXAS MATERIALS GROUP, INC.": 18.0
+      }
+    },
+    {
+      "itemCode": "0134 6004",
+      "description": "BACKFILL (TY A OR B)",
+      "unit": "STA",
+      "quantity": 79.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 225.0,
+        "TEXAS MATERIALS GROUP, INC.": 550.0
+      }
+    },
+    {
+      "itemCode": "0354 6021",
+      "description": "PLANE ASPH CONC PAV(0\" TO 2\")",
+      "unit": "SY",
+      "quantity": 42151.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 3.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 3.0,
+        "TEXAS MATERIALS GROUP, INC.": 3.3
+      }
+    },
+    {
+      "itemCode": "0354 6036",
+      "description": "PLANE CONC PAV(0\" TO 1-1/2\")",
+      "unit": "SY",
+      "quantity": 4079.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 5.75,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 5.75,
+        "TEXAS MATERIALS GROUP, INC.": 7.5
+      }
+    },
+    {
+      "itemCode": "0361 6044",
+      "description": "FULL - DEPTH REPAIR CPJR (9\")",
+      "unit": "SY",
+      "quantity": 600.0,
+      "engEstUnit": 340.0,
+      "lowUnit": 450.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 450.0,
+        "TEXAS MATERIALS GROUP, INC.": 700.0
+      }
+    },
+    {
+      "itemCode": "0438 6001",
+      "description": "CLEANING AND SEALING EXISTING JOINTS",
+      "unit": "LF",
+      "quantity": 83736.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.1,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 4.1,
+        "TEXAS MATERIALS GROUP, INC.": 2.5
+      }
+    },
+    {
+      "itemCode": "0529 6002",
+      "description": "CONC CURB (TY II)",
+      "unit": "LF",
+      "quantity": 300.0,
+      "engEstUnit": 22.5,
+      "lowUnit": 32.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 32.0,
+        "TEXAS MATERIALS GROUP, INC.": 22.0
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 388.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 55.0,
+        "TEXAS MATERIALS GROUP, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0530 6016",
+      "description": "DRIVEWAYS (BASE)",
+      "unit": "SY",
+      "quantity": 1071.0,
+      "engEstUnit": 53.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 35.0,
+        "TEXAS MATERIALS GROUP, INC.": 35.0
+      }
+    },
+    {
+      "itemCode": "0544 6008",
+      "description": "GUARDRAIL END TRTMNT(RETRO)(STEEL POST)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 4335.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 4335.0,
+        "TEXAS MATERIALS GROUP, INC.": 4600.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 78.0,
+      "engEstUnit": 550.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 500.0,
+        "TEXAS MATERIALS GROUP, INC.": 750.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 740.0,
+      "lowUnit": 550.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 550.0,
+        "TEXAS MATERIALS GROUP, INC.": 900.0
+      }
+    },
+    {
+      "itemCode": "0644 6007",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(U)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 590.0,
+      "lowUnit": 715.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 715.0,
+        "TEXAS MATERIALS GROUP, INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 92.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 50.0,
+        "TEXAS MATERIALS GROUP, INC.": 175.0
+      }
+    },
+    {
+      "itemCode": "0658 6099",
+      "description": "INSTL OM ASSM (OM-2Z)(WFLX)GND",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 48.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 85.0,
+        "TEXAS MATERIALS GROUP, INC.": 290.0
+      }
+    },
+    {
+      "itemCode": "0662 6005",
+      "description": "WK ZN PAV MRK NON-REMOV (W)6\"(BRK)",
+      "unit": "LF",
+      "quantity": 7800.0,
+      "engEstUnit": 0.4,
+      "lowUnit": 0.5,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.5,
+        "TEXAS MATERIALS GROUP, INC.": 0.58
+      }
+    },
+    {
+      "itemCode": "0662 6008",
+      "description": "WK ZN PAV MRK NON-REMOV (W)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 17000.0,
+      "engEstUnit": 0.65,
+      "lowUnit": 0.49,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.49,
+        "TEXAS MATERIALS GROUP, INC.": 0.6
+      }
+    },
+    {
+      "itemCode": "0662 6012",
+      "description": "WK ZN PAV MRK NON-REMOV (W)8\"(SLD)",
+      "unit": "LF",
+      "quantity": 2336.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.8,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.8,
+        "TEXAS MATERIALS GROUP, INC.": 0.95
+      }
+    },
+    {
+      "itemCode": "0662 6016",
+      "description": "WK ZN PAV MRK NON-REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 633.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 8.0,
+        "TEXAS MATERIALS GROUP, INC.": 4.85
+      }
+    },
+    {
+      "itemCode": "0662 6017",
+      "description": "WK ZN PAV MRK NON-REMOV (W)(ARROW)",
+      "unit": "EA",
+      "quantity": 21.0,
+      "engEstUnit": 92.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 150.0,
+        "TEXAS MATERIALS GROUP, INC.": 120.0
+      }
+    },
+    {
+      "itemCode": "0662 6035",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)6\"(BRK)",
+      "unit": "LF",
+      "quantity": 1050.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.5,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.5,
+        "TEXAS MATERIALS GROUP, INC.": 0.75
+      }
+    },
+    {
+      "itemCode": "0662 6037",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 12800.0,
+      "engEstUnit": 0.35,
+      "lowUnit": 0.49,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.49,
+        "TEXAS MATERIALS GROUP, INC.": 0.75
+      }
+    },
+    {
+      "itemCode": "0662 6109",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY W",
+      "unit": "EA",
+      "quantity": 2006.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 0.5,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.5,
+        "TEXAS MATERIALS GROUP, INC.": 5.81
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 328.0,
+      "engEstUnit": 0.4,
+      "lowUnit": 0.5,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.5,
+        "TEXAS MATERIALS GROUP, INC.": 6.0
+      }
+    },
+    {
+      "itemCode": "0668 6076",
+      "description": "PREFAB PAV MRK TY C (W) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 663.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 17.5,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 17.5,
+        "TEXAS MATERIALS GROUP, INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 21.0,
+      "engEstUnit": 210.0,
+      "lowUnit": 270.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 270.0,
+        "TEXAS MATERIALS GROUP, INC.": 330.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 400.0,
+        "TEXAS MATERIALS GROUP, INC.": 470.0
+      }
+    },
+    {
+      "itemCode": "0668 6092",
+      "description": "PREFAB PAV MRK TY C (W) (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 39.0,
+      "engEstUnit": 56.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 65.0,
+        "TEXAS MATERIALS GROUP, INC.": 76.0
+      }
+    },
+    {
+      "itemCode": "0668 6108",
+      "description": "PREFAB PAV MRK TY C (Y) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 252.0,
+      "engEstUnit": 14.5,
+      "lowUnit": 18.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 18.0,
+        "TEXAS MATERIALS GROUP, INC.": 21.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 52.0,
+      "engEstUnit": 7.5,
+      "lowUnit": 6.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 6.0,
+        "TEXAS MATERIALS GROUP, INC.": 5.75
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 240.0,
+      "engEstUnit": 4.15,
+      "lowUnit": 6.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 6.0,
+        "TEXAS MATERIALS GROUP, INC.": 5.75
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 288.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 6.0,
+        "TEXAS MATERIALS GROUP, INC.": 7.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 1950.0,
+      "engEstUnit": 1.1,
+      "lowUnit": 0.5,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.5,
+        "TEXAS MATERIALS GROUP, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 1950.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.35,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.35,
+        "TEXAS MATERIALS GROUP, INC.": 0.9
+      }
+    },
+    {
+      "itemCode": "0720 6001",
+      "description": "SPALLING REPAIR (HYDRAULIC CEMENT)",
+      "unit": "CF",
+      "quantity": 960.0,
+      "engEstUnit": 190.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 140.0,
+        "TEXAS MATERIALS GROUP, INC.": 295.0
+      }
+    },
+    {
+      "itemCode": "0720 6003",
+      "description": "SPALLING REPAIR (POLYMERIC) (SEMIRIGID)",
+      "unit": "GAL",
+      "quantity": 7181.0,
+      "engEstUnit": 87.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 60.0,
+        "TEXAS MATERIALS GROUP, INC.": 80.0
+      }
+    },
+    {
+      "itemCode": "3004 6001",
+      "description": "CONTINUOUS DIAMOND GRINDING CONC PVMT",
+      "unit": "SY",
+      "quantity": 28932.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 20.0,
+        "TEXAS MATERIALS GROUP, INC.": 17.0
+      }
+    },
+    {
+      "itemCode": "3039 6001",
+      "description": "DOWEL BAR RETROFIT",
+      "unit": "EA",
+      "quantity": 5616.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 95.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 95.0,
+        "TEXAS MATERIALS GROUP, INC.": 175.0
+      }
+    },
+    {
+      "itemCode": "3081 6007",
+      "description": "TOM-C PG76-22 SAC-A",
+      "unit": "TON",
+      "quantity": 6327.0,
+      "engEstUnit": 260.0,
+      "lowUnit": 365.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 365.0,
+        "TEXAS MATERIALS GROUP, INC.": 330.0
+      }
+    },
+    {
+      "itemCode": "3081 6015",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 11199.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 15.0,
+        "TEXAS MATERIALS GROUP, INC.": 12.0
+      }
+    },
+    {
+      "itemCode": "3086 6001",
+      "description": "SOIL DENS.AND RAISING CONC.SLABS(HDPF)",
+      "unit": "LB",
+      "quantity": 2754.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 6.0,
+        "TEXAS MATERIALS GROUP, INC.": 7.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 9800.0,
+      "lowUnit": 24000.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 24000.0,
+        "TEXAS MATERIALS GROUP, INC.": 10000.0
+      }
+    },
+    {
+      "itemCode": "6227 6002",
+      "description": "SOLAR POWERED LED ROADSIDE SIGN",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 4000.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 4000.0,
+        "TEXAS MATERIALS GROUP, INC.": 4700.0
+      }
+    }
+  ]
+}

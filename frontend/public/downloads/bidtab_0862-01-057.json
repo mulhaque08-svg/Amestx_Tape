@@ -1,0 +1,821 @@
+{
+  "metadata": {
+    "csj": "0862-01-057",
+    "county": "Hidalgo",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2023(199)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "11/03/22",
+    "engEstTotal": 2066856.82,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS CORDIA CONSTRUCTION, LLC",
+      "totalBidAmount": 1917663.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "LUCANIA CONSTRUCTION LLC",
+      "totalBidAmount": 2174193.75
+    },
+    {
+      "rank": 3,
+      "vendorName": "FOREMOST PAVING, INC.",
+      "totalBidAmount": 2244245.35
+    },
+    {
+      "rank": 4,
+      "vendorName": "IOC COMPANY LLC",
+      "totalBidAmount": 2889271.44
+    },
+    {
+      "rank": 5,
+      "vendorName": "ARANDA BROTHERS CONSTRUCTION CO., INC.",
+      "totalBidAmount": 3151699.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 14.55,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1000.0,
+        "LUCANIA CONSTRUCTION LLC": 900.0,
+        "FOREMOST PAVING, INC.": 2250.0,
+        "IOC COMPANY LLC": 8500.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 15000.0
+      }
+    },
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 94.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 12.0,
+        "LUCANIA CONSTRUCTION LLC": 36.0,
+        "FOREMOST PAVING, INC.": 10.0,
+        "IOC COMPANY LLC": 50.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0105 6043",
+      "description": "REMOVING STAB BASE & ASPH PAV (0-6\")",
+      "unit": "SY",
+      "quantity": 3892.0,
+      "engEstUnit": 3.97,
+      "lowUnit": 3.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 3.0,
+        "LUCANIA CONSTRUCTION LLC": 12.0,
+        "FOREMOST PAVING, INC.": 6.0,
+        "IOC COMPANY LLC": 10.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 12.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 1320.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 6.0,
+        "LUCANIA CONSTRUCTION LLC": 20.0,
+        "FOREMOST PAVING, INC.": 13.6,
+        "IOC COMPANY LLC": 20.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 58.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 20.0,
+        "LUCANIA CONSTRUCTION LLC": 100.0,
+        "FOREMOST PAVING, INC.": 25.0,
+        "IOC COMPANY LLC": 150.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0132 6006",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY C)",
+      "unit": "CY",
+      "quantity": 1115.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 4.0,
+        "LUCANIA CONSTRUCTION LLC": 35.0,
+        "FOREMOST PAVING, INC.": 18.5,
+        "IOC COMPANY LLC": 20.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 35.0
+      }
+    },
+    {
+      "itemCode": "0160 6003",
+      "description": "FURNISHING AND PLACING TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 6053.0,
+      "engEstUnit": 1.29,
+      "lowUnit": 3.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 3.0,
+        "LUCANIA CONSTRUCTION LLC": 5.0,
+        "FOREMOST PAVING, INC.": 6.5,
+        "IOC COMPANY LLC": 3.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0164 6023",
+      "description": "CELL FBR MLCH SEED(PERM)(RURAL)(CLAY)",
+      "unit": "SY",
+      "quantity": 2381.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 1.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1.0,
+        "LUCANIA CONSTRUCTION LLC": 0.75,
+        "FOREMOST PAVING, INC.": 0.7,
+        "IOC COMPANY LLC": 0.65,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0164 6027",
+      "description": "CELL FBR MLCH SEED(PERM)(URBAN)(CLAY)",
+      "unit": "SY",
+      "quantity": 2772.0,
+      "engEstUnit": 0.21,
+      "lowUnit": 1.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1.0,
+        "LUCANIA CONSTRUCTION LLC": 0.75,
+        "FOREMOST PAVING, INC.": 0.7,
+        "IOC COMPANY LLC": 0.65,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0164 6029",
+      "description": "CELL FBR MLCH SEED(TEMP)(WARM)",
+      "unit": "SY",
+      "quantity": 5153.0,
+      "engEstUnit": 0.41,
+      "lowUnit": 1.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1.0,
+        "LUCANIA CONSTRUCTION LLC": 0.75,
+        "FOREMOST PAVING, INC.": 0.7,
+        "IOC COMPANY LLC": 0.65,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 167.5,
+      "engEstUnit": 32.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 30.0,
+        "LUCANIA CONSTRUCTION LLC": 80.0,
+        "FOREMOST PAVING, INC.": 55.0,
+        "IOC COMPANY LLC": 95.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 105.0
+      }
+    },
+    {
+      "itemCode": "0169 6005",
+      "description": "SOIL RETENTION BLANKETS (CL 2) (TY E)",
+      "unit": "SY",
+      "quantity": 78.0,
+      "engEstUnit": 1.4,
+      "lowUnit": 5.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 5.0,
+        "LUCANIA CONSTRUCTION LLC": 5.0,
+        "FOREMOST PAVING, INC.": 5.0,
+        "IOC COMPANY LLC": 5.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 35.0
+      }
+    },
+    {
+      "itemCode": "0216 6001",
+      "description": "PROOF ROLLING",
+      "unit": "HR",
+      "quantity": 8.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 74.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 74.0,
+        "LUCANIA CONSTRUCTION LLC": 60.0,
+        "FOREMOST PAVING, INC.": 100.0,
+        "IOC COMPANY LLC": 50.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 90.0
+      }
+    },
+    {
+      "itemCode": "0251 6021",
+      "description": "REWORK BS MTL (TY A) (6\") (ORD COMP)",
+      "unit": "SY",
+      "quantity": 2200.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 2.0,
+        "LUCANIA CONSTRUCTION LLC": 9.0,
+        "FOREMOST PAVING, INC.": 5.0,
+        "IOC COMPANY LLC": 10.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "0260 6002",
+      "description": "LIME (HYDRATED LIME (SLURRY))",
+      "unit": "TON",
+      "quantity": 90.0,
+      "engEstUnit": 190.0,
+      "lowUnit": 290.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 290.0,
+        "LUCANIA CONSTRUCTION LLC": 430.0,
+        "FOREMOST PAVING, INC.": 300.0,
+        "IOC COMPANY LLC": 245.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 450.0
+      }
+    },
+    {
+      "itemCode": "0260 6034",
+      "description": "LIME TRT (MIX EXST MATL&NEW BASE(12\")",
+      "unit": "SY",
+      "quantity": 5521.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 2.0,
+        "LUCANIA CONSTRUCTION LLC": 3.5,
+        "FOREMOST PAVING, INC.": 8.0,
+        "IOC COMPANY LLC": 6.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 7.0
+      }
+    },
+    {
+      "itemCode": "0275 6001",
+      "description": "CEMENT",
+      "unit": "TON",
+      "quantity": 64.0,
+      "engEstUnit": 193.0,
+      "lowUnit": 190.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 190.0,
+        "LUCANIA CONSTRUCTION LLC": 270.0,
+        "FOREMOST PAVING, INC.": 205.0,
+        "IOC COMPANY LLC": 200.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 285.0
+      }
+    },
+    {
+      "itemCode": "0275 6046",
+      "description": "CEMENT TREAT (NEW BASE)(11\")",
+      "unit": "SY",
+      "quantity": 5521.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 2.0,
+        "LUCANIA CONSTRUCTION LLC": 3.5,
+        "FOREMOST PAVING, INC.": 7.5,
+        "IOC COMPANY LLC": 6.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 35.0
+      }
+    },
+    {
+      "itemCode": "0310 6009",
+      "description": "PRIME COAT (MC-30)",
+      "unit": "GAL",
+      "quantity": 1105.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 4.0,
+        "LUCANIA CONSTRUCTION LLC": 15.0,
+        "FOREMOST PAVING, INC.": 8.0,
+        "IOC COMPANY LLC": 10.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 12.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 138.0,
+      "engEstUnit": 135.0,
+      "lowUnit": 64.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 64.0,
+        "LUCANIA CONSTRUCTION LLC": 190.0,
+        "FOREMOST PAVING, INC.": 110.0,
+        "IOC COMPANY LLC": 150.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 130.0
+      }
+    },
+    {
+      "itemCode": "0407 6001",
+      "description": "SHEET PILING (PZ - 27)",
+      "unit": "SF",
+      "quantity": 3081.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 64.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 64.0,
+        "LUCANIA CONSTRUCTION LLC": 60.0,
+        "FOREMOST PAVING, INC.": 80.0,
+        "IOC COMPANY LLC": 115.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 70.0
+      }
+    },
+    {
+      "itemCode": "0416 6002",
+      "description": "DRILL SHAFT (24 IN)",
+      "unit": "LF",
+      "quantity": 340.0,
+      "engEstUnit": 181.0,
+      "lowUnit": 275.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 275.0,
+        "LUCANIA CONSTRUCTION LLC": 370.0,
+        "FOREMOST PAVING, INC.": 220.0,
+        "IOC COMPANY LLC": 236.68,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 450.0
+      }
+    },
+    {
+      "itemCode": "0416 6004",
+      "description": "DRILL SHAFT (36 IN)",
+      "unit": "LF",
+      "quantity": 360.0,
+      "engEstUnit": 310.0,
+      "lowUnit": 344.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 344.0,
+        "LUCANIA CONSTRUCTION LLC": 400.0,
+        "FOREMOST PAVING, INC.": 470.0,
+        "IOC COMPANY LLC": 290.55,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 475.0
+      }
+    },
+    {
+      "itemCode": "0422 6001",
+      "description": "REINF CONC SLAB",
+      "unit": "SF",
+      "quantity": 3220.0,
+      "engEstUnit": 21.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 35.0,
+        "LUCANIA CONSTRUCTION LLC": 32.0,
+        "FOREMOST PAVING, INC.": 26.0,
+        "IOC COMPANY LLC": 45.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 28.0
+      }
+    },
+    {
+      "itemCode": "0422 6007",
+      "description": "REINF CONC SLAB (SLAB BEAM)",
+      "unit": "SF",
+      "quantity": 1610.0,
+      "engEstUnit": 17.41,
+      "lowUnit": 37.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 37.0,
+        "LUCANIA CONSTRUCTION LLC": 35.0,
+        "FOREMOST PAVING, INC.": 23.0,
+        "IOC COMPANY LLC": 40.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 23.0
+      }
+    },
+    {
+      "itemCode": "0432 6002",
+      "description": "RIPRAP (CONC)(5 IN)",
+      "unit": "CY",
+      "quantity": 39.0,
+      "engEstUnit": 355.0,
+      "lowUnit": 648.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 648.0,
+        "LUCANIA CONSTRUCTION LLC": 650.0,
+        "FOREMOST PAVING, INC.": 1100.0,
+        "IOC COMPANY LLC": 1250.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 575.0
+      }
+    },
+    {
+      "itemCode": "0432 6005",
+      "description": "RIPRAP (CONC) (CL A )",
+      "unit": "CY",
+      "quantity": 22.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 657.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 657.0,
+        "LUCANIA CONSTRUCTION LLC": 630.0,
+        "FOREMOST PAVING, INC.": 1400.0,
+        "IOC COMPANY LLC": 1250.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 575.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 33.0,
+      "engEstUnit": 514.0,
+      "lowUnit": 724.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 724.0,
+        "LUCANIA CONSTRUCTION LLC": 630.0,
+        "FOREMOST PAVING, INC.": 1200.0,
+        "IOC COMPANY LLC": 1250.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 750.0
+      }
+    },
+    {
+      "itemCode": "0454 6020",
+      "description": "SEALED EXPANSION JOINT (4 IN) (SEJ - B)",
+      "unit": "LF",
+      "quantity": 186.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 179.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 179.0,
+        "LUCANIA CONSTRUCTION LLC": 170.0,
+        "FOREMOST PAVING, INC.": 150.0,
+        "IOC COMPANY LLC": 175.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0467 6395",
+      "description": "SET (TY II) (24 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1617.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1617.0,
+        "LUCANIA CONSTRUCTION LLC": 2200.0,
+        "FOREMOST PAVING, INC.": 1600.0,
+        "IOC COMPANY LLC": 4000.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 1850.0
+      }
+    },
+    {
+      "itemCode": "0496 6002",
+      "description": "REMOV STR (INLET)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 738.0,
+      "lowUnit": 1697.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1697.0,
+        "LUCANIA CONSTRUCTION LLC": 1500.0,
+        "FOREMOST PAVING, INC.": 800.0,
+        "IOC COMPANY LLC": 1500.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 750.0
+      }
+    },
+    {
+      "itemCode": "0496 6007",
+      "description": "REMOV STR (PIPE)",
+      "unit": "LF",
+      "quantity": 154.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 8.0,
+        "LUCANIA CONSTRUCTION LLC": 20.0,
+        "FOREMOST PAVING, INC.": 15.0,
+        "IOC COMPANY LLC": 25.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 38633.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 38633.0,
+        "LUCANIA CONSTRUCTION LLC": 25000.0,
+        "FOREMOST PAVING, INC.": 45000.0,
+        "IOC COMPANY LLC": 75000.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 45850.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 147337.0,
+      "lowUnit": 131650.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 131650.0,
+        "LUCANIA CONSTRUCTION LLC": 138000.0,
+        "FOREMOST PAVING, INC.": 192000.0,
+        "IOC COMPANY LLC": 275000.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 295000.0
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 505.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 36.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 36.0,
+        "LUCANIA CONSTRUCTION LLC": 55.0,
+        "FOREMOST PAVING, INC.": 98.0,
+        "IOC COMPANY LLC": 100.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 65.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 1036.0,
+      "engEstUnit": 2.38,
+      "lowUnit": 3.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 3.0,
+        "LUCANIA CONSTRUCTION LLC": 3.0,
+        "FOREMOST PAVING, INC.": 2.5,
+        "IOC COMPANY LLC": 3.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 3397.0,
+      "lowUnit": 3555.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 3555.0,
+        "LUCANIA CONSTRUCTION LLC": 3900.0,
+        "FOREMOST PAVING, INC.": 3500.0,
+        "IOC COMPANY LLC": 3449.21,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 3750.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 279.0,
+      "lowUnit": 275.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 275.0,
+        "LUCANIA CONSTRUCTION LLC": 325.0,
+        "FOREMOST PAVING, INC.": 350.0,
+        "IOC COMPANY LLC": 349.21,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 700.0
+      }
+    },
+    {
+      "itemCode": "0545 6012",
+      "description": "CRASH CUSH ATTEN (INSTL)(R)(N)(TL2)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 15191.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 15191.0,
+        "LUCANIA CONSTRUCTION LLC": 18000.0,
+        "FOREMOST PAVING, INC.": 15700.0,
+        "IOC COMPANY LLC": 15690.49,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 27500.0
+      }
+    },
+    {
+      "itemCode": "0552 6002",
+      "description": "WIRE FENCE (TY B)",
+      "unit": "LF",
+      "quantity": 165.0,
+      "engEstUnit": 16.0,
+      "lowUnit": 39.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 39.0,
+        "LUCANIA CONSTRUCTION LLC": 45.0,
+        "FOREMOST PAVING, INC.": 25.0,
+        "IOC COMPANY LLC": 24.49,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "0560 6011",
+      "description": "MAILBOX INSTALL-S (TWW-POST) TY 4",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 215.0,
+      "lowUnit": 280.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 280.0,
+        "LUCANIA CONSTRUCTION LLC": 400.0,
+        "FOREMOST PAVING, INC.": 330.0,
+        "IOC COMPANY LLC": 325.49,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0644 6027",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(P)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 755.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 755.0,
+        "LUCANIA CONSTRUCTION LLC": 800.0,
+        "FOREMOST PAVING, INC.": 1225.0,
+        "IOC COMPANY LLC": 1221.49,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 850.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 94.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 85.0,
+        "LUCANIA CONSTRUCTION LLC": 200.0,
+        "FOREMOST PAVING, INC.": 325.0,
+        "IOC COMPANY LLC": 321.49,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 650.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 20.0,
+        "LUCANIA CONSTRUCTION LLC": 7.0,
+        "FOREMOST PAVING, INC.": 20.0,
+        "IOC COMPANY LLC": 19.49,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 95.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 27.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 27.0,
+        "LUCANIA CONSTRUCTION LLC": 15.0,
+        "FOREMOST PAVING, INC.": 30.0,
+        "IOC COMPANY LLC": 29.49,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 35.0
+      }
+    },
+    {
+      "itemCode": "0658 6080",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(WFLX)GND",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 91.5,
+      "lowUnit": 59.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 59.0,
+        "LUCANIA CONSTRUCTION LLC": 65.0,
+        "FOREMOST PAVING, INC.": 60.0,
+        "IOC COMPANY LLC": 59.49,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 35.0
+      }
+    },
+    {
+      "itemCode": "0658 6099",
+      "description": "INSTL OM ASSM (OM-2Z)(WFLX)GND",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 68.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 68.0,
+        "LUCANIA CONSTRUCTION LLC": 35.0,
+        "FOREMOST PAVING, INC.": 80.0,
+        "IOC COMPANY LLC": 79.49,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 85.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 29.0,
+      "engEstUnit": 3.26,
+      "lowUnit": 10.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 10.0,
+        "LUCANIA CONSTRUCTION LLC": 11.5,
+        "FOREMOST PAVING, INC.": 10.0,
+        "IOC COMPANY LLC": 10.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 85.0
+      }
+    },
+    {
+      "itemCode": "3077 6065",
+      "description": "SP MIXES SP-D SAC-A PG76-22",
+      "unit": "TON",
+      "quantity": 906.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 140.0,
+        "LUCANIA CONSTRUCTION LLC": 145.0,
+        "FOREMOST PAVING, INC.": 133.0,
+        "IOC COMPANY LLC": 200.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 190.0
+      }
+    },
+    {
+      "itemCode": "3084 6001",
+      "description": "BONDING COURSE",
+      "unit": "GAL",
+      "quantity": 1105.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 6.0,
+        "LUCANIA CONSTRUCTION LLC": 15.0,
+        "FOREMOST PAVING, INC.": 5.0,
+        "IOC COMPANY LLC": 10.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 13.5
+      }
+    },
+    {
+      "itemCode": "5001 6002",
+      "description": "GEOGRID BASE REINFORCEMENT (TY II)",
+      "unit": "SY",
+      "quantity": 5611.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 2.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 2.0,
+        "LUCANIA CONSTRUCTION LLC": 2.5,
+        "FOREMOST PAVING, INC.": 4.1,
+        "IOC COMPANY LLC": 4.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 56.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "TEXAS CORDIA CONSTRUCTION, LLC": 65.0,
+        "LUCANIA CONSTRUCTION LLC": 50.0,
+        "FOREMOST PAVING, INC.": 425.0,
+        "IOC COMPANY LLC": 100.0,
+        "ARANDA BROTHERS CONSTRUCTION CO., INC.": 280.0
+      }
+    }
+  ]
+}

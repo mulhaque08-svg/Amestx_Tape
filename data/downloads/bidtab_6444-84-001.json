@@ -1,0 +1,281 @@
+{
+  "metadata": {
+    "csj": "6444-84-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644484001",
+    "projectType": "TRAFFIC CONTROL SERVICES",
+    "letDate": "09/07/23",
+    "engEstTotal": 373750.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AWP SAFETY",
+      "totalBidAmount": 298125.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "FC TRAFFIC CONTROL, INC.",
+      "totalBidAmount": 300000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TRAFFIC HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 410375.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "BARRICADES UNLIMITED",
+      "totalBidAmount": 433000.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "SUPERIOR TRAFFIC CONTROL, LLC",
+      "totalBidAmount": 451900.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 200.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "AWP SAFETY": 125.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 100.0,
+        "BARRICADES UNLIMITED": 500.0,
+        "SUPERIOR TRAFFIC CONTROL, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "AWP SAFETY": 300.0,
+        "FC TRAFFIC CONTROL, INC.": 10.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 500.0,
+        "BARRICADES UNLIMITED": 1500.0,
+        "SUPERIOR TRAFFIC CONTROL, LLC": 800.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 50.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "AWP SAFETY": 150.0,
+        "FC TRAFFIC CONTROL, INC.": 150.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 120.0,
+        "BARRICADES UNLIMITED": 30.0,
+        "SUPERIOR TRAFFIC CONTROL, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "7148 6001",
+      "description": "1 LN CLOSURE 2 LN RD NO SHOULDERS",
+      "unit": "HR",
+      "quantity": 200.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "AWP SAFETY": 140.0,
+        "FC TRAFFIC CONTROL, INC.": 20.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 140.0,
+        "BARRICADES UNLIMITED": 120.0,
+        "SUPERIOR TRAFFIC CONTROL, LLC": 225.0
+      }
+    },
+    {
+      "itemCode": "7148 6002",
+      "description": "1 LN CLOSURE 2 LN RD PAVED SHOULDERS",
+      "unit": "HR",
+      "quantity": 100.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 135.0,
+      "bidders": {
+        "AWP SAFETY": 135.0,
+        "FC TRAFFIC CONTROL, INC.": 20.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 115.0,
+        "BARRICADES UNLIMITED": 125.0,
+        "SUPERIOR TRAFFIC CONTROL, LLC": 225.0
+      }
+    },
+    {
+      "itemCode": "7148 6003",
+      "description": "1 LN CLOSURE 4 LN RD",
+      "unit": "HR",
+      "quantity": 75.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 165.0,
+      "bidders": {
+        "AWP SAFETY": 165.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 135.0,
+        "BARRICADES UNLIMITED": 175.0,
+        "SUPERIOR TRAFFIC CONTROL, LLC": 225.0
+      }
+    },
+    {
+      "itemCode": "7148 6004",
+      "description": "2 LN CLOSURE 4 LN RD",
+      "unit": "HR",
+      "quantity": 50.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "AWP SAFETY": 140.0,
+        "FC TRAFFIC CONTROL, INC.": 20.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 135.0,
+        "BARRICADES UNLIMITED": 180.0,
+        "SUPERIOR TRAFFIC CONTROL, LLC": 240.0
+      }
+    },
+    {
+      "itemCode": "7148 6005",
+      "description": "FREEWAY 1 LANE CLOSURE",
+      "unit": "HR",
+      "quantity": 150.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "AWP SAFETY": 150.0,
+        "FC TRAFFIC CONTROL, INC.": 10.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 145.0,
+        "BARRICADES UNLIMITED": 200.0,
+        "SUPERIOR TRAFFIC CONTROL, LLC": 240.0
+      }
+    },
+    {
+      "itemCode": "7148 6006",
+      "description": "FREEWAY 2 LANE CLOSURE",
+      "unit": "HR",
+      "quantity": 25.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "AWP SAFETY": 150.0,
+        "FC TRAFFIC CONTROL, INC.": 20.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 170.0,
+        "BARRICADES UNLIMITED": 250.0,
+        "SUPERIOR TRAFFIC CONTROL, LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "7148 6009",
+      "description": "EXIT OR ENTRANCE RAMP CLOSURE",
+      "unit": "HR",
+      "quantity": 75.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "AWP SAFETY": 225.0,
+        "FC TRAFFIC CONTROL, INC.": 500.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 135.0,
+        "BARRICADES UNLIMITED": 200.0,
+        "SUPERIOR TRAFFIC CONTROL, LLC": 225.0
+      }
+    },
+    {
+      "itemCode": "7148 6012",
+      "description": "ONE LANE FRONTAGE ROAD CLOSURE",
+      "unit": "HR",
+      "quantity": 75.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "AWP SAFETY": 140.0,
+        "FC TRAFFIC CONTROL, INC.": 10.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 135.0,
+        "BARRICADES UNLIMITED": 175.0,
+        "SUPERIOR TRAFFIC CONTROL, LLC": 225.0
+      }
+    },
+    {
+      "itemCode": "7148 6014",
+      "description": "ONE LANE CONNECTING RAMP CLOSURE",
+      "unit": "HR",
+      "quantity": 75.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "AWP SAFETY": 125.0,
+        "FC TRAFFIC CONTROL, INC.": 10.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 135.0,
+        "BARRICADES UNLIMITED": 275.0,
+        "SUPERIOR TRAFFIC CONTROL, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "7148 6016",
+      "description": "WORK AREA ON SHOULDER",
+      "unit": "HR",
+      "quantity": 150.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "AWP SAFETY": 90.0,
+        "FC TRAFFIC CONTROL, INC.": 10.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 100.0,
+        "BARRICADES UNLIMITED": 150.0,
+        "SUPERIOR TRAFFIC CONTROL, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "7148 6018",
+      "description": "MOBILE OPERATIONS",
+      "unit": "HR",
+      "quantity": 300.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 130.0,
+      "bidders": {
+        "AWP SAFETY": 130.0,
+        "FC TRAFFIC CONTROL, INC.": 10.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 165.0,
+        "BARRICADES UNLIMITED": 90.0,
+        "SUPERIOR TRAFFIC CONTROL, LLC": 120.0
+      }
+    },
+    {
+      "itemCode": "7148 6019",
+      "description": "FURNISH ADDITIONAL FLAGGER",
+      "unit": "HR",
+      "quantity": 150.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "AWP SAFETY": 55.0,
+        "FC TRAFFIC CONTROL, INC.": 10.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 95.0,
+        "BARRICADES UNLIMITED": 100.0,
+        "SUPERIOR TRAFFIC CONTROL, LLC": 60.0
+      }
+    },
+    {
+      "itemCode": "7148 6021",
+      "description": "FURNISH ADDITIONAL ARROW BOARD",
+      "unit": "HR",
+      "quantity": 75.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "AWP SAFETY": 10.0,
+        "FC TRAFFIC CONTROL, INC.": 10.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 135.0,
+        "BARRICADES UNLIMITED": 25.0,
+        "SUPERIOR TRAFFIC CONTROL, LLC": 25.0
+      }
+    }
+  ]
+}

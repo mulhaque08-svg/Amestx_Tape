@@ -1,0 +1,2726 @@
+{
+  "metadata": {
+    "csj": "0338-04-066",
+    "county": "Montgomery",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 338-4-66",
+    "projectType": "RECONSTRUCT AND WIDEN FROM 2 TO 4 LANES",
+    "letDate": "10/06/22",
+    "engEstTotal": 121805185.27,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JAMES CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 107298495.09
+    },
+    {
+      "rank": 2,
+      "vendorName": "WEBBER, LLC",
+      "totalBidAmount": 115417229.97
+    },
+    {
+      "rank": 3,
+      "vendorName": "PULICE CONSTRUCTION, INC.",
+      "totalBidAmount": 134198180.23
+    },
+    {
+      "rank": 4,
+      "vendorName": "BALFOUR BEATTY INFRASTRUCTURE, INC.",
+      "totalBidAmount": 136687845.76
+    },
+    {
+      "rank": 5,
+      "vendorName": "WILLIAMS BROTHERS CONSTRUCTION CO., INC.",
+      "totalBidAmount": 179895711.68
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 350.97,
+      "engEstUnit": 17000.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 3000.0,
+        "WEBBER, LLC": 20500.0,
+        "PULICE CONSTRUCTION, INC.": 31000.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 24000.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 52146.0
+      }
+    },
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 1250.0,
+      "engEstUnit": 9.37,
+      "lowUnit": 12.32,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 12.32,
+        "WEBBER, LLC": 50.0,
+        "PULICE CONSTRUCTION, INC.": 6.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 6.5,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "0104 6017",
+      "description": "REMOVING CONC (DRIVEWAYS)",
+      "unit": "SY",
+      "quantity": 1624.0,
+      "engEstUnit": 25.08,
+      "lowUnit": 10.33,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 10.33,
+        "WEBBER, LLC": 50.0,
+        "PULICE CONSTRUCTION, INC.": 7.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 8.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "0104 6021",
+      "description": "REMOVING CONC (CURB)",
+      "unit": "LF",
+      "quantity": 80.0,
+      "engEstUnit": 2.2,
+      "lowUnit": 3.62,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 3.62,
+        "WEBBER, LLC": 100.0,
+        "PULICE CONSTRUCTION, INC.": 5.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 8.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0105 6045",
+      "description": "REMOVING STAB BASE AND ASPH PAV (2\"-8\")",
+      "unit": "SY",
+      "quantity": 42101.0,
+      "engEstUnit": 8.4,
+      "lowUnit": 3.14,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 3.14,
+        "WEBBER, LLC": 4.45,
+        "PULICE CONSTRUCTION, INC.": 4.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 5.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "0105 6081",
+      "description": "REMOV STAB BASE & ASPH PAV (4\"-14\")",
+      "unit": "SY",
+      "quantity": 201962.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 5.41,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 5.41,
+        "WEBBER, LLC": 4.35,
+        "PULICE CONSTRUCTION, INC.": 3.75,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 6.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 99241.0,
+      "engEstUnit": 8.67,
+      "lowUnit": 8.89,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 8.89,
+        "WEBBER, LLC": 16.0,
+        "PULICE CONSTRUCTION, INC.": 10.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 9.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 18.0
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 14956.0,
+      "engEstUnit": 16.83,
+      "lowUnit": 13.57,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 13.57,
+        "WEBBER, LLC": 15.0,
+        "PULICE CONSTRUCTION, INC.": 6.5,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 11.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "0162 6002",
+      "description": "BLOCK SODDING",
+      "unit": "SY",
+      "quantity": 198243.0,
+      "engEstUnit": 4.83,
+      "lowUnit": 4.16,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 4.16,
+        "WEBBER, LLC": 4.15,
+        "PULICE CONSTRUCTION, INC.": 5.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 4.33,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 4.5
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 150166.0,
+      "engEstUnit": 0.28,
+      "lowUnit": 0.12,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 0.12,
+        "WEBBER, LLC": 0.1,
+        "PULICE CONSTRUCTION, INC.": 0.2,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.13,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 0.25
+      }
+    },
+    {
+      "itemCode": "0164 6051",
+      "description": "DRILL SEED (TEMP)(WARM OR COOL)",
+      "unit": "SY",
+      "quantity": 34984.0,
+      "engEstUnit": 0.17,
+      "lowUnit": 0.21,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 0.21,
+        "WEBBER, LLC": 0.2,
+        "PULICE CONSTRUCTION, INC.": 0.2,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.22,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 0.25
+      }
+    },
+    {
+      "itemCode": "0166 6001",
+      "description": "FERTILIZER",
+      "unit": "AC",
+      "quantity": 96.42,
+      "engEstUnit": 506.79,
+      "lowUnit": 744.55,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 744.55,
+        "WEBBER, LLC": 745.0,
+        "PULICE CONSTRUCTION, INC.": 550.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 775.59,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 550.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 5785.0,
+      "engEstUnit": 15.84,
+      "lowUnit": 44.27,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 44.27,
+        "WEBBER, LLC": 41.75,
+        "PULICE CONSTRUCTION, INC.": 30.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 25.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 23.0
+      }
+    },
+    {
+      "itemCode": "0260 6006",
+      "description": "LIME TRT (EXST MATL) (6\")",
+      "unit": "SY",
+      "quantity": 169997.0,
+      "engEstUnit": 4.4,
+      "lowUnit": 3.07,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 3.07,
+        "WEBBER, LLC": 2.5,
+        "PULICE CONSTRUCTION, INC.": 2.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 4.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0260 6012",
+      "description": "LIME(HYD,COM OR QK)(SLRY)OR QK(DRY)",
+      "unit": "TON",
+      "quantity": 2294.0,
+      "engEstUnit": 249.41,
+      "lowUnit": 326.47,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 326.47,
+        "WEBBER, LLC": 275.0,
+        "PULICE CONSTRUCTION, INC.": 230.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 318.1,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 185.0
+      }
+    },
+    {
+      "itemCode": "0275 6001",
+      "description": "CEMENT",
+      "unit": "TON",
+      "quantity": 2294.0,
+      "engEstUnit": 268.46,
+      "lowUnit": 212.99,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 212.99,
+        "WEBBER, LLC": 250.0,
+        "PULICE CONSTRUCTION, INC.": 250.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 222.75,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 185.0
+      }
+    },
+    {
+      "itemCode": "0275 6002",
+      "description": "CEMENT TREAT (EXIST MATL) (6\")",
+      "unit": "SY",
+      "quantity": 169997.0,
+      "engEstUnit": 3.1,
+      "lowUnit": 1.7,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 1.7,
+        "WEBBER, LLC": 2.5,
+        "PULICE CONSTRUCTION, INC.": 2.4,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 4.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0276 6224",
+      "description": "CEM TRT(PLNT MX) (CL N)(TY E)(GR 4)(6\")",
+      "unit": "SY",
+      "quantity": 339980.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 9.53,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 9.53,
+        "WEBBER, LLC": 9.0,
+        "PULICE CONSTRUCTION, INC.": 17.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 21.5,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "0292 6002",
+      "description": "ASPHALT STAB BASE (GR 2)(PG 64)",
+      "unit": "TON",
+      "quantity": 2605.0,
+      "engEstUnit": 98.51,
+      "lowUnit": 120.19,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 120.19,
+        "WEBBER, LLC": 122.0,
+        "PULICE CONSTRUCTION, INC.": 117.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 125.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 119.083
+      }
+    },
+    {
+      "itemCode": "0292 6017",
+      "description": "ASPHALT STAB BASE (GR 4)(PG 64)",
+      "unit": "TON",
+      "quantity": 18600.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 101.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 101.0,
+        "WEBBER, LLC": 102.0,
+        "PULICE CONSTRUCTION, INC.": 100.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 105.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 120.406
+      }
+    },
+    {
+      "itemCode": "0305 6049",
+      "description": "SLV, HAUL & STKPL RCL APH PV(8\" TO 14\")",
+      "unit": "SY",
+      "quantity": 201962.0,
+      "engEstUnit": 9.0,
+      "lowUnit": 4.24,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 4.24,
+        "WEBBER, LLC": 2.85,
+        "PULICE CONSTRUCTION, INC.": 2.5,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 6.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 14.361
+      }
+    },
+    {
+      "itemCode": "0354 6002",
+      "description": "PLAN & TEXT ASPH CONC PAV(0\" TO 2\")",
+      "unit": "SY",
+      "quantity": 8120.0,
+      "engEstUnit": 1.58,
+      "lowUnit": 2.27,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 2.27,
+        "WEBBER, LLC": 1.75,
+        "PULICE CONSTRUCTION, INC.": 2.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1.5,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 4.07
+      }
+    },
+    {
+      "itemCode": "0360 6004",
+      "description": "CONC PVMT (CONT REINF - CRCP) (10\")",
+      "unit": "SY",
+      "quantity": 333296.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 69.82,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 69.82,
+        "WEBBER, LLC": 69.0,
+        "PULICE CONSTRUCTION, INC.": 70.25,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 78.9,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 85.0
+      }
+    },
+    {
+      "itemCode": "0360 6043",
+      "description": "CONC PVMT (CONT REINF)(FAST TRK)(13\")",
+      "unit": "SY",
+      "quantity": 33505.0,
+      "engEstUnit": 132.92,
+      "lowUnit": 112.66,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 112.66,
+        "WEBBER, LLC": 106.0,
+        "PULICE CONSTRUCTION, INC.": 110.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 124.1,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 135.0
+      }
+    },
+    {
+      "itemCode": "0360 6048",
+      "description": "CONC PVMT (CONT REINF) (FAST TRK) (9\")",
+      "unit": "SY",
+      "quantity": 2714.0,
+      "engEstUnit": 88.61,
+      "lowUnit": 104.03,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 104.03,
+        "WEBBER, LLC": 95.0,
+        "PULICE CONSTRUCTION, INC.": 82.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 94.8,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0400 6001",
+      "description": "STRUCT EXCAV",
+      "unit": "CY",
+      "quantity": 2757.0,
+      "engEstUnit": 7.58,
+      "lowUnit": 16.24,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 16.24,
+        "WEBBER, LLC": 20.2,
+        "PULICE CONSTRUCTION, INC.": 30.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 15.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 43120.0,
+      "engEstUnit": 59.63,
+      "lowUnit": 55.02,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 55.02,
+        "WEBBER, LLC": 50.0,
+        "PULICE CONSTRUCTION, INC.": 60.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 60.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 65.0
+      }
+    },
+    {
+      "itemCode": "0400 6006",
+      "description": "CUT & RESTORING PAV",
+      "unit": "SY",
+      "quantity": 709.0,
+      "engEstUnit": 108.38,
+      "lowUnit": 191.17,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 191.17,
+        "WEBBER, LLC": 125.0,
+        "PULICE CONSTRUCTION, INC.": 45.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 140.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 197.22
+      }
+    },
+    {
+      "itemCode": "0400 6008",
+      "description": "CUT & RESTORE ASPH PAVING",
+      "unit": "SY",
+      "quantity": 1097.0,
+      "engEstUnit": 102.88,
+      "lowUnit": 162.01,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 162.01,
+        "WEBBER, LLC": 125.0,
+        "PULICE CONSTRUCTION, INC.": 45.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 140.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 197.23
+      }
+    },
+    {
+      "itemCode": "0400 6009",
+      "description": "CEMENT STAB BACKFILL (INLET OR MH)",
+      "unit": "CY",
+      "quantity": 3176.0,
+      "engEstUnit": 85.23,
+      "lowUnit": 55.02,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 55.02,
+        "WEBBER, LLC": 50.0,
+        "PULICE CONSTRUCTION, INC.": 81.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 60.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "0402 6001",
+      "description": "TRENCH EXCAVATION PROTECTION",
+      "unit": "LF",
+      "quantity": 50249.0,
+      "engEstUnit": 2.92,
+      "lowUnit": 1.08,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 1.08,
+        "WEBBER, LLC": 2.0,
+        "PULICE CONSTRUCTION, INC.": 2.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 3.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 4.71
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 9281.0,
+      "engEstUnit": 14.44,
+      "lowUnit": 46.29,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 46.29,
+        "WEBBER, LLC": 28.0,
+        "PULICE CONSTRUCTION, INC.": 32.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 90.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0416 6001",
+      "description": "DRILL SHAFT (18 IN)",
+      "unit": "LF",
+      "quantity": 220.0,
+      "engEstUnit": 142.55,
+      "lowUnit": 71.54,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 71.54,
+        "WEBBER, LLC": 70.5,
+        "PULICE CONSTRUCTION, INC.": 85.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 66.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "0416 6004",
+      "description": "DRILL SHAFT (36 IN)",
+      "unit": "LF",
+      "quantity": 6370.0,
+      "engEstUnit": 233.3,
+      "lowUnit": 190.84,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 190.84,
+        "WEBBER, LLC": 200.0,
+        "PULICE CONSTRUCTION, INC.": 225.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 200.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0416 6005",
+      "description": "DRILL SHAFT (42 IN)",
+      "unit": "LF",
+      "quantity": 1350.0,
+      "engEstUnit": 334.21,
+      "lowUnit": 234.14,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 234.14,
+        "WEBBER, LLC": 276.0,
+        "PULICE CONSTRUCTION, INC.": 280.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 275.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "0416 6007",
+      "description": "DRILL SHAFT (54 IN)",
+      "unit": "LF",
+      "quantity": 3510.0,
+      "engEstUnit": 489.52,
+      "lowUnit": 422.86,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 422.86,
+        "WEBBER, LLC": 457.0,
+        "PULICE CONSTRUCTION, INC.": 510.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 475.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 650.0
+      }
+    },
+    {
+      "itemCode": "0416 6032",
+      "description": "DRILL SHAFT (TRF SIG POLE) (36 IN)",
+      "unit": "LF",
+      "quantity": 71.0,
+      "engEstUnit": 312.63,
+      "lowUnit": 250.43,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 250.43,
+        "WEBBER, LLC": 250.0,
+        "PULICE CONSTRUCTION, INC.": 251.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 226.05,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "0416 6034",
+      "description": "DRILL SHAFT (TRF SIG POLE) (48 IN)",
+      "unit": "LF",
+      "quantity": 154.0,
+      "engEstUnit": 413.17,
+      "lowUnit": 371.2,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 371.2,
+        "WEBBER, LLC": 371.0,
+        "PULICE CONSTRUCTION, INC.": 297.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 445.96,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 450.0
+      }
+    },
+    {
+      "itemCode": "0422 6001",
+      "description": "REINF CONC SLAB",
+      "unit": "SF",
+      "quantity": 112837.0,
+      "engEstUnit": 20.49,
+      "lowUnit": 20.2,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 20.2,
+        "WEBBER, LLC": 15.0,
+        "PULICE CONSTRUCTION, INC.": 15.5,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 20.8,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 23.0
+      }
+    },
+    {
+      "itemCode": "0425 6036",
+      "description": "PRESTR CONC GIRDER (TX34)",
+      "unit": "LF",
+      "quantity": 2906.0,
+      "engEstUnit": 204.17,
+      "lowUnit": 158.36,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 158.36,
+        "WEBBER, LLC": 170.0,
+        "PULICE CONSTRUCTION, INC.": 161.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 185.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 125.0
+      }
+    },
+    {
+      "itemCode": "0425 6039",
+      "description": "PRESTR CONC GIRDER (TX54)",
+      "unit": "LF",
+      "quantity": 10225.0,
+      "engEstUnit": 195.1,
+      "lowUnit": 189.01,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 189.01,
+        "WEBBER, LLC": 195.0,
+        "PULICE CONSTRUCTION, INC.": 172.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 185.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0432 6002",
+      "description": "RIPRAP (CONC)(5 IN)",
+      "unit": "CY",
+      "quantity": 166.0,
+      "engEstUnit": 539.73,
+      "lowUnit": 461.39,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 461.39,
+        "WEBBER, LLC": 419.0,
+        "PULICE CONSTRUCTION, INC.": 702.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 500.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 480.0
+      }
+    },
+    {
+      "itemCode": "0432 6024",
+      "description": "RIPRAP (STONE COMMON)(DRY)(12 IN)",
+      "unit": "CY",
+      "quantity": 1778.0,
+      "engEstUnit": 152.97,
+      "lowUnit": 142.71,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 142.71,
+        "WEBBER, LLC": 218.0,
+        "PULICE CONSTRUCTION, INC.": 253.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 170.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 220.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 44.0,
+      "engEstUnit": 560.91,
+      "lowUnit": 666.56,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 666.56,
+        "WEBBER, LLC": 428.0,
+        "PULICE CONSTRUCTION, INC.": 800.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 600.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 480.0
+      }
+    },
+    {
+      "itemCode": "0454 6001",
+      "description": "SEALED EXPANSION JOINT (4 IN) (SEJ - A)",
+      "unit": "LF",
+      "quantity": 665.0,
+      "engEstUnit": 160.08,
+      "lowUnit": 192.91,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 192.91,
+        "WEBBER, LLC": 225.0,
+        "PULICE CONSTRUCTION, INC.": 127.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 200.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0466 6056",
+      "description": "HEADWALL (CH - FW - 45) (DIA= 48 IN)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 8600.0,
+      "lowUnit": 21887.06,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 21887.06,
+        "WEBBER, LLC": 16500.0,
+        "PULICE CONSTRUCTION, INC.": 11819.45,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 8000.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 12454.425
+      }
+    },
+    {
+      "itemCode": "0466 6097",
+      "description": "HEADWALL (CH - PW - 0) (DIA= 24 IN)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 7098.48,
+      "lowUnit": 10033.55,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 10033.55,
+        "WEBBER, LLC": 6500.0,
+        "PULICE CONSTRUCTION, INC.": 9435.59,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 6000.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 12505.49
+      }
+    },
+    {
+      "itemCode": "0466 6099",
+      "description": "HEADWALL (CH - PW - 0) (DIA= 30 IN)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 8200.0,
+      "lowUnit": 10484.86,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 10484.86,
+        "WEBBER, LLC": 8500.0,
+        "PULICE CONSTRUCTION, INC.": 9380.44,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 6500.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 13313.9
+      }
+    },
+    {
+      "itemCode": "0466 6101",
+      "description": "HEADWALL (CH - PW - 0) (DIA= 36 IN)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 10276.23,
+      "lowUnit": 11305.99,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 11305.99,
+        "WEBBER, LLC": 12000.0,
+        "PULICE CONSTRUCTION, INC.": 14536.81,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 7000.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 13704.57
+      }
+    },
+    {
+      "itemCode": "0466 6166",
+      "description": "WINGWALL (FW - S) (HW=5 FT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 25533.29,
+      "lowUnit": 11342.26,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 11342.26,
+        "WEBBER, LLC": 9000.0,
+        "PULICE CONSTRUCTION, INC.": 30767.4,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 17000.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 13724.08
+      }
+    },
+    {
+      "itemCode": "0466 6180",
+      "description": "WINGWALL (PW - 1) (HW=5 FT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 16665.85,
+      "lowUnit": 11101.88,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 11101.88,
+        "WEBBER, LLC": 10000.0,
+        "PULICE CONSTRUCTION, INC.": 21093.45,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 15000.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 17039.46
+      }
+    },
+    {
+      "itemCode": "0467 6111",
+      "description": "SET (TY I)(S=3 FT)(HW= 4 FT)(3:1)(C)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10225.6,
+      "lowUnit": 7630.27,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 7630.27,
+        "WEBBER, LLC": 6000.0,
+        "PULICE CONSTRUCTION, INC.": 10604.58,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 6800.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 11183.305
+      }
+    },
+    {
+      "itemCode": "0467 6143",
+      "description": "SET (TY I)(S= 4 FT)(HW= 4 FT)(3:1) (C)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 8486.97,
+      "lowUnit": 7932.26,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 7932.26,
+        "WEBBER, LLC": 7000.0,
+        "PULICE CONSTRUCTION, INC.": 10802.75,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 7000.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 11873.303
+      }
+    },
+    {
+      "itemCode": "0467 6171",
+      "description": "SET (TY I)(S= 5 FT)(HW= 3 FT)(3:1) (C)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 4733.63,
+      "lowUnit": 8072.84,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 8072.84,
+        "WEBBER, LLC": 7500.0,
+        "PULICE CONSTRUCTION, INC.": 10466.45,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 7600.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 12633.306
+      }
+    },
+    {
+      "itemCode": "0467 6175",
+      "description": "SET (TY I)(S= 5 FT)(HW= 4 FT)(3:1) (C)",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 9571.26,
+      "lowUnit": 9343.31,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 9343.31,
+        "WEBBER, LLC": 8000.0,
+        "PULICE CONSTRUCTION, INC.": 10969.59,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 9000.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 13183.308
+      }
+    },
+    {
+      "itemCode": "0467 6204",
+      "description": "SET (TY I)(S= 6 FT)(HW= 3 FT)(3:1) (C)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 13321.31,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 13321.31,
+        "WEBBER, LLC": 9000.0,
+        "PULICE CONSTRUCTION, INC.": 13483.66,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 12800.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 13883.305
+      }
+    },
+    {
+      "itemCode": "0467 6356",
+      "description": "SET (TY II) (18 IN) (RCP) (3: 1) (C)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1289.14,
+      "lowUnit": 1187.39,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 1187.39,
+        "WEBBER, LLC": 1440.0,
+        "PULICE CONSTRUCTION, INC.": 3141.64,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1000.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 1940.457
+      }
+    },
+    {
+      "itemCode": "0467 6363",
+      "description": "SET (TY II) (18 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1407.25,
+      "lowUnit": 1302.2,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 1302.2,
+        "WEBBER, LLC": 1760.0,
+        "PULICE CONSTRUCTION, INC.": 3355.11,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 600.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 2004.05
+      }
+    },
+    {
+      "itemCode": "0467 6388",
+      "description": "SET (TY II) (24 IN) (RCP) (3: 1) (C)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1635.92,
+      "lowUnit": 1281.12,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 1281.12,
+        "WEBBER, LLC": 1530.0,
+        "PULICE CONSTRUCTION, INC.": 3241.82,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1000.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 2104.007
+      }
+    },
+    {
+      "itemCode": "0467 6395",
+      "description": "SET (TY II) (24 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 239.0,
+      "engEstUnit": 1666.27,
+      "lowUnit": 1635.19,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 1635.19,
+        "WEBBER, LLC": 2080.0,
+        "PULICE CONSTRUCTION, INC.": 3750.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1400.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 2653.792
+      }
+    },
+    {
+      "itemCode": "0467 6448",
+      "description": "SET (TY II) (36 IN) (RCP) (3: 1) (C)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 4004.83,
+      "lowUnit": 2674.46,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 2674.46,
+        "WEBBER, LLC": 2760.0,
+        "PULICE CONSTRUCTION, INC.": 4478.95,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2000.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 6648.0
+      }
+    },
+    {
+      "itemCode": "0496 6002",
+      "description": "REMOV STR (INLET)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 454.1,
+      "lowUnit": 839.37,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 839.37,
+        "WEBBER, LLC": 2500.0,
+        "PULICE CONSTRUCTION, INC.": 1495.83,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 650.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 737.743
+      }
+    },
+    {
+      "itemCode": "0496 6004",
+      "description": "REMOV STR (SET)",
+      "unit": "EA",
+      "quantity": 145.0,
+      "engEstUnit": 710.5,
+      "lowUnit": 307.29,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 307.29,
+        "WEBBER, LLC": 750.0,
+        "PULICE CONSTRUCTION, INC.": 1460.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 325.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 452.985
+      }
+    },
+    {
+      "itemCode": "0496 6007",
+      "description": "REMOV STR (PIPE)",
+      "unit": "LF",
+      "quantity": 6806.0,
+      "engEstUnit": 24.74,
+      "lowUnit": 23.43,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 23.43,
+        "WEBBER, LLC": 35.0,
+        "PULICE CONSTRUCTION, INC.": 30.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 16.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 24.777
+      }
+    },
+    {
+      "itemCode": "0496 6008",
+      "description": "REMOV STR (BOX CULVERT)",
+      "unit": "LF",
+      "quantity": 889.0,
+      "engEstUnit": 25.53,
+      "lowUnit": 51.65,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 51.65,
+        "WEBBER, LLC": 50.0,
+        "PULICE CONSTRUCTION, INC.": 55.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 30.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 89.146
+      }
+    },
+    {
+      "itemCode": "0496 6010",
+      "description": "REMOV STR (BRIDGE 100 - 499 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 98812.83,
+      "lowUnit": 55168.71,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 55168.71,
+        "WEBBER, LLC": 75000.0,
+        "PULICE CONSTRUCTION, INC.": 78981.67,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 63000.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 25000.0
+      }
+    },
+    {
+      "itemCode": "0496 6011",
+      "description": "REMOV STR (BRIDGE 500 - 999 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 200152.71,
+      "lowUnit": 122405.47,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 122405.47,
+        "WEBBER, LLC": 250000.0,
+        "PULICE CONSTRUCTION, INC.": 159983.28,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 225000.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 50000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 11010000.0,
+      "lowUnit": 10100000.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 10100000.0,
+        "WEBBER, LLC": 11000000.0,
+        "PULICE CONSTRUCTION, INC.": 13500000.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 13500000.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 20567678.0
+      }
+    },
+    {
+      "itemCode": "0508 6001",
+      "description": "CONSTRUCTING DETOURS",
+      "unit": "SY",
+      "quantity": 62675.0,
+      "engEstUnit": 84.85,
+      "lowUnit": 66.09,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 66.09,
+        "WEBBER, LLC": 89.5,
+        "PULICE CONSTRUCTION, INC.": 50.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 76.5,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 146.1
+      }
+    },
+    {
+      "itemCode": "0512 6001",
+      "description": "PORT CTB (FUR & INST)(SGL SLOPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 1800.0,
+      "engEstUnit": 46.67,
+      "lowUnit": 6.21,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 6.21,
+        "WEBBER, LLC": 42.0,
+        "PULICE CONSTRUCTION, INC.": 64.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 70.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0512 6009",
+      "description": "PORT CTB (FUR & INST)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 24180.0,
+      "engEstUnit": 40.93,
+      "lowUnit": 8.94,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 8.94,
+        "WEBBER, LLC": 42.0,
+        "PULICE CONSTRUCTION, INC.": 24.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 65.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0512 6010",
+      "description": "PORT CTB (FUR & INST)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 4240.0,
+      "engEstUnit": 62.94,
+      "lowUnit": 9.07,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 9.07,
+        "WEBBER, LLC": 100.0,
+        "PULICE CONSTRUCTION, INC.": 23.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 65.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0512 6025",
+      "description": "PORT CTB (MOVE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 1440.0,
+      "engEstUnit": 2.3,
+      "lowUnit": 2.91,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 2.91,
+        "WEBBER, LLC": 6.0,
+        "PULICE CONSTRUCTION, INC.": 2.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 5.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0512 6033",
+      "description": "PORT CTB (MOVE)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 46460.0,
+      "engEstUnit": 8.06,
+      "lowUnit": 2.62,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 2.62,
+        "WEBBER, LLC": 6.0,
+        "PULICE CONSTRUCTION, INC.": 5.27,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 7.5,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0512 6034",
+      "description": "PORT CTB (MOVE)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 7760.0,
+      "engEstUnit": 5.64,
+      "lowUnit": 2.62,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 2.62,
+        "WEBBER, LLC": 6.0,
+        "PULICE CONSTRUCTION, INC.": 6.5,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 5.5,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0512 6049",
+      "description": "PORT CTB (REMOVE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 1800.0,
+      "engEstUnit": 8.13,
+      "lowUnit": 9.2,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 9.2,
+        "WEBBER, LLC": 8.0,
+        "PULICE CONSTRUCTION, INC.": 13.5,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 9.5,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0512 6057",
+      "description": "PORT CTB (REMOVE)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 20680.0,
+      "engEstUnit": 7.98,
+      "lowUnit": 8.27,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 8.27,
+        "WEBBER, LLC": 8.0,
+        "PULICE CONSTRUCTION, INC.": 10.5,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 9.75,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0512 6058",
+      "description": "PORT CTB (REMOVE)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 4240.0,
+      "engEstUnit": 12.51,
+      "lowUnit": 8.28,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 8.28,
+        "WEBBER, LLC": 8.0,
+        "PULICE CONSTRUCTION, INC.": 10.5,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 10.75,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0529 6005",
+      "description": "CONC CURB (MONO) (TY II)",
+      "unit": "LF",
+      "quantity": 63516.0,
+      "engEstUnit": 4.31,
+      "lowUnit": 4.44,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 4.44,
+        "WEBBER, LLC": 5.7,
+        "PULICE CONSTRUCTION, INC.": 9.95,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 4.35,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0530 6004",
+      "description": "DRIVEWAYS (CONC)",
+      "unit": "SY",
+      "quantity": 12060.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 83.04,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 83.04,
+        "WEBBER, LLC": 71.25,
+        "PULICE CONSTRUCTION, INC.": 146.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 130.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 90.0
+      }
+    },
+    {
+      "itemCode": "0530 6025",
+      "description": "DRIVEWAYS (CONC) (FAST TRACK)",
+      "unit": "SY",
+      "quantity": 6219.0,
+      "engEstUnit": 91.07,
+      "lowUnit": 64.39,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 64.39,
+        "WEBBER, LLC": 83.75,
+        "PULICE CONSTRUCTION, INC.": 131.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 135.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0531 6001",
+      "description": "CONC SIDEWALKS (4\")",
+      "unit": "SY",
+      "quantity": 38213.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 34.18,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 34.18,
+        "WEBBER, LLC": 60.25,
+        "PULICE CONSTRUCTION, INC.": 87.86,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 80.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 85.0
+      }
+    },
+    {
+      "itemCode": "0531 6004",
+      "description": "CURB RAMPS (TY 1)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2176.43,
+      "lowUnit": 2059.79,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 2059.79,
+        "WEBBER, LLC": 1930.0,
+        "PULICE CONSTRUCTION, INC.": 3750.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2500.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 2100.0
+      }
+    },
+    {
+      "itemCode": "0531 6010",
+      "description": "CURB RAMPS (TY 7)",
+      "unit": "EA",
+      "quantity": 38.0,
+      "engEstUnit": 1601.53,
+      "lowUnit": 2059.77,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 2059.77,
+        "WEBBER, LLC": 2080.0,
+        "PULICE CONSTRUCTION, INC.": 2800.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2700.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 2100.0
+      }
+    },
+    {
+      "itemCode": "0531 6013",
+      "description": "CURB RAMPS (TY 10)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 2334.76,
+      "lowUnit": 2009.79,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 2009.79,
+        "WEBBER, LLC": 2080.0,
+        "PULICE CONSTRUCTION, INC.": 3650.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 3200.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 2100.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 600.0,
+      "engEstUnit": 3.03,
+      "lowUnit": 2.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 2.0,
+        "WEBBER, LLC": 2.0,
+        "PULICE CONSTRUCTION, INC.": 1.5,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1.04,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 3.5
+      }
+    },
+    {
+      "itemCode": "0542 6002",
+      "description": "REMOVE TERMINAL ANCHOR SECTION",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 350.0,
+        "WEBBER, LLC": 350.0,
+        "PULICE CONSTRUCTION, INC.": 279.76,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 171.88,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "0542 6004",
+      "description": "RM MTL BM GD FENCE TRANS (THRIE-BEAM)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 235.78,
+      "lowUnit": 150.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 150.0,
+        "WEBBER, LLC": 150.0,
+        "PULICE CONSTRUCTION, INC.": 150.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 171.88,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 395.56,
+      "lowUnit": 150.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 150.0,
+        "WEBBER, LLC": 150.0,
+        "PULICE CONSTRUCTION, INC.": 150.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 255.22,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0545 6003",
+      "description": "CRASH CUSH ATTEN (MOVE & RESET)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2994.03,
+      "lowUnit": 2100.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 2100.0,
+        "WEBBER, LLC": 2100.0,
+        "PULICE CONSTRUCTION, INC.": 2100.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 800.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 2500.0
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1342.5,
+      "lowUnit": 900.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 900.0,
+        "WEBBER, LLC": 1000.0,
+        "PULICE CONSTRUCTION, INC.": 800.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 800.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 1500.0
+      }
+    },
+    {
+      "itemCode": "0545 6007",
+      "description": "CRASH CUSH ATTEN (INSTL)(L)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 25785.37,
+      "lowUnit": 27800.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 27800.0,
+        "WEBBER, LLC": 27800.0,
+        "PULICE CONSTRUCTION, INC.": 28000.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 30000.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 26000.0
+      }
+    },
+    {
+      "itemCode": "0545 6019",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 9088.85,
+      "lowUnit": 8500.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 8500.0,
+        "WEBBER, LLC": 8500.0,
+        "PULICE CONSTRUCTION, INC.": 8500.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 8000.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 10000.0
+      }
+    },
+    {
+      "itemCode": "0556 6006",
+      "description": "PIPE UNDERDRAINS (TY 6) (6\")",
+      "unit": "LF",
+      "quantity": 1850.0,
+      "engEstUnit": 21.1,
+      "lowUnit": 58.31,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 58.31,
+        "WEBBER, LLC": 27.1,
+        "PULICE CONSTRUCTION, INC.": 34.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 70.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0618 6046",
+      "description": "CONDT (PVC) (SCH 80) (2\")",
+      "unit": "LF",
+      "quantity": 61829.0,
+      "engEstUnit": 11.77,
+      "lowUnit": 8.5,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 8.5,
+        "WEBBER, LLC": 8.5,
+        "PULICE CONSTRUCTION, INC.": 8.5,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 7.89,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "0618 6047",
+      "description": "CONDT (PVC) (SCH 80) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 17084.0,
+      "engEstUnit": 17.16,
+      "lowUnit": 13.54,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 13.54,
+        "WEBBER, LLC": 13.5,
+        "PULICE CONSTRUCTION, INC.": 13.5,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 13.11,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "0618 6053",
+      "description": "CONDT (PVC) (SCH 80) (3\")",
+      "unit": "LF",
+      "quantity": 60760.0,
+      "engEstUnit": 17.29,
+      "lowUnit": 14.23,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 14.23,
+        "WEBBER, LLC": 14.2,
+        "PULICE CONSTRUCTION, INC.": 14.25,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 12.49,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "0618 6054",
+      "description": "CONDT (PVC) (SCH 80) (3\") (BORE)",
+      "unit": "LF",
+      "quantity": 17328.0,
+      "engEstUnit": 25.93,
+      "lowUnit": 19.28,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 19.28,
+        "WEBBER, LLC": 19.3,
+        "PULICE CONSTRUCTION, INC.": 15.5,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 15.48,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0618 6058",
+      "description": "CONDT (PVC) (SCH 80) (4\")",
+      "unit": "LF",
+      "quantity": 409.0,
+      "engEstUnit": 24.27,
+      "lowUnit": 29.4,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 29.4,
+        "WEBBER, LLC": 29.4,
+        "PULICE CONSTRUCTION, INC.": 29.4,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 32.13,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0618 6059",
+      "description": "CONDT (PVC) (SCH 80) (4\") (BORE)",
+      "unit": "LF",
+      "quantity": 652.0,
+      "engEstUnit": 33.59,
+      "lowUnit": 30.76,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 30.76,
+        "WEBBER, LLC": 30.75,
+        "PULICE CONSTRUCTION, INC.": 31.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 27.35,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 35.0
+      }
+    },
+    {
+      "itemCode": "0620 6002",
+      "description": "ELEC CONDR (NO.14) INSULATED",
+      "unit": "LF",
+      "quantity": 78251.0,
+      "engEstUnit": 1.12,
+      "lowUnit": 1.05,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 1.05,
+        "WEBBER, LLC": 1.05,
+        "PULICE CONSTRUCTION, INC.": 0.84,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.6,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0620 6009",
+      "description": "ELEC CONDR (NO.6) BARE",
+      "unit": "LF",
+      "quantity": 1454.0,
+      "engEstUnit": 1.6,
+      "lowUnit": 2.03,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 2.03,
+        "WEBBER, LLC": 2.05,
+        "PULICE CONSTRUCTION, INC.": 1.5,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1.21,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0620 6011",
+      "description": "ELEC CONDR (NO.4) BARE",
+      "unit": "LF",
+      "quantity": 111.0,
+      "engEstUnit": 2.14,
+      "lowUnit": 3.03,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 3.03,
+        "WEBBER, LLC": 3.05,
+        "PULICE CONSTRUCTION, INC.": 2.5,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2.05,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 2.5
+      }
+    },
+    {
+      "itemCode": "0620 6012",
+      "description": "ELEC CONDR (NO.4) INSULATED",
+      "unit": "LF",
+      "quantity": 221.0,
+      "engEstUnit": 2.82,
+      "lowUnit": 3.34,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 3.34,
+        "WEBBER, LLC": 3.35,
+        "PULICE CONSTRUCTION, INC.": 2.75,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2.23,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "0621 6005",
+      "description": "TRAY CABLE (4 CONDR) (12 AWG)",
+      "unit": "LF",
+      "quantity": 1172.0,
+      "engEstUnit": 2.27,
+      "lowUnit": 2.69,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 2.69,
+        "WEBBER, LLC": 2.7,
+        "PULICE CONSTRUCTION, INC.": 2.25,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2.65,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 471.0,
+      "engEstUnit": 1085.96,
+      "lowUnit": 962.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 962.0,
+        "WEBBER, LLC": 962.0,
+        "PULICE CONSTRUCTION, INC.": 770.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 992.24,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 1400.0
+      }
+    },
+    {
+      "itemCode": "0628 6188",
+      "description": "ELC SRV TY D 120/240 070(NS)SS(E)SP(O)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 6599.46,
+      "lowUnit": 6255.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 6255.0,
+        "WEBBER, LLC": 6260.0,
+        "PULICE CONSTRUCTION, INC.": 4999.73,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 6702.93,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 8000.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 69.0,
+      "engEstUnit": 550.35,
+      "lowUnit": 460.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 460.0,
+        "WEBBER, LLC": 475.0,
+        "PULICE CONSTRUCTION, INC.": 367.68,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 479.18,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 675.0
+      }
+    },
+    {
+      "itemCode": "0644 6002",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P-BM)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 694.97,
+      "lowUnit": 570.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 570.0,
+        "WEBBER, LLC": 590.0,
+        "PULICE CONSTRUCTION, INC.": 455.61,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 593.77,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 700.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 719.87,
+      "lowUnit": 540.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 540.0,
+        "WEBBER, LLC": 565.0,
+        "PULICE CONSTRUCTION, INC.": 431.64,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 562.52,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 820.0
+      }
+    },
+    {
+      "itemCode": "0644 6036",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U-BM)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1406.3,
+      "lowUnit": 1035.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 1035.0,
+        "WEBBER, LLC": 1050.0,
+        "PULICE CONSTRUCTION, INC.": 827.34,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1078.16,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 92.0,
+      "engEstUnit": 77.5,
+      "lowUnit": 55.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 55.0,
+        "WEBBER, LLC": 85.0,
+        "PULICE CONSTRUCTION, INC.": 51.96,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 67.71,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 150.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 132.0,
+      "engEstUnit": 27.2,
+      "lowUnit": 25.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 25.0,
+        "WEBBER, LLC": 25.0,
+        "PULICE CONSTRUCTION, INC.": 20.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 20.37,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 39.01,
+      "lowUnit": 35.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 35.0,
+        "WEBBER, LLC": 35.0,
+        "PULICE CONSTRUCTION, INC.": 27.97,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 29.95,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "0658 6100",
+      "description": "INSTL OM ASSM (OM-2Z)(WFLX)GND(BI)",
+      "unit": "EA",
+      "quantity": 34.0,
+      "engEstUnit": 85.53,
+      "lowUnit": 65.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 65.0,
+        "WEBBER, LLC": 65.0,
+        "PULICE CONSTRUCTION, INC.": 51.96,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 67.71,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 85.0
+      }
+    },
+    {
+      "itemCode": "0662 6001",
+      "description": "WK ZN PAV MRK NON-REMOV (W)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 4700.0,
+      "engEstUnit": 0.34,
+      "lowUnit": 0.45,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 0.45,
+        "WEBBER, LLC": 0.45,
+        "PULICE CONSTRUCTION, INC.": 0.35,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.47,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 0.35
+      }
+    },
+    {
+      "itemCode": "0662 6002",
+      "description": "WK ZN PAV MRK NON-REMOV (W)4\"(DOT)",
+      "unit": "LF",
+      "quantity": 486.0,
+      "engEstUnit": 2.19,
+      "lowUnit": 0.45,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 0.45,
+        "WEBBER, LLC": 0.45,
+        "PULICE CONSTRUCTION, INC.": 0.35,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.47,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 0.5
+      }
+    },
+    {
+      "itemCode": "0662 6004",
+      "description": "WK ZN PAV MRK NON-REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 120700.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.45,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 0.45,
+        "WEBBER, LLC": 0.45,
+        "PULICE CONSTRUCTION, INC.": 0.36,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.47,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 0.3
+      }
+    },
+    {
+      "itemCode": "0662 6017",
+      "description": "WK ZN PAV MRK NON-REMOV (W)(ARROW)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 63.87,
+      "lowUnit": 32.75,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 32.75,
+        "WEBBER, LLC": 32.75,
+        "PULICE CONSTRUCTION, INC.": 26.19,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 34.12,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0662 6029",
+      "description": "WK ZN PAV MRK NON-REMOV(W)(WORD)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 94.66,
+      "lowUnit": 36.39,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 36.39,
+        "WEBBER, LLC": 36.5,
+        "PULICE CONSTRUCTION, INC.": 29.09,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 37.91,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 85.0
+      }
+    },
+    {
+      "itemCode": "0662 6032",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 1250.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.43,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 0.43,
+        "WEBBER, LLC": 0.45,
+        "PULICE CONSTRUCTION, INC.": 0.35,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.45,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 0.35
+      }
+    },
+    {
+      "itemCode": "0662 6034",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 135100.0,
+      "engEstUnit": 0.27,
+      "lowUnit": 0.43,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 0.43,
+        "WEBBER, LLC": 0.45,
+        "PULICE CONSTRUCTION, INC.": 0.35,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.45,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 0.3
+      }
+    },
+    {
+      "itemCode": "0662 6060",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 4125.0,
+      "engEstUnit": 0.49,
+      "lowUnit": 1.53,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 1.53,
+        "WEBBER, LLC": 1.55,
+        "PULICE CONSTRUCTION, INC.": 1.25,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1.59,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0662 6061",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(DOT)",
+      "unit": "LF",
+      "quantity": 1300.0,
+      "engEstUnit": 2.37,
+      "lowUnit": 1.53,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 1.53,
+        "WEBBER, LLC": 1.55,
+        "PULICE CONSTRUCTION, INC.": 1.25,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1.59,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 2.5
+      }
+    },
+    {
+      "itemCode": "0662 6063",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 135214.0,
+      "engEstUnit": 0.58,
+      "lowUnit": 0.65,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 0.65,
+        "WEBBER, LLC": 0.65,
+        "PULICE CONSTRUCTION, INC.": 0.52,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.68,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0662 6080",
+      "description": "WK ZN PAV MRK REMOV (W)(ARROW)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 111.73,
+      "lowUnit": 550.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 550.0,
+        "WEBBER, LLC": 550.0,
+        "PULICE CONSTRUCTION, INC.": 439.63,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 572.93,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0662 6090",
+      "description": "WK ZN PAV MRK REMOV (W)(WORD)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 114.07,
+      "lowUnit": 750.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 750.0,
+        "WEBBER, LLC": 750.0,
+        "PULICE CONSTRUCTION, INC.": 599.49,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 781.27,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0662 6093",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 1825.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.54,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 1.54,
+        "WEBBER, LLC": 1.55,
+        "PULICE CONSTRUCTION, INC.": 1.25,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1.6,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0662 6095",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 149228.0,
+      "engEstUnit": 0.99,
+      "lowUnit": 0.65,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 0.65,
+        "WEBBER, LLC": 0.65,
+        "PULICE CONSTRUCTION, INC.": 0.65,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.68,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 1250.0,
+      "engEstUnit": 5.61,
+      "lowUnit": 8.39,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 8.39,
+        "WEBBER, LLC": 8.4,
+        "PULICE CONSTRUCTION, INC.": 8.39,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 8.74,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 2295.0,
+      "engEstUnit": 5.66,
+      "lowUnit": 8.39,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 8.39,
+        "WEBBER, LLC": 8.4,
+        "PULICE CONSTRUCTION, INC.": 8.39,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 8.74,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 6.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 43700.0,
+      "engEstUnit": 0.51,
+      "lowUnit": 0.65,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 0.65,
+        "WEBBER, LLC": 0.65,
+        "PULICE CONSTRUCTION, INC.": 0.65,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.68,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 0.5
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 195703.0,
+      "engEstUnit": 0.03,
+      "lowUnit": 0.17,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 0.17,
+        "WEBBER, LLC": 0.15,
+        "PULICE CONSTRUCTION, INC.": 0.17,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.18,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 0.05
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 9912.0,
+      "engEstUnit": 0.06,
+      "lowUnit": 0.22,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 0.22,
+        "WEBBER, LLC": 0.2,
+        "PULICE CONSTRUCTION, INC.": 0.22,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.23,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 0.1
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 1656.0,
+      "engEstUnit": 0.19,
+      "lowUnit": 2.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 2.0,
+        "WEBBER, LLC": 2.0,
+        "PULICE CONSTRUCTION, INC.": 2.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2.08,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 0.8
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 34.0,
+      "engEstUnit": 6.41,
+      "lowUnit": 18.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 18.0,
+        "WEBBER, LLC": 18.0,
+        "PULICE CONSTRUCTION, INC.": 18.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 18.75,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 32.0,
+      "engEstUnit": 10.33,
+      "lowUnit": 21.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 21.0,
+        "WEBBER, LLC": 21.0,
+        "PULICE CONSTRUCTION, INC.": 21.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 21.88,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "0678 6033",
+      "description": "PAV SURF PREP FOR MRK (RPM)",
+      "unit": "EA",
+      "quantity": 3545.0,
+      "engEstUnit": 0.19,
+      "lowUnit": 1.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 1.0,
+        "WEBBER, LLC": 1.0,
+        "PULICE CONSTRUCTION, INC.": 1.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1.04,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 0.25
+      }
+    },
+    {
+      "itemCode": "0681 6001",
+      "description": "TEMP TRAF SIGNALS",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 37903.77,
+      "lowUnit": 38305.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 38305.0,
+        "WEBBER, LLC": 38310.0,
+        "PULICE CONSTRUCTION, INC.": 38305.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 38861.98,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 80000.0
+      }
+    },
+    {
+      "itemCode": "0682 6001",
+      "description": "VEH SIG SEC (12\")LED(GRN)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 252.74,
+      "lowUnit": 235.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 235.0,
+        "WEBBER, LLC": 235.0,
+        "PULICE CONSTRUCTION, INC.": 235.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 245.2,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "0682 6002",
+      "description": "VEH SIG SEC (12\")LED(GRN ARW)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 256.11,
+      "lowUnit": 235.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 235.0,
+        "WEBBER, LLC": 235.0,
+        "PULICE CONSTRUCTION, INC.": 235.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 245.21,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "0682 6003",
+      "description": "VEH SIG SEC (12\")LED(YEL)",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 250.23,
+      "lowUnit": 235.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 235.0,
+        "WEBBER, LLC": 235.0,
+        "PULICE CONSTRUCTION, INC.": 235.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 245.21,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "0682 6004",
+      "description": "VEH SIG SEC (12\")LED(YEL ARW)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 246.73,
+      "lowUnit": 235.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 235.0,
+        "WEBBER, LLC": 235.0,
+        "PULICE CONSTRUCTION, INC.": 235.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 245.21,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "0682 6005",
+      "description": "VEH SIG SEC (12\")LED(RED)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 247.59,
+      "lowUnit": 235.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 235.0,
+        "WEBBER, LLC": 235.0,
+        "PULICE CONSTRUCTION, INC.": 235.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 245.2,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "0682 6006",
+      "description": "VEH SIG SEC (12\")LED(RED ARW)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 239.2,
+      "lowUnit": 235.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 235.0,
+        "WEBBER, LLC": 235.0,
+        "PULICE CONSTRUCTION, INC.": 235.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 245.21,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "0682 6018",
+      "description": "PED SIG SEC (LED)(COUNTDOWN)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 609.66,
+      "lowUnit": 590.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 590.0,
+        "WEBBER, LLC": 590.0,
+        "PULICE CONSTRUCTION, INC.": 590.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 720.59,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 700.0
+      }
+    },
+    {
+      "itemCode": "0682 6021",
+      "description": "BACK PLATE (12\")(1 SEC)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 120.24,
+      "lowUnit": 78.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 78.0,
+        "WEBBER, LLC": 78.0,
+        "PULICE CONSTRUCTION, INC.": 78.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 140.19,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 120.0
+      }
+    },
+    {
+      "itemCode": "0682 6054",
+      "description": "BACKPLATE W/REF BRDR(3 SEC)(VENT)ALUM",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 106.95,
+      "lowUnit": 138.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 138.0,
+        "WEBBER, LLC": 138.0,
+        "PULICE CONSTRUCTION, INC.": 138.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 186.86,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0682 6055",
+      "description": "BACKPLATE W/REF BRDR(4 SEC)(VENT)ALUM",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 130.97,
+      "lowUnit": 158.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 158.0,
+        "WEBBER, LLC": 158.0,
+        "PULICE CONSTRUCTION, INC.": 158.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 212.79,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0684 6007",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(2 CONDR)",
+      "unit": "LF",
+      "quantity": 3502.0,
+      "engEstUnit": 1.68,
+      "lowUnit": 1.71,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 1.71,
+        "WEBBER, LLC": 1.7,
+        "PULICE CONSTRUCTION, INC.": 1.71,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1.38,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0684 6009",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(4 CONDR)",
+      "unit": "LF",
+      "quantity": 3628.0,
+      "engEstUnit": 2.08,
+      "lowUnit": 2.31,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 2.31,
+        "WEBBER, LLC": 2.3,
+        "PULICE CONSTRUCTION, INC.": 2.31,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1.99,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 2.5
+      }
+    },
+    {
+      "itemCode": "0684 6012",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(7 CONDR)",
+      "unit": "LF",
+      "quantity": 3888.0,
+      "engEstUnit": 2.85,
+      "lowUnit": 3.41,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 3.41,
+        "WEBBER, LLC": 3.4,
+        "PULICE CONSTRUCTION, INC.": 3.41,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2.83,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 3.5
+      }
+    },
+    {
+      "itemCode": "0685 6004",
+      "description": "INSTL RDSD FLSH BCN ASSM (SOLAR PWRD)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 7659.87,
+      "lowUnit": 5980.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 5980.0,
+        "WEBBER, LLC": 5980.0,
+        "PULICE CONSTRUCTION, INC.": 5980.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 8246.71,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 7000.0
+      }
+    },
+    {
+      "itemCode": "0686 6037",
+      "description": "INS TRF SIG PL AM(S)1 ARM(36')",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 9210.77,
+      "lowUnit": 11072.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 11072.0,
+        "WEBBER, LLC": 11070.0,
+        "PULICE CONSTRUCTION, INC.": 11072.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 13324.09,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 13500.0
+      }
+    },
+    {
+      "itemCode": "0686 6041",
+      "description": "INS TRF SIG PL AM(S)1 ARM(40')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 10014.76,
+      "lowUnit": 12109.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 12109.0,
+        "WEBBER, LLC": 12110.0,
+        "PULICE CONSTRUCTION, INC.": 12109.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 14811.34,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 14000.0
+      }
+    },
+    {
+      "itemCode": "0686 6045",
+      "description": "INS TRF SIG PL AM(S)1 ARM(44')",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10912.56,
+      "lowUnit": 12669.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 12669.0,
+        "WEBBER, LLC": 12670.0,
+        "PULICE CONSTRUCTION, INC.": 12669.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 15200.23,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 14000.0
+      }
+    },
+    {
+      "itemCode": "0686 6053",
+      "description": "INS TRF SIG PL AM(S)1 ARM(50')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 24409.14,
+      "lowUnit": 30477.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 30477.0,
+        "WEBBER, LLC": 30480.0,
+        "PULICE CONSTRUCTION, INC.": 30477.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 38034.41,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 30000.0
+      }
+    },
+    {
+      "itemCode": "0686 6063",
+      "description": "INS TRF SIG PL AM(S)1 ARM(60')LUM",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 29063.15,
+      "lowUnit": 35579.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 35579.0,
+        "WEBBER, LLC": 35580.0,
+        "PULICE CONSTRUCTION, INC.": 35579.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 42977.8,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 38000.0
+      }
+    },
+    {
+      "itemCode": "0687 6001",
+      "description": "PED POLE ASSEMBLY",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 2117.63,
+      "lowUnit": 1855.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 1855.0,
+        "WEBBER, LLC": 1860.0,
+        "PULICE CONSTRUCTION, INC.": 1855.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 3036.58,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 2600.0
+      }
+    },
+    {
+      "itemCode": "0688 6001",
+      "description": "PED DETECT PUSH BUTTON (APS)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 825.38,
+      "lowUnit": 622.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 622.0,
+        "WEBBER, LLC": 622.0,
+        "PULICE CONSTRUCTION, INC.": 622.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1128.32,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 1100.0
+      }
+    },
+    {
+      "itemCode": "0688 6003",
+      "description": "PED DETECTOR CONTROLLER UNIT",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 3151.06,
+      "lowUnit": 2796.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 2796.0,
+        "WEBBER, LLC": 2800.0,
+        "PULICE CONSTRUCTION, INC.": 2796.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1834.81,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 3500.0
+      }
+    },
+    {
+      "itemCode": "0690 6057",
+      "description": "REMOVAL OF PEDESTRIAN RAMPS",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1700.0,
+      "lowUnit": 378.63,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 378.63,
+        "WEBBER, LLC": 3000.0,
+        "PULICE CONSTRUCTION, INC.": 860.14,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 603.14,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 750.0
+      }
+    },
+    {
+      "itemCode": "0730 6107",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "CYC",
+      "quantity": 10.0,
+      "engEstUnit": 4027.7,
+      "lowUnit": 2161.78,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 2161.78,
+        "WEBBER, LLC": 6720.0,
+        "PULICE CONSTRUCTION, INC.": 7000.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 4000.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 4000.0
+      }
+    },
+    {
+      "itemCode": "0734 6002",
+      "description": "LITTER REMOVAL",
+      "unit": "CYC",
+      "quantity": 10.0,
+      "engEstUnit": 2033.48,
+      "lowUnit": 1166.82,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 1166.82,
+        "WEBBER, LLC": 9100.0,
+        "PULICE CONSTRUCTION, INC.": 2033.48,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 4000.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 4000.0
+      }
+    },
+    {
+      "itemCode": "0735 6001",
+      "description": "DEBRIS REMOVAL (CNTR MEDIANS/MAINLANES)",
+      "unit": "CYC",
+      "quantity": 40.0,
+      "engEstUnit": 1853.75,
+      "lowUnit": 1088.72,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 1088.72,
+        "WEBBER, LLC": 2710.0,
+        "PULICE CONSTRUCTION, INC.": 1853.75,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 3000.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 3500.0
+      }
+    },
+    {
+      "itemCode": "0738 6003",
+      "description": "CLEANING / SWEEPING (OUTSIDE MAIN LANE)",
+      "unit": "CYC",
+      "quantity": 40.0,
+      "engEstUnit": 2574.75,
+      "lowUnit": 1691.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 1691.0,
+        "WEBBER, LLC": 2290.0,
+        "PULICE CONSTRUCTION, INC.": 2835.28,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 3000.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 3500.0
+      }
+    },
+    {
+      "itemCode": "0752 6005",
+      "description": "TREE REMOVAL (4\" - 12\" DIA)",
+      "unit": "EA",
+      "quantity": 83.0,
+      "engEstUnit": 521.22,
+      "lowUnit": 128.74,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 128.74,
+        "WEBBER, LLC": 284.0,
+        "PULICE CONSTRUCTION, INC.": 522.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 300.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0752 6006",
+      "description": "TREE REMOVAL (12\" - 18\" DIA)",
+      "unit": "EA",
+      "quantity": 72.0,
+      "engEstUnit": 530.66,
+      "lowUnit": 222.61,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 222.61,
+        "WEBBER, LLC": 907.0,
+        "PULICE CONSTRUCTION, INC.": 531.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 550.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 600.0
+      }
+    },
+    {
+      "itemCode": "0752 6015",
+      "description": "TREE AND BRUSH REMOVAL",
+      "unit": "AC",
+      "quantity": 8.7,
+      "engEstUnit": 10462.22,
+      "lowUnit": 5342.67,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 5342.67,
+        "WEBBER, LLC": 8140.0,
+        "PULICE CONSTRUCTION, INC.": 10463.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 4800.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 10000.0
+      }
+    },
+    {
+      "itemCode": "3021 6001",
+      "description": "WIDE FLANGE PAVEMENT TERMINALS",
+      "unit": "LF",
+      "quantity": 667.0,
+      "engEstUnit": 622.14,
+      "lowUnit": 453.38,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 453.38,
+        "WEBBER, LLC": 582.0,
+        "PULICE CONSTRUCTION, INC.": 1003.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 760.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 600.0
+      }
+    },
+    {
+      "itemCode": "3076 6041",
+      "description": "D-GR HMA TY-D SAC-A PG70-22",
+      "unit": "TON",
+      "quantity": 748.0,
+      "engEstUnit": 136.15,
+      "lowUnit": 191.9,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 191.9,
+        "WEBBER, LLC": 196.0,
+        "PULICE CONSTRUCTION, INC.": 189.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 200.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 126.16
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 10678.49,
+      "lowUnit": 7359.31,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 7359.31,
+        "WEBBER, LLC": 19260.0,
+        "PULICE CONSTRUCTION, INC.": 17135.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 14000.0,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "6054 6001",
+      "description": "SPREAD SPECTRUM RADIO",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 2575.0,
+      "lowUnit": 1980.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 1980.0,
+        "WEBBER, LLC": 1980.0,
+        "PULICE CONSTRUCTION, INC.": 1980.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2021.16,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 2800.0
+      }
+    },
+    {
+      "itemCode": "6054 6004",
+      "description": "ANTENNA (OMNI-DIRECTIONAL)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 843.2,
+      "lowUnit": 794.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 794.0,
+        "WEBBER, LLC": 794.0,
+        "PULICE CONSTRUCTION, INC.": 795.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1365.77,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "6054 6005",
+      "description": "ANTENNA (UNI-DIRECTIONAL)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1150.0,
+      "lowUnit": 855.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 855.0,
+        "WEBBER, LLC": 855.0,
+        "PULICE CONSTRUCTION, INC.": 855.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1444.84,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "6058 6002",
+      "description": "BBU SYSTEM (STAND-ALONE BATT CABINET)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 7468.75,
+      "lowUnit": 6902.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 6902.0,
+        "WEBBER, LLC": 6900.0,
+        "PULICE CONSTRUCTION, INC.": 6902.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 8755.42,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 10000.0
+      }
+    },
+    {
+      "itemCode": "6292 6001",
+      "description": "RVDS(PRESENCE DETECTION ONLY)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 7303.59,
+      "lowUnit": 6039.17,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 6039.17,
+        "WEBBER, LLC": 6040.0,
+        "PULICE CONSTRUCTION, INC.": 6040.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 6936.64,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 8000.0
+      }
+    },
+    {
+      "itemCode": "6292 6002",
+      "description": "RVDS(ADVANCE DETECTION ONLY)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 6564.41,
+      "lowUnit": 7146.66,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 7146.66,
+        "WEBBER, LLC": 7150.0,
+        "PULICE CONSTRUCTION, INC.": 7150.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 8285.87,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 8000.0
+      }
+    },
+    {
+      "itemCode": "6306 6006",
+      "description": "VIVDS TEMPORARY",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 10832.44,
+      "lowUnit": 12655.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 12655.0,
+        "WEBBER, LLC": 12660.0,
+        "PULICE CONSTRUCTION, INC.": 12655.0,
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 20817.42,
+        "WILLIAMS BROTHERS CONSTRUCTION CO., INC.": 15000.0
+      }
+    }
+  ]
+}

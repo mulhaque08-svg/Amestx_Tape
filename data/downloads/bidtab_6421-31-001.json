@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6421-31-001",
+    "county": "Throckmorton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642131001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/16/23",
+    "engEstTotal": 120910.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRIPLE T MAINTENANCE INC.",
+      "totalBidAmount": 101474.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "PREMIER CONTRACTORS LLC",
+      "totalBidAmount": 110582.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CEHAND SERVICES LLC",
+      "totalBidAmount": 112992.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 116636.72
+    },
+    {
+      "rank": 5,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 125156.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "TEXAS BLACKTOPS LLC",
+      "totalBidAmount": 148862.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 610.0,
+      "engEstUnit": 39.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "TRIPLE T MAINTENANCE INC.": 35.0,
+        "PREMIER CONTRACTORS LLC": 36.0,
+        "CEHAND SERVICES LLC": 30.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 39.0,
+        "ANTHONY SERVICES": 38.0,
+        "TEXAS BLACKTOPS LLC": 49.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 2428.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 33.0,
+      "bidders": {
+        "TRIPLE T MAINTENANCE INC.": 33.0,
+        "PREMIER CONTRACTORS LLC": 36.5,
+        "CEHAND SERVICES LLC": 39.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 38.24,
+        "ANTHONY SERVICES": 42.0,
+        "TEXAS BLACKTOPS LLC": 49.0
+      }
+    }
+  ]
+}

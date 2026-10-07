@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6449-97-001",
+    "county": "Fort Bend",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644997001",
+    "projectType": "DITCH CLEANING AND RESHAPING",
+    "letDate": "12/12/23",
+    "engEstTotal": 295250.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RELIANT SAND AND CONSTRUCTION, INC.",
+      "totalBidAmount": 213100.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 223000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "RELIANT SAND AND CONSTRUCTION, INC.": 100.0,
+        "TEXAS DRAINAGE INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0760 6001",
+      "description": "DITCH CLEANING AND RESHAPING (FOOT)",
+      "unit": "LF",
+      "quantity": 165000.0,
+      "engEstUnit": 1.75,
+      "lowUnit": 1.28,
+      "bidders": {
+        "RELIANT SAND AND CONSTRUCTION, INC.": 1.28,
+        "TEXAS DRAINAGE INC.": 1.34
+      }
+    }
+  ]
+}

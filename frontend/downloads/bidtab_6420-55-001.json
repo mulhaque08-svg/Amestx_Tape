@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "csj": "6420-55-001",
+    "county": "Washington",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642055001",
+    "projectType": "RAISED PAVEMENT MARKERS",
+    "letDate": "10/12/22",
+    "engEstTotal": 140000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BRYDL CONTRACTING, LLC",
+      "totalBidAmount": 126085.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "PAVEMENT MARKINGS INC.",
+      "totalBidAmount": 160400.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CENTERLINE TECHNOLOGIES, LLC",
+      "totalBidAmount": 183250.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 1.0,
+        "PAVEMENT MARKINGS INC.": 1400.0,
+        "CENTERLINE TECHNOLOGIES, LLC": 2000.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 5000.0,
+      "engEstUnit": 3.7,
+      "lowUnit": 3.6,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 3.6,
+        "PAVEMENT MARKINGS INC.": 4.2,
+        "CENTERLINE TECHNOLOGIES, LLC": 3.75
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 20000.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 3.6,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 3.6,
+        "PAVEMENT MARKINGS INC.": 3.6,
+        "CENTERLINE TECHNOLOGIES, LLC": 3.75
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 10000.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 3.6,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 3.6,
+        "PAVEMENT MARKINGS INC.": 4.8,
+        "CENTERLINE TECHNOLOGIES, LLC": 3.75
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 40.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 1.0,
+        "PAVEMENT MARKINGS INC.": 10.0,
+        "CENTERLINE TECHNOLOGIES, LLC": 500.0
+      }
+    }
+  ]
+}

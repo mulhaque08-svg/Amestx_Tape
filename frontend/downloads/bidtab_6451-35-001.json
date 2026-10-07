@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "csj": "6451-35-001",
+    "county": "San Jacinto",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645135001",
+    "projectType": "SAN JACINTO - MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/02/24",
+    "engEstTotal": 304240.82,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ROY LEE WALKER",
+      "totalBidAmount": 183650.47
+    },
+    {
+      "rank": 2,
+      "vendorName": "ABESCAPE LANDSCAPING, LLC",
+      "totalBidAmount": 192607.29
+    },
+    {
+      "rank": 3,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 223401.64
+    },
+    {
+      "rank": 4,
+      "vendorName": "MB WESTERN INDUSTRIAL CONTRACTING COMPANY",
+      "totalBidAmount": 319203.1
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 128.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ROY LEE WALKER": 1.0,
+        "ABESCAPE LANDSCAPING, LLC": 1.0,
+        "RISE UP CONSTRUCTION LLC": 35.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 65.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 4500.92,
+      "engEstUnit": 50.0,
+      "lowUnit": 32.79,
+      "bidders": {
+        "ROY LEE WALKER": 32.79,
+        "ABESCAPE LANDSCAPING, LLC": 34.78,
+        "RISE UP CONSTRUCTION LLC": 40.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 50.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 81.46,
+      "engEstUnit": 30.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ROY LEE WALKER": 1.0,
+        "ABESCAPE LANDSCAPING, LLC": 1.0,
+        "RISE UP CONSTRUCTION LLC": 1.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 85.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 2977.32,
+      "engEstUnit": 23.5,
+      "lowUnit": 12.0,
+      "bidders": {
+        "ROY LEE WALKER": 12.0,
+        "ABESCAPE LANDSCAPING, LLC": 12.0,
+        "RISE UP CONSTRUCTION LLC": 12.99,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 25.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 128.0,
+      "engEstUnit": 18.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ROY LEE WALKER": 1.0,
+        "ABESCAPE LANDSCAPING, LLC": 1.0,
+        "RISE UP CONSTRUCTION LLC": 1.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 35.0
+      }
+    }
+  ]
+}

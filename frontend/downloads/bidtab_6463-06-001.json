@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6463-06-001",
+    "county": "Navarro",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646306001",
+    "projectType": "TREE TRIMMING AND BRUSH REMOVAL",
+    "letDate": "07/16/24",
+    "engEstTotal": 197010.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 156695.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BUSHWACKERS CONTRACTING, LLC",
+      "totalBidAmount": 167084.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "BUCK UP SERVICES LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 189300.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "GV LANDSCAPE AND CONSTRUCTION LLC",
+      "totalBidAmount": 191800.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "RHINO EQUITY, LLC",
+      "totalBidAmount": 216700.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 252585.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "DOMINION ENGINEERING MANAGEMENT SERVICES (DEMS), LLC",
+      "totalBidAmount": 384000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 17910.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 5000.0,
+        "BUSHWACKERS CONTRACTING, LLC": 5000.0,
+        "BUCK UP SERVICES LIMITED LIABILITY COMPANY": 5000.0,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 45000.0,
+        "RHINO EQUITY, LLC": 10300.0,
+        "SHALOM SERVICES CORPORATION": 1.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 55.0,
+      "engEstUnit": 2400.0,
+      "lowUnit": 2209.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 2209.0,
+        "BUSHWACKERS CONTRACTING, LLC": 2900.0,
+        "BUCK UP SERVICES LIMITED LIABILITY COMPANY": 2600.0,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 2000.0,
+        "RHINO EQUITY, LLC": 3090.0,
+        "SHALOM SERVICES CORPORATION": 4500.0
+      }
+    }
+  ]
+}

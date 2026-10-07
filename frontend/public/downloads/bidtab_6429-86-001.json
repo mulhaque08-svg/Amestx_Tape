@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6429-86-001",
+    "county": "Menard",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642986001",
+    "projectType": "TREE TRIMMING AND BRUSH REMOVAL",
+    "letDate": "01/10/23",
+    "engEstTotal": 103330.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "HX FARMS, INC.",
+      "totalBidAmount": 152570.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 198238.32
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "HX FARMS, INC.": 10000.0,
+        "ANTHONY SERVICES": 5000.0
+      }
+    }
+  ]
+}

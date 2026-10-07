@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6418-73-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641873001",
+    "projectType": "ASPHALTIC PATCHING MATERIAL",
+    "letDate": "10/12/22",
+    "engEstTotal": 214500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 174500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "AUSTIN ASPHALT, INC.",
+      "totalBidAmount": 178250.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8006 6003",
+      "description": "SP MIXTURES SP-C PG70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 97.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 97.0,
+        "AUSTIN ASPHALT, INC.": 91.0
+      }
+    },
+    {
+      "itemCode": "8006 6005",
+      "description": "SP MIXTURES SP-D PG64-22  (PICKUP)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 108.0,
+      "lowUnit": 84.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 84.0,
+        "AUSTIN ASPHALT, INC.": 88.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "0919-00-093",
+    "county": "Cass",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2B24(110)",
+    "projectType": "LANDSCAPE DEVELOPMENT",
+    "letDate": "06/06/24",
+    "engEstTotal": 180250.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS ROAD CONSTRUCTION, LLC",
+      "totalBidAmount": 134759.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TIGHT LINE CONSTRUCTION, LLC",
+      "totalBidAmount": 142060.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TRUE ROADS, LLC",
+      "totalBidAmount": 161103.34
+    },
+    {
+      "rank": 4,
+      "vendorName": "GREEN SAGE SERVICES LLC",
+      "totalBidAmount": 169345.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0180 6001",
+      "description": "WILDFLOWER SEEDING",
+      "unit": "AC",
+      "quantity": 247.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 535.0,
+      "bidders": {
+        "TEXAS ROAD CONSTRUCTION, LLC": 535.0,
+        "TIGHT LINE CONSTRUCTION, LLC": 575.0,
+        "TRUE ROADS, LLC": 599.0,
+        "GREEN SAGE SERVICES LLC": 535.0
+      }
+    }
+  ]
+}

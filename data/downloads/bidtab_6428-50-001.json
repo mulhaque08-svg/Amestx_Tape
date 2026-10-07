@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6428-50-001",
+    "county": "Bexar",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642850001",
+    "projectType": "HOT-MIX COLD-LAID",
+    "letDate": "12/14/22",
+    "engEstTotal": 63592.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 65700.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 66400.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "LONE STAR PAVING COMPANY",
+      "totalBidAmount": 72750.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 84021.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 94440.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8013 6003",
+      "description": "HMCL ACP TYPE B (DELIVERY)(SITE 1)",
+      "unit": "TON",
+      "quantity": 550.0,
+      "engEstUnit": 79.49,
+      "lowUnit": 79.0,
+      "bidders": {
+        "BRAUNTEX MATERIALS, INC.": 79.0,
+        "TEXAS MATERIALS GROUP, INC.": 83.0,
+        "LONE STAR PAVING COMPANY": 88.75,
+        "COLORADO MATERIALS, LTD.": 104.17,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 118.05
+      }
+    },
+    {
+      "itemCode": "8013 6004",
+      "description": "HMCL ACP TYPE B (DELIVERY)(SITE 2)",
+      "unit": "TON",
+      "quantity": 250.0,
+      "engEstUnit": 79.49,
+      "lowUnit": 89.0,
+      "bidders": {
+        "BRAUNTEX MATERIALS, INC.": 89.0,
+        "TEXAS MATERIALS GROUP, INC.": 83.0,
+        "LONE STAR PAVING COMPANY": 95.75,
+        "COLORADO MATERIALS, LTD.": 106.91,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 118.05
+      }
+    }
+  ]
+}

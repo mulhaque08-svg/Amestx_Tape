@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6397-77-001",
+    "county": "Randall",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639777001",
+    "projectType": "PAINT AND BEADS",
+    "letDate": "05/04/23",
+    "engEstTotal": 1446087.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "STRIPE-A-ZONE, LLC",
+      "totalBidAmount": 1255625.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 1354244.15
+    },
+    {
+      "rank": 3,
+      "vendorName": "ENNIS-FLINT, INC.",
+      "totalBidAmount": 1387645.62
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8003 6001",
+      "description": "TRAFFIC PAINT (W)",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 4930.2,
+      "lowUnit": 4345.0,
+      "bidders": {
+        "STRIPE-A-ZONE, LLC": 4345.0,
+        "TRP CONSTRUCTION GROUP, LLC": 4822.538,
+        "ENNIS-FLINT, INC.": 4354.625
+      }
+    },
+    {
+      "itemCode": "8003 6002",
+      "description": "TRAFFIC PAINT (Y)",
+      "unit": "EA",
+      "quantity": 75.0,
+      "engEstUnit": 5066.6,
+      "lowUnit": 4345.0,
+      "bidders": {
+        "STRIPE-A-ZONE, LLC": 4345.0,
+        "TRP CONSTRUCTION GROUP, LLC": 4822.538,
+        "ENNIS-FLINT, INC.": 4295.775
+      }
+    },
+    {
+      "itemCode": "8003 6003",
+      "description": "GLASS BEADS (TY III)",
+      "unit": "EA",
+      "quantity": 175.0,
+      "engEstUnit": 1937.1,
+      "lowUnit": 1640.0,
+      "bidders": {
+        "STRIPE-A-ZONE, LLC": 1640.0,
+        "TRP CONSTRUCTION GROUP, LLC": 1836.0,
+        "ENNIS-FLINT, INC.": 2000.0
+      }
+    },
+    {
+      "itemCode": "8003 6004",
+      "description": "GLASS BEADS (TY II)",
+      "unit": "EA",
+      "quantity": 175.0,
+      "engEstUnit": 1337.6,
+      "lowUnit": 1190.0,
+      "bidders": {
+        "STRIPE-A-ZONE, LLC": 1190.0,
+        "TRP CONSTRUCTION GROUP, LLC": 1080.0,
+        "ENNIS-FLINT, INC.": 1600.0
+      }
+    }
+  ]
+}

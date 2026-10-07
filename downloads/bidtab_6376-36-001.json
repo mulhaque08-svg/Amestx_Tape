@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6376-36-001",
+    "county": "Parker",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637636001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "06/04/21",
+    "engEstTotal": 2004258.79,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 1631019.25
+    },
+    {
+      "rank": 2,
+      "vendorName": "YELLOWSTONE LANDSCAPE - CENTRAL, INC.",
+      "totalBidAmount": 1800000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 1062.06,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 1.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 15261.5
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 20175.0,
+      "engEstUnit": 42.82,
+      "lowUnit": 37.91,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 37.91,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 44.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 400.0,
+      "engEstUnit": 17.75,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 1.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "0731 6007",
+      "description": "PAVEMENT EDGES, STRUCTURES & FIXTURES",
+      "unit": "MI",
+      "quantity": 1686.0,
+      "engEstUnit": 300.63,
+      "lowUnit": 175.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 175.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 229.0
+      }
+    },
+    {
+      "itemCode": "0731 6011",
+      "description": "BROADCAST APPLICATION",
+      "unit": "AC",
+      "quantity": 8083.0,
+      "engEstUnit": 74.71,
+      "lowUnit": 69.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 69.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 48.0
+      }
+    }
+  ]
+}

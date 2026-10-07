@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6424-40-001",
+    "county": "Jefferson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642440001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/07/23",
+    "engEstTotal": 406304.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "WAYNE YANCEY, INC.",
+      "totalBidAmount": 416209.6
+    },
+    {
+      "rank": 2,
+      "vendorName": "YELLOWSTONE LANDSCAPE - CENTRAL, INC.",
+      "totalBidAmount": 645984.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 672900.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 2218.0,
+      "engEstUnit": 46.0,
+      "lowUnit": 24.0,
+      "bidders": {
+        "WAYNE YANCEY, INC.": 24.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 72.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6654.0,
+      "engEstUnit": 44.0,
+      "lowUnit": 54.4,
+      "bidders": {
+        "WAYNE YANCEY, INC.": 54.4,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 72.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "WAYNE YANCEY, INC.": 10.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 72.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 75.0
+      }
+    }
+  ]
+}

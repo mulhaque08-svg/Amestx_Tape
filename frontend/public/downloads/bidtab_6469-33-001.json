@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6469-33-001",
+    "county": "Brown",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646933001",
+    "projectType": "MILLING",
+    "letDate": "07/09/24",
+    "engEstTotal": 1067311.3,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "L&L COMPANY",
+      "totalBidAmount": 810028.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TRP INFRASTRUCTURE SERVICES, LLC",
+      "totalBidAmount": 811750.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "STRIPE-A-ZONE, LLC",
+      "totalBidAmount": 1228775.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "D. I. J. CONSTRUCTION, INC.",
+      "totalBidAmount": 1250000.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "TRAFFIC HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 1802500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 97028.3,
+      "lowUnit": 1.0,
+      "bidders": {
+        "L&L COMPANY": 1.0,
+        "TRP INFRASTRUCTURE SERVICES, LLC": 500.0,
+        "STRIPE-A-ZONE, LLC": 120000.0,
+        "D. I. J. CONSTRUCTION, INC.": 100000.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 160000.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "L&L COMPANY": 1.0,
+        "TRP INFRASTRUCTURE SERVICES, LLC": 500.0,
+        "STRIPE-A-ZONE, LLC": 20000.0,
+        "D. I. J. CONSTRUCTION, INC.": 15000.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "2021 6001",
+      "description": "ULTRA HP WATER CUTTING TREATMENT",
+      "unit": "SY",
+      "quantity": 225000.0,
+      "engEstUnit": 4.25,
+      "lowUnit": 3.6,
+      "bidders": {
+        "L&L COMPANY": 3.6,
+        "TRP INFRASTRUCTURE SERVICES, LLC": 3.6,
+        "STRIPE-A-ZONE, LLC": 4.75,
+        "D. I. J. CONSTRUCTION, INC.": 4.7,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 7.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6417-34-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641734001",
+    "projectType": "SWEEPING AND DEBRIS REMOVAL",
+    "letDate": "06/28/23",
+    "engEstTotal": 1157244.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 883358.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SWEEPING CORPORATION OF AMERICA, LLC",
+      "totalBidAmount": 896360.7
+    },
+    {
+      "rank": 3,
+      "vendorName": "VIZCAINO, L.P.",
+      "totalBidAmount": 2339240.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 95552.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 25000.0,
+        "VIZCAINO, L.P.": 5000.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1.0,
+        "VIZCAINO, L.P.": 5000.0
+      }
+    }
+  ]
+}

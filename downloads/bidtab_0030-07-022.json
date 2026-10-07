@@ -1,0 +1,764 @@
+{
+  "metadata": {
+    "csj": "0030-07-022",
+    "county": "Hemphill",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2023(180)",
+    "projectType": "SURFACING/ROADWAY RESTORATION",
+    "letDate": "11/02/22",
+    "engEstTotal": 5574894.1,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DUININCK, INC.",
+      "totalBidAmount": 5382629.98
+    },
+    {
+      "rank": 2,
+      "vendorName": "J. LEE MILLIGAN, INC.",
+      "totalBidAmount": 5594277.65
+    },
+    {
+      "rank": 3,
+      "vendorName": "GILVIN-TERRILL, LTD.",
+      "totalBidAmount": 5911579.91
+    },
+    {
+      "rank": 4,
+      "vendorName": "RK HALL, LLC",
+      "totalBidAmount": 6224842.73
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6008",
+      "description": "PREPARING ROW (TREE) (0\" TO 6\" DIA)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 315.0,
+      "bidders": {
+        "DUININCK, INC.": 315.0,
+        "J. LEE MILLIGAN, INC.": 200.0,
+        "GILVIN-TERRILL, LTD.": 550.0,
+        "RK HALL, LLC": 1450.0
+      }
+    },
+    {
+      "itemCode": "0100 6009",
+      "description": "PREPARING ROW (TREE) (6\" TO 24\" DIA)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 650.0,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "DUININCK, INC.": 1100.0,
+        "J. LEE MILLIGAN, INC.": 875.0,
+        "GILVIN-TERRILL, LTD.": 900.0,
+        "RK HALL, LLC": 2000.0
+      }
+    },
+    {
+      "itemCode": "0104 6021",
+      "description": "REMOVING CONC (CURB)",
+      "unit": "LF",
+      "quantity": 40.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 31.5,
+      "bidders": {
+        "DUININCK, INC.": 31.5,
+        "J. LEE MILLIGAN, INC.": 18.0,
+        "GILVIN-TERRILL, LTD.": 40.0,
+        "RK HALL, LLC": 34.5
+      }
+    },
+    {
+      "itemCode": "0104 6054",
+      "description": "REMOVING CONCRETE(MOW STRIP)",
+      "unit": "LF",
+      "quantity": 1689.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 14.5,
+      "bidders": {
+        "DUININCK, INC.": 14.5,
+        "J. LEE MILLIGAN, INC.": 8.25,
+        "GILVIN-TERRILL, LTD.": 20.0,
+        "RK HALL, LLC": 22.2
+      }
+    },
+    {
+      "itemCode": "0134 6001",
+      "description": "BACKFILL (TY A)",
+      "unit": "STA",
+      "quantity": 314.55,
+      "engEstUnit": 200.0,
+      "lowUnit": 260.0,
+      "bidders": {
+        "DUININCK, INC.": 260.0,
+        "J. LEE MILLIGAN, INC.": 235.0,
+        "GILVIN-TERRILL, LTD.": 550.0,
+        "RK HALL, LLC": 290.0
+      }
+    },
+    {
+      "itemCode": "0164 6036",
+      "description": "DRILL SEEDING (PERM) (RURAL) (CLAY)",
+      "unit": "AC",
+      "quantity": 8.36,
+      "engEstUnit": 800.0,
+      "lowUnit": 680.0,
+      "bidders": {
+        "DUININCK, INC.": 680.0,
+        "J. LEE MILLIGAN, INC.": 680.0,
+        "GILVIN-TERRILL, LTD.": 645.0,
+        "RK HALL, LLC": 741.75
+      }
+    },
+    {
+      "itemCode": "0164 6053",
+      "description": "DRILL SEEDING (TEMP)(WARM OR COOL)",
+      "unit": "AC",
+      "quantity": 8.36,
+      "engEstUnit": 630.0,
+      "lowUnit": 535.0,
+      "bidders": {
+        "DUININCK, INC.": 535.0,
+        "J. LEE MILLIGAN, INC.": 540.0,
+        "GILVIN-TERRILL, LTD.": 510.0,
+        "RK HALL, LLC": 586.5
+      }
+    },
+    {
+      "itemCode": "0351 6007",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(11\")",
+      "unit": "SY",
+      "quantity": 105.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 420.0,
+      "bidders": {
+        "DUININCK, INC.": 420.0,
+        "J. LEE MILLIGAN, INC.": 556.25,
+        "GILVIN-TERRILL, LTD.": 500.0,
+        "RK HALL, LLC": 1200.0
+      }
+    },
+    {
+      "itemCode": "0351 6012",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(2\")",
+      "unit": "SY",
+      "quantity": 9050.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 29.0,
+      "bidders": {
+        "DUININCK, INC.": 29.0,
+        "J. LEE MILLIGAN, INC.": 33.25,
+        "GILVIN-TERRILL, LTD.": 40.0,
+        "RK HALL, LLC": 24.45
+      }
+    },
+    {
+      "itemCode": "0354 6021",
+      "description": "PLANE ASPH CONC PAV(0\" TO 2\")",
+      "unit": "SY",
+      "quantity": 12013.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 5.7,
+      "bidders": {
+        "DUININCK, INC.": 5.7,
+        "J. LEE MILLIGAN, INC.": 4.5,
+        "GILVIN-TERRILL, LTD.": 5.75,
+        "RK HALL, LLC": 5.28
+      }
+    },
+    {
+      "itemCode": "0354 6045",
+      "description": "PLANE ASPH CONC PAV (2\")",
+      "unit": "SY",
+      "quantity": 2424.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 6.8,
+      "bidders": {
+        "DUININCK, INC.": 6.8,
+        "J. LEE MILLIGAN, INC.": 6.0,
+        "GILVIN-TERRILL, LTD.": 4.15,
+        "RK HALL, LLC": 5.8
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 55.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 420.0,
+      "bidders": {
+        "DUININCK, INC.": 420.0,
+        "J. LEE MILLIGAN, INC.": 165.0,
+        "GILVIN-TERRILL, LTD.": 500.0,
+        "RK HALL, LLC": 460.0
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 43.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 895.0,
+      "bidders": {
+        "DUININCK, INC.": 895.0,
+        "J. LEE MILLIGAN, INC.": 725.0,
+        "GILVIN-TERRILL, LTD.": 700.0,
+        "RK HALL, LLC": 977.5
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 89.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 920.0,
+      "bidders": {
+        "DUININCK, INC.": 920.0,
+        "J. LEE MILLIGAN, INC.": 740.0,
+        "GILVIN-TERRILL, LTD.": 700.0,
+        "RK HALL, LLC": 1006.25
+      }
+    },
+    {
+      "itemCode": "0467 6200",
+      "description": "SET (TY I)(S= 6 FT)(HW= 2 FT)(4:1) (C)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 16000.0,
+      "bidders": {
+        "DUININCK, INC.": 16000.0,
+        "J. LEE MILLIGAN, INC.": 8500.0,
+        "GILVIN-TERRILL, LTD.": 8000.0,
+        "RK HALL, LLC": 17250.0
+      }
+    },
+    {
+      "itemCode": "0496 6006",
+      "description": "REMOV STR (HEADWALL)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1600.0,
+      "bidders": {
+        "DUININCK, INC.": 1600.0,
+        "J. LEE MILLIGAN, INC.": 1750.0,
+        "GILVIN-TERRILL, LTD.": 3000.0,
+        "RK HALL, LLC": 1725.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 455000.0,
+      "lowUnit": 525000.0,
+      "bidders": {
+        "DUININCK, INC.": 525000.0,
+        "J. LEE MILLIGAN, INC.": 555000.0,
+        "GILVIN-TERRILL, LTD.": 590000.0,
+        "RK HALL, LLC": 311242.13
+      }
+    },
+    {
+      "itemCode": "0529 6002",
+      "description": "CONC CURB (TY II)",
+      "unit": "LF",
+      "quantity": 40.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 1.45,
+      "bidders": {
+        "DUININCK, INC.": 1.45,
+        "J. LEE MILLIGAN, INC.": 82.5,
+        "GILVIN-TERRILL, LTD.": 150.0,
+        "RK HALL, LLC": 63.25
+      }
+    },
+    {
+      "itemCode": "0533 6001",
+      "description": "RUMBLE STRIPS (SHOULDER)",
+      "unit": "LF",
+      "quantity": 67887.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.09,
+      "bidders": {
+        "DUININCK, INC.": 0.09,
+        "J. LEE MILLIGAN, INC.": 0.3,
+        "GILVIN-TERRILL, LTD.": 0.25,
+        "RK HALL, LLC": 0.16
+      }
+    },
+    {
+      "itemCode": "0533 6002",
+      "description": "RUMBLE STRIPS (CENTERLINE)",
+      "unit": "LF",
+      "quantity": 34269.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.13,
+      "bidders": {
+        "DUININCK, INC.": 0.13,
+        "J. LEE MILLIGAN, INC.": 0.35,
+        "GILVIN-TERRILL, LTD.": 0.4,
+        "RK HALL, LLC": 0.16
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 5588.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.65,
+      "bidders": {
+        "DUININCK, INC.": 2.65,
+        "J. LEE MILLIGAN, INC.": 3.15,
+        "GILVIN-TERRILL, LTD.": 2.5,
+        "RK HALL, LLC": 2.88
+      }
+    },
+    {
+      "itemCode": "0542 6003",
+      "description": "REMOVE DOWNSTREAM ANCHOR TERMINAL",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 265.0,
+      "bidders": {
+        "DUININCK, INC.": 265.0,
+        "J. LEE MILLIGAN, INC.": 315.0,
+        "GILVIN-TERRILL, LTD.": 250.0,
+        "RK HALL, LLC": 287.5
+      }
+    },
+    {
+      "itemCode": "0542 6004",
+      "description": "RM MTL BM GD FENCE TRANS (THRIE-BEAM)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 265.0,
+      "bidders": {
+        "DUININCK, INC.": 265.0,
+        "J. LEE MILLIGAN, INC.": 315.0,
+        "GILVIN-TERRILL, LTD.": 250.0,
+        "RK HALL, LLC": 287.5
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 3100.0,
+      "bidders": {
+        "DUININCK, INC.": 3100.0,
+        "J. LEE MILLIGAN, INC.": 3640.0,
+        "GILVIN-TERRILL, LTD.": 3150.0,
+        "RK HALL, LLC": 3622.5
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 265.0,
+      "bidders": {
+        "DUININCK, INC.": 265.0,
+        "J. LEE MILLIGAN, INC.": 315.0,
+        "GILVIN-TERRILL, LTD.": 250.0,
+        "RK HALL, LLC": 287.5
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 17.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 810.0,
+      "bidders": {
+        "DUININCK, INC.": 810.0,
+        "J. LEE MILLIGAN, INC.": 975.0,
+        "GILVIN-TERRILL, LTD.": 771.0,
+        "RK HALL, LLC": 886.65
+      }
+    },
+    {
+      "itemCode": "0644 6002",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P-BM)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 920.0,
+      "bidders": {
+        "DUININCK, INC.": 920.0,
+        "J. LEE MILLIGAN, INC.": 1055.0,
+        "GILVIN-TERRILL, LTD.": 875.0,
+        "RK HALL, LLC": 1006.25
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 950.0,
+      "bidders": {
+        "DUININCK, INC.": 950.0,
+        "J. LEE MILLIGAN, INC.": 1110.0,
+        "GILVIN-TERRILL, LTD.": 903.0,
+        "RK HALL, LLC": 1038.45
+      }
+    },
+    {
+      "itemCode": "0644 6007",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(U)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "DUININCK, INC.": 1200.0,
+        "J. LEE MILLIGAN, INC.": 1320.0,
+        "GILVIN-TERRILL, LTD.": 1095.0,
+        "RK HALL, LLC": 1259.25
+      }
+    },
+    {
+      "itemCode": "0644 6030",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(T)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1300.0,
+      "bidders": {
+        "DUININCK, INC.": 1300.0,
+        "J. LEE MILLIGAN, INC.": 1410.0,
+        "GILVIN-TERRILL, LTD.": 1213.0,
+        "RK HALL, LLC": 1394.95
+      }
+    },
+    {
+      "itemCode": "0644 6033",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1300.0,
+      "bidders": {
+        "DUININCK, INC.": 1300.0,
+        "J. LEE MILLIGAN, INC.": 1455.0,
+        "GILVIN-TERRILL, LTD.": 1234.0,
+        "RK HALL, LLC": 1419.1
+      }
+    },
+    {
+      "itemCode": "0644 6034",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U-1EXT)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1400.0,
+      "bidders": {
+        "DUININCK, INC.": 1400.0,
+        "J. LEE MILLIGAN, INC.": 1580.0,
+        "GILVIN-TERRILL, LTD.": 1375.0,
+        "RK HALL, LLC": 1581.25
+      }
+    },
+    {
+      "itemCode": "0644 6035",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U-2EXT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1600.0,
+      "bidders": {
+        "DUININCK, INC.": 1600.0,
+        "J. LEE MILLIGAN, INC.": 1820.0,
+        "GILVIN-TERRILL, LTD.": 1538.0,
+        "RK HALL, LLC": 1768.7
+      }
+    },
+    {
+      "itemCode": "0644 6037",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U-WC)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "DUININCK, INC.": 1500.0,
+        "J. LEE MILLIGAN, INC.": 1690.0,
+        "GILVIN-TERRILL, LTD.": 1454.0,
+        "RK HALL, LLC": 1672.1
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 44.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 105.0,
+      "bidders": {
+        "DUININCK, INC.": 105.0,
+        "J. LEE MILLIGAN, INC.": 105.0,
+        "GILVIN-TERRILL, LTD.": 110.0,
+        "RK HALL, LLC": 172.5
+      }
+    },
+    {
+      "itemCode": "0658 6060",
+      "description": "REMOVE DELIN & OBJECT MARKER ASSMS",
+      "unit": "EA",
+      "quantity": 104.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 21.0,
+      "bidders": {
+        "DUININCK, INC.": 21.0,
+        "J. LEE MILLIGAN, INC.": 11.0,
+        "GILVIN-TERRILL, LTD.": 15.0,
+        "RK HALL, LLC": 11.5
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 45.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "DUININCK, INC.": 40.0,
+        "J. LEE MILLIGAN, INC.": 42.0,
+        "GILVIN-TERRILL, LTD.": 47.0,
+        "RK HALL, LLC": 54.05
+      }
+    },
+    {
+      "itemCode": "0658 6063",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BR)",
+      "unit": "EA",
+      "quantity": 49.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "DUININCK, INC.": 40.0,
+        "J. LEE MILLIGAN, INC.": 42.0,
+        "GILVIN-TERRILL, LTD.": 48.0,
+        "RK HALL, LLC": 55.2
+      }
+    },
+    {
+      "itemCode": "0658 6069",
+      "description": "INSTL DEL ASSM (D-SW)SZ  (BRF)CTB (BR)",
+      "unit": "EA",
+      "quantity": 58.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 39.5,
+      "bidders": {
+        "DUININCK, INC.": 39.5,
+        "J. LEE MILLIGAN, INC.": 42.0,
+        "GILVIN-TERRILL, LTD.": 41.0,
+        "RK HALL, LLC": 47.15
+      }
+    },
+    {
+      "itemCode": "0658 6080",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(WFLX)GND",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "DUININCK, INC.": 125.0,
+        "J. LEE MILLIGAN, INC.": 160.0,
+        "GILVIN-TERRILL, LTD.": 118.0,
+        "RK HALL, LLC": 135.7
+      }
+    },
+    {
+      "itemCode": "0658 6100",
+      "description": "INSTL OM ASSM (OM-2Z)(WFLX)GND(BI)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "DUININCK, INC.": 125.0,
+        "J. LEE MILLIGAN, INC.": 160.0,
+        "GILVIN-TERRILL, LTD.": 118.0,
+        "RK HALL, LLC": 135.7
+      }
+    },
+    {
+      "itemCode": "0662 6109",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY W",
+      "unit": "EA",
+      "quantity": 4784.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.05,
+      "bidders": {
+        "DUININCK, INC.": 1.05,
+        "J. LEE MILLIGAN, INC.": 1.7,
+        "GILVIN-TERRILL, LTD.": 2.0,
+        "RK HALL, LLC": 2.92
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 1761.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.05,
+      "bidders": {
+        "DUININCK, INC.": 1.05,
+        "J. LEE MILLIGAN, INC.": 1.75,
+        "GILVIN-TERRILL, LTD.": 2.0,
+        "RK HALL, LLC": 2.92
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 413.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 6.3,
+      "bidders": {
+        "DUININCK, INC.": 6.3,
+        "J. LEE MILLIGAN, INC.": 6.35,
+        "GILVIN-TERRILL, LTD.": 6.0,
+        "RK HALL, LLC": 6.9
+      }
+    },
+    {
+      "itemCode": "3077 6058",
+      "description": "SP MIXES SP-D SAC-A PG70-28",
+      "unit": "TON",
+      "quantity": 21618.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 151.25,
+      "bidders": {
+        "DUININCK, INC.": 151.25,
+        "J. LEE MILLIGAN, INC.": 151.75,
+        "GILVIN-TERRILL, LTD.": 150.0,
+        "RK HALL, LLC": 181.13
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 820.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 5.25,
+      "bidders": {
+        "DUININCK, INC.": 5.25,
+        "J. LEE MILLIGAN, INC.": 17.5,
+        "GILVIN-TERRILL, LTD.": 8.0,
+        "RK HALL, LLC": 8.0
+      }
+    },
+    {
+      "itemCode": "3085 6001",
+      "description": "UNDERSEAL COURSE",
+      "unit": "GAL",
+      "quantity": 47109.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 3.85,
+      "bidders": {
+        "DUININCK, INC.": 3.85,
+        "J. LEE MILLIGAN, INC.": 4.35,
+        "GILVIN-TERRILL, LTD.": 6.5,
+        "RK HALL, LLC": 8.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 14000.0,
+      "lowUnit": 9200.0,
+      "bidders": {
+        "DUININCK, INC.": 9200.0,
+        "J. LEE MILLIGAN, INC.": 11000.0,
+        "GILVIN-TERRILL, LTD.": 18000.0,
+        "RK HALL, LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "6024 6002",
+      "description": "HPPM W/RET REQ TY I(W)4\"(BRK)(090MIL)",
+      "unit": "LF",
+      "quantity": 1630.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 0.79,
+      "bidders": {
+        "DUININCK, INC.": 0.79,
+        "J. LEE MILLIGAN, INC.": 0.8,
+        "GILVIN-TERRILL, LTD.": 0.75,
+        "RK HALL, LLC": 0.86
+      }
+    },
+    {
+      "itemCode": "6024 6005",
+      "description": "HPPM W/RET REQ TY I(W)4\"(SLD)(090MIL)",
+      "unit": "LF",
+      "quantity": 79919.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.47,
+      "bidders": {
+        "DUININCK, INC.": 0.47,
+        "J. LEE MILLIGAN, INC.": 0.5,
+        "GILVIN-TERRILL, LTD.": 0.45,
+        "RK HALL, LLC": 0.52
+      }
+    },
+    {
+      "itemCode": "6024 6014",
+      "description": "HPPM W/RET REQ TY I(Y)4\"(BRK)(090MIL)",
+      "unit": "LF",
+      "quantity": 6047.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 0.63,
+      "bidders": {
+        "DUININCK, INC.": 0.63,
+        "J. LEE MILLIGAN, INC.": 0.65,
+        "GILVIN-TERRILL, LTD.": 0.6,
+        "RK HALL, LLC": 0.69
+      }
+    },
+    {
+      "itemCode": "6024 6017",
+      "description": "HPPM W/RET REQ TY I(Y)4\"(SLD)(090MIL)",
+      "unit": "LF",
+      "quantity": 39364.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.46,
+      "bidders": {
+        "DUININCK, INC.": 0.46,
+        "J. LEE MILLIGAN, INC.": 0.45,
+        "GILVIN-TERRILL, LTD.": 0.44,
+        "RK HALL, LLC": 0.51
+      }
+    }
+  ]
+}

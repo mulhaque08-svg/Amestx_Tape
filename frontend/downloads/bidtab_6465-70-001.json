@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6465-70-001",
+    "county": "Brazoria",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646570001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "07/09/24",
+    "engEstTotal": 561286.57,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BOEN LANDSCAPING & IRRIGATION, LLC",
+      "totalBidAmount": 505870.75
+    },
+    {
+      "rank": 2,
+      "vendorName": "YELLOWSTONE LANDSCAPE - CENTRAL, INC.",
+      "totalBidAmount": 658848.33
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 948.36,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 1.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 0.001
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1137.58,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 1.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 0.001
+      }
+    }
+  ]
+}

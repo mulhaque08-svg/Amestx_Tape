@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "csj": "0176-02-127",
+    "county": "Angelina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2022(514)",
+    "projectType": "BRIDGE MAINTENANCE",
+    "letDate": "03/03/22",
+    "engEstTotal": 255810.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SJ&J CONSTRUCTION, LLC",
+      "totalBidAmount": 281620.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 287084.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "HODGES AND SON CONSTRUCTION COMPANY, INC.",
+      "totalBidAmount": 331800.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 354090.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.",
+      "totalBidAmount": 396173.46
+    },
+    {
+      "rank": 6,
+      "vendorName": "STRAIGHT LINE SAWING & SEALING, INC.",
+      "totalBidAmount": 413485.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0162 6002",
+      "description": "BLOCK SODDING",
+      "unit": "SY",
+      "quantity": 150.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 6.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 11.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 15.0,
+        "TALBRAN ENTERPRISES LLC": 10.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 37.1,
+        "STRAIGHT LINE SAWING & SEALING, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 2.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 10.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 1100.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1000.0,
+        "TALBRAN ENTERPRISES LLC": 400.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 292.98,
+        "STRAIGHT LINE SAWING & SEALING, INC.": 1500.0
+      }
+    },
+    {
+      "itemCode": "0420 6070",
+      "description": "CL C CONC (PILE ENCASEMENT)",
+      "unit": "CY",
+      "quantity": 91.7,
+      "engEstUnit": 1700.0,
+      "lowUnit": 700.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 700.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 2200.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 2500.0,
+        "TALBRAN ENTERPRISES LLC": 3000.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 2964.67,
+        "STRAIGHT LINE SAWING & SEALING, INC.": 2850.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 21.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 150.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 194.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 300.0,
+        "TALBRAN ENTERPRISES LLC": 190.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 101.42,
+        "STRAIGHT LINE SAWING & SEALING, INC.": 290.0
+      }
+    },
+    {
+      "itemCode": "0432 6027",
+      "description": "RIPRAP (STONE COMMON)(DRY)(24 IN)",
+      "unit": "CY",
+      "quantity": 18.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 220.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 220.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 440.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 300.0,
+        "TALBRAN ENTERPRISES LLC": 350.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 363.25,
+        "STRAIGHT LINE SAWING & SEALING, INC.": 425.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 150000.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 150000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 27500.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 25000.0,
+        "TALBRAN ENTERPRISES LLC": 30000.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 38709.6,
+        "STRAIGHT LINE SAWING & SEALING, INC.": 40000.0
+      }
+    },
+    {
+      "itemCode": "7000 6002",
+      "description": "REML & DISPL DRIFTWOOD & DEBRIS",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 10000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 4400.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 15000.0,
+        "TALBRAN ENTERPRISES LLC": 10000.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 3329.5,
+        "STRAIGHT LINE SAWING & SEALING, INC.": 45000.0
+      }
+    }
+  ]
+}

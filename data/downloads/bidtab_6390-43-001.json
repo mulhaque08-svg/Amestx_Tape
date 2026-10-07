@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6390-43-001",
+    "county": "Midland",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639043001",
+    "projectType": "SAND",
+    "letDate": "10/12/21",
+    "engEstTotal": 9500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RK HALL, LLC",
+      "totalBidAmount": 18630.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MESA D CORP.",
+      "totalBidAmount": 19500.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 26100.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8029 6001",
+      "description": "CONCRETE SAND(DELIVERY)(SITE 1)",
+      "unit": "CY",
+      "quantity": 50.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 62.1,
+      "bidders": {
+        "RK HALL, LLC": 62.1,
+        "MESA D CORP.": 65.0,
+        "TOUCHSTONE RESOURCES, LLC": 87.0
+      }
+    },
+    {
+      "itemCode": "8029 6002",
+      "description": "CONCRETE SAND(DELIVERY)(SITE 2)",
+      "unit": "CY",
+      "quantity": 50.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 62.1,
+      "bidders": {
+        "RK HALL, LLC": 62.1,
+        "MESA D CORP.": 65.0,
+        "TOUCHSTONE RESOURCES, LLC": 87.0
+      }
+    },
+    {
+      "itemCode": "8029 6003",
+      "description": "CONCRETE SAND(DELIVERY)(SITE 3)",
+      "unit": "CY",
+      "quantity": 100.0,
+      "engEstUnit": 32.5,
+      "lowUnit": 62.1,
+      "bidders": {
+        "RK HALL, LLC": 62.1,
+        "MESA D CORP.": 65.0,
+        "TOUCHSTONE RESOURCES, LLC": 87.0
+      }
+    },
+    {
+      "itemCode": "8029 6004",
+      "description": "CONCRETE SAND(DELIVERY)(SITE 4)",
+      "unit": "CY",
+      "quantity": 100.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 62.1,
+      "bidders": {
+        "RK HALL, LLC": 62.1,
+        "MESA D CORP.": 65.0,
+        "TOUCHSTONE RESOURCES, LLC": 87.0
+      }
+    }
+  ]
+}

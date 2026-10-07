@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6462-45-001",
+    "county": "Clay",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646245001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "04/04/24",
+    "engEstTotal": 328679.08,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BIG STATE MAINTENANCE, INC.",
+      "totalBidAmount": 292671.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 330300.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ABESCAPE LANDSCAPING, LLC",
+      "totalBidAmount": 460710.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1336.0,
+      "engEstUnit": 38.8,
+      "lowUnit": 36.95,
+      "bidders": {
+        "BIG STATE MAINTENANCE, INC.": 36.95,
+        "RISE UP CONSTRUCTION LLC": 40.0,
+        "ABESCAPE LANDSCAPING, LLC": 58.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6584.0,
+      "engEstUnit": 40.92,
+      "lowUnit": 36.95,
+      "bidders": {
+        "BIG STATE MAINTENANCE, INC.": 36.95,
+        "RISE UP CONSTRUCTION LLC": 40.0,
+        "ABESCAPE LANDSCAPING, LLC": 58.0
+      }
+    }
+  ]
+}

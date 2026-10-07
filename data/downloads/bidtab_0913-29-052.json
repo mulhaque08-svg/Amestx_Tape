@@ -1,0 +1,498 @@
+{
+  "metadata": {
+    "csj": "0913-29-052",
+    "county": "Lavaca",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2020(726)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "12/02/21",
+    "engEstTotal": 927694.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SB CONTRACTORS LLC",
+      "totalBidAmount": 965493.88
+    },
+    {
+      "rank": 2,
+      "vendorName": "ACME BRIDGE COMPANY, INC.",
+      "totalBidAmount": 1097949.03
+    },
+    {
+      "rank": 3,
+      "vendorName": "HILL COUNTRY BRIDGE, INC.",
+      "totalBidAmount": 1154458.5
+    },
+    {
+      "rank": 4,
+      "vendorName": "TREVWAY, INC.",
+      "totalBidAmount": 1156874.65
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 9.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "SB CONTRACTORS LLC": 1500.0,
+        "ACME BRIDGE COMPANY, INC.": 4100.0,
+        "HILL COUNTRY BRIDGE, INC.": 6760.0,
+        "TREVWAY, INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 640.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 14.21,
+      "bidders": {
+        "SB CONTRACTORS LLC": 14.21,
+        "ACME BRIDGE COMPANY, INC.": 22.3,
+        "HILL COUNTRY BRIDGE, INC.": 13.3,
+        "TREVWAY, INC.": 21.0
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 390.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 26.68,
+      "bidders": {
+        "SB CONTRACTORS LLC": 26.68,
+        "ACME BRIDGE COMPANY, INC.": 30.0,
+        "HILL COUNTRY BRIDGE, INC.": 15.5,
+        "TREVWAY, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0132 6005",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 347.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 15.26,
+      "bidders": {
+        "SB CONTRACTORS LLC": 15.26,
+        "ACME BRIDGE COMPANY, INC.": 26.6,
+        "HILL COUNTRY BRIDGE, INC.": 22.15,
+        "TREVWAY, INC.": 32.0
+      }
+    },
+    {
+      "itemCode": "0150 6002",
+      "description": "BLADING",
+      "unit": "HR",
+      "quantity": 40.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 83.84,
+      "bidders": {
+        "SB CONTRACTORS LLC": 83.84,
+        "ACME BRIDGE COMPANY, INC.": 112.0,
+        "HILL COUNTRY BRIDGE, INC.": 33.2,
+        "TREVWAY, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0164 6003",
+      "description": "BROADCAST SEED (PERM) (RURAL) (CLAY)",
+      "unit": "SY",
+      "quantity": 2319.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 0.93,
+      "bidders": {
+        "SB CONTRACTORS LLC": 0.93,
+        "ACME BRIDGE COMPANY, INC.": 0.53,
+        "HILL COUNTRY BRIDGE, INC.": 0.55,
+        "TREVWAY, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 580.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 3.24,
+      "bidders": {
+        "SB CONTRACTORS LLC": 3.24,
+        "ACME BRIDGE COMPANY, INC.": 1.75,
+        "HILL COUNTRY BRIDGE, INC.": 1.8,
+        "TREVWAY, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 580.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 3.24,
+      "bidders": {
+        "SB CONTRACTORS LLC": 3.24,
+        "ACME BRIDGE COMPANY, INC.": 1.75,
+        "HILL COUNTRY BRIDGE, INC.": 1.8,
+        "TREVWAY, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 26.1,
+      "engEstUnit": 50.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "SB CONTRACTORS LLC": 45.0,
+        "ACME BRIDGE COMPANY, INC.": 81.5,
+        "HILL COUNTRY BRIDGE, INC.": 155.0,
+        "TREVWAY, INC.": 150.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 118.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 116.35,
+      "bidders": {
+        "SB CONTRACTORS LLC": 116.35,
+        "ACME BRIDGE COMPANY, INC.": 208.0,
+        "HILL COUNTRY BRIDGE, INC.": 217.0,
+        "TREVWAY, INC.": 162.0
+      }
+    },
+    {
+      "itemCode": "0416 6003",
+      "description": "DRILL SHAFT (30 IN)",
+      "unit": "LF",
+      "quantity": 162.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 188.97,
+      "bidders": {
+        "SB CONTRACTORS LLC": 188.97,
+        "ACME BRIDGE COMPANY, INC.": 198.0,
+        "HILL COUNTRY BRIDGE, INC.": 225.0,
+        "TREVWAY, INC.": 444.0
+      }
+    },
+    {
+      "itemCode": "0416 6004",
+      "description": "DRILL SHAFT (36 IN)",
+      "unit": "LF",
+      "quantity": 291.0,
+      "engEstUnit": 260.0,
+      "lowUnit": 228.71,
+      "bidders": {
+        "SB CONTRACTORS LLC": 228.71,
+        "ACME BRIDGE COMPANY, INC.": 242.0,
+        "HILL COUNTRY BRIDGE, INC.": 263.0,
+        "TREVWAY, INC.": 578.53
+      }
+    },
+    {
+      "itemCode": "0420 6013",
+      "description": "CL C CONC (ABUT)",
+      "unit": "CY",
+      "quantity": 68.4,
+      "engEstUnit": 1100.0,
+      "lowUnit": 821.72,
+      "bidders": {
+        "SB CONTRACTORS LLC": 821.72,
+        "ACME BRIDGE COMPANY, INC.": 1040.0,
+        "HILL COUNTRY BRIDGE, INC.": 940.0,
+        "TREVWAY, INC.": 603.0
+      }
+    },
+    {
+      "itemCode": "0420 6029",
+      "description": "CL C CONC (CAP)",
+      "unit": "CY",
+      "quantity": 13.5,
+      "engEstUnit": 1100.0,
+      "lowUnit": 1362.95,
+      "bidders": {
+        "SB CONTRACTORS LLC": 1362.95,
+        "ACME BRIDGE COMPANY, INC.": 1320.0,
+        "HILL COUNTRY BRIDGE, INC.": 925.0,
+        "TREVWAY, INC.": 1045.0
+      }
+    },
+    {
+      "itemCode": "0420 6037",
+      "description": "CL C CONC (COLUMN)",
+      "unit": "CY",
+      "quantity": 11.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 1232.7,
+      "bidders": {
+        "SB CONTRACTORS LLC": 1232.7,
+        "ACME BRIDGE COMPANY, INC.": 1070.0,
+        "HILL COUNTRY BRIDGE, INC.": 1195.0,
+        "TREVWAY, INC.": 1420.0
+      }
+    },
+    {
+      "itemCode": "0422 6001",
+      "description": "REINF CONC SLAB",
+      "unit": "SF",
+      "quantity": 2990.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 25.19,
+      "bidders": {
+        "SB CONTRACTORS LLC": 25.19,
+        "ACME BRIDGE COMPANY, INC.": 28.9,
+        "HILL COUNTRY BRIDGE, INC.": 27.75,
+        "TREVWAY, INC.": 23.0
+      }
+    },
+    {
+      "itemCode": "0422 6005",
+      "description": "REINF CONC SLAB (BOX BEAM)",
+      "unit": "SF",
+      "quantity": 1810.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 20.08,
+      "bidders": {
+        "SB CONTRACTORS LLC": 20.08,
+        "ACME BRIDGE COMPANY, INC.": 20.8,
+        "HILL COUNTRY BRIDGE, INC.": 21.35,
+        "TREVWAY, INC.": 23.0
+      }
+    },
+    {
+      "itemCode": "0422 6023",
+      "description": "SHEAR KEY",
+      "unit": "CY",
+      "quantity": 8.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 729.72,
+      "bidders": {
+        "SB CONTRACTORS LLC": 729.72,
+        "ACME BRIDGE COMPANY, INC.": 818.0,
+        "HILL COUNTRY BRIDGE, INC.": 865.0,
+        "TREVWAY, INC.": 1515.26
+      }
+    },
+    {
+      "itemCode": "0425 6002",
+      "description": "PRESTR CONC BOX BEAM (5B20)",
+      "unit": "LF",
+      "quantity": 357.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 189.34,
+      "bidders": {
+        "SB CONTRACTORS LLC": 189.34,
+        "ACME BRIDGE COMPANY, INC.": 266.0,
+        "HILL COUNTRY BRIDGE, INC.": 237.0,
+        "TREVWAY, INC.": 234.0
+      }
+    },
+    {
+      "itemCode": "0425 6035",
+      "description": "PRESTR CONC GIRDER (TX28)",
+      "unit": "LF",
+      "quantity": 455.7,
+      "engEstUnit": 140.0,
+      "lowUnit": 165.78,
+      "bidders": {
+        "SB CONTRACTORS LLC": 165.78,
+        "ACME BRIDGE COMPANY, INC.": 268.0,
+        "HILL COUNTRY BRIDGE, INC.": 205.0,
+        "TREVWAY, INC.": 178.0
+      }
+    },
+    {
+      "itemCode": "0432 6032",
+      "description": "RIPRAP (STONE PROTECTION)(15 IN)",
+      "unit": "CY",
+      "quantity": 626.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 237.4,
+      "bidders": {
+        "SB CONTRACTORS LLC": 237.4,
+        "ACME BRIDGE COMPANY, INC.": 184.0,
+        "HILL COUNTRY BRIDGE, INC.": 180.0,
+        "TREVWAY, INC.": 209.0
+      }
+    },
+    {
+      "itemCode": "0450 6006",
+      "description": "RAIL (TY T223)",
+      "unit": "LF",
+      "quantity": 270.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 92.6,
+      "bidders": {
+        "SB CONTRACTORS LLC": 92.6,
+        "ACME BRIDGE COMPANY, INC.": 110.0,
+        "HILL COUNTRY BRIDGE, INC.": 125.0,
+        "TREVWAY, INC.": 157.12
+      }
+    },
+    {
+      "itemCode": "0450 6018",
+      "description": "RAIL (TY T631)",
+      "unit": "LF",
+      "quantity": 152.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 120.21,
+      "bidders": {
+        "SB CONTRACTORS LLC": 120.21,
+        "ACME BRIDGE COMPANY, INC.": 117.0,
+        "HILL COUNTRY BRIDGE, INC.": 100.0,
+        "TREVWAY, INC.": 97.19
+      }
+    },
+    {
+      "itemCode": "0454 6004",
+      "description": "ARMOR JOINT (SEALED)",
+      "unit": "LF",
+      "quantity": 104.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 87.49,
+      "bidders": {
+        "SB CONTRACTORS LLC": 87.49,
+        "ACME BRIDGE COMPANY, INC.": 142.0,
+        "HILL COUNTRY BRIDGE, INC.": 88.0,
+        "TREVWAY, INC.": 68.15
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 15005.69,
+      "bidders": {
+        "SB CONTRACTORS LLC": 15005.69,
+        "ACME BRIDGE COMPANY, INC.": 11000.0,
+        "HILL COUNTRY BRIDGE, INC.": 38125.0,
+        "TREVWAY, INC.": 30000.0
+      }
+    },
+    {
+      "itemCode": "0496 6043",
+      "description": "REMOV STR (SMALL FENCE)",
+      "unit": "LF",
+      "quantity": 382.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 6.59,
+      "bidders": {
+        "SB CONTRACTORS LLC": 6.59,
+        "ACME BRIDGE COMPANY, INC.": 1.85,
+        "HILL COUNTRY BRIDGE, INC.": 11.0,
+        "TREVWAY, INC.": 6.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 81000.0,
+      "lowUnit": 96000.0,
+      "bidders": {
+        "SB CONTRACTORS LLC": 96000.0,
+        "ACME BRIDGE COMPANY, INC.": 105000.0,
+        "HILL COUNTRY BRIDGE, INC.": 115400.0,
+        "TREVWAY, INC.": 100000.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 2800.0,
+      "lowUnit": 3790.46,
+      "bidders": {
+        "SB CONTRACTORS LLC": 3790.46,
+        "ACME BRIDGE COMPANY, INC.": 3480.0,
+        "HILL COUNTRY BRIDGE, INC.": 3875.0,
+        "TREVWAY, INC.": 3244.66
+      }
+    },
+    {
+      "itemCode": "0552 6001",
+      "description": "WIRE FENCE (TY A)",
+      "unit": "LF",
+      "quantity": 863.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 13.09,
+      "bidders": {
+        "SB CONTRACTORS LLC": 13.09,
+        "ACME BRIDGE COMPANY, INC.": 16.0,
+        "HILL COUNTRY BRIDGE, INC.": 20.0,
+        "TREVWAY, INC.": 7.0
+      }
+    },
+    {
+      "itemCode": "0552 6008",
+      "description": "WIRE FENCE (WATER GAP)",
+      "unit": "LF",
+      "quantity": 48.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 65.44,
+      "bidders": {
+        "SB CONTRACTORS LLC": 65.44,
+        "ACME BRIDGE COMPANY, INC.": 133.0,
+        "HILL COUNTRY BRIDGE, INC.": 127.0,
+        "TREVWAY, INC.": 148.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 27.26,
+      "bidders": {
+        "SB CONTRACTORS LLC": 27.26,
+        "ACME BRIDGE COMPANY, INC.": 26.6,
+        "HILL COUNTRY BRIDGE, INC.": 55.0,
+        "TREVWAY, INC.": 6.32
+      }
+    },
+    {
+      "itemCode": "0658 6016",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)GF1 (BI)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 27.27,
+      "bidders": {
+        "SB CONTRACTORS LLC": 27.27,
+        "ACME BRIDGE COMPANY, INC.": 37.2,
+        "HILL COUNTRY BRIDGE, INC.": 55.0,
+        "TREVWAY, INC.": 8.84
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 32.72,
+      "bidders": {
+        "SB CONTRACTORS LLC": 32.72,
+        "ACME BRIDGE COMPANY, INC.": 42.6,
+        "HILL COUNTRY BRIDGE, INC.": 55.0,
+        "TREVWAY, INC.": 15.16
+      }
+    }
+  ]
+}

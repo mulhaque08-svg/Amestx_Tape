@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6388-41-001",
+    "county": "Tarrant",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638841001",
+    "projectType": "TREE TRIMMING AND BRUSH REMOVAL",
+    "letDate": "10/12/21",
+    "engEstTotal": 121143.7,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "PATHFIELD INVESTMENTS LLC",
+      "totalBidAmount": 127010.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BOEN LANDSCAPING & IRRIGATION, LLC",
+      "totalBidAmount": 154010.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 190500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 1411.2,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 1000.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 2000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 2000.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 1000.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 1000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 2000.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 55.0,
+      "engEstUnit": 2026.56,
+      "lowUnit": 2200.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 2200.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 2600.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 3000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 5.0,
+      "engEstUnit": 53.13,
+      "lowUnit": 1.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 1.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 200.0
+      }
+    }
+  ]
+}

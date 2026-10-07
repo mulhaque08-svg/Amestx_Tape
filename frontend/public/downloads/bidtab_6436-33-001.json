@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "csj": "6436-33-001",
+    "county": "Brewster",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643633001",
+    "projectType": "TRAFFIC CONTROL SERVICES",
+    "letDate": "05/05/23",
+    "engEstTotal": 414500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "NIXON ENGINEERING",
+      "totalBidAmount": 410000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MIJELUM, L.L.C.",
+      "totalBidAmount": 435001.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 50000.0,
+      "bidders": {
+        "NIXON ENGINEERING": 50000.0,
+        "MIJELUM, L.L.C.": 1.0
+      }
+    },
+    {
+      "itemCode": "0510 6001",
+      "description": "ONE-WAY TRAF CONT (FLAGGER CONT)",
+      "unit": "HR",
+      "quantity": 300.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 70.0,
+      "bidders": {
+        "NIXON ENGINEERING": 70.0,
+        "MIJELUM, L.L.C.": 200.0
+      }
+    },
+    {
+      "itemCode": "0510 6002",
+      "description": "ONE-WAY TRAF CONT (PILOT CAR)",
+      "unit": "HR",
+      "quantity": 800.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "NIXON ENGINEERING": 80.0,
+        "MIJELUM, L.L.C.": 180.0
+      }
+    },
+    {
+      "itemCode": "7148 6001",
+      "description": "1 LN CLOSURE 2 LN RD NO SHOULDERS",
+      "unit": "HR",
+      "quantity": 300.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "NIXON ENGINEERING": 150.0,
+        "MIJELUM, L.L.C.": 30.0
+      }
+    },
+    {
+      "itemCode": "7148 6002",
+      "description": "1 LN CLOSURE 2 LN RD PAVED SHOULDERS",
+      "unit": "HR",
+      "quantity": 1000.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 120.0,
+      "bidders": {
+        "NIXON ENGINEERING": 120.0,
+        "MIJELUM, L.L.C.": 30.0
+      }
+    },
+    {
+      "itemCode": "7148 6016",
+      "description": "WORK AREA ON SHOULDER",
+      "unit": "HR",
+      "quantity": 200.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "NIXON ENGINEERING": 100.0,
+        "MIJELUM, L.L.C.": 10.0
+      }
+    }
+  ]
+}

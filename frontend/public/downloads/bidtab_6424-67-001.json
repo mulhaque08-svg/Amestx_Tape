@@ -1,0 +1,484 @@
+{
+  "metadata": {
+    "csj": "6424-67-001",
+    "county": "Montgomery",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642467001",
+    "projectType": "SWEEPING AND DEBRIS REMOVAL",
+    "letDate": "02/01/23",
+    "engEstTotal": 1204850.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "PROFESSIONAL TRAFFIC CONTROL LLC",
+      "totalBidAmount": 1391492.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SWEEPING CORPORATION OF AMERICA, LLC",
+      "totalBidAmount": 1486404.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC",
+      "totalBidAmount": 1670582.84
+    },
+    {
+      "rank": 4,
+      "vendorName": "RK POWER DRIVE SERVICES, INC.",
+      "totalBidAmount": 1855800.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2000.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 200.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 10000.0,
+        "RK POWER DRIVE SERVICES, INC.": 2000.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 1250.0,
+      "lowUnit": 3500.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 3500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 500.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 2000.0,
+        "RK POWER DRIVE SERVICES, INC.": 5000.0
+      }
+    },
+    {
+      "itemCode": "0735 6007",
+      "description": "DEBRIS REMOVAL (SPOT DEBRIS)",
+      "unit": "MI",
+      "quantity": 500.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 100.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 105.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 107.0,
+        "RK POWER DRIVE SERVICES, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0738 6010",
+      "description": "CLEANING / SWEEPING (SPOT)",
+      "unit": "MI",
+      "quantity": 250.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 150.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 225.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 107.0,
+        "RK POWER DRIVE SERVICES, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0738 6011",
+      "description": "CLEANING / SWEEPING (HANDWORK)",
+      "unit": "SY",
+      "quantity": 100000.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 0.6,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 0.7,
+        "RK POWER DRIVE SERVICES, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0738 6094",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(1)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 2700.0,
+      "lowUnit": 2700.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2700.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 3150.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 2007.0,
+        "RK POWER DRIVE SERVICES, INC.": 3200.0
+      }
+    },
+    {
+      "itemCode": "0738 6095",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(2)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 2700.0,
+      "lowUnit": 4300.5,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 4300.5,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 5017.25,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 2007.0,
+        "RK POWER DRIVE SERVICES, INC.": 5200.0
+      }
+    },
+    {
+      "itemCode": "0738 6096",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(3)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 2700.0,
+      "lowUnit": 2340.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2340.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2730.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 2007.0,
+        "RK POWER DRIVE SERVICES, INC.": 2700.0
+      }
+    },
+    {
+      "itemCode": "0738 6100",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(7)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 1678.5,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1678.5,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1958.25,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 3000.0,
+        "RK POWER DRIVE SERVICES, INC.": 2000.0
+      }
+    },
+    {
+      "itemCode": "0738 6101",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(8)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 2850.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2850.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 3325.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 3000.0,
+        "RK POWER DRIVE SERVICES, INC.": 3500.0
+      }
+    },
+    {
+      "itemCode": "0738 6102",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(9)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 210.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 210.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 245.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 3007.0,
+        "RK POWER DRIVE SERVICES, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0738 6103",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (10)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 2250.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2625.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 3007.0,
+        "RK POWER DRIVE SERVICES, INC.": 3000.0
+      }
+    },
+    {
+      "itemCode": "0738 6105",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (12)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 650.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 600.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 700.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 3000.0,
+        "RK POWER DRIVE SERVICES, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0738 6114",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(1)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 2700.0,
+      "lowUnit": 2700.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2700.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 3150.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 2000.0,
+        "RK POWER DRIVE SERVICES, INC.": 3600.0
+      }
+    },
+    {
+      "itemCode": "0738 6115",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(2)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 2700.0,
+      "lowUnit": 4300.5,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 4300.5,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 5017.25,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 2000.0,
+        "RK POWER DRIVE SERVICES, INC.": 6000.0
+      }
+    },
+    {
+      "itemCode": "0738 6116",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(3)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 2700.0,
+      "lowUnit": 2340.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2340.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2730.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 2000.0,
+        "RK POWER DRIVE SERVICES, INC.": 3000.0
+      }
+    },
+    {
+      "itemCode": "0738 6117",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(4)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 600.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 700.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 3000.0,
+        "RK POWER DRIVE SERVICES, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0738 6118",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(5)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1350.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1350.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1575.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 3000.0,
+        "RK POWER DRIVE SERVICES, INC.": 2000.0
+      }
+    },
+    {
+      "itemCode": "0738 6119",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(6)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 945.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 945.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1102.5,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 3000.0,
+        "RK POWER DRIVE SERVICES, INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0738 6120",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(7)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 1678.5,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1678.5,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1958.25,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 3000.0,
+        "RK POWER DRIVE SERVICES, INC.": 2000.0
+      }
+    },
+    {
+      "itemCode": "0738 6121",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(8)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 2850.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2850.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 3325.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 3000.0,
+        "RK POWER DRIVE SERVICES, INC.": 4000.0
+      }
+    },
+    {
+      "itemCode": "0738 6122",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(9)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 210.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 210.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 245.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 3000.0,
+        "RK POWER DRIVE SERVICES, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0738 6123",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(10)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 2250.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2625.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 3000.0,
+        "RK POWER DRIVE SERVICES, INC.": 3000.0
+      }
+    },
+    {
+      "itemCode": "0738 6124",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(11)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 650.0,
+      "lowUnit": 645.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 645.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 752.5,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 3000.0,
+        "RK POWER DRIVE SERVICES, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0738 6125",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(12)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 650.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 600.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 700.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 3000.0,
+        "RK POWER DRIVE SERVICES, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0738 6126",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(13)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 300.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 350.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 3000.07,
+        "RK POWER DRIVE SERVICES, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0738 6134",
+      "description": "CLEAN / SWEEP - FRONTAGE ROAD - AREA(1)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 2700.0,
+      "lowUnit": 2700.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2700.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 3150.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 2000.0,
+        "RK POWER DRIVE SERVICES, INC.": 3600.0
+      }
+    },
+    {
+      "itemCode": "0738 6135",
+      "description": "CLEAN / SWEEP - FRONTAGE ROAD - AREA(2)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 2700.0,
+      "lowUnit": 4300.5,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 4300.5,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 5017.25,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 2000.0,
+        "RK POWER DRIVE SERVICES, INC.": 6000.0
+      }
+    },
+    {
+      "itemCode": "0738 6136",
+      "description": "CLEAN / SWEEP - FRONTAGE ROAD - AREA(3)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 2700.0,
+      "lowUnit": 2340.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2340.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2730.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 2000.0,
+        "RK POWER DRIVE SERVICES, INC.": 3200.0
+      }
+    },
+    {
+      "itemCode": "0738 6154",
+      "description": "CLEAN / SWEEP - (ENTR /EXT RMP)(AREA 1)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 2700.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2700.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 3150.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 2000.0,
+        "RK POWER DRIVE SERVICES, INC.": 3600.0
+      }
+    },
+    {
+      "itemCode": "0738 6155",
+      "description": "CLEAN / SWEEP - (ENTR /EXT RMP)(AREA 2)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 4300.5,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 4300.5,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 5017.25,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 2000.0,
+        "RK POWER DRIVE SERVICES, INC.": 6000.0
+      }
+    },
+    {
+      "itemCode": "0738 6156",
+      "description": "CLEAN / SWEEP - (ENTR /EXT RMP)(AREA 3)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 2340.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2340.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2730.0,
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 2000.0,
+        "RK POWER DRIVE SERVICES, INC.": 3000.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,554 @@
+{
+  "metadata": {
+    "csj": "0117-05-059",
+    "county": "Madison",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "STP 2B24(386)HES",
+    "projectType": "CONSTRUCT TWO-WAY LEFT TURN LANE",
+    "letDate": "08/01/24",
+    "engEstTotal": 802039.63,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "LARRY YOUNG PAVING, INC.",
+      "totalBidAmount": 938332.3
+    },
+    {
+      "rank": 2,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 940112.31
+    },
+    {
+      "rank": 3,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 1012771.9
+    },
+    {
+      "rank": 4,
+      "vendorName": "BIG CREEK CONSTRUCTION, LTD.",
+      "totalBidAmount": 1037316.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 267.0,
+      "engEstUnit": 16.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 30.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 24.35,
+        "TEXAS MATERIALS GROUP, INC.": 50.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 75.0
+      }
+    },
+    {
+      "itemCode": "0132 6005",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 68.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 48.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 48.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 132.0,
+        "TEXAS MATERIALS GROUP, INC.": 100.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 75.0
+      }
+    },
+    {
+      "itemCode": "0134 6004",
+      "description": "BACKFILL (TY A OR B)",
+      "unit": "STA",
+      "quantity": 45.3,
+      "engEstUnit": 245.8,
+      "lowUnit": 300.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 300.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 448.0,
+        "TEXAS MATERIALS GROUP, INC.": 600.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 350.0
+      }
+    },
+    {
+      "itemCode": "0160 6003",
+      "description": "FURNISHING AND PLACING TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 1720.0,
+      "engEstUnit": 1.6,
+      "lowUnit": 3.5,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 3.5,
+        "KNIFE RIVER CORPORATION - SOUTH": 3.4,
+        "TEXAS MATERIALS GROUP, INC.": 4.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 2.5
+      }
+    },
+    {
+      "itemCode": "0164 6001",
+      "description": "BROADCAST SEED (PERM) (RURAL) (SANDY)",
+      "unit": "SY",
+      "quantity": 1720.0,
+      "engEstUnit": 0.35,
+      "lowUnit": 1.25,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 1.25,
+        "KNIFE RIVER CORPORATION - SOUTH": 1.15,
+        "TEXAS MATERIALS GROUP, INC.": 1.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 1.0
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 860.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 1.25,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 1.25,
+        "KNIFE RIVER CORPORATION - SOUTH": 1.15,
+        "TEXAS MATERIALS GROUP, INC.": 1.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 1.0
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 860.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 1.25,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 1.25,
+        "KNIFE RIVER CORPORATION - SOUTH": 1.15,
+        "TEXAS MATERIALS GROUP, INC.": 1.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 1.0
+      }
+    },
+    {
+      "itemCode": "0166 6001",
+      "description": "FERTILIZER",
+      "unit": "AC",
+      "quantity": 0.36,
+      "engEstUnit": 800.0,
+      "lowUnit": 630.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 630.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 568.0,
+        "TEXAS MATERIALS GROUP, INC.": 500.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 500.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 20.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 25.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 94.0,
+        "TEXAS MATERIALS GROUP, INC.": 71.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 25.0
+      }
+    },
+    {
+      "itemCode": "0310 6028",
+      "description": "PRIME COAT (MC-30 OR EC-30)",
+      "unit": "GAL",
+      "quantity": 254.0,
+      "engEstUnit": 7.5,
+      "lowUnit": 8.75,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 8.75,
+        "KNIFE RIVER CORPORATION - SOUTH": 17.0,
+        "TEXAS MATERIALS GROUP, INC.": 18.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 7.0
+      }
+    },
+    {
+      "itemCode": "0354 6021",
+      "description": "PLANE ASPH CONC PAV(0\" TO 2\")",
+      "unit": "SY",
+      "quantity": 448.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 12.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 22.7,
+        "TEXAS MATERIALS GROUP, INC.": 23.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 6.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 75000.0,
+      "lowUnit": 95000.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 95000.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 98600.0,
+        "TEXAS MATERIALS GROUP, INC.": 98500.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 100000.0
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 27.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 58.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 58.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 191.0,
+        "TEXAS MATERIALS GROUP, INC.": 135.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 125.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 42.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 840.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 840.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 753.0,
+        "TEXAS MATERIALS GROUP, INC.": 680.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 675.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 950.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 950.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 1021.0,
+        "TEXAS MATERIALS GROUP, INC.": 800.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 775.0
+      }
+    },
+    {
+      "itemCode": "0644 6007",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(U)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 1000.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 1181.0,
+        "TEXAS MATERIALS GROUP, INC.": 850.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 850.0
+      }
+    },
+    {
+      "itemCode": "0644 6034",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U-1EXT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1400.0,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 1100.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 1395.0,
+        "TEXAS MATERIALS GROUP, INC.": 900.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 900.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 61.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 130.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 130.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 148.0,
+        "TEXAS MATERIALS GROUP, INC.": 130.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 110.0
+      }
+    },
+    {
+      "itemCode": "0658 6101",
+      "description": "INSTL OM ASSM (OM-2Z)(WFLX)SRF)SRF",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 160.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 160.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 142.0,
+        "TEXAS MATERIALS GROUP, INC.": 135.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 150.0
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 430.0,
+      "engEstUnit": 1.25,
+      "lowUnit": 1.25,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 1.25,
+        "KNIFE RIVER CORPORATION - SOUTH": 2.0,
+        "TEXAS MATERIALS GROUP, INC.": 1.5,
+        "BIG CREEK CONSTRUCTION, LTD.": 1.5
+      }
+    },
+    {
+      "itemCode": "0668 6076",
+      "description": "PREFAB PAV MRK TY C (W) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 18.0,
+      "engEstUnit": 18.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 35.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 31.5,
+        "TEXAS MATERIALS GROUP, INC.": 29.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 15.0
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 13.0,
+      "engEstUnit": 235.0,
+      "lowUnit": 390.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 390.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 351.0,
+        "TEXAS MATERIALS GROUP, INC.": 320.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 215.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 290.0,
+      "lowUnit": 480.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 480.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 428.0,
+        "TEXAS MATERIALS GROUP, INC.": 390.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 255.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 86.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 8.25,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 8.25,
+        "KNIFE RIVER CORPORATION - SOUTH": 7.4,
+        "TEXAS MATERIALS GROUP, INC.": 7.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 6.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 402.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 7.5,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 7.5,
+        "KNIFE RIVER CORPORATION - SOUTH": 6.8,
+        "TEXAS MATERIALS GROUP, INC.": 6.5,
+        "BIG CREEK CONSTRUCTION, LTD.": 6.0
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 18.0,
+      "engEstUnit": 3.25,
+      "lowUnit": 4.75,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 4.75,
+        "KNIFE RIVER CORPORATION - SOUTH": 4.3,
+        "TEXAS MATERIALS GROUP, INC.": 4.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 5.0
+      }
+    },
+    {
+      "itemCode": "0682 6054",
+      "description": "BACKPLATE W/REF BRDR(3 SEC)(VENT)ALUM",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 270.0,
+      "lowUnit": 530.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 530.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 127.0,
+        "TEXAS MATERIALS GROUP, INC.": 530.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 250.0
+      }
+    },
+    {
+      "itemCode": "0685 6004",
+      "description": "INSTL RDSD FLSH BCN ASSM (SOLAR PWRD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 9000.0,
+      "lowUnit": 6400.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 6400.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 20453.0,
+        "TEXAS MATERIALS GROUP, INC.": 6500.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 20000.0
+      }
+    },
+    {
+      "itemCode": "0690 6025",
+      "description": "REPLACE OF SIGNAL HEAD ASSM",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 360.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 360.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 5343.0,
+        "TEXAS MATERIALS GROUP, INC.": 360.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 5500.0
+      }
+    },
+    {
+      "itemCode": "0690 6065",
+      "description": "REPLACE OF LUMINAIRE HEAD",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 360.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 360.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 1700.0,
+        "TEXAS MATERIALS GROUP, INC.": 360.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 2000.0
+      }
+    },
+    {
+      "itemCode": "3077 6001",
+      "description": "SP MIXES SP-B PG64-22",
+      "unit": "TON",
+      "quantity": 416.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 140.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 151.25,
+        "TEXAS MATERIALS GROUP, INC.": 170.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 150.0
+      }
+    },
+    {
+      "itemCode": "3077 6021",
+      "description": "SP MIXES SP-C PG70-22",
+      "unit": "TON",
+      "quantity": 144.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 210.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 210.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 211.45,
+        "TEXAS MATERIALS GROUP, INC.": 260.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 175.0
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 217.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 7.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 7.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 4.5,
+        "TEXAS MATERIALS GROUP, INC.": 5.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 7.0
+      }
+    },
+    {
+      "itemCode": "3080 6007",
+      "description": "STONE-MTRX-ASPH SMA-D SAC-A PG76-22",
+      "unit": "TON",
+      "quantity": 2437.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 180.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 180.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 142.5,
+        "TEXAS MATERIALS GROUP, INC.": 200.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 200.0
+      }
+    },
+    {
+      "itemCode": "3080 6029",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 2215.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 6.5,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 6.5,
+        "KNIFE RIVER CORPORATION - SOUTH": 4.5,
+        "TEXAS MATERIALS GROUP, INC.": 5.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 7.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 116.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 58.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 58.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 125.0,
+        "TEXAS MATERIALS GROUP, INC.": 125.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 125.0
+      }
+    },
+    {
+      "itemCode": "6056 6001",
+      "description": "PREFORMED IN-LANE(TRANS) RUMBLE STRIP",
+      "unit": "LF",
+      "quantity": 176.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 32.0,
+      "bidders": {
+        "LARRY YOUNG PAVING, INC.": 32.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 26.0,
+        "TEXAS MATERIALS GROUP, INC.": 25.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 25.0
+      }
+    }
+  ]
+}

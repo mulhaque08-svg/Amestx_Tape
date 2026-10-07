@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6445-41-001",
+    "county": "Jim Wells",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 644541001",
+    "projectType": "AGGREGATE",
+    "letDate": "06/13/23",
+    "engEstTotal": 258000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 248350.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 258780.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 278400.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 285000.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 309620.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6239",
+      "description": "AGGR (TY PB GR 4) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 86.0,
+      "lowUnit": 83.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 83.5,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 86.98,
+        "MARTIN MARIETTA MATERIALS, INC.": 92.48,
+        "BRAUNTEX MATERIALS, INC.": 95.0,
+        "COLORADO MATERIALS, LTD.": 103.21
+      }
+    },
+    {
+      "itemCode": "8039 6240",
+      "description": "AGGR (TY PB GR 4) (DEL) (ST2)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 86.0,
+      "lowUnit": 90.25,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 90.25,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 92.13,
+        "MARTIN MARIETTA MATERIALS, INC.": 98.15,
+        "BRAUNTEX MATERIALS, INC.": 95.0,
+        "COLORADO MATERIALS, LTD.": 112.09
+      }
+    },
+    {
+      "itemCode": "8039 6241",
+      "description": "AGGR (TY PB GR 4) (DEL) (ST3)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 86.0,
+      "lowUnit": 74.6,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 74.6,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 79.67,
+        "MARTIN MARIETTA MATERIALS, INC.": 87.77,
+        "BRAUNTEX MATERIALS, INC.": 95.0,
+        "COLORADO MATERIALS, LTD.": 94.32
+      }
+    }
+  ]
+}

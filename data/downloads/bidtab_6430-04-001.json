@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6430-04-001",
+    "county": "Victoria",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 643004001",
+    "projectType": "HOT-MIX COLD-LAID",
+    "letDate": "04/13/23",
+    "engEstTotal": 260000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 245000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "QUALITY HOT MIX, INC.",
+      "totalBidAmount": 251250.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8013 6002",
+      "description": "HMCL ACP TYPE D SAC-B AC-0.6 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2500.0,
+      "engEstUnit": 104.0,
+      "lowUnit": 98.0,
+      "bidders": {
+        "BRAUNTEX MATERIALS, INC.": 98.0,
+        "QUALITY HOT MIX, INC.": 100.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6393-54-001",
+    "county": "San Jacinto",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639354001",
+    "projectType": "AGGREGATE",
+    "letDate": "12/16/21",
+    "engEstTotal": 20968.4,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JCP QUALITY MAINTENANCE, LLC",
+      "totalBidAmount": 15854.09
+    },
+    {
+      "rank": 2,
+      "vendorName": "ARCOSA LWS, LLC",
+      "totalBidAmount": 21850.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6197",
+      "description": "AGGR (TY L GR 4) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 143.0,
+      "engEstUnit": 110.36,
+      "lowUnit": 83.45,
+      "bidders": {
+        "JCP QUALITY MAINTENANCE, LLC": 83.45,
+        "ARCOSA LWS, LLC": 115.0
+      }
+    },
+    {
+      "itemCode": "8039 6198",
+      "description": "AGGR (TY L GR 4) (DEL) (ST2)",
+      "unit": "TON",
+      "quantity": 47.0,
+      "engEstUnit": 110.36,
+      "lowUnit": 83.42,
+      "bidders": {
+        "JCP QUALITY MAINTENANCE, LLC": 83.42,
+        "ARCOSA LWS, LLC": 115.0
+      }
+    }
+  ]
+}

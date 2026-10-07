@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6464-12-001",
+    "county": "Wood",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646412001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "04/04/24",
+    "engEstTotal": 733886.72,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SOUTHERN EDGE CONTRACTORS LLC",
+      "totalBidAmount": 623147.23
+    },
+    {
+      "rank": 2,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 734463.64
+    },
+    {
+      "rank": 3,
+      "vendorName": "CATOCON, INC.",
+      "totalBidAmount": 933033.4
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6003",
+      "description": "MOBILIZATION (CALLOUT 1)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "SOUTHERN EDGE CONTRACTORS LLC": 0.01,
+        "RISE UP CONSTRUCTION LLC": 9999.0,
+        "CATOCON, INC.": 10000.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 16701.48,
+      "engEstUnit": 40.0,
+      "lowUnit": 33.89,
+      "bidders": {
+        "SOUTHERN EDGE CONTRACTORS LLC": 33.89,
+        "RISE UP CONSTRUCTION LLC": 38.0,
+        "CATOCON, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "SOUTHERN EDGE CONTRACTORS LLC": 0.01,
+        "RISE UP CONSTRUCTION LLC": 38.0,
+        "CATOCON, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 5193.96,
+      "engEstUnit": 12.0,
+      "lowUnit": 11.0,
+      "bidders": {
+        "SOUTHERN EDGE CONTRACTORS LLC": 11.0,
+        "RISE UP CONSTRUCTION LLC": 15.0,
+        "CATOCON, INC.": 15.0
+      }
+    }
+  ]
+}

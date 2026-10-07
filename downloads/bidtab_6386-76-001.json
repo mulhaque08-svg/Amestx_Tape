@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6386-76-001",
+    "county": "Bastrop",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638676001",
+    "projectType": "TREE TRIMMING AND BRUSH REMOVAL",
+    "letDate": "07/13/22",
+    "engEstTotal": 191603.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BA NEWTON'S ENTERPRISES LLC",
+      "totalBidAmount": 167565.9
+    },
+    {
+      "rank": 2,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 183999.4
+    },
+    {
+      "rank": 3,
+      "vendorName": "ROAD SOLUTIONS L.L.C.",
+      "totalBidAmount": 214532.15
+    },
+    {
+      "rank": 4,
+      "vendorName": "BLUE CHIP SERVICES, LLC",
+      "totalBidAmount": 258110.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 9985.0,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "BA NEWTON'S ENTERPRISES LLC": 15000.0,
+        "SHALOM SERVICES CORPORATION": 1000.0,
+        "ROAD SOLUTIONS L.L.C.": 50300.0,
+        "BLUE CHIP SERVICES, LLC": 8000.0
+      }
+    },
+    {
+      "itemCode": "0502 6001",
+      "description": "BARRICADES, SIGNS AND TRAFFIC HANDLING",
+      "unit": "MO",
+      "quantity": 3.0,
+      "engEstUnit": 4800.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "BA NEWTON'S ENTERPRISES LLC": 10.0,
+        "SHALOM SERVICES CORPORATION": 250.0,
+        "ROAD SOLUTIONS L.L.C.": 500.0,
+        "BLUE CHIP SERVICES, LLC": 1800.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 81.57,
+      "engEstUnit": 2050.0,
+      "lowUnit": 1870.0,
+      "bidders": {
+        "BA NEWTON'S ENTERPRISES LLC": 1870.0,
+        "SHALOM SERVICES CORPORATION": 2234.27,
+        "ROAD SOLUTIONS L.L.C.": 1995.0,
+        "BLUE CHIP SERVICES, LLC": 3000.0
+      }
+    }
+  ]
+}

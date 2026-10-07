@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "csj": "6423-66-001",
+    "county": "Jefferson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642366001",
+    "projectType": "SWEEPING AND DEBRIS REMOVAL",
+    "letDate": "02/01/23",
+    "engEstTotal": 1017514.77,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SWEEPING CORPORATION OF AMERICA, LLC",
+      "totalBidAmount": 969739.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "RK POWER DRIVE SERVICES, INC.",
+      "totalBidAmount": 1424608.06
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 50000.0,
+      "lowUnit": 24000.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 24000.0,
+        "RK POWER DRIVE SERVICES, INC.": 225000.0
+      }
+    },
+    {
+      "itemCode": "0738 6002",
+      "description": "CLEANING / SWEEPING (CENTER MEDIAN)",
+      "unit": "MI",
+      "quantity": 750.78,
+      "engEstUnit": 460.0,
+      "lowUnit": 437.26,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 437.26,
+        "RK POWER DRIVE SERVICES, INC.": 450.0
+      }
+    },
+    {
+      "itemCode": "0738 6004",
+      "description": "CLEANING / SWEEPING (OUTSIDE MAIN LANE)",
+      "unit": "MI",
+      "quantity": 1047.46,
+      "engEstUnit": 135.0,
+      "lowUnit": 437.26,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 437.26,
+        "RK POWER DRIVE SERVICES, INC.": 450.0
+      }
+    },
+    {
+      "itemCode": "0738 6006",
+      "description": "CLEANING / SWEEPING (FRONTAGE ROAD)",
+      "unit": "MI",
+      "quantity": 64.4,
+      "engEstUnit": 120.0,
+      "lowUnit": 437.26,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 437.26,
+        "RK POWER DRIVE SERVICES, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0738 6008",
+      "description": "CLEANING / SWEEPING(ENTRANCE/EXIT RAMP)",
+      "unit": "MI",
+      "quantity": 71.74,
+      "engEstUnit": 180.0,
+      "lowUnit": 437.26,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 437.26,
+        "RK POWER DRIVE SERVICES, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0738 6009",
+      "description": "CLEANING / SWEEPING (AGGREGATE REMOVAL)",
+      "unit": "MI",
+      "quantity": 180.0,
+      "engEstUnit": 135.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 75.0,
+        "RK POWER DRIVE SERVICES, INC.": 600.0
+      }
+    },
+    {
+      "itemCode": "0738 6010",
+      "description": "CLEANING / SWEEPING (SPOT)",
+      "unit": "MI",
+      "quantity": 130.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 250.0,
+        "RK POWER DRIVE SERVICES, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0738 6011",
+      "description": "CLEANING / SWEEPING (HANDWORK)",
+      "unit": "SY",
+      "quantity": 134330.06,
+      "engEstUnit": 2.75,
+      "lowUnit": 0.4,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 0.4,
+        "RK POWER DRIVE SERVICES, INC.": 1.0
+      }
+    }
+  ]
+}

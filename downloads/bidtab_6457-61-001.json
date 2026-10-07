@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6457-61-001",
+    "county": "Freestone",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 645761001",
+    "projectType": "HOT MIX",
+    "letDate": "12/05/23",
+    "engEstTotal": 508100.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BIG CREEK CONSTRUCTION, LTD.",
+      "totalBidAmount": 519900.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 525900.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 300.0,
+      "engEstUnit": 77.0,
+      "lowUnit": 83.0,
+      "bidders": {
+        "BIG CREEK CONSTRUCTION, LTD.": 83.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 78.0
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 5000.0,
+      "engEstUnit": 97.0,
+      "lowUnit": 99.0,
+      "bidders": {
+        "BIG CREEK CONSTRUCTION, LTD.": 99.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 100.5
+      }
+    }
+  ]
+}

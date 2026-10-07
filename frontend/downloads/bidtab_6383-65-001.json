@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6383-65-001",
+    "county": "Ector",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638365001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/04/22",
+    "engEstTotal": 790620.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "L&L COMPANY",
+      "totalBidAmount": 626436.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MIJELUM, L.L.C.",
+      "totalBidAmount": 782526.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 11388.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "L&L COMPANY": 55.0,
+        "MIJELUM, L.L.C.": 64.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6456-85-001",
+    "county": "Childress",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 645685001",
+    "projectType": "HOT MIX",
+    "letDate": "10/16/23",
+    "engEstTotal": 270000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ZACK BURKETT CO.",
+      "totalBidAmount": 231100.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "OVERLAND MATERIALS & MANUFACTURING, INC.",
+      "totalBidAmount": 243120.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "J. LEE MILLIGAN, INC.",
+      "totalBidAmount": 300000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6011",
+      "description": "D-GR HMA(SQ)TY D PG 64-22 (DLVR)SITE 1",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 135.0,
+      "lowUnit": 115.55,
+      "bidders": {
+        "ZACK BURKETT CO.": 115.55,
+        "OVERLAND MATERIALS & MANUFACTURING, INC.": 121.56,
+        "J. LEE MILLIGAN, INC.": 150.0
+      }
+    }
+  ]
+}

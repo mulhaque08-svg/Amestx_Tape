@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6388-83-001",
+    "county": "Galveston",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638883001",
+    "projectType": "DREDGING",
+    "letDate": "02/04/22",
+    "engEstTotal": 2399999.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CALLAN MARINE LTD",
+      "totalBidAmount": 2199999.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MIKE HOOKS, LLC",
+      "totalBidAmount": 2600000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ORION CONSTRUCTION, L.P.",
+      "totalBidAmount": 2995000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "7250 6001",
+      "description": "DREDGING",
+      "unit": "CY",
+      "quantity": 500000.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 4.1,
+      "bidders": {
+        "CALLAN MARINE LTD": 4.1,
+        "MIKE HOOKS, LLC": 4.0,
+        "ORION CONSTRUCTION, L.P.": 4.95
+      }
+    },
+    {
+      "itemCode": "7256 6001",
+      "description": "MOBILIZATION FOR DREDGING",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 149999.0,
+      "lowUnit": 149999.0,
+      "bidders": {
+        "CALLAN MARINE LTD": 149999.0,
+        "MIKE HOOKS, LLC": 600000.0,
+        "ORION CONSTRUCTION, L.P.": 520000.0
+      }
+    }
+  ]
+}

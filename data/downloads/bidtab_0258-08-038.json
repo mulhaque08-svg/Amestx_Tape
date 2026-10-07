@@ -1,0 +1,554 @@
+{
+  "metadata": {
+    "csj": "0258-08-038",
+    "county": "Mclennan",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "STP 2023(617)HES",
+    "projectType": "HAZARD ELIMINATION & SAFETY",
+    "letDate": "04/05/23",
+    "engEstTotal": 649412.15,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 723086.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MB WESTERN INDUSTRIAL CONTRACTING COMPANY",
+      "totalBidAmount": 836598.46
+    },
+    {
+      "rank": 3,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 883831.07
+    },
+    {
+      "rank": 4,
+      "vendorName": "BIG CREEK CONSTRUCTION, LTD.",
+      "totalBidAmount": 903141.25
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 1.0,
+      "engEstUnit": 3222.75,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 2000.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 10000.0,
+        "TEXAS MATERIALS GROUP, INC.": 17000.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 3200.0
+      }
+    },
+    {
+      "itemCode": "0104 6054",
+      "description": "REMOVING CONCRETE(MOW STRIP)",
+      "unit": "LF",
+      "quantity": 380.0,
+      "engEstUnit": 6.5,
+      "lowUnit": 10.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 10.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 15.0,
+        "TEXAS MATERIALS GROUP, INC.": 40.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 16.0
+      }
+    },
+    {
+      "itemCode": "0105 6015",
+      "description": "REMOVING STAB BASE & ASPH PAV (8\"-10\")",
+      "unit": "SY",
+      "quantity": 18.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 60.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 50.0,
+        "TEXAS MATERIALS GROUP, INC.": 190.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 85.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 25.0,
+      "engEstUnit": 11.5,
+      "lowUnit": 50.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 50.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 50.0,
+        "TEXAS MATERIALS GROUP, INC.": 135.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 24.0
+      }
+    },
+    {
+      "itemCode": "0112 6002",
+      "description": "SUBGRADE WIDENING (DENS CONT)",
+      "unit": "STA",
+      "quantity": 9.0,
+      "engEstUnit": 270.0,
+      "lowUnit": 950.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 950.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 1500.0,
+        "TEXAS MATERIALS GROUP, INC.": 2300.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 2500.0
+      }
+    },
+    {
+      "itemCode": "0132 6004",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY B)",
+      "unit": "CY",
+      "quantity": 667.0,
+      "engEstUnit": 15.25,
+      "lowUnit": 40.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 40.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 25.0,
+        "TEXAS MATERIALS GROUP, INC.": 55.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 50.0
+      }
+    },
+    {
+      "itemCode": "0134 6004",
+      "description": "BACKFILL (TY A OR B)",
+      "unit": "STA",
+      "quantity": 9.0,
+      "engEstUnit": 177.75,
+      "lowUnit": 500.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 500.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 200.0,
+        "TEXAS MATERIALS GROUP, INC.": 1050.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 300.0
+      }
+    },
+    {
+      "itemCode": "0150 6001",
+      "description": "BLADING",
+      "unit": "STA",
+      "quantity": 9.0,
+      "engEstUnit": 123.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 150.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 185.0,
+        "TEXAS MATERIALS GROUP, INC.": 230.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 300.0
+      }
+    },
+    {
+      "itemCode": "0160 6003",
+      "description": "FURNISHING AND PLACING TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 11374.0,
+      "engEstUnit": 1.65,
+      "lowUnit": 0.01,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 0.01,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 3.0,
+        "TEXAS MATERIALS GROUP, INC.": 1.45,
+        "BIG CREEK CONSTRUCTION, LTD.": 2.0
+      }
+    },
+    {
+      "itemCode": "0164 6035",
+      "description": "DRILL SEEDING (PERM) (RURAL) (CLAY)",
+      "unit": "SY",
+      "quantity": 11374.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.37,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 0.37,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 0.41,
+        "TEXAS MATERIALS GROUP, INC.": 0.37,
+        "BIG CREEK CONSTRUCTION, LTD.": 1.0
+      }
+    },
+    {
+      "itemCode": "0164 6051",
+      "description": "DRILL SEED (TEMP)(WARM OR COOL)",
+      "unit": "SY",
+      "quantity": 11374.0,
+      "engEstUnit": 0.16,
+      "lowUnit": 0.33,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 0.33,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 0.37,
+        "TEXAS MATERIALS GROUP, INC.": 0.33,
+        "BIG CREEK CONSTRUCTION, LTD.": 1.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 277.1,
+      "engEstUnit": 22.5,
+      "lowUnit": 5.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 5.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 1.5,
+        "TEXAS MATERIALS GROUP, INC.": 40.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 20.0
+      }
+    },
+    {
+      "itemCode": "0216 6001",
+      "description": "PROOF ROLLING",
+      "unit": "HR",
+      "quantity": 2.0,
+      "engEstUnit": 125.75,
+      "lowUnit": 75.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 75.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 180.0,
+        "TEXAS MATERIALS GROUP, INC.": 130.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 150.0
+      }
+    },
+    {
+      "itemCode": "0310 6027",
+      "description": "PRIME COAT(MC-30 OR AE-P)",
+      "unit": "GAL",
+      "quantity": 152.0,
+      "engEstUnit": 6.9,
+      "lowUnit": 15.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 15.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 10.0,
+        "TEXAS MATERIALS GROUP, INC.": 9.4,
+        "BIG CREEK CONSTRUCTION, LTD.": 8.0
+      }
+    },
+    {
+      "itemCode": "0354 6029",
+      "description": "PLANE ASPH CONC PAV(0\" TO 6\")",
+      "unit": "SY",
+      "quantity": 816.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 10.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 5.0,
+        "TEXAS MATERIALS GROUP, INC.": 14.9,
+        "BIG CREEK CONSTRUCTION, LTD.": 8.5
+      }
+    },
+    {
+      "itemCode": "0354 6220",
+      "description": "PLANE ASPH CONC PAV (0\" TO 2\" MICRO)",
+      "unit": "SY",
+      "quantity": 17578.0,
+      "engEstUnit": 3.6,
+      "lowUnit": 2.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 2.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 5.0,
+        "TEXAS MATERIALS GROUP, INC.": 2.55,
+        "BIG CREEK CONSTRUCTION, LTD.": 3.5
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 808.0,
+      "engEstUnit": 35.75,
+      "lowUnit": 33.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 33.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 72.5,
+        "TEXAS MATERIALS GROUP, INC.": 31.6,
+        "BIG CREEK CONSTRUCTION, LTD.": 40.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 14.0,
+      "engEstUnit": 463.0,
+      "lowUnit": 775.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 775.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 950.0,
+        "TEXAS MATERIALS GROUP, INC.": 842.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 650.0
+      }
+    },
+    {
+      "itemCode": "0466 6173",
+      "description": "WINGWALL (PW - 1) (HW=12 FT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 67026.0,
+      "lowUnit": 77000.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 77000.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 70000.0,
+        "TEXAS MATERIALS GROUP, INC.": 78950.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 88000.0
+      }
+    },
+    {
+      "itemCode": "0496 6005",
+      "description": "REMOV STR (WINGWALL)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 993.5,
+      "lowUnit": 1600.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 1600.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 2250.0,
+        "TEXAS MATERIALS GROUP, INC.": 1265.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 7500.0
+      }
+    },
+    {
+      "itemCode": "0496 6008",
+      "description": "REMOV STR (BOX CULVERT)",
+      "unit": "LF",
+      "quantity": 6.0,
+      "engEstUnit": 72.75,
+      "lowUnit": 350.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 350.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 560.0,
+        "TEXAS MATERIALS GROUP, INC.": 105.25,
+        "BIG CREEK CONSTRUCTION, LTD.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 9339.64,
+      "lowUnit": 72000.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 72000.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 70000.0,
+        "TEXAS MATERIALS GROUP, INC.": 88000.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 75000.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 300.0,
+      "engEstUnit": 2.75,
+      "lowUnit": 4.55,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 4.55,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 2.8,
+        "TEXAS MATERIALS GROUP, INC.": 2.5,
+        "BIG CREEK CONSTRUCTION, LTD.": 5.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3256.75,
+      "lowUnit": 4000.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 4000.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 2950.0,
+        "TEXAS MATERIALS GROUP, INC.": 2650.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 3750.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 246.25,
+      "lowUnit": 415.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 415.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 250.0,
+        "TEXAS MATERIALS GROUP, INC.": 225.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 375.0
+      }
+    },
+    {
+      "itemCode": "0644 6060",
+      "description": "IN SM RD SN SUP&AM TYTWT(1)WS(P)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 426.25,
+      "lowUnit": 950.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 950.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 550.0,
+        "TEXAS MATERIALS GROUP, INC.": 473.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 500.0
+      }
+    },
+    {
+      "itemCode": "0644 6061",
+      "description": "IN SM RD SN SUP&AM TYTWT(1)WS(T)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 465.0,
+      "lowUnit": 950.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 950.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 550.0,
+        "TEXAS MATERIALS GROUP, INC.": 777.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 800.0
+      }
+    },
+    {
+      "itemCode": "0644 6080",
+      "description": "RELOCATE SM RD SN SUP & AM TY TEMP",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 237.25,
+      "lowUnit": 375.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 375.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 500.0,
+        "TEXAS MATERIALS GROUP, INC.": 700.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 750.0
+      }
+    },
+    {
+      "itemCode": "0658 6010",
+      "description": "INSTL DEL ASSM (D-SW)SZ 2(WC)GND",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 82.25,
+      "lowUnit": 50.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 50.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 67.0,
+        "TEXAS MATERIALS GROUP, INC.": 60.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 45.0
+      }
+    },
+    {
+      "itemCode": "0658 6061",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 29.75,
+      "lowUnit": 45.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 45.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 43.0,
+        "TEXAS MATERIALS GROUP, INC.": 38.5,
+        "BIG CREEK CONSTRUCTION, LTD.": 40.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 162.0,
+      "engEstUnit": 5.85,
+      "lowUnit": 8.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 8.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 4.46,
+        "TEXAS MATERIALS GROUP, INC.": 7.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 7.25
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 847.0,
+      "engEstUnit": 0.82,
+      "lowUnit": 2.25,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 2.25,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 1.0,
+        "TEXAS MATERIALS GROUP, INC.": 1.06,
+        "BIG CREEK CONSTRUCTION, LTD.": 1.1
+      }
+    },
+    {
+      "itemCode": "3076 6003",
+      "description": "D-GR HMA TY-B PG64-22 (EXEMPT)",
+      "unit": "TON",
+      "quantity": 259.0,
+      "engEstUnit": 89.6,
+      "lowUnit": 150.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 150.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 160.0,
+        "TEXAS MATERIALS GROUP, INC.": 175.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 200.0
+      }
+    },
+    {
+      "itemCode": "3076 6066",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 171.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 4.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 15.0,
+        "TEXAS MATERIALS GROUP, INC.": 13.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 10.0
+      }
+    },
+    {
+      "itemCode": "3077 6083",
+      "description": "SP MIXES SP-D SAC-B PG70-22 (EXEMPT)",
+      "unit": "TON",
+      "quantity": 1451.0,
+      "engEstUnit": 163.0,
+      "lowUnit": 135.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 135.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 160.0,
+        "TEXAS MATERIALS GROUP, INC.": 175.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 175.0
+      }
+    },
+    {
+      "itemCode": "3085 6001",
+      "description": "UNDERSEAL COURSE",
+      "unit": "GAL",
+      "quantity": 4396.0,
+      "engEstUnit": 3.75,
+      "lowUnit": 3.75,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 3.75,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 5.23,
+        "TEXAS MATERIALS GROUP, INC.": 0.01,
+        "BIG CREEK CONSTRUCTION, LTD.": 8.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 7332.0,
+      "lowUnit": 7500.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 7500.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 7500.0,
+        "TEXAS MATERIALS GROUP, INC.": 6500.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 7000.0
+      }
+    }
+  ]
+}

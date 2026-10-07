@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6466-76-001",
+    "county": "Ellis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646676001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/07/24",
+    "engEstTotal": 104610.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 104642.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 116511.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 238714.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 9510.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 1.0,
+        "D & M CONTRACTORS, LLC": 15000.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 5000.0
+      }
+    }
+  ]
+}

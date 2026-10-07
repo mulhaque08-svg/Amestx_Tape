@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "csj": "6389-10-001",
+    "county": "Hamilton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638910001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/14/21",
+    "engEstTotal": 235561.48,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GREG SCRUGGS",
+      "totalBidAmount": 184438.39
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 7988.52,
+      "lowUnit": 0.001,
+      "bidders": {
+        "GREG SCRUGGS": 0.001
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 17.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 0.001,
+      "bidders": {
+        "GREG SCRUGGS": 0.001
+      }
+    },
+    {
+      "itemCode": "0730 6104",
+      "description": "FULL-WIDTH MOWING (RURAL)",
+      "unit": "AC",
+      "quantity": 4736.86,
+      "engEstUnit": 42.0,
+      "lowUnit": 34.34,
+      "bidders": {
+        "GREG SCRUGGS": 34.34
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 951.64,
+      "engEstUnit": 13.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "GREG SCRUGGS": 15.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 500.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "GREG SCRUGGS": 15.0
+      }
+    }
+  ]
+}

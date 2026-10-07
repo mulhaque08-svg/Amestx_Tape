@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6457-19-001",
+    "county": "Fisher",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645719001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/20/24",
+    "engEstTotal": 223604.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KENNETH THOMASON",
+      "totalBidAmount": 206465.6
+    },
+    {
+      "rank": 2,
+      "vendorName": "ABESCAPE LANDSCAPING, LLC",
+      "totalBidAmount": 220473.92
+    },
+    {
+      "rank": 3,
+      "vendorName": "TRIPLE T MAINTENANCE INC.",
+      "totalBidAmount": 227654.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1076.0,
+      "engEstUnit": 32.0,
+      "lowUnit": 31.7,
+      "bidders": {
+        "KENNETH THOMASON": 31.7,
+        "ABESCAPE LANDSCAPING, LLC": 33.89,
+        "TRIPLE T MAINTENANCE INC.": 32.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 4652.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 31.7,
+      "bidders": {
+        "KENNETH THOMASON": 31.7,
+        "ABESCAPE LANDSCAPING, LLC": 33.89,
+        "TRIPLE T MAINTENANCE INC.": 36.5
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 1464.0,
+      "engEstUnit": 18.0,
+      "lowUnit": 17.0,
+      "bidders": {
+        "KENNETH THOMASON": 17.0,
+        "ABESCAPE LANDSCAPING, LLC": 18.0,
+        "TRIPLE T MAINTENANCE INC.": 16.0
+      }
+    }
+  ]
+}

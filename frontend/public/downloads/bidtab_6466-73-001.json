@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6466-73-001",
+    "county": "Bexar",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646673001",
+    "projectType": "CRACK SEAL",
+    "letDate": "06/20/24",
+    "engEstTotal": 235925.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FYL ENTERPRISES, LLC",
+      "totalBidAmount": 302025.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 313350.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 60000.0,
+      "bidders": {
+        "FYL ENTERPRISES, LLC": 60000.0,
+        "ICOS MANAGEMENT, LLC": 24000.0
+      }
+    }
+  ]
+}

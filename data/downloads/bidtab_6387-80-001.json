@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6387-80-001",
+    "county": "Van Zandt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638780001",
+    "projectType": "DITCH CLEANING AND RESHAPING",
+    "letDate": "10/12/21",
+    "engEstTotal": 168487.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 135448.25
+    },
+    {
+      "rank": 2,
+      "vendorName": "L & M MOWING CONTRACTORS, LLC",
+      "totalBidAmount": 166544.75
+    },
+    {
+      "rank": 3,
+      "vendorName": "PRESLEY LAND MANAGEMENT LLC",
+      "totalBidAmount": 187500.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 348262.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0480 6001",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "EA",
+      "quantity": 167.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 225.0,
+        "L & M MOWING CONTRACTORS, LLC": 425.0,
+        "PRESLEY LAND MANAGEMENT LLC": 250.0,
+        "FNH CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 100.0,
+        "L & M MOWING CONTRACTORS, LLC": 1.0,
+        "PRESLEY LAND MANAGEMENT LLC": 5000.0,
+        "FNH CONSTRUCTION, LLC": 35000.0
+      }
+    },
+    {
+      "itemCode": "0760 6001",
+      "description": "DITCH CLEANING AND RESHAPING (FOOT)",
+      "unit": "LF",
+      "quantity": 66375.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.47,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 1.47,
+        "L & M MOWING CONTRACTORS, LLC": 1.25,
+        "PRESLEY LAND MANAGEMENT LLC": 2.0,
+        "FNH CONSTRUCTION, LLC": 3.1
+      }
+    }
+  ]
+}

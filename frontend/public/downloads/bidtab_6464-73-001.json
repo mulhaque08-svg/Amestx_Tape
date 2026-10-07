@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6464-73-001",
+    "county": "Brazos",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646473001",
+    "projectType": "ROCK/RIPRAP",
+    "letDate": "04/09/24",
+    "engEstTotal": 17500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 20000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8020 6031",
+      "description": "RIPRAP(DEL)(STONE PROT)(24 IN)(SITE 1)",
+      "unit": "CY",
+      "quantity": 100.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 90.0
+      }
+    },
+    {
+      "itemCode": "8020 6120",
+      "description": "RIPRAP (STONE PROT)(30 IN)(SITE 1)",
+      "unit": "CY",
+      "quantity": 100.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 110.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 110.0
+      }
+    }
+  ]
+}

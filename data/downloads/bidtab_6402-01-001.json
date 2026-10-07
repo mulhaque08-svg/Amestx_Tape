@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "csj": "6402-01-001",
+    "county": "Jeff Davis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640201001",
+    "projectType": "TREE REMOVAL",
+    "letDate": "06/29/22",
+    "engEstTotal": 764020.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 1089454.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "MIJELUM, L.L.C.",
+      "totalBidAmount": 1093310.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DOUBLE H CONTRACTING INC.",
+      "totalBidAmount": 1369550.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 50000.0,
+      "lowUnit": 65000.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 65000.0,
+        "MIJELUM, L.L.C.": 80000.0,
+        "DOUBLE H CONTRACTING INC.": 130000.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 222.5,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1600.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 1600.0,
+        "MIJELUM, L.L.C.": 800.0,
+        "DOUBLE H CONTRACTING INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0752 6004",
+      "description": "TREE TRIMMING / BRUSH REMOVAL(CHANNELS)",
+      "unit": "AC",
+      "quantity": 95.5,
+      "engEstUnit": 120.0,
+      "lowUnit": 1253.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 1253.0,
+        "MIJELUM, L.L.C.": 500.0,
+        "DOUBLE H CONTRACTING INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0752 6005",
+      "description": "TREE REMOVAL (4\" - 12\" DIA)",
+      "unit": "EA",
+      "quantity": 1085.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 100.0,
+        "MIJELUM, L.L.C.": 100.0,
+        "DOUBLE H CONTRACTING INC.": 125.0
+      }
+    },
+    {
+      "itemCode": "0752 6006",
+      "description": "TREE REMOVAL (12\" - 18\" DIA)",
+      "unit": "EA",
+      "quantity": 513.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 125.0,
+        "MIJELUM, L.L.C.": 110.0,
+        "DOUBLE H CONTRACTING INC.": 225.0
+      }
+    },
+    {
+      "itemCode": "0752 6007",
+      "description": "TREE REMOVAL (18\" - 24\" DIA)",
+      "unit": "EA",
+      "quantity": 112.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 205.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 205.0,
+        "MIJELUM, L.L.C.": 115.0,
+        "DOUBLE H CONTRACTING INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0752 6008",
+      "description": "TREE REMOVAL (24\" - 30\" DIA)",
+      "unit": "EA",
+      "quantity": 32.0,
+      "engEstUnit": 185.0,
+      "lowUnit": 369.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 369.0,
+        "MIJELUM, L.L.C.": 120.0,
+        "DOUBLE H CONTRACTING INC.": 1800.0
+      }
+    },
+    {
+      "itemCode": "0752 6009",
+      "description": "TREE REMOVAL (30\" - 36\" DIA)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 500.0,
+        "MIJELUM, L.L.C.": 130.0,
+        "DOUBLE H CONTRACTING INC.": 1800.0
+      }
+    },
+    {
+      "itemCode": "0752 6024",
+      "description": "TREE TRIMMING (0\"-12\")",
+      "unit": "EA",
+      "quantity": 1532.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 100.0,
+        "MIJELUM, L.L.C.": 160.0,
+        "DOUBLE H CONTRACTING INC.": 125.0
+      }
+    },
+    {
+      "itemCode": "0752 6025",
+      "description": "TREE TRIMMING (12\"-24\")",
+      "unit": "EA",
+      "quantity": 789.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 100.0,
+        "MIJELUM, L.L.C.": 250.0,
+        "DOUBLE H CONTRACTING INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "0752 6026",
+      "description": "TREE TRIMMING (24\"-42\")",
+      "unit": "EA",
+      "quantity": 43.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 100.0,
+        "MIJELUM, L.L.C.": 400.0,
+        "DOUBLE H CONTRACTING INC.": 450.0
+      }
+    }
+  ]
+}

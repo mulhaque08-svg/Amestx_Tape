@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "csj": "6392-79-001",
+    "county": "Hopkins",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639279001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/02/21",
+    "engEstTotal": 338397.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "EASTGATE SERVICES",
+      "totalBidAmount": 276283.9
+    },
+    {
+      "rank": 2,
+      "vendorName": "GANT CONTRACTORS, INC.",
+      "totalBidAmount": 325075.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "PRESLEY LAND MANAGEMENT LLC",
+      "totalBidAmount": 328151.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 384036.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "EASTGATE SERVICES": 1.0,
+        "GANT CONTRACTORS, INC.": 1.0,
+        "PRESLEY LAND MANAGEMENT LLC": 1.0,
+        "ANTHONY SERVICES": 2000.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 7101.0,
+      "engEstUnit": 43.0,
+      "lowUnit": 34.9,
+      "bidders": {
+        "EASTGATE SERVICES": 34.9,
+        "GANT CONTRACTORS, INC.": 39.5,
+        "PRESLEY LAND MANAGEMENT LLC": 42.0,
+        "ANTHONY SERVICES": 46.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 43.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "EASTGATE SERVICES": 1.0,
+        "GANT CONTRACTORS, INC.": 39.5,
+        "PRESLEY LAND MANAGEMENT LLC": 30.0,
+        "ANTHONY SERVICES": 1.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 2367.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "EASTGATE SERVICES": 12.0,
+        "GANT CONTRACTORS, INC.": 18.0,
+        "PRESLEY LAND MANAGEMENT LLC": 12.0,
+        "ANTHONY SERVICES": 20.0
+      }
+    }
+  ]
+}

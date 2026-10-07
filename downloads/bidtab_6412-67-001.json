@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6412-67-001",
+    "county": "Kaufman",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641267001",
+    "projectType": "ASPHALTIC PATCHING MATERIAL",
+    "letDate": "07/26/22",
+    "engEstTotal": 75000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "WALLER COUNTY ASPHALT INC.",
+      "totalBidAmount": 75376.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 78000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 82800.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8019 6013",
+      "description": "ASPH PATCH MAT (DEL)(SITE 1)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 185.0,
+      "lowUnit": 185.78,
+      "bidders": {
+        "WALLER COUNTY ASPHALT INC.": 185.78,
+        "FNH CONSTRUCTION, LLC": 190.0,
+        "TOUCHSTONE RESOURCES, LLC": 210.0
+      }
+    },
+    {
+      "itemCode": "8019 6014",
+      "description": "ASPH PATCH MAT (DEL)(SITE 2)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 190.0,
+      "lowUnit": 191.1,
+      "bidders": {
+        "WALLER COUNTY ASPHALT INC.": 191.1,
+        "FNH CONSTRUCTION, LLC": 200.0,
+        "TOUCHSTONE RESOURCES, LLC": 204.0
+      }
+    }
+  ]
+}

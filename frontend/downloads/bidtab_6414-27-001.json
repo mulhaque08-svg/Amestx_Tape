@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6414-27-001",
+    "county": "Ellis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641427001",
+    "projectType": "METAL BEAM GUARD FENCE UPGRADE",
+    "letDate": "07/26/22",
+    "engEstTotal": 164670.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 178250.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOTAL HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 222760.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 16470.0,
+      "lowUnit": 12000.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 12000.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 15000.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 43.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 3000.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 2520.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 43.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 500.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 1300.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 45.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 50.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 100.0
+      }
+    }
+  ]
+}

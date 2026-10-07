@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6379-69-001",
+    "county": "Nacogdoches",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637969001",
+    "projectType": "CUTBACK",
+    "letDate": "04/27/21",
+    "engEstTotal": 37800.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 34560.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CLEVELAND ASPHALT PRODUCTS, INC.",
+      "totalBidAmount": 38400.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6001",
+      "description": "CUTBACK ASPHALT (RC-250)(DELIVERY)",
+      "unit": "GAL",
+      "quantity": 12000.0,
+      "engEstUnit": 3.15,
+      "lowUnit": 2.88,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.88,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 3.2
+      }
+    }
+  ]
+}

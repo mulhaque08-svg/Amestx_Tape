@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "csj": "6366-68-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 636668001",
+    "projectType": "DITCH, GUARDRAIL & ATTENUATOR CLEANING",
+    "letDate": "01/07/21",
+    "engEstTotal": 375240.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AAD CONTRACTING INC.",
+      "totalBidAmount": 374400.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "THOMAS 11 DEVELOPMENT LLC",
+      "totalBidAmount": 383322.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 441900.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 4000.0,
+      "bidders": {
+        "AAD CONTRACTING INC.": 4000.0,
+        "THOMAS 11 DEVELOPMENT LLC": 2000.0,
+        "TEXAS DRAINAGE INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0760 6001",
+      "description": "DITCH CLEANING AND RESHAPING (FOOT)",
+      "unit": "LF",
+      "quantity": 42000.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 2.4,
+      "bidders": {
+        "AAD CONTRACTING INC.": 2.4,
+        "THOMAS 11 DEVELOPMENT LLC": 1.99,
+        "TEXAS DRAINAGE INC.": 3.75
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 84.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "AAD CONTRACTING INC.": 100.0,
+        "THOMAS 11 DEVELOPMENT LLC": 115.0,
+        "TEXAS DRAINAGE INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "7083 6001",
+      "description": "CLEANING GUARDRAIL",
+      "unit": "LF",
+      "quantity": 37080.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "AAD CONTRACTING INC.": 4.0,
+        "THOMAS 11 DEVELOPMENT LLC": 4.15,
+        "TEXAS DRAINAGE INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "7083 6002",
+      "description": "CLEANING ATTENUATOR",
+      "unit": "LF",
+      "quantity": 2520.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "AAD CONTRACTING INC.": 4.0,
+        "THOMAS 11 DEVELOPMENT LLC": 25.0,
+        "TEXAS DRAINAGE INC.": 15.0
+      }
+    }
+  ]
+}

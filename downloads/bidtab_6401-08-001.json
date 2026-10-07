@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6401-08-001",
+    "county": "Hill",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640108001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/04/22",
+    "engEstTotal": 527586.9,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 413970.7
+    },
+    {
+      "rank": 2,
+      "vendorName": "FYL ENTERPRISES, LLC",
+      "totalBidAmount": 496195.09
+    },
+    {
+      "rank": 3,
+      "vendorName": "BOEN LANDSCAPING & IRRIGATION, LLC",
+      "totalBidAmount": 533509.32
+    },
+    {
+      "rank": 4,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 549629.43
+    },
+    {
+      "rank": 5,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 732715.56
+    },
+    {
+      "rank": 6,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 780776.11
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 3197.5,
+      "lowUnit": 10.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 10.0,
+        "FYL ENTERPRISES, LLC": 0.066,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 1.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.001,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1000.0,
+        "ANTHONY SERVICES": 3500.0
+      }
+    }
+  ]
+}

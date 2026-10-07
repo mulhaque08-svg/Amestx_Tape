@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "csj": "6422-22-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642222001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/01/23",
+    "engEstTotal": 345245.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 388863.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 404073.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "JASCO",
+      "totalBidAmount": 497050.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 571125.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ANTHONY SERVICES": 1.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 1.0,
+        "JASCO": 1000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 15000.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "ANTHONY SERVICES": 30.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 30.0,
+        "JASCO": 100.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "0730 6104",
+      "description": "FULL-WIDTH MOWING (RURAL)",
+      "unit": "AC",
+      "quantity": 1521.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 48.0,
+      "bidders": {
+        "ANTHONY SERVICES": 48.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 58.0,
+        "JASCO": 70.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "0730 6105",
+      "description": "FULL-WIDTH MOWING (URBAN)",
+      "unit": "AC",
+      "quantity": 5394.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 58.0,
+      "bidders": {
+        "ANTHONY SERVICES": 58.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 58.0,
+        "JASCO": 70.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 75.0
+      }
+    }
+  ]
+}

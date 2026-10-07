@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6407-67-001",
+    "county": "Washington",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 640767001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "06/14/22",
+    "engEstTotal": 96000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "J&H EXCAVATION INC.",
+      "totalBidAmount": 104300.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 108000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 110060.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 139000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6078",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 1)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 32.0,
+      "lowUnit": 27.66,
+      "bidders": {
+        "J&H EXCAVATION INC.": 27.66,
+        "TOUCHSTONE RESOURCES, LLC": 36.0,
+        "DIGG COMMERCIAL, LLC": 43.7,
+        "KNIFE RIVER CORPORATION - SOUTH": 48.0
+      }
+    },
+    {
+      "itemCode": "8007 6079",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 2)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 32.0,
+      "lowUnit": 35.94,
+      "bidders": {
+        "J&H EXCAVATION INC.": 35.94,
+        "TOUCHSTONE RESOURCES, LLC": 36.0,
+        "DIGG COMMERCIAL, LLC": 35.88,
+        "KNIFE RIVER CORPORATION - SOUTH": 43.0
+      }
+    },
+    {
+      "itemCode": "8007 6080",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 3)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 32.0,
+      "lowUnit": 40.7,
+      "bidders": {
+        "J&H EXCAVATION INC.": 40.7,
+        "TOUCHSTONE RESOURCES, LLC": 36.0,
+        "DIGG COMMERCIAL, LLC": 30.48,
+        "KNIFE RIVER CORPORATION - SOUTH": 48.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6458-19-001",
+    "county": "Rains",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645819001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/21/23",
+    "engEstTotal": 199542.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DOUBLE S TRACTOR SERVICES, LLC",
+      "totalBidAmount": 185593.64
+    },
+    {
+      "rank": 2,
+      "vendorName": "EASTGATE SERVICES",
+      "totalBidAmount": 192345.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "DOUBLE S TRACTOR SERVICES, LLC": 1.0,
+        "EASTGATE SERVICES": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 4928.0,
+      "engEstUnit": 39.0,
+      "lowUnit": 37.63,
+      "bidders": {
+        "DOUBLE S TRACTOR SERVICES, LLC": 37.63,
+        "EASTGATE SERVICES": 39.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 150.0,
+      "engEstUnit": 39.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "DOUBLE S TRACTOR SERVICES, LLC": 1.0,
+        "EASTGATE SERVICES": 1.0
+      }
+    }
+  ]
+}

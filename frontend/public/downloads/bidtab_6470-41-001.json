@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6470-41-001",
+    "county": "Bell",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 647041001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/02/24",
+    "engEstTotal": 1145632.48,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 1167325.86
+    },
+    {
+      "rank": 2,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 1353050.8
+    },
+    {
+      "rank": 3,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 1466180.12
+    },
+    {
+      "rank": 4,
+      "vendorName": "RHINO EQUITY, LLC",
+      "totalBidAmount": 1521746.95
+    },
+    {
+      "rank": 5,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 1852349.4
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 101875.68,
+      "lowUnit": 50000.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 50000.0,
+        "ICOS MANAGEMENT, LLC": 150000.0,
+        "CRACKSEAL OF TEXAS, LLC": 55000.0,
+        "RHINO EQUITY, LLC": 18000.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 30000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 660.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 0.25,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 0.25,
+        "ICOS MANAGEMENT, LLC": 1.0,
+        "CRACKSEAL OF TEXAS, LLC": 1.0,
+        "RHINO EQUITY, LLC": 135.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0
+      }
+    },
+    {
+      "itemCode": "7329 6002",
+      "description": "MAINTENANCE SPEED LIMIT SIGNING",
+      "unit": "DAY",
+      "quantity": 224.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 1.0,
+        "ICOS MANAGEMENT, LLC": 1.0,
+        "CRACKSEAL OF TEXAS, LLC": 1.0,
+        "RHINO EQUITY, LLC": 315.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 200.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6419-72-001",
+    "county": "Upshur",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641972001",
+    "projectType": "HOT MIX",
+    "letDate": "10/12/22",
+    "engEstTotal": 293500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RK HALL, LLC",
+      "totalBidAmount": 320142.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "LONGVIEW ASPHALT, INC.",
+      "totalBidAmount": 320710.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "LONGVIEW BRIDGE AND ROAD, LTD.",
+      "totalBidAmount": 322378.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 1100.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "RK HALL, LLC": 100.0,
+        "LONGVIEW ASPHALT, INC.": 100.9,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 102.91
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 1100.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 115.96,
+      "bidders": {
+        "RK HALL, LLC": 115.96,
+        "LONGVIEW ASPHALT, INC.": 116.9,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 115.91
+      }
+    },
+    {
+      "itemCode": "8011 6003",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 350.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 110.0,
+      "bidders": {
+        "RK HALL, LLC": 110.0,
+        "LONGVIEW ASPHALT, INC.": 107.9,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 110.18
+      }
+    },
+    {
+      "itemCode": "8011 6004",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 350.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 125.96,
+      "bidders": {
+        "RK HALL, LLC": 125.96,
+        "LONGVIEW ASPHALT, INC.": 123.9,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 123.18
+      }
+    }
+  ]
+}

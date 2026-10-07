@@ -1,0 +1,494 @@
+{
+  "metadata": {
+    "csj": "0913-20-092",
+    "county": "Austin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 1802(834)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "02/01/24",
+    "engEstTotal": 3275625.2,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 4031920.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "C. E. BARKER, LTD.",
+      "totalBidAmount": 4133484.26
+    },
+    {
+      "rank": 3,
+      "vendorName": "EARTH BUILDERS, L.P.",
+      "totalBidAmount": 4227557.4
+    },
+    {
+      "rank": 4,
+      "vendorName": "E-Z BEL CONSTRUCTION, LLC",
+      "totalBidAmount": 4232872.84
+    },
+    {
+      "rank": 5,
+      "vendorName": "FUQUA CONSTRUCTION CO., INC.",
+      "totalBidAmount": 5402386.55
+    },
+    {
+      "rank": 6,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 6376763.22
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 13.43,
+      "engEstUnit": 3500.0,
+      "lowUnit": 24200.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 24200.0,
+        "C. E. BARKER, LTD.": 14519.0,
+        "EARTH BUILDERS, L.P.": 25000.0,
+        "E-Z BEL CONSTRUCTION, LLC": 8000.0,
+        "FUQUA CONSTRUCTION CO., INC.": 8111.74,
+        "KNIFE RIVER CORPORATION - SOUTH": 2275.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 622.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 34.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 34.0,
+        "C. E. BARKER, LTD.": 24.51,
+        "EARTH BUILDERS, L.P.": 15.0,
+        "E-Z BEL CONSTRUCTION, LLC": 32.0,
+        "FUQUA CONSTRUCTION CO., INC.": 47.02,
+        "KNIFE RIVER CORPORATION - SOUTH": 33.29
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 1264.0,
+      "engEstUnit": 23.0,
+      "lowUnit": 21.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 21.0,
+        "C. E. BARKER, LTD.": 42.2,
+        "EARTH BUILDERS, L.P.": 15.0,
+        "E-Z BEL CONSTRUCTION, LLC": 30.0,
+        "FUQUA CONSTRUCTION CO., INC.": 80.09,
+        "KNIFE RIVER CORPORATION - SOUTH": 20.12
+      }
+    },
+    {
+      "itemCode": "0132 6005",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 5516.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 48.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 48.0,
+        "C. E. BARKER, LTD.": 55.95,
+        "EARTH BUILDERS, L.P.": 45.0,
+        "E-Z BEL CONSTRUCTION, LLC": 35.0,
+        "FUQUA CONSTRUCTION CO., INC.": 15.53,
+        "KNIFE RIVER CORPORATION - SOUTH": 25.0
+      }
+    },
+    {
+      "itemCode": "0150 6002",
+      "description": "BLADING",
+      "unit": "HR",
+      "quantity": 32.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 100.0,
+        "C. E. BARKER, LTD.": 140.36,
+        "EARTH BUILDERS, L.P.": 125.0,
+        "E-Z BEL CONSTRUCTION, LLC": 60.0,
+        "FUQUA CONSTRUCTION CO., INC.": 174.85,
+        "KNIFE RIVER CORPORATION - SOUTH": 145.0
+      }
+    },
+    {
+      "itemCode": "0164 6003",
+      "description": "BROADCAST SEED (PERM) (RURAL) (CLAY)",
+      "unit": "SY",
+      "quantity": 6616.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 0.6,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.6,
+        "C. E. BARKER, LTD.": 0.81,
+        "EARTH BUILDERS, L.P.": 0.7,
+        "E-Z BEL CONSTRUCTION, LLC": 0.35,
+        "FUQUA CONSTRUCTION CO., INC.": 1.21,
+        "KNIFE RIVER CORPORATION - SOUTH": 1.11
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 1654.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 0.95,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.95,
+        "C. E. BARKER, LTD.": 3.68,
+        "EARTH BUILDERS, L.P.": 1.2,
+        "E-Z BEL CONSTRUCTION, LLC": 0.35,
+        "FUQUA CONSTRUCTION CO., INC.": 5.76,
+        "KNIFE RIVER CORPORATION - SOUTH": 1.11
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 1654.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 0.95,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.95,
+        "C. E. BARKER, LTD.": 1.08,
+        "EARTH BUILDERS, L.P.": 1.2,
+        "E-Z BEL CONSTRUCTION, LLC": 0.35,
+        "FUQUA CONSTRUCTION CO., INC.": 2.17,
+        "KNIFE RIVER CORPORATION - SOUTH": 1.11
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 130.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 25.0,
+        "C. E. BARKER, LTD.": 189.5,
+        "EARTH BUILDERS, L.P.": 50.0,
+        "E-Z BEL CONSTRUCTION, LLC": 75.0,
+        "FUQUA CONSTRUCTION CO., INC.": 221.49,
+        "KNIFE RIVER CORPORATION - SOUTH": 37.9
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 106.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 200.0,
+        "C. E. BARKER, LTD.": 48.73,
+        "EARTH BUILDERS, L.P.": 250.0,
+        "E-Z BEL CONSTRUCTION, LLC": 400.0,
+        "FUQUA CONSTRUCTION CO., INC.": 415.35,
+        "KNIFE RIVER CORPORATION - SOUTH": 240.2
+      }
+    },
+    {
+      "itemCode": "0416 6002",
+      "description": "DRILL SHAFT (24 IN)",
+      "unit": "LF",
+      "quantity": 588.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 214.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 214.0,
+        "C. E. BARKER, LTD.": 224.7,
+        "EARTH BUILDERS, L.P.": 250.0,
+        "E-Z BEL CONSTRUCTION, LLC": 202.0,
+        "FUQUA CONSTRUCTION CO., INC.": 331.33,
+        "KNIFE RIVER CORPORATION - SOUTH": 220.65
+      }
+    },
+    {
+      "itemCode": "0416 6004",
+      "description": "DRILL SHAFT (36 IN)",
+      "unit": "LF",
+      "quantity": 1431.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 485.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 485.0,
+        "C. E. BARKER, LTD.": 438.97,
+        "EARTH BUILDERS, L.P.": 485.0,
+        "E-Z BEL CONSTRUCTION, LLC": 482.0,
+        "FUQUA CONSTRUCTION CO., INC.": 463.87,
+        "KNIFE RIVER CORPORATION - SOUTH": 2275.6
+      }
+    },
+    {
+      "itemCode": "0422 6001",
+      "description": "REINF CONC SLAB",
+      "unit": "SF",
+      "quantity": 10790.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 32.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 32.0,
+        "C. E. BARKER, LTD.": 31.15,
+        "EARTH BUILDERS, L.P.": 26.0,
+        "E-Z BEL CONSTRUCTION, LLC": 27.5,
+        "FUQUA CONSTRUCTION CO., INC.": 42.81,
+        "KNIFE RIVER CORPORATION - SOUTH": 35.8
+      }
+    },
+    {
+      "itemCode": "0422 6007",
+      "description": "REINF CONC SLAB (SLAB BEAM)",
+      "unit": "SF",
+      "quantity": 2600.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 55.0,
+        "C. E. BARKER, LTD.": 26.17,
+        "EARTH BUILDERS, L.P.": 20.0,
+        "E-Z BEL CONSTRUCTION, LLC": 28.0,
+        "FUQUA CONSTRUCTION CO., INC.": 38.41,
+        "KNIFE RIVER CORPORATION - SOUTH": 29.84
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 1049.0,
+      "engEstUnit": 185.0,
+      "lowUnit": 180.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 180.0,
+        "C. E. BARKER, LTD.": 213.32,
+        "EARTH BUILDERS, L.P.": 250.0,
+        "E-Z BEL CONSTRUCTION, LLC": 300.0,
+        "FUQUA CONSTRUCTION CO., INC.": 350.01,
+        "KNIFE RIVER CORPORATION - SOUTH": 227.9
+      }
+    },
+    {
+      "itemCode": "0454 6004",
+      "description": "ARMOR JOINT (SEALED)",
+      "unit": "LF",
+      "quantity": 112.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 165.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 165.0,
+        "C. E. BARKER, LTD.": 88.79,
+        "EARTH BUILDERS, L.P.": 150.0,
+        "E-Z BEL CONSTRUCTION, LLC": 230.0,
+        "FUQUA CONSTRUCTION CO., INC.": 227.96,
+        "KNIFE RIVER CORPORATION - SOUTH": 147.5
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 35000.0,
+      "lowUnit": 34000.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 34000.0,
+        "C. E. BARKER, LTD.": 40065.08,
+        "EARTH BUILDERS, L.P.": 65000.0,
+        "E-Z BEL CONSTRUCTION, LLC": 40000.0,
+        "FUQUA CONSTRUCTION CO., INC.": 54254.17,
+        "KNIFE RIVER CORPORATION - SOUTH": 17000.0
+      }
+    },
+    {
+      "itemCode": "0496 6010",
+      "description": "REMOV STR (BRIDGE 100 - 499 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 150000.0,
+      "lowUnit": 95000.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 95000.0,
+        "C. E. BARKER, LTD.": 142755.86,
+        "EARTH BUILDERS, L.P.": 250000.0,
+        "E-Z BEL CONSTRUCTION, LLC": 125000.0,
+        "FUQUA CONSTRUCTION CO., INC.": 218134.91,
+        "KNIFE RIVER CORPORATION - SOUTH": 112800.0
+      }
+    },
+    {
+      "itemCode": "0496 6043",
+      "description": "REMOV STR (SMALL FENCE)",
+      "unit": "LF",
+      "quantity": 434.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 4.0,
+        "C. E. BARKER, LTD.": 7.04,
+        "EARTH BUILDERS, L.P.": 5.0,
+        "E-Z BEL CONSTRUCTION, LLC": 5.0,
+        "FUQUA CONSTRUCTION CO., INC.": 10.97,
+        "KNIFE RIVER CORPORATION - SOUTH": 8.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 295000.0,
+      "lowUnit": 400000.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 400000.0,
+        "C. E. BARKER, LTD.": 390000.0,
+        "EARTH BUILDERS, L.P.": 420000.0,
+        "E-Z BEL CONSTRUCTION, LLC": 300000.0,
+        "FUQUA CONSTRUCTION CO., INC.": 863000.84,
+        "KNIFE RIVER CORPORATION - SOUTH": 577000.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 125.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 5.0,
+        "C. E. BARKER, LTD.": 5.41,
+        "EARTH BUILDERS, L.P.": 4.0,
+        "E-Z BEL CONSTRUCTION, LLC": 1660.0,
+        "FUQUA CONSTRUCTION CO., INC.": 6.56,
+        "KNIFE RIVER CORPORATION - SOUTH": 6.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 3000.0,
+        "C. E. BARKER, LTD.": 3194.38,
+        "EARTH BUILDERS, L.P.": 3200.0,
+        "E-Z BEL CONSTRUCTION, LLC": 2801.0,
+        "FUQUA CONSTRUCTION CO., INC.": 4953.84,
+        "KNIFE RIVER CORPORATION - SOUTH": 3277.75
+      }
+    },
+    {
+      "itemCode": "0552 6001",
+      "description": "WIRE FENCE (TY A)",
+      "unit": "LF",
+      "quantity": 1443.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 10.0,
+        "C. E. BARKER, LTD.": 21.66,
+        "EARTH BUILDERS, L.P.": 15.0,
+        "E-Z BEL CONSTRUCTION, LLC": 25.0,
+        "FUQUA CONSTRUCTION CO., INC.": 35.28,
+        "KNIFE RIVER CORPORATION - SOUTH": 16.7
+      }
+    },
+    {
+      "itemCode": "0552 6003",
+      "description": "WIRE FENCE (TY C)",
+      "unit": "LF",
+      "quantity": 91.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 15.0,
+        "C. E. BARKER, LTD.": 27.07,
+        "EARTH BUILDERS, L.P.": 15.0,
+        "E-Z BEL CONSTRUCTION, LLC": 22.0,
+        "FUQUA CONSTRUCTION CO., INC.": 43.38,
+        "KNIFE RIVER CORPORATION - SOUTH": 16.7
+      }
+    },
+    {
+      "itemCode": "0552 6005",
+      "description": "GATE (TY 1)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2700.0,
+      "lowUnit": 750.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 750.0,
+        "C. E. BARKER, LTD.": 1082.84,
+        "EARTH BUILDERS, L.P.": 1800.0,
+        "E-Z BEL CONSTRUCTION, LLC": 5000.0,
+        "FUQUA CONSTRUCTION CO., INC.": 1376.93,
+        "KNIFE RIVER CORPORATION - SOUTH": 3400.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 25.0,
+        "C. E. BARKER, LTD.": 27.07,
+        "EARTH BUILDERS, L.P.": 20.0,
+        "E-Z BEL CONSTRUCTION, LLC": 22.0,
+        "FUQUA CONSTRUCTION CO., INC.": 58.67,
+        "KNIFE RIVER CORPORATION - SOUTH": 28.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 35.0,
+        "C. E. BARKER, LTD.": 37.9,
+        "EARTH BUILDERS, L.P.": 20.0,
+        "E-Z BEL CONSTRUCTION, LLC": 36.0,
+        "FUQUA CONSTRUCTION CO., INC.": 66.32,
+        "KNIFE RIVER CORPORATION - SOUTH": 39.0
+      }
+    },
+    {
+      "itemCode": "4021 6001",
+      "description": "TIP TESTING(DRILL SHAFT)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 4400.0,
+      "lowUnit": 7000.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 7000.0,
+        "C. E. BARKER, LTD.": 5414.2,
+        "EARTH BUILDERS, L.P.": 7500.0,
+        "E-Z BEL CONSTRUCTION, LLC": 500.0,
+        "FUQUA CONSTRUCTION CO., INC.": 6037.5,
+        "KNIFE RIVER CORPORATION - SOUTH": 7777.0
+      }
+    }
+  ]
+}

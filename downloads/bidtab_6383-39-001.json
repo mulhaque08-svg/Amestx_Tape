@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6383-39-001",
+    "county": "Sabine",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638339001",
+    "projectType": "HYDRAULIC CEMENT",
+    "letDate": "06/15/21",
+    "engEstTotal": 68000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AKA-MATERIALS",
+      "totalBidAmount": 59920.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "KLP COMMERCIAL, L.L.C.",
+      "totalBidAmount": 63600.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 115600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8012 6018",
+      "description": "HYDRAULIC CEMENT(TY I)(47LB)",
+      "unit": "BAG",
+      "quantity": 8000.0,
+      "engEstUnit": 8.5,
+      "lowUnit": 7.49,
+      "bidders": {
+        "AKA-MATERIALS": 7.49,
+        "KLP COMMERCIAL, L.L.C.": 7.95,
+        "DIGG COMMERCIAL, LLC": 14.45
+      }
+    }
+  ]
+}

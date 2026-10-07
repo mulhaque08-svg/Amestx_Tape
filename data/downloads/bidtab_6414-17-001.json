@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6414-17-001",
+    "county": "Victoria",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641417001",
+    "projectType": "TRAFFIC CONTROL SERVICES",
+    "letDate": "06/05/24",
+    "engEstTotal": 1595000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ROSS SA ENTERPRISE LLC",
+      "totalBidAmount": 1373600.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "JCW CONSTRUCTION, LLC",
+      "totalBidAmount": 1453100.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "RHINO EQUITY, LLC",
+      "totalBidAmount": 1508600.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "FC TRAFFIC CONTROL, INC.",
+      "totalBidAmount": 1961000.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "BARRICADES UNLIMITED",
+      "totalBidAmount": 2514000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0510 6001",
+      "description": "ONE-WAY TRAF CONT (FLAGGER CONT)",
+      "unit": "HR",
+      "quantity": 200.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 18.0,
+      "bidders": {
+        "ROSS SA ENTERPRISE LLC": 18.0,
+        "JCW CONSTRUCTION, LLC": 15.0,
+        "RHINO EQUITY, LLC": 18.0,
+        "FC TRAFFIC CONTROL, INC.": 30.0,
+        "BARRICADES UNLIMITED": 120.0
+      }
+    },
+    {
+      "itemCode": "0510 6002",
+      "description": "ONE-WAY TRAF CONT (PILOT CAR)",
+      "unit": "HR",
+      "quantity": 10000.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "ROSS SA ENTERPRISE LLC": 20.0,
+        "JCW CONSTRUCTION, LLC": 75.0,
+        "RHINO EQUITY, LLC": 80.0,
+        "FC TRAFFIC CONTROL, INC.": 125.0,
+        "BARRICADES UNLIMITED": 135.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6379-07-001",
+    "county": "Karnes",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637907001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "04/13/21",
+    "engEstTotal": 245000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 137865.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "AUSTIN MATERIALS, LLC",
+      "totalBidAmount": 252000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 294000.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 358750.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6078",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 1)",
+      "unit": "TON",
+      "quantity": 3500.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 17.41,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 17.41,
+        "AUSTIN MATERIALS, LLC": 30.75,
+        "DIGG COMMERCIAL, LLC": 42.0,
+        "MARTIN MARIETTA MATERIALS, INC.": 53.5
+      }
+    },
+    {
+      "itemCode": "8007 6079",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 2)",
+      "unit": "TON",
+      "quantity": 3500.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 21.98,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 21.98,
+        "AUSTIN MATERIALS, LLC": 41.25,
+        "DIGG COMMERCIAL, LLC": 42.0,
+        "MARTIN MARIETTA MATERIALS, INC.": 49.0
+      }
+    }
+  ]
+}

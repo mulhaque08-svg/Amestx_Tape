@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "csj": "6398-15-001",
+    "county": "San Patricio",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639815001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "03/22/22",
+    "engEstTotal": 289000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 255000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 302855.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 343145.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 393125.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 403750.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6078",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 1)",
+      "unit": "TON",
+      "quantity": 8500.0,
+      "engEstUnit": 34.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 30.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 35.63,
+        "MARTIN MARIETTA MATERIALS, INC.": 40.37,
+        "COLORADO MATERIALS, LTD.": 46.25,
+        "TOUCHSTONE RESOURCES, LLC": 47.5
+      }
+    }
+  ]
+}

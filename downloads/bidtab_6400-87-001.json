@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "csj": "6400-87-001",
+    "county": "Kaufman",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640087001",
+    "projectType": "FULL DEPTH CONCRETE REPAIR",
+    "letDate": "09/07/22",
+    "engEstTotal": 343650.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "O. TREVINO CONSTRUCTION, LLC",
+      "totalBidAmount": 416550.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 494500.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ROY JORGENSEN ASSOCIATES, INC.",
+      "totalBidAmount": 518700.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "GIBSON & ASSOCIATES, INC.",
+      "totalBidAmount": 566650.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "SELECT MAINTENANCE, L.L.C.",
+      "totalBidAmount": 992000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0361 6084",
+      "description": "FULL DEPTH REPAIR CPCD (8\"-10\"",
+      "unit": "SY",
+      "quantity": 1500.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 209.0,
+      "bidders": {
+        "O. TREVINO CONSTRUCTION, LLC": 209.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 230.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 205.0,
+        "GIBSON & ASSOCIATES, INC.": 296.0,
+        "SELECT MAINTENANCE, L.L.C.": 515.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 50000.0,
+      "lowUnit": 40000.0,
+      "bidders": {
+        "O. TREVINO CONSTRUCTION, LLC": 40000.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 30000.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 50000.0,
+        "GIBSON & ASSOCIATES, INC.": 52800.0,
+        "SELECT MAINTENANCE, L.L.C.": 90000.0
+      }
+    },
+    {
+      "itemCode": "0720 6003",
+      "description": "SPALLING REPAIR (POLYMERIC) (SEMIRIGID)",
+      "unit": "GAL",
+      "quantity": 350.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 53.0,
+      "bidders": {
+        "O. TREVINO CONSTRUCTION, LLC": 53.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 70.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 60.0,
+        "GIBSON & ASSOCIATES, INC.": 61.0,
+        "SELECT MAINTENANCE, L.L.C.": 100.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 200.0,
+      "engEstUnit": 62.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "O. TREVINO CONSTRUCTION, LLC": 80.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 200.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 1.0,
+        "GIBSON & ASSOCIATES, INC.": 20.0,
+        "SELECT MAINTENANCE, L.L.C.": 65.0
+      }
+    }
+  ]
+}

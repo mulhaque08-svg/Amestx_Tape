@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6448-37-001",
+    "county": "Ellis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644837001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "01/05/24",
+    "engEstTotal": 1750650.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CEN-TEX IRRIGATION SYSTEMS, INC.",
+      "totalBidAmount": 1257421.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DCC CONSTRUCTION AND SERVICES, L.L.C.",
+      "totalBidAmount": 1282390.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 1588980.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 159150.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 130000.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 300000.0
+      }
+    },
+    {
+      "itemCode": "0730 6104",
+      "description": "FULL-WIDTH MOWING (RURAL)",
+      "unit": "AC",
+      "quantity": 1578.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 61.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 61.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 80.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 90.0
+      }
+    },
+    {
+      "itemCode": "0730 6105",
+      "description": "FULL-WIDTH MOWING (URBAN)",
+      "unit": "AC",
+      "quantity": 10725.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 75.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 67.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 84.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 12303.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 29.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 29.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 25.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 20.0
+      }
+    }
+  ]
+}

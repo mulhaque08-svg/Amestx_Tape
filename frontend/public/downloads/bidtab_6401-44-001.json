@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "csj": "6401-44-001",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640144001",
+    "projectType": "STORM SEWER SYSTEM CLEANING",
+    "letDate": "07/12/22",
+    "engEstTotal": 286869.42,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 302882.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 596.6,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 2500.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 893.12,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 2500.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 7.0,
+      "engEstUnit": 77.63,
+      "lowUnit": 10.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 10.0
+      }
+    },
+    {
+      "itemCode": "7019 6001",
+      "description": "STORM SEWER (TELEVISION INSPECTION)",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 4.87,
+      "lowUnit": 5.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 5.0
+      }
+    }
+  ]
+}

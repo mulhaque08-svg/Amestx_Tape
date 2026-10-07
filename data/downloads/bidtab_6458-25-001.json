@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6458-25-001",
+    "county": "Lamar",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645825001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/21/23",
+    "engEstTotal": 267636.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RICKEY BAIRD",
+      "totalBidAmount": 250691.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 348950.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "RICKEY BAIRD": 1.0,
+        "ANTHONY SERVICES": 3000.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6774.0,
+      "engEstUnit": 39.0,
+      "lowUnit": 37.0,
+      "bidders": {
+        "RICKEY BAIRD": 37.0,
+        "ANTHONY SERVICES": 50.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 39.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "RICKEY BAIRD": 1.0,
+        "ANTHONY SERVICES": 25.0
+      }
+    }
+  ]
+}

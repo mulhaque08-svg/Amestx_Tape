@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6464-22-001",
+    "county": "Parker",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646422001",
+    "projectType": "WINTER WEATHER MATERIAL",
+    "letDate": "03/21/24",
+    "engEstTotal": 36960.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "NSG LOGISTICS, LLC",
+      "totalBidAmount": 41397.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SOUTHWEST ENVIROTX PARTNERS, LLC",
+      "totalBidAmount": 57000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8042 6116",
+      "description": "TYPE II BRINE SALT (DEL)(SITE 1)",
+      "unit": "TON",
+      "quantity": 300.0,
+      "engEstUnit": 123.2,
+      "lowUnit": 137.99,
+      "bidders": {
+        "NSG LOGISTICS, LLC": 137.99,
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 190.0
+      }
+    }
+  ]
+}

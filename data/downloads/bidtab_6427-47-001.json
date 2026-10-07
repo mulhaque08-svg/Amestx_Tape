@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6427-47-001",
+    "county": "Taylor",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642747001",
+    "projectType": "CULVERT CLEANING",
+    "letDate": "11/01/23",
+    "engEstTotal": 760700.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "STX CIVIL",
+      "totalBidAmount": 710250.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "AAD CONTRACTING INC.",
+      "totalBidAmount": 844900.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "E.V.G. ENTERPRISE",
+      "totalBidAmount": 910106.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "HJC FARMS, INC.",
+      "totalBidAmount": 923300.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 1037715.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 1345000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0480 6001",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "EA",
+      "quantity": 72.0,
+      "engEstUnit": 8400.0,
+      "lowUnit": 7350.0,
+      "bidders": {
+        "STX CIVIL": 7350.0,
+        "AAD CONTRACTING INC.": 8000.0,
+        "E.V.G. ENTERPRISE": 7500.0,
+        "HJC FARMS, INC.": 12000.0,
+        "ICOS MANAGEMENT, LLC": 13200.0,
+        "FNH CONSTRUCTION, LLC": 13500.0
+      }
+    },
+    {
+      "itemCode": "0752 6004",
+      "description": "TREE TRIMMING / BRUSH REMOVAL(CHANNELS)",
+      "unit": "AC",
+      "quantity": 4.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 3500.0,
+      "bidders": {
+        "STX CIVIL": 3500.0,
+        "AAD CONTRACTING INC.": 10000.0,
+        "E.V.G. ENTERPRISE": 12000.0,
+        "HJC FARMS, INC.": 2500.0,
+        "ICOS MANAGEMENT, LLC": 5500.0,
+        "FNH CONSTRUCTION, LLC": 25000.0
+      }
+    }
+  ]
+}

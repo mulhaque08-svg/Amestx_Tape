@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6418-39-001",
+    "county": "Real",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641839001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "10/10/22",
+    "engEstTotal": 202844.68,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 241343.22
+    },
+    {
+      "rank": 2,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 304470.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6766.0,
+      "engEstUnit": 29.98,
+      "lowUnit": 35.67,
+      "bidders": {
+        "R&M INCORPORATED": 35.67,
+        "ABESCAPE GROUP LLC": 45.0
+      }
+    }
+  ]
+}

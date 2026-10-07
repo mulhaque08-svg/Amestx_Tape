@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "csj": "6461-96-001",
+    "county": "Presidio",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646196001",
+    "projectType": "PICNIC AREA MAINTENANCE",
+    "letDate": "03/14/24",
+    "engEstTotal": 80720.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "LUKEDA SANDBLASTING & SERVICES LLC",
+      "totalBidAmount": 54321.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "C&C SOSA COMPANY, LLC",
+      "totalBidAmount": 69601.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "LUKEDA SANDBLASTING & SERVICES LLC": 1.0,
+        "C&C SOSA COMPANY, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 500.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "LUKEDA SANDBLASTING & SERVICES LLC": 3.0,
+        "C&C SOSA COMPANY, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0734 6002",
+      "description": "LITTER REMOVAL",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 360.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "LUKEDA SANDBLASTING & SERVICES LLC": 10.0,
+        "C&C SOSA COMPANY, LLC": 166.667
+      }
+    },
+    {
+      "itemCode": "0745 6001",
+      "description": "JANITORIAL MAINT - PICNIC AREA-SITE (1)",
+      "unit": "CYC",
+      "quantity": 1.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "LUKEDA SANDBLASTING & SERVICES LLC": 500.0,
+        "C&C SOSA COMPANY, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0745 6031",
+      "description": "JANITORIAL MAINT - PICNIC AREA-SITE(1)",
+      "unit": "MO",
+      "quantity": 12.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "LUKEDA SANDBLASTING & SERVICES LLC": 3000.0,
+        "C&C SOSA COMPANY, LLC": 4416.667
+      }
+    },
+    {
+      "itemCode": "0745 6061",
+      "description": "GROUNDS MAINT (MOWING / TRIMMING)",
+      "unit": "CYC",
+      "quantity": 10.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "LUKEDA SANDBLASTING & SERVICES LLC": 20.0,
+        "C&C SOSA COMPANY, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0745 6154",
+      "description": "JANITORIAL MAINT (PICNIC AREAS)",
+      "unit": "CYC",
+      "quantity": 3.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "LUKEDA SANDBLASTING & SERVICES LLC": 1000.0,
+        "C&C SOSA COMPANY, LLC": 800.0
+      }
+    },
+    {
+      "itemCode": "0745 6155",
+      "description": "JANITORIAL MAINT (PICNIC AREAS)",
+      "unit": "MO",
+      "quantity": 9.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "LUKEDA SANDBLASTING & SERVICES LLC": 1000.0,
+        "C&C SOSA COMPANY, LLC": 800.0
+      }
+    },
+    {
+      "itemCode": "0764 6024",
+      "description": "CLEANING AND MAINTAINING SEPTIC TANKS",
+      "unit": "CYC",
+      "quantity": 20.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "LUKEDA SANDBLASTING & SERVICES LLC": 200.0,
+        "C&C SOSA COMPANY, LLC": 100.0
+      }
+    }
+  ]
+}

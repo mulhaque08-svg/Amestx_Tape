@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6444-98-001",
+    "county": "Milam",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644498001",
+    "projectType": "PICNIC AREA MAINTENANCE",
+    "letDate": "06/14/23",
+    "engEstTotal": 44650.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ABOVE ALL CONSTRUCTION",
+      "totalBidAmount": 55759.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0745 6061",
+      "description": "GROUNDS MAINT (MOWING / TRIMMING)",
+      "unit": "CYC",
+      "quantity": 15.0,
+      "engEstUnit": 550.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ABOVE ALL CONSTRUCTION": 1.0
+      }
+    },
+    {
+      "itemCode": "0745 6154",
+      "description": "JANITORIAL MAINT (PICNIC AREAS)",
+      "unit": "CYC",
+      "quantity": 104.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 536.0,
+      "bidders": {
+        "ABOVE ALL CONSTRUCTION": 536.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "csj": "6423-38-001",
+    "county": "Bandera",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642338001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "01/06/23",
+    "engEstTotal": 444200.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "USA DT SERVICES, INC.",
+      "totalBidAmount": 398370.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "AAD CONTRACTING INC.",
+      "totalBidAmount": 460080.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "BK FIELD OPERATIONS LLC",
+      "totalBidAmount": 550271.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 857500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "USA DT SERVICES, INC.": 0.01,
+        "AAD CONTRACTING INC.": 1185.0,
+        "BK FIELD OPERATIONS LLC": 0.1,
+        "CROSS PLUS CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1260.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 42.0,
+      "bidders": {
+        "USA DT SERVICES, INC.": 42.0,
+        "AAD CONTRACTING INC.": 30.0,
+        "BK FIELD OPERATIONS LLC": 49.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 9690.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "USA DT SERVICES, INC.": 35.0,
+        "AAD CONTRACTING INC.": 37.0,
+        "BK FIELD OPERATIONS LLC": 50.4,
+        "CROSS PLUS CONSTRUCTION, LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 150.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 42.0,
+      "bidders": {
+        "USA DT SERVICES, INC.": 42.0,
+        "AAD CONTRACTING INC.": 30.0,
+        "BK FIELD OPERATIONS LLC": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 75.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6373-16-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637316001",
+    "projectType": "VEGETATION MANAGEMENT",
+    "letDate": "01/07/21",
+    "engEstTotal": 448730.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CEN-TEX IRRIGATION SYSTEMS, INC.",
+      "totalBidAmount": 567526.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "JASCO",
+      "totalBidAmount": 573330.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 4000.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 4000.0,
+        "JASCO": 10000.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 30.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 68.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 68.0,
+        "JASCO": 65.0
+      }
+    },
+    {
+      "itemCode": "0730 6105",
+      "description": "FULL-WIDTH MOWING (URBAN)",
+      "unit": "AC",
+      "quantity": 3282.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 68.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 68.0,
+        "JASCO": 65.0
+      }
+    },
+    {
+      "itemCode": "0731 6006",
+      "description": "BROADCAST APPLICATION",
+      "unit": "MI",
+      "quantity": 176.0,
+      "engEstUnit": 575.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 800.0,
+        "JASCO": 700.0
+      }
+    },
+    {
+      "itemCode": "0731 6007",
+      "description": "PAVEMENT EDGES, STRUCTURES & FIXTURES",
+      "unit": "MI",
+      "quantity": 329.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 600.0,
+        "JASCO": 650.0
+      }
+    }
+  ]
+}

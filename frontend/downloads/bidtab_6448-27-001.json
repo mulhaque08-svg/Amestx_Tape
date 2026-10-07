@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6448-27-001",
+    "county": "Ellis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644827001",
+    "projectType": "VEGETATION MANAGEMENT",
+    "letDate": "03/05/24",
+    "engEstTotal": 382668.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JASCO",
+      "totalBidAmount": 339430.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "OPTERRA SOLUTIONS, INC.",
+      "totalBidAmount": 450350.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 34788.0,
+      "lowUnit": 50000.0,
+      "bidders": {
+        "JASCO": 50000.0,
+        "OPTERRA SOLUTIONS, INC.": 40000.0
+      }
+    },
+    {
+      "itemCode": "0731 6006",
+      "description": "BROADCAST APPLICATION",
+      "unit": "MI",
+      "quantity": 144.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "JASCO": 1000.0,
+        "OPTERRA SOLUTIONS, INC.": 1950.0
+      }
+    },
+    {
+      "itemCode": "0731 6007",
+      "description": "PAVEMENT EDGES, STRUCTURES & FIXTURES",
+      "unit": "MI",
+      "quantity": 144.0,
+      "engEstUnit": 870.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "JASCO": 1000.0,
+        "OPTERRA SOLUTIONS, INC.": 850.0
+      }
+    }
+  ]
+}

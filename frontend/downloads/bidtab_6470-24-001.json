@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "csj": "6470-24-001",
+    "county": "Brown",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 647024001",
+    "projectType": "RAISED PAVEMENT MARKERS",
+    "letDate": "08/22/24",
+    "engEstTotal": 564505.04,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRP INFRASTRUCTURE SERVICES, LLC",
+      "totalBidAmount": 428950.8
+    },
+    {
+      "rank": 2,
+      "vendorName": "FC TRAFFIC CONTROL, INC.",
+      "totalBidAmount": 429263.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "STRIPE-A-ZONE, LLC",
+      "totalBidAmount": 542728.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 51318.64,
+      "lowUnit": 25000.0,
+      "bidders": {
+        "TRP INFRASTRUCTURE SERVICES, LLC": 25000.0,
+        "FC TRAFFIC CONTROL, INC.": 1.0,
+        "STRIPE-A-ZONE, LLC": 5500.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "TRP INFRASTRUCTURE SERVICES, LLC": 5000.0,
+        "FC TRAFFIC CONTROL, INC.": 1.0,
+        "STRIPE-A-ZONE, LLC": 2500.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 10000.0,
+      "engEstUnit": 7.31,
+      "lowUnit": 4.39,
+      "bidders": {
+        "TRP INFRASTRUCTURE SERVICES, LLC": 4.39,
+        "FC TRAFFIC CONTROL, INC.": 5.0,
+        "STRIPE-A-ZONE, LLC": 5.4
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 77680.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.39,
+      "bidders": {
+        "TRP INFRASTRUCTURE SERVICES, LLC": 4.39,
+        "FC TRAFFIC CONTROL, INC.": 4.75,
+        "STRIPE-A-ZONE, LLC": 5.6
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 2040.0,
+      "engEstUnit": 7.64,
+      "lowUnit": 4.39,
+      "bidders": {
+        "TRP INFRASTRUCTURE SERVICES, LLC": 4.39,
+        "FC TRAFFIC CONTROL, INC.": 5.0,
+        "STRIPE-A-ZONE, LLC": 5.5
+      }
+    }
+  ]
+}

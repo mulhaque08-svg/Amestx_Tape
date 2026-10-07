@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6390-76-001",
+    "county": "Childress",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639076001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/04/22",
+    "engEstTotal": 603330.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BERT WHITAKER",
+      "totalBidAmount": 664981.2
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS BLACKTOPS LLC",
+      "totalBidAmount": 872040.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 912600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 20280.0,
+      "engEstUnit": 29.75,
+      "lowUnit": 32.79,
+      "bidders": {
+        "BERT WHITAKER": 32.79,
+        "TEXAS BLACKTOPS LLC": 43.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 45.0
+      }
+    }
+  ]
+}

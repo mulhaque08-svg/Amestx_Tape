@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6464-64-001",
+    "county": "Runnels",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646464001",
+    "projectType": "SMALL SIGN MAINTENANCE",
+    "letDate": "05/07/24",
+    "engEstTotal": 299900.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "E.V.G. ENTERPRISE",
+      "totalBidAmount": 229500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SYNERGY SIGNS & SERVICES LLC",
+      "totalBidAmount": 312370.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ODUM SERVICES, LLC",
+      "totalBidAmount": 326300.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "MARCOM'S MOWING SERVICE, LLC",
+      "totalBidAmount": 352300.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "HJC FARMS, INC.",
+      "totalBidAmount": 353200.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "E.V.G. ENTERPRISE": 10000.0,
+        "SYNERGY SIGNS & SERVICES LLC": 25000.0,
+        "ODUM SERVICES, LLC": 25000.0,
+        "MARCOM'S MOWING SERVICE, LLC": 50000.0,
+        "HJC FARMS, INC.": 20000.0
+      }
+    },
+    {
+      "itemCode": "0644 6068",
+      "description": "RELOCATE SM RD SN SUP&AM TY 10BWG",
+      "unit": "EA",
+      "quantity": 399.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 520.0,
+      "bidders": {
+        "E.V.G. ENTERPRISE": 520.0,
+        "SYNERGY SIGNS & SERVICES LLC": 630.0,
+        "ODUM SERVICES, LLC": 700.0,
+        "MARCOM'S MOWING SERVICE, LLC": 700.0,
+        "HJC FARMS, INC.": 800.0
+      }
+    }
+  ]
+}

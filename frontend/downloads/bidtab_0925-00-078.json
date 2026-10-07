@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "0925-00-078",
+    "county": "Childress",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 925-00-78",
+    "projectType": "STRIPING",
+    "letDate": "01/06/22",
+    "engEstTotal": 1062125.2,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS PANHANDLE CONSTRUCTION, INC.",
+      "totalBidAmount": 991061.27
+    },
+    {
+      "rank": 2,
+      "vendorName": "BARRICADES UNLIMITED",
+      "totalBidAmount": 1331267.94
+    },
+    {
+      "rank": 3,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 1396493.4
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "TEXAS PANHANDLE CONSTRUCTION, INC.": 1.0,
+        "BARRICADES UNLIMITED": 1.0,
+        "TRP CONSTRUCTION GROUP, LLC": 35000.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 11146.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 3.0,
+      "bidders": {
+        "TEXAS PANHANDLE CONSTRUCTION, INC.": 3.0,
+        "BARRICADES UNLIMITED": 3.05,
+        "TRP CONSTRUCTION GROUP, LLC": 2.95
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 77038.0,
+      "engEstUnit": 2.7,
+      "lowUnit": 3.0,
+      "bidders": {
+        "TEXAS PANHANDLE CONSTRUCTION, INC.": 3.0,
+        "BARRICADES UNLIMITED": 3.05,
+        "TRP CONSTRUCTION GROUP, LLC": 2.95
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 15487.0,
+      "engEstUnit": 2.75,
+      "lowUnit": 3.0,
+      "bidders": {
+        "TEXAS PANHANDLE CONSTRUCTION, INC.": 3.0,
+        "BARRICADES UNLIMITED": 3.05,
+        "TRP CONSTRUCTION GROUP, LLC": 3.0
+      }
+    }
+  ]
+}

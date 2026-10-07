@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6415-40-001",
+    "county": "San Jacinto",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641540001",
+    "projectType": "HYDRAULIC CEMENT",
+    "letDate": "08/24/22",
+    "engEstTotal": 61860.48,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AKA-MATERIALS",
+      "totalBidAmount": 61376.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 61804.8
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8012 6002",
+      "description": "HYDRAULIC CEMENT(TY I)(DEL)(SITE 2)",
+      "unit": "TON",
+      "quantity": 150.0,
+      "engEstUnit": 216.0,
+      "lowUnit": 224.0,
+      "bidders": {
+        "AKA-MATERIALS": 224.0,
+        "TOUCHSTONE RESOURCES, LLC": 240.0
+      }
+    },
+    {
+      "itemCode": "8012 6020",
+      "description": "HYDRAULIC CEMENT(TY I)(DEL)(47LBS)(ST1)",
+      "unit": "BAG",
+      "quantity": 3584.0,
+      "engEstUnit": 8.22,
+      "lowUnit": 7.75,
+      "bidders": {
+        "AKA-MATERIALS": 7.75,
+        "TOUCHSTONE RESOURCES, LLC": 7.2
+      }
+    }
+  ]
+}

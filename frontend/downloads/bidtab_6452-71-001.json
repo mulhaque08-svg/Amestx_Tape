@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "csj": "6452-71-001",
+    "county": "Bell",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645271001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "01/04/24",
+    "engEstTotal": 663698.28,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "T&L CLEANING SERVICES LLC",
+      "totalBidAmount": 802420.4
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 7259.48,
+      "engEstUnit": 60.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 80.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 120.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 80.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 8382.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 25.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 24.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 25.0
+      }
+    }
+  ]
+}

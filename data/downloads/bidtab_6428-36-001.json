@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "csj": "6428-36-001",
+    "county": "Wichita",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642836001",
+    "projectType": "DEBRIS REMOVAL",
+    "letDate": "02/01/23",
+    "engEstTotal": 409950.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 531600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0735 6002",
+      "description": "DEBRIS REMOVAL (CNTR MEDIANS/MAINLANES)",
+      "unit": "MI",
+      "quantity": 6180.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 60.0
+      }
+    },
+    {
+      "itemCode": "0735 6007",
+      "description": "DEBRIS REMOVAL (SPOT DEBRIS)",
+      "unit": "MI",
+      "quantity": 30.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 30.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0
+      }
+    }
+  ]
+}

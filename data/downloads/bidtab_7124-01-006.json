@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "7124-01-006",
+    "county": "Presidio",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2B23(122)",
+    "projectType": "CONSTRUCT TRADE PROCESSING CENTER",
+    "letDate": "03/05/24",
+    "engEstTotal": 26630754.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RELMCO, INC.",
+      "totalBidAmount": 27750000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "HUNTER INDUSTRIES, LTD.",
+      "totalBidAmount": 29904329.4
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 2383990.0,
+      "lowUnit": 2000000.0,
+      "bidders": {
+        "RELMCO, INC.": 2000000.0,
+        "HUNTER INDUSTRIES, LTD.": 2900000.0
+      }
+    },
+    {
+      "itemCode": "7342 6001",
+      "description": "FACILITY AND BUILDINGS AT RAIL CROSSING",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 24246764.0,
+      "lowUnit": 25750000.0,
+      "bidders": {
+        "RELMCO, INC.": 25750000.0,
+        "HUNTER INDUSTRIES, LTD.": 27004329.4
+      }
+    }
+  ]
+}

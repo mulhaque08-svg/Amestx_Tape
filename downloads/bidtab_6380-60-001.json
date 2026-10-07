@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6380-60-001",
+    "county": "Sutton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638060001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "11/09/21",
+    "engEstTotal": 215860.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SQUARE G, INC.",
+      "totalBidAmount": 197991.88
+    },
+    {
+      "rank": 2,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 226560.68
+    },
+    {
+      "rank": 3,
+      "vendorName": "DOUBLE A CONTRACTING, L.P.",
+      "totalBidAmount": 236468.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 259020.6
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 2052.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 28.41,
+      "bidders": {
+        "SQUARE G, INC.": 28.41,
+        "R&M INCORPORATED": 32.51,
+        "DOUBLE A CONTRACTING, L.P.": 31.0,
+        "ABESCAPE GROUP LLC": 27.35
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 4916.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 28.41,
+      "bidders": {
+        "SQUARE G, INC.": 28.41,
+        "R&M INCORPORATED": 32.51,
+        "DOUBLE A CONTRACTING, L.P.": 31.0,
+        "ABESCAPE GROUP LLC": 27.4
+      }
+    }
+  ]
+}

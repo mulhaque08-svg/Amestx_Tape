@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6388-08-001",
+    "county": "Ellis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638808001",
+    "projectType": "VEGETATION MANAGEMENT",
+    "letDate": "03/24/22",
+    "engEstTotal": 268730.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JASCO",
+      "totalBidAmount": 293930.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 317500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 24430.0,
+      "lowUnit": 22500.0,
+      "bidders": {
+        "JASCO": 22500.0,
+        "SHALOM SERVICES CORPORATION": 80000.0
+      }
+    },
+    {
+      "itemCode": "0731 6006",
+      "description": "BROADCAST APPLICATION",
+      "unit": "MI",
+      "quantity": 144.0,
+      "engEstUnit": 650.0,
+      "lowUnit": 950.0,
+      "bidders": {
+        "JASCO": 950.0,
+        "SHALOM SERVICES CORPORATION": 800.0
+      }
+    },
+    {
+      "itemCode": "0731 6007",
+      "description": "PAVEMENT EDGES, STRUCTURES & FIXTURES",
+      "unit": "MI",
+      "quantity": 144.0,
+      "engEstUnit": 550.0,
+      "lowUnit": 925.0,
+      "bidders": {
+        "JASCO": 925.0,
+        "SHALOM SERVICES CORPORATION": 750.0
+      }
+    }
+  ]
+}

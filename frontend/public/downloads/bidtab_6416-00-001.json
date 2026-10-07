@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "csj": "6416-00-001",
+    "county": "Hidalgo",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641600001",
+    "projectType": "EXPRESSWAY MOWING AND LITTER REMOVAL",
+    "letDate": "09/07/22",
+    "engEstTotal": 572073.2,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 680761.4
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 50000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "R&M INCORPORATED": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 652.56,
+      "engEstUnit": 40.0,
+      "lowUnit": 65.71,
+      "bidders": {
+        "R&M INCORPORATED": 65.71
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6852.24,
+      "engEstUnit": 45.0,
+      "lowUnit": 65.71,
+      "bidders": {
+        "R&M INCORPORATED": 65.71
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 7504.8,
+      "engEstUnit": 25.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "R&M INCORPORATED": 25.0
+      }
+    }
+  ]
+}

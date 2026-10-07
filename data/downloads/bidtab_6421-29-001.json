@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6421-29-001",
+    "county": "Young",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642129001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/16/23",
+    "engEstTotal": 241824.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRIPLE T MAINTENANCE INC.",
+      "totalBidAmount": 204152.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CEHAND SERVICES LLC",
+      "totalBidAmount": 226020.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 233915.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "RENEGADE SITE SOLUTIONS, LLC",
+      "totalBidAmount": 238178.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 250336.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1216.0,
+      "engEstUnit": 39.0,
+      "lowUnit": 32.0,
+      "bidders": {
+        "TRIPLE T MAINTENANCE INC.": 32.0,
+        "CEHAND SERVICES LLC": 30.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 39.65,
+        "RENEGADE SITE SOLUTIONS, LLC": 38.0,
+        "ANTHONY SERVICES": 46.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 4860.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 34.0,
+      "bidders": {
+        "TRIPLE T MAINTENANCE INC.": 34.0,
+        "CEHAND SERVICES LLC": 39.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 38.21,
+        "RENEGADE SITE SOLUTIONS, LLC": 39.5,
+        "ANTHONY SERVICES": 40.0
+      }
+    }
+  ]
+}

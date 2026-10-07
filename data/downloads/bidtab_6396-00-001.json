@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6396-00-001",
+    "county": "Jim Wells",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 639600001",
+    "projectType": "BRIDGE SUBSTRUCTURE REPAIR",
+    "letDate": "03/22/22",
+    "engEstTotal": 197150.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SCR CIVIL CONSTRUCTION, LLC",
+      "totalBidAmount": 185873.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "AAD CONTRACTING INC.",
+      "totalBidAmount": 237180.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "PENHALL COMPANY",
+      "totalBidAmount": 274255.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0429 6001",
+      "description": "CONC STR REPAIR(CLEAN & COAT WTH EPOXY)",
+      "unit": "SF",
+      "quantity": 541.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 253.0,
+      "bidders": {
+        "SCR CIVIL CONSTRUCTION, LLC": 253.0,
+        "AAD CONTRACTING INC.": 380.0,
+        "PENHALL COMPANY": 255.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 30000.0,
+      "lowUnit": 18500.0,
+      "bidders": {
+        "SCR CIVIL CONSTRUCTION, LLC": 18500.0,
+        "AAD CONTRACTING INC.": 8000.0,
+        "PENHALL COMPANY": 19700.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 120.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "SCR CIVIL CONSTRUCTION, LLC": 50.0,
+        "AAD CONTRACTING INC.": 50.0,
+        "PENHALL COMPANY": 115.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "csj": "6464-07-001",
+    "county": "Hopkins",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646407001",
+    "projectType": "TREE REMOVAL",
+    "letDate": "04/05/24",
+    "engEstTotal": 816750.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 591325.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ACE CONTRACTORS, INC.",
+      "totalBidAmount": 600250.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CATOCON, INC.",
+      "totalBidAmount": 682745.5
+    },
+    {
+      "rank": 4,
+      "vendorName": "RHINO EQUITY, LLC",
+      "totalBidAmount": 686027.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "ROAD SOLUTIONS L.L.C.",
+      "totalBidAmount": 714090.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 794025.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "EASTGATE SERVICES",
+      "totalBidAmount": 874250.0
+    },
+    {
+      "rank": 8,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 978202.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 60500.0,
+      "lowUnit": 58000.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 58000.0,
+        "ACE CONTRACTORS, INC.": 10000.0,
+        "CATOCON, INC.": 99000.0,
+        "RHINO EQUITY, LLC": 70000.0,
+        "ROAD SOLUTIONS L.L.C.": 35000.0,
+        "ICOS MANAGEMENT, LLC": 58000.0
+      }
+    },
+    {
+      "itemCode": "0752 6015",
+      "description": "TREE AND BRUSH REMOVAL",
+      "unit": "AC",
+      "quantity": 41.5,
+      "engEstUnit": 17500.0,
+      "lowUnit": 12750.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 12750.0,
+        "ACE CONTRACTORS, INC.": 13500.0,
+        "CATOCON, INC.": 13777.0,
+        "RHINO EQUITY, LLC": 14338.0,
+        "ROAD SOLUTIONS L.L.C.": 16000.0,
+        "ICOS MANAGEMENT, LLC": 15350.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "csj": "6421-22-001",
+    "county": "Pecos",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642122001",
+    "projectType": "SAND",
+    "letDate": "10/11/22",
+    "engEstTotal": 22750.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 19300.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "RK HALL, LLC",
+      "totalBidAmount": 22750.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 30400.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8029 6001",
+      "description": "CONCRETE SAND(DELIVERY)(SITE 1)",
+      "unit": "CY",
+      "quantity": 100.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 55.0,
+        "RK HALL, LLC": 58.0,
+        "DIGG COMMERCIAL, LLC": 62.0
+      }
+    },
+    {
+      "itemCode": "8029 6002",
+      "description": "CONCRETE SAND(DELIVERY)(SITE 2)",
+      "unit": "CY",
+      "quantity": 100.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 55.0,
+        "RK HALL, LLC": 58.0,
+        "DIGG COMMERCIAL, LLC": 77.0
+      }
+    },
+    {
+      "itemCode": "8029 6003",
+      "description": "CONCRETE SAND(DELIVERY)(SITE 3)",
+      "unit": "CY",
+      "quantity": 50.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 56.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 56.0,
+        "RK HALL, LLC": 84.0,
+        "DIGG COMMERCIAL, LLC": 120.0
+      }
+    },
+    {
+      "itemCode": "8029 6004",
+      "description": "CONCRETE SAND(DELIVERY)(SITE 4)",
+      "unit": "CY",
+      "quantity": 50.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 55.0,
+        "RK HALL, LLC": 63.0,
+        "DIGG COMMERCIAL, LLC": 113.0
+      }
+    },
+    {
+      "itemCode": "8029 6005",
+      "description": "CONCRETE SAND(DELIVERY)(SITE 5)",
+      "unit": "CY",
+      "quantity": 50.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 55.0,
+        "RK HALL, LLC": 76.0,
+        "DIGG COMMERCIAL, LLC": 97.0
+      }
+    }
+  ]
+}

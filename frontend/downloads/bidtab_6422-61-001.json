@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6422-61-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642261001",
+    "projectType": "HYDRAULIC CEMENT",
+    "letDate": "12/07/22",
+    "engEstTotal": 122000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AKA-MATERIALS",
+      "totalBidAmount": 124800.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "KLP COMMERCIAL, L.L.C.",
+      "totalBidAmount": 128500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8012 6028",
+      "description": "HYDRAULIC CEMENT(TYII)(DEL)(94LBS)(ST1)",
+      "unit": "BAG",
+      "quantity": 10000.0,
+      "engEstUnit": 12.2,
+      "lowUnit": 12.48,
+      "bidders": {
+        "AKA-MATERIALS": 12.48,
+        "KLP COMMERCIAL, L.L.C.": 12.85
+      }
+    }
+  ]
+}

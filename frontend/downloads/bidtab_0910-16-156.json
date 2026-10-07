@@ -1,0 +1,595 @@
+{
+  "metadata": {
+    "csj": "0910-16-156",
+    "county": "Smith",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2022(748)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "06/27/23",
+    "engEstTotal": 6215470.6,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BAKER & COMPANY CONSTRUCTION, LLC",
+      "totalBidAmount": 4280740.25
+    },
+    {
+      "rank": 2,
+      "vendorName": "TRUE ROADS CONSTRUCTION, LLC",
+      "totalBidAmount": 4389691.65
+    },
+    {
+      "rank": 3,
+      "vendorName": "HIGHWAY 19 CONSTRUCTION LLC",
+      "totalBidAmount": 5531855.5
+    },
+    {
+      "rank": 4,
+      "vendorName": "EAST TEXAS BRIDGE, INC.",
+      "totalBidAmount": 5657830.8
+    },
+    {
+      "rank": 5,
+      "vendorName": "HODGES AND SON CONSTRUCTION COMPANY, INC.",
+      "totalBidAmount": 5690074.8
+    },
+    {
+      "rank": 6,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 6209655.1
+    },
+    {
+      "rank": 7,
+      "vendorName": "ALTUS CONSTRUCTION LLC",
+      "totalBidAmount": 10801961.89
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 20.85,
+      "engEstUnit": 5000.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 5000.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 2050.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 5000.0,
+        "EAST TEXAS BRIDGE, INC.": 8500.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 5800.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 3850.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 601.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 19.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 19.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 18.5,
+        "HIGHWAY 19 CONSTRUCTION LLC": 25.0,
+        "EAST TEXAS BRIDGE, INC.": 25.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 20.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 33.0
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 1589.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 18.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 18.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 15.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 25.0,
+        "EAST TEXAS BRIDGE, INC.": 25.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 25.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 33.0
+      }
+    },
+    {
+      "itemCode": "0132 6005",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 1663.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 27.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 27.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 15.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 30.0,
+        "EAST TEXAS BRIDGE, INC.": 35.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 30.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 33.0
+      }
+    },
+    {
+      "itemCode": "0150 6001",
+      "description": "BLADING",
+      "unit": "STA",
+      "quantity": 3.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 2200.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 2200.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 900.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 2500.0,
+        "EAST TEXAS BRIDGE, INC.": 200.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 40.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 1100.0
+      }
+    },
+    {
+      "itemCode": "0160 6003",
+      "description": "FURNISHING AND PLACING TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 4892.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 9.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 9.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 6.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 5.0,
+        "EAST TEXAS BRIDGE, INC.": 5.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 6.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 13.2
+      }
+    },
+    {
+      "itemCode": "0164 6054",
+      "description": "BOND FBR MTRX SEED (PERM)(RURAL)(SAND)",
+      "unit": "SY",
+      "quantity": 4892.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.05,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 1.05,
+        "TRUE ROADS CONSTRUCTION, LLC": 2.2,
+        "HIGHWAY 19 CONSTRUCTION LLC": 5.0,
+        "EAST TEXAS BRIDGE, INC.": 2.25,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 2.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 3.3
+      }
+    },
+    {
+      "itemCode": "0164 6055",
+      "description": "BONDED FBR MTRX SEED (TEMP)(WARM)",
+      "unit": "SY",
+      "quantity": 2448.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 0.6,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 0.6,
+        "TRUE ROADS CONSTRUCTION, LLC": 2.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 1.0,
+        "EAST TEXAS BRIDGE, INC.": 1.85,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 2.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 3.3
+      }
+    },
+    {
+      "itemCode": "0164 6056",
+      "description": "BONDED FBR MTRX SEED (TEMP)(COOL)",
+      "unit": "SY",
+      "quantity": 2448.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 0.6,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 0.6,
+        "TRUE ROADS CONSTRUCTION, LLC": 2.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 1.0,
+        "EAST TEXAS BRIDGE, INC.": 1.85,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 2.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 3.3
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 110.8,
+      "engEstUnit": 60.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 100.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 1.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 100.0,
+        "EAST TEXAS BRIDGE, INC.": 20.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 110.0
+      }
+    },
+    {
+      "itemCode": "0251 6034",
+      "description": "REWORK BS MTL (TY C) (8\") (ORD COMP)",
+      "unit": "SY",
+      "quantity": 4765.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 8.5,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 8.5,
+        "TRUE ROADS CONSTRUCTION, LLC": 15.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 10.0,
+        "EAST TEXAS BRIDGE, INC.": 12.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 12.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 55.0
+      }
+    },
+    {
+      "itemCode": "0275 6001",
+      "description": "CEMENT",
+      "unit": "TON",
+      "quantity": 103.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 300.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 300.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 250.0,
+        "EAST TEXAS BRIDGE, INC.": 350.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 300.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 385.0
+      }
+    },
+    {
+      "itemCode": "0275 6011",
+      "description": "CEMENT TREAT(EXIST MATL)(8\")",
+      "unit": "SY",
+      "quantity": 4765.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 8.7,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 8.7,
+        "TRUE ROADS CONSTRUCTION, LLC": 15.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 10.0,
+        "EAST TEXAS BRIDGE, INC.": 12.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 15.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 5.5
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 287.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 316.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 316.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 355.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 280.0,
+        "EAST TEXAS BRIDGE, INC.": 325.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 300.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 247.5
+      }
+    },
+    {
+      "itemCode": "0407 6019",
+      "description": "SHEET PILING (PZC - 18)",
+      "unit": "SF",
+      "quantity": 4363.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 50.55,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 50.55,
+        "TRUE ROADS CONSTRUCTION, LLC": 77.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 180.0,
+        "EAST TEXAS BRIDGE, INC.": 150.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 90.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 99.0
+      }
+    },
+    {
+      "itemCode": "0416 6002",
+      "description": "DRILL SHAFT (24 IN)",
+      "unit": "LF",
+      "quantity": 582.0,
+      "engEstUnit": 280.0,
+      "lowUnit": 270.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 270.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 185.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 250.0,
+        "EAST TEXAS BRIDGE, INC.": 325.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 240.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 302.5
+      }
+    },
+    {
+      "itemCode": "0416 6004",
+      "description": "DRILL SHAFT (36 IN)",
+      "unit": "LF",
+      "quantity": 618.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 318.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 318.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 465.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 350.0,
+        "EAST TEXAS BRIDGE, INC.": 385.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 300.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 302.5
+      }
+    },
+    {
+      "itemCode": "0422 6001",
+      "description": "REINF CONC SLAB",
+      "unit": "SF",
+      "quantity": 5480.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 33.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 33.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 32.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 45.0,
+        "EAST TEXAS BRIDGE, INC.": 30.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 40.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 38.5
+      }
+    },
+    {
+      "itemCode": "0422 6007",
+      "description": "REINF CONC SLAB (SLAB BEAM)",
+      "unit": "SF",
+      "quantity": 4178.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 19.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 19.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 28.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 25.0,
+        "EAST TEXAS BRIDGE, INC.": 22.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 35.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 38.5
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 836.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 118.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 118.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 175.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 180.0,
+        "EAST TEXAS BRIDGE, INC.": 200.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 240.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 302.5
+      }
+    },
+    {
+      "itemCode": "0432 6034",
+      "description": "RIPRAP (STONE PROTECTION)(21 IN)",
+      "unit": "CY",
+      "quantity": 2510.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 118.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 118.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 170.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 180.0,
+        "EAST TEXAS BRIDGE, INC.": 200.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 280.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 302.5
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 76.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 604.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 604.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 590.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 550.0,
+        "EAST TEXAS BRIDGE, INC.": 750.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 600.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 550.0
+      }
+    },
+    {
+      "itemCode": "0454 6018",
+      "description": "SEALED EXPANSION JOINT (4 IN) (SEJ - M)",
+      "unit": "LF",
+      "quantity": 164.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 205.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 205.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 195.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 180.0,
+        "EAST TEXAS BRIDGE, INC.": 200.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 200.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 242.0
+      }
+    },
+    {
+      "itemCode": "0454 6021",
+      "description": "TYPE A JOINT",
+      "unit": "LF",
+      "quantity": 69.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 195.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 195.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 125.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 100.0,
+        "EAST TEXAS BRIDGE, INC.": 100.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 150.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 495.0
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 35000.0,
+      "lowUnit": 15700.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 15700.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 6500.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 20000.0,
+        "EAST TEXAS BRIDGE, INC.": 25000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 15000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 33000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 320124.6,
+      "lowUnit": 497610.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 497610.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 368000.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 600000.0,
+        "EAST TEXAS BRIDGE, INC.": 550000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 485000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 880000.0
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 42.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 110.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 110.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 115.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 150.0,
+        "EAST TEXAS BRIDGE, INC.": 75.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 75.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 71.5
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 2925.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 2925.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 3400.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 3575.0,
+        "EAST TEXAS BRIDGE, INC.": 3050.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 2800.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 3850.0
+      }
+    },
+    {
+      "itemCode": "0545 6007",
+      "description": "CRASH CUSH ATTEN (INSTL)(L)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 26000.0,
+      "lowUnit": 33000.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 33000.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 36000.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 29500.0,
+        "EAST TEXAS BRIDGE, INC.": 35000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 29000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 38500.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 368.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 368.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 100.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 100.0,
+        "EAST TEXAS BRIDGE, INC.": 100.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 50.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 110.0
+      }
+    },
+    {
+      "itemCode": "0658 6061",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2",
+      "unit": "EA",
+      "quantity": 64.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 26.25,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 26.25,
+        "TRUE ROADS CONSTRUCTION, LLC": 36.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 45.0,
+        "EAST TEXAS BRIDGE, INC.": 30.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 30.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 82.5
+      }
+    },
+    {
+      "itemCode": "3077 6011",
+      "description": "SP MIXES SP-C PG64-22",
+      "unit": "TON",
+      "quantity": 1572.0,
+      "engEstUnit": 145.0,
+      "lowUnit": 220.0,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 220.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 204.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 250.0,
+        "EAST TEXAS BRIDGE, INC.": 250.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 245.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 192.5
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 715.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 1.1,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 1.1,
+        "TRUE ROADS CONSTRUCTION, LLC": 12.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 3.0,
+        "EAST TEXAS BRIDGE, INC.": 10.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 5.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 11.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 84.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 93.5,
+      "bidders": {
+        "BAKER & COMPANY CONSTRUCTION, LLC": 93.5,
+        "TRUE ROADS CONSTRUCTION, LLC": 125.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 150.0,
+        "EAST TEXAS BRIDGE, INC.": 200.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 120.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 550.0
+      }
+    }
+  ]
+}

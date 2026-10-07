@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6391-56-001",
+    "county": "Austin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639156001",
+    "projectType": "HOT MIX",
+    "letDate": "03/08/22",
+    "engEstTotal": 296000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "QUALITY HOT MIX, INC.",
+      "totalBidAmount": 316000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "AMERICAN MATERIALS, INC.",
+      "totalBidAmount": 352000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6042",
+      "description": "D-GR HMA (SQ)(TY-D PG 64-22 SAC-B)(DEL)",
+      "unit": "TON",
+      "quantity": 4000.0,
+      "engEstUnit": 74.0,
+      "lowUnit": 79.0,
+      "bidders": {
+        "QUALITY HOT MIX, INC.": 79.0,
+        "AMERICAN MATERIALS, INC.": 88.0
+      }
+    }
+  ]
+}

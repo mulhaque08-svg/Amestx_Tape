@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "csj": "6406-16-001",
+    "county": "Burnet",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640616001",
+    "projectType": "CRACK SEAL",
+    "letDate": "07/23/24",
+    "engEstTotal": 117760.9,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FYL ENTERPRISES, LLC",
+      "totalBidAmount": 92295.39
+    },
+    {
+      "rank": 2,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 125919.14
+    },
+    {
+      "rank": 3,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 181012.3
+    },
+    {
+      "rank": 4,
+      "vendorName": "DOMINION ENGINEERING MANAGEMENT SERVICES (DEMS), LLC",
+      "totalBidAmount": 213939.2
+    },
+    {
+      "rank": 5,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 234027.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 8723.1,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "FYL ENTERPRISES, LLC": 15000.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 3000.0,
+        "ICOS MANAGEMENT, LLC": 10000.0,
+        "DOMINION ENGINEERING MANAGEMENT SERVICES (DEMS), LLC": 27000.0,
+        "D & M CONTRACTORS, LLC": 15000.0
+      }
+    }
+  ]
+}

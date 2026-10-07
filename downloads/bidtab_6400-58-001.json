@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6400-58-001",
+    "county": "Frio",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 640058001",
+    "projectType": "LIMESTONE ROCK ASPHALT",
+    "letDate": "04/20/22",
+    "engEstTotal": 244112.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 193902.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 221642.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "GM QUALITY CONSTRUCTION LLC",
+      "totalBidAmount": 474250.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8040 6016",
+      "description": "LRA (TY I GR AA) (DEL) (ST8)",
+      "unit": "TON",
+      "quantity": 550.0,
+      "engEstUnit": 94.75,
+      "lowUnit": 76.04,
+      "bidders": {
+        "MARTIN MARIETTA MATERIALS, INC.": 76.04,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 85.35,
+        "GM QUALITY CONSTRUCTION LLC": 175.0
+      }
+    },
+    {
+      "itemCode": "8040 6114",
+      "description": "LRA (TY II GR DS) (DEL) (ST8)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 96.0,
+      "lowUnit": 76.04,
+      "bidders": {
+        "MARTIN MARIETTA MATERIALS, INC.": 76.04,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 87.35,
+        "GM QUALITY CONSTRUCTION LLC": 189.0
+      }
+    }
+  ]
+}

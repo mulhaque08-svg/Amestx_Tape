@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "csj": "6419-48-001",
+    "county": "Washington",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 641948001",
+    "projectType": "ROCK/RIPRAP",
+    "letDate": "10/11/22",
+    "engEstTotal": 64576.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 74575.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS ROAD CONSTRUCTION, LLC",
+      "totalBidAmount": 77675.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TEXCON GENERAL CONTRACTORS",
+      "totalBidAmount": 137284.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 4.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 2000.0,
+        "TEXAS ROAD CONSTRUCTION, LLC": 2150.0,
+        "TEXCON GENERAL CONTRACTORS": 4000.0
+      }
+    },
+    {
+      "itemCode": "0104 6044",
+      "description": "REMOVING CONC (FLUME)",
+      "unit": "SY",
+      "quantity": 23.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "TEXAS ROAD CONSTRUCTION, LLC": 75.0,
+        "TEXCON GENERAL CONTRACTORS": 75.0
+      }
+    },
+    {
+      "itemCode": "0401 6001",
+      "description": "FLOWABLE BACKFILL",
+      "unit": "CY",
+      "quantity": 18.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 300.0,
+        "TEXAS ROAD CONSTRUCTION, LLC": 300.0,
+        "TEXCON GENERAL CONTRACTORS": 805.0
+      }
+    },
+    {
+      "itemCode": "0403 6006",
+      "description": "TEMPORARY SPL SHORING (COFFERDAM)",
+      "unit": "SF",
+      "quantity": 400.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 30.0,
+        "TEXAS ROAD CONSTRUCTION, LLC": 1.0,
+        "TEXCON GENERAL CONTRACTORS": 36.0
+      }
+    },
+    {
+      "itemCode": "0432 6026",
+      "description": "RIPRAP (STONE COMMON)(DRY)(18 IN)",
+      "unit": "CY",
+      "quantity": 63.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 225.0,
+        "TEXAS ROAD CONSTRUCTION, LLC": 400.0,
+        "TEXCON GENERAL CONTRACTORS": 263.0
+      }
+    },
+    {
+      "itemCode": "0432 6030",
+      "description": "RIPRAP (STONE COMMON)(GROUT)(12 IN)",
+      "unit": "CY",
+      "quantity": 50.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 200.0,
+        "TEXAS ROAD CONSTRUCTION, LLC": 350.0,
+        "TEXCON GENERAL CONTRACTORS": 573.0
+      }
+    },
+    {
+      "itemCode": "0496 6043",
+      "description": "REMOV STR (SMALL FENCE)",
+      "unit": "LF",
+      "quantity": 20.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "TEXAS ROAD CONSTRUCTION, LLC": 50.0,
+        "TEXCON GENERAL CONTRACTORS": 20.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 4506.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 5000.0,
+        "TEXAS ROAD CONSTRUCTION, LLC": 8000.0,
+        "TEXCON GENERAL CONTRACTORS": 20000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 32.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "TEXAS ROAD CONSTRUCTION, LLC": 50.0,
+        "TEXCON GENERAL CONTRACTORS": 400.0
+      }
+    }
+  ]
+}

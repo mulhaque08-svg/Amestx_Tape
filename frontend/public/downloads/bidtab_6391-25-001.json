@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6391-25-001",
+    "county": "Cass",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639125001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "11/17/21",
+    "engEstTotal": 179850.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TERRY ENTERPRISES",
+      "totalBidAmount": 227810.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "PERRY WEST",
+      "totalBidAmount": 230807.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "HX FARMS, INC.",
+      "totalBidAmount": 239800.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6058",
+      "description": "FULL - WIDTH MOWING - TRACT (5)",
+      "unit": "AC",
+      "quantity": 5995.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 38.0,
+      "bidders": {
+        "TERRY ENTERPRISES": 38.0,
+        "PERRY WEST": 38.5,
+        "HX FARMS, INC.": 40.0
+      }
+    }
+  ]
+}

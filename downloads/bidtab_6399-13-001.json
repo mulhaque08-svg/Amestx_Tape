@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6399-13-001",
+    "county": "Wise",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639913001",
+    "projectType": "CLEANING AND SEALING CRACKS",
+    "letDate": "07/13/22",
+    "engEstTotal": 257090.46,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 136110.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "NATIONAL INDUSTRIAL MAINTENANCE, INC.",
+      "totalBidAmount": 219241.06
+    },
+    {
+      "rank": 3,
+      "vendorName": "SCOUT 5 CONSTRUCTION LLC",
+      "totalBidAmount": 323759.92
+    },
+    {
+      "rank": 4,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 334092.97
+    },
+    {
+      "rank": 5,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 441303.44
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 23371.86,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 1500.0,
+        "NATIONAL INDUSTRIAL MAINTENANCE, INC.": 10000.0,
+        "SCOUT 5 CONSTRUCTION LLC": 5002.54,
+        "CRACKSEAL OF TEXAS, LLC": 18500.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 4000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 144.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 1.0,
+        "NATIONAL INDUSTRIAL MAINTENANCE, INC.": 1.0,
+        "SCOUT 5 CONSTRUCTION LLC": 0.01,
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0
+      }
+    }
+  ]
+}

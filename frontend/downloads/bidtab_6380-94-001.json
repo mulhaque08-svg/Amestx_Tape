@@ -1,0 +1,260 @@
+{
+  "metadata": {
+    "csj": "6380-94-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638094001",
+    "projectType": "TRAFFIC CONTROL SERVICES",
+    "letDate": "08/05/21",
+    "engEstTotal": 653250.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "STATEWIDE SAFETY SYSTEMS",
+      "totalBidAmount": 751000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOTAL HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 877200.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "BARRICADES UNLIMITED",
+      "totalBidAmount": 1102000.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "FC TRAFFIC CONTROL, INC.",
+      "totalBidAmount": 1245800.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 400.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 250.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 300.0,
+        "BARRICADES UNLIMITED": 800.0,
+        "FC TRAFFIC CONTROL, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 325.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 325.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 800.0,
+        "BARRICADES UNLIMITED": 1250.0,
+        "FC TRAFFIC CONTROL, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 100.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 150.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 125.0,
+        "BARRICADES UNLIMITED": 25.0,
+        "FC TRAFFIC CONTROL, INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "7148 6001",
+      "description": "1 LN CLOSURE 2 LN RD NO SHOULDERS",
+      "unit": "HR",
+      "quantity": 400.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 140.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 160.0,
+        "BARRICADES UNLIMITED": 250.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "7148 6002",
+      "description": "1 LN CLOSURE 2 LN RD PAVED SHOULDERS",
+      "unit": "HR",
+      "quantity": 100.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 140.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 160.0,
+        "BARRICADES UNLIMITED": 250.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "7148 6003",
+      "description": "1 LN CLOSURE 4 LN RD",
+      "unit": "HR",
+      "quantity": 100.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 165.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 165.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 166.0,
+        "BARRICADES UNLIMITED": 250.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "7148 6004",
+      "description": "2 LN CLOSURE 4 LN RD",
+      "unit": "HR",
+      "quantity": 100.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 170.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 170.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 186.0,
+        "BARRICADES UNLIMITED": 250.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "7148 6005",
+      "description": "FREEWAY 1 LANE CLOSURE",
+      "unit": "HR",
+      "quantity": 500.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 150.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 200.0,
+        "BARRICADES UNLIMITED": 250.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "7148 6006",
+      "description": "FREEWAY 2 LANE CLOSURE",
+      "unit": "HR",
+      "quantity": 50.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 145.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 145.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 245.0,
+        "BARRICADES UNLIMITED": 250.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "7148 6009",
+      "description": "EXIT OR ENTRANCE RAMP CLOSURE",
+      "unit": "HR",
+      "quantity": 200.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 225.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 246.0,
+        "BARRICADES UNLIMITED": 20.0,
+        "FC TRAFFIC CONTROL, INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "7148 6012",
+      "description": "ONE LANE FRONTAGE ROAD CLOSURE",
+      "unit": "HR",
+      "quantity": 200.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 140.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 166.0,
+        "BARRICADES UNLIMITED": 250.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "7148 6014",
+      "description": "ONE LANE CONNECTING RAMP CLOSURE",
+      "unit": "HR",
+      "quantity": 200.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 145.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 145.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 250.0,
+        "BARRICADES UNLIMITED": 250.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "7148 6016",
+      "description": "WORK AREA ON SHOULDER",
+      "unit": "HR",
+      "quantity": 400.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 105.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 105.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 153.0,
+        "BARRICADES UNLIMITED": 150.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "7148 6018",
+      "description": "MOBILE OPERATIONS",
+      "unit": "HR",
+      "quantity": 800.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 110.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 110.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 140.0,
+        "BARRICADES UNLIMITED": 80.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "7148 6019",
+      "description": "FURNISH ADDITIONAL FLAGGER",
+      "unit": "HR",
+      "quantity": 400.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 50.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 46.0,
+        "BARRICADES UNLIMITED": 75.0,
+        "FC TRAFFIC CONTROL, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "7148 6021",
+      "description": "FURNISH ADDITIONAL ARROW BOARD",
+      "unit": "HR",
+      "quantity": 200.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 10.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 1.25,
+        "BARRICADES UNLIMITED": 45.0,
+        "FC TRAFFIC CONTROL, INC.": 20.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6400-37-001",
+    "county": "Zavala",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640037001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "04/13/23",
+    "engEstTotal": 242329.1,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 288345.3
+    },
+    {
+      "rank": 2,
+      "vendorName": "USA DT SERVICES, INC.",
+      "totalBidAmount": 304819.57
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 959.46,
+      "engEstUnit": 41.0,
+      "lowUnit": 49.88,
+      "bidders": {
+        "R&M INCORPORATED": 49.88,
+        "USA DT SERVICES, INC.": 49.83
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 3510.79,
+      "engEstUnit": 42.0,
+      "lowUnit": 49.88,
+      "bidders": {
+        "R&M INCORPORATED": 49.88,
+        "USA DT SERVICES, INC.": 49.83
+      }
+    },
+    {
+      "itemCode": "0730 6054",
+      "description": "FULL - WIDTH MOWING - TRACT (1)",
+      "unit": "AC",
+      "quantity": 1310.43,
+      "engEstUnit": 42.0,
+      "lowUnit": 49.88,
+      "bidders": {
+        "R&M INCORPORATED": 49.88,
+        "USA DT SERVICES, INC.": 49.83
+      }
+    }
+  ]
+}

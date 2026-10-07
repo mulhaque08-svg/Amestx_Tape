@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "csj": "6411-17-001",
+    "county": "Jim Wells",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641117001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "10/07/22",
+    "engEstTotal": 494363.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BK FIELD OPERATIONS LLC",
+      "totalBidAmount": 378499.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "EVERYTHING IRRIGATION LLC",
+      "totalBidAmount": 488299.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 538502.5
+    },
+    {
+      "rank": 4,
+      "vendorName": "AAD CONTRACTING INC.",
+      "totalBidAmount": 603301.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 6300.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 1.0,
+        "EVERYTHING IRRIGATION LLC": 1000.0,
+        "R&M INCORPORATED": 1.0,
+        "AAD CONTRACTING INC.": 16400.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 9801.0,
+      "engEstUnit": 43.0,
+      "lowUnit": 36.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 36.0,
+        "EVERYTHING IRRIGATION LLC": 44.0,
+        "R&M INCORPORATED": 49.5,
+        "AAD CONTRACTING INC.": 51.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 29.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 1.0,
+        "EVERYTHING IRRIGATION LLC": 40.0,
+        "R&M INCORPORATED": 1.0,
+        "AAD CONTRACTING INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 2130.0,
+      "engEstUnit": 24.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 12.0,
+        "EVERYTHING IRRIGATION LLC": 23.5,
+        "R&M INCORPORATED": 25.0,
+        "AAD CONTRACTING INC.": 25.0
+      }
+    }
+  ]
+}

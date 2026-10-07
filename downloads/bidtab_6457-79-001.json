@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6457-79-001",
+    "county": "Hood",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645779001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/01/24",
+    "engEstTotal": 399276.93,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "T&L CLEANING SERVICES LLC",
+      "totalBidAmount": 440020.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 457920.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "YELLOWSTONE LANDSCAPE - CENTRAL, INC.",
+      "totalBidAmount": 766236.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 5024.0,
+      "engEstUnit": 46.26,
+      "lowUnit": 60.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 60.0,
+        "RISE UP CONSTRUCTION LLC": 55.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 72.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 500.0,
+      "engEstUnit": 44.47,
+      "lowUnit": 60.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 60.0,
+        "RISE UP CONSTRUCTION LLC": 55.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 72.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 5024.0,
+      "engEstUnit": 23.75,
+      "lowUnit": 20.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 20.0,
+        "RISE UP CONSTRUCTION LLC": 25.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 42.0
+      }
+    }
+  ]
+}

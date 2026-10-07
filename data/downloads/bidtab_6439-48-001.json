@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6439-48-001",
+    "county": "Jefferson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643948001",
+    "projectType": "CRACK SEAL",
+    "letDate": "06/21/23",
+    "engEstTotal": 295595.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 171213.48
+    },
+    {
+      "rank": 2,
+      "vendorName": "SCOUT 5 CONSTRUCTION LLC",
+      "totalBidAmount": 189195.18
+    },
+    {
+      "rank": 3,
+      "vendorName": "FYL ENTERPRISES, LLC",
+      "totalBidAmount": 250137.68
+    },
+    {
+      "rank": 4,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 260600.52
+    },
+    {
+      "rank": 5,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 343226.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 26872.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0,
+        "SCOUT 5 CONSTRUCTION LLC": 2998.48,
+        "FYL ENTERPRISES, LLC": 15000.0,
+        "D & M CONTRACTORS, LLC": 5000.0,
+        "CRACKSEAL OF TEXAS, LLC": 15000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 8.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0,
+        "SCOUT 5 CONSTRUCTION LLC": 0.01,
+        "FYL ENTERPRISES, LLC": 1.0,
+        "D & M CONTRACTORS, LLC": 20.0,
+        "CRACKSEAL OF TEXAS, LLC": 200.0
+      }
+    }
+  ]
+}

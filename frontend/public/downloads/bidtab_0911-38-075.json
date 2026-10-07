@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "0911-38-075",
+    "county": "Angelina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2024(378)",
+    "projectType": "LANDSCAPE DEVELOPMENT",
+    "letDate": "11/02/23",
+    "engEstTotal": 208700.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RAYFORD'S TRUCK & TRACTOR",
+      "totalBidAmount": 200685.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS ROAD CONSTRUCTION, LLC",
+      "totalBidAmount": 206524.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TIGHT LINE CONSTRUCTION, LLC",
+      "totalBidAmount": 244020.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 286800.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0180 6001",
+      "description": "WILDFLOWER SEEDING",
+      "unit": "AC",
+      "quantity": 121.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1589.0,
+      "bidders": {
+        "RAYFORD'S TRUCK & TRACTOR": 1589.0,
+        "TEXAS ROAD CONSTRUCTION, LLC": 1624.0,
+        "TIGHT LINE CONSTRUCTION, LLC": 2000.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 2000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 8000.0,
+      "bidders": {
+        "RAYFORD'S TRUCK & TRACTOR": 8000.0,
+        "TEXAS ROAD CONSTRUCTION, LLC": 10000.0,
+        "TIGHT LINE CONSTRUCTION, LLC": 2000.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 20000.0
+      }
+    }
+  ]
+}

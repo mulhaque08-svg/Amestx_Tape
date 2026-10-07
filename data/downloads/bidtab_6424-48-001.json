@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6424-48-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642448001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/02/23",
+    "engEstTotal": 299985.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 279048.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 288810.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 1.0,
+        "ANTHONY SERVICES": 1000.0
+      }
+    },
+    {
+      "itemCode": "0730 6104",
+      "description": "FULL-WIDTH MOWING (RURAL)",
+      "unit": "AC",
+      "quantity": 1470.0,
+      "engEstUnit": 58.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 65.0,
+        "ANTHONY SERVICES": 60.0
+      }
+    },
+    {
+      "itemCode": "0730 6105",
+      "description": "FULL-WIDTH MOWING (URBAN)",
+      "unit": "AC",
+      "quantity": 2823.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 65.0,
+        "ANTHONY SERVICES": 70.0
+      }
+    }
+  ]
+}

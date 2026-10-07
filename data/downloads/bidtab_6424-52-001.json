@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6424-52-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642452001",
+    "projectType": "VEGETATION MANAGEMENT",
+    "letDate": "02/09/23",
+    "engEstTotal": 51960.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DOUBLE S TRACTOR SERVICES, LLC",
+      "totalBidAmount": 46793.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 98000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "OPTERRA SOLUTIONS",
+      "totalBidAmount": 108250.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 4290.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "DOUBLE S TRACTOR SERVICES, LLC": 1.0,
+        "ANTHONY SERVICES": 20000.0,
+        "OPTERRA SOLUTIONS": 2500.0
+      }
+    },
+    {
+      "itemCode": "0731 6006",
+      "description": "BROADCAST APPLICATION",
+      "unit": "MI",
+      "quantity": 55.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 850.0,
+      "bidders": {
+        "DOUBLE S TRACTOR SERVICES, LLC": 850.0,
+        "ANTHONY SERVICES": 1200.0,
+        "OPTERRA SOLUTIONS": 1250.0
+      }
+    }
+  ]
+}

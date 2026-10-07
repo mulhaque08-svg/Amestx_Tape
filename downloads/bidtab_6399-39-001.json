@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6399-39-001",
+    "county": "Robertson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639939001",
+    "projectType": "ASPHALT",
+    "letDate": "04/05/22",
+    "engEstTotal": 204600.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 206000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6003",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 83.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 80.0
+      }
+    },
+    {
+      "itemCode": "8011 6004",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 94.0,
+      "lowUnit": 95.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 95.0
+      }
+    }
+  ]
+}

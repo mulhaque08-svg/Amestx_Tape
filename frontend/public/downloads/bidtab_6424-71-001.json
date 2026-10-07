@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6424-71-001",
+    "county": "Eastland",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642471001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "10/27/22",
+    "engEstTotal": 293844.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 262608.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GREG SCRUGGS",
+      "totalBidAmount": 296053.44
+    },
+    {
+      "rank": 3,
+      "vendorName": "MARLANE CONSTRUCTION, LLC",
+      "totalBidAmount": 336900.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 4860.0,
+      "engEstUnit": 47.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "ABESCAPE GROUP LLC": 40.0,
+        "GREG SCRUGGS": 45.0,
+        "MARLANE CONSTRUCTION, LLC": 55.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 1392.0,
+      "engEstUnit": 47.0,
+      "lowUnit": 49.0,
+      "bidders": {
+        "ABESCAPE GROUP LLC": 49.0,
+        "GREG SCRUGGS": 55.57,
+        "MARLANE CONSTRUCTION, LLC": 50.0
+      }
+    }
+  ]
+}

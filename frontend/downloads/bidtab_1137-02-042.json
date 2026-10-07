@@ -1,0 +1,551 @@
+{
+  "metadata": {
+    "csj": "1137-02-042",
+    "county": "Cameron",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 1137-2-42",
+    "projectType": "PREVENTIVE MAINTENANCE",
+    "letDate": "01/04/24",
+    "engEstTotal": 8427358.35,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FOREMOST PAVING, INC.",
+      "totalBidAmount": 7765565.4
+    },
+    {
+      "rank": 2,
+      "vendorName": "IOC COMPANY LLC",
+      "totalBidAmount": 7884853.57
+    },
+    {
+      "rank": 3,
+      "vendorName": "EARTHWORKS ENTERPRISE",
+      "totalBidAmount": 9271250.9
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 95.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 40.0,
+        "IOC COMPANY LLC": 20.0,
+        "EARTHWORKS ENTERPRISE": 50.0
+      }
+    },
+    {
+      "itemCode": "0134 6001",
+      "description": "BACKFILL (TY A)",
+      "unit": "STA",
+      "quantity": 50.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 300.0,
+        "IOC COMPANY LLC": 100.0,
+        "EARTHWORKS ENTERPRISE": 600.0
+      }
+    },
+    {
+      "itemCode": "0351 6008",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(12\")",
+      "unit": "SY",
+      "quantity": 7574.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 14.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 14.0,
+        "IOC COMPANY LLC": 30.0,
+        "EARTHWORKS ENTERPRISE": 50.0
+      }
+    },
+    {
+      "itemCode": "0354 6021",
+      "description": "PLANE ASPH CONC PAV(0\" TO 2\")",
+      "unit": "SY",
+      "quantity": 52543.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 1.7,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 1.7,
+        "IOC COMPANY LLC": 0.5,
+        "EARTHWORKS ENTERPRISE": 4.0
+      }
+    },
+    {
+      "itemCode": "0354 6045",
+      "description": "PLANE ASPH CONC PAV (2\")",
+      "unit": "SY",
+      "quantity": 268209.0,
+      "engEstUnit": 2.25,
+      "lowUnit": 2.45,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 2.45,
+        "IOC COMPANY LLC": 0.75,
+        "EARTHWORKS ENTERPRISE": 4.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 42.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 375.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 375.0,
+        "IOC COMPANY LLC": 550.0,
+        "EARTHWORKS ENTERPRISE": 450.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 749.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 5.0,
+        "IOC COMPANY LLC": 2.49,
+        "EARTHWORKS ENTERPRISE": 3.0
+      }
+    },
+    {
+      "itemCode": "0542 6002",
+      "description": "REMOVE TERMINAL ANCHOR SECTION",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 500.0,
+        "IOC COMPANY LLC": 195.49,
+        "EARTHWORKS ENTERPRISE": 250.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3400.0,
+      "lowUnit": 2900.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 2900.0,
+        "IOC COMPANY LLC": 3540.49,
+        "EARTHWORKS ENTERPRISE": 3700.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 285.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 500.0,
+        "IOC COMPANY LLC": 195.49,
+        "EARTHWORKS ENTERPRISE": 250.0
+      }
+    },
+    {
+      "itemCode": "0658 6060",
+      "description": "REMOVE DELIN & OBJECT MARKER ASSMS",
+      "unit": "EA",
+      "quantity": 11.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 25.0,
+        "IOC COMPANY LLC": 10.49,
+        "EARTHWORKS ENTERPRISE": 50.0
+      }
+    },
+    {
+      "itemCode": "0658 6061",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 65.0,
+        "IOC COMPANY LLC": 29.49,
+        "EARTHWORKS ENTERPRISE": 90.0
+      }
+    },
+    {
+      "itemCode": "0658 6083",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(WFLX)SRF",
+      "unit": "EA",
+      "quantity": 62.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 125.0,
+        "IOC COMPANY LLC": 89.49,
+        "EARTHWORKS ENTERPRISE": 110.0
+      }
+    },
+    {
+      "itemCode": "0662 6109",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY W",
+      "unit": "EA",
+      "quantity": 17851.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 1.0,
+        "IOC COMPANY LLC": 1.02,
+        "EARTHWORKS ENTERPRISE": 0.6
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 9509.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 1.0,
+        "IOC COMPANY LLC": 1.01,
+        "EARTHWORKS ENTERPRISE": 0.6
+      }
+    },
+    {
+      "itemCode": "0668 6010",
+      "description": "PREFAB PAV MRK TY B (W)(6\")(BRK)CNTST",
+      "unit": "LF",
+      "quantity": 521.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 9.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 9.0,
+        "IOC COMPANY LLC": 9.91,
+        "EARTHWORKS ENTERPRISE": 10.1
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 215.0,
+      "engEstUnit": 265.0,
+      "lowUnit": 230.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 230.0,
+        "IOC COMPANY LLC": 197.27,
+        "EARTHWORKS ENTERPRISE": 226.0
+      }
+    },
+    {
+      "itemCode": "0668 6078",
+      "description": "PREFAB PAV MRK TY C (W) (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 13.0,
+      "engEstUnit": 490.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 350.0,
+        "IOC COMPANY LLC": 343.95,
+        "EARTHWORKS ENTERPRISE": 350.0
+      }
+    },
+    {
+      "itemCode": "0668 6079",
+      "description": "PREFAB PAV MRK TY C (W) (TPL ARROW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 585.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 585.0,
+        "IOC COMPANY LLC": 586.75,
+        "EARTHWORKS ENTERPRISE": 600.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 172.0,
+      "engEstUnit": 280.0,
+      "lowUnit": 242.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 242.0,
+        "IOC COMPANY LLC": 222.56,
+        "EARTHWORKS ENTERPRISE": 250.0
+      }
+    },
+    {
+      "itemCode": "0668 6089",
+      "description": "PREFAB PAV MRK TY C (W) (RR XING)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 682.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 682.0,
+        "IOC COMPANY LLC": 687.91,
+        "EARTHWORKS ENTERPRISE": 700.0
+      }
+    },
+    {
+      "itemCode": "0668 6091",
+      "description": "PREFAB PAV MRK TY C (W) (18\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 72.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 22.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 22.0,
+        "IOC COMPANY LLC": 22.26,
+        "EARTHWORKS ENTERPRISE": 25.0
+      }
+    },
+    {
+      "itemCode": "0668 6092",
+      "description": "PREFAB PAV MRK TY C (W) (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 65.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 48.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 48.0,
+        "IOC COMPANY LLC": 48.56,
+        "EARTHWORKS ENTERPRISE": 50.0
+      }
+    },
+    {
+      "itemCode": "0668 6094",
+      "description": "PREFAB PAV MRK TY C (W)(BIKE ARROW)",
+      "unit": "EA",
+      "quantity": 121.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 122.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 122.0,
+        "IOC COMPANY LLC": 101.16,
+        "EARTHWORKS ENTERPRISE": 95.0
+      }
+    },
+    {
+      "itemCode": "0668 6096",
+      "description": "PREFAB PAV MRK TY C (W)(BIKE SYMBOL)",
+      "unit": "EA",
+      "quantity": 121.0,
+      "engEstUnit": 195.0,
+      "lowUnit": 165.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 165.0,
+        "IOC COMPANY LLC": 141.63,
+        "EARTHWORKS ENTERPRISE": 145.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 1188.0,
+      "engEstUnit": 3.8,
+      "lowUnit": 4.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 4.0,
+        "IOC COMPANY LLC": 3.44,
+        "EARTHWORKS ENTERPRISE": 4.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 1505.0,
+      "engEstUnit": 3.8,
+      "lowUnit": 3.25,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 3.25,
+        "IOC COMPANY LLC": 3.24,
+        "EARTHWORKS ENTERPRISE": 3.35
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 1468.0,
+      "engEstUnit": 3.8,
+      "lowUnit": 3.9,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 3.9,
+        "IOC COMPANY LLC": 3.44,
+        "EARTHWORKS ENTERPRISE": 4.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 5992.0,
+      "engEstUnit": 0.95,
+      "lowUnit": 0.6,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 0.6,
+        "IOC COMPANY LLC": 0.61,
+        "EARTHWORKS ENTERPRISE": 0.65
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 449.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.2,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 1.2,
+        "IOC COMPANY LLC": 1.21,
+        "EARTHWORKS ENTERPRISE": 1.25
+      }
+    },
+    {
+      "itemCode": "0677 6005",
+      "description": "ELIM EXT PAV MRK & MRKS (12\")",
+      "unit": "LF",
+      "quantity": 228.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 2.0,
+        "IOC COMPANY LLC": 2.02,
+        "EARTHWORKS ENTERPRISE": 2.2
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 170.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 6.0,
+        "IOC COMPANY LLC": 6.07,
+        "EARTHWORKS ENTERPRISE": 6.5
+      }
+    },
+    {
+      "itemCode": "0688 6004",
+      "description": "VEH LP DETECT (SAWCUT)",
+      "unit": "LF",
+      "quantity": 11343.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 13.75,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 13.75,
+        "IOC COMPANY LLC": 12.0,
+        "EARTHWORKS ENTERPRISE": 16.0
+      }
+    },
+    {
+      "itemCode": "3074 6002",
+      "description": "SP-D BALANCED MIX DESIGN",
+      "unit": "TON",
+      "quantity": 5439.0,
+      "engEstUnit": 155.0,
+      "lowUnit": 118.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 118.0,
+        "IOC COMPANY LLC": 100.0,
+        "EARTHWORKS ENTERPRISE": 120.0
+      }
+    },
+    {
+      "itemCode": "3077 6065",
+      "description": "SP MIXES SP-D SAC-A PG76-22",
+      "unit": "TON",
+      "quantity": 33804.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 122.5,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 122.5,
+        "IOC COMPANY LLC": 133.5,
+        "EARTHWORKS ENTERPRISE": 124.0
+      }
+    },
+    {
+      "itemCode": "3080 6013",
+      "description": "STONE-MTRX-ASPH SMA-F SAC-A PG76-22",
+      "unit": "TON",
+      "quantity": 8491.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 129.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 129.0,
+        "IOC COMPANY LLC": 145.0,
+        "EARTHWORKS ENTERPRISE": 165.0
+      }
+    },
+    {
+      "itemCode": "3084 6001",
+      "description": "BONDING COURSE",
+      "unit": "GAL",
+      "quantity": 29311.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 2.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 2.0,
+        "IOC COMPANY LLC": 3.0,
+        "EARTHWORKS ENTERPRISE": 5.5
+      }
+    },
+    {
+      "itemCode": "6038 6004",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(SLD)",
+      "unit": "LF",
+      "quantity": 2082.0,
+      "engEstUnit": 1.6,
+      "lowUnit": 2.5,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 2.5,
+        "IOC COMPANY LLC": 2.23,
+        "EARTHWORKS ENTERPRISE": 2.5
+      }
+    },
+    {
+      "itemCode": "6038 6005",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(BRK)",
+      "unit": "LF",
+      "quantity": 521.0,
+      "engEstUnit": 3.85,
+      "lowUnit": 3.3,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 3.3,
+        "IOC COMPANY LLC": 2.91,
+        "EARTHWORKS ENTERPRISE": 3.5
+      }
+    },
+    {
+      "itemCode": "6038 6017",
+      "description": "MULTIPOLYMER PAV MRK (Y)(6\")(SLD)",
+      "unit": "LF",
+      "quantity": 2081.0,
+      "engEstUnit": 3.25,
+      "lowUnit": 2.5,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 2.5,
+        "IOC COMPANY LLC": 2.23,
+        "EARTHWORKS ENTERPRISE": 2.5
+      }
+    }
+  ]
+}

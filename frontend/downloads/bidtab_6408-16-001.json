@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6408-16-001",
+    "county": "Bowie",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640816001",
+    "projectType": "LANDSCAPE MAINTENANCE",
+    "letDate": "06/15/22",
+    "engEstTotal": 134876.4,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "T&R LAWN SYSTEMS",
+      "totalBidAmount": 115478.8
+    },
+    {
+      "rank": 2,
+      "vendorName": "FELLOWSHIP LANDSCAPING",
+      "totalBidAmount": 127896.59
+    },
+    {
+      "rank": 3,
+      "vendorName": "RDA VEGETATION MANAGEMENT LLC",
+      "totalBidAmount": 249933.31
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "T&R LAWN SYSTEMS": 150.0,
+        "FELLOWSHIP LANDSCAPING": 300.0,
+        "RDA VEGETATION MANAGEMENT LLC": 0.01
+      }
+    },
+    {
+      "itemCode": "0751 6005",
+      "description": "LITTER PICKUP",
+      "unit": "AC",
+      "quantity": 1770.48,
+      "engEstUnit": 25.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "T&R LAWN SYSTEMS": 10.0,
+        "FELLOWSHIP LANDSCAPING": 8.0,
+        "RDA VEGETATION MANAGEMENT LLC": 63.0
+      }
+    },
+    {
+      "itemCode": "0751 6007",
+      "description": "MOWING, TRIMMING, AND EDGING",
+      "unit": "AC",
+      "quantity": 1770.48,
+      "engEstUnit": 30.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "T&R LAWN SYSTEMS": 50.0,
+        "FELLOWSHIP LANDSCAPING": 60.0,
+        "RDA VEGETATION MANAGEMENT LLC": 52.75
+      }
+    },
+    {
+      "itemCode": "0751 6011",
+      "description": "PRUNING",
+      "unit": "CYC",
+      "quantity": 1.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 5500.0,
+      "bidders": {
+        "T&R LAWN SYSTEMS": 5500.0,
+        "FELLOWSHIP LANDSCAPING": 3.95,
+        "RDA VEGETATION MANAGEMENT LLC": 45000.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6462-40-001",
+    "county": "Karnes",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646240001",
+    "projectType": "HOT MIX",
+    "letDate": "01/16/24",
+    "engEstTotal": 295800.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 251600.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 285600.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 288932.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 442000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6062",
+      "description": "D-GR HMA(SQ)TY B PG 64-22 (DLVR) SITE1",
+      "unit": "TON",
+      "quantity": 3400.0,
+      "engEstUnit": 87.0,
+      "lowUnit": 74.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 74.0,
+        "BRAUNTEX MATERIALS, INC.": 84.0,
+        "COLORADO MATERIALS, LTD.": 84.98,
+        "TOUCHSTONE RESOURCES, LLC": 130.0
+      }
+    }
+  ]
+}

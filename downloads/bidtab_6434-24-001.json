@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6434-24-001",
+    "county": "Midland",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643424001",
+    "projectType": "CLEANING AND SWEEPING HIGHWAYS",
+    "letDate": "05/05/23",
+    "engEstTotal": 552090.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "J-MEN CONCRETE CONSTRUCTION",
+      "totalBidAmount": 509379.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "T & M LAWN-FENCE SERVICE, LLC",
+      "totalBidAmount": 835320.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0738 6002",
+      "description": "CLEANING / SWEEPING (CENTER MEDIAN)",
+      "unit": "MI",
+      "quantity": 331.29,
+      "engEstUnit": 300.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "J-MEN CONCRETE CONSTRUCTION": 225.0,
+        "T & M LAWN-FENCE SERVICE, LLC": 400.0
+      }
+    },
+    {
+      "itemCode": "0738 6004",
+      "description": "CLEANING / SWEEPING (OUTSIDE MAIN LANE)",
+      "unit": "MI",
+      "quantity": 794.73,
+      "engEstUnit": 300.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "J-MEN CONCRETE CONSTRUCTION": 225.0,
+        "T & M LAWN-FENCE SERVICE, LLC": 400.0
+      }
+    },
+    {
+      "itemCode": "0738 6006",
+      "description": "CLEANING / SWEEPING (FRONTAGE ROAD)",
+      "unit": "MI",
+      "quantity": 394.74,
+      "engEstUnit": 300.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "J-MEN CONCRETE CONSTRUCTION": 225.0,
+        "T & M LAWN-FENCE SERVICE, LLC": 400.0
+      }
+    },
+    {
+      "itemCode": "0738 6008",
+      "description": "CLEANING / SWEEPING(ENTRANCE/EXIT RAMP)",
+      "unit": "MI",
+      "quantity": 140.04,
+      "engEstUnit": 300.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "J-MEN CONCRETE CONSTRUCTION": 200.0,
+        "T & M LAWN-FENCE SERVICE, LLC": 400.0
+      }
+    },
+    {
+      "itemCode": "0738 6010",
+      "description": "CLEANING / SWEEPING (SPOT)",
+      "unit": "MI",
+      "quantity": 60.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "J-MEN CONCRETE CONSTRUCTION": 200.0,
+        "T & M LAWN-FENCE SERVICE, LLC": 200.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,876 @@
+{
+  "metadata": {
+    "csj": "6427-50-001",
+    "county": "Hidalgo",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642750001",
+    "projectType": "TRAFFIC SIGNAL MAINTENANCE",
+    "letDate": "02/02/23",
+    "engEstTotal": 1859142.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.",
+      "totalBidAmount": 1653231.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "VACA UNDERGROUND UTILITIES INC",
+      "totalBidAmount": 1740262.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "THE LEVY COMPANY, INC.",
+      "totalBidAmount": 2053491.92
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6028",
+      "description": "REMOVING CONC (MISC)",
+      "unit": "SY",
+      "quantity": 100.0,
+      "engEstUnit": 128.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 75.0,
+        "VACA UNDERGROUND UTILITIES INC": 70.0,
+        "THE LEVY COMPANY, INC.": 47.77
+      }
+    },
+    {
+      "itemCode": "0416 6029",
+      "description": "DRILL SHAFT (RDWY ILL POLE) (30 IN)",
+      "unit": "LF",
+      "quantity": 240.0,
+      "engEstUnit": 260.0,
+      "lowUnit": 185.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 185.0,
+        "VACA UNDERGROUND UTILITIES INC": 225.0,
+        "THE LEVY COMPANY, INC.": 297.69
+      }
+    },
+    {
+      "itemCode": "0432 6009",
+      "description": "RIPRAP (CONC) (CL B) (4\")",
+      "unit": "CY",
+      "quantity": 50.0,
+      "engEstUnit": 776.0,
+      "lowUnit": 740.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 740.0,
+        "VACA UNDERGROUND UTILITIES INC": 250.0,
+        "THE LEVY COMPANY, INC.": 519.65
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 100000.0,
+      "lowUnit": 65000.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 65000.0,
+        "VACA UNDERGROUND UTILITIES INC": 100000.0,
+        "THE LEVY COMPANY, INC.": 205349.19
+      }
+    },
+    {
+      "itemCode": "0610 6101",
+      "description": "REPLACE LUMINAIRE W/LED (150W EQ)",
+      "unit": "EA",
+      "quantity": 420.0,
+      "engEstUnit": 515.0,
+      "lowUnit": 425.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 425.0,
+        "VACA UNDERGROUND UTILITIES INC": 550.0,
+        "THE LEVY COMPANY, INC.": 435.44
+      }
+    },
+    {
+      "itemCode": "0610 6102",
+      "description": "REPLACE LUMINAIRE W/LED (250W EQ)",
+      "unit": "EA",
+      "quantity": 650.0,
+      "engEstUnit": 618.0,
+      "lowUnit": 475.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 475.0,
+        "VACA UNDERGROUND UTILITIES INC": 550.0,
+        "THE LEVY COMPANY, INC.": 559.89
+      }
+    },
+    {
+      "itemCode": "0610 6103",
+      "description": "REPLACE LUMINAIRE W/LED (400W EQ)",
+      "unit": "EA",
+      "quantity": 60.0,
+      "engEstUnit": 525.0,
+      "lowUnit": 575.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 575.0,
+        "VACA UNDERGROUND UTILITIES INC": 550.0,
+        "THE LEVY COMPANY, INC.": 610.74
+      }
+    },
+    {
+      "itemCode": "0610 6214",
+      "description": "IN RD IL (TY SA) 40T-8 (250W EQ) LED",
+      "unit": "EA",
+      "quantity": 35.0,
+      "engEstUnit": 4600.0,
+      "lowUnit": 3900.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 3900.0,
+        "VACA UNDERGROUND UTILITIES INC": 4200.0,
+        "THE LEVY COMPANY, INC.": 3980.57
+      }
+    },
+    {
+      "itemCode": "0610 6215",
+      "description": "IN RD IL (TY SA) 40T-8-8 (250W EQ) LED",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 4800.0,
+      "lowUnit": 4630.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 4630.0,
+        "VACA UNDERGROUND UTILITIES INC": 4800.0,
+        "THE LEVY COMPANY, INC.": 5376.23
+      }
+    },
+    {
+      "itemCode": "0610 6291",
+      "description": "IN RD IL (TY SA) 50T-12-12(400W EQ)LED",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 7300.0,
+      "lowUnit": 6100.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 6100.0,
+        "VACA UNDERGROUND UTILITIES INC": 5500.0,
+        "THE LEVY COMPANY, INC.": 5941.15
+      }
+    },
+    {
+      "itemCode": "0618 6023",
+      "description": "CONDT (PVC) (SCH 40) (2\")",
+      "unit": "LF",
+      "quantity": 2000.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 8.0,
+        "VACA UNDERGROUND UTILITIES INC": 12.0,
+        "THE LEVY COMPANY, INC.": 15.41
+      }
+    },
+    {
+      "itemCode": "0618 6047",
+      "description": "CONDT (PVC) (SCH 80) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 1000.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 24.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 24.0,
+        "VACA UNDERGROUND UTILITIES INC": 23.0,
+        "THE LEVY COMPANY, INC.": 37.57
+      }
+    },
+    {
+      "itemCode": "0620 6003",
+      "description": "ELEC CONDR (NO.12) BARE",
+      "unit": "LF",
+      "quantity": 250.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 1.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1.0,
+        "VACA UNDERGROUND UTILITIES INC": 1.5,
+        "THE LEVY COMPANY, INC.": 1.37
+      }
+    },
+    {
+      "itemCode": "0620 6004",
+      "description": "ELEC CONDR (NO.12) INSULATED",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.05,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1.05,
+        "VACA UNDERGROUND UTILITIES INC": 1.5,
+        "THE LEVY COMPANY, INC.": 1.3
+      }
+    },
+    {
+      "itemCode": "0620 6005",
+      "description": "ELEC CONDR (NO.10) BARE",
+      "unit": "LF",
+      "quantity": 250.0,
+      "engEstUnit": 1.1,
+      "lowUnit": 1.1,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1.1,
+        "VACA UNDERGROUND UTILITIES INC": 1.65,
+        "THE LEVY COMPANY, INC.": 1.45
+      }
+    },
+    {
+      "itemCode": "0620 6006",
+      "description": "ELEC CONDR (NO.10) INSULATED",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 1.3,
+      "lowUnit": 1.15,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1.15,
+        "VACA UNDERGROUND UTILITIES INC": 1.65,
+        "THE LEVY COMPANY, INC.": 1.43
+      }
+    },
+    {
+      "itemCode": "0620 6007",
+      "description": "ELEC CONDR (NO.8) BARE",
+      "unit": "LF",
+      "quantity": 5000.0,
+      "engEstUnit": 1.6,
+      "lowUnit": 1.1,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1.1,
+        "VACA UNDERGROUND UTILITIES INC": 2.0,
+        "THE LEVY COMPANY, INC.": 1.6
+      }
+    },
+    {
+      "itemCode": "0620 6008",
+      "description": "ELEC CONDR (NO.8) INSULATED",
+      "unit": "LF",
+      "quantity": 10000.0,
+      "engEstUnit": 2.1,
+      "lowUnit": 1.2,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1.2,
+        "VACA UNDERGROUND UTILITIES INC": 2.0,
+        "THE LEVY COMPANY, INC.": 1.65
+      }
+    },
+    {
+      "itemCode": "0620 6009",
+      "description": "ELEC CONDR (NO.6) BARE",
+      "unit": "LF",
+      "quantity": 5000.0,
+      "engEstUnit": 2.2,
+      "lowUnit": 1.25,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1.25,
+        "VACA UNDERGROUND UTILITIES INC": 2.25,
+        "THE LEVY COMPANY, INC.": 1.86
+      }
+    },
+    {
+      "itemCode": "0620 6010",
+      "description": "ELEC CONDR (NO.6) INSULATED",
+      "unit": "LF",
+      "quantity": 10000.0,
+      "engEstUnit": 2.4,
+      "lowUnit": 1.3,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1.3,
+        "VACA UNDERGROUND UTILITIES INC": 2.25,
+        "THE LEVY COMPANY, INC.": 1.95
+      }
+    },
+    {
+      "itemCode": "0620 6011",
+      "description": "ELEC CONDR (NO.4) BARE",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 1.7,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1.7,
+        "VACA UNDERGROUND UTILITIES INC": 2.75,
+        "THE LEVY COMPANY, INC.": 2.3
+      }
+    },
+    {
+      "itemCode": "0620 6012",
+      "description": "ELEC CONDR (NO.4) INSULATED",
+      "unit": "LF",
+      "quantity": 1000.0,
+      "engEstUnit": 3.9,
+      "lowUnit": 1.9,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1.9,
+        "VACA UNDERGROUND UTILITIES INC": 2.85,
+        "THE LEVY COMPANY, INC.": 2.83
+      }
+    },
+    {
+      "itemCode": "0628 6002",
+      "description": "REMOVE ELECTRICAL SERVICES",
+      "unit": "EA",
+      "quantity": 40.0,
+      "engEstUnit": 975.0,
+      "lowUnit": 245.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 245.0,
+        "VACA UNDERGROUND UTILITIES INC": 500.0,
+        "THE LEVY COMPANY, INC.": 160.16
+      }
+    },
+    {
+      "itemCode": "0628 6050",
+      "description": "ELC SRV TY A 240/480 060(NS)SS(T)TP(O)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 7900.0,
+      "lowUnit": 4750.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 4750.0,
+        "VACA UNDERGROUND UTILITIES INC": 6000.0,
+        "THE LEVY COMPANY, INC.": 4229.93
+      }
+    },
+    {
+      "itemCode": "0628 6089",
+      "description": "ELC SRV TY A 240/480 100(SS)SS(T)TP(O)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 6200.0,
+      "lowUnit": 5280.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 5280.0,
+        "VACA UNDERGROUND UTILITIES INC": 6000.0,
+        "THE LEVY COMPANY, INC.": 7868.09
+      }
+    },
+    {
+      "itemCode": "0628 6300",
+      "description": "ELC SRV TY T 120/240 000(NS)GS(L)TP(O)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 4320.0,
+      "lowUnit": 3530.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 3530.0,
+        "VACA UNDERGROUND UTILITIES INC": 3500.0,
+        "THE LEVY COMPANY, INC.": 2870.37
+      }
+    },
+    {
+      "itemCode": "0628 6301",
+      "description": "ELC SRV TY T 120/240 000(NS)GS(L)TS(O)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 4060.0,
+      "lowUnit": 3610.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 3610.0,
+        "VACA UNDERGROUND UTILITIES INC": 1500.0,
+        "THE LEVY COMPANY, INC.": 2072.78
+      }
+    },
+    {
+      "itemCode": "6000 6022",
+      "description": "REMOVE ROADWAY ILLUM ASSEMBLY (HPS)",
+      "unit": "EA",
+      "quantity": 35.0,
+      "engEstUnit": 185.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 100.0,
+        "VACA UNDERGROUND UTILITIES INC": 650.0,
+        "THE LEVY COMPANY, INC.": 239.12
+      }
+    },
+    {
+      "itemCode": "6000 6046",
+      "description": "MAINTAIN HIGH MAST ILLUMINATION",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 560.0,
+      "lowUnit": 5500.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 5500.0,
+        "VACA UNDERGROUND UTILITIES INC": 750.0,
+        "THE LEVY COMPANY, INC.": 1064.67
+      }
+    },
+    {
+      "itemCode": "6000 6049",
+      "description": "MAINTAIN INDUCTION FLUORESCENT FIXTURE",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 155.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 155.0,
+        "VACA UNDERGROUND UTILITIES INC": 50.0,
+        "THE LEVY COMPANY, INC.": 234.73
+      }
+    },
+    {
+      "itemCode": "6000 6051",
+      "description": "SCHEDULE PREV MAINT (HIGH MAST ASSM)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 4500.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 4500.0,
+        "VACA UNDERGROUND UTILITIES INC": 750.0,
+        "THE LEVY COMPANY, INC.": 878.66
+      }
+    },
+    {
+      "itemCode": "6000 6052",
+      "description": "REPLACE ELECTRICAL SERVICE",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 4400.0,
+      "lowUnit": 3900.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 3900.0,
+        "VACA UNDERGROUND UTILITIES INC": 4500.0,
+        "THE LEVY COMPANY, INC.": 1435.85
+      }
+    },
+    {
+      "itemCode": "6000 6053",
+      "description": "REPLACE TIMBER SERVICE POLE",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 730.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 730.0,
+        "VACA UNDERGROUND UTILITIES INC": 1500.0,
+        "THE LEVY COMPANY, INC.": 918.68
+      }
+    },
+    {
+      "itemCode": "6000 6057",
+      "description": "INSTALL GROUND BOX W/APRON",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 580.0,
+      "lowUnit": 945.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 945.0,
+        "VACA UNDERGROUND UTILITIES INC": 1250.0,
+        "THE LEVY COMPANY, INC.": 1245.99
+      }
+    },
+    {
+      "itemCode": "6000 6058",
+      "description": "REMOVE GROUND BOX",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 245.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 245.0,
+        "VACA UNDERGROUND UTILITIES INC": 300.0,
+        "THE LEVY COMPANY, INC.": 104.9
+      }
+    },
+    {
+      "itemCode": "6000 6060",
+      "description": "REMOVE FOUNDATION",
+      "unit": "EA",
+      "quantity": 35.0,
+      "engEstUnit": 440.0,
+      "lowUnit": 495.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 495.0,
+        "VACA UNDERGROUND UTILITIES INC": 500.0,
+        "THE LEVY COMPANY, INC.": 641.53
+      }
+    },
+    {
+      "itemCode": "6000 6061",
+      "description": "REPLACE TRANSFORMER BASE",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 480.0,
+      "lowUnit": 965.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 965.0,
+        "VACA UNDERGROUND UTILITIES INC": 1000.0,
+        "THE LEVY COMPANY, INC.": 339.84
+      }
+    },
+    {
+      "itemCode": "6000 6062",
+      "description": "REPLACE TRANSFORMER BASE COVER",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 90.0,
+        "VACA UNDERGROUND UTILITIES INC": 65.0,
+        "THE LEVY COMPANY, INC.": 106.08
+      }
+    },
+    {
+      "itemCode": "6000 6064",
+      "description": "INSTALL GROUND ROD",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 65.0,
+        "VACA UNDERGROUND UTILITIES INC": 35.0,
+        "THE LEVY COMPANY, INC.": 118.06
+      }
+    },
+    {
+      "itemCode": "6000 6076",
+      "description": "REPLACE WALL PACK LUMINAIRE",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 545.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 545.0,
+        "VACA UNDERGROUND UTILITIES INC": 750.0,
+        "THE LEVY COMPANY, INC.": 160.16
+      }
+    },
+    {
+      "itemCode": "6000 6082",
+      "description": "REPLACE FUSE",
+      "unit": "EA",
+      "quantity": 200.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 45.0,
+        "VACA UNDERGROUND UTILITIES INC": 50.0,
+        "THE LEVY COMPANY, INC.": 56.24
+      }
+    },
+    {
+      "itemCode": "6000 6084",
+      "description": "REPLACE BREAKAWAY FUSE HOLDER",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 82.0,
+      "lowUnit": 228.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 228.0,
+        "VACA UNDERGROUND UTILITIES INC": 200.0,
+        "THE LEVY COMPANY, INC.": 215.24
+      }
+    },
+    {
+      "itemCode": "6000 6086",
+      "description": "REPLACE PHOTOCELL AND BRACKET",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 190.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 100.0,
+        "VACA UNDERGROUND UTILITIES INC": 50.0,
+        "THE LEVY COMPANY, INC.": 100.03
+      }
+    },
+    {
+      "itemCode": "6000 6091",
+      "description": "REPLACE AVIATION WARNING FIXTURE",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 528.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 528.0,
+        "VACA UNDERGROUND UTILITIES INC": 500.0,
+        "THE LEVY COMPANY, INC.": 810.48
+      }
+    },
+    {
+      "itemCode": "6000 6093",
+      "description": "REPLACE HAND-OFF-AUTO SWITCH",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 265.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 265.0,
+        "VACA UNDERGROUND UTILITIES INC": 30.0,
+        "THE LEVY COMPANY, INC.": 249.83
+      }
+    },
+    {
+      "itemCode": "6000 6094",
+      "description": "REPLACE CONTACTOR",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 359.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 359.0,
+        "VACA UNDERGROUND UTILITIES INC": 300.0,
+        "THE LEVY COMPANY, INC.": 271.88
+      }
+    },
+    {
+      "itemCode": "6000 6099",
+      "description": "REPLACE CIRCUIT BREAKER",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 275.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 275.0,
+        "VACA UNDERGROUND UTILITIES INC": 300.0,
+        "THE LEVY COMPANY, INC.": 192.89
+      }
+    },
+    {
+      "itemCode": "6000 6100",
+      "description": "REPLACE FLEX POWER CABLE OR CORD",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 10.0,
+        "VACA UNDERGROUND UTILITIES INC": 20.0,
+        "THE LEVY COMPANY, INC.": 7.86
+      }
+    },
+    {
+      "itemCode": "6000 6101",
+      "description": "REPLACE TWIST LOCK CONNECTOR",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 195.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 195.0,
+        "VACA UNDERGROUND UTILITIES INC": 265.0,
+        "THE LEVY COMPANY, INC.": 308.6
+      }
+    },
+    {
+      "itemCode": "6000 6104",
+      "description": "RE-STRAP EXISTING CONDUIT",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 35.0,
+        "VACA UNDERGROUND UTILITIES INC": 400.0,
+        "THE LEVY COMPANY, INC.": 68.21
+      }
+    },
+    {
+      "itemCode": "6000 6105",
+      "description": "REPLACE NUTS, WASHERS & OTHER HARDWARE",
+      "unit": "EA",
+      "quantity": 150.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 45.0,
+        "VACA UNDERGROUND UTILITIES INC": 100.0,
+        "THE LEVY COMPANY, INC.": 1078.75
+      }
+    },
+    {
+      "itemCode": "6000 6106",
+      "description": "TROUBLESHOOT FOR REPAIRS",
+      "unit": "HR",
+      "quantity": 250.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 98.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 98.0,
+        "VACA UNDERGROUND UTILITIES INC": 75.0,
+        "THE LEVY COMPANY, INC.": 140.02
+      }
+    },
+    {
+      "itemCode": "6000 6109",
+      "description": "REPLACE PHOTOCELL",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 65.0,
+        "VACA UNDERGROUND UTILITIES INC": 35.0,
+        "THE LEVY COMPANY, INC.": 93.89
+      }
+    },
+    {
+      "itemCode": "6000 6147",
+      "description": "REPLACE 5/16\" WIRE ROPE",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 53.0,
+      "lowUnit": 5116.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 5116.0,
+        "VACA UNDERGROUND UTILITIES INC": 1600.0,
+        "THE LEVY COMPANY, INC.": 1238.25
+      }
+    },
+    {
+      "itemCode": "6000 6148",
+      "description": "REPLACE 3/8\" WIRE ROPE",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 53.0,
+      "lowUnit": 4886.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 4886.0,
+        "VACA UNDERGROUND UTILITIES INC": 2500.0,
+        "THE LEVY COMPANY, INC.": 1091.27
+      }
+    },
+    {
+      "itemCode": "6000 6149",
+      "description": "REPLACE HIGH MAST WINCH",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 4830.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 4830.0,
+        "VACA UNDERGROUND UTILITIES INC": 2100.0,
+        "THE LEVY COMPANY, INC.": 3112.23
+      }
+    },
+    {
+      "itemCode": "6000 6150",
+      "description": "REPLACE WIRE ROPE PULLEY",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1000.0,
+        "VACA UNDERGROUND UTILITIES INC": 1300.0,
+        "THE LEVY COMPANY, INC.": 687.07
+      }
+    },
+    {
+      "itemCode": "6000 6151",
+      "description": "REPLACE ELECTRICAL CABLE PULLEY",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 920.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 920.0,
+        "VACA UNDERGROUND UTILITIES INC": 600.0,
+        "THE LEVY COMPANY, INC.": 760.57
+      }
+    },
+    {
+      "itemCode": "6000 6153",
+      "description": "REPLACE ACCESS HOLE COVER",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 340.0,
+      "lowUnit": 870.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 870.0,
+        "VACA UNDERGROUND UTILITIES INC": 200.0,
+        "THE LEVY COMPANY, INC.": 580.97
+      }
+    },
+    {
+      "itemCode": "6000 6154",
+      "description": "REPLACE HIGH MAST SPRINGS",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 145.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 145.0,
+        "VACA UNDERGROUND UTILITIES INC": 200.0,
+        "THE LEVY COMPANY, INC.": 249.81
+      }
+    },
+    {
+      "itemCode": "6000 6155",
+      "description": "REMOVE/REINSTL HI MAST POLE FOR REPAIR",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 5240.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 10000.0,
+        "VACA UNDERGROUND UTILITIES INC": 20000.0,
+        "THE LEVY COMPANY, INC.": 11352.72
+      }
+    },
+    {
+      "itemCode": "6000 6159",
+      "description": "INSTALL CONTROL TRANS (HIGH MAST)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 415.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 415.0,
+        "VACA UNDERGROUND UTILITIES INC": 500.0,
+        "THE LEVY COMPANY, INC.": 264.5
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 5.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 2150.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 2150.0,
+        "VACA UNDERGROUND UTILITIES INC": 200.0,
+        "THE LEVY COMPANY, INC.": 64.99
+      }
+    },
+    {
+      "itemCode": "6156 6005",
+      "description": "REPLC LED HI MST IL(6 FIXT)(SYM)(TY S)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 6430.0,
+      "lowUnit": 6030.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 6030.0,
+        "VACA UNDERGROUND UTILITIES INC": 10000.0,
+        "THE LEVY COMPANY, INC.": 6685.12
+      }
+    },
+    {
+      "itemCode": "6156 6006",
+      "description": "REPLC LED HI MST IL(6 FIXT)(ASYM)(TY A)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 6430.0,
+      "lowUnit": 6030.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 6030.0,
+        "VACA UNDERGROUND UTILITIES INC": 10000.0,
+        "THE LEVY COMPANY, INC.": 6276.97
+      }
+    }
+  ]
+}

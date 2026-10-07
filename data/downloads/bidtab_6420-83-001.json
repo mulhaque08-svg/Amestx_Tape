@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "csj": "6420-83-001",
+    "county": "Coryell",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642083001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/01/22",
+    "engEstTotal": 446662.46,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JASCO",
+      "totalBidAmount": 503987.28
+    },
+    {
+      "rank": 2,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 620898.95
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 9082.3,
+      "lowUnit": 8000.0,
+      "bidders": {
+        "JASCO": 8000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 15000.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 25.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 57.0,
+      "bidders": {
+        "JASCO": 57.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 55.0
+      }
+    },
+    {
+      "itemCode": "0730 6104",
+      "description": "FULL-WIDTH MOWING (RURAL)",
+      "unit": "AC",
+      "quantity": 4582.64,
+      "engEstUnit": 48.0,
+      "lowUnit": 57.0,
+      "bidders": {
+        "JASCO": 57.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 55.0
+      }
+    },
+    {
+      "itemCode": "0730 6105",
+      "description": "FULL-WIDTH MOWING (URBAN)",
+      "unit": "AC",
+      "quantity": 2300.37,
+      "engEstUnit": 52.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "JASCO": 60.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 55.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 3907.2,
+      "engEstUnit": 18.0,
+      "lowUnit": 18.0,
+      "bidders": {
+        "JASCO": 18.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 22.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 500.0,
+      "engEstUnit": 17.0,
+      "lowUnit": 18.0,
+      "bidders": {
+        "JASCO": 18.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 220.0
+      }
+    }
+  ]
+}

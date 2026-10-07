@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "csj": "6429-76-001",
+    "county": "Shelby",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642976001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "01/25/23",
+    "engEstTotal": 250253.62,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ONE STOP NATIONAL SECUIRTY, LLC",
+      "totalBidAmount": 249928.03
+    },
+    {
+      "rank": 2,
+      "vendorName": "SERVIN MOWING",
+      "totalBidAmount": 253852.69
+    },
+    {
+      "rank": 3,
+      "vendorName": "RENEGADE SITE SOLUTIONS, LLC",
+      "totalBidAmount": 253964.84
+    },
+    {
+      "rank": 4,
+      "vendorName": "MTS BRUSH HOGGING DOZER AND LAWN LLC",
+      "totalBidAmount": 282039.88
+    },
+    {
+      "rank": 5,
+      "vendorName": "MOIR WATERSHED SERVICES, LLC",
+      "totalBidAmount": 289575.24
+    },
+    {
+      "rank": 6,
+      "vendorName": "ACE CONTRACTORS, INC.",
+      "totalBidAmount": 296802.41
+    },
+    {
+      "rank": 7,
+      "vendorName": "123 CONSTRUCTION CO.",
+      "totalBidAmount": 299358.83
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 21.36,
+      "engEstUnit": 20.0,
+      "lowUnit": 32.0,
+      "bidders": {
+        "ONE STOP NATIONAL SECUIRTY, LLC": 32.0,
+        "SERVIN MOWING": 1.0,
+        "RENEGADE SITE SOLUTIONS, LLC": 50.0,
+        "MTS BRUSH HOGGING DOZER AND LAWN LLC": 40.0,
+        "MOIR WATERSHED SERVICES, LLC": 79.5,
+        "ACE CONTRACTORS, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 5514.54,
+      "engEstUnit": 37.0,
+      "lowUnit": 33.33,
+      "bidders": {
+        "ONE STOP NATIONAL SECUIRTY, LLC": 33.33,
+        "SERVIN MOWING": 37.59,
+        "RENEGADE SITE SOLUTIONS, LLC": 38.0,
+        "MTS BRUSH HOGGING DOZER AND LAWN LLC": 40.0,
+        "MOIR WATERSHED SERVICES, LLC": 32.5,
+        "ACE CONTRACTORS, INC.": 45.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 32.89,
+      "bidders": {
+        "ONE STOP NATIONAL SECUIRTY, LLC": 32.89,
+        "SERVIN MOWING": 37.59,
+        "RENEGADE SITE SOLUTIONS, LLC": 100.0,
+        "MTS BRUSH HOGGING DOZER AND LAWN LLC": 50.0,
+        "MOIR WATERSHED SERVICES, LLC": 79.5,
+        "ACE CONTRACTORS, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 3168.66,
+      "engEstUnit": 14.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "ONE STOP NATIONAL SECUIRTY, LLC": 20.0,
+        "SERVIN MOWING": 14.0,
+        "RENEGADE SITE SOLUTIONS, LLC": 12.0,
+        "MTS BRUSH HOGGING DOZER AND LAWN LLC": 18.0,
+        "MOIR WATERSHED SERVICES, LLC": 32.5,
+        "ACE CONTRACTORS, INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 21.36,
+      "engEstUnit": 20.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "ONE STOP NATIONAL SECUIRTY, LLC": 20.0,
+        "SERVIN MOWING": 14.0,
+        "RENEGADE SITE SOLUTIONS, LLC": 15.0,
+        "MTS BRUSH HOGGING DOZER AND LAWN LLC": 50.0,
+        "MOIR WATERSHED SERVICES, LLC": 79.5,
+        "ACE CONTRACTORS, INC.": 0.01
+      }
+    }
+  ]
+}

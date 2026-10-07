@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6455-41-001",
+    "county": "Hill",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645541001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "11/01/23",
+    "engEstTotal": 607829.32,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CEN-TEX IRRIGATION SYSTEMS, INC.",
+      "totalBidAmount": 611847.16
+    },
+    {
+      "rank": 2,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 681614.08
+    },
+    {
+      "rank": 3,
+      "vendorName": "JASCO",
+      "totalBidAmount": 705496.3
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 7594.94,
+      "engEstUnit": 60.0,
+      "lowUnit": 71.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 71.0,
+        "P-VILLE, INCORPORATED": 79.9,
+        "JASCO": 70.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 400.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1.0,
+        "P-VILLE, INCORPORATED": 1.0,
+        "JASCO": 70.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 3414.02,
+      "engEstUnit": 22.0,
+      "lowUnit": 21.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 21.0,
+        "P-VILLE, INCORPORATED": 19.0,
+        "JASCO": 25.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 500.0,
+      "engEstUnit": 24.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1.0,
+        "P-VILLE, INCORPORATED": 19.0,
+        "JASCO": 25.0
+      }
+    }
+  ]
+}

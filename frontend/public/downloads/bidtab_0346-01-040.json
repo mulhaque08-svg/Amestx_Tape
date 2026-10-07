@@ -1,0 +1,837 @@
+{
+  "metadata": {
+    "csj": "0346-01-040",
+    "county": "Jackson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2023(114)",
+    "projectType": "SURFACING/ROADWAY RESTORATION",
+    "letDate": "09/07/22",
+    "engEstTotal": 10070391.97,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "HUNTER INDUSTRIES, LTD.",
+      "totalBidAmount": 9898507.43
+    },
+    {
+      "rank": 2,
+      "vendorName": "JAMES CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 10415256.48
+    },
+    {
+      "rank": 3,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 11997045.31
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0112 6001",
+      "description": "SUBGRADE WIDENING (ORD COMP)",
+      "unit": "STA",
+      "quantity": 17.18,
+      "engEstUnit": 350.0,
+      "lowUnit": 1538.48,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1538.48,
+        "JAMES CONSTRUCTION GROUP, LLC": 1085.0,
+        "TEXAS MATERIALS GROUP, INC.": 3780.0
+      }
+    },
+    {
+      "itemCode": "0132 6021",
+      "description": "EMBANKMENT (VEHICLE)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 1133.0,
+      "engEstUnit": 19.0,
+      "lowUnit": 25.92,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 25.92,
+        "JAMES CONSTRUCTION GROUP, LLC": 27.0,
+        "TEXAS MATERIALS GROUP, INC.": 94.0
+      }
+    },
+    {
+      "itemCode": "0134 6002",
+      "description": "BACKFILL (TY B)",
+      "unit": "STA",
+      "quantity": 769.35,
+      "engEstUnit": 155.0,
+      "lowUnit": 135.9,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 135.9,
+        "JAMES CONSTRUCTION GROUP, LLC": 95.0,
+        "TEXAS MATERIALS GROUP, INC.": 321.0
+      }
+    },
+    {
+      "itemCode": "0150 6002",
+      "description": "BLADING",
+      "unit": "HR",
+      "quantity": 50.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 234.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 234.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 108.0,
+        "TEXAS MATERIALS GROUP, INC.": 166.0
+      }
+    },
+    {
+      "itemCode": "0164 6003",
+      "description": "BROADCAST SEED (PERM) (RURAL) (CLAY)",
+      "unit": "SY",
+      "quantity": 2863.0,
+      "engEstUnit": 0.35,
+      "lowUnit": 0.98,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.98,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.36,
+        "TEXAS MATERIALS GROUP, INC.": 1.05
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 716.0,
+      "engEstUnit": 0.35,
+      "lowUnit": 0.46,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.46,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.82,
+        "TEXAS MATERIALS GROUP, INC.": 1.5
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 716.0,
+      "engEstUnit": 0.35,
+      "lowUnit": 0.46,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.46,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.82,
+        "TEXAS MATERIALS GROUP, INC.": 1.5
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 24.04,
+      "engEstUnit": 22.0,
+      "lowUnit": 188.07,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 188.07,
+        "JAMES CONSTRUCTION GROUP, LLC": 145.0,
+        "TEXAS MATERIALS GROUP, INC.": 99.0
+      }
+    },
+    {
+      "itemCode": "0310 6009",
+      "description": "PRIME COAT (MC-30)",
+      "unit": "GAL",
+      "quantity": 223.0,
+      "engEstUnit": 5.5,
+      "lowUnit": 10.08,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 10.08,
+        "JAMES CONSTRUCTION GROUP, LLC": 8.0,
+        "TEXAS MATERIALS GROUP, INC.": 18.5
+      }
+    },
+    {
+      "itemCode": "0351 6002",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(6\")",
+      "unit": "SY",
+      "quantity": 1000.0,
+      "engEstUnit": 47.0,
+      "lowUnit": 69.74,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 69.74,
+        "JAMES CONSTRUCTION GROUP, LLC": 68.0,
+        "TEXAS MATERIALS GROUP, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0351 6008",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(12\")",
+      "unit": "SY",
+      "quantity": 97.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 229.14,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 229.14,
+        "JAMES CONSTRUCTION GROUP, LLC": 183.0,
+        "TEXAS MATERIALS GROUP, INC.": 230.0
+      }
+    },
+    {
+      "itemCode": "0354 6021",
+      "description": "PLANE ASPH CONC PAV(0\" TO 2\")",
+      "unit": "SY",
+      "quantity": 240596.0,
+      "engEstUnit": 2.3,
+      "lowUnit": 1.96,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1.96,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.25,
+        "TEXAS MATERIALS GROUP, INC.": 2.5
+      }
+    },
+    {
+      "itemCode": "0416 6029",
+      "description": "DRILL SHAFT (RDWY ILL POLE) (30 IN)",
+      "unit": "LF",
+      "quantity": 20.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 489.25,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 489.25,
+        "JAMES CONSTRUCTION GROUP, LLC": 475.0,
+        "TEXAS MATERIALS GROUP, INC.": 503.5
+      }
+    },
+    {
+      "itemCode": "0432 6006",
+      "description": "RIPRAP (CONC)(CL B)",
+      "unit": "CY",
+      "quantity": 0.7,
+      "engEstUnit": 500.0,
+      "lowUnit": 2247.05,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 2247.05,
+        "JAMES CONSTRUCTION GROUP, LLC": 2800.0,
+        "TEXAS MATERIALS GROUP, INC.": 7600.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 410.4,
+      "engEstUnit": 570.0,
+      "lowUnit": 674.12,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 674.12,
+        "JAMES CONSTRUCTION GROUP, LLC": 527.0,
+        "TEXAS MATERIALS GROUP, INC.": 730.0
+      }
+    },
+    {
+      "itemCode": "0438 6001",
+      "description": "CLEANING AND SEALING EXISTING JOINTS",
+      "unit": "LF",
+      "quantity": 239.5,
+      "engEstUnit": 41.0,
+      "lowUnit": 68.97,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 68.97,
+        "JAMES CONSTRUCTION GROUP, LLC": 40.0,
+        "TEXAS MATERIALS GROUP, INC.": 42.0
+      }
+    },
+    {
+      "itemCode": "0451 6024",
+      "description": "RETROFIT RAIL (TY SSTR)",
+      "unit": "LF",
+      "quantity": 2846.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 115.2,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 115.2,
+        "JAMES CONSTRUCTION GROUP, LLC": 379.1,
+        "TEXAS MATERIALS GROUP, INC.": 287.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 910000.0,
+      "lowUnit": 910000.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 910000.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 540000.0,
+        "TEXAS MATERIALS GROUP, INC.": 1000000.0
+      }
+    },
+    {
+      "itemCode": "0512 6005",
+      "description": "PORT CTB (FUR & INST)(F-SHAPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 6150.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 20.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 35.0,
+        "TEXAS MATERIALS GROUP, INC.": 25.25
+      }
+    },
+    {
+      "itemCode": "0512 6029",
+      "description": "PORT CTB (MOVE)(F-SHAPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 6150.0,
+      "engEstUnit": 9.5,
+      "lowUnit": 16.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 16.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 7.1,
+        "TEXAS MATERIALS GROUP, INC.": 8.0
+      }
+    },
+    {
+      "itemCode": "0512 6053",
+      "description": "PORT CTB (REMOVE)(F-SHAPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 6150.0,
+      "engEstUnit": 9.5,
+      "lowUnit": 15.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 15.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 9.65,
+        "TEXAS MATERIALS GROUP, INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0533 6001",
+      "description": "RUMBLE STRIPS (SHOULDER)",
+      "unit": "LF",
+      "quantity": 168816.0,
+      "engEstUnit": 0.23,
+      "lowUnit": 0.11,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.11,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.24,
+        "TEXAS MATERIALS GROUP, INC.": 0.19
+      }
+    },
+    {
+      "itemCode": "0533 6002",
+      "description": "RUMBLE STRIPS (CENTERLINE)",
+      "unit": "LF",
+      "quantity": 84408.0,
+      "engEstUnit": 0.23,
+      "lowUnit": 0.11,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.11,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.28,
+        "TEXAS MATERIALS GROUP, INC.": 0.22
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 9273.0,
+      "engEstUnit": 1.75,
+      "lowUnit": 2.06,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 2.06,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.53,
+        "TEXAS MATERIALS GROUP, INC.": 3.25
+      }
+    },
+    {
+      "itemCode": "0542 6002",
+      "description": "REMOVE TERMINAL ANCHOR SECTION",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 360.5,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 360.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 146.85,
+        "TEXAS MATERIALS GROUP, INC.": 105.84
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 3198.15,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 3198.15,
+        "JAMES CONSTRUCTION GROUP, LLC": 3298.74,
+        "TEXAS MATERIALS GROUP, INC.": 3069.0
+      }
+    },
+    {
+      "itemCode": "0545 6003",
+      "description": "CRASH CUSH ATTEN (MOVE & RESET)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 1545.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1545.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1596.17,
+        "TEXAS MATERIALS GROUP, INC.": 3069.0
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 850.0,
+      "lowUnit": 515.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 515.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 851.29,
+        "TEXAS MATERIALS GROUP, INC.": 848.0
+      }
+    },
+    {
+      "itemCode": "0545 6019",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 8250.0,
+      "lowUnit": 8966.15,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 8966.15,
+        "JAMES CONSTRUCTION GROUP, LLC": 9417.37,
+        "TEXAS MATERIALS GROUP, INC.": 9313.0
+      }
+    },
+    {
+      "itemCode": "0610 6004",
+      "description": "RELOCATE RD IL ASM (TRANS-BASE)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1905.5,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1905.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 1850.0,
+        "TEXAS MATERIALS GROUP, INC.": 1958.0
+      }
+    },
+    {
+      "itemCode": "0610 6216",
+      "description": "IN RD IL (TY SA) 40T-10 (250W EQ) LED",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 8029.88,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 8029.88,
+        "JAMES CONSTRUCTION GROUP, LLC": 7796.0,
+        "TEXAS MATERIALS GROUP, INC.": 8251.0
+      }
+    },
+    {
+      "itemCode": "0618 6023",
+      "description": "CONDT (PVC) (SCH 40) (2\")",
+      "unit": "LF",
+      "quantity": 96.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 21.63,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 21.63,
+        "JAMES CONSTRUCTION GROUP, LLC": 21.0,
+        "TEXAS MATERIALS GROUP, INC.": 22.25
+      }
+    },
+    {
+      "itemCode": "0620 6007",
+      "description": "ELEC CONDR (NO.8) BARE",
+      "unit": "LF",
+      "quantity": 96.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.83,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 2.83,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.75,
+        "TEXAS MATERIALS GROUP, INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "0620 6008",
+      "description": "ELEC CONDR (NO.8) INSULATED",
+      "unit": "LF",
+      "quantity": 192.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.94,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 2.94,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.85,
+        "TEXAS MATERIALS GROUP, INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 610.0,
+      "lowUnit": 654.05,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 654.05,
+        "JAMES CONSTRUCTION GROUP, LLC": 500.0,
+        "TEXAS MATERIALS GROUP, INC.": 628.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 880.65,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 880.65,
+        "JAMES CONSTRUCTION GROUP, LLC": 680.0,
+        "TEXAS MATERIALS GROUP, INC.": 850.0
+      }
+    },
+    {
+      "itemCode": "0644 6037",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U-WC)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1300.0,
+      "lowUnit": 1375.05,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1375.05,
+        "JAMES CONSTRUCTION GROUP, LLC": 1135.0,
+        "TEXAS MATERIALS GROUP, INC.": 1400.0
+      }
+    },
+    {
+      "itemCode": "0644 6060",
+      "description": "IN SM RD SN SUP&AM TYTWT(1)WS(P)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 463.5,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 463.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 345.0,
+        "TEXAS MATERIALS GROUP, INC.": 370.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 82.0,
+      "lowUnit": 61.8,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 61.8,
+        "JAMES CONSTRUCTION GROUP, LLC": 46.0,
+        "TEXAS MATERIALS GROUP, INC.": 95.25
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 182.0,
+      "engEstUnit": 23.0,
+      "lowUnit": 22.66,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 22.66,
+        "JAMES CONSTRUCTION GROUP, LLC": 20.0,
+        "TEXAS MATERIALS GROUP, INC.": 15.9
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 188.0,
+      "engEstUnit": 32.0,
+      "lowUnit": 30.9,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 30.9,
+        "JAMES CONSTRUCTION GROUP, LLC": 34.0,
+        "TEXAS MATERIALS GROUP, INC.": 28.58
+      }
+    },
+    {
+      "itemCode": "0662 6004",
+      "description": "WK ZN PAV MRK NON-REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 441906.0,
+      "engEstUnit": 0.22,
+      "lowUnit": 0.33,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.33,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.32,
+        "TEXAS MATERIALS GROUP, INC.": 0.34
+      }
+    },
+    {
+      "itemCode": "0662 6010",
+      "description": "WK ZN PAV MRK NON-REMOV (W)8\"(DOT)",
+      "unit": "LF",
+      "quantity": 839.0,
+      "engEstUnit": 1.25,
+      "lowUnit": 0.71,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.71,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.69,
+        "TEXAS MATERIALS GROUP, INC.": 0.73
+      }
+    },
+    {
+      "itemCode": "0662 6012",
+      "description": "WK ZN PAV MRK NON-REMOV (W)8\"(SLD)",
+      "unit": "LF",
+      "quantity": 11395.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 0.72,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.72,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.7,
+        "TEXAS MATERIALS GROUP, INC.": 0.74
+      }
+    },
+    {
+      "itemCode": "0662 6016",
+      "description": "WK ZN PAV MRK NON-REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 530.0,
+      "engEstUnit": 3.55,
+      "lowUnit": 15.45,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 15.45,
+        "JAMES CONSTRUCTION GROUP, LLC": 15.0,
+        "TEXAS MATERIALS GROUP, INC.": 16.0
+      }
+    },
+    {
+      "itemCode": "0662 6032",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 51690.0,
+      "engEstUnit": 0.35,
+      "lowUnit": 0.34,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.34,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.33,
+        "TEXAS MATERIALS GROUP, INC.": 0.35
+      }
+    },
+    {
+      "itemCode": "0662 6034",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 58137.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.34,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.34,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.33,
+        "TEXAS MATERIALS GROUP, INC.": 0.35
+      }
+    },
+    {
+      "itemCode": "0662 6109",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY W",
+      "unit": "EA",
+      "quantity": 534.0,
+      "engEstUnit": 1.2,
+      "lowUnit": 1.49,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1.49,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.2,
+        "TEXAS MATERIALS GROUP, INC.": 0.48
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 14742.0,
+      "engEstUnit": 1.2,
+      "lowUnit": 1.49,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1.49,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.2,
+        "TEXAS MATERIALS GROUP, INC.": 0.48
+      }
+    },
+    {
+      "itemCode": "0668 6076",
+      "description": "PREFAB PAV MRK TY C (W) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 216.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 16.48,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 16.48,
+        "JAMES CONSTRUCTION GROUP, LLC": 16.0,
+        "TEXAS MATERIALS GROUP, INC.": 17.0
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 215.0,
+      "lowUnit": 226.6,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 226.6,
+        "JAMES CONSTRUCTION GROUP, LLC": 220.0,
+        "TEXAS MATERIALS GROUP, INC.": 232.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 280.0,
+      "lowUnit": 293.55,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 293.55,
+        "JAMES CONSTRUCTION GROUP, LLC": 285.0,
+        "TEXAS MATERIALS GROUP, INC.": 301.0
+      }
+    },
+    {
+      "itemCode": "0668 6092",
+      "description": "PREFAB PAV MRK TY C (W) (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 68.0,
+      "lowUnit": 21.63,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 21.63,
+        "JAMES CONSTRUCTION GROUP, LLC": 21.0,
+        "TEXAS MATERIALS GROUP, INC.": 22.25
+      }
+    },
+    {
+      "itemCode": "0668 6106",
+      "description": "PREFAB PAV MRK TY C (Y) (12\") (SLD)",
+      "unit": "LF",
+      "quantity": 1178.0,
+      "engEstUnit": 7.1,
+      "lowUnit": 9.27,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 9.27,
+        "JAMES CONSTRUCTION GROUP, LLC": 9.0,
+        "TEXAS MATERIALS GROUP, INC.": 9.5
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 267.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 3.09,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 3.09,
+        "JAMES CONSTRUCTION GROUP, LLC": 3.0,
+        "TEXAS MATERIALS GROUP, INC.": 3.15
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 2034.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 3.09,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 3.09,
+        "JAMES CONSTRUCTION GROUP, LLC": 3.0,
+        "TEXAS MATERIALS GROUP, INC.": 3.15
+      }
+    },
+    {
+      "itemCode": "3076 6042",
+      "description": "D-GR HMA TY-D SAC-B PG70-22",
+      "unit": "TON",
+      "quantity": 44113.0,
+      "engEstUnit": 119.0,
+      "lowUnit": 115.2,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 115.2,
+        "JAMES CONSTRUCTION GROUP, LLC": 118.24,
+        "TEXAS MATERIALS GROUP, INC.": 138.0
+      }
+    },
+    {
+      "itemCode": "3076 6050",
+      "description": "D-GR HMA TY-D SAC-B PG76-22",
+      "unit": "TON",
+      "quantity": 1549.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 138.78,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 138.78,
+        "JAMES CONSTRUCTION GROUP, LLC": 129.0,
+        "TEXAS MATERIALS GROUP, INC.": 165.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 8200.0,
+      "lowUnit": 9000.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 9000.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 10200.0,
+        "TEXAS MATERIALS GROUP, INC.": 12000.0
+      }
+    },
+    {
+      "itemCode": "6439 6004",
+      "description": "HPPM-RIB W/RET REQ TYI(W)4\"(SLD)100MIL",
+      "unit": "LF",
+      "quantity": 170428.0,
+      "engEstUnit": 0.65,
+      "lowUnit": 0.62,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.62,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.6,
+        "TEXAS MATERIALS GROUP, INC.": 0.64
+      }
+    },
+    {
+      "itemCode": "6439 6010",
+      "description": "HPPM-RIB W/RET REQ TYI(Y)4\"(BRK)100MIL",
+      "unit": "LF",
+      "quantity": 20079.0,
+      "engEstUnit": 0.65,
+      "lowUnit": 0.82,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.82,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.8,
+        "TEXAS MATERIALS GROUP, INC.": 0.85
+      }
+    },
+    {
+      "itemCode": "6439 6012",
+      "description": "HPPM-RIB W/RET REQ TYI(Y)4\"(SLD)100MIL",
+      "unit": "LF",
+      "quantity": 27281.0,
+      "engEstUnit": 0.65,
+      "lowUnit": 0.82,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.82,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.8,
+        "TEXAS MATERIALS GROUP, INC.": 0.85
+      }
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "csj": "0907-00-198",
+    "county": "Tom Green",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2022(291)",
+    "projectType": "HIGHWAY IMPROVEMENT",
+    "letDate": "01/06/22",
+    "engEstTotal": 3243010.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "L&L COMPANY",
+      "totalBidAmount": 2812849.2
+    },
+    {
+      "rank": 2,
+      "vendorName": "STRIPE-A-ZONE, LLC",
+      "totalBidAmount": 2920696.3
+    },
+    {
+      "rank": 3,
+      "vendorName": "VIZCAINO, L.P.",
+      "totalBidAmount": 3168490.5
+    },
+    {
+      "rank": 4,
+      "vendorName": "BATTERSON, LLP",
+      "totalBidAmount": 3169721.5
+    },
+    {
+      "rank": 5,
+      "vendorName": "CENTERLINE TECHNOLOGIES, LLC",
+      "totalBidAmount": 3274629.3
+    },
+    {
+      "rank": 6,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 3416953.9
+    },
+    {
+      "rank": 7,
+      "vendorName": "D. I. J. CONSTRUCTION, INC.",
+      "totalBidAmount": 3635315.8
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 300000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "L&L COMPANY": 1.0,
+        "STRIPE-A-ZONE, LLC": 1.0,
+        "VIZCAINO, L.P.": 1.0,
+        "BATTERSON, LLP": 25000.0,
+        "CENTERLINE TECHNOLOGIES, LLC": 1.0,
+        "TRP CONSTRUCTION GROUP, LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "0668 6064",
+      "description": "PREFAB PAV MRK TY C (W) (4\") (SLD)",
+      "unit": "LF",
+      "quantity": 127.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "L&L COMPANY": 3.0,
+        "STRIPE-A-ZONE, LLC": 2.3,
+        "VIZCAINO, L.P.": 3.0,
+        "BATTERSON, LLP": 10.0,
+        "CENTERLINE TECHNOLOGIES, LLC": 5.0,
+        "TRP CONSTRUCTION GROUP, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 306.0,
+      "engEstUnit": 2.7,
+      "lowUnit": 5.0,
+      "bidders": {
+        "L&L COMPANY": 5.0,
+        "STRIPE-A-ZONE, LLC": 2.5,
+        "VIZCAINO, L.P.": 2.0,
+        "BATTERSON, LLP": 2.5,
+        "CENTERLINE TECHNOLOGIES, LLC": 3.75,
+        "TRP CONSTRUCTION GROUP, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "6056 6002",
+      "description": "PREFORMED CENTERLINE RUMBLE STRIP",
+      "unit": "LF",
+      "quantity": 94880.0,
+      "engEstUnit": 3.8,
+      "lowUnit": 3.5,
+      "bidders": {
+        "L&L COMPANY": 3.5,
+        "STRIPE-A-ZONE, LLC": 3.25,
+        "VIZCAINO, L.P.": 3.75,
+        "BATTERSON, LLP": 4.5,
+        "CENTERLINE TECHNOLOGIES, LLC": 4.25,
+        "TRP CONSTRUCTION GROUP, LLC": 3.75
+      }
+    }
+  ]
+}

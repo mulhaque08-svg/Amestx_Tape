@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6457-17-001",
+    "county": "Shackelford",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645717001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/20/24",
+    "engEstTotal": 174975.84,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRIPLE T MAINTENANCE INC.",
+      "totalBidAmount": 150396.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DESERT LUXURY TRANSPORTATION, LLC",
+      "totalBidAmount": 167231.94
+    },
+    {
+      "rank": 3,
+      "vendorName": "ABESCAPE LANDSCAPING, LLC",
+      "totalBidAmount": 188658.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 555.0,
+      "engEstUnit": 31.04,
+      "lowUnit": 23.0,
+      "bidders": {
+        "TRIPLE T MAINTENANCE INC.": 23.0,
+        "DESERT LUXURY TRANSPORTATION, LLC": 25.0,
+        "ABESCAPE LANDSCAPING, LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 3018.0,
+      "engEstUnit": 37.03,
+      "lowUnit": 35.5,
+      "bidders": {
+        "TRIPLE T MAINTENANCE INC.": 35.5,
+        "DESERT LUXURY TRANSPORTATION, LLC": 36.08,
+        "ABESCAPE LANDSCAPING, LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 2541.0,
+      "engEstUnit": 18.1,
+      "lowUnit": 12.0,
+      "bidders": {
+        "TRIPLE T MAINTENANCE INC.": 12.0,
+        "DESERT LUXURY TRANSPORTATION, LLC": 17.5,
+        "ABESCAPE LANDSCAPING, LLC": 18.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6421-65-001",
+    "county": "Washington",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642165001",
+    "projectType": "AGGREGATE",
+    "letDate": "10/12/22",
+    "engEstTotal": 154500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 117500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 147000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 160615.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6113",
+      "description": "AGGR (TY B GR 5) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 103.0,
+      "lowUnit": 78.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 78.0,
+        "DIGG COMMERCIAL, LLC": 107.0,
+        "COLORADO MATERIALS, LTD.": 107.08
+      }
+    },
+    {
+      "itemCode": "8039 6114",
+      "description": "AGGR (TY B GR 5) (DEL) (ST2)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 103.0,
+      "lowUnit": 73.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 73.0,
+        "DIGG COMMERCIAL, LLC": 96.0,
+        "COLORADO MATERIALS, LTD.": 103.51
+      }
+    },
+    {
+      "itemCode": "8039 6115",
+      "description": "AGGR (TY B GR 5) (DEL) (ST3)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 103.0,
+      "lowUnit": 84.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 84.0,
+        "DIGG COMMERCIAL, LLC": 91.0,
+        "COLORADO MATERIALS, LTD.": 110.64
+      }
+    }
+  ]
+}

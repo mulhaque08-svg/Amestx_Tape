@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "csj": "6390-56-001",
+    "county": "Taylor",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639056001",
+    "projectType": "TREE TRIMMING AND BRUSH REMOVAL",
+    "letDate": "11/18/21",
+    "engEstTotal": 225485.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "EASTGATE SERVICES",
+      "totalBidAmount": 209304.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "FOWLER CONSTRUCTION",
+      "totalBidAmount": 210554.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "HJC FARMS, INC.",
+      "totalBidAmount": 237025.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "PATHFIELD INVESTMENTS LLC",
+      "totalBidAmount": 262050.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "CATOCON, INC.",
+      "totalBidAmount": 285300.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "GURR'S LOCAL CONTRACTOR SERVICES LLC",
+      "totalBidAmount": 340400.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 19885.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "EASTGATE SERVICES": 1.0,
+        "FOWLER CONSTRUCTION": 1.0,
+        "HJC FARMS, INC.": 20000.0,
+        "PATHFIELD INVESTMENTS LLC": 40000.0,
+        "CATOCON, INC.": 30000.0,
+        "GURR'S LOCAL CONTRACTOR SERVICES LLC": 20000.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 59.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "EASTGATE SERVICES": 3000.0,
+        "FOWLER CONSTRUCTION": 2500.0,
+        "HJC FARMS, INC.": 2550.0,
+        "PATHFIELD INVESTMENTS LLC": 3000.0,
+        "CATOCON, INC.": 2700.0,
+        "GURR'S LOCAL CONTRACTOR SERVICES LLC": 3000.0
+      }
+    },
+    {
+      "itemCode": "0752 6004",
+      "description": "TREE TRIMMING / BRUSH REMOVAL(CHANNELS)",
+      "unit": "AC",
+      "quantity": 5.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "EASTGATE SERVICES": 1000.0,
+        "FOWLER CONSTRUCTION": 1000.0,
+        "HJC FARMS, INC.": 1725.0,
+        "PATHFIELD INVESTMENTS LLC": 2000.0,
+        "CATOCON, INC.": 2000.0,
+        "GURR'S LOCAL CONTRACTOR SERVICES LLC": 6000.0
+      }
+    },
+    {
+      "itemCode": "0752 6005",
+      "description": "TREE REMOVAL (4\" - 12\" DIA)",
+      "unit": "EA",
+      "quantity": 120.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "EASTGATE SERVICES": 75.0,
+        "FOWLER CONSTRUCTION": 200.0,
+        "HJC FARMS, INC.": 100.0,
+        "PATHFIELD INVESTMENTS LLC": 100.0,
+        "CATOCON, INC.": 200.0,
+        "GURR'S LOCAL CONTRACTOR SERVICES LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "0752 6006",
+      "description": "TREE REMOVAL (12\" - 18\" DIA)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "EASTGATE SERVICES": 75.0,
+        "FOWLER CONSTRUCTION": 300.0,
+        "HJC FARMS, INC.": 115.0,
+        "PATHFIELD INVESTMENTS LLC": 100.0,
+        "CATOCON, INC.": 300.0,
+        "GURR'S LOCAL CONTRACTOR SERVICES LLC": 180.0
+      }
+    },
+    {
+      "itemCode": "0752 6007",
+      "description": "TREE REMOVAL (18\" - 24\" DIA)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 240.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "EASTGATE SERVICES": 200.0,
+        "FOWLER CONSTRUCTION": 500.0,
+        "HJC FARMS, INC.": 150.0,
+        "PATHFIELD INVESTMENTS LLC": 100.0,
+        "CATOCON, INC.": 400.0,
+        "GURR'S LOCAL CONTRACTOR SERVICES LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0752 6008",
+      "description": "TREE REMOVAL (24\" - 30\" DIA)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "EASTGATE SERVICES": 500.0,
+        "FOWLER CONSTRUCTION": 500.0,
+        "HJC FARMS, INC.": 275.0,
+        "PATHFIELD INVESTMENTS LLC": 100.0,
+        "CATOCON, INC.": 500.0,
+        "GURR'S LOCAL CONTRACTOR SERVICES LLC": 400.0
+      }
+    }
+  ]
+}

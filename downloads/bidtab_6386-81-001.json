@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6386-81-001",
+    "county": "Williamson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638681001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/03/22",
+    "engEstTotal": 316430.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SCOUT 5 CONSTRUCTION LLC",
+      "totalBidAmount": 240008.38
+    },
+    {
+      "rank": 2,
+      "vendorName": "FYL ENTERPRISES, LLC",
+      "totalBidAmount": 268988.99
+    },
+    {
+      "rank": 3,
+      "vendorName": "BOEN LANDSCAPING & IRRIGATION, LLC",
+      "totalBidAmount": 314892.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 350850.14
+    },
+    {
+      "rank": 5,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 763459.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 29000.0,
+      "lowUnit": 2000.07,
+      "bidders": {
+        "SCOUT 5 CONSTRUCTION LLC": 2000.07,
+        "FYL ENTERPRISES, LLC": 1.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 2000.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "D & M CONTRACTORS, LLC": 60000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 50.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "SCOUT 5 CONSTRUCTION LLC": 0.01,
+        "FYL ENTERPRISES, LLC": 0.02,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 50.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.001,
+        "D & M CONTRACTORS, LLC": 25.0
+      }
+    }
+  ]
+}

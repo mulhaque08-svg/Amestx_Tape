@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6397-63-001",
+    "county": "Randall",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639763001",
+    "projectType": "PAINT AND BEADS",
+    "letDate": "05/05/22",
+    "engEstTotal": 555250.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 603250.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BARRICADES UNLIMITED",
+      "totalBidAmount": 647500.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 655000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8003 6001",
+      "description": "TRAFFIC PAINT (W)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 4305.0,
+      "lowUnit": 4482.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 4482.0,
+        "BARRICADES UNLIMITED": 4900.0,
+        "TOUCHSTONE RESOURCES, LLC": 4800.0
+      }
+    },
+    {
+      "itemCode": "8003 6002",
+      "description": "TRAFFIC PAINT (Y)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 4200.0,
+      "lowUnit": 4606.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 4606.0,
+        "BARRICADES UNLIMITED": 4900.0,
+        "TOUCHSTONE RESOURCES, LLC": 4800.0
+      }
+    },
+    {
+      "itemCode": "8003 6003",
+      "description": "GLASS BEADS (TY III)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 1450.0,
+      "lowUnit": 1761.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 1761.0,
+        "BARRICADES UNLIMITED": 1750.0,
+        "TOUCHSTONE RESOURCES, LLC": 2000.0
+      }
+    },
+    {
+      "itemCode": "8003 6004",
+      "description": "GLASS BEADS (TY II)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 1150.0,
+      "lowUnit": 1216.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 1216.0,
+        "BARRICADES UNLIMITED": 1400.0,
+        "TOUCHSTONE RESOURCES, LLC": 1500.0
+      }
+    }
+  ]
+}

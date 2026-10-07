@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6443-52-001",
+    "county": "Shelby",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644352001",
+    "projectType": "CRACK SEAL",
+    "letDate": "06/27/23",
+    "engEstTotal": 620498.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SCOUT 5 CONSTRUCTION LLC",
+      "totalBidAmount": 347008.8
+    },
+    {
+      "rank": 2,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 420318.96
+    },
+    {
+      "rank": 3,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 496077.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 688673.67
+    },
+    {
+      "rank": 5,
+      "vendorName": "FYL ENTERPRISES, LLC",
+      "totalBidAmount": 793219.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "ISI CONTRACTING, INC.",
+      "totalBidAmount": 941634.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 60000.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "SCOUT 5 CONSTRUCTION LLC": 5000.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1900.0,
+        "D & M CONTRACTORS, LLC": 2000.0,
+        "CRACKSEAL OF TEXAS, LLC": 10000.0,
+        "FYL ENTERPRISES, LLC": 20000.0,
+        "ISI CONTRACTING, INC.": 25000.0
+      }
+    }
+  ]
+}

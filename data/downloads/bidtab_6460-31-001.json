@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6460-31-001",
+    "county": "Montgomery",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646031001",
+    "projectType": "ASPHALTIC PATCHING MATERIAL",
+    "letDate": "01/09/24",
+    "engEstTotal": 120905.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "WALLER COUNTY ASPHALT INC.",
+      "totalBidAmount": 122500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 133250.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8043 6001",
+      "description": "ASPHALTIC CONC PATCH MATERIAL (DEL)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 131.56,
+      "lowUnit": 110.0,
+      "bidders": {
+        "WALLER COUNTY ASPHALT INC.": 110.0,
+        "TEXAS MATERIALS GROUP, INC.": 141.5
+      }
+    },
+    {
+      "itemCode": "8043 6002",
+      "description": "ASPHALTIC CONC PATCH MATERIAL (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 110.25,
+      "lowUnit": 135.0,
+      "bidders": {
+        "WALLER COUNTY ASPHALT INC.": 135.0,
+        "TEXAS MATERIALS GROUP, INC.": 125.0
+      }
+    }
+  ]
+}

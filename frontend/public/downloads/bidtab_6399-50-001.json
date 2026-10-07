@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "csj": "6399-50-001",
+    "county": "Midland",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639950001",
+    "projectType": "PUMP STATION & DRAINAGE SYSTEM CLEANING",
+    "letDate": "04/12/22",
+    "engEstTotal": 264444.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "E.V.G. ENTERPRISE",
+      "totalBidAmount": 236560.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 517080.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3750.0,
+      "lowUnit": 3750.0,
+      "bidders": {
+        "E.V.G. ENTERPRISE": 3750.0,
+        "SHALOM SERVICES CORPORATION": 15000.0
+      }
+    },
+    {
+      "itemCode": "0764 6001",
+      "description": "DRAIN INLET CLEANING",
+      "unit": "EA",
+      "quantity": 120.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 175.0,
+      "bidders": {
+        "E.V.G. ENTERPRISE": 175.0,
+        "SHALOM SERVICES CORPORATION": 240.0
+      }
+    },
+    {
+      "itemCode": "0764 6002",
+      "description": "PUMP STATION WELL CLEANING",
+      "unit": "EA",
+      "quantity": 32.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "E.V.G. ENTERPRISE": 2500.0,
+        "SHALOM SERVICES CORPORATION": 5000.0
+      }
+    },
+    {
+      "itemCode": "0764 6007",
+      "description": "STORM SEWER CLEANING (PIPE)(12\"-18\"DIA)",
+      "unit": "LF",
+      "quantity": 240.0,
+      "engEstUnit": 9.0,
+      "lowUnit": 9.0,
+      "bidders": {
+        "E.V.G. ENTERPRISE": 9.0,
+        "SHALOM SERVICES CORPORATION": 12.0
+      }
+    },
+    {
+      "itemCode": "0764 6008",
+      "description": "STORM SEWER CLEANING (PIPE)(19\"-24\"DIA)",
+      "unit": "LF",
+      "quantity": 11454.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "E.V.G. ENTERPRISE": 8.0,
+        "SHALOM SERVICES CORPORATION": 15.0
+      }
+    },
+    {
+      "itemCode": "0764 6011",
+      "description": "STORM SEWER CLEANING (PIPE)(37\"-42\"DIA)",
+      "unit": "LF",
+      "quantity": 476.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "E.V.G. ENTERPRISE": 10.0,
+        "SHALOM SERVICES CORPORATION": 25.0
+      }
+    },
+    {
+      "itemCode": "0764 6012",
+      "description": "STORM SEWER CLEANING (PIPE)(43\"-54\"DIA)",
+      "unit": "LF",
+      "quantity": 334.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "E.V.G. ENTERPRISE": 12.0,
+        "SHALOM SERVICES CORPORATION": 35.0
+      }
+    }
+  ]
+}

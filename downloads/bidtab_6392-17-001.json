@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6392-17-001",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639217001",
+    "projectType": "CRASH CUSHION ATTENUATOR INSTALLATION",
+    "letDate": "05/04/22",
+    "engEstTotal": 2020800.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SCR CIVIL CONSTRUCTION, LLC",
+      "totalBidAmount": 3436680.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ROY JORGENSEN ASSOCIATES, INC.",
+      "totalBidAmount": 3509000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 3543000.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "ISI CONTRACTING, INC.",
+      "totalBidAmount": 3860307.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 140000.0,
+      "lowUnit": 60000.0,
+      "bidders": {
+        "SCR CIVIL CONSTRUCTION, LLC": 60000.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 350000.0,
+        "FNH CONSTRUCTION, LLC": 300000.0,
+        "ISI CONTRACTING, INC.": 370000.0
+      }
+    }
+  ]
+}

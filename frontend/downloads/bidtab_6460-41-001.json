@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6460-41-001",
+    "county": "Navarro",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646041001",
+    "projectType": "ASPHALT",
+    "letDate": "01/10/24",
+    "engEstTotal": 280000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 198200.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BIG CREEK CONSTRUCTION, LTD.",
+      "totalBidAmount": 255000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 280000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8006 6001",
+      "description": "SP MIXTURES SP-C PG64-22  (PICKUP)",
+      "unit": "TON",
+      "quantity": 1800.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 70.25,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 70.25,
+        "BIG CREEK CONSTRUCTION, LTD.": 90.0,
+        "TEXAS MATERIALS GROUP, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "8006 6005",
+      "description": "SP MIXTURES SP-D PG64-22  (PICKUP)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 71.75,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 71.75,
+        "BIG CREEK CONSTRUCTION, LTD.": 93.0,
+        "TEXAS MATERIALS GROUP, INC.": 100.0
+      }
+    }
+  ]
+}

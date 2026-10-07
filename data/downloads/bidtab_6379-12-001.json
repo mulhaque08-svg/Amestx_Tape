@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "csj": "6379-12-001",
+    "county": "Madison",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 637912001",
+    "projectType": "BRIDGE REPAIR",
+    "letDate": "08/10/21",
+    "engEstTotal": 134990.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "12TWELVE ROAD AND BRIDGE LLC",
+      "totalBidAmount": 132492.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 143485.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 126.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 70.0,
+      "bidders": {
+        "12TWELVE ROAD AND BRIDGE LLC": 70.0,
+        "SHALOM SERVICES CORPORATION": 60.0
+      }
+    },
+    {
+      "itemCode": "0132 6019",
+      "description": "EMBANKMENT (VEHICLE)(ORD COMP)(TY B)",
+      "unit": "CY",
+      "quantity": 75.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 485.0,
+      "bidders": {
+        "12TWELVE ROAD AND BRIDGE LLC": 485.0,
+        "SHALOM SERVICES CORPORATION": 80.0
+      }
+    },
+    {
+      "itemCode": "0164 6001",
+      "description": "BROADCAST SEED (PERM) (RURAL) (SANDY)",
+      "unit": "SY",
+      "quantity": 1000.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 2.0,
+      "bidders": {
+        "12TWELVE ROAD AND BRIDGE LLC": 2.0,
+        "SHALOM SERVICES CORPORATION": 0.5
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 500.0,
+      "engEstUnit": 0.75,
+      "lowUnit": 2.0,
+      "bidders": {
+        "12TWELVE ROAD AND BRIDGE LLC": 2.0,
+        "SHALOM SERVICES CORPORATION": 0.6
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 500.0,
+      "engEstUnit": 0.65,
+      "lowUnit": 2.0,
+      "bidders": {
+        "12TWELVE ROAD AND BRIDGE LLC": 2.0,
+        "SHALOM SERVICES CORPORATION": 0.6
+      }
+    },
+    {
+      "itemCode": "0401 6001",
+      "description": "FLOWABLE BACKFILL",
+      "unit": "CY",
+      "quantity": 42.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 180.0,
+      "bidders": {
+        "12TWELVE ROAD AND BRIDGE LLC": 180.0,
+        "SHALOM SERVICES CORPORATION": 260.0
+      }
+    },
+    {
+      "itemCode": "0403 6006",
+      "description": "TEMPORARY SPL SHORING (COFFERDAM)",
+      "unit": "SF",
+      "quantity": 892.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "12TWELVE ROAD AND BRIDGE LLC": 10.0,
+        "SHALOM SERVICES CORPORATION": 75.0
+      }
+    },
+    {
+      "itemCode": "0432 6002",
+      "description": "RIPRAP (CONC)(5 IN)",
+      "unit": "CY",
+      "quantity": 1.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "12TWELVE ROAD AND BRIDGE LLC": 1000.0,
+        "SHALOM SERVICES CORPORATION": 190.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 200.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "12TWELVE ROAD AND BRIDGE LLC": 125.0,
+        "SHALOM SERVICES CORPORATION": 180.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 40000.0,
+      "lowUnit": 40000.0,
+      "bidders": {
+        "12TWELVE ROAD AND BRIDGE LLC": 40000.0,
+        "SHALOM SERVICES CORPORATION": 10000.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6429-18-001",
+    "county": "Wilbarger",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 642918001",
+    "projectType": "BRIDGE BEAM REPAIR",
+    "letDate": "03/16/23",
+    "engEstTotal": 128540.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GIBSON & ASSOCIATES, INC.",
+      "totalBidAmount": 140045.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SCOTT TUCKER CONSTRUCTION COMPANY, LLC",
+      "totalBidAmount": 154136.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MB WESTERN INDUSTRIAL CONTRACTING COMPANY",
+      "totalBidAmount": 164700.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 11140.0,
+      "lowUnit": 20000.0,
+      "bidders": {
+        "GIBSON & ASSOCIATES, INC.": 20000.0,
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 15413.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 20000.0
+      }
+    },
+    {
+      "itemCode": "0784 6002",
+      "description": "REP STL BRIDGE MEMBER (BEAM)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 65000.0,
+      "lowUnit": 90400.0,
+      "bidders": {
+        "GIBSON & ASSOCIATES, INC.": 90400.0,
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 59185.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 100000.0
+      }
+    },
+    {
+      "itemCode": "0784 6003",
+      "description": "REP STL BRIDGE MEMBER (DIAPHRAGM)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 6000.0,
+      "lowUnit": 750.0,
+      "bidders": {
+        "GIBSON & ASSOCIATES, INC.": 750.0,
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 7511.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 7500.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 37.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "GIBSON & ASSOCIATES, INC.": 85.0,
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 107.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 100.0
+      }
+    }
+  ]
+}

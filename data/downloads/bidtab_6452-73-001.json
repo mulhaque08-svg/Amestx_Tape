@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6452-73-001",
+    "county": "Bosque",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645273001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/05/23",
+    "engEstTotal": 462321.72,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JASCO",
+      "totalBidAmount": 520890.9
+    },
+    {
+      "rank": 2,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 585952.92
+    },
+    {
+      "rank": 3,
+      "vendorName": "CEN-TEX IRRIGATION SYSTEMS, INC.",
+      "totalBidAmount": 595045.86
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 5642.72,
+      "engEstUnit": 60.0,
+      "lowUnit": 70.0,
+      "bidders": {
+        "JASCO": 70.0,
+        "P-VILLE, INCORPORATED": 81.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 74.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 70.0,
+      "bidders": {
+        "JASCO": 70.0,
+        "P-VILLE, INCORPORATED": 100.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 74.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 3296.02,
+      "engEstUnit": 22.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "JASCO": 25.0,
+        "P-VILLE, INCORPORATED": 30.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 29.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 500.0,
+      "engEstUnit": 24.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "JASCO": 25.0,
+        "P-VILLE, INCORPORATED": 40.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 29.0
+      }
+    }
+  ]
+}

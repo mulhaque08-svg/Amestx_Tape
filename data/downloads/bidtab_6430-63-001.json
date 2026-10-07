@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6430-63-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 643063001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "02/22/23",
+    "engEstTotal": 180000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 220000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 225000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6077",
+      "description": "FL BS (SITE DEL) (TY A GR 4) (SITE 3)",
+      "unit": "TON",
+      "quantity": 5000.0,
+      "engEstUnit": 36.0,
+      "lowUnit": 44.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 44.0,
+        "TOUCHSTONE RESOURCES, LLC": 45.0
+      }
+    }
+  ]
+}

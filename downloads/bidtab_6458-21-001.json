@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6458-21-001",
+    "county": "Hunt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645821001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/21/23",
+    "engEstTotal": 295206.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DOUBLE S TRACTOR SERVICES, LLC",
+      "totalBidAmount": 270054.06
+    },
+    {
+      "rank": 2,
+      "vendorName": "EASTGATE SERVICES",
+      "totalBidAmount": 273724.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "PREMIER CONTRACTORS LLC",
+      "totalBidAmount": 280470.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 306342.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "DOUBLE S TRACTOR SERVICES, LLC": 1.0,
+        "EASTGATE SERVICES": 1.0,
+        "PREMIER CONTRACTORS LLC": 1500.0,
+        "ANTHONY SERVICES": 500.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6843.0,
+      "engEstUnit": 42.0,
+      "lowUnit": 39.42,
+      "bidders": {
+        "DOUBLE S TRACTOR SERVICES, LLC": 39.42,
+        "EASTGATE SERVICES": 40.0,
+        "PREMIER CONTRACTORS LLC": 40.0,
+        "ANTHONY SERVICES": 44.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 150.0,
+      "engEstUnit": 42.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "DOUBLE S TRACTOR SERVICES, LLC": 2.0,
+        "EASTGATE SERVICES": 0.01,
+        "PREMIER CONTRACTORS LLC": 15.0,
+        "ANTHONY SERVICES": 25.0
+      }
+    }
+  ]
+}

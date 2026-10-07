@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "csj": "6415-26-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641526001",
+    "projectType": "MISCELLANEOUS CONCRETE REPAIR",
+    "letDate": "12/07/22",
+    "engEstTotal": 117755.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "IBCTX, LLC",
+      "totalBidAmount": 143800.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 158100.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 172150.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "GIBSON & ASSOCIATES, INC.",
+      "totalBidAmount": 178050.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6021",
+      "description": "REMOVING CONC (CURB)",
+      "unit": "LF",
+      "quantity": 400.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "IBCTX, LLC": 35.0,
+        "TALBRAN ENTERPRISES LLC": 100.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 50.0,
+        "GIBSON & ASSOCIATES, INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0104 6022",
+      "description": "REMOVING CONC (CURB AND GUTTER)",
+      "unit": "LF",
+      "quantity": 75.0,
+      "engEstUnit": 28.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "IBCTX, LLC": 50.0,
+        "TALBRAN ENTERPRISES LLC": 100.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 50.0,
+        "GIBSON & ASSOCIATES, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0429 6008",
+      "description": "CONC STR REPR(RAPID VERT AND OVERHEAD)",
+      "unit": "SF",
+      "quantity": 253.0,
+      "engEstUnit": 260.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "IBCTX, LLC": 250.0,
+        "TALBRAN ENTERPRISES LLC": 200.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 300.0,
+        "GIBSON & ASSOCIATES, INC.": 225.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 9750.0,
+      "lowUnit": 14300.0,
+      "bidders": {
+        "IBCTX, LLC": 14300.0,
+        "TALBRAN ENTERPRISES LLC": 5000.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 20000.0,
+        "GIBSON & ASSOCIATES, INC.": 8000.0
+      }
+    },
+    {
+      "itemCode": "0529 6002",
+      "description": "CONC CURB (TY II)",
+      "unit": "LF",
+      "quantity": 400.0,
+      "engEstUnit": 29.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "IBCTX, LLC": 60.0,
+        "TALBRAN ENTERPRISES LLC": 85.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 60.0,
+        "GIBSON & ASSOCIATES, INC.": 150.0
+      }
+    },
+    {
+      "itemCode": "0529 6008",
+      "description": "CONC CURB & GUTTER (TY II)",
+      "unit": "LF",
+      "quantity": 75.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "IBCTX, LLC": 100.0,
+        "TALBRAN ENTERPRISES LLC": 80.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 60.0,
+        "GIBSON & ASSOCIATES, INC.": 225.0
+      }
+    }
+  ]
+}

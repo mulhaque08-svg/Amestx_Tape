@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6399-96-001",
+    "county": "San Augustine",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639996001",
+    "projectType": "EMULSION",
+    "letDate": "04/12/22",
+    "engEstTotal": 180840.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 203940.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ERGON ASPHALT & EMULSIONS, INC.",
+      "totalBidAmount": 226740.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "WRIGHT ASPHALT PRODUCTS COMPANY LLC",
+      "totalBidAmount": 250800.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6214",
+      "description": "EMULSION (CRS-2P) (DEL) (SITE 1)",
+      "unit": "GAL",
+      "quantity": 6000.0,
+      "engEstUnit": 2.74,
+      "lowUnit": 3.09,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.09,
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.43,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.8
+      }
+    },
+    {
+      "itemCode": "8010 6215",
+      "description": "EMULSION (CRS-2P) (DEL) (SITE 2)",
+      "unit": "GAL",
+      "quantity": 24000.0,
+      "engEstUnit": 2.74,
+      "lowUnit": 3.09,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.09,
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.43,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.8
+      }
+    },
+    {
+      "itemCode": "8010 6216",
+      "description": "EMULSION (CRS-2P) (DEL) (SITE 3)",
+      "unit": "GAL",
+      "quantity": 18000.0,
+      "engEstUnit": 2.74,
+      "lowUnit": 3.09,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.09,
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.44,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.8
+      }
+    },
+    {
+      "itemCode": "8010 6217",
+      "description": "EMULSION (CRS-2P) (DEL) (SITE 4)",
+      "unit": "GAL",
+      "quantity": 18000.0,
+      "engEstUnit": 2.74,
+      "lowUnit": 3.09,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.09,
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.44,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.8
+      }
+    }
+  ]
+}

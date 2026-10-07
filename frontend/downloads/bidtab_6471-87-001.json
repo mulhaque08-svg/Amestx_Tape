@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6471-87-001",
+    "county": "Live Oak",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 647187001",
+    "projectType": "HOT-MIX COLD-LAID",
+    "letDate": "08/20/24",
+    "engEstTotal": 333000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 293250.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 294000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 331500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8013 6009",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 1)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 97.75,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 97.75,
+        "BRAUNTEX MATERIALS, INC.": 98.0,
+        "COLORADO MATERIALS, LTD.": 109.5
+      }
+    },
+    {
+      "itemCode": "8013 6010",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 2)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 112.0,
+      "lowUnit": 97.75,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 97.75,
+        "BRAUNTEX MATERIALS, INC.": 98.0,
+        "COLORADO MATERIALS, LTD.": 111.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6428-80-001",
+    "county": "Jim Wells",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642880001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "12/13/22",
+    "engEstTotal": 283500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 283500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 339255.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ANDERSON COLUMBIA CO., INC.",
+      "totalBidAmount": 391432.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6078",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 1)",
+      "unit": "TON",
+      "quantity": 6750.0,
+      "engEstUnit": 42.0,
+      "lowUnit": 42.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 42.0,
+        "COLORADO MATERIALS, LTD.": 50.26,
+        "ANDERSON COLUMBIA CO., INC.": 57.99
+      }
+    }
+  ]
+}

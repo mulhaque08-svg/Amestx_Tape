@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6466-93-001",
+    "county": "Refugio",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646693001",
+    "projectType": "HOT-MIX COLD-LAID",
+    "letDate": "05/21/24",
+    "engEstTotal": 293400.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 305200.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 311444.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8013 6009",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 1)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 102.0,
+      "lowUnit": 109.0,
+      "bidders": {
+        "BRAUNTEX MATERIALS, INC.": 109.0,
+        "COLORADO MATERIALS, LTD.": 105.64
+      }
+    },
+    {
+      "itemCode": "8013 6010",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 2)",
+      "unit": "TON",
+      "quantity": 2600.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 109.0,
+      "bidders": {
+        "BRAUNTEX MATERIALS, INC.": 109.0,
+        "COLORADO MATERIALS, LTD.": 111.66
+      }
+    }
+  ]
+}

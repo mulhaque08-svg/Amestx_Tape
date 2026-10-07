@@ -1,0 +1,686 @@
+{
+  "metadata": {
+    "csj": "0046-06-082",
+    "county": "Bowie",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "STP 2022(407)HES",
+    "projectType": "INSTALL TRAFFIC SIGNAL",
+    "letDate": "03/04/22",
+    "engEstTotal": 258017.76,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "STRIPING TECHNOLOGY, L.P.",
+      "totalBidAmount": 248913.27
+    },
+    {
+      "rank": 2,
+      "vendorName": "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.",
+      "totalBidAmount": 296341.58
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6001",
+      "description": "PREPARING ROW",
+      "unit": "AC",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 2000.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 16974.0
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 1089.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.45,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 0.45,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 0.35
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 1089.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.38,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 0.38,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 0.32
+      }
+    },
+    {
+      "itemCode": "0164 6054",
+      "description": "BOND FBR MTRX SEED (PERM)(RURAL)(SAND)",
+      "unit": "SY",
+      "quantity": 4840.0,
+      "engEstUnit": 1.2,
+      "lowUnit": 0.95,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 0.95,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 0.77
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 104.5,
+      "engEstUnit": 9.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 50.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 0.35
+      }
+    },
+    {
+      "itemCode": "0416 6029",
+      "description": "DRILL SHAFT (RDWY ILL POLE) (30 IN)",
+      "unit": "LF",
+      "quantity": 20.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 190.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 190.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 220.8
+      }
+    },
+    {
+      "itemCode": "0416 6031",
+      "description": "DRILL SHAFT (TRF SIG POLE) (30 IN)",
+      "unit": "LF",
+      "quantity": 23.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 190.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 190.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 232.3
+      }
+    },
+    {
+      "itemCode": "0416 6032",
+      "description": "DRILL SHAFT (TRF SIG POLE) (36 IN)",
+      "unit": "LF",
+      "quantity": 40.0,
+      "engEstUnit": 280.0,
+      "lowUnit": 262.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 262.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 281.75
+      }
+    },
+    {
+      "itemCode": "0432 6006",
+      "description": "RIPRAP (CONC)(CL B)",
+      "unit": "CY",
+      "quantity": 2.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 600.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 2012.5
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 30000.0,
+      "lowUnit": 21500.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 21500.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 29376.4
+      }
+    },
+    {
+      "itemCode": "0610 6288",
+      "description": "IN RD IL (TY SA) 50T-10 (400W EQ) LED",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 4200.0,
+      "lowUnit": 6100.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 6100.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 4295.25
+      }
+    },
+    {
+      "itemCode": "0618 6023",
+      "description": "CONDT (PVC) (SCH 40) (2\")",
+      "unit": "LF",
+      "quantity": 294.0,
+      "engEstUnit": 9.0,
+      "lowUnit": 7.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 7.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 22.43
+      }
+    },
+    {
+      "itemCode": "0618 6024",
+      "description": "CONDT (PVC) (SCH 40) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 115.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 29.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 29.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 24.28
+      }
+    },
+    {
+      "itemCode": "0618 6033",
+      "description": "CONDT (PVC) (SCH 40) (4\")",
+      "unit": "LF",
+      "quantity": 40.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 19.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 19.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 41.56
+      }
+    },
+    {
+      "itemCode": "0618 6034",
+      "description": "CONDT (PVC) (SCH 40) (4\") (BORE)",
+      "unit": "LF",
+      "quantity": 73.0,
+      "engEstUnit": 29.0,
+      "lowUnit": 48.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 48.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 45.68
+      }
+    },
+    {
+      "itemCode": "0620 6009",
+      "description": "ELEC CONDR (NO.6) BARE",
+      "unit": "LF",
+      "quantity": 1075.0,
+      "engEstUnit": 1.6,
+      "lowUnit": 2.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 2.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 2.59
+      }
+    },
+    {
+      "itemCode": "0620 6010",
+      "description": "ELEC CONDR (NO.6) INSULATED",
+      "unit": "LF",
+      "quantity": 1426.0,
+      "engEstUnit": 1.9,
+      "lowUnit": 2.4,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 2.4,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 2.77
+      }
+    },
+    {
+      "itemCode": "0620 6012",
+      "description": "ELEC CONDR (NO.4) INSULATED",
+      "unit": "LF",
+      "quantity": 120.0,
+      "engEstUnit": 3.2,
+      "lowUnit": 4.9,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 4.9,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 3.67
+      }
+    },
+    {
+      "itemCode": "0624 6002",
+      "description": "GROUND BOX TY A (122311)W/APRON",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 850.0,
+      "lowUnit": 700.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 700.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 971.75
+      }
+    },
+    {
+      "itemCode": "0624 6009",
+      "description": "GROUND BOX TY D (162922)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 650.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 650.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 833.75
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 700.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 700.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 1040.75
+      }
+    },
+    {
+      "itemCode": "0628 6002",
+      "description": "REMOVE ELECTRICAL SERVICES",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 1350.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 1350.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 747.5
+      }
+    },
+    {
+      "itemCode": "0628 6164",
+      "description": "ELC SRV TY D 120/240 070(NS)AL(E)PS(U)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 5100.0,
+      "lowUnit": 5100.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 5100.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 5168.1
+      }
+    },
+    {
+      "itemCode": "0628 6307",
+      "description": "ELC SRV TY T 120/240 000(NS)GS(N)SP(O)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3120.0,
+      "lowUnit": 3200.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 3200.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 4867.95
+      }
+    },
+    {
+      "itemCode": "0644 6060",
+      "description": "IN SM RD SN SUP&AM TYTWT(1)WS(P)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 810.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 810.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 434.1
+      }
+    },
+    {
+      "itemCode": "0644 6071",
+      "description": "RELOCATE SM RD SN SUP&AM TY TWT",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 510.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 510.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 656.11
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 75.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 143.75
+      }
+    },
+    {
+      "itemCode": "0668 6076",
+      "description": "PREFAB PAV MRK TY C (W) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 76.0,
+      "engEstUnit": 15.5,
+      "lowUnit": 20.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 20.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 17.25
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 290.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 300.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 230.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 320.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 350.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 287.5
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 207.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 5.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 0.86
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 20.0,
+      "engEstUnit": 1.3,
+      "lowUnit": 5.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 5.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 1.15
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 49.0,
+      "engEstUnit": 2.9,
+      "lowUnit": 10.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 10.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 3.45
+      }
+    },
+    {
+      "itemCode": "0682 6001",
+      "description": "VEH SIG SEC (12\")LED(GRN)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 260.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 260.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 192.69
+      }
+    },
+    {
+      "itemCode": "0682 6002",
+      "description": "VEH SIG SEC (12\")LED(GRN ARW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 260.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 260.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 192.69
+      }
+    },
+    {
+      "itemCode": "0682 6003",
+      "description": "VEH SIG SEC (12\")LED(YEL)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 260.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 260.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 192.69
+      }
+    },
+    {
+      "itemCode": "0682 6004",
+      "description": "VEH SIG SEC (12\")LED(YEL ARW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 260.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 260.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 192.69
+      }
+    },
+    {
+      "itemCode": "0682 6005",
+      "description": "VEH SIG SEC (12\")LED(RED)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 260.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 260.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 192.69
+      }
+    },
+    {
+      "itemCode": "0682 6021",
+      "description": "BACK PLATE (12\")(1 SEC)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 45.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 60.09
+      }
+    },
+    {
+      "itemCode": "0682 6054",
+      "description": "BACKPLATE W/REF BRDR(3 SEC)(VENT)ALUM",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 145.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 140.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 118.74
+      }
+    },
+    {
+      "itemCode": "0682 6056",
+      "description": "BACKPLATE W/REF BRDR(5 SEC)(VENT)ALUM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 180.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 180.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 146.34
+      }
+    },
+    {
+      "itemCode": "0684 6008",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(3 CONDR)",
+      "unit": "LF",
+      "quantity": 118.0,
+      "engEstUnit": 1.85,
+      "lowUnit": 1.8,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 1.8,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 2.79
+      }
+    },
+    {
+      "itemCode": "0684 6010",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(5 CONDR)",
+      "unit": "LF",
+      "quantity": 1468.0,
+      "engEstUnit": 2.7,
+      "lowUnit": 3.1,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 3.1,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 3.38
+      }
+    },
+    {
+      "itemCode": "0684 6012",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(7 CONDR)",
+      "unit": "LF",
+      "quantity": 441.0,
+      "engEstUnit": 2.9,
+      "lowUnit": 3.2,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 3.2,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 3.67
+      }
+    },
+    {
+      "itemCode": "0684 6015",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(10 CONDR)",
+      "unit": "LF",
+      "quantity": 226.0,
+      "engEstUnit": 3.3,
+      "lowUnit": 4.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 4.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 3.86
+      }
+    },
+    {
+      "itemCode": "0685 6001",
+      "description": "INSTALL RDSD FLASH BEACON ASSEMBLY",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 3500.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 3500.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 3885.56
+      }
+    },
+    {
+      "itemCode": "0686 6029",
+      "description": "INS TRF SIG PL AM (S)1 ARM(28')",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 6000.0,
+      "lowUnit": 10200.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 10200.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 7237.39
+      }
+    },
+    {
+      "itemCode": "0686 6037",
+      "description": "INS TRF SIG PL AM(S)1 ARM(36')",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 11500.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 11500.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 9138.34
+      }
+    },
+    {
+      "itemCode": "0686 6049",
+      "description": "INS TRF SIG PL AM(S)1 ARM(48')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 9000.0,
+      "lowUnit": 14000.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 14000.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 11234.79
+      }
+    },
+    {
+      "itemCode": "0687 6001",
+      "description": "PED POLE ASSEMBLY",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 3380.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 3380.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 2678.06
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 34.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 150.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 127.65
+      }
+    },
+    {
+      "itemCode": "6056 6001",
+      "description": "PREFORMED IN-LANE(TRANS) RUMBLE STRIP",
+      "unit": "LF",
+      "quantity": 160.0,
+      "engEstUnit": 5.1,
+      "lowUnit": 25.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 25.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 23.0
+      }
+    },
+    {
+      "itemCode": "6058 6001",
+      "description": "BBU SYSTEM (EXTERNAL BATT CABINET)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 7200.0,
+      "lowUnit": 8100.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 8100.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 6109.38
+      }
+    },
+    {
+      "itemCode": "6089 6002",
+      "description": "CAT 5 ETHERNET CABLE",
+      "unit": "LF",
+      "quantity": 1248.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 2.2,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 2.2,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 1.99
+      }
+    },
+    {
+      "itemCode": "6306 6010",
+      "description": "VIVDS CAM ASSY (INSTALL ONLY)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 700.0,
+      "bidders": {
+        "STRIPING TECHNOLOGY, L.P.": 700.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.": 416.88
+      }
+    }
+  ]
+}

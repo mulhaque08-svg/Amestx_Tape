@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6471-54-001",
+    "county": "Eastland",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 647154001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "08/22/24",
+    "engEstTotal": 760594.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 676573.9
+    },
+    {
+      "rank": 2,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 681619.02
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 11482.0,
+      "engEstUnit": 42.0,
+      "lowUnit": 39.56,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 39.56,
+        "ABESCAPE GROUP LLC": 39.98
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 5567.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 39.94,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 39.94,
+        "ABESCAPE GROUP LLC": 39.98
+      }
+    }
+  ]
+}

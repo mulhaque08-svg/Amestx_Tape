@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "csj": "6408-83-001",
+    "county": "Blanco",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 640883001",
+    "projectType": "HOT-MIX COLD-LAID",
+    "letDate": "09/07/23",
+    "engEstTotal": 2449200.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MALBEC MATERIALS LLC",
+      "totalBidAmount": 2266800.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 2305200.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 2349900.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 2649372.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8013 6009",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 1)",
+      "unit": "TON",
+      "quantity": 4800.0,
+      "engEstUnit": 94.0,
+      "lowUnit": 81.0,
+      "bidders": {
+        "MALBEC MATERIALS LLC": 81.0,
+        "BRAUNTEX MATERIALS, INC.": 80.0,
+        "TEXAS MATERIALS GROUP, INC.": 83.5,
+        "COLORADO MATERIALS, LTD.": 90.67
+      }
+    },
+    {
+      "itemCode": "8013 6010",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 2)",
+      "unit": "TON",
+      "quantity": 6000.0,
+      "engEstUnit": 94.0,
+      "lowUnit": 87.0,
+      "bidders": {
+        "MALBEC MATERIALS LLC": 87.0,
+        "BRAUNTEX MATERIALS, INC.": 85.0,
+        "TEXAS MATERIALS GROUP, INC.": 87.5,
+        "COLORADO MATERIALS, LTD.": 100.95
+      }
+    },
+    {
+      "itemCode": "8013 6011",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 3)",
+      "unit": "TON",
+      "quantity": 6000.0,
+      "engEstUnit": 88.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "MALBEC MATERIALS LLC": 85.0,
+        "BRAUNTEX MATERIALS, INC.": 85.0,
+        "TEXAS MATERIALS GROUP, INC.": 85.0,
+        "COLORADO MATERIALS, LTD.": 100.95
+      }
+    },
+    {
+      "itemCode": "8013 6012",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 4)",
+      "unit": "TON",
+      "quantity": 3600.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "MALBEC MATERIALS LLC": 85.0,
+        "BRAUNTEX MATERIALS, INC.": 92.0,
+        "TEXAS MATERIALS GROUP, INC.": 93.5,
+        "COLORADO MATERIALS, LTD.": 98.61
+      }
+    },
+    {
+      "itemCode": "8013 6013",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 5)",
+      "unit": "TON",
+      "quantity": 6000.0,
+      "engEstUnit": 94.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "MALBEC MATERIALS LLC": 90.0,
+        "BRAUNTEX MATERIALS, INC.": 95.0,
+        "TEXAS MATERIALS GROUP, INC.": 96.25,
+        "COLORADO MATERIALS, LTD.": 107.96
+      }
+    }
+  ]
+}

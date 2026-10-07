@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "csj": "6458-29-001",
+    "county": "Grayson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645829001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/06/23",
+    "engEstTotal": 386788.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AMS TRACTOR SERVICES, LLC",
+      "totalBidAmount": 350423.4
+    },
+    {
+      "rank": 2,
+      "vendorName": "PREMIER CONTRACTORS LLC",
+      "totalBidAmount": 373196.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 402999.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "MARLANE CONSTRUCTION, LLC",
+      "totalBidAmount": 417083.54
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "AMS TRACTOR SERVICES, LLC": 1.0,
+        "PREMIER CONTRACTORS LLC": 1000.0,
+        "ANTHONY SERVICES": 1000.0,
+        "MARLANE CONSTRUCTION, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 7246.0,
+      "engEstUnit": 46.0,
+      "lowUnit": 42.9,
+      "bidders": {
+        "AMS TRACTOR SERVICES, LLC": 42.9,
+        "PREMIER CONTRACTORS LLC": 40.0,
+        "ANTHONY SERVICES": 44.0,
+        "MARLANE CONSTRUCTION, LLC": 45.99
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 140.0,
+      "engEstUnit": 46.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "AMS TRACTOR SERVICES, LLC": 1.0,
+        "PREMIER CONTRACTORS LLC": 20.0,
+        "ANTHONY SERVICES": 25.0,
+        "MARLANE CONSTRUCTION, LLC": 45.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 2627.0,
+      "engEstUnit": 16.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "AMS TRACTOR SERVICES, LLC": 15.0,
+        "PREMIER CONTRACTORS LLC": 28.0,
+        "ANTHONY SERVICES": 25.0,
+        "MARLANE CONSTRUCTION, LLC": 20.0
+      }
+    }
+  ]
+}

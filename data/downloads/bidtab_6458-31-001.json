@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6458-31-001",
+    "county": "Hopkins",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645831001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/21/23",
+    "engEstTotal": 183850.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "EASTGATE SERVICES",
+      "totalBidAmount": 164603.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SOUTHERN EDGE CONTRACTORS LLC",
+      "totalBidAmount": 189903.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "RISE UP REFUSE, LLC",
+      "totalBidAmount": 223320.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "EASTGATE SERVICES": 1.0,
+        "SOUTHERN EDGE CONTRACTORS LLC": 1.0,
+        "RISE UP REFUSE, LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 5060.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 32.5,
+      "bidders": {
+        "EASTGATE SERVICES": 32.5,
+        "SOUTHERN EDGE CONTRACTORS LLC": 37.5,
+        "RISE UP REFUSE, LLC": 42.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 150.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "EASTGATE SERVICES": 1.0,
+        "SOUTHERN EDGE CONTRACTORS LLC": 1.0,
+        "RISE UP REFUSE, LLC": 42.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "csj": "6456-49-001",
+    "county": "Brazoria",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645649001",
+    "projectType": "BRIDGE REPAIR",
+    "letDate": "04/09/24",
+    "engEstTotal": 244277.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SCR CIVIL CONSTRUCTION, LLC",
+      "totalBidAmount": 300788.8
+    },
+    {
+      "rank": 2,
+      "vendorName": "MC2 CIVIL, LLC",
+      "totalBidAmount": 479885.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0429 6002",
+      "description": "CONC STR REPAIR (EPOXY MORTAR)",
+      "unit": "SF",
+      "quantity": 1.5,
+      "engEstUnit": 747.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "SCR CIVIL CONSTRUCTION, LLC": 1000.0,
+        "MC2 CIVIL, LLC": 3000.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 564.45,
+      "engEstUnit": 300.0,
+      "lowUnit": 284.0,
+      "bidders": {
+        "SCR CIVIL CONSTRUCTION, LLC": 284.0,
+        "MC2 CIVIL, LLC": 390.0
+      }
+    },
+    {
+      "itemCode": "0471 6004",
+      "description": "FRAME & COVER",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 7200.0,
+      "bidders": {
+        "SCR CIVIL CONSTRUCTION, LLC": 7200.0,
+        "MC2 CIVIL, LLC": 30000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 13722.0,
+      "lowUnit": 30000.0,
+      "bidders": {
+        "SCR CIVIL CONSTRUCTION, LLC": 30000.0,
+        "MC2 CIVIL, LLC": 47000.0
+      }
+    },
+    {
+      "itemCode": "0778 6026",
+      "description": "CONCRETE RAIL REPAIR (TYPE T502MOD)",
+      "unit": "LF",
+      "quantity": 6.0,
+      "engEstUnit": 850.0,
+      "lowUnit": 3800.0,
+      "bidders": {
+        "SCR CIVIL CONSTRUCTION, LLC": 3800.0,
+        "MC2 CIVIL, LLC": 2700.0
+      }
+    },
+    {
+      "itemCode": "0780 6002",
+      "description": "CNC CRACK REPAIR (DISCRETE)(INJECT)",
+      "unit": "LF",
+      "quantity": 45.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 203.0,
+      "bidders": {
+        "SCR CIVIL CONSTRUCTION, LLC": 203.0,
+        "MC2 CIVIL, LLC": 540.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 40.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "SCR CIVIL CONSTRUCTION, LLC": 300.0,
+        "MC2 CIVIL, LLC": 100.0
+      }
+    }
+  ]
+}

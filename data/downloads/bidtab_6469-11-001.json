@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6469-11-001",
+    "county": "Karnes",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646911001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "06/18/24",
+    "engEstTotal": 115500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 106680.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 131040.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 248500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6078",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 1)",
+      "unit": "TON",
+      "quantity": 3500.0,
+      "engEstUnit": 33.0,
+      "lowUnit": 30.48,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 30.48,
+        "MARTIN MARIETTA MATERIALS, INC.": 37.44,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 71.0
+      }
+    }
+  ]
+}

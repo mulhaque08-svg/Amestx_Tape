@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6363-77-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 636377001",
+    "projectType": "CLEANING AND SWEEPING HIGHWAYS AND DEBRIS REMOVAL",
+    "letDate": "01/07/21",
+    "engEstTotal": 1645432.97,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.",
+      "totalBidAmount": 1475321.37
+    },
+    {
+      "rank": 2,
+      "vendorName": "SWEEPING CORPORATION OF AMERICA, INC.",
+      "totalBidAmount": 1602418.16
+    },
+    {
+      "rank": 3,
+      "vendorName": "PANNELL INDUSTRIES, INC.",
+      "totalBidAmount": 1854195.72
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 50000.0,
+      "lowUnit": 120000.0,
+      "bidders": {
+        "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.": 120000.0,
+        "SWEEPING CORPORATION OF AMERICA, INC.": 1.0,
+        "PANNELL INDUSTRIES, INC.": 10000.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.": 1.0,
+        "SWEEPING CORPORATION OF AMERICA, INC.": 1.0,
+        "PANNELL INDUSTRIES, INC.": 100.0
+      }
+    }
+  ]
+}

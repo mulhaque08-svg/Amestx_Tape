@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6449-91-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644991001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "01/04/24",
+    "engEstTotal": 522269.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 592733.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "PREMIER CONTRACTORS LLC",
+      "totalBidAmount": 607393.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 43123.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ANTHONY SERVICES": 1.0,
+        "PREMIER CONTRACTORS LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6104",
+      "description": "FULL-WIDTH MOWING (RURAL)",
+      "unit": "AC",
+      "quantity": 1466.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 68.0,
+      "bidders": {
+        "ANTHONY SERVICES": 68.0,
+        "PREMIER CONTRACTORS LLC": 70.0
+      }
+    },
+    {
+      "itemCode": "0730 6105",
+      "description": "FULL-WIDTH MOWING (URBAN)",
+      "unit": "AC",
+      "quantity": 4158.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 78.0,
+      "bidders": {
+        "ANTHONY SERVICES": 78.0,
+        "PREMIER CONTRACTORS LLC": 70.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 5624.0,
+      "engEstUnit": 21.5,
+      "lowUnit": 30.0,
+      "bidders": {
+        "ANTHONY SERVICES": 30.0,
+        "PREMIER CONTRACTORS LLC": 38.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6401-82-001",
+    "county": "Brown",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 640182001",
+    "projectType": "HOT MIX",
+    "letDate": "04/28/22",
+    "engEstTotal": 96167.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 96205.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6003",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 250.0,
+      "engEstUnit": 79.0,
+      "lowUnit": 85.15,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 85.15
+      }
+    },
+    {
+      "itemCode": "8011 6059",
+      "description": "D-GR HMA TY D PG 70-22 (DLVR) SITE 1",
+      "unit": "TON",
+      "quantity": 750.0,
+      "engEstUnit": 101.89,
+      "lowUnit": 99.89,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 99.89
+      }
+    }
+  ]
+}

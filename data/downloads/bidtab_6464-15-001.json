@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6464-15-001",
+    "county": "Orange",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646415001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/01/24",
+    "engEstTotal": 633899.85,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 379813.6
+    },
+    {
+      "rank": 2,
+      "vendorName": "ISI CONTRACTING, INC.",
+      "totalBidAmount": 475233.86
+    },
+    {
+      "rank": 3,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 595735.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 678980.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "RHINO EQUITY, LLC",
+      "totalBidAmount": 839795.75
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 57627.35,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 10000.0,
+        "ISI CONTRACTING, INC.": 5000.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 120000.0,
+        "ICOS MANAGEMENT, LLC": 21000.0,
+        "RHINO EQUITY, LLC": 17000.0
+      }
+    },
+    {
+      "itemCode": "0713 6001",
+      "description": "JT SEALING AND CLEANING(TRANS CNTR JTS)",
+      "unit": "LF",
+      "quantity": 26600.0,
+      "engEstUnit": 3.2,
+      "lowUnit": 0.5,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 0.5,
+        "ISI CONTRACTING, INC.": 0.6,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 2.0,
+        "ICOS MANAGEMENT, LLC": 1.5,
+        "RHINO EQUITY, LLC": 6.8
+      }
+    },
+    {
+      "itemCode": "0713 6002",
+      "description": "JT SEALING AND CLEANING(LONGT CNTR JTS)",
+      "unit": "LF",
+      "quantity": 65200.0,
+      "engEstUnit": 3.2,
+      "lowUnit": 0.5,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 0.5,
+        "ISI CONTRACTING, INC.": 0.6,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 2.0,
+        "ICOS MANAGEMENT, LLC": 1.5,
+        "RHINO EQUITY, LLC": 5.1
+      }
+    }
+  ]
+}

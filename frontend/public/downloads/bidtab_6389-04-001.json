@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "csj": "6389-04-001",
+    "county": "Falls",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638904001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "11/03/21",
+    "engEstTotal": 342453.76,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 299329.43
+    },
+    {
+      "rank": 2,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 325926.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "CEN-TEX IRRIGATION SYSTEMS, INC.",
+      "totalBidAmount": 412405.86
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 12683.47,
+      "lowUnit": 1.0,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 1232.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 5000.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 15.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 34.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0730 6104",
+      "description": "FULL-WIDTH MOWING (RURAL)",
+      "unit": "AC",
+      "quantity": 6542.2,
+      "engEstUnit": 42.0,
+      "lowUnit": 39.89,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 39.89,
+        "CROSS PLUS CONSTRUCTION, LLC": 42.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 52.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 3145.34,
+      "engEstUnit": 13.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 12.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 15.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 19.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 12.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 20.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 19.0
+      }
+    }
+  ]
+}

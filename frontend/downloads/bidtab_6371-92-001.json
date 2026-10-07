@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6371-92-001",
+    "county": "Gregg",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637192001",
+    "projectType": "FLEXBASE MATERIALS ONLY",
+    "letDate": "01/12/21",
+    "engEstTotal": 115200.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 119394.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MANN ROBINSON & SON, INC.",
+      "totalBidAmount": 258150.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6058",
+      "description": "FL BS (TY A GR 3)(DEL)(IN VEH)(SITE 1)",
+      "unit": "CY",
+      "quantity": 500.0,
+      "engEstUnit": 64.0,
+      "lowUnit": 66.33,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 66.33,
+        "MANN ROBINSON & SON, INC.": 125.0
+      }
+    },
+    {
+      "itemCode": "8007 6059",
+      "description": "FL BS (TY A GR 3)(DEL)(IN VEH)(SITE 2)",
+      "unit": "CY",
+      "quantity": 500.0,
+      "engEstUnit": 64.0,
+      "lowUnit": 66.33,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 66.33,
+        "MANN ROBINSON & SON, INC.": 150.5
+      }
+    },
+    {
+      "itemCode": "8007 6064",
+      "description": "FL BS (TY E GR 1-2)(IN VEH)(PICKUP)",
+      "unit": "CY",
+      "quantity": 400.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 66.33,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 66.33,
+        "MANN ROBINSON & SON, INC.": 150.5
+      }
+    },
+    {
+      "itemCode": "8007 6090",
+      "description": "FL BS (STE DEL)(TY E GR 1-2)(IN VEH)",
+      "unit": "CY",
+      "quantity": 400.0,
+      "engEstUnit": 68.0,
+      "lowUnit": 66.33,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 66.33,
+        "MANN ROBINSON & SON, INC.": 150.5
+      }
+    }
+  ]
+}

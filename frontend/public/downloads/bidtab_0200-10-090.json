@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "0200-10-090",
+    "county": "Hardin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "STP 2023(470)HES",
+    "projectType": "HAZARD ELIMINATION & SAFETY",
+    "letDate": "02/01/23",
+    "engEstTotal": 210188.35,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "THIRD COAST SERVICES LLC",
+      "totalBidAmount": 250000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "VACA UNDERGROUND UTILITIES INC",
+      "totalBidAmount": 258600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 19108.03,
+      "lowUnit": 24500.0,
+      "bidders": {
+        "THIRD COAST SERVICES LLC": 24500.0,
+        "VACA UNDERGROUND UTILITIES INC": 10000.0
+      }
+    },
+    {
+      "itemCode": "6293 6002",
+      "description": "ATSC (TY 2)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 26000.0,
+      "lowUnit": 32000.0,
+      "bidders": {
+        "THIRD COAST SERVICES LLC": 32000.0,
+        "VACA UNDERGROUND UTILITIES INC": 35500.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6465-01-001",
+    "county": "Mcculloch",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646501001",
+    "projectType": "HOT-MIX COLD-LAID (MATERIALS ONLY)",
+    "letDate": "03/26/24",
+    "engEstTotal": 281800.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 280000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ZACK BURKETT CO.",
+      "totalBidAmount": 294520.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8013 6003",
+      "description": "HMCL ACP TYPE B (DELIVERY)(SITE 1)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 140.9,
+      "lowUnit": 140.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 140.0,
+        "ZACK BURKETT CO.": 147.26
+      }
+    }
+  ]
+}

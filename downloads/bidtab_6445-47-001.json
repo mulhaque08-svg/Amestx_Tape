@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6445-47-001",
+    "county": "Angelina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 644547001",
+    "projectType": "HYDRAULIC CEMENT",
+    "letDate": "06/08/23",
+    "engEstTotal": 29700.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AKA-MATERIALS",
+      "totalBidAmount": 31050.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TUFFTEX MATERIALS",
+      "totalBidAmount": 31452.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 32600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8012 6002",
+      "description": "HYDRAULIC CEMENT(TY I)(DEL)(SITE 2)",
+      "unit": "TON",
+      "quantity": 100.0,
+      "engEstUnit": 222.0,
+      "lowUnit": 229.0,
+      "bidders": {
+        "AKA-MATERIALS": 229.0,
+        "TUFFTEX MATERIALS": 242.32,
+        "TOUCHSTONE RESOURCES, LLC": 245.0
+      }
+    },
+    {
+      "itemCode": "8012 6018",
+      "description": "HYDRAULIC CEMENT(TY I)(47LB)",
+      "unit": "BAG",
+      "quantity": 1000.0,
+      "engEstUnit": 7.5,
+      "lowUnit": 8.15,
+      "bidders": {
+        "AKA-MATERIALS": 8.15,
+        "TUFFTEX MATERIALS": 7.22,
+        "TOUCHSTONE RESOURCES, LLC": 8.1
+      }
+    }
+  ]
+}

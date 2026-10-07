@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6462-46-001",
+    "county": "Cooke",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646246001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/05/24",
+    "engEstTotal": 320438.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 286568.32
+    },
+    {
+      "rank": 2,
+      "vendorName": "RENEGADE SITE SOLUTIONS, LLC",
+      "totalBidAmount": 320189.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 349512.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 398556.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1634.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 26.48,
+      "bidders": {
+        "ANTHONY SERVICES": 26.48,
+        "RENEGADE SITE SOLUTIONS, LLC": 38.5,
+        "RISE UP CONSTRUCTION LLC": 42.0,
+        "ABESCAPE GROUP LLC": 48.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6402.0,
+      "engEstUnit": 39.0,
+      "lowUnit": 38.0,
+      "bidders": {
+        "ANTHONY SERVICES": 38.0,
+        "RENEGADE SITE SOLUTIONS, LLC": 40.0,
+        "RISE UP CONSTRUCTION LLC": 42.0,
+        "ABESCAPE GROUP LLC": 50.0
+      }
+    }
+  ]
+}

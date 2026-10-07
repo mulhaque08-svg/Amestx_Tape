@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6396-17-001",
+    "county": "El Paso",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639617001",
+    "projectType": "PICNIC AREA MAINTENANCE",
+    "letDate": "02/15/22",
+    "engEstTotal": 48000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "C&C SOSA COMPANY, LLC",
+      "totalBidAmount": 43200.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SYNERGY PROJECT CONTRACTORS, INC.",
+      "totalBidAmount": 59856.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0745 6155",
+      "description": "JANITORIAL MAINT (PICNIC AREAS)",
+      "unit": "MO",
+      "quantity": 12.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 3600.0,
+      "bidders": {
+        "C&C SOSA COMPANY, LLC": 3600.0,
+        "SYNERGY PROJECT CONTRACTORS, INC.": 4988.0
+      }
+    }
+  ]
+}

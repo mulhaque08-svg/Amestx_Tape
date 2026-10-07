@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "csj": "0911-00-095",
+    "county": "Angelina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 911-00-95",
+    "projectType": "HIGHWAY IMPROVEMENT",
+    "letDate": "02/01/23",
+    "engEstTotal": 3604870.46,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CENTERLINE TECHNOLOGIES, LLC",
+      "totalBidAmount": 3368123.02
+    },
+    {
+      "rank": 2,
+      "vendorName": "INTERSTATE BARRICADES & MARKINGS, INC.",
+      "totalBidAmount": 3554650.24
+    },
+    {
+      "rank": 3,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 3835985.78
+    },
+    {
+      "rank": 4,
+      "vendorName": "STRIPE-A-ZONE, LLC",
+      "totalBidAmount": 3877812.33
+    },
+    {
+      "rank": 5,
+      "vendorName": "BATTERSON, LLP",
+      "totalBidAmount": 4098729.16
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 171200.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 1.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 30000.0,
+        "TRP CONSTRUCTION GROUP, LLC": 80000.0,
+        "STRIPE-A-ZONE, LLC": 50000.0,
+        "BATTERSON, LLP": 220000.0
+      }
+    },
+    {
+      "itemCode": "0533 6002",
+      "description": "RUMBLE STRIPS (CENTERLINE)",
+      "unit": "LF",
+      "quantity": 119053.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.3,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 0.3,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.25,
+        "TRP CONSTRUCTION GROUP, LLC": 0.26,
+        "STRIPE-A-ZONE, LLC": 0.34,
+        "BATTERSON, LLP": 0.24
+      }
+    },
+    {
+      "itemCode": "0668 6076",
+      "description": "PREFAB PAV MRK TY C (W) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 621.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 15.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 12.0,
+        "TRP CONSTRUCTION GROUP, LLC": 16.0,
+        "STRIPE-A-ZONE, LLC": 14.0,
+        "BATTERSON, LLP": 10.0
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 500.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 250.0,
+        "TRP CONSTRUCTION GROUP, LLC": 500.0,
+        "STRIPE-A-ZONE, LLC": 300.0,
+        "BATTERSON, LLP": 200.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 500.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 300.0,
+        "TRP CONSTRUCTION GROUP, LLC": 500.0,
+        "STRIPE-A-ZONE, LLC": 350.0,
+        "BATTERSON, LLP": 220.0
+      }
+    },
+    {
+      "itemCode": "6056 6002",
+      "description": "PREFORMED CENTERLINE RUMBLE STRIP",
+      "unit": "LF",
+      "quantity": 14098.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.5,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 4.5,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 5.85,
+        "TRP CONSTRUCTION GROUP, LLC": 4.85,
+        "STRIPE-A-ZONE, LLC": 9.5,
+        "BATTERSON, LLP": 4.5
+      }
+    }
+  ]
+}

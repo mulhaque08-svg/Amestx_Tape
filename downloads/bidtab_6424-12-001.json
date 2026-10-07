@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6424-12-001",
+    "county": "Fort Bend",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642412001",
+    "projectType": "HOT MIX",
+    "letDate": "01/05/23",
+    "engEstTotal": 732600.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JAMES CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 707460.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 709400.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "AMERICAN MATERIALS, INC.",
+      "totalBidAmount": 717240.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 3000.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 98.25,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 98.25,
+        "TEXAS MATERIALS GROUP, INC.": 100.0,
+        "AMERICAN MATERIALS, INC.": 99.0
+      }
+    },
+    {
+      "itemCode": "8011 6004",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2500.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 103.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 103.0,
+        "TEXAS MATERIALS GROUP, INC.": 104.0,
+        "AMERICAN MATERIALS, INC.": 109.0
+      }
+    },
+    {
+      "itemCode": "8011 6062",
+      "description": "D-GR HMA(SQ)TY B PG 64-22 (DLVR) SITE1",
+      "unit": "TON",
+      "quantity": 1660.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 93.5,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 93.5,
+        "TEXAS MATERIALS GROUP, INC.": 90.0,
+        "AMERICAN MATERIALS, INC.": 89.0
+      }
+    }
+  ]
+}

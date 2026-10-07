@@ -1,0 +1,736 @@
+{
+  "metadata": {
+    "csj": "0724-02-020",
+    "county": "Bosque",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2B24(133)",
+    "projectType": "REPLACE BRIDGE AND APPROACHES",
+    "letDate": "06/06/24",
+    "engEstTotal": 7591387.3,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 6464516.7
+    },
+    {
+      "rank": 2,
+      "vendorName": "JAMES CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 7453894.98
+    },
+    {
+      "rank": 3,
+      "vendorName": "C. E. BARKER, LTD.",
+      "totalBidAmount": 8772914.09
+    },
+    {
+      "rank": 4,
+      "vendorName": "MORTMARA CONSTRUCTION, INC.",
+      "totalBidAmount": 10588123.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 14.0,
+      "engEstUnit": 5050.0,
+      "lowUnit": 13000.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 13000.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 53150.0,
+        "C. E. BARKER, LTD.": 62000.0,
+        "MORTMARA CONSTRUCTION, INC.": 2500.0
+      }
+    },
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 304.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 29.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 29.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 17.67,
+        "C. E. BARKER, LTD.": 62.99,
+        "MORTMARA CONSTRUCTION, INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "0105 6008",
+      "description": "REMOVING STAB BASE AND ASPH PAV (6\")",
+      "unit": "SY",
+      "quantity": 525.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 16.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 6.32,
+        "C. E. BARKER, LTD.": 14.59,
+        "MORTMARA CONSTRUCTION, INC.": 35.0
+      }
+    },
+    {
+      "itemCode": "0105 6033",
+      "description": "REMOVING STB BASE AND ASPH PAV(10-14\")",
+      "unit": "SY",
+      "quantity": 3825.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 11.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 11.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 9.26,
+        "C. E. BARKER, LTD.": 14.59,
+        "MORTMARA CONSTRUCTION, INC.": 11.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 970.0,
+      "engEstUnit": 23.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 25.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 20.04,
+        "C. E. BARKER, LTD.": 52.38,
+        "MORTMARA CONSTRUCTION, INC.": 42.0
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 2819.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 36.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 36.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 30.54,
+        "C. E. BARKER, LTD.": 82.21,
+        "MORTMARA CONSTRUCTION, INC.": 39.0
+      }
+    },
+    {
+      "itemCode": "0132 6047",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY C1)",
+      "unit": "CY",
+      "quantity": 1379.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 25.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 46.55,
+        "C. E. BARKER, LTD.": 33.15,
+        "MORTMARA CONSTRUCTION, INC.": 46.0
+      }
+    },
+    {
+      "itemCode": "0132 6056",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY C2)(DS)",
+      "unit": "CY",
+      "quantity": 85.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 135.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 135.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 124.34,
+        "C. E. BARKER, LTD.": 33.15,
+        "MORTMARA CONSTRUCTION, INC.": 88.0
+      }
+    },
+    {
+      "itemCode": "0160 6003",
+      "description": "FURNISHING AND PLACING TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 4766.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 1.5,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 1.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.56,
+        "C. E. BARKER, LTD.": 1.33,
+        "MORTMARA CONSTRUCTION, INC.": 8.0
+      }
+    },
+    {
+      "itemCode": "0164 6003",
+      "description": "BROADCAST SEED (PERM) (RURAL) (CLAY)",
+      "unit": "SY",
+      "quantity": 4766.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.65,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 0.65,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.5,
+        "C. E. BARKER, LTD.": 0.66,
+        "MORTMARA CONSTRUCTION, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 2384.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 1.35,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 1.35,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.7,
+        "C. E. BARKER, LTD.": 0.66,
+        "MORTMARA CONSTRUCTION, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 2384.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 1.35,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 1.35,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.7,
+        "C. E. BARKER, LTD.": 0.66,
+        "MORTMARA CONSTRUCTION, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 78.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 65.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 54.05,
+        "C. E. BARKER, LTD.": 39.78,
+        "MORTMARA CONSTRUCTION, INC.": 90.0
+      }
+    },
+    {
+      "itemCode": "0169 6002",
+      "description": "SOIL RETENTION BLANKETS (CL 1) (TY B)",
+      "unit": "SY",
+      "quantity": 200.0,
+      "engEstUnit": 3.3,
+      "lowUnit": 7.5,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 7.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 9.0,
+        "C. E. BARKER, LTD.": 5.3,
+        "MORTMARA CONSTRUCTION, INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0351 6004",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(8\")",
+      "unit": "SY",
+      "quantity": 1000.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 98.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 98.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 87.62,
+        "C. E. BARKER, LTD.": 112.71,
+        "MORTMARA CONSTRUCTION, INC.": 125.0
+      }
+    },
+    {
+      "itemCode": "0354 6021",
+      "description": "PLANE ASPH CONC PAV(0\" TO 2\")",
+      "unit": "SY",
+      "quantity": 10000.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 2.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.94,
+        "C. E. BARKER, LTD.": 3.98,
+        "MORTMARA CONSTRUCTION, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 484.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 285.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 285.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 223.86,
+        "C. E. BARKER, LTD.": 196.25,
+        "MORTMARA CONSTRUCTION, INC.": 325.0
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 2360.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 15.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 31.17,
+        "C. E. BARKER, LTD.": 36.47,
+        "MORTMARA CONSTRUCTION, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0416 6001",
+      "description": "DRILL SHAFT (18 IN)",
+      "unit": "LF",
+      "quantity": 129.0,
+      "engEstUnit": 205.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 225.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 163.97,
+        "C. E. BARKER, LTD.": 529.3,
+        "MORTMARA CONSTRUCTION, INC.": 270.0
+      }
+    },
+    {
+      "itemCode": "0416 6004",
+      "description": "DRILL SHAFT (36 IN)",
+      "unit": "LF",
+      "quantity": 1263.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 315.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 315.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 235.51,
+        "C. E. BARKER, LTD.": 520.37,
+        "MORTMARA CONSTRUCTION, INC.": 825.0
+      }
+    },
+    {
+      "itemCode": "0416 6005",
+      "description": "DRILL SHAFT (42 IN)",
+      "unit": "LF",
+      "quantity": 176.0,
+      "engEstUnit": 540.0,
+      "lowUnit": 425.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 425.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 345.89,
+        "C. E. BARKER, LTD.": 629.77,
+        "MORTMARA CONSTRUCTION, INC.": 3450.0
+      }
+    },
+    {
+      "itemCode": "0422 6001",
+      "description": "REINF CONC SLAB",
+      "unit": "SF",
+      "quantity": 22540.0,
+      "engEstUnit": 31.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 25.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 24.57,
+        "C. E. BARKER, LTD.": 28.21,
+        "MORTMARA CONSTRUCTION, INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "0422 6015",
+      "description": "APPROACH SLAB",
+      "unit": "CY",
+      "quantity": 163.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 640.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 640.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 646.6,
+        "C. E. BARKER, LTD.": 1190.65,
+        "MORTMARA CONSTRUCTION, INC.": 1400.0
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 20.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 1000.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 933.13,
+        "C. E. BARKER, LTD.": 535.7,
+        "MORTMARA CONSTRUCTION, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0432 6031",
+      "description": "RIPRAP (STONE PROTECTION)(12 IN)",
+      "unit": "CY",
+      "quantity": 1350.0,
+      "engEstUnit": 305.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 140.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 161.28,
+        "C. E. BARKER, LTD.": 131.27,
+        "MORTMARA CONSTRUCTION, INC.": 120.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 3339.0,
+      "engEstUnit": 185.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 140.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 170.9,
+        "C. E. BARKER, LTD.": 131.27,
+        "MORTMARA CONSTRUCTION, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 53.3,
+      "engEstUnit": 625.0,
+      "lowUnit": 750.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 750.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 682.47,
+        "C. E. BARKER, LTD.": 535.7,
+        "MORTMARA CONSTRUCTION, INC.": 900.0
+      }
+    },
+    {
+      "itemCode": "0454 6018",
+      "description": "SEALED EXPANSION JOINT (4 IN) (SEJ - M)",
+      "unit": "LF",
+      "quantity": 185.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 250.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 190.63,
+        "C. E. BARKER, LTD.": 232.05,
+        "MORTMARA CONSTRUCTION, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0496 6010",
+      "description": "REMOV STR (BRIDGE 100 - 499 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 100000.0,
+      "lowUnit": 150000.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 150000.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 407760.0,
+        "C. E. BARKER, LTD.": 120666.0,
+        "MORTMARA CONSTRUCTION, INC.": 450000.0
+      }
+    },
+    {
+      "itemCode": "0496 6040",
+      "description": "REMOV STR (RET WALL)",
+      "unit": "LF",
+      "quantity": 48.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 50.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 68.98,
+        "C. E. BARKER, LTD.": 99.45,
+        "MORTMARA CONSTRUCTION, INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 289.0,
+      "engEstUnit": 63.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 65.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 93.36,
+        "C. E. BARKER, LTD.": 59.67,
+        "MORTMARA CONSTRUCTION, INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "0530 6016",
+      "description": "DRIVEWAYS (BASE)",
+      "unit": "SY",
+      "quantity": 145.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 30.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 68.98,
+        "C. E. BARKER, LTD.": 53.04,
+        "MORTMARA CONSTRUCTION, INC.": 125.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 3500.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 3500.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 3465.29,
+        "C. E. BARKER, LTD.": 4594.98,
+        "MORTMARA CONSTRUCTION, INC.": 2500.0
+      }
+    },
+    {
+      "itemCode": "0545 6019",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 8200.0,
+      "lowUnit": 35000.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 35000.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 28500.0,
+        "C. E. BARKER, LTD.": 12487.82,
+        "MORTMARA CONSTRUCTION, INC.": 35000.0
+      }
+    },
+    {
+      "itemCode": "0556 6006",
+      "description": "PIPE UNDERDRAINS (TY 6) (6\")",
+      "unit": "LF",
+      "quantity": 25.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 40.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 35.64,
+        "C. E. BARKER, LTD.": 46.41,
+        "MORTMARA CONSTRUCTION, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 13.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 875.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 875.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 567.61,
+        "C. E. BARKER, LTD.": 895.05,
+        "MORTMARA CONSTRUCTION, INC.": 1500.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 115.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 115.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 5.13,
+        "C. E. BARKER, LTD.": 139.23,
+        "MORTMARA CONSTRUCTION, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 60.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 32.43,
+        "C. E. BARKER, LTD.": 19.23,
+        "MORTMARA CONSTRUCTION, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 75.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 57.13,
+        "C. E. BARKER, LTD.": 24.53,
+        "MORTMARA CONSTRUCTION, INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "0658 6109",
+      "description": "INSTL OM ASSM (OM-2Z)(WFLX)SRF(BI)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 115.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 115.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 140.7,
+        "C. E. BARKER, LTD.": 139.23,
+        "MORTMARA CONSTRUCTION, INC.": 600.0
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 295.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 400.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 350.0,
+        "C. E. BARKER, LTD.": 132.6,
+        "MORTMARA CONSTRUCTION, INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 360.0,
+      "lowUnit": 450.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 450.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 415.0,
+        "C. E. BARKER, LTD.": 265.2,
+        "MORTMARA CONSTRUCTION, INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 7.2,
+      "lowUnit": 14.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 14.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 12.0,
+        "C. E. BARKER, LTD.": 6.63,
+        "MORTMARA CONSTRUCTION, INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 104.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 14.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 14.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.0,
+        "C. E. BARKER, LTD.": 39.78,
+        "MORTMARA CONSTRUCTION, INC.": 90.0
+      }
+    },
+    {
+      "itemCode": "3076 6003",
+      "description": "D-GR HMA TY-B PG64-22 (EXEMPT)",
+      "unit": "TON",
+      "quantity": 670.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 140.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 180.0,
+        "C. E. BARKER, LTD.": 192.27,
+        "MORTMARA CONSTRUCTION, INC.": 165.0
+      }
+    },
+    {
+      "itemCode": "3076 6035",
+      "description": "D-GR HMA TY-D PG64-22",
+      "unit": "TON",
+      "quantity": 1100.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 150.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 130.0,
+        "C. E. BARKER, LTD.": 237.35,
+        "MORTMARA CONSTRUCTION, INC.": 175.0
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 406.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 4.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 6.0,
+        "C. E. BARKER, LTD.": 4.05,
+        "MORTMARA CONSTRUCTION, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "3077 6081",
+      "description": "SP MIXES SP-C SAC-B PG70-22 (EXEMPT)",
+      "unit": "TON",
+      "quantity": 889.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 155.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 155.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 200.0,
+        "C. E. BARKER, LTD.": 225.42,
+        "MORTMARA CONSTRUCTION, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "5132 6001",
+      "description": "LEAD CONTAINING COATING MANAGEMENT",
+      "unit": "SF",
+      "quantity": 470.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 75.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 74.33,
+        "C. E. BARKER, LTD.": 132.6,
+        "MORTMARA CONSTRUCTION, INC.": 90.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 11000.0,
+      "lowUnit": 19000.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 19000.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 9748.56,
+        "C. E. BARKER, LTD.": 9282.0,
+        "MORTMARA CONSTRUCTION, INC.": 14000.0
+      }
+    }
+  ]
+}

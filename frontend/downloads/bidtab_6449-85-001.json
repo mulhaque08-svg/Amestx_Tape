@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6449-85-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 644985001",
+    "projectType": "LIMESTONE ROCK ASPHALT",
+    "letDate": "10/10/23",
+    "engEstTotal": 85000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 78515.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 82955.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8040 6079",
+      "description": "LRA (TY I GR D) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 157.03,
+      "bidders": {
+        "MARTIN MARIETTA MATERIALS, INC.": 157.03,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 165.91
+      }
+    }
+  ]
+}

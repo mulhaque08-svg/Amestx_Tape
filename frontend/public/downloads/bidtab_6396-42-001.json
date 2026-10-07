@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "csj": "6396-42-001",
+    "county": "Nacogdoches",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639642001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/09/22",
+    "engEstTotal": 236944.44,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 346415.17
+    },
+    {
+      "rank": 2,
+      "vendorName": "ROY LEE WALKER",
+      "totalBidAmount": 349223.86
+    },
+    {
+      "rank": 3,
+      "vendorName": "ACE CONTRACTORS, INC.",
+      "totalBidAmount": 370515.8
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 117.68,
+      "engEstUnit": 30.0,
+      "lowUnit": 46.56,
+      "bidders": {
+        "R&M INCORPORATED": 46.56,
+        "ROY LEE WALKER": 47.0,
+        "ACE CONTRACTORS, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6265.7,
+      "engEstUnit": 30.0,
+      "lowUnit": 46.56,
+      "bidders": {
+        "R&M INCORPORATED": 46.56,
+        "ROY LEE WALKER": 47.0,
+        "ACE CONTRACTORS, INC.": 49.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "R&M INCORPORATED": 1.0,
+        "ROY LEE WALKER": 1.0,
+        "ACE CONTRACTORS, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 3389.82,
+      "engEstUnit": 12.0,
+      "lowUnit": 14.0,
+      "bidders": {
+        "R&M INCORPORATED": 14.0,
+        "ROY LEE WALKER": 14.0,
+        "ACE CONTRACTORS, INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 117.68,
+      "engEstUnit": 15.0,
+      "lowUnit": 14.0,
+      "bidders": {
+        "R&M INCORPORATED": 14.0,
+        "ROY LEE WALKER": 14.0,
+        "ACE CONTRACTORS, INC.": 15.0
+      }
+    }
+  ]
+}

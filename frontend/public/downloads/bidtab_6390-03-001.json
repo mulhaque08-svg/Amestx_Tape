@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6390-03-001",
+    "county": "Johnson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639003001",
+    "projectType": "FLEXIBLE PAVEMENT STRUCTURE REPAIR",
+    "letDate": "01/07/22",
+    "engEstTotal": 658242.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "NORTHEASTERN PAVERS, LLC",
+      "totalBidAmount": 705001.75
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 813506.6
+    },
+    {
+      "rank": 3,
+      "vendorName": "PEACHTREE CONSTRUCTION, LTD.",
+      "totalBidAmount": 824268.75
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0351 6002",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(6\")",
+      "unit": "SY",
+      "quantity": 14375.0,
+      "engEstUnit": 44.62,
+      "lowUnit": 48.0,
+      "bidders": {
+        "NORTHEASTERN PAVERS, LLC": 48.0,
+        "TEXAS MATERIALS GROUP, INC.": 52.55,
+        "PEACHTREE CONSTRUCTION, LTD.": 56.17
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "NORTHEASTERN PAVERS, LLC": 15000.0,
+        "TEXAS MATERIALS GROUP, INC.": 52500.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 10000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 140.0,
+      "engEstUnit": 56.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "NORTHEASTERN PAVERS, LLC": 0.01,
+        "TEXAS MATERIALS GROUP, INC.": 40.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 30.0
+      }
+    }
+  ]
+}

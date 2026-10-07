@@ -1,0 +1,558 @@
+{
+  "metadata": {
+    "csj": "0913-09-115",
+    "county": "Wharton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2022(482)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "05/02/24",
+    "engEstTotal": 2225645.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "C. E. BARKER, LTD.",
+      "totalBidAmount": 2292072.07
+    },
+    {
+      "rank": 2,
+      "vendorName": "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC",
+      "totalBidAmount": 2318279.26
+    },
+    {
+      "rank": 3,
+      "vendorName": "EARTH BUILDERS, L.P.",
+      "totalBidAmount": 2464030.9
+    },
+    {
+      "rank": 4,
+      "vendorName": "STX CIVIL",
+      "totalBidAmount": 2546114.7
+    },
+    {
+      "rank": 5,
+      "vendorName": "JOHN REED AND COMPANY, LLC",
+      "totalBidAmount": 2559469.5
+    },
+    {
+      "rank": 6,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 3697116.03
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 6.5,
+      "engEstUnit": 4000.0,
+      "lowUnit": 18000.0,
+      "bidders": {
+        "C. E. BARKER, LTD.": 18000.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 10560.0,
+        "EARTH BUILDERS, L.P.": 10000.0,
+        "STX CIVIL": 8891.0,
+        "JOHN REED AND COMPANY, LLC": 24000.0,
+        "TEXAS MATERIALS GROUP, INC.": 12300.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 916.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 20.35,
+      "bidders": {
+        "C. E. BARKER, LTD.": 20.35,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 27.8,
+        "EARTH BUILDERS, L.P.": 30.0,
+        "STX CIVIL": 20.0,
+        "JOHN REED AND COMPANY, LLC": 60.0,
+        "TEXAS MATERIALS GROUP, INC.": 40.5
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 1080.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 20.35,
+      "bidders": {
+        "C. E. BARKER, LTD.": 20.35,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 25.75,
+        "EARTH BUILDERS, L.P.": 30.0,
+        "STX CIVIL": 22.0,
+        "JOHN REED AND COMPANY, LLC": 60.0,
+        "TEXAS MATERIALS GROUP, INC.": 42.0
+      }
+    },
+    {
+      "itemCode": "0132 6005",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 225.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 33.39,
+      "bidders": {
+        "C. E. BARKER, LTD.": 33.39,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 30.9,
+        "EARTH BUILDERS, L.P.": 35.0,
+        "STX CIVIL": 18.0,
+        "JOHN REED AND COMPANY, LLC": 60.0,
+        "TEXAS MATERIALS GROUP, INC.": 73.0
+      }
+    },
+    {
+      "itemCode": "0150 6002",
+      "description": "BLADING",
+      "unit": "HR",
+      "quantity": 32.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 114.77,
+      "bidders": {
+        "C. E. BARKER, LTD.": 114.77,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 61.8,
+        "EARTH BUILDERS, L.P.": 125.0,
+        "STX CIVIL": 212.0,
+        "JOHN REED AND COMPANY, LLC": 30.0,
+        "TEXAS MATERIALS GROUP, INC.": 148.0
+      }
+    },
+    {
+      "itemCode": "0164 6003",
+      "description": "BROADCAST SEED (PERM) (RURAL) (CLAY)",
+      "unit": "SY",
+      "quantity": 2905.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.04,
+      "bidders": {
+        "C. E. BARKER, LTD.": 1.04,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 0.5,
+        "EARTH BUILDERS, L.P.": 0.8,
+        "STX CIVIL": 2.0,
+        "JOHN REED AND COMPANY, LLC": 0.3,
+        "TEXAS MATERIALS GROUP, INC.": 0.85
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 737.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 1.04,
+      "bidders": {
+        "C. E. BARKER, LTD.": 1.04,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 0.35,
+        "EARTH BUILDERS, L.P.": 0.8,
+        "STX CIVIL": 2.0,
+        "JOHN REED AND COMPANY, LLC": 0.3,
+        "TEXAS MATERIALS GROUP, INC.": 2.3
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 737.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.04,
+      "bidders": {
+        "C. E. BARKER, LTD.": 1.04,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 0.35,
+        "EARTH BUILDERS, L.P.": 0.8,
+        "STX CIVIL": 2.0,
+        "JOHN REED AND COMPANY, LLC": 0.3,
+        "TEXAS MATERIALS GROUP, INC.": 2.3
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 16.8,
+      "engEstUnit": 80.0,
+      "lowUnit": 125.21,
+      "bidders": {
+        "C. E. BARKER, LTD.": 125.21,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 200.0,
+        "EARTH BUILDERS, L.P.": 50.0,
+        "STX CIVIL": 58.0,
+        "JOHN REED AND COMPANY, LLC": 100.0,
+        "TEXAS MATERIALS GROUP, INC.": 365.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 137.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 80.34,
+      "bidders": {
+        "C. E. BARKER, LTD.": 80.34,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 270.0,
+        "EARTH BUILDERS, L.P.": 250.0,
+        "STX CIVIL": 175.0,
+        "JOHN REED AND COMPANY, LLC": 150.0,
+        "TEXAS MATERIALS GROUP, INC.": 365.0
+      }
+    },
+    {
+      "itemCode": "0416 6001",
+      "description": "DRILL SHAFT (18 IN)",
+      "unit": "LF",
+      "quantity": 198.0,
+      "engEstUnit": 240.0,
+      "lowUnit": 226.83,
+      "bidders": {
+        "C. E. BARKER, LTD.": 226.83,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 125.0,
+        "EARTH BUILDERS, L.P.": 165.0,
+        "STX CIVIL": 141.0,
+        "JOHN REED AND COMPANY, LLC": 150.0,
+        "TEXAS MATERIALS GROUP, INC.": 192.0
+      }
+    },
+    {
+      "itemCode": "0416 6002",
+      "description": "DRILL SHAFT (24 IN)",
+      "unit": "LF",
+      "quantity": 627.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 264.62,
+      "bidders": {
+        "C. E. BARKER, LTD.": 264.62,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 206.8,
+        "EARTH BUILDERS, L.P.": 230.0,
+        "STX CIVIL": 199.0,
+        "JOHN REED AND COMPANY, LLC": 300.0,
+        "TEXAS MATERIALS GROUP, INC.": 330.0
+      }
+    },
+    {
+      "itemCode": "0416 6004",
+      "description": "DRILL SHAFT (36 IN)",
+      "unit": "LF",
+      "quantity": 666.0,
+      "engEstUnit": 265.0,
+      "lowUnit": 329.92,
+      "bidders": {
+        "C. E. BARKER, LTD.": 329.92,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 305.3,
+        "EARTH BUILDERS, L.P.": 330.0,
+        "STX CIVIL": 278.0,
+        "JOHN REED AND COMPANY, LLC": 450.0,
+        "TEXAS MATERIALS GROUP, INC.": 645.0
+      }
+    },
+    {
+      "itemCode": "0422 6001",
+      "description": "REINF CONC SLAB",
+      "unit": "SF",
+      "quantity": 3770.0,
+      "engEstUnit": 23.0,
+      "lowUnit": 23.36,
+      "bidders": {
+        "C. E. BARKER, LTD.": 23.36,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 34.0,
+        "EARTH BUILDERS, L.P.": 30.0,
+        "STX CIVIL": 23.0,
+        "JOHN REED AND COMPANY, LLC": 26.0,
+        "TEXAS MATERIALS GROUP, INC.": 52.0
+      }
+    },
+    {
+      "itemCode": "0422 6007",
+      "description": "REINF CONC SLAB (SLAB BEAM)",
+      "unit": "SF",
+      "quantity": 3900.0,
+      "engEstUnit": 23.0,
+      "lowUnit": 23.25,
+      "bidders": {
+        "C. E. BARKER, LTD.": 23.25,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 23.5,
+        "EARTH BUILDERS, L.P.": 25.0,
+        "STX CIVIL": 23.0,
+        "JOHN REED AND COMPANY, LLC": 15.0,
+        "TEXAS MATERIALS GROUP, INC.": 42.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 1509.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 176.07,
+      "bidders": {
+        "C. E. BARKER, LTD.": 176.07,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 195.4,
+        "EARTH BUILDERS, L.P.": 250.0,
+        "STX CIVIL": 254.0,
+        "JOHN REED AND COMPANY, LLC": 105.0,
+        "TEXAS MATERIALS GROUP, INC.": 271.0
+      }
+    },
+    {
+      "itemCode": "0454 6004",
+      "description": "ARMOR JOINT (SEALED)",
+      "unit": "LF",
+      "quantity": 108.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 104.34,
+      "bidders": {
+        "C. E. BARKER, LTD.": 104.34,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 140.0,
+        "EARTH BUILDERS, L.P.": 150.0,
+        "STX CIVIL": 179.0,
+        "JOHN REED AND COMPANY, LLC": 78.0,
+        "TEXAS MATERIALS GROUP, INC.": 217.0
+      }
+    },
+    {
+      "itemCode": "0467 6363",
+      "description": "SET (TY II) (18 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 4069.22,
+      "bidders": {
+        "C. E. BARKER, LTD.": 4069.22,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 2815.0,
+        "EARTH BUILDERS, L.P.": 2000.0,
+        "STX CIVIL": 2461.0,
+        "JOHN REED AND COMPANY, LLC": 1800.0,
+        "TEXAS MATERIALS GROUP, INC.": 1800.0
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 35500.0,
+      "lowUnit": 41735.6,
+      "bidders": {
+        "C. E. BARKER, LTD.": 41735.6,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 27500.0,
+        "EARTH BUILDERS, L.P.": 25000.0,
+        "STX CIVIL": 44370.0,
+        "JOHN REED AND COMPANY, LLC": 60000.0,
+        "TEXAS MATERIALS GROUP, INC.": 69800.0
+      }
+    },
+    {
+      "itemCode": "0496 6010",
+      "description": "REMOV STR (BRIDGE 100 - 499 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 60000.0,
+      "lowUnit": 62603.4,
+      "bidders": {
+        "C. E. BARKER, LTD.": 62603.4,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 47000.0,
+        "EARTH BUILDERS, L.P.": 70000.0,
+        "STX CIVIL": 89442.0,
+        "JOHN REED AND COMPANY, LLC": 140000.0,
+        "TEXAS MATERIALS GROUP, INC.": 99000.0
+      }
+    },
+    {
+      "itemCode": "0496 6042",
+      "description": "REMOV STR (SMALL)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 3651.87,
+      "bidders": {
+        "C. E. BARKER, LTD.": 3651.87,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 850.0,
+        "EARTH BUILDERS, L.P.": 2500.0,
+        "STX CIVIL": 412.0,
+        "JOHN REED AND COMPANY, LLC": 750.0,
+        "TEXAS MATERIALS GROUP, INC.": 730.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 199000.0,
+      "lowUnit": 220000.0,
+      "bidders": {
+        "C. E. BARKER, LTD.": 220000.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 230000.0,
+        "EARTH BUILDERS, L.P.": 240000.0,
+        "STX CIVIL": 210000.0,
+        "JOHN REED AND COMPANY, LLC": 250000.0,
+        "TEXAS MATERIALS GROUP, INC.": 602000.0
+      }
+    },
+    {
+      "itemCode": "0530 6006",
+      "description": "DRIVEWAYS (SURF TREAT)",
+      "unit": "SY",
+      "quantity": 193.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 57.39,
+      "bidders": {
+        "C. E. BARKER, LTD.": 57.39,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 120.0,
+        "EARTH BUILDERS, L.P.": 70.0,
+        "STX CIVIL": 234.0,
+        "JOHN REED AND COMPANY, LLC": 50.0,
+        "TEXAS MATERIALS GROUP, INC.": 4.5
+      }
+    },
+    {
+      "itemCode": "0530 6016",
+      "description": "DRIVEWAYS (BASE)",
+      "unit": "SY",
+      "quantity": 14.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 41.74,
+      "bidders": {
+        "C. E. BARKER, LTD.": 41.74,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 82.4,
+        "EARTH BUILDERS, L.P.": 55.0,
+        "STX CIVIL": 117.0,
+        "JOHN REED AND COMPANY, LLC": 60.0,
+        "TEXAS MATERIALS GROUP, INC.": 135.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 3200.0,
+      "lowUnit": 3234.51,
+      "bidders": {
+        "C. E. BARKER, LTD.": 3234.51,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 3090.0,
+        "EARTH BUILDERS, L.P.": 2800.0,
+        "STX CIVIL": 3561.0,
+        "JOHN REED AND COMPANY, LLC": 3048.0,
+        "TEXAS MATERIALS GROUP, INC.": 3600.0
+      }
+    },
+    {
+      "itemCode": "0545 6007",
+      "description": "CRASH CUSH ATTEN (INSTL)(L)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 27000.0,
+      "lowUnit": 31145.19,
+      "bidders": {
+        "C. E. BARKER, LTD.": 31145.19,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 32455.0,
+        "EARTH BUILDERS, L.P.": 31000.0,
+        "STX CIVIL": 31544.0,
+        "JOHN REED AND COMPANY, LLC": 27000.0,
+        "TEXAS MATERIALS GROUP, INC.": 34200.0
+      }
+    },
+    {
+      "itemCode": "0552 6001",
+      "description": "WIRE FENCE (TY A)",
+      "unit": "LF",
+      "quantity": 660.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 16.69,
+      "bidders": {
+        "C. E. BARKER, LTD.": 16.69,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 20.0,
+        "EARTH BUILDERS, L.P.": 15.0,
+        "STX CIVIL": 20.0,
+        "JOHN REED AND COMPANY, LLC": 50.0,
+        "TEXAS MATERIALS GROUP, INC.": 21.0
+      }
+    },
+    {
+      "itemCode": "0552 6005",
+      "description": "GATE (TY 1)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 834.71,
+      "bidders": {
+        "C. E. BARKER, LTD.": 834.71,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 2500.0,
+        "EARTH BUILDERS, L.P.": 1500.0,
+        "STX CIVIL": 1700.0,
+        "JOHN REED AND COMPANY, LLC": 2000.0,
+        "TEXAS MATERIALS GROUP, INC.": 2060.0
+      }
+    },
+    {
+      "itemCode": "0560 6003",
+      "description": "MAILBOX INSTALL-M (TWG-POST) TY 1",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 719.94,
+      "bidders": {
+        "C. E. BARKER, LTD.": 719.94,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 840.0,
+        "EARTH BUILDERS, L.P.": 350.0,
+        "STX CIVIL": 853.0,
+        "JOHN REED AND COMPANY, LLC": 730.0,
+        "TEXAS MATERIALS GROUP, INC.": 790.0
+      }
+    },
+    {
+      "itemCode": "0644 6068",
+      "description": "RELOCATE SM RD SN SUP&AM TY 10BWG",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 626.03,
+      "bidders": {
+        "C. E. BARKER, LTD.": 626.03,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 1070.0,
+        "EARTH BUILDERS, L.P.": 500.0,
+        "STX CIVIL": 643.0,
+        "JOHN REED AND COMPANY, LLC": 550.0,
+        "TEXAS MATERIALS GROUP, INC.": 690.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 26.08,
+      "bidders": {
+        "C. E. BARKER, LTD.": 26.08,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 19.0,
+        "EARTH BUILDERS, L.P.": 20.0,
+        "STX CIVIL": 29.0,
+        "JOHN REED AND COMPANY, LLC": 25.0,
+        "TEXAS MATERIALS GROUP, INC.": 29.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 36.52,
+      "bidders": {
+        "C. E. BARKER, LTD.": 36.52,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 26.0,
+        "EARTH BUILDERS, L.P.": 50.0,
+        "STX CIVIL": 32.0,
+        "JOHN REED AND COMPANY, LLC": 27.0,
+        "TEXAS MATERIALS GROUP, INC.": 40.0
+      }
+    }
+  ]
+}

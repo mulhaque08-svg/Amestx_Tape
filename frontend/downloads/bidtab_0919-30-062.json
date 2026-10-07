@@ -1,0 +1,581 @@
+{
+  "metadata": {
+    "csj": "0919-30-062",
+    "county": "Titus",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2019(354)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "07/02/21",
+    "engEstTotal": 653809.75,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "HODGES AND SON CONSTRUCTION COMPANY, INC.",
+      "totalBidAmount": 558400.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CDM HOLDINGS, LLC",
+      "totalBidAmount": 593811.25
+    },
+    {
+      "rank": 3,
+      "vendorName": "HIGHWAY 19 CONSTRUCTION LLC",
+      "totalBidAmount": 646336.76
+    },
+    {
+      "rank": 4,
+      "vendorName": "EAST TEXAS BRIDGE, INC.",
+      "totalBidAmount": 705076.5
+    },
+    {
+      "rank": 5,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 844950.05
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 5.3,
+      "engEstUnit": 3000.0,
+      "lowUnit": 1900.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1900.0,
+        "CDM HOLDINGS, LLC": 2800.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 5000.0,
+        "EAST TEXAS BRIDGE, INC.": 3700.0,
+        "DIGG COMMERCIAL, LLC": 4442.0
+      }
+    },
+    {
+      "itemCode": "0105 6005",
+      "description": "REMOVING STAB BASE AND ASPH PAV (3\")",
+      "unit": "SY",
+      "quantity": 886.0,
+      "engEstUnit": 4.25,
+      "lowUnit": 3.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 3.0,
+        "CDM HOLDINGS, LLC": 5.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 5.56,
+        "EAST TEXAS BRIDGE, INC.": 5.0,
+        "DIGG COMMERCIAL, LLC": 16.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 628.0,
+      "engEstUnit": 9.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 15.0,
+        "CDM HOLDINGS, LLC": 8.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 5.0,
+        "EAST TEXAS BRIDGE, INC.": 20.0,
+        "DIGG COMMERCIAL, LLC": 48.0
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 737.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 15.0,
+        "CDM HOLDINGS, LLC": 19.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 5.0,
+        "EAST TEXAS BRIDGE, INC.": 20.0,
+        "DIGG COMMERCIAL, LLC": 52.0
+      }
+    },
+    {
+      "itemCode": "0132 6005",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 624.0,
+      "engEstUnit": 23.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 20.0,
+        "CDM HOLDINGS, LLC": 7.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 35.0,
+        "EAST TEXAS BRIDGE, INC.": 25.0,
+        "DIGG COMMERCIAL, LLC": 58.0
+      }
+    },
+    {
+      "itemCode": "0160 6003",
+      "description": "FURNISHING AND PLACING TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 3575.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 2.0,
+        "CDM HOLDINGS, LLC": 4.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 0.79,
+        "EAST TEXAS BRIDGE, INC.": 3.0,
+        "DIGG COMMERCIAL, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "0164 6054",
+      "description": "BOND FBR MTRX SEED (PERM)(RURAL)(SAND)",
+      "unit": "SY",
+      "quantity": 3575.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.0,
+        "CDM HOLDINGS, LLC": 1.75,
+        "HIGHWAY 19 CONSTRUCTION LLC": 0.79,
+        "EAST TEXAS BRIDGE, INC.": 0.9,
+        "DIGG COMMERCIAL, LLC": 1.17
+      }
+    },
+    {
+      "itemCode": "0164 6055",
+      "description": "BONDED FBR MTRX SEED (TEMP)(WARM)",
+      "unit": "SY",
+      "quantity": 1790.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.5,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 0.5,
+        "CDM HOLDINGS, LLC": 0.05,
+        "HIGHWAY 19 CONSTRUCTION LLC": 0.64,
+        "EAST TEXAS BRIDGE, INC.": 0.8,
+        "DIGG COMMERCIAL, LLC": 1.34
+      }
+    },
+    {
+      "itemCode": "0164 6056",
+      "description": "BONDED FBR MTRX SEED (TEMP)(COOL)",
+      "unit": "SY",
+      "quantity": 1790.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.5,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 0.5,
+        "CDM HOLDINGS, LLC": 0.5,
+        "HIGHWAY 19 CONSTRUCTION LLC": 1.2,
+        "EAST TEXAS BRIDGE, INC.": 0.8,
+        "DIGG COMMERCIAL, LLC": 1.35
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 170.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.0,
+        "CDM HOLDINGS, LLC": 7.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 100.0,
+        "EAST TEXAS BRIDGE, INC.": 12.0,
+        "DIGG COMMERCIAL, LLC": 24.0
+      }
+    },
+    {
+      "itemCode": "0169 6002",
+      "description": "SOIL RETENTION BLANKETS (CL 1) (TY B)",
+      "unit": "SY",
+      "quantity": 1450.0,
+      "engEstUnit": 1.35,
+      "lowUnit": 2.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 2.0,
+        "CDM HOLDINGS, LLC": 1.75,
+        "HIGHWAY 19 CONSTRUCTION LLC": 3.2,
+        "EAST TEXAS BRIDGE, INC.": 1.5,
+        "DIGG COMMERCIAL, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "0275 6001",
+      "description": "CEMENT",
+      "unit": "TON",
+      "quantity": 20.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 200.0,
+        "CDM HOLDINGS, LLC": 220.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 180.0,
+        "EAST TEXAS BRIDGE, INC.": 275.0,
+        "DIGG COMMERCIAL, LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0275 6019",
+      "description": "CEMENT TREAT (SUBGRADE)(6\")",
+      "unit": "SY",
+      "quantity": 1229.0,
+      "engEstUnit": 6.25,
+      "lowUnit": 6.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 6.0,
+        "CDM HOLDINGS, LLC": 5.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 10.0,
+        "EAST TEXAS BRIDGE, INC.": 6.0,
+        "DIGG COMMERCIAL, LLC": 14.0
+      }
+    },
+    {
+      "itemCode": "0310 6009",
+      "description": "PRIME COAT (MC-30)",
+      "unit": "GAL",
+      "quantity": 310.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 8.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 8.0,
+        "CDM HOLDINGS, LLC": 7.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 10.0,
+        "EAST TEXAS BRIDGE, INC.": 8.0,
+        "DIGG COMMERCIAL, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 31.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 200.0,
+        "CDM HOLDINGS, LLC": 270.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 180.0,
+        "EAST TEXAS BRIDGE, INC.": 275.0,
+        "DIGG COMMERCIAL, LLC": 190.0
+      }
+    },
+    {
+      "itemCode": "0416 6003",
+      "description": "DRILL SHAFT (30 IN)",
+      "unit": "LF",
+      "quantity": 240.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 130.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 130.0,
+        "CDM HOLDINGS, LLC": 205.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 200.0,
+        "EAST TEXAS BRIDGE, INC.": 200.0,
+        "DIGG COMMERCIAL, LLC": 165.0
+      }
+    },
+    {
+      "itemCode": "0420 6014",
+      "description": "CL C CONC (ABUT)(HPC)",
+      "unit": "CY",
+      "quantity": 25.2,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1000.0,
+        "CDM HOLDINGS, LLC": 1115.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 1100.0,
+        "EAST TEXAS BRIDGE, INC.": 1350.0,
+        "DIGG COMMERCIAL, LLC": 1600.0
+      }
+    },
+    {
+      "itemCode": "0422 6006",
+      "description": "REINF CONC SLAB (BOX BEAM)(HPC)",
+      "unit": "SF",
+      "quantity": 1701.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 18.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 18.0,
+        "CDM HOLDINGS, LLC": 23.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 21.0,
+        "EAST TEXAS BRIDGE, INC.": 25.0,
+        "DIGG COMMERCIAL, LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "0422 6015",
+      "description": "APPROACH SLAB",
+      "unit": "CY",
+      "quantity": 38.5,
+      "engEstUnit": 550.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 600.0,
+        "CDM HOLDINGS, LLC": 550.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 600.0,
+        "EAST TEXAS BRIDGE, INC.": 700.0,
+        "DIGG COMMERCIAL, LLC": 1100.0
+      }
+    },
+    {
+      "itemCode": "0422 6023",
+      "description": "SHEAR KEY",
+      "unit": "CY",
+      "quantity": 8.6,
+      "engEstUnit": 325.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 500.0,
+        "CDM HOLDINGS, LLC": 365.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 400.0,
+        "EAST TEXAS BRIDGE, INC.": 700.0,
+        "DIGG COMMERCIAL, LLC": 976.0
+      }
+    },
+    {
+      "itemCode": "0425 6001",
+      "description": "PRESTR CONC BOX BEAM (4B20)",
+      "unit": "LF",
+      "quantity": 258.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 230.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 230.0,
+        "CDM HOLDINGS, LLC": 250.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 260.0,
+        "EAST TEXAS BRIDGE, INC.": 285.0,
+        "DIGG COMMERCIAL, LLC": 195.0
+      }
+    },
+    {
+      "itemCode": "0425 6002",
+      "description": "PRESTR CONC BOX BEAM (5B20)",
+      "unit": "LF",
+      "quantity": 129.0,
+      "engEstUnit": 205.0,
+      "lowUnit": 230.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 230.0,
+        "CDM HOLDINGS, LLC": 250.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 260.0,
+        "EAST TEXAS BRIDGE, INC.": 285.0,
+        "DIGG COMMERCIAL, LLC": 202.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 415.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 100.0,
+        "CDM HOLDINGS, LLC": 125.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 150.0,
+        "EAST TEXAS BRIDGE, INC.": 140.0,
+        "DIGG COMMERCIAL, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0432 6039",
+      "description": "BEDDING MATERIAL (6 IN)",
+      "unit": "CY",
+      "quantity": 92.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 80.0,
+        "CDM HOLDINGS, LLC": 142.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 100.0,
+        "EAST TEXAS BRIDGE, INC.": 140.0,
+        "DIGG COMMERCIAL, LLC": 166.0
+      }
+    },
+    {
+      "itemCode": "0450 6007",
+      "description": "RAIL (TY T223)(HPC)",
+      "unit": "LF",
+      "quantity": 162.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 120.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 120.0,
+        "CDM HOLDINGS, LLC": 132.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 150.0,
+        "EAST TEXAS BRIDGE, INC.": 125.0,
+        "DIGG COMMERCIAL, LLC": 196.0
+      }
+    },
+    {
+      "itemCode": "0454 6003",
+      "description": "ARMOR JOINT",
+      "unit": "LF",
+      "quantity": 24.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 100.0,
+        "CDM HOLDINGS, LLC": 180.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 180.0,
+        "EAST TEXAS BRIDGE, INC.": 100.0,
+        "DIGG COMMERCIAL, LLC": 184.0
+      }
+    },
+    {
+      "itemCode": "0454 6004",
+      "description": "ARMOR JOINT (SEALED)",
+      "unit": "LF",
+      "quantity": 44.3,
+      "engEstUnit": 95.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 100.0,
+        "CDM HOLDINGS, LLC": 140.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 200.0,
+        "EAST TEXAS BRIDGE, INC.": 125.0,
+        "DIGG COMMERCIAL, LLC": 170.0
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 15000.0,
+        "CDM HOLDINGS, LLC": 5000.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 10000.0,
+        "EAST TEXAS BRIDGE, INC.": 15000.0,
+        "DIGG COMMERCIAL, LLC": 29312.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 64000.0,
+      "lowUnit": 50000.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 50000.0,
+        "CDM HOLDINGS, LLC": 46000.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 50000.0,
+        "EAST TEXAS BRIDGE, INC.": 70000.0,
+        "DIGG COMMERCIAL, LLC": 45000.0
+      }
+    },
+    {
+      "itemCode": "0544 6004",
+      "description": "GDRAIL END TRT(INST)(WOOD POST)(TY I)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2900.0,
+      "lowUnit": 2800.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 2800.0,
+        "CDM HOLDINGS, LLC": 3415.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 2750.0,
+        "EAST TEXAS BRIDGE, INC.": 3000.0,
+        "DIGG COMMERCIAL, LLC": 2800.0
+      }
+    },
+    {
+      "itemCode": "0552 6003",
+      "description": "WIRE FENCE (TY C)",
+      "unit": "LF",
+      "quantity": 1175.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 15.0,
+        "CDM HOLDINGS, LLC": 10.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 15.0,
+        "EAST TEXAS BRIDGE, INC.": 27.0,
+        "DIGG COMMERCIAL, LLC": 7.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 23.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 30.0,
+        "CDM HOLDINGS, LLC": 20.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 26.0,
+        "EAST TEXAS BRIDGE, INC.": 30.0,
+        "DIGG COMMERCIAL, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0658 6060",
+      "description": "REMOVE DELIN & OBJECT MARKER ASSMS",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 30.0,
+        "CDM HOLDINGS, LLC": 50.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 10.0,
+        "EAST TEXAS BRIDGE, INC.": 20.0,
+        "DIGG COMMERCIAL, LLC": 102.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 30.0,
+        "CDM HOLDINGS, LLC": 45.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 45.0,
+        "EAST TEXAS BRIDGE, INC.": 35.0,
+        "DIGG COMMERCIAL, LLC": 120.0
+      }
+    },
+    {
+      "itemCode": "2014 6002",
+      "description": "ASPHALT-STABILIZED FLEXIBLE BASE",
+      "unit": "TON",
+      "quantity": 408.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 160.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 160.0,
+        "CDM HOLDINGS, LLC": 125.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 150.0,
+        "EAST TEXAS BRIDGE, INC.": 130.0,
+        "DIGG COMMERCIAL, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "4171 6001",
+      "description": "INSTALL BRIDGE IDENTIFICATION NUMBERS",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 500.0,
+        "CDM HOLDINGS, LLC": 750.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 500.0,
+        "EAST TEXAS BRIDGE, INC.": 1000.0,
+        "DIGG COMMERCIAL, LLC": 670.0
+      }
+    }
+  ]
+}

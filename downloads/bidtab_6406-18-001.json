@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6406-18-001",
+    "county": "Travis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640618001",
+    "projectType": "CRACK SEAL",
+    "letDate": "07/23/24",
+    "engEstTotal": 161729.21,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FYL ENTERPRISES, LLC",
+      "totalBidAmount": 137427.68
+    },
+    {
+      "rank": 2,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 197021.1
+    },
+    {
+      "rank": 3,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 358778.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 20000.0,
+      "bidders": {
+        "FYL ENTERPRISES, LLC": 20000.0,
+        "ICOS MANAGEMENT, LLC": 20000.0,
+        "D & M CONTRACTORS, LLC": 40000.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 23000.0,
+      "lowUnit": 0.5,
+      "bidders": {
+        "FYL ENTERPRISES, LLC": 0.5,
+        "ICOS MANAGEMENT, LLC": 4000.0,
+        "D & M CONTRACTORS, LLC": 50.0
+      }
+    }
+  ]
+}

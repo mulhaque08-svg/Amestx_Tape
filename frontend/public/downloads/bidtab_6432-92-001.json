@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6432-92-001",
+    "county": "Dewitt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 643292001",
+    "projectType": "HOT MIX",
+    "letDate": "03/07/23",
+    "engEstTotal": 540000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 480000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 486000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 544500.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "QUALITY HOT MIX, INC.",
+      "totalBidAmount": 660000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6042",
+      "description": "D-GR HMA (SQ)(TY-D PG 64-22 SAC-B)(DEL)",
+      "unit": "TON",
+      "quantity": 6000.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "BRAUNTEX MATERIALS, INC.": 80.0,
+        "TEXAS MATERIALS GROUP, INC.": 81.0,
+        "COLORADO MATERIALS, LTD.": 90.75,
+        "QUALITY HOT MIX, INC.": 110.0
+      }
+    }
+  ]
+}

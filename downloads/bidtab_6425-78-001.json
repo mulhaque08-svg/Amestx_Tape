@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6425-78-001",
+    "county": "Hardin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642578001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/08/23",
+    "engEstTotal": 887832.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 1136250.4
+    },
+    {
+      "rank": 2,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 1214456.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 4872.0,
+      "engEstUnit": 46.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 40.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 62.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 14616.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 64.4,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 64.4,
+        "CROSS PLUS CONSTRUCTION, LLC": 62.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 62.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6395-07-001",
+    "county": "Fort Bend",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639507001",
+    "projectType": "CONCRETE MATERIALS ONLY",
+    "letDate": "02/08/22",
+    "engEstTotal": 178000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 194000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 207000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8014 6005",
+      "description": "CL A CONC(DEL)(CY)(0-20 MI FROM PLANT)",
+      "unit": "CY",
+      "quantity": 200.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 140.0,
+        "DIGG COMMERCIAL, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "8014 6010",
+      "description": "CL B CONC(DEL)(CY)(0-20 MI FROM PLANT)",
+      "unit": "CY",
+      "quantity": 200.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 140.0,
+        "DIGG COMMERCIAL, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "8014 6015",
+      "description": "CL C CONC(DEL)(CY)(0-20 MI FROM PLANT)",
+      "unit": "CY",
+      "quantity": 200.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 140.0,
+        "DIGG COMMERCIAL, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "8014 6020",
+      "description": "CL HES CONC(DEL)(CY)(0-20 MI FROM PLNT)",
+      "unit": "CY",
+      "quantity": 200.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 160.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 160.0,
+        "DIGG COMMERCIAL, LLC": 156.0
+      }
+    },
+    {
+      "itemCode": "8015 6002",
+      "description": "FLWBLE BCKFLL(DEL)(0-20MLS FRM PLNT)",
+      "unit": "CY",
+      "quantity": 600.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 130.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 130.0,
+        "DIGG COMMERCIAL, LLC": 143.0
+      }
+    }
+  ]
+}

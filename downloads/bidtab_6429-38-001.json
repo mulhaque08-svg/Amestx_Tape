@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6429-38-001",
+    "county": "Tom Green",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 642938001",
+    "projectType": "BRIDGE JOINT CLEANING AND SEALING",
+    "letDate": "02/23/23",
+    "engEstTotal": 188484.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SCOUT 5 CONSTRUCTION LLC",
+      "totalBidAmount": 125720.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "12TWELVE ROAD AND BRIDGE LLC",
+      "totalBidAmount": 166431.63
+    },
+    {
+      "rank": 3,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 174484.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "PENHALL COMPANY",
+      "totalBidAmount": 188430.1
+    },
+    {
+      "rank": 5,
+      "vendorName": "MPB, INC.",
+      "totalBidAmount": 198408.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "SCR CIVIL CONSTRUCTION, LLC",
+      "totalBidAmount": 289332.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0438 6001",
+      "description": "CLEANING AND SEALING EXISTING JOINTS",
+      "unit": "LF",
+      "quantity": 5053.0,
+      "engEstUnit": 28.0,
+      "lowUnit": 23.89,
+      "bidders": {
+        "SCOUT 5 CONSTRUCTION LLC": 23.89,
+        "12TWELVE ROAD AND BRIDGE LLC": 27.0,
+        "TALBRAN ENTERPRISES LLC": 28.0,
+        "PENHALL COMPANY": 23.7,
+        "MPB, INC.": 36.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 44.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 5003.2,
+      "bidders": {
+        "SCOUT 5 CONSTRUCTION LLC": 5003.2,
+        "12TWELVE ROAD AND BRIDGE LLC": 30000.0,
+        "TALBRAN ENTERPRISES LLC": 15000.0,
+        "PENHALL COMPANY": 18055.0,
+        "MPB, INC.": 12000.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 28000.0
+      }
+    }
+  ]
+}

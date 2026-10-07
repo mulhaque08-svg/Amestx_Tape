@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6414-33-001",
+    "county": "Van Zandt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641433001",
+    "projectType": "HYDRAULIC CEMENT",
+    "letDate": "08/16/22",
+    "engEstTotal": 250000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AKA-MATERIALS",
+      "totalBidAmount": 275000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 287500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8012 6001",
+      "description": "HYDRAULIC CEMENT(TY I)(DEL)(SITE 1)",
+      "unit": "TON",
+      "quantity": 1250.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 220.0,
+      "bidders": {
+        "AKA-MATERIALS": 220.0,
+        "TOUCHSTONE RESOURCES, LLC": 230.0
+      }
+    }
+  ]
+}

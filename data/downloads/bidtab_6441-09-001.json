@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6441-09-001",
+    "county": "Panola",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644109001",
+    "projectType": "CRACK SEAL",
+    "letDate": "09/06/23",
+    "engEstTotal": 509200.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "HARRIS TRUCKING SERVICE, LLC",
+      "totalBidAmount": 489450.06
+    },
+    {
+      "rank": 2,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 679619.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 695225.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 0.001,
+      "bidders": {
+        "HARRIS TRUCKING SERVICE, LLC": 0.001,
+        "D & M CONTRACTORS, LLC": 10000.0,
+        "TRP CONSTRUCTION GROUP, LLC": 60000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 10.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 0.001,
+      "bidders": {
+        "HARRIS TRUCKING SERVICE, LLC": 0.001,
+        "D & M CONTRACTORS, LLC": 10.0,
+        "TRP CONSTRUCTION GROUP, LLC": 65.0
+      }
+    }
+  ]
+}

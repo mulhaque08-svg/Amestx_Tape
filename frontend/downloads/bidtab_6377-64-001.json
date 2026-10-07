@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6377-64-001",
+    "county": "Parker",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637764001",
+    "projectType": "DENSE GRADED HOT MIX",
+    "letDate": "06/03/21",
+    "engEstTotal": 363000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "NORTHEASTERN PAVERS, LLC",
+      "totalBidAmount": 380000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "AUSTIN ASPHALT, INC.",
+      "totalBidAmount": 391750.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "JAGOE-PUBLIC COMPANY",
+      "totalBidAmount": 510000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8006 6006",
+      "description": "SP MIXTURES SP-D PG64-22  (DELIVERY)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 78.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "NORTHEASTERN PAVERS, LLC": 65.0,
+        "AUSTIN ASPHALT, INC.": 65.5,
+        "JAGOE-PUBLIC COMPANY": 88.0
+      }
+    },
+    {
+      "itemCode": "8011 6015",
+      "description": "D-GR HMA(SQ)TY B PG 64-22(DELIVERY)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 51.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "NORTHEASTERN PAVERS, LLC": 60.0,
+        "AUSTIN ASPHALT, INC.": 61.5,
+        "JAGOE-PUBLIC COMPANY": 86.0
+      }
+    },
+    {
+      "itemCode": "8011 6040",
+      "description": "D-GR HMA(SQ) TY C SAC A PG70-28(DEL)",
+      "unit": "TON",
+      "quantity": 3000.0,
+      "engEstUnit": 78.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "NORTHEASTERN PAVERS, LLC": 85.0,
+        "AUSTIN ASPHALT, INC.": 88.25,
+        "JAGOE-PUBLIC COMPANY": 112.0
+      }
+    }
+  ]
+}

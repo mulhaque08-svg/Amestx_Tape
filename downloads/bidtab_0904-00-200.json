@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "0904-00-200",
+    "county": "Potter",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2023(054)",
+    "projectType": "PREVENTIVE MAINTENANCE",
+    "letDate": "09/08/22",
+    "engEstTotal": 884615.17,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 781620.71
+    },
+    {
+      "rank": 2,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 871085.65
+    },
+    {
+      "rank": 3,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 926787.92
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 10000.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 100.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 1.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 0.01
+      }
+    }
+  ]
+}

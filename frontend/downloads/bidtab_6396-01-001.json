@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6396-01-001",
+    "county": "Nueces",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 639601001",
+    "projectType": "BRIDGE SUBSTRUCTURE REPAIR",
+    "letDate": "02/15/22",
+    "engEstTotal": 198200.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "LUCANIA CONSTRUCTION LLC",
+      "totalBidAmount": 240000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 248000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "PENHALL COMPANY",
+      "totalBidAmount": 260200.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "SCR CIVIL CONSTRUCTION, LLC",
+      "totalBidAmount": 344400.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0429 6009",
+      "description": "CONC STR REPAIR (STANDARD)",
+      "unit": "SF",
+      "quantity": 1000.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 120.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 120.0,
+        "TALBRAN ENTERPRISES LLC": 200.0,
+        "PENHALL COMPANY": 195.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 13000.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 3000.0,
+        "TALBRAN ENTERPRISES LLC": 20000.0,
+        "PENHALL COMPANY": 19200.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 34400.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 80.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 125.0,
+        "TALBRAN ENTERPRISES LLC": 100.0,
+        "PENHALL COMPANY": 100.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 110.0
+      }
+    }
+  ]
+}

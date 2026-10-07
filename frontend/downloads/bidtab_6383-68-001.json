@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6383-68-001",
+    "county": "Hays",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638368001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "10/13/21",
+    "engEstTotal": 162392.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CEN-TEX IRRIGATION SYSTEMS, INC.",
+      "totalBidAmount": 236976.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "JASCO",
+      "totalBidAmount": 291712.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 550.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1.0,
+        "JASCO": 1000.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 4084.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 58.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 58.0,
+        "JASCO": 68.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1.0,
+        "JASCO": 100.0
+      }
+    }
+  ]
+}

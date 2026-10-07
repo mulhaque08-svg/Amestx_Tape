@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "0906-00-218",
+    "county": "Ector",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 906-00-218",
+    "projectType": "PREVENTIVE MAINTENANCE",
+    "letDate": "03/04/22",
+    "engEstTotal": 1045097.62,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "VIZCAINO, L.P.",
+      "totalBidAmount": 866887.83
+    },
+    {
+      "rank": 2,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 965950.44
+    },
+    {
+      "rank": 3,
+      "vendorName": "STRIPE-A-ZONE, LLC",
+      "totalBidAmount": 1017194.53
+    },
+    {
+      "rank": 4,
+      "vendorName": "CENTERLINE TECHNOLOGIES, LLC",
+      "totalBidAmount": 1097691.34
+    },
+    {
+      "rank": 5,
+      "vendorName": "L&L COMPANY",
+      "totalBidAmount": 1306170.8
+    },
+    {
+      "rank": 6,
+      "vendorName": "INTERSTATE BARRICADES & MARKINGS, INC.",
+      "totalBidAmount": 1360833.35
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 99839.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "VIZCAINO, L.P.": 1.0,
+        "TRP CONSTRUCTION GROUP, LLC": 20000.0,
+        "STRIPE-A-ZONE, LLC": 20000.0,
+        "CENTERLINE TECHNOLOGIES, LLC": 1.0,
+        "L&L COMPANY": 1.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 100000.0
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 11646.0,
+      "engEstUnit": 3.02,
+      "lowUnit": 3.0,
+      "bidders": {
+        "VIZCAINO, L.P.": 3.0,
+        "TRP CONSTRUCTION GROUP, LLC": 3.75,
+        "STRIPE-A-ZONE, LLC": 3.3,
+        "CENTERLINE TECHNOLOGIES, LLC": 3.15,
+        "L&L COMPANY": 3.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 3.0
+      }
+    }
+  ]
+}

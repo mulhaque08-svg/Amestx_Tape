@@ -1,0 +1,603 @@
+{
+  "metadata": {
+    "csj": "6391-94-001",
+    "county": "Travis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 639194001",
+    "projectType": "BRIDGE REPAIR",
+    "letDate": "03/03/22",
+    "engEstTotal": 1440875.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RESTEK, INC.",
+      "totalBidAmount": 1558775.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 1593890.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "SCR CIVIL CONSTRUCTION, LLC",
+      "totalBidAmount": 1915355.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 235.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "RESTEK, INC.": 50.0,
+        "DIGG COMMERCIAL, LLC": 50.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 128.0
+      }
+    },
+    {
+      "itemCode": "0104 6030",
+      "description": "REMOVING CONC (PILE ENCASEMENT)",
+      "unit": "CY",
+      "quantity": 20.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "RESTEK, INC.": 250.0,
+        "DIGG COMMERCIAL, LLC": 700.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 660.0
+      }
+    },
+    {
+      "itemCode": "0401 6001",
+      "description": "FLOWABLE BACKFILL",
+      "unit": "CY",
+      "quantity": 185.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "RESTEK, INC.": 300.0,
+        "DIGG COMMERCIAL, LLC": 190.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 565.0
+      }
+    },
+    {
+      "itemCode": "0420 6158",
+      "description": "CL C CONC(PILE ENCASEMENT)",
+      "unit": "LF",
+      "quantity": 110.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "RESTEK, INC.": 500.0,
+        "DIGG COMMERCIAL, LLC": 300.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 525.0
+      }
+    },
+    {
+      "itemCode": "0429 6004",
+      "description": "CONC STR REPAIR(RAPID DECK REP(PRT DPT)",
+      "unit": "SF",
+      "quantity": 125.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "RESTEK, INC.": 150.0,
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 315.0
+      }
+    },
+    {
+      "itemCode": "0429 6006",
+      "description": "CONC STR REPR(RAPID DECK REP(FULL DPT))",
+      "unit": "SF",
+      "quantity": 75.0,
+      "engEstUnit": 165.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "RESTEK, INC.": 225.0,
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 400.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 410.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "RESTEK, INC.": 150.0,
+        "DIGG COMMERCIAL, LLC": 225.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0429 6008",
+      "description": "CONC STR REPR(RAPID VERT AND OVERHEAD)",
+      "unit": "SF",
+      "quantity": 455.0,
+      "engEstUnit": 145.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "RESTEK, INC.": 150.0,
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0429 6011",
+      "description": "CONC STR REPR(REMOV AND REPL WINGWALL)",
+      "unit": "CY",
+      "quantity": 10.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "RESTEK, INC.": 2000.0,
+        "DIGG COMMERCIAL, LLC": 2000.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 5000.0
+      }
+    },
+    {
+      "itemCode": "0432 6002",
+      "description": "RIPRAP (CONC)(5 IN)",
+      "unit": "CY",
+      "quantity": 135.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 850.0,
+      "bidders": {
+        "RESTEK, INC.": 850.0,
+        "DIGG COMMERCIAL, LLC": 800.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 1100.0
+      }
+    },
+    {
+      "itemCode": "0432 6030",
+      "description": "RIPRAP (STONE COMMON)(GROUT)(12 IN)",
+      "unit": "CY",
+      "quantity": 80.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "RESTEK, INC.": 225.0,
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 330.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 250.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 275.0,
+      "bidders": {
+        "RESTEK, INC.": 275.0,
+        "DIGG COMMERCIAL, LLC": 180.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 240.0
+      }
+    },
+    {
+      "itemCode": "0432 6035",
+      "description": "RIPRAP (STONE PROTECTION)(24 IN)",
+      "unit": "CY",
+      "quantity": 250.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "RESTEK, INC.": 300.0,
+        "DIGG COMMERCIAL, LLC": 185.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 240.0
+      }
+    },
+    {
+      "itemCode": "0432 6036",
+      "description": "RIPRAP (STONE PROTECTION)(30 IN)",
+      "unit": "CY",
+      "quantity": 250.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 325.0,
+      "bidders": {
+        "RESTEK, INC.": 325.0,
+        "DIGG COMMERCIAL, LLC": 190.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 265.0
+      }
+    },
+    {
+      "itemCode": "0459 6007",
+      "description": "GABION MATTRESSES (GALV)(12 IN)",
+      "unit": "SY",
+      "quantity": 100.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 131.25,
+      "bidders": {
+        "RESTEK, INC.": 131.25,
+        "DIGG COMMERCIAL, LLC": 165.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 140.0
+      }
+    },
+    {
+      "itemCode": "0459 6009",
+      "description": "GABIONS (3' X 3')(GALV)",
+      "unit": "CY",
+      "quantity": 400.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 312.5,
+      "bidders": {
+        "RESTEK, INC.": 312.5,
+        "DIGG COMMERCIAL, LLC": 210.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 290.0
+      }
+    },
+    {
+      "itemCode": "0495 6001",
+      "description": "RAISING EXIST STRUCT",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 50000.0,
+      "bidders": {
+        "RESTEK, INC.": 50000.0,
+        "DIGG COMMERCIAL, LLC": 145000.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 62000.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 7500.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "RESTEK, INC.": 2500.0,
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 2500.0
+      }
+    },
+    {
+      "itemCode": "0510 6001",
+      "description": "ONE-WAY TRAF CONT (FLAGGER CONT)",
+      "unit": "HR",
+      "quantity": 100.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "RESTEK, INC.": 85.0,
+        "DIGG COMMERCIAL, LLC": 100.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0752 6005",
+      "description": "TREE REMOVAL (4\" - 12\" DIA)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "RESTEK, INC.": 100.0,
+        "DIGG COMMERCIAL, LLC": 200.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0752 6006",
+      "description": "TREE REMOVAL (12\" - 18\" DIA)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "RESTEK, INC.": 125.0,
+        "DIGG COMMERCIAL, LLC": 400.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 120.0
+      }
+    },
+    {
+      "itemCode": "0778 6001",
+      "description": "CONCRETE RAIL REPAIR (IN-KIND)",
+      "unit": "LF",
+      "quantity": 10.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "RESTEK, INC.": 200.0,
+        "DIGG COMMERCIAL, LLC": 1000.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 1400.0
+      }
+    },
+    {
+      "itemCode": "0778 6002",
+      "description": "CONCRETE RAIL REPAIR (MISC)",
+      "unit": "LF",
+      "quantity": 10.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "RESTEK, INC.": 250.0,
+        "DIGG COMMERCIAL, LLC": 1000.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 1900.0
+      }
+    },
+    {
+      "itemCode": "0778 6076",
+      "description": "CONCRETE RAIL REPLACEMENT (IN-KIND)",
+      "unit": "LF",
+      "quantity": 10.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "RESTEK, INC.": 250.0,
+        "DIGG COMMERCIAL, LLC": 1000.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 2500.0
+      }
+    },
+    {
+      "itemCode": "0780 6001",
+      "description": "CNC CRACK REPAIR (DISCRETE)(GRAVITY)",
+      "unit": "LF",
+      "quantity": 75.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "RESTEK, INC.": 50.0,
+        "DIGG COMMERCIAL, LLC": 75.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 95.0
+      }
+    },
+    {
+      "itemCode": "0780 6002",
+      "description": "CNC CRACK REPAIR (DISCRETE)(INJECT)",
+      "unit": "LF",
+      "quantity": 130.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "RESTEK, INC.": 100.0,
+        "DIGG COMMERCIAL, LLC": 130.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 130.0
+      }
+    },
+    {
+      "itemCode": "0780 6004",
+      "description": "CONC CRCK REPR(DISCRETE)(ROUT AND SEAL)",
+      "unit": "LF",
+      "quantity": 75.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "RESTEK, INC.": 75.0,
+        "DIGG COMMERCIAL, LLC": 105.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0786 6001",
+      "description": "CARBON FIBER REINF POLYMER PROTECTION",
+      "unit": "SF",
+      "quantity": 200.0,
+      "engEstUnit": 86.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "RESTEK, INC.": 75.0,
+        "DIGG COMMERCIAL, LLC": 160.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0788 6001",
+      "description": "CONCRETE BEAM REPAIR",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 5500.0,
+      "bidders": {
+        "RESTEK, INC.": 5500.0,
+        "DIGG COMMERCIAL, LLC": 5000.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 8000.0
+      }
+    },
+    {
+      "itemCode": "0788 6002",
+      "description": "CONCRETE BEAM REPAIR (CFRP)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 6500.0,
+      "bidders": {
+        "RESTEK, INC.": 6500.0,
+        "DIGG COMMERCIAL, LLC": 3000.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 11000.0
+      }
+    },
+    {
+      "itemCode": "0788 6003",
+      "description": "CONCRETE BEAM REP(STRAND SPLICE & CFRP)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 5300.0,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "RESTEK, INC.": 15000.0,
+        "DIGG COMMERCIAL, LLC": 10000.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 19000.0
+      }
+    },
+    {
+      "itemCode": "0788 6004",
+      "description": "CONCRETE BEAM REP (STRAND SPLICE)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 5300.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "RESTEK, INC.": 10000.0,
+        "DIGG COMMERCIAL, LLC": 7000.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 9000.0
+      }
+    },
+    {
+      "itemCode": "4091 6001",
+      "description": "DEWATERING BAGS",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "RESTEK, INC.": 200.0,
+        "DIGG COMMERCIAL, LLC": 100.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 4500.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 200.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "RESTEK, INC.": 225.0,
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 130.0
+      }
+    },
+    {
+      "itemCode": "7052 6042",
+      "description": "LANE CLOSURE (SETUP AND REMOV)(TY 1)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 2300.0,
+      "bidders": {
+        "RESTEK, INC.": 2300.0,
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 390.0
+      }
+    },
+    {
+      "itemCode": "7052 6043",
+      "description": "LANE CLOSURE (SETUP AND REMOV)(TY 2)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 2300.0,
+      "bidders": {
+        "RESTEK, INC.": 2300.0,
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 390.0
+      }
+    },
+    {
+      "itemCode": "7052 6044",
+      "description": "LANE CLOSURE (SETUP AND REMOV)(TY 3)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1785.0,
+      "bidders": {
+        "RESTEK, INC.": 1785.0,
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 600.0
+      }
+    },
+    {
+      "itemCode": "7052 6045",
+      "description": "LANE CLOSURE (SETUP AND REMOV)(TY 4)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 2300.0,
+      "bidders": {
+        "RESTEK, INC.": 2300.0,
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 700.0
+      }
+    },
+    {
+      "itemCode": "7052 6046",
+      "description": "LANE CLOSURE (SETUP AND REMOV)(TY 5)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1785.0,
+      "bidders": {
+        "RESTEK, INC.": 1785.0,
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 700.0
+      }
+    },
+    {
+      "itemCode": "7052 6047",
+      "description": "LANE CLOSURE (SETUP AND REMOV)(TY 6)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 2350.0,
+      "bidders": {
+        "RESTEK, INC.": 2350.0,
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "7052 6050",
+      "description": "LANE CLOSURE (SETUP AND REMOV)(TY 9)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 575.0,
+      "bidders": {
+        "RESTEK, INC.": 575.0,
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 325.0
+      }
+    },
+    {
+      "itemCode": "7052 6053",
+      "description": "LANE CLOSURE (SETUP AND REMOV)(TY 12)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1150.0,
+      "bidders": {
+        "RESTEK, INC.": 1150.0,
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 450.0
+      }
+    },
+    {
+      "itemCode": "7052 6057",
+      "description": "LANE CLOSURE (SETUP AND REMOV)(TY 16)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1785.0,
+      "bidders": {
+        "RESTEK, INC.": 1785.0,
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 400.0
+      }
+    },
+    {
+      "itemCode": "7052 6058",
+      "description": "LANE CLOSURE (SETUP AND REMOV)(TY 17)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 815.0,
+      "lowUnit": 2035.0,
+      "bidders": {
+        "RESTEK, INC.": 2035.0,
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 300.0
+      }
+    }
+  ]
+}

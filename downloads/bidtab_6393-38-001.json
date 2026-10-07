@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "csj": "6393-38-001",
+    "county": "Hunt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639338001",
+    "projectType": "TRAFFIC CONTROL SERVICES",
+    "letDate": "06/29/22",
+    "engEstTotal": 1566432.45,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AREA WIDE PROTECTIVE, INC.",
+      "totalBidAmount": 1511217.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "FC TRAFFIC CONTROL, INC.",
+      "totalBidAmount": 2283000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TOTAL HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 3308775.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 90000.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "AREA WIDE PROTECTIVE, INC.": 10.0,
+        "FC TRAFFIC CONTROL, INC.": 3500.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 200000.0
+      }
+    },
+    {
+      "itemCode": "0510 6001",
+      "description": "ONE-WAY TRAF CONT (FLAGGER CONT)",
+      "unit": "HR",
+      "quantity": 12150.0,
+      "engEstUnit": 37.69,
+      "lowUnit": 42.25,
+      "bidders": {
+        "AREA WIDE PROTECTIVE, INC.": 42.25,
+        "FC TRAFFIC CONTROL, INC.": 100.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 140.0
+      }
+    },
+    {
+      "itemCode": "0510 6002",
+      "description": "ONE-WAY TRAF CONT (PILOT CAR)",
+      "unit": "HR",
+      "quantity": 2500.0,
+      "engEstUnit": 55.46,
+      "lowUnit": 130.0,
+      "bidders": {
+        "AREA WIDE PROTECTIVE, INC.": 130.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "7139 6004",
+      "description": "LANE CLOSURE (TYPE 4)",
+      "unit": "HR",
+      "quantity": 210.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 130.0,
+      "bidders": {
+        "AREA WIDE PROTECTIVE, INC.": 130.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "7139 6008",
+      "description": "FURNISH ADDITIONAL ARROW BOARD",
+      "unit": "HR",
+      "quantity": 100.0,
+      "engEstUnit": 14.76,
+      "lowUnit": 10.0,
+      "bidders": {
+        "AREA WIDE PROTECTIVE, INC.": 10.0,
+        "FC TRAFFIC CONTROL, INC.": 50.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 85.0
+      }
+    }
+  ]
+}

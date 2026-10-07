@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6367-74-001",
+    "county": "Gillespie",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 636774001",
+    "projectType": "HYDROBLAST",
+    "letDate": "02/05/21",
+    "engEstTotal": 480312.69,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D. I. J. CONSTRUCTION, INC.",
+      "totalBidAmount": 355508.56
+    },
+    {
+      "rank": 2,
+      "vendorName": "STRIPE-A-ZONE, INC.",
+      "totalBidAmount": 364717.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 427846.3
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 43664.79,
+      "lowUnit": 100.0,
+      "bidders": {
+        "D. I. J. CONSTRUCTION, INC.": 100.0,
+        "STRIPE-A-ZONE, INC.": 4500.0,
+        "TRP CONSTRUCTION GROUP, LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "2022 6001",
+      "description": "ULTRA HP WATER CUTTING TREATMENT",
+      "unit": "SY",
+      "quantity": 95298.0,
+      "engEstUnit": 4.25,
+      "lowUnit": 3.72,
+      "bidders": {
+        "D. I. J. CONSTRUCTION, INC.": 3.72,
+        "STRIPE-A-ZONE, INC.": 3.75,
+        "TRP CONSTRUCTION GROUP, LLC": 4.35
+      }
+    }
+  ]
+}

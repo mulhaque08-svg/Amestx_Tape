@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6424-00-001",
+    "county": "Brazos",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642400001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "11/03/22",
+    "engEstTotal": 377555.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 528699.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "R&M INCORPORATED": 3.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 10573.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "R&M INCORPORATED": 50.0
+      }
+    }
+  ]
+}

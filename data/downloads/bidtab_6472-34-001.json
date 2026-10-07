@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6472-34-001",
+    "county": "Orange",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 647234001",
+    "projectType": "FLOWABLE BACKFILL",
+    "letDate": "08/29/24",
+    "engEstTotal": 47000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SOUTHERN SOURCING SOLUTIONS, LLC",
+      "totalBidAmount": 49720.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 56000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8015 6005",
+      "description": "FLWBLE BCKFLL(DEL)(61-80MLS FRM PLNT)",
+      "unit": "CY",
+      "quantity": 200.0,
+      "engEstUnit": 235.0,
+      "lowUnit": 248.6,
+      "bidders": {
+        "SOUTHERN SOURCING SOLUTIONS, LLC": 248.6,
+        "TOUCHSTONE RESOURCES, LLC": 280.0
+      }
+    }
+  ]
+}

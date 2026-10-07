@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6389-28-001",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638928001",
+    "projectType": "DITCH CLEANING AND RESHAPING",
+    "letDate": "01/07/22",
+    "engEstTotal": 667311.64,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 718629.63
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 1502885.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 100.0,
+        "DIGG COMMERCIAL, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 625.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 100.0,
+        "DIGG COMMERCIAL, LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "0760 6001",
+      "description": "DITCH CLEANING AND RESHAPING (FOOT)",
+      "unit": "LF",
+      "quantity": 465771.0,
+      "engEstUnit": 1.24,
+      "lowUnit": 1.53,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 1.53,
+        "DIGG COMMERCIAL, LLC": 0.5
+      }
+    }
+  ]
+}

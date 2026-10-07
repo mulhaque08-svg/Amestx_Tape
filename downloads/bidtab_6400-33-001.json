@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6400-33-001",
+    "county": "Bailey",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640033001",
+    "projectType": "CRACK SEAL",
+    "letDate": "09/07/22",
+    "engEstTotal": 391513.33,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 274153.48
+    },
+    {
+      "rank": 2,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 357804.26
+    },
+    {
+      "rank": 3,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 363968.53
+    },
+    {
+      "rank": 4,
+      "vendorName": "NATIONAL INDUSTRIAL MAINTENANCE, INC.",
+      "totalBidAmount": 382906.24
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 45000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "D & M CONTRACTORS, LLC": 2500.0,
+        "NATIONAL INDUSTRIAL MAINTENANCE, INC.": 10000.0
+      }
+    },
+    {
+      "itemCode": "0502 6001",
+      "description": "BARRICADES, SIGNS AND TRAFFIC HANDLING",
+      "unit": "MO",
+      "quantity": 3.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "D & M CONTRACTORS, LLC": 5.0,
+        "NATIONAL INDUSTRIAL MAINTENANCE, INC.": 1.0
+      }
+    }
+  ]
+}

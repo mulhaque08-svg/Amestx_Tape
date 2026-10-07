@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6469-14-001",
+    "county": "Jim Wells",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646914001",
+    "projectType": "AGGREGATE",
+    "letDate": "06/18/24",
+    "engEstTotal": 225000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 247190.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 264000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 283290.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 314040.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6239",
+      "description": "AGGR (TY PB GR 4) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 82.0,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 82.0,
+        "BRAUNTEX MATERIALS, INC.": 88.0,
+        "COLORADO MATERIALS, LTD.": 94.43,
+        "MARTIN MARIETTA MATERIALS, INC.": 104.52
+      }
+    },
+    {
+      "itemCode": "8039 6240",
+      "description": "AGGR (TY PB GR 4) (DEL) (ST2)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 88.82,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 88.82,
+        "BRAUNTEX MATERIALS, INC.": 98.0,
+        "COLORADO MATERIALS, LTD.": 102.51,
+        "MARTIN MARIETTA MATERIALS, INC.": 109.35
+      }
+    },
+    {
+      "itemCode": "8039 6241",
+      "description": "AGGR (TY PB GR 4) (DEL) (ST3)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 76.37,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 76.37,
+        "BRAUNTEX MATERIALS, INC.": 78.0,
+        "COLORADO MATERIALS, LTD.": 86.35,
+        "MARTIN MARIETTA MATERIALS, INC.": 100.17
+      }
+    }
+  ]
+}

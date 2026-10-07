@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6398-84-001",
+    "county": "Smith",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639884001",
+    "projectType": "SNOW AND ICE CONTROL",
+    "letDate": "07/12/22",
+    "engEstTotal": 272920.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SOUTHWEST ENVIROTX PARTNERS, LLC",
+      "totalBidAmount": 208320.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "NSG LOGISTICS, LLC",
+      "totalBidAmount": 213784.8
+    },
+    {
+      "rank": 3,
+      "vendorName": "THE BARGAIN SOURCE",
+      "totalBidAmount": 242600.96
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8032 6249",
+      "description": "COMPLEX CHLORIDE (DEL)(50LBS)(SITE 1)",
+      "unit": "BAG",
+      "quantity": 1760.0,
+      "engEstUnit": 17.0,
+      "lowUnit": 16.5,
+      "bidders": {
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 16.5,
+        "NSG LOGISTICS, LLC": 18.21,
+        "THE BARGAIN SOURCE": 16.996
+      }
+    },
+    {
+      "itemCode": "8032 6304",
+      "description": "COMPLEX CHLORIDE (DEL)(SUPERSACK)(STE1)",
+      "unit": "TON",
+      "quantity": 360.0,
+      "engEstUnit": 675.0,
+      "lowUnit": 498.0,
+      "bidders": {
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 498.0,
+        "NSG LOGISTICS, LLC": 504.82,
+        "THE BARGAIN SOURCE": 590.8
+      }
+    }
+  ]
+}

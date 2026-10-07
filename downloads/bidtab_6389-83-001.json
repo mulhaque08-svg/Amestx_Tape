@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6389-83-001",
+    "county": "Reeves",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638983001",
+    "projectType": "DENSE GRADED HOT MIX",
+    "letDate": "02/08/22",
+    "engEstTotal": 270000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KIEWIT INFRASTRUCTURE SOUTH CO.",
+      "totalBidAmount": 296475.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 324000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 396000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 100.35,
+      "bidders": {
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 100.35,
+        "TOUCHSTONE RESOURCES, LLC": 108.0,
+        "DIGG COMMERCIAL, LLC": 132.0
+      }
+    },
+    {
+      "itemCode": "8011 6016",
+      "description": "D-GR HMA(SQ)TY C PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 97.3,
+      "bidders": {
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 97.3,
+        "TOUCHSTONE RESOURCES, LLC": 108.0,
+        "DIGG COMMERCIAL, LLC": 132.0
+      }
+    }
+  ]
+}

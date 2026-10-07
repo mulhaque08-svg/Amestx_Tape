@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "csj": "6393-42-001",
+    "county": "Hopkins",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639342001",
+    "projectType": "TRAFFIC CONTROL SERVICES",
+    "letDate": "06/30/22",
+    "engEstTotal": 915000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AREA WIDE PROTECTIVE, INC.",
+      "totalBidAmount": 1360000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "FC TRAFFIC CONTROL, INC.",
+      "totalBidAmount": 1778500.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TOTAL HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 2310125.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 75000.0,
+      "lowUnit": 20000.0,
+      "bidders": {
+        "AREA WIDE PROTECTIVE, INC.": 20000.0,
+        "FC TRAFFIC CONTROL, INC.": 1000.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 195000.0
+      }
+    },
+    {
+      "itemCode": "0510 6001",
+      "description": "ONE-WAY TRAF CONT (FLAGGER CONT)",
+      "unit": "HR",
+      "quantity": 7000.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 47.5,
+      "bidders": {
+        "AREA WIDE PROTECTIVE, INC.": 47.5,
+        "FC TRAFFIC CONTROL, INC.": 100.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "0510 6002",
+      "description": "ONE-WAY TRAF CONT (PILOT CAR)",
+      "unit": "HR",
+      "quantity": 3500.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 145.0,
+      "bidders": {
+        "AREA WIDE PROTECTIVE, INC.": 145.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 135.0
+      }
+    },
+    {
+      "itemCode": "7139 6002",
+      "description": "LANE CLOSURE (TYPE 2)",
+      "unit": "HR",
+      "quantity": 100.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "AREA WIDE PROTECTIVE, INC.": 100.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 295.0
+      }
+    },
+    {
+      "itemCode": "7139 6004",
+      "description": "LANE CLOSURE (TYPE 4)",
+      "unit": "HR",
+      "quantity": 100.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "AREA WIDE PROTECTIVE, INC.": 150.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 350.0
+      }
+    }
+  ]
+}

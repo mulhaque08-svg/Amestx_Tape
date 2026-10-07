@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "csj": "6455-51-001",
+    "county": "Dewitt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645551001",
+    "projectType": "JANITORIAL MAINTENANCE",
+    "letDate": "10/10/23",
+    "engEstTotal": 8970.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RWCS JANITORIAL LLC",
+      "totalBidAmount": 8020.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MAXPRO ENTERPRISE LLC",
+      "totalBidAmount": 9000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ACE GLOBAL",
+      "totalBidAmount": 10621.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 10.0,
+        "MAXPRO ENTERPRISE LLC": 100.0,
+        "ACE GLOBAL": 1.0
+      }
+    },
+    {
+      "itemCode": "7158 6001",
+      "description": "JANITORIAL SERVICES - WEEKLY",
+      "unit": "CYC",
+      "quantity": 52.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 130.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 130.0,
+        "MAXPRO ENTERPRISE LLC": 150.0,
+        "ACE GLOBAL": 80.0
+      }
+    },
+    {
+      "itemCode": "7158 6002",
+      "description": "JANITORIAL SERVICES - MONTHLY",
+      "unit": "MO",
+      "quantity": 12.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 50.0,
+        "MAXPRO ENTERPRISE LLC": 50.0,
+        "ACE GLOBAL": 350.0
+      }
+    },
+    {
+      "itemCode": "7158 6003",
+      "description": "JANITORIAL SERVICES - STRIP/WAX FLOORS",
+      "unit": "CYC",
+      "quantity": 2.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 300.0,
+        "MAXPRO ENTERPRISE LLC": 200.0,
+        "ACE GLOBAL": 1100.0
+      }
+    },
+    {
+      "itemCode": "7158 6004",
+      "description": "JANITORIAL SERVICES - WINDOW WASHING",
+      "unit": "CYC",
+      "quantity": 1.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 50.0,
+        "MAXPRO ENTERPRISE LLC": 100.0,
+        "ACE GLOBAL": 60.0
+      }
+    }
+  ]
+}

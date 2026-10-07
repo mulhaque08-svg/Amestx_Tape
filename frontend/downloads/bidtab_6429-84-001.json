@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "csj": "6429-84-001",
+    "county": "Trinity",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642984001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "01/25/23",
+    "engEstTotal": 147465.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DON YATES, INC.",
+      "totalBidAmount": 122525.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MTS BRUSH HOGGING DOZER AND LAWN LLC",
+      "totalBidAmount": 176540.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "SERVIN MOWING",
+      "totalBidAmount": 212210.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "123 CONSTRUCTION CO.",
+      "totalBidAmount": 241405.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 10.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 0.5,
+      "bidders": {
+        "DON YATES, INC.": 0.5,
+        "MTS BRUSH HOGGING DOZER AND LAWN LLC": 40.0,
+        "SERVIN MOWING": 1.0,
+        "123 CONSTRUCTION CO.": 40.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 3651.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "DON YATES, INC.": 30.0,
+        "MTS BRUSH HOGGING DOZER AND LAWN LLC": 40.0,
+        "SERVIN MOWING": 50.0,
+        "123 CONSTRUCTION CO.": 55.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 0.25,
+      "bidders": {
+        "DON YATES, INC.": 0.25,
+        "MTS BRUSH HOGGING DOZER AND LAWN LLC": 40.0,
+        "SERVIN MOWING": 50.0,
+        "123 CONSTRUCTION CO.": 40.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 1440.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 9.0,
+      "bidders": {
+        "DON YATES, INC.": 9.0,
+        "MTS BRUSH HOGGING DOZER AND LAWN LLC": 18.0,
+        "SERVIN MOWING": 17.0,
+        "123 CONSTRUCTION CO.": 25.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 10.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 0.5,
+      "bidders": {
+        "DON YATES, INC.": 0.5,
+        "MTS BRUSH HOGGING DOZER AND LAWN LLC": 18.0,
+        "SERVIN MOWING": 17.0,
+        "123 CONSTRUCTION CO.": 20.0
+      }
+    }
+  ]
+}

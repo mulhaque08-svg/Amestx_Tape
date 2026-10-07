@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6439-50-001",
+    "county": "Trinity",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 643950001",
+    "projectType": "EMULSION CRS2P",
+    "letDate": "04/13/23",
+    "engEstTotal": 109550.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 96600.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CLEVELAND ASPHALT PRODUCTS, INC.",
+      "totalBidAmount": 107450.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ERGON ASPHALT & EMULSIONS, INC.",
+      "totalBidAmount": 113750.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6252",
+      "description": "CRS2P (DEL) (SITE 1)",
+      "unit": "GAL",
+      "quantity": 35000.0,
+      "engEstUnit": 3.13,
+      "lowUnit": 2.76,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.76,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 3.07,
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.25
+      }
+    }
+  ]
+}

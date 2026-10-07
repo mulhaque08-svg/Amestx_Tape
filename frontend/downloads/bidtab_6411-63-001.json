@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6411-63-001",
+    "county": "Coke",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641163001",
+    "projectType": "HOT MIX",
+    "letDate": "07/19/22",
+    "engEstTotal": 225000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CSA MATERIALS INC.",
+      "totalBidAmount": 309125.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8006 6001",
+      "description": "SP MIXTURES SP-C PG64-22  (PICKUP)",
+      "unit": "TON",
+      "quantity": 1250.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 115.0,
+      "bidders": {
+        "CSA MATERIALS INC.": 115.0
+      }
+    },
+    {
+      "itemCode": "8006 6017",
+      "description": "SP MIXTURES SP-C PG64-22 (DEL) (SITE 2)",
+      "unit": "TON",
+      "quantity": 1250.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 132.3,
+      "bidders": {
+        "CSA MATERIALS INC.": 132.3
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6408-10-001",
+    "county": "Comanche",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 640810001",
+    "projectType": "HOT-MIX COLD-LAID ASPH CONC PAV (MATERIALS ONLY)",
+    "letDate": "06/07/22",
+    "engEstTotal": 200125.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 237640.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ZACK BURKETT CO.",
+      "totalBidAmount": 246202.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8013 6003",
+      "description": "HMCL ACP TYPE B (DELIVERY)(SITE 1)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 111.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 111.5,
+        "ZACK BURKETT CO.": 118.2
+      }
+    },
+    {
+      "itemCode": "8019 6023",
+      "description": "ASPH CONC PAT MAT(ASPPM)(DEL)(SITE 1)",
+      "unit": "TON",
+      "quantity": 75.0,
+      "engEstUnit": 135.0,
+      "lowUnit": 195.2,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 195.2,
+        "ZACK BURKETT CO.": 130.7
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6392-70-001",
+    "county": "Fannin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639270001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/01/21",
+    "engEstTotal": 319718.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "PREMIER CONTRACTORS LLC",
+      "totalBidAmount": 254354.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GANT CONTRACTORS, INC.",
+      "totalBidAmount": 277102.9
+    },
+    {
+      "rank": 3,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 308309.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "PRESLEY LAND MANAGEMENT LLC",
+      "totalBidAmount": 322910.6
+    },
+    {
+      "rank": 5,
+      "vendorName": "EASTGATE SERVICES",
+      "totalBidAmount": 334645.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "PREMIER CONTRACTORS LLC": 5000.0,
+        "GANT CONTRACTORS, INC.": 1.0,
+        "ANTHONY SERVICES": 1.0,
+        "PRESLEY LAND MANAGEMENT LLC": 1.0,
+        "EASTGATE SERVICES": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 8112.0,
+      "engEstUnit": 39.0,
+      "lowUnit": 29.5,
+      "bidders": {
+        "PREMIER CONTRACTORS LLC": 29.5,
+        "GANT CONTRACTORS, INC.": 33.95,
+        "ANTHONY SERVICES": 38.0,
+        "PRESLEY LAND MANAGEMENT LLC": 39.8,
+        "EASTGATE SERVICES": 41.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 37.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "PREMIER CONTRACTORS LLC": 1.0,
+        "GANT CONTRACTORS, INC.": 33.95,
+        "ANTHONY SERVICES": 1.0,
+        "PRESLEY LAND MANAGEMENT LLC": 1.0,
+        "EASTGATE SERVICES": 41.0
+      }
+    }
+  ]
+}

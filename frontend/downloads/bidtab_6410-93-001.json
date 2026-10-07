@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6410-93-001",
+    "county": "Jackson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641093001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/01/23",
+    "engEstTotal": 352342.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 484159.8
+    },
+    {
+      "rank": 2,
+      "vendorName": "MTS BRUSH HOGGING DOZER AND LAWN LLC",
+      "totalBidAmount": 499870.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "LAWNSCAPES UNLIMITED",
+      "totalBidAmount": 928330.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 2354.0,
+      "engEstUnit": 23.0,
+      "lowUnit": 33.9,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 33.9,
+        "MTS BRUSH HOGGING DOZER AND LAWN LLC": 35.0,
+        "LAWNSCAPES UNLIMITED": 65.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 11928.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 33.9,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 33.9,
+        "MTS BRUSH HOGGING DOZER AND LAWN LLC": 35.0,
+        "LAWNSCAPES UNLIMITED": 65.0
+      }
+    }
+  ]
+}

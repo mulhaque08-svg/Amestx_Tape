@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "csj": "6437-67-001",
+    "county": "Webb",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643767001",
+    "projectType": "LANDSCAPE MAINTENANCE",
+    "letDate": "06/18/24",
+    "engEstTotal": 249634.86,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 295014.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CONCAN SERVICES LLC",
+      "totalBidAmount": 556805.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 33.8,
+      "engEstUnit": 35.41,
+      "lowUnit": 480.0,
+      "bidders": {
+        "R&M INCORPORATED": 480.0,
+        "CONCAN SERVICES LLC": 2200.0
+      }
+    },
+    {
+      "itemCode": "0730 6107",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "CYC",
+      "quantity": 52.0,
+      "engEstUnit": 2770.0,
+      "lowUnit": 2200.0,
+      "bidders": {
+        "R&M INCORPORATED": 2200.0,
+        "CONCAN SERVICES LLC": 2000.0
+      }
+    },
+    {
+      "itemCode": "0734 6002",
+      "description": "LITTER REMOVAL",
+      "unit": "CYC",
+      "quantity": 88.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 850.0,
+      "bidders": {
+        "R&M INCORPORATED": 850.0,
+        "CONCAN SERVICES LLC": 1400.0
+      }
+    },
+    {
+      "itemCode": "0738 6010",
+      "description": "CLEANING / SWEEPING (SPOT)",
+      "unit": "MI",
+      "quantity": 32.6,
+      "engEstUnit": 230.0,
+      "lowUnit": 1150.0,
+      "bidders": {
+        "R&M INCORPORATED": 1150.0,
+        "CONCAN SERVICES LLC": 4325.0
+      }
+    },
+    {
+      "itemCode": "0751 6002",
+      "description": "HERBICIDE APPLICATION",
+      "unit": "CYC",
+      "quantity": 10.0,
+      "engEstUnit": 1720.0,
+      "lowUnit": 1520.0,
+      "bidders": {
+        "R&M INCORPORATED": 1520.0,
+        "CONCAN SERVICES LLC": 1725.0
+      }
+    },
+    {
+      "itemCode": "0751 6011",
+      "description": "PRUNING",
+      "unit": "CYC",
+      "quantity": 3.0,
+      "engEstUnit": 2200.0,
+      "lowUnit": 9000.0,
+      "bidders": {
+        "R&M INCORPORATED": 9000.0,
+        "CONCAN SERVICES LLC": 22500.0
+      }
+    },
+    {
+      "itemCode": "0752 6007",
+      "description": "TREE REMOVAL (18\" - 24\" DIA)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "R&M INCORPORATED": 500.0,
+        "CONCAN SERVICES LLC": 500.0
+      }
+    }
+  ]
+}

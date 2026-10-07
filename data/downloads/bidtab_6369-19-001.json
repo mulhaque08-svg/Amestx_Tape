@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6369-19-001",
+    "county": "Travis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 636919001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/10/21",
+    "engEstTotal": 121788.8,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 108528.35
+    },
+    {
+      "rank": 2,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 121249.45
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 11000.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 5000.0,
+        "CRACKSEAL OF TEXAS, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 1.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.5
+      }
+    }
+  ]
+}

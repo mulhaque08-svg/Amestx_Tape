@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6423-98-001",
+    "county": "Galveston",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642398001",
+    "projectType": "DREDGING",
+    "letDate": "03/07/23",
+    "engEstTotal": 5700000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CALLAN MARINE LTD",
+      "totalBidAmount": 5984000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "7250 6001",
+      "description": "DREDGING",
+      "unit": "CY",
+      "quantity": 1200000.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 4.32,
+      "bidders": {
+        "CALLAN MARINE LTD": 4.32
+      }
+    },
+    {
+      "itemCode": "7256 6001",
+      "description": "MOBILIZATION FOR DREDGING",
+      "unit": "LS",
+      "quantity": 2.0,
+      "engEstUnit": 150000.0,
+      "lowUnit": 400000.0,
+      "bidders": {
+        "CALLAN MARINE LTD": 400000.0
+      }
+    }
+  ]
+}

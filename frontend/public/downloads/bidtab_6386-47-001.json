@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "csj": "6386-47-001",
+    "county": "Orange",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 638647001",
+    "projectType": "BRIDGE REPAIR",
+    "letDate": "10/26/21",
+    "engEstTotal": 144282.6,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SJ&J CONSTRUCTION, LLC",
+      "totalBidAmount": 135310.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "STRUCTURAL INTEGRITY GROUP LLC",
+      "totalBidAmount": 142967.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "NORMAN HIGHWAY CONSTRUCTORS, INC.",
+      "totalBidAmount": 171090.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 192490.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0132 6021",
+      "description": "EMBANKMENT (VEHICLE)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 223.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 30.0,
+        "STRUCTURAL INTEGRITY GROUP LLC": 90.0,
+        "NORMAN HIGHWAY CONSTRUCTORS, INC.": 105.0,
+        "FNH CONSTRUCTION, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0158 6002",
+      "description": "SPEC EXCAV WORK (BACKHOE)",
+      "unit": "HR",
+      "quantity": 24.0,
+      "engEstUnit": 146.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 100.0,
+        "STRUCTURAL INTEGRITY GROUP LLC": 170.0,
+        "NORMAN HIGHWAY CONSTRUCTORS, INC.": 200.0,
+        "FNH CONSTRUCTION, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0401 6001",
+      "description": "FLOWABLE BACKFILL",
+      "unit": "CY",
+      "quantity": 24.0,
+      "engEstUnit": 320.0,
+      "lowUnit": 180.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 180.0,
+        "STRUCTURAL INTEGRITY GROUP LLC": 333.0,
+        "NORMAN HIGHWAY CONSTRUCTORS, INC.": 500.0,
+        "FNH CONSTRUCTION, LLC": 350.0
+      }
+    },
+    {
+      "itemCode": "0429 6002",
+      "description": "CONC STR REPAIR (EPOXY MORTAR)",
+      "unit": "SF",
+      "quantity": 4.0,
+      "engEstUnit": 152.0,
+      "lowUnit": 175.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 175.0,
+        "STRUCTURAL INTEGRITY GROUP LLC": 450.0,
+        "NORMAN HIGHWAY CONSTRUCTORS, INC.": 1000.0,
+        "FNH CONSTRUCTION, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 84.0,
+      "engEstUnit": 211.0,
+      "lowUnit": 175.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 175.0,
+        "STRUCTURAL INTEGRITY GROUP LLC": 150.0,
+        "NORMAN HIGHWAY CONSTRUCTORS, INC.": 350.0,
+        "FNH CONSTRUCTION, LLC": 600.0
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 2.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 900.0,
+        "STRUCTURAL INTEGRITY GROUP LLC": 1885.0,
+        "NORMAN HIGHWAY CONSTRUCTORS, INC.": 3200.0,
+        "FNH CONSTRUCTION, LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0432 6032",
+      "description": "RIPRAP (STONE PROTECTION)(15 IN)",
+      "unit": "CY",
+      "quantity": 204.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 200.0,
+        "STRUCTURAL INTEGRITY GROUP LLC": 265.0,
+        "NORMAN HIGHWAY CONSTRUCTORS, INC.": 250.0,
+        "FNH CONSTRUCTION, LLC": 185.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 13116.6,
+      "lowUnit": 40000.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 40000.0,
+        "STRUCTURAL INTEGRITY GROUP LLC": 15000.0,
+        "NORMAN HIGHWAY CONSTRUCTORS, INC.": 17500.0,
+        "FNH CONSTRUCTION, LLC": 18500.0
+      }
+    }
+  ]
+}

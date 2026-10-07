@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6452-93-001",
+    "county": "Ector",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645293001",
+    "projectType": "SMALL SIGN MAINTENANCE",
+    "letDate": "10/17/23",
+    "engEstTotal": 233500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "2H, LLC",
+      "totalBidAmount": 206030.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MARCOM'S MOWING SERVICE, LLC",
+      "totalBidAmount": 226500.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TWELVE STARS CONSTRUCTION COMPANY LLC",
+      "totalBidAmount": 227700.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 12000.0,
+      "bidders": {
+        "2H, LLC": 12000.0,
+        "MARCOM'S MOWING SERVICE, LLC": 15000.0,
+        "TWELVE STARS CONSTRUCTION COMPANY LLC": 4900.0
+      }
+    }
+  ]
+}

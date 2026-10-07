@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6453-87-001",
+    "county": "Bowie",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645387001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "01/10/24",
+    "engEstTotal": 249280.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "PERRY WEST",
+      "totalBidAmount": 246000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "HX FARMS, INC.",
+      "totalBidAmount": 311600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6061",
+      "description": "FULL - WIDTH MOWING - TRACT (8)",
+      "unit": "AC",
+      "quantity": 6560.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 37.5,
+      "bidders": {
+        "PERRY WEST": 37.5,
+        "HX FARMS, INC.": 47.5
+      }
+    }
+  ]
+}

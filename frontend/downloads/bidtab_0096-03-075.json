@@ -1,0 +1,824 @@
+{
+  "metadata": {
+    "csj": "0096-03-075",
+    "county": "Upshur",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2023(088)",
+    "projectType": "REHABILITATE EXISTING ROADWAY",
+    "letDate": "09/07/22",
+    "engEstTotal": 8086312.6,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MADDEN CONTRACTING COMPANY, LLC.",
+      "totalBidAmount": 6277174.34
+    },
+    {
+      "rank": 2,
+      "vendorName": "REYNOLDS & KAY, LTD.",
+      "totalBidAmount": 6894560.97
+    },
+    {
+      "rank": 3,
+      "vendorName": "LONGVIEW BRIDGE AND ROAD, LTD.",
+      "totalBidAmount": 7714881.71
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 79.08,
+      "engEstUnit": 2000.0,
+      "lowUnit": 3375.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 3375.0,
+        "REYNOLDS & KAY, LTD.": 2000.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 9000.0
+      }
+    },
+    {
+      "itemCode": "0104 6054",
+      "description": "REMOVING CONCRETE(MOW STRIP)",
+      "unit": "LF",
+      "quantity": 1500.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 4.25,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 4.25,
+        "REYNOLDS & KAY, LTD.": 5.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 6.65
+      }
+    },
+    {
+      "itemCode": "0132 6021",
+      "description": "EMBANKMENT (VEHICLE)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 110.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 45.0,
+        "REYNOLDS & KAY, LTD.": 38.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 52.0
+      }
+    },
+    {
+      "itemCode": "0134 6003",
+      "description": "BACKFILL (TY C)",
+      "unit": "STA",
+      "quantity": 155.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 286.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 286.0,
+        "REYNOLDS & KAY, LTD.": 300.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 635.0
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 26848.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.12,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 0.12,
+        "REYNOLDS & KAY, LTD.": 0.15,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 0.13
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 26848.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.09,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 0.09,
+        "REYNOLDS & KAY, LTD.": 0.1,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 0.1
+      }
+    },
+    {
+      "itemCode": "0164 6054",
+      "description": "BOND FBR MTRX SEED (PERM)(RURAL)(SAND)",
+      "unit": "SY",
+      "quantity": 53697.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 0.55,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 0.55,
+        "REYNOLDS & KAY, LTD.": 0.65,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 0.64
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 859.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 5.0,
+        "REYNOLDS & KAY, LTD.": 8.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 15.0
+      }
+    },
+    {
+      "itemCode": "0169 6002",
+      "description": "SOIL RETENTION BLANKETS (CL 1) (TY B)",
+      "unit": "SY",
+      "quantity": 833.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.74,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 1.74,
+        "REYNOLDS & KAY, LTD.": 2.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 2.0
+      }
+    },
+    {
+      "itemCode": "0351 6002",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(6\")",
+      "unit": "SY",
+      "quantity": 16177.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 49.75,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 49.75,
+        "REYNOLDS & KAY, LTD.": 63.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 56.7
+      }
+    },
+    {
+      "itemCode": "0354 6021",
+      "description": "PLANE ASPH CONC PAV(0\" TO 2\")",
+      "unit": "SY",
+      "quantity": 3467.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 1.15,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 1.15,
+        "REYNOLDS & KAY, LTD.": 3.29,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 2.32
+      }
+    },
+    {
+      "itemCode": "0354 6045",
+      "description": "PLANE ASPH CONC PAV (2\")",
+      "unit": "SY",
+      "quantity": 17081.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 4.75,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 4.75,
+        "REYNOLDS & KAY, LTD.": 2.94,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 2.15
+      }
+    },
+    {
+      "itemCode": "0354 6048",
+      "description": "PLANE ASPH CONC PAV (3\")",
+      "unit": "SY",
+      "quantity": 32512.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 4.5,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 4.5,
+        "REYNOLDS & KAY, LTD.": 2.65,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 3.45
+      }
+    },
+    {
+      "itemCode": "0354 6053",
+      "description": "PLANE ASPH CONC PAV (1 1/4\")",
+      "unit": "SY",
+      "quantity": 64707.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 1.15,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 1.15,
+        "REYNOLDS & KAY, LTD.": 1.55,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 1.75
+      }
+    },
+    {
+      "itemCode": "0361 6043",
+      "description": "FULL - DEPTH REPAIR CPJR (8\")",
+      "unit": "SY",
+      "quantity": 120.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 149.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 149.0,
+        "REYNOLDS & KAY, LTD.": 255.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 325.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 85.0,
+      "engEstUnit": 575.0,
+      "lowUnit": 482.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 482.0,
+        "REYNOLDS & KAY, LTD.": 735.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 555.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 730000.0,
+      "lowUnit": 439500.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 439500.0,
+        "REYNOLDS & KAY, LTD.": 700000.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 600000.0
+      }
+    },
+    {
+      "itemCode": "0533 6003",
+      "description": "RUMBLE STRIPS (SHOULDER) ASPHALT",
+      "unit": "LF",
+      "quantity": 4470.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 1.5,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 1.5,
+        "REYNOLDS & KAY, LTD.": 2.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 2.05
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 1350.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 2.25,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 2.25,
+        "REYNOLDS & KAY, LTD.": 2.5,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 2.5
+      }
+    },
+    {
+      "itemCode": "0542 6003",
+      "description": "REMOVE DOWNSTREAM ANCHOR TERMINAL",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 150.0,
+        "REYNOLDS & KAY, LTD.": 175.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 165.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 2750.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 2750.0,
+        "REYNOLDS & KAY, LTD.": 3200.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 3025.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 200.0,
+        "REYNOLDS & KAY, LTD.": 233.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 220.0
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1800.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 1000.0,
+        "REYNOLDS & KAY, LTD.": 1200.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 1100.0
+      }
+    },
+    {
+      "itemCode": "0545 6007",
+      "description": "CRASH CUSH ATTEN (INSTL)(L)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 30000.0,
+      "lowUnit": 26900.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 26900.0,
+        "REYNOLDS & KAY, LTD.": 32000.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 29590.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 806.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 806.0,
+        "REYNOLDS & KAY, LTD.": 940.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 660.0
+      }
+    },
+    {
+      "itemCode": "0644 6033",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1086.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 1086.0,
+        "REYNOLDS & KAY, LTD.": 1250.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 792.0
+      }
+    },
+    {
+      "itemCode": "0644 6060",
+      "description": "IN SM RD SN SUP&AM TYTWT(1)WS(P)",
+      "unit": "EA",
+      "quantity": 22.0,
+      "engEstUnit": 470.0,
+      "lowUnit": 434.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 434.0,
+        "REYNOLDS & KAY, LTD.": 500.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 792.0
+      }
+    },
+    {
+      "itemCode": "0644 6061",
+      "description": "IN SM RD SN SUP&AM TYTWT(1)WS(T)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 850.0,
+      "lowUnit": 560.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 560.0,
+        "REYNOLDS & KAY, LTD.": 650.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 792.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 42.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 89.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 89.0,
+        "REYNOLDS & KAY, LTD.": 100.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 132.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 45.0,
+        "REYNOLDS & KAY, LTD.": 53.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 50.0
+      }
+    },
+    {
+      "itemCode": "0662 6001",
+      "description": "WK ZN PAV MRK NON-REMOV (W)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 9180.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 1.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 1.0,
+        "REYNOLDS & KAY, LTD.": 0.55,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 0.55
+      }
+    },
+    {
+      "itemCode": "0662 6016",
+      "description": "WK ZN PAV MRK NON-REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 6.0,
+        "REYNOLDS & KAY, LTD.": 7.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 6.6
+      }
+    },
+    {
+      "itemCode": "0662 6032",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 9180.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 1.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 1.0,
+        "REYNOLDS & KAY, LTD.": 0.55,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 0.55
+      }
+    },
+    {
+      "itemCode": "0662 6050",
+      "description": "WK ZN PAV MRK REMOV (REFL) TY II-A-A",
+      "unit": "EA",
+      "quantity": 2550.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 3.5,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 3.5,
+        "REYNOLDS & KAY, LTD.": 4.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 3.85
+      }
+    },
+    {
+      "itemCode": "0662 6112",
+      "description": "WK ZN PAV MRK SHT TERM RMV (W)(4\")",
+      "unit": "LF",
+      "quantity": 71280.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 0.01,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 0.01,
+        "REYNOLDS & KAY, LTD.": 1.45,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 2.5
+      }
+    },
+    {
+      "itemCode": "0662 6113",
+      "description": "WK ZN PAV MRK SHT TERM RMV (Y)(4\")",
+      "unit": "LF",
+      "quantity": 50960.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 0.01,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 0.01,
+        "REYNOLDS & KAY, LTD.": 1.45,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 2.5
+      }
+    },
+    {
+      "itemCode": "0668 6076",
+      "description": "PREFAB PAV MRK TY C (W) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 765.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 13.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 13.0,
+        "REYNOLDS & KAY, LTD.": 15.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 14.3
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 205.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 205.0,
+        "REYNOLDS & KAY, LTD.": 240.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 225.5
+      }
+    },
+    {
+      "itemCode": "0668 6083",
+      "description": "PREFAB PAV MRK TY C (W) (LNDP ARROW)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 580.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 300.0,
+        "REYNOLDS & KAY, LTD.": 350.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 330.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 255.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 255.0,
+        "REYNOLDS & KAY, LTD.": 300.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 280.5
+      }
+    },
+    {
+      "itemCode": "0668 6092",
+      "description": "PREFAB PAV MRK TY C (W) (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 33.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 65.0,
+        "REYNOLDS & KAY, LTD.": 76.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 71.5
+      }
+    },
+    {
+      "itemCode": "0668 6108",
+      "description": "PREFAB PAV MRK TY C (Y) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 264.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 13.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 13.0,
+        "REYNOLDS & KAY, LTD.": 15.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 14.3
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 516.0,
+      "engEstUnit": 4.4,
+      "lowUnit": 3.6,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 3.6,
+        "REYNOLDS & KAY, LTD.": 4.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 4.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 1033.0,
+      "engEstUnit": 4.4,
+      "lowUnit": 3.6,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 3.6,
+        "REYNOLDS & KAY, LTD.": 4.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 4.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 42650.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 0.48,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 0.48,
+        "REYNOLDS & KAY, LTD.": 0.55,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 0.55
+      }
+    },
+    {
+      "itemCode": "3077 6052",
+      "description": "SP MIXES SP-D SAC-A PG70-22",
+      "unit": "TON",
+      "quantity": 4449.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 144.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 144.0,
+        "REYNOLDS & KAY, LTD.": 151.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 145.0
+      }
+    },
+    {
+      "itemCode": "3077 6065",
+      "description": "SP MIXES SP-D SAC-A PG76-22",
+      "unit": "TON",
+      "quantity": 14247.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 142.25,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 142.25,
+        "REYNOLDS & KAY, LTD.": 150.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 144.0
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 45426.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 0.01,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 0.01,
+        "REYNOLDS & KAY, LTD.": 3.35,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 5.4
+      }
+    },
+    {
+      "itemCode": "3089 6002",
+      "description": "CEMENT",
+      "unit": "TON",
+      "quantity": 159.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 195.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 195.0,
+        "REYNOLDS & KAY, LTD.": 295.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 290.0
+      }
+    },
+    {
+      "itemCode": "3089 6003",
+      "description": "EMULSION",
+      "unit": "GAL",
+      "quantity": 141428.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 3.87,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 3.87,
+        "REYNOLDS & KAY, LTD.": 3.75,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 4.65
+      }
+    },
+    {
+      "itemCode": "3089 6009",
+      "description": "EMUL TRTMNT (MX EXIST MATL) 10\"",
+      "unit": "SY",
+      "quantity": 32512.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 9.75,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 9.75,
+        "REYNOLDS & KAY, LTD.": 7.3,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 5.0
+      }
+    },
+    {
+      "itemCode": "4171 6001",
+      "description": "INSTALL BRIDGE IDENTIFICATION NUMBERS",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1900.21,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 1900.21,
+        "REYNOLDS & KAY, LTD.": 550.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 305.0
+      }
+    },
+    {
+      "itemCode": "5129 6001",
+      "description": "INSTALL FTB",
+      "unit": "LF",
+      "quantity": 1500.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 58.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 58.0,
+        "REYNOLDS & KAY, LTD.": 33.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 63.8
+      }
+    },
+    {
+      "itemCode": "5129 6002",
+      "description": "REMOVE FTB",
+      "unit": "LF",
+      "quantity": 1500.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 8.0,
+        "REYNOLDS & KAY, LTD.": 6.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 8.8
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 17000.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 17000.0,
+        "REYNOLDS & KAY, LTD.": 8500.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 24000.0
+      }
+    },
+    {
+      "itemCode": "6056 6002",
+      "description": "PREFORMED CENTERLINE RUMBLE STRIP",
+      "unit": "LF",
+      "quantity": 4470.0,
+      "engEstUnit": 3.79,
+      "lowUnit": 4.2,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 4.2,
+        "REYNOLDS & KAY, LTD.": 5.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 4.65
+      }
+    },
+    {
+      "itemCode": "6149 6004",
+      "description": "REFL PAV MRK AWT (W) 6\" (SLD) (100MIL)",
+      "unit": "LF",
+      "quantity": 41310.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 0.65,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 0.65,
+        "REYNOLDS & KAY, LTD.": 0.75,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 0.75
+      }
+    },
+    {
+      "itemCode": "6149 6005",
+      "description": "REFL PAV MRK AWT (W) 6\" (BRK) (100MIL)",
+      "unit": "LF",
+      "quantity": 10340.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 0.65,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 0.65,
+        "REYNOLDS & KAY, LTD.": 0.75,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 0.75
+      }
+    },
+    {
+      "itemCode": "6149 6006",
+      "description": "REFL PAV MRK AWT (W) 6\" (DOT) (100MIL)",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 1.1,
+      "lowUnit": 1.0,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 1.0,
+        "REYNOLDS & KAY, LTD.": 1.15,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 1.1
+      }
+    },
+    {
+      "itemCode": "6149 6010",
+      "description": "REFL PAV MRK AWT (Y) 6\" (SLD) (100MIL)",
+      "unit": "LF",
+      "quantity": 41310.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.65,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 0.65,
+        "REYNOLDS & KAY, LTD.": 0.75,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 0.75
+      }
+    },
+    {
+      "itemCode": "6149 6011",
+      "description": "REFL PAV MRK AWT (Y) 6\" (BRK) (100MIL)",
+      "unit": "LF",
+      "quantity": 4760.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 0.65,
+      "bidders": {
+        "MADDEN CONTRACTING COMPANY, LLC.": 0.65,
+        "REYNOLDS & KAY, LTD.": 0.75,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 0.75
+      }
+    }
+  ]
+}

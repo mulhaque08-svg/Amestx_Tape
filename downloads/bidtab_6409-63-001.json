@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6409-63-001",
+    "county": "Brazos",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640963001",
+    "projectType": "CRACK SEAL",
+    "letDate": "07/13/22",
+    "engEstTotal": 212756.6,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 198344.4
+    },
+    {
+      "rank": 2,
+      "vendorName": "NATIONAL INDUSTRIAL MAINTENANCE, INC.",
+      "totalBidAmount": 285453.96
+    },
+    {
+      "rank": 3,
+      "vendorName": "SCOUT 5 CONSTRUCTION LLC",
+      "totalBidAmount": 304637.29
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 12000.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 12000.0,
+        "NATIONAL INDUSTRIAL MAINTENANCE, INC.": 5000.0,
+        "SCOUT 5 CONSTRUCTION LLC": 4983.51
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 10.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 5.0,
+        "NATIONAL INDUSTRIAL MAINTENANCE, INC.": 1.0,
+        "SCOUT 5 CONSTRUCTION LLC": 0.01
+      }
+    }
+  ]
+}

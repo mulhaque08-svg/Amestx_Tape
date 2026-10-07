@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6445-06-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644506001",
+    "projectType": "HERBICIDE/INSECTICIDE",
+    "letDate": "12/06/23",
+    "engEstTotal": 547600.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 606800.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "OPTERRA SOLUTIONS, INC.",
+      "totalBidAmount": 717619.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 39700.0,
+      "lowUnit": 63800.0,
+      "bidders": {
+        "ANTHONY SERVICES": 63800.0,
+        "OPTERRA SOLUTIONS, INC.": 2500.0
+      }
+    },
+    {
+      "itemCode": "0731 6006",
+      "description": "BROADCAST APPLICATION",
+      "unit": "MI",
+      "quantity": 267.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "ANTHONY SERVICES": 1000.0,
+        "OPTERRA SOLUTIONS, INC.": 1307.0
+      }
+    },
+    {
+      "itemCode": "0731 6007",
+      "description": "PAVEMENT EDGES, STRUCTURES & FIXTURES",
+      "unit": "MI",
+      "quantity": 267.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "ANTHONY SERVICES": 1000.0,
+        "OPTERRA SOLUTIONS, INC.": 950.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "csj": "6430-22-001",
+    "county": "Ellis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643022001",
+    "projectType": "REFLECTORIZED PAVEMENT MARKINGS & MARKERS",
+    "letDate": "12/05/23",
+    "engEstTotal": 578245.47,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "STRIPE-A-ZONE, LLC",
+      "totalBidAmount": 284266.91
+    },
+    {
+      "rank": 2,
+      "vendorName": "STRIPE LINES, INC.",
+      "totalBidAmount": 331797.27
+    },
+    {
+      "rank": 3,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 339945.83
+    },
+    {
+      "rank": 4,
+      "vendorName": "TRAFFIC HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 343226.55
+    },
+    {
+      "rank": 5,
+      "vendorName": "INTERSTATE BARRICADES & MARKINGS, INC.",
+      "totalBidAmount": 407918.56
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 52567.77,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "STRIPE-A-ZONE, LLC": 15000.0,
+        "STRIPE LINES, INC.": 50000.0,
+        "TRP CONSTRUCTION GROUP, LLC": 5000.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 10000.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 50000.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 18663.0,
+      "engEstUnit": 0.75,
+      "lowUnit": 0.5,
+      "bidders": {
+        "STRIPE-A-ZONE, LLC": 0.5,
+        "STRIPE LINES, INC.": 0.44,
+        "TRP CONSTRUCTION GROUP, LLC": 0.75,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 0.36,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.5
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 466598.0,
+      "engEstUnit": 0.15,
+      "lowUnit": 0.02,
+      "bidders": {
+        "STRIPE-A-ZONE, LLC": 0.02,
+        "STRIPE LINES, INC.": 0.01,
+        "TRP CONSTRUCTION GROUP, LLC": 0.02,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 0.001,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.01
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 3949.0,
+      "engEstUnit": 0.24,
+      "lowUnit": 0.1,
+      "bidders": {
+        "STRIPE-A-ZONE, LLC": 0.1,
+        "STRIPE LINES, INC.": 0.09,
+        "TRP CONSTRUCTION GROUP, LLC": 0.08,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 0.001,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.02
+      }
+    }
+  ]
+}

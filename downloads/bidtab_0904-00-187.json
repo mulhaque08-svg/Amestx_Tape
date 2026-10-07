@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "0904-00-187",
+    "county": "Potter",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2021(385)",
+    "projectType": "PREVENTIVE MAINTENANCE",
+    "letDate": "09/02/21",
+    "engEstTotal": 1447027.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 929306.25
+    },
+    {
+      "rank": 2,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 1562127.8
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 90000.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 2000.0,
+        "CRACKSEAL OF TEXAS, LLC": 22000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 132.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 3.0,
+        "CRACKSEAL OF TEXAS, LLC": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,733 @@
+{
+  "metadata": {
+    "csj": "6461-84-001",
+    "county": "Navarro",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646184001",
+    "projectType": "METAL BEAM GUARD FENCE REPAIR",
+    "letDate": "05/02/24",
+    "engEstTotal": 1065700.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FIREMAN EXCAVATING, INC.",
+      "totalBidAmount": 635909.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "HAZMAT INTERNATIONAL, INC.",
+      "totalBidAmount": 1259280.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MARCOM'S MOWING SERVICE, LLC",
+      "totalBidAmount": 1309580.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6021",
+      "description": "REMOVING CONC (CURB)",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 10.0,
+        "HAZMAT INTERNATIONAL, INC.": 5.0,
+        "MARCOM'S MOWING SERVICE, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 75.0,
+      "engEstUnit": 690.0,
+      "lowUnit": 450.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 450.0,
+        "HAZMAT INTERNATIONAL, INC.": 650.0,
+        "MARCOM'S MOWING SERVICE, LLC": 550.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 260.0,
+      "engEstUnit": 520.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "HAZMAT INTERNATIONAL, INC.": 1.0,
+        "MARCOM'S MOWING SERVICE, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0529 6002",
+      "description": "CONC CURB (TY II)",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 50.0,
+        "HAZMAT INTERNATIONAL, INC.": 15.0,
+        "MARCOM'S MOWING SERVICE, LLC": 60.0
+      }
+    },
+    {
+      "itemCode": "0658 6013",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 20.0,
+        "HAZMAT INTERNATIONAL, INC.": 30.0,
+        "MARCOM'S MOWING SERVICE, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 2.0,
+        "HAZMAT INTERNATIONAL, INC.": 30.0,
+        "MARCOM'S MOWING SERVICE, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0658 6026",
+      "description": "INSTL DEL ASSM (D-SY)SZ (BRF)CTB",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 15.0,
+        "HAZMAT INTERNATIONAL, INC.": 30.0,
+        "MARCOM'S MOWING SERVICE, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0658 6027",
+      "description": "INSTL DEL ASSM (D-SY)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 350.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 2.0,
+        "HAZMAT INTERNATIONAL, INC.": 30.0,
+        "MARCOM'S MOWING SERVICE, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0658 6047",
+      "description": "INSTL OM ASSM (OM-2Y)(WC)GND",
+      "unit": "EA",
+      "quantity": 35.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 100.0,
+        "HAZMAT INTERNATIONAL, INC.": 110.0,
+        "MARCOM'S MOWING SERVICE, LLC": 110.0
+      }
+    },
+    {
+      "itemCode": "0658 6060",
+      "description": "REMOVE DELIN & OBJECT MARKER ASSMS",
+      "unit": "EA",
+      "quantity": 35.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 20.0,
+        "HAZMAT INTERNATIONAL, INC.": 50.0,
+        "MARCOM'S MOWING SERVICE, LLC": 15.0
+      }
+    },
+    {
+      "itemCode": "0658 6061",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2",
+      "unit": "EA",
+      "quantity": 81.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 20.0,
+        "HAZMAT INTERNATIONAL, INC.": 30.0,
+        "MARCOM'S MOWING SERVICE, LLC": 60.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 81.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 2.0,
+        "HAZMAT INTERNATIONAL, INC.": 30.0,
+        "MARCOM'S MOWING SERVICE, LLC": 60.0
+      }
+    },
+    {
+      "itemCode": "0658 6064",
+      "description": "INSTL DEL ASSM (D-SY)SZ 1(BRF)GF2",
+      "unit": "EA",
+      "quantity": 81.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 20.0,
+        "HAZMAT INTERNATIONAL, INC.": 30.0,
+        "MARCOM'S MOWING SERVICE, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0658 6067",
+      "description": "INSTL DEL ASSM (D-DW)SZ 1(BRF)GF2",
+      "unit": "EA",
+      "quantity": 81.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 2.0,
+        "HAZMAT INTERNATIONAL, INC.": 30.0,
+        "MARCOM'S MOWING SERVICE, LLC": 60.0
+      }
+    },
+    {
+      "itemCode": "0658 6068",
+      "description": "INSTL DEL ASSM (D-DY)SZ 1(BRF)GF2",
+      "unit": "EA",
+      "quantity": 81.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 2.0,
+        "HAZMAT INTERNATIONAL, INC.": 30.0,
+        "MARCOM'S MOWING SERVICE, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0658 6080",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(WFLX)GND",
+      "unit": "EA",
+      "quantity": 200.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 15.0,
+        "HAZMAT INTERNATIONAL, INC.": 85.0,
+        "MARCOM'S MOWING SERVICE, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0658 6086",
+      "description": "INSTL DEL ASSM (D-SY)SZ 1(YFLX)GND",
+      "unit": "EA",
+      "quantity": 200.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 15.0,
+        "HAZMAT INTERNATIONAL, INC.": 85.0,
+        "MARCOM'S MOWING SERVICE, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0658 6092",
+      "description": "INSTL DEL ASSM (D-DW)SZ 1(WFLX)GND",
+      "unit": "EA",
+      "quantity": 200.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 15.0,
+        "HAZMAT INTERNATIONAL, INC.": 85.0,
+        "MARCOM'S MOWING SERVICE, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0658 6095",
+      "description": "INSTL DEL ASSM (D-DY)SZ 1(YFLX)GND",
+      "unit": "EA",
+      "quantity": 200.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 15.0,
+        "HAZMAT INTERNATIONAL, INC.": 85.0,
+        "MARCOM'S MOWING SERVICE, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0658 6110",
+      "description": "INSTL DEL ASSM (D-SY)SZ 1(BRF)(GF2)(BI)",
+      "unit": "EA",
+      "quantity": 3344.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 2.0,
+        "HAZMAT INTERNATIONAL, INC.": 30.0,
+        "MARCOM'S MOWING SERVICE, LLC": 45.0
+      }
+    },
+    {
+      "itemCode": "0770 6001",
+      "description": "REPAIR RAIL ELEMENT (W - BEAM)",
+      "unit": "LF",
+      "quantity": 2500.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 40.0,
+        "HAZMAT INTERNATIONAL, INC.": 30.0,
+        "MARCOM'S MOWING SERVICE, LLC": 32.0
+      }
+    },
+    {
+      "itemCode": "0770 6002",
+      "description": "REPAIR RAIL ELEMENT (THRIE - BEAM)",
+      "unit": "LF",
+      "quantity": 10.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 200.0,
+        "HAZMAT INTERNATIONAL, INC.": 30.0,
+        "MARCOM'S MOWING SERVICE, LLC": 60.0
+      }
+    },
+    {
+      "itemCode": "0770 6003",
+      "description": "REP RAIL ELMNT(THRIE-BM TRANS TO W -BM)",
+      "unit": "LF",
+      "quantity": 10.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 50.0,
+        "HAZMAT INTERNATIONAL, INC.": 40.0,
+        "MARCOM'S MOWING SERVICE, LLC": 60.0
+      }
+    },
+    {
+      "itemCode": "0770 6005",
+      "description": "REM/REPAIR RAIL ELEMENT (CURVED RAIL)",
+      "unit": "LF",
+      "quantity": 300.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 20.0,
+        "HAZMAT INTERNATIONAL, INC.": 35.0,
+        "MARCOM'S MOWING SERVICE, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0770 6012",
+      "description": "REM / REPL TIMBER POST W / O CONC FND",
+      "unit": "EA",
+      "quantity": 320.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "HAZMAT INTERNATIONAL, INC.": 50.0,
+        "MARCOM'S MOWING SERVICE, LLC": 48.0
+      }
+    },
+    {
+      "itemCode": "0770 6013",
+      "description": "REM / REPL STEEL POST W / O CONC FND",
+      "unit": "EA",
+      "quantity": 125.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 10.0,
+        "HAZMAT INTERNATIONAL, INC.": 100.0,
+        "MARCOM'S MOWING SERVICE, LLC": 70.0
+      }
+    },
+    {
+      "itemCode": "0770 6016",
+      "description": "REPAIR STEEL POST WITH BASE PLATE",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 200.0,
+        "HAZMAT INTERNATIONAL, INC.": 300.0,
+        "MARCOM'S MOWING SERVICE, LLC": 350.0
+      }
+    },
+    {
+      "itemCode": "0770 6017",
+      "description": "REALIGN POSTS",
+      "unit": "EA",
+      "quantity": 200.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "HAZMAT INTERNATIONAL, INC.": 40.0,
+        "MARCOM'S MOWING SERVICE, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0770 6019",
+      "description": "REMOVE & REPLACE BLOCKOUT",
+      "unit": "EA",
+      "quantity": 425.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "HAZMAT INTERNATIONAL, INC.": 30.0,
+        "MARCOM'S MOWING SERVICE, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0770 6021",
+      "description": "REPLACE SINGLE GDRAIL TERMINAL RAIL",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 15.0,
+        "HAZMAT INTERNATIONAL, INC.": 30.0,
+        "MARCOM'S MOWING SERVICE, LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "0770 6022",
+      "description": "REPLACE SINGLE GDRAIL TERMINAL POST",
+      "unit": "EA",
+      "quantity": 80.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "HAZMAT INTERNATIONAL, INC.": 30.0,
+        "MARCOM'S MOWING SERVICE, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0770 6027",
+      "description": "REMOVE GDRAIL END TRT / REPL WITH SGT",
+      "unit": "EA",
+      "quantity": 75.0,
+      "engEstUnit": 3200.0,
+      "lowUnit": 4500.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 4500.0,
+        "HAZMAT INTERNATIONAL, INC.": 4500.0,
+        "MARCOM'S MOWING SERVICE, LLC": 3700.0
+      }
+    },
+    {
+      "itemCode": "0770 6028",
+      "description": "REPL SINGLE GDRAIL TERM IMPACT HEAD",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 1400.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 800.0,
+        "HAZMAT INTERNATIONAL, INC.": 1500.0,
+        "MARCOM'S MOWING SERVICE, LLC": 1250.0
+      }
+    },
+    {
+      "itemCode": "0770 6029",
+      "description": "REM & RESET SGT IMPACT HEAD",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "HAZMAT INTERNATIONAL, INC.": 200.0,
+        "MARCOM'S MOWING SERVICE, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0770 6030",
+      "description": "REPLACE SGT CABLE ASSEMBLY",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 10.0,
+        "HAZMAT INTERNATIONAL, INC.": 200.0,
+        "MARCOM'S MOWING SERVICE, LLC": 80.0
+      }
+    },
+    {
+      "itemCode": "0770 6031",
+      "description": "REPLACE SGT CABLE ANCHOR",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 10.0,
+        "HAZMAT INTERNATIONAL, INC.": 250.0,
+        "MARCOM'S MOWING SERVICE, LLC": 80.0
+      }
+    },
+    {
+      "itemCode": "0770 6032",
+      "description": "REPLACE SGT STRUT",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 10.0,
+        "HAZMAT INTERNATIONAL, INC.": 150.0,
+        "MARCOM'S MOWING SERVICE, LLC": 80.0
+      }
+    },
+    {
+      "itemCode": "0770 6033",
+      "description": "REPLACE SGT OBJECT MARKER",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 100.0,
+        "HAZMAT INTERNATIONAL, INC.": 75.0,
+        "MARCOM'S MOWING SERVICE, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0770 6060",
+      "description": "REMOVE AND REPLACE DAT",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1200.0,
+        "HAZMAT INTERNATIONAL, INC.": 1800.0,
+        "MARCOM'S MOWING SERVICE, LLC": 1250.0
+      }
+    },
+    {
+      "itemCode": "0770 6061",
+      "description": "REPAIR MTL BM GD FEN(LONG SPAN SYS)",
+      "unit": "LF",
+      "quantity": 250.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "HAZMAT INTERNATIONAL, INC.": 30.0,
+        "MARCOM'S MOWING SERVICE, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0771 6002",
+      "description": "REPLACE POSTS (TL-4)",
+      "unit": "EA",
+      "quantity": 250.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 100.0,
+        "HAZMAT INTERNATIONAL, INC.": 325.0,
+        "MARCOM'S MOWING SERVICE, LLC": 450.0
+      }
+    },
+    {
+      "itemCode": "0771 6004",
+      "description": "CABLE SPLICE / TURNBUCKLE (TL-4)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 100.0,
+        "HAZMAT INTERNATIONAL, INC.": 1500.0,
+        "MARCOM'S MOWING SERVICE, LLC": 325.0
+      }
+    },
+    {
+      "itemCode": "0771 6006",
+      "description": "REPAIR CONCRETE FOUNDATION (TL-4)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 10.0,
+        "HAZMAT INTERNATIONAL, INC.": 25.0,
+        "MARCOM'S MOWING SERVICE, LLC": 110.0
+      }
+    },
+    {
+      "itemCode": "0771 6008",
+      "description": "REPR OR REPLC CABLE BARR TERM SEC(TL-4)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 1125.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 100.0,
+        "HAZMAT INTERNATIONAL, INC.": 6000.0,
+        "MARCOM'S MOWING SERVICE, LLC": 3820.0
+      }
+    },
+    {
+      "itemCode": "0771 6010",
+      "description": "REPLACE CABLE (TL-4)",
+      "unit": "LF",
+      "quantity": 1000.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "HAZMAT INTERNATIONAL, INC.": 4.0,
+        "MARCOM'S MOWING SERVICE, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0771 6011",
+      "description": "CHECK / RE-TENSION CABLE",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 2000.0,
+        "HAZMAT INTERNATIONAL, INC.": 500.0,
+        "MARCOM'S MOWING SERVICE, LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0774 6035",
+      "description": "REPAIR REACT (CYLINDERS)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 100.0,
+        "HAZMAT INTERNATIONAL, INC.": 3000.0,
+        "MARCOM'S MOWING SERVICE, LLC": 3000.0
+      }
+    },
+    {
+      "itemCode": "0774 6044",
+      "description": "REMOVE AND REPLACE (SMTC) (N)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1000.0,
+        "HAZMAT INTERNATIONAL, INC.": 35000.0,
+        "MARCOM'S MOWING SERVICE, LLC": 30000.0
+      }
+    },
+    {
+      "itemCode": "0774 6046",
+      "description": "REMOVE AND REPLACE (SMTC) (W)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 10000.0,
+        "HAZMAT INTERNATIONAL, INC.": 44000.0,
+        "MARCOM'S MOWING SERVICE, LLC": 45000.0
+      }
+    },
+    {
+      "itemCode": "0774 6055",
+      "description": "REPAIR (FASTRACC) (BAY)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 850.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 100.0,
+        "HAZMAT INTERNATIONAL, INC.": 800.0,
+        "MARCOM'S MOWING SERVICE, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0774 6056",
+      "description": "REPAIR (SHORTRACC) (BAY)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 850.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 100.0,
+        "HAZMAT INTERNATIONAL, INC.": 100.0,
+        "MARCOM'S MOWING SERVICE, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0774 6057",
+      "description": "REPAIR (FASTRACC) (W) (BAY)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 850.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 100.0,
+        "HAZMAT INTERNATIONAL, INC.": 1000.0,
+        "MARCOM'S MOWING SERVICE, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0774 6068",
+      "description": "REPAIR (SMTC) (N)",
+      "unit": "LF",
+      "quantity": 81.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 50.0,
+        "HAZMAT INTERNATIONAL, INC.": 300.0,
+        "MARCOM'S MOWING SERVICE, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0774 6112",
+      "description": "REPAIR (SMTC) (W)",
+      "unit": "LF",
+      "quantity": 30.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 50.0,
+        "HAZMAT INTERNATIONAL, INC.": 300.0,
+        "MARCOM'S MOWING SERVICE, LLC": 500.0
+      }
+    }
+  ]
+}

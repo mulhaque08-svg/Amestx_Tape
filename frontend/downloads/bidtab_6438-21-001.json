@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6438-21-001",
+    "county": "Parker",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643821001",
+    "projectType": "CLEANING AND SEALING CRACKS",
+    "letDate": "10/19/23",
+    "engEstTotal": 171115.23,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 241000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 277042.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 42028.75,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 15000.0,
+        "D & M CONTRACTORS, LLC": 7000.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 4443.55,
+      "lowUnit": 500.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 500.0,
+        "D & M CONTRACTORS, LLC": 1.0
+      }
+    }
+  ]
+}

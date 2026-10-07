@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "csj": "0901-29-096",
+    "county": "Lamar",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2021(727)",
+    "projectType": "HAZARD ELIMINATION & SAFETY",
+    "letDate": "07/02/21",
+    "engEstTotal": 2934023.57,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "STRIPE-A-ZONE, INC.",
+      "totalBidAmount": 2262253.23
+    },
+    {
+      "rank": 2,
+      "vendorName": "PMI PAVEMENT MARKING, LLC",
+      "totalBidAmount": 2300987.91
+    },
+    {
+      "rank": 3,
+      "vendorName": "STRIPING TECHNOLOGY, L.P.",
+      "totalBidAmount": 2414660.19
+    },
+    {
+      "rank": 4,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 2463964.07
+    },
+    {
+      "rank": 5,
+      "vendorName": "BATTERSON, LLP",
+      "totalBidAmount": 2560165.5
+    },
+    {
+      "rank": 6,
+      "vendorName": "TOTAL HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 2759522.33
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 265000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "STRIPE-A-ZONE, INC.": 1.0,
+        "PMI PAVEMENT MARKING, LLC": 3500.0,
+        "STRIPING TECHNOLOGY, L.P.": 1.0,
+        "TRP CONSTRUCTION GROUP, LLC": 26000.0,
+        "BATTERSON, LLP": 25000.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 150000.0
+      }
+    },
+    {
+      "itemCode": "0533 6001",
+      "description": "RUMBLE STRIPS (SHOULDER)",
+      "unit": "LF",
+      "quantity": 184459.0,
+      "engEstUnit": 0.16,
+      "lowUnit": 0.11,
+      "bidders": {
+        "STRIPE-A-ZONE, INC.": 0.11,
+        "PMI PAVEMENT MARKING, LLC": 0.11,
+        "STRIPING TECHNOLOGY, L.P.": 0.11,
+        "TRP CONSTRUCTION GROUP, LLC": 0.11,
+        "BATTERSON, LLP": 0.11,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 0.2
+      }
+    },
+    {
+      "itemCode": "0533 6002",
+      "description": "RUMBLE STRIPS (CENTERLINE)",
+      "unit": "LF",
+      "quantity": 109574.0,
+      "engEstUnit": 0.17,
+      "lowUnit": 0.11,
+      "bidders": {
+        "STRIPE-A-ZONE, INC.": 0.11,
+        "PMI PAVEMENT MARKING, LLC": 0.08,
+        "STRIPING TECHNOLOGY, L.P.": 0.11,
+        "TRP CONSTRUCTION GROUP, LLC": 0.12,
+        "BATTERSON, LLP": 0.12,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 0.2
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 57570.0,
+      "engEstUnit": 2.76,
+      "lowUnit": 3.05,
+      "bidders": {
+        "STRIPE-A-ZONE, INC.": 3.05,
+        "PMI PAVEMENT MARKING, LLC": 2.95,
+        "STRIPING TECHNOLOGY, L.P.": 2.85,
+        "TRP CONSTRUCTION GROUP, LLC": 2.5,
+        "BATTERSON, LLP": 2.9,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 3.0
+      }
+    }
+  ]
+}

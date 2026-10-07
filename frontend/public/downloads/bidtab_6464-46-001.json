@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6464-46-001",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646446001",
+    "projectType": "DRAINAGE SYSTEM CLEANING",
+    "letDate": "06/06/24",
+    "engEstTotal": 456850.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AIMS COMPANIES",
+      "totalBidAmount": 377550.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "HAZMAT INTERNATIONAL, INC.",
+      "totalBidAmount": 409000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "JACKSON EXCAVATION, LLC",
+      "totalBidAmount": 449250.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "AIMS COMPANIES": 250.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "JACKSON EXCAVATION, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "AIMS COMPANIES": 500.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "JACKSON EXCAVATION, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "7019 6001",
+      "description": "STORM SEWER (TELEVISION INSPECTION)",
+      "unit": "LF",
+      "quantity": 1000.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "AIMS COMPANIES": 4.0,
+        "HAZMAT INTERNATIONAL, INC.": 2.95,
+        "JACKSON EXCAVATION, LLC": 1.0
+      }
+    }
+  ]
+}

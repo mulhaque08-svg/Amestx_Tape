@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6418-83-001",
+    "county": "Garza",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641883001",
+    "projectType": "HYDRAULIC CEMENT CONCRETE",
+    "letDate": "10/07/22",
+    "engEstTotal": 140000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KLP COMMERCIAL, L.L.C.",
+      "totalBidAmount": 128800.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "AKA-MATERIALS",
+      "totalBidAmount": 152320.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8024 6001",
+      "description": "PREPACKAGED CONCRETE",
+      "unit": "BAG",
+      "quantity": 28000.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.6,
+      "bidders": {
+        "KLP COMMERCIAL, L.L.C.": 4.6,
+        "AKA-MATERIALS": 5.44
+      }
+    }
+  ]
+}

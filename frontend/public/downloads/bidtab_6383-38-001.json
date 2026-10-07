@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6383-38-001",
+    "county": "Sabine",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638338001",
+    "projectType": "EMULSION",
+    "letDate": "06/15/21",
+    "engEstTotal": 28680.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CLEVELAND ASPHALT PRODUCTS, INC.",
+      "totalBidAmount": 24720.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 25800.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ERGON ASPHALT & EMULSIONS, INC.",
+      "totalBidAmount": 28920.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6221",
+      "description": "EMULSION (CSS-1) (DEL) (SITE 1)",
+      "unit": "GAL",
+      "quantity": 12000.0,
+      "engEstUnit": 2.39,
+      "lowUnit": 2.06,
+      "bidders": {
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 2.06,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.15,
+        "ERGON ASPHALT & EMULSIONS, INC.": 2.41
+      }
+    }
+  ]
+}

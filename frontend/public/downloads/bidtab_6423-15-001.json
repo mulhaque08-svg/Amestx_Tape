@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6423-15-001",
+    "county": "Austin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642315001",
+    "projectType": "REHABILITATION OF EXISTING ROADWAY",
+    "letDate": "11/20/23",
+    "engEstTotal": 297242.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 362420.4
+    },
+    {
+      "rank": 2,
+      "vendorName": "STRIPE-A-ZONE, LLC",
+      "totalBidAmount": 402188.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TRAFFIC HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 431978.1
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "2022 6001",
+      "description": "ULTRA HP WATER CUTTING TREATMENT",
+      "unit": "SY",
+      "quantity": 68104.0,
+      "engEstUnit": 4.25,
+      "lowUnit": 5.1,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 5.1,
+        "STRIPE-A-ZONE, LLC": 5.75,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 5.55
+      }
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "csj": "6430-24-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643024001",
+    "projectType": "STORM SEWER AND DRAIN INLET CLEANING",
+    "letDate": "05/05/23",
+    "engEstTotal": 900747.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FIREMAN EXCAVATING, INC.",
+      "totalBidAmount": 711286.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 1304806.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 1990407.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 60000.0,
+      "lowUnit": 75000.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 75000.0,
+        "SHALOM SERVICES CORPORATION": 10000.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 150000.0
+      }
+    },
+    {
+      "itemCode": "0764 6001",
+      "description": "DRAIN INLET CLEANING",
+      "unit": "EA",
+      "quantity": 966.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 95.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 95.0,
+        "SHALOM SERVICES CORPORATION": 100.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 130.0
+      }
+    },
+    {
+      "itemCode": "0764 6004",
+      "description": "DOWNSPOUT CLEANING",
+      "unit": "EA",
+      "quantity": 43.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 190.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 190.0,
+        "SHALOM SERVICES CORPORATION": 100.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 120.0
+      }
+    },
+    {
+      "itemCode": "0764 6007",
+      "description": "STORM SEWER CLEANING (PIPE)(12\"-18\"DIA)",
+      "unit": "LF",
+      "quantity": 47815.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 4.9,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 4.9,
+        "SHALOM SERVICES CORPORATION": 10.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 9.0
+      }
+    },
+    {
+      "itemCode": "0764 6008",
+      "description": "STORM SEWER CLEANING (PIPE)(19\"-24\"DIA)",
+      "unit": "LF",
+      "quantity": 49120.0,
+      "engEstUnit": 5.5,
+      "lowUnit": 4.9,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 4.9,
+        "SHALOM SERVICES CORPORATION": 10.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 10.0
+      }
+    },
+    {
+      "itemCode": "0764 6018",
+      "description": "STORM SEWER CLEAN (BOX CULV)(24-<48 SF)",
+      "unit": "LF",
+      "quantity": 4800.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 9.6,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 9.6,
+        "SHALOM SERVICES CORPORATION": 20.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 30.0
+      }
+    },
+    {
+      "itemCode": "0764 6021",
+      "description": "SLOTTED DRAIN CLEANING",
+      "unit": "LF",
+      "quantity": 14608.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "SHALOM SERVICES CORPORATION": 1.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 29.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 148.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "SHALOM SERVICES CORPORATION": 1.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0
+      }
+    }
+  ]
+}

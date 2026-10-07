@@ -1,0 +1,2520 @@
+{
+  "metadata": {
+    "csj": "3510-06-027",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 3510-6-27",
+    "projectType": "WIDEN ROAD - ADD LANES",
+    "letDate": "02/02/24",
+    "engEstTotal": 57694107.17,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BRICE CONSTRUCTION AND DESIGN LLC",
+      "totalBidAmount": 55689699.74
+    },
+    {
+      "rank": 2,
+      "vendorName": "HARPER BROTHERS CONSTRUCTION LLC",
+      "totalBidAmount": 56592681.9
+    },
+    {
+      "rank": 3,
+      "vendorName": "ZACHRY CONSTRUCTION CORPORATION",
+      "totalBidAmount": 57620066.77
+    },
+    {
+      "rank": 4,
+      "vendorName": "ISI CONTRACTING, INC.",
+      "totalBidAmount": 58490876.44
+    },
+    {
+      "rank": 5,
+      "vendorName": "JAMES CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 59198587.43
+    },
+    {
+      "rank": 6,
+      "vendorName": "SER CONSTRUCTION PARTNERS, LLC",
+      "totalBidAmount": 59973846.21
+    },
+    {
+      "rank": 7,
+      "vendorName": "POSILLICO CIVIL, INC.",
+      "totalBidAmount": 69146055.83
+    },
+    {
+      "rank": 8,
+      "vendorName": "PULICE CONSTRUCTION, INC.",
+      "totalBidAmount": 79999144.73
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 304.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 5400.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 5400.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2750.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 18750.0,
+        "ISI CONTRACTING, INC.": 1800.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 10906.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 5600.0
+      }
+    },
+    {
+      "itemCode": "0104 6001",
+      "description": "REMOVING CONC (PAV)",
+      "unit": "SY",
+      "quantity": 13253.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 33.48,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 33.48,
+        "HARPER BROTHERS CONSTRUCTION LLC": 15.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 26.32,
+        "ISI CONTRACTING, INC.": 41.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 20.22,
+        "SER CONSTRUCTION PARTNERS, LLC": 46.9
+      }
+    },
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 1297.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 17.82,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 17.82,
+        "HARPER BROTHERS CONSTRUCTION LLC": 5.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 6.16,
+        "ISI CONTRACTING, INC.": 8.4,
+        "JAMES CONSTRUCTION GROUP, LLC": 4.68,
+        "SER CONSTRUCTION PARTNERS, LLC": 4.9
+      }
+    },
+    {
+      "itemCode": "0104 6023",
+      "description": "REMOVING CONC (CTB)",
+      "unit": "LF",
+      "quantity": 1613.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 13.05,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 13.05,
+        "HARPER BROTHERS CONSTRUCTION LLC": 15.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 6.59,
+        "ISI CONTRACTING, INC.": 14.7,
+        "JAMES CONSTRUCTION GROUP, LLC": 12.87,
+        "SER CONSTRUCTION PARTNERS, LLC": 10.1
+      }
+    },
+    {
+      "itemCode": "0104 6024",
+      "description": "REMOVING CONC (RETAINING WALLS)",
+      "unit": "SY",
+      "quantity": 410.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 49.73,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 49.73,
+        "HARPER BROTHERS CONSTRUCTION LLC": 250.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 916.13,
+        "ISI CONTRACTING, INC.": 384.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 255.4,
+        "SER CONSTRUCTION PARTNERS, LLC": 15.9
+      }
+    },
+    {
+      "itemCode": "0104 6028",
+      "description": "REMOVING CONC (MISC)",
+      "unit": "SY",
+      "quantity": 20.0,
+      "engEstUnit": 24.0,
+      "lowUnit": 74.78,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 74.78,
+        "HARPER BROTHERS CONSTRUCTION LLC": 85.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 20.42,
+        "ISI CONTRACTING, INC.": 85.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 273.06,
+        "SER CONSTRUCTION PARTNERS, LLC": 24.6
+      }
+    },
+    {
+      "itemCode": "0104 6034",
+      "description": "REMOVING CONC (COPING)",
+      "unit": "LF",
+      "quantity": 627.0,
+      "engEstUnit": 14.5,
+      "lowUnit": 10.54,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 10.54,
+        "HARPER BROTHERS CONSTRUCTION LLC": 50.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 187.43,
+        "ISI CONTRACTING, INC.": 100.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 118.03,
+        "SER CONSTRUCTION PARTNERS, LLC": 13.3
+      }
+    },
+    {
+      "itemCode": "0104 6037",
+      "description": "REMOVE CONC (RAIL)",
+      "unit": "LF",
+      "quantity": 5727.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 24.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 24.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 40.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 5.51,
+        "ISI CONTRACTING, INC.": 32.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 29.58,
+        "SER CONSTRUCTION PARTNERS, LLC": 10.1
+      }
+    },
+    {
+      "itemCode": "0104 6054",
+      "description": "REMOVING CONCRETE(MOW STRIP)",
+      "unit": "LF",
+      "quantity": 30038.0,
+      "engEstUnit": 12.5,
+      "lowUnit": 3.07,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 3.07,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3.5,
+        "ZACHRY CONSTRUCTION CORPORATION": 1.4,
+        "ISI CONTRACTING, INC.": 2.8,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.86,
+        "SER CONSTRUCTION PARTNERS, LLC": 4.1
+      }
+    },
+    {
+      "itemCode": "0105 6049",
+      "description": "REMOVING STAB BASE & ASPH PAV (4\"-22\")",
+      "unit": "SY",
+      "quantity": 26481.0,
+      "engEstUnit": 10.5,
+      "lowUnit": 14.54,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 14.54,
+        "HARPER BROTHERS CONSTRUCTION LLC": 6.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 5.12,
+        "ISI CONTRACTING, INC.": 2.7,
+        "JAMES CONSTRUCTION GROUP, LLC": 3.06,
+        "SER CONSTRUCTION PARTNERS, LLC": 12.8
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 98159.0,
+      "engEstUnit": 11.5,
+      "lowUnit": 12.37,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 12.37,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 15.0,
+        "ISI CONTRACTING, INC.": 29.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 16.13,
+        "SER CONSTRUCTION PARTNERS, LLC": 15.2
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 35567.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 14.04,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 14.04,
+        "HARPER BROTHERS CONSTRUCTION LLC": 10.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 14.51,
+        "ISI CONTRACTING, INC.": 26.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 15.06,
+        "SER CONSTRUCTION PARTNERS, LLC": 18.4
+      }
+    },
+    {
+      "itemCode": "0161 6017",
+      "description": "COMPOST MANUF TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 31615.0,
+      "engEstUnit": 1.06,
+      "lowUnit": 0.92,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 0.92,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.92,
+        "ZACHRY CONSTRUCTION CORPORATION": 0.94,
+        "ISI CONTRACTING, INC.": 1.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.92,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.1
+      }
+    },
+    {
+      "itemCode": "0162 6002",
+      "description": "BLOCK SODDING",
+      "unit": "SY",
+      "quantity": 190134.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 3.86,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 3.86,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3.86,
+        "ZACHRY CONSTRUCTION CORPORATION": 3.94,
+        "ISI CONTRACTING, INC.": 4.1,
+        "JAMES CONSTRUCTION GROUP, LLC": 3.86,
+        "SER CONSTRUCTION PARTNERS, LLC": 4.6
+      }
+    },
+    {
+      "itemCode": "0162 6003",
+      "description": "STRAW OR HAY MULCH",
+      "unit": "SY",
+      "quantity": 78498.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.34,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 0.34,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.34,
+        "ZACHRY CONSTRUCTION CORPORATION": 0.35,
+        "ISI CONTRACTING, INC.": 0.36,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.34,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.3
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 2217.0,
+      "engEstUnit": 0.54,
+      "lowUnit": 0.16,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 0.16,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.16,
+        "ZACHRY CONSTRUCTION CORPORATION": 0.16,
+        "ISI CONTRACTING, INC.": 0.17,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.16,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.2
+      }
+    },
+    {
+      "itemCode": "0164 6051",
+      "description": "DRILL SEED (TEMP)(WARM OR COOL)",
+      "unit": "SY",
+      "quantity": 44350.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.13,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 0.13,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.13,
+        "ZACHRY CONSTRUCTION CORPORATION": 0.13,
+        "ISI CONTRACTING, INC.": 0.14,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.13,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.2
+      }
+    },
+    {
+      "itemCode": "0164 6052",
+      "description": "BROADCAST SEED (PERM)(SPECIAL MIX)",
+      "unit": "SY",
+      "quantity": 316.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.24,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 0.24,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.24,
+        "ZACHRY CONSTRUCTION CORPORATION": 0.25,
+        "ISI CONTRACTING, INC.": 0.25,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.24,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.4
+      }
+    },
+    {
+      "itemCode": "0164 6066",
+      "description": "DRILL SEEDING (PERM)(WARM OR COOL)",
+      "unit": "SY",
+      "quantity": 31615.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 0.21,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 0.21,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.21,
+        "ZACHRY CONSTRUCTION CORPORATION": 0.21,
+        "ISI CONTRACTING, INC.": 0.22,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.21,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.2
+      }
+    },
+    {
+      "itemCode": "0166 6001",
+      "description": "FERTILIZER",
+      "unit": "AC",
+      "quantity": 55.5,
+      "engEstUnit": 750.0,
+      "lowUnit": 781.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 781.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 780.06,
+        "ZACHRY CONSTRUCTION CORPORATION": 796.53,
+        "ISI CONTRACTING, INC.": 820.31,
+        "JAMES CONSTRUCTION GROUP, LLC": 780.06,
+        "SER CONSTRUCTION PARTNERS, LLC": 1050.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 6660.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 43.8,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 43.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 30.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 38.64,
+        "ISI CONTRACTING, INC.": 33.47,
+        "JAMES CONSTRUCTION GROUP, LLC": 31.84,
+        "SER CONSTRUCTION PARTNERS, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0260 6006",
+      "description": "LIME TRT (EXST MATL) (6\")",
+      "unit": "SY",
+      "quantity": 128463.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 6.12,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 6.12,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3.65,
+        "ZACHRY CONSTRUCTION CORPORATION": 2.6,
+        "ISI CONTRACTING, INC.": 10.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 4.49,
+        "SER CONSTRUCTION PARTNERS, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0260 6012",
+      "description": "LIME(HYD,COM OR QK)(SLRY)OR QK(DRY)",
+      "unit": "TON",
+      "quantity": 1734.25,
+      "engEstUnit": 310.0,
+      "lowUnit": 351.43,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 351.43,
+        "HARPER BROTHERS CONSTRUCTION LLC": 150.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 324.72,
+        "ISI CONTRACTING, INC.": 323.86,
+        "JAMES CONSTRUCTION GROUP, LLC": 358.44,
+        "SER CONSTRUCTION PARTNERS, LLC": 344.9
+      }
+    },
+    {
+      "itemCode": "0275 6001",
+      "description": "CEMENT",
+      "unit": "TON",
+      "quantity": 1734.25,
+      "engEstUnit": 250.0,
+      "lowUnit": 229.03,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 229.03,
+        "HARPER BROTHERS CONSTRUCTION LLC": 150.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 176.0,
+        "ISI CONTRACTING, INC.": 182.64,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.09,
+        "SER CONSTRUCTION PARTNERS, LLC": 216.5
+      }
+    },
+    {
+      "itemCode": "0276 6224",
+      "description": "CEM TRT(PLNT MX) (CL N)(TY E)(GR 4)(6\")",
+      "unit": "SY",
+      "quantity": 128463.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 20.39,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 20.39,
+        "HARPER BROTHERS CONSTRUCTION LLC": 22.75,
+        "ZACHRY CONSTRUCTION CORPORATION": 16.64,
+        "ISI CONTRACTING, INC.": 20.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 19.81,
+        "SER CONSTRUCTION PARTNERS, LLC": 22.1
+      }
+    },
+    {
+      "itemCode": "0292 6017",
+      "description": "ASPHALT STAB BASE (GR 4)(PG 64)",
+      "unit": "TON",
+      "quantity": 6913.28,
+      "engEstUnit": 120.0,
+      "lowUnit": 165.26,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 165.26,
+        "HARPER BROTHERS CONSTRUCTION LLC": 125.92,
+        "ZACHRY CONSTRUCTION CORPORATION": 117.94,
+        "ISI CONTRACTING, INC.": 130.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 127.63,
+        "SER CONSTRUCTION PARTNERS, LLC": 122.1
+      }
+    },
+    {
+      "itemCode": "0400 6001",
+      "description": "STRUCT EXCAV",
+      "unit": "CY",
+      "quantity": 3592.3,
+      "engEstUnit": 15.0,
+      "lowUnit": 10.81,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 10.81,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 2.98,
+        "ISI CONTRACTING, INC.": 9.55,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.74,
+        "SER CONSTRUCTION PARTNERS, LLC": 4.2
+      }
+    },
+    {
+      "itemCode": "0400 6004",
+      "description": "STRUCT EXCAV (BRIDGE)",
+      "unit": "CY",
+      "quantity": 1910.3,
+      "engEstUnit": 20.0,
+      "lowUnit": 30.57,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 30.57,
+        "HARPER BROTHERS CONSTRUCTION LLC": 25.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 30.0,
+        "ISI CONTRACTING, INC.": 18.81,
+        "JAMES CONSTRUCTION GROUP, LLC": 26.25,
+        "SER CONSTRUCTION PARTNERS, LLC": 58.8
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 6509.84,
+      "engEstUnit": 60.0,
+      "lowUnit": 57.14,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 57.14,
+        "HARPER BROTHERS CONSTRUCTION LLC": 80.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 54.33,
+        "ISI CONTRACTING, INC.": 65.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 55.16,
+        "SER CONSTRUCTION PARTNERS, LLC": 60.1
+      }
+    },
+    {
+      "itemCode": "0400 6009",
+      "description": "CEMENT STAB BACKFILL (INLET OR MH)",
+      "unit": "CY",
+      "quantity": 463.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 57.14,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 57.14,
+        "HARPER BROTHERS CONSTRUCTION LLC": 65.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 54.33,
+        "ISI CONTRACTING, INC.": 57.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 55.16,
+        "SER CONSTRUCTION PARTNERS, LLC": 60.1
+      }
+    },
+    {
+      "itemCode": "0402 6001",
+      "description": "TRENCH EXCAVATION PROTECTION",
+      "unit": "LF",
+      "quantity": 4770.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 1.8,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 1.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 6.9,
+        "ISI CONTRACTING, INC.": 8.38,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.1,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.1
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 13198.0,
+      "engEstUnit": 21.0,
+      "lowUnit": 14.27,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 14.27,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 20.0,
+        "ISI CONTRACTING, INC.": 15.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 22.4,
+        "SER CONSTRUCTION PARTNERS, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0416 6001",
+      "description": "DRILL SHAFT (18 IN)",
+      "unit": "LF",
+      "quantity": 180.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 80.68,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 80.68,
+        "HARPER BROTHERS CONSTRUCTION LLC": 125.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 84.95,
+        "ISI CONTRACTING, INC.": 131.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 280.18,
+        "SER CONSTRUCTION PARTNERS, LLC": 108.2
+      }
+    },
+    {
+      "itemCode": "0416 6003",
+      "description": "DRILL SHAFT (30 IN)",
+      "unit": "LF",
+      "quantity": 2901.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 204.53,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 204.53,
+        "HARPER BROTHERS CONSTRUCTION LLC": 275.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 211.49,
+        "ISI CONTRACTING, INC.": 252.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 336.37,
+        "SER CONSTRUCTION PARTNERS, LLC": 223.8
+      }
+    },
+    {
+      "itemCode": "0416 6004",
+      "description": "DRILL SHAFT (36 IN)",
+      "unit": "LF",
+      "quantity": 2984.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 301.76,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 301.76,
+        "HARPER BROTHERS CONSTRUCTION LLC": 475.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 313.15,
+        "ISI CONTRACTING, INC.": 453.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 355.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 318.8
+      }
+    },
+    {
+      "itemCode": "0416 6005",
+      "description": "DRILL SHAFT (42 IN)",
+      "unit": "LF",
+      "quantity": 1486.0,
+      "engEstUnit": 330.0,
+      "lowUnit": 404.51,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 404.51,
+        "HARPER BROTHERS CONSTRUCTION LLC": 450.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 417.47,
+        "ISI CONTRACTING, INC.": 788.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 384.22,
+        "SER CONSTRUCTION PARTNERS, LLC": 423.6
+      }
+    },
+    {
+      "itemCode": "0416 6012",
+      "description": "DRILL SHAFT (84 IN)",
+      "unit": "LF",
+      "quantity": 476.0,
+      "engEstUnit": 1904.1,
+      "lowUnit": 1611.87,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 1611.87,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1750.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 1741.51,
+        "ISI CONTRACTING, INC.": 1699.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 608.35,
+        "SER CONSTRUCTION PARTNERS, LLC": 1860.7
+      }
+    },
+    {
+      "itemCode": "0416 6020",
+      "description": "DRILL SHAFT (SIGN MTS) (36 IN)",
+      "unit": "LF",
+      "quantity": 232.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 290.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 290.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 350.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 229.76,
+        "ISI CONTRACTING, INC.": 445.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 332.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 469.4
+      }
+    },
+    {
+      "itemCode": "0416 6021",
+      "description": "DRILL SHAFT (SIGN MTS) (42 IN)",
+      "unit": "LF",
+      "quantity": 660.0,
+      "engEstUnit": 430.0,
+      "lowUnit": 320.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 320.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 450.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 298.16,
+        "ISI CONTRACTING, INC.": 419.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 374.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 440.2
+      }
+    },
+    {
+      "itemCode": "0416 6025",
+      "description": "DRILL SHAFT (HIGH MAST POLE) (54 IN)",
+      "unit": "LF",
+      "quantity": 1230.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 551.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 551.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 582.52,
+        "ZACHRY CONSTRUCTION CORPORATION": 509.54,
+        "ISI CONTRACTING, INC.": 532.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 499.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 535.9
+      }
+    },
+    {
+      "itemCode": "0416 6029",
+      "description": "DRILL SHAFT (RDWY ILL POLE) (30 IN)",
+      "unit": "LF",
+      "quantity": 154.0,
+      "engEstUnit": 205.0,
+      "lowUnit": 215.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 215.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 240.53,
+        "ZACHRY CONSTRUCTION CORPORATION": 209.33,
+        "ISI CONTRACTING, INC.": 219.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 205.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 215.3
+      }
+    },
+    {
+      "itemCode": "0422 6003",
+      "description": "REINF CONC SLAB (EXTEND SLAB)",
+      "unit": "SF",
+      "quantity": 108010.0,
+      "engEstUnit": 31.88,
+      "lowUnit": 30.2,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 30.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 34.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 29.27,
+        "ISI CONTRACTING, INC.": 30.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 24.8,
+        "SER CONSTRUCTION PARTNERS, LLC": 31.4
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 126.4,
+      "engEstUnit": 550.0,
+      "lowUnit": 431.44,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 431.44,
+        "HARPER BROTHERS CONSTRUCTION LLC": 800.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 400.0,
+        "ISI CONTRACTING, INC.": 1359.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 491.03,
+        "SER CONSTRUCTION PARTNERS, LLC": 511.3
+      }
+    },
+    {
+      "itemCode": "0432 6008",
+      "description": "RIPRAP (CONC)(CL B)(RR8&RR9)",
+      "unit": "CY",
+      "quantity": 183.9,
+      "engEstUnit": 590.0,
+      "lowUnit": 584.09,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 584.09,
+        "HARPER BROTHERS CONSTRUCTION LLC": 675.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 407.14,
+        "ISI CONTRACTING, INC.": 1071.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 471.38,
+        "SER CONSTRUCTION PARTNERS, LLC": 453.3
+      }
+    },
+    {
+      "itemCode": "0432 6009",
+      "description": "RIPRAP (CONC) (CL B) (4\")",
+      "unit": "CY",
+      "quantity": 7.8,
+      "engEstUnit": 800.0,
+      "lowUnit": 1412.63,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 1412.63,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1000.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 755.16,
+        "ISI CONTRACTING, INC.": 4109.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 283678.02,
+        "SER CONSTRUCTION PARTNERS, LLC": 910.6
+      }
+    },
+    {
+      "itemCode": "0432 6010",
+      "description": "RIPRAP (CONC)(CL B)(5 IN)",
+      "unit": "CY",
+      "quantity": 23.5,
+      "engEstUnit": 570.0,
+      "lowUnit": 673.39,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 673.39,
+        "HARPER BROTHERS CONSTRUCTION LLC": 785.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 478.76,
+        "ISI CONTRACTING, INC.": 1071.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1067.48,
+        "SER CONSTRUCTION PARTNERS, LLC": 558.8
+      }
+    },
+    {
+      "itemCode": "0432 6026",
+      "description": "RIPRAP (STONE COMMON)(DRY)(18 IN)",
+      "unit": "CY",
+      "quantity": 19.5,
+      "engEstUnit": 250.0,
+      "lowUnit": 215.21,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 215.21,
+        "HARPER BROTHERS CONSTRUCTION LLC": 300.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 255.62,
+        "ISI CONTRACTING, INC.": 307.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 542.43,
+        "SER CONSTRUCTION PARTNERS, LLC": 393.7
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 114.44,
+      "engEstUnit": 600.0,
+      "lowUnit": 499.81,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 499.81,
+        "HARPER BROTHERS CONSTRUCTION LLC": 725.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 363.18,
+        "ISI CONTRACTING, INC.": 630.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 622.86,
+        "SER CONSTRUCTION PARTNERS, LLC": 487.0
+      }
+    },
+    {
+      "itemCode": "0454 6018",
+      "description": "SEALED EXPANSION JOINT (4 IN) (SEJ - M)",
+      "unit": "LF",
+      "quantity": 879.7,
+      "engEstUnit": 200.0,
+      "lowUnit": 235.32,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 235.32,
+        "HARPER BROTHERS CONSTRUCTION LLC": 265.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 210.72,
+        "ISI CONTRACTING, INC.": 191.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 175.71,
+        "SER CONSTRUCTION PARTNERS, LLC": 167.9
+      }
+    },
+    {
+      "itemCode": "0460 6003",
+      "description": "CMP (GAL STL 24 IN)",
+      "unit": "LF",
+      "quantity": 55.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 69.14,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 69.14,
+        "HARPER BROTHERS CONSTRUCTION LLC": 135.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 73.35,
+        "ISI CONTRACTING, INC.": 132.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 104.03,
+        "SER CONSTRUCTION PARTNERS, LLC": 133.8
+      }
+    },
+    {
+      "itemCode": "0467 6362",
+      "description": "SET (TY II) (18 IN) (RCP) (6: 1) (C)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1750.0,
+      "lowUnit": 1395.15,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 1395.15,
+        "HARPER BROTHERS CONSTRUCTION LLC": 4650.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 1875.94,
+        "ISI CONTRACTING, INC.": 1965.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1745.28,
+        "SER CONSTRUCTION PARTNERS, LLC": 2578.9
+      }
+    },
+    {
+      "itemCode": "0467 6390",
+      "description": "SET (TY II) (24 IN) (RCP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2400.0,
+      "lowUnit": 1819.06,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 1819.06,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2550.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 2054.62,
+        "ISI CONTRACTING, INC.": 2144.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1935.38,
+        "SER CONSTRUCTION PARTNERS, LLC": 3113.3
+      }
+    },
+    {
+      "itemCode": "0467 6394",
+      "description": "SET (TY II) (24 IN) (RCP) (6: 1) (C)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 2197.15,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 2197.15,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2815.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 2263.96,
+        "ISI CONTRACTING, INC.": 2659.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 2119.61,
+        "SER CONSTRUCTION PARTNERS, LLC": 3174.2
+      }
+    },
+    {
+      "itemCode": "0467 6463",
+      "description": "SET (TY II) (42 IN) (RCP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 6648.82,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 6648.82,
+        "HARPER BROTHERS CONSTRUCTION LLC": 8400.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 6843.64,
+        "ISI CONTRACTING, INC.": 7970.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 7029.58,
+        "SER CONSTRUCTION PARTNERS, LLC": 7319.9
+      }
+    },
+    {
+      "itemCode": "0467 6580",
+      "description": "SET (REMOV & REINSTALL)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 2321.06,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 2321.06,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2200.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 1548.21,
+        "ISI CONTRACTING, INC.": 1290.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1577.92,
+        "SER CONSTRUCTION PARTNERS, LLC": 2505.8
+      }
+    },
+    {
+      "itemCode": "0474 6023",
+      "description": "PRE-CAST TRNCH DRAIN(W/OUT CONC PVMNT)",
+      "unit": "LF",
+      "quantity": 375.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 337.2,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 337.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 385.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 385.54,
+        "ISI CONTRACTING, INC.": 224.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 282.24,
+        "SER CONSTRUCTION PARTNERS, LLC": 317.1
+      }
+    },
+    {
+      "itemCode": "0479 6003",
+      "description": "ADJUSTING MANHOLES & INLETS",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 2103.26,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 2103.26,
+        "HARPER BROTHERS CONSTRUCTION LLC": 5000.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 1910.23,
+        "ISI CONTRACTING, INC.": 787.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1839.64,
+        "SER CONSTRUCTION PARTNERS, LLC": 734.0
+      }
+    },
+    {
+      "itemCode": "0479 6006",
+      "description": "ADJUSTING INLET (CAP)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1731.19,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 1731.19,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1850.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 2127.57,
+        "ISI CONTRACTING, INC.": 787.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 5122.51,
+        "SER CONSTRUCTION PARTNERS, LLC": 734.0
+      }
+    },
+    {
+      "itemCode": "0480 6001",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1800.0,
+      "lowUnit": 7645.91,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 7645.91,
+        "HARPER BROTHERS CONSTRUCTION LLC": 7500.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 5629.49,
+        "ISI CONTRACTING, INC.": 3932.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 4032.89,
+        "SER CONSTRUCTION PARTNERS, LLC": 7084.4
+      }
+    },
+    {
+      "itemCode": "0496 6002",
+      "description": "REMOV STR (INLET)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 910.0,
+      "lowUnit": 893.57,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 893.57,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2100.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 1821.57,
+        "ISI CONTRACTING, INC.": 453.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 964.02,
+        "SER CONSTRUCTION PARTNERS, LLC": 573.3
+      }
+    },
+    {
+      "itemCode": "0496 6003",
+      "description": "REMOV STR (MANHOLE)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1165.89,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 1165.89,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3275.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 1938.14,
+        "ISI CONTRACTING, INC.": 680.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 964.03,
+        "SER CONSTRUCTION PARTNERS, LLC": 1146.6
+      }
+    },
+    {
+      "itemCode": "0496 6016",
+      "description": "REMOV STR (PIPE)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 860.0,
+      "lowUnit": 2076.83,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 2076.83,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1845.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 2321.07,
+        "ISI CONTRACTING, INC.": 1965.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 59.52,
+        "SER CONSTRUCTION PARTNERS, LLC": 1509.8
+      }
+    },
+    {
+      "itemCode": "0496 6035",
+      "description": "REMOV STR (DRILL SHAFT)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 3759.33,
+      "lowUnit": 5990.67,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 5990.67,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1640.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 1790.83,
+        "ISI CONTRACTING, INC.": 1852.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1297.52,
+        "SER CONSTRUCTION PARTNERS, LLC": 727.1
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 5231552.77,
+      "lowUnit": 5000000.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 5000000.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1087500.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 5486464.23,
+        "ISI CONTRACTING, INC.": 5600000.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 5700000.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 6000000.0
+      }
+    },
+    {
+      "itemCode": "0512 6013",
+      "description": "PORT CTB (DES SOURCE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 55530.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 7.75,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 7.75,
+        "HARPER BROTHERS CONSTRUCTION LLC": 20.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 11.92,
+        "ISI CONTRACTING, INC.": 8.9,
+        "JAMES CONSTRUCTION GROUP, LLC": 13.82,
+        "SER CONSTRUCTION PARTNERS, LLC": 12.5
+      }
+    },
+    {
+      "itemCode": "0512 6021",
+      "description": "PORT CTB (DES SOURCE)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 1400.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 8.49,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 8.49,
+        "HARPER BROTHERS CONSTRUCTION LLC": 20.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 19.49,
+        "ISI CONTRACTING, INC.": 12.1,
+        "JAMES CONSTRUCTION GROUP, LLC": 16.66,
+        "SER CONSTRUCTION PARTNERS, LLC": 12.4
+      }
+    },
+    {
+      "itemCode": "0512 6022",
+      "description": "PORT CTB (DES SOURCE)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 8.42,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 8.42,
+        "HARPER BROTHERS CONSTRUCTION LLC": 20.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 21.0,
+        "ISI CONTRACTING, INC.": 12.1,
+        "JAMES CONSTRUCTION GROUP, LLC": 24.05,
+        "SER CONSTRUCTION PARTNERS, LLC": 13.3
+      }
+    },
+    {
+      "itemCode": "0512 6025",
+      "description": "PORT CTB (MOVE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 11490.0,
+      "engEstUnit": 5.5,
+      "lowUnit": 5.91,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 5.91,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 9.26,
+        "ISI CONTRACTING, INC.": 11.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 6.73,
+        "SER CONSTRUCTION PARTNERS, LLC": 8.8
+      }
+    },
+    {
+      "itemCode": "0512 6033",
+      "description": "PORT CTB (MOVE)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 7000.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 9.15,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 9.15,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 9.86,
+        "ISI CONTRACTING, INC.": 12.1,
+        "JAMES CONSTRUCTION GROUP, LLC": 12.71,
+        "SER CONSTRUCTION PARTNERS, LLC": 8.6
+      }
+    },
+    {
+      "itemCode": "0512 6034",
+      "description": "PORT CTB (MOVE)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 1000.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 9.21,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 9.21,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 9.86,
+        "ISI CONTRACTING, INC.": 12.1,
+        "JAMES CONSTRUCTION GROUP, LLC": 7.77,
+        "SER CONSTRUCTION PARTNERS, LLC": 8.7
+      }
+    },
+    {
+      "itemCode": "0512 6037",
+      "description": "PORT CTB (STKPL)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 55530.0,
+      "engEstUnit": 8.5,
+      "lowUnit": 7.39,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 7.39,
+        "HARPER BROTHERS CONSTRUCTION LLC": 10.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 11.54,
+        "ISI CONTRACTING, INC.": 8.1,
+        "JAMES CONSTRUCTION GROUP, LLC": 12.98,
+        "SER CONSTRUCTION PARTNERS, LLC": 12.5
+      }
+    },
+    {
+      "itemCode": "0512 6045",
+      "description": "PORT CTB (STKPL)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 1400.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 8.13,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 8.13,
+        "HARPER BROTHERS CONSTRUCTION LLC": 10.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 19.49,
+        "ISI CONTRACTING, INC.": 12.1,
+        "JAMES CONSTRUCTION GROUP, LLC": 16.36,
+        "SER CONSTRUCTION PARTNERS, LLC": 11.5
+      }
+    },
+    {
+      "itemCode": "0512 6046",
+      "description": "PORT CTB (STKPL)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 8.06,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 8.06,
+        "HARPER BROTHERS CONSTRUCTION LLC": 10.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 21.0,
+        "ISI CONTRACTING, INC.": 12.1,
+        "JAMES CONSTRUCTION GROUP, LLC": 23.75,
+        "SER CONSTRUCTION PARTNERS, LLC": 12.3
+      }
+    },
+    {
+      "itemCode": "0512 6080",
+      "description": "PORT CTB CONNECT HARDWARE",
+      "unit": "EA",
+      "quantity": 80.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 110.51,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 110.51,
+        "HARPER BROTHERS CONSTRUCTION LLC": 80.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 102.11,
+        "ISI CONTRACTING, INC.": 105.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 108.62,
+        "SER CONSTRUCTION PARTNERS, LLC": 105.0
+      }
+    },
+    {
+      "itemCode": "0514 6001",
+      "description": "PERM CTB (SGL SLOPE) (TY 1) (42 )",
+      "unit": "LF",
+      "quantity": 13683.8,
+      "engEstUnit": 80.0,
+      "lowUnit": 94.22,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 94.22,
+        "HARPER BROTHERS CONSTRUCTION LLC": 100.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 68.76,
+        "ISI CONTRACTING, INC.": 73.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 61.88,
+        "SER CONSTRUCTION PARTNERS, LLC": 71.1
+      }
+    },
+    {
+      "itemCode": "0514 6036",
+      "description": "PERM CTB (TRAN SSCB TO SSTR) (MOD)",
+      "unit": "LF",
+      "quantity": 360.0,
+      "engEstUnit": 410.0,
+      "lowUnit": 184.99,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 184.99,
+        "HARPER BROTHERS CONSTRUCTION LLC": 565.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 180.0,
+        "ISI CONTRACTING, INC.": 378.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 202.72,
+        "SER CONSTRUCTION PARTNERS, LLC": 333.1
+      }
+    },
+    {
+      "itemCode": "0514 6040",
+      "description": "PERM CTB (SSCB)(TY 3)(MOD)",
+      "unit": "LF",
+      "quantity": 250.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 193.6,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 193.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 260.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 188.35,
+        "ISI CONTRACTING, INC.": 353.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 271.72,
+        "SER CONSTRUCTION PARTNERS, LLC": 539.9
+      }
+    },
+    {
+      "itemCode": "0514 6044",
+      "description": "PERM CTB (SGL SLOPE) (TY 1) SPECIAL",
+      "unit": "LF",
+      "quantity": 12381.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 174.2,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 174.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 215.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 144.35,
+        "ISI CONTRACTING, INC.": 192.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 184.03,
+        "SER CONSTRUCTION PARTNERS, LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 5714.0,
+      "engEstUnit": 3.15,
+      "lowUnit": 2.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 2.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 2.04,
+        "ISI CONTRACTING, INC.": 5.9,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 2.1
+      }
+    },
+    {
+      "itemCode": "0542 6003",
+      "description": "REMOVE DOWNSTREAM ANCHOR TERMINAL",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 150.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 150.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 153.17,
+        "ISI CONTRACTING, INC.": 633.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 175.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 189.0
+      }
+    },
+    {
+      "itemCode": "0542 6004",
+      "description": "RM MTL BM GD FENCE TRANS (THRIE-BEAM)",
+      "unit": "EA",
+      "quantity": 21.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 250.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 250.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 255.27,
+        "ISI CONTRACTING, INC.": 633.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 300.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 189.0
+      }
+    },
+    {
+      "itemCode": "0543 6019",
+      "description": "CABLE BARRIER TERMINAL SECTION (TL-3)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 4700.0,
+      "lowUnit": 4800.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 4800.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 6000.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 3675.99,
+        "ISI CONTRACTING, INC.": 3765.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 5500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 4200.0
+      }
+    },
+    {
+      "itemCode": "0543 6021",
+      "description": "REMOVE CABLE BARRIER",
+      "unit": "LF",
+      "quantity": 24324.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 3.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.5,
+        "ZACHRY CONSTRUCTION CORPORATION": 5.11,
+        "ISI CONTRACTING, INC.": 5.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 3.2
+      }
+    },
+    {
+      "itemCode": "0543 6022",
+      "description": "REMOVE CABLE BARRIER TERMINAL SECTION",
+      "unit": "EA",
+      "quantity": 21.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 365.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 365.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 50.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 816.89,
+        "ISI CONTRACTING, INC.": 256.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 871.5
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 2965.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 2965.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2965.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 3027.6,
+        "ISI CONTRACTING, INC.": 2721.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 3000.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 3212.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 22.0,
+      "engEstUnit": 260.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 200.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 200.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 204.23,
+        "ISI CONTRACTING, INC.": 233.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 300.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 262.5
+      }
+    },
+    {
+      "itemCode": "0545 6003",
+      "description": "CRASH CUSH ATTEN (MOVE & RESET)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 4200.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 4200.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 4200.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 4288.68,
+        "ISI CONTRACTING, INC.": 633.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 2000.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 3412.5
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 22.0,
+      "engEstUnit": 1250.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 1000.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1000.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 1021.12,
+        "ISI CONTRACTING, INC.": 633.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1200.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 1470.0
+      }
+    },
+    {
+      "itemCode": "0545 6007",
+      "description": "CRASH CUSH ATTEN (INSTL)(L)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 21.0,
+      "engEstUnit": 26000.0,
+      "lowUnit": 25500.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 25500.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 25500.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 26038.44,
+        "ISI CONTRACTING, INC.": 23400.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 26500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 29925.0
+      }
+    },
+    {
+      "itemCode": "0545 6019",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 13500.0,
+      "lowUnit": 8500.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 8500.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 8500.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 8679.48,
+        "ISI CONTRACTING, INC.": 7024.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 7500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 10290.0
+      }
+    },
+    {
+      "itemCode": "0610 6105",
+      "description": "IN RD IL (U/P) (TY 1) (250W EQ) LED",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 1212.0,
+      "lowUnit": 1190.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 1190.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1571.08,
+        "ZACHRY CONSTRUCTION CORPORATION": 1465.3,
+        "ISI CONTRACTING, INC.": 1531.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1435.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 1506.8
+      }
+    },
+    {
+      "itemCode": "0610 6162",
+      "description": "IN RD IL (TY SA) 30T-8 (250W EQ) LED",
+      "unit": "EA",
+      "quantity": 11.0,
+      "engEstUnit": 4552.91,
+      "lowUnit": 4190.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 4190.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 4972.8,
+        "ZACHRY CONSTRUCTION CORPORATION": 4517.41,
+        "ISI CONTRACTING, INC.": 4721.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 4424.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 4645.2
+      }
+    },
+    {
+      "itemCode": "0610 6286",
+      "description": "IN RD IL (TY SA) 50T-8 (400W EQ) LED",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 5670.89,
+      "lowUnit": 5055.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 5055.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 5850.6,
+        "ZACHRY CONSTRUCTION CORPORATION": 5498.71,
+        "ISI CONTRACTING, INC.": 5746.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 5385.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 5654.3
+      }
+    },
+    {
+      "itemCode": "0618 6044",
+      "description": "CONDT (PVC) (SCH 80) (1 1/2\")",
+      "unit": "LF",
+      "quantity": 928.0,
+      "engEstUnit": 9.5,
+      "lowUnit": 11.75,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 11.75,
+        "HARPER BROTHERS CONSTRUCTION LLC": 8.94,
+        "ZACHRY CONSTRUCTION CORPORATION": 10.98,
+        "ISI CONTRACTING, INC.": 11.47,
+        "JAMES CONSTRUCTION GROUP, LLC": 10.75,
+        "SER CONSTRUCTION PARTNERS, LLC": 11.3
+      }
+    },
+    {
+      "itemCode": "0618 6045",
+      "description": "CONDT (PVC) (SCH 80) (1 1/2\") (BORE)",
+      "unit": "LF",
+      "quantity": 1220.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 12.75,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 12.75,
+        "HARPER BROTHERS CONSTRUCTION LLC": 15.07,
+        "ZACHRY CONSTRUCTION CORPORATION": 10.72,
+        "ISI CONTRACTING, INC.": 11.2,
+        "JAMES CONSTRUCTION GROUP, LLC": 10.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 11.0
+      }
+    },
+    {
+      "itemCode": "0618 6046",
+      "description": "CONDT (PVC) (SCH 80) (2\")",
+      "unit": "LF",
+      "quantity": 26049.0,
+      "engEstUnit": 13.51,
+      "lowUnit": 10.65,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 10.65,
+        "HARPER BROTHERS CONSTRUCTION LLC": 8.23,
+        "ZACHRY CONSTRUCTION CORPORATION": 7.15,
+        "ISI CONTRACTING, INC.": 7.46,
+        "JAMES CONSTRUCTION GROUP, LLC": 7.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 7.4
+      }
+    },
+    {
+      "itemCode": "0618 6047",
+      "description": "CONDT (PVC) (SCH 80) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 2039.0,
+      "engEstUnit": 28.25,
+      "lowUnit": 14.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 14.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 48.33,
+        "ZACHRY CONSTRUCTION CORPORATION": 9.45,
+        "ISI CONTRACTING, INC.": 9.87,
+        "JAMES CONSTRUCTION GROUP, LLC": 9.25,
+        "SER CONSTRUCTION PARTNERS, LLC": 9.7
+      }
+    },
+    {
+      "itemCode": "0618 6053",
+      "description": "CONDT (PVC) (SCH 80) (3\")",
+      "unit": "LF",
+      "quantity": 42.0,
+      "engEstUnit": 21.0,
+      "lowUnit": 42.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 42.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 22.18,
+        "ZACHRY CONSTRUCTION CORPORATION": 15.32,
+        "ISI CONTRACTING, INC.": 16.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 15.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 15.8
+      }
+    },
+    {
+      "itemCode": "0618 6062",
+      "description": "CONDT (RM) (3/4\")",
+      "unit": "LF",
+      "quantity": 920.0,
+      "engEstUnit": 28.66,
+      "lowUnit": 14.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 14.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 10.6,
+        "ZACHRY CONSTRUCTION CORPORATION": 18.23,
+        "ISI CONTRACTING, INC.": 19.04,
+        "JAMES CONSTRUCTION GROUP, LLC": 17.85,
+        "SER CONSTRUCTION PARTNERS, LLC": 18.7
+      }
+    },
+    {
+      "itemCode": "0618 6070",
+      "description": "CONDT (RM) (2\")",
+      "unit": "LF",
+      "quantity": 140.0,
+      "engEstUnit": 71.56,
+      "lowUnit": 42.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 42.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 9.78,
+        "ZACHRY CONSTRUCTION CORPORATION": 34.72,
+        "ISI CONTRACTING, INC.": 36.29,
+        "JAMES CONSTRUCTION GROUP, LLC": 34.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 35.7
+      }
+    },
+    {
+      "itemCode": "0620 6003",
+      "description": "ELEC CONDR (NO.12) BARE",
+      "unit": "LF",
+      "quantity": 920.0,
+      "engEstUnit": 1.01,
+      "lowUnit": 1.75,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 1.75,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.21,
+        "ZACHRY CONSTRUCTION CORPORATION": 1.23,
+        "ISI CONTRACTING, INC.": 1.28,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.2,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.3
+      }
+    },
+    {
+      "itemCode": "0620 6004",
+      "description": "ELEC CONDR (NO.12) INSULATED",
+      "unit": "LF",
+      "quantity": 1840.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.95,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 1.95,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.4,
+        "ZACHRY CONSTRUCTION CORPORATION": 1.23,
+        "ISI CONTRACTING, INC.": 1.28,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.2,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.3
+      }
+    },
+    {
+      "itemCode": "0620 6007",
+      "description": "ELEC CONDR (NO.8) BARE",
+      "unit": "LF",
+      "quantity": 21188.0,
+      "engEstUnit": 1.82,
+      "lowUnit": 2.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 2.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.64,
+        "ZACHRY CONSTRUCTION CORPORATION": 1.43,
+        "ISI CONTRACTING, INC.": 1.49,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.4,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.5
+      }
+    },
+    {
+      "itemCode": "0620 6008",
+      "description": "ELEC CONDR (NO.8) INSULATED",
+      "unit": "LF",
+      "quantity": 42376.0,
+      "engEstUnit": 1.7,
+      "lowUnit": 2.15,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 2.15,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.6,
+        "ZACHRY CONSTRUCTION CORPORATION": 1.48,
+        "ISI CONTRACTING, INC.": 1.55,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.45,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.5
+      }
+    },
+    {
+      "itemCode": "0620 6009",
+      "description": "ELEC CONDR (NO.6) BARE",
+      "unit": "LF",
+      "quantity": 7281.0,
+      "engEstUnit": 1.99,
+      "lowUnit": 2.85,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 2.85,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.72,
+        "ZACHRY CONSTRUCTION CORPORATION": 1.53,
+        "ISI CONTRACTING, INC.": 1.6,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.6
+      }
+    },
+    {
+      "itemCode": "0620 6010",
+      "description": "ELEC CONDR (NO.6) INSULATED",
+      "unit": "LF",
+      "quantity": 14562.0,
+      "engEstUnit": 2.27,
+      "lowUnit": 2.95,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 2.95,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.04,
+        "ZACHRY CONSTRUCTION CORPORATION": 1.74,
+        "ISI CONTRACTING, INC.": 1.81,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.7,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.8
+      }
+    },
+    {
+      "itemCode": "0624 6002",
+      "description": "GROUND BOX TY A (122311)W/APRON",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 850.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 850.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1191.73,
+        "ZACHRY CONSTRUCTION CORPORATION": 1097.7,
+        "ISI CONTRACTING, INC.": 1147.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1075.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 1128.8
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 1475.08,
+      "lowUnit": 890.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 890.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1226.41,
+        "ZACHRY CONSTRUCTION CORPORATION": 944.53,
+        "ISI CONTRACTING, INC.": 987.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 925.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 971.3
+      }
+    },
+    {
+      "itemCode": "0628 6052",
+      "description": "ELC SRV TY A 240/480 060(SS)SS(E)GC(U)",
+      "unit": "EA",
+      "quantity": 11.0,
+      "engEstUnit": 7560.0,
+      "lowUnit": 8150.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 8150.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 6556.53,
+        "ZACHRY CONSTRUCTION CORPORATION": 6683.2,
+        "ISI CONTRACTING, INC.": 6984.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 6545.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 6872.3
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 654.33,
+      "lowUnit": 675.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 675.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 675.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 689.25,
+        "ISI CONTRACTING, INC.": 565.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 568.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 729.8
+      }
+    },
+    {
+      "itemCode": "0644 6030",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(T)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 1355.12,
+      "lowUnit": 825.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 825.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 825.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 842.42,
+        "ISI CONTRACTING, INC.": 688.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 756.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 812.7
+      }
+    },
+    {
+      "itemCode": "0644 6042",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SB(T)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1620.0,
+      "lowUnit": 825.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 825.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 825.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 842.42,
+        "ISI CONTRACTING, INC.": 735.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 708.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 844.2
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 152.2,
+      "lowUnit": 85.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 85.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 85.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 86.8,
+        "ISI CONTRACTING, INC.": 115.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 50.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 92.4
+      }
+    },
+    {
+      "itemCode": "0658 6013",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB",
+      "unit": "EA",
+      "quantity": 58.0,
+      "engEstUnit": 16.67,
+      "lowUnit": 25.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 25.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 25.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 25.53,
+        "ISI CONTRACTING, INC.": 12.9,
+        "JAMES CONSTRUCTION GROUP, LLC": 28.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 15.8
+      }
+    },
+    {
+      "itemCode": "0658 6026",
+      "description": "INSTL DEL ASSM (D-SY)SZ (BRF)CTB",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 19.75,
+      "lowUnit": 25.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 25.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 25.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 25.53,
+        "ISI CONTRACTING, INC.": 12.9,
+        "JAMES CONSTRUCTION GROUP, LLC": 28.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 15.8
+      }
+    },
+    {
+      "itemCode": "0658 6027",
+      "description": "INSTL DEL ASSM (D-SY)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 343.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 25.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 25.5,
+        "ZACHRY CONSTRUCTION CORPORATION": 26.04,
+        "ISI CONTRACTING, INC.": 13.9,
+        "JAMES CONSTRUCTION GROUP, LLC": 28.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 23.1
+      }
+    },
+    {
+      "itemCode": "0658 6061",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 35.73,
+      "lowUnit": 35.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 35.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 35.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 35.74,
+        "ISI CONTRACTING, INC.": 22.9,
+        "JAMES CONSTRUCTION GROUP, LLC": 35.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 28.4
+      }
+    },
+    {
+      "itemCode": "0662 6060",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 18380.0,
+      "engEstUnit": 1.75,
+      "lowUnit": 1.1,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 1.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.1,
+        "ZACHRY CONSTRUCTION CORPORATION": 1.12,
+        "ISI CONTRACTING, INC.": 1.16,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.1,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.2
+      }
+    },
+    {
+      "itemCode": "0662 6063",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 79292.0,
+      "engEstUnit": 1.3,
+      "lowUnit": 0.75,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 0.75,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.51,
+        "ZACHRY CONSTRUCTION CORPORATION": 0.52,
+        "ISI CONTRACTING, INC.": 0.54,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.51,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.5
+      }
+    },
+    {
+      "itemCode": "0662 6071",
+      "description": "WK ZN PAV MRK REMOV (W)8\"(SLD)",
+      "unit": "LF",
+      "quantity": 7436.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 2.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.04,
+        "ZACHRY CONSTRUCTION CORPORATION": 1.06,
+        "ISI CONTRACTING, INC.": 1.09,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.04,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.1
+      }
+    },
+    {
+      "itemCode": "0662 6072",
+      "description": "WK ZN PAV MRK REMOV (W)12\"(LNDP)",
+      "unit": "LF",
+      "quantity": 2649.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 5.45,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 5.45,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 3.06,
+        "ISI CONTRACTING, INC.": 3.15,
+        "JAMES CONSTRUCTION GROUP, LLC": 3.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 3.2
+      }
+    },
+    {
+      "itemCode": "0662 6073",
+      "description": "WK ZN PAV MRK REMOV (W)12\"(SLD)",
+      "unit": "LF",
+      "quantity": 1516.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 2.85,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 2.85,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.56,
+        "ZACHRY CONSTRUCTION CORPORATION": 1.59,
+        "ISI CONTRACTING, INC.": 1.64,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.56,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.2
+      }
+    },
+    {
+      "itemCode": "0662 6080",
+      "description": "WK ZN PAV MRK REMOV (W)(ARROW)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 205.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 400.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 125.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 127.64,
+        "ISI CONTRACTING, INC.": 131.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 125.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 131.3
+      }
+    },
+    {
+      "itemCode": "0662 6090",
+      "description": "WK ZN PAV MRK REMOV (W)(WORD)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 240.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 600.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 125.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 127.64,
+        "ISI CONTRACTING, INC.": 131.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 125.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 131.3
+      }
+    },
+    {
+      "itemCode": "0662 6095",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 75305.0,
+      "engEstUnit": 1.3,
+      "lowUnit": 0.75,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 0.75,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.52,
+        "ZACHRY CONSTRUCTION CORPORATION": 0.53,
+        "ISI CONTRACTING, INC.": 0.55,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.52,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.5
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 263.63,
+      "lowUnit": 580.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 580.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 270.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 275.7,
+        "ISI CONTRACTING, INC.": 284.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 270.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 283.5
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 314.16,
+      "lowUnit": 757.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 757.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 370.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 377.81,
+        "ISI CONTRACTING, INC.": 389.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 370.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 388.5
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 173467.0,
+      "engEstUnit": 0.55,
+      "lowUnit": 0.3,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 0.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.35,
+        "ZACHRY CONSTRUCTION CORPORATION": 0.36,
+        "ISI CONTRACTING, INC.": 0.37,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.35,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.4
+      }
+    },
+    {
+      "itemCode": "0677 6002",
+      "description": "ELIM EXT PAV MRK & MRKS (6\")",
+      "unit": "LF",
+      "quantity": 120537.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 0.2,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 0.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.45,
+        "ZACHRY CONSTRUCTION CORPORATION": 0.46,
+        "ISI CONTRACTING, INC.": 0.47,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.45,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.5
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 15750.0,
+      "engEstUnit": 0.85,
+      "lowUnit": 0.81,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 0.81,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.5,
+        "ZACHRY CONSTRUCTION CORPORATION": 0.51,
+        "ISI CONTRACTING, INC.": 0.53,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.5
+      }
+    },
+    {
+      "itemCode": "0677 6005",
+      "description": "ELIM EXT PAV MRK & MRKS (12\")",
+      "unit": "LF",
+      "quantity": 23285.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.95,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 1.95,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.9,
+        "ZACHRY CONSTRUCTION CORPORATION": 0.92,
+        "ISI CONTRACTING, INC.": 0.95,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.9,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.9
+      }
+    },
+    {
+      "itemCode": "0677 6008",
+      "description": "ELIM EXT PAV MRK & MRKS (ARROW)",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 86.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 86.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 38.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 38.8,
+        "ISI CONTRACTING, INC.": 39.9,
+        "JAMES CONSTRUCTION GROUP, LLC": 38.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 39.9
+      }
+    },
+    {
+      "itemCode": "0677 6012",
+      "description": "ELIM EXT PAV MRK & MRKS (WORD)",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 57.0,
+      "lowUnit": 107.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 107.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 38.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 38.8,
+        "ISI CONTRACTING, INC.": 39.9,
+        "JAMES CONSTRUCTION GROUP, LLC": 38.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 39.9
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 119926.0,
+      "engEstUnit": 0.1,
+      "lowUnit": 0.2,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 0.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.03,
+        "ZACHRY CONSTRUCTION CORPORATION": 0.03,
+        "ISI CONTRACTING, INC.": 0.03,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.03,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.03
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 8704.0,
+      "engEstUnit": 0.1,
+      "lowUnit": 0.28,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 0.28,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.06,
+        "ZACHRY CONSTRUCTION CORPORATION": 0.06,
+        "ISI CONTRACTING, INC.": 0.06,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.06,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.1
+      }
+    },
+    {
+      "itemCode": "0678 6005",
+      "description": "PAV SURF PREP FOR MRK (10\")",
+      "unit": "LF",
+      "quantity": 28535.0,
+      "engEstUnit": 0.4,
+      "lowUnit": 0.28,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 0.28,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.08,
+        "ZACHRY CONSTRUCTION CORPORATION": 0.08,
+        "ISI CONTRACTING, INC.": 0.08,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.08,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.1
+      }
+    },
+    {
+      "itemCode": "0678 6006",
+      "description": "PAV SURF PREP FOR MRK (12\")",
+      "unit": "LF",
+      "quantity": 6900.0,
+      "engEstUnit": 0.12,
+      "lowUnit": 0.29,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 0.29,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.1,
+        "ZACHRY CONSTRUCTION CORPORATION": 0.1,
+        "ISI CONTRACTING, INC.": 0.11,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.1,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.1
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 15.13,
+      "lowUnit": 12.5,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 12.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 5.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 5.11,
+        "ISI CONTRACTING, INC.": 5.26,
+        "JAMES CONSTRUCTION GROUP, LLC": 5.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 5.3
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 19.93,
+      "lowUnit": 14.5,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 14.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 5.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 5.11,
+        "ISI CONTRACTING, INC.": 5.27,
+        "JAMES CONSTRUCTION GROUP, LLC": 5.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 5.3
+      }
+    },
+    {
+      "itemCode": "0730 6107",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "CYC",
+      "quantity": 11.0,
+      "engEstUnit": 2600.0,
+      "lowUnit": 1650.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 1650.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3500.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 9190.04,
+        "ISI CONTRACTING, INC.": 2714.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1879.68,
+        "SER CONSTRUCTION PARTNERS, LLC": 5985.0
+      }
+    },
+    {
+      "itemCode": "0734 6002",
+      "description": "LITTER REMOVAL",
+      "unit": "CYC",
+      "quantity": 11.0,
+      "engEstUnit": 1700.0,
+      "lowUnit": 2866.1,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 2866.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 4750.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 2552.78,
+        "ISI CONTRACTING, INC.": 2418.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 757.47,
+        "SER CONSTRUCTION PARTNERS, LLC": 2100.0
+      }
+    },
+    {
+      "itemCode": "0738 6003",
+      "description": "CLEANING / SWEEPING (OUTSIDE MAIN LANE)",
+      "unit": "CYC",
+      "quantity": 32.0,
+      "engEstUnit": 1700.0,
+      "lowUnit": 1101.09,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 1101.09,
+        "HARPER BROTHERS CONSTRUCTION LLC": 6200.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 2042.23,
+        "ISI CONTRACTING, INC.": 1209.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 2100.0
+      }
+    },
+    {
+      "itemCode": "3021 6001",
+      "description": "WIDE FLANGE PAVEMENT TERMINALS",
+      "unit": "LF",
+      "quantity": 601.0,
+      "engEstUnit": 569.0,
+      "lowUnit": 713.04,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 713.04,
+        "HARPER BROTHERS CONSTRUCTION LLC": 800.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 735.75,
+        "ISI CONTRACTING, INC.": 739.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 573.67,
+        "SER CONSTRUCTION PARTNERS, LLC": 625.2
+      }
+    },
+    {
+      "itemCode": "5062 6001",
+      "description": "PATCHING MILLED CONCRETE RUMBLE STRIPS",
+      "unit": "LF",
+      "quantity": 6384.0,
+      "engEstUnit": 8.5,
+      "lowUnit": 11.72,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 11.72,
+        "HARPER BROTHERS CONSTRUCTION LLC": 14.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 8.44,
+        "ISI CONTRACTING, INC.": 18.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 10.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 3.2
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 112.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 328.58,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 328.58,
+        "HARPER BROTHERS CONSTRUCTION LLC": 100.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 27.37,
+        "ISI CONTRACTING, INC.": 316.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 56.51,
+        "SER CONSTRUCTION PARTNERS, LLC": 63.0
+      }
+    },
+    {
+      "itemCode": "6019 6007",
+      "description": "PREFB PV MK W/WNTY TY B(W)6\"(BRK)CNTST",
+      "unit": "LF",
+      "quantity": 28535.0,
+      "engEstUnit": 12.68,
+      "lowUnit": 9.75,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 9.75,
+        "HARPER BROTHERS CONSTRUCTION LLC": 11.45,
+        "ZACHRY CONSTRUCTION CORPORATION": 11.69,
+        "ISI CONTRACTING, INC.": 11.7,
+        "JAMES CONSTRUCTION GROUP, LLC": 11.45,
+        "SER CONSTRUCTION PARTNERS, LLC": 12.0
+      }
+    },
+    {
+      "itemCode": "6027 6003",
+      "description": "CONDUIT (PREPARE)",
+      "unit": "LF",
+      "quantity": 531.0,
+      "engEstUnit": 1.63,
+      "lowUnit": 5.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 5.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.5,
+        "ZACHRY CONSTRUCTION CORPORATION": 1.02,
+        "ISI CONTRACTING, INC.": 1.1,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.1
+      }
+    },
+    {
+      "itemCode": "6027 6008",
+      "description": "GROUND BOX (PREPARE)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 310.0,
+      "lowUnit": 180.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 180.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 297.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 255.27,
+        "ISI CONTRACTING, INC.": 267.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 250.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 262.5
+      }
+    },
+    {
+      "itemCode": "6038 6004",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(SLD)",
+      "unit": "LF",
+      "quantity": 60559.0,
+      "engEstUnit": 1.69,
+      "lowUnit": 0.8,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 0.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.88,
+        "ZACHRY CONSTRUCTION CORPORATION": 0.9,
+        "ISI CONTRACTING, INC.": 0.9,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.88,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.9
+      }
+    },
+    {
+      "itemCode": "6038 6006",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(DOT)",
+      "unit": "LF",
+      "quantity": 514.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 2.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 3.06,
+        "ISI CONTRACTING, INC.": 3.2,
+        "JAMES CONSTRUCTION GROUP, LLC": 3.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 3.2
+      }
+    },
+    {
+      "itemCode": "6038 6007",
+      "description": "MULTIPOLYMER PAV MRK (W)(8\")(SLD)",
+      "unit": "LF",
+      "quantity": 8704.0,
+      "engEstUnit": 2.06,
+      "lowUnit": 1.5,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 1.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3.0,
+        "ZACHRY CONSTRUCTION CORPORATION": 2.14,
+        "ISI CONTRACTING, INC.": 2.2,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.1,
+        "SER CONSTRUCTION PARTNERS, LLC": 2.2
+      }
+    },
+    {
+      "itemCode": "6038 6011",
+      "description": "MULTIPOLYMER PAV MRK (W)(12\")(SLD)",
+      "unit": "LF",
+      "quantity": 4607.0,
+      "engEstUnit": 5.49,
+      "lowUnit": 5.25,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 5.25,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.1,
+        "ZACHRY CONSTRUCTION CORPORATION": 4.19,
+        "ISI CONTRACTING, INC.": 4.3,
+        "JAMES CONSTRUCTION GROUP, LLC": 4.1,
+        "SER CONSTRUCTION PARTNERS, LLC": 4.3
+      }
+    },
+    {
+      "itemCode": "6038 6012",
+      "description": "MULTIPOLYMER PAV MRK (W)(12\")(LNDP)",
+      "unit": "LF",
+      "quantity": 2293.0,
+      "engEstUnit": 4.35,
+      "lowUnit": 2.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 2.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 4.15,
+        "ZACHRY CONSTRUCTION CORPORATION": 4.6,
+        "ISI CONTRACTING, INC.": 4.7,
+        "JAMES CONSTRUCTION GROUP, LLC": 4.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 4.7
+      }
+    },
+    {
+      "itemCode": "6156 6002",
+      "description": "LED HI MST IL ASM (6 FIXT)(ASYM)(TY A)",
+      "unit": "EA",
+      "quantity": 41.0,
+      "engEstUnit": 34794.74,
+      "lowUnit": 32888.0,
+      "bidders": {
+        "BRICE CONSTRUCTION AND DESIGN LLC": 32888.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 36438.6,
+        "ZACHRY CONSTRUCTION CORPORATION": 32287.66,
+        "ISI CONTRACTING, INC.": 32845.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 31620.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 33201.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "csj": "6375-28-001",
+    "county": "Titus",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637528001",
+    "projectType": "HOT-MIX COLD-LAID",
+    "letDate": "03/17/21",
+    "engEstTotal": 62500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RK HALL, LLC",
+      "totalBidAmount": 78187.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8013 6009",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 1)",
+      "unit": "TON",
+      "quantity": 250.0,
+      "engEstUnit": 82.0,
+      "lowUnit": 118.5,
+      "bidders": {
+        "RK HALL, LLC": 118.5
+      }
+    },
+    {
+      "itemCode": "8013 6010",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 2)",
+      "unit": "TON",
+      "quantity": 250.0,
+      "engEstUnit": 83.0,
+      "lowUnit": 99.5,
+      "bidders": {
+        "RK HALL, LLC": 99.5
+      }
+    },
+    {
+      "itemCode": "8013 6011",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 3)",
+      "unit": "TON",
+      "quantity": 250.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 94.75,
+      "bidders": {
+        "RK HALL, LLC": 94.75
+      }
+    }
+  ]
+}

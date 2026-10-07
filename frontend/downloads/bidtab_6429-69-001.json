@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6429-69-001",
+    "county": "Sabine",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642969001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "04/27/23",
+    "engEstTotal": 244650.18,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RENEGADE SITE SOLUTIONS, LLC",
+      "totalBidAmount": 216105.9
+    },
+    {
+      "rank": 2,
+      "vendorName": "ACE CONTRACTORS, INC.",
+      "totalBidAmount": 261082.95
+    },
+    {
+      "rank": 3,
+      "vendorName": "SERNA CONTRACTORS, LLC",
+      "totalBidAmount": 317250.64
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 5027.82,
+      "engEstUnit": 42.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "RENEGADE SITE SOLUTIONS, LLC": 35.0,
+        "ACE CONTRACTORS, INC.": 44.5,
+        "SERNA CONTRACTORS, LLC": 52.46
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 0.01,
+      "lowUnit": 30.0,
+      "bidders": {
+        "RENEGADE SITE SOLUTIONS, LLC": 30.0,
+        "ACE CONTRACTORS, INC.": 0.01,
+        "SERNA CONTRACTORS, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 2575.48,
+      "engEstUnit": 13.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "RENEGADE SITE SOLUTIONS, LLC": 15.0,
+        "ACE CONTRACTORS, INC.": 14.5,
+        "SERNA CONTRACTORS, LLC": 20.75
+      }
+    }
+  ]
+}

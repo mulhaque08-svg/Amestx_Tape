@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6398-62-001",
+    "county": "Nueces",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639862001",
+    "projectType": "EMULSION",
+    "letDate": "03/22/22",
+    "engEstTotal": 77250.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ERGON ASPHALT & EMULSIONS, INC.",
+      "totalBidAmount": 97270.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6137",
+      "description": "EMULS (SS-1)(DEL)(SITE 1)",
+      "unit": "GAL",
+      "quantity": 11000.0,
+      "engEstUnit": 2.25,
+      "lowUnit": 2.82,
+      "bidders": {
+        "ERGON ASPHALT & EMULSIONS, INC.": 2.82
+      }
+    },
+    {
+      "itemCode": "8010 6141",
+      "description": "EMULS (SS-1)(PICK UP)",
+      "unit": "GAL",
+      "quantity": 25000.0,
+      "engEstUnit": 2.1,
+      "lowUnit": 2.65,
+      "bidders": {
+        "ERGON ASPHALT & EMULSIONS, INC.": 2.65
+      }
+    }
+  ]
+}

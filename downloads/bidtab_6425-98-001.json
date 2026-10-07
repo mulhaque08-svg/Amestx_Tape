@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6425-98-001",
+    "county": "Brazos",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642598001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "12/07/22",
+    "engEstTotal": 157500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 172500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 204000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "A. L. HELMCAMP, INC.",
+      "totalBidAmount": 213450.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 218010.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "TEXCON GENERAL CONTRACTORS",
+      "totalBidAmount": 287820.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6078",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 1)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 40.0,
+        "DIGG COMMERCIAL, LLC": 45.0,
+        "A. L. HELMCAMP, INC.": 47.2,
+        "COLORADO MATERIALS, LTD.": 44.29,
+        "TEXCON GENERAL CONTRACTORS": 63.55
+      }
+    },
+    {
+      "itemCode": "8007 6079",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 2)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 40.0,
+        "DIGG COMMERCIAL, LLC": 53.0,
+        "A. L. HELMCAMP, INC.": 54.92,
+        "COLORADO MATERIALS, LTD.": 49.96,
+        "TEXCON GENERAL CONTRACTORS": 68.88
+      }
+    },
+    {
+      "itemCode": "8007 6080",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 3)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 35.0,
+        "DIGG COMMERCIAL, LLC": 38.0,
+        "A. L. HELMCAMP, INC.": 40.18,
+        "COLORADO MATERIALS, LTD.": 51.09,
+        "TEXCON GENERAL CONTRACTORS": 59.45
+      }
+    }
+  ]
+}

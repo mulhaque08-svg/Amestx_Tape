@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6410-17-001",
+    "county": "Tarrant",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641017001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/17/22",
+    "engEstTotal": 132530.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 124855.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "NATIONAL INDUSTRIAL MAINTENANCE, INC.",
+      "totalBidAmount": 131987.76
+    },
+    {
+      "rank": 3,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 158890.24
+    },
+    {
+      "rank": 4,
+      "vendorName": "FYL ENTERPRISES, LLC",
+      "totalBidAmount": 177618.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 269620.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 12000.0,
+      "lowUnit": 8000.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 8000.0,
+        "NATIONAL INDUSTRIAL MAINTENANCE, INC.": 10000.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "FYL ENTERPRISES, LLC": 10000.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 280.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 50.0,
+        "NATIONAL INDUSTRIAL MAINTENANCE, INC.": 1.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "FYL ENTERPRISES, LLC": 2000.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0
+      }
+    }
+  ]
+}

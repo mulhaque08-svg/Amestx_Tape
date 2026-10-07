@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6387-81-001",
+    "county": "Fannin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638781001",
+    "projectType": "JANITORIAL MAINTENANCE",
+    "letDate": "08/19/21",
+    "engEstTotal": 18000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RWCS JANITORIAL LLC",
+      "totalBidAmount": 13200.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MAXPRO ENTERPRISE LLC",
+      "totalBidAmount": 19850.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ACADIA CONSTRUCTION MANAGEMENT",
+      "totalBidAmount": 20600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "7037 6001",
+      "description": "JANITORIAL SERVICES-DAILY, WKLY, MTHLY",
+      "unit": "MO",
+      "quantity": 12.0,
+      "engEstUnit": 1250.0,
+      "lowUnit": 850.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 850.0,
+        "MAXPRO ENTERPRISE LLC": 1200.0,
+        "ACADIA CONSTRUCTION MANAGEMENT": 1100.0
+      }
+    },
+    {
+      "itemCode": "7037 6002",
+      "description": "JANITORIAL SERVICES-STRIP/WAX FLOORS",
+      "unit": "CYC",
+      "quantity": 4.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 350.0,
+        "MAXPRO ENTERPRISE LLC": 900.0,
+        "ACADIA CONSTRUCTION MANAGEMENT": 700.0
+      }
+    },
+    {
+      "itemCode": "7037 6003",
+      "description": "JANITORIAL SERVICES-WINDOW WASHING",
+      "unit": "CYC",
+      "quantity": 2.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 100.0,
+        "MAXPRO ENTERPRISE LLC": 175.0,
+        "ACADIA CONSTRUCTION MANAGEMENT": 100.0
+      }
+    },
+    {
+      "itemCode": "7037 6004",
+      "description": "JANITORIAL SERVICES-CARPET CLN (STEAM)",
+      "unit": "CYC",
+      "quantity": 4.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 350.0,
+        "MAXPRO ENTERPRISE LLC": 375.0,
+        "ACADIA CONSTRUCTION MANAGEMENT": 1100.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6463-56-001",
+    "county": "Delta",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646356001",
+    "projectType": "DENSE GRADED HOT MIX",
+    "letDate": "03/06/24",
+    "engEstTotal": 632500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RK HALL, LLC",
+      "totalBidAmount": 745000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 95.0,
+      "bidders": {
+        "RK HALL, LLC": 95.0
+      }
+    },
+    {
+      "itemCode": "8011 6005",
+      "description": "D-GR HMA(SQ) TY F PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 6500.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "RK HALL, LLC": 100.0
+      }
+    }
+  ]
+}

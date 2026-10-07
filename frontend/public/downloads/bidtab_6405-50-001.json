@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6405-50-001",
+    "county": "Gillespie",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640550001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/07/23",
+    "engEstTotal": 391340.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 428480.8
+    },
+    {
+      "rank": 2,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 556104.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 25000.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6304.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 67.95,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 67.95,
+        "CROSS PLUS CONSTRUCTION, LLC": 71.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 120.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 71.0
+      }
+    }
+  ]
+}

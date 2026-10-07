@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6418-23-001",
+    "county": "Hill",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641823001",
+    "projectType": "HOT MIX",
+    "letDate": "08/30/22",
+    "engEstTotal": 286440.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 296960.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 315875.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 100.0,
+      "engEstUnit": 74.8,
+      "lowUnit": 86.35,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 86.35,
+        "TEXAS MATERIALS GROUP, INC.": 89.1
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2800.0,
+      "engEstUnit": 96.8,
+      "lowUnit": 100.35,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 100.35,
+        "TEXAS MATERIALS GROUP, INC.": 106.85
+      }
+    },
+    {
+      "itemCode": "8011 6014",
+      "description": "D-GR HMA(SQ)TY B PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 100.0,
+      "engEstUnit": 79.2,
+      "lowUnit": 73.45,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 73.45,
+        "TEXAS MATERIALS GROUP, INC.": 77.85
+      }
+    }
+  ]
+}

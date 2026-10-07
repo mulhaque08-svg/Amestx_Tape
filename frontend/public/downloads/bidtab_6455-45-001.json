@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6455-45-001",
+    "county": "Limestone",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645545001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "11/02/23",
+    "engEstTotal": 510303.72,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 537081.97
+    },
+    {
+      "rank": 2,
+      "vendorName": "CEN-TEX IRRIGATION SYSTEMS, INC.",
+      "totalBidAmount": 645276.12
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6707.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 74.95,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 74.95,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 81.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 1.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 81.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 2412.88,
+      "engEstUnit": 22.0,
+      "lowUnit": 14.0,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 14.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 24.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 500.0,
+      "engEstUnit": 24.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 1.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 24.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6385-95-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638595001",
+    "projectType": "WINTER WEATHER MATERIAL",
+    "letDate": "07/28/21",
+    "engEstTotal": 177600.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "THE BARGAIN SOURCE",
+      "totalBidAmount": 127788.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SOUTHWEST ENVIROTX PARTNERS, LLC",
+      "totalBidAmount": 170400.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 218400.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 219600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8032 6007",
+      "description": "TYPE I ROAD SALT(DEL)(SITE 1)",
+      "unit": "TON",
+      "quantity": 600.0,
+      "engEstUnit": 148.0,
+      "lowUnit": 106.49,
+      "bidders": {
+        "THE BARGAIN SOURCE": 106.49,
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 142.0,
+        "DIGG COMMERCIAL, LLC": 182.0,
+        "TOUCHSTONE RESOURCES, LLC": 180.0
+      }
+    },
+    {
+      "itemCode": "8032 6008",
+      "description": "TYPE I ROAD SALT(DEL)(SITE 2)",
+      "unit": "TON",
+      "quantity": 600.0,
+      "engEstUnit": 148.0,
+      "lowUnit": 106.49,
+      "bidders": {
+        "THE BARGAIN SOURCE": 106.49,
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 142.0,
+        "DIGG COMMERCIAL, LLC": 182.0,
+        "TOUCHSTONE RESOURCES, LLC": 186.0
+      }
+    }
+  ]
+}

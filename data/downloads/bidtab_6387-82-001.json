@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6387-82-001",
+    "county": "Anderson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638782001",
+    "projectType": "TREE TRIMMING AND BRUSH REMOVAL",
+    "letDate": "10/12/21",
+    "engEstTotal": 193326.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TERRY ENTERPRISES",
+      "totalBidAmount": 144913.22
+    },
+    {
+      "rank": 2,
+      "vendorName": "EASTGATE SERVICES",
+      "totalBidAmount": 182798.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "FOWLER CONSTRUCTION",
+      "totalBidAmount": 185567.5
+    },
+    {
+      "rank": 4,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 189151.42
+    },
+    {
+      "rank": 5,
+      "vendorName": "INTERSTATE ROAD WORKS, LLC",
+      "totalBidAmount": 199415.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "ROAD SOLUTIONS L.L.C.",
+      "totalBidAmount": 213865.1
+    },
+    {
+      "rank": 7,
+      "vendorName": "PATHFIELD INVESTMENTS LLC",
+      "totalBidAmount": 296960.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "TERRY ENTERPRISES": 1000.0,
+        "EASTGATE SERVICES": 1.0,
+        "FOWLER CONSTRUCTION": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 4200.0,
+        "INTERSTATE ROAD WORKS, LLC": 1.0,
+        "ROAD SOLUTIONS L.L.C.": 20000.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 110.78,
+      "engEstUnit": 1700.0,
+      "lowUnit": 1299.0,
+      "bidders": {
+        "TERRY ENTERPRISES": 1299.0,
+        "EASTGATE SERVICES": 1650.0,
+        "FOWLER CONSTRUCTION": 1675.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 1489.0,
+        "INTERSTATE ROAD WORKS, LLC": 1800.0,
+        "ROAD SOLUTIONS L.L.C.": 1750.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6462-49-001",
+    "county": "Wichita",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646249001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/06/24",
+    "engEstTotal": 337404.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BIG STATE MAINTENANCE, INC.",
+      "totalBidAmount": 287844.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 387059.56
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1322.0,
+      "engEstUnit": 42.0,
+      "lowUnit": 36.0,
+      "bidders": {
+        "BIG STATE MAINTENANCE, INC.": 36.0,
+        "RISE UP CONSTRUCTION LLC": 42.98
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6672.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 36.0,
+      "bidders": {
+        "BIG STATE MAINTENANCE, INC.": 36.0,
+        "RISE UP CONSTRUCTION LLC": 45.0
+      }
+    }
+  ]
+}

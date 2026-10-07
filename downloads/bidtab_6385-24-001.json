@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6385-24-001",
+    "county": "Walker",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638524001",
+    "projectType": "AGGREGATE",
+    "letDate": "08/10/21",
+    "engEstTotal": 70698.75,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 76758.75
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 105050.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 108908.75
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6113",
+      "description": "AGGR (TY B GR 5) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 55.45,
+      "lowUnit": 58.41,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 58.41,
+        "TOUCHSTONE RESOURCES, LLC": 83.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 84.67
+      }
+    },
+    {
+      "itemCode": "8039 6114",
+      "description": "AGGR (TY B GR 5) (DEL) (ST2)",
+      "unit": "TON",
+      "quantity": 250.0,
+      "engEstUnit": 55.45,
+      "lowUnit": 59.76,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 59.76,
+        "TOUCHSTONE RESOURCES, LLC": 82.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 84.67
+      }
+    },
+    {
+      "itemCode": "8039 6115",
+      "description": "AGGR (TY B GR 5) (DEL) (ST3)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 55.45,
+      "lowUnit": 62.45,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 62.45,
+        "TOUCHSTONE RESOURCES, LLC": 82.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 86.81
+      }
+    },
+    {
+      "itemCode": "8039 6116",
+      "description": "AGGR (TY B GR 5) (DEL) (ST4)",
+      "unit": "TON",
+      "quantity": 25.0,
+      "engEstUnit": 55.45,
+      "lowUnit": 55.55,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 55.55,
+        "TOUCHSTONE RESOURCES, LLC": 82.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 80.05
+      }
+    }
+  ]
+}

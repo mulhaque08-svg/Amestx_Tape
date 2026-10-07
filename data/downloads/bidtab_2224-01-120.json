@@ -1,0 +1,708 @@
+{
+  "metadata": {
+    "csj": "2224-01-120",
+    "county": "Ector",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2021(565)",
+    "projectType": "INTERSECTION IMPROVEMENTS - INSTALL TRAFFIC SIGNAL",
+    "letDate": "05/06/21",
+    "engEstTotal": 1056835.72,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SIEMENS MOBILITY, INC.",
+      "totalBidAmount": 1058413.8
+    },
+    {
+      "rank": 2,
+      "vendorName": "WILLIS ELECTRIC CO., LP",
+      "totalBidAmount": 1083761.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "RAGLE CONSTRUCTION, INC.",
+      "totalBidAmount": 1225950.43
+    },
+    {
+      "rank": 4,
+      "vendorName": "AMERICAN LIGHTING AND SIGNALIZATION, LLC",
+      "totalBidAmount": 1253990.61
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0416 6032",
+      "description": "DRILL SHAFT (TRF SIG POLE) (36 IN)",
+      "unit": "LF",
+      "quantity": 48.0,
+      "engEstUnit": 427.32,
+      "lowUnit": 326.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 326.0,
+        "WILLIS ELECTRIC CO., LP": 260.0,
+        "RAGLE CONSTRUCTION, INC.": 285.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 375.12
+      }
+    },
+    {
+      "itemCode": "0416 6034",
+      "description": "DRILL SHAFT (TRF SIG POLE) (48 IN)",
+      "unit": "LF",
+      "quantity": 87.6,
+      "engEstUnit": 604.16,
+      "lowUnit": 543.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 543.0,
+        "WILLIS ELECTRIC CO., LP": 380.0,
+        "RAGLE CONSTRUCTION, INC.": 385.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 468.24
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 32.5,
+      "engEstUnit": 579.07,
+      "lowUnit": 532.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 532.0,
+        "WILLIS ELECTRIC CO., LP": 612.0,
+        "RAGLE CONSTRUCTION, INC.": 750.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 545.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 96075.97,
+      "lowUnit": 155000.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 155000.0,
+        "WILLIS ELECTRIC CO., LP": 88400.0,
+        "RAGLE CONSTRUCTION, INC.": 100000.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 129621.7
+      }
+    },
+    {
+      "itemCode": "0529 6007",
+      "description": "CONC CURB & GUTTER (TY I)",
+      "unit": "LF",
+      "quantity": 335.0,
+      "engEstUnit": 19.0,
+      "lowUnit": 35.9,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 35.9,
+        "WILLIS ELECTRIC CO., LP": 43.0,
+        "RAGLE CONSTRUCTION, INC.": 60.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 32.7
+      }
+    },
+    {
+      "itemCode": "0618 6023",
+      "description": "CONDT (PVC) (SCH 40) (2\")",
+      "unit": "LF",
+      "quantity": 4725.0,
+      "engEstUnit": 7.59,
+      "lowUnit": 8.9,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 8.9,
+        "WILLIS ELECTRIC CO., LP": 6.5,
+        "RAGLE CONSTRUCTION, INC.": 10.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 16.04
+      }
+    },
+    {
+      "itemCode": "0618 6024",
+      "description": "CONDT (PVC) (SCH 40) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 1460.0,
+      "engEstUnit": 26.28,
+      "lowUnit": 26.6,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 26.6,
+        "WILLIS ELECTRIC CO., LP": 11.3,
+        "RAGLE CONSTRUCTION, INC.": 25.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 22.66
+      }
+    },
+    {
+      "itemCode": "0618 6029",
+      "description": "CONDT (PVC) (SCH 40) (3\")",
+      "unit": "LF",
+      "quantity": 265.0,
+      "engEstUnit": 26.8,
+      "lowUnit": 11.1,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 11.1,
+        "WILLIS ELECTRIC CO., LP": 14.0,
+        "RAGLE CONSTRUCTION, INC.": 20.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 20.91
+      }
+    },
+    {
+      "itemCode": "0618 6030",
+      "description": "CONDT (PVC) (SCH 40) (3\") (BORE)",
+      "unit": "LF",
+      "quantity": 530.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 30.9,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 30.9,
+        "WILLIS ELECTRIC CO., LP": 30.0,
+        "RAGLE CONSTRUCTION, INC.": 32.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 27.63
+      }
+    },
+    {
+      "itemCode": "0620 6008",
+      "description": "ELEC CONDR (NO.8) INSULATED",
+      "unit": "LF",
+      "quantity": 13755.0,
+      "engEstUnit": 1.64,
+      "lowUnit": 3.2,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 3.2,
+        "WILLIS ELECTRIC CO., LP": 1.5,
+        "RAGLE CONSTRUCTION, INC.": 1.55,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1.84
+      }
+    },
+    {
+      "itemCode": "0620 6009",
+      "description": "ELEC CONDR (NO.6) BARE",
+      "unit": "LF",
+      "quantity": 6980.0,
+      "engEstUnit": 1.22,
+      "lowUnit": 3.2,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 3.2,
+        "WILLIS ELECTRIC CO., LP": 1.5,
+        "RAGLE CONSTRUCTION, INC.": 1.5,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1.65
+      }
+    },
+    {
+      "itemCode": "0620 6010",
+      "description": "ELEC CONDR (NO.6) INSULATED",
+      "unit": "LF",
+      "quantity": 1220.0,
+      "engEstUnit": 1.31,
+      "lowUnit": 3.4,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 3.4,
+        "WILLIS ELECTRIC CO., LP": 1.8,
+        "RAGLE CONSTRUCTION, INC.": 1.85,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2.77
+      }
+    },
+    {
+      "itemCode": "0624 6002",
+      "description": "GROUND BOX TY A (122311)W/APRON",
+      "unit": "EA",
+      "quantity": 19.0,
+      "engEstUnit": 1204.11,
+      "lowUnit": 1132.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 1132.0,
+        "WILLIS ELECTRIC CO., LP": 810.0,
+        "RAGLE CONSTRUCTION, INC.": 950.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1336.08
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 1393.45,
+      "lowUnit": 1202.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 1202.0,
+        "WILLIS ELECTRIC CO., LP": 1100.0,
+        "RAGLE CONSTRUCTION, INC.": 1250.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1619.9
+      }
+    },
+    {
+      "itemCode": "0624 6028",
+      "description": "REMOVE GROUND BOX",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 250.65,
+      "lowUnit": 645.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 645.0,
+        "WILLIS ELECTRIC CO., LP": 50.0,
+        "RAGLE CONSTRUCTION, INC.": 50.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 473.04
+      }
+    },
+    {
+      "itemCode": "0628 6152",
+      "description": "ELC SRV TY D 120/240 060(NS)SS(N)SP(O)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 5375.0,
+      "lowUnit": 4776.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 4776.0,
+        "WILLIS ELECTRIC CO., LP": 4950.0,
+        "RAGLE CONSTRUCTION, INC.": 8000.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 5605.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 842.83,
+      "lowUnit": 305.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 305.0,
+        "WILLIS ELECTRIC CO., LP": 700.0,
+        "RAGLE CONSTRUCTION, INC.": 672.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 732.48
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 29.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 342.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 342.0,
+        "WILLIS ELECTRIC CO., LP": 780.0,
+        "RAGLE CONSTRUCTION, INC.": 745.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 812.05
+      }
+    },
+    {
+      "itemCode": "0644 6033",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1230.07,
+      "lowUnit": 595.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 595.0,
+        "WILLIS ELECTRIC CO., LP": 820.0,
+        "RAGLE CONSTRUCTION, INC.": 780.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 850.2
+      }
+    },
+    {
+      "itemCode": "0644 6051",
+      "description": "IN SM RD SN SUP&AM TYS80(2)SA(P-EXAL)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1670.0,
+      "lowUnit": 1086.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 1086.0,
+        "WILLIS ELECTRIC CO., LP": 1615.0,
+        "RAGLE CONSTRUCTION, INC.": 1538.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1676.42
+      }
+    },
+    {
+      "itemCode": "0644 6056",
+      "description": "IN SM RD SN SUP&AM TYTWT(1)UA(P)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 492.87,
+      "lowUnit": 213.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 213.0,
+        "WILLIS ELECTRIC CO., LP": 615.0,
+        "RAGLE CONSTRUCTION, INC.": 585.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 637.65
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 47.0,
+      "engEstUnit": 101.92,
+      "lowUnit": 215.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 215.0,
+        "WILLIS ELECTRIC CO., LP": 70.0,
+        "RAGLE CONSTRUCTION, INC.": 95.44,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 186.05
+      }
+    },
+    {
+      "itemCode": "0644 6078",
+      "description": "REMOVE SM RD SN SUP&AM (SIGN ONLY)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 92.0,
+      "lowUnit": 215.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 215.0,
+        "WILLIS ELECTRIC CO., LP": 90.0,
+        "RAGLE CONSTRUCTION, INC.": 87.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 94.83
+      }
+    },
+    {
+      "itemCode": "0658 6078",
+      "description": "INSTL OM ASSM (OM-4)(TWT)WAS",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1400.0,
+      "lowUnit": 379.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 379.0,
+        "WILLIS ELECTRIC CO., LP": 235.0,
+        "RAGLE CONSTRUCTION, INC.": 225.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 245.25
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 148.0,
+      "engEstUnit": 3.25,
+      "lowUnit": 5.5,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 5.5,
+        "WILLIS ELECTRIC CO., LP": 4.2,
+        "RAGLE CONSTRUCTION, INC.": 4.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 4.36
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 318.0,
+      "engEstUnit": 2.95,
+      "lowUnit": 5.5,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 5.5,
+        "WILLIS ELECTRIC CO., LP": 4.2,
+        "RAGLE CONSTRUCTION, INC.": 4.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 4.36
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 133.0,
+      "engEstUnit": 2.9,
+      "lowUnit": 5.5,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 5.5,
+        "WILLIS ELECTRIC CO., LP": 4.2,
+        "RAGLE CONSTRUCTION, INC.": 4.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 4.36
+      }
+    },
+    {
+      "itemCode": "0682 6001",
+      "description": "VEH SIG SEC (12\")LED(GRN)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 275.65,
+      "lowUnit": 206.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 206.0,
+        "WILLIS ELECTRIC CO., LP": 215.0,
+        "RAGLE CONSTRUCTION, INC.": 235.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 268.91
+      }
+    },
+    {
+      "itemCode": "0682 6002",
+      "description": "VEH SIG SEC (12\")LED(GRN ARW)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 274.91,
+      "lowUnit": 208.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 208.0,
+        "WILLIS ELECTRIC CO., LP": 215.0,
+        "RAGLE CONSTRUCTION, INC.": 235.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 268.91
+      }
+    },
+    {
+      "itemCode": "0682 6003",
+      "description": "VEH SIG SEC (12\")LED(YEL)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 284.96,
+      "lowUnit": 206.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 206.0,
+        "WILLIS ELECTRIC CO., LP": 215.0,
+        "RAGLE CONSTRUCTION, INC.": 235.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 268.91
+      }
+    },
+    {
+      "itemCode": "0682 6004",
+      "description": "VEH SIG SEC (12\")LED(YEL ARW)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 272.58,
+      "lowUnit": 208.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 208.0,
+        "WILLIS ELECTRIC CO., LP": 215.0,
+        "RAGLE CONSTRUCTION, INC.": 235.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 268.91
+      }
+    },
+    {
+      "itemCode": "0682 6005",
+      "description": "VEH SIG SEC (12\")LED(RED)",
+      "unit": "EA",
+      "quantity": 17.0,
+      "engEstUnit": 275.65,
+      "lowUnit": 206.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 206.0,
+        "WILLIS ELECTRIC CO., LP": 215.0,
+        "RAGLE CONSTRUCTION, INC.": 235.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 268.91
+      }
+    },
+    {
+      "itemCode": "0682 6006",
+      "description": "VEH SIG SEC (12\")LED(RED ARW)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 277.15,
+      "lowUnit": 208.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 208.0,
+        "WILLIS ELECTRIC CO., LP": 215.0,
+        "RAGLE CONSTRUCTION, INC.": 235.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 268.91
+      }
+    },
+    {
+      "itemCode": "0682 6049",
+      "description": "BACKPLATE W/REFL BRDR(4 SEC)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 124.0,
+      "lowUnit": 116.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 116.0,
+        "WILLIS ELECTRIC CO., LP": 85.0,
+        "RAGLE CONSTRUCTION, INC.": 116.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 167.39
+      }
+    },
+    {
+      "itemCode": "0682 6060",
+      "description": "BACKPLATE W/REFL BRDR(3 SEC)",
+      "unit": "EA",
+      "quantity": 22.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 138.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 138.0,
+        "WILLIS ELECTRIC CO., LP": 80.0,
+        "RAGLE CONSTRUCTION, INC.": 126.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 156.72
+      }
+    },
+    {
+      "itemCode": "0684 6009",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(4 CONDR)",
+      "unit": "LF",
+      "quantity": 812.0,
+      "engEstUnit": 2.11,
+      "lowUnit": 3.3,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 3.3,
+        "WILLIS ELECTRIC CO., LP": 1.5,
+        "RAGLE CONSTRUCTION, INC.": 2.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2.47
+      }
+    },
+    {
+      "itemCode": "0684 6010",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(5 CONDR)",
+      "unit": "LF",
+      "quantity": 351.0,
+      "engEstUnit": 2.03,
+      "lowUnit": 3.3,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 3.3,
+        "WILLIS ELECTRIC CO., LP": 1.75,
+        "RAGLE CONSTRUCTION, INC.": 3.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 3.41
+      }
+    },
+    {
+      "itemCode": "0684 6017",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(12 CONDR)",
+      "unit": "LF",
+      "quantity": 2305.0,
+      "engEstUnit": 4.25,
+      "lowUnit": 4.6,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 4.6,
+        "WILLIS ELECTRIC CO., LP": 4.0,
+        "RAGLE CONSTRUCTION, INC.": 4.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 4.55
+      }
+    },
+    {
+      "itemCode": "0685 6001",
+      "description": "INSTALL RDSD FLASH BEACON ASSEMBLY",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 4150.0,
+      "lowUnit": 7332.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 7332.0,
+        "WILLIS ELECTRIC CO., LP": 5000.0,
+        "RAGLE CONSTRUCTION, INC.": 3300.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 6256.6
+      }
+    },
+    {
+      "itemCode": "0685 6006",
+      "description": "REMOV RDSD FLSH BCN AM (SOLAR PWRD)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 1720.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 1720.0,
+        "WILLIS ELECTRIC CO., LP": 365.0,
+        "RAGLE CONSTRUCTION, INC.": 500.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 784.69
+      }
+    },
+    {
+      "itemCode": "0686 6041",
+      "description": "INS TRF SIG PL AM(S)1 ARM(40')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 9875.0,
+      "lowUnit": 8681.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 8681.0,
+        "WILLIS ELECTRIC CO., LP": 10270.0,
+        "RAGLE CONSTRUCTION, INC.": 11000.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 8418.15
+      }
+    },
+    {
+      "itemCode": "0686 6043",
+      "description": "INS TRF SIG PL AM(S)1 ARM(40')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 11600.0,
+      "lowUnit": 10048.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 10048.0,
+        "WILLIS ELECTRIC CO., LP": 11860.0,
+        "RAGLE CONSTRUCTION, INC.": 11200.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 10062.65
+      }
+    },
+    {
+      "itemCode": "0686 6049",
+      "description": "INS TRF SIG PL AM(S)1 ARM(48')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 12000.0,
+      "lowUnit": 9369.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 9369.0,
+        "WILLIS ELECTRIC CO., LP": 11230.0,
+        "RAGLE CONSTRUCTION, INC.": 11600.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 9487.65
+      }
+    },
+    {
+      "itemCode": "0686 6053",
+      "description": "INS TRF SIG PL AM(S)1 ARM(50')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 18000.0,
+      "lowUnit": 23000.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 23000.0,
+        "WILLIS ELECTRIC CO., LP": 26350.0,
+        "RAGLE CONSTRUCTION, INC.": 22000.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 22931.15
+      }
+    },
+    {
+      "itemCode": "0686 6057",
+      "description": "INS TRF SIG PL AM(S)1 ARM(55')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 17876.67,
+      "lowUnit": 23000.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 23000.0,
+        "WILLIS ELECTRIC CO., LP": 27150.0,
+        "RAGLE CONSTRUCTION, INC.": 23000.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 23161.15
+      }
+    },
+    {
+      "itemCode": "0686 6061",
+      "description": "INS TRF SIG PL AM(S)1 ARM(60')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 19260.06,
+      "lowUnit": 24000.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 24000.0,
+        "WILLIS ELECTRIC CO., LP": 28250.0,
+        "RAGLE CONSTRUCTION, INC.": 26000.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 23391.15
+      }
+    },
+    {
+      "itemCode": "0686 6063",
+      "description": "INS TRF SIG PL AM(S)1 ARM(60')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 22100.76,
+      "lowUnit": 26000.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 26000.0,
+        "WILLIS ELECTRIC CO., LP": 31800.0,
+        "RAGLE CONSTRUCTION, INC.": 26500.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 25806.15
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 60.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 81.0,
+      "bidders": {
+        "SIEMENS MOBILITY, INC.": 81.0,
+        "WILLIS ELECTRIC CO., LP": 80.0,
+        "RAGLE CONSTRUCTION, INC.": 150.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 81.75
+      }
+    }
+  ]
+}

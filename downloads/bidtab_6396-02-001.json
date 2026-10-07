@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "csj": "6396-02-001",
+    "county": "Karnes",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 639602001",
+    "projectType": "BRIDGE SUBSTRUCTURE REPAIR",
+    "letDate": "01/24/23",
+    "engEstTotal": 274400.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MPB, INC.",
+      "totalBidAmount": 269975.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 283350.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 283700.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 364660.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "LISKA CONSTRUCTION COMPANY, INC.",
+      "totalBidAmount": 384910.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC",
+      "totalBidAmount": 400990.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "MB WESTERN INDUSTRIAL CONTRACTING COMPANY",
+      "totalBidAmount": 473077.7
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6010",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "CY",
+      "quantity": 102.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "MPB, INC.": 30.0,
+        "CRACKSEAL OF TEXAS, LLC": 250.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 150.0,
+        "TALBRAN ENTERPRISES LLC": 180.0,
+        "LISKA CONSTRUCTION COMPANY, INC.": 515.0,
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 288.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "MPB, INC.": 400.0,
+        "CRACKSEAL OF TEXAS, LLC": 250.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 300.0,
+        "TALBRAN ENTERPRISES LLC": 300.0,
+        "LISKA CONSTRUCTION COMPANY, INC.": 335.0,
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 330.0
+      }
+    },
+    {
+      "itemCode": "0432 6002",
+      "description": "RIPRAP (CONC)(5 IN)",
+      "unit": "CY",
+      "quantity": 115.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 635.0,
+      "bidders": {
+        "MPB, INC.": 635.0,
+        "CRACKSEAL OF TEXAS, LLC": 550.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 600.0,
+        "TALBRAN ENTERPRISES LLC": 900.0,
+        "LISKA CONSTRUCTION COMPANY, INC.": 750.0,
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 23545.0,
+      "lowUnit": 25000.0,
+      "bidders": {
+        "MPB, INC.": 25000.0,
+        "CRACKSEAL OF TEXAS, LLC": 35000.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 25000.0,
+        "TALBRAN ENTERPRISES LLC": 35000.0,
+        "LISKA CONSTRUCTION COMPANY, INC.": 37500.0,
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 45000.0
+      }
+    },
+    {
+      "itemCode": "0552 6001",
+      "description": "WIRE FENCE (TY A)",
+      "unit": "LF",
+      "quantity": 30.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "MPB, INC.": 100.0,
+        "CRACKSEAL OF TEXAS, LLC": 50.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 50.0,
+        "TALBRAN ENTERPRISES LLC": 100.0,
+        "LISKA CONSTRUCTION COMPANY, INC.": 50.0,
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0780 6002",
+      "description": "CNC CRACK REPAIR (DISCRETE)(INJECT)",
+      "unit": "LF",
+      "quantity": 615.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 56.0,
+      "bidders": {
+        "MPB, INC.": 56.0,
+        "CRACKSEAL OF TEXAS, LLC": 140.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "TALBRAN ENTERPRISES LLC": 160.0,
+        "LISKA CONSTRUCTION COMPANY, INC.": 110.0,
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 180.0
+      }
+    }
+  ]
+}

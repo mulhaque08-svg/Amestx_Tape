@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "csj": "6458-33-001",
+    "county": "Hopkins",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645833001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/05/23",
+    "engEstTotal": 324045.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "EASTGATE SERVICES",
+      "totalBidAmount": 273394.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "PREMIER CONTRACTORS LLC",
+      "totalBidAmount": 330545.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MARLANE CONSTRUCTION, LLC",
+      "totalBidAmount": 348214.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "SERVIN MOWING",
+      "totalBidAmount": 354794.98
+    },
+    {
+      "rank": 5,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 398154.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "EASTGATE SERVICES": 1.0,
+        "PREMIER CONTRACTORS LLC": 2000.0,
+        "MARLANE CONSTRUCTION, LLC": 2000.0,
+        "SERVIN MOWING": 1.0,
+        "ANTHONY SERVICES": 2500.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 7101.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 34.5,
+      "bidders": {
+        "EASTGATE SERVICES": 34.5,
+        "PREMIER CONTRACTORS LLC": 35.0,
+        "MARLANE CONSTRUCTION, LLC": 42.0,
+        "SERVIN MOWING": 44.98,
+        "ANTHONY SERVICES": 44.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "EASTGATE SERVICES": 0.01,
+        "PREMIER CONTRACTORS LLC": 20.0,
+        "MARLANE CONSTRUCTION, LLC": 42.0,
+        "SERVIN MOWING": 44.98,
+        "ANTHONY SERVICES": 44.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 2367.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "EASTGATE SERVICES": 12.0,
+        "PREMIER CONTRACTORS LLC": 30.0,
+        "MARLANE CONSTRUCTION, LLC": 16.0,
+        "SERVIN MOWING": 14.0,
+        "ANTHONY SERVICES": 30.0
+      }
+    }
+  ]
+}

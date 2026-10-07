@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6418-47-001",
+    "county": "Bell",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641847001",
+    "projectType": "HOT-MIX COLD-LAID",
+    "letDate": "12/02/22",
+    "engEstTotal": 425000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "LONE STAR PAVING COMPANY",
+      "totalBidAmount": 420000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BIG CREEK CONSTRUCTION, LTD.",
+      "totalBidAmount": 423750.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 427162.5
+    },
+    {
+      "rank": 4,
+      "vendorName": "MALBEC MATERIALS LLC",
+      "totalBidAmount": 483750.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8013 6001",
+      "description": "HMCL ACP TYPE B SAC-B AC-0.6 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 250.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 96.0,
+      "bidders": {
+        "LONE STAR PAVING COMPANY": 96.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 95.0,
+        "TEXAS MATERIALS GROUP, INC.": 92.65,
+        "MALBEC MATERIALS LLC": 111.0
+      }
+    },
+    {
+      "itemCode": "8013 6002",
+      "description": "HMCL ACP TYPE D SAC-B AC-0.6 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 4000.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 99.0,
+      "bidders": {
+        "LONE STAR PAVING COMPANY": 99.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 100.0,
+        "TEXAS MATERIALS GROUP, INC.": 101.0,
+        "MALBEC MATERIALS LLC": 114.0
+      }
+    }
+  ]
+}

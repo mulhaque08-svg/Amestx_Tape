@@ -1,0 +1,954 @@
+{
+  "metadata": {
+    "csj": "1975-02-013",
+    "county": "Kaufman",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 1975-2-13",
+    "projectType": "RECONSTRUCT PAVEMENT & ADD SHOULDERS",
+    "letDate": "10/06/22",
+    "engEstTotal": 11084860.94,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "A. L. HELMCAMP, INC.",
+      "totalBidAmount": 11181793.38
+    },
+    {
+      "rank": 2,
+      "vendorName": "A. K. GILLIS & SONS, LLC",
+      "totalBidAmount": 11542846.18
+    },
+    {
+      "rank": 3,
+      "vendorName": "D. L. LENNON INCORPORATED - CONTRACTOR",
+      "totalBidAmount": 13652718.85
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 397.13,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1000.0,
+        "A. K. GILLIS & SONS, LLC": 345.47,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 321.0
+      }
+    },
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 45.5,
+      "engEstUnit": 20.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 16.0,
+        "A. K. GILLIS & SONS, LLC": 15.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 15.0
+      }
+    },
+    {
+      "itemCode": "0104 6017",
+      "description": "REMOVING CONC (DRIVEWAYS)",
+      "unit": "SY",
+      "quantity": 730.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 16.0,
+        "A. K. GILLIS & SONS, LLC": 15.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 15.0
+      }
+    },
+    {
+      "itemCode": "0104 6022",
+      "description": "REMOVING CONC (CURB AND GUTTER)",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 16.0,
+        "A. K. GILLIS & SONS, LLC": 15.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 15.0
+      }
+    },
+    {
+      "itemCode": "0105 6011",
+      "description": "REMOVING STAB BASE AND ASPH PAV (2\"-6\")",
+      "unit": "SY",
+      "quantity": 7272.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 5.0,
+        "A. K. GILLIS & SONS, LLC": 3.5,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 10.0
+      }
+    },
+    {
+      "itemCode": "0105 6013",
+      "description": "REMOVING STAB BASE & ASPH PAV (9\")",
+      "unit": "SY",
+      "quantity": 25130.0,
+      "engEstUnit": 4.9,
+      "lowUnit": 2.5,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 2.5,
+        "A. K. GILLIS & SONS, LLC": 6.98,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 6.92
+      }
+    },
+    {
+      "itemCode": "0105 6073",
+      "description": "REMOV STAB BASE AND ASPH PAV (22\")",
+      "unit": "SY",
+      "quantity": 2223.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 7.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 7.0,
+        "A. K. GILLIS & SONS, LLC": 13.5,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 11.75
+      }
+    },
+    {
+      "itemCode": "0105 6164",
+      "description": "REMOVE STAB BASE & ASPH PAV (12\"-22\")",
+      "unit": "SY",
+      "quantity": 2157.0,
+      "engEstUnit": 8.37,
+      "lowUnit": 7.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 7.0,
+        "A. K. GILLIS & SONS, LLC": 13.5,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 11.75
+      }
+    },
+    {
+      "itemCode": "0112 6001",
+      "description": "SUBGRADE WIDENING (ORD COMP)",
+      "unit": "STA",
+      "quantity": 366.76,
+      "engEstUnit": 200.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 200.0,
+        "A. K. GILLIS & SONS, LLC": 180.54,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 300.0
+      }
+    },
+    {
+      "itemCode": "0132 6005",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 16833.5,
+      "engEstUnit": 10.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 10.0,
+        "A. K. GILLIS & SONS, LLC": 9.37,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 12.0
+      }
+    },
+    {
+      "itemCode": "0134 6004",
+      "description": "BACKFILL (TY A OR B)",
+      "unit": "STA",
+      "quantity": 397.13,
+      "engEstUnit": 155.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 150.0,
+        "A. K. GILLIS & SONS, LLC": 179.56,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 375.0
+      }
+    },
+    {
+      "itemCode": "0152 6001",
+      "description": "ROAD GRADER WORK (ORD COMP)",
+      "unit": "STA",
+      "quantity": 371.04,
+      "engEstUnit": 140.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 150.0,
+        "A. K. GILLIS & SONS, LLC": 181.2,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 450.0
+      }
+    },
+    {
+      "itemCode": "0161 6017",
+      "description": "COMPOST MANUF TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 267782.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.6,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 0.6,
+        "A. K. GILLIS & SONS, LLC": 1.09,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 0.92
+      }
+    },
+    {
+      "itemCode": "0164 6035",
+      "description": "DRILL SEEDING (PERM) (RURAL) (CLAY)",
+      "unit": "SY",
+      "quantity": 267782.0,
+      "engEstUnit": 0.15,
+      "lowUnit": 0.15,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 0.15,
+        "A. K. GILLIS & SONS, LLC": 0.24,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 0.16
+      }
+    },
+    {
+      "itemCode": "0164 6051",
+      "description": "DRILL SEED (TEMP)(WARM OR COOL)",
+      "unit": "SY",
+      "quantity": 178524.0,
+      "engEstUnit": 0.15,
+      "lowUnit": 0.15,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 0.15,
+        "A. K. GILLIS & SONS, LLC": 0.2,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 0.144
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 66398.0,
+      "engEstUnit": 0.75,
+      "lowUnit": 0.01,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 0.01,
+        "A. K. GILLIS & SONS, LLC": 0.54,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 0.01
+      }
+    },
+    {
+      "itemCode": "0251 6336",
+      "description": "REWORK BS MATL(TY C)(13\")(ORD COMP)",
+      "unit": "SY",
+      "quantity": 77129.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 2.6,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 2.6,
+        "A. K. GILLIS & SONS, LLC": 1.89,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 5.0
+      }
+    },
+    {
+      "itemCode": "0275 6001",
+      "description": "CEMENT",
+      "unit": "TON",
+      "quantity": 749.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 225.0,
+        "A. K. GILLIS & SONS, LLC": 217.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 235.0
+      }
+    },
+    {
+      "itemCode": "0275 6003",
+      "description": "CEMENT TREAT (NEW BASE) (6\")",
+      "unit": "SY",
+      "quantity": 6789.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 2.2,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 2.2,
+        "A. K. GILLIS & SONS, LLC": 2.08,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 3.5
+      }
+    },
+    {
+      "itemCode": "0275 6004",
+      "description": "CEMENT TREAT (MX EXST MTL & NW BS) (6\")",
+      "unit": "SY",
+      "quantity": 119546.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.8,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1.8,
+        "A. K. GILLIS & SONS, LLC": 1.85,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 3.5
+      }
+    },
+    {
+      "itemCode": "0351 6002",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(6\")",
+      "unit": "SY",
+      "quantity": 637.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 80.0,
+        "A. K. GILLIS & SONS, LLC": 87.5,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 82.5
+      }
+    },
+    {
+      "itemCode": "0354 6003",
+      "description": "PLAN & TEXT ASPH CONC PAV(0\" TO 3\")",
+      "unit": "SY",
+      "quantity": 12527.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 3.5,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 3.5,
+        "A. K. GILLIS & SONS, LLC": 1.59,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 1.95
+      }
+    },
+    {
+      "itemCode": "0400 6006",
+      "description": "CUT & RESTORING PAV",
+      "unit": "SY",
+      "quantity": 25.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 100.0,
+        "A. K. GILLIS & SONS, LLC": 100.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 100.0
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 5781.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 45.0,
+        "A. K. GILLIS & SONS, LLC": 10.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 71.84
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 30.54,
+      "engEstUnit": 550.0,
+      "lowUnit": 550.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 550.0,
+        "A. K. GILLIS & SONS, LLC": 525.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 525.0
+      }
+    },
+    {
+      "itemCode": "0432 6026",
+      "description": "RIPRAP (STONE COMMON)(DRY)(18 IN)",
+      "unit": "CY",
+      "quantity": 1277.24,
+      "engEstUnit": 250.0,
+      "lowUnit": 180.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 180.0,
+        "A. K. GILLIS & SONS, LLC": 285.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 178.6
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 97.0,
+      "engEstUnit": 550.0,
+      "lowUnit": 550.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 550.0,
+        "A. K. GILLIS & SONS, LLC": 525.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 525.0
+      }
+    },
+    {
+      "itemCode": "0466 6099",
+      "description": "HEADWALL (CH - PW - 0) (DIA= 30 IN)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 6500.0,
+      "lowUnit": 6500.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 6500.0,
+        "A. K. GILLIS & SONS, LLC": 6000.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 6000.0
+      }
+    },
+    {
+      "itemCode": "0466 6103",
+      "description": "HEADWALL (CH - PW - 0) (DIA= 48 IN)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 13000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 13000.0,
+        "A. K. GILLIS & SONS, LLC": 12000.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 12000.0
+      }
+    },
+    {
+      "itemCode": "0466 6134",
+      "description": "HEADWALL (CH - PW - S) (DIA= 36 IN)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 7000.0,
+      "lowUnit": 11000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 11000.0,
+        "A. K. GILLIS & SONS, LLC": 10000.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 10000.0
+      }
+    },
+    {
+      "itemCode": "0466 6135",
+      "description": "HEADWALL (CH - PW - S) (DIA= 42 IN)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 6000.0,
+      "lowUnit": 12000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 12000.0,
+        "A. K. GILLIS & SONS, LLC": 10500.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 10500.0
+      }
+    },
+    {
+      "itemCode": "0466 6172",
+      "description": "WINGWALL (PW - 1) (HW=11 FT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 27000.0,
+      "lowUnit": 53000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 53000.0,
+        "A. K. GILLIS & SONS, LLC": 50000.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 50000.0
+      }
+    },
+    {
+      "itemCode": "0466 6180",
+      "description": "WINGWALL (PW - 1) (HW=5 FT)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 22000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 22000.0,
+        "A. K. GILLIS & SONS, LLC": 20000.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 20000.0
+      }
+    },
+    {
+      "itemCode": "0466 6181",
+      "description": "WINGWALL (PW - 1) (HW=6 FT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 18750.0,
+      "lowUnit": 23000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 23000.0,
+        "A. K. GILLIS & SONS, LLC": 22000.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 22000.0
+      }
+    },
+    {
+      "itemCode": "0466 6182",
+      "description": "WINGWALL (PW - 1) (HW=7 FT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 27000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 27000.0,
+        "A. K. GILLIS & SONS, LLC": 25000.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 25000.0
+      }
+    },
+    {
+      "itemCode": "0466 6183",
+      "description": "WINGWALL (PW - 1) (HW=8 FT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 24000.0,
+      "lowUnit": 30000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 30000.0,
+        "A. K. GILLIS & SONS, LLC": 28000.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 28000.0
+      }
+    },
+    {
+      "itemCode": "0466 6184",
+      "description": "WINGWALL (PW - 1) (HW=9 FT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 26000.0,
+      "lowUnit": 43000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 43000.0,
+        "A. K. GILLIS & SONS, LLC": 40000.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 40000.0
+      }
+    },
+    {
+      "itemCode": "0466 6211",
+      "description": "WINGWALL (SW - 0) (HW=8 FT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 22000.0,
+      "lowUnit": 19000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 19000.0,
+        "A. K. GILLIS & SONS, LLC": 18000.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 18000.0
+      }
+    },
+    {
+      "itemCode": "0467 6363",
+      "description": "SET (TY II) (18 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 132.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 750.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 750.0,
+        "A. K. GILLIS & SONS, LLC": 700.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 700.0
+      }
+    },
+    {
+      "itemCode": "0467 6388",
+      "description": "SET (TY II) (24 IN) (RCP) (3: 1) (C)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 850.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 850.0,
+        "A. K. GILLIS & SONS, LLC": 800.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 800.0
+      }
+    },
+    {
+      "itemCode": "0467 6395",
+      "description": "SET (TY II) (24 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 52.0,
+      "engEstUnit": 1250.0,
+      "lowUnit": 1300.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1300.0,
+        "A. K. GILLIS & SONS, LLC": 1200.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 1200.0
+      }
+    },
+    {
+      "itemCode": "0467 6423",
+      "description": "SET (TY II) (30 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 2800.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 2800.0,
+        "A. K. GILLIS & SONS, LLC": 2600.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 2600.0
+      }
+    },
+    {
+      "itemCode": "0479 6001",
+      "description": "ADJUSTING MANHOLES",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 2700.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 2700.0,
+        "A. K. GILLIS & SONS, LLC": 2500.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 2500.0
+      }
+    },
+    {
+      "itemCode": "0480 6001",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "EA",
+      "quantity": 13.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 1600.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1600.0,
+        "A. K. GILLIS & SONS, LLC": 1500.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 1500.0
+      }
+    },
+    {
+      "itemCode": "0496 6004",
+      "description": "REMOV STR (SET)",
+      "unit": "EA",
+      "quantity": 108.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 110.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 110.0,
+        "A. K. GILLIS & SONS, LLC": 100.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 100.0
+      }
+    },
+    {
+      "itemCode": "0496 6005",
+      "description": "REMOV STR (WINGWALL)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1100.0,
+        "A. K. GILLIS & SONS, LLC": 1000.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 1000.0
+      }
+    },
+    {
+      "itemCode": "0496 6006",
+      "description": "REMOV STR (HEADWALL)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1100.0,
+        "A. K. GILLIS & SONS, LLC": 1000.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 1000.0
+      }
+    },
+    {
+      "itemCode": "0496 6007",
+      "description": "REMOV STR (PIPE)",
+      "unit": "LF",
+      "quantity": 2345.0,
+      "engEstUnit": 17.0,
+      "lowUnit": 13.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 13.0,
+        "A. K. GILLIS & SONS, LLC": 12.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 12.0
+      }
+    },
+    {
+      "itemCode": "0496 6016",
+      "description": "REMOV STR (PIPE)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 400.0,
+        "A. K. GILLIS & SONS, LLC": 350.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 350.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 998654.0,
+      "lowUnit": 800000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 800000.0,
+        "A. K. GILLIS & SONS, LLC": 753717.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 957000.0
+      }
+    },
+    {
+      "itemCode": "0529 6008",
+      "description": "CONC CURB & GUTTER (TY II)",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 47.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 47.0,
+        "A. K. GILLIS & SONS, LLC": 45.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 45.0
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 7134.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 50.0,
+        "A. K. GILLIS & SONS, LLC": 80.39,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 68.1
+      }
+    },
+    {
+      "itemCode": "0530 6017",
+      "description": "DRIVEWAYS (CONC) (HES)",
+      "unit": "SY",
+      "quantity": 745.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 110.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 110.0,
+        "A. K. GILLIS & SONS, LLC": 114.34,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 115.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3200.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 3200.0,
+        "A. K. GILLIS & SONS, LLC": 2900.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 2875.0
+      }
+    },
+    {
+      "itemCode": "0552 6003",
+      "description": "WIRE FENCE (TY C)",
+      "unit": "LF",
+      "quantity": 25.0,
+      "engEstUnit": 14.25,
+      "lowUnit": 80.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 80.0,
+        "A. K. GILLIS & SONS, LLC": 23.5,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 100.0
+      }
+    },
+    {
+      "itemCode": "0560 6011",
+      "description": "MAILBOX INSTALL-S (TWW-POST) TY 4",
+      "unit": "EA",
+      "quantity": 56.0,
+      "engEstUnit": 270.0,
+      "lowUnit": 260.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 260.0,
+        "A. K. GILLIS & SONS, LLC": 250.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 230.0
+      }
+    },
+    {
+      "itemCode": "0560 6012",
+      "description": "MAILBOX INSTALL-D (TWW-POST) TY 4",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 375.0,
+      "lowUnit": 320.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 320.0,
+        "A. K. GILLIS & SONS, LLC": 300.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 260.0
+      }
+    },
+    {
+      "itemCode": "0560 6013",
+      "description": "MAILBOX INSTALL-M (TWW-POST) TY 4",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 675.0,
+      "lowUnit": 700.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 700.0,
+        "A. K. GILLIS & SONS, LLC": 675.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 1000.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 111.0,
+      "engEstUnit": 650.0,
+      "lowUnit": 650.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 650.0,
+        "A. K. GILLIS & SONS, LLC": 620.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 802.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 775.0,
+      "lowUnit": 760.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 760.0,
+        "A. K. GILLIS & SONS, LLC": 720.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 1025.0
+      }
+    },
+    {
+      "itemCode": "0644 6007",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(U)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1100.0,
+        "A. K. GILLIS & SONS, LLC": 980.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 1225.0
+      }
+    },
+    {
+      "itemCode": "0644 6033",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1100.0,
+        "A. K. GILLIS & SONS, LLC": 1050.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 1515.0
+      }
+    },
+    {
+      "itemCode": "0644 6036",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U-BM)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1375.0,
+      "lowUnit": 1300.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1300.0,
+        "A. K. GILLIS & SONS, LLC": 1200.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 1775.0
+      }
+    },
+    {
+      "itemCode": "0644 6068",
+      "description": "RELOCATE SM RD SN SUP&AM TY 10BWG",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 475.0,
+      "lowUnit": 710.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 710.0,
+        "A. K. GILLIS & SONS, LLC": 675.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 250.0
+      }
+    },
+    {
+      "itemCode": "0658 6100",
+      "description": "INSTL OM ASSM (OM-2Z)(WFLX)GND(BI)",
+      "unit": "EA",
+      "quantity": 42.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 110.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 110.0,
+        "A. K. GILLIS & SONS, LLC": 100.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 45.0
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 7966.0,
+      "engEstUnit": 1.6,
+      "lowUnit": 0.65,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 0.65,
+        "A. K. GILLIS & SONS, LLC": 2.25,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 2.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 923.0,
+      "engEstUnit": 5.3,
+      "lowUnit": 5.25,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 5.25,
+        "A. K. GILLIS & SONS, LLC": 4.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 4.0
+      }
+    },
+    {
+      "itemCode": "0730 6107",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "CYC",
+      "quantity": 3.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 3000.0,
+        "A. K. GILLIS & SONS, LLC": 3000.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 5000.0
+      }
+    },
+    {
+      "itemCode": "3077 6013",
+      "description": "SP MIXES SP-C SAC-B PG64-22",
+      "unit": "TON",
+      "quantity": 2452.0,
+      "engEstUnit": 135.0,
+      "lowUnit": 130.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 130.0,
+        "A. K. GILLIS & SONS, LLC": 135.5,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 145.5
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 1965.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 6.0,
+        "A. K. GILLIS & SONS, LLC": 1.5,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 1.5
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 12000.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 10000.0,
+        "A. K. GILLIS & SONS, LLC": 15000.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 15600.0
+      }
+    }
+  ]
+}

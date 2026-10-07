@@ -1,0 +1,386 @@
+{
+  "metadata": {
+    "csj": "0006-10-011",
+    "county": "Taylor",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2B24(019)",
+    "projectType": "REHABILITATE EXISTING ROADWAY",
+    "letDate": "05/02/24",
+    "engEstTotal": 5439857.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "J. H. STRAIN & SONS, INC.",
+      "totalBidAmount": 4570547.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "FOUTSCO PAVING COMPANY, LLC",
+      "totalBidAmount": 5143615.4
+    },
+    {
+      "rank": 3,
+      "vendorName": "BONTKE BROTHERS CONSTRUCTION COMPANY",
+      "totalBidAmount": 5658945.2
+    },
+    {
+      "rank": 4,
+      "vendorName": "CK NEWBERRY, LLC",
+      "totalBidAmount": 6981176.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0134 6001",
+      "description": "BACKFILL (TY A)",
+      "unit": "STA",
+      "quantity": 403.14,
+      "engEstUnit": 500.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 350.0,
+        "FOUTSCO PAVING COMPANY, LLC": 150.0,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 900.0,
+        "CK NEWBERRY, LLC": 700.0
+      }
+    },
+    {
+      "itemCode": "0134 6002",
+      "description": "BACKFILL (TY B)",
+      "unit": "STA",
+      "quantity": 34.97,
+      "engEstUnit": 500.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 350.0,
+        "FOUTSCO PAVING COMPANY, LLC": 150.0,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 1500.0,
+        "CK NEWBERRY, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0310 6005",
+      "description": "PRIME COAT (AE-P)",
+      "unit": "GAL",
+      "quantity": 2466.0,
+      "engEstUnit": 9.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 8.0,
+        "FOUTSCO PAVING COMPANY, LLC": 0.1,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 12.0,
+        "CK NEWBERRY, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0354 6021",
+      "description": "PLANE ASPH CONC PAV(0\" TO 2\")",
+      "unit": "SY",
+      "quantity": 6914.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 7.0,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 7.0,
+        "FOUTSCO PAVING COMPANY, LLC": 1.5,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 8.0,
+        "CK NEWBERRY, LLC": 7.0
+      }
+    },
+    {
+      "itemCode": "0354 6045",
+      "description": "PLANE ASPH CONC PAV (2\")",
+      "unit": "SY",
+      "quantity": 400.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 10.0,
+        "FOUTSCO PAVING COMPANY, LLC": 8.0,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 8.0,
+        "CK NEWBERRY, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0354 6057",
+      "description": "PLANE ASPH CONC PAV (4\")",
+      "unit": "SY",
+      "quantity": 11836.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 5.0,
+        "FOUTSCO PAVING COMPANY, LLC": 4.0,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 12.0,
+        "CK NEWBERRY, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 490000.0,
+      "lowUnit": 440000.0,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 440000.0,
+        "FOUTSCO PAVING COMPANY, LLC": 500000.0,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 680000.0,
+        "CK NEWBERRY, LLC": 650000.0
+      }
+    },
+    {
+      "itemCode": "0533 6001",
+      "description": "RUMBLE STRIPS (SHOULDER)",
+      "unit": "LF",
+      "quantity": 80628.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.31,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 0.31,
+        "FOUTSCO PAVING COMPANY, LLC": 0.15,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 1.0,
+        "CK NEWBERRY, LLC": 0.5
+      }
+    },
+    {
+      "itemCode": "0533 6002",
+      "description": "RUMBLE STRIPS (CENTERLINE)",
+      "unit": "LF",
+      "quantity": 33376.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.39,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 0.39,
+        "FOUTSCO PAVING COMPANY, LLC": 0.15,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 1.0,
+        "CK NEWBERRY, LLC": 0.5
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 4300.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 2.25,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 2.25,
+        "FOUTSCO PAVING COMPANY, LLC": 3.0,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 5.0,
+        "CK NEWBERRY, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0542 6003",
+      "description": "REMOVE DOWNSTREAM ANCHOR TERMINAL",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 227.0,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 227.0,
+        "FOUTSCO PAVING COMPANY, LLC": 200.0,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 1500.0,
+        "CK NEWBERRY, LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 3700.0,
+      "lowUnit": 3460.0,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 3460.0,
+        "FOUTSCO PAVING COMPANY, LLC": 3000.0,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 4500.0,
+        "CK NEWBERRY, LLC": 4000.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 227.0,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 227.0,
+        "FOUTSCO PAVING COMPANY, LLC": 300.0,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 1000.0,
+        "CK NEWBERRY, LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 53.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 40.0,
+        "FOUTSCO PAVING COMPANY, LLC": 12.0,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 50.0,
+        "CK NEWBERRY, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0662 6109",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY W",
+      "unit": "EA",
+      "quantity": 55.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 5.0,
+        "FOUTSCO PAVING COMPANY, LLC": 5.0,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 0.5,
+        "CK NEWBERRY, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 4913.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 2.75,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 2.75,
+        "FOUTSCO PAVING COMPANY, LLC": 1.0,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 0.5,
+        "CK NEWBERRY, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0668 6076",
+      "description": "PREFAB PAV MRK TY C (W) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 268.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 22.75,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 22.75,
+        "FOUTSCO PAVING COMPANY, LLC": 20.0,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 23.0,
+        "CK NEWBERRY, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 775.0,
+      "lowUnit": 284.0,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 284.0,
+        "FOUTSCO PAVING COMPANY, LLC": 250.0,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 350.0,
+        "CK NEWBERRY, LLC": 400.0
+      }
+    },
+    {
+      "itemCode": "0668 6078",
+      "description": "PREFAB PAV MRK TY C (W) (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 340.0,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 340.0,
+        "FOUTSCO PAVING COMPANY, LLC": 300.0,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 350.0,
+        "CK NEWBERRY, LLC": 550.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 575.0,
+      "lowUnit": 340.0,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 340.0,
+        "FOUTSCO PAVING COMPANY, LLC": 300.0,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 350.0,
+        "CK NEWBERRY, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 54.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 5.7,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 5.7,
+        "FOUTSCO PAVING COMPANY, LLC": 5.0,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 6.0,
+        "CK NEWBERRY, LLC": 12.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 1282.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 4.55,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 4.55,
+        "FOUTSCO PAVING COMPANY, LLC": 4.0,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 6.0,
+        "CK NEWBERRY, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "3077 6023",
+      "description": "SP MIXES SP-C SAC-B PG70-22",
+      "unit": "TON",
+      "quantity": 24226.0,
+      "engEstUnit": 155.0,
+      "lowUnit": 131.61,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 131.61,
+        "FOUTSCO PAVING COMPANY, LLC": 156.0,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 138.0,
+        "CK NEWBERRY, LLC": 196.0
+      }
+    },
+    {
+      "itemCode": "3077 6044",
+      "description": "SP MIXES SP-D PG64-22 (LEVEL-UP)",
+      "unit": "TON",
+      "quantity": 388.0,
+      "engEstUnit": 155.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 200.0,
+        "FOUTSCO PAVING COMPANY, LLC": 195.0,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 136.0,
+        "CK NEWBERRY, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 20839.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "J. H. STRAIN & SONS, INC.": 3.0,
+        "FOUTSCO PAVING COMPANY, LLC": 8.8,
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 10.0,
+        "CK NEWBERRY, LLC": 10.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6409-23-001",
+    "county": "Fannin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640923001",
+    "projectType": "PICNIC AREA MAINTENANCE",
+    "letDate": "07/21/22",
+    "engEstTotal": 37475.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FELLOWSHIP LANDSCAPING",
+      "totalBidAmount": 37200.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "WILLIAM CURTIS SMITH",
+      "totalBidAmount": 40000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "FELLOWSHIP LANDSCAPING": 150.0,
+        "WILLIAM CURTIS SMITH": 2950.0
+      }
+    },
+    {
+      "itemCode": "0745 6003",
+      "description": "JANITORIAL MAINT - PICNIC AREA-SITE (3)",
+      "unit": "CYC",
+      "quantity": 104.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "FELLOWSHIP LANDSCAPING": 200.0,
+        "WILLIAM CURTIS SMITH": 300.0
+      }
+    },
+    {
+      "itemCode": "0745 6064",
+      "description": "GROUNDS MAINT - PICNIC MOW/TRIM-SITE(1)",
+      "unit": "CYC",
+      "quantity": 13.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "FELLOWSHIP LANDSCAPING": 900.0,
+        "WILLIAM CURTIS SMITH": 150.0
+      }
+    },
+    {
+      "itemCode": "0745 6065",
+      "description": "GROUNDS MAINT - PICNIC MOW/TRIM-SITE(2)",
+      "unit": "CYC",
+      "quantity": 13.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "FELLOWSHIP LANDSCAPING": 150.0,
+        "WILLIAM CURTIS SMITH": 150.0
+      }
+    },
+    {
+      "itemCode": "0745 6066",
+      "description": "GROUNDS MAINT - PICNIC MOW/TRIM-SITE(3)",
+      "unit": "CYC",
+      "quantity": 13.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "FELLOWSHIP LANDSCAPING": 200.0,
+        "WILLIAM CURTIS SMITH": 150.0
+      }
+    }
+  ]
+}

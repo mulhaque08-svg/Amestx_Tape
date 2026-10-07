@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6404-04-001",
+    "county": "Webb",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640404001",
+    "projectType": "TIC PUBLIC WATER SYSTEM GROUND STORAGE",
+    "letDate": "09/08/22",
+    "engEstTotal": 275000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "NEWTON DIVERSIFIED LLC",
+      "totalBidAmount": 350000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SJ&J CONSTRUCTION, LLC",
+      "totalBidAmount": 399999.99
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "7265 6001",
+      "description": "TRAVEL INFORMATION CENTER",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 275000.0,
+      "lowUnit": 350000.0,
+      "bidders": {
+        "NEWTON DIVERSIFIED LLC": 350000.0,
+        "SJ&J CONSTRUCTION, LLC": 399999.99
+      }
+    }
+  ]
+}

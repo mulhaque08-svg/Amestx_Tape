@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6425-76-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642576001",
+    "projectType": "WINTER WEATHER MATERIAL",
+    "letDate": "12/07/22",
+    "engEstTotal": 146200.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "UNITED SALT CORPORATION",
+      "totalBidAmount": 132515.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "NSG LOGISTICS, LLC",
+      "totalBidAmount": 139255.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "THE BARGAIN SOURCE",
+      "totalBidAmount": 149515.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8042 6116",
+      "description": "TYPE II BRINE SALT (DEL)(SITE 1)",
+      "unit": "TON",
+      "quantity": 850.0,
+      "engEstUnit": 172.0,
+      "lowUnit": 155.9,
+      "bidders": {
+        "UNITED SALT CORPORATION": 155.9,
+        "NSG LOGISTICS, LLC": 163.83,
+        "THE BARGAIN SOURCE": 175.9
+      }
+    }
+  ]
+}

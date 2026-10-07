@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6418-87-001",
+    "county": "Guadalupe",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641887001",
+    "projectType": "HYDRAULIC CEMENT CONCRETE",
+    "letDate": "10/07/22",
+    "engEstTotal": 140000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KLP COMMERCIAL, L.L.C.",
+      "totalBidAmount": 105000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "AKA-MATERIALS",
+      "totalBidAmount": 134120.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8024 6001",
+      "description": "PREPACKAGED CONCRETE",
+      "unit": "BAG",
+      "quantity": 28000.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 3.75,
+      "bidders": {
+        "KLP COMMERCIAL, L.L.C.": 3.75,
+        "AKA-MATERIALS": 4.79
+      }
+    }
+  ]
+}

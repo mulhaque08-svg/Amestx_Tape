@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6391-50-001",
+    "county": "Montgomery",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639150001",
+    "projectType": "DITCH CLEANING AND RESHAPING",
+    "letDate": "03/03/22",
+    "engEstTotal": 660785.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RELIANT SAND AND CONSTRUCTION, INC.",
+      "totalBidAmount": 797727.44
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 883730.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "B & MS CONSTRUCTION, INC.",
+      "totalBidAmount": 928704.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 630.0,
+      "lowUnit": 99.99,
+      "bidders": {
+        "RELIANT SAND AND CONSTRUCTION, INC.": 99.99,
+        "TEXAS DRAINAGE INC.": 100.0,
+        "B & MS CONSTRUCTION, INC.": 1725.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 99.99,
+      "bidders": {
+        "RELIANT SAND AND CONSTRUCTION, INC.": 99.99,
+        "TEXAS DRAINAGE INC.": 100.0,
+        "B & MS CONSTRUCTION, INC.": 4025.0
+      }
+    },
+    {
+      "itemCode": "0760 6001",
+      "description": "DITCH CLEANING AND RESHAPING (FOOT)",
+      "unit": "LF",
+      "quantity": 600000.0,
+      "engEstUnit": 0.95,
+      "lowUnit": 1.31,
+      "bidders": {
+        "RELIANT SAND AND CONSTRUCTION, INC.": 1.31,
+        "TEXAS DRAINAGE INC.": 1.45,
+        "B & MS CONSTRUCTION, INC.": 1.27
+      }
+    },
+    {
+      "itemCode": "0760 6003",
+      "description": "DITCH CLEAN/RESHAPING(CU YD IN VEHICLE)",
+      "unit": "CY",
+      "quantity": 2000.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "RELIANT SAND AND CONSTRUCTION, INC.": 4.0,
+        "TEXAS DRAINAGE INC.": 5.0,
+        "B & MS CONSTRUCTION, INC.": 40.25
+      }
+    }
+  ]
+}

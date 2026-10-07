@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6370-84-001",
+    "county": "Travis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637084001",
+    "projectType": "MOWING HIGHWAY ROW",
+    "letDate": "03/09/21",
+    "engEstTotal": 166180.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RP SERVICES, LLC",
+      "totalBidAmount": 156064.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CLASSIC IRRIGATION & LANDSCAPE LLC",
+      "totalBidAmount": 164653.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CEN-TEX IRRIGATION SYSTEMS, INC.",
+      "totalBidAmount": 165387.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "AARON A CRUZ",
+      "totalBidAmount": 179605.15
+    },
+    {
+      "rank": 5,
+      "vendorName": "ABESCAPE LANDSCAPING, LLC",
+      "totalBidAmount": 230038.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "RP SERVICES, LLC": 200.0,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 1.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1.0,
+        "AARON A CRUZ": 1.0,
+        "ABESCAPE LANDSCAPING, LLC": 0.001
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 3592.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 42.0,
+      "bidders": {
+        "RP SERVICES, LLC": 42.0,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 44.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 46.0,
+        "AARON A CRUZ": 50.0,
+        "ABESCAPE LANDSCAPING, LLC": 64.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 150.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 28.0,
+      "bidders": {
+        "RP SERVICES, LLC": 28.0,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 44.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1.0,
+        "AARON A CRUZ": 0.001,
+        "ABESCAPE LANDSCAPING, LLC": 1.0
+      }
+    }
+  ]
+}

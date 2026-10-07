@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6463-45-001",
+    "county": "Duval",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646345001",
+    "projectType": "CRACK SEAL",
+    "letDate": "06/05/24",
+    "engEstTotal": 894155.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 876338.47
+    },
+    {
+      "rank": 2,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 1177995.87
+    },
+    {
+      "rank": 3,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 1348183.2
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "D & M CONTRACTORS, LLC": 10000.0,
+        "ICOS MANAGEMENT, LLC": 50000.0
+      }
+    },
+    {
+      "itemCode": "0510 6002",
+      "description": "ONE-WAY TRAF CONT (PILOT CAR)",
+      "unit": "HR",
+      "quantity": 300.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 0.001,
+      "bidders": {
+        "CRACKSEAL OF TEXAS, LLC": 0.001,
+        "D & M CONTRACTORS, LLC": 10.0,
+        "ICOS MANAGEMENT, LLC": 100.0
+      }
+    }
+  ]
+}

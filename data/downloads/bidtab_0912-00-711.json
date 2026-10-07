@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "csj": "0912-00-711",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 912-00-711",
+    "projectType": "REHABILITATE BRIDGE",
+    "letDate": "08/01/24",
+    "engEstTotal": 5423928.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RAGLE CONSTRUCTION, INC.",
+      "totalBidAmount": 3184595.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MC2 CIVIL, LLC",
+      "totalBidAmount": 6874930.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "GIBSON & ASSOCIATES, INC.",
+      "totalBidAmount": 7299437.5
+    },
+    {
+      "rank": 4,
+      "vendorName": "FORDE CONSTRUCTION COMPANY, INC.",
+      "totalBidAmount": 7988089.5
+    },
+    {
+      "rank": 5,
+      "vendorName": "ISI CONTRACTING, INC.",
+      "totalBidAmount": 15355950.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 43.7,
+      "engEstUnit": 340.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "RAGLE CONSTRUCTION, INC.": 250.0,
+        "MC2 CIVIL, LLC": 300.0,
+        "GIBSON & ASSOCIATES, INC.": 995.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 475.0,
+        "ISI CONTRACTING, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 495000.0,
+      "lowUnit": 318000.0,
+      "bidders": {
+        "RAGLE CONSTRUCTION, INC.": 318000.0,
+        "MC2 CIVIL, LLC": 400000.0,
+        "GIBSON & ASSOCIATES, INC.": 725000.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 700000.0,
+        "ISI CONTRACTING, INC.": 100000.0
+      }
+    },
+    {
+      "itemCode": "4002 6001",
+      "description": "REPLACE ELASTOMERIC BEARING PADS",
+      "unit": "EA",
+      "quantity": 518.0,
+      "engEstUnit": 8750.0,
+      "lowUnit": 3135.0,
+      "bidders": {
+        "RAGLE CONSTRUCTION, INC.": 3135.0,
+        "MC2 CIVIL, LLC": 12000.0,
+        "GIBSON & ASSOCIATES, INC.": 11000.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 12000.0,
+        "ISI CONTRACTING, INC.": 27500.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 468.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "RAGLE CONSTRUCTION, INC.": 125.0,
+        "MC2 CIVIL, LLC": 65.0,
+        "GIBSON & ASSOCIATES, INC.": 85.0,
+        "FORDE CONSTRUCTION COMPANY, INC.": 600.0,
+        "ISI CONTRACTING, INC.": 350.0
+      }
+    }
+  ]
+}

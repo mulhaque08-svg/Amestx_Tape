@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6455-75-001",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645575001",
+    "projectType": "PUMP STATION & DRAINAGE SYSTEM CLEANING",
+    "letDate": "01/04/24",
+    "engEstTotal": 345521.56,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AIMS COMPANIES",
+      "totalBidAmount": 292130.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "HAZMAT INTERNATIONAL, INC.",
+      "totalBidAmount": 320375.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "E.V.G. ENTERPRISE",
+      "totalBidAmount": 329925.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 344400.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 816.88,
+      "lowUnit": 900.0,
+      "bidders": {
+        "AIMS COMPANIES": 900.0,
+        "HAZMAT INTERNATIONAL, INC.": 500.0,
+        "E.V.G. ENTERPRISE": 500.0,
+        "SHALOM SERVICES CORPORATION": 1000.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "AIMS COMPANIES": 1100.0,
+        "HAZMAT INTERNATIONAL, INC.": 750.0,
+        "E.V.G. ENTERPRISE": 500.0,
+        "SHALOM SERVICES CORPORATION": 1000.0
+      }
+    },
+    {
+      "itemCode": "7019 6001",
+      "description": "STORM SEWER (TELEVISION INSPECTION)",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 31.25,
+      "lowUnit": 3.0,
+      "bidders": {
+        "AIMS COMPANIES": 3.0,
+        "HAZMAT INTERNATIONAL, INC.": 2.75,
+        "E.V.G. ENTERPRISE": 1.0,
+        "SHALOM SERVICES CORPORATION": 4.0
+      }
+    }
+  ]
+}

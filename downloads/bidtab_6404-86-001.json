@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6404-86-001",
+    "county": "Terry",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 640486001",
+    "projectType": "AGGREGATE",
+    "letDate": "10/06/22",
+    "engEstTotal": 448250.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 669250.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 798100.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6099",
+      "description": "AGGR (TY B GR 4) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 1600.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 90.0,
+        "DIGG COMMERCIAL, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "8039 6100",
+      "description": "AGGR (TY B GR 4) (DEL) (ST2)",
+      "unit": "TON",
+      "quantity": 3500.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 80.0,
+        "DIGG COMMERCIAL, LLC": 107.0
+      }
+    },
+    {
+      "itemCode": "8039 6101",
+      "description": "AGGR (TY B GR 4) (DEL) (ST3)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 80.0,
+        "DIGG COMMERCIAL, LLC": 79.0
+      }
+    },
+    {
+      "itemCode": "8039 6102",
+      "description": "AGGR (TY B GR 4) (DEL) (ST4)",
+      "unit": "TON",
+      "quantity": 900.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 85.0,
+        "DIGG COMMERCIAL, LLC": 89.0
+      }
+    },
+    {
+      "itemCode": "8039 6113",
+      "description": "AGGR (TY B GR 5) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 650.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 75.0,
+        "DIGG COMMERCIAL, LLC": 100.0
+      }
+    }
+  ]
+}

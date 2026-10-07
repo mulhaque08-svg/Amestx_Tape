@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6469-67-001",
+    "county": "Walker",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646967001",
+    "projectType": "AGGREGATE",
+    "letDate": "07/23/24",
+    "engEstTotal": 180000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 191625.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 220920.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 283845.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6113",
+      "description": "AGGR (TY B GR 5) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 93.25,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 93.25,
+        "COLORADO MATERIALS, LTD.": 109.75,
+        "MARTIN MARIETTA MATERIALS, INC.": 140.27
+      }
+    },
+    {
+      "itemCode": "8039 6114",
+      "description": "AGGR (TY B GR 5) (DEL) (ST2)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 90.0,
+        "COLORADO MATERIALS, LTD.": 104.29,
+        "MARTIN MARIETTA MATERIALS, INC.": 138.69
+      }
+    },
+    {
+      "itemCode": "8039 6115",
+      "description": "AGGR (TY B GR 5) (DEL) (ST3)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 96.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 96.0,
+        "COLORADO MATERIALS, LTD.": 111.06,
+        "MARTIN MARIETTA MATERIALS, INC.": 141.86
+      }
+    },
+    {
+      "itemCode": "8039 6116",
+      "description": "AGGR (TY B GR 5) (DEL) (ST4)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 104.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 104.0,
+        "COLORADO MATERIALS, LTD.": 116.74,
+        "MARTIN MARIETTA MATERIALS, INC.": 146.87
+      }
+    }
+  ]
+}

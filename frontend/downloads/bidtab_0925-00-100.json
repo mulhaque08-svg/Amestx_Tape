@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "0925-00-100",
+    "county": "Childress",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "STP 2B24(244)FRS",
+    "projectType": "INSTALL/REPLACE SIGNS",
+    "letDate": "06/06/24",
+    "engEstTotal": 144750.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SYNERGY SIGNS & SERVICES LLC",
+      "totalBidAmount": 122600.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MARCOM'S MOWING SERVICE, LLC",
+      "totalBidAmount": 143805.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ODUM SERVICES, LLC",
+      "totalBidAmount": 147750.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "TEXAS ROAD CONSTRUCTION, LLC",
+      "totalBidAmount": 155148.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "HJC FARMS, INC.",
+      "totalBidAmount": 198600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "SYNERGY SIGNS & SERVICES LLC": 15000.0,
+        "MARCOM'S MOWING SERVICE, LLC": 25000.0,
+        "ODUM SERVICES, LLC": 25000.0,
+        "TEXAS ROAD CONSTRUCTION, LLC": 30000.0,
+        "HJC FARMS, INC.": 50000.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 112.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 725.0,
+      "bidders": {
+        "SYNERGY SIGNS & SERVICES LLC": 725.0,
+        "MARCOM'S MOWING SERVICE, LLC": 890.0,
+        "ODUM SERVICES, LLC": 875.0,
+        "TEXAS ROAD CONSTRUCTION, LLC": 1029.0,
+        "HJC FARMS, INC.": 1225.0
+      }
+    }
+  ]
+}

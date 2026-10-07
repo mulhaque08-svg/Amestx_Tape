@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6467-60-001",
+    "county": "Palo Pinto",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646760001",
+    "projectType": "WINTER WEATHER MATERIAL",
+    "letDate": "08/15/24",
+    "engEstTotal": 185652.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "NSG LOGISTICS, LLC",
+      "totalBidAmount": 167088.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "UNITED SALT CORPORATION",
+      "totalBidAmount": 182178.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "THE BARGAIN SOURCE",
+      "totalBidAmount": 212550.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8042 6116",
+      "description": "TYPE II BRINE SALT (DEL)(SITE 1)",
+      "unit": "TON",
+      "quantity": 600.0,
+      "engEstUnit": 164.0,
+      "lowUnit": 138.28,
+      "bidders": {
+        "NSG LOGISTICS, LLC": 138.28,
+        "UNITED SALT CORPORATION": 153.05,
+        "THE BARGAIN SOURCE": 161.89
+      }
+    },
+    {
+      "itemCode": "8042 6117",
+      "description": "TYPE II BRINE SALT (DEL)(SITE 2)",
+      "unit": "TON",
+      "quantity": 600.0,
+      "engEstUnit": 145.42,
+      "lowUnit": 140.2,
+      "bidders": {
+        "NSG LOGISTICS, LLC": 140.2,
+        "UNITED SALT CORPORATION": 150.58,
+        "THE BARGAIN SOURCE": 192.36
+      }
+    }
+  ]
+}

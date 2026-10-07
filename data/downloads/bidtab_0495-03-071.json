@@ -1,0 +1,764 @@
+{
+  "metadata": {
+    "csj": "0495-03-071",
+    "county": "Van Zandt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 495-3-71",
+    "projectType": "CONSTRUCT RAMPS",
+    "letDate": "03/06/24",
+    "engEstTotal": 2817247.9,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "REYNOLDS & KAY, LTD.",
+      "totalBidAmount": 1435639.11
+    },
+    {
+      "rank": 2,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 2869716.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "EAST TEXAS BRIDGE, INC.",
+      "totalBidAmount": 2942248.01
+    },
+    {
+      "rank": 4,
+      "vendorName": "INDUS ROAD & BRIDGE, INC.",
+      "totalBidAmount": 3464174.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 9.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 2200.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 2200.0,
+        "FNH CONSTRUCTION, LLC": 64000.0,
+        "EAST TEXAS BRIDGE, INC.": 40000.0,
+        "INDUS ROAD & BRIDGE, INC.": 10000.0
+      }
+    },
+    {
+      "itemCode": "0104 6010",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "CY",
+      "quantity": 2.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 120.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 120.0,
+        "FNH CONSTRUCTION, LLC": 500.0,
+        "EAST TEXAS BRIDGE, INC.": 1000.0,
+        "INDUS ROAD & BRIDGE, INC.": 924.0
+      }
+    },
+    {
+      "itemCode": "0105 6037",
+      "description": "REMOVING STAB BASE AND ASPH PAV(0\"-16\")",
+      "unit": "SY",
+      "quantity": 1505.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 14.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 14.0,
+        "FNH CONSTRUCTION, LLC": 20.0,
+        "EAST TEXAS BRIDGE, INC.": 36.0,
+        "INDUS ROAD & BRIDGE, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 110.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 45.0,
+        "FNH CONSTRUCTION, LLC": 50.0,
+        "EAST TEXAS BRIDGE, INC.": 40.0,
+        "INDUS ROAD & BRIDGE, INC.": 210.0
+      }
+    },
+    {
+      "itemCode": "0112 6001",
+      "description": "SUBGRADE WIDENING (ORD COMP)",
+      "unit": "STA",
+      "quantity": 16.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 1500.0,
+        "FNH CONSTRUCTION, LLC": 1000.0,
+        "EAST TEXAS BRIDGE, INC.": 1300.0,
+        "INDUS ROAD & BRIDGE, INC.": 7000.0
+      }
+    },
+    {
+      "itemCode": "0132 6006",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY C)",
+      "unit": "CY",
+      "quantity": 9313.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 25.0,
+        "FNH CONSTRUCTION, LLC": 100.0,
+        "EAST TEXAS BRIDGE, INC.": 45.0,
+        "INDUS ROAD & BRIDGE, INC.": 90.0
+      }
+    },
+    {
+      "itemCode": "0132 6021",
+      "description": "EMBANKMENT (VEHICLE)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 85.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 33.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 33.0,
+        "FNH CONSTRUCTION, LLC": 50.0,
+        "EAST TEXAS BRIDGE, INC.": 40.0,
+        "INDUS ROAD & BRIDGE, INC.": 84.0
+      }
+    },
+    {
+      "itemCode": "0134 6001",
+      "description": "BACKFILL (TY A)",
+      "unit": "STA",
+      "quantity": 23.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 955.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 955.0,
+        "FNH CONSTRUCTION, LLC": 450.0,
+        "EAST TEXAS BRIDGE, INC.": 700.0,
+        "INDUS ROAD & BRIDGE, INC.": 725.0
+      }
+    },
+    {
+      "itemCode": "0150 6001",
+      "description": "BLADING",
+      "unit": "STA",
+      "quantity": 23.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 250.0,
+        "FNH CONSTRUCTION, LLC": 450.0,
+        "EAST TEXAS BRIDGE, INC.": 500.0,
+        "INDUS ROAD & BRIDGE, INC.": 784.0
+      }
+    },
+    {
+      "itemCode": "0150 6002",
+      "description": "BLADING",
+      "unit": "HR",
+      "quantity": 50.0,
+      "engEstUnit": 235.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 200.0,
+        "FNH CONSTRUCTION, LLC": 150.0,
+        "EAST TEXAS BRIDGE, INC.": 200.0,
+        "INDUS ROAD & BRIDGE, INC.": 289.0
+      }
+    },
+    {
+      "itemCode": "0164 6001",
+      "description": "BROADCAST SEED (PERM) (RURAL) (SANDY)",
+      "unit": "SY",
+      "quantity": 2666.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 0.16,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 0.16,
+        "FNH CONSTRUCTION, LLC": 1.0,
+        "EAST TEXAS BRIDGE, INC.": 0.16,
+        "INDUS ROAD & BRIDGE, INC.": 0.95
+      }
+    },
+    {
+      "itemCode": "0164 6054",
+      "description": "BOND FBR MTRX SEED (PERM)(RURAL)(SAND)",
+      "unit": "SY",
+      "quantity": 5331.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 0.76,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 0.76,
+        "FNH CONSTRUCTION, LLC": 1.0,
+        "EAST TEXAS BRIDGE, INC.": 0.8,
+        "INDUS ROAD & BRIDGE, INC.": 1.8
+      }
+    },
+    {
+      "itemCode": "0164 6055",
+      "description": "BONDED FBR MTRX SEED (TEMP)(WARM)",
+      "unit": "SY",
+      "quantity": 2666.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 0.73,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 0.73,
+        "FNH CONSTRUCTION, LLC": 1.0,
+        "EAST TEXAS BRIDGE, INC.": 0.75,
+        "INDUS ROAD & BRIDGE, INC.": 1.8
+      }
+    },
+    {
+      "itemCode": "0164 6056",
+      "description": "BONDED FBR MTRX SEED (TEMP)(COOL)",
+      "unit": "SY",
+      "quantity": 2666.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 0.71,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 0.71,
+        "FNH CONSTRUCTION, LLC": 1.0,
+        "EAST TEXAS BRIDGE, INC.": 0.75,
+        "INDUS ROAD & BRIDGE, INC.": 1.8
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 205.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 15.0,
+        "FNH CONSTRUCTION, LLC": 50.0,
+        "EAST TEXAS BRIDGE, INC.": 23.0,
+        "INDUS ROAD & BRIDGE, INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "0260 6001",
+      "description": "LIME (HYDRATED LIME (DRY))",
+      "unit": "TON",
+      "quantity": 26.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 300.0,
+        "FNH CONSTRUCTION, LLC": 350.0,
+        "EAST TEXAS BRIDGE, INC.": 1000.0,
+        "INDUS ROAD & BRIDGE, INC.": 372.0
+      }
+    },
+    {
+      "itemCode": "0260 6027",
+      "description": "LIME TRT (EXST MATL)(8\")",
+      "unit": "SY",
+      "quantity": 1437.0,
+      "engEstUnit": 16.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 12.0,
+        "FNH CONSTRUCTION, LLC": 15.0,
+        "EAST TEXAS BRIDGE, INC.": 15.0,
+        "INDUS ROAD & BRIDGE, INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "0275 6001",
+      "description": "CEMENT",
+      "unit": "TON",
+      "quantity": 26.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 300.0,
+        "FNH CONSTRUCTION, LLC": 350.0,
+        "EAST TEXAS BRIDGE, INC.": 1000.0,
+        "INDUS ROAD & BRIDGE, INC.": 472.0
+      }
+    },
+    {
+      "itemCode": "0275 6011",
+      "description": "CEMENT TREAT(EXIST MATL)(8\")",
+      "unit": "SY",
+      "quantity": 1437.0,
+      "engEstUnit": 16.0,
+      "lowUnit": 11.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 11.0,
+        "FNH CONSTRUCTION, LLC": 15.0,
+        "EAST TEXAS BRIDGE, INC.": 14.0,
+        "INDUS ROAD & BRIDGE, INC.": 28.0
+      }
+    },
+    {
+      "itemCode": "0310 6009",
+      "description": "PRIME COAT (MC-30)",
+      "unit": "GAL",
+      "quantity": 139.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 13.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 13.0,
+        "FNH CONSTRUCTION, LLC": 10.0,
+        "EAST TEXAS BRIDGE, INC.": 25.0,
+        "INDUS ROAD & BRIDGE, INC.": 35.0
+      }
+    },
+    {
+      "itemCode": "0354 6045",
+      "description": "PLANE ASPH CONC PAV (2\")",
+      "unit": "SY",
+      "quantity": 3968.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 6.5,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 6.5,
+        "FNH CONSTRUCTION, LLC": 15.0,
+        "EAST TEXAS BRIDGE, INC.": 15.0,
+        "INDUS ROAD & BRIDGE, INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 2.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 1200.0,
+        "FNH CONSTRUCTION, LLC": 1500.0,
+        "EAST TEXAS BRIDGE, INC.": 3500.0,
+        "INDUS ROAD & BRIDGE, INC.": 1500.0
+      }
+    },
+    {
+      "itemCode": "0467 6395",
+      "description": "SET (TY II) (24 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 5000.0,
+        "FNH CONSTRUCTION, LLC": 2500.0,
+        "EAST TEXAS BRIDGE, INC.": 2000.0,
+        "INDUS ROAD & BRIDGE, INC.": 5500.0
+      }
+    },
+    {
+      "itemCode": "0480 6001",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 1200.0,
+        "FNH CONSTRUCTION, LLC": 5000.0,
+        "EAST TEXAS BRIDGE, INC.": 5000.0,
+        "INDUS ROAD & BRIDGE, INC.": 5300.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 300000.0,
+      "lowUnit": 170000.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 170000.0,
+        "FNH CONSTRUCTION, LLC": 250000.0,
+        "EAST TEXAS BRIDGE, INC.": 300000.0,
+        "INDUS ROAD & BRIDGE, INC.": 340000.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 1250.0,
+      "lowUnit": 950.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 950.0,
+        "FNH CONSTRUCTION, LLC": 1500.0,
+        "EAST TEXAS BRIDGE, INC.": 950.0,
+        "INDUS ROAD & BRIDGE, INC.": 1290.0
+      }
+    },
+    {
+      "itemCode": "0644 6007",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(U)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 1000.0,
+        "FNH CONSTRUCTION, LLC": 1500.0,
+        "EAST TEXAS BRIDGE, INC.": 1000.0,
+        "INDUS ROAD & BRIDGE, INC.": 1634.0
+      }
+    },
+    {
+      "itemCode": "0644 6030",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(T)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 1200.0,
+        "FNH CONSTRUCTION, LLC": 1500.0,
+        "EAST TEXAS BRIDGE, INC.": 1200.0,
+        "INDUS ROAD & BRIDGE, INC.": 1427.0
+      }
+    },
+    {
+      "itemCode": "0644 6033",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1035.0,
+      "lowUnit": 1600.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 1600.0,
+        "FNH CONSTRUCTION, LLC": 1500.0,
+        "EAST TEXAS BRIDGE, INC.": 1600.0,
+        "INDUS ROAD & BRIDGE, INC.": 1868.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 115.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 115.0,
+        "FNH CONSTRUCTION, LLC": 100.0,
+        "EAST TEXAS BRIDGE, INC.": 120.0,
+        "INDUS ROAD & BRIDGE, INC.": 207.0
+      }
+    },
+    {
+      "itemCode": "0658 6100",
+      "description": "INSTL OM ASSM (OM-2Z)(WFLX)GND(BI)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 86.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 86.0,
+        "FNH CONSTRUCTION, LLC": 100.0,
+        "EAST TEXAS BRIDGE, INC.": 90.0,
+        "INDUS ROAD & BRIDGE, INC.": 154.0
+      }
+    },
+    {
+      "itemCode": "0662 6008",
+      "description": "WK ZN PAV MRK NON-REMOV (W)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 1667.0,
+      "engEstUnit": 1.1,
+      "lowUnit": 3.3,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 3.3,
+        "FNH CONSTRUCTION, LLC": 3.0,
+        "EAST TEXAS BRIDGE, INC.": 3.3,
+        "INDUS ROAD & BRIDGE, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0662 6012",
+      "description": "WK ZN PAV MRK NON-REMOV (W)8\"(SLD)",
+      "unit": "LF",
+      "quantity": 450.0,
+      "engEstUnit": 1.1,
+      "lowUnit": 5.5,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 5.5,
+        "FNH CONSTRUCTION, LLC": 3.0,
+        "EAST TEXAS BRIDGE, INC.": 5.5,
+        "INDUS ROAD & BRIDGE, INC.": 9.0
+      }
+    },
+    {
+      "itemCode": "0662 6016",
+      "description": "WK ZN PAV MRK NON-REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 11.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 11.0,
+        "FNH CONSTRUCTION, LLC": 20.0,
+        "EAST TEXAS BRIDGE, INC.": 11.0,
+        "INDUS ROAD & BRIDGE, INC.": 18.0
+      }
+    },
+    {
+      "itemCode": "0662 6037",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 1667.0,
+      "engEstUnit": 1.1,
+      "lowUnit": 3.3,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 3.3,
+        "FNH CONSTRUCTION, LLC": 3.0,
+        "EAST TEXAS BRIDGE, INC.": 3.3,
+        "INDUS ROAD & BRIDGE, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0662 6064",
+      "description": "WK ZN PAV MRK REMOV (W)6\"(BRK)",
+      "unit": "LF",
+      "quantity": 210.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 2.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 2.0,
+        "FNH CONSTRUCTION, LLC": 3.0,
+        "EAST TEXAS BRIDGE, INC.": 4.0,
+        "INDUS ROAD & BRIDGE, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0662 6096",
+      "description": "WK ZN PAV MRK REMOV (Y)6\"(BRK)",
+      "unit": "LF",
+      "quantity": 417.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 2.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 2.0,
+        "FNH CONSTRUCTION, LLC": 3.0,
+        "EAST TEXAS BRIDGE, INC.": 4.0,
+        "INDUS ROAD & BRIDGE, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0662 6109",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY W",
+      "unit": "EA",
+      "quantity": 45.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.4,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 1.4,
+        "FNH CONSTRUCTION, LLC": 6.0,
+        "EAST TEXAS BRIDGE, INC.": 4.0,
+        "INDUS ROAD & BRIDGE, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 84.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.4,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 1.4,
+        "FNH CONSTRUCTION, LLC": 6.0,
+        "EAST TEXAS BRIDGE, INC.": 4.0,
+        "INDUS ROAD & BRIDGE, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 248.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 248.0,
+        "FNH CONSTRUCTION, LLC": 250.0,
+        "EAST TEXAS BRIDGE, INC.": 250.0,
+        "INDUS ROAD & BRIDGE, INC.": 406.0
+      }
+    },
+    {
+      "itemCode": "0668 6078",
+      "description": "PREFAB PAV MRK TY C (W) (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 330.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 330.0,
+        "FNH CONSTRUCTION, LLC": 500.0,
+        "EAST TEXAS BRIDGE, INC.": 350.0,
+        "INDUS ROAD & BRIDGE, INC.": 541.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 310.0,
+      "lowUnit": 303.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 303.0,
+        "FNH CONSTRUCTION, LLC": 250.0,
+        "EAST TEXAS BRIDGE, INC.": 325.0,
+        "INDUS ROAD & BRIDGE, INC.": 496.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 23.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 9.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 9.0,
+        "FNH CONSTRUCTION, LLC": 6.0,
+        "EAST TEXAS BRIDGE, INC.": 9.0,
+        "INDUS ROAD & BRIDGE, INC.": 14.0
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 70.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 9.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 9.0,
+        "FNH CONSTRUCTION, LLC": 6.0,
+        "EAST TEXAS BRIDGE, INC.": 9.0,
+        "INDUS ROAD & BRIDGE, INC.": 14.0
+      }
+    },
+    {
+      "itemCode": "0677 6002",
+      "description": "ELIM EXT PAV MRK & MRKS (6\")",
+      "unit": "LF",
+      "quantity": 3334.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 1.4,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 1.4,
+        "FNH CONSTRUCTION, LLC": 3.0,
+        "EAST TEXAS BRIDGE, INC.": 1.5,
+        "INDUS ROAD & BRIDGE, INC.": 2.2
+      }
+    },
+    {
+      "itemCode": "0677 6008",
+      "description": "ELIM EXT PAV MRK & MRKS (ARROW)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 165.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 165.0,
+        "FNH CONSTRUCTION, LLC": 250.0,
+        "EAST TEXAS BRIDGE, INC.": 175.0,
+        "INDUS ROAD & BRIDGE, INC.": 271.0
+      }
+    },
+    {
+      "itemCode": "0730 6107",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "CYC",
+      "quantity": 1.0,
+      "engEstUnit": 5900.0,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 1100.0,
+        "FNH CONSTRUCTION, LLC": 5000.0,
+        "EAST TEXAS BRIDGE, INC.": 8000.0,
+        "INDUS ROAD & BRIDGE, INC.": 8500.0
+      }
+    },
+    {
+      "itemCode": "3077 6001",
+      "description": "SP MIXES SP-B PG64-22",
+      "unit": "TON",
+      "quantity": 1841.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 190.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 190.0,
+        "FNH CONSTRUCTION, LLC": 140.0,
+        "EAST TEXAS BRIDGE, INC.": 300.0,
+        "INDUS ROAD & BRIDGE, INC.": 258.0
+      }
+    },
+    {
+      "itemCode": "3077 6011",
+      "description": "SP MIXES SP-C PG64-22",
+      "unit": "TON",
+      "quantity": 153.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 200.0,
+        "FNH CONSTRUCTION, LLC": 170.0,
+        "EAST TEXAS BRIDGE, INC.": 375.0,
+        "INDUS ROAD & BRIDGE, INC.": 320.0
+      }
+    },
+    {
+      "itemCode": "3077 6022",
+      "description": "SP MIXES SP-C SAC-A PG70-22",
+      "unit": "TON",
+      "quantity": 958.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 200.0,
+        "FNH CONSTRUCTION, LLC": 175.0,
+        "EAST TEXAS BRIDGE, INC.": 350.0,
+        "INDUS ROAD & BRIDGE, INC.": 282.0
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 603.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 3.2,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 3.2,
+        "FNH CONSTRUCTION, LLC": 8.0,
+        "EAST TEXAS BRIDGE, INC.": 15.0,
+        "INDUS ROAD & BRIDGE, INC.": 16.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 175.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 105.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 105.0,
+        "FNH CONSTRUCTION, LLC": 150.0,
+        "EAST TEXAS BRIDGE, INC.": 250.0,
+        "INDUS ROAD & BRIDGE, INC.": 196.0
+      }
+    }
+  ]
+}

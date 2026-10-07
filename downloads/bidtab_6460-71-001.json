@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6460-71-001",
+    "county": "Nueces",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 646071001",
+    "projectType": "BRIDGE DECK REPAIR",
+    "letDate": "01/04/24",
+    "engEstTotal": 642750.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SCR CIVIL CONSTRUCTION, LLC",
+      "totalBidAmount": 283911.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC",
+      "totalBidAmount": 471346.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "12TWELVE ROAD AND BRIDGE LLC",
+      "totalBidAmount": 499662.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 702127.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "MB WESTERN INDUSTRIAL CONTRACTING COMPANY",
+      "totalBidAmount": 786798.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "DCC CONSTRUCTION AND SERVICES, L.L.C.",
+      "totalBidAmount": 831460.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0780 6004",
+      "description": "CONC CRCK REPR(DISCRETE)(ROUT AND SEAL)",
+      "unit": "LF",
+      "quantity": 11891.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 21.0,
+      "bidders": {
+        "SCR CIVIL CONSTRUCTION, LLC": 21.0,
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 6.0,
+        "12TWELVE ROAD AND BRIDGE LLC": 40.0,
+        "CRACKSEAL OF TEXAS, LLC": 55.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 58.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 60.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 80.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "SCR CIVIL CONSTRUCTION, LLC": 50.0,
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 1500.0,
+        "12TWELVE ROAD AND BRIDGE LLC": 50.0,
+        "CRACKSEAL OF TEXAS, LLC": 1.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 1.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 200.0
+      }
+    }
+  ]
+}

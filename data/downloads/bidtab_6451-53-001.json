@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6451-53-001",
+    "county": "Lubbock",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645153001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "10/06/23",
+    "engEstTotal": 394800.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARLANE CONSTRUCTION, LLC",
+      "totalBidAmount": 372420.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 392955.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "GORMAN OUTDOOR, INC.",
+      "totalBidAmount": 625086.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "MARLANE CONSTRUCTION, LLC": 1000.0,
+        "ICOS MANAGEMENT, LLC": 2500.0,
+        "GORMAN OUTDOOR, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 7476.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "MARLANE CONSTRUCTION, LLC": 45.0,
+        "ICOS MANAGEMENT, LLC": 48.75,
+        "GORMAN OUTDOOR, INC.": 80.0
+      }
+    }
+  ]
+}

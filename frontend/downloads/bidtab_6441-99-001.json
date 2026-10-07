@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6441-99-001",
+    "county": "Bexar",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644199001",
+    "projectType": "CRACK SEAL",
+    "letDate": "06/14/23",
+    "engEstTotal": 166233.38,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 205295.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 400766.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 7000.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "CRACKSEAL OF TEXAS, LLC": 10000.0,
+        "D & M CONTRACTORS, LLC": 10000.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6466-66-001",
+    "county": "Parker",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646666001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/01/24",
+    "engEstTotal": 274992.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RHINO EQUITY, LLC",
+      "totalBidAmount": 321041.55
+    },
+    {
+      "rank": 2,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 342678.25
+    },
+    {
+      "rank": 3,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 478870.45
+    },
+    {
+      "rank": 4,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 498799.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 13320.0,
+      "lowUnit": 19980.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 19980.0,
+        "ICOS MANAGEMENT, LLC": 50000.0,
+        "D & M CONTRACTORS, LLC": 10000.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 10000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 54.0,
+      "engEstUnit": 155.0,
+      "lowUnit": 149.85,
+      "bidders": {
+        "RHINO EQUITY, LLC": 149.85,
+        "ICOS MANAGEMENT, LLC": 1.0,
+        "D & M CONTRACTORS, LLC": 3.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 200.0
+      }
+    }
+  ]
+}

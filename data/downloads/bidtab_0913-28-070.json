@@ -1,0 +1,484 @@
+{
+  "metadata": {
+    "csj": "0913-28-070",
+    "county": "Fayette",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2018(330)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "08/04/22",
+    "engEstTotal": 1125822.8,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FUQUA CONSTRUCTION CO., INC.",
+      "totalBidAmount": 1089896.94
+    },
+    {
+      "rank": 2,
+      "vendorName": "ACME BRIDGE COMPANY, INC.",
+      "totalBidAmount": 1146392.59
+    },
+    {
+      "rank": 3,
+      "vendorName": "MB WESTERN INDUSTRIAL CONTRACTING COMPANY",
+      "totalBidAmount": 1256929.74
+    },
+    {
+      "rank": 4,
+      "vendorName": "GIBSON & ASSOCIATES, INC.",
+      "totalBidAmount": 2087396.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 4.5,
+      "engEstUnit": 5000.0,
+      "lowUnit": 6250.0,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 6250.0,
+        "ACME BRIDGE COMPANY, INC.": 13300.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 15775.16,
+        "GIBSON & ASSOCIATES, INC.": 22000.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 15.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 50.0,
+        "ACME BRIDGE COMPANY, INC.": 270.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 77.35,
+        "GIBSON & ASSOCIATES, INC.": 93.5
+      }
+    },
+    {
+      "itemCode": "0132 6005",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 237.0,
+      "engEstUnit": 25.5,
+      "lowUnit": 50.0,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 50.0,
+        "ACME BRIDGE COMPANY, INC.": 78.9,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 63.1,
+        "GIBSON & ASSOCIATES, INC.": 93.5
+      }
+    },
+    {
+      "itemCode": "0164 6001",
+      "description": "BROADCAST SEED (PERM) (RURAL) (SANDY)",
+      "unit": "SY",
+      "quantity": 835.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 2.813,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 2.813,
+        "ACME BRIDGE COMPANY, INC.": 1.55,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 2.59,
+        "GIBSON & ASSOCIATES, INC.": 1.6
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 209.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 6.25,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 6.25,
+        "ACME BRIDGE COMPANY, INC.": 6.4,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 9.55,
+        "GIBSON & ASSOCIATES, INC.": 6.6
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 209.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 6.25,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 6.25,
+        "ACME BRIDGE COMPANY, INC.": 6.4,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 9.55,
+        "GIBSON & ASSOCIATES, INC.": 6.6
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 16.2,
+      "engEstUnit": 85.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 100.0,
+        "ACME BRIDGE COMPANY, INC.": 76.7,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 99.47,
+        "GIBSON & ASSOCIATES, INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 27.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 250.0,
+        "ACME BRIDGE COMPANY, INC.": 299.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 165.0,
+        "GIBSON & ASSOCIATES, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 1384.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 50.0,
+        "ACME BRIDGE COMPANY, INC.": 7.7,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 71.38,
+        "GIBSON & ASSOCIATES, INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0416 6001",
+      "description": "DRILL SHAFT (18 IN)",
+      "unit": "LF",
+      "quantity": 70.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 312.5,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 312.5,
+        "ACME BRIDGE COMPANY, INC.": 228.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 288.74,
+        "GIBSON & ASSOCIATES, INC.": 310.0
+      }
+    },
+    {
+      "itemCode": "0416 6002",
+      "description": "DRILL SHAFT (24 IN)",
+      "unit": "LF",
+      "quantity": 406.0,
+      "engEstUnit": 325.0,
+      "lowUnit": 417.038,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 417.038,
+        "ACME BRIDGE COMPANY, INC.": 278.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 295.0,
+        "GIBSON & ASSOCIATES, INC.": 320.0
+      }
+    },
+    {
+      "itemCode": "0422 6007",
+      "description": "REINF CONC SLAB (SLAB BEAM)",
+      "unit": "SF",
+      "quantity": 770.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 50.0,
+        "ACME BRIDGE COMPANY, INC.": 44.7,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 59.94,
+        "GIBSON & ASSOCIATES, INC.": 92.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 71.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 312.5,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 312.5,
+        "ACME BRIDGE COMPANY, INC.": 291.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 699.87,
+        "GIBSON & ASSOCIATES, INC.": 291.5
+      }
+    },
+    {
+      "itemCode": "0434 6002",
+      "description": "ELASTOMERIC BEARING (LAMINATED)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1875.0,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 1875.0,
+        "ACME BRIDGE COMPANY, INC.": 1100.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 3681.94,
+        "GIBSON & ASSOCIATES, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0454 6021",
+      "description": "TYPE A JOINT",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 81.25,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 81.25,
+        "ACME BRIDGE COMPANY, INC.": 35.1,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 43.7,
+        "GIBSON & ASSOCIATES, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 75000.0,
+      "lowUnit": 50000.0,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 50000.0,
+        "ACME BRIDGE COMPANY, INC.": 15600.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 11733.51,
+        "GIBSON & ASSOCIATES, INC.": 105000.0
+      }
+    },
+    {
+      "itemCode": "0496 6043",
+      "description": "REMOV STR (SMALL FENCE)",
+      "unit": "LF",
+      "quantity": 20.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 50.0,
+        "ACME BRIDGE COMPANY, INC.": 22.5,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 17.03,
+        "GIBSON & ASSOCIATES, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 100000.0,
+      "lowUnit": 137000.0,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 137000.0,
+        "ACME BRIDGE COMPANY, INC.": 120000.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 121175.62,
+        "GIBSON & ASSOCIATES, INC.": 210000.0
+      }
+    },
+    {
+      "itemCode": "0530 6006",
+      "description": "DRIVEWAYS (SURF TREAT)",
+      "unit": "SY",
+      "quantity": 250.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 37.5,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 37.5,
+        "ACME BRIDGE COMPANY, INC.": 79.8,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 61.49,
+        "GIBSON & ASSOCIATES, INC.": 71.5
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3150.0,
+      "lowUnit": 4157.988,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 4157.988,
+        "ACME BRIDGE COMPANY, INC.": 3260.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 4641.81,
+        "GIBSON & ASSOCIATES, INC.": 3850.0
+      }
+    },
+    {
+      "itemCode": "0552 6001",
+      "description": "WIRE FENCE (TY A)",
+      "unit": "LF",
+      "quantity": 20.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 50.0,
+        "ACME BRIDGE COMPANY, INC.": 48.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 165.78,
+        "GIBSON & ASSOCIATES, INC.": 150.0
+      }
+    },
+    {
+      "itemCode": "0644 6060",
+      "description": "IN SM RD SN SUP&AM TYTWT(1)WS(P)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 668.75,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 668.75,
+        "ACME BRIDGE COMPANY, INC.": 1070.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 663.12,
+        "GIBSON & ASSOCIATES, INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 93.75,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 93.75,
+        "ACME BRIDGE COMPANY, INC.": 107.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 198.93,
+        "GIBSON & ASSOCIATES, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 50.0,
+        "ACME BRIDGE COMPANY, INC.": 25.6,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 66.31,
+        "GIBSON & ASSOCIATES, INC.": 26.4
+      }
+    },
+    {
+      "itemCode": "0658 6047",
+      "description": "INSTL OM ASSM (OM-2Y)(WC)GND",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 100.0,
+        "ACME BRIDGE COMPANY, INC.": 78.4,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 165.78,
+        "GIBSON & ASSOCIATES, INC.": 80.85
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 75.0,
+        "ACME BRIDGE COMPANY, INC.": 41.6,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 86.2,
+        "GIBSON & ASSOCIATES, INC.": 42.9
+      }
+    },
+    {
+      "itemCode": "0784 6012",
+      "description": "REP STL BRIDGE MEMBER (TOP CHORD)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3750.0,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 3750.0,
+        "ACME BRIDGE COMPANY, INC.": 8900.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 29017.02,
+        "GIBSON & ASSOCIATES, INC.": 36000.0
+      }
+    },
+    {
+      "itemCode": "0784 6033",
+      "description": "REP STL BRIDGE MEMBER (TIGHTEN MEMBER)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 565.0,
+      "lowUnit": 3750.0,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 3750.0,
+        "ACME BRIDGE COMPANY, INC.": 1410.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 1116.22,
+        "GIBSON & ASSOCIATES, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0784 6034",
+      "description": "REP STL BRIDGE MEMBER(STRAIGHTEN MEMB)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 1250.0,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 1250.0,
+        "ACME BRIDGE COMPANY, INC.": 2350.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 1520.59,
+        "GIBSON & ASSOCIATES, INC.": 2500.0
+      }
+    },
+    {
+      "itemCode": "0784 6038",
+      "description": "REP STL BRIDGE MEMBER(REPL RIVET/BOLT)",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 12.5,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 12.5,
+        "ACME BRIDGE COMPANY, INC.": 48.8,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 171.95,
+        "GIBSON & ASSOCIATES, INC.": 145.0
+      }
+    },
+    {
+      "itemCode": "4102 6001",
+      "description": "RELOCATE EXIST TRUSS BRIDGE",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 160000.0,
+      "lowUnit": 25000.0,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 25000.0,
+        "ACME BRIDGE COMPANY, INC.": 161000.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 139413.52,
+        "GIBSON & ASSOCIATES, INC.": 466000.0
+      }
+    },
+    {
+      "itemCode": "4210 6001",
+      "description": "SURFACE TREATMENT OF WROUGHT IRON",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 12000.0,
+      "lowUnit": 3125.0,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 3125.0,
+        "ACME BRIDGE COMPANY, INC.": 43900.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 9316.78,
+        "GIBSON & ASSOCIATES, INC.": 28600.0
+      }
+    }
+  ]
+}

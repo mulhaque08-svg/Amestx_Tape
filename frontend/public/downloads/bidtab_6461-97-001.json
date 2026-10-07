@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6461-97-001",
+    "county": "Jeff Davis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646197001",
+    "projectType": "PICNIC AREA MAINTENANCE",
+    "letDate": "03/14/24",
+    "engEstTotal": 50144.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "LUKEDA SANDBLASTING & SERVICES LLC",
+      "totalBidAmount": 36201.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GROUNDCOVER HOLDINGS, LLC",
+      "totalBidAmount": 48000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "LUKEDA SANDBLASTING & SERVICES LLC": 1.0,
+        "GROUNDCOVER HOLDINGS, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0745 6061",
+      "description": "GROUNDS MAINT (MOWING / TRIMMING)",
+      "unit": "CYC",
+      "quantity": 10.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "LUKEDA SANDBLASTING & SERVICES LLC": 20.0,
+        "GROUNDCOVER HOLDINGS, LLC": 1100.0
+      }
+    },
+    {
+      "itemCode": "0745 6155",
+      "description": "JANITORIAL MAINT (PICNIC AREAS)",
+      "unit": "MO",
+      "quantity": 12.0,
+      "engEstUnit": 3637.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "LUKEDA SANDBLASTING & SERVICES LLC": 3000.0,
+        "GROUNDCOVER HOLDINGS, LLC": 3000.0
+      }
+    }
+  ]
+}

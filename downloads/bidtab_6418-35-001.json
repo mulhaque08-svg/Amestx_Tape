@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6418-35-001",
+    "county": "Coke",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641835001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "10/10/22",
+    "engEstTotal": 123516.8,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 137344.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "EGGEMEYER MOWING & CONTRACTING, INC.",
+      "totalBidAmount": 148108.8
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 4640.0,
+      "engEstUnit": 26.62,
+      "lowUnit": 29.6,
+      "bidders": {
+        "ABESCAPE GROUP LLC": 29.6,
+        "EGGEMEYER MOWING & CONTRACTING, INC.": 31.92
+      }
+    }
+  ]
+}

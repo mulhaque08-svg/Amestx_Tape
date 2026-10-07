@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "csj": "6457-73-001",
+    "county": "Nolan",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645773001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/02/24",
+    "engEstTotal": 305797.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JOSE ERNESTO SALAZAR, LLC",
+      "totalBidAmount": 278679.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ABESCAPE LANDSCAPING, LLC",
+      "totalBidAmount": 303452.68
+    },
+    {
+      "rank": 3,
+      "vendorName": "GREG SCRUGGS",
+      "totalBidAmount": 309092.8
+    },
+    {
+      "rank": 4,
+      "vendorName": "TRIPLE T MAINTENANCE INC.",
+      "totalBidAmount": 341679.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "T&L CLEANING SERVICES LLC",
+      "totalBidAmount": 394773.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 487411.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1503.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "JOSE ERNESTO SALAZAR, LLC": 35.0,
+        "ABESCAPE LANDSCAPING, LLC": 34.88,
+        "GREG SCRUGGS": 32.0,
+        "TRIPLE T MAINTENANCE INC.": 41.0,
+        "T&L CLEANING SERVICES LLC": 50.0,
+        "RISE UP CONSTRUCTION LLC": 55.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 5408.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "JOSE ERNESTO SALAZAR, LLC": 35.0,
+        "ABESCAPE LANDSCAPING, LLC": 36.88,
+        "GREG SCRUGGS": 38.5,
+        "TRIPLE T MAINTENANCE INC.": 41.0,
+        "T&L CLEANING SERVICES LLC": 50.0,
+        "RISE UP CONSTRUCTION LLC": 55.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 2421.0,
+      "engEstUnit": 18.5,
+      "lowUnit": 14.0,
+      "bidders": {
+        "JOSE ERNESTO SALAZAR, LLC": 14.0,
+        "ABESCAPE LANDSCAPING, LLC": 18.0,
+        "GREG SCRUGGS": 18.5,
+        "TRIPLE T MAINTENANCE INC.": 18.0,
+        "T&L CLEANING SERVICES LLC": 20.0,
+        "RISE UP CONSTRUCTION LLC": 29.0
+      }
+    }
+  ]
+}

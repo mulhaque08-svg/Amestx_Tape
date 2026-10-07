@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6391-11-001",
+    "county": "Refugio",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639111001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "11/04/21",
+    "engEstTotal": 383005.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 405418.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 432913.06
+    },
+    {
+      "rank": 3,
+      "vendorName": "SJ&J CONSTRUCTION, LLC",
+      "totalBidAmount": 457270.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 6700.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 5000.0,
+        "R&M INCORPORATED": 1.0,
+        "SJ&J CONSTRUCTION, LLC": 15000.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6399.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 50.0,
+        "R&M INCORPORATED": 55.94,
+        "SJ&J CONSTRUCTION, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 46.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 46.0,
+        "R&M INCORPORATED": 1.0,
+        "SJ&J CONSTRUCTION, LLC": 25.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 2994.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 22.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 22.0,
+        "R&M INCORPORATED": 25.0,
+        "SJ&J CONSTRUCTION, LLC": 30.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6411-05-001",
+    "county": "Austin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641105001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/08/23",
+    "engEstTotal": 233330.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 269500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 378782.9
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1710.0,
+      "engEstUnit": 23.0,
+      "lowUnit": 26.0,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 26.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 39.99
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 7760.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 29.0,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 29.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 40.0
+      }
+    }
+  ]
+}

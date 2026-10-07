@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "csj": "0130-05-086",
+    "county": "Lubbock",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2023(072)",
+    "projectType": "INSTALL ILLUMINATION",
+    "letDate": "10/06/22",
+    "engEstTotal": 253670.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SOUTH TEXAS ILLUMINATION, LLC",
+      "totalBidAmount": 193635.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "VACA UNDERGROUND UTILITIES INC",
+      "totalBidAmount": 217420.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "YUNEX LLC",
+      "totalBidAmount": 249944.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "APOLLO CONSTRUCTORS, INC.",
+      "totalBidAmount": 276469.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, LLC",
+      "totalBidAmount": 396639.81
+    },
+    {
+      "rank": 6,
+      "vendorName": "GILVIN-TERRILL, LTD.",
+      "totalBidAmount": 463275.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 22000.0,
+      "lowUnit": 20659.0,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 20659.0,
+        "VACA UNDERGROUND UTILITIES INC": 20000.0,
+        "YUNEX LLC": 41780.0,
+        "APOLLO CONSTRUCTORS, INC.": 25000.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, LLC": 66970.38,
+        "GILVIN-TERRILL, LTD.": 100000.0
+      }
+    },
+    {
+      "itemCode": "0610 6103",
+      "description": "REPLACE LUMINAIRE W/LED (400W EQ)",
+      "unit": "EA",
+      "quantity": 261.0,
+      "engEstUnit": 670.0,
+      "lowUnit": 415.6,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 415.6,
+        "VACA UNDERGROUND UTILITIES INC": 600.0,
+        "YUNEX LLC": 500.0,
+        "APOLLO CONSTRUCTORS, INC.": 725.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, LLC": 815.63,
+        "GILVIN-TERRILL, LTD.": 775.0
+      }
+    },
+    {
+      "itemCode": "6156 6005",
+      "description": "REPLC LED HI MST IL(6 FIXT)(SYM)(TY S)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 5809.0,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 5809.0,
+        "VACA UNDERGROUND UTILITIES INC": 8000.0,
+        "YUNEX LLC": 10971.0,
+        "APOLLO CONSTRUCTORS, INC.": 9756.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, LLC": 8291.25,
+        "GILVIN-TERRILL, LTD.": 9600.0
+      }
+    }
+  ]
+}

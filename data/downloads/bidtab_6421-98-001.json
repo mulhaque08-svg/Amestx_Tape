@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "csj": "6421-98-001",
+    "county": "Hunt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642198001",
+    "projectType": "ILLUMINATION MAINTENANCE",
+    "letDate": "12/15/22",
+    "engEstTotal": 281410.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "WG ENGINEERING & CONSTRUCTION, LLC",
+      "totalBidAmount": 215688.96
+    },
+    {
+      "rank": 2,
+      "vendorName": "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, LLC",
+      "totalBidAmount": 241967.48
+    },
+    {
+      "rank": 3,
+      "vendorName": "ROAD SOLUTIONS L.L.C.",
+      "totalBidAmount": 308950.3
+    },
+    {
+      "rank": 4,
+      "vendorName": "MICA CORPORATION",
+      "totalBidAmount": 421740.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 23360.0,
+      "lowUnit": 24416.8,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 24416.8,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, LLC": 20142.0,
+        "ROAD SOLUTIONS L.L.C.": 25000.0,
+        "MICA CORPORATION": 41010.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 45.0,
+      "engEstUnit": 210.0,
+      "lowUnit": 96.23,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 96.23,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, LLC": 90.0,
+        "ROAD SOLUTIONS L.L.C.": 133.34,
+        "MICA CORPORATION": 75.0
+      }
+    },
+    {
+      "itemCode": "6156 6005",
+      "description": "REPLC LED HI MST IL(6 FIXT)(SYM)(TY S)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 7540.17,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 7540.17,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, LLC": 8420.76,
+        "ROAD SOLUTIONS L.L.C.": 11350.0,
+        "MICA CORPORATION": 15310.0
+      }
+    },
+    {
+      "itemCode": "6156 6007",
+      "description": "REPLC LED HI MST IL(6 FIXT)(ASYM)(TY B)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 7165.77,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 7165.77,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, LLC": 8420.76,
+        "ROAD SOLUTIONS L.L.C.": 10350.0,
+        "MICA CORPORATION": 15115.0
+      }
+    }
+  ]
+}

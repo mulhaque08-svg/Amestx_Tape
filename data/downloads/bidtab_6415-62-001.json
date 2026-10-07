@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "csj": "6415-62-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641562001",
+    "projectType": "POTHOLE REPAIR",
+    "letDate": "12/01/22",
+    "engEstTotal": 373275.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "PATHFIELD INVESTMENTS LLC",
+      "totalBidAmount": 410600.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 489350.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "FOUTSCO PAVING COMPANY, LLC",
+      "totalBidAmount": 576078.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 13.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 5000.0,
+        "FNH CONSTRUCTION, LLC": 2000.0,
+        "FOUTSCO PAVING COMPANY, LLC": 3500.0
+      }
+    },
+    {
+      "itemCode": "0700 6001",
+      "description": "POTHOLE REPAIR (STANDARD)",
+      "unit": "SY",
+      "quantity": 1750.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 125.0,
+        "FNH CONSTRUCTION, LLC": 155.0,
+        "FOUTSCO PAVING COMPANY, LLC": 190.0
+      }
+    },
+    {
+      "itemCode": "0700 6005",
+      "description": "POTHOLE REPAIR (SAW - CUT)",
+      "unit": "SY",
+      "quantity": 415.0,
+      "engEstUnit": 145.0,
+      "lowUnit": 110.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 110.0,
+        "FNH CONSTRUCTION, LLC": 200.0,
+        "FOUTSCO PAVING COMPANY, LLC": 290.0
+      }
+    },
+    {
+      "itemCode": "0700 6009",
+      "description": "EMERGENCY MOBILIZATION",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 2000.0,
+        "FNH CONSTRUCTION, LLC": 5000.0,
+        "FOUTSCO PAVING COMPANY, LLC": 3500.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 18.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 300.0,
+        "FNH CONSTRUCTION, LLC": 150.0,
+        "FOUTSCO PAVING COMPANY, LLC": 1.0
+      }
+    }
+  ]
+}

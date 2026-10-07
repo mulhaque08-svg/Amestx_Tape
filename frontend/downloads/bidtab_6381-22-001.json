@@ -1,0 +1,656 @@
+{
+  "metadata": {
+    "csj": "6381-22-001",
+    "county": "Bell",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638122001",
+    "projectType": "PAVEMENT MARKINGS",
+    "letDate": "10/07/21",
+    "engEstTotal": 3698181.6,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "PAVEMENT MARKINGS INC.",
+      "totalBidAmount": 3150885.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BATTERSON, LLP",
+      "totalBidAmount": 3499753.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "STRIPING TECHNOLOGY, L.P.",
+      "totalBidAmount": 3666767.5
+    },
+    {
+      "rank": 4,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 3874790.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "D. I. J. CONSTRUCTION, INC.",
+      "totalBidAmount": 3949035.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 1382.61,
+      "lowUnit": 1400.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 1400.0,
+        "BATTERSON, LLP": 2500.0,
+        "STRIPING TECHNOLOGY, L.P.": 5000.0,
+        "TRP CONSTRUCTION GROUP, LLC": 1000.0,
+        "D. I. J. CONSTRUCTION, INC.": 10000.0
+      }
+    },
+    {
+      "itemCode": "0533 6003",
+      "description": "RUMBLE STRIPS (SHOULDER) ASPHALT",
+      "unit": "LF",
+      "quantity": 10000.0,
+      "engEstUnit": 0.35,
+      "lowUnit": 0.5,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 0.5,
+        "BATTERSON, LLP": 0.5,
+        "STRIPING TECHNOLOGY, L.P.": 0.6,
+        "TRP CONSTRUCTION GROUP, LLC": 0.5,
+        "D. I. J. CONSTRUCTION, INC.": 0.5
+      }
+    },
+    {
+      "itemCode": "0533 6004",
+      "description": "RUMBLE STRIPS (CENTERLINE) ASPHALT",
+      "unit": "LF",
+      "quantity": 5000.0,
+      "engEstUnit": 0.55,
+      "lowUnit": 0.9,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 0.9,
+        "BATTERSON, LLP": 0.5,
+        "STRIPING TECHNOLOGY, L.P.": 0.6,
+        "TRP CONSTRUCTION GROUP, LLC": 1.0,
+        "D. I. J. CONSTRUCTION, INC.": 0.8
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 225.0,
+      "engEstUnit": 170.98,
+      "lowUnit": 180.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 180.0,
+        "BATTERSON, LLP": 200.0,
+        "STRIPING TECHNOLOGY, L.P.": 195.0,
+        "TRP CONSTRUCTION GROUP, LLC": 200.0,
+        "D. I. J. CONSTRUCTION, INC.": 165.0
+      }
+    },
+    {
+      "itemCode": "0668 6078",
+      "description": "PREFAB PAV MRK TY C (W) (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 420.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 420.0,
+        "BATTERSON, LLP": 370.0,
+        "STRIPING TECHNOLOGY, L.P.": 245.0,
+        "TRP CONSTRUCTION GROUP, LLC": 350.0,
+        "D. I. J. CONSTRUCTION, INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "0668 6079",
+      "description": "PREFAB PAV MRK TY C (W) (TPL ARROW)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 380.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 300.0,
+        "BATTERSON, LLP": 460.0,
+        "STRIPING TECHNOLOGY, L.P.": 350.0,
+        "TRP CONSTRUCTION GROUP, LLC": 400.0,
+        "D. I. J. CONSTRUCTION, INC.": 450.0
+      }
+    },
+    {
+      "itemCode": "0668 6080",
+      "description": "PREFAB PAV MRK TY C (W) (UTURN ARROW)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 320.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 320.0,
+        "BATTERSON, LLP": 385.0,
+        "STRIPING TECHNOLOGY, L.P.": 350.0,
+        "TRP CONSTRUCTION GROUP, LLC": 325.0,
+        "D. I. J. CONSTRUCTION, INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0668 6081",
+      "description": "PREFAB PAV MRK TY C (W) (U-LT ARROW)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 320.0,
+      "lowUnit": 340.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 340.0,
+        "BATTERSON, LLP": 460.0,
+        "STRIPING TECHNOLOGY, L.P.": 400.0,
+        "TRP CONSTRUCTION GROUP, LLC": 325.0,
+        "D. I. J. CONSTRUCTION, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0668 6083",
+      "description": "PREFAB PAV MRK TY C (W) (LNDP ARROW)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 490.0,
+      "lowUnit": 480.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 480.0,
+        "BATTERSON, LLP": 500.0,
+        "STRIPING TECHNOLOGY, L.P.": 375.0,
+        "TRP CONSTRUCTION GROUP, LLC": 400.0,
+        "D. I. J. CONSTRUCTION, INC.": 580.0
+      }
+    },
+    {
+      "itemCode": "0668 6084",
+      "description": "PREFAB PAV MRK TY C (W) (NUMBER)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 400.0,
+        "BATTERSON, LLP": 200.0,
+        "STRIPING TECHNOLOGY, L.P.": 175.0,
+        "TRP CONSTRUCTION GROUP, LLC": 225.0,
+        "D. I. J. CONSTRUCTION, INC.": 310.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 420.0,
+      "lowUnit": 490.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 490.0,
+        "BATTERSON, LLP": 250.0,
+        "STRIPING TECHNOLOGY, L.P.": 245.0,
+        "TRP CONSTRUCTION GROUP, LLC": 250.0,
+        "D. I. J. CONSTRUCTION, INC.": 495.0
+      }
+    },
+    {
+      "itemCode": "0668 6089",
+      "description": "PREFAB PAV MRK TY C (W) (RR XING)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 480.0,
+      "lowUnit": 580.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 580.0,
+        "BATTERSON, LLP": 600.0,
+        "STRIPING TECHNOLOGY, L.P.": 600.5,
+        "TRP CONSTRUCTION GROUP, LLC": 600.0,
+        "D. I. J. CONSTRUCTION, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0668 6090",
+      "description": "PREFAB PAV MRK TY C (W) (SYMBOL)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 320.0,
+      "lowUnit": 480.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 480.0,
+        "BATTERSON, LLP": 350.0,
+        "STRIPING TECHNOLOGY, L.P.": 250.0,
+        "TRP CONSTRUCTION GROUP, LLC": 100.0,
+        "D. I. J. CONSTRUCTION, INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "0668 6091",
+      "description": "PREFAB PAV MRK TY C (W) (18\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 18.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 18.0,
+        "BATTERSON, LLP": 30.0,
+        "STRIPING TECHNOLOGY, L.P.": 42.5,
+        "TRP CONSTRUCTION GROUP, LLC": 40.0,
+        "D. I. J. CONSTRUCTION, INC.": 18.0
+      }
+    },
+    {
+      "itemCode": "0668 6092",
+      "description": "PREFAB PAV MRK TY C (W) (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 250.0,
+      "engEstUnit": 28.0,
+      "lowUnit": 32.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 32.0,
+        "BATTERSON, LLP": 40.0,
+        "STRIPING TECHNOLOGY, L.P.": 42.5,
+        "TRP CONSTRUCTION GROUP, LLC": 45.0,
+        "D. I. J. CONSTRUCTION, INC.": 35.0
+      }
+    },
+    {
+      "itemCode": "0668 6115",
+      "description": "PREFAB PAV MRK TY C (MULTI) (SHIELD)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 2100.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 2100.0,
+        "BATTERSON, LLP": 2000.0,
+        "STRIPING TECHNOLOGY, L.P.": 3500.0,
+        "TRP CONSTRUCTION GROUP, LLC": 2650.0,
+        "D. I. J. CONSTRUCTION, INC.": 1535.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 500.0,
+      "engEstUnit": 4.23,
+      "lowUnit": 4.8,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 4.8,
+        "BATTERSON, LLP": 5.0,
+        "STRIPING TECHNOLOGY, L.P.": 4.0,
+        "TRP CONSTRUCTION GROUP, LLC": 3.0,
+        "D. I. J. CONSTRUCTION, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0672 6008",
+      "description": "REFL PAV MRKR TY I-R",
+      "unit": "EA",
+      "quantity": 500.0,
+      "engEstUnit": 3.2,
+      "lowUnit": 11.8,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 11.8,
+        "BATTERSON, LLP": 5.0,
+        "STRIPING TECHNOLOGY, L.P.": 4.0,
+        "TRP CONSTRUCTION GROUP, LLC": 7.5,
+        "D. I. J. CONSTRUCTION, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 500.0,
+      "engEstUnit": 5.64,
+      "lowUnit": 4.2,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 4.2,
+        "BATTERSON, LLP": 5.0,
+        "STRIPING TECHNOLOGY, L.P.": 4.0,
+        "TRP CONSTRUCTION GROUP, LLC": 3.0,
+        "D. I. J. CONSTRUCTION, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 500.0,
+      "engEstUnit": 2.8,
+      "lowUnit": 4.8,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 4.8,
+        "BATTERSON, LLP": 5.0,
+        "STRIPING TECHNOLOGY, L.P.": 4.0,
+        "TRP CONSTRUCTION GROUP, LLC": 3.0,
+        "D. I. J. CONSTRUCTION, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 2500.0,
+      "engEstUnit": 1.6,
+      "lowUnit": 1.8,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 1.8,
+        "BATTERSON, LLP": 1.0,
+        "STRIPING TECHNOLOGY, L.P.": 1.0,
+        "TRP CONSTRUCTION GROUP, LLC": 1.0,
+        "D. I. J. CONSTRUCTION, INC.": 1.95
+      }
+    },
+    {
+      "itemCode": "0677 6002",
+      "description": "ELIM EXT PAV MRK & MRKS (6\")",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 1.65,
+      "lowUnit": 1.9,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 1.9,
+        "BATTERSON, LLP": 1.0,
+        "STRIPING TECHNOLOGY, L.P.": 1.0,
+        "TRP CONSTRUCTION GROUP, LLC": 1.0,
+        "D. I. J. CONSTRUCTION, INC.": 2.3
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 2500.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 2.4,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 2.4,
+        "BATTERSON, LLP": 2.0,
+        "STRIPING TECHNOLOGY, L.P.": 1.0,
+        "TRP CONSTRUCTION GROUP, LLC": 1.0,
+        "D. I. J. CONSTRUCTION, INC.": 2.5
+      }
+    },
+    {
+      "itemCode": "0677 6005",
+      "description": "ELIM EXT PAV MRK & MRKS (12\")",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 1.9,
+      "lowUnit": 6.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 6.0,
+        "BATTERSON, LLP": 2.0,
+        "STRIPING TECHNOLOGY, L.P.": 1.0,
+        "TRP CONSTRUCTION GROUP, LLC": 1.5,
+        "D. I. J. CONSTRUCTION, INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 8500.0,
+      "engEstUnit": 1.95,
+      "lowUnit": 2.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 2.0,
+        "BATTERSON, LLP": 3.0,
+        "STRIPING TECHNOLOGY, L.P.": 1.75,
+        "TRP CONSTRUCTION GROUP, LLC": 4.0,
+        "D. I. J. CONSTRUCTION, INC.": 2.7
+      }
+    },
+    {
+      "itemCode": "0677 6008",
+      "description": "ELIM EXT PAV MRK & MRKS (ARROW)",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 40.0,
+        "BATTERSON, LLP": 100.0,
+        "STRIPING TECHNOLOGY, L.P.": 50.0,
+        "TRP CONSTRUCTION GROUP, LLC": 100.0,
+        "D. I. J. CONSTRUCTION, INC.": 35.0
+      }
+    },
+    {
+      "itemCode": "0677 6009",
+      "description": "ELIM EXT PAV MRK & MRKS (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 200.0,
+        "BATTERSON, LLP": 200.0,
+        "STRIPING TECHNOLOGY, L.P.": 75.0,
+        "TRP CONSTRUCTION GROUP, LLC": 100.0,
+        "D. I. J. CONSTRUCTION, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0677 6011",
+      "description": "ELIM EXT PAV MRK & MRKS (NUMBER)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 40.0,
+        "BATTERSON, LLP": 100.0,
+        "STRIPING TECHNOLOGY, L.P.": 150.0,
+        "TRP CONSTRUCTION GROUP, LLC": 100.0,
+        "D. I. J. CONSTRUCTION, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0677 6012",
+      "description": "ELIM EXT PAV MRK & MRKS (WORD)",
+      "unit": "EA",
+      "quantity": 115.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 40.0,
+        "BATTERSON, LLP": 100.0,
+        "STRIPING TECHNOLOGY, L.P.": 80.0,
+        "TRP CONSTRUCTION GROUP, LLC": 100.0,
+        "D. I. J. CONSTRUCTION, INC.": 35.0
+      }
+    },
+    {
+      "itemCode": "0677 6016",
+      "description": "ELIM EXT PAV MRK & MRKS (RR XING)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 200.0,
+        "BATTERSON, LLP": 400.0,
+        "STRIPING TECHNOLOGY, L.P.": 300.0,
+        "TRP CONSTRUCTION GROUP, LLC": 150.0,
+        "D. I. J. CONSTRUCTION, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0677 6017",
+      "description": "ELIM EXT PAV MRK & MRKS (SYMBOL)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 180.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 180.0,
+        "BATTERSON, LLP": 100.0,
+        "STRIPING TECHNOLOGY, L.P.": 200.0,
+        "TRP CONSTRUCTION GROUP, LLC": 100.0,
+        "D. I. J. CONSTRUCTION, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0677 6019",
+      "description": "ELIM EXT PAV MRK & MRKS (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 500.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 5.0,
+        "BATTERSON, LLP": 25.0,
+        "STRIPING TECHNOLOGY, L.P.": 30.0,
+        "TRP CONSTRUCTION GROUP, LLC": 50.0,
+        "D. I. J. CONSTRUCTION, INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0677 6036",
+      "description": "ELIM EXT PAV MRK & MRKS (UTURN ARROW)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 100.0,
+        "BATTERSON, LLP": 100.0,
+        "STRIPING TECHNOLOGY, L.P.": 100.0,
+        "TRP CONSTRUCTION GROUP, LLC": 100.0,
+        "D. I. J. CONSTRUCTION, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "6038 6001",
+      "description": "MULTIPOLYMER PAV MRK (W)(4\")(SLD)",
+      "unit": "LF",
+      "quantity": 500000.0,
+      "engEstUnit": 0.26,
+      "lowUnit": 0.38,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 0.38,
+        "BATTERSON, LLP": 0.4,
+        "STRIPING TECHNOLOGY, L.P.": 0.4,
+        "TRP CONSTRUCTION GROUP, LLC": 0.35,
+        "D. I. J. CONSTRUCTION, INC.": 0.4
+      }
+    },
+    {
+      "itemCode": "6038 6002",
+      "description": "MULTIPOLYMER PAV MRK (W)(4\")(BRK)",
+      "unit": "LF",
+      "quantity": 300000.0,
+      "engEstUnit": 0.22,
+      "lowUnit": 0.38,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 0.38,
+        "BATTERSON, LLP": 0.4,
+        "STRIPING TECHNOLOGY, L.P.": 0.4,
+        "TRP CONSTRUCTION GROUP, LLC": 0.45,
+        "D. I. J. CONSTRUCTION, INC.": 0.4
+      }
+    },
+    {
+      "itemCode": "6038 6004",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(SLD)",
+      "unit": "LF",
+      "quantity": 500000.0,
+      "engEstUnit": 0.34,
+      "lowUnit": 0.44,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 0.44,
+        "BATTERSON, LLP": 0.5,
+        "STRIPING TECHNOLOGY, L.P.": 0.5,
+        "TRP CONSTRUCTION GROUP, LLC": 0.45,
+        "D. I. J. CONSTRUCTION, INC.": 0.5
+      }
+    },
+    {
+      "itemCode": "6038 6005",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(BRK)",
+      "unit": "LF",
+      "quantity": 350000.0,
+      "engEstUnit": 0.32,
+      "lowUnit": 0.44,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 0.44,
+        "BATTERSON, LLP": 0.5,
+        "STRIPING TECHNOLOGY, L.P.": 0.5,
+        "TRP CONSTRUCTION GROUP, LLC": 0.55,
+        "D. I. J. CONSTRUCTION, INC.": 0.5
+      }
+    },
+    {
+      "itemCode": "6038 6014",
+      "description": "MULTIPOLYMER PAV MRK (Y)(4\")(SLD)",
+      "unit": "LF",
+      "quantity": 250000.0,
+      "engEstUnit": 0.32,
+      "lowUnit": 0.38,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 0.38,
+        "BATTERSON, LLP": 0.4,
+        "STRIPING TECHNOLOGY, L.P.": 0.4,
+        "TRP CONSTRUCTION GROUP, LLC": 0.35,
+        "D. I. J. CONSTRUCTION, INC.": 0.4
+      }
+    },
+    {
+      "itemCode": "6038 6017",
+      "description": "MULTIPOLYMER PAV MRK (Y)(6\")(SLD)",
+      "unit": "LF",
+      "quantity": 500000.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 0.44,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 0.44,
+        "BATTERSON, LLP": 0.5,
+        "STRIPING TECHNOLOGY, L.P.": 0.5,
+        "TRP CONSTRUCTION GROUP, LLC": 0.45,
+        "D. I. J. CONSTRUCTION, INC.": 0.5
+      }
+    },
+    {
+      "itemCode": "6056 6001",
+      "description": "PREFORMED IN-LANE(TRANS) RUMBLE STRIP",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 38.0,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 38.0,
+        "BATTERSON, LLP": 8.0,
+        "STRIPING TECHNOLOGY, L.P.": 15.0,
+        "TRP CONSTRUCTION GROUP, LLC": 5.0,
+        "D. I. J. CONSTRUCTION, INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "6056 6002",
+      "description": "PREFORMED CENTERLINE RUMBLE STRIP",
+      "unit": "LF",
+      "quantity": 200000.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 2.4,
+      "bidders": {
+        "PAVEMENT MARKINGS INC.": 2.4,
+        "BATTERSON, LLP": 3.5,
+        "STRIPING TECHNOLOGY, L.P.": 4.35,
+        "TRP CONSTRUCTION GROUP, LLC": 4.5,
+        "D. I. J. CONSTRUCTION, INC.": 4.3
+      }
+    }
+  ]
+}

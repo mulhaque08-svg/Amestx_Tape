@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6401-42-001",
+    "county": "Smith",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640142001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/04/22",
+    "engEstTotal": 333120.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "12TWELVE ROAD AND BRIDGE LLC",
+      "totalBidAmount": 345292.9
+    },
+    {
+      "rank": 2,
+      "vendorName": "SCOUT 5 CONSTRUCTION LLC",
+      "totalBidAmount": 357847.98
+    },
+    {
+      "rank": 3,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 359003.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 420087.6
+    },
+    {
+      "rank": 5,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 426380.32
+    },
+    {
+      "rank": 6,
+      "vendorName": "RED BARON BUILDING COMPANY, LLC",
+      "totalBidAmount": 626431.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 0.3,
+      "bidders": {
+        "12TWELVE ROAD AND BRIDGE LLC": 0.3,
+        "SCOUT 5 CONSTRUCTION LLC": 2.65,
+        "D & M CONTRACTORS, LLC": 4000.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0,
+        "CRACKSEAL OF TEXAS, LLC": 18000.0,
+        "RED BARON BUILDING COMPANY, LLC": 75000.0
+      }
+    }
+  ]
+}

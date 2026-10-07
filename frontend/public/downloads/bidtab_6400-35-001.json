@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6400-35-001",
+    "county": "Nacogdoches",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 640035001",
+    "projectType": "EMULSION",
+    "letDate": "04/14/22",
+    "engEstTotal": 136272.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 153306.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CLEVELAND ASPHALT PRODUCTS, INC.",
+      "totalBidAmount": 159819.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ERGON ASPHALT & EMULSIONS, INC.",
+      "totalBidAmount": 171157.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "WRIGHT ASPHALT PRODUCTS COMPANY LLC",
+      "totalBidAmount": 182865.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6252",
+      "description": "CRS2P (DEL) (SITE 1)",
+      "unit": "GAL",
+      "quantity": 12000.0,
+      "engEstUnit": 2.72,
+      "lowUnit": 3.06,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.06,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 3.19,
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.42,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.65
+      }
+    },
+    {
+      "itemCode": "8010 6253",
+      "description": "CRS2P (DEL) (SITE 2)",
+      "unit": "GAL",
+      "quantity": 18500.0,
+      "engEstUnit": 2.72,
+      "lowUnit": 3.06,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.06,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 3.19,
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.41,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.65
+      }
+    },
+    {
+      "itemCode": "8010 6254",
+      "description": "CRS2P (DEL) (SITE 3)",
+      "unit": "GAL",
+      "quantity": 19600.0,
+      "engEstUnit": 2.72,
+      "lowUnit": 3.06,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.06,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 3.19,
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.42,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.65
+      }
+    }
+  ]
+}

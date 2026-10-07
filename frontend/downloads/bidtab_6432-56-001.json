@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6432-56-001",
+    "county": "Gregg",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 643256001",
+    "projectType": "ASPHALT",
+    "letDate": "02/14/23",
+    "engEstTotal": 248000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 229800.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "WRIGHT ASPHALT PRODUCTS COMPANY LLC",
+      "totalBidAmount": 243500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6014",
+      "description": "ASPHALT, AC-20-5TR (PICKUP)",
+      "unit": "GAL",
+      "quantity": 10000.0,
+      "engEstUnit": 3.2,
+      "lowUnit": 3.0,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.0,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.35
+      }
+    },
+    {
+      "itemCode": "8010 6232",
+      "description": "ASPH (AC20-5TR) (DEL) SITE 1",
+      "unit": "GAL",
+      "quantity": 30000.0,
+      "engEstUnit": 3.6,
+      "lowUnit": 3.34,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.34,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.5
+      }
+    },
+    {
+      "itemCode": "8010 6233",
+      "description": "ASPH (AC20-5TR) (DEL) SITE 2",
+      "unit": "GAL",
+      "quantity": 30000.0,
+      "engEstUnit": 3.6,
+      "lowUnit": 3.32,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.32,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.5
+      }
+    }
+  ]
+}

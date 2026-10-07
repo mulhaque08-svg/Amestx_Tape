@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6449-35-001",
+    "county": "Travis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644935001",
+    "projectType": "REPAIR/REPLACE TRAFFIC DATA SENSORS",
+    "letDate": "02/01/24",
+    "engEstTotal": 1042846.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "LIGHT IT UP ELECTRIC",
+      "totalBidAmount": 1189692.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ELECNOR BELCO ELECTRIC, INC.",
+      "totalBidAmount": 1371000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0618 6023",
+      "description": "CONDT (PVC) (SCH 40) (2\")",
+      "unit": "LF",
+      "quantity": 2450.0,
+      "engEstUnit": 19.1,
+      "lowUnit": 26.0,
+      "bidders": {
+        "LIGHT IT UP ELECTRIC": 26.0,
+        "ELECNOR BELCO ELECTRIC, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0620 6008",
+      "description": "ELEC CONDR (NO.8) INSULATED",
+      "unit": "LF",
+      "quantity": 14400.0,
+      "engEstUnit": 2.37,
+      "lowUnit": 2.68,
+      "bidders": {
+        "LIGHT IT UP ELECTRIC": 2.68,
+        "ELECNOR BELCO ELECTRIC, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0624 6001",
+      "description": "GROUND BOX TY A (122311)",
+      "unit": "EA",
+      "quantity": 23.0,
+      "engEstUnit": 1300.0,
+      "lowUnit": 2650.0,
+      "bidders": {
+        "LIGHT IT UP ELECTRIC": 2650.0,
+        "ELECNOR BELCO ELECTRIC, INC.": 1800.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6456-15-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645615001",
+    "projectType": "RAISED PAVEMENT MARKERS",
+    "letDate": "01/04/24",
+    "engEstTotal": 477702.07,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FC TRAFFIC CONTROL, INC.",
+      "totalBidAmount": 388191.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TRAFFIC HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 492592.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "BRYDL CONTRACTING, LLC",
+      "totalBidAmount": 591947.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 39443.37,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 1.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 45000.0,
+        "BRYDL CONTRACTING, LLC": 75000.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 3755.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 7.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 7.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 8.0,
+        "BRYDL CONTRACTING, LLC": 9.0
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 48100.0,
+      "engEstUnit": 5.41,
+      "lowUnit": 7.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 7.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 8.0,
+        "BRYDL CONTRACTING, LLC": 9.0
+      }
+    }
+  ]
+}

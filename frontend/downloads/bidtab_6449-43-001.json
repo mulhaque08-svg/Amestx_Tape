@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6449-43-001",
+    "county": "Lasalle",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644943001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "06/20/24",
+    "engEstTotal": 266838.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "USA DT SERVICES, INC.",
+      "totalBidAmount": 265338.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 274105.49
+    },
+    {
+      "rank": 3,
+      "vendorName": "CONCAN SERVICES LLC",
+      "totalBidAmount": 287486.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 537.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 42.0,
+      "bidders": {
+        "USA DT SERVICES, INC.": 42.0,
+        "R&M INCORPORATED": 43.09,
+        "CONCAN SERVICES LLC": 38.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 5824.0,
+      "engEstUnit": 42.0,
+      "lowUnit": 41.0,
+      "bidders": {
+        "USA DT SERVICES, INC.": 41.0,
+        "R&M INCORPORATED": 43.09,
+        "CONCAN SERVICES LLC": 45.0
+      }
+    }
+  ]
+}

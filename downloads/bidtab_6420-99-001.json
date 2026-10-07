@@ -1,0 +1,382 @@
+{
+  "metadata": {
+    "csj": "6420-99-001",
+    "county": "Bosque",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642099001",
+    "projectType": "TRAFFIC CONTROL SERVICES",
+    "letDate": "11/03/22",
+    "engEstTotal": 2990050.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "STATEWIDE SAFETY SYSTEMS",
+      "totalBidAmount": 2857805.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "NIXON ENGINEERING",
+      "totalBidAmount": 3373600.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "FC TRAFFIC CONTROL, INC.",
+      "totalBidAmount": 4660000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 200.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 100.0,
+        "NIXON ENGINEERING": 2000.0,
+        "FC TRAFFIC CONTROL, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 500.0,
+        "NIXON ENGINEERING": 1000.0,
+        "FC TRAFFIC CONTROL, INC.": 750.0
+      }
+    },
+    {
+      "itemCode": "0510 6004",
+      "description": "ONE-WAY TRAFFIC CONTROL (PORT TRAF SIG)",
+      "unit": "DAY",
+      "quantity": 10.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 225.0,
+        "NIXON ENGINEERING": 10.0,
+        "FC TRAFFIC CONTROL, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0512 6094",
+      "description": "PTB (FUR & INST)(STEEL)",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 46.5,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 46.5,
+        "NIXON ENGINEERING": 10.0,
+        "FC TRAFFIC CONTROL, INC.": 160.0
+      }
+    },
+    {
+      "itemCode": "0512 6096",
+      "description": "PTB (REMOVE)(STEEL)",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 12.0,
+        "NIXON ENGINEERING": 10.0,
+        "FC TRAFFIC CONTROL, INC.": 160.0
+      }
+    },
+    {
+      "itemCode": "0545 6002",
+      "description": "CRASH CUSH ATTEN (DES SOURCE)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 2850.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 2850.0,
+        "NIXON ENGINEERING": 1000.0,
+        "FC TRAFFIC CONTROL, INC.": 1500.0
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 1100.0,
+        "NIXON ENGINEERING": 1000.0,
+        "FC TRAFFIC CONTROL, INC.": 1500.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 120.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 75.0,
+        "NIXON ENGINEERING": 100.0,
+        "FC TRAFFIC CONTROL, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "7052 6042",
+      "description": "LANE CLOSURE (SETUP AND REMOV)(TY 1)",
+      "unit": "EA",
+      "quantity": 750.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 375.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 375.0,
+        "NIXON ENGINEERING": 150.0,
+        "FC TRAFFIC CONTROL, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "7052 6043",
+      "description": "LANE CLOSURE (SETUP AND REMOV)(TY 2)",
+      "unit": "EA",
+      "quantity": 200.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 375.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 375.0,
+        "NIXON ENGINEERING": 50.0,
+        "FC TRAFFIC CONTROL, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "7052 6044",
+      "description": "LANE CLOSURE (SETUP AND REMOV)(TY 3)",
+      "unit": "EA",
+      "quantity": 60.0,
+      "engEstUnit": 320.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 350.0,
+        "NIXON ENGINEERING": 150.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "7052 6045",
+      "description": "LANE CLOSURE (SETUP AND REMOV)(TY 4)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 355.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 355.0,
+        "NIXON ENGINEERING": 2000.0,
+        "FC TRAFFIC CONTROL, INC.": 4000.0
+      }
+    },
+    {
+      "itemCode": "7052 6046",
+      "description": "LANE CLOSURE (SETUP AND REMOV)(TY 5)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 400.0,
+        "NIXON ENGINEERING": 500.0,
+        "FC TRAFFIC CONTROL, INC.": 5000.0
+      }
+    },
+    {
+      "itemCode": "7052 6047",
+      "description": "LANE CLOSURE (SETUP AND REMOV)(TY 6)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 425.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 425.0,
+        "NIXON ENGINEERING": 2000.0,
+        "FC TRAFFIC CONTROL, INC.": 5000.0
+      }
+    },
+    {
+      "itemCode": "7052 6050",
+      "description": "LANE CLOSURE (SETUP AND REMOV)(TY 9)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 400.0,
+        "NIXON ENGINEERING": 1000.0,
+        "FC TRAFFIC CONTROL, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "7052 6057",
+      "description": "LANE CLOSURE (SETUP AND REMOV)(TY 16)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 210.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 210.0,
+        "NIXON ENGINEERING": 500.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "7052 6059",
+      "description": "LANE CLOSURE (MAINTENANCE) (TY 1)",
+      "unit": "HR",
+      "quantity": 4800.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 115.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 115.0,
+        "NIXON ENGINEERING": 150.0,
+        "FC TRAFFIC CONTROL, INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "7052 6060",
+      "description": "LANE CLOSURE (MAINTENANCE) (TY 2)",
+      "unit": "HR",
+      "quantity": 1500.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 120.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 120.0,
+        "NIXON ENGINEERING": 120.0,
+        "FC TRAFFIC CONTROL, INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "7052 6061",
+      "description": "LANE CLOSURE (MAINTENANCE) (TY 3)",
+      "unit": "HR",
+      "quantity": 400.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 115.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 115.0,
+        "NIXON ENGINEERING": 120.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "7052 6062",
+      "description": "LANE CLOSURE (MAINTENANCE) (TY 4)",
+      "unit": "HR",
+      "quantity": 10.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 120.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 120.0,
+        "NIXON ENGINEERING": 100.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "7052 6063",
+      "description": "LANE CLOSURE (MAINTENANCE) (TY 5)",
+      "unit": "HR",
+      "quantity": 100.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 130.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 130.0,
+        "NIXON ENGINEERING": 100.0,
+        "FC TRAFFIC CONTROL, INC.": 150.0
+      }
+    },
+    {
+      "itemCode": "7052 6064",
+      "description": "LANE CLOSURE (MAINTENANCE) (TY 6)",
+      "unit": "HR",
+      "quantity": 10.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 135.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 135.0,
+        "NIXON ENGINEERING": 100.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "7052 6067",
+      "description": "LANE CLOSURE (MAINTENANCE) (TY 9)",
+      "unit": "HR",
+      "quantity": 20.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 125.0,
+        "NIXON ENGINEERING": 100.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "7052 6074",
+      "description": "LANE CLOSURE (MAINTENANCE) (TY 16)",
+      "unit": "HR",
+      "quantity": 80.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 65.0,
+        "NIXON ENGINEERING": 100.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "7052 6076",
+      "description": "MOBILE OPERATIONS",
+      "unit": "HR",
+      "quantity": 10.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 100.0,
+        "NIXON ENGINEERING": 100.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "7052 6079",
+      "description": "LANE CLOSURE (SETUP AND REMOV)(TY 22)",
+      "unit": "HR",
+      "quantity": 6500.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 40.0,
+        "NIXON ENGINEERING": 30.0,
+        "FC TRAFFIC CONTROL, INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "7052 6080",
+      "description": "LANE CLOSURE (SETUP AND REMOV)(TY 23)",
+      "unit": "HR",
+      "quantity": 7000.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "STATEWIDE SAFETY SYSTEMS": 55.0,
+        "NIXON ENGINEERING": 90.0,
+        "FC TRAFFIC CONTROL, INC.": 100.0
+      }
+    }
+  ]
+}

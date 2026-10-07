@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6390-31-001",
+    "county": "Callahan",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639031001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/01/21",
+    "engEstTotal": 329410.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 408249.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "JASCO",
+      "totalBidAmount": 449649.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 2000.0,
+        "JASCO": 5000.0
+      }
+    },
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 889.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 41.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 41.0,
+        "JASCO": 45.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6986.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 41.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 41.0,
+        "JASCO": 45.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 1.0,
+        "JASCO": 100.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 4293.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 18.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 18.0,
+        "JASCO": 18.0
+      }
+    }
+  ]
+}

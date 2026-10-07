@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6371-76-001",
+    "county": "Jefferson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637176001",
+    "projectType": "BEAUMONT ~ ROW MOWING",
+    "letDate": "03/04/21",
+    "engEstTotal": 344275.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "WAYNE YANCEY, INC.",
+      "totalBidAmount": 318686.36
+    },
+    {
+      "rank": 2,
+      "vendorName": "CLASSIC IRRIGATION & LANDSCAPE LLC",
+      "totalBidAmount": 360560.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 514.0,
+      "engEstUnit": 37.5,
+      "lowUnit": 35.74,
+      "bidders": {
+        "WAYNE YANCEY, INC.": 35.74,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 8400.0,
+      "engEstUnit": 37.5,
+      "lowUnit": 35.74,
+      "bidders": {
+        "WAYNE YANCEY, INC.": 35.74,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "WAYNE YANCEY, INC.": 1.0,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 40.0
+      }
+    }
+  ]
+}

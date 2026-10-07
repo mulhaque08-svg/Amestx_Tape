@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6457-11-001",
+    "county": "Borden",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645711001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/20/24",
+    "engEstTotal": 120148.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "THE ROLLING GROUP LLC",
+      "totalBidAmount": 99736.01
+    },
+    {
+      "rank": 2,
+      "vendorName": "DESERT LUXURY TRANSPORTATION, LLC",
+      "totalBidAmount": 118083.8
+    },
+    {
+      "rank": 3,
+      "vendorName": "GROUNDCOVER HOLDINGS, LLC",
+      "totalBidAmount": 130962.56
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 633.0,
+      "engEstUnit": 28.0,
+      "lowUnit": 25.333,
+      "bidders": {
+        "THE ROLLING GROUP LLC": 25.333,
+        "DESERT LUXURY TRANSPORTATION, LLC": 25.0,
+        "GROUNDCOVER HOLDINGS, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 3304.0,
+      "engEstUnit": 31.0,
+      "lowUnit": 25.333,
+      "bidders": {
+        "THE ROLLING GROUP LLC": 25.333,
+        "DESERT LUXURY TRANSPORTATION, LLC": 30.95,
+        "GROUNDCOVER HOLDINGS, LLC": 33.89
+      }
+    }
+  ]
+}

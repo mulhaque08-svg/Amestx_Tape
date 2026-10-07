@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6462-48-001",
+    "county": "Wilbarger",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646248001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/19/24",
+    "engEstTotal": 268252.98,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 268121.64
+    },
+    {
+      "rank": 2,
+      "vendorName": "TRIPLE T MAINTENANCE INC.",
+      "totalBidAmount": 287985.36
+    },
+    {
+      "rank": 3,
+      "vendorName": "PROFESSIONAL TRAFFIC CONTROL LLC",
+      "totalBidAmount": 301207.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "DESERT LUXURY TRANSPORTATION, LLC",
+      "totalBidAmount": 303047.5
+    },
+    {
+      "rank": 5,
+      "vendorName": "BIG STATE MAINTENANCE, INC.",
+      "totalBidAmount": 348236.7
+    },
+    {
+      "rank": 6,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 420676.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1132.0,
+      "engEstUnit": 35.64,
+      "lowUnit": 37.77,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 37.77,
+        "TRIPLE T MAINTENANCE INC.": 15.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 41.5,
+        "DESERT LUXURY TRANSPORTATION, LLC": 25.0,
+        "BIG STATE MAINTENANCE, INC.": 18.0,
+        "ABESCAPE GROUP LLC": 58.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6090.0,
+      "engEstUnit": 35.65,
+      "lowUnit": 37.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 37.0,
+        "TRIPLE T MAINTENANCE INC.": 44.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 41.5,
+        "DESERT LUXURY TRANSPORTATION, LLC": 42.75,
+        "BIG STATE MAINTENANCE, INC.": 53.83,
+        "ABESCAPE GROUP LLC": 58.0
+      }
+    }
+  ]
+}

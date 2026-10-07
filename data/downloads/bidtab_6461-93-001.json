@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6461-93-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646193001",
+    "projectType": "HOT MIX",
+    "letDate": "01/10/24",
+    "engEstTotal": 100000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JAGOE-PUBLIC COMPANY",
+      "totalBidAmount": 87950.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "EUROVIA ATLANTIC COAST LLC",
+      "totalBidAmount": 100000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 105000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8006 6005",
+      "description": "SP MIXTURES SP-D PG64-22  (PICKUP)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 87.95,
+      "bidders": {
+        "JAGOE-PUBLIC COMPANY": 87.95,
+        "EUROVIA ATLANTIC COAST LLC": 100.0,
+        "TOUCHSTONE RESOURCES, LLC": 105.0
+      }
+    }
+  ]
+}

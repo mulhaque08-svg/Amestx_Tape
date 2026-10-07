@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "csj": "6422-16-001",
+    "county": "Brazoria",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642216001",
+    "projectType": "DITCH CLEANING AND RESHAPING",
+    "letDate": "01/06/23",
+    "engEstTotal": 504453.7,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 391750.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 509.17,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0760 6001",
+      "description": "DITCH CLEANING AND RESHAPING (FOOT)",
+      "unit": "LF",
+      "quantity": 330000.0,
+      "engEstUnit": 1.4,
+      "lowUnit": 1.17,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 1.17
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 20.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 100.0
+      }
+    }
+  ]
+}

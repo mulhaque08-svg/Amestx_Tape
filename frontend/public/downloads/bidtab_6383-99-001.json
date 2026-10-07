@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "csj": "6383-99-001",
+    "county": "Washington",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638399001",
+    "projectType": "CRACK SEAL",
+    "letDate": "07/13/21",
+    "engEstTotal": 263100.44,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SCOUT 5 CONSTRUCTION LLC",
+      "totalBidAmount": 171730.62
+    },
+    {
+      "rank": 2,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 270463.86
+    },
+    {
+      "rank": 3,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 282980.41
+    },
+    {
+      "rank": 4,
+      "vendorName": "NATIONAL INDUSTRIAL MAINTENANCE, INC.",
+      "totalBidAmount": 286817.28
+    },
+    {
+      "rank": 5,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 329272.58
+    },
+    {
+      "rank": 6,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 339209.46
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "SCOUT 5 CONSTRUCTION LLC": 3000.0,
+        "CRACKSEAL OF TEXAS, LLC": 1.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 3000.0,
+        "NATIONAL INDUSTRIAL MAINTENANCE, INC.": 5000.0,
+        "TALBRAN ENTERPRISES LLC": 10000.0,
+        "D & M CONTRACTORS, LLC": 4000.0
+      }
+    },
+    {
+      "itemCode": "0712 6008",
+      "description": "JT / CRCK SEAL (RUBBER - ASPHALT)",
+      "unit": "LMI",
+      "quantity": 525.164,
+      "engEstUnit": 460.0,
+      "lowUnit": 321.29,
+      "bidders": {
+        "SCOUT 5 CONSTRUCTION LLC": 321.29,
+        "CRACKSEAL OF TEXAS, LLC": 515.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 533.0,
+        "NATIONAL INDUSTRIAL MAINTENANCE, INC.": 520.0,
+        "TALBRAN ENTERPRISES LLC": 595.0,
+        "D & M CONTRACTORS, LLC": 637.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 15.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "SCOUT 5 CONSTRUCTION LLC": 0.01,
+        "CRACKSEAL OF TEXAS, LLC": 0.05,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0,
+        "NATIONAL INDUSTRIAL MAINTENANCE, INC.": 250.0,
+        "TALBRAN ENTERPRISES LLC": 100.0,
+        "D & M CONTRACTORS, LLC": 10.0
+      }
+    }
+  ]
+}

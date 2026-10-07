@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6423-68-001",
+    "county": "Taylor",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642368001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/28/23",
+    "engEstTotal": 226701.25,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GREG SCRUGGS",
+      "totalBidAmount": 199675.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MOIR WATERSHED SERVICES, LLC",
+      "totalBidAmount": 232532.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1410.0,
+      "engEstUnit": 32.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "GREG SCRUGGS": 30.0,
+        "MOIR WATERSHED SERVICES, LLC": 39.5
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 4325.0,
+      "engEstUnit": 40.25,
+      "lowUnit": 35.0,
+      "bidders": {
+        "GREG SCRUGGS": 35.0,
+        "MOIR WATERSHED SERVICES, LLC": 39.5
+      }
+    }
+  ]
+}

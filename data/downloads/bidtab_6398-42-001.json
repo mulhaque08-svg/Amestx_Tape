@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "csj": "6398-42-001",
+    "county": "Comal",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639842001",
+    "projectType": "DENSE GRADED HOT MIX",
+    "letDate": "03/17/22",
+    "engEstTotal": 247250.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 279025.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 315600.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 320125.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "LONE STAR PAVING COMPANY",
+      "totalBidAmount": 373387.5
+    },
+    {
+      "rank": 5,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 373512.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6003",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 58.25,
+      "lowUnit": 66.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 66.0,
+        "BRAUNTEX MATERIALS, INC.": 69.0,
+        "COLORADO MATERIALS, LTD.": 70.0,
+        "LONE STAR PAVING COMPANY": 83.25,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 77.0
+      }
+    },
+    {
+      "itemCode": "8011 6004",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 1250.0,
+      "engEstUnit": 63.5,
+      "lowUnit": 77.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 77.5,
+        "BRAUNTEX MATERIALS, INC.": 84.0,
+        "COLORADO MATERIALS, LTD.": 81.5,
+        "LONE STAR PAVING COMPANY": 102.75,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 96.43
+      }
+    },
+    {
+      "itemCode": "8011 6014",
+      "description": "D-GR HMA(SQ)TY B PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 53.0,
+      "lowUnit": 51.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 51.0,
+        "BRAUNTEX MATERIALS, INC.": 59.0,
+        "COLORADO MATERIALS, LTD.": 65.0,
+        "LONE STAR PAVING COMPANY": 66.5,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 70.0
+      }
+    },
+    {
+      "itemCode": "8011 6015",
+      "description": "D-GR HMA(SQ)TY B PG 64-22(DELIVERY)",
+      "unit": "TON",
+      "quantity": 2500.0,
+      "engEstUnit": 58.25,
+      "lowUnit": 63.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 63.5,
+        "BRAUNTEX MATERIALS, INC.": 74.0,
+        "COLORADO MATERIALS, LTD.": 76.5,
+        "LONE STAR PAVING COMPANY": 86.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 89.43
+      }
+    }
+  ]
+}

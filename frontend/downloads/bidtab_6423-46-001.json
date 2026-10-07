@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6423-46-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642346001",
+    "projectType": "EMULSION",
+    "letDate": "01/11/23",
+    "engEstTotal": 44000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 38681.6
+    },
+    {
+      "rank": 2,
+      "vendorName": "WRIGHT ASPHALT PRODUCTS COMPANY LLC",
+      "totalBidAmount": 43200.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6184",
+      "description": "ASPH (RC-250) (DEL)  (SITE 1)",
+      "unit": "TON",
+      "quantity": 40.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 967.04,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 967.04,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 1080.0
+      }
+    }
+  ]
+}

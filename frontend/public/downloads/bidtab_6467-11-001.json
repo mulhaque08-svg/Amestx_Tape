@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6467-11-001",
+    "county": "Brazos",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646711001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "06/10/24",
+    "engEstTotal": 157500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 189000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 196740.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "A. L. HELMCAMP, INC.",
+      "totalBidAmount": 223500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6078",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 1)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 43.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 43.0,
+        "COLORADO MATERIALS, LTD.": 41.9,
+        "A. L. HELMCAMP, INC.": 38.0
+      }
+    },
+    {
+      "itemCode": "8007 6079",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 2)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 43.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 43.0,
+        "COLORADO MATERIALS, LTD.": 44.08,
+        "A. L. HELMCAMP, INC.": 51.0
+      }
+    },
+    {
+      "itemCode": "8007 6080",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 3)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 40.0,
+        "COLORADO MATERIALS, LTD.": 45.18,
+        "A. L. HELMCAMP, INC.": 60.0
+      }
+    }
+  ]
+}

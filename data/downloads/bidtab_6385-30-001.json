@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6385-30-001",
+    "county": "Shelby",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638530001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/08/22",
+    "engEstTotal": 197983.15,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SERVIN MOWING",
+      "totalBidAmount": 234207.36
+    },
+    {
+      "rank": 2,
+      "vendorName": "ACE CONTRACTORS, INC.",
+      "totalBidAmount": 271283.92
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 21.36,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "SERVIN MOWING": 1.0,
+        "ACE CONTRACTORS, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 5514.54,
+      "engEstUnit": 28.99,
+      "lowUnit": 34.99,
+      "bidders": {
+        "SERVIN MOWING": 34.99,
+        "ACE CONTRACTORS, INC.": 41.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "SERVIN MOWING": 1.0,
+        "ACE CONTRACTORS, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 3168.66,
+      "engEstUnit": 12.0,
+      "lowUnit": 12.99,
+      "bidders": {
+        "SERVIN MOWING": 12.99,
+        "ACE CONTRACTORS, INC.": 13.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 21.36,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "SERVIN MOWING": 1.0,
+        "ACE CONTRACTORS, INC.": 20.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "csj": "6380-78-001",
+    "county": "Johnson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638078001",
+    "projectType": "TREE TRIMMING AND BRUSH REMOVAL",
+    "letDate": "08/19/21",
+    "engEstTotal": 208509.45,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "PATHFIELD INVESTMENTS LLC",
+      "totalBidAmount": 187081.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "INTERSTATE ROAD WORKS, LLC",
+      "totalBidAmount": 187187.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "ROAD SOLUTIONS L.L.C.",
+      "totalBidAmount": 190041.85
+    },
+    {
+      "rank": 4,
+      "vendorName": "BOEN LANDSCAPING & IRRIGATION, LLC",
+      "totalBidAmount": 223998.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "FOWLER CONSTRUCTION",
+      "totalBidAmount": 287280.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 336755.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 443260.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 1.0,
+        "INTERSTATE ROAD WORKS, LLC": 1.0,
+        "ROAD SOLUTIONS L.L.C.": 500.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 1000.0,
+        "FOWLER CONSTRUCTION": 1000.0,
+        "ANTHONY SERVICES": 25000.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1196.97,
+      "lowUnit": 1.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 1.0,
+        "INTERSTATE ROAD WORKS, LLC": 1.0,
+        "ROAD SOLUTIONS L.L.C.": 750.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 1000.0,
+        "FOWLER CONSTRUCTION": 1000.0,
+        "ANTHONY SERVICES": 100.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 57.99,
+      "engEstUnit": 2026.56,
+      "lowUnit": 2400.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 2400.0,
+        "INTERSTATE ROAD WORKS, LLC": 1750.0,
+        "ROAD SOLUTIONS L.L.C.": 1815.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 2200.0,
+        "FOWLER CONSTRUCTION": 2000.0,
+        "ANTHONY SERVICES": 2000.0
+      }
+    },
+    {
+      "itemCode": "0752 6004",
+      "description": "TREE TRIMMING / BRUSH REMOVAL(CHANNELS)",
+      "unit": "AC",
+      "quantity": 21.0,
+      "engEstUnit": 1567.61,
+      "lowUnit": 700.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 700.0,
+        "INTERSTATE ROAD WORKS, LLC": 1750.0,
+        "ROAD SOLUTIONS L.L.C.": 1550.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 1500.0,
+        "FOWLER CONSTRUCTION": 1500.0,
+        "ANTHONY SERVICES": 3000.0
+      }
+    },
+    {
+      "itemCode": "0752 6005",
+      "description": "TREE REMOVAL (4\" - 12\" DIA)",
+      "unit": "EA",
+      "quantity": 229.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 100.0,
+        "INTERSTATE ROAD WORKS, LLC": 100.0,
+        "ROAD SOLUTIONS L.L.C.": 60.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 90.0,
+        "FOWLER CONSTRUCTION": 200.0,
+        "ANTHONY SERVICES": 50.0
+      }
+    },
+    {
+      "itemCode": "0752 6006",
+      "description": "TREE REMOVAL (12\" - 18\" DIA)",
+      "unit": "EA",
+      "quantity": 55.0,
+      "engEstUnit": 92.76,
+      "lowUnit": 10.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 10.0,
+        "INTERSTATE ROAD WORKS, LLC": 100.0,
+        "ROAD SOLUTIONS L.L.C.": 95.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 120.0,
+        "FOWLER CONSTRUCTION": 300.0,
+        "ANTHONY SERVICES": 75.0
+      }
+    },
+    {
+      "itemCode": "0752 6007",
+      "description": "TREE REMOVAL (18\" - 24\" DIA)",
+      "unit": "EA",
+      "quantity": 34.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 100.0,
+        "INTERSTATE ROAD WORKS, LLC": 150.0,
+        "ROAD SOLUTIONS L.L.C.": 185.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 240.0,
+        "FOWLER CONSTRUCTION": 500.0,
+        "ANTHONY SERVICES": 150.0
+      }
+    },
+    {
+      "itemCode": "0752 6008",
+      "description": "TREE REMOVAL (24\" - 30\" DIA)",
+      "unit": "EA",
+      "quantity": 35.0,
+      "engEstUnit": 331.34,
+      "lowUnit": 100.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 100.0,
+        "INTERSTATE ROAD WORKS, LLC": 200.0,
+        "ROAD SOLUTIONS L.L.C.": 295.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 300.0,
+        "FOWLER CONSTRUCTION": 500.0,
+        "ANTHONY SERVICES": 300.0
+      }
+    },
+    {
+      "itemCode": "0752 6009",
+      "description": "TREE REMOVAL (30\" - 36\" DIA)",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 80.42,
+      "lowUnit": 100.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 100.0,
+        "INTERSTATE ROAD WORKS, LLC": 300.0,
+        "ROAD SOLUTIONS L.L.C.": 495.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 500.0,
+        "FOWLER CONSTRUCTION": 1000.0,
+        "ANTHONY SERVICES": 500.0
+      }
+    }
+  ]
+}

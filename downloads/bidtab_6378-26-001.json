@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6378-26-001",
+    "county": "Smith",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637826001",
+    "projectType": "MATERIALS ONLY:  HYDRAULIC CEMENT CONCRETE",
+    "letDate": "04/13/21",
+    "engEstTotal": 32200.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "849 RED BARON SUPPLY COMPANY, LLC",
+      "totalBidAmount": 36680.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 45800.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8014 6001",
+      "description": "CL A CONC",
+      "unit": "CY",
+      "quantity": 40.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 145.0,
+      "bidders": {
+        "849 RED BARON SUPPLY COMPANY, LLC": 145.0,
+        "DIGG COMMERCIAL, LLC": 174.0
+      }
+    },
+    {
+      "itemCode": "8014 6002",
+      "description": "CL B CONC",
+      "unit": "CY",
+      "quantity": 40.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 145.0,
+      "bidders": {
+        "849 RED BARON SUPPLY COMPANY, LLC": 145.0,
+        "DIGG COMMERCIAL, LLC": 180.0
+      }
+    },
+    {
+      "itemCode": "8014 6003",
+      "description": "CL C CONC",
+      "unit": "CY",
+      "quantity": 40.0,
+      "engEstUnit": 135.0,
+      "lowUnit": 151.0,
+      "bidders": {
+        "849 RED BARON SUPPLY COMPANY, LLC": 151.0,
+        "DIGG COMMERCIAL, LLC": 185.0
+      }
+    },
+    {
+      "itemCode": "8014 6004",
+      "description": "CL S CONC",
+      "unit": "CY",
+      "quantity": 40.0,
+      "engEstUnit": 135.0,
+      "lowUnit": 151.0,
+      "bidders": {
+        "849 RED BARON SUPPLY COMPANY, LLC": 151.0,
+        "DIGG COMMERCIAL, LLC": 191.0
+      }
+    },
+    {
+      "itemCode": "8015 6001",
+      "description": "FLOWABLE FILL",
+      "unit": "CY",
+      "quantity": 100.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 130.0,
+      "bidders": {
+        "849 RED BARON SUPPLY COMPANY, LLC": 130.0,
+        "DIGG COMMERCIAL, LLC": 166.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6463-55-001",
+    "county": "Lamar",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646355001",
+    "projectType": "DENSE GRADED HOT MIX",
+    "letDate": "03/06/24",
+    "engEstTotal": 632500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RK HALL, LLC",
+      "totalBidAmount": 720500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "RICHARD DRAKE CONSTRUCTION COMPANY, L.P.",
+      "totalBidAmount": 783650.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "RK HALL, LLC": 90.0,
+        "RICHARD DRAKE CONSTRUCTION COMPANY, L.P.": 92.05
+      }
+    },
+    {
+      "itemCode": "8011 6005",
+      "description": "D-GR HMA(SQ) TY F PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 6500.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 97.0,
+      "bidders": {
+        "RK HALL, LLC": 97.0,
+        "RICHARD DRAKE CONSTRUCTION COMPANY, L.P.": 106.4
+      }
+    }
+  ]
+}

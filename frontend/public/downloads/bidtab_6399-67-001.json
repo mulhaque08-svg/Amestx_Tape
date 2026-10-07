@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "csj": "6399-67-001",
+    "county": "Houston",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639967001",
+    "projectType": "HOT MIX",
+    "letDate": "04/26/22",
+    "engEstTotal": 268300.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "EAST TEXAS ASPHALT CO., LTD.",
+      "totalBidAmount": 299130.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 74.75,
+      "lowUnit": 88.5,
+      "bidders": {
+        "EAST TEXAS ASPHALT CO., LTD.": 88.5
+      }
+    },
+    {
+      "itemCode": "8011 6012",
+      "description": "D-GR HMA(SQ)TY D PG 64-22 (DLVR)SITE 2",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 96.98,
+      "lowUnit": 104.83,
+      "bidders": {
+        "EAST TEXAS ASPHALT CO., LTD.": 104.83
+      }
+    },
+    {
+      "itemCode": "8011 6036",
+      "description": "D-GR HMA (SQ) TY C PG 70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 96.57,
+      "lowUnit": 105.8,
+      "bidders": {
+        "EAST TEXAS ASPHALT CO., LTD.": 105.8
+      }
+    }
+  ]
+}

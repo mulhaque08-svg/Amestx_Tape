@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "csj": "6387-85-001",
+    "county": "Midland",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638785001",
+    "projectType": "REFLECTIVE PAVEMENT MARKINGS (LONG LINE)",
+    "letDate": "09/02/21",
+    "engEstTotal": 456500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "L&L COMPANY",
+      "totalBidAmount": 416050.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BARRICADES UNLIMITED",
+      "totalBidAmount": 434000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "STRIPE-A-ZONE, INC.",
+      "totalBidAmount": 514550.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "PMI PAVEMENT MARKING, LLC",
+      "totalBidAmount": 765650.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "TOTAL HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 980000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "L&L COMPANY": 500.0,
+        "BARRICADES UNLIMITED": 1500.0,
+        "STRIPE-A-ZONE, INC.": 1500.0,
+        "PMI PAVEMENT MARKING, LLC": 2500.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 15000.0
+      }
+    }
+  ]
+}

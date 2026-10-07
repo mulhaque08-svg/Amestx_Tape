@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6405-54-001",
+    "county": "Llano",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640554001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "04/05/23",
+    "engEstTotal": 508220.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 432033.68
+    },
+    {
+      "rank": 2,
+      "vendorName": "USA DT SERVICES, INC.",
+      "totalBidAmount": 502823.28
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "R&M INCORPORATED": 1.0,
+        "USA DT SERVICES, INC.": 75290.25
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 8252.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 52.34,
+      "bidders": {
+        "R&M INCORPORATED": 52.34,
+        "USA DT SERVICES, INC.": 24.09
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 120.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "R&M INCORPORATED": 1.0,
+        "USA DT SERVICES, INC.": 23.93
+      }
+    }
+  ]
+}

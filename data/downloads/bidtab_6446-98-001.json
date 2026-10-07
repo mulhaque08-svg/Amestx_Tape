@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "csj": "6446-98-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 644698001",
+    "projectType": "BRIDGE SCOUR REPAIR",
+    "letDate": "10/24/23",
+    "engEstTotal": 167628.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 143300.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 191272.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MARCOM'S MOWING SERVICE, LLC",
+      "totalBidAmount": 192500.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "IBCTX, LLC",
+      "totalBidAmount": 270200.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 45.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "ICOS MANAGEMENT, LLC": 550.0,
+        "MARCOM'S MOWING SERVICE, LLC": 200.0,
+        "IBCTX, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 420.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 190.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 190.0,
+        "ICOS MANAGEMENT, LLC": 275.0,
+        "MARCOM'S MOWING SERVICE, LLC": 195.0,
+        "IBCTX, LLC": 510.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 16478.0,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 15000.0,
+        "ICOS MANAGEMENT, LLC": 18000.0,
+        "MARCOM'S MOWING SERVICE, LLC": 62100.0,
+        "IBCTX, LLC": 27000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 20.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "ICOS MANAGEMENT, LLC": 1.0,
+        "MARCOM'S MOWING SERVICE, LLC": 250.0,
+        "IBCTX, LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "7000 6001",
+      "description": "REML & DISPL DRIFTWOOD & DEBRIS",
+      "unit": "CY",
+      "quantity": 300.0,
+      "engEstUnit": 78.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "ICOS MANAGEMENT, LLC": 88.0,
+        "MARCOM'S MOWING SERVICE, LLC": 95.0,
+        "IBCTX, LLC": 45.0
+      }
+    }
+  ]
+}

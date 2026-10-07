@@ -1,0 +1,498 @@
+{
+  "metadata": {
+    "csj": "0913-28-092",
+    "county": "Fayette",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2023(031)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "04/04/24",
+    "engEstTotal": 974126.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "C. E. BARKER, LTD.",
+      "totalBidAmount": 954924.8
+    },
+    {
+      "rank": 2,
+      "vendorName": "ACME BRIDGE COMPANY, INC.",
+      "totalBidAmount": 990255.77
+    },
+    {
+      "rank": 3,
+      "vendorName": "DCC CONSTRUCTION AND SERVICES, L.L.C.",
+      "totalBidAmount": 1009590.1
+    },
+    {
+      "rank": 4,
+      "vendorName": "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC",
+      "totalBidAmount": 1080733.28
+    },
+    {
+      "rank": 5,
+      "vendorName": "R CONSTRUCTION CIVIL, LLC",
+      "totalBidAmount": 1160555.8
+    },
+    {
+      "rank": 6,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 1212879.58
+    },
+    {
+      "rank": 7,
+      "vendorName": "ENCINO LANDSCAPE, INC.",
+      "totalBidAmount": 1299969.5
+    },
+    {
+      "rank": 8,
+      "vendorName": "SKYLINE BRIDGE LLC",
+      "totalBidAmount": 1315717.1
+    },
+    {
+      "rank": 9,
+      "vendorName": "HODGES AND SON CONSTRUCTION COMPANY, INC.",
+      "totalBidAmount": 1472980.1
+    },
+    {
+      "rank": 10,
+      "vendorName": "CK NEWBERRY, LLC",
+      "totalBidAmount": 1780969.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 6.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 8000.0,
+      "bidders": {
+        "C. E. BARKER, LTD.": 8000.0,
+        "ACME BRIDGE COMPANY, INC.": 6360.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 7500.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 8865.0,
+        "R CONSTRUCTION CIVIL, LLC": 5800.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 12000.0
+      }
+    },
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 50.0,
+      "engEstUnit": 16.5,
+      "lowUnit": 75.31,
+      "bidders": {
+        "C. E. BARKER, LTD.": 75.31,
+        "ACME BRIDGE COMPANY, INC.": 26.4,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 100.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 72.8,
+        "R CONSTRUCTION CIVIL, LLC": 10.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 19.6
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 191.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 22.28,
+      "bidders": {
+        "C. E. BARKER, LTD.": 22.28,
+        "ACME BRIDGE COMPANY, INC.": 39.3,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 15.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 30.9,
+        "R CONSTRUCTION CIVIL, LLC": 30.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 13.5
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 1298.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 23.67,
+      "bidders": {
+        "C. E. BARKER, LTD.": 23.67,
+        "ACME BRIDGE COMPANY, INC.": 23.3,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 15.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 25.75,
+        "R CONSTRUCTION CIVIL, LLC": 25.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 14.5
+      }
+    },
+    {
+      "itemCode": "0132 6005",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 724.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 50.57,
+      "bidders": {
+        "C. E. BARKER, LTD.": 50.57,
+        "ACME BRIDGE COMPANY, INC.": 20.3,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 15.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 24.75,
+        "R CONSTRUCTION CIVIL, LLC": 25.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 12.3
+      }
+    },
+    {
+      "itemCode": "0150 6002",
+      "description": "BLADING",
+      "unit": "HR",
+      "quantity": 5.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 75.31,
+      "bidders": {
+        "C. E. BARKER, LTD.": 75.31,
+        "ACME BRIDGE COMPANY, INC.": 137.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 1.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 60.0,
+        "R CONSTRUCTION CIVIL, LLC": 140.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 215.0
+      }
+    },
+    {
+      "itemCode": "0164 6001",
+      "description": "BROADCAST SEED (PERM) (RURAL) (SANDY)",
+      "unit": "SY",
+      "quantity": 1194.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.36,
+      "bidders": {
+        "C. E. BARKER, LTD.": 1.36,
+        "ACME BRIDGE COMPANY, INC.": 2.1,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 1.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 2.1,
+        "R CONSTRUCTION CIVIL, LLC": 1.3,
+        "KNIFE RIVER CORPORATION - SOUTH": 2.2
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 299.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 4.51,
+      "bidders": {
+        "C. E. BARKER, LTD.": 4.51,
+        "ACME BRIDGE COMPANY, INC.": 4.25,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 1.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 4.0,
+        "R CONSTRUCTION CIVIL, LLC": 4.2,
+        "KNIFE RIVER CORPORATION - SOUTH": 2.2
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 299.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 4.51,
+      "bidders": {
+        "C. E. BARKER, LTD.": 4.51,
+        "ACME BRIDGE COMPANY, INC.": 4.25,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 1.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 4.0,
+        "R CONSTRUCTION CIVIL, LLC": 4.2,
+        "KNIFE RIVER CORPORATION - SOUTH": 2.2
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 10.1,
+      "engEstUnit": 80.0,
+      "lowUnit": 145.25,
+      "bidders": {
+        "C. E. BARKER, LTD.": 145.25,
+        "ACME BRIDGE COMPANY, INC.": 76.2,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 1.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 170.0,
+        "R CONSTRUCTION CIVIL, LLC": 40.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 50.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 137.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 236.7,
+      "bidders": {
+        "C. E. BARKER, LTD.": 236.7,
+        "ACME BRIDGE COMPANY, INC.": 206.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 200.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 192.0,
+        "R CONSTRUCTION CIVIL, LLC": 65.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 177.0
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 625.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 35.74,
+      "bidders": {
+        "C. E. BARKER, LTD.": 35.74,
+        "ACME BRIDGE COMPANY, INC.": 11.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 100.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 62.25,
+        "R CONSTRUCTION CIVIL, LLC": 100.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 108.0
+      }
+    },
+    {
+      "itemCode": "0416 6001",
+      "description": "DRILL SHAFT (18 IN)",
+      "unit": "LF",
+      "quantity": 240.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 195.31,
+      "bidders": {
+        "C. E. BARKER, LTD.": 195.31,
+        "ACME BRIDGE COMPANY, INC.": 148.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 250.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 160.25,
+        "R CONSTRUCTION CIVIL, LLC": 370.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 146.0
+      }
+    },
+    {
+      "itemCode": "0416 6004",
+      "description": "DRILL SHAFT (36 IN)",
+      "unit": "LF",
+      "quantity": 360.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 294.72,
+      "bidders": {
+        "C. E. BARKER, LTD.": 294.72,
+        "ACME BRIDGE COMPANY, INC.": 341.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 360.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 319.15,
+        "R CONSTRUCTION CIVIL, LLC": 450.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 513.0
+      }
+    },
+    {
+      "itemCode": "0422 6001",
+      "description": "REINF CONC SLAB",
+      "unit": "SF",
+      "quantity": 2600.0,
+      "engEstUnit": 24.0,
+      "lowUnit": 23.83,
+      "bidders": {
+        "C. E. BARKER, LTD.": 23.83,
+        "ACME BRIDGE COMPANY, INC.": 33.8,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 30.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 41.65,
+        "R CONSTRUCTION CIVIL, LLC": 33.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 40.37
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 811.0,
+      "engEstUnit": 185.0,
+      "lowUnit": 132.07,
+      "bidders": {
+        "C. E. BARKER, LTD.": 132.07,
+        "ACME BRIDGE COMPANY, INC.": 144.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 150.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 182.0,
+        "R CONSTRUCTION CIVIL, LLC": 200.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 159.0
+      }
+    },
+    {
+      "itemCode": "0454 6004",
+      "description": "ARMOR JOINT (SEALED)",
+      "unit": "LF",
+      "quantity": 51.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 129.11,
+      "bidders": {
+        "C. E. BARKER, LTD.": 129.11,
+        "ACME BRIDGE COMPANY, INC.": 163.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 125.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 145.0,
+        "R CONSTRUCTION CIVIL, LLC": 120.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 209.0
+      }
+    },
+    {
+      "itemCode": "0467 6390",
+      "description": "SET (TY II) (24 IN) (RCP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2200.0,
+      "lowUnit": 2227.11,
+      "bidders": {
+        "C. E. BARKER, LTD.": 2227.11,
+        "ACME BRIDGE COMPANY, INC.": 3260.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 1000.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 3165.0,
+        "R CONSTRUCTION CIVIL, LLC": 2300.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 2100.0
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 35913.54,
+      "bidders": {
+        "C. E. BARKER, LTD.": 35913.54,
+        "ACME BRIDGE COMPANY, INC.": 28000.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 25000.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 33600.0,
+        "R CONSTRUCTION CIVIL, LLC": 27000.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 17200.0
+      }
+    },
+    {
+      "itemCode": "0496 6042",
+      "description": "REMOV STR (SMALL)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 3423.32,
+      "bidders": {
+        "C. E. BARKER, LTD.": 3423.32,
+        "ACME BRIDGE COMPANY, INC.": 2040.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 500.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 2870.0,
+        "R CONSTRUCTION CIVIL, LLC": 5700.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 5900.0
+      }
+    },
+    {
+      "itemCode": "0496 6043",
+      "description": "REMOV STR (SMALL FENCE)",
+      "unit": "LF",
+      "quantity": 717.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 5.25,
+      "bidders": {
+        "C. E. BARKER, LTD.": 5.25,
+        "ACME BRIDGE COMPANY, INC.": 1.95,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 3.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 3.35,
+        "R CONSTRUCTION CIVIL, LLC": 1.5,
+        "KNIFE RIVER CORPORATION - SOUTH": 3.6
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 85000.0,
+      "lowUnit": 91000.0,
+      "bidders": {
+        "C. E. BARKER, LTD.": 91000.0,
+        "ACME BRIDGE COMPANY, INC.": 80000.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 50000.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 108000.0,
+        "R CONSTRUCTION CIVIL, LLC": 50000.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 187400.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 3200.0,
+      "lowUnit": 3550.47,
+      "bidders": {
+        "C. E. BARKER, LTD.": 3550.47,
+        "ACME BRIDGE COMPANY, INC.": 3700.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 3500.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 2960.0,
+        "R CONSTRUCTION CIVIL, LLC": 4250.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 3389.0
+      }
+    },
+    {
+      "itemCode": "0552 6001",
+      "description": "WIRE FENCE (TY A)",
+      "unit": "LF",
+      "quantity": 157.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 21.52,
+      "bidders": {
+        "C. E. BARKER, LTD.": 21.52,
+        "ACME BRIDGE COMPANY, INC.": 18.2,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 10.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 47.0,
+        "R CONSTRUCTION CIVIL, LLC": 40.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 27.8
+      }
+    },
+    {
+      "itemCode": "0552 6008",
+      "description": "WIRE FENCE (WATER GAP)",
+      "unit": "LF",
+      "quantity": 132.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 123.73,
+      "bidders": {
+        "C. E. BARKER, LTD.": 123.73,
+        "ACME BRIDGE COMPANY, INC.": 40.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 50.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 80.0,
+        "R CONSTRUCTION CIVIL, LLC": 60.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 38.9
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 21.52,
+      "bidders": {
+        "C. E. BARKER, LTD.": 21.52,
+        "ACME BRIDGE COMPANY, INC.": 13.2,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 20.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 20.0,
+        "R CONSTRUCTION CIVIL, LLC": 14.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 28.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 37.66,
+      "bidders": {
+        "C. E. BARKER, LTD.": 37.66,
+        "ACME BRIDGE COMPANY, INC.": 27.3,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 50.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 25.0,
+        "R CONSTRUCTION CIVIL, LLC": 45.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 39.0
+      }
+    }
+  ]
+}

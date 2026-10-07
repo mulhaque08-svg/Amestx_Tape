@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6409-93-001",
+    "county": "Milam",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 640993001",
+    "projectType": "HOT MIX",
+    "letDate": "07/12/22",
+    "engEstTotal": 223800.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 243970.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 84.0,
+      "lowUnit": 92.35,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 92.35
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 103.5,
+      "lowUnit": 112.75,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 112.75
+      }
+    }
+  ]
+}

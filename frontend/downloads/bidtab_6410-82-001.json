@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6410-82-001",
+    "county": "Fayette",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641082001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/01/23",
+    "engEstTotal": 497124.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 727274.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 3660.0,
+      "engEstUnit": 27.0,
+      "lowUnit": 39.5,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 39.5
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 14752.0,
+      "engEstUnit": 27.0,
+      "lowUnit": 39.5,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 39.5
+      }
+    }
+  ]
+}

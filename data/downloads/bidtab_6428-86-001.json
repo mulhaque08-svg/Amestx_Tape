@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6428-86-001",
+    "county": "Limestone",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642886001",
+    "projectType": "EMULSION",
+    "letDate": "01/06/23",
+    "engEstTotal": 555100.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "WRIGHT ASPHALT PRODUCTS COMPANY LLC",
+      "totalBidAmount": 423500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ERGON ASPHALT & EMULSIONS, INC.",
+      "totalBidAmount": 450140.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6009",
+      "description": "EMULSION (CSS-1H) (PICKUP)",
+      "unit": "GAL",
+      "quantity": 14000.0,
+      "engEstUnit": 2.9,
+      "lowUnit": 2.2,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 2.2,
+        "ERGON ASPHALT & EMULSIONS, INC.": 2.45
+      }
+    },
+    {
+      "itemCode": "8010 6010",
+      "description": "EMULSION (CSS-1H)(DELIVERY)",
+      "unit": "GAL",
+      "quantity": 116000.0,
+      "engEstUnit": 3.25,
+      "lowUnit": 2.45,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 2.45,
+        "ERGON ASPHALT & EMULSIONS, INC.": 2.64
+      }
+    },
+    {
+      "itemCode": "8010 6012",
+      "description": "EMULSION (CRS-2P)(DELIVERY)",
+      "unit": "GAL",
+      "quantity": 30000.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 2.8,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 2.8,
+        "ERGON ASPHALT & EMULSIONS, INC.": 2.79
+      }
+    },
+    {
+      "itemCode": "8010 6013",
+      "description": "EMULSION (CRS-2)(DELIVERY)",
+      "unit": "GAL",
+      "quantity": 10000.0,
+      "engEstUnit": 3.25,
+      "lowUnit": 2.45,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 2.45,
+        "ERGON ASPHALT & EMULSIONS, INC.": 2.59
+      }
+    }
+  ]
+}

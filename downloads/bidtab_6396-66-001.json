@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "csj": "6396-66-001",
+    "county": "Waller",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639666001",
+    "projectType": "BRIDGE DECK REPAIR",
+    "letDate": "04/12/22",
+    "engEstTotal": 202600.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ISI CONTRACTING, INC.",
+      "totalBidAmount": 233500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MAIN LANE INDUSTRIES LTD.",
+      "totalBidAmount": 235100.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "SCR CIVIL CONSTRUCTION, LLC",
+      "totalBidAmount": 352150.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0361 6006",
+      "description": "FULL - DEPTH REPAIR CRCP (12\")",
+      "unit": "SY",
+      "quantity": 100.0,
+      "engEstUnit": 375.0,
+      "lowUnit": 325.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 325.0,
+        "MAIN LANE INDUSTRIES LTD.": 690.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 910.0
+      }
+    },
+    {
+      "itemCode": "0429 6003",
+      "description": "CONC STR REPAIR(DECK REP(PART DEPTH))",
+      "unit": "SF",
+      "quantity": 250.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 160.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 160.0,
+        "MAIN LANE INDUSTRIES LTD.": 180.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 259.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 500.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 80.0,
+        "MAIN LANE INDUSTRIES LTD.": 150.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 280.0
+      }
+    },
+    {
+      "itemCode": "0454 6018",
+      "description": "SEALED EXPANSION JOINT (4 IN) (SEJ - M)",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 550.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 550.0,
+        "MAIN LANE INDUSTRIES LTD.": 150.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 167.0
+      }
+    },
+    {
+      "itemCode": "0454 6020",
+      "description": "SEALED EXPANSION JOINT (4 IN) (SEJ - B)",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 515.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 515.0,
+        "MAIN LANE INDUSTRIES LTD.": 150.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 117.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 550.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 250.0,
+        "MAIN LANE INDUSTRIES LTD.": 50.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 500.0,
+        "MAIN LANE INDUSTRIES LTD.": 2500.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 2000.0
+      }
+    }
+  ]
+}

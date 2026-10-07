@@ -1,0 +1,344 @@
+{
+  "metadata": {
+    "csj": "0901-30-018",
+    "county": "Rains",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2022(699)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "12/06/23",
+    "engEstTotal": 552560.86,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRUE ROADS CONSTRUCTION, LLC",
+      "totalBidAmount": 424043.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CDM HOLDINGS",
+      "totalBidAmount": 449885.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "PMCO CONSTRUCTION LLC",
+      "totalBidAmount": 452114.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "HODGES AND SON CONSTRUCTION COMPANY, INC.",
+      "totalBidAmount": 530978.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "HIGHWAY 19 CONSTRUCTION LLC",
+      "totalBidAmount": 544940.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "ASHLAR CONTRACTING COMPANY",
+      "totalBidAmount": 604674.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "EAST TEXAS BRIDGE, INC.",
+      "totalBidAmount": 658658.0
+    },
+    {
+      "rank": 8,
+      "vendorName": "TALBERT COMPANIES LLC",
+      "totalBidAmount": 727160.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 6.0,
+      "engEstUnit": 2730.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "TRUE ROADS CONSTRUCTION, LLC": 1000.0,
+        "CDM HOLDINGS": 100.0,
+        "PMCO CONSTRUCTION LLC": 2500.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 5000.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 2500.0,
+        "ASHLAR CONTRACTING COMPANY": 2000.0
+      }
+    },
+    {
+      "itemCode": "0100 6004",
+      "description": "PREPARING ROW(TREE)(12\" TO 24\" DIA)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 750.0,
+      "bidders": {
+        "TRUE ROADS CONSTRUCTION, LLC": 750.0,
+        "CDM HOLDINGS": 750.0,
+        "PMCO CONSTRUCTION LLC": 1000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1500.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 1000.0,
+        "ASHLAR CONTRACTING COMPANY": 3000.0
+      }
+    },
+    {
+      "itemCode": "0100 6011",
+      "description": "PREPARING ROW(TREE)(24\" TO 36\" DIA.)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2280.08,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "TRUE ROADS CONSTRUCTION, LLC": 1500.0,
+        "CDM HOLDINGS": 760.0,
+        "PMCO CONSTRUCTION LLC": 1000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 2000.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 3000.0,
+        "ASHLAR CONTRACTING COMPANY": 4000.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 23.0,
+      "engEstUnit": 31.4,
+      "lowUnit": 32.0,
+      "bidders": {
+        "TRUE ROADS CONSTRUCTION, LLC": 32.0,
+        "CDM HOLDINGS": 39.0,
+        "PMCO CONSTRUCTION LLC": 30.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 50.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 100.0,
+        "ASHLAR CONTRACTING COMPANY": 50.0
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 450.0,
+      "engEstUnit": 42.5,
+      "lowUnit": 18.0,
+      "bidders": {
+        "TRUE ROADS CONSTRUCTION, LLC": 18.0,
+        "CDM HOLDINGS": 12.0,
+        "PMCO CONSTRUCTION LLC": 30.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 40.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 25.0,
+        "ASHLAR CONTRACTING COMPANY": 32.0
+      }
+    },
+    {
+      "itemCode": "0132 6003",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY B)",
+      "unit": "CY",
+      "quantity": 143.0,
+      "engEstUnit": 61.81,
+      "lowUnit": 25.0,
+      "bidders": {
+        "TRUE ROADS CONSTRUCTION, LLC": 25.0,
+        "CDM HOLDINGS": 15.0,
+        "PMCO CONSTRUCTION LLC": 30.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 40.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 50.0,
+        "ASHLAR CONTRACTING COMPANY": 40.0
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 200.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 0.1,
+      "bidders": {
+        "TRUE ROADS CONSTRUCTION, LLC": 0.1,
+        "CDM HOLDINGS": 1.0,
+        "PMCO CONSTRUCTION LLC": 2.5,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 5.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 1.0,
+        "ASHLAR CONTRACTING COMPANY": 4.0
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 200.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 0.1,
+      "bidders": {
+        "TRUE ROADS CONSTRUCTION, LLC": 0.1,
+        "CDM HOLDINGS": 1.0,
+        "PMCO CONSTRUCTION LLC": 2.5,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 2.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 1.0,
+        "ASHLAR CONTRACTING COMPANY": 4.0
+      }
+    },
+    {
+      "itemCode": "0164 6023",
+      "description": "CELL FBR MLCH SEED(PERM)(RURAL)(CLAY)",
+      "unit": "SY",
+      "quantity": 400.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "TRUE ROADS CONSTRUCTION, LLC": 4.0,
+        "CDM HOLDINGS": 1.5,
+        "PMCO CONSTRUCTION LLC": 2.9,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 6.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 10.0,
+        "ASHLAR CONTRACTING COMPANY": 8.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 2.0,
+      "engEstUnit": 71.15,
+      "lowUnit": 80.0,
+      "bidders": {
+        "TRUE ROADS CONSTRUCTION, LLC": 80.0,
+        "CDM HOLDINGS": 60.0,
+        "PMCO CONSTRUCTION LLC": 25.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 1000.0,
+        "ASHLAR CONTRACTING COMPANY": 1200.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 72.0,
+      "engEstUnit": 256.6,
+      "lowUnit": 325.0,
+      "bidders": {
+        "TRUE ROADS CONSTRUCTION, LLC": 325.0,
+        "CDM HOLDINGS": 305.0,
+        "PMCO CONSTRUCTION LLC": 260.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 250.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 250.0,
+        "ASHLAR CONTRACTING COMPANY": 315.0
+      }
+    },
+    {
+      "itemCode": "0416 6004",
+      "description": "DRILL SHAFT (36 IN)",
+      "unit": "LF",
+      "quantity": 336.0,
+      "engEstUnit": 328.26,
+      "lowUnit": 225.0,
+      "bidders": {
+        "TRUE ROADS CONSTRUCTION, LLC": 225.0,
+        "CDM HOLDINGS": 295.0,
+        "PMCO CONSTRUCTION LLC": 247.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 200.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 247.0,
+        "ASHLAR CONTRACTING COMPANY": 300.0
+      }
+    },
+    {
+      "itemCode": "0422 6001",
+      "description": "REINF CONC SLAB",
+      "unit": "SF",
+      "quantity": 1950.0,
+      "engEstUnit": 20.89,
+      "lowUnit": 31.0,
+      "bidders": {
+        "TRUE ROADS CONSTRUCTION, LLC": 31.0,
+        "CDM HOLDINGS": 25.5,
+        "PMCO CONSTRUCTION LLC": 30.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 38.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 35.0,
+        "ASHLAR CONTRACTING COMPANY": 44.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 186.0,
+      "engEstUnit": 230.44,
+      "lowUnit": 175.0,
+      "bidders": {
+        "TRUE ROADS CONSTRUCTION, LLC": 175.0,
+        "CDM HOLDINGS": 195.0,
+        "PMCO CONSTRUCTION LLC": 170.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 210.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 220.0,
+        "ASHLAR CONTRACTING COMPANY": 260.0
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 35963.0,
+      "lowUnit": 12500.0,
+      "bidders": {
+        "TRUE ROADS CONSTRUCTION, LLC": 12500.0,
+        "CDM HOLDINGS": 5000.0,
+        "PMCO CONSTRUCTION LLC": 12500.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 25000.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 10000.0,
+        "ASHLAR CONTRACTING COMPANY": 18000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 50233.0,
+      "lowUnit": 27000.0,
+      "bidders": {
+        "TRUE ROADS CONSTRUCTION, LLC": 27000.0,
+        "CDM HOLDINGS": 44000.0,
+        "PMCO CONSTRUCTION LLC": 33000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 43000.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 60000.0,
+        "ASHLAR CONTRACTING COMPANY": 60000.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3427.0,
+      "lowUnit": 3750.0,
+      "bidders": {
+        "TRUE ROADS CONSTRUCTION, LLC": 3750.0,
+        "CDM HOLDINGS": 3900.0,
+        "PMCO CONSTRUCTION LLC": 3000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 2600.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 2900.0,
+        "ASHLAR CONTRACTING COMPANY": 3600.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 38.49,
+      "lowUnit": 46.0,
+      "bidders": {
+        "TRUE ROADS CONSTRUCTION, LLC": 46.0,
+        "CDM HOLDINGS": 35.0,
+        "PMCO CONSTRUCTION LLC": 33.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 30.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 45.0,
+        "ASHLAR CONTRACTING COMPANY": 100.0
+      }
+    }
+  ]
+}

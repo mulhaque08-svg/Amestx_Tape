@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "csj": "6414-45-001",
+    "county": "Grimes",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641445001",
+    "projectType": "HOT MIX",
+    "letDate": "08/10/22",
+    "engEstTotal": 260000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "WALLER COUNTY ASPHALT INC.",
+      "totalBidAmount": 227000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "JAMES CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 243200.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 251200.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "BIG CREEK CONSTRUCTION, LTD.",
+      "totalBidAmount": 312500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "WALLER COUNTY ASPHALT INC.": 80.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 83.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 86.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 100.0
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 112.0,
+      "lowUnit": 97.5,
+      "bidders": {
+        "WALLER COUNTY ASPHALT INC.": 97.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 102.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 106.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 133.25
+      }
+    },
+    {
+      "itemCode": "8011 6003",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "WALLER COUNTY ASPHALT INC.": 80.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 88.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 90.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 105.0
+      }
+    },
+    {
+      "itemCode": "8011 6004",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 112.0,
+      "lowUnit": 97.5,
+      "bidders": {
+        "WALLER COUNTY ASPHALT INC.": 97.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 107.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 110.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 138.25
+      }
+    }
+  ]
+}

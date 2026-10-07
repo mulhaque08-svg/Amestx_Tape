@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6451-07-001",
+    "county": "Medina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645107001",
+    "projectType": "DEBRIS REMOVAL",
+    "letDate": "09/06/23",
+    "engEstTotal": 908160.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DIAMOND R CONTRACTING, LLC",
+      "totalBidAmount": 713692.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ROSS SA ENTERPRISE LLC",
+      "totalBidAmount": 782653.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "SWEEPING CORPORATION OF AMERICA, LLC",
+      "totalBidAmount": 817031.04
+    },
+    {
+      "rank": 4,
+      "vendorName": "BOEN LANDSCAPING & IRRIGATION, LLC",
+      "totalBidAmount": 986020.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 60000.0,
+      "bidders": {
+        "DIAMOND R CONTRACTING, LLC": 60000.0,
+        "ROSS SA ENTERPRISE LLC": 1.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 20000.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 30000.0
+      }
+    },
+    {
+      "itemCode": "0735 6002",
+      "description": "DEBRIS REMOVAL (CNTR MEDIANS/MAINLANES)",
+      "unit": "MI",
+      "quantity": 6448.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "DIAMOND R CONTRACTING, LLC": 100.0,
+        "ROSS SA ENTERPRISE LLC": 120.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 122.23,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 100.0
+      }
+    }
+  ]
+}

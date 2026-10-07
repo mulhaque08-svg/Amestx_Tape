@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6386-00-001",
+    "county": "Montgomery",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638600001",
+    "projectType": "HIGH EDGE REMOVAL",
+    "letDate": "12/14/21",
+    "engEstTotal": 218968.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "IDEA CONTRACTING LLC",
+      "totalBidAmount": 195891.2
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 208612.8
+    },
+    {
+      "rank": 3,
+      "vendorName": "ISI CONTRACTING, INC.",
+      "totalBidAmount": 248270.4
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0150 6001",
+      "description": "BLADING",
+      "unit": "STA",
+      "quantity": 336.0,
+      "engEstUnit": 137.5,
+      "lowUnit": 135.0,
+      "bidders": {
+        "IDEA CONTRACTING LLC": 135.0,
+        "TEXAS DRAINAGE INC.": 400.0,
+        "ISI CONTRACTING, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0150 6003",
+      "description": "BLADING",
+      "unit": "LF",
+      "quantity": 107712.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.35,
+      "bidders": {
+        "IDEA CONTRACTING LLC": 1.35,
+        "TEXAS DRAINAGE INC.": 0.65,
+        "ISI CONTRACTING, INC.": 0.45
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "IDEA CONTRACTING LLC": 5000.0,
+        "TEXAS DRAINAGE INC.": 3000.0,
+        "ISI CONTRACTING, INC.": 21000.0
+      }
+    }
+  ]
+}

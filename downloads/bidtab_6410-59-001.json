@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6410-59-001",
+    "county": "Grayson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641059001",
+    "projectType": "LIMESTONE ROCK ASPHALT",
+    "letDate": "08/04/22",
+    "engEstTotal": 403750.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 455625.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8040 6037",
+      "description": "LRA (TY I GR B) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 1250.0,
+      "engEstUnit": 161.0,
+      "lowUnit": 183.0,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 183.0
+      }
+    },
+    {
+      "itemCode": "8040 6080",
+      "description": "LRA (TY I GR D) (DEL) (ST2)",
+      "unit": "TON",
+      "quantity": 1250.0,
+      "engEstUnit": 162.0,
+      "lowUnit": 181.5,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 181.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6428-48-001",
+    "county": "Walker",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642848001",
+    "projectType": "AGGREGATE",
+    "letDate": "01/11/23",
+    "engEstTotal": 160000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 181500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 190000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 218000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6113",
+      "description": "AGGR (TY B GR 5) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 79.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 79.0,
+        "TOUCHSTONE RESOURCES, LLC": 95.0,
+        "COLORADO MATERIALS, LTD.": 109.0
+      }
+    },
+    {
+      "itemCode": "8039 6114",
+      "description": "AGGR (TY B GR 5) (DEL) (ST2)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 93.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 93.0,
+        "TOUCHSTONE RESOURCES, LLC": 95.0,
+        "COLORADO MATERIALS, LTD.": 103.0
+      }
+    },
+    {
+      "itemCode": "8039 6115",
+      "description": "AGGR (TY B GR 5) (DEL) (ST3)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 96.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 96.0,
+        "TOUCHSTONE RESOURCES, LLC": 95.0,
+        "COLORADO MATERIALS, LTD.": 107.0
+      }
+    },
+    {
+      "itemCode": "8039 6116",
+      "description": "AGGR (TY B GR 5) (DEL) (ST4)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 95.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 95.0,
+        "TOUCHSTONE RESOURCES, LLC": 95.0,
+        "COLORADO MATERIALS, LTD.": 117.0
+      }
+    }
+  ]
+}

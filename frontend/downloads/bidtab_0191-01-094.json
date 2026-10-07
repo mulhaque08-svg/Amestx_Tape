@@ -1,0 +1,914 @@
+{
+  "metadata": {
+    "csj": "0191-01-094",
+    "county": "Smith",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 191-1-94",
+    "projectType": "REHABILITATE EXISTING ROADWAY",
+    "letDate": "02/02/23",
+    "engEstTotal": 5780392.3,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DREWERY CONSTRUCTION COMPANY, INCORPORATED",
+      "totalBidAmount": 7798137.77
+    },
+    {
+      "rank": 2,
+      "vendorName": "EAST TEXAS BRIDGE, INC.",
+      "totalBidAmount": 9000010.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 5.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 30000.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 30000.0,
+        "EAST TEXAS BRIDGE, INC.": 10000.0
+      }
+    },
+    {
+      "itemCode": "0104 6011",
+      "description": "REMOVING CONC (MEDIANS)",
+      "unit": "SY",
+      "quantity": 8.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 136.5,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 136.5,
+        "EAST TEXAS BRIDGE, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0105 6033",
+      "description": "REMOVING STB BASE AND ASPH PAV(10-14\")",
+      "unit": "SY",
+      "quantity": 500.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 30.0,
+        "EAST TEXAS BRIDGE, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0132 6021",
+      "description": "EMBANKMENT (VEHICLE)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 135.0,
+      "engEstUnit": 20.24,
+      "lowUnit": 103.65,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 103.65,
+        "EAST TEXAS BRIDGE, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0132 6022",
+      "description": "EMBANKMENT (VEHICLE)(DENS CONT)(TY C)",
+      "unit": "CY",
+      "quantity": 5700.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 49.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 49.0,
+        "EAST TEXAS BRIDGE, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0134 6001",
+      "description": "BACKFILL (TY A)",
+      "unit": "STA",
+      "quantity": 307.0,
+      "engEstUnit": 282.97,
+      "lowUnit": 700.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 700.0,
+        "EAST TEXAS BRIDGE, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0150 6002",
+      "description": "BLADING",
+      "unit": "HR",
+      "quantity": 50.0,
+      "engEstUnit": 159.16,
+      "lowUnit": 130.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 130.0,
+        "EAST TEXAS BRIDGE, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0160 6003",
+      "description": "FURNISHING AND PLACING TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 20200.0,
+      "engEstUnit": 1.07,
+      "lowUnit": 16.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 16.0,
+        "EAST TEXAS BRIDGE, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0164 6001",
+      "description": "BROADCAST SEED (PERM) (RURAL) (SANDY)",
+      "unit": "SY",
+      "quantity": 10650.0,
+      "engEstUnit": 0.13,
+      "lowUnit": 0.12,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 0.12,
+        "EAST TEXAS BRIDGE, INC.": 0.15
+      }
+    },
+    {
+      "itemCode": "0164 6054",
+      "description": "BOND FBR MTRX SEED (PERM)(RURAL)(SAND)",
+      "unit": "SY",
+      "quantity": 19100.0,
+      "engEstUnit": 0.52,
+      "lowUnit": 0.66,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 0.66,
+        "EAST TEXAS BRIDGE, INC.": 0.75
+      }
+    },
+    {
+      "itemCode": "0164 6055",
+      "description": "BONDED FBR MTRX SEED (TEMP)(WARM)",
+      "unit": "SY",
+      "quantity": 10650.0,
+      "engEstUnit": 0.7,
+      "lowUnit": 0.63,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 0.63,
+        "EAST TEXAS BRIDGE, INC.": 0.75
+      }
+    },
+    {
+      "itemCode": "0164 6056",
+      "description": "BONDED FBR MTRX SEED (TEMP)(COOL)",
+      "unit": "SY",
+      "quantity": 10650.0,
+      "engEstUnit": 0.69,
+      "lowUnit": 0.61,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 0.61,
+        "EAST TEXAS BRIDGE, INC.": 0.75
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 444.0,
+      "engEstUnit": 9.5,
+      "lowUnit": 29.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 29.0,
+        "EAST TEXAS BRIDGE, INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "0275 6001",
+      "description": "CEMENT",
+      "unit": "TON",
+      "quantity": 46.0,
+      "engEstUnit": 231.0,
+      "lowUnit": 310.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 310.0,
+        "EAST TEXAS BRIDGE, INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0275 6002",
+      "description": "CEMENT TREAT (EXIST MATL) (6\")",
+      "unit": "SY",
+      "quantity": 3533.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 14.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 14.0,
+        "EAST TEXAS BRIDGE, INC.": 7.0
+      }
+    },
+    {
+      "itemCode": "0351 6002",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(6\")",
+      "unit": "SY",
+      "quantity": 4300.0,
+      "engEstUnit": 61.0,
+      "lowUnit": 86.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 86.0,
+        "EAST TEXAS BRIDGE, INC.": 90.0
+      }
+    },
+    {
+      "itemCode": "0354 6041",
+      "description": "PLANE ASPH CONC PAV (1.5\")",
+      "unit": "SY",
+      "quantity": 1758.0,
+      "engEstUnit": 5.48,
+      "lowUnit": 8.88,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 8.88,
+        "EAST TEXAS BRIDGE, INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0354 6045",
+      "description": "PLANE ASPH CONC PAV (2\")",
+      "unit": "SY",
+      "quantity": 72077.0,
+      "engEstUnit": 4.99,
+      "lowUnit": 3.84,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 3.84,
+        "EAST TEXAS BRIDGE, INC.": 7.0
+      }
+    },
+    {
+      "itemCode": "0354 6051",
+      "description": "PLANE ASPH CONC PAV (0\" TO 1 1/2\")",
+      "unit": "SY",
+      "quantity": 2838.0,
+      "engEstUnit": 6.51,
+      "lowUnit": 11.26,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 11.26,
+        "EAST TEXAS BRIDGE, INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 30.0,
+      "engEstUnit": 217.6,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 500.0,
+        "EAST TEXAS BRIDGE, INC.": 600.0
+      }
+    },
+    {
+      "itemCode": "0400 6008",
+      "description": "CUT & RESTORE ASPH PAVING",
+      "unit": "SY",
+      "quantity": 100.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 402.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 402.0,
+        "EAST TEXAS BRIDGE, INC.": 450.0
+      }
+    },
+    {
+      "itemCode": "0401 6001",
+      "description": "FLOWABLE BACKFILL",
+      "unit": "CY",
+      "quantity": 79.0,
+      "engEstUnit": 190.07,
+      "lowUnit": 435.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 435.0,
+        "EAST TEXAS BRIDGE, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 34.0,
+      "engEstUnit": 195.85,
+      "lowUnit": 378.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 378.0,
+        "EAST TEXAS BRIDGE, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0432 6002",
+      "description": "RIPRAP (CONC)(5 IN)",
+      "unit": "CY",
+      "quantity": 3.0,
+      "engEstUnit": 625.0,
+      "lowUnit": 945.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 945.0,
+        "EAST TEXAS BRIDGE, INC.": 2000.0
+      }
+    },
+    {
+      "itemCode": "0432 6024",
+      "description": "RIPRAP (STONE COMMON)(DRY)(12 IN)",
+      "unit": "CY",
+      "quantity": 90.0,
+      "engEstUnit": 425.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 225.0,
+        "EAST TEXAS BRIDGE, INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 134.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 277.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 277.0,
+        "EAST TEXAS BRIDGE, INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 53.0,
+      "engEstUnit": 540.0,
+      "lowUnit": 650.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 650.0,
+        "EAST TEXAS BRIDGE, INC.": 700.0
+      }
+    },
+    {
+      "itemCode": "0438 6004",
+      "description": "CLEANING AND SEALING EXIST JOINTS(CL7)",
+      "unit": "LF",
+      "quantity": 520.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 100.0,
+        "EAST TEXAS BRIDGE, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0451 6048",
+      "description": "RETROFIT RAIL (ADD HSS)",
+      "unit": "LF",
+      "quantity": 413.0,
+      "engEstUnit": 123.49,
+      "lowUnit": 150.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 150.0,
+        "EAST TEXAS BRIDGE, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0467 6363",
+      "description": "SET (TY II) (18 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 871.0,
+      "lowUnit": 1800.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 1800.0,
+        "EAST TEXAS BRIDGE, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0467 6395",
+      "description": "SET (TY II) (24 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1251.0,
+      "lowUnit": 2200.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 2200.0,
+        "EAST TEXAS BRIDGE, INC.": 1500.0
+      }
+    },
+    {
+      "itemCode": "0467 6480",
+      "description": "SET (TY II) (48 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 16500.14,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 16500.14,
+        "EAST TEXAS BRIDGE, INC.": 13000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 515633.01,
+      "lowUnit": 785000.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 785000.0,
+        "EAST TEXAS BRIDGE, INC.": 800000.0
+      }
+    },
+    {
+      "itemCode": "0529 6005",
+      "description": "CONC CURB (MONO) (TY II)",
+      "unit": "LF",
+      "quantity": 805.0,
+      "engEstUnit": 11.5,
+      "lowUnit": 70.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 70.0,
+        "EAST TEXAS BRIDGE, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0533 6001",
+      "description": "RUMBLE STRIPS (SHOULDER)",
+      "unit": "LF",
+      "quantity": 32188.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.2,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 0.2,
+        "EAST TEXAS BRIDGE, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0533 6002",
+      "description": "RUMBLE STRIPS (CENTERLINE)",
+      "unit": "LF",
+      "quantity": 16094.0,
+      "engEstUnit": 0.38,
+      "lowUnit": 0.2,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 0.2,
+        "EAST TEXAS BRIDGE, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 820.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 3.25,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 3.25,
+        "EAST TEXAS BRIDGE, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0542 6002",
+      "description": "REMOVE TERMINAL ANCHOR SECTION",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 210.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 210.0,
+        "EAST TEXAS BRIDGE, INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3123.75,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 3123.75,
+        "EAST TEXAS BRIDGE, INC.": 3500.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 210.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 210.0,
+        "EAST TEXAS BRIDGE, INC.": 255.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 715.0,
+      "lowUnit": 705.6,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 705.6,
+        "EAST TEXAS BRIDGE, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0644 6002",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P-BM)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 686.0,
+      "lowUnit": 762.3,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 762.3,
+        "EAST TEXAS BRIDGE, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 845.0,
+      "lowUnit": 762.3,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 762.3,
+        "EAST TEXAS BRIDGE, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0644 6030",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(T)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 1058.4,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 1058.4,
+        "EAST TEXAS BRIDGE, INC.": 1500.0
+      }
+    },
+    {
+      "itemCode": "0644 6068",
+      "description": "RELOCATE SM RD SN SUP&AM TY 10BWG",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 650.0,
+      "lowUnit": 565.95,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 565.95,
+        "EAST TEXAS BRIDGE, INC.": 600.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 98.7,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 98.7,
+        "EAST TEXAS BRIDGE, INC.": 150.0
+      }
+    },
+    {
+      "itemCode": "0658 6061",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 37.0,
+      "lowUnit": 26.25,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 26.25,
+        "EAST TEXAS BRIDGE, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0658 6100",
+      "description": "INSTL OM ASSM (OM-2Z)(WFLX)GND(BI)",
+      "unit": "EA",
+      "quantity": 11.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 47.25,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 47.25,
+        "EAST TEXAS BRIDGE, INC.": 75.0
+      }
+    },
+    {
+      "itemCode": "0662 6004",
+      "description": "WK ZN PAV MRK NON-REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 14866.0,
+      "engEstUnit": 0.31,
+      "lowUnit": 1.58,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 1.58,
+        "EAST TEXAS BRIDGE, INC.": 1.7
+      }
+    },
+    {
+      "itemCode": "0662 6034",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 14866.0,
+      "engEstUnit": 0.32,
+      "lowUnit": 1.58,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 1.58,
+        "EAST TEXAS BRIDGE, INC.": 1.7
+      }
+    },
+    {
+      "itemCode": "0662 6060",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 7531.0,
+      "engEstUnit": 1.4,
+      "lowUnit": 1.56,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 1.56,
+        "EAST TEXAS BRIDGE, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0662 6093",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 7531.0,
+      "engEstUnit": 1.02,
+      "lowUnit": 1.63,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 1.63,
+        "EAST TEXAS BRIDGE, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0668 6074",
+      "description": "PREFAB PAV MRK TY C (W) (12\") (SLD)",
+      "unit": "LF",
+      "quantity": 2129.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 8.4,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 8.4,
+        "EAST TEXAS BRIDGE, INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0668 6076",
+      "description": "PREFAB PAV MRK TY C (W) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 1072.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 13.65,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 13.65,
+        "EAST TEXAS BRIDGE, INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 85.0,
+      "engEstUnit": 204.59,
+      "lowUnit": 195.04,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 195.04,
+        "EAST TEXAS BRIDGE, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0668 6078",
+      "description": "PREFAB PAV MRK TY C (W) (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 372.22,
+      "lowUnit": 278.85,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 278.85,
+        "EAST TEXAS BRIDGE, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0668 6080",
+      "description": "PREFAB PAV MRK TY C (W) (UTURN ARROW)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 305.1,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 305.1,
+        "EAST TEXAS BRIDGE, INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 89.0,
+      "engEstUnit": 231.66,
+      "lowUnit": 233.68,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 233.68,
+        "EAST TEXAS BRIDGE, INC.": 26.0
+      }
+    },
+    {
+      "itemCode": "0668 6092",
+      "description": "PREFAB PAV MRK TY C (W) (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 140.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 35.44,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 35.44,
+        "EAST TEXAS BRIDGE, INC.": 36.0
+      }
+    },
+    {
+      "itemCode": "0668 6106",
+      "description": "PREFAB PAV MRK TY C (Y) (12\") (SLD)",
+      "unit": "LF",
+      "quantity": 493.0,
+      "engEstUnit": 7.45,
+      "lowUnit": 8.4,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 8.4,
+        "EAST TEXAS BRIDGE, INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 586.0,
+      "engEstUnit": 4.85,
+      "lowUnit": 3.78,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 3.78,
+        "EAST TEXAS BRIDGE, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 474.0,
+      "engEstUnit": 3.94,
+      "lowUnit": 3.78,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 3.78,
+        "EAST TEXAS BRIDGE, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 586.0,
+      "engEstUnit": 4.15,
+      "lowUnit": 3.78,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 3.78,
+        "EAST TEXAS BRIDGE, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0752 6004",
+      "description": "TREE TRIMMING / BRUSH REMOVAL(CHANNELS)",
+      "unit": "AC",
+      "quantity": 0.5,
+      "engEstUnit": 3000.0,
+      "lowUnit": 16800.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 16800.0,
+        "EAST TEXAS BRIDGE, INC.": 50000.0
+      }
+    },
+    {
+      "itemCode": "3002 6001",
+      "description": "MEMBRANE UNDERSEAL",
+      "unit": "GAL",
+      "quantity": 14415.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.13,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 4.13,
+        "EAST TEXAS BRIDGE, INC.": 7.0
+      }
+    },
+    {
+      "itemCode": "3028 6002",
+      "description": "FRICTIONAL ASPH SURF PRESERV TRTMT",
+      "unit": "SY",
+      "quantity": 25048.0,
+      "engEstUnit": 1.45,
+      "lowUnit": 3.18,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 3.18,
+        "EAST TEXAS BRIDGE, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "3077 6001",
+      "description": "SP MIXES SP-B PG64-22",
+      "unit": "TON",
+      "quantity": 2481.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 210.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 210.0,
+        "EAST TEXAS BRIDGE, INC.": 220.0
+      }
+    },
+    {
+      "itemCode": "3077 6022",
+      "description": "SP MIXES SP-C SAC-A PG70-22",
+      "unit": "TON",
+      "quantity": 7928.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 192.84,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 192.84,
+        "EAST TEXAS BRIDGE, INC.": 220.0
+      }
+    },
+    {
+      "itemCode": "3077 6044",
+      "description": "SP MIXES SP-D PG64-22 (LEVEL-UP)",
+      "unit": "TON",
+      "quantity": 520.0,
+      "engEstUnit": 215.0,
+      "lowUnit": 255.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 255.0,
+        "EAST TEXAS BRIDGE, INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 1075.0,
+      "engEstUnit": 3.21,
+      "lowUnit": 7.01,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 7.01,
+        "EAST TEXAS BRIDGE, INC.": 6.0
+      }
+    },
+    {
+      "itemCode": "3082 6001",
+      "description": "TBPFC (MEMBRANE)",
+      "unit": "GAL",
+      "quantity": 23005.0,
+      "engEstUnit": 5.66,
+      "lowUnit": 4.13,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 4.13,
+        "EAST TEXAS BRIDGE, INC.": 8.0
+      }
+    },
+    {
+      "itemCode": "3082 6002",
+      "description": "TBPFC PG76-22 SAC-A",
+      "unit": "TON",
+      "quantity": 5752.0,
+      "engEstUnit": 217.91,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 250.0,
+        "EAST TEXAS BRIDGE, INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 10050.0,
+      "lowUnit": 18000.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 18000.0,
+        "EAST TEXAS BRIDGE, INC.": 50000.0
+      }
+    },
+    {
+      "itemCode": "7000 6001",
+      "description": "REML & DISPL DRIFTWOOD & DEBRIS",
+      "unit": "CY",
+      "quantity": 10.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 350.0,
+        "EAST TEXAS BRIDGE, INC.": 2000.0
+      }
+    }
+  ]
+}

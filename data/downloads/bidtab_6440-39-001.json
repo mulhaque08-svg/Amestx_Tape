@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "csj": "6440-39-001",
+    "county": "Crockett",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644039001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "06/13/23",
+    "engEstTotal": 189192.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "LUKEDA SANDBLASTING & SERVICES LLC",
+      "totalBidAmount": 141991.2
+    },
+    {
+      "rank": 2,
+      "vendorName": "DESERT LUXURY TRANSPORTATION, LLC",
+      "totalBidAmount": 161620.8
+    },
+    {
+      "rank": 3,
+      "vendorName": "SQUARE G, INC.",
+      "totalBidAmount": 170433.12
+    },
+    {
+      "rank": 4,
+      "vendorName": "MOIR WATERSHED SERVICES, LLC",
+      "totalBidAmount": 170796.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "RJ LANDSCAPING SERVICES LLC",
+      "totalBidAmount": 187650.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "CONCAN SERVICES LLC",
+      "totalBidAmount": 190680.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "USA DT SERVICES, INC.",
+      "totalBidAmount": 201750.12
+    },
+    {
+      "rank": 8,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 234745.44
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 2378.0,
+      "engEstUnit": 34.0,
+      "lowUnit": 27.9,
+      "bidders": {
+        "LUKEDA SANDBLASTING & SERVICES LLC": 27.9,
+        "DESERT LUXURY TRANSPORTATION, LLC": 30.35,
+        "SQUARE G, INC.": 33.49,
+        "MOIR WATERSHED SERVICES, LLC": 29.5,
+        "RJ LANDSCAPING SERVICES LLC": 35.0,
+        "CONCAN SERVICES LLC": 35.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 2710.0,
+      "engEstUnit": 34.0,
+      "lowUnit": 27.9,
+      "bidders": {
+        "LUKEDA SANDBLASTING & SERVICES LLC": 27.9,
+        "DESERT LUXURY TRANSPORTATION, LLC": 30.35,
+        "SQUARE G, INC.": 33.49,
+        "MOIR WATERSHED SERVICES, LLC": 29.5,
+        "RJ LANDSCAPING SERVICES LLC": 38.0,
+        "CONCAN SERVICES LLC": 35.0
+      }
+    }
+  ]
+}

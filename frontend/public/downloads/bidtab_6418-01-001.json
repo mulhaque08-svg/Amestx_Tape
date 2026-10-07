@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6418-01-001",
+    "county": "Brown",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641801001",
+    "projectType": "HOT-MIX COLD-LAID",
+    "letDate": "08/30/22",
+    "engEstTotal": 270000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MALBEC MATERIALS LLC",
+      "totalBidAmount": 240000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 266587.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8013 6003",
+      "description": "HMCL ACP TYPE B (DELIVERY)(SITE 1)",
+      "unit": "TON",
+      "quantity": 750.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 107.5,
+      "bidders": {
+        "MALBEC MATERIALS LLC": 107.5,
+        "TEXAS MATERIALS GROUP, INC.": 116.9
+      }
+    },
+    {
+      "itemCode": "8013 6004",
+      "description": "HMCL ACP TYPE B (DELIVERY)(SITE 2)",
+      "unit": "TON",
+      "quantity": 750.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 110.5,
+      "bidders": {
+        "MALBEC MATERIALS LLC": 110.5,
+        "TEXAS MATERIALS GROUP, INC.": 121.65
+      }
+    },
+    {
+      "itemCode": "8013 6005",
+      "description": "HMCL ACP TYPE B (DELIVERY)(SITE 3)",
+      "unit": "TON",
+      "quantity": 750.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 102.0,
+      "bidders": {
+        "MALBEC MATERIALS LLC": 102.0,
+        "TEXAS MATERIALS GROUP, INC.": 116.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "0910-16-146",
+    "county": "Smith",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2022(021)",
+    "projectType": "REPLACEMENT OF MISSING SMALL ROADSIDE SIGNS",
+    "letDate": "10/08/21",
+    "engEstTotal": 39800.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "HX FARMS, INC.",
+      "totalBidAmount": 34806.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "JASCO",
+      "totalBidAmount": 34936.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "WG ENGINEERING & CONSTRUCTION, LLC",
+      "totalBidAmount": 38998.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "BATTERSON, LLP",
+      "totalBidAmount": 44169.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "TEXAS ROAD CONSTRUCTION, LLC",
+      "totalBidAmount": 48556.24
+    },
+    {
+      "rank": 6,
+      "vendorName": "MARCOM'S MOWING SERVICE, LLC",
+      "totalBidAmount": 50200.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, INC.",
+      "totalBidAmount": 93903.15
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 8000.0,
+      "bidders": {
+        "HX FARMS, INC.": 8000.0,
+        "JASCO": 1000.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3280.0,
+        "BATTERSON, LLP": 1.0,
+        "TEXAS ROAD CONSTRUCTION, LLC": 4000.0,
+        "MARCOM'S MOWING SERVICE, LLC": 7000.0
+      }
+    },
+    {
+      "itemCode": "0644 6060",
+      "description": "IN SM RD SN SUP&AM TYTWT(1)WS(P)",
+      "unit": "EA",
+      "quantity": 92.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 275.0,
+      "bidders": {
+        "HX FARMS, INC.": 275.0,
+        "JASCO": 368.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 339.0,
+        "BATTERSON, LLP": 480.0,
+        "TEXAS ROAD CONSTRUCTION, LLC": 484.22,
+        "MARCOM'S MOWING SERVICE, LLC": 350.0
+      }
+    }
+  ]
+}

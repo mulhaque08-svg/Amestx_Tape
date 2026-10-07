@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "csj": "6393-65-001",
+    "county": "Brazos",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 639365001",
+    "projectType": "BRIDGE PREVENTATIVE MAINTENANCE",
+    "letDate": "02/10/22",
+    "engEstTotal": 167310.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 165169.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "PENHALL COMPANY",
+      "totalBidAmount": 169191.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "STRUCTURAL INTEGRITY GROUP LLC",
+      "totalBidAmount": 178380.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "SCR CIVIL CONSTRUCTION, LLC",
+      "totalBidAmount": 181020.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 519852.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 238.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 165.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 165.0,
+        "PENHALL COMPANY": 263.0,
+        "STRUCTURAL INTEGRITY GROUP LLC": 230.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 195.0,
+        "SHALOM SERVICES CORPORATION": 325.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 22000.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 22000.0,
+        "PENHALL COMPANY": 17563.0,
+        "STRUCTURAL INTEGRITY GROUP LLC": 21000.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 17900.0,
+        "SHALOM SERVICES CORPORATION": 25000.0
+      }
+    },
+    {
+      "itemCode": "0786 6001",
+      "description": "CARBON FIBER REINF POLYMER PROTECTION",
+      "unit": "SF",
+      "quantity": 970.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 66.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 66.0,
+        "PENHALL COMPANY": 46.0,
+        "STRUCTURAL INTEGRITY GROUP LLC": 72.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 83.0,
+        "SHALOM SERVICES CORPORATION": 400.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 2.0,
+        "PENHALL COMPANY": 1681.0,
+        "STRUCTURAL INTEGRITY GROUP LLC": 1675.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 9400.0,
+        "SHALOM SERVICES CORPORATION": 1.0
+      }
+    }
+  ]
+}

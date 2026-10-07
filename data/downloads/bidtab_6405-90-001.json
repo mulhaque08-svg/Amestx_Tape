@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "csj": "6405-90-001",
+    "county": "Travis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640590001",
+    "projectType": "SWEEPING AND DEBRIS REMOVAL",
+    "letDate": "08/27/24",
+    "engEstTotal": 685377.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CEN-TEX IRRIGATION SYSTEMS, INC.",
+      "totalBidAmount": 534570.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SWEEPING CORPORATION OF AMERICA, LLC",
+      "totalBidAmount": 563182.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 564821.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 5500.0,
+      "lowUnit": 2400.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 2400.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2000.0,
+        "DIGG COMMERCIAL, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0738 6002",
+      "description": "CLEANING / SWEEPING (CENTER MEDIAN)",
+      "unit": "MI",
+      "quantity": 449.4,
+      "engEstUnit": 425.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 400.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 440.0,
+        "DIGG COMMERCIAL, LLC": 240.0
+      }
+    },
+    {
+      "itemCode": "0738 6004",
+      "description": "CLEANING / SWEEPING (OUTSIDE MAIN LANE)",
+      "unit": "MI",
+      "quantity": 645.9,
+      "engEstUnit": 425.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 400.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 440.0,
+        "DIGG COMMERCIAL, LLC": 240.0
+      }
+    },
+    {
+      "itemCode": "0738 6008",
+      "description": "CLEANING / SWEEPING(ENTRANCE/EXIT RAMP)",
+      "unit": "MI",
+      "quantity": 60.0,
+      "engEstUnit": 425.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 400.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 440.0,
+        "DIGG COMMERCIAL, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0738 6009",
+      "description": "CLEANING / SWEEPING (AGGREGATE REMOVAL)",
+      "unit": "MI",
+      "quantity": 75.0,
+      "engEstUnit": 425.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 50.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 50.0,
+        "DIGG COMMERCIAL, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0738 6010",
+      "description": "CLEANING / SWEEPING (SPOT)",
+      "unit": "MI",
+      "quantity": 50.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 200.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 50.0,
+        "DIGG COMMERCIAL, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0738 6011",
+      "description": "CLEANING / SWEEPING (HANDWORK)",
+      "unit": "SY",
+      "quantity": 1000.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 0.5,
+        "DIGG COMMERCIAL, LLC": 1.0
+      }
+    }
+  ]
+}

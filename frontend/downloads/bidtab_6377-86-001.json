@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6377-86-001",
+    "county": "Nueces",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637786001",
+    "projectType": "LIMESTONE ROCK AND ASPHALT",
+    "letDate": "03/23/21",
+    "engEstTotal": 297500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 309165.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 338233.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8009 6001",
+      "description": "LRA (TY I)(GR-AA) (DELIVERY)(SITE 1)",
+      "unit": "TON",
+      "quantity": 300.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 75.41,
+      "bidders": {
+        "MARTIN MARIETTA MATERIALS, INC.": 75.41,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 82.04
+      }
+    },
+    {
+      "itemCode": "8009 6002",
+      "description": "LRA (TY I)(GR-AA) (DELIVERY)(SITE 2)",
+      "unit": "TON",
+      "quantity": 300.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 75.13,
+      "bidders": {
+        "MARTIN MARIETTA MATERIALS, INC.": 75.13,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 81.56
+      }
+    },
+    {
+      "itemCode": "8009 6014",
+      "description": "LRA (TY II)(GR-DS) (DELIVERY)(SITE 2)",
+      "unit": "TON",
+      "quantity": 300.0,
+      "engEstUnit": 73.0,
+      "lowUnit": 77.13,
+      "bidders": {
+        "MARTIN MARIETTA MATERIALS, INC.": 77.13,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 83.31
+      }
+    },
+    {
+      "itemCode": "8009 6057",
+      "description": "LRA TY I GR CC DELIVERY SITE 1",
+      "unit": "TON",
+      "quantity": 1600.0,
+      "engEstUnit": 73.0,
+      "lowUnit": 75.41,
+      "bidders": {
+        "MARTIN MARIETTA MATERIALS, INC.": 75.41,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 82.79
+      }
+    },
+    {
+      "itemCode": "8009 6058",
+      "description": "LRA TY I GR CC DELIVERY SITE 2",
+      "unit": "TON",
+      "quantity": 1600.0,
+      "engEstUnit": 73.0,
+      "lowUnit": 75.13,
+      "bidders": {
+        "MARTIN MARIETTA MATERIALS, INC.": 75.13,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 82.31
+      }
+    }
+  ]
+}

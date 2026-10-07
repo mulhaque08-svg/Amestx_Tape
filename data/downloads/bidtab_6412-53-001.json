@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6412-53-001",
+    "county": "Navarro",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641253001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "08/23/22",
+    "engEstTotal": 112000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 84000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "A. L. HELMCAMP, INC.",
+      "totalBidAmount": 108150.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 112000.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 155000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6035",
+      "description": "FL BS (SITE DEL)(TY D GR 4)(SITE 5)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 32.0,
+      "lowUnit": 24.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 24.0,
+        "A. L. HELMCAMP, INC.": 30.9,
+        "DIGG COMMERCIAL, LLC": 32.0,
+        "TOUCHSTONE RESOURCES, LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "8007 6036",
+      "description": "FL BS (SITE DEL)(TY D GR 4)(SITE 6)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 32.0,
+      "lowUnit": 24.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 24.0,
+        "A. L. HELMCAMP, INC.": 30.9,
+        "DIGG COMMERCIAL, LLC": 32.0,
+        "TOUCHSTONE RESOURCES, LLC": 50.0
+      }
+    }
+  ]
+}

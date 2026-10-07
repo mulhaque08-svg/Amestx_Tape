@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6394-26-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639426001",
+    "projectType": "DEBRIS REMOVAL",
+    "letDate": "08/09/22",
+    "engEstTotal": 96675.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 94650.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 94840.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 5000.0,
+        "TALBRAN ENTERPRISES LLC": 15000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 21.0,
+      "engEstUnit": 135.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 10.0,
+        "TALBRAN ENTERPRISES LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "7000 6001",
+      "description": "REML & DISPL DRIFTWOOD & DEBRIS",
+      "unit": "CY",
+      "quantity": 640.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 131.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 131.0,
+        "TALBRAN ENTERPRISES LLC": 110.0
+      }
+    }
+  ]
+}

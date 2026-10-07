@@ -1,0 +1,372 @@
+{
+  "metadata": {
+    "csj": "6388-06-001",
+    "county": "Waller",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638806001",
+    "projectType": "CLEANING AND SWEEPING HIGHWAYS",
+    "letDate": "12/01/22",
+    "engEstTotal": 326572.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC",
+      "totalBidAmount": 280998.96
+    },
+    {
+      "rank": 2,
+      "vendorName": "T & M LAWN-FENCE SERVICE, LLC",
+      "totalBidAmount": 318728.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ELITE WASTE & CONSTRUCTION SERVICES LLC",
+      "totalBidAmount": 392103.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "PROFESSIONAL TRAFFIC CONTROL LLC",
+      "totalBidAmount": 663018.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 1000.0,
+        "T & M LAWN-FENCE SERVICE, LLC": 100.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 8000.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 475.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 100.0,
+        "T & M LAWN-FENCE SERVICE, LLC": 500.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 1.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0735 6007",
+      "description": "DEBRIS REMOVAL (SPOT DEBRIS)",
+      "unit": "MI",
+      "quantity": 20.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 10.0,
+        "T & M LAWN-FENCE SERVICE, LLC": 50.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 100.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0735 6068",
+      "description": "DEBRIS-CNTR MEDIANS/MAINLANES-AREA (1)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 524.0,
+      "lowUnit": 507.0,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 507.0,
+        "T & M LAWN-FENCE SERVICE, LLC": 104.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 1000.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0735 6070",
+      "description": "DEBRIS-CNTR MEDIANS/MAINLANES-AREA (3)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 138.0,
+      "lowUnit": 507.0,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 507.0,
+        "T & M LAWN-FENCE SERVICE, LLC": 20.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 1000.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0735 6072",
+      "description": "DEBRIS-CNTR MEDIANS/MAINLANES-AREA (5)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 490.0,
+      "lowUnit": 507.0,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 507.0,
+        "T & M LAWN-FENCE SERVICE, LLC": 110.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 1000.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0735 6088",
+      "description": "DEBRIS - FRONTAGE ROADS - AREA (1)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 453.0,
+      "lowUnit": 507.0,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 507.0,
+        "T & M LAWN-FENCE SERVICE, LLC": 20.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 600.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2000.0
+      }
+    },
+    {
+      "itemCode": "0735 6092",
+      "description": "DEBRIS - FRONTAGE ROADS - AREA (5)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 502.0,
+      "lowUnit": 507.0,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 507.0,
+        "T & M LAWN-FENCE SERVICE, LLC": 110.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 600.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2250.0
+      }
+    },
+    {
+      "itemCode": "0735 6108",
+      "description": "DEBRIS-ENTRANCE/EXIT RAMPS - AREA (1)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 469.0,
+      "lowUnit": 507.0,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 507.0,
+        "T & M LAWN-FENCE SERVICE, LLC": 100.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 300.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2000.0
+      }
+    },
+    {
+      "itemCode": "0735 6112",
+      "description": "DEBRIS-ENTRANCE/EXIT RAMPS - AREA (5)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 502.0,
+      "lowUnit": 507.0,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 507.0,
+        "T & M LAWN-FENCE SERVICE, LLC": 100.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 300.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2250.0
+      }
+    },
+    {
+      "itemCode": "0735 6139",
+      "description": "DEBRIS-DIRECT CONNECTOR - AREA (12)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 161.0,
+      "lowUnit": 507.0,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 507.0,
+        "T & M LAWN-FENCE SERVICE, LLC": 20.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 500.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0738 6010",
+      "description": "CLEANING / SWEEPING (SPOT)",
+      "unit": "MI",
+      "quantity": 30.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 150.0,
+        "T & M LAWN-FENCE SERVICE, LLC": 200.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 100.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0738 6094",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(1)",
+      "unit": "CYC",
+      "quantity": 18.0,
+      "engEstUnit": 1320.0,
+      "lowUnit": 1007.0,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 1007.0,
+        "T & M LAWN-FENCE SERVICE, LLC": 2496.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 1200.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2000.0
+      }
+    },
+    {
+      "itemCode": "0738 6096",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(3)",
+      "unit": "CYC",
+      "quantity": 18.0,
+      "engEstUnit": 385.0,
+      "lowUnit": 507.0,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 507.0,
+        "T & M LAWN-FENCE SERVICE, LLC": 480.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 1200.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0738 6098",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(5)",
+      "unit": "CYC",
+      "quantity": 18.0,
+      "engEstUnit": 1375.0,
+      "lowUnit": 505.0,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 505.0,
+        "T & M LAWN-FENCE SERVICE, LLC": 2664.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 1200.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2250.0
+      }
+    },
+    {
+      "itemCode": "0738 6114",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(1)",
+      "unit": "CYC",
+      "quantity": 18.0,
+      "engEstUnit": 1320.0,
+      "lowUnit": 500.07,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 500.07,
+        "T & M LAWN-FENCE SERVICE, LLC": 2496.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 800.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2000.0
+      }
+    },
+    {
+      "itemCode": "0738 6116",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(3)",
+      "unit": "CYC",
+      "quantity": 18.0,
+      "engEstUnit": 383.0,
+      "lowUnit": 500.07,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 500.07,
+        "T & M LAWN-FENCE SERVICE, LLC": 480.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 800.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0738 6118",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(5)",
+      "unit": "CYC",
+      "quantity": 18.0,
+      "engEstUnit": 1375.0,
+      "lowUnit": 500.07,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 500.07,
+        "T & M LAWN-FENCE SERVICE, LLC": 2664.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 800.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2250.0
+      }
+    },
+    {
+      "itemCode": "0738 6134",
+      "description": "CLEAN / SWEEP - FRONTAGE ROAD - AREA(1)",
+      "unit": "CYC",
+      "quantity": 18.0,
+      "engEstUnit": 1320.0,
+      "lowUnit": 1000.07,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 1000.07,
+        "T & M LAWN-FENCE SERVICE, LLC": 200.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 700.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2000.0
+      }
+    },
+    {
+      "itemCode": "0738 6138",
+      "description": "CLEAN / SWEEP - FRONTAGE ROAD - AREA(5)",
+      "unit": "CYC",
+      "quantity": 18.0,
+      "engEstUnit": 1375.0,
+      "lowUnit": 500.07,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 500.07,
+        "T & M LAWN-FENCE SERVICE, LLC": 2664.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 700.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2250.0
+      }
+    },
+    {
+      "itemCode": "0738 6154",
+      "description": "CLEAN / SWEEP - (ENTR /EXT RMP)(AREA 1)",
+      "unit": "CYC",
+      "quantity": 18.0,
+      "engEstUnit": 1320.0,
+      "lowUnit": 500.07,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 500.07,
+        "T & M LAWN-FENCE SERVICE, LLC": 600.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 350.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2000.0
+      }
+    },
+    {
+      "itemCode": "0738 6158",
+      "description": "CLEAN / SWEEP - (ENTR /EXT RMP)(AREA 5)",
+      "unit": "CYC",
+      "quantity": 18.0,
+      "engEstUnit": 1375.0,
+      "lowUnit": 500.07,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 500.07,
+        "T & M LAWN-FENCE SERVICE, LLC": 840.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 350.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2250.0
+      }
+    },
+    {
+      "itemCode": "0738 6311",
+      "description": "CLEAN/SWEEPING-DIRECT CONNECT-AREA(12)",
+      "unit": "CYC",
+      "quantity": 18.0,
+      "engEstUnit": 329.0,
+      "lowUnit": 500.07,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 500.07,
+        "T & M LAWN-FENCE SERVICE, LLC": 240.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 1000.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0738 6358",
+      "description": "MAKE READY: DRAIN SLOTS, BARRIER SLOTS",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "EXPERT MAINTENANCE & CONSTRUCTION SERVICES LLC": 1000.0,
+        "T & M LAWN-FENCE SERVICE, LLC": 1000.0,
+        "ELITE WASTE & CONSTRUCTION SERVICES LLC": 1.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 25000.0
+      }
+    }
+  ]
+}

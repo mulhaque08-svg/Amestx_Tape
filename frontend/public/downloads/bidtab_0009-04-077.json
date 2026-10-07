@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "0009-04-077",
+    "county": "Rockwall",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2024(948)",
+    "projectType": "BRIDGE MAINTENANCE",
+    "letDate": "04/04/24",
+    "engEstTotal": 4123571.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RAGLE CONSTRUCTION, INC.",
+      "totalBidAmount": 2188896.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SOUTHERN ROAD & BRIDGE, LLC",
+      "totalBidAmount": 2781360.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 5445500.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "SCR CIVIL CONSTRUCTION, LLC",
+      "totalBidAmount": 8469880.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 510831.0,
+      "lowUnit": 240000.0,
+      "bidders": {
+        "RAGLE CONSTRUCTION, INC.": 240000.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 265000.0,
+        "FNH CONSTRUCTION, LLC": 550000.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 803000.0
+      }
+    },
+    {
+      "itemCode": "0780 6002",
+      "description": "CNC CRACK REPAIR (DISCRETE)(INJECT)",
+      "unit": "LF",
+      "quantity": 1116.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 51.5,
+      "bidders": {
+        "RAGLE CONSTRUCTION, INC.": 51.5,
+        "SOUTHERN ROAD & BRIDGE, LLC": 185.0,
+        "FNH CONSTRUCTION, LLC": 500.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 105.0
+      }
+    },
+    {
+      "itemCode": "4056 6001",
+      "description": "INWATER COLUMN ENCAPSULATION",
+      "unit": "LF",
+      "quantity": 1708.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1019.0,
+      "bidders": {
+        "RAGLE CONSTRUCTION, INC.": 1019.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 1300.0,
+        "FNH CONSTRUCTION, LLC": 2500.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 4400.0
+      }
+    }
+  ]
+}

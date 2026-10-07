@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6415-70-001",
+    "county": "Sabine",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641570001",
+    "projectType": "EMULSION",
+    "letDate": "08/23/22",
+    "engEstTotal": 253825.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 275275.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6252",
+      "description": "CRS2P (DEL) (SITE 1)",
+      "unit": "GAL",
+      "quantity": 24000.0,
+      "engEstUnit": 3.55,
+      "lowUnit": 3.85,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.85
+      }
+    },
+    {
+      "itemCode": "8010 6253",
+      "description": "CRS2P (DEL) (SITE 2)",
+      "unit": "GAL",
+      "quantity": 47500.0,
+      "engEstUnit": 3.55,
+      "lowUnit": 3.85,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.85
+      }
+    }
+  ]
+}

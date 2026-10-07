@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6445-84-001",
+    "county": "Houston",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 644584001",
+    "projectType": "CUTBACK ASPHALT RC250",
+    "letDate": "07/13/23",
+    "engEstTotal": 147000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 138950.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CLEVELAND ASPHALT PRODUCTS, INC.",
+      "totalBidAmount": 146650.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "WRIGHT ASPHALT PRODUCTS COMPANY LLC",
+      "totalBidAmount": 155750.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6196",
+      "description": "CUTBACK ASPHALT (RC-250)(DEL)(SITE 1)",
+      "unit": "GAL",
+      "quantity": 35000.0,
+      "engEstUnit": 4.2,
+      "lowUnit": 3.97,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.97,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 4.19,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 4.45
+      }
+    }
+  ]
+}

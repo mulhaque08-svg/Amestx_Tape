@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6451-65-001",
+    "county": "Live Oak",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645165001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "09/07/23",
+    "engEstTotal": 831470.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 702853.74
+    },
+    {
+      "rank": 2,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 809915.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "SERVIN MOWING",
+      "totalBidAmount": 912285.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "R&M INCORPORATED": 1.0,
+        "ICOS MANAGEMENT, LLC": 25.0,
+        "SERVIN MOWING": 55.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 13866.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 38.89,
+      "bidders": {
+        "R&M INCORPORATED": 38.89,
+        "ICOS MANAGEMENT, LLC": 45.0,
+        "SERVIN MOWING": 55.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "R&M INCORPORATED": 1.0,
+        "ICOS MANAGEMENT, LLC": 27.0,
+        "SERVIN MOWING": 55.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 6540.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "R&M INCORPORATED": 25.0,
+        "ICOS MANAGEMENT, LLC": 28.0,
+        "SERVIN MOWING": 22.0
+      }
+    }
+  ]
+}

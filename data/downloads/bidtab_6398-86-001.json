@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6398-86-001",
+    "county": "Houston",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639886001",
+    "projectType": "HYDRAULIC CEMENT",
+    "letDate": "04/19/22",
+    "engEstTotal": 128342.24,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 140784.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "AKA-MATERIALS",
+      "totalBidAmount": 142556.8
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8012 6002",
+      "description": "HYDRAULIC CEMENT(TY I)(DEL)(SITE 2)",
+      "unit": "TON",
+      "quantity": 300.0,
+      "engEstUnit": 190.1,
+      "lowUnit": 210.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 210.0,
+        "AKA-MATERIALS": 214.0
+      }
+    },
+    {
+      "itemCode": "8012 6003",
+      "description": "HYDRAULIC CEMENT(TY I)(DEL)(SITE 3)",
+      "unit": "TON",
+      "quantity": 300.0,
+      "engEstUnit": 190.1,
+      "lowUnit": 210.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 210.0,
+        "AKA-MATERIALS": 214.0
+      }
+    },
+    {
+      "itemCode": "8012 6018",
+      "description": "HYDRAULIC CEMENT(TY I)(47LB)",
+      "unit": "BAG",
+      "quantity": 1792.0,
+      "engEstUnit": 7.97,
+      "lowUnit": 8.25,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 8.25,
+        "AKA-MATERIALS": 7.9
+      }
+    }
+  ]
+}

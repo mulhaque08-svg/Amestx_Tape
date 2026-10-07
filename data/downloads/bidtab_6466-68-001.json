@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "csj": "6466-68-001",
+    "county": "Tom Green",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646668001",
+    "projectType": "CLEANING AND SWEEPING HIGHWAYS",
+    "letDate": "06/05/24",
+    "engEstTotal": 697160.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "VIZCAINO, L.P.",
+      "totalBidAmount": 561372.54
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 669564.53
+    },
+    {
+      "rank": 3,
+      "vendorName": "PROFESSIONAL TRAFFIC CONTROL LLC",
+      "totalBidAmount": 954561.32
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 4470.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "VIZCAINO, L.P.": 1.0,
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 15000.0
+      }
+    },
+    {
+      "itemCode": "0738 6002",
+      "description": "CLEANING / SWEEPING (CENTER MEDIAN)",
+      "unit": "MI",
+      "quantity": 351.6,
+      "engEstUnit": 320.0,
+      "lowUnit": 285.0,
+      "bidders": {
+        "VIZCAINO, L.P.": 285.0,
+        "DIGG COMMERCIAL, LLC": 8.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0738 6004",
+      "description": "CLEANING / SWEEPING (OUTSIDE MAIN LANE)",
+      "unit": "MI",
+      "quantity": 709.2,
+      "engEstUnit": 320.0,
+      "lowUnit": 285.0,
+      "bidders": {
+        "VIZCAINO, L.P.": 285.0,
+        "DIGG COMMERCIAL, LLC": 7.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0738 6006",
+      "description": "CLEANING / SWEEPING (FRONTAGE ROAD)",
+      "unit": "MI",
+      "quantity": 208.8,
+      "engEstUnit": 320.0,
+      "lowUnit": 285.0,
+      "bidders": {
+        "VIZCAINO, L.P.": 285.0,
+        "DIGG COMMERCIAL, LLC": 10.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 350.0
+      }
+    },
+    {
+      "itemCode": "0738 6008",
+      "description": "CLEANING / SWEEPING(ENTRANCE/EXIT RAMP)",
+      "unit": "MI",
+      "quantity": 200.4,
+      "engEstUnit": 320.0,
+      "lowUnit": 285.0,
+      "bidders": {
+        "VIZCAINO, L.P.": 285.0,
+        "DIGG COMMERCIAL, LLC": 10.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0738 6011",
+      "description": "CLEANING / SWEEPING (HANDWORK)",
+      "unit": "SY",
+      "quantity": 132351.1,
+      "engEstUnit": 0.45,
+      "lowUnit": 0.95,
+      "bidders": {
+        "VIZCAINO, L.P.": 0.95,
+        "DIGG COMMERCIAL, LLC": 0.3,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1.2
+      }
+    },
+    {
+      "itemCode": "0738 6315",
+      "description": "CLEANING / SWEEPING (DIRECT CONNECTOR)",
+      "unit": "MI",
+      "quantity": 57.6,
+      "engEstUnit": 320.0,
+      "lowUnit": 285.0,
+      "bidders": {
+        "VIZCAINO, L.P.": 285.0,
+        "DIGG COMMERCIAL, LLC": 30.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 350.0
+      }
+    }
+  ]
+}

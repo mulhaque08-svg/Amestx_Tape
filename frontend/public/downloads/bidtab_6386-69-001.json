@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6386-69-001",
+    "county": "Bastrop",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638669001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/03/22",
+    "engEstTotal": 334320.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 569094.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "JASCO",
+      "totalBidAmount": 605976.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 662698.8
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6003",
+      "description": "MOBILIZATION (CALLOUT 1)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 1.0,
+        "JASCO": 2500.0,
+        "P-VILLE, INCORPORATED": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 2200.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 52.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 52.0,
+        "JASCO": 54.0,
+        "P-VILLE, INCORPORATED": 62.95
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 8744.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 52.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 52.0,
+        "JASCO": 54.0,
+        "P-VILLE, INCORPORATED": 59.95
+      }
+    }
+  ]
+}

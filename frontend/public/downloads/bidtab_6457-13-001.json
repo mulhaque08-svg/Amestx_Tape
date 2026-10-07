@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6457-13-001",
+    "county": "Mitchell",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645713001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/20/24",
+    "engEstTotal": 266890.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ABESCAPE LANDSCAPING, LLC",
+      "totalBidAmount": 263065.18
+    },
+    {
+      "rank": 2,
+      "vendorName": "MARLANE CONSTRUCTION, LLC",
+      "totalBidAmount": 298062.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "TRIPLE T MAINTENANCE INC.",
+      "totalBidAmount": 320724.3
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 701.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 34.49,
+      "bidders": {
+        "ABESCAPE LANDSCAPING, LLC": 34.49,
+        "MARLANE CONSTRUCTION, LLC": 1.0,
+        "TRIPLE T MAINTENANCE INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 5481.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 34.49,
+      "bidders": {
+        "ABESCAPE LANDSCAPING, LLC": 34.49,
+        "MARLANE CONSTRUCTION, LLC": 45.5,
+        "TRIPLE T MAINTENANCE INC.": 42.5
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 2436.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 18.0,
+      "bidders": {
+        "ABESCAPE LANDSCAPING, LLC": 18.0,
+        "MARLANE CONSTRUCTION, LLC": 16.0,
+        "TRIPLE T MAINTENANCE INC.": 17.55
+      }
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "metadata": {
+    "csj": "6451-31-001",
+    "county": "El Paso",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645131001",
+    "projectType": "TRAFFIC CONTROL SERVICES",
+    "letDate": "11/01/23",
+    "engEstTotal": 855530.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FC TRAFFIC CONTROL, INC.",
+      "totalBidAmount": 729500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "APACHE BARRICADE & SIGN",
+      "totalBidAmount": 759550.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "LESNA CONSTRUCTION, INC.",
+      "totalBidAmount": 845700.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 8500.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 1000.0,
+        "APACHE BARRICADE & SIGN": 1000.0,
+        "LESNA CONSTRUCTION, INC.": 5000.0
+      }
+    },
+    {
+      "itemCode": "0512 6061",
+      "description": "PORT CONC TRAF BAR (STKPL,INSTL&RETRN)",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 20.0,
+        "APACHE BARRICADE & SIGN": 45.0,
+        "LESNA CONSTRUCTION, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0545 6002",
+      "description": "CRASH CUSH ATTEN (DES SOURCE)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1700.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 500.0,
+        "APACHE BARRICADE & SIGN": 1500.0,
+        "LESNA CONSTRUCTION, INC.": 1600.0
+      }
+    },
+    {
+      "itemCode": "0545 6003",
+      "description": "CRASH CUSH ATTEN (MOVE & RESET)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2700.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 500.0,
+        "APACHE BARRICADE & SIGN": 2500.0,
+        "LESNA CONSTRUCTION, INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0545 6004",
+      "description": "CRASH CUSH ATTEN (STKPL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 500.0,
+        "APACHE BARRICADE & SIGN": 2500.0,
+        "LESNA CONSTRUCTION, INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0545 6019",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 8950.0,
+      "lowUnit": 6500.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 6500.0,
+        "APACHE BARRICADE & SIGN": 7700.0,
+        "LESNA CONSTRUCTION, INC.": 10500.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 150.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 60.0,
+        "APACHE BARRICADE & SIGN": 45.0,
+        "LESNA CONSTRUCTION, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "6158 6001",
+      "description": "TMSP RADAR SPEED CONTROL MONITOR",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1675.0,
+      "lowUnit": 8500.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 8500.0,
+        "APACHE BARRICADE & SIGN": 125.0,
+        "LESNA CONSTRUCTION, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "7148 6001",
+      "description": "1 LN CLOSURE 2 LN RD NO SHOULDERS",
+      "unit": "HR",
+      "quantity": 40.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 10.0,
+        "APACHE BARRICADE & SIGN": 30.0,
+        "LESNA CONSTRUCTION, INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "7148 6002",
+      "description": "1 LN CLOSURE 2 LN RD PAVED SHOULDERS",
+      "unit": "HR",
+      "quantity": 40.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 10.0,
+        "APACHE BARRICADE & SIGN": 30.0,
+        "LESNA CONSTRUCTION, INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "7148 6003",
+      "description": "1 LN CLOSURE 4 LN RD",
+      "unit": "HR",
+      "quantity": 300.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 75.0,
+        "APACHE BARRICADE & SIGN": 50.0,
+        "LESNA CONSTRUCTION, INC.": 65.0
+      }
+    },
+    {
+      "itemCode": "7148 6004",
+      "description": "2 LN CLOSURE 4 LN RD",
+      "unit": "HR",
+      "quantity": 200.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 20.0,
+        "APACHE BARRICADE & SIGN": 74.0,
+        "LESNA CONSTRUCTION, INC.": 80.0
+      }
+    },
+    {
+      "itemCode": "7148 6005",
+      "description": "FREEWAY 1 LANE CLOSURE",
+      "unit": "HR",
+      "quantity": 400.0,
+      "engEstUnit": 135.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 90.0,
+        "APACHE BARRICADE & SIGN": 174.0,
+        "LESNA CONSTRUCTION, INC.": 175.0
+      }
+    },
+    {
+      "itemCode": "7148 6006",
+      "description": "FREEWAY 2 LANE CLOSURE",
+      "unit": "HR",
+      "quantity": 100.0,
+      "engEstUnit": 145.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 90.0,
+        "APACHE BARRICADE & SIGN": 174.0,
+        "LESNA CONSTRUCTION, INC.": 180.0
+      }
+    },
+    {
+      "itemCode": "7148 6007",
+      "description": "FREEWAY 3 LANE CLOSURE",
+      "unit": "HR",
+      "quantity": 30.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 90.0,
+        "APACHE BARRICADE & SIGN": 200.0,
+        "LESNA CONSTRUCTION, INC.": 185.0
+      }
+    },
+    {
+      "itemCode": "7148 6009",
+      "description": "EXIT OR ENTRANCE RAMP CLOSURE",
+      "unit": "HR",
+      "quantity": 500.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 90.0,
+        "APACHE BARRICADE & SIGN": 30.0,
+        "LESNA CONSTRUCTION, INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "7148 6010",
+      "description": "FREEWAY CLOSURE SEQUENCE DAYTIME ONLY",
+      "unit": "HR",
+      "quantity": 10.0,
+      "engEstUnit": 165.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 50.0,
+        "APACHE BARRICADE & SIGN": 125.0,
+        "LESNA CONSTRUCTION, INC.": 600.0
+      }
+    },
+    {
+      "itemCode": "7148 6011",
+      "description": "COMPLETE FREEWAY CLOSURE",
+      "unit": "HR",
+      "quantity": 250.0,
+      "engEstUnit": 475.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 100.0,
+        "APACHE BARRICADE & SIGN": 450.0,
+        "LESNA CONSTRUCTION, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "7148 6012",
+      "description": "ONE LANE FRONTAGE ROAD CLOSURE",
+      "unit": "HR",
+      "quantity": 350.0,
+      "engEstUnit": 43.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 30.0,
+        "APACHE BARRICADE & SIGN": 35.0,
+        "LESNA CONSTRUCTION, INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "7148 6013",
+      "description": "TWO LANE FRONTAGE ROAD CLOSURE",
+      "unit": "HR",
+      "quantity": 90.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 40.0,
+        "APACHE BARRICADE & SIGN": 35.0,
+        "LESNA CONSTRUCTION, INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "7148 6014",
+      "description": "ONE LANE CONNECTING RAMP CLOSURE",
+      "unit": "HR",
+      "quantity": 50.0,
+      "engEstUnit": 43.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 75.0,
+        "APACHE BARRICADE & SIGN": 35.0,
+        "LESNA CONSTRUCTION, INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "7148 6015",
+      "description": "TWO LANE CONNECTING RAMP CLOSURE",
+      "unit": "HR",
+      "quantity": 10.0,
+      "engEstUnit": 63.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 75.0,
+        "APACHE BARRICADE & SIGN": 55.0,
+        "LESNA CONSTRUCTION, INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "7148 6016",
+      "description": "WORK AREA ON SHOULDER",
+      "unit": "HR",
+      "quantity": 400.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 75.0,
+        "APACHE BARRICADE & SIGN": 35.0,
+        "LESNA CONSTRUCTION, INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "7148 6017",
+      "description": "TURN AROUND CLOSURE",
+      "unit": "HR",
+      "quantity": 270.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 50.0,
+        "APACHE BARRICADE & SIGN": 35.0,
+        "LESNA CONSTRUCTION, INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "7148 6019",
+      "description": "FURNISH ADDITIONAL FLAGGER",
+      "unit": "HR",
+      "quantity": 80.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 50.0,
+        "APACHE BARRICADE & SIGN": 95.0,
+        "LESNA CONSTRUCTION, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "7148 6020",
+      "description": "PILOT VEHICLE AND OPERATOR",
+      "unit": "HR",
+      "quantity": 10.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 10.0,
+        "APACHE BARRICADE & SIGN": 75.0,
+        "LESNA CONSTRUCTION, INC.": 90.0
+      }
+    },
+    {
+      "itemCode": "7148 6021",
+      "description": "FURNISH ADDITIONAL ARROW BOARD",
+      "unit": "HR",
+      "quantity": 30.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 10.0,
+        "APACHE BARRICADE & SIGN": 10.0,
+        "LESNA CONSTRUCTION, INC.": 25.0
+      }
+    }
+  ]
+}

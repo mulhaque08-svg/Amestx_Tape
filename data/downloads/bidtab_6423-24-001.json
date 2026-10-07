@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6423-24-001",
+    "county": "Smith",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642324001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/01/22",
+    "engEstTotal": 615897.35,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JASCO",
+      "totalBidAmount": 898125.48
+    },
+    {
+      "rank": 2,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 927148.44
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "JASCO": 5000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 15926.76,
+      "engEstUnit": 35.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "JASCO": 50.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 52.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "JASCO": 50.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 4404.86,
+      "engEstUnit": 12.5,
+      "lowUnit": 18.0,
+      "bidders": {
+        "JASCO": 18.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 22.0
+      }
+    }
+  ]
+}

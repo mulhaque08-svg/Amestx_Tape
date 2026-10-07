@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6466-41-001",
+    "county": "Trinity",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646641001",
+    "projectType": "CUTBACK/RC250/TRINITY (POLK & SAN JACINTO)",
+    "letDate": "05/07/24",
+    "engEstTotal": 159100.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CLEVELAND ASPHALT PRODUCTS, INC.",
+      "totalBidAmount": 161200.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6001",
+      "description": "CUTBACK ASPHALT (RC-250)(DELIVERY)",
+      "unit": "GAL",
+      "quantity": 10000.0,
+      "engEstUnit": 4.06,
+      "lowUnit": 4.12,
+      "bidders": {
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 4.12
+      }
+    },
+    {
+      "itemCode": "8010 6003",
+      "description": "CUTBACK ASPHALT (RC-250)(PICKUP)",
+      "unit": "GAL",
+      "quantity": 30000.0,
+      "engEstUnit": 3.95,
+      "lowUnit": 4.0,
+      "bidders": {
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 4.0
+      }
+    }
+  ]
+}

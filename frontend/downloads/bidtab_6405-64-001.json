@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "csj": "6405-64-001",
+    "county": "Travis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640564001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "04/12/23",
+    "engEstTotal": 219030.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CEN-TEX IRRIGATION SYSTEMS, INC.",
+      "totalBidAmount": 310166.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 7500.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 7500.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 3846.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 71.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 71.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 71.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 71.0
+      }
+    }
+  ]
+}

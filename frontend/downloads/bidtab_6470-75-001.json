@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6470-75-001",
+    "county": "Ector",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 647075001",
+    "projectType": "PAINT AND BEADS",
+    "letDate": "08/13/24",
+    "engEstTotal": 130800.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 133272.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ENNIS-FLINT, INC.",
+      "totalBidAmount": 134400.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "STRIPE-A-ZONE, LLC",
+      "totalBidAmount": 149640.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "DOMINION ENGINEERING MANAGEMENT SERVICES (DEMS), LLC",
+      "totalBidAmount": 336600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8003 6001",
+      "description": "TRAFFIC PAINT (W)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 3750.0,
+      "lowUnit": 3729.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 3729.0,
+        "ENNIS-FLINT, INC.": 4000.0,
+        "STRIPE-A-ZONE, LLC": 4300.0,
+        "DOMINION ENGINEERING MANAGEMENT SERVICES (DEMS), LLC": 9002.0
+      }
+    },
+    {
+      "itemCode": "8003 6002",
+      "description": "TRAFFIC PAINT (Y)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 3750.0,
+      "lowUnit": 3729.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 3729.0,
+        "ENNIS-FLINT, INC.": 4000.0,
+        "STRIPE-A-ZONE, LLC": 4300.0,
+        "DOMINION ENGINEERING MANAGEMENT SERVICES (DEMS), LLC": 9002.0
+      }
+    },
+    {
+      "itemCode": "8003 6003",
+      "description": "GLASS BEADS (TY III)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 1700.0,
+      "lowUnit": 1824.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 1824.0,
+        "ENNIS-FLINT, INC.": 1600.0,
+        "STRIPE-A-ZONE, LLC": 1935.0,
+        "DOMINION ENGINEERING MANAGEMENT SERVICES (DEMS), LLC": 5023.0
+      }
+    }
+  ]
+}

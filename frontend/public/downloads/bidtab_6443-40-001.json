@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6443-40-001",
+    "county": "Jefferson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644340001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "08/02/23",
+    "engEstTotal": 1053144.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "WAYNE YANCEY, INC.",
+      "totalBidAmount": 1250570.24
+    },
+    {
+      "rank": 2,
+      "vendorName": "YELLOWSTONE LANDSCAPE - CENTRAL, INC.",
+      "totalBidAmount": 2928688.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 11076.0,
+      "engEstUnit": 44.0,
+      "lowUnit": 62.24,
+      "bidders": {
+        "WAYNE YANCEY, INC.": 62.24,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 88.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "WAYNE YANCEY, INC.": 1.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 88.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 32400.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "WAYNE YANCEY, INC.": 16.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 52.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 2700.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "WAYNE YANCEY, INC.": 1.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 52.0
+      }
+    }
+  ]
+}

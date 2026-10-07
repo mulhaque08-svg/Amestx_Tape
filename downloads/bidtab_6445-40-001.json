@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6445-40-001",
+    "county": "Randall",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644540001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "10/06/23",
+    "engEstTotal": 348600.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARLANE CONSTRUCTION, LLC",
+      "totalBidAmount": 315680.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BERT WHITAKER",
+      "totalBidAmount": 409891.2
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "MARLANE CONSTRUCTION, LLC": 1000.0,
+        "BERT WHITAKER": 3000.0
+      }
+    },
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 30.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "MARLANE CONSTRUCTION, LLC": 1.0,
+        "BERT WHITAKER": 52.59
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 7250.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 41.0,
+      "bidders": {
+        "MARLANE CONSTRUCTION, LLC": 41.0,
+        "BERT WHITAKER": 52.59
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 400.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 41.0,
+      "bidders": {
+        "MARLANE CONSTRUCTION, LLC": 41.0,
+        "BERT WHITAKER": 52.59
+      }
+    }
+  ]
+}

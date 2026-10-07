@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "csj": "6437-39-001",
+    "county": "Tarrant",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643739001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "06/27/23",
+    "engEstTotal": 3424912.45,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JASCO",
+      "totalBidAmount": 3231440.25
+    },
+    {
+      "rank": 2,
+      "vendorName": "USA DT SERVICES, INC.",
+      "totalBidAmount": 4148121.85
+    },
+    {
+      "rank": 3,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 4900692.66
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "JASCO": 2000.0,
+        "USA DT SERVICES, INC.": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 25000.0
+      }
+    },
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 889.57,
+      "engEstUnit": 35.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "JASCO": 125.0,
+        "USA DT SERVICES, INC.": 82.2,
+        "CROSS PLUS CONSTRUCTION, LLC": 86.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 200.0,
+      "engEstUnit": 82.5,
+      "lowUnit": 125.0,
+      "bidders": {
+        "JASCO": 125.0,
+        "USA DT SERVICES, INC.": 82.2,
+        "CROSS PLUS CONSTRUCTION, LLC": 86.0
+      }
+    },
+    {
+      "itemCode": "0730 6105",
+      "description": "FULL-WIDTH MOWING (URBAN)",
+      "unit": "AC",
+      "quantity": 20856.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "JASCO": 65.0,
+        "USA DT SERVICES, INC.": 82.2,
+        "CROSS PLUS CONSTRUCTION, LLC": 86.0
+      }
+    },
+    {
+      "itemCode": "0731 6007",
+      "description": "PAVEMENT EDGES, STRUCTURES & FIXTURES",
+      "unit": "MI",
+      "quantity": 498.28,
+      "engEstUnit": 850.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "JASCO": 1200.0,
+        "USA DT SERVICES, INC.": 150.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 2300.0
+      }
+    },
+    {
+      "itemCode": "0731 6011",
+      "description": "BROADCAST APPLICATION",
+      "unit": "AC",
+      "quantity": 5898.68,
+      "engEstUnit": 112.5,
+      "lowUnit": 100.0,
+      "bidders": {
+        "JASCO": 100.0,
+        "USA DT SERVICES, INC.": 150.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 123.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 20856.0,
+      "engEstUnit": 23.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "JASCO": 25.0,
+        "USA DT SERVICES, INC.": 65.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 32.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 200.0,
+      "engEstUnit": 21.25,
+      "lowUnit": 25.0,
+      "bidders": {
+        "JASCO": 25.0,
+        "USA DT SERVICES, INC.": 75.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 32.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6459-89-001",
+    "county": "Rusk",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 645989001",
+    "projectType": "BRIDGE PREVENTATIVE MAINTENANCE",
+    "letDate": "06/07/24",
+    "engEstTotal": 188600.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 143400.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DCC CONSTRUCTION AND SERVICES, L.L.C.",
+      "totalBidAmount": 178000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "RED BARON BUILDING COMPANY, LLC",
+      "totalBidAmount": 183400.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 185488.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0420 6070",
+      "description": "CL C CONC (PILE ENCASEMENT)",
+      "unit": "CY",
+      "quantity": 51.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 2400.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 2400.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 2000.0,
+        "RED BARON BUILDING COMPANY, LLC": 2600.0,
+        "RISE UP CONSTRUCTION LLC": 2588.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 17000.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 5000.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 50000.0,
+        "RED BARON BUILDING COMPANY, LLC": 45000.0,
+        "RISE UP CONSTRUCTION LLC": 12000.0
+      }
+    },
+    {
+      "itemCode": "0780 6002",
+      "description": "CNC CRACK REPAIR (DISCRETE)(INJECT)",
+      "unit": "LF",
+      "quantity": 60.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 50.0,
+        "DCC CONSTRUCTION AND SERVICES, L.L.C.": 100.0,
+        "RED BARON BUILDING COMPANY, LLC": 30.0,
+        "RISE UP CONSTRUCTION LLC": 125.0
+      }
+    }
+  ]
+}

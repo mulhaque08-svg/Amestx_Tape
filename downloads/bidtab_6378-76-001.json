@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6378-76-001",
+    "county": "Johnson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637876001",
+    "projectType": "CRACK SEAL",
+    "letDate": "07/15/21",
+    "engEstTotal": 188828.96,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 194340.9
+    },
+    {
+      "rank": 2,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 301098.65
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6003",
+      "description": "MOBILIZATION (CALLOUT 1)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1521.05,
+      "lowUnit": 4000.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 4000.0,
+        "CRACKSEAL OF TEXAS, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 76.0,
+      "engEstUnit": 179.74,
+      "lowUnit": 10.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 10.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.05
+      }
+    }
+  ]
+}

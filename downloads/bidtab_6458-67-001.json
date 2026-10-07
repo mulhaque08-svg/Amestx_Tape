@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6458-67-001",
+    "county": "Taylor",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 645867001",
+    "projectType": "PAINT AND BEADS",
+    "letDate": "10/27/23",
+    "engEstTotal": 59608.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ENNIS-FLINT, INC.",
+      "totalBidAmount": 73775.8
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 76160.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8003 6001",
+      "description": "TRAFFIC PAINT (W)",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 725.0,
+      "lowUnit": 771.1,
+      "bidders": {
+        "ENNIS-FLINT, INC.": 771.1,
+        "DIGG COMMERCIAL, LLC": 928.0
+      }
+    },
+    {
+      "itemCode": "8003 6002",
+      "description": "TRAFFIC PAINT (Y)",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 725.0,
+      "lowUnit": 783.75,
+      "bidders": {
+        "ENNIS-FLINT, INC.": 783.75,
+        "DIGG COMMERCIAL, LLC": 928.0
+      }
+    },
+    {
+      "itemCode": "8003 6004",
+      "description": "GLASS BEADS (TY II)",
+      "unit": "EA",
+      "quantity": 864.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "ENNIS-FLINT, INC.": 35.0,
+        "DIGG COMMERCIAL, LLC": 28.0
+      }
+    }
+  ]
+}

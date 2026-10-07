@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6465-41-001",
+    "county": "El Paso",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646541001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/01/24",
+    "engEstTotal": 407400.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 372991.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 395430.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 30000.0,
+      "lowUnit": 15777.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 15777.0,
+        "ICOS MANAGEMENT, LLC": 30000.0
+      }
+    }
+  ]
+}

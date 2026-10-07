@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6384-55-001",
+    "county": "Lamb",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638455001",
+    "projectType": "CRACK SEAL",
+    "letDate": "09/01/21",
+    "engEstTotal": 414996.03,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 337888.33
+    },
+    {
+      "rank": 2,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 390009.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 399094.13
+    },
+    {
+      "rank": 4,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 416104.08
+    },
+    {
+      "rank": 5,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 583060.3
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 40000.0,
+      "lowUnit": 2300.0,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 2300.0,
+        "D & M CONTRACTORS, LLC": 2000.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "TALBRAN ENTERPRISES LLC": 48000.0,
+        "ANTHONY SERVICES": 25000.0
+      }
+    },
+    {
+      "itemCode": "0712 6008",
+      "description": "JT / CRCK SEAL (RUBBER - ASPHALT)",
+      "unit": "LMI",
+      "quantity": 774.939,
+      "engEstUnit": 475.0,
+      "lowUnit": 433.0,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 433.0,
+        "D & M CONTRACTORS, LLC": 500.0,
+        "CRACKSEAL OF TEXAS, LLC": 515.0,
+        "TALBRAN ENTERPRISES LLC": 474.0,
+        "ANTHONY SERVICES": 700.0
+      }
+    }
+  ]
+}

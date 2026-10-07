@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6398-76-001",
+    "county": "Polk",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639876001",
+    "projectType": "ROCK/RIPRAP",
+    "letDate": "03/08/22",
+    "engEstTotal": 33075.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "EAST TEXAS ASPHALT CO., LTD.",
+      "totalBidAmount": 32000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 35000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 50000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8020 6023",
+      "description": "RIPRAP (PROTECTION TYPE)(12IN)(SITE 1)",
+      "unit": "TON",
+      "quantity": 400.0,
+      "engEstUnit": 66.15,
+      "lowUnit": 64.0,
+      "bidders": {
+        "EAST TEXAS ASPHALT CO., LTD.": 64.0,
+        "DIGG COMMERCIAL, LLC": 70.0,
+        "TOUCHSTONE RESOURCES, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "8020 6089",
+      "description": "RIPRAP (TYPE R)(SITE 1)",
+      "unit": "TON",
+      "quantity": 100.0,
+      "engEstUnit": 66.15,
+      "lowUnit": 64.0,
+      "bidders": {
+        "EAST TEXAS ASPHALT CO., LTD.": 64.0,
+        "DIGG COMMERCIAL, LLC": 70.0,
+        "TOUCHSTONE RESOURCES, LLC": 100.0
+      }
+    }
+  ]
+}

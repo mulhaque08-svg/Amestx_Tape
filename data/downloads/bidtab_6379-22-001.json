@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6379-22-001",
+    "county": "Kinney",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637922001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "08/19/21",
+    "engEstTotal": 153668.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 114233.78
+    },
+    {
+      "rank": 2,
+      "vendorName": "CM COMPANY",
+      "totalBidAmount": 120254.78
+    },
+    {
+      "rank": 3,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 153989.2
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 724.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 28.48,
+      "bidders": {
+        "R&M INCORPORATED": 28.48,
+        "CM COMPANY": 29.98,
+        "ABESCAPE GROUP LLC": 26.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 1889.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 28.48,
+      "bidders": {
+        "R&M INCORPORATED": 28.48,
+        "CM COMPANY": 29.98,
+        "ABESCAPE GROUP LLC": 39.6
+      }
+    },
+    {
+      "itemCode": "0730 6054",
+      "description": "FULL - WIDTH MOWING - TRACT (1)",
+      "unit": "AC",
+      "quantity": 1398.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 28.48,
+      "bidders": {
+        "R&M INCORPORATED": 28.48,
+        "CM COMPANY": 29.98,
+        "ABESCAPE GROUP LLC": 39.6
+      }
+    }
+  ]
+}

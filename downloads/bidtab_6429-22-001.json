@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "csj": "6429-22-001",
+    "county": "Houston",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642922001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/08/23",
+    "engEstTotal": 273576.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SERVIN MOWING",
+      "totalBidAmount": 220379.18
+    },
+    {
+      "rank": 2,
+      "vendorName": "DON YATES, INC.",
+      "totalBidAmount": 232788.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CEHAND SERVICES LLC",
+      "totalBidAmount": 234666.23
+    },
+    {
+      "rank": 4,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 258610.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 96.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "SERVIN MOWING": 1.0,
+        "DON YATES, INC.": 4.0,
+        "CEHAND SERVICES LLC": 0.001,
+        "CROSS PLUS CONSTRUCTION, LLC": 36.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 5800.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 31.5,
+      "bidders": {
+        "SERVIN MOWING": 31.5,
+        "DON YATES, INC.": 35.0,
+        "CEHAND SERVICES LLC": 34.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 36.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "SERVIN MOWING": 1.0,
+        "DON YATES, INC.": 4.0,
+        "CEHAND SERVICES LLC": 0.001,
+        "CROSS PLUS CONSTRUCTION, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 2882.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 12.99,
+      "bidders": {
+        "SERVIN MOWING": 12.99,
+        "DON YATES, INC.": 10.0,
+        "CEHAND SERVICES LLC": 13.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 16.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 96.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "SERVIN MOWING": 1.0,
+        "DON YATES, INC.": 4.0,
+        "CEHAND SERVICES LLC": 0.001,
+        "CROSS PLUS CONSTRUCTION, LLC": 2.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6426-07-001",
+    "county": "Leon",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642607001",
+    "projectType": "HOT MIX",
+    "letDate": "12/01/22",
+    "engEstTotal": 705000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BIG CREEK CONSTRUCTION, LTD.",
+      "totalBidAmount": 691000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 817000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6007",
+      "description": "D-GR HMA(SQ) TY F PG 70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 88.0,
+      "bidders": {
+        "BIG CREEK CONSTRUCTION, LTD.": 88.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 101.0
+      }
+    },
+    {
+      "itemCode": "8011 6008",
+      "description": "D-GR HMA(SQ) TY F PG 70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 5000.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 103.0,
+      "bidders": {
+        "BIG CREEK CONSTRUCTION, LTD.": 103.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 123.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "csj": "6419-82-001",
+    "county": "Bowie",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641982001",
+    "projectType": "HOT MIX",
+    "letDate": "10/12/22",
+    "engEstTotal": 293500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RK HALL, LLC",
+      "totalBidAmount": 333515.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 1100.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 105.0,
+      "bidders": {
+        "RK HALL, LLC": 105.0
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 1100.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 119.7,
+      "bidders": {
+        "RK HALL, LLC": 119.7
+      }
+    },
+    {
+      "itemCode": "8011 6003",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 350.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 116.0,
+      "bidders": {
+        "RK HALL, LLC": 116.0
+      }
+    },
+    {
+      "itemCode": "8011 6004",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 350.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 130.7,
+      "bidders": {
+        "RK HALL, LLC": 130.7
+      }
+    }
+  ]
+}

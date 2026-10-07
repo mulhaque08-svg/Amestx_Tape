@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6430-52-001",
+    "county": "Galveston",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643052001",
+    "projectType": "DITCH CLEANING AND RESHAPING",
+    "letDate": "05/05/23",
+    "engEstTotal": 477742.38,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RHINO EQUITY, LLC",
+      "totalBidAmount": 453096.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 464900.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 641.28,
+      "lowUnit": 1.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 1.0,
+        "TEXAS DRAINAGE INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0760 6001",
+      "description": "DITCH CLEANING AND RESHAPING (FOOT)",
+      "unit": "LF",
+      "quantity": 266000.0,
+      "engEstUnit": 1.7,
+      "lowUnit": 1.63,
+      "bidders": {
+        "RHINO EQUITY, LLC": 1.63,
+        "TEXAS DRAINAGE INC.": 1.73
+      }
+    }
+  ]
+}

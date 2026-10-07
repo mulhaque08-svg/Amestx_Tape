@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6466-92-001",
+    "county": "Refugio",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646692001",
+    "projectType": "HOT MIX",
+    "letDate": "05/21/24",
+    "engEstTotal": 296500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 297450.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ANDERSON COLUMBIA CO., INC.",
+      "totalBidAmount": 310410.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 100.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 85.0,
+        "ANDERSON COLUMBIA CO., INC.": 95.35
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2500.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 115.58,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 115.58,
+        "ANDERSON COLUMBIA CO., INC.": 120.35
+      }
+    }
+  ]
+}

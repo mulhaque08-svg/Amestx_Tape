@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6458-99-001",
+    "county": "Stonewall",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645899001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/20/24",
+    "engEstTotal": 143214.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KENNETH THOMASON",
+      "totalBidAmount": 128826.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GROUNDCOVER HOLDINGS, LLC",
+      "totalBidAmount": 144710.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 582.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 29.7,
+      "bidders": {
+        "KENNETH THOMASON": 29.7,
+        "GROUNDCOVER HOLDINGS, LLC": 33.89
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 2818.0,
+      "engEstUnit": 33.0,
+      "lowUnit": 29.7,
+      "bidders": {
+        "KENNETH THOMASON": 29.7,
+        "GROUNDCOVER HOLDINGS, LLC": 33.89
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 1638.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 17.0,
+      "bidders": {
+        "KENNETH THOMASON": 17.0,
+        "GROUNDCOVER HOLDINGS, LLC": 18.0
+      }
+    }
+  ]
+}

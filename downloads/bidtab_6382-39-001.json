@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "csj": "6382-39-001",
+    "county": "Randall",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638239001",
+    "projectType": "PAINT AND BEADS",
+    "letDate": "05/02/24",
+    "engEstTotal": 1202926.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 1213409.75
+    },
+    {
+      "rank": 2,
+      "vendorName": "ENNIS-FLINT, INC.",
+      "totalBidAmount": 1222812.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "TRP INFRASTRUCTURE SERVICES, LLC",
+      "totalBidAmount": 1264375.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "STRIPE-A-ZONE, LLC",
+      "totalBidAmount": 1288000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8003 6001",
+      "description": "TRAFFIC PAINT (W)",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 3853.4,
+      "lowUnit": 4072.37,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 4072.37,
+        "ENNIS-FLINT, INC.": 3987.5,
+        "TRP INFRASTRUCTURE SERVICES, LLC": 4222.0,
+        "STRIPE-A-ZONE, LLC": 4400.0
+      }
+    },
+    {
+      "itemCode": "8003 6002",
+      "description": "TRAFFIC PAINT (Y)",
+      "unit": "EA",
+      "quantity": 75.0,
+      "engEstUnit": 3871.31,
+      "lowUnit": 4072.37,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 4072.37,
+        "ENNIS-FLINT, INC.": 3987.5,
+        "TRP INFRASTRUCTURE SERVICES, LLC": 4222.0,
+        "STRIPE-A-ZONE, LLC": 4400.0
+      }
+    },
+    {
+      "itemCode": "8003 6003",
+      "description": "GLASS BEADS (TY III)",
+      "unit": "EA",
+      "quantity": 175.0,
+      "engEstUnit": 1822.79,
+      "lowUnit": 1732.8,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 1732.8,
+        "ENNIS-FLINT, INC.": 1800.0,
+        "TRP INFRASTRUCTURE SERVICES, LLC": 1768.0,
+        "STRIPE-A-ZONE, LLC": 1750.0
+      }
+    },
+    {
+      "itemCode": "8003 6004",
+      "description": "GLASS BEADS (TY II)",
+      "unit": "EA",
+      "quantity": 175.0,
+      "engEstUnit": 1190.0,
+      "lowUnit": 1128.6,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 1128.6,
+        "ENNIS-FLINT, INC.": 1200.0,
+        "TRP INFRASTRUCTURE SERVICES, LLC": 1235.0,
+        "STRIPE-A-ZONE, LLC": 1210.0
+      }
+    }
+  ]
+}

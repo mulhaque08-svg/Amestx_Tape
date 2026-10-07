@@ -1,0 +1,941 @@
+{
+  "metadata": {
+    "csj": "1014-02-043",
+    "county": "Rockwall",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2023(416)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "01/06/23",
+    "engEstTotal": 3836735.95,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "INDUS ROAD & BRIDGE, INC.",
+      "totalBidAmount": 4090390.33
+    },
+    {
+      "rank": 2,
+      "vendorName": "ED BELL CONSTRUCTION COMPANY",
+      "totalBidAmount": 4278934.32
+    },
+    {
+      "rank": 3,
+      "vendorName": "MCMAHON CONTRACTING AND CONSTRUCTION, LLC",
+      "totalBidAmount": 4303712.77
+    },
+    {
+      "rank": 4,
+      "vendorName": "RAGLE CONSTRUCTION, INC.",
+      "totalBidAmount": 4574110.96
+    },
+    {
+      "rank": 5,
+      "vendorName": "ALTUS CONSTRUCTION LLC",
+      "totalBidAmount": 5321608.34
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 9.55,
+      "engEstUnit": 8000.0,
+      "lowUnit": 4000.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 4000.0,
+        "ED BELL CONSTRUCTION COMPANY": 7400.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 2730.29,
+        "RAGLE CONSTRUCTION, INC.": 18500.0,
+        "ALTUS CONSTRUCTION LLC": 12043.17
+      }
+    },
+    {
+      "itemCode": "0104 6010",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "CY",
+      "quantity": 35.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 30.0,
+        "ED BELL CONSTRUCTION COMPANY": 150.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 162.71,
+        "RAGLE CONSTRUCTION, INC.": 125.0,
+        "ALTUS CONSTRUCTION LLC": 237.69
+      }
+    },
+    {
+      "itemCode": "0105 6045",
+      "description": "REMOVING STAB BASE AND ASPH PAV (2\"-8\")",
+      "unit": "SY",
+      "quantity": 86.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 10.0,
+        "ED BELL CONSTRUCTION COMPANY": 0.01,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 12.98,
+        "RAGLE CONSTRUCTION, INC.": 13.5,
+        "ALTUS CONSTRUCTION LLC": 24.09
+      }
+    },
+    {
+      "itemCode": "0105 6054",
+      "description": "REMOVING STAB BASE & ASPH PAV (18\")",
+      "unit": "SY",
+      "quantity": 2378.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 13.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 13.0,
+        "ED BELL CONSTRUCTION COMPANY": 0.01,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 12.98,
+        "RAGLE CONSTRUCTION, INC.": 14.25,
+        "ALTUS CONSTRUCTION LLC": 14.45
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 522.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 26.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 26.0,
+        "ED BELL CONSTRUCTION COMPANY": 10.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 36.91,
+        "RAGLE CONSTRUCTION, INC.": 125.0,
+        "ALTUS CONSTRUCTION LLC": 10.1
+      }
+    },
+    {
+      "itemCode": "0132 6025",
+      "description": "EMBANKMENT (FINAL) (DENS CONT) (TY C1)",
+      "unit": "CY",
+      "quantity": 3608.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 37.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 37.0,
+        "ED BELL CONSTRUCTION COMPANY": 31.5,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 23.03,
+        "RAGLE CONSTRUCTION, INC.": 35.0,
+        "ALTUS CONSTRUCTION LLC": 14.39
+      }
+    },
+    {
+      "itemCode": "0132 6026",
+      "description": "EMBANKMENT (FINAL) (DENS CONT) (TY C2)",
+      "unit": "CY",
+      "quantity": 50.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 50.0,
+        "ED BELL CONSTRUCTION COMPANY": 75.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 39.17,
+        "RAGLE CONSTRUCTION, INC.": 45.0,
+        "ALTUS CONSTRUCTION LLC": 15.14
+      }
+    },
+    {
+      "itemCode": "0132 6056",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY C2)(DS)",
+      "unit": "CY",
+      "quantity": 950.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 94.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 94.0,
+        "ED BELL CONSTRUCTION COMPANY": 168.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 26.3,
+        "RAGLE CONSTRUCTION, INC.": 35.0,
+        "ALTUS CONSTRUCTION LLC": 54.19
+      }
+    },
+    {
+      "itemCode": "0161 6017",
+      "description": "COMPOST MANUF TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 7112.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 2.0,
+        "ED BELL CONSTRUCTION COMPANY": 2.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 1.05,
+        "RAGLE CONSTRUCTION, INC.": 3.0,
+        "ALTUS CONSTRUCTION LLC": 1.45
+      }
+    },
+    {
+      "itemCode": "0162 6002",
+      "description": "BLOCK SODDING",
+      "unit": "SY",
+      "quantity": 7112.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 3.5,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 3.5,
+        "ED BELL CONSTRUCTION COMPANY": 5.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 3.84,
+        "RAGLE CONSTRUCTION, INC.": 4.5,
+        "ALTUS CONSTRUCTION LLC": 5.54
+      }
+    },
+    {
+      "itemCode": "0164 6051",
+      "description": "DRILL SEED (TEMP)(WARM OR COOL)",
+      "unit": "SY",
+      "quantity": 7112.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.26,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 0.26,
+        "ED BELL CONSTRUCTION COMPANY": 0.2,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 0.3,
+        "RAGLE CONSTRUCTION, INC.": 0.25,
+        "ALTUS CONSTRUCTION LLC": 0.35
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 1058.0,
+      "engEstUnit": 18.0,
+      "lowUnit": 48.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 48.0,
+        "ED BELL CONSTRUCTION COMPANY": 2.1,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 53.1,
+        "RAGLE CONSTRUCTION, INC.": 20.0,
+        "ALTUS CONSTRUCTION LLC": 48.17
+      }
+    },
+    {
+      "itemCode": "0260 6002",
+      "description": "LIME (HYDRATED LIME (SLURRY))",
+      "unit": "TON",
+      "quantity": 1082.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 297.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 297.0,
+        "ED BELL CONSTRUCTION COMPANY": 0.01,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 312.7,
+        "RAGLE CONSTRUCTION, INC.": 0.01,
+        "ALTUS CONSTRUCTION LLC": 301.78
+      }
+    },
+    {
+      "itemCode": "0260 6027",
+      "description": "LIME TRT (EXST MATL)(8\")",
+      "unit": "SY",
+      "quantity": 3291.0,
+      "engEstUnit": 9.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 6.0,
+        "ED BELL CONSTRUCTION COMPANY": 16.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 11.09,
+        "RAGLE CONSTRUCTION, INC.": 6.5,
+        "ALTUS CONSTRUCTION LLC": 5.43
+      }
+    },
+    {
+      "itemCode": "0310 6029",
+      "description": "PRIME COAT (MS-2 OR SS-1)",
+      "unit": "GAL",
+      "quantity": 658.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 7.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 7.0,
+        "ED BELL CONSTRUCTION COMPANY": 8.4,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 7.43,
+        "RAGLE CONSTRUCTION, INC.": 6.3,
+        "ALTUS CONSTRUCTION LLC": 9.63
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 103.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 200.0,
+        "ED BELL CONSTRUCTION COMPANY": 500.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 195.96,
+        "RAGLE CONSTRUCTION, INC.": 150.0,
+        "ALTUS CONSTRUCTION LLC": 151.0
+      }
+    },
+    {
+      "itemCode": "0416 6004",
+      "description": "DRILL SHAFT (36 IN)",
+      "unit": "LF",
+      "quantity": 776.0,
+      "engEstUnit": 270.0,
+      "lowUnit": 186.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 186.0,
+        "ED BELL CONSTRUCTION COMPANY": 225.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 234.95,
+        "RAGLE CONSTRUCTION, INC.": 150.0,
+        "ALTUS CONSTRUCTION LLC": 417.93
+      }
+    },
+    {
+      "itemCode": "0422 6002",
+      "description": "REINF CONC SLAB (HPC)",
+      "unit": "SF",
+      "quantity": 8970.0,
+      "engEstUnit": 23.0,
+      "lowUnit": 19.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 19.0,
+        "ED BELL CONSTRUCTION COMPANY": 25.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 42.2,
+        "RAGLE CONSTRUCTION, INC.": 26.0,
+        "ALTUS CONSTRUCTION LLC": 65.63
+      }
+    },
+    {
+      "itemCode": "0422 6016",
+      "description": "APPROACH SLAB (HPC)",
+      "unit": "CY",
+      "quantity": 113.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 650.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 650.0,
+        "ED BELL CONSTRUCTION COMPANY": 900.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 744.44,
+        "RAGLE CONSTRUCTION, INC.": 590.0,
+        "ALTUS CONSTRUCTION LLC": 2272.95
+      }
+    },
+    {
+      "itemCode": "0432 6002",
+      "description": "RIPRAP (CONC)(5 IN)",
+      "unit": "CY",
+      "quantity": 35.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 465.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 465.0,
+        "ED BELL CONSTRUCTION COMPANY": 900.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 757.23,
+        "RAGLE CONSTRUCTION, INC.": 650.0,
+        "ALTUS CONSTRUCTION LLC": 600.14
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 1510.2,
+      "engEstUnit": 150.0,
+      "lowUnit": 165.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 165.0,
+        "ED BELL CONSTRUCTION COMPANY": 175.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 164.07,
+        "RAGLE CONSTRUCTION, INC.": 10.0,
+        "ALTUS CONSTRUCTION LLC": 201.38
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 42.0,
+      "engEstUnit": 580.0,
+      "lowUnit": 420.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 420.0,
+        "ED BELL CONSTRUCTION COMPANY": 1000.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 844.33,
+        "RAGLE CONSTRUCTION, INC.": 675.0,
+        "ALTUS CONSTRUCTION LLC": 512.71
+      }
+    },
+    {
+      "itemCode": "0454 6020",
+      "description": "SEALED EXPANSION JOINT (4 IN) (SEJ - B)",
+      "unit": "LF",
+      "quantity": 104.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 120.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 120.0,
+        "ED BELL CONSTRUCTION COMPANY": 200.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 149.37,
+        "RAGLE CONSTRUCTION, INC.": 140.0,
+        "ALTUS CONSTRUCTION LLC": 154.42
+      }
+    },
+    {
+      "itemCode": "0466 6134",
+      "description": "HEADWALL (CH - PW - S) (DIA= 36 IN)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 12500.0,
+      "lowUnit": 10500.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 10500.0,
+        "ED BELL CONSTRUCTION COMPANY": 10800.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 13393.0,
+        "RAGLE CONSTRUCTION, INC.": 1.0,
+        "ALTUS CONSTRUCTION LLC": 12579.06
+      }
+    },
+    {
+      "itemCode": "0466 6140",
+      "description": "HEADWALL (CH - PW - S) (DIA= 72 IN)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 20200.0,
+      "lowUnit": 16500.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 16500.0,
+        "ED BELL CONSTRUCTION COMPANY": 30000.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 29895.3,
+        "RAGLE CONSTRUCTION, INC.": 1.0,
+        "ALTUS CONSTRUCTION LLC": 20538.54
+      }
+    },
+    {
+      "itemCode": "0466 6195",
+      "description": "WINGWALL (PW - 2) (HW=6 FT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 18000.0,
+      "lowUnit": 20000.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 20000.0,
+        "ED BELL CONSTRUCTION COMPANY": 28000.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 36603.6,
+        "RAGLE CONSTRUCTION, INC.": 58700.0,
+        "ALTUS CONSTRUCTION LLC": 22753.27
+      }
+    },
+    {
+      "itemCode": "0467 6281",
+      "description": "SET (TY I)(S= 8 FT)(HW= 6 FT)(6:1) (C)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 30750.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 30750.0,
+        "ED BELL CONSTRUCTION COMPANY": 40000.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 45618.8,
+        "RAGLE CONSTRUCTION, INC.": 167054.0,
+        "ALTUS CONSTRUCTION LLC": 15533.16
+      }
+    },
+    {
+      "itemCode": "0467 6395",
+      "description": "SET (TY II) (24 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 1800.0,
+      "lowUnit": 2100.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 2100.0,
+        "ED BELL CONSTRUCTION COMPANY": 900.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 2146.43,
+        "RAGLE CONSTRUCTION, INC.": 1500.0,
+        "ALTUS CONSTRUCTION LLC": 2291.09
+      }
+    },
+    {
+      "itemCode": "0496 6004",
+      "description": "REMOV STR (SET)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 1000.0,
+        "ED BELL CONSTRUCTION COMPANY": 500.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 1146.27,
+        "RAGLE CONSTRUCTION, INC.": 285.0,
+        "ALTUS CONSTRUCTION LLC": 444.21
+      }
+    },
+    {
+      "itemCode": "0496 6005",
+      "description": "REMOV STR (WINGWALL)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1800.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 5000.0,
+        "ED BELL CONSTRUCTION COMPANY": 7500.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 1668.85,
+        "RAGLE CONSTRUCTION, INC.": 1750.0,
+        "ALTUS CONSTRUCTION LLC": 1781.08
+      }
+    },
+    {
+      "itemCode": "0496 6006",
+      "description": "REMOV STR (HEADWALL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 5500.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 5500.0,
+        "ED BELL CONSTRUCTION COMPANY": 5000.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 1463.04,
+        "RAGLE CONSTRUCTION, INC.": 2350.0,
+        "ALTUS CONSTRUCTION LLC": 1958.39
+      }
+    },
+    {
+      "itemCode": "0496 6007",
+      "description": "REMOV STR (PIPE)",
+      "unit": "LF",
+      "quantity": 1180.0,
+      "engEstUnit": 21.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 25.0,
+        "ED BELL CONSTRUCTION COMPANY": 10.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 30.19,
+        "RAGLE CONSTRUCTION, INC.": 13.5,
+        "ALTUS CONSTRUCTION LLC": 22.62
+      }
+    },
+    {
+      "itemCode": "0496 6008",
+      "description": "REMOV STR (BOX CULVERT)",
+      "unit": "LF",
+      "quantity": 23.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 390.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 390.0,
+        "ED BELL CONSTRUCTION COMPANY": 500.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 165.13,
+        "RAGLE CONSTRUCTION, INC.": 72.0,
+        "ALTUS CONSTRUCTION LLC": 98.85
+      }
+    },
+    {
+      "itemCode": "0496 6010",
+      "description": "REMOV STR (BRIDGE 100 - 499 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 75000.0,
+      "lowUnit": 60000.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 60000.0,
+        "ED BELL CONSTRUCTION COMPANY": 100000.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 48067.19,
+        "RAGLE CONSTRUCTION, INC.": 375000.0,
+        "ALTUS CONSTRUCTION LLC": 53200.69
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 345521.45,
+      "lowUnit": 400249.8,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 400249.8,
+        "ED BELL CONSTRUCTION COMPANY": 333000.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 300017.36,
+        "RAGLE CONSTRUCTION, INC.": 450000.0,
+        "ALTUS CONSTRUCTION LLC": 523877.8
+      }
+    },
+    {
+      "itemCode": "0508 6001",
+      "description": "CONSTRUCTING DETOURS",
+      "unit": "SY",
+      "quantity": 2859.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 119.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 119.0,
+        "ED BELL CONSTRUCTION COMPANY": 125.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 53.33,
+        "RAGLE CONSTRUCTION, INC.": 350.0,
+        "ALTUS CONSTRUCTION LLC": 82.32
+      }
+    },
+    {
+      "itemCode": "0512 6005",
+      "description": "PORT CTB (FUR & INST)(F-SHAPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 2160.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 58.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 58.0,
+        "ED BELL CONSTRUCTION COMPANY": 50.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 51.76,
+        "RAGLE CONSTRUCTION, INC.": 80.0,
+        "ALTUS CONSTRUCTION LLC": 78.89
+      }
+    },
+    {
+      "itemCode": "0512 6053",
+      "description": "PORT CTB (REMOVE)(F-SHAPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 2160.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 8.0,
+        "ED BELL CONSTRUCTION COMPANY": 25.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 21.07,
+        "RAGLE CONSTRUCTION, INC.": 10.0,
+        "ALTUS CONSTRUCTION LLC": 17.32
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 457.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 105.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 105.0,
+        "ED BELL CONSTRUCTION COMPANY": 25.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 37.64,
+        "RAGLE CONSTRUCTION, INC.": 31.9,
+        "ALTUS CONSTRUCTION LLC": 51.97
+      }
+    },
+    {
+      "itemCode": "0533 6003",
+      "description": "RUMBLE STRIPS (SHOULDER) ASPHALT",
+      "unit": "LF",
+      "quantity": 1392.0,
+      "engEstUnit": 1.8,
+      "lowUnit": 3.5,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 3.5,
+        "ED BELL CONSTRUCTION COMPANY": 3.25,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 3.54,
+        "RAGLE CONSTRUCTION, INC.": 7.16,
+        "ALTUS CONSTRUCTION LLC": 0.2
+      }
+    },
+    {
+      "itemCode": "0533 6004",
+      "description": "RUMBLE STRIPS (CENTERLINE) ASPHALT",
+      "unit": "LF",
+      "quantity": 696.0,
+      "engEstUnit": 0.85,
+      "lowUnit": 3.5,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 3.5,
+        "ED BELL CONSTRUCTION COMPANY": 3.25,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 3.54,
+        "RAGLE CONSTRUCTION, INC.": 7.16,
+        "ALTUS CONSTRUCTION LLC": 0.21
+      }
+    },
+    {
+      "itemCode": "0538 6001",
+      "description": "RIGHT OF WAY MARKERS",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 200.0,
+        "ED BELL CONSTRUCTION COMPANY": 525.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 383.5,
+        "RAGLE CONSTRUCTION, INC.": 250.0,
+        "ALTUS CONSTRUCTION LLC": 167.6
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 258.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 6.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 6.0,
+        "ED BELL CONSTRUCTION COMPANY": 2.1,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 23.6,
+        "RAGLE CONSTRUCTION, INC.": 2.0,
+        "ALTUS CONSTRUCTION LLC": 2.62
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3300.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 3000.0,
+        "ED BELL CONSTRUCTION COMPANY": 2940.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 3304.0,
+        "RAGLE CONSTRUCTION, INC.": 2900.0,
+        "ALTUS CONSTRUCTION LLC": 3651.13
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 265.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 300.0,
+        "ED BELL CONSTRUCTION COMPANY": 262.5,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 295.0,
+        "RAGLE CONSTRUCTION, INC.": 225.0,
+        "ALTUS CONSTRUCTION LLC": 298.91
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1300.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 900.0,
+        "ED BELL CONSTRUCTION COMPANY": 731.92,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 3087.85,
+        "RAGLE CONSTRUCTION, INC.": 15.0,
+        "ALTUS CONSTRUCTION LLC": 1208.73
+      }
+    },
+    {
+      "itemCode": "0545 6019",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 9200.0,
+      "lowUnit": 9000.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 9000.0,
+        "ED BELL CONSTRUCTION COMPANY": 11500.22,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 19639.51,
+        "RAGLE CONSTRUCTION, INC.": 22.0,
+        "ALTUS CONSTRUCTION LLC": 10074.71
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 1400.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 1400.0,
+        "ED BELL CONSTRUCTION COMPANY": 792.75,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 890.9,
+        "RAGLE CONSTRUCTION, INC.": 755.0,
+        "ALTUS CONSTRUCTION LLC": 909.26
+      }
+    },
+    {
+      "itemCode": "0644 6007",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(U)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 2000.0,
+        "ED BELL CONSTRUCTION COMPANY": 1102.5,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 1239.0,
+        "RAGLE CONSTRUCTION, INC.": 1050.0,
+        "ALTUS CONSTRUCTION LLC": 1264.53
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 140.0,
+        "ED BELL CONSTRUCTION COMPANY": 21.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 88.5,
+        "RAGLE CONSTRUCTION, INC.": 75.0,
+        "ALTUS CONSTRUCTION LLC": 90.32
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 140.0,
+        "ED BELL CONSTRUCTION COMPANY": 26.25,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 88.5,
+        "RAGLE CONSTRUCTION, INC.": 75.0,
+        "ALTUS CONSTRUCTION LLC": 90.32
+      }
+    },
+    {
+      "itemCode": "0662 6050",
+      "description": "WK ZN PAV MRK REMOV (REFL) TY II-A-A",
+      "unit": "EA",
+      "quantity": 19.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 10.0,
+        "ED BELL CONSTRUCTION COMPANY": 12.6,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 14.16,
+        "RAGLE CONSTRUCTION, INC.": 12.0,
+        "ALTUS CONSTRUCTION LLC": 14.45
+      }
+    },
+    {
+      "itemCode": "0662 6063",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 2956.0,
+      "engEstUnit": 1.25,
+      "lowUnit": 1.5,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 1.5,
+        "ED BELL CONSTRUCTION COMPANY": 1.17,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 1.31,
+        "RAGLE CONSTRUCTION, INC.": 1.11,
+        "ALTUS CONSTRUCTION LLC": 1.34
+      }
+    },
+    {
+      "itemCode": "0662 6095",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 2956.0,
+      "engEstUnit": 1.6,
+      "lowUnit": 1.5,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 1.5,
+        "ED BELL CONSTRUCTION COMPANY": 1.17,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 1.31,
+        "RAGLE CONSTRUCTION, INC.": 1.11,
+        "ALTUS CONSTRUCTION LLC": 1.34
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 33.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 7.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 7.0,
+        "ED BELL CONSTRUCTION COMPANY": 12.6,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 14.16,
+        "RAGLE CONSTRUCTION, INC.": 12.0,
+        "ALTUS CONSTRUCTION LLC": 14.45
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 856.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 2.0,
+        "ED BELL CONSTRUCTION COMPANY": 1.26,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 1.42,
+        "RAGLE CONSTRUCTION, INC.": 1.2,
+        "ALTUS CONSTRUCTION LLC": 1.45
+      }
+    },
+    {
+      "itemCode": "0678 6001",
+      "description": "PAV SURF PREP FOR MRK (4\")",
+      "unit": "LF",
+      "quantity": 585.0,
+      "engEstUnit": 0.65,
+      "lowUnit": 1.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 1.0,
+        "ED BELL CONSTRUCTION COMPANY": 0.63,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 0.71,
+        "RAGLE CONSTRUCTION, INC.": 0.6,
+        "ALTUS CONSTRUCTION LLC": 0.72
+      }
+    },
+    {
+      "itemCode": "0730 6107",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "CYC",
+      "quantity": 3.0,
+      "engEstUnit": 3100.0,
+      "lowUnit": 2250.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 2250.0,
+        "ED BELL CONSTRUCTION COMPANY": 2100.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 3068.0,
+        "RAGLE CONSTRUCTION, INC.": 250.0,
+        "ALTUS CONSTRUCTION LLC": 5019.07
+      }
+    },
+    {
+      "itemCode": "3077 6013",
+      "description": "SP MIXES SP-C SAC-B PG64-22",
+      "unit": "TON",
+      "quantity": 543.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 145.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 145.0,
+        "ED BELL CONSTRUCTION COMPANY": 151.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 162.96,
+        "RAGLE CONSTRUCTION, INC.": 138.1,
+        "ALTUS CONSTRUCTION LLC": 153.55
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10900.0,
+      "lowUnit": 35000.0,
+      "bidders": {
+        "INDUS ROAD & BRIDGE, INC.": 35000.0,
+        "ED BELL CONSTRUCTION COMPANY": 10000.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 11800.0,
+        "RAGLE CONSTRUCTION, INC.": 12000.0,
+        "ALTUS CONSTRUCTION LLC": 12798.3
+      }
+    }
+  ]
+}

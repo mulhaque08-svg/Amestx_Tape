@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6435-16-001",
+    "county": "Lamb",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 643516001",
+    "projectType": "CUTBACK",
+    "letDate": "03/08/23",
+    "engEstTotal": 787500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "WRIGHT ASPHALT PRODUCTS COMPANY LLC",
+      "totalBidAmount": 729000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ERGON ASPHALT & EMULSIONS, INC.",
+      "totalBidAmount": 759600.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 824400.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6001",
+      "description": "CUTBACK ASPHALT (RC-250)(DELIVERY)",
+      "unit": "GAL",
+      "quantity": 90000.0,
+      "engEstUnit": 4.25,
+      "lowUnit": 4.1,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 4.1,
+        "ERGON ASPHALT & EMULSIONS, INC.": 4.33,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 4.53
+      }
+    },
+    {
+      "itemCode": "8010 6002",
+      "description": "CUTBACK ASPHALT (MC-30)(DELIVERY)",
+      "unit": "GAL",
+      "quantity": 90000.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 4.0,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 4.0,
+        "ERGON ASPHALT & EMULSIONS, INC.": 4.11,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 4.63
+      }
+    }
+  ]
+}

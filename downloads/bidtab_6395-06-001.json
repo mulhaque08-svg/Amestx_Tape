@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6395-06-001",
+    "county": "Fort Bend",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639506001",
+    "projectType": "HOT-MIX AND ASB",
+    "letDate": "04/07/22",
+    "engEstTotal": 528700.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 569840.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "AMERICAN MATERIALS, INC.",
+      "totalBidAmount": 709400.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 3000.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 79.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 79.0,
+        "AMERICAN MATERIALS, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "8011 6004",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2500.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 84.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 84.0,
+        "AMERICAN MATERIALS, INC.": 104.0
+      }
+    },
+    {
+      "itemCode": "8021 6010",
+      "description": "ASPH TRTMNT(PLANT-MIX)(DEL)(GR 4)(ST 1)",
+      "unit": "TON",
+      "quantity": 1660.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 74.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 74.0,
+        "AMERICAN MATERIALS, INC.": 90.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "csj": "0200-08-059",
+    "county": "Tyler",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 200-8-59",
+    "projectType": "INFRASTRUCTURE IMPROVEMENTS",
+    "letDate": "10/06/22",
+    "engEstTotal": 1533803.39,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 1846631.83
+    },
+    {
+      "rank": 2,
+      "vendorName": "A. L. HELMCAMP, INC.",
+      "totalBidAmount": 2688920.75
+    },
+    {
+      "rank": 3,
+      "vendorName": "RAGLE CONSTRUCTION, INC.",
+      "totalBidAmount": 2721921.57
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6001",
+      "description": "PREPARING ROW",
+      "unit": "AC",
+      "quantity": 42.0,
+      "engEstUnit": 11000.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 10000.0,
+        "A. L. HELMCAMP, INC.": 20000.0,
+        "RAGLE CONSTRUCTION, INC.": 38750.0
+      }
+    },
+    {
+      "itemCode": "0150 6001",
+      "description": "BLADING",
+      "unit": "STA",
+      "quantity": 452.0,
+      "engEstUnit": 155.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 1200.0,
+        "A. L. HELMCAMP, INC.": 150.0,
+        "RAGLE CONSTRUCTION, INC.": 308.0
+      }
+    },
+    {
+      "itemCode": "0164 6030",
+      "description": "CELL FBR MLCH SEED(TEMP)(WARM)",
+      "unit": "AC",
+      "quantity": 15.51,
+      "engEstUnit": 1312.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 10000.0,
+        "A. L. HELMCAMP, INC.": 1870.0,
+        "RAGLE CONSTRUCTION, INC.": 1700.0
+      }
+    },
+    {
+      "itemCode": "0164 6032",
+      "description": "CELL FBR MLCH SEED(TEMP)(COOL)",
+      "unit": "AC",
+      "quantity": 15.51,
+      "engEstUnit": 1312.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "A. L. HELMCAMP, INC.": 1870.0,
+        "RAGLE CONSTRUCTION, INC.": 1700.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 3748.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "A. L. HELMCAMP, INC.": 15.0,
+        "RAGLE CONSTRUCTION, INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 128379.2,
+      "lowUnit": 200000.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 200000.0,
+        "A. L. HELMCAMP, INC.": 400000.0,
+        "RAGLE CONSTRUCTION, INC.": 260000.0
+      }
+    },
+    {
+      "itemCode": "5027 6001",
+      "description": "TEMPORARY CONSTRUCTION MATTING",
+      "unit": "SY",
+      "quantity": 5129.11,
+      "engEstUnit": 70.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 12.0,
+        "A. L. HELMCAMP, INC.": 75.0,
+        "RAGLE CONSTRUCTION, INC.": 12.0
+      }
+    }
+  ]
+}

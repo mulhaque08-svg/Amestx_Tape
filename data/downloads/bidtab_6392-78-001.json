@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6392-78-001",
+    "county": "Hopkins",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639278001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/16/21",
+    "engEstTotal": 189060.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RDA VEGETATION MANAGEMENT LLC",
+      "totalBidAmount": 146589.73
+    },
+    {
+      "rank": 2,
+      "vendorName": "EASTGATE SERVICES",
+      "totalBidAmount": 162073.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "GANT CONTRACTORS, INC.",
+      "totalBidAmount": 192433.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "RICKEY BAIRD",
+      "totalBidAmount": 208403.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "RDA VEGETATION MANAGEMENT LLC": 0.01,
+        "EASTGATE SERVICES": 1.0,
+        "GANT CONTRACTORS, INC.": 1.0,
+        "RICKEY BAIRD": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 5060.0,
+      "engEstUnit": 36.0,
+      "lowUnit": 28.97,
+      "bidders": {
+        "RDA VEGETATION MANAGEMENT LLC": 28.97,
+        "EASTGATE SERVICES": 32.0,
+        "GANT CONTRACTORS, INC.": 38.0,
+        "RICKEY BAIRD": 40.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 150.0,
+      "engEstUnit": 36.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "RDA VEGETATION MANAGEMENT LLC": 0.01,
+        "EASTGATE SERVICES": 1.0,
+        "GANT CONTRACTORS, INC.": 1.0,
+        "RICKEY BAIRD": 40.0
+      }
+    }
+  ]
+}

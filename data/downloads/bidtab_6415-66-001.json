@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6415-66-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641566001",
+    "projectType": "POTHOLE REPAIR",
+    "letDate": "12/01/22",
+    "engEstTotal": 427450.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "PATHFIELD INVESTMENTS LLC",
+      "totalBidAmount": 452630.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "FOUTSCO PAVING COMPANY, LLC",
+      "totalBidAmount": 628936.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 5000.0,
+        "FOUTSCO PAVING COMPANY, LLC": 3500.0
+      }
+    },
+    {
+      "itemCode": "0700 6001",
+      "description": "POTHOLE REPAIR (STANDARD)",
+      "unit": "SY",
+      "quantity": 2000.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 125.0,
+        "FOUTSCO PAVING COMPANY, LLC": 190.0
+      }
+    },
+    {
+      "itemCode": "0700 6005",
+      "description": "POTHOLE REPAIR (SAW - CUT)",
+      "unit": "SY",
+      "quantity": 500.0,
+      "engEstUnit": 145.0,
+      "lowUnit": 110.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 110.0,
+        "FOUTSCO PAVING COMPANY, LLC": 260.0
+      }
+    },
+    {
+      "itemCode": "0700 6009",
+      "description": "EMERGENCY MOBILIZATION",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 2000.0,
+        "FOUTSCO PAVING COMPANY, LLC": 2500.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 11.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 230.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 230.0,
+        "FOUTSCO PAVING COMPANY, LLC": 1.0
+      }
+    }
+  ]
+}

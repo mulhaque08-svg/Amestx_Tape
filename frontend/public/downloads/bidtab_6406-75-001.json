@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "csj": "6406-75-001",
+    "county": "Medina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 640675001",
+    "projectType": "HOT MIX",
+    "letDate": "07/21/22",
+    "engEstTotal": 283600.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 324150.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 353645.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 419700.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6003",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 71.0,
+      "lowUnit": 82.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 82.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 68.0,
+        "COLORADO MATERIALS, LTD.": 90.0
+      }
+    },
+    {
+      "itemCode": "8011 6004",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 400.0,
+      "engEstUnit": 86.0,
+      "lowUnit": 100.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 100.5,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 105.95,
+        "COLORADO MATERIALS, LTD.": 122.0
+      }
+    },
+    {
+      "itemCode": "8011 6014",
+      "description": "D-GR HMA(SQ)TY B PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 59.0,
+      "lowUnit": 66.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 66.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 62.0,
+        "COLORADO MATERIALS, LTD.": 85.0
+      }
+    },
+    {
+      "itemCode": "8011 6015",
+      "description": "D-GR HMA(SQ)TY B PG 64-22(DELIVERY)",
+      "unit": "TON",
+      "quantity": 2300.0,
+      "engEstUnit": 76.0,
+      "lowUnit": 86.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 86.5,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 99.95,
+        "COLORADO MATERIALS, LTD.": 117.0
+      }
+    },
+    {
+      "itemCode": "8011 6036",
+      "description": "D-GR HMA (SQ) TY C PG 70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 400.0,
+      "engEstUnit": 86.0,
+      "lowUnit": 98.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 98.5,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 104.95,
+        "COLORADO MATERIALS, LTD.": 122.0
+      }
+    },
+    {
+      "itemCode": "8011 6037",
+      "description": "D-GR HMA (SQ) TY C PG 70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 80.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 67.0,
+        "COLORADO MATERIALS, LTD.": 90.0
+      }
+    }
+  ]
+}

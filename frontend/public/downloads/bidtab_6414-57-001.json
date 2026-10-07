@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "csj": "6414-57-001",
+    "county": "Walker",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641457001",
+    "projectType": "HOT MIX",
+    "letDate": "08/10/22",
+    "engEstTotal": 269000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BIG CREEK CONSTRUCTION, LTD.",
+      "totalBidAmount": 322750.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 250.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "BIG CREEK CONSTRUCTION, LTD.": 100.0
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 112.0,
+      "lowUnit": 133.25,
+      "bidders": {
+        "BIG CREEK CONSTRUCTION, LTD.": 133.25
+      }
+    },
+    {
+      "itemCode": "8011 6005",
+      "description": "D-GR HMA(SQ) TY F PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 250.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 105.0,
+      "bidders": {
+        "BIG CREEK CONSTRUCTION, LTD.": 105.0
+      }
+    },
+    {
+      "itemCode": "8011 6006",
+      "description": "D-GR HMA(SQ) TY F PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 112.0,
+      "lowUnit": 138.25,
+      "bidders": {
+        "BIG CREEK CONSTRUCTION, LTD.": 138.25
+      }
+    }
+  ]
+}

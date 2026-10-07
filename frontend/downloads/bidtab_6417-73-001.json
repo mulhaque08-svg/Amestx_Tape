@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6417-73-001",
+    "county": "El Paso",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641773001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "08/25/22",
+    "engEstTotal": 66800.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JOBE MATERIALS, L.P.",
+      "totalBidAmount": 77150.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 151200.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6031",
+      "description": "FL BS (SITE DEL)(TY D GR 4)(SITE 1)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 16.0,
+      "lowUnit": 16.75,
+      "bidders": {
+        "JOBE MATERIALS, L.P.": 16.75,
+        "TOUCHSTONE RESOURCES, LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "8007 6032",
+      "description": "FL BS (SITE DEL)(TY D GR 4)(SITE 2)",
+      "unit": "TON",
+      "quantity": 600.0,
+      "engEstUnit": 17.0,
+      "lowUnit": 19.75,
+      "bidders": {
+        "JOBE MATERIALS, L.P.": 19.75,
+        "TOUCHSTONE RESOURCES, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "8007 6033",
+      "description": "FL BS (SITE DEL)(TY D GR 4)(SITE 3)",
+      "unit": "TON",
+      "quantity": 600.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 38.25,
+      "bidders": {
+        "JOBE MATERIALS, L.P.": 38.25,
+        "TOUCHSTONE RESOURCES, LLC": 53.0
+      }
+    },
+    {
+      "itemCode": "8007 6034",
+      "description": "FL BS (SITE DEL)(TY D GR 4)(SITE 4)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 33.0,
+      "lowUnit": 44.25,
+      "bidders": {
+        "JOBE MATERIALS, L.P.": 44.25,
+        "TOUCHSTONE RESOURCES, LLC": 47.0
+      }
+    }
+  ]
+}

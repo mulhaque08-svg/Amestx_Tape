@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "csj": "6458-11-001",
+    "county": "Starr",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645811001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "11/02/23",
+    "engEstTotal": 2602367.1,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 3095897.56
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1558.1,
+      "engEstUnit": 65.0,
+      "lowUnit": 80.05,
+      "bidders": {
+        "R&M INCORPORATED": 80.05
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 20149.24,
+      "engEstUnit": 65.0,
+      "lowUnit": 80.05,
+      "bidders": {
+        "R&M INCORPORATED": 80.05
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 400.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "R&M INCORPORATED": 1.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 33713.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "R&M INCORPORATED": 25.0
+      }
+    }
+  ]
+}

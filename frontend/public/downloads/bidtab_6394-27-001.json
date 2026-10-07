@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "csj": "6394-27-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639427001",
+    "projectType": "DEBRIS REMOVAL",
+    "letDate": "08/09/22",
+    "engEstTotal": 142175.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 138950.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 20000.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 20000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 21.0,
+      "engEstUnit": 135.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "7000 6001",
+      "description": "REML & DISPL DRIFTWOOD & DEBRIS",
+      "unit": "CY",
+      "quantity": 1010.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 110.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 110.0
+      }
+    }
+  ]
+}

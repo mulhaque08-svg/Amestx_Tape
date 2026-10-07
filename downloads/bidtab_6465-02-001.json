@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "csj": "6465-02-001",
+    "county": "Eastland",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646502001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/26/24",
+    "engEstTotal": 296088.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GREG SCRUGGS",
+      "totalBidAmount": 254147.7
+    },
+    {
+      "rank": 2,
+      "vendorName": "JOSE ERNESTO SALAZAR, LLC",
+      "totalBidAmount": 273170.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DESERT LUXURY TRANSPORTATION, LLC",
+      "totalBidAmount": 274956.9
+    },
+    {
+      "rank": 4,
+      "vendorName": "LG SOLAR, LLC",
+      "totalBidAmount": 280130.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "RENEGADE SITE SOLUTIONS, LLC",
+      "totalBidAmount": 290420.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 295342.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "MARLANE CONSTRUCTION, LLC",
+      "totalBidAmount": 304177.86
+    },
+    {
+      "rank": 8,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 352233.86
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 6214.0,
+      "engEstUnit": 36.0,
+      "lowUnit": 31.95,
+      "bidders": {
+        "GREG SCRUGGS": 31.95,
+        "JOSE ERNESTO SALAZAR, LLC": 35.0,
+        "DESERT LUXURY TRANSPORTATION, LLC": 36.15,
+        "LG SOLAR, LLC": 35.0,
+        "RENEGADE SITE SOLUTIONS, LLC": 38.0,
+        "ABESCAPE GROUP LLC": 37.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 1392.0,
+      "engEstUnit": 52.0,
+      "lowUnit": 39.95,
+      "bidders": {
+        "GREG SCRUGGS": 39.95,
+        "JOSE ERNESTO SALAZAR, LLC": 40.0,
+        "DESERT LUXURY TRANSPORTATION, LLC": 36.15,
+        "LG SOLAR, LLC": 45.0,
+        "RENEGADE SITE SOLUTIONS, LLC": 39.0,
+        "ABESCAPE GROUP LLC": 47.0
+      }
+    }
+  ]
+}

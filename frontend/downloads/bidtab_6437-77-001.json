@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6437-77-001",
+    "county": "Kimble",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643777001",
+    "projectType": "TREE TRIMMING AND BRUSH REMOVAL",
+    "letDate": "10/24/23",
+    "engEstTotal": 289480.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CLAW CONTRACTORS, LLC",
+      "totalBidAmount": 240734.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "HX FARMS, INC.",
+      "totalBidAmount": 360200.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ALLIES LAND CLEARING",
+      "totalBidAmount": 369400.06
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "7000 6001",
+      "description": "REML & DISPL DRIFTWOOD & DEBRIS",
+      "unit": "CY",
+      "quantity": 60.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "CLAW CONTRACTORS, LLC": 350.0,
+        "HX FARMS, INC.": 50.0,
+        "ALLIES LAND CLEARING": 90.0
+      }
+    }
+  ]
+}

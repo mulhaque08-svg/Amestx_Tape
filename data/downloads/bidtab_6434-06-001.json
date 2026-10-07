@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6434-06-001",
+    "county": "Van Zandt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 643406001",
+    "projectType": "EMULSION",
+    "letDate": "02/14/23",
+    "engEstTotal": 213000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "WRIGHT ASPHALT PRODUCTS COMPANY LLC",
+      "totalBidAmount": 231000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ERGON ASPHALT & EMULSIONS, INC.",
+      "totalBidAmount": 252000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6008",
+      "description": "EMULSION (CSS-1H) (PICKUP)",
+      "unit": "GAL",
+      "quantity": 10000.0,
+      "engEstUnit": 2.3,
+      "lowUnit": 2.4,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 2.4,
+        "ERGON ASPHALT & EMULSIONS, INC.": 2.8
+      }
+    },
+    {
+      "itemCode": "8010 6088",
+      "description": "EMULSION(CSS-1H)(DEL)(GAL)(SITE 1)",
+      "unit": "GAL",
+      "quantity": 25000.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 2.7,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 2.7,
+        "ERGON ASPHALT & EMULSIONS, INC.": 2.99
+      }
+    },
+    {
+      "itemCode": "8010 6089",
+      "description": "EMULSION(CSS-1H)(DEL)(GAL)(SITE 2)",
+      "unit": "GAL",
+      "quantity": 25000.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 2.7,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 2.7,
+        "ERGON ASPHALT & EMULSIONS, INC.": 2.99
+      }
+    },
+    {
+      "itemCode": "8010 6105",
+      "description": "EMULSION(CSS-1H)(40%)(DEL)(GAL)(SITE 1)",
+      "unit": "GAL",
+      "quantity": 25000.0,
+      "engEstUnit": 1.3,
+      "lowUnit": 1.44,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 1.44,
+        "ERGON ASPHALT & EMULSIONS, INC.": 1.49
+      }
+    },
+    {
+      "itemCode": "8010 6106",
+      "description": "EMULSION(CSS-1H)(40%)(DEL)(GAL)(SITE 2)",
+      "unit": "GAL",
+      "quantity": 25000.0,
+      "engEstUnit": 1.3,
+      "lowUnit": 1.44,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 1.44,
+        "ERGON ASPHALT & EMULSIONS, INC.": 1.49
+      }
+    }
+  ]
+}

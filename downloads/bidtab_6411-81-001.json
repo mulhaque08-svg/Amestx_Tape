@@ -1,0 +1,551 @@
+{
+  "metadata": {
+    "csj": "6411-81-001",
+    "county": "Washington",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641181001",
+    "projectType": "METAL BEAM GUARD FENCE REPAIR",
+    "letDate": "08/03/22",
+    "engEstTotal": 463420.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BK FIELD OPERATIONS LLC",
+      "totalBidAmount": 416750.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MILSTEAD HIGHWAY SERVICES, LLC",
+      "totalBidAmount": 463105.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "T&L CLEANING SERVICES LLC",
+      "totalBidAmount": 509340.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 5.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 400.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 200.0,
+        "T&L CLEANING SERVICES LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 1.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 100.0,
+        "T&L CLEANING SERVICES LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 1900.0,
+      "engEstUnit": 4.1,
+      "lowUnit": 0.1,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 0.1,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 6.0,
+        "T&L CLEANING SERVICES LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0542 6002",
+      "description": "REMOVE TERMINAL ANCHOR SECTION",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 195.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 200.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 100.0,
+        "T&L CLEANING SERVICES LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0542 6003",
+      "description": "REMOVE DOWNSTREAM ANCHOR TERMINAL",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 145.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 1.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 1.0,
+        "T&L CLEANING SERVICES LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 2425.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 3000.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 4000.0,
+        "T&L CLEANING SERVICES LLC": 4000.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 265.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 50.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 1.0,
+        "T&L CLEANING SERVICES LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0770 6001",
+      "description": "REPAIR RAIL ELEMENT (W - BEAM)",
+      "unit": "LF",
+      "quantity": 4000.0,
+      "engEstUnit": 23.0,
+      "lowUnit": 24.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 24.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 25.0,
+        "T&L CLEANING SERVICES LLC": 24.0
+      }
+    },
+    {
+      "itemCode": "0770 6002",
+      "description": "REPAIR RAIL ELEMENT (THRIE - BEAM)",
+      "unit": "LF",
+      "quantity": 15.0,
+      "engEstUnit": 32.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 20.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 21.0,
+        "T&L CLEANING SERVICES LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0770 6003",
+      "description": "REP RAIL ELMNT(THRIE-BM TRANS TO W -BM)",
+      "unit": "LF",
+      "quantity": 20.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 35.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 21.0,
+        "T&L CLEANING SERVICES LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0770 6004",
+      "description": "REPAIR RAIL ELEMENT (CURVED RAIL)",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 24.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 30.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 30.0,
+        "T&L CLEANING SERVICES LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0770 6006",
+      "description": "RAISE RAIL ELEMENT",
+      "unit": "LF",
+      "quantity": 450.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 10.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 4.0,
+        "T&L CLEANING SERVICES LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0770 6012",
+      "description": "REM / REPL TIMBER POST W / O CONC FND",
+      "unit": "EA",
+      "quantity": 150.0,
+      "engEstUnit": 36.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 20.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 50.0,
+        "T&L CLEANING SERVICES LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0770 6013",
+      "description": "REM / REPL STEEL POST W / O CONC FND",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 30.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 42.0,
+        "T&L CLEANING SERVICES LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "0770 6014",
+      "description": "REM / REPL TIMBER POST W / CONC FND",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 20.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 50.0,
+        "T&L CLEANING SERVICES LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0770 6015",
+      "description": "REM / REPL STEEL POST W / CONC FND",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 30.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 42.0,
+        "T&L CLEANING SERVICES LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "0770 6016",
+      "description": "REPAIR STEEL POST WITH BASE PLATE",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 195.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 1.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 1.0,
+        "T&L CLEANING SERVICES LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0770 6017",
+      "description": "REALIGN POSTS",
+      "unit": "EA",
+      "quantity": 300.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 5.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 10.0,
+        "T&L CLEANING SERVICES LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0770 6019",
+      "description": "REMOVE & REPLACE BLOCKOUT",
+      "unit": "EA",
+      "quantity": 70.0,
+      "engEstUnit": 24.5,
+      "lowUnit": 25.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 25.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 20.0,
+        "T&L CLEANING SERVICES LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0770 6020",
+      "description": "REPLACE STL BLOCKOUTS W /WOOD BLOCKOUTS",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 1.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 10.0,
+        "T&L CLEANING SERVICES LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0770 6021",
+      "description": "REPLACE SINGLE GDRAIL TERMINAL RAIL",
+      "unit": "LF",
+      "quantity": 125.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 38.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 38.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 25.0,
+        "T&L CLEANING SERVICES LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0770 6022",
+      "description": "REPLACE SINGLE GDRAIL TERMINAL POST",
+      "unit": "EA",
+      "quantity": 40.0,
+      "engEstUnit": 72.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 40.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 45.0,
+        "T&L CLEANING SERVICES LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "0770 6027",
+      "description": "REMOVE GDRAIL END TRT / REPL WITH SGT",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 4500.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 4500.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 3500.0,
+        "T&L CLEANING SERVICES LLC": 4000.0
+      }
+    },
+    {
+      "itemCode": "0770 6028",
+      "description": "REPL SINGLE GDRAIL TERM IMPACT HEAD",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 920.0,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 1100.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 1000.0,
+        "T&L CLEANING SERVICES LLC": 800.0
+      }
+    },
+    {
+      "itemCode": "0770 6029",
+      "description": "REM & RESET SGT IMPACT HEAD",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 1.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 15.0,
+        "T&L CLEANING SERVICES LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0770 6030",
+      "description": "REPLACE SGT CABLE ASSEMBLY",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 69.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 1.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 50.0,
+        "T&L CLEANING SERVICES LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0770 6031",
+      "description": "REPLACE SGT CABLE ANCHOR",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 54.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 1.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 50.0,
+        "T&L CLEANING SERVICES LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0770 6032",
+      "description": "REPLACE SGT STRUT",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 1.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 50.0,
+        "T&L CLEANING SERVICES LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0770 6033",
+      "description": "REPLACE SGT OBJECT MARKER",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 1.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 30.0,
+        "T&L CLEANING SERVICES LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0770 6060",
+      "description": "REMOVE AND REPLACE DAT",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 1300.0,
+      "lowUnit": 1400.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 1400.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 1200.0,
+        "T&L CLEANING SERVICES LLC": 1200.0
+      }
+    },
+    {
+      "itemCode": "0771 6002",
+      "description": "REPLACE POSTS (TL-4)",
+      "unit": "EA",
+      "quantity": 250.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 75.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 100.0,
+        "T&L CLEANING SERVICES LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0771 6004",
+      "description": "CABLE SPLICE / TURNBUCKLE (TL-4)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 240.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 1.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 20.0,
+        "T&L CLEANING SERVICES LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0771 6006",
+      "description": "REPAIR CONCRETE FOUNDATION (TL-4)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 1.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 10.0,
+        "T&L CLEANING SERVICES LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0771 6008",
+      "description": "REPR OR REPLC CABLE BARR TERM SEC(TL-4)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 1350.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 300.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 50.0,
+        "T&L CLEANING SERVICES LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0771 6010",
+      "description": "REPLACE CABLE (TL-4)",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 0.1,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 0.1,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 1.0,
+        "T&L CLEANING SERVICES LLC": 0.5
+      }
+    },
+    {
+      "itemCode": "0771 6011",
+      "description": "CHECK / RE-TENSION CABLE",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 1.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 5.0,
+        "T&L CLEANING SERVICES LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0771 6012",
+      "description": "REPLACE POST HARDWARE (TL-4)",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 25.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 20.0,
+        "T&L CLEANING SERVICES LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0774 6058",
+      "description": "REPAIR (BEAT - SSCC)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 2200.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 100.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 150.0,
+        "T&L CLEANING SERVICES LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0776 6004",
+      "description": "REPAIR (STL POST W/ DOUBLED W-BEAMS-T6)",
+      "unit": "LF",
+      "quantity": 25.0,
+      "engEstUnit": 43.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 40.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 50.0,
+        "T&L CLEANING SERVICES LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 10.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 1.0,
+        "MILSTEAD HIGHWAY SERVICES, LLC": 1.0,
+        "T&L CLEANING SERVICES LLC": 1.0
+      }
+    }
+  ]
+}

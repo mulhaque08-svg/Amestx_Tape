@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "csj": "0909-00-067",
+    "county": "Mclennan",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 909-00-67",
+    "projectType": "INSTALLATION OF RUMBLE STRIPS",
+    "letDate": "01/06/23",
+    "engEstTotal": 2284322.43,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CENTERLINE TECHNOLOGIES, LLC",
+      "totalBidAmount": 1849402.79
+    },
+    {
+      "rank": 2,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 1966140.72
+    },
+    {
+      "rank": 3,
+      "vendorName": "TRAFFIC HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 2168114.58
+    },
+    {
+      "rank": 4,
+      "vendorName": "PAVEMENT MARKINGS INC.",
+      "totalBidAmount": 2316658.35
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 160000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 1.0,
+        "TRP CONSTRUCTION GROUP, LLC": 9000.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 100000.0,
+        "PAVEMENT MARKINGS INC.": 64000.0
+      }
+    },
+    {
+      "itemCode": "0533 6003",
+      "description": "RUMBLE STRIPS (SHOULDER) ASPHALT",
+      "unit": "LF",
+      "quantity": 909476.0,
+      "engEstUnit": 0.18,
+      "lowUnit": 0.09,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 0.09,
+        "TRP CONSTRUCTION GROUP, LLC": 0.1,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 0.16,
+        "PAVEMENT MARKINGS INC.": 0.2
+      }
+    },
+    {
+      "itemCode": "0533 6004",
+      "description": "RUMBLE STRIPS (CENTERLINE) ASPHALT",
+      "unit": "LF",
+      "quantity": 445738.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.09,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 0.09,
+        "TRP CONSTRUCTION GROUP, LLC": 0.19,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 0.21,
+        "PAVEMENT MARKINGS INC.": 0.28
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 2312.0,
+      "engEstUnit": 3.55,
+      "lowUnit": 3.5,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 3.5,
+        "TRP CONSTRUCTION GROUP, LLC": 3.5,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 3.45,
+        "PAVEMENT MARKINGS INC.": 4.2
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 27407.0,
+      "engEstUnit": 3.3,
+      "lowUnit": 3.5,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 3.5,
+        "TRP CONSTRUCTION GROUP, LLC": 3.5,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 3.45,
+        "PAVEMENT MARKINGS INC.": 4.2
+      }
+    },
+    {
+      "itemCode": "6056 6002",
+      "description": "PREFORMED CENTERLINE RUMBLE STRIP",
+      "unit": "LF",
+      "quantity": 16782.0,
+      "engEstUnit": 3.74,
+      "lowUnit": 4.0,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 4.0,
+        "TRP CONSTRUCTION GROUP, LLC": 3.5,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 4.0,
+        "PAVEMENT MARKINGS INC.": 4.4
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6383-76-001",
+    "county": "Trinity",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638376001",
+    "projectType": "HYDRAULIC CEMENT",
+    "letDate": "06/22/21",
+    "engEstTotal": 134837.28,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AKA-MATERIALS",
+      "totalBidAmount": 132303.84
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8012 6002",
+      "description": "HYDRAULIC CEMENT(TY I)(DEL)(SITE 2)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 177.96,
+      "lowUnit": 183.0,
+      "bidders": {
+        "AKA-MATERIALS": 183.0
+      }
+    },
+    {
+      "itemCode": "8012 6018",
+      "description": "HYDRAULIC CEMENT(TY I)(47LB)",
+      "unit": "BAG",
+      "quantity": 5376.0,
+      "engEstUnit": 8.53,
+      "lowUnit": 7.59,
+      "bidders": {
+        "AKA-MATERIALS": 7.59
+      }
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "csj": "6397-49-001",
+    "county": "Brewster",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639749001",
+    "projectType": "PICNIC AREA MAINTENANCE",
+    "letDate": "04/26/22",
+    "engEstTotal": 110460.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ABOVE ALL CONSTRUCTION",
+      "totalBidAmount": 85061.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "LUKEDA SANDBLASTING & SERVICES LLC",
+      "totalBidAmount": 90611.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MIJELUM, L.L.C.",
+      "totalBidAmount": 139401.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ABOVE ALL CONSTRUCTION": 1.0,
+        "LUKEDA SANDBLASTING & SERVICES LLC": 1.0,
+        "MIJELUM, L.L.C.": 1.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 300.0,
+      "engEstUnit": 16.25,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ABOVE ALL CONSTRUCTION": 1.0,
+        "LUKEDA SANDBLASTING & SERVICES LLC": 5.0,
+        "MIJELUM, L.L.C.": 10.0
+      }
+    },
+    {
+      "itemCode": "0734 6002",
+      "description": "LITTER REMOVAL",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "ABOVE ALL CONSTRUCTION": 200.0,
+        "LUKEDA SANDBLASTING & SERVICES LLC": 100.0,
+        "MIJELUM, L.L.C.": 500.0
+      }
+    },
+    {
+      "itemCode": "0745 6061",
+      "description": "GROUNDS MAINT (MOWING / TRIMMING)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "ABOVE ALL CONSTRUCTION": 10.0,
+        "LUKEDA SANDBLASTING & SERVICES LLC": 200.0,
+        "MIJELUM, L.L.C.": 100.0
+      }
+    },
+    {
+      "itemCode": "0745 6154",
+      "description": "JANITORIAL MAINT (PICNIC AREAS)",
+      "unit": "CYC",
+      "quantity": 3.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "ABOVE ALL CONSTRUCTION": 100.0,
+        "LUKEDA SANDBLASTING & SERVICES LLC": 500.0,
+        "MIJELUM, L.L.C.": 500.0
+      }
+    },
+    {
+      "itemCode": "0745 6155",
+      "description": "JANITORIAL MAINT (PICNIC AREAS)",
+      "unit": "MO",
+      "quantity": 12.0,
+      "engEstUnit": 3800.0,
+      "lowUnit": 6800.0,
+      "bidders": {
+        "ABOVE ALL CONSTRUCTION": 6800.0,
+        "LUKEDA SANDBLASTING & SERVICES LLC": 6500.0,
+        "MIJELUM, L.L.C.": 10000.0
+      }
+    },
+    {
+      "itemCode": "0751 6006",
+      "description": "LITTER PICKUP",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "ABOVE ALL CONSTRUCTION": 10.0,
+        "LUKEDA SANDBLASTING & SERVICES LLC": 300.0,
+        "MIJELUM, L.L.C.": 500.0
+      }
+    },
+    {
+      "itemCode": "0751 6008",
+      "description": "MOWING, TRIMMING, AND EDGING",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "ABOVE ALL CONSTRUCTION": 10.0,
+        "LUKEDA SANDBLASTING & SERVICES LLC": 200.0,
+        "MIJELUM, L.L.C.": 100.0
+      }
+    }
+  ]
+}

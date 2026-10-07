@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6398-09-001",
+    "county": "Moore",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639809001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "04/07/22",
+    "engEstTotal": 413185.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SQUARE G, INC.",
+      "totalBidAmount": 394903.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS BLACKTOPS LLC",
+      "totalBidAmount": 535624.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "SQUARE G, INC.": 1.0,
+        "TEXAS BLACKTOPS LLC": 2000.0
+      }
+    },
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 312.0,
+      "engEstUnit": 29.15,
+      "lowUnit": 28.41,
+      "bidders": {
+        "SQUARE G, INC.": 28.41,
+        "TEXAS BLACKTOPS LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 13188.0,
+      "engEstUnit": 29.15,
+      "lowUnit": 28.41,
+      "bidders": {
+        "SQUARE G, INC.": 28.41,
+        "TEXAS BLACKTOPS LLC": 38.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 400.0,
+      "engEstUnit": 29.15,
+      "lowUnit": 28.41,
+      "bidders": {
+        "SQUARE G, INC.": 28.41,
+        "TEXAS BLACKTOPS LLC": 35.0
+      }
+    }
+  ]
+}

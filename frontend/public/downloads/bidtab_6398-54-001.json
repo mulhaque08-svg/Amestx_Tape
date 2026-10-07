@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6398-54-001",
+    "county": "Bell",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639854001",
+    "projectType": "HOT MIX",
+    "letDate": "03/15/22",
+    "engEstTotal": 296300.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "LONE STAR PAVING COMPANY",
+      "totalBidAmount": 328375.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 360745.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 371312.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 64.0,
+      "lowUnit": 65.75,
+      "bidders": {
+        "LONE STAR PAVING COMPANY": 65.75,
+        "KNIFE RIVER CORPORATION - SOUTH": 73.75,
+        "TEXAS MATERIALS GROUP, INC.": 79.95
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 3250.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 84.0,
+      "bidders": {
+        "LONE STAR PAVING COMPANY": 84.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 92.25,
+        "TEXAS MATERIALS GROUP, INC.": 94.1
+      }
+    },
+    {
+      "itemCode": "8011 6014",
+      "description": "D-GR HMA(SQ)TY B PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 250.0,
+      "engEstUnit": 57.0,
+      "lowUnit": 57.0,
+      "bidders": {
+        "LONE STAR PAVING COMPANY": 57.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 63.45,
+        "TEXAS MATERIALS GROUP, INC.": 68.85
+      }
+    },
+    {
+      "itemCode": "8011 6015",
+      "description": "D-GR HMA(SQ)TY B PG 64-22(DELIVERY)",
+      "unit": "TON",
+      "quantity": 100.0,
+      "engEstUnit": 63.0,
+      "lowUnit": 82.5,
+      "bidders": {
+        "LONE STAR PAVING COMPANY": 82.5,
+        "KNIFE RIVER CORPORATION - SOUTH": 81.95,
+        "TEXAS MATERIALS GROUP, INC.": 83.0
+      }
+    }
+  ]
+}

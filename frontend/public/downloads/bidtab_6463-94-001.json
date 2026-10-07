@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6463-94-001",
+    "county": "Kleberg",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646394001",
+    "projectType": "HOT MIX",
+    "letDate": "02/20/24",
+    "engEstTotal": 292500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ANDERSON COLUMBIA CO., INC.",
+      "totalBidAmount": 322582.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 330750.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 300.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 102.15,
+      "bidders": {
+        "ANDERSON COLUMBIA CO., INC.": 102.15,
+        "COLORADO MATERIALS, LTD.": 90.0
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2250.0,
+      "engEstUnit": 118.0,
+      "lowUnit": 129.75,
+      "bidders": {
+        "ANDERSON COLUMBIA CO., INC.": 129.75,
+        "COLORADO MATERIALS, LTD.": 135.0
+      }
+    }
+  ]
+}

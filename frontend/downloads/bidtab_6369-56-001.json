@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6369-56-001",
+    "county": "Victoria",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 636956001",
+    "projectType": "BRIDGE JOINT REPAIRS",
+    "letDate": "01/06/22",
+    "engEstTotal": 457500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 511750.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MAIN LANE INDUSTRIES LTD.",
+      "totalBidAmount": 1695625.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0351 6019",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(3\")",
+      "unit": "SY",
+      "quantity": 75.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "CRACKSEAL OF TEXAS, LLC": 35.0,
+        "MAIN LANE INDUSTRIES LTD.": 125.0
+      }
+    },
+    {
+      "itemCode": "0361 6002",
+      "description": "FULL - DEPTH REPAIR CRCP (8\")",
+      "unit": "SY",
+      "quantity": 500.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 260.0,
+      "bidders": {
+        "CRACKSEAL OF TEXAS, LLC": 260.0,
+        "MAIN LANE INDUSTRIES LTD.": 1075.0
+      }
+    },
+    {
+      "itemCode": "0438 6001",
+      "description": "CLEANING AND SEALING EXISTING JOINTS",
+      "unit": "LF",
+      "quantity": 6000.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "CRACKSEAL OF TEXAS, LLC": 55.0,
+        "MAIN LANE INDUSTRIES LTD.": 120.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "CRACKSEAL OF TEXAS, LLC": 2000.0,
+        "MAIN LANE INDUSTRIES LTD.": 5000.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "csj": "6437-29-001",
+    "county": "Jackson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643729001",
+    "projectType": "JANITORIAL MAINTENANCE",
+    "letDate": "04/13/23",
+    "engEstTotal": 10186.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RWCS JANITORIAL LLC",
+      "totalBidAmount": 10100.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ALPHA AND OMEGA CLEANING SERVICES, LLC",
+      "totalBidAmount": 10162.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MAXPRO ENTERPRISE LLC",
+      "totalBidAmount": 10850.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 10.0,
+        "ALPHA AND OMEGA CLEANING SERVICES, LLC": 1.0,
+        "MAXPRO ENTERPRISE LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "7158 6001",
+      "description": "JANITORIAL SERVICES - WEEKLY",
+      "unit": "CYC",
+      "quantity": 52.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 170.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 170.0,
+        "ALPHA AND OMEGA CLEANING SERVICES, LLC": 138.0,
+        "MAXPRO ENTERPRISE LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "7158 6002",
+      "description": "JANITORIAL SERVICES - MONTHLY",
+      "unit": "MO",
+      "quantity": 12.0,
+      "engEstUnit": 360.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 50.0,
+        "ALPHA AND OMEGA CLEANING SERVICES, LLC": 150.0,
+        "MAXPRO ENTERPRISE LLC": 175.0
+      }
+    },
+    {
+      "itemCode": "7158 6003",
+      "description": "JANITORIAL SERVICES - STRIP/WAX FLOORS",
+      "unit": "CYC",
+      "quantity": 2.0,
+      "engEstUnit": 525.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 300.0,
+        "ALPHA AND OMEGA CLEANING SERVICES, LLC": 525.0,
+        "MAXPRO ENTERPRISE LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "7158 6004",
+      "description": "JANITORIAL SERVICES - WINDOW WASHING",
+      "unit": "CYC",
+      "quantity": 1.0,
+      "engEstUnit": 135.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 50.0,
+        "ALPHA AND OMEGA CLEANING SERVICES, LLC": 135.0,
+        "MAXPRO ENTERPRISE LLC": 150.0
+      }
+    }
+  ]
+}

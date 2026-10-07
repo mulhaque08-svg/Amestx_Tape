@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6465-22-001",
+    "county": "Bee",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646522001",
+    "projectType": "HOT MIX",
+    "letDate": "03/19/24",
+    "engEstTotal": 297000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 261900.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 280800.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2500.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 97.0,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 97.0,
+        "BRAUNTEX MATERIALS, INC.": 104.0
+      }
+    },
+    {
+      "itemCode": "8011 6015",
+      "description": "D-GR HMA(SQ)TY B PG 64-22(DELIVERY)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 97.0,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 97.0,
+        "BRAUNTEX MATERIALS, INC.": 104.0
+      }
+    }
+  ]
+}

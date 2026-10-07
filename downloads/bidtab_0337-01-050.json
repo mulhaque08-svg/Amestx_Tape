@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "0337-01-050",
+    "county": "Williamson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "STP 2022(116)HES",
+    "projectType": "HAZARD ELIMINATION & SAFETY",
+    "letDate": "11/03/21",
+    "engEstTotal": 121198.79,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 95340.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "D. I. J. CONSTRUCTION, INC.",
+      "totalBidAmount": 107941.18
+    },
+    {
+      "rank": 3,
+      "vendorName": "INTERSTATE BARRICADES & MARKINGS, INC.",
+      "totalBidAmount": 131768.65
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 12000.0,
+      "lowUnit": 3400.0,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 3400.0,
+        "D. I. J. CONSTRUCTION, INC.": 100.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 10000.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 2.98,
+      "lowUnit": 5.0,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 5.0,
+        "D. I. J. CONSTRUCTION, INC.": 10.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 3.03,
+      "lowUnit": 5.0,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 5.0,
+        "D. I. J. CONSTRUCTION, INC.": 10.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 62.0,
+      "engEstUnit": 97.05,
+      "lowUnit": 45.0,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 45.0,
+        "D. I. J. CONSTRUCTION, INC.": 125.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 100.0
+      }
+    }
+  ]
+}

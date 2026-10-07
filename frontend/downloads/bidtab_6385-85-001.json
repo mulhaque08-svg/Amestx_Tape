@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "csj": "6385-85-001",
+    "county": "Ector",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638585001",
+    "projectType": "WINTER WEATHER MATERIAL",
+    "letDate": "07/27/21",
+    "engEstTotal": 15000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 21900.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SOUTHWEST ENVIROTX PARTNERS, LLC",
+      "totalBidAmount": 31000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "THE BARGAIN SOURCE",
+      "totalBidAmount": 191650.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8032 6005",
+      "description": "BRINE SOLUTION (PICK UP)",
+      "unit": "GAL",
+      "quantity": 30000.0,
+      "engEstUnit": 0.1,
+      "lowUnit": 0.13,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 0.13,
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 0.2,
+        "THE BARGAIN SOURCE": 1.68
+      }
+    },
+    {
+      "itemCode": "8032 6061",
+      "description": "BRINE SOLUTION(DEL)(SITE 1)",
+      "unit": "GAL",
+      "quantity": 25000.0,
+      "engEstUnit": 0.12,
+      "lowUnit": 0.18,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 0.18,
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 0.25,
+        "THE BARGAIN SOURCE": 1.25
+      }
+    },
+    {
+      "itemCode": "8032 6062",
+      "description": "BRINE SOLUTION(DEL)(SITE 2)",
+      "unit": "GAL",
+      "quantity": 25000.0,
+      "engEstUnit": 0.12,
+      "lowUnit": 0.18,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 0.18,
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 0.25,
+        "THE BARGAIN SOURCE": 1.25
+      }
+    },
+    {
+      "itemCode": "8032 6063",
+      "description": "BRINE SOLUTION(DEL)(SITE 3)",
+      "unit": "GAL",
+      "quantity": 25000.0,
+      "engEstUnit": 0.12,
+      "lowUnit": 0.18,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 0.18,
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 0.25,
+        "THE BARGAIN SOURCE": 1.25
+      }
+    },
+    {
+      "itemCode": "8032 6064",
+      "description": "BRINE SOLUTION(DEL)(SITE 4)",
+      "unit": "GAL",
+      "quantity": 25000.0,
+      "engEstUnit": 0.12,
+      "lowUnit": 0.18,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 0.18,
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 0.25,
+        "THE BARGAIN SOURCE": 1.9
+      }
+    }
+  ]
+}

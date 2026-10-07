@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6398-47-001",
+    "county": "Walker",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639847001",
+    "projectType": "CUTBACK",
+    "letDate": "03/15/22",
+    "engEstTotal": 140000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 134700.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "WRIGHT ASPHALT PRODUCTS COMPANY LLC",
+      "totalBidAmount": 174800.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CLEVELAND ASPHALT PRODUCTS, INC.",
+      "totalBidAmount": 177600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6196",
+      "description": "CUTBACK ASPHALT (RC-250)(DEL)(SITE 1)",
+      "unit": "GAL",
+      "quantity": 10000.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 3.31,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.31,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 4.37,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 4.44
+      }
+    },
+    {
+      "itemCode": "8010 6197",
+      "description": "CUTBACK ASPHALT (RC-250)(DEL)(SITE 2)",
+      "unit": "GAL",
+      "quantity": 10000.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 3.33,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.33,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 4.37,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 4.44
+      }
+    },
+    {
+      "itemCode": "8010 6198",
+      "description": "CUTBACK ASPHALT (RC-250)(DEL)(SITE 3)",
+      "unit": "GAL",
+      "quantity": 10000.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 3.38,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.38,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 4.37,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 4.44
+      }
+    },
+    {
+      "itemCode": "8010 6199",
+      "description": "CUTBACK ASPHALT (RC-250)(DEL)(SITE 4)",
+      "unit": "GAL",
+      "quantity": 10000.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 3.45,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.45,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 4.37,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 4.44
+      }
+    }
+  ]
+}

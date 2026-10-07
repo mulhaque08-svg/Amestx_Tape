@@ -1,0 +1,792 @@
+{
+  "metadata": {
+    "csj": "0008-12-099",
+    "county": "Tarrant",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 8-12-99",
+    "projectType": "PREVENTIVE MAINTENANCE",
+    "letDate": "04/05/24",
+    "engEstTotal": 4117662.45,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SCOTT TUCKER CONSTRUCTION COMPANY, LLC",
+      "totalBidAmount": 4195452.12
+    },
+    {
+      "rank": 2,
+      "vendorName": "RAGLE CONSTRUCTION, INC.",
+      "totalBidAmount": 4432794.18
+    },
+    {
+      "rank": 3,
+      "vendorName": "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC",
+      "totalBidAmount": 4482409.55
+    },
+    {
+      "rank": 4,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 4804260.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0428 6001",
+      "description": "PENETRATING CONCRETE SURFACE TREATMENT",
+      "unit": "SY",
+      "quantity": 2138.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 13.96,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 13.96,
+        "RAGLE CONSTRUCTION, INC.": 5.95,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 12.0,
+        "FNH CONSTRUCTION, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0429 6001",
+      "description": "CONC STR REPAIR(CLEAN & COAT WTH EPOXY)",
+      "unit": "SF",
+      "quantity": 146.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 90.07,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 90.07,
+        "RAGLE CONSTRUCTION, INC.": 100.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 300.0,
+        "FNH CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0429 6003",
+      "description": "CONC STR REPAIR(DECK REP(PART DEPTH))",
+      "unit": "SF",
+      "quantity": 56.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 166.0,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 166.0,
+        "RAGLE CONSTRUCTION, INC.": 150.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 300.0,
+        "FNH CONSTRUCTION, LLC": 650.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 191.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 330.67,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 330.67,
+        "RAGLE CONSTRUCTION, INC.": 150.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 300.0,
+        "FNH CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0438 6004",
+      "description": "CLEANING AND SEALING EXIST JOINTS(CL7)",
+      "unit": "LF",
+      "quantity": 3574.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 50.58,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 50.58,
+        "RAGLE CONSTRUCTION, INC.": 35.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 75.0,
+        "FNH CONSTRUCTION, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0438 6010",
+      "description": "RESIZING AND SEALING JOINTS",
+      "unit": "LF",
+      "quantity": 422.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 115.08,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 115.08,
+        "RAGLE CONSTRUCTION, INC.": 55.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 100.0,
+        "FNH CONSTRUCTION, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 347132.41,
+      "lowUnit": 419545.0,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 419545.0,
+        "RAGLE CONSTRUCTION, INC.": 440000.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 440000.0,
+        "FNH CONSTRUCTION, LLC": 480000.0
+      }
+    },
+    {
+      "itemCode": "0512 6001",
+      "description": "PORT CTB (FUR & INST)(SGL SLOPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 930.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 116.42,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 116.42,
+        "RAGLE CONSTRUCTION, INC.": 88.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 125.0,
+        "FNH CONSTRUCTION, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0512 6025",
+      "description": "PORT CTB (MOVE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 6320.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 29.91,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 29.91,
+        "RAGLE CONSTRUCTION, INC.": 25.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 30.0,
+        "FNH CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0512 6045",
+      "description": "PORT CTB (STKPL)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 60.0,
+      "engEstUnit": 37.0,
+      "lowUnit": 307.64,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 307.64,
+        "RAGLE CONSTRUCTION, INC.": 27.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 100.0,
+        "FNH CONSTRUCTION, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0512 6046",
+      "description": "PORT CTB (STKPL)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 20.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 857.92,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 857.92,
+        "RAGLE CONSTRUCTION, INC.": 27.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 100.0,
+        "FNH CONSTRUCTION, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0512 6049",
+      "description": "PORT CTB (REMOVE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 930.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 41.42,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 41.42,
+        "RAGLE CONSTRUCTION, INC.": 15.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 50.0,
+        "FNH CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0514 6001",
+      "description": "PERM CTB (SGL SLOPE) (TY 1) (42 )",
+      "unit": "LF",
+      "quantity": 5800.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 178.75,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 178.75,
+        "RAGLE CONSTRUCTION, INC.": 165.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 280.0,
+        "FNH CONSTRUCTION, LLC": 225.0
+      }
+    },
+    {
+      "itemCode": "0514 6009",
+      "description": "PERM CTB (SGL SLOPE) (TY 1) (54 )",
+      "unit": "LF",
+      "quantity": 325.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 298.0,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 298.0,
+        "RAGLE CONSTRUCTION, INC.": 201.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 360.0,
+        "FNH CONSTRUCTION, LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0514 6047",
+      "description": "PERM CTB (SGL SLOPE)(TY 1)(TRANSITION)",
+      "unit": "LF",
+      "quantity": 60.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 435.87,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 435.87,
+        "RAGLE CONSTRUCTION, INC.": 135.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 360.0,
+        "FNH CONSTRUCTION, LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0514 6652",
+      "description": "PERM CTB (TRAN SSCB TO T501)(MOD)",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 345.11,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 345.11,
+        "RAGLE CONSTRUCTION, INC.": 121.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 360.0,
+        "FNH CONSTRUCTION, LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0514 6665",
+      "description": "PERM CTB (TRAN SSCB TO C201)",
+      "unit": "LF",
+      "quantity": 40.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 515.55,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 515.55,
+        "RAGLE CONSTRUCTION, INC.": 121.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 350.0,
+        "FNH CONSTRUCTION, LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 4215.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 6.04,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 6.04,
+        "RAGLE CONSTRUCTION, INC.": 3.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 5.0,
+        "FNH CONSTRUCTION, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0542 6002",
+      "description": "REMOVE TERMINAL ANCHOR SECTION",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 655.21,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 655.21,
+        "RAGLE CONSTRUCTION, INC.": 150.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 300.0,
+        "FNH CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0542 6003",
+      "description": "REMOVE DOWNSTREAM ANCHOR TERMINAL",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 145.0,
+      "lowUnit": 1422.5,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 1422.5,
+        "RAGLE CONSTRUCTION, INC.": 125.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 300.0,
+        "FNH CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 19.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3784.43,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 3784.43,
+        "RAGLE CONSTRUCTION, INC.": 2875.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 1200.0,
+        "FNH CONSTRUCTION, LLC": 3500.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 683.37,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 683.37,
+        "RAGLE CONSTRUCTION, INC.": 250.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 350.0,
+        "FNH CONSTRUCTION, LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0545 6003",
+      "description": "CRASH CUSH ATTEN (MOVE & RESET)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 2325.58,
+      "lowUnit": 1521.01,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 1521.01,
+        "RAGLE CONSTRUCTION, INC.": 1407.26,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 1800.0,
+        "FNH CONSTRUCTION, LLC": 6500.0
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 914.24,
+      "lowUnit": 1548.89,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 1548.89,
+        "RAGLE CONSTRUCTION, INC.": 1870.34,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 1000.0,
+        "FNH CONSTRUCTION, LLC": 2500.0
+      }
+    },
+    {
+      "itemCode": "0545 6010",
+      "description": "CRASH CUSH ATTEN (INSTL)(L)(W)(TL3)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 46170.2,
+      "lowUnit": 42897.06,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 42897.06,
+        "RAGLE CONSTRUCTION, INC.": 35100.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 41000.0,
+        "FNH CONSTRUCTION, LLC": 30000.0
+      }
+    },
+    {
+      "itemCode": "0545 6019",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 11574.72,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 11574.72,
+        "RAGLE CONSTRUCTION, INC.": 11747.04,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 10000.0,
+        "FNH CONSTRUCTION, LLC": 30000.0
+      }
+    },
+    {
+      "itemCode": "0644 6064",
+      "description": "IN BRIDGE MNT CLEARANCE SGN ASSM(TY N)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2300.0,
+      "lowUnit": 3125.42,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 3125.42,
+        "RAGLE CONSTRUCTION, INC.": 2500.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 500.0,
+        "FNH CONSTRUCTION, LLC": 5000.0
+      }
+    },
+    {
+      "itemCode": "0644 6065",
+      "description": "IN BRIDGE MNT CLEARANCE SGN ASSM(TY S)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 2812.71,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 2812.71,
+        "RAGLE CONSTRUCTION, INC.": 2500.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 500.0,
+        "FNH CONSTRUCTION, LLC": 5000.0
+      }
+    },
+    {
+      "itemCode": "0644 6066",
+      "description": "IN SM RD SN SUP&AM (RAIL MOUNT)",
+      "unit": "EA",
+      "quantity": 46.0,
+      "engEstUnit": 1800.0,
+      "lowUnit": 4785.89,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 4785.89,
+        "RAGLE CONSTRUCTION, INC.": 3500.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 200.0,
+        "FNH CONSTRUCTION, LLC": 4500.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 480.17,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 480.17,
+        "RAGLE CONSTRUCTION, INC.": 150.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 200.0,
+        "FNH CONSTRUCTION, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0644 6077",
+      "description": "REMOVE BRDG MNT CLEARANCE SIGN ASSM",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1075.14,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 1075.14,
+        "RAGLE CONSTRUCTION, INC.": 750.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 1500.0,
+        "FNH CONSTRUCTION, LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0658 6013",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB",
+      "unit": "EA",
+      "quantity": 348.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 14.65,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 14.65,
+        "RAGLE CONSTRUCTION, INC.": 20.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 12.0,
+        "FNH CONSTRUCTION, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0658 6026",
+      "description": "INSTL DEL ASSM (D-SY)SZ (BRF)CTB",
+      "unit": "EA",
+      "quantity": 350.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 14.61,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 14.61,
+        "RAGLE CONSTRUCTION, INC.": 20.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 12.0,
+        "FNH CONSTRUCTION, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 190.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 11.84,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 11.84,
+        "RAGLE CONSTRUCTION, INC.": 10.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 12.0,
+        "FNH CONSTRUCTION, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "0677 6002",
+      "description": "ELIM EXT PAV MRK & MRKS (6\")",
+      "unit": "LF",
+      "quantity": 23797.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.53,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 0.53,
+        "RAGLE CONSTRUCTION, INC.": 1.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 1.25,
+        "FNH CONSTRUCTION, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 1630.0,
+      "engEstUnit": 1.41,
+      "lowUnit": 1.45,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 1.45,
+        "RAGLE CONSTRUCTION, INC.": 1.2,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 1.5,
+        "FNH CONSTRUCTION, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0677 6005",
+      "description": "ELIM EXT PAV MRK & MRKS (12\")",
+      "unit": "LF",
+      "quantity": 64.0,
+      "engEstUnit": 1.67,
+      "lowUnit": 15.2,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 15.2,
+        "RAGLE CONSTRUCTION, INC.": 3.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 3.5,
+        "FNH CONSTRUCTION, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 23797.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.08,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 0.08,
+        "RAGLE CONSTRUCTION, INC.": 0.5,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 1.0,
+        "FNH CONSTRUCTION, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 1630.0,
+      "engEstUnit": 0.89,
+      "lowUnit": 0.6,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 0.6,
+        "RAGLE CONSTRUCTION, INC.": 0.85,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 1.2,
+        "FNH CONSTRUCTION, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0678 6006",
+      "description": "PAV SURF PREP FOR MRK (12\")",
+      "unit": "LF",
+      "quantity": 244.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.76,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 3.76,
+        "RAGLE CONSTRUCTION, INC.": 1.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 1.2,
+        "FNH CONSTRUCTION, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0780 6002",
+      "description": "CNC CRACK REPAIR (DISCRETE)(INJECT)",
+      "unit": "LF",
+      "quantity": 10.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 156.87,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 156.87,
+        "RAGLE CONSTRUCTION, INC.": 150.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 550.0,
+        "FNH CONSTRUCTION, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0785 6005",
+      "description": "BRIDGE JOINT REPAIR (SEJ)",
+      "unit": "LF",
+      "quantity": 226.0,
+      "engEstUnit": 207.5,
+      "lowUnit": 214.6,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 214.6,
+        "RAGLE CONSTRUCTION, INC.": 74.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 150.0,
+        "FNH CONSTRUCTION, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0788 6002",
+      "description": "CONCRETE BEAM REPAIR (CFRP)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 22486.72,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 22486.72,
+        "RAGLE CONSTRUCTION, INC.": 13800.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 25000.0,
+        "FNH CONSTRUCTION, LLC": 25000.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 20896.78,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 20896.78,
+        "RAGLE CONSTRUCTION, INC.": 25000.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 10000.0,
+        "FNH CONSTRUCTION, LLC": 16500.0
+      }
+    },
+    {
+      "itemCode": "6038 6004",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(SLD)",
+      "unit": "LF",
+      "quantity": 10007.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 0.93,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 0.93,
+        "RAGLE CONSTRUCTION, INC.": 1.38,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 1.5,
+        "FNH CONSTRUCTION, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "6038 6005",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(BRK)",
+      "unit": "LF",
+      "quantity": 1910.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.53,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 1.53,
+        "RAGLE CONSTRUCTION, INC.": 1.65,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 2.0,
+        "FNH CONSTRUCTION, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "6038 6007",
+      "description": "MULTIPOLYMER PAV MRK (W)(8\")(SLD)",
+      "unit": "LF",
+      "quantity": 1630.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.06,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 2.06,
+        "RAGLE CONSTRUCTION, INC.": 2.72,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 3.0,
+        "FNH CONSTRUCTION, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "6038 6011",
+      "description": "MULTIPOLYMER PAV MRK (W)(12\")(SLD)",
+      "unit": "LF",
+      "quantity": 244.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 10.63,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 10.63,
+        "RAGLE CONSTRUCTION, INC.": 7.98,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 9.0,
+        "FNH CONSTRUCTION, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "6038 6017",
+      "description": "MULTIPOLYMER PAV MRK (Y)(6\")(SLD)",
+      "unit": "LF",
+      "quantity": 9970.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 0.93,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 0.93,
+        "RAGLE CONSTRUCTION, INC.": 1.35,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 1.5,
+        "FNH CONSTRUCTION, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "6038 6024",
+      "description": "MULTIPOLYMER PAV MRK (BLK)(6\")(BRK)",
+      "unit": "LF",
+      "quantity": 1910.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.93,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 1.93,
+        "RAGLE CONSTRUCTION, INC.": 2.2,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 2.5,
+        "FNH CONSTRUCTION, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "6496 6003",
+      "description": "INSTL LINEAR DELIN SYS(LDS)(6\")(Y)(CTB)",
+      "unit": "EA",
+      "quantity": 1274.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 60.41,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 60.41,
+        "RAGLE CONSTRUCTION, INC.": 60.5,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 55.0,
+        "FNH CONSTRUCTION, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "6496 6004",
+      "description": "INSTL LINEAR DELIN SYS(LDS)(6\")(W)(CTB)",
+      "unit": "EA",
+      "quantity": 228.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 64.18,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 64.18,
+        "RAGLE CONSTRUCTION, INC.": 60.5,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 55.0,
+        "FNH CONSTRUCTION, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "6496 6005",
+      "description": "INSTL LIN DELIN SYS(LDS)(1.5\")(Y)(GF)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 86.23,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 86.23,
+        "RAGLE CONSTRUCTION, INC.": 50.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 55.0,
+        "FNH CONSTRUCTION, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "6496 6006",
+      "description": "INSTL LIN DELIN SYS(LDS)(1.5\")(W)(GF)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 86.23,
+      "bidders": {
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 86.23,
+        "RAGLE CONSTRUCTION, INC.": 50.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 55.0,
+        "FNH CONSTRUCTION, LLC": 100.0
+      }
+    }
+  ]
+}

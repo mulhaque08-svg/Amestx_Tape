@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6388-86-001",
+    "county": "Andrews",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638886001",
+    "projectType": "LANDSCAPE MAINTENANCE",
+    "letDate": "10/12/21",
+    "engEstTotal": 64000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CM COMPANY",
+      "totalBidAmount": 51200.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ABOVE ALL CONSTRUCTION",
+      "totalBidAmount": 80000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0751 6044",
+      "description": "LITTER PICKUP (SITE A)",
+      "unit": "CYC",
+      "quantity": 40.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 320.0,
+      "bidders": {
+        "CM COMPANY": 320.0,
+        "ABOVE ALL CONSTRUCTION": 500.0
+      }
+    },
+    {
+      "itemCode": "0751 6045",
+      "description": "LITTER PICKUP (SITE B)",
+      "unit": "CYC",
+      "quantity": 40.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 320.0,
+      "bidders": {
+        "CM COMPANY": 320.0,
+        "ABOVE ALL CONSTRUCTION": 500.0
+      }
+    },
+    {
+      "itemCode": "0751 6064",
+      "description": "MOWING, TRIMMING AND EDGING (SITE A)",
+      "unit": "CYC",
+      "quantity": 40.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 320.0,
+      "bidders": {
+        "CM COMPANY": 320.0,
+        "ABOVE ALL CONSTRUCTION": 500.0
+      }
+    },
+    {
+      "itemCode": "0751 6065",
+      "description": "MOWING, TRIMMING AND EDGING (SITE B)",
+      "unit": "CYC",
+      "quantity": 40.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 320.0,
+      "bidders": {
+        "CM COMPANY": 320.0,
+        "ABOVE ALL CONSTRUCTION": 500.0
+      }
+    }
+  ]
+}

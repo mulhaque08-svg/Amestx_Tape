@@ -1,0 +1,772 @@
+{
+  "metadata": {
+    "csj": "0196-02-131",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2022(771)",
+    "projectType": "CONSTRUCT RAMPS",
+    "letDate": "06/29/22",
+    "engEstTotal": 2318635.59,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 2796046.88
+    },
+    {
+      "rank": 2,
+      "vendorName": "EUROVIA ATLANTIC COAST LLC",
+      "totalBidAmount": 2804652.71
+    },
+    {
+      "rank": 3,
+      "vendorName": "JAGOE-PUBLIC COMPANY",
+      "totalBidAmount": 3142166.1
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 37.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 3400.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 3400.0,
+        "EUROVIA ATLANTIC COAST LLC": 950.0,
+        "JAGOE-PUBLIC COMPANY": 2000.0
+      }
+    },
+    {
+      "itemCode": "0104 6023",
+      "description": "REMOVING CONC (CTB)",
+      "unit": "LF",
+      "quantity": 2777.0,
+      "engEstUnit": 7.25,
+      "lowUnit": 19.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 19.0,
+        "EUROVIA ATLANTIC COAST LLC": 3.0,
+        "JAGOE-PUBLIC COMPANY": 29.25
+      }
+    },
+    {
+      "itemCode": "0104 6024",
+      "description": "REMOVING CONC (RETAINING WALLS)",
+      "unit": "SY",
+      "quantity": 5.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 200.0,
+        "EUROVIA ATLANTIC COAST LLC": 1200.0,
+        "JAGOE-PUBLIC COMPANY": 2600.0
+      }
+    },
+    {
+      "itemCode": "0104 6034",
+      "description": "REMOVING CONC (COPING)",
+      "unit": "LF",
+      "quantity": 60.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 88.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 88.0,
+        "EUROVIA ATLANTIC COAST LLC": 115.0,
+        "JAGOE-PUBLIC COMPANY": 56.0
+      }
+    },
+    {
+      "itemCode": "0104 6054",
+      "description": "REMOVING CONCRETE(MOW STRIP)",
+      "unit": "LF",
+      "quantity": 1144.0,
+      "engEstUnit": 1.05,
+      "lowUnit": 11.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 11.0,
+        "EUROVIA ATLANTIC COAST LLC": 12.0,
+        "JAGOE-PUBLIC COMPANY": 14.25
+      }
+    },
+    {
+      "itemCode": "0105 6094",
+      "description": "REMOVING STAB BASE & ASPH PAV(12\"-27\")",
+      "unit": "SY",
+      "quantity": 2785.0,
+      "engEstUnit": 27.5,
+      "lowUnit": 11.35,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 11.35,
+        "EUROVIA ATLANTIC COAST LLC": 25.0,
+        "JAGOE-PUBLIC COMPANY": 11.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 2435.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 19.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 19.5,
+        "EUROVIA ATLANTIC COAST LLC": 21.0,
+        "JAGOE-PUBLIC COMPANY": 23.75
+      }
+    },
+    {
+      "itemCode": "0132 6006",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY C)",
+      "unit": "CY",
+      "quantity": 4902.0,
+      "engEstUnit": 57.5,
+      "lowUnit": 37.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 37.0,
+        "EUROVIA ATLANTIC COAST LLC": 44.0,
+        "JAGOE-PUBLIC COMPANY": 19.5
+      }
+    },
+    {
+      "itemCode": "0161 6017",
+      "description": "COMPOST MANUF TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 25370.0,
+      "engEstUnit": 0.95,
+      "lowUnit": 1.4,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 1.4,
+        "EUROVIA ATLANTIC COAST LLC": 1.13,
+        "JAGOE-PUBLIC COMPANY": 1.3
+      }
+    },
+    {
+      "itemCode": "0162 6002",
+      "description": "BLOCK SODDING",
+      "unit": "SY",
+      "quantity": 25370.0,
+      "engEstUnit": 4.75,
+      "lowUnit": 4.75,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 4.75,
+        "EUROVIA ATLANTIC COAST LLC": 4.37,
+        "JAGOE-PUBLIC COMPANY": 4.9
+      }
+    },
+    {
+      "itemCode": "0164 6051",
+      "description": "DRILL SEED (TEMP)(WARM OR COOL)",
+      "unit": "SY",
+      "quantity": 25370.0,
+      "engEstUnit": 0.15,
+      "lowUnit": 0.14,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.14,
+        "EUROVIA ATLANTIC COAST LLC": 0.17,
+        "JAGOE-PUBLIC COMPANY": 0.05
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 7548.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.01,
+        "EUROVIA ATLANTIC COAST LLC": 13.5,
+        "JAGOE-PUBLIC COMPANY": 10.0
+      }
+    },
+    {
+      "itemCode": "0260 6002",
+      "description": "LIME (HYDRATED LIME (SLURRY))",
+      "unit": "TON",
+      "quantity": 315.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 255.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 255.0,
+        "EUROVIA ATLANTIC COAST LLC": 365.0,
+        "JAGOE-PUBLIC COMPANY": 275.0
+      }
+    },
+    {
+      "itemCode": "0260 6011",
+      "description": "LIME TRT (EXST MATL) (12\")",
+      "unit": "SY",
+      "quantity": 10510.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 6.0,
+        "EUROVIA ATLANTIC COAST LLC": 17.0,
+        "JAGOE-PUBLIC COMPANY": 13.5
+      }
+    },
+    {
+      "itemCode": "0354 6045",
+      "description": "PLANE ASPH CONC PAV (2\")",
+      "unit": "SY",
+      "quantity": 1524.0,
+      "engEstUnit": 6.75,
+      "lowUnit": 7.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 7.0,
+        "EUROVIA ATLANTIC COAST LLC": 8.5,
+        "JAGOE-PUBLIC COMPANY": 7.1
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 30.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 700.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 700.0,
+        "EUROVIA ATLANTIC COAST LLC": 700.0,
+        "JAGOE-PUBLIC COMPANY": 620.0
+      }
+    },
+    {
+      "itemCode": "0432 6030",
+      "description": "RIPRAP (STONE COMMON)(GROUT)(12 IN)",
+      "unit": "CY",
+      "quantity": 90.0,
+      "engEstUnit": 210.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 300.0,
+        "EUROVIA ATLANTIC COAST LLC": 315.0,
+        "JAGOE-PUBLIC COMPANY": 320.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 20.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 750.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 750.0,
+        "EUROVIA ATLANTIC COAST LLC": 760.0,
+        "JAGOE-PUBLIC COMPANY": 920.0
+      }
+    },
+    {
+      "itemCode": "0451 6001",
+      "description": "RETROFIT RAIL (TY T1F)",
+      "unit": "LF",
+      "quantity": 5.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 700.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 700.0,
+        "EUROVIA ATLANTIC COAST LLC": 600.0,
+        "JAGOE-PUBLIC COMPANY": 2600.0
+      }
+    },
+    {
+      "itemCode": "0467 6014",
+      "description": "SET (TY I) (36 IN) (3: 1) (C)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 9000.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 9000.0,
+        "EUROVIA ATLANTIC COAST LLC": 7200.0,
+        "JAGOE-PUBLIC COMPANY": 4300.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 210785.14,
+      "lowUnit": 270000.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 270000.0,
+        "EUROVIA ATLANTIC COAST LLC": 150000.0,
+        "JAGOE-PUBLIC COMPANY": 275000.0
+      }
+    },
+    {
+      "itemCode": "0512 6104",
+      "description": "PCTB FUR&INSTL(F-SHAPE OR SNGL SLP)TY1",
+      "unit": "LF",
+      "quantity": 3220.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 16.0,
+        "EUROVIA ATLANTIC COAST LLC": 19.0,
+        "JAGOE-PUBLIC COMPANY": 40.5
+      }
+    },
+    {
+      "itemCode": "0512 6106",
+      "description": "PORT CTB REMOVE(F-SHAPE OR SNGL SLP)TY1",
+      "unit": "LF",
+      "quantity": 3220.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 13.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 13.0,
+        "EUROVIA ATLANTIC COAST LLC": 14.5,
+        "JAGOE-PUBLIC COMPANY": 13.5
+      }
+    },
+    {
+      "itemCode": "0514 6001",
+      "description": "PERM CTB (SGL SLOPE) (TY 1) (42 )",
+      "unit": "LF",
+      "quantity": 4210.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 140.0,
+        "EUROVIA ATLANTIC COAST LLC": 115.0,
+        "JAGOE-PUBLIC COMPANY": 150.0
+      }
+    },
+    {
+      "itemCode": "0533 6003",
+      "description": "RUMBLE STRIPS (SHOULDER) ASPHALT",
+      "unit": "LF",
+      "quantity": 2095.0,
+      "engEstUnit": 2.25,
+      "lowUnit": 3.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 3.0,
+        "EUROVIA ATLANTIC COAST LLC": 4.5,
+        "JAGOE-PUBLIC COMPANY": 2.9
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 1144.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 2.05,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 2.05,
+        "EUROVIA ATLANTIC COAST LLC": 1.75,
+        "JAGOE-PUBLIC COMPANY": 2.0
+      }
+    },
+    {
+      "itemCode": "0542 6004",
+      "description": "RM MTL BM GD FENCE TRANS (THRIE-BEAM)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 275.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 275.0,
+        "EUROVIA ATLANTIC COAST LLC": 225.0,
+        "JAGOE-PUBLIC COMPANY": 250.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1470.0,
+      "lowUnit": 275.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 275.0,
+        "EUROVIA ATLANTIC COAST LLC": 225.0,
+        "JAGOE-PUBLIC COMPANY": 250.0
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 1800.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 1800.0,
+        "EUROVIA ATLANTIC COAST LLC": 800.0,
+        "JAGOE-PUBLIC COMPANY": 1700.0
+      }
+    },
+    {
+      "itemCode": "0545 6019",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 9000.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 9000.0,
+        "EUROVIA ATLANTIC COAST LLC": 8000.0,
+        "JAGOE-PUBLIC COMPANY": 5000.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 675.0,
+      "lowUnit": 950.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 950.0,
+        "EUROVIA ATLANTIC COAST LLC": 812.0,
+        "JAGOE-PUBLIC COMPANY": 920.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 1100.0,
+        "EUROVIA ATLANTIC COAST LLC": 949.0,
+        "JAGOE-PUBLIC COMPANY": 1100.0
+      }
+    },
+    {
+      "itemCode": "0644 6033",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 1800.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 1800.0,
+        "EUROVIA ATLANTIC COAST LLC": 1528.0,
+        "JAGOE-PUBLIC COMPANY": 1700.0
+      }
+    },
+    {
+      "itemCode": "0644 6064",
+      "description": "IN BRIDGE MNT CLEARANCE SGN ASSM(TY N)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2200.0,
+      "lowUnit": 7500.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 7500.0,
+        "EUROVIA ATLANTIC COAST LLC": 4995.0,
+        "JAGOE-PUBLIC COMPANY": 5600.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 175.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 175.0,
+        "EUROVIA ATLANTIC COAST LLC": 150.0,
+        "JAGOE-PUBLIC COMPANY": 170.0
+      }
+    },
+    {
+      "itemCode": "0662 6060",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 14350.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 1.15,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 1.15,
+        "EUROVIA ATLANTIC COAST LLC": 1.0,
+        "JAGOE-PUBLIC COMPANY": 1.1
+      }
+    },
+    {
+      "itemCode": "0662 6061",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(DOT)",
+      "unit": "LF",
+      "quantity": 240.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 5.0,
+        "EUROVIA ATLANTIC COAST LLC": 5.0,
+        "JAGOE-PUBLIC COMPANY": 5.6
+      }
+    },
+    {
+      "itemCode": "0662 6095",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 4160.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 1.85,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 1.85,
+        "EUROVIA ATLANTIC COAST LLC": 1.55,
+        "JAGOE-PUBLIC COMPANY": 1.8
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 74.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 12.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 12.0,
+        "EUROVIA ATLANTIC COAST LLC": 10.0,
+        "JAGOE-PUBLIC COMPANY": 11.25
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 15652.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.95,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.95,
+        "EUROVIA ATLANTIC COAST LLC": 0.8,
+        "JAGOE-PUBLIC COMPANY": 0.9
+      }
+    },
+    {
+      "itemCode": "0677 6005",
+      "description": "ELIM EXT PAV MRK & MRKS (12\")",
+      "unit": "LF",
+      "quantity": 146.0,
+      "engEstUnit": 1.75,
+      "lowUnit": 1.9,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 1.9,
+        "EUROVIA ATLANTIC COAST LLC": 1.6,
+        "JAGOE-PUBLIC COMPANY": 1.8
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 547.0,
+      "engEstUnit": 3.25,
+      "lowUnit": 3.75,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 3.75,
+        "EUROVIA ATLANTIC COAST LLC": 3.2,
+        "JAGOE-PUBLIC COMPANY": 3.6
+      }
+    },
+    {
+      "itemCode": "0677 6008",
+      "description": "ELIM EXT PAV MRK & MRKS (ARROW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 60.0,
+        "EUROVIA ATLANTIC COAST LLC": 50.0,
+        "JAGOE-PUBLIC COMPANY": 56.0
+      }
+    },
+    {
+      "itemCode": "0677 6012",
+      "description": "ELIM EXT PAV MRK & MRKS (WORD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 90.0,
+        "EUROVIA ATLANTIC COAST LLC": 75.0,
+        "JAGOE-PUBLIC COMPANY": 85.0
+      }
+    },
+    {
+      "itemCode": "0678 6001",
+      "description": "PAV SURF PREP FOR MRK (4\")",
+      "unit": "LF",
+      "quantity": 18745.0,
+      "engEstUnit": 0.05,
+      "lowUnit": 0.03,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.03,
+        "EUROVIA ATLANTIC COAST LLC": 0.02,
+        "JAGOE-PUBLIC COMPANY": 0.02
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 1000.0,
+      "engEstUnit": 0.15,
+      "lowUnit": 0.09,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.09,
+        "EUROVIA ATLANTIC COAST LLC": 0.07,
+        "JAGOE-PUBLIC COMPANY": 0.08
+      }
+    },
+    {
+      "itemCode": "0678 6006",
+      "description": "PAV SURF PREP FOR MRK (12\")",
+      "unit": "LF",
+      "quantity": 305.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.3,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.3,
+        "EUROVIA ATLANTIC COAST LLC": 0.26,
+        "JAGOE-PUBLIC COMPANY": 0.3
+      }
+    },
+    {
+      "itemCode": "0678 6007",
+      "description": "PAV SURF PREP FOR MRK (18\")",
+      "unit": "LF",
+      "quantity": 95.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.4,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.4,
+        "EUROVIA ATLANTIC COAST LLC": 0.34,
+        "JAGOE-PUBLIC COMPANY": 0.4
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 215.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.55,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.55,
+        "EUROVIA ATLANTIC COAST LLC": 0.47,
+        "JAGOE-PUBLIC COMPANY": 0.55
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 13.25,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 13.25,
+        "EUROVIA ATLANTIC COAST LLC": 11.25,
+        "JAGOE-PUBLIC COMPANY": 12.75
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 15.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 15.5,
+        "EUROVIA ATLANTIC COAST LLC": 13.0,
+        "JAGOE-PUBLIC COMPANY": 14.75
+      }
+    },
+    {
+      "itemCode": "0678 6033",
+      "description": "PAV SURF PREP FOR MRK (RPM)",
+      "unit": "EA",
+      "quantity": 74.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 0.75,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.75,
+        "EUROVIA ATLANTIC COAST LLC": 0.64,
+        "JAGOE-PUBLIC COMPANY": 0.7
+      }
+    },
+    {
+      "itemCode": "3077 6001",
+      "description": "SP MIXES SP-B PG64-22",
+      "unit": "TON",
+      "quantity": 4430.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 125.0,
+        "EUROVIA ATLANTIC COAST LLC": 124.0,
+        "JAGOE-PUBLIC COMPANY": 150.0
+      }
+    },
+    {
+      "itemCode": "3077 6065",
+      "description": "SP MIXES SP-D SAC-A PG76-22",
+      "unit": "TON",
+      "quantity": 1235.0,
+      "engEstUnit": 145.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 150.0,
+        "EUROVIA ATLANTIC COAST LLC": 165.0,
+        "JAGOE-PUBLIC COMPANY": 165.0
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 1315.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.75,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 4.75,
+        "EUROVIA ATLANTIC COAST LLC": 6.5,
+        "JAGOE-PUBLIC COMPANY": 3.0
+      }
+    },
+    {
+      "itemCode": "6048 6001",
+      "description": "RE PM W/RET REQ TY I (W)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 11330.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.85,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.85,
+        "EUROVIA ATLANTIC COAST LLC": 0.7,
+        "JAGOE-PUBLIC COMPANY": 0.8
+      }
+    },
+    {
+      "itemCode": "6048 6009",
+      "description": "RE PM W/RET REQ TY II (W)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 11330.0,
+      "engEstUnit": 0.4,
+      "lowUnit": 0.6,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.6,
+        "EUROVIA ATLANTIC COAST LLC": 0.5,
+        "JAGOE-PUBLIC COMPANY": 0.55
+      }
+    }
+  ]
+}

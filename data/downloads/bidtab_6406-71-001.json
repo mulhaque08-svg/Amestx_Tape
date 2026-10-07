@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6406-71-001",
+    "county": "Runnels",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640671001",
+    "projectType": "SMALL SIGN REPLACEMENT",
+    "letDate": "07/26/22",
+    "engEstTotal": 92680.93,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JASCO",
+      "totalBidAmount": 71847.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOTAL HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 86743.78
+    },
+    {
+      "rank": 3,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 92809.5
+    },
+    {
+      "rank": 4,
+      "vendorName": "TEXAS ROAD CONSTRUCTION, LLC",
+      "totalBidAmount": 111173.4
+    },
+    {
+      "rank": 5,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 158140.47
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 9500.0,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "JASCO": 15000.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 12500.0,
+        "FNH CONSTRUCTION, LLC": 10000.0,
+        "TEXAS ROAD CONSTRUCTION, LLC": 34000.0,
+        "CRACKSEAL OF TEXAS, LLC": 36000.0
+      }
+    },
+    {
+      "itemCode": "0502 6001",
+      "description": "BARRICADES, SIGNS AND TRAFFIC HANDLING",
+      "unit": "MO",
+      "quantity": 2.0,
+      "engEstUnit": 11200.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "JASCO": 1.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 1000.0,
+        "FNH CONSTRUCTION, LLC": 8500.0,
+        "TEXAS ROAD CONSTRUCTION, LLC": 1.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.01
+      }
+    }
+  ]
+}

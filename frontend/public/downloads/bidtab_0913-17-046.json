@@ -1,0 +1,456 @@
+{
+  "metadata": {
+    "csj": "0913-17-046",
+    "county": "Dewitt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2B22(011)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "01/05/24",
+    "engEstTotal": 3691316.9,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ACME BRIDGE COMPANY, INC.",
+      "totalBidAmount": 3648033.01
+    },
+    {
+      "rank": 2,
+      "vendorName": "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC",
+      "totalBidAmount": 3791243.6
+    },
+    {
+      "rank": 3,
+      "vendorName": "E-Z BEL CONSTRUCTION, LLC",
+      "totalBidAmount": 3913402.77
+    },
+    {
+      "rank": 4,
+      "vendorName": "DEAN WORD COMPANY, LTD.",
+      "totalBidAmount": 4974398.41
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 13.1,
+      "engEstUnit": 8000.0,
+      "lowUnit": 10500.0,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 10500.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 7540.0,
+        "E-Z BEL CONSTRUCTION, LLC": 6850.0,
+        "DEAN WORD COMPANY, LTD.": 14079.188
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 714.0,
+      "engEstUnit": 18.0,
+      "lowUnit": 43.8,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 43.8,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 23.2,
+        "E-Z BEL CONSTRUCTION, LLC": 22.0,
+        "DEAN WORD COMPANY, LTD.": 60.077
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 1119.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 25.7,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 25.7,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 32.5,
+        "E-Z BEL CONSTRUCTION, LLC": 22.0,
+        "DEAN WORD COMPANY, LTD.": 23.274
+      }
+    },
+    {
+      "itemCode": "0132 6005",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 1033.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 33.7,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 33.7,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 26.8,
+        "E-Z BEL CONSTRUCTION, LLC": 25.0,
+        "DEAN WORD COMPANY, LTD.": 66.741
+      }
+    },
+    {
+      "itemCode": "0150 6002",
+      "description": "BLADING",
+      "unit": "HR",
+      "quantity": 72.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 76.6,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 76.6,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 61.8,
+        "E-Z BEL CONSTRUCTION, LLC": 60.0,
+        "DEAN WORD COMPANY, LTD.": 109.76
+      }
+    },
+    {
+      "itemCode": "0164 6001",
+      "description": "BROADCAST SEED (PERM) (RURAL) (SANDY)",
+      "unit": "SY",
+      "quantity": 744.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.05,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 1.05,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 2.9,
+        "E-Z BEL CONSTRUCTION, LLC": 0.7,
+        "DEAN WORD COMPANY, LTD.": 0.704
+      }
+    },
+    {
+      "itemCode": "0164 6003",
+      "description": "BROADCAST SEED (PERM) (RURAL) (CLAY)",
+      "unit": "SY",
+      "quantity": 5702.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.3,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 0.3,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 0.7,
+        "E-Z BEL CONSTRUCTION, LLC": 0.2,
+        "DEAN WORD COMPANY, LTD.": 0.2
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 1613.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.3,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 0.3,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 1.0,
+        "E-Z BEL CONSTRUCTION, LLC": 0.2,
+        "DEAN WORD COMPANY, LTD.": 0.2
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 1613.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.41,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 0.41,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 1.0,
+        "E-Z BEL CONSTRUCTION, LLC": 0.25,
+        "DEAN WORD COMPANY, LTD.": 0.273
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 54.48,
+      "engEstUnit": 80.0,
+      "lowUnit": 74.09,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 74.09,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 150.0,
+        "E-Z BEL CONSTRUCTION, LLC": 112.0,
+        "DEAN WORD COMPANY, LTD.": 184.8
+      }
+    },
+    {
+      "itemCode": "0275 6001",
+      "description": "CEMENT",
+      "unit": "TON",
+      "quantity": 18.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 338.0,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 338.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 412.0,
+        "E-Z BEL CONSTRUCTION, LLC": 400.0,
+        "DEAN WORD COMPANY, LTD.": 257.6
+      }
+    },
+    {
+      "itemCode": "0275 6010",
+      "description": "CEMENT TREAT (SUBGRADE) (8\")",
+      "unit": "SY",
+      "quantity": 1938.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 5.8,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 5.8,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 6.7,
+        "E-Z BEL CONSTRUCTION, LLC": 6.0,
+        "DEAN WORD COMPANY, LTD.": 7.179
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 347.6,
+      "engEstUnit": 120.0,
+      "lowUnit": 243.0,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 243.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 279.0,
+        "E-Z BEL CONSTRUCTION, LLC": 325.0,
+        "DEAN WORD COMPANY, LTD.": 248.294
+      }
+    },
+    {
+      "itemCode": "0416 6001",
+      "description": "DRILL SHAFT (18 IN)",
+      "unit": "LF",
+      "quantity": 464.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 160.0,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 160.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 95.0,
+        "E-Z BEL CONSTRUCTION, LLC": 100.0,
+        "DEAN WORD COMPANY, LTD.": 187.352
+      }
+    },
+    {
+      "itemCode": "0416 6002",
+      "description": "DRILL SHAFT (24 IN)",
+      "unit": "LF",
+      "quantity": 450.0,
+      "engEstUnit": 205.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 200.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 170.35,
+        "E-Z BEL CONSTRUCTION, LLC": 125.0,
+        "DEAN WORD COMPANY, LTD.": 367.038
+      }
+    },
+    {
+      "itemCode": "0416 6004",
+      "description": "DRILL SHAFT (36 IN)",
+      "unit": "LF",
+      "quantity": 1248.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 300.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 302.8,
+        "E-Z BEL CONSTRUCTION, LLC": 300.0,
+        "DEAN WORD COMPANY, LTD.": 477.971
+      }
+    },
+    {
+      "itemCode": "0422 6001",
+      "description": "REINF CONC SLAB",
+      "unit": "SF",
+      "quantity": 13970.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 27.1,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 27.1,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 30.75,
+        "E-Z BEL CONSTRUCTION, LLC": 32.75,
+        "DEAN WORD COMPANY, LTD.": 38.703
+      }
+    },
+    {
+      "itemCode": "0422 6007",
+      "description": "REINF CONC SLAB (SLAB BEAM)",
+      "unit": "SF",
+      "quantity": 2860.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 24.1,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 24.1,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 25.9,
+        "E-Z BEL CONSTRUCTION, LLC": 22.5,
+        "DEAN WORD COMPANY, LTD.": 35.784
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 1709.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 155.0,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 155.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 195.8,
+        "E-Z BEL CONSTRUCTION, LLC": 200.0,
+        "DEAN WORD COMPANY, LTD.": 175.235
+      }
+    },
+    {
+      "itemCode": "0454 6004",
+      "description": "ARMOR JOINT (SEALED)",
+      "unit": "LF",
+      "quantity": 148.8,
+      "engEstUnit": 130.0,
+      "lowUnit": 164.0,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 164.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 130.0,
+        "E-Z BEL CONSTRUCTION, LLC": 129.0,
+        "DEAN WORD COMPANY, LTD.": 300.846
+      }
+    },
+    {
+      "itemCode": "0454 6018",
+      "description": "SEALED EXPANSION JOINT (4 IN) (SEJ - M)",
+      "unit": "LF",
+      "quantity": 72.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 258.0,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 258.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 245.0,
+        "E-Z BEL CONSTRUCTION, LLC": 347.0,
+        "DEAN WORD COMPANY, LTD.": 355.698
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 30000.0,
+      "lowUnit": 22000.0,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 22000.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 24000.0,
+        "E-Z BEL CONSTRUCTION, LLC": 20000.0,
+        "DEAN WORD COMPANY, LTD.": 13750.952
+      }
+    },
+    {
+      "itemCode": "0496 6010",
+      "description": "REMOV STR (BRIDGE 100 - 499 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 55000.0,
+      "lowUnit": 83200.0,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 83200.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 62000.0,
+        "E-Z BEL CONSTRUCTION, LLC": 54000.0,
+        "DEAN WORD COMPANY, LTD.": 82777.51
+      }
+    },
+    {
+      "itemCode": "0496 6043",
+      "description": "REMOV STR (SMALL FENCE)",
+      "unit": "LF",
+      "quantity": 371.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 1.1,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 1.1,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 6.0,
+        "E-Z BEL CONSTRUCTION, LLC": 5.0,
+        "DEAN WORD COMPANY, LTD.": 11.2
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 2970.0,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 2970.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 2885.0,
+        "E-Z BEL CONSTRUCTION, LLC": 2800.0,
+        "DEAN WORD COMPANY, LTD.": 3549.0
+      }
+    },
+    {
+      "itemCode": "0552 6001",
+      "description": "WIRE FENCE (TY A)",
+      "unit": "LF",
+      "quantity": 945.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 11.7,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 11.7,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 24.3,
+        "E-Z BEL CONSTRUCTION, LLC": 35.0,
+        "DEAN WORD COMPANY, LTD.": 51.45
+      }
+    },
+    {
+      "itemCode": "0552 6003",
+      "description": "WIRE FENCE (TY C)",
+      "unit": "LF",
+      "quantity": 371.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 14.4,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 14.4,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 11.4,
+        "E-Z BEL CONSTRUCTION, LLC": 18.0,
+        "DEAN WORD COMPANY, LTD.": 46.305
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 300.0,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 240.0,
+        "E-Z BEL CONSTRUCTION, LLC": 150.0,
+        "DEAN WORD COMPANY, LTD.": 525.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 31.8,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 31.8,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 60.0,
+        "E-Z BEL CONSTRUCTION, LLC": 27.0,
+        "DEAN WORD COMPANY, LTD.": 105.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 31.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 37.2,
+      "bidders": {
+        "ACME BRIDGE COMPANY, INC.": 37.2,
+        "A GREATER AUSTIN DEVELOPMENT COMPANY, LLC": 37.15,
+        "E-Z BEL CONSTRUCTION, LLC": 35.0,
+        "DEAN WORD COMPANY, LTD.": 105.0
+      }
+    }
+  ]
+}

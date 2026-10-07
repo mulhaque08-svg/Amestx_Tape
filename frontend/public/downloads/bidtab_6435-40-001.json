@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6435-40-001",
+    "county": "Stonewall",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643540001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/28/23",
+    "engEstTotal": 132844.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "4 S SERVICES",
+      "totalBidAmount": 99986.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "KENNETH THOMASON",
+      "totalBidAmount": 122252.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "GREG SCRUGGS",
+      "totalBidAmount": 158870.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 582.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 24.59,
+      "bidders": {
+        "4 S SERVICES": 24.59,
+        "KENNETH THOMASON": 28.73,
+        "GREG SCRUGGS": 39.5
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 2818.0,
+      "engEstUnit": 31.5,
+      "lowUnit": 24.59,
+      "bidders": {
+        "4 S SERVICES": 24.59,
+        "KENNETH THOMASON": 28.73,
+        "GREG SCRUGGS": 39.5
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 1638.0,
+      "engEstUnit": 16.25,
+      "lowUnit": 10.0,
+      "bidders": {
+        "4 S SERVICES": 10.0,
+        "KENNETH THOMASON": 15.0,
+        "GREG SCRUGGS": 15.0
+      }
+    }
+  ]
+}

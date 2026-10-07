@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6460-96-001",
+    "county": "Taylor",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646096001",
+    "projectType": "CLEANING AND SEALING CRACKS",
+    "letDate": "08/02/24",
+    "engEstTotal": 666507.3,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 553523.06
+    },
+    {
+      "rank": 2,
+      "vendorName": "SCOUT 5 CONSTRUCTION LLC",
+      "totalBidAmount": 623965.88
+    },
+    {
+      "rank": 3,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 734577.79
+    },
+    {
+      "rank": 4,
+      "vendorName": "RHINO EQUITY, LLC",
+      "totalBidAmount": 890959.14
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 13500.0,
+      "lowUnit": 4400.0,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 4400.0,
+        "SCOUT 5 CONSTRUCTION LLC": 0.01,
+        "D & M CONTRACTORS, LLC": 10000.0,
+        "RHINO EQUITY, LLC": 19980.0
+      }
+    }
+  ]
+}

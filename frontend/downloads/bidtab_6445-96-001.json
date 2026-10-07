@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6445-96-001",
+    "county": "Mclennan",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644596001",
+    "projectType": "CRACK SEAL",
+    "letDate": "09/06/23",
+    "engEstTotal": 804154.96,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 889792.22
+    },
+    {
+      "rank": 2,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 1035050.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 73104.96,
+      "lowUnit": 25000.0,
+      "bidders": {
+        "CRACKSEAL OF TEXAS, LLC": 25000.0,
+        "D & M CONTRACTORS, LLC": 120.0
+      }
+    },
+    {
+      "itemCode": "7329 6002",
+      "description": "MAINTENANCE SPEED LIMIT SIGNING",
+      "unit": "DAY",
+      "quantity": 126.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "CRACKSEAL OF TEXAS, LLC": 10.0,
+        "D & M CONTRACTORS, LLC": 3.0
+      }
+    }
+  ]
+}

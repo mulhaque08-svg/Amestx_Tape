@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "csj": "6467-62-001",
+    "county": "Cameron",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646762001",
+    "projectType": "SWEEPING AND DEBRIS REMOVAL",
+    "letDate": "06/05/24",
+    "engEstTotal": 554304.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SWEEPING CORPORATION OF AMERICA, LLC",
+      "totalBidAmount": 493542.48
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 494879.2
+    },
+    {
+      "rank": 3,
+      "vendorName": "PROFESSIONAL TRAFFIC CONTROL LLC",
+      "totalBidAmount": 607340.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 26000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1000.0,
+        "DIGG COMMERCIAL, LLC": 40000.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 55000.0
+      }
+    },
+    {
+      "itemCode": "0738 6002",
+      "description": "CLEANING / SWEEPING (CENTER MEDIAN)",
+      "unit": "MI",
+      "quantity": 979.92,
+      "engEstUnit": 200.0,
+      "lowUnit": 199.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 199.0,
+        "DIGG COMMERCIAL, LLC": 210.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0738 6004",
+      "description": "CLEANING / SWEEPING (OUTSIDE MAIN LANE)",
+      "unit": "MI",
+      "quantity": 1107.6,
+      "engEstUnit": 200.0,
+      "lowUnit": 199.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 199.0,
+        "DIGG COMMERCIAL, LLC": 210.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0738 6008",
+      "description": "CLEANING / SWEEPING(ENTRANCE/EXIT RAMP)",
+      "unit": "MI",
+      "quantity": 24.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 199.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 199.0,
+        "DIGG COMMERCIAL, LLC": 210.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0738 6010",
+      "description": "CLEANING / SWEEPING (SPOT)",
+      "unit": "MI",
+      "quantity": 50.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 199.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 199.0,
+        "DIGG COMMERCIAL, LLC": 210.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 350.0
+      }
+    }
+  ]
+}

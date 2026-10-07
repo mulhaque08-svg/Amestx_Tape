@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "csj": "6454-11-001",
+    "county": "Nacogdoches",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645411001",
+    "projectType": "DEBRIS REMOVAL",
+    "letDate": "11/02/23",
+    "engEstTotal": 343199.33,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC",
+      "totalBidAmount": 588385.69
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6003",
+      "description": "MOBILIZATION (CALLOUT 1)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0735 6002",
+      "description": "DEBRIS REMOVAL (CNTR MEDIANS/MAINLANES)",
+      "unit": "MI",
+      "quantity": 5405.34,
+      "engEstUnit": 55.0,
+      "lowUnit": 106.0,
+      "bidders": {
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 106.0
+      }
+    },
+    {
+      "itemCode": "0735 6006",
+      "description": "DEBRIS REMOVAL (ENTRANCE/EXIT RAMPS)",
+      "unit": "MI",
+      "quantity": 616.466,
+      "engEstUnit": 55.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 25.0
+      }
+    }
+  ]
+}

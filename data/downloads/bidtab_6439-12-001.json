@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6439-12-001",
+    "county": "Travis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "TMC - 643912001",
+    "projectType": "TRAFFIC DATA COLLECTION CABINETS",
+    "letDate": "08/01/24",
+    "engEstTotal": 194000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ALLSTATE SIGNAL & CONSTRUCTION, LLC",
+      "totalBidAmount": 186000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 320000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8046 6001",
+      "description": "TYPE 5 BASIC DATA COLLECTION CABINET",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 4417.5,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 4417.5,
+        "TOUCHSTONE RESOURCES, LLC": 6500.0
+      }
+    },
+    {
+      "itemCode": "8046 6002",
+      "description": "TYPE 5 ENHANCED DATA COLLECTION CABINET",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 5600.0,
+      "lowUnit": 4107.5,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 4107.5,
+        "TOUCHSTONE RESOURCES, LLC": 8500.0
+      }
+    },
+    {
+      "itemCode": "8046 6003",
+      "description": "TYPE 6 BASIC DATA COLLECTION CABINET",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 4100.0,
+      "lowUnit": 4882.5,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 4882.5,
+        "TOUCHSTONE RESOURCES, LLC": 7500.0
+      }
+    },
+    {
+      "itemCode": "8046 6004",
+      "description": "TYPE 6 ENHANCED DATA COLLECTION CABINET",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 5700.0,
+      "lowUnit": 5192.5,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 5192.5,
+        "TOUCHSTONE RESOURCES, LLC": 9500.0
+      }
+    }
+  ]
+}

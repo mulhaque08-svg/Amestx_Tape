@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6388-35-001",
+    "county": "Kaufman",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638835001",
+    "projectType": "POTHOLE REPAIR",
+    "letDate": "12/01/21",
+    "engEstTotal": 525000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FOUTSCO PAVING COMPANY, LLC",
+      "totalBidAmount": 551250.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 680500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 3500.0,
+      "bidders": {
+        "FOUTSCO PAVING COMPANY, LLC": 3500.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 2500.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "FOUTSCO PAVING COMPANY, LLC": 2500.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 2500.0
+      }
+    },
+    {
+      "itemCode": "0700 6001",
+      "description": "POTHOLE REPAIR (STANDARD)",
+      "unit": "SY",
+      "quantity": 3000.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 116.25,
+      "bidders": {
+        "FOUTSCO PAVING COMPANY, LLC": 116.25,
+        "CROSS PLUS CONSTRUCTION, LLC": 119.0
+      }
+    },
+    {
+      "itemCode": "0700 6005",
+      "description": "POTHOLE REPAIR (SAW - CUT)",
+      "unit": "SY",
+      "quantity": 1000.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 115.0,
+      "bidders": {
+        "FOUTSCO PAVING COMPANY, LLC": 115.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 136.0
+      }
+    }
+  ]
+}

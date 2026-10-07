@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6387-56-001",
+    "county": "Nacogdoches",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638756001",
+    "projectType": "AGGREGATE",
+    "letDate": "08/26/21",
+    "engEstTotal": 131142.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ARCOSA LWS, LLC",
+      "totalBidAmount": 131000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6197",
+      "description": "AGGR (TY L GR 4) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 111.04,
+      "lowUnit": 110.0,
+      "bidders": {
+        "ARCOSA LWS, LLC": 110.0
+      }
+    },
+    {
+      "itemCode": "8039 6211",
+      "description": "AGGR (TY L GR 5) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 100.51,
+      "lowUnit": 105.0,
+      "bidders": {
+        "ARCOSA LWS, LLC": 105.0
+      }
+    }
+  ]
+}

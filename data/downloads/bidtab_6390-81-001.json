@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6390-81-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639081001",
+    "projectType": "VEGETATION MANAGEMENT",
+    "letDate": "12/07/21",
+    "engEstTotal": 36788.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GANT CONTRACTORS, INC.",
+      "totalBidAmount": 29631.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 35202.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 2720.0,
+      "lowUnit": 4000.0,
+      "bidders": {
+        "GANT CONTRACTORS, INC.": 4000.0,
+        "ANTHONY SERVICES": 1.0
+      }
+    },
+    {
+      "itemCode": "0731 6006",
+      "description": "BROADCAST APPLICATION",
+      "unit": "MI",
+      "quantity": 55.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 450.0,
+      "bidders": {
+        "GANT CONTRACTORS, INC.": 450.0,
+        "ANTHONY SERVICES": 600.0
+      }
+    }
+  ]
+}

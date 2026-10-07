@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "csj": "6409-75-001",
+    "county": "Bowie",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640975001",
+    "projectType": "CRACK SEAL",
+    "letDate": "09/07/22",
+    "engEstTotal": 475819.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 329423.9
+    },
+    {
+      "rank": 2,
+      "vendorName": "FYL ENTERPRISES, LLC",
+      "totalBidAmount": 395808.28
+    },
+    {
+      "rank": 3,
+      "vendorName": "SCOUT 5 CONSTRUCTION LLC",
+      "totalBidAmount": 460857.07
+    },
+    {
+      "rank": 4,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 505032.24
+    },
+    {
+      "rank": 5,
+      "vendorName": "DEEP SOUTH INDUSTRIAL SERVICES, INC.",
+      "totalBidAmount": 534142.5
+    },
+    {
+      "rank": 6,
+      "vendorName": "HARRIS TRUCKING SERVICE, LLC",
+      "totalBidAmount": 603551.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "CDM HOLDINGS, LLC",
+      "totalBidAmount": 627699.9
+    },
+    {
+      "rank": 8,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 779842.86
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 50000.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 2000.0,
+        "FYL ENTERPRISES, LLC": 75000.0,
+        "SCOUT 5 CONSTRUCTION LLC": 5000.32,
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "DEEP SOUTH INDUSTRIAL SERVICES, INC.": 10000.0,
+        "HARRIS TRUCKING SERVICE, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 10.0,
+      "engEstUnit": 215.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 5.0,
+        "FYL ENTERPRISES, LLC": 0.1,
+        "SCOUT 5 CONSTRUCTION LLC": 0.01,
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "DEEP SOUTH INDUSTRIAL SERVICES, INC.": 1.0,
+        "HARRIS TRUCKING SERVICE, LLC": 1.0
+      }
+    }
+  ]
+}

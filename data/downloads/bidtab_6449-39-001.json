@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6449-39-001",
+    "county": "Rockwall",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644939001",
+    "projectType": "SWEEPING AND DEBRIS REMOVAL",
+    "letDate": "11/01/23",
+    "engEstTotal": 455320.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SWEEPING CORPORATION OF AMERICA, LLC",
+      "totalBidAmount": 317913.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "FIREMAN EXCAVATING, INC.",
+      "totalBidAmount": 616631.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 1600.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1.0,
+        "FIREMAN EXCAVATING, INC.": 1.0
+      }
+    }
+  ]
+}

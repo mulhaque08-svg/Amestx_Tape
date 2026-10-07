@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6404-92-001",
+    "county": "Hale",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 640492001",
+    "projectType": "AGGREGATE",
+    "letDate": "10/07/22",
+    "engEstTotal": 220000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 300000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 384400.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6099",
+      "description": "AGGR (TY B GR 4) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 75.0,
+        "DIGG COMMERCIAL, LLC": 86.0
+      }
+    },
+    {
+      "itemCode": "8039 6100",
+      "description": "AGGR (TY B GR 4) (DEL) (ST2)",
+      "unit": "TON",
+      "quantity": 1200.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 75.0,
+        "DIGG COMMERCIAL, LLC": 105.0
+      }
+    },
+    {
+      "itemCode": "8039 6101",
+      "description": "AGGR (TY B GR 4) (DEL) (ST3)",
+      "unit": "TON",
+      "quantity": 800.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 75.0,
+        "DIGG COMMERCIAL, LLC": 108.0
+      }
+    }
+  ]
+}

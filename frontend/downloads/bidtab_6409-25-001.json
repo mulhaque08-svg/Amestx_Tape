@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6409-25-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 640925001",
+    "projectType": "ROCK/RIPRAP",
+    "letDate": "08/09/22",
+    "engEstTotal": 19239.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 30000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 34800.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8020 6013",
+      "description": "RIPRAP(STN CMN)(DRY)(10\"X20\")(DEL)(ST1)",
+      "unit": "TON",
+      "quantity": 300.0,
+      "engEstUnit": 64.13,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 100.0,
+        "DIGG COMMERCIAL, LLC": 116.0
+      }
+    }
+  ]
+}

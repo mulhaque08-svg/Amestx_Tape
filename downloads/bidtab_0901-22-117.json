@@ -1,0 +1,461 @@
+{
+  "metadata": {
+    "csj": "0901-22-117",
+    "county": "Hunt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2021(523)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "01/07/22",
+    "engEstTotal": 1377957.36,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "HIGHWAY 19 CONSTRUCTION LLC",
+      "totalBidAmount": 1348336.46
+    },
+    {
+      "rank": 2,
+      "vendorName": "HODGES AND SON CONSTRUCTION COMPANY, INC.",
+      "totalBidAmount": 1576098.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "EAST TEXAS BRIDGE, INC.",
+      "totalBidAmount": 1577579.76
+    },
+    {
+      "rank": 4,
+      "vendorName": "CDM HOLDINGS, LLC",
+      "totalBidAmount": 1747632.09
+    },
+    {
+      "rank": 5,
+      "vendorName": "RAGLE CONSTRUCTION, INC.",
+      "totalBidAmount": 2112834.84
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 13.9,
+      "engEstUnit": 1500.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 2000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 4000.0,
+        "EAST TEXAS BRIDGE, INC.": 8000.0,
+        "CDM HOLDINGS, LLC": 3350.0,
+        "RAGLE CONSTRUCTION, INC.": 14000.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 289.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 5.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 25.0,
+        "EAST TEXAS BRIDGE, INC.": 20.0,
+        "CDM HOLDINGS, LLC": 20.0,
+        "RAGLE CONSTRUCTION, INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 1081.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 5.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 20.0,
+        "EAST TEXAS BRIDGE, INC.": 20.0,
+        "CDM HOLDINGS, LLC": 27.5,
+        "RAGLE CONSTRUCTION, INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "0132 6003",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY B)",
+      "unit": "CY",
+      "quantity": 1549.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 25.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 30.0,
+        "EAST TEXAS BRIDGE, INC.": 25.0,
+        "CDM HOLDINGS, LLC": 30.0,
+        "RAGLE CONSTRUCTION, INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 5368.5,
+      "engEstUnit": 1.5,
+      "lowUnit": 0.1,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 0.1,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.0,
+        "EAST TEXAS BRIDGE, INC.": 0.5,
+        "CDM HOLDINGS, LLC": 0.15,
+        "RAGLE CONSTRUCTION, INC.": 0.1
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 5368.5,
+      "engEstUnit": 1.5,
+      "lowUnit": 0.1,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 0.1,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.0,
+        "EAST TEXAS BRIDGE, INC.": 0.5,
+        "CDM HOLDINGS, LLC": 0.15,
+        "RAGLE CONSTRUCTION, INC.": 0.1
+      }
+    },
+    {
+      "itemCode": "0164 6023",
+      "description": "CELL FBR MLCH SEED(PERM)(RURAL)(CLAY)",
+      "unit": "SY",
+      "quantity": 10737.1,
+      "engEstUnit": 3.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 1.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.0,
+        "EAST TEXAS BRIDGE, INC.": 0.6,
+        "CDM HOLDINGS, LLC": 0.5,
+        "RAGLE CONSTRUCTION, INC.": 0.43
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 57.9,
+      "engEstUnit": 20.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 10.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.0,
+        "EAST TEXAS BRIDGE, INC.": 20.0,
+        "CDM HOLDINGS, LLC": 200.0,
+        "RAGLE CONSTRUCTION, INC.": 29.0
+      }
+    },
+    {
+      "itemCode": "0251 6025",
+      "description": "REWORK BS MTL (TY B) (6\") (ORD COMP)",
+      "unit": "SY",
+      "quantity": 432.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 22.62,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 22.62,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 20.0,
+        "EAST TEXAS BRIDGE, INC.": 10.0,
+        "CDM HOLDINGS, LLC": 82.0,
+        "RAGLE CONSTRUCTION, INC.": 18.0
+      }
+    },
+    {
+      "itemCode": "0251 6026",
+      "description": "REWORK BS MTL (TY B) (8\") (ORD COMP)",
+      "unit": "SY",
+      "quantity": 770.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 23.0,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 23.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 20.0,
+        "EAST TEXAS BRIDGE, INC.": 10.0,
+        "CDM HOLDINGS, LLC": 85.0,
+        "RAGLE CONSTRUCTION, INC.": 18.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 159.5,
+      "engEstUnit": 190.0,
+      "lowUnit": 180.0,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 180.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 250.0,
+        "EAST TEXAS BRIDGE, INC.": 250.0,
+        "CDM HOLDINGS, LLC": 300.0,
+        "RAGLE CONSTRUCTION, INC.": 170.0
+      }
+    },
+    {
+      "itemCode": "0416 6002",
+      "description": "DRILL SHAFT (24 IN)",
+      "unit": "LF",
+      "quantity": 642.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 132.09,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 132.09,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 120.0,
+        "EAST TEXAS BRIDGE, INC.": 150.0,
+        "CDM HOLDINGS, LLC": 110.0,
+        "RAGLE CONSTRUCTION, INC.": 120.0
+      }
+    },
+    {
+      "itemCode": "0416 6004",
+      "description": "DRILL SHAFT (36 IN)",
+      "unit": "LF",
+      "quantity": 228.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 166.08,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 166.08,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 165.0,
+        "EAST TEXAS BRIDGE, INC.": 210.0,
+        "CDM HOLDINGS, LLC": 170.0,
+        "RAGLE CONSTRUCTION, INC.": 170.0
+      }
+    },
+    {
+      "itemCode": "0420 6013",
+      "description": "CL C CONC (ABUT)",
+      "unit": "CY",
+      "quantity": 94.8,
+      "engEstUnit": 1000.0,
+      "lowUnit": 874.0,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 874.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1200.0,
+        "EAST TEXAS BRIDGE, INC.": 1100.0,
+        "CDM HOLDINGS, LLC": 1250.0,
+        "RAGLE CONSTRUCTION, INC.": 1100.0
+      }
+    },
+    {
+      "itemCode": "0422 6001",
+      "description": "REINF CONC SLAB",
+      "unit": "SF",
+      "quantity": 5330.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 19.4,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 19.4,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 30.0,
+        "EAST TEXAS BRIDGE, INC.": 21.0,
+        "CDM HOLDINGS, LLC": 20.5,
+        "RAGLE CONSTRUCTION, INC.": 32.0
+      }
+    },
+    {
+      "itemCode": "0425 6012",
+      "description": "PRESTR CONC SLAB BEAM (5SB15)",
+      "unit": "LF",
+      "quantity": 742.5,
+      "engEstUnit": 200.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 225.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 235.0,
+        "EAST TEXAS BRIDGE, INC.": 235.0,
+        "CDM HOLDINGS, LLC": 305.0,
+        "RAGLE CONSTRUCTION, INC.": 205.0
+      }
+    },
+    {
+      "itemCode": "0425 6035",
+      "description": "PRESTR CONC GIRDER (TX28)",
+      "unit": "LF",
+      "quantity": 217.9,
+      "engEstUnit": 150.0,
+      "lowUnit": 342.0,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 342.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 210.0,
+        "EAST TEXAS BRIDGE, INC.": 215.0,
+        "CDM HOLDINGS, LLC": 275.0,
+        "RAGLE CONSTRUCTION, INC.": 215.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 1206.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 150.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 150.0,
+        "EAST TEXAS BRIDGE, INC.": 150.0,
+        "CDM HOLDINGS, LLC": 175.0,
+        "RAGLE CONSTRUCTION, INC.": 145.0
+      }
+    },
+    {
+      "itemCode": "0450 6019",
+      "description": "RAIL (TY T631LS)",
+      "unit": "LF",
+      "quantity": 514.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 55.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 70.0,
+        "EAST TEXAS BRIDGE, INC.": 72.0,
+        "CDM HOLDINGS, LLC": 67.0,
+        "RAGLE CONSTRUCTION, INC.": 65.5
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 13000.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 10000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 15000.0,
+        "EAST TEXAS BRIDGE, INC.": 10000.0,
+        "CDM HOLDINGS, LLC": 16000.0,
+        "RAGLE CONSTRUCTION, INC.": 22000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 123647.26,
+      "lowUnit": 150000.0,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 150000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 135000.0,
+        "EAST TEXAS BRIDGE, INC.": 145000.0,
+        "CDM HOLDINGS, LLC": 150000.0,
+        "RAGLE CONSTRUCTION, INC.": 200000.0
+      }
+    },
+    {
+      "itemCode": "0508 6001",
+      "description": "CONSTRUCTING DETOURS",
+      "unit": "SY",
+      "quantity": 559.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 81.0,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 81.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 125.0,
+        "EAST TEXAS BRIDGE, INC.": 165.0,
+        "CDM HOLDINGS, LLC": 205.0,
+        "RAGLE CONSTRUCTION, INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 250.0,
+      "engEstUnit": 2.75,
+      "lowUnit": 5.0,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 5.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.0,
+        "EAST TEXAS BRIDGE, INC.": 2.25,
+        "CDM HOLDINGS, LLC": 2.0,
+        "RAGLE CONSTRUCTION, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0542 6006",
+      "description": "MTL BM GD FEN (REMOVE & REINSTALL)",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 14.0,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 14.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 20.0,
+        "EAST TEXAS BRIDGE, INC.": 13.5,
+        "CDM HOLDINGS, LLC": 12.5,
+        "RAGLE CONSTRUCTION, INC.": 14.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 2700.0,
+      "lowUnit": 3250.0,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 3250.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 3000.0,
+        "EAST TEXAS BRIDGE, INC.": 3250.0,
+        "CDM HOLDINGS, LLC": 3000.0,
+        "RAGLE CONSTRUCTION, INC.": 3050.0
+      }
+    },
+    {
+      "itemCode": "0544 6002",
+      "description": "GUARDRAIL END TREATMENT (MOVE & RESET)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 900.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 2500.0,
+        "EAST TEXAS BRIDGE, INC.": 1100.0,
+        "CDM HOLDINGS, LLC": 1020.0,
+        "RAGLE CONSTRUCTION, INC.": 900.0
+      }
+    },
+    {
+      "itemCode": "0658 6061",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 35.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 30.0,
+        "EAST TEXAS BRIDGE, INC.": 40.0,
+        "CDM HOLDINGS, LLC": 36.0,
+        "RAGLE CONSTRUCTION, INC.": 23.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "HIGHWAY 19 CONSTRUCTION LLC": 35.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 30.0,
+        "EAST TEXAS BRIDGE, INC.": 40.0,
+        "CDM HOLDINGS, LLC": 36.0,
+        "RAGLE CONSTRUCTION, INC.": 24.0
+      }
+    }
+  ]
+}

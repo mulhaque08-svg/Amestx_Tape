@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "0904-00-198",
+    "county": "Potter",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 904-00-198",
+    "projectType": "HIGHWAY IMPROVEMENT",
+    "letDate": "01/06/22",
+    "engEstTotal": 842609.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CENTERLINE TECHNOLOGIES, LLC",
+      "totalBidAmount": 989731.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "FC TRAFFIC CONTROL, INC.",
+      "totalBidAmount": 1005000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "PMI PAVEMENT MARKING, LLC",
+      "totalBidAmount": 1152773.2
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 65000.0,
+      "lowUnit": 30000.0,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 30000.0,
+        "FC TRAFFIC CONTROL, INC.": 60075.0,
+        "PMI PAVEMENT MARKING, LLC": 125000.0
+      }
+    },
+    {
+      "itemCode": "6362 6002",
+      "description": "REC REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 2101.0,
+      "engEstUnit": 21.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 25.0,
+        "FC TRAFFIC CONTROL, INC.": 25.0,
+        "PMI PAVEMENT MARKING, LLC": 22.0
+      }
+    },
+    {
+      "itemCode": "6362 6004",
+      "description": "REC REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 4787.0,
+      "engEstUnit": 21.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 25.0,
+        "FC TRAFFIC CONTROL, INC.": 25.0,
+        "PMI PAVEMENT MARKING, LLC": 22.0
+      }
+    },
+    {
+      "itemCode": "6362 6005",
+      "description": "REC REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 27341.0,
+      "engEstUnit": 21.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 25.0,
+        "FC TRAFFIC CONTROL, INC.": 25.0,
+        "PMI PAVEMENT MARKING, LLC": 22.0
+      }
+    }
+  ]
+}

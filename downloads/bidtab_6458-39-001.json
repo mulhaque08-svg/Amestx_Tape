@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6458-39-001",
+    "county": "Lubbock",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 645839001",
+    "projectType": "HOT MIX",
+    "letDate": "12/05/23",
+    "engEstTotal": 742500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DUININCK, INC.",
+      "totalBidAmount": 704000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "WEST TEXAS PAVING, INC.",
+      "totalBidAmount": 753750.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 250.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 130.0,
+      "bidders": {
+        "DUININCK, INC.": 130.0,
+        "WEST TEXAS PAVING, INC.": 135.0
+      }
+    },
+    {
+      "itemCode": "8011 6014",
+      "description": "D-GR HMA(SQ)TY B PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 250.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 126.0,
+      "bidders": {
+        "DUININCK, INC.": 126.0,
+        "WEST TEXAS PAVING, INC.": 135.0
+      }
+    },
+    {
+      "itemCode": "8011 6016",
+      "description": "D-GR HMA(SQ)TY C PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 250.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 128.0,
+      "bidders": {
+        "DUININCK, INC.": 128.0,
+        "WEST TEXAS PAVING, INC.": 135.0
+      }
+    },
+    {
+      "itemCode": "8011 6044",
+      "description": "D-GR HMA(SQ)TY C PG 64-22(DEL)(SITE 1)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 145.0,
+      "lowUnit": 134.0,
+      "bidders": {
+        "DUININCK, INC.": 134.0,
+        "WEST TEXAS PAVING, INC.": 145.0
+      }
+    },
+    {
+      "itemCode": "8011 6045",
+      "description": "D-GR HMA(SQ)TY C PG 64-22(DEL)(SITE 2)",
+      "unit": "TON",
+      "quantity": 2500.0,
+      "engEstUnit": 145.0,
+      "lowUnit": 136.0,
+      "bidders": {
+        "DUININCK, INC.": 136.0,
+        "WEST TEXAS PAVING, INC.": 145.0
+      }
+    }
+  ]
+}

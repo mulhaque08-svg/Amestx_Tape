@@ -1,0 +1,542 @@
+{
+  "metadata": {
+    "csj": "0910-07-078",
+    "county": "Gregg",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2020(894)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "02/04/22",
+    "engEstTotal": 597152.97,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SOUTH TEXAS ILLUMINATION, LLC",
+      "totalBidAmount": 638112.63
+    },
+    {
+      "rank": 2,
+      "vendorName": "HIGHWAY 19 CONSTRUCTION LLC",
+      "totalBidAmount": 667675.56
+    },
+    {
+      "rank": 3,
+      "vendorName": "EAST TEXAS BRIDGE, INC.",
+      "totalBidAmount": 698981.1
+    },
+    {
+      "rank": 4,
+      "vendorName": "PIERCE R & B LLC",
+      "totalBidAmount": 713773.75
+    },
+    {
+      "rank": 5,
+      "vendorName": "HODGES AND SON CONSTRUCTION COMPANY, INC.",
+      "totalBidAmount": 745107.9
+    },
+    {
+      "rank": 6,
+      "vendorName": "DREWERY CONSTRUCTION COMPANY, INCORPORATED",
+      "totalBidAmount": 792040.6
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 4.4,
+      "engEstUnit": 1000.0,
+      "lowUnit": 3038.75,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 3038.75,
+        "HIGHWAY 19 CONSTRUCTION LLC": 2500.0,
+        "EAST TEXAS BRIDGE, INC.": 4500.0,
+        "PIERCE R & B LLC": 3000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 3500.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 6000.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 67.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 55.25,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 55.25,
+        "HIGHWAY 19 CONSTRUCTION LLC": 25.0,
+        "EAST TEXAS BRIDGE, INC.": 16.0,
+        "PIERCE R & B LLC": 25.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 30.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 60.0
+      }
+    },
+    {
+      "itemCode": "0132 6005",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 410.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 17.92,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 17.92,
+        "HIGHWAY 19 CONSTRUCTION LLC": 30.0,
+        "EAST TEXAS BRIDGE, INC.": 25.0,
+        "PIERCE R & B LLC": 20.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 25.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 32.0
+      }
+    },
+    {
+      "itemCode": "0160 6003",
+      "description": "FURNISHING AND PLACING TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 766.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 4.48,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 4.48,
+        "HIGHWAY 19 CONSTRUCTION LLC": 5.0,
+        "EAST TEXAS BRIDGE, INC.": 3.0,
+        "PIERCE R & B LLC": 4.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 4.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 4.25
+      }
+    },
+    {
+      "itemCode": "0164 6054",
+      "description": "BOND FBR MTRX SEED (PERM)(RURAL)(SAND)",
+      "unit": "SY",
+      "quantity": 766.0,
+      "engEstUnit": 0.75,
+      "lowUnit": 1.67,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 1.67,
+        "HIGHWAY 19 CONSTRUCTION LLC": 5.0,
+        "EAST TEXAS BRIDGE, INC.": 1.5,
+        "PIERCE R & B LLC": 1.15,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 3.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 1.55
+      }
+    },
+    {
+      "itemCode": "0164 6055",
+      "description": "BONDED FBR MTRX SEED (TEMP)(WARM)",
+      "unit": "SY",
+      "quantity": 383.0,
+      "engEstUnit": 0.65,
+      "lowUnit": 1.34,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 1.34,
+        "HIGHWAY 19 CONSTRUCTION LLC": 0.01,
+        "EAST TEXAS BRIDGE, INC.": 1.5,
+        "PIERCE R & B LLC": 1.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 3.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 1.2
+      }
+    },
+    {
+      "itemCode": "0164 6056",
+      "description": "BONDED FBR MTRX SEED (TEMP)(COOL)",
+      "unit": "SY",
+      "quantity": 383.0,
+      "engEstUnit": 0.63,
+      "lowUnit": 1.66,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 1.66,
+        "HIGHWAY 19 CONSTRUCTION LLC": 0.01,
+        "EAST TEXAS BRIDGE, INC.": 1.5,
+        "PIERCE R & B LLC": 1.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 3.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 1.5
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 16.9,
+      "engEstUnit": 10.0,
+      "lowUnit": 17.08,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 17.08,
+        "HIGHWAY 19 CONSTRUCTION LLC": 1.0,
+        "EAST TEXAS BRIDGE, INC.": 25.0,
+        "PIERCE R & B LLC": 100.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 55.0
+      }
+    },
+    {
+      "itemCode": "0275 6001",
+      "description": "CEMENT",
+      "unit": "TON",
+      "quantity": 13.0,
+      "engEstUnit": 152.0,
+      "lowUnit": 252.0,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 252.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 250.0,
+        "EAST TEXAS BRIDGE, INC.": 220.0,
+        "PIERCE R & B LLC": 280.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 225.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 225.0
+      }
+    },
+    {
+      "itemCode": "0275 6002",
+      "description": "CEMENT TREAT (EXIST MATL) (6\")",
+      "unit": "SY",
+      "quantity": 937.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 7.56,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 7.56,
+        "HIGHWAY 19 CONSTRUCTION LLC": 7.0,
+        "EAST TEXAS BRIDGE, INC.": 5.0,
+        "PIERCE R & B LLC": 10.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 8.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 8.2
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 33.4,
+      "engEstUnit": 65.0,
+      "lowUnit": 268.8,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 268.8,
+        "HIGHWAY 19 CONSTRUCTION LLC": 180.0,
+        "EAST TEXAS BRIDGE, INC.": 265.0,
+        "PIERCE R & B LLC": 250.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 250.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 215.0
+      }
+    },
+    {
+      "itemCode": "0416 6002",
+      "description": "DRILL SHAFT (24 IN)",
+      "unit": "LF",
+      "quantity": 390.0,
+      "engEstUnit": 240.0,
+      "lowUnit": 169.0,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 169.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 180.0,
+        "EAST TEXAS BRIDGE, INC.": 245.0,
+        "PIERCE R & B LLC": 270.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 200.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 240.0
+      }
+    },
+    {
+      "itemCode": "0420 6013",
+      "description": "CL C CONC (ABUT)",
+      "unit": "CY",
+      "quantity": 24.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 1053.92,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 1053.92,
+        "HIGHWAY 19 CONSTRUCTION LLC": 1100.0,
+        "EAST TEXAS BRIDGE, INC.": 1000.0,
+        "PIERCE R & B LLC": 1200.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1200.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 1400.0
+      }
+    },
+    {
+      "itemCode": "0420 6029",
+      "description": "CL C CONC (CAP)",
+      "unit": "CY",
+      "quantity": 8.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1367.52,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 1367.52,
+        "HIGHWAY 19 CONSTRUCTION LLC": 1550.0,
+        "EAST TEXAS BRIDGE, INC.": 1150.0,
+        "PIERCE R & B LLC": 1500.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1200.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 1400.0
+      }
+    },
+    {
+      "itemCode": "0420 6037",
+      "description": "CL C CONC (COLUMN)",
+      "unit": "CY",
+      "quantity": 5.6,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1653.12,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 1653.12,
+        "HIGHWAY 19 CONSTRUCTION LLC": 1000.0,
+        "EAST TEXAS BRIDGE, INC.": 1050.0,
+        "PIERCE R & B LLC": 1800.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1200.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 1400.0
+      }
+    },
+    {
+      "itemCode": "0422 6007",
+      "description": "REINF CONC SLAB (SLAB BEAM)",
+      "unit": "SF",
+      "quantity": 2730.0,
+      "engEstUnit": 19.0,
+      "lowUnit": 17.75,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 17.75,
+        "HIGHWAY 19 CONSTRUCTION LLC": 17.0,
+        "EAST TEXAS BRIDGE, INC.": 17.0,
+        "PIERCE R & B LLC": 19.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 24.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 21.0
+      }
+    },
+    {
+      "itemCode": "0422 6013",
+      "description": "BRIDGE SIDEWALK",
+      "unit": "SF",
+      "quantity": 582.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 17.75,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 17.75,
+        "HIGHWAY 19 CONSTRUCTION LLC": 19.0,
+        "EAST TEXAS BRIDGE, INC.": 15.0,
+        "PIERCE R & B LLC": 19.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 20.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 23.0
+      }
+    },
+    {
+      "itemCode": "0425 6011",
+      "description": "PRESTR CONC SLAB BEAM (4SB15)",
+      "unit": "LF",
+      "quantity": 252.0,
+      "engEstUnit": 190.0,
+      "lowUnit": 217.35,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 217.35,
+        "HIGHWAY 19 CONSTRUCTION LLC": 220.0,
+        "EAST TEXAS BRIDGE, INC.": 235.0,
+        "PIERCE R & B LLC": 187.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 225.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 220.0
+      }
+    },
+    {
+      "itemCode": "0425 6012",
+      "description": "PRESTR CONC SLAB BEAM (5SB15)",
+      "unit": "LF",
+      "quantity": 336.0,
+      "engEstUnit": 190.0,
+      "lowUnit": 247.35,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 247.35,
+        "HIGHWAY 19 CONSTRUCTION LLC": 220.0,
+        "EAST TEXAS BRIDGE, INC.": 235.0,
+        "PIERCE R & B LLC": 216.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 250.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 220.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 401.2,
+      "engEstUnit": 130.0,
+      "lowUnit": 119.8,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 119.8,
+        "HIGHWAY 19 CONSTRUCTION LLC": 180.0,
+        "EAST TEXAS BRIDGE, INC.": 165.0,
+        "PIERCE R & B LLC": 180.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 235.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 188.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 24.2,
+      "engEstUnit": 465.0,
+      "lowUnit": 459.2,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 459.2,
+        "HIGHWAY 19 CONSTRUCTION LLC": 500.0,
+        "EAST TEXAS BRIDGE, INC.": 540.0,
+        "PIERCE R & B LLC": 600.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 550.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 635.0
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 30000.0,
+      "lowUnit": 40880.0,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 40880.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 10000.0,
+        "EAST TEXAS BRIDGE, INC.": 20000.0,
+        "PIERCE R & B LLC": 20000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 15000.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 24000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 54286.63,
+      "lowUnit": 43755.44,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 43755.44,
+        "HIGHWAY 19 CONSTRUCTION LLC": 60000.0,
+        "EAST TEXAS BRIDGE, INC.": 60000.0,
+        "PIERCE R & B LLC": 65000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 60000.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 100000.0
+      }
+    },
+    {
+      "itemCode": "0529 6002",
+      "description": "CONC CURB (TY II)",
+      "unit": "LF",
+      "quantity": 260.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 16.8,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 16.8,
+        "HIGHWAY 19 CONSTRUCTION LLC": 50.0,
+        "EAST TEXAS BRIDGE, INC.": 23.0,
+        "PIERCE R & B LLC": 20.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 30.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 38.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 2600.0,
+      "lowUnit": 3192.0,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 3192.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 2850.0,
+        "EAST TEXAS BRIDGE, INC.": 3150.0,
+        "PIERCE R & B LLC": 3029.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 2900.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 3000.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 110.5,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 110.5,
+        "HIGHWAY 19 CONSTRUCTION LLC": 100.0,
+        "EAST TEXAS BRIDGE, INC.": 85.0,
+        "PIERCE R & B LLC": 24.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 200.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 95.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 16.8,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 16.8,
+        "HIGHWAY 19 CONSTRUCTION LLC": 25.0,
+        "EAST TEXAS BRIDGE, INC.": 20.0,
+        "PIERCE R & B LLC": 27.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 20.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 16.0
+      }
+    },
+    {
+      "itemCode": "0658 6060",
+      "description": "REMOVE DELIN & OBJECT MARKER ASSMS",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 11.2,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 11.2,
+        "HIGHWAY 19 CONSTRUCTION LLC": 10.0,
+        "EAST TEXAS BRIDGE, INC.": 15.0,
+        "PIERCE R & B LLC": 28.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 10.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 15.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 28.0,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 28.0,
+        "HIGHWAY 19 CONSTRUCTION LLC": 35.0,
+        "EAST TEXAS BRIDGE, INC.": 30.0,
+        "PIERCE R & B LLC": 34.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 30.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 26.0
+      }
+    },
+    {
+      "itemCode": "3076 6035",
+      "description": "D-GR HMA TY-D PG64-22",
+      "unit": "TON",
+      "quantity": 303.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 154.56,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 154.56,
+        "HIGHWAY 19 CONSTRUCTION LLC": 180.0,
+        "EAST TEXAS BRIDGE, INC.": 145.0,
+        "PIERCE R & B LLC": 155.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 180.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 155.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 14.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 95.2,
+      "bidders": {
+        "SOUTH TEXAS ILLUMINATION, LLC": 95.2,
+        "HIGHWAY 19 CONSTRUCTION LLC": 100.0,
+        "EAST TEXAS BRIDGE, INC.": 185.0,
+        "PIERCE R & B LLC": 125.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 150.0,
+        "DREWERY CONSTRUCTION COMPANY, INCORPORATED": 115.0
+      }
+    }
+  ]
+}

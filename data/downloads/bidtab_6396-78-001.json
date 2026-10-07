@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6396-78-001",
+    "county": "Washington",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639678001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "02/15/22",
+    "engEstTotal": 75000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 84500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 111000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 119600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6078",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 1)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 28.5,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 28.5,
+        "COLORADO MATERIALS, LTD.": 37.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 41.5
+      }
+    },
+    {
+      "itemCode": "8007 6079",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 2)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 28.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 28.0,
+        "COLORADO MATERIALS, LTD.": 35.5,
+        "KNIFE RIVER CORPORATION - SOUTH": 36.6
+      }
+    },
+    {
+      "itemCode": "8007 6080",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 3)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 28.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 28.0,
+        "COLORADO MATERIALS, LTD.": 38.5,
+        "KNIFE RIVER CORPORATION - SOUTH": 41.5
+      }
+    }
+  ]
+}

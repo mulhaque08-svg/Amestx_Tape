@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6414-67-001",
+    "county": "Ellis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641467001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "10/12/22",
+    "engEstTotal": 96000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "A. L. HELMCAMP, INC.",
+      "totalBidAmount": 101175.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 108000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 114000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6011",
+      "description": "FL BS (SITE DEL)(TY D GR 1-2)(SITE 1)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 32.0,
+      "lowUnit": 34.95,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 34.95,
+        "KNIFE RIVER CORPORATION - SOUTH": 37.0,
+        "DIGG COMMERCIAL, LLC": 38.0
+      }
+    },
+    {
+      "itemCode": "8007 6012",
+      "description": "FL BS (SITE DEL)(TY D GR 1-2)(SITE 2)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 32.0,
+      "lowUnit": 32.5,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 32.5,
+        "KNIFE RIVER CORPORATION - SOUTH": 35.0,
+        "DIGG COMMERCIAL, LLC": 38.0
+      }
+    }
+  ]
+}

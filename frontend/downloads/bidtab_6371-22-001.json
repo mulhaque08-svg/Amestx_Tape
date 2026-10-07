@@ -1,0 +1,848 @@
+{
+  "metadata": {
+    "csj": "6371-22-001",
+    "county": "Grayson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637122001",
+    "projectType": "INSTALL NEW TRAFFIC SIGNAL AND FLASHING BEACON",
+    "letDate": "01/08/21",
+    "engEstTotal": 657133.24,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "WG ENGINEERING & CONSTRUCTION, LLC",
+      "totalBidAmount": 652334.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "AMERICAN LIGHTING AND SIGNALIZATION, LLC",
+      "totalBidAmount": 670298.18
+    },
+    {
+      "rank": 3,
+      "vendorName": "DURABLE SPECIALTIES, INC.",
+      "totalBidAmount": 671000.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION",
+      "totalBidAmount": 672480.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 30.6,
+      "engEstUnit": 40.0,
+      "lowUnit": 61.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 61.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 173.76,
+        "DURABLE SPECIALTIES, INC.": 115.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 300.0
+      }
+    },
+    {
+      "itemCode": "0132 6019",
+      "description": "EMBANKMENT (VEHICLE)(ORD COMP)(TY B)",
+      "unit": "CY",
+      "quantity": 33.2,
+      "engEstUnit": 40.0,
+      "lowUnit": 82.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 82.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 118.65,
+        "DURABLE SPECIALTIES, INC.": 130.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 360.0
+      }
+    },
+    {
+      "itemCode": "0416 6031",
+      "description": "DRILL SHAFT (TRF SIG POLE) (30 IN)",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 270.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 270.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 433.1,
+        "DURABLE SPECIALTIES, INC.": 345.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 240.0
+      }
+    },
+    {
+      "itemCode": "0416 6032",
+      "description": "DRILL SHAFT (TRF SIG POLE) (36 IN)",
+      "unit": "LF",
+      "quantity": 103.5,
+      "engEstUnit": 320.0,
+      "lowUnit": 330.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 330.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 387.4,
+        "DURABLE SPECIALTIES, INC.": 390.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 280.0
+      }
+    },
+    {
+      "itemCode": "0432 6003",
+      "description": "RIPRAP (CONC)(6 IN)",
+      "unit": "CY",
+      "quantity": 15.3,
+      "engEstUnit": 500.0,
+      "lowUnit": 744.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 744.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1007.52,
+        "DURABLE SPECIALTIES, INC.": 900.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 780.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 59739.39,
+      "lowUnit": 45000.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 45000.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 66206.2,
+        "DURABLE SPECIALTIES, INC.": 35000.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 45000.0
+      }
+    },
+    {
+      "itemCode": "0529 6008",
+      "description": "CONC CURB & GUTTER (TY II)",
+      "unit": "LF",
+      "quantity": 167.5,
+      "engEstUnit": 45.0,
+      "lowUnit": 68.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 68.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 166.73,
+        "DURABLE SPECIALTIES, INC.": 44.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 80.0
+      }
+    },
+    {
+      "itemCode": "0531 6004",
+      "description": "CURB RAMPS (TY 1)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 3250.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3250.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 3380.75,
+        "DURABLE SPECIALTIES, INC.": 3000.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 3000.0
+      }
+    },
+    {
+      "itemCode": "0618 6023",
+      "description": "CONDT (PVC) (SCH 40) (2\")",
+      "unit": "LF",
+      "quantity": 80.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 12.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 18.64,
+        "DURABLE SPECIALTIES, INC.": 16.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 12.0
+      }
+    },
+    {
+      "itemCode": "0618 6029",
+      "description": "CONDT (PVC) (SCH 40) (3\")",
+      "unit": "LF",
+      "quantity": 225.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 13.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 13.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 18.38,
+        "DURABLE SPECIALTIES, INC.": 17.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 16.0
+      }
+    },
+    {
+      "itemCode": "0618 6030",
+      "description": "CONDT (PVC) (SCH 40) (3\") (BORE)",
+      "unit": "LF",
+      "quantity": 765.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 26.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 26.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 26.93,
+        "DURABLE SPECIALTIES, INC.": 34.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 28.0
+      }
+    },
+    {
+      "itemCode": "0618 6033",
+      "description": "CONDT (PVC) (SCH 40) (4\")",
+      "unit": "LF",
+      "quantity": 30.0,
+      "engEstUnit": 19.5,
+      "lowUnit": 14.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 14.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 24.81,
+        "DURABLE SPECIALTIES, INC.": 18.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 20.0
+      }
+    },
+    {
+      "itemCode": "0618 6034",
+      "description": "CONDT (PVC) (SCH 40) (4\") (BORE)",
+      "unit": "LF",
+      "quantity": 85.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 30.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 33.17,
+        "DURABLE SPECIALTIES, INC.": 36.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 28.0
+      }
+    },
+    {
+      "itemCode": "0618 6046",
+      "description": "CONDT (PVC) (SCH 80) (2\")",
+      "unit": "LF",
+      "quantity": 185.0,
+      "engEstUnit": 12.5,
+      "lowUnit": 13.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 13.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 17.12,
+        "DURABLE SPECIALTIES, INC.": 17.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 15.0
+      }
+    },
+    {
+      "itemCode": "0618 6047",
+      "description": "CONDT (PVC) (SCH 80) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 25.0,
+      "engEstUnit": 23.0,
+      "lowUnit": 26.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 26.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 33.99,
+        "DURABLE SPECIALTIES, INC.": 32.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 28.0
+      }
+    },
+    {
+      "itemCode": "0620 6010",
+      "description": "ELEC CONDR (NO.6) INSULATED",
+      "unit": "LF",
+      "quantity": 1170.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 2.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 2.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2.07,
+        "DURABLE SPECIALTIES, INC.": 2.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 2.5
+      }
+    },
+    {
+      "itemCode": "0621 6002",
+      "description": "TRAY CABLE (3 CONDR) (12 AWG)",
+      "unit": "LF",
+      "quantity": 2186.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.45,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 2.45,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2.56,
+        "DURABLE SPECIALTIES, INC.": 2.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 2.5
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 1030.0,
+      "lowUnit": 1300.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1300.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1225.21,
+        "DURABLE SPECIALTIES, INC.": 1310.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 1200.0
+      }
+    },
+    {
+      "itemCode": "0628 6119",
+      "description": "ELC SRV TY D 120/240 060(NS)AL(E)TS(O)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 3600.0,
+      "lowUnit": 7025.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 7025.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2744.75,
+        "DURABLE SPECIALTIES, INC.": 4000.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 6800.0
+      }
+    },
+    {
+      "itemCode": "0628 6144",
+      "description": "ELC SRV TY D 120/240 060(NS)SS(E)PS(U)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 7500.0,
+      "lowUnit": 6800.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 6800.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 5792.19,
+        "DURABLE SPECIALTIES, INC.": 7000.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 7200.0
+      }
+    },
+    {
+      "itemCode": "0644 6075",
+      "description": "RELOCATE SM RD SN SUP&AM(SIGN ONLY)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 420.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 420.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 107.2,
+        "DURABLE SPECIALTIES, INC.": 75.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 1200.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 100.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 94.5,
+        "DURABLE SPECIALTIES, INC.": 100.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 400.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 92.0,
+      "engEstUnit": 0.4,
+      "lowUnit": 3.5,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3.5,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2.18,
+        "DURABLE SPECIALTIES, INC.": 1.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 8.0
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 5.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 3.85,
+        "DURABLE SPECIALTIES, INC.": 4.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 25.0
+      }
+    },
+    {
+      "itemCode": "0677 6008",
+      "description": "ELIM EXT PAV MRK & MRKS (ARROW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 90.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 77.0,
+        "DURABLE SPECIALTIES, INC.": 45.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 280.0
+      }
+    },
+    {
+      "itemCode": "0677 6012",
+      "description": "ELIM EXT PAV MRK & MRKS (WORD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 90.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 77.0,
+        "DURABLE SPECIALTIES, INC.": 55.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 280.0
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 300.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 0.83,
+        "DURABLE SPECIALTIES, INC.": 1.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 10.0
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2.75,
+      "lowUnit": 40.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 40.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 27.5,
+        "DURABLE SPECIALTIES, INC.": 12.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 30.0
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2.75,
+      "lowUnit": 40.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 40.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 27.5,
+        "DURABLE SPECIALTIES, INC.": 18.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 30.0
+      }
+    },
+    {
+      "itemCode": "0682 6001",
+      "description": "VEH SIG SEC (12\")LED(GRN)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 280.0,
+      "lowUnit": 280.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 280.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 252.55,
+        "DURABLE SPECIALTIES, INC.": 415.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 280.0
+      }
+    },
+    {
+      "itemCode": "0682 6002",
+      "description": "VEH SIG SEC (12\")LED(GRN ARW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 280.0,
+      "lowUnit": 280.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 280.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 252.55,
+        "DURABLE SPECIALTIES, INC.": 415.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 280.0
+      }
+    },
+    {
+      "itemCode": "0682 6003",
+      "description": "VEH SIG SEC (12\")LED(YEL)",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 280.0,
+      "lowUnit": 280.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 280.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 252.55,
+        "DURABLE SPECIALTIES, INC.": 415.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 280.0
+      }
+    },
+    {
+      "itemCode": "0682 6004",
+      "description": "VEH SIG SEC (12\")LED(YEL ARW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 280.0,
+      "lowUnit": 280.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 280.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 252.55,
+        "DURABLE SPECIALTIES, INC.": 415.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 280.0
+      }
+    },
+    {
+      "itemCode": "0682 6005",
+      "description": "VEH SIG SEC (12\")LED(RED)",
+      "unit": "EA",
+      "quantity": 26.0,
+      "engEstUnit": 280.0,
+      "lowUnit": 280.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 280.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 252.55,
+        "DURABLE SPECIALTIES, INC.": 415.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 280.0
+      }
+    },
+    {
+      "itemCode": "0682 6006",
+      "description": "VEH SIG SEC (12\")LED(RED ARW)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 280.0,
+      "lowUnit": 280.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 280.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 252.55,
+        "DURABLE SPECIALTIES, INC.": 415.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 280.0
+      }
+    },
+    {
+      "itemCode": "0682 6018",
+      "description": "PED SIG SEC (LED)(COUNTDOWN)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 680.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 680.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 482.55,
+        "DURABLE SPECIALTIES, INC.": 950.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 520.0
+      }
+    },
+    {
+      "itemCode": "0682 6049",
+      "description": "BACKPLATE W/REFL BRDR(4 SEC)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 165.0,
+      "lowUnit": 120.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 120.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 183.55,
+        "DURABLE SPECIALTIES, INC.": 200.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 180.0
+      }
+    },
+    {
+      "itemCode": "0682 6060",
+      "description": "BACKPLATE W/REFL BRDR(3 SEC)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 165.0,
+      "lowUnit": 105.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 105.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 154.1,
+        "DURABLE SPECIALTIES, INC.": 190.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 120.0
+      }
+    },
+    {
+      "itemCode": "0684 6008",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(3 CONDR)",
+      "unit": "LF",
+      "quantity": 616.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 2.85,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 2.85,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1.99,
+        "DURABLE SPECIALTIES, INC.": 2.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 2.5
+      }
+    },
+    {
+      "itemCode": "0684 6010",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(5 CONDR)",
+      "unit": "LF",
+      "quantity": 1705.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 3.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2.21,
+        "DURABLE SPECIALTIES, INC.": 2.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 3.0
+      }
+    },
+    {
+      "itemCode": "0684 6012",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(7 CONDR)",
+      "unit": "LF",
+      "quantity": 131.0,
+      "engEstUnit": 2.75,
+      "lowUnit": 3.5,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3.5,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 3.74,
+        "DURABLE SPECIALTIES, INC.": 2.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 3.5
+      }
+    },
+    {
+      "itemCode": "0684 6014",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(9 CONDR)",
+      "unit": "LF",
+      "quantity": 1670.0,
+      "engEstUnit": 4.15,
+      "lowUnit": 4.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 4.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 3.8,
+        "DURABLE SPECIALTIES, INC.": 2.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 4.0
+      }
+    },
+    {
+      "itemCode": "0686 6020",
+      "description": "INS TRF SIG PL AM (S)STR(TY D)LUM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 6900.0,
+      "lowUnit": 6100.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 6100.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 6589.95,
+        "DURABLE SPECIALTIES, INC.": 7700.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 6800.0
+      }
+    },
+    {
+      "itemCode": "0686 6027",
+      "description": "INS TRF SIG PL AM(S)1 ARM(24')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 7700.0,
+      "lowUnit": 6250.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 6250.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 7247.05,
+        "DURABLE SPECIALTIES, INC.": 8700.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 7000.0
+      }
+    },
+    {
+      "itemCode": "0686 6029",
+      "description": "INS TRF SIG PL AM (S)1 ARM(28')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 7000.0,
+      "lowUnit": 4850.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 4850.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 6815.8,
+        "DURABLE SPECIALTIES, INC.": 8300.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 6500.0
+      }
+    },
+    {
+      "itemCode": "0686 6031",
+      "description": "INS TRF SIG PL AM(S)1 ARM(28')LUM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 7800.0,
+      "lowUnit": 6800.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 6800.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 7704.75,
+        "DURABLE SPECIALTIES, INC.": 8800.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 7000.0
+      }
+    },
+    {
+      "itemCode": "0686 6039",
+      "description": "INS TRF SIG PL AM(S)1 ARM(36')LUM",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 9500.0,
+      "lowUnit": 7850.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 7850.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 8665.0,
+        "DURABLE SPECIALTIES, INC.": 9800.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 7800.0
+      }
+    },
+    {
+      "itemCode": "0686 6041",
+      "description": "INS TRF SIG PL AM(S)1 ARM(40')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 9500.0,
+      "lowUnit": 6900.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 6900.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 8052.05,
+        "DURABLE SPECIALTIES, INC.": 9607.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 8200.0
+      }
+    },
+    {
+      "itemCode": "0686 6047",
+      "description": "INS TRF SIG PL AM(S)1 ARM(44')LUM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 8700.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 8700.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 9406.75,
+        "DURABLE SPECIALTIES, INC.": 10800.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 9000.0
+      }
+    },
+    {
+      "itemCode": "0686 6051",
+      "description": "INS TRF SIG PL AM(S)1 ARM(48')LUM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 11500.0,
+      "lowUnit": 9700.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 9700.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 9829.95,
+        "DURABLE SPECIALTIES, INC.": 11150.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 9500.0
+      }
+    },
+    {
+      "itemCode": "0687 6001",
+      "description": "PED POLE ASSEMBLY",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 2200.0,
+      "lowUnit": 2235.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 2235.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2546.55,
+        "DURABLE SPECIALTIES, INC.": 3200.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 3000.0
+      }
+    },
+    {
+      "itemCode": "0688 6001",
+      "description": "PED DETECT PUSH BUTTON (APS)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 750.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 750.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 944.65,
+        "DURABLE SPECIALTIES, INC.": 1000.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 650.0
+      }
+    },
+    {
+      "itemCode": "0688 6003",
+      "description": "PED DETECTOR CONTROLLER UNIT",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3400.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3400.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 3169.75,
+        "DURABLE SPECIALTIES, INC.": 4000.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 3800.0
+      }
+    },
+    {
+      "itemCode": "6004 6031",
+      "description": "ITS COM CBL (ETHERNET)",
+      "unit": "LF",
+      "quantity": 145.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 4.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2.7,
+        "DURABLE SPECIALTIES, INC.": 3.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 4.0
+      }
+    },
+    {
+      "itemCode": "6058 6001",
+      "description": "BBU SYSTEM (EXTERNAL BATT CABINET)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 7000.0,
+      "lowUnit": 7085.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 7085.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 6560.88,
+        "DURABLE SPECIALTIES, INC.": 7000.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 6800.0
+      }
+    },
+    {
+      "itemCode": "6062 6034",
+      "description": "ITS RADIO (DUAL)(5 GHZ/5 GHZ)-I-U",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 4150.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 4150.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 4027.5,
+        "DURABLE SPECIALTIES, INC.": 4500.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 3800.0
+      }
+    },
+    {
+      "itemCode": "6083 6001",
+      "description": "VIDEO IMAGING AND RAD VEH DETECTION SYS",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 40000.0,
+      "lowUnit": 34000.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 34000.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 35067.9,
+        "DURABLE SPECIALTIES, INC.": 40300.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 36000.0
+      }
+    },
+    {
+      "itemCode": "6146 6001",
+      "description": "INSTALLATION OF BLUETOOTH READER",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 975.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 975.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 537.23,
+        "DURABLE SPECIALTIES, INC.": 300.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 300.0
+      }
+    }
+  ]
+}

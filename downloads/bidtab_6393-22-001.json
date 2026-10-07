@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6393-22-001",
+    "county": "Parmer",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639322001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/03/22",
+    "engEstTotal": 652540.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CM COMPANY",
+      "totalBidAmount": 774676.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BERT WHITAKER",
+      "totalBidAmount": 835536.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TEXAS BLACKTOPS LLC",
+      "totalBidAmount": 852380.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CM COMPANY": 1.0,
+        "BERT WHITAKER": 3000.0,
+        "TEXAS BLACKTOPS LLC": 5000.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 18444.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 42.0,
+      "bidders": {
+        "CM COMPANY": 42.0,
+        "BERT WHITAKER": 44.0,
+        "TEXAS BLACKTOPS LLC": 45.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6406-61-001",
+    "county": "Bexar",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 640661001",
+    "projectType": "HOT MIX",
+    "letDate": "01/06/23",
+    "engEstTotal": 710698.8,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 661764.6
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 676453.4
+    },
+    {
+      "rank": 3,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 717360.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 811300.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6015",
+      "description": "D-GR HMA(SQ)TY B PG 64-22(DELIVERY)",
+      "unit": "TON",
+      "quantity": 8540.0,
+      "engEstUnit": 83.22,
+      "lowUnit": 77.49,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 77.49,
+        "TEXAS MATERIALS GROUP, INC.": 79.21,
+        "BRAUNTEX MATERIALS, INC.": 84.0,
+        "COLORADO MATERIALS, LTD.": 95.0
+      }
+    }
+  ]
+}

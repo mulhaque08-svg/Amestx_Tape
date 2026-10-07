@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "csj": "6431-70-001",
+    "county": "Red River",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 643170001",
+    "projectType": "DENSE GRADED HOT MIX",
+    "letDate": "03/08/23",
+    "engEstTotal": 1207000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RK HALL, LLC",
+      "totalBidAmount": 1157500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "RK HALL, LLC": 80.0
+      }
+    },
+    {
+      "itemCode": "8011 6005",
+      "description": "D-GR HMA(SQ) TY F PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 6500.0,
+      "engEstUnit": 88.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "RK HALL, LLC": 85.0
+      }
+    },
+    {
+      "itemCode": "8011 6006",
+      "description": "D-GR HMA(SQ) TY F PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 5000.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 105.0,
+      "bidders": {
+        "RK HALL, LLC": 105.0
+      }
+    }
+  ]
+}

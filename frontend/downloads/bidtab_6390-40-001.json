@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6390-40-001",
+    "county": "Karnes",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639040001",
+    "projectType": "HOT MIX",
+    "letDate": "10/19/21",
+    "engEstTotal": 296700.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 258760.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 267500.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "LONE STAR PAVING COMPANY",
+      "totalBidAmount": 295100.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 300.0,
+      "engEstUnit": 64.0,
+      "lowUnit": 51.0,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 51.0,
+        "TEXAS MATERIALS GROUP, INC.": 53.0,
+        "LONE STAR PAVING COMPANY": 52.5
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 3700.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 65.8,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 65.8,
+        "TEXAS MATERIALS GROUP, INC.": 68.0,
+        "LONE STAR PAVING COMPANY": 75.5
+      }
+    }
+  ]
+}

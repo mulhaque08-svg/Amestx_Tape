@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "csj": "6444-04-001",
+    "county": "Nacogdoches",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 644404001",
+    "projectType": "HOT MIX TY SP, C & D",
+    "letDate": "06/06/23",
+    "engEstTotal": 228420.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "LONGVIEW ASPHALT, INC.",
+      "totalBidAmount": 230800.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8006 6016",
+      "description": "SP TY C PG 76-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 119.69,
+      "lowUnit": 118.9,
+      "bidders": {
+        "LONGVIEW ASPHALT, INC.": 118.9
+      }
+    },
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 108.73,
+      "lowUnit": 112.9,
+      "bidders": {
+        "LONGVIEW ASPHALT, INC.": 112.9
+      }
+    },
+    {
+      "itemCode": "8011 6016",
+      "description": "D-GR HMA(SQ)TY C PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 108.73,
+      "lowUnit": 110.9,
+      "bidders": {
+        "LONGVIEW ASPHALT, INC.": 110.9
+      }
+    }
+  ]
+}

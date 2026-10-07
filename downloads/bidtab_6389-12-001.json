@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6389-12-001",
+    "county": "Brazos",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638912001",
+    "projectType": "ASPHALT",
+    "letDate": "10/13/21",
+    "engEstTotal": 292500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 289500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 396000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6005",
+      "description": "D-GR HMA(SQ) TY F PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 59.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 59.0,
+        "TEXAS MATERIALS GROUP, INC.": 80.0
+      }
+    },
+    {
+      "itemCode": "8011 6006",
+      "description": "D-GR HMA(SQ) TY F PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 4000.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 65.0,
+        "TEXAS MATERIALS GROUP, INC.": 89.0
+      }
+    }
+  ]
+}

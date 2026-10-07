@@ -1,0 +1,629 @@
+{
+  "metadata": {
+    "csj": "3451-01-033",
+    "county": "El Paso",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 3451-1-33",
+    "projectType": "REHABILITATE EXISTING ROADWAY",
+    "letDate": "04/05/23",
+    "engEstTotal": 14340540.26,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DAN WILLIAMS COMPANY",
+      "totalBidAmount": 9420480.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "LESNA CONSTRUCTION, INC.",
+      "totalBidAmount": 10982252.25
+    },
+    {
+      "rank": 3,
+      "vendorName": "INTERNATIONAL EAGLE ENTERPRISES, INC.",
+      "totalBidAmount": 13404373.1
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 66.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 230.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 230.0,
+        "LESNA CONSTRUCTION, INC.": 500.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0104 6011",
+      "description": "REMOVING CONC (MEDIANS)",
+      "unit": "SY",
+      "quantity": 117.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 18.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 18.0,
+        "LESNA CONSTRUCTION, INC.": 100.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 35.0
+      }
+    },
+    {
+      "itemCode": "0104 6021",
+      "description": "REMOVING CONC (CURB)",
+      "unit": "LF",
+      "quantity": 513.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 3.5,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 3.5,
+        "LESNA CONSTRUCTION, INC.": 7.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0104 6028",
+      "description": "REMOVING CONC (MISC)",
+      "unit": "SY",
+      "quantity": 143.0,
+      "engEstUnit": 26.2,
+      "lowUnit": 8.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 8.0,
+        "LESNA CONSTRUCTION, INC.": 25.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0112 6003",
+      "description": "SUBGRADE WIDENING (DENS CONT)",
+      "unit": "SY",
+      "quantity": 4073.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 3.25,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 3.25,
+        "LESNA CONSTRUCTION, INC.": 6.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0132 6002",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY A)",
+      "unit": "CY",
+      "quantity": 6800.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 9.5,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 9.5,
+        "LESNA CONSTRUCTION, INC.": 15.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 18.0
+      }
+    },
+    {
+      "itemCode": "0134 6004",
+      "description": "BACKFILL (TY A OR B)",
+      "unit": "STA",
+      "quantity": 228.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 250.0,
+        "LESNA CONSTRUCTION, INC.": 275.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 2200.0
+      }
+    },
+    {
+      "itemCode": "0310 6014",
+      "description": "PRIME COAT (SS-1H)",
+      "unit": "GAL",
+      "quantity": 817.0,
+      "engEstUnit": 6.8,
+      "lowUnit": 5.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 5.0,
+        "LESNA CONSTRUCTION, INC.": 8.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 11.0
+      }
+    },
+    {
+      "itemCode": "0351 6002",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(6\")",
+      "unit": "SY",
+      "quantity": 101697.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 40.6,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 40.6,
+        "LESNA CONSTRUCTION, INC.": 48.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 55.5
+      }
+    },
+    {
+      "itemCode": "0354 6045",
+      "description": "PLANE ASPH CONC PAV (2\")",
+      "unit": "SY",
+      "quantity": 97624.0,
+      "engEstUnit": 2.8,
+      "lowUnit": 1.65,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 1.65,
+        "LESNA CONSTRUCTION, INC.": 3.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0354 6064",
+      "description": "PLANE ASPH CONC PAV (2 1/2\")",
+      "unit": "SY",
+      "quantity": 48857.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 2.0,
+        "LESNA CONSTRUCTION, INC.": 3.25,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 2.5
+      }
+    },
+    {
+      "itemCode": "0479 6001",
+      "description": "ADJUSTING MANHOLES",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1400.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 1400.0,
+        "LESNA CONSTRUCTION, INC.": 500.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0479 6008",
+      "description": "ADJUSTING MANHOLES (WATER METER)",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 650.0,
+      "lowUnit": 1400.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 1400.0,
+        "LESNA CONSTRUCTION, INC.": 500.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 600.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 1293564.0,
+      "lowUnit": 200000.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 200000.0,
+        "LESNA CONSTRUCTION, INC.": 750000.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 1200000.0
+      }
+    },
+    {
+      "itemCode": "0528 6002",
+      "description": "COLORED TEXTURED CONC (6\")",
+      "unit": "SY",
+      "quantity": 3588.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 90.0,
+        "LESNA CONSTRUCTION, INC.": 80.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "0529 6005",
+      "description": "CONC CURB (MONO) (TY II)",
+      "unit": "LF",
+      "quantity": 13012.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 12.5,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 12.5,
+        "LESNA CONSTRUCTION, INC.": 12.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 12.0
+      }
+    },
+    {
+      "itemCode": "0530 6004",
+      "description": "DRIVEWAYS (CONC)",
+      "unit": "SY",
+      "quantity": 143.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 75.0,
+        "LESNA CONSTRUCTION, INC.": 65.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 55.0
+      }
+    },
+    {
+      "itemCode": "0531 6001",
+      "description": "CONC SIDEWALKS (4\")",
+      "unit": "SY",
+      "quantity": 4360.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 45.0,
+        "LESNA CONSTRUCTION, INC.": 40.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 35.0
+      }
+    },
+    {
+      "itemCode": "0531 6013",
+      "description": "CURB RAMPS (TY 10)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2575.0,
+      "lowUnit": 1350.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 1350.0,
+        "LESNA CONSTRUCTION, INC.": 1700.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 1800.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 100.0,
+        "LESNA CONSTRUCTION, INC.": 500.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0662 6064",
+      "description": "WK ZN PAV MRK REMOV (W)6\"(BRK)",
+      "unit": "LF",
+      "quantity": 3420.0,
+      "engEstUnit": 1.75,
+      "lowUnit": 0.5,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 0.5,
+        "LESNA CONSTRUCTION, INC.": 0.5,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 0.65
+      }
+    },
+    {
+      "itemCode": "0662 6067",
+      "description": "WK ZN PAV MRK REMOV (W)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 4210.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.45,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 0.45,
+        "LESNA CONSTRUCTION, INC.": 0.5,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 0.6
+      }
+    },
+    {
+      "itemCode": "0662 6075",
+      "description": "WK ZN PAV MRK REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 1338.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 3.25,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 3.25,
+        "LESNA CONSTRUCTION, INC.": 3.5,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0662 6098",
+      "description": "WK ZN PAV MRK REMOV (Y)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 2842.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.45,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 0.45,
+        "LESNA CONSTRUCTION, INC.": 0.5,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 0.65
+      }
+    },
+    {
+      "itemCode": "0662 6109",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY W",
+      "unit": "EA",
+      "quantity": 3446.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 2.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 2.0,
+        "LESNA CONSTRUCTION, INC.": 2.5,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 3446.0,
+      "engEstUnit": 1.75,
+      "lowUnit": 2.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 2.0,
+        "LESNA CONSTRUCTION, INC.": 2.5,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 460.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 5.6,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 5.6,
+        "LESNA CONSTRUCTION, INC.": 6.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 7.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 67.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 5.6,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 5.6,
+        "LESNA CONSTRUCTION, INC.": 6.5,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 7.0
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 611.0,
+      "engEstUnit": 4.62,
+      "lowUnit": 5.6,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 5.6,
+        "LESNA CONSTRUCTION, INC.": 6.5,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 7.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 5048.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.85,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 0.85,
+        "LESNA CONSTRUCTION, INC.": 1.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 1.5
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 3401.0,
+      "engEstUnit": 0.9,
+      "lowUnit": 1.1,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 1.1,
+        "LESNA CONSTRUCTION, INC.": 1.25,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 1.75
+      }
+    },
+    {
+      "itemCode": "0677 6005",
+      "description": "ELIM EXT PAV MRK & MRKS (12\")",
+      "unit": "LF",
+      "quantity": 691.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 5.0,
+        "LESNA CONSTRUCTION, INC.": 5.5,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 7.0
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 268.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 8.35,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 8.35,
+        "LESNA CONSTRUCTION, INC.": 8.5,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 11.0
+      }
+    },
+    {
+      "itemCode": "0677 6008",
+      "description": "ELIM EXT PAV MRK & MRKS (ARROW)",
+      "unit": "EA",
+      "quantity": 22.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 165.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 165.0,
+        "LESNA CONSTRUCTION, INC.": 190.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 280.0
+      }
+    },
+    {
+      "itemCode": "0677 6009",
+      "description": "ELIM EXT PAV MRK & MRKS (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 135.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 200.0,
+        "LESNA CONSTRUCTION, INC.": 225.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0677 6012",
+      "description": "ELIM EXT PAV MRK & MRKS (WORD)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 200.0,
+        "LESNA CONSTRUCTION, INC.": 225.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "0677 6038",
+      "description": "ELIM EXT PAV MRK & MRKRS(PLOWABLE RPMS)",
+      "unit": "EA",
+      "quantity": 43.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 25.0,
+        "LESNA CONSTRUCTION, INC.": 50.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 35.0
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 7236.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 0.25,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 0.25,
+        "LESNA CONSTRUCTION, INC.": 0.5,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 0.55
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 3163.0,
+      "engEstUnit": 0.13,
+      "lowUnit": 0.4,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 0.4,
+        "LESNA CONSTRUCTION, INC.": 0.5,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 0.75
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 588.0,
+      "engEstUnit": 1.25,
+      "lowUnit": 3.05,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 3.05,
+        "LESNA CONSTRUCTION, INC.": 3.5,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 7.0
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 17.0,
+      "engEstUnit": 16.0,
+      "lowUnit": 84.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 84.0,
+        "LESNA CONSTRUCTION, INC.": 100.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 150.0
+      }
+    },
+    {
+      "itemCode": "0678 6010",
+      "description": "PAV SURF PREP FOR MRK (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 94.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 94.0,
+        "LESNA CONSTRUCTION, INC.": 120.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 160.0
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 84.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 84.0,
+        "LESNA CONSTRUCTION, INC.": 120.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 150.0
+      }
+    },
+    {
+      "itemCode": "3080 6001",
+      "description": "STONE-MTRX-ASPH SMA-C SAC-A PG76-22",
+      "unit": "TON",
+      "quantity": 20708.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 160.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 160.0,
+        "LESNA CONSTRUCTION, INC.": 145.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 152.0
+      }
+    },
+    {
+      "itemCode": "3085 6001",
+      "description": "UNDERSEAL COURSE",
+      "unit": "GAL",
+      "quantity": 29147.0,
+      "engEstUnit": 7.5,
+      "lowUnit": 5.05,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 5.05,
+        "LESNA CONSTRUCTION, INC.": 7.5,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 8.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 8500.0,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 15000.0,
+        "LESNA CONSTRUCTION, INC.": 17500.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 16500.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6415-84-001",
+    "county": "Brazoria",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641584001",
+    "projectType": "HIGH EDGE REMOVAL",
+    "letDate": "01/10/23",
+    "engEstTotal": 289200.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 283200.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ISI CONTRACTING, INC.",
+      "totalBidAmount": 585000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0150 6001",
+      "description": "BLADING",
+      "unit": "STA",
+      "quantity": 1500.0,
+      "engEstUnit": 89.5,
+      "lowUnit": 125.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 125.0,
+        "ISI CONTRACTING, INC.": 35.0
+      }
+    },
+    {
+      "itemCode": "0150 6003",
+      "description": "BLADING",
+      "unit": "LF",
+      "quantity": 150000.0,
+      "engEstUnit": 0.92,
+      "lowUnit": 0.625,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 0.625,
+        "ISI CONTRACTING, INC.": 0.35
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 100.0,
+        "ISI CONTRACTING, INC.": 2500.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "csj": "6383-16-001",
+    "county": "Newton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 638316001",
+    "projectType": "BRIDGE PREVENTATIVE MAINTENANCE",
+    "letDate": "12/15/21",
+    "engEstTotal": 128416.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 147905.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SJ&J CONSTRUCTION, LLC",
+      "totalBidAmount": 162690.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 241450.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0158 6002",
+      "description": "SPEC EXCAV WORK (BACKHOE)",
+      "unit": "HR",
+      "quantity": 8.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 380.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 380.0,
+        "SJ&J CONSTRUCTION, LLC": 60.0,
+        "FNH CONSTRUCTION, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0158 6003",
+      "description": "SPEC EXCAV WORK (HYD EXCAVATOR)",
+      "unit": "HR",
+      "quantity": 16.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 475.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 475.0,
+        "SJ&J CONSTRUCTION, LLC": 60.0,
+        "FNH CONSTRUCTION, LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 26.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 450.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 450.0,
+        "SJ&J CONSTRUCTION, LLC": 210.0,
+        "FNH CONSTRUCTION, LLC": 350.0
+      }
+    },
+    {
+      "itemCode": "0401 6001",
+      "description": "FLOWABLE BACKFILL",
+      "unit": "CY",
+      "quantity": 5.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 500.0,
+        "SJ&J CONSTRUCTION, LLC": 250.0,
+        "FNH CONSTRUCTION, LLC": 350.0
+      }
+    },
+    {
+      "itemCode": "0429 6004",
+      "description": "CONC STR REPAIR(RAPID DECK REP(PRT DPT)",
+      "unit": "SF",
+      "quantity": 13.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 250.0,
+        "SJ&J CONSTRUCTION, LLC": 400.0,
+        "FNH CONSTRUCTION, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 91.0,
+      "engEstUnit": 280.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 225.0,
+        "SJ&J CONSTRUCTION, LLC": 210.0,
+        "FNH CONSTRUCTION, LLC": 850.0
+      }
+    },
+    {
+      "itemCode": "0432 6026",
+      "description": "RIPRAP (STONE COMMON)(DRY)(18 IN)",
+      "unit": "CY",
+      "quantity": 286.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 190.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 190.0,
+        "SJ&J CONSTRUCTION, LLC": 180.0,
+        "FNH CONSTRUCTION, LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0480 6001",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 8000.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 8000.0,
+        "SJ&J CONSTRUCTION, LLC": 2000.0,
+        "FNH CONSTRUCTION, LLC": 3500.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 10856.0,
+      "lowUnit": 14000.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 14000.0,
+        "SJ&J CONSTRUCTION, LLC": 50000.0,
+        "FNH CONSTRUCTION, LLC": 24000.0
+      }
+    }
+  ]
+}

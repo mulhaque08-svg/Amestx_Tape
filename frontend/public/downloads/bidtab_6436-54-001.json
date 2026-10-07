@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "csj": "6436-54-001",
+    "county": "Hopkins",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643654001",
+    "projectType": "TREE TRIMMING",
+    "letDate": "04/20/23",
+    "engEstTotal": 269500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CATOCON, INC.",
+      "totalBidAmount": 185125.4
+    },
+    {
+      "rank": 2,
+      "vendorName": "ALLIES LAND CLEARING",
+      "totalBidAmount": 196921.8
+    },
+    {
+      "rank": 3,
+      "vendorName": "CEHAND SERVICES LLC",
+      "totalBidAmount": 201815.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "EASTGATE SERVICES",
+      "totalBidAmount": 207065.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "RENEGADE SITE SOLUTIONS, LLC",
+      "totalBidAmount": 233000.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "RDA VEGETATION MANAGEMENT LLC",
+      "totalBidAmount": 237498.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "BUSHWACKERS CONTRACTING, LLC",
+      "totalBidAmount": 269500.0
+    },
+    {
+      "rank": 8,
+      "vendorName": "BA NEWTON'S ENTERPRISES LLC",
+      "totalBidAmount": 370000.9
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "CATOCON, INC.": 0.01,
+        "ALLIES LAND CLEARING": 1.17,
+        "CEHAND SERVICES LLC": 1.0,
+        "EASTGATE SERVICES": 1.0,
+        "RENEGADE SITE SOLUTIONS, LLC": 700.0,
+        "RDA VEGETATION MANAGEMENT LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 150.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1234.0,
+      "bidders": {
+        "CATOCON, INC.": 1234.0,
+        "ALLIES LAND CLEARING": 1275.0,
+        "CEHAND SERVICES LLC": 1345.0,
+        "EASTGATE SERVICES": 1380.0,
+        "RENEGADE SITE SOLUTIONS, LLC": 1300.0,
+        "RDA VEGETATION MANAGEMENT LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0752 6004",
+      "description": "TREE TRIMMING / BRUSH REMOVAL(CHANNELS)",
+      "unit": "AC",
+      "quantity": 25.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CATOCON, INC.": 1.0,
+        "ALLIES LAND CLEARING": 225.0,
+        "CEHAND SERVICES LLC": 1.0,
+        "EASTGATE SERVICES": 1.0,
+        "RENEGADE SITE SOLUTIONS, LLC": 1000.0,
+        "RDA VEGETATION MANAGEMENT LLC": 499.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "csj": "0918-00-377",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2022(179)",
+    "projectType": "INSTALL/REPLACE SIGNS",
+    "letDate": "11/04/21",
+    "engEstTotal": 84413.66,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "WG ENGINEERING & CONSTRUCTION, LLC",
+      "totalBidAmount": 74657.2
+    },
+    {
+      "rank": 2,
+      "vendorName": "SYNERGY SIGNS & SERVICES LLC",
+      "totalBidAmount": 99076.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "SELECT MAINTENANCE, L.L.C.",
+      "totalBidAmount": 99511.25
+    },
+    {
+      "rank": 4,
+      "vendorName": "BATTERSON, LLP",
+      "totalBidAmount": 120085.75
+    },
+    {
+      "rank": 5,
+      "vendorName": "MICA CORPORATION",
+      "totalBidAmount": 132648.12
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0416 6018",
+      "description": "DRILL SHAFT (SIGN MTS) (24 IN)",
+      "unit": "LF",
+      "quantity": 10.0,
+      "engEstUnit": 202.0,
+      "lowUnit": 175.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 175.0,
+        "SYNERGY SIGNS & SERVICES LLC": 300.0,
+        "SELECT MAINTENANCE, L.L.C.": 50.0,
+        "BATTERSON, LLP": 225.0,
+        "MICA CORPORATION": 370.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 4475.66,
+      "lowUnit": 4800.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 4800.0,
+        "SYNERGY SIGNS & SERVICES LLC": 10000.0,
+        "SELECT MAINTENANCE, L.L.C.": 9600.0,
+        "BATTERSON, LLP": 10000.0,
+        "MICA CORPORATION": 13600.0
+      }
+    },
+    {
+      "itemCode": "0647 6001",
+      "description": "INSTALL LRSS (STRUCT STEEL)",
+      "unit": "LB",
+      "quantity": 359.0,
+      "engEstUnit": 6.75,
+      "lowUnit": 6.8,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 6.8,
+        "SYNERGY SIGNS & SERVICES LLC": 6.0,
+        "SELECT MAINTENANCE, L.L.C.": 5.0,
+        "BATTERSON, LLP": 5.25,
+        "MICA CORPORATION": 8.5
+      }
+    },
+    {
+      "itemCode": "6053 6001",
+      "description": "SHIFT OVERHEAD SIGN PANELS",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 775.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1200.0,
+        "SYNERGY SIGNS & SERVICES LLC": 750.0,
+        "SELECT MAINTENANCE, L.L.C.": 450.0,
+        "BATTERSON, LLP": 800.0,
+        "MICA CORPORATION": 2400.0
+      }
+    }
+  ]
+}

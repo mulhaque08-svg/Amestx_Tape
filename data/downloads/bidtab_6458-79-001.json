@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6458-79-001",
+    "county": "Gaines",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645879001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/06/24",
+    "engEstTotal": 661100.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS BLACKTOPS LLC",
+      "totalBidAmount": 569820.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 604884.8
+    },
+    {
+      "rank": 3,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 738410.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "TEXAS BLACKTOPS LLC": 2500.0,
+        "ABESCAPE GROUP LLC": 1.0,
+        "RISE UP CONSTRUCTION LLC": 2500.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 18660.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "TEXAS BLACKTOPS LLC": 30.0,
+        "ABESCAPE GROUP LLC": 31.88,
+        "RISE UP CONSTRUCTION LLC": 38.5
+      }
+    }
+  ]
+}

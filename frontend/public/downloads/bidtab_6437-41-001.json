@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6437-41-001",
+    "county": "Val Verde",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 643741001",
+    "projectType": "AGGREGATE",
+    "letDate": "03/27/23",
+    "engEstTotal": 294000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 232295.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 292250.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 420000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6239",
+      "description": "AGGR (TY PB GR 4) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 3500.0,
+      "engEstUnit": 84.0,
+      "lowUnit": 66.37,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 66.37,
+        "COLORADO MATERIALS, LTD.": 83.5,
+        "TOUCHSTONE RESOURCES, LLC": 120.0
+      }
+    }
+  ]
+}

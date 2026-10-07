@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "csj": "6464-09-001",
+    "county": "Karnes",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646409001",
+    "projectType": "SPOT BASE REPAIR",
+    "letDate": "07/16/24",
+    "engEstTotal": 287387.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CK NEWBERRY, LLC",
+      "totalBidAmount": 374995.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "HUNTER INDUSTRIES, LTD.",
+      "totalBidAmount": 416406.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 499205.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0351 6012",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(2\")",
+      "unit": "SY",
+      "quantity": 4000.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 32.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 32.0,
+        "HUNTER INDUSTRIES, LTD.": 35.0,
+        "TEXAS MATERIALS GROUP, INC.": 53.5
+      }
+    },
+    {
+      "itemCode": "0351 6013",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(4\")",
+      "unit": "SY",
+      "quantity": 3250.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 56.5,
+      "bidders": {
+        "CK NEWBERRY, LLC": 56.5,
+        "HUNTER INDUSTRIES, LTD.": 60.5,
+        "TEXAS MATERIALS GROUP, INC.": 68.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 5500.0,
+      "lowUnit": 20000.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 20000.0,
+        "HUNTER INDUSTRIES, LTD.": 20000.0,
+        "TEXAS MATERIALS GROUP, INC.": 20000.0
+      }
+    },
+    {
+      "itemCode": "0662 6109",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY W",
+      "unit": "EA",
+      "quantity": 535.0,
+      "engEstUnit": 1.25,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 1.0,
+        "HUNTER INDUSTRIES, LTD.": 4.15,
+        "TEXAS MATERIALS GROUP, INC.": 1.5
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 535.0,
+      "engEstUnit": 1.25,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 1.0,
+        "HUNTER INDUSTRIES, LTD.": 4.15,
+        "TEXAS MATERIALS GROUP, INC.": 1.5
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 14.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "CK NEWBERRY, LLC": 25.0,
+        "HUNTER INDUSTRIES, LTD.": 385.0,
+        "TEXAS MATERIALS GROUP, INC.": 100.0
+      }
+    }
+  ]
+}

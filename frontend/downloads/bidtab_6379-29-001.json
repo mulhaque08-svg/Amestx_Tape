@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6379-29-001",
+    "county": "Jefferson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637929001",
+    "projectType": "HOT MIX",
+    "letDate": "04/13/21",
+    "engEstTotal": 29000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 28875.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "LD CONSTRUCTION",
+      "totalBidAmount": 30000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 58.0,
+      "lowUnit": 57.75,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 57.75,
+        "LD CONSTRUCTION": 60.0
+      }
+    }
+  ]
+}

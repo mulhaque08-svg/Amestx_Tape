@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "csj": "0901-19-208",
+    "county": "Grayson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2024(384)",
+    "projectType": "PREVENTIVE MAINTENANCE",
+    "letDate": "11/02/23",
+    "engEstTotal": 1509600.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "STX CIVIL",
+      "totalBidAmount": 1696572.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "WINDING ROAD CONSTRUCTION, INC.",
+      "totalBidAmount": 1847400.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "O. TREVINO CONSTRUCTION, LLC",
+      "totalBidAmount": 1864080.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 2133900.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0361 6035",
+      "description": "FULL - DEPTH REPAIR CPCD (10\")",
+      "unit": "SY",
+      "quantity": 3400.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 397.0,
+      "bidders": {
+        "STX CIVIL": 397.0,
+        "WINDING ROAD CONSTRUCTION, INC.": 393.0,
+        "O. TREVINO CONSTRUCTION, LLC": 399.0,
+        "FNH CONSTRUCTION, LLC": 480.0
+      }
+    },
+    {
+      "itemCode": "0361 6052",
+      "description": "FULL - DEPTH REPAIR CRCP (8\"-14\")",
+      "unit": "SY",
+      "quantity": 300.0,
+      "engEstUnit": 370.0,
+      "lowUnit": 403.0,
+      "bidders": {
+        "STX CIVIL": 403.0,
+        "WINDING ROAD CONSTRUCTION, INC.": 498.0,
+        "O. TREVINO CONSTRUCTION, LLC": 720.0,
+        "FNH CONSTRUCTION, LLC": 680.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 110000.0,
+      "lowUnit": 166922.0,
+      "bidders": {
+        "STX CIVIL": 166922.0,
+        "WINDING ROAD CONSTRUCTION, INC.": 180000.0,
+        "O. TREVINO CONSTRUCTION, LLC": 185000.0,
+        "FNH CONSTRUCTION, LLC": 200000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 96.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 104.0,
+      "bidders": {
+        "STX CIVIL": 104.0,
+        "WINDING ROAD CONSTRUCTION, INC.": 500.0,
+        "O. TREVINO CONSTRUCTION, LLC": 190.0,
+        "FNH CONSTRUCTION, LLC": 150.0
+      }
+    }
+  ]
+}

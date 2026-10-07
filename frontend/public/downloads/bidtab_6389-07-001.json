@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6389-07-001",
+    "county": "Bell",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638907001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/02/21",
+    "engEstTotal": 516750.48,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 600100.96
+    },
+    {
+      "rank": 2,
+      "vendorName": "JASCO",
+      "totalBidAmount": 617019.74
+    },
+    {
+      "rank": 3,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 698455.22
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 15618.2,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 5000.0,
+        "JASCO": 7000.0,
+        "P-VILLE, INCORPORATED": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 30.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 100.0,
+        "JASCO": 100.0,
+        "P-VILLE, INCORPORATED": 67.0
+      }
+    },
+    {
+      "itemCode": "0730 6104",
+      "description": "FULL-WIDTH MOWING (RURAL)",
+      "unit": "AC",
+      "quantity": 5066.3,
+      "engEstUnit": 42.0,
+      "lowUnit": 56.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 56.0,
+        "JASCO": 55.0,
+        "P-VILLE, INCORPORATED": 67.0
+      }
+    },
+    {
+      "itemCode": "0730 6105",
+      "description": "FULL-WIDTH MOWING (URBAN)",
+      "unit": "AC",
+      "quantity": 5328.36,
+      "engEstUnit": 48.0,
+      "lowUnit": 56.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 56.0,
+        "JASCO": 59.0,
+        "P-VILLE, INCORPORATED": 67.0
+      }
+    }
+  ]
+}

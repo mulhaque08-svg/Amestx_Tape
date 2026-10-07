@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "csj": "6398-11-001",
+    "county": "Hemphill",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639811001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "06/29/22",
+    "engEstTotal": 291280.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BERT WHITAKER",
+      "totalBidAmount": 382933.28
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "BERT WHITAKER": 1000.0
+      }
+    },
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 112.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 39.78,
+      "bidders": {
+        "BERT WHITAKER": 39.78
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 8864.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 39.78,
+      "bidders": {
+        "BERT WHITAKER": 39.78
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 600.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 39.78,
+      "bidders": {
+        "BERT WHITAKER": 39.78
+      }
+    }
+  ]
+}

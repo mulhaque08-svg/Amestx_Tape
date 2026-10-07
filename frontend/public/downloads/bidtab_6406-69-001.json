@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6406-69-001",
+    "county": "Bexar",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 640669001",
+    "projectType": "HOT MIX",
+    "letDate": "01/05/23",
+    "engEstTotal": 783356.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 693912.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "AUSTIN ASPHALT, INC.",
+      "totalBidAmount": 818765.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "LONE STAR PAVING COMPANY",
+      "totalBidAmount": 845800.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 847482.5
+    },
+    {
+      "rank": 5,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 930625.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6015",
+      "description": "D-GR HMA(SQ)TY B PG 64-22(DELIVERY)",
+      "unit": "TON",
+      "quantity": 7200.0,
+      "engEstUnit": 83.22,
+      "lowUnit": 71.25,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 71.25,
+        "AUSTIN ASPHALT, INC.": 87.95,
+        "LONE STAR PAVING COMPANY": 89.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 90.29,
+        "COLORADO MATERIALS, LTD.": 99.5
+      }
+    },
+    {
+      "itemCode": "8011 6036",
+      "description": "D-GR HMA (SQ) TY C PG 70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2050.0,
+      "engEstUnit": 89.84,
+      "lowUnit": 88.25,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 88.25,
+        "AUSTIN ASPHALT, INC.": 90.5,
+        "LONE STAR PAVING COMPANY": 100.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 96.29,
+        "COLORADO MATERIALS, LTD.": 104.5
+      }
+    }
+  ]
+}

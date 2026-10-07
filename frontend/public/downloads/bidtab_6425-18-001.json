@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "csj": "6425-18-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642518001",
+    "projectType": "GRAFFITI REMOVAL",
+    "letDate": "02/01/23",
+    "engEstTotal": 318500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FIREMAN EXCAVATING, INC.",
+      "totalBidAmount": 257050.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 344000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 760500.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 800005.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "SOUTHERN ROAD & BRIDGE, LLC",
+      "totalBidAmount": 2908750.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 1000.0,
+        "SHALOM SERVICES CORPORATION": 1000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 500.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 200.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 1000.0,
+        "SHALOM SERVICES CORPORATION": 1000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 2000.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 35000.0
+      }
+    },
+    {
+      "itemCode": "0740 6001",
+      "description": "GRAFFITI REMOVAL (BLAST CLEANING)",
+      "unit": "SF",
+      "quantity": 15000.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.75,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 0.75,
+        "GARRET SHIELDS INFRASTRUCTURE": 0.9,
+        "SHALOM SERVICES CORPORATION": 3.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 3.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 8.75
+      }
+    },
+    {
+      "itemCode": "0740 6002",
+      "description": "GRAFFITI REMOVAL (PAINTING)",
+      "unit": "SF",
+      "quantity": 200000.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.1,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 0.1,
+        "GARRET SHIELDS INFRASTRUCTURE": 0.9,
+        "SHALOM SERVICES CORPORATION": 3.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 3.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 5.5
+      }
+    },
+    {
+      "itemCode": "0740 6005",
+      "description": "ANTI - GRAFFITI COATNG(PERMNENT-TY III)",
+      "unit": "SF",
+      "quantity": 5000.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 0.75,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 0.75,
+        "GARRET SHIELDS INFRASTRUCTURE": 1.0,
+        "SHALOM SERVICES CORPORATION": 3.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 3.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 18.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 5.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 100.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "SHALOM SERVICES CORPORATION": 100.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 1.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 2500.0
+      }
+    }
+  ]
+}

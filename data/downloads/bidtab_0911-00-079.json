@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "csj": "0911-00-079",
+    "county": "Angelina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 911-00-79",
+    "projectType": "HIGHWAY IMPROVEMENT",
+    "letDate": "09/02/21",
+    "engEstTotal": 1971277.99,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BATTERSON, LLP",
+      "totalBidAmount": 1710272.49
+    },
+    {
+      "rank": 2,
+      "vendorName": "INTERSTATE BARRICADES & MARKINGS, INC.",
+      "totalBidAmount": 1786337.1
+    },
+    {
+      "rank": 3,
+      "vendorName": "STRIPE-A-ZONE, INC.",
+      "totalBidAmount": 1788635.65
+    },
+    {
+      "rank": 4,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 1872490.48
+    },
+    {
+      "rank": 5,
+      "vendorName": "STRIPING TECHNOLOGY, L.P.",
+      "totalBidAmount": 1930582.84
+    },
+    {
+      "rank": 6,
+      "vendorName": "TOTAL HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 1981182.15
+    },
+    {
+      "rank": 7,
+      "vendorName": "PMI PAVEMENT MARKING, LLC",
+      "totalBidAmount": 2499279.94
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 191000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BATTERSON, LLP": 1.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 50000.0,
+        "STRIPE-A-ZONE, INC.": 1.0,
+        "TRP CONSTRUCTION GROUP, LLC": 30000.0,
+        "STRIPING TECHNOLOGY, L.P.": 5000.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 40000.0
+      }
+    },
+    {
+      "itemCode": "0533 6001",
+      "description": "RUMBLE STRIPS (SHOULDER)",
+      "unit": "LF",
+      "quantity": 442018.0,
+      "engEstUnit": 0.14,
+      "lowUnit": 0.11,
+      "bidders": {
+        "BATTERSON, LLP": 0.11,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.16,
+        "STRIPE-A-ZONE, INC.": 0.13,
+        "TRP CONSTRUCTION GROUP, LLC": 0.125,
+        "STRIPING TECHNOLOGY, L.P.": 0.13,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 0.12
+      }
+    },
+    {
+      "itemCode": "0533 6002",
+      "description": "RUMBLE STRIPS (CENTERLINE)",
+      "unit": "LF",
+      "quantity": 210089.0,
+      "engEstUnit": 0.14,
+      "lowUnit": 0.15,
+      "bidders": {
+        "BATTERSON, LLP": 0.15,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.16,
+        "STRIPE-A-ZONE, INC.": 0.13,
+        "TRP CONSTRUCTION GROUP, LLC": 0.16,
+        "STRIPING TECHNOLOGY, L.P.": 0.15,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 0.12
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 5260.0,
+      "engEstUnit": 3.05,
+      "lowUnit": 4.1,
+      "bidders": {
+        "BATTERSON, LLP": 4.1,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 3.0,
+        "STRIPE-A-ZONE, INC.": 4.0,
+        "TRP CONSTRUCTION GROUP, LLC": 4.0,
+        "STRIPING TECHNOLOGY, L.P.": 3.15,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 3.25
+      }
+    },
+    {
+      "itemCode": "6056 6002",
+      "description": "PREFORMED CENTERLINE RUMBLE STRIP",
+      "unit": "LF",
+      "quantity": 8270.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "BATTERSON, LLP": 4.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 4.25,
+        "STRIPE-A-ZONE, INC.": 4.2,
+        "TRP CONSTRUCTION GROUP, LLC": 5.0,
+        "STRIPING TECHNOLOGY, L.P.": 4.3,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 7.0
+      }
+    }
+  ]
+}

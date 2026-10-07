@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6408-24-001",
+    "county": "Leon",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 640824001",
+    "projectType": "HOT MIX",
+    "letDate": "06/21/22",
+    "engEstTotal": 249000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BIG CREEK CONSTRUCTION, LTD.",
+      "totalBidAmount": 277500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6007",
+      "description": "D-GR HMA(SQ) TY F PG 70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 84.0,
+      "lowUnit": 95.0,
+      "bidders": {
+        "BIG CREEK CONSTRUCTION, LTD.": 95.0
+      }
+    },
+    {
+      "itemCode": "8011 6008",
+      "description": "D-GR HMA(SQ) TY F PG 70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 103.5,
+      "lowUnit": 115.0,
+      "bidders": {
+        "BIG CREEK CONSTRUCTION, LTD.": 115.0
+      }
+    }
+  ]
+}

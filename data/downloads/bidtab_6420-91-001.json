@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "csj": "6420-91-001",
+    "county": "Hamilton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642091001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/06/22",
+    "engEstTotal": 290665.78,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARLANE CONSTRUCTION, LLC",
+      "totalBidAmount": 221141.26
+    },
+    {
+      "rank": 2,
+      "vendorName": "KENKO CONTRACTORS PRO LLC",
+      "totalBidAmount": 253502.86
+    },
+    {
+      "rank": 3,
+      "vendorName": "GREG SCRUGGS",
+      "totalBidAmount": 291994.16
+    },
+    {
+      "rank": 4,
+      "vendorName": "USA DT SERVICES, INC.",
+      "totalBidAmount": 336250.1
+    },
+    {
+      "rank": 5,
+      "vendorName": "ABESCAPE LANDSCAPING, LLC",
+      "totalBidAmount": 336251.9
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 9121.97,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "MARLANE CONSTRUCTION, LLC": 2000.0,
+        "KENKO CONTRACTORS PRO LLC": 1.0,
+        "GREG SCRUGGS": 0.001,
+        "USA DT SERVICES, INC.": 0.1,
+        "ABESCAPE LANDSCAPING, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 17.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "MARLANE CONSTRUCTION, LLC": 1.0,
+        "KENKO CONTRACTORS PRO LLC": 1.0,
+        "GREG SCRUGGS": 0.001,
+        "USA DT SERVICES, INC.": 55.0,
+        "ABESCAPE LANDSCAPING, LLC": 55.0
+      }
+    },
+    {
+      "itemCode": "0730 6104",
+      "description": "FULL-WIDTH MOWING (RURAL)",
+      "unit": "AC",
+      "quantity": 4736.86,
+      "engEstUnit": 48.0,
+      "lowUnit": 39.0,
+      "bidders": {
+        "MARLANE CONSTRUCTION, LLC": 39.0,
+        "KENKO CONTRACTORS PRO LLC": 45.0,
+        "GREG SCRUGGS": 50.49,
+        "USA DT SERVICES, INC.": 55.0,
+        "ABESCAPE LANDSCAPING, LLC": 55.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 1992.92,
+      "engEstUnit": 18.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "MARLANE CONSTRUCTION, LLC": 16.0,
+        "KENKO CONTRACTORS PRO LLC": 16.22,
+        "GREG SCRUGGS": 24.0,
+        "USA DT SERVICES, INC.": 30.0,
+        "ABESCAPE LANDSCAPING, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 500.0,
+      "engEstUnit": 17.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "MARLANE CONSTRUCTION, LLC": 1.0,
+        "KENKO CONTRACTORS PRO LLC": 16.0,
+        "GREG SCRUGGS": 10.0,
+        "USA DT SERVICES, INC.": 30.0,
+        "ABESCAPE LANDSCAPING, LLC": 30.0
+      }
+    }
+  ]
+}

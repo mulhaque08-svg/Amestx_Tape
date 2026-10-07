@@ -1,0 +1,408 @@
+{
+  "metadata": {
+    "csj": "6457-07-001",
+    "county": "Mclennan",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645707001",
+    "projectType": "MISCELLANEOUS CONCRETE REPAIR",
+    "letDate": "03/06/24",
+    "engEstTotal": 637505.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 600315.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 618625.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 782600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6002",
+      "description": "REMOVING CONC (PAV)",
+      "unit": "CY",
+      "quantity": 2.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 25.0,
+        "DIGG COMMERCIAL, LLC": 344.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 500.0
+      }
+    },
+    {
+      "itemCode": "0104 6010",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "CY",
+      "quantity": 50.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 25.0,
+        "DIGG COMMERCIAL, LLC": 50.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 50.0
+      }
+    },
+    {
+      "itemCode": "0104 6021",
+      "description": "REMOVING CONC (CURB)",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 25.0,
+        "DIGG COMMERCIAL, LLC": 10.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 50.0
+      }
+    },
+    {
+      "itemCode": "0104 6028",
+      "description": "REMOVING CONC (MISC)",
+      "unit": "SY",
+      "quantity": 30.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 25.0,
+        "DIGG COMMERCIAL, LLC": 60.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0
+      }
+    },
+    {
+      "itemCode": "0132 6003",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY B)",
+      "unit": "CY",
+      "quantity": 50.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 37.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 37.0,
+        "DIGG COMMERCIAL, LLC": 100.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 60.0
+      }
+    },
+    {
+      "itemCode": "0158 6005",
+      "description": "SPEC EXCAV WORK (ORIGINAL)",
+      "unit": "CY",
+      "quantity": 60.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 37.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 37.0,
+        "DIGG COMMERCIAL, LLC": 150.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0
+      }
+    },
+    {
+      "itemCode": "0401 6001",
+      "description": "FLOWABLE BACKFILL",
+      "unit": "CY",
+      "quantity": 146.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 279.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 279.0,
+        "DIGG COMMERCIAL, LLC": 350.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 600.0
+      }
+    },
+    {
+      "itemCode": "0420 6012",
+      "description": "CL B CONC (MISC)",
+      "unit": "CY",
+      "quantity": 20.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 600.0,
+        "DIGG COMMERCIAL, LLC": 1000.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 500.0
+      }
+    },
+    {
+      "itemCode": "0420 6057",
+      "description": "CL C CONC (WINGWALLS)",
+      "unit": "CY",
+      "quantity": 2.0,
+      "engEstUnit": 1800.0,
+      "lowUnit": 7777.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 7777.0,
+        "DIGG COMMERCIAL, LLC": 2000.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 15000.0
+      }
+    },
+    {
+      "itemCode": "0420 6074",
+      "description": "CL C CONC (MISC)",
+      "unit": "CY",
+      "quantity": 51.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 900.0,
+        "DIGG COMMERCIAL, LLC": 1000.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 2000.0
+      }
+    },
+    {
+      "itemCode": "0420 6158",
+      "description": "CL C CONC(PILE ENCASEMENT)",
+      "unit": "LF",
+      "quantity": 20.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 880.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 880.0,
+        "DIGG COMMERCIAL, LLC": 1000.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 2000.0
+      }
+    },
+    {
+      "itemCode": "0429 6003",
+      "description": "CONC STR REPAIR(DECK REP(PART DEPTH))",
+      "unit": "SF",
+      "quantity": 50.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 345.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 345.0,
+        "DIGG COMMERCIAL, LLC": 200.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 150.0
+      }
+    },
+    {
+      "itemCode": "0429 6005",
+      "description": "CONC STR REPAIR(DECK REP (FULL DEPTH))",
+      "unit": "SF",
+      "quantity": 50.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 545.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 545.0,
+        "DIGG COMMERCIAL, LLC": 300.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 200.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 303.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 276.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 276.0,
+        "DIGG COMMERCIAL, LLC": 325.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 250.0
+      }
+    },
+    {
+      "itemCode": "0429 6009",
+      "description": "CONC STR REPAIR (STANDARD)",
+      "unit": "SF",
+      "quantity": 100.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 345.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 345.0,
+        "DIGG COMMERCIAL, LLC": 200.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 200.0
+      }
+    },
+    {
+      "itemCode": "0432 6002",
+      "description": "RIPRAP (CONC)(5 IN)",
+      "unit": "CY",
+      "quantity": 40.0,
+      "engEstUnit": 670.0,
+      "lowUnit": 890.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 890.0,
+        "DIGG COMMERCIAL, LLC": 800.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 500.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 220.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 345.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 345.0,
+        "DIGG COMMERCIAL, LLC": 200.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 300.0
+      }
+    },
+    {
+      "itemCode": "0432 6057",
+      "description": "RIPRAP (STONE TY R)(GROUT)(18 IN)",
+      "unit": "CY",
+      "quantity": 20.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 505.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 505.0,
+        "DIGG COMMERCIAL, LLC": 350.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 300.0
+      }
+    },
+    {
+      "itemCode": "0438 6001",
+      "description": "CLEANING AND SEALING EXISTING JOINTS",
+      "unit": "LF",
+      "quantity": 250.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 65.0,
+        "DIGG COMMERCIAL, LLC": 50.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0
+      }
+    },
+    {
+      "itemCode": "0438 6006",
+      "description": "CLEANING AND SEALING JOINTS (CL 3)",
+      "unit": "LF",
+      "quantity": 250.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 65.0,
+        "DIGG COMMERCIAL, LLC": 50.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0
+      }
+    },
+    {
+      "itemCode": "0459 6001",
+      "description": "GABIONS (GALV)",
+      "unit": "CY",
+      "quantity": 10.0,
+      "engEstUnit": 260.0,
+      "lowUnit": 543.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 543.0,
+        "DIGG COMMERCIAL, LLC": 400.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 300.0
+      }
+    },
+    {
+      "itemCode": "0467 6004",
+      "description": "SET (REPLACE PIPE RUNNER)",
+      "unit": "EA",
+      "quantity": 29.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 453.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 453.0,
+        "DIGG COMMERCIAL, LLC": 1200.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 2500.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 4346.63,
+      "lowUnit": 1.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 1.0,
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 5000.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 5795.5,
+      "lowUnit": 1.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 1.0,
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 1000.0
+      }
+    },
+    {
+      "itemCode": "0529 6007",
+      "description": "CONC CURB & GUTTER (TY I)",
+      "unit": "LF",
+      "quantity": 250.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 55.0,
+        "DIGG COMMERCIAL, LLC": 50.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 50.0
+      }
+    },
+    {
+      "itemCode": "0529 6011",
+      "description": "CONC CURB (DOWEL)",
+      "unit": "LF",
+      "quantity": 250.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 55.0,
+        "DIGG COMMERCIAL, LLC": 50.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 50.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 26.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 1.0,
+        "DIGG COMMERCIAL, LLC": 200.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0
+      }
+    },
+    {
+      "itemCode": "7000 6001",
+      "description": "REML & DISPL DRIFTWOOD & DEBRIS",
+      "unit": "CY",
+      "quantity": 305.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 200.0,
+        "DIGG COMMERCIAL, LLC": 50.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 150.0
+      }
+    },
+    {
+      "itemCode": "7329 6002",
+      "description": "MAINTENANCE SPEED LIMIT SIGNING",
+      "unit": "DAY",
+      "quantity": 26.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "RISE UP CONSTRUCTION LLC": 350.0,
+        "DIGG COMMERCIAL, LLC": 150.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0
+      }
+    }
+  ]
+}

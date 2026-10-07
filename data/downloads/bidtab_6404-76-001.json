@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6404-76-001",
+    "county": "Ellis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640476001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "10/06/22",
+    "engEstTotal": 690272.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CEN-TEX IRRIGATION SYSTEMS, INC.",
+      "totalBidAmount": 691260.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "JASCO",
+      "totalBidAmount": 789600.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 834600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 62752.0,
+      "lowUnit": 7500.0,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 7500.0,
+        "JASCO": 20000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 65000.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 11840.0,
+      "engEstUnit": 53.0,
+      "lowUnit": 57.75,
+      "bidders": {
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 57.75,
+        "JASCO": 65.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 65.0
+      }
+    }
+  ]
+}

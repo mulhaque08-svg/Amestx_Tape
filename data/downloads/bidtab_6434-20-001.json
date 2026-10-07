@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6434-20-001",
+    "county": "Live Oak",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643420001",
+    "projectType": "SPECIALTY MARKINGS",
+    "letDate": "03/21/23",
+    "engEstTotal": 99170.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRAFFIC HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 98198.2
+    },
+    {
+      "rank": 2,
+      "vendorName": "PAVEMENT MARKINGS INC.",
+      "totalBidAmount": 182795.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 9700.0,
+      "bidders": {
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 9700.0,
+        "PAVEMENT MARKINGS INC.": 18000.0
+      }
+    },
+    {
+      "itemCode": "0533 6001",
+      "description": "RUMBLE STRIPS (SHOULDER)",
+      "unit": "LF",
+      "quantity": 95340.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.73,
+      "bidders": {
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 0.73,
+        "PAVEMENT MARKINGS INC.": 1.6
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 60.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 100.0,
+        "PAVEMENT MARKINGS INC.": 10.0
+      }
+    }
+  ]
+}

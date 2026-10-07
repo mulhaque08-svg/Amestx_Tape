@@ -1,0 +1,1366 @@
+{
+  "metadata": {
+    "csj": "6374-04-001",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637404001",
+    "projectType": "MNT OF TRF SGNLS",
+    "letDate": "09/01/21",
+    "engEstTotal": 2279744.33,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "LINDSEY ELECTRIC, L.P.",
+      "totalBidAmount": 1985138.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TRAF-TEX, INC.",
+      "totalBidAmount": 2272896.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "THIRD COAST SERVICES LLC",
+      "totalBidAmount": 2569621.7
+    },
+    {
+      "rank": 4,
+      "vendorName": "SIEMENS MOBILITY, INC.",
+      "totalBidAmount": 3916854.3
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6028",
+      "description": "REMOVING CONC (MISC)",
+      "unit": "SY",
+      "quantity": 1.0,
+      "engEstUnit": 92.6,
+      "lowUnit": 100.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 100.0,
+        "TRAF-TEX, INC.": 2765.0,
+        "THIRD COAST SERVICES LLC": 95.0,
+        "SIEMENS MOBILITY, INC.": 80.7
+      }
+    },
+    {
+      "itemCode": "0429 6009",
+      "description": "CONC STR REPAIR (STANDARD)",
+      "unit": "SF",
+      "quantity": 10.0,
+      "engEstUnit": 230.52,
+      "lowUnit": 100.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 100.0,
+        "TRAF-TEX, INC.": 1112.0,
+        "THIRD COAST SERVICES LLC": 230.0,
+        "SIEMENS MOBILITY, INC.": 118.3
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 1.0,
+        "TRAF-TEX, INC.": 350.0,
+        "THIRD COAST SERVICES LLC": 1000.0,
+        "SIEMENS MOBILITY, INC.": 9683.9
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 1.0,
+        "TRAF-TEX, INC.": 625.0,
+        "THIRD COAST SERVICES LLC": 1500.0,
+        "SIEMENS MOBILITY, INC.": 1452.6
+      }
+    },
+    {
+      "itemCode": "0618 6013",
+      "description": "CONDT (PVC) (SCH 40) (1/2\")",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 3.99,
+      "lowUnit": 2.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 2.0,
+        "TRAF-TEX, INC.": 6.0,
+        "THIRD COAST SERVICES LLC": 5.0,
+        "SIEMENS MOBILITY, INC.": 48.9
+      }
+    },
+    {
+      "itemCode": "0618 6021",
+      "description": "CONDT (PVC) (SCH 40) (1 1/2\")",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 4.36,
+      "lowUnit": 2.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 2.0,
+        "TRAF-TEX, INC.": 10.0,
+        "THIRD COAST SERVICES LLC": 7.05,
+        "SIEMENS MOBILITY, INC.": 41.2
+      }
+    },
+    {
+      "itemCode": "0618 6023",
+      "description": "CONDT (PVC) (SCH 40) (2\")",
+      "unit": "LF",
+      "quantity": 395.0,
+      "engEstUnit": 4.9,
+      "lowUnit": 2.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 2.0,
+        "TRAF-TEX, INC.": 11.0,
+        "THIRD COAST SERVICES LLC": 8.0,
+        "SIEMENS MOBILITY, INC.": 51.0
+      }
+    },
+    {
+      "itemCode": "0618 6029",
+      "description": "CONDT (PVC) (SCH 40) (3\")",
+      "unit": "LF",
+      "quantity": 119.0,
+      "engEstUnit": 5.16,
+      "lowUnit": 2.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 2.0,
+        "TRAF-TEX, INC.": 15.0,
+        "THIRD COAST SERVICES LLC": 11.8,
+        "SIEMENS MOBILITY, INC.": 53.8
+      }
+    },
+    {
+      "itemCode": "0618 6033",
+      "description": "CONDT (PVC) (SCH 40) (4\")",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 5.72,
+      "lowUnit": 2.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 2.0,
+        "TRAF-TEX, INC.": 18.0,
+        "THIRD COAST SERVICES LLC": 15.0,
+        "SIEMENS MOBILITY, INC.": 55.6
+      }
+    },
+    {
+      "itemCode": "0618 6047",
+      "description": "CONDT (PVC) (SCH 80) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 1500.0,
+      "engEstUnit": 9.52,
+      "lowUnit": 10.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 10.0,
+        "TRAF-TEX, INC.": 17.44,
+        "THIRD COAST SERVICES LLC": 11.75,
+        "SIEMENS MOBILITY, INC.": 26.6
+      }
+    },
+    {
+      "itemCode": "0618 6064",
+      "description": "CONDT (RM) (1\")",
+      "unit": "LF",
+      "quantity": 158.0,
+      "engEstUnit": 9.38,
+      "lowUnit": 1.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 1.0,
+        "TRAF-TEX, INC.": 12.5,
+        "THIRD COAST SERVICES LLC": 13.0,
+        "SIEMENS MOBILITY, INC.": 53.8
+      }
+    },
+    {
+      "itemCode": "0618 6068",
+      "description": "CONDT (RM) (1 1/2\")",
+      "unit": "LF",
+      "quantity": 1000.0,
+      "engEstUnit": 11.3,
+      "lowUnit": 5.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 5.0,
+        "TRAF-TEX, INC.": 18.35,
+        "THIRD COAST SERVICES LLC": 17.0,
+        "SIEMENS MOBILITY, INC.": 57.6
+      }
+    },
+    {
+      "itemCode": "0618 6070",
+      "description": "CONDT (RM) (2\")",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 12.65,
+      "lowUnit": 10.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 10.0,
+        "TRAF-TEX, INC.": 25.43,
+        "THIRD COAST SERVICES LLC": 20.0,
+        "SIEMENS MOBILITY, INC.": 60.6
+      }
+    },
+    {
+      "itemCode": "0618 6071",
+      "description": "CONDT (RM) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 20.0,
+      "engEstUnit": 14.75,
+      "lowUnit": 10.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 10.0,
+        "TRAF-TEX, INC.": 29.0,
+        "THIRD COAST SERVICES LLC": 22.0,
+        "SIEMENS MOBILITY, INC.": 77.8
+      }
+    },
+    {
+      "itemCode": "0618 6074",
+      "description": "CONDT (RM) (3\")",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 21.41,
+      "lowUnit": 20.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 20.0,
+        "TRAF-TEX, INC.": 42.0,
+        "THIRD COAST SERVICES LLC": 36.0,
+        "SIEMENS MOBILITY, INC.": 72.5
+      }
+    },
+    {
+      "itemCode": "0618 6078",
+      "description": "CONDT (RM) (4\")",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 26.21,
+      "lowUnit": 20.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 20.0,
+        "TRAF-TEX, INC.": 58.0,
+        "THIRD COAST SERVICES LLC": 50.0,
+        "SIEMENS MOBILITY, INC.": 81.6
+      }
+    },
+    {
+      "itemCode": "0620 6009",
+      "description": "ELEC CONDR (NO.6) BARE",
+      "unit": "LF",
+      "quantity": 5000.0,
+      "engEstUnit": 0.92,
+      "lowUnit": 1.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 1.0,
+        "TRAF-TEX, INC.": 1.31,
+        "THIRD COAST SERVICES LLC": 1.5,
+        "SIEMENS MOBILITY, INC.": 2.8
+      }
+    },
+    {
+      "itemCode": "0620 6010",
+      "description": "ELEC CONDR (NO.6) INSULATED",
+      "unit": "LF",
+      "quantity": 15000.0,
+      "engEstUnit": 1.01,
+      "lowUnit": 1.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 1.0,
+        "TRAF-TEX, INC.": 1.53,
+        "THIRD COAST SERVICES LLC": 1.7,
+        "SIEMENS MOBILITY, INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "0620 6020",
+      "description": "ELEC CONDR (NO.1/0) INSULATED",
+      "unit": "LF",
+      "quantity": 10.0,
+      "engEstUnit": 3.09,
+      "lowUnit": 4.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 4.0,
+        "TRAF-TEX, INC.": 5.1,
+        "THIRD COAST SERVICES LLC": 4.5,
+        "SIEMENS MOBILITY, INC.": 5.4
+      }
+    },
+    {
+      "itemCode": "0620 6022",
+      "description": "ELEC CONDR (NO.2/0) INSULATED",
+      "unit": "LF",
+      "quantity": 10500.0,
+      "engEstUnit": 3.76,
+      "lowUnit": 1.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 1.0,
+        "TRAF-TEX, INC.": 6.23,
+        "THIRD COAST SERVICES LLC": 5.6,
+        "SIEMENS MOBILITY, INC.": 6.3
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 695.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 500.0,
+        "TRAF-TEX, INC.": 636.0,
+        "THIRD COAST SERVICES LLC": 950.0,
+        "SIEMENS MOBILITY, INC.": 1721.3
+      }
+    },
+    {
+      "itemCode": "0625 6003",
+      "description": "ZINC-COAT STL WIRE STRAND (3/8\")",
+      "unit": "LF",
+      "quantity": 10000.0,
+      "engEstUnit": 1.31,
+      "lowUnit": 2.5,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 2.5,
+        "TRAF-TEX, INC.": 1.67,
+        "THIRD COAST SERVICES LLC": 1.5,
+        "SIEMENS MOBILITY, INC.": 2.7
+      }
+    },
+    {
+      "itemCode": "0625 6004",
+      "description": "ZINC-COAT STL WIRE STRAND (5/16\")",
+      "unit": "LF",
+      "quantity": 30000.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 2.5,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 2.5,
+        "TRAF-TEX, INC.": 1.55,
+        "THIRD COAST SERVICES LLC": 1.25,
+        "SIEMENS MOBILITY, INC.": 2.6
+      }
+    },
+    {
+      "itemCode": "0627 6002",
+      "description": "TIMBER POLE (CL 2) 40 FT",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 755.97,
+      "lowUnit": 500.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 500.0,
+        "TRAF-TEX, INC.": 1053.0,
+        "THIRD COAST SERVICES LLC": 900.0,
+        "SIEMENS MOBILITY, INC.": 1793.3
+      }
+    },
+    {
+      "itemCode": "0627 6003",
+      "description": "TIMBER POLE (CL 2) 50 FT",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 948.07,
+      "lowUnit": 550.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 550.0,
+        "TRAF-TEX, INC.": 1198.0,
+        "THIRD COAST SERVICES LLC": 1200.0,
+        "SIEMENS MOBILITY, INC.": 1929.8
+      }
+    },
+    {
+      "itemCode": "0627 6005",
+      "description": "TIMBER POLE (CL 2) 35 FT",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 650.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 400.0,
+        "TRAF-TEX, INC.": 913.0,
+        "THIRD COAST SERVICES LLC": 835.0,
+        "SIEMENS MOBILITY, INC.": 1726.7
+      }
+    },
+    {
+      "itemCode": "0628 6002",
+      "description": "REMOVE ELECTRICAL SERVICES",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 168.17,
+      "lowUnit": 150.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 150.0,
+        "TRAF-TEX, INC.": 367.0,
+        "THIRD COAST SERVICES LLC": 150.0,
+        "SIEMENS MOBILITY, INC.": 484.2
+      }
+    },
+    {
+      "itemCode": "0682 6015",
+      "description": "VEH SIG SEC(12\")LED(RED ARW)(LENS ONLY)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 58.96,
+      "lowUnit": 35.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 35.0,
+        "TRAF-TEX, INC.": 79.0,
+        "THIRD COAST SERVICES LLC": 50.0,
+        "SIEMENS MOBILITY, INC.": 61.3
+      }
+    },
+    {
+      "itemCode": "0682 6018",
+      "description": "PED SIG SEC (LED)(COUNTDOWN)",
+      "unit": "EA",
+      "quantity": 350.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 200.0,
+        "TRAF-TEX, INC.": 246.0,
+        "THIRD COAST SERVICES LLC": 300.0,
+        "SIEMENS MOBILITY, INC.": 191.5
+      }
+    },
+    {
+      "itemCode": "0682 6020",
+      "description": "PED SIG SEC (HOUSING ONLY)",
+      "unit": "EA",
+      "quantity": 250.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 200.0,
+        "TRAF-TEX, INC.": 164.0,
+        "THIRD COAST SERVICES LLC": 300.0,
+        "SIEMENS MOBILITY, INC.": 157.3
+      }
+    },
+    {
+      "itemCode": "0682 6047",
+      "description": "LOUVER (12\") (ADJUSTABLE)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 255.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 250.0,
+        "TRAF-TEX, INC.": 278.0,
+        "THIRD COAST SERVICES LLC": 250.0,
+        "SIEMENS MOBILITY, INC.": 207.5
+      }
+    },
+    {
+      "itemCode": "0682 6048",
+      "description": "VEH SIG SEC (12\")(LED)(YEL)(SOLAR)",
+      "unit": "EA",
+      "quantity": 75.0,
+      "engEstUnit": 74.78,
+      "lowUnit": 50.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 50.0,
+        "TRAF-TEX, INC.": 105.0,
+        "THIRD COAST SERVICES LLC": 150.0,
+        "SIEMENS MOBILITY, INC.": 119.7
+      }
+    },
+    {
+      "itemCode": "0682 6054",
+      "description": "BACKPLATE W/REF BRDR(3 SEC)(VENT)ALUM",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 90.17,
+      "lowUnit": 100.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 100.0,
+        "TRAF-TEX, INC.": 105.0,
+        "THIRD COAST SERVICES LLC": 125.0,
+        "SIEMENS MOBILITY, INC.": 119.7
+      }
+    },
+    {
+      "itemCode": "0682 6055",
+      "description": "BACKPLATE W/REF BRDR(4 SEC)(VENT)ALUM",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 108.33,
+      "lowUnit": 100.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 100.0,
+        "TRAF-TEX, INC.": 126.0,
+        "THIRD COAST SERVICES LLC": 150.0,
+        "SIEMENS MOBILITY, INC.": 119.7
+      }
+    },
+    {
+      "itemCode": "0682 6056",
+      "description": "BACKPLATE W/REF BRDR(5 SEC)(VENT)ALUM",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 118.67,
+      "lowUnit": 100.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 100.0,
+        "TRAF-TEX, INC.": 138.0,
+        "THIRD COAST SERVICES LLC": 170.0,
+        "SIEMENS MOBILITY, INC.": 125.1
+      }
+    },
+    {
+      "itemCode": "0684 6007",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(2 CONDR)",
+      "unit": "LF",
+      "quantity": 80000.0,
+      "engEstUnit": 1.39,
+      "lowUnit": 2.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 2.0,
+        "TRAF-TEX, INC.": 1.37,
+        "THIRD COAST SERVICES LLC": 1.5,
+        "SIEMENS MOBILITY, INC.": 2.8
+      }
+    },
+    {
+      "itemCode": "0684 6009",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(4 CONDR)",
+      "unit": "LF",
+      "quantity": 80000.0,
+      "engEstUnit": 1.73,
+      "lowUnit": 2.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 2.0,
+        "TRAF-TEX, INC.": 1.79,
+        "THIRD COAST SERVICES LLC": 1.85,
+        "SIEMENS MOBILITY, INC.": 2.8
+      }
+    },
+    {
+      "itemCode": "0684 6012",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(7 CONDR)",
+      "unit": "LF",
+      "quantity": 80000.0,
+      "engEstUnit": 2.13,
+      "lowUnit": 2.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 2.0,
+        "TRAF-TEX, INC.": 2.19,
+        "THIRD COAST SERVICES LLC": 2.15,
+        "SIEMENS MOBILITY, INC.": 2.8
+      }
+    },
+    {
+      "itemCode": "0684 6079",
+      "description": "TRF SIG CBL (TY C)(12 AWG)(2 CONDR)",
+      "unit": "LF",
+      "quantity": 50000.0,
+      "engEstUnit": 1.8,
+      "lowUnit": 2.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 2.0,
+        "TRAF-TEX, INC.": 1.37,
+        "THIRD COAST SERVICES LLC": 1.75,
+        "SIEMENS MOBILITY, INC.": 2.8
+      }
+    },
+    {
+      "itemCode": "0685 6003",
+      "description": "REMOVE RDSD FLASH BEACON ASSEMBLY",
+      "unit": "EA",
+      "quantity": 45.0,
+      "engEstUnit": 420.93,
+      "lowUnit": 375.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 375.0,
+        "TRAF-TEX, INC.": 282.0,
+        "THIRD COAST SERVICES LLC": 500.0,
+        "SIEMENS MOBILITY, INC.": 968.4
+      }
+    },
+    {
+      "itemCode": "0685 6004",
+      "description": "INSTL RDSD FLSH BCN ASSM (SOLAR PWRD)",
+      "unit": "EA",
+      "quantity": 65.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 1000.0,
+        "TRAF-TEX, INC.": 1211.0,
+        "THIRD COAST SERVICES LLC": 1500.0,
+        "SIEMENS MOBILITY, INC.": 7558.0
+      }
+    },
+    {
+      "itemCode": "0686 6004",
+      "description": "INS TRF SIG PL AM (S)LUM ARM(10')",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 168.37,
+      "lowUnit": 50.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 50.0,
+        "TRAF-TEX, INC.": 1688.0,
+        "THIRD COAST SERVICES LLC": 575.0,
+        "SIEMENS MOBILITY, INC.": 968.4
+      }
+    },
+    {
+      "itemCode": "0686 6292",
+      "description": "INS TRF SIG PL AM (MAST)(INSTALL ONLY)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 420.93,
+      "lowUnit": 400.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 400.0,
+        "TRAF-TEX, INC.": 400.0,
+        "THIRD COAST SERVICES LLC": 750.0,
+        "SIEMENS MOBILITY, INC.": 2178.9
+      }
+    },
+    {
+      "itemCode": "0686 6293",
+      "description": "INS TRF SIG PL AM (STRAN)(INSTLL ONLY)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 420.93,
+      "lowUnit": 400.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 400.0,
+        "TRAF-TEX, INC.": 456.0,
+        "THIRD COAST SERVICES LLC": 750.0,
+        "SIEMENS MOBILITY, INC.": 2663.1
+      }
+    },
+    {
+      "itemCode": "0686 6294",
+      "description": "INSTALL TSPA(S) (MAST DBL)(INSTL ONLY)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 505.11,
+      "lowUnit": 800.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 800.0,
+        "TRAF-TEX, INC.": 456.0,
+        "THIRD COAST SERVICES LLC": 1500.0,
+        "SIEMENS MOBILITY, INC.": 3389.4
+      }
+    },
+    {
+      "itemCode": "0688 6001",
+      "description": "PED DETECT PUSH BUTTON (APS)",
+      "unit": "EA",
+      "quantity": 70.0,
+      "engEstUnit": 640.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 500.0,
+        "TRAF-TEX, INC.": 703.0,
+        "THIRD COAST SERVICES LLC": 650.0,
+        "SIEMENS MOBILITY, INC.": 522.7
+      }
+    },
+    {
+      "itemCode": "0688 6003",
+      "description": "PED DETECTOR CONTROLLER UNIT",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 2796.19,
+      "lowUnit": 2700.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 2700.0,
+        "TRAF-TEX, INC.": 1361.0,
+        "THIRD COAST SERVICES LLC": 3800.0,
+        "SIEMENS MOBILITY, INC.": 2485.6
+      }
+    },
+    {
+      "itemCode": "0690 6009",
+      "description": "REMOVAL OF CABLES",
+      "unit": "LF",
+      "quantity": 250000.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.25,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 0.25,
+        "TRAF-TEX, INC.": 0.22,
+        "THIRD COAST SERVICES LLC": 0.75,
+        "SIEMENS MOBILITY, INC.": 1.3
+      }
+    },
+    {
+      "itemCode": "0690 6027",
+      "description": "REMOVAL OF SIGNAL RELATED SIGNS",
+      "unit": "EA",
+      "quantity": 150.0,
+      "engEstUnit": 21.06,
+      "lowUnit": 1.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 1.0,
+        "TRAF-TEX, INC.": 15.5,
+        "THIRD COAST SERVICES LLC": 50.0,
+        "SIEMENS MOBILITY, INC.": 30.3
+      }
+    },
+    {
+      "itemCode": "0690 6029",
+      "description": "INSTALL OF SIGNAL RELATED SIGNS",
+      "unit": "EA",
+      "quantity": 250.0,
+      "engEstUnit": 49.31,
+      "lowUnit": 1.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 1.0,
+        "TRAF-TEX, INC.": 341.0,
+        "THIRD COAST SERVICES LLC": 150.0,
+        "SIEMENS MOBILITY, INC.": 137.8
+      }
+    },
+    {
+      "itemCode": "0690 6032",
+      "description": "INSTALL OF PEDESTRIAN PUSH BUTTONS",
+      "unit": "EA",
+      "quantity": 250.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 100.0,
+        "TRAF-TEX, INC.": 159.0,
+        "THIRD COAST SERVICES LLC": 50.0,
+        "SIEMENS MOBILITY, INC.": 151.9
+      }
+    },
+    {
+      "itemCode": "0690 6036",
+      "description": "INSTALL OF FND FOR GROUND MNT CABINETS",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1609.05,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 1500.0,
+        "TRAF-TEX, INC.": 1680.0,
+        "THIRD COAST SERVICES LLC": 1500.0,
+        "SIEMENS MOBILITY, INC.": 1210.5
+      }
+    },
+    {
+      "itemCode": "0690 6038",
+      "description": "REMOVAL OF CONTROL CABINET(GRND MNT)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 841.85,
+      "lowUnit": 500.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 500.0,
+        "TRAF-TEX, INC.": 912.0,
+        "THIRD COAST SERVICES LLC": 250.0,
+        "SIEMENS MOBILITY, INC.": 726.3
+      }
+    },
+    {
+      "itemCode": "0690 6040",
+      "description": "INSTALL OF CONTROL CABINET(GRND MNT)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 1067.85,
+      "lowUnit": 500.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 500.0,
+        "TRAF-TEX, INC.": 795.0,
+        "THIRD COAST SERVICES LLC": 1200.0,
+        "SIEMENS MOBILITY, INC.": 1452.6
+      }
+    },
+    {
+      "itemCode": "0690 6046",
+      "description": "INSTALL OF FLASHER CABINET",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 215.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 150.0,
+        "TRAF-TEX, INC.": 232.0,
+        "THIRD COAST SERVICES LLC": 600.0,
+        "SIEMENS MOBILITY, INC.": 1210.5
+      }
+    },
+    {
+      "itemCode": "0690 6071",
+      "description": "INS OF TRF SIG PL FND (30\" DRIL SHFT)",
+      "unit": "LF",
+      "quantity": 1.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 200.0,
+        "TRAF-TEX, INC.": 153.0,
+        "THIRD COAST SERVICES LLC": 235.0,
+        "SIEMENS MOBILITY, INC.": 457.1
+      }
+    },
+    {
+      "itemCode": "0690 6072",
+      "description": "INS OF TRF SIG PL FND (36\" DRIL SHFT)",
+      "unit": "LF",
+      "quantity": 1.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 200.0,
+        "TRAF-TEX, INC.": 215.0,
+        "THIRD COAST SERVICES LLC": 255.0,
+        "SIEMENS MOBILITY, INC.": 457.1
+      }
+    },
+    {
+      "itemCode": "0690 6073",
+      "description": "INS OF TRF SIG PL FND (42\" DRIL SHFT)",
+      "unit": "LF",
+      "quantity": 1.0,
+      "engEstUnit": 108.45,
+      "lowUnit": 200.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 200.0,
+        "TRAF-TEX, INC.": 493.0,
+        "THIRD COAST SERVICES LLC": 315.0,
+        "SIEMENS MOBILITY, INC.": 457.1
+      }
+    },
+    {
+      "itemCode": "0690 6074",
+      "description": "INS OF TRF SIG PL FND (48\" DRIL SHFT)",
+      "unit": "LF",
+      "quantity": 1.0,
+      "engEstUnit": 407.44,
+      "lowUnit": 200.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 200.0,
+        "TRAF-TEX, INC.": 533.0,
+        "THIRD COAST SERVICES LLC": 400.0,
+        "SIEMENS MOBILITY, INC.": 457.1
+      }
+    },
+    {
+      "itemCode": "0690 6078",
+      "description": "INSTL DOWN GUY W/GUARD",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 128.82,
+      "lowUnit": 100.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 100.0,
+        "TRAF-TEX, INC.": 152.0,
+        "THIRD COAST SERVICES LLC": 245.0,
+        "SIEMENS MOBILITY, INC.": 142.6
+      }
+    },
+    {
+      "itemCode": "0690 6081",
+      "description": "INSTL DOWN GUY AND ANCHOR W/GUARD",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 292.11,
+      "lowUnit": 250.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 250.0,
+        "TRAF-TEX, INC.": 293.0,
+        "THIRD COAST SERVICES LLC": 350.0,
+        "SIEMENS MOBILITY, INC.": 142.6
+      }
+    },
+    {
+      "itemCode": "0690 6087",
+      "description": "INSTL PED POLE ASSM",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 500.0,
+        "TRAF-TEX, INC.": 1010.0,
+        "THIRD COAST SERVICES LLC": 1375.0,
+        "SIEMENS MOBILITY, INC.": 1003.0
+      }
+    },
+    {
+      "itemCode": "0690 6106",
+      "description": "INSTALL OF FOUNDATION (PEDESTAL POLE)",
+      "unit": "LF",
+      "quantity": 1.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 1000.0,
+        "TRAF-TEX, INC.": 194.0,
+        "THIRD COAST SERVICES LLC": 955.0,
+        "SIEMENS MOBILITY, INC.": 1183.4
+      }
+    },
+    {
+      "itemCode": "0690 6108",
+      "description": "REPLACE ELEC SERV (TY D)(EXCLD POLE)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 2600.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 2000.0,
+        "TRAF-TEX, INC.": 1918.0,
+        "THIRD COAST SERVICES LLC": 2700.0,
+        "SIEMENS MOBILITY, INC.": 5000.5
+      }
+    },
+    {
+      "itemCode": "0690 6111",
+      "description": "REPL VEH SIG SEC (12\")LED(GRN)",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 35.0,
+        "TRAF-TEX, INC.": 166.0,
+        "THIRD COAST SERVICES LLC": 150.0,
+        "SIEMENS MOBILITY, INC.": 99.3
+      }
+    },
+    {
+      "itemCode": "0690 6112",
+      "description": "REPL VEH SIG SEC (12\")LED(GRN ARW)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 147.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 35.0,
+        "TRAF-TEX, INC.": 166.0,
+        "THIRD COAST SERVICES LLC": 150.0,
+        "SIEMENS MOBILITY, INC.": 103.6
+      }
+    },
+    {
+      "itemCode": "0690 6113",
+      "description": "REPL VEH SIG SEC (12\")LED(YEL)",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 35.0,
+        "TRAF-TEX, INC.": 166.0,
+        "THIRD COAST SERVICES LLC": 150.0,
+        "SIEMENS MOBILITY, INC.": 95.0
+      }
+    },
+    {
+      "itemCode": "0690 6114",
+      "description": "REPL VEH SIG SEC (12\")LED(YEL ARW)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 123.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 35.0,
+        "TRAF-TEX, INC.": 166.0,
+        "THIRD COAST SERVICES LLC": 150.0,
+        "SIEMENS MOBILITY, INC.": 100.3
+      }
+    },
+    {
+      "itemCode": "0690 6115",
+      "description": "REPL VEH SIG SEC (12\")LED(RED)",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 35.0,
+        "TRAF-TEX, INC.": 166.0,
+        "THIRD COAST SERVICES LLC": 150.0,
+        "SIEMENS MOBILITY, INC.": 92.8
+      }
+    },
+    {
+      "itemCode": "0690 6116",
+      "description": "REPL VEH SIG SEC (12\")LED(RED ARW)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 123.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 35.0,
+        "TRAF-TEX, INC.": 166.0,
+        "THIRD COAST SERVICES LLC": 150.0,
+        "SIEMENS MOBILITY, INC.": 102.5
+      }
+    },
+    {
+      "itemCode": "0690 6117",
+      "description": "REPL VH SG SEC (12\")LED(GRN U-TURN ARW)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 35.0,
+        "TRAF-TEX, INC.": 206.0,
+        "THIRD COAST SERVICES LLC": 210.0,
+        "SIEMENS MOBILITY, INC.": 134.7
+      }
+    },
+    {
+      "itemCode": "0690 6118",
+      "description": "REPL VH SG SEC (12\")LED(YEL U-TURN ARW)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 35.0,
+        "TRAF-TEX, INC.": 206.0,
+        "THIRD COAST SERVICES LLC": 210.0,
+        "SIEMENS MOBILITY, INC.": 117.5
+      }
+    },
+    {
+      "itemCode": "0690 6119",
+      "description": "REPL VH SG SEC (12\")LED(RED U-TURN ARW)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 35.0,
+        "TRAF-TEX, INC.": 206.0,
+        "THIRD COAST SERVICES LLC": 210.0,
+        "SIEMENS MOBILITY, INC.": 122.9
+      }
+    },
+    {
+      "itemCode": "0690 6120",
+      "description": "TRF SIG HD(REPL)(3SEC)(LED)W/BRKT BKPL",
+      "unit": "EA",
+      "quantity": 300.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 800.0,
+        "TRAF-TEX, INC.": 544.5,
+        "THIRD COAST SERVICES LLC": 700.0,
+        "SIEMENS MOBILITY, INC.": 795.7
+      }
+    },
+    {
+      "itemCode": "0690 6121",
+      "description": "TRF SIG HD(REPL)(4SEC)(LED)W/BRKT BKPL",
+      "unit": "EA",
+      "quantity": 150.0,
+      "engEstUnit": 649.19,
+      "lowUnit": 300.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 300.0,
+        "TRAF-TEX, INC.": 725.0,
+        "THIRD COAST SERVICES LLC": 755.0,
+        "SIEMENS MOBILITY, INC.": 969.0
+      }
+    },
+    {
+      "itemCode": "0690 6122",
+      "description": "TRF SIG HD(REPL)(5SEC)(LED)W/BRKT BKPL",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 733.94,
+      "lowUnit": 300.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 300.0,
+        "TRAF-TEX, INC.": 847.0,
+        "THIRD COAST SERVICES LLC": 925.0,
+        "SIEMENS MOBILITY, INC.": 1137.0
+      }
+    },
+    {
+      "itemCode": "0690 6124",
+      "description": "INSTALL PED POLE ASSM W/O FOUNDATION",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 541.27,
+      "lowUnit": 500.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 500.0,
+        "TRAF-TEX, INC.": 1467.0,
+        "THIRD COAST SERVICES LLC": 695.0,
+        "SIEMENS MOBILITY, INC.": 881.9
+      }
+    },
+    {
+      "itemCode": "0690 6130",
+      "description": "REPLACE CONTROLLER BREAKAWAY BASE",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 960.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 1000.0,
+        "TRAF-TEX, INC.": 1956.0,
+        "THIRD COAST SERVICES LLC": 1000.0,
+        "SIEMENS MOBILITY, INC.": 1452.6
+      }
+    },
+    {
+      "itemCode": "0690 6131",
+      "description": "INSTALL BBU SYSTEM",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 5500.0,
+      "lowUnit": 4000.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 4000.0,
+        "TRAF-TEX, INC.": 7215.0,
+        "THIRD COAST SERVICES LLC": 7500.0,
+        "SIEMENS MOBILITY, INC.": 6262.1
+      }
+    },
+    {
+      "itemCode": "0690 6132",
+      "description": "REMOVE BBU SYSTEM",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 168.37,
+      "lowUnit": 100.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 100.0,
+        "TRAF-TEX, INC.": 456.0,
+        "THIRD COAST SERVICES LLC": 100.0,
+        "SIEMENS MOBILITY, INC.": 242.1
+      }
+    },
+    {
+      "itemCode": "0690 6133",
+      "description": "REPLACE BBU SYSTEM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 6300.0,
+      "lowUnit": 6000.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 6000.0,
+        "TRAF-TEX, INC.": 401.0,
+        "THIRD COAST SERVICES LLC": 7000.0,
+        "SIEMENS MOBILITY, INC.": 6504.2
+      }
+    },
+    {
+      "itemCode": "6000 6016",
+      "description": "INSTALL ELECTRICAL SPLICE",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 50.0,
+        "TRAF-TEX, INC.": 35.0,
+        "THIRD COAST SERVICES LLC": 50.0,
+        "SIEMENS MOBILITY, INC.": 82.1
+      }
+    },
+    {
+      "itemCode": "6000 6054",
+      "description": "REPLACE STEEL SERVICE POLE",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 4011.86,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 5000.0,
+        "TRAF-TEX, INC.": 1374.0,
+        "THIRD COAST SERVICES LLC": 4000.0,
+        "SIEMENS MOBILITY, INC.": 1290.9
+      }
+    },
+    {
+      "itemCode": "6000 6109",
+      "description": "REPLACE PHOTOCELL",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 36.88,
+      "lowUnit": 100.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 100.0,
+        "TRAF-TEX, INC.": 87.0,
+        "THIRD COAST SERVICES LLC": 40.0,
+        "SIEMENS MOBILITY, INC.": 51.8
+      }
+    },
+    {
+      "itemCode": "6000 6120",
+      "description": "INSTALL LUMINAIRE (HPS)",
+      "unit": "EA",
+      "quantity": 17.0,
+      "engEstUnit": 600.23,
+      "lowUnit": 50.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 50.0,
+        "TRAF-TEX, INC.": 315.0,
+        "THIRD COAST SERVICES LLC": 1.0,
+        "SIEMENS MOBILITY, INC.": 60.6
+      }
+    },
+    {
+      "itemCode": "6000 6128",
+      "description": "INSTALL LUMINAIRE (LED)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 260.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 200.0,
+        "TRAF-TEX, INC.": 337.0,
+        "THIRD COAST SERVICES LLC": 350.0,
+        "SIEMENS MOBILITY, INC.": 60.6
+      }
+    },
+    {
+      "itemCode": "6000 6130",
+      "description": "INSTALL LUMINAIRE 250 W EQ (LED)",
+      "unit": "EA",
+      "quantity": 80.0,
+      "engEstUnit": 650.0,
+      "lowUnit": 550.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 550.0,
+        "TRAF-TEX, INC.": 337.0,
+        "THIRD COAST SERVICES LLC": 350.0,
+        "SIEMENS MOBILITY, INC.": 60.6
+      }
+    },
+    {
+      "itemCode": "6000 6140",
+      "description": "REPLACE LAMP FOR POLE MNT FIXTURE 250W",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 57.91,
+      "lowUnit": 1.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 1.0,
+        "TRAF-TEX, INC.": 55.0,
+        "THIRD COAST SERVICES LLC": 1.0,
+        "SIEMENS MOBILITY, INC.": 92.8
+      }
+    },
+    {
+      "itemCode": "6000 6156",
+      "description": "INST ALUMINUM CABLE STRAP",
+      "unit": "EA",
+      "quantity": 10000.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 1.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 1.0,
+        "TRAF-TEX, INC.": 2.32,
+        "THIRD COAST SERVICES LLC": 2.0,
+        "SIEMENS MOBILITY, INC.": 1.1
+      }
+    },
+    {
+      "itemCode": "6000 6157",
+      "description": "REPL ALUMINUM CABLE STRAP",
+      "unit": "EA",
+      "quantity": 3500.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 1.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 1.0,
+        "TRAF-TEX, INC.": 2.45,
+        "THIRD COAST SERVICES LLC": 2.0,
+        "SIEMENS MOBILITY, INC.": 1.1
+      }
+    },
+    {
+      "itemCode": "6004 6009",
+      "description": "COMM CABLE (AERIAL)(22 AWG)(25 PAIR)",
+      "unit": "LF",
+      "quantity": 3000.0,
+      "engEstUnit": 2.13,
+      "lowUnit": 2.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 2.0,
+        "TRAF-TEX, INC.": 1.15,
+        "THIRD COAST SERVICES LLC": 1.5,
+        "SIEMENS MOBILITY, INC.": 4.4
+      }
+    },
+    {
+      "itemCode": "6058 6003",
+      "description": "REPLACE BBU BATTERIES",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 345.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 500.0,
+        "TRAF-TEX, INC.": 378.0,
+        "THIRD COAST SERVICES LLC": 500.0,
+        "SIEMENS MOBILITY, INC.": 543.1
+      }
+    },
+    {
+      "itemCode": "6306 6012",
+      "description": "VIVDS CABLING (INSTALL ONLY)",
+      "unit": "LF",
+      "quantity": 6000.0,
+      "engEstUnit": 2.25,
+      "lowUnit": 2.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 2.0,
+        "TRAF-TEX, INC.": 1.0,
+        "THIRD COAST SERVICES LLC": 2.0,
+        "SIEMENS MOBILITY, INC.": 2.7
+      }
+    },
+    {
+      "itemCode": "6354 6001",
+      "description": "LEAD LED CURVE SIGN",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 5134.72,
+      "lowUnit": 4500.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 4500.0,
+        "TRAF-TEX, INC.": 6199.0,
+        "THIRD COAST SERVICES LLC": 5500.0,
+        "SIEMENS MOBILITY, INC.": 3063.7
+      }
+    },
+    {
+      "itemCode": "6354 6002",
+      "description": "LED CHEVRON",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 3772.72,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "LINDSEY ELECTRIC, L.P.": 1500.0,
+        "TRAF-TEX, INC.": 6100.0,
+        "THIRD COAST SERVICES LLC": 6500.0,
+        "SIEMENS MOBILITY, INC.": 1559.0
+      }
+    }
+  ]
+}

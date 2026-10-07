@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6378-78-001",
+    "county": "Childress",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637878001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "04/28/21",
+    "engEstTotal": 22234.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CLAY MORRIS",
+      "totalBidAmount": 24500.48
+    },
+    {
+      "rank": 2,
+      "vendorName": "IDEA CONTRACTING LLC",
+      "totalBidAmount": 41310.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 121.5,
+      "engEstUnit": 18.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "CLAY MORRIS": 10.0,
+        "IDEA CONTRACTING LLC": 145.0
+      }
+    },
+    {
+      "itemCode": "0751 6007",
+      "description": "MOWING, TRIMMING, AND EDGING",
+      "unit": "AC",
+      "quantity": 121.5,
+      "engEstUnit": 165.0,
+      "lowUnit": 191.65,
+      "bidders": {
+        "CLAY MORRIS": 191.65,
+        "IDEA CONTRACTING LLC": 195.0
+      }
+    }
+  ]
+}

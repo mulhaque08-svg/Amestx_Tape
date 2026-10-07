@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "csj": "6449-57-001",
+    "county": "Polk",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644957001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY - POLK",
+    "letDate": "01/05/24",
+    "engEstTotal": 502822.98,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ROY LEE WALKER",
+      "totalBidAmount": 410196.25
+    },
+    {
+      "rank": 2,
+      "vendorName": "ABESCAPE LANDSCAPING, LLC",
+      "totalBidAmount": 436985.32
+    },
+    {
+      "rank": 3,
+      "vendorName": "SERVIN MOWING",
+      "totalBidAmount": 454626.11
+    },
+    {
+      "rank": 4,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 554627.76
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 282.5,
+      "engEstUnit": 20.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ROY LEE WALKER": 1.0,
+        "ABESCAPE LANDSCAPING, LLC": 1.0,
+        "SERVIN MOWING": 1.1,
+        "P-VILLE, INCORPORATED": 53.95
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 7985.12,
+      "engEstUnit": 49.0,
+      "lowUnit": 39.9,
+      "bidders": {
+        "ROY LEE WALKER": 39.9,
+        "ABESCAPE LANDSCAPING, LLC": 40.0,
+        "SERVIN MOWING": 45.0,
+        "P-VILLE, INCORPORATED": 53.95
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ROY LEE WALKER": 1.0,
+        "ABESCAPE LANDSCAPING, LLC": 1.0,
+        "SERVIN MOWING": 1.1,
+        "P-VILLE, INCORPORATED": 53.95
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 6497.64,
+      "engEstUnit": 15.0,
+      "lowUnit": 14.0,
+      "bidders": {
+        "ROY LEE WALKER": 14.0,
+        "ABESCAPE LANDSCAPING, LLC": 18.0,
+        "SERVIN MOWING": 14.0,
+        "P-VILLE, INCORPORATED": 15.5
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 282.5,
+      "engEstUnit": 15.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ROY LEE WALKER": 1.0,
+        "ABESCAPE LANDSCAPING, LLC": 1.0,
+        "SERVIN MOWING": 14.0,
+        "P-VILLE, INCORPORATED": 15.5
+      }
+    }
+  ]
+}

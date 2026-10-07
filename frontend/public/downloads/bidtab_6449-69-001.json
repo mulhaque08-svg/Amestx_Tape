@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6449-69-001",
+    "county": "Hunt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644969001",
+    "projectType": "JANITORIAL MAINTENANCE",
+    "letDate": "10/19/23",
+    "engEstTotal": 21290.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KLEEN SWEEP SERVICES",
+      "totalBidAmount": 18140.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "RWCS JANITORIAL LLC",
+      "totalBidAmount": 20000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MAXPRO ENTERPRISE LLC",
+      "totalBidAmount": 20920.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "THIEM LLC",
+      "totalBidAmount": 21450.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "AGAPE CLEANING GROUP LLC",
+      "totalBidAmount": 24600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "7037 6001",
+      "description": "JANITORIAL SERVICES-DAILY, WKLY, MTHLY",
+      "unit": "MO",
+      "quantity": 12.0,
+      "engEstUnit": 1375.0,
+      "lowUnit": 1410.0,
+      "bidders": {
+        "KLEEN SWEEP SERVICES": 1410.0,
+        "RWCS JANITORIAL LLC": 1600.0,
+        "MAXPRO ENTERPRISE LLC": 1415.0,
+        "THIEM LLC": 1700.0,
+        "AGAPE CLEANING GROUP LLC": 1300.0
+      }
+    },
+    {
+      "itemCode": "7037 6002",
+      "description": "JANITORIAL SERVICES-STRIP/WAX FLOORS",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 565.0,
+      "lowUnit": 160.0,
+      "bidders": {
+        "KLEEN SWEEP SERVICES": 160.0,
+        "RWCS JANITORIAL LLC": 100.0,
+        "MAXPRO ENTERPRISE LLC": 490.0,
+        "THIEM LLC": 125.0,
+        "AGAPE CLEANING GROUP LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "7037 6003",
+      "description": "JANITORIAL SERVICES-WINDOW WASHING",
+      "unit": "CYC",
+      "quantity": 4.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "KLEEN SWEEP SERVICES": 65.0,
+        "RWCS JANITORIAL LLC": 50.0,
+        "MAXPRO ENTERPRISE LLC": 250.0,
+        "THIEM LLC": 75.0,
+        "AGAPE CLEANING GROUP LLC": 750.0
+      }
+    }
+  ]
+}

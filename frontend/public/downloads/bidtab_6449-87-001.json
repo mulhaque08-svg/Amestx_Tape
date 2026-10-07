@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "csj": "6449-87-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644987001",
+    "projectType": "MISCELLANEOUS CONCRETE REPAIR",
+    "letDate": "12/12/23",
+    "engEstTotal": 161088.47,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 144280.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "IBCTX, LLC",
+      "totalBidAmount": 164850.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "O. TREVINO CONSTRUCTION, LLC",
+      "totalBidAmount": 292790.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6021",
+      "description": "REMOVING CONC (CURB)",
+      "unit": "LF",
+      "quantity": 1210.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 20.0,
+        "IBCTX, LLC": 15.0,
+        "O. TREVINO CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0104 6022",
+      "description": "REMOVING CONC (CURB AND GUTTER)",
+      "unit": "LF",
+      "quantity": 10.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 20.0,
+        "IBCTX, LLC": 50.0,
+        "O. TREVINO CONSTRUCTION, LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0429 6008",
+      "description": "CONC STR REPR(RAPID VERT AND OVERHEAD)",
+      "unit": "SF",
+      "quantity": 189.0,
+      "engEstUnit": 237.5,
+      "lowUnit": 200.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 200.0,
+        "IBCTX, LLC": 300.0,
+        "O. TREVINO CONSTRUCTION, LLC": 460.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 13300.97,
+      "lowUnit": 12000.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 12000.0,
+        "IBCTX, LLC": 16400.0,
+        "O. TREVINO CONSTRUCTION, LLC": 29000.0
+      }
+    },
+    {
+      "itemCode": "0529 6002",
+      "description": "CONC CURB (TY II)",
+      "unit": "LF",
+      "quantity": 1210.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 48.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 48.0,
+        "IBCTX, LLC": 35.0,
+        "O. TREVINO CONSTRUCTION, LLC": 81.0
+      }
+    },
+    {
+      "itemCode": "0529 6008",
+      "description": "CONC CURB & GUTTER (TY II)",
+      "unit": "LF",
+      "quantity": 10.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "IBCTX, LLC": 100.0,
+        "O. TREVINO CONSTRUCTION, LLC": 1350.0
+      }
+    }
+  ]
+}

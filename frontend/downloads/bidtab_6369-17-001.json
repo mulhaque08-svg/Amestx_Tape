@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6369-17-001",
+    "county": "Bastrop",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 636917001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/10/21",
+    "engEstTotal": 107153.91,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 106008.65
+    },
+    {
+      "rank": 2,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 120984.41
+    },
+    {
+      "rank": 3,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 127864.47
+    },
+    {
+      "rank": 4,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 144484.7
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 16000.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 3000.0,
+        "TALBRAN ENTERPRISES LLC": 3000.0,
+        "CRACKSEAL OF TEXAS, LLC": 1.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 2000.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 200.0,
+        "TALBRAN ENTERPRISES LLC": 1750.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.5,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0
+      }
+    }
+  ]
+}

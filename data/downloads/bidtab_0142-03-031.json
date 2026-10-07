@@ -1,0 +1,863 @@
+{
+  "metadata": {
+    "csj": "0142-03-031",
+    "county": "Kerr",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2022(335)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "02/04/22",
+    "engEstTotal": 1477040.15,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SB CONTRACTORS LLC",
+      "totalBidAmount": 1836910.46
+    },
+    {
+      "rank": 2,
+      "vendorName": "ACME BRIDGE COMPANY, INC.",
+      "totalBidAmount": 1904719.7
+    },
+    {
+      "rank": 3,
+      "vendorName": "J3 COMPANY, LLC",
+      "totalBidAmount": 2496480.99
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 9.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 4000.0,
+      "bidders": {
+        "SB CONTRACTORS LLC": 4000.0,
+        "ACME BRIDGE COMPANY, INC.": 4410.0,
+        "J3 COMPANY, LLC": 5500.0
+      }
+    },
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 533.0,
+      "engEstUnit": 9.0,
+      "lowUnit": 14.95,
+      "bidders": {
+        "SB CONTRACTORS LLC": 14.95,
+        "ACME BRIDGE COMPANY, INC.": 10.0,
+        "J3 COMPANY, LLC": 15.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 2172.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 14.53,
+      "bidders": {
+        "SB CONTRACTORS LLC": 14.53,
+        "ACME BRIDGE COMPANY, INC.": 18.0,
+        "J3 COMPANY, LLC": 25.0
+      }
+    },
+    {
+      "itemCode": "0132 6005",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 590.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 11.95,
+      "bidders": {
+        "SB CONTRACTORS LLC": 11.95,
+        "ACME BRIDGE COMPANY, INC.": 15.0,
+        "J3 COMPANY, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0161 6017",
+      "description": "COMPOST MANUF TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 3160.0,
+      "engEstUnit": 1.3,
+      "lowUnit": 1.96,
+      "bidders": {
+        "SB CONTRACTORS LLC": 1.96,
+        "ACME BRIDGE COMPANY, INC.": 3.2,
+        "J3 COMPANY, LLC": 8.0
+      }
+    },
+    {
+      "itemCode": "0164 6003",
+      "description": "BROADCAST SEED (PERM) (RURAL) (CLAY)",
+      "unit": "SY",
+      "quantity": 339.0,
+      "engEstUnit": 0.23,
+      "lowUnit": 2.65,
+      "bidders": {
+        "SB CONTRACTORS LLC": 2.65,
+        "ACME BRIDGE COMPANY, INC.": 2.1,
+        "J3 COMPANY, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0164 6035",
+      "description": "DRILL SEEDING (PERM) (RURAL) (CLAY)",
+      "unit": "SY",
+      "quantity": 3160.0,
+      "engEstUnit": 0.16,
+      "lowUnit": 0.89,
+      "bidders": {
+        "SB CONTRACTORS LLC": 0.89,
+        "ACME BRIDGE COMPANY, INC.": 0.4,
+        "J3 COMPANY, LLC": 0.38
+      }
+    },
+    {
+      "itemCode": "0164 6071",
+      "description": "BROADCAST SEED (TEMP)(WARM OR COOL)",
+      "unit": "SY",
+      "quantity": 3160.0,
+      "engEstUnit": 0.18,
+      "lowUnit": 0.41,
+      "bidders": {
+        "SB CONTRACTORS LLC": 0.41,
+        "ACME BRIDGE COMPANY, INC.": 0.3,
+        "J3 COMPANY, LLC": 0.28
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 27.0,
+      "engEstUnit": 22.14,
+      "lowUnit": 40.85,
+      "bidders": {
+        "SB CONTRACTORS LLC": 40.85,
+        "ACME BRIDGE COMPANY, INC.": 46.72,
+        "J3 COMPANY, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0169 6006",
+      "description": "SOIL RETENTION BLANKETS (CL 2) (TY F)",
+      "unit": "SY",
+      "quantity": 3499.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 3.31,
+      "bidders": {
+        "SB CONTRACTORS LLC": 3.31,
+        "ACME BRIDGE COMPANY, INC.": 1.75,
+        "J3 COMPANY, LLC": 1.65
+      }
+    },
+    {
+      "itemCode": "0216 6001",
+      "description": "PROOF ROLLING",
+      "unit": "HR",
+      "quantity": 112.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 58.41,
+      "bidders": {
+        "SB CONTRACTORS LLC": 58.41,
+        "ACME BRIDGE COMPANY, INC.": 32.0,
+        "J3 COMPANY, LLC": 70.0
+      }
+    },
+    {
+      "itemCode": "0310 6027",
+      "description": "PRIME COAT(MC-30 OR AE-P)",
+      "unit": "GAL",
+      "quantity": 364.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 4.34,
+      "bidders": {
+        "SB CONTRACTORS LLC": 4.34,
+        "ACME BRIDGE COMPANY, INC.": 4.5,
+        "J3 COMPANY, LLC": 7.29
+      }
+    },
+    {
+      "itemCode": "0354 6045",
+      "description": "PLANE ASPH CONC PAV (2\")",
+      "unit": "SY",
+      "quantity": 883.0,
+      "engEstUnit": 2.8,
+      "lowUnit": 9.19,
+      "bidders": {
+        "SB CONTRACTORS LLC": 9.19,
+        "ACME BRIDGE COMPANY, INC.": 9.5,
+        "J3 COMPANY, LLC": 12.69
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 238.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 127.11,
+      "bidders": {
+        "SB CONTRACTORS LLC": 127.11,
+        "ACME BRIDGE COMPANY, INC.": 179.0,
+        "J3 COMPANY, LLC": 175.0
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 141.0,
+      "engEstUnit": 15.23,
+      "lowUnit": 103.85,
+      "bidders": {
+        "SB CONTRACTORS LLC": 103.85,
+        "ACME BRIDGE COMPANY, INC.": 42.4,
+        "J3 COMPANY, LLC": 65.0
+      }
+    },
+    {
+      "itemCode": "0416 6001",
+      "description": "DRILL SHAFT (18 IN)",
+      "unit": "LF",
+      "quantity": 74.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 241.61,
+      "bidders": {
+        "SB CONTRACTORS LLC": 241.61,
+        "ACME BRIDGE COMPANY, INC.": 183.0,
+        "J3 COMPANY, LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0416 6004",
+      "description": "DRILL SHAFT (36 IN)",
+      "unit": "LF",
+      "quantity": 296.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 471.79,
+      "bidders": {
+        "SB CONTRACTORS LLC": 471.79,
+        "ACME BRIDGE COMPANY, INC.": 400.0,
+        "J3 COMPANY, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0420 6013",
+      "description": "CL C CONC (ABUT)",
+      "unit": "CY",
+      "quantity": 64.8,
+      "engEstUnit": 960.0,
+      "lowUnit": 825.93,
+      "bidders": {
+        "SB CONTRACTORS LLC": 825.93,
+        "ACME BRIDGE COMPANY, INC.": 1080.0,
+        "J3 COMPANY, LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0420 6029",
+      "description": "CL C CONC (CAP)",
+      "unit": "CY",
+      "quantity": 13.6,
+      "engEstUnit": 1150.0,
+      "lowUnit": 2133.3,
+      "bidders": {
+        "SB CONTRACTORS LLC": 2133.3,
+        "ACME BRIDGE COMPANY, INC.": 1800.0,
+        "J3 COMPANY, LLC": 5000.0
+      }
+    },
+    {
+      "itemCode": "0420 6037",
+      "description": "CL C CONC (COLUMN)",
+      "unit": "CY",
+      "quantity": 28.4,
+      "engEstUnit": 1050.0,
+      "lowUnit": 1092.3,
+      "bidders": {
+        "SB CONTRACTORS LLC": 1092.3,
+        "ACME BRIDGE COMPANY, INC.": 1110.0,
+        "J3 COMPANY, LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0422 6001",
+      "description": "REINF CONC SLAB",
+      "unit": "SF",
+      "quantity": 9430.0,
+      "engEstUnit": 18.0,
+      "lowUnit": 19.48,
+      "bidders": {
+        "SB CONTRACTORS LLC": 19.48,
+        "ACME BRIDGE COMPANY, INC.": 23.0,
+        "J3 COMPANY, LLC": 32.0
+      }
+    },
+    {
+      "itemCode": "0422 6015",
+      "description": "APPROACH SLAB",
+      "unit": "CY",
+      "quantity": 96.6,
+      "engEstUnit": 560.0,
+      "lowUnit": 476.02,
+      "bidders": {
+        "SB CONTRACTORS LLC": 476.02,
+        "ACME BRIDGE COMPANY, INC.": 688.0,
+        "J3 COMPANY, LLC": 750.0
+      }
+    },
+    {
+      "itemCode": "0425 6037",
+      "description": "PRESTR CONC GIRDER (TX40)",
+      "unit": "LF",
+      "quantity": 1221.06,
+      "engEstUnit": 145.0,
+      "lowUnit": 207.1,
+      "bidders": {
+        "SB CONTRACTORS LLC": 207.1,
+        "ACME BRIDGE COMPANY, INC.": 233.5,
+        "J3 COMPANY, LLC": 340.0
+      }
+    },
+    {
+      "itemCode": "0432 6002",
+      "description": "RIPRAP (CONC)(5 IN)",
+      "unit": "CY",
+      "quantity": 11.0,
+      "engEstUnit": 440.0,
+      "lowUnit": 462.23,
+      "bidders": {
+        "SB CONTRACTORS LLC": 462.23,
+        "ACME BRIDGE COMPANY, INC.": 550.0,
+        "J3 COMPANY, LLC": 550.0
+      }
+    },
+    {
+      "itemCode": "0432 6008",
+      "description": "RIPRAP (CONC)(CL B)(RR8&RR9)",
+      "unit": "CY",
+      "quantity": 236.0,
+      "engEstUnit": 420.0,
+      "lowUnit": 277.46,
+      "bidders": {
+        "SB CONTRACTORS LLC": 277.46,
+        "ACME BRIDGE COMPANY, INC.": 550.0,
+        "J3 COMPANY, LLC": 550.0
+      }
+    },
+    {
+      "itemCode": "0432 6023",
+      "description": "RIPRAP (STONE COMMON)(DRY)(8 IN)",
+      "unit": "CY",
+      "quantity": 30.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 229.26,
+      "bidders": {
+        "SB CONTRACTORS LLC": 229.26,
+        "ACME BRIDGE COMPANY, INC.": 164.0,
+        "J3 COMPANY, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 17.0,
+      "engEstUnit": 418.0,
+      "lowUnit": 471.47,
+      "bidders": {
+        "SB CONTRACTORS LLC": 471.47,
+        "ACME BRIDGE COMPANY, INC.": 700.0,
+        "J3 COMPANY, LLC": 750.0
+      }
+    },
+    {
+      "itemCode": "0454 6018",
+      "description": "SEALED EXPANSION JOINT (4 IN) (SEJ - M)",
+      "unit": "LF",
+      "quantity": 97.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 136.2,
+      "bidders": {
+        "SB CONTRACTORS LLC": 136.2,
+        "ACME BRIDGE COMPANY, INC.": 150.0,
+        "J3 COMPANY, LLC": 135.0
+      }
+    },
+    {
+      "itemCode": "0467 6395",
+      "description": "SET (TY II) (24 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1511.3,
+      "bidders": {
+        "SB CONTRACTORS LLC": 1511.3,
+        "ACME BRIDGE COMPANY, INC.": 2000.0,
+        "J3 COMPANY, LLC": 3500.0
+      }
+    },
+    {
+      "itemCode": "0496 6010",
+      "description": "REMOV STR (BRIDGE 100 - 499 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 62000.0,
+      "lowUnit": 59528.9,
+      "bidders": {
+        "SB CONTRACTORS LLC": 59528.9,
+        "ACME BRIDGE COMPANY, INC.": 95000.0,
+        "J3 COMPANY, LLC": 125000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 134281.28,
+      "lowUnit": 183000.0,
+      "bidders": {
+        "SB CONTRACTORS LLC": 183000.0,
+        "ACME BRIDGE COMPANY, INC.": 153000.0,
+        "J3 COMPANY, LLC": 130000.0
+      }
+    },
+    {
+      "itemCode": "0510 6002",
+      "description": "ONE-WAY TRAF CONT (PILOT CAR)",
+      "unit": "HR",
+      "quantity": 80.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 204.24,
+      "bidders": {
+        "SB CONTRACTORS LLC": 204.24,
+        "ACME BRIDGE COMPANY, INC.": 144.0,
+        "J3 COMPANY, LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "0510 6003",
+      "description": "ONE-WAY TRAF CONT (PORT TRAF SIG)",
+      "unit": "MO",
+      "quantity": 9.0,
+      "engEstUnit": 3800.0,
+      "lowUnit": 2757.28,
+      "bidders": {
+        "SB CONTRACTORS LLC": 2757.28,
+        "ACME BRIDGE COMPANY, INC.": 2860.0,
+        "J3 COMPANY, LLC": 5500.0
+      }
+    },
+    {
+      "itemCode": "0512 6001",
+      "description": "PORT CTB (FUR & INST)(SGL SLOPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 1050.0,
+      "engEstUnit": 34.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "SB CONTRACTORS LLC": 65.0,
+        "ACME BRIDGE COMPANY, INC.": 16.5,
+        "J3 COMPANY, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0512 6025",
+      "description": "PORT CTB (MOVE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 960.0,
+      "engEstUnit": 4.63,
+      "lowUnit": 4.02,
+      "bidders": {
+        "SB CONTRACTORS LLC": 4.02,
+        "ACME BRIDGE COMPANY, INC.": 3.1,
+        "J3 COMPANY, LLC": 25.0
+      }
+    },
+    {
+      "itemCode": "0512 6049",
+      "description": "PORT CTB (REMOVE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 1050.0,
+      "engEstUnit": 7.07,
+      "lowUnit": 11.6,
+      "bidders": {
+        "SB CONTRACTORS LLC": 11.6,
+        "ACME BRIDGE COMPANY, INC.": 16.5,
+        "J3 COMPANY, LLC": 25.0
+      }
+    },
+    {
+      "itemCode": "0530 6019",
+      "description": "DRIVEWAYS (ACP)(TYPE 1)",
+      "unit": "SY",
+      "quantity": 218.0,
+      "engEstUnit": 32.0,
+      "lowUnit": 80.05,
+      "bidders": {
+        "SB CONTRACTORS LLC": 80.05,
+        "ACME BRIDGE COMPANY, INC.": 67.9,
+        "J3 COMPANY, LLC": 90.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.51,
+      "bidders": {
+        "SB CONTRACTORS LLC": 2.51,
+        "ACME BRIDGE COMPANY, INC.": 2.6,
+        "J3 COMPANY, LLC": 4.0
+      }
+    },
+    {
+      "itemCode": "0542 6002",
+      "description": "REMOVE TERMINAL ANCHOR SECTION",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 195.0,
+      "lowUnit": 313.81,
+      "bidders": {
+        "SB CONTRACTORS LLC": 313.81,
+        "ACME BRIDGE COMPANY, INC.": 326.0,
+        "J3 COMPANY, LLC": 350.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3635.07,
+      "bidders": {
+        "SB CONTRACTORS LLC": 3635.07,
+        "ACME BRIDGE COMPANY, INC.": 3770.0,
+        "J3 COMPANY, LLC": 4000.0
+      }
+    },
+    {
+      "itemCode": "0545 6003",
+      "description": "CRASH CUSH ATTEN (MOVE & RESET)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 510.6,
+      "bidders": {
+        "SB CONTRACTORS LLC": 510.6,
+        "ACME BRIDGE COMPANY, INC.": 1060.0,
+        "J3 COMPANY, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 730.0,
+      "lowUnit": 510.61,
+      "bidders": {
+        "SB CONTRACTORS LLC": 510.61,
+        "ACME BRIDGE COMPANY, INC.": 795.0,
+        "J3 COMPANY, LLC": 750.0
+      }
+    },
+    {
+      "itemCode": "0545 6018",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(N)(TL2)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 7500.0,
+      "lowUnit": 8000.0,
+      "bidders": {
+        "SB CONTRACTORS LLC": 8000.0,
+        "ACME BRIDGE COMPANY, INC.": 9290.0,
+        "J3 COMPANY, LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "0560 6001",
+      "description": "MAILBOX INSTALL-S (TWG-POST) TY 1",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 239.08,
+      "bidders": {
+        "SB CONTRACTORS LLC": 239.08,
+        "ACME BRIDGE COMPANY, INC.": 286.0,
+        "J3 COMPANY, LLC": 450.0
+      }
+    },
+    {
+      "itemCode": "0644 6002",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P-BM)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 670.0,
+      "lowUnit": 887.65,
+      "bidders": {
+        "SB CONTRACTORS LLC": 887.65,
+        "ACME BRIDGE COMPANY, INC.": 641.0,
+        "J3 COMPANY, LLC": 900.0
+      }
+    },
+    {
+      "itemCode": "0644 6007",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(U)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 860.0,
+      "lowUnit": 1019.77,
+      "bidders": {
+        "SB CONTRACTORS LLC": 1019.77,
+        "ACME BRIDGE COMPANY, INC.": 769.0,
+        "J3 COMPANY, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0644 6033",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1489.43,
+      "bidders": {
+        "SB CONTRACTORS LLC": 1489.43,
+        "ACME BRIDGE COMPANY, INC.": 1050.0,
+        "J3 COMPANY, LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 127.65,
+      "bidders": {
+        "SB CONTRACTORS LLC": 127.65,
+        "ACME BRIDGE COMPANY, INC.": 101.0,
+        "J3 COMPANY, LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 18.8,
+      "lowUnit": 18.26,
+      "bidders": {
+        "SB CONTRACTORS LLC": 18.26,
+        "ACME BRIDGE COMPANY, INC.": 31.8,
+        "J3 COMPANY, LLC": 25.0
+      }
+    },
+    {
+      "itemCode": "0658 6060",
+      "description": "REMOVE DELIN & OBJECT MARKER ASSMS",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 21.0,
+      "lowUnit": 14.51,
+      "bidders": {
+        "SB CONTRACTORS LLC": 14.51,
+        "ACME BRIDGE COMPANY, INC.": 10.6,
+        "J3 COMPANY, LLC": 25.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 26.31,
+      "lowUnit": 23.05,
+      "bidders": {
+        "SB CONTRACTORS LLC": 23.05,
+        "ACME BRIDGE COMPANY, INC.": 31.8,
+        "J3 COMPANY, LLC": 35.0
+      }
+    },
+    {
+      "itemCode": "0662 6004",
+      "description": "WK ZN PAV MRK NON-REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 4127.0,
+      "engEstUnit": 0.27,
+      "lowUnit": 0.76,
+      "bidders": {
+        "SB CONTRACTORS LLC": 0.76,
+        "ACME BRIDGE COMPANY, INC.": 0.8,
+        "J3 COMPANY, LLC": 0.75
+      }
+    },
+    {
+      "itemCode": "0662 6016",
+      "description": "WK ZN PAV MRK NON-REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 24.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 51.06,
+      "bidders": {
+        "SB CONTRACTORS LLC": 51.06,
+        "ACME BRIDGE COMPANY, INC.": 53.0,
+        "J3 COMPANY, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0662 6034",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 800.0,
+      "engEstUnit": 0.28,
+      "lowUnit": 2.04,
+      "bidders": {
+        "SB CONTRACTORS LLC": 2.04,
+        "ACME BRIDGE COMPANY, INC.": 2.1,
+        "J3 COMPANY, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0662 6063",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 514.0,
+      "engEstUnit": 0.62,
+      "lowUnit": 3.07,
+      "bidders": {
+        "SB CONTRACTORS LLC": 3.07,
+        "ACME BRIDGE COMPANY, INC.": 3.2,
+        "J3 COMPANY, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 68.0,
+      "engEstUnit": 3.3,
+      "lowUnit": 20.43,
+      "bidders": {
+        "SB CONTRACTORS LLC": 20.43,
+        "ACME BRIDGE COMPANY, INC.": 21.2,
+        "J3 COMPANY, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 4736.0,
+      "engEstUnit": 0.35,
+      "lowUnit": 1.5,
+      "bidders": {
+        "SB CONTRACTORS LLC": 1.5,
+        "ACME BRIDGE COMPANY, INC.": 1.55,
+        "J3 COMPANY, LLC": 1.47
+      }
+    },
+    {
+      "itemCode": "0730 6107",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "CYC",
+      "quantity": 4.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 1225.45,
+      "bidders": {
+        "SB CONTRACTORS LLC": 1225.45,
+        "ACME BRIDGE COMPANY, INC.": 1120.0,
+        "J3 COMPANY, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0734 6002",
+      "description": "LITTER REMOVAL",
+      "unit": "CYC",
+      "quantity": 10.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 714.85,
+      "bidders": {
+        "SB CONTRACTORS LLC": 714.85,
+        "ACME BRIDGE COMPANY, INC.": 338.0,
+        "J3 COMPANY, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 265.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 4.08,
+      "bidders": {
+        "SB CONTRACTORS LLC": 4.08,
+        "ACME BRIDGE COMPANY, INC.": 4.25,
+        "J3 COMPANY, LLC": 3.24
+      }
+    },
+    {
+      "itemCode": "3077 6081",
+      "description": "SP MIXES SP-C SAC-B PG70-22 (EXEMPT)",
+      "unit": "TON",
+      "quantity": 508.0,
+      "engEstUnit": 88.0,
+      "lowUnit": 194.03,
+      "bidders": {
+        "SB CONTRACTORS LLC": 194.03,
+        "ACME BRIDGE COMPANY, INC.": 201.0,
+        "J3 COMPANY, LLC": 198.78
+      }
+    },
+    {
+      "itemCode": "4171 6001",
+      "description": "INSTALL BRIDGE IDENTIFICATION NUMBERS",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 459.54,
+      "bidders": {
+        "SB CONTRACTORS LLC": 459.54,
+        "ACME BRIDGE COMPANY, INC.": 113.0,
+        "J3 COMPANY, LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 18.0,
+      "engEstUnit": 73.0,
+      "lowUnit": 153.18,
+      "bidders": {
+        "SB CONTRACTORS LLC": 153.18,
+        "ACME BRIDGE COMPANY, INC.": 106.0,
+        "J3 COMPANY, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 9000.0,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "SB CONTRACTORS LLC": 15000.0,
+        "ACME BRIDGE COMPANY, INC.": 12100.0,
+        "J3 COMPANY, LLC": 8000.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "metadata": {
+    "csj": "0917-18-082",
+    "county": "Robertson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2021(235)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "08/03/23",
+    "engEstTotal": 481798.72,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FUQUA CONSTRUCTION CO., INC.",
+      "totalBidAmount": 663959.11
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 681916.56
+    },
+    {
+      "rank": 3,
+      "vendorName": "TREVWAY, INC.",
+      "totalBidAmount": 701352.12
+    },
+    {
+      "rank": 4,
+      "vendorName": "HODGES AND SON CONSTRUCTION COMPANY, INC.",
+      "totalBidAmount": 867068.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 3.5,
+      "engEstUnit": 2200.0,
+      "lowUnit": 10318.23,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 10318.23,
+        "TEXAS MATERIALS GROUP, INC.": 20300.0,
+        "TREVWAY, INC.": 3000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 5800.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 357.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 12.44,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 12.44,
+        "TEXAS MATERIALS GROUP, INC.": 37.0,
+        "TREVWAY, INC.": 12.5,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 500.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 12.67,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 12.67,
+        "TEXAS MATERIALS GROUP, INC.": 24.0,
+        "TREVWAY, INC.": 11.9,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0132 6006",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY C)",
+      "unit": "CY",
+      "quantity": 315.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 15.53,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 15.53,
+        "TEXAS MATERIALS GROUP, INC.": 44.0,
+        "TREVWAY, INC.": 26.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0161 6017",
+      "description": "COMPOST MANUF TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 571.0,
+      "engEstUnit": 3.25,
+      "lowUnit": 1.78,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 1.78,
+        "TEXAS MATERIALS GROUP, INC.": 6.0,
+        "TREVWAY, INC.": 16.73,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0164 6021",
+      "description": "CELL FBR MLCH SEED(PERM)(RURAL)(SANDY)",
+      "unit": "SY",
+      "quantity": 571.0,
+      "engEstUnit": 0.83,
+      "lowUnit": 0.58,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 0.58,
+        "TEXAS MATERIALS GROUP, INC.": 2.0,
+        "TREVWAY, INC.": 2.53,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0164 6029",
+      "description": "CELL FBR MLCH SEED(TEMP)(WARM)",
+      "unit": "SY",
+      "quantity": 286.0,
+      "engEstUnit": 0.82,
+      "lowUnit": 0.49,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 0.49,
+        "TEXAS MATERIALS GROUP, INC.": 2.0,
+        "TREVWAY, INC.": 2.53,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0164 6031",
+      "description": "CELL FBR MLCH SEED(TEMP)(COOL)",
+      "unit": "SY",
+      "quantity": 286.0,
+      "engEstUnit": 0.82,
+      "lowUnit": 0.45,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 0.45,
+        "TEXAS MATERIALS GROUP, INC.": 2.0,
+        "TREVWAY, INC.": 2.53,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 17.0,
+      "engEstUnit": 32.0,
+      "lowUnit": 15.09,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 15.09,
+        "TEXAS MATERIALS GROUP, INC.": 45.0,
+        "TREVWAY, INC.": 500.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 53.0,
+      "engEstUnit": 210.0,
+      "lowUnit": 115.2,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 115.2,
+        "TEXAS MATERIALS GROUP, INC.": 270.0,
+        "TREVWAY, INC.": 150.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0402 6001",
+      "description": "TRENCH EXCAVATION PROTECTION",
+      "unit": "LF",
+      "quantity": 22.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 3.92,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 3.92,
+        "TEXAS MATERIALS GROUP, INC.": 50.0,
+        "TREVWAY, INC.": 100.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0409 6002",
+      "description": "PRESTR CONC PIL (18 IN SQ)",
+      "unit": "LF",
+      "quantity": 224.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 81.11,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 81.11,
+        "TEXAS MATERIALS GROUP, INC.": 200.0,
+        "TREVWAY, INC.": 304.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0422 6007",
+      "description": "REINF CONC SLAB (SLAB BEAM)",
+      "unit": "SF",
+      "quantity": 1040.0,
+      "engEstUnit": 24.0,
+      "lowUnit": 25.8,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 25.8,
+        "TEXAS MATERIALS GROUP, INC.": 53.0,
+        "TREVWAY, INC.": 30.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 2.0,
+      "engEstUnit": 625.0,
+      "lowUnit": 619.98,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 619.98,
+        "TEXAS MATERIALS GROUP, INC.": 1400.0,
+        "TREVWAY, INC.": 2000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 850.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 326.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 217.8,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 217.8,
+        "TEXAS MATERIALS GROUP, INC.": 140.0,
+        "TREVWAY, INC.": 200.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 225.0
+      }
+    },
+    {
+      "itemCode": "0466 6195",
+      "description": "WINGWALL (PW - 2) (HW=6 FT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 19000.0,
+      "lowUnit": 20473.59,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 20473.59,
+        "TEXAS MATERIALS GROUP, INC.": 22000.0,
+        "TREVWAY, INC.": 25000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 30000.0
+      }
+    },
+    {
+      "itemCode": "0496 6008",
+      "description": "REMOV STR (BOX CULVERT)",
+      "unit": "LF",
+      "quantity": 22.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 94.82,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 94.82,
+        "TEXAS MATERIALS GROUP, INC.": 336.0,
+        "TREVWAY, INC.": 400.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 2500.0
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 36926.0,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 36926.0,
+        "TEXAS MATERIALS GROUP, INC.": 14000.0,
+        "TREVWAY, INC.": 30000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 50000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 44000.0,
+      "lowUnit": 86000.0,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 86000.0,
+        "TEXAS MATERIALS GROUP, INC.": 70000.0,
+        "TREVWAY, INC.": 70000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 65000.0
+      }
+    },
+    {
+      "itemCode": "0530 6006",
+      "description": "DRIVEWAYS (SURF TREAT)",
+      "unit": "SY",
+      "quantity": 63.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 22.11,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 22.11,
+        "TEXAS MATERIALS GROUP, INC.": 27.0,
+        "TREVWAY, INC.": 34.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 70.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 3250.0,
+      "lowUnit": 4695.3,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 4695.3,
+        "TEXAS MATERIALS GROUP, INC.": 3846.15,
+        "TREVWAY, INC.": 3392.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 3500.0
+      }
+    },
+    {
+      "itemCode": "0644 6060",
+      "description": "IN SM RD SN SUP&AM TYTWT(1)WS(P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 609.83,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 609.83,
+        "TEXAS MATERIALS GROUP, INC.": 800.0,
+        "TREVWAY, INC.": 1642.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 2000.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 27.0,
+      "lowUnit": 34.25,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 34.25,
+        "TEXAS MATERIALS GROUP, INC.": 75.0,
+        "TREVWAY, INC.": 20.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0658 6016",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)GF1 (BI)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 27.0,
+      "lowUnit": 40.25,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 40.25,
+        "TEXAS MATERIALS GROUP, INC.": 75.0,
+        "TREVWAY, INC.": 20.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "4171 6001",
+      "description": "INSTALL BRIDGE IDENTIFICATION NUMBERS",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 483.08,
+      "bidders": {
+        "FUQUA CONSTRUCTION CO., INC.": 483.08,
+        "TEXAS MATERIALS GROUP, INC.": 300.0,
+        "TREVWAY, INC.": 1000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 500.0
+      }
+    }
+  ]
+}

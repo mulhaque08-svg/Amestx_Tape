@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6416-74-001",
+    "county": "Ellis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641674001",
+    "projectType": "EMULSION",
+    "letDate": "10/12/22",
+    "engEstTotal": 61660.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "WRIGHT ASPHALT PRODUCTS COMPANY LLC",
+      "totalBidAmount": 56900.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ERGON ASPHALT & EMULSIONS, INC.",
+      "totalBidAmount": 57700.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6008",
+      "description": "EMULSION (CSS-1H) (PICKUP)",
+      "unit": "GAL",
+      "quantity": 2000.0,
+      "engEstUnit": 2.83,
+      "lowUnit": 2.85,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 2.85,
+        "ERGON ASPHALT & EMULSIONS, INC.": 2.85
+      }
+    },
+    {
+      "itemCode": "8010 6012",
+      "description": "EMULSION (CRS-2P)(DELIVERY)",
+      "unit": "GAL",
+      "quantity": 16000.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 3.2,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.2,
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.25
+      }
+    }
+  ]
+}

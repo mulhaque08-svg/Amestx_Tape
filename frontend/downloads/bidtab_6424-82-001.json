@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "csj": "6424-82-001",
+    "county": "Kaufman",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642482001",
+    "projectType": "VEGETATION MANAGEMENT",
+    "letDate": "02/02/23",
+    "engEstTotal": 1321760.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JASCO",
+      "totalBidAmount": 1242886.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 1548915.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 1673040.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 35000.0,
+      "lowUnit": 50000.0,
+      "bidders": {
+        "JASCO": 50000.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 100000.0
+      }
+    },
+    {
+      "itemCode": "0730 6104",
+      "description": "FULL-WIDTH MOWING (RURAL)",
+      "unit": "AC",
+      "quantity": 10224.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 53.0,
+      "bidders": {
+        "JASCO": 53.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 75.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 55.0
+      }
+    },
+    {
+      "itemCode": "0730 6105",
+      "description": "FULL-WIDTH MOWING (URBAN)",
+      "unit": "AC",
+      "quantity": 1680.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "JASCO": 55.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 75.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 59.0
+      }
+    },
+    {
+      "itemCode": "0731 6006",
+      "description": "BROADCAST APPLICATION",
+      "unit": "MI",
+      "quantity": 328.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "JASCO": 900.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 1000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0731 6007",
+      "description": "PAVEMENT EDGES, STRUCTURES & FIXTURES",
+      "unit": "MI",
+      "quantity": 328.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "JASCO": 800.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 1000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 700.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,794 @@
+{
+  "metadata": {
+    "csj": "6454-15-001",
+    "county": "Galveston",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645415001",
+    "projectType": "CLEANING AND SWEEPING HIGHWAYS",
+    "letDate": "03/05/24",
+    "engEstTotal": 1315302.36,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SWEEPING CORPORATION OF AMERICA, LLC",
+      "totalBidAmount": 1195115.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "PROFESSIONAL TRAFFIC CONTROL LLC",
+      "totalBidAmount": 1754096.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 500.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 3000.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 461.6,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1000.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0735 6001",
+      "description": "DEBRIS REMOVAL (CNTR MEDIANS/MAINLANES)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 5850.0,
+      "lowUnit": 1656.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1656.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 6500.0
+      }
+    },
+    {
+      "itemCode": "0735 6003",
+      "description": "DEBRIS REMOVAL (FRONTAGE ROADS)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 3624.0,
+      "lowUnit": 1656.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1656.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 4200.0
+      }
+    },
+    {
+      "itemCode": "0735 6005",
+      "description": "DEBRIS REMOVAL (ENTRANCE/EXIT RAMPS)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 3624.0,
+      "lowUnit": 1656.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1656.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2450.0
+      }
+    },
+    {
+      "itemCode": "0738 6010",
+      "description": "CLEANING / SWEEPING (SPOT)",
+      "unit": "MI",
+      "quantity": 40.0,
+      "engEstUnit": 23.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 300.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0738 6011",
+      "description": "CLEANING / SWEEPING (HANDWORK)",
+      "unit": "SY",
+      "quantity": 1000.0,
+      "engEstUnit": 0.14,
+      "lowUnit": 5.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 5.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0738 6095",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(2)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 636.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 636.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 600.0
+      }
+    },
+    {
+      "itemCode": "0738 6096",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(3)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 2100.0,
+      "lowUnit": 3339.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 3339.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 3150.0
+      }
+    },
+    {
+      "itemCode": "0738 6097",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(4)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 2544.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2544.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2400.0
+      }
+    },
+    {
+      "itemCode": "0738 6098",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(5)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 1113.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1113.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1050.0
+      }
+    },
+    {
+      "itemCode": "0738 6099",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(6)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 954.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 954.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 900.0
+      }
+    },
+    {
+      "itemCode": "0738 6100",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(7)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 2150.0,
+      "lowUnit": 3657.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 3657.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 3450.0
+      }
+    },
+    {
+      "itemCode": "0738 6102",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(9)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 1272.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1272.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1200.0
+      }
+    },
+    {
+      "itemCode": "0738 6103",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (10)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 795.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 795.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 750.0
+      }
+    },
+    {
+      "itemCode": "0738 6104",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (11)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1272.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1272.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1200.0
+      }
+    },
+    {
+      "itemCode": "0738 6105",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (12)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 2226.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2226.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2100.0
+      }
+    },
+    {
+      "itemCode": "0738 6106",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (13)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 795.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 795.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 750.0
+      }
+    },
+    {
+      "itemCode": "0738 6107",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (14)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 477.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 477.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 450.0
+      }
+    },
+    {
+      "itemCode": "0738 6108",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (15)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 3498.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 3498.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 3300.0
+      }
+    },
+    {
+      "itemCode": "0738 6111",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (18)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1431.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1431.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1350.0
+      }
+    },
+    {
+      "itemCode": "0738 6112",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (19)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 2703.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2703.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2550.0
+      }
+    },
+    {
+      "itemCode": "0738 6113",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (20)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 2862.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2862.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2700.0
+      }
+    },
+    {
+      "itemCode": "0738 6114",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(1)",
+      "unit": "CYC",
+      "quantity": 4.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 238.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 238.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0738 6115",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(2)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 636.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 636.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 600.0
+      }
+    },
+    {
+      "itemCode": "0738 6116",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(3)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 3339.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 3339.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 3150.0
+      }
+    },
+    {
+      "itemCode": "0738 6117",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(4)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 2544.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2544.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2400.0
+      }
+    },
+    {
+      "itemCode": "0738 6118",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(5)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1113.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1113.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1050.0
+      }
+    },
+    {
+      "itemCode": "0738 6119",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(6)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 954.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 954.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 900.0
+      }
+    },
+    {
+      "itemCode": "0738 6120",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(7)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 12000.0,
+      "lowUnit": 3657.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 3657.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 3450.0
+      }
+    },
+    {
+      "itemCode": "0738 6121",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(8)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 159.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 159.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0738 6122",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(9)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 1272.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1272.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1200.0
+      }
+    },
+    {
+      "itemCode": "0738 6123",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(10)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 795.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 795.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 750.0
+      }
+    },
+    {
+      "itemCode": "0738 6124",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(11)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1272.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1272.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1200.0
+      }
+    },
+    {
+      "itemCode": "0738 6125",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(12)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 2226.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2226.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2100.0
+      }
+    },
+    {
+      "itemCode": "0738 6126",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(13)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 795.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 795.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 750.0
+      }
+    },
+    {
+      "itemCode": "0738 6127",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(14)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 477.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 477.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 450.0
+      }
+    },
+    {
+      "itemCode": "0738 6128",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(15)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 3498.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 3498.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 3300.0
+      }
+    },
+    {
+      "itemCode": "0738 6129",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(16)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 318.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 318.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0738 6130",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(17)",
+      "unit": "CYC",
+      "quantity": 4.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 636.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 636.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 600.0
+      }
+    },
+    {
+      "itemCode": "0738 6131",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(18)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1431.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1431.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1350.0
+      }
+    },
+    {
+      "itemCode": "0738 6132",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(19)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 2703.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2703.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2550.0
+      }
+    },
+    {
+      "itemCode": "0738 6133",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(20)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 2862.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2862.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2700.0
+      }
+    },
+    {
+      "itemCode": "0738 6142",
+      "description": "CLEAN / SWEEP - FRONTAGE ROAD - AREA(9)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1272.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1272.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2400.0
+      }
+    },
+    {
+      "itemCode": "0738 6162",
+      "description": "CLEAN / SWEEP - (ENTR /EXT RMP)(AREA 9)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1272.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1272.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 3200.0
+      }
+    },
+    {
+      "itemCode": "0738 6191",
+      "description": "CLEAN/SWEEP-CENTER MEDIAN-AREA (21)",
+      "unit": "CYC",
+      "quantity": 4.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 5565.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 5565.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 5250.0
+      }
+    },
+    {
+      "itemCode": "0738 6192",
+      "description": "CLEAN/SWEEP-CENTER MEDIAN-AREA (22)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1113.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1113.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1050.0
+      }
+    },
+    {
+      "itemCode": "0738 6194",
+      "description": "CLEAN/SWEEP-CENTER MEDIAN-AREA (24)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 2544.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2544.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2400.0
+      }
+    },
+    {
+      "itemCode": "0738 6196",
+      "description": "CLEAN/SWEEP-CENTER MEDIAN-AREA (26)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1113.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1113.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1050.0
+      }
+    },
+    {
+      "itemCode": "0738 6198",
+      "description": "CLEAN/SWEEP-CENTER MEDIAN-AREA (28)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 318.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 318.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0738 6199",
+      "description": "CLEAN/SWEEP-CENTER MEDIAN-AREA (29)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 5850.0,
+      "lowUnit": 3816.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 3816.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 7050.0
+      }
+    },
+    {
+      "itemCode": "0738 6221",
+      "description": "CLEAN/SWEEP-OUTSIDE MAIN LANE-AREA(21)",
+      "unit": "CYC",
+      "quantity": 4.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 5565.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 5565.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 5250.0
+      }
+    },
+    {
+      "itemCode": "0738 6222",
+      "description": "CLEAN/SWEEP-OUTSIDE MAIN LANE-AREA(22)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 1113.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1113.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1050.0
+      }
+    },
+    {
+      "itemCode": "0738 6223",
+      "description": "CLEAN/SWEEP-OUTSIDE MAIN LANE-AREA(23)",
+      "unit": "CYC",
+      "quantity": 4.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 636.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 636.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 600.0
+      }
+    },
+    {
+      "itemCode": "0738 6224",
+      "description": "CLEAN/SWEEP-OUTSIDE MAIN LANE-AREA(24)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 2544.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2544.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2400.0
+      }
+    },
+    {
+      "itemCode": "0738 6225",
+      "description": "CLEAN/SWEEP-OUTSIDE MAIN LANE-AREA(25)",
+      "unit": "CYC",
+      "quantity": 4.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 159.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 159.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0738 6226",
+      "description": "CLEAN/SWEEP-OUTSIDE MAIN LANE-AREA(26)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1113.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1113.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1050.0
+      }
+    },
+    {
+      "itemCode": "0738 6227",
+      "description": "CLEAN/SWEEP-OUTSIDE MAIN LANE-AREA(27)",
+      "unit": "CYC",
+      "quantity": 4.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 159.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 159.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0738 6228",
+      "description": "CLEAN/SWEEP-OUTSIDE MAIN LANE-AREA(28)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 318.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 318.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0738 6229",
+      "description": "CLEAN/SWEEP-OUTSIDE MAIN LANE-AREA(29)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 5850.0,
+      "lowUnit": 3816.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 3816.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 7050.0
+      }
+    },
+    {
+      "itemCode": "0738 6254",
+      "description": "CLEAN/SWEEP-FRONTAGE ROAD - AREA (24)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 2544.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2544.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 4800.0
+      }
+    },
+    {
+      "itemCode": "0738 6259",
+      "description": "CLEAN/SWEEP-FRONTAGE ROAD - AREA (29)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 5850.0,
+      "lowUnit": 3816.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 3816.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 7830.0
+      }
+    },
+    {
+      "itemCode": "0738 6284",
+      "description": "CLEAN/SWEEP - (ENTR/EXT RMP) (AREA 24)",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 2544.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2544.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 5120.0
+      }
+    },
+    {
+      "itemCode": "0738 6289",
+      "description": "CLEAN/SWEEP - (ENTR/EXT RMP) (AREA 29)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 3360.0,
+      "lowUnit": 3816.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 3816.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 3500.0
+      }
+    }
+  ]
+}

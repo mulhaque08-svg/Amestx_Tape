@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "csj": "6391-83-001",
+    "county": "Medina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639183001",
+    "projectType": "HOT MIX",
+    "letDate": "04/20/22",
+    "engEstTotal": 246000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 252000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "AUSTIN ASPHALT, INC.",
+      "totalBidAmount": 267770.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 281819.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6003",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 100.0,
+      "engEstUnit": 72.5,
+      "lowUnit": 75.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 75.0,
+        "AUSTIN ASPHALT, INC.": 75.9,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 68.0
+      }
+    },
+    {
+      "itemCode": "8011 6004",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 97.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 97.0,
+        "AUSTIN ASPHALT, INC.": 99.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 101.15
+      }
+    },
+    {
+      "itemCode": "8011 6014",
+      "description": "D-GR HMA(SQ)TY B PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 100.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 60.0,
+        "AUSTIN ASPHALT, INC.": 63.9,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 62.0
+      }
+    },
+    {
+      "itemCode": "8011 6015",
+      "description": "D-GR HMA(SQ)TY B PG 64-22(DELIVERY)",
+      "unit": "TON",
+      "quantity": 1700.0,
+      "engEstUnit": 82.5,
+      "lowUnit": 80.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 80.0,
+        "AUSTIN ASPHALT, INC.": 87.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 95.02
+      }
+    },
+    {
+      "itemCode": "8011 6036",
+      "description": "D-GR HMA (SQ) TY C PG 70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 71.25,
+      "lowUnit": 93.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 93.0,
+        "AUSTIN ASPHALT, INC.": 98.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 100.02
+      }
+    },
+    {
+      "itemCode": "8011 6037",
+      "description": "D-GR HMA (SQ) TY C PG 70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 100.0,
+      "engEstUnit": 93.75,
+      "lowUnit": 75.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 75.0,
+        "AUSTIN ASPHALT, INC.": 73.9,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 67.0
+      }
+    }
+  ]
+}

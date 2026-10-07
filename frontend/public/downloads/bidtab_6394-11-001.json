@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6394-11-001",
+    "county": "Kleberg",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639411001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "03/22/22",
+    "engEstTotal": 297500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 334220.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 349180.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 357000.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 399500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6078",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 1)",
+      "unit": "TON",
+      "quantity": 8500.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 39.32,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 39.32,
+        "MARTIN MARIETTA MATERIALS, INC.": 41.08,
+        "DIGG COMMERCIAL, LLC": 42.0,
+        "TOUCHSTONE RESOURCES, LLC": 47.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6388-09-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638809001",
+    "projectType": "HERBICIDE/INSECTICIDE",
+    "letDate": "12/07/21",
+    "engEstTotal": 277035.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GANT CONTRACTORS, INC.",
+      "totalBidAmount": 240851.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 269528.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "GURR'S LOCAL CONTRACTOR SERVICES LLC",
+      "totalBidAmount": 363328.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 25185.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "GANT CONTRACTORS, INC.": 1.0,
+        "ANTHONY SERVICES": 5000.0,
+        "GURR'S LOCAL CONTRACTOR SERVICES LLC": 30000.0
+      }
+    },
+    {
+      "itemCode": "0731 6006",
+      "description": "BROADCAST APPLICATION",
+      "unit": "MI",
+      "quantity": 281.0,
+      "engEstUnit": 650.0,
+      "lowUnit": 450.0,
+      "bidders": {
+        "GANT CONTRACTORS, INC.": 450.0,
+        "ANTHONY SERVICES": 600.0,
+        "GURR'S LOCAL CONTRACTOR SERVICES LLC": 344.0
+      }
+    },
+    {
+      "itemCode": "0731 6007",
+      "description": "PAVEMENT EDGES, STRUCTURES & FIXTURES",
+      "unit": "MI",
+      "quantity": 281.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "GANT CONTRACTORS, INC.": 400.0,
+        "ANTHONY SERVICES": 288.0,
+        "GURR'S LOCAL CONTRACTOR SERVICES LLC": 344.0
+      }
+    }
+  ]
+}

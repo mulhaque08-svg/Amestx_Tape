@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6395-79-001",
+    "county": "Young",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639579001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/10/22",
+    "engEstTotal": 221168.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "NOMAD MEDIAN SERVICES LLC",
+      "totalBidAmount": 198062.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TRIPLE T MAINTENANCE INC.",
+      "totalBidAmount": 199284.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "EVERYTHING IRRIGATION LLC",
+      "totalBidAmount": 224812.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1216.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 17.0,
+      "bidders": {
+        "NOMAD MEDIAN SERVICES LLC": 17.0,
+        "TRIPLE T MAINTENANCE INC.": 24.0,
+        "EVERYTHING IRRIGATION LLC": 37.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 4860.0,
+      "engEstUnit": 36.0,
+      "lowUnit": 36.5,
+      "bidders": {
+        "NOMAD MEDIAN SERVICES LLC": 36.5,
+        "TRIPLE T MAINTENANCE INC.": 35.0,
+        "EVERYTHING IRRIGATION LLC": 37.0
+      }
+    }
+  ]
+}

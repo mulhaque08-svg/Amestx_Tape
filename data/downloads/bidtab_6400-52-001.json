@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6400-52-001",
+    "county": "San Augustine",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640052001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "04/13/22",
+    "engEstTotal": 249961.47,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 223567.94
+    },
+    {
+      "rank": 2,
+      "vendorName": "COMPLETION DOSZIER LLC",
+      "totalBidAmount": 272415.32
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 4071.38,
+      "engEstUnit": 52.5,
+      "lowUnit": 48.49,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 48.49,
+        "COMPLETION DOSZIER LLC": 41.95
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 1.0,
+        "COMPLETION DOSZIER LLC": 41.95
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 2372.43,
+      "engEstUnit": 14.0,
+      "lowUnit": 11.0,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 11.0,
+        "COMPLETION DOSZIER LLC": 41.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "csj": "6427-03-001",
+    "county": "Hunt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642703001",
+    "projectType": "TREE TRIMMING",
+    "letDate": "03/16/23",
+    "engEstTotal": 253300.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "EASTGATE SERVICES",
+      "totalBidAmount": 208520.36
+    },
+    {
+      "rank": 2,
+      "vendorName": "CEHAND SERVICES LLC",
+      "totalBidAmount": 217506.1
+    },
+    {
+      "rank": 3,
+      "vendorName": "S FOWLER SERVICES LLC",
+      "totalBidAmount": 220041.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "CATOCON, INC.",
+      "totalBidAmount": 239311.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "BUSHWACKERS CONTRACTING, LLC",
+      "totalBidAmount": 300000.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "BA NEWTON'S ENTERPRISES LLC",
+      "totalBidAmount": 376001.04
+    },
+    {
+      "rank": 7,
+      "vendorName": "ROAD SOLUTIONS L.L.C.",
+      "totalBidAmount": 592275.8
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 0.001,
+      "bidders": {
+        "EASTGATE SERVICES": 0.001,
+        "CEHAND SERVICES LLC": 0.1,
+        "S FOWLER SERVICES LLC": 1.0,
+        "CATOCON, INC.": 1.0,
+        "BUSHWACKERS CONTRACTING, LLC": 10.0,
+        "BA NEWTON'S ENTERPRISES LLC": 1200.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 150.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1390.0,
+      "bidders": {
+        "EASTGATE SERVICES": 1390.0,
+        "CEHAND SERVICES LLC": 1450.0,
+        "S FOWLER SERVICES LLC": 1400.0,
+        "CATOCON, INC.": 1595.0,
+        "BUSHWACKERS CONTRACTING, LLC": 1775.0,
+        "BA NEWTON'S ENTERPRISES LLC": 2200.0
+      }
+    },
+    {
+      "itemCode": "0752 6004",
+      "description": "TREE TRIMMING / BRUSH REMOVAL(CHANNELS)",
+      "unit": "AC",
+      "quantity": 20.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "EASTGATE SERVICES": 1.0,
+        "CEHAND SERVICES LLC": 0.1,
+        "S FOWLER SERVICES LLC": 500.0,
+        "CATOCON, INC.": 1.0,
+        "BUSHWACKERS CONTRACTING, LLC": 1683.2,
+        "BA NEWTON'S ENTERPRISES LLC": 2000.0
+      }
+    }
+  ]
+}

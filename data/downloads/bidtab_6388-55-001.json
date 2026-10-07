@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6388-55-001",
+    "county": "Chambers",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638855001",
+    "projectType": "ROCK/RIPRAP",
+    "letDate": "02/08/22",
+    "engEstTotal": 40000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 50000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 55000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 60000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8020 6085",
+      "description": "RIPRAP (PROTECTION TYPE)(8 IN)(SITE 1)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 100.0,
+        "TEXAS MATERIALS GROUP, INC.": 110.0,
+        "DIGG COMMERCIAL, LLC": 120.0
+      }
+    }
+  ]
+}

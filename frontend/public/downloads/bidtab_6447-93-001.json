@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6447-93-001",
+    "county": "Victoria",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644793001",
+    "projectType": "CONCRETE SPALL REPAIR",
+    "letDate": "11/01/23",
+    "engEstTotal": 1000800.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D&S CONCRETE CONTRACTORS LLC",
+      "totalBidAmount": 1143500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MAIN LANE INDUSTRIES LTD.",
+      "totalBidAmount": 1180000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0361 6002",
+      "description": "FULL - DEPTH REPAIR CRCP (8\")",
+      "unit": "SY",
+      "quantity": 450.0,
+      "engEstUnit": 410.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 300.0,
+        "MAIN LANE INDUSTRIES LTD.": 500.0
+      }
+    },
+    {
+      "itemCode": "0361 6004",
+      "description": "FULL - DEPTH REPAIR CRCP (10\")",
+      "unit": "SY",
+      "quantity": 1100.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 325.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 325.0,
+        "MAIN LANE INDUSTRIES LTD.": 470.0
+      }
+    },
+    {
+      "itemCode": "0361 6057",
+      "description": "FULL - DEPTH REPAIR CRCP (12\")(SPL)",
+      "unit": "SY",
+      "quantity": 140.0,
+      "engEstUnit": 420.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 400.0,
+        "MAIN LANE INDUSTRIES LTD.": 550.0
+      }
+    },
+    {
+      "itemCode": "0361 6058",
+      "description": "FULL - DEPTH REPAIR CRCP (16\")(SPL)",
+      "unit": "SY",
+      "quantity": 150.0,
+      "engEstUnit": 460.0,
+      "lowUnit": 700.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 700.0,
+        "MAIN LANE INDUSTRIES LTD.": 600.0
+      }
+    },
+    {
+      "itemCode": "3076 6070",
+      "description": "D-GR HMA TY-D PG 76-22 SAC-B (EXEMPT)",
+      "unit": "TON",
+      "quantity": 350.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 200.0,
+        "MAIN LANE INDUSTRIES LTD.": 200.0
+      }
+    }
+  ]
+}

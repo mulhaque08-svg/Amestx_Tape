@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6401-48-001",
+    "county": "Calhoun",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640148001",
+    "projectType": "FENDER SYSTEM REPAIR",
+    "letDate": "10/31/22",
+    "engEstTotal": 275000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RUSSELL MARINE, LLC",
+      "totalBidAmount": 239370.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS GULF CONSTRUCTION COMPANY, INC.",
+      "totalBidAmount": 300875.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MILLING SERVICES",
+      "totalBidAmount": 399000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0496 6037",
+      "description": "REMOV STR (DOLPHIN AND FENDER SYS)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 225000.0,
+      "lowUnit": 164370.0,
+      "bidders": {
+        "RUSSELL MARINE, LLC": 164370.0,
+        "TEXAS GULF CONSTRUCTION COMPANY, INC.": 224625.0,
+        "MILLING SERVICES": 250000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 50000.0,
+      "lowUnit": 75000.0,
+      "bidders": {
+        "RUSSELL MARINE, LLC": 75000.0,
+        "TEXAS GULF CONSTRUCTION COMPANY, INC.": 76250.0,
+        "MILLING SERVICES": 149000.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "csj": "6379-63-001",
+    "county": "Hidalgo",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637963001",
+    "projectType": "TREE TRIMMING",
+    "letDate": "07/02/21",
+    "engEstTotal": 437000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SAENZ UTILITY CONTRACTORS, LLC",
+      "totalBidAmount": 468400.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "JCW CONSTRUCTION, LLC",
+      "totalBidAmount": 471500.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 500160.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "BOEN LANDSCAPING & IRRIGATION, LLC",
+      "totalBidAmount": 603250.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "SJ&J CONSTRUCTION, LLC",
+      "totalBidAmount": 820000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 30000.0,
+      "lowUnit": 30000.0,
+      "bidders": {
+        "SAENZ UTILITY CONTRACTORS, LLC": 30000.0,
+        "JCW CONSTRUCTION, LLC": 25000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 40000.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 100000.0,
+        "SJ&J CONSTRUCTION, LLC": 150000.0
+      }
+    }
+  ]
+}

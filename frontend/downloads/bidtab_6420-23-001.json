@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6420-23-001",
+    "county": "Burleson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642023001",
+    "projectType": "HOT MIX",
+    "letDate": "10/12/22",
+    "engEstTotal": 228000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BIG CREEK CONSTRUCTION, LTD.",
+      "totalBidAmount": 227000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 230000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6003",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "BIG CREEK CONSTRUCTION, LTD.": 90.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 90.0
+      }
+    },
+    {
+      "itemCode": "8011 6004",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 104.5,
+      "bidders": {
+        "BIG CREEK CONSTRUCTION, LTD.": 104.5,
+        "KNIFE RIVER CORPORATION - SOUTH": 106.0
+      }
+    }
+  ]
+}

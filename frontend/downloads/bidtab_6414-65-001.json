@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "csj": "6414-65-001",
+    "county": "Lamar",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641465001",
+    "projectType": "PICNIC AREA MAINTENANCE",
+    "letDate": "08/18/22",
+    "engEstTotal": 109600.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KJRM GENERAL CONTRACTORS, LLC",
+      "totalBidAmount": 89800.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SOUTHERN CROSS CONTRACTORS, LLC",
+      "totalBidAmount": 199000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0745 6061",
+      "description": "GROUNDS MAINT (MOWING / TRIMMING)",
+      "unit": "CYC",
+      "quantity": 16.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "KJRM GENERAL CONTRACTORS, LLC": 1000.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 2000.0
+      }
+    },
+    {
+      "itemCode": "0745 6154",
+      "description": "JANITORIAL MAINT (PICNIC AREAS)",
+      "unit": "CYC",
+      "quantity": 107.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "KJRM GENERAL CONTRACTORS, LLC": 400.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0751 6004",
+      "description": "LEAF REMOVAL",
+      "unit": "CYC",
+      "quantity": 2.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "KJRM GENERAL CONTRACTORS, LLC": 600.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0751 6006",
+      "description": "LITTER PICKUP",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "KJRM GENERAL CONTRACTORS, LLC": 800.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 5100.0
+      }
+    },
+    {
+      "itemCode": "0751 6011",
+      "description": "PRUNING",
+      "unit": "CYC",
+      "quantity": 1.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "KJRM GENERAL CONTRACTORS, LLC": 1000.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 2500.0
+      }
+    },
+    {
+      "itemCode": "0751 6064",
+      "description": "MOWING, TRIMMING AND EDGING (SITE A)",
+      "unit": "CYC",
+      "quantity": 16.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "KJRM GENERAL CONTRACTORS, LLC": 600.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 500.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6457-67-001",
+    "county": "Navarro",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645767001",
+    "projectType": "HERBICIDE APPLICATION ONLY",
+    "letDate": "12/05/23",
+    "engEstTotal": 338663.6,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "OPTERRA SOLUTIONS, INC.",
+      "totalBidAmount": 383162.16
+    },
+    {
+      "rank": 2,
+      "vendorName": "JASCO",
+      "totalBidAmount": 565840.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 30787.6,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "OPTERRA SOLUTIONS, INC.": 2500.0,
+        "JASCO": 25000.0
+      }
+    },
+    {
+      "itemCode": "0731 6006",
+      "description": "BROADCAST APPLICATION",
+      "unit": "MI",
+      "quantity": 166.28,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1300.0,
+      "bidders": {
+        "OPTERRA SOLUTIONS, INC.": 1300.0,
+        "JASCO": 1500.0
+      }
+    },
+    {
+      "itemCode": "0731 6007",
+      "description": "PAVEMENT EDGES, STRUCTURES & FIXTURES",
+      "unit": "MI",
+      "quantity": 166.28,
+      "engEstUnit": 700.0,
+      "lowUnit": 522.0,
+      "bidders": {
+        "OPTERRA SOLUTIONS, INC.": 522.0,
+        "JASCO": 1500.0
+      }
+    }
+  ]
+}

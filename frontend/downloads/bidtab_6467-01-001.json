@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "csj": "6467-01-001",
+    "county": "Oldham",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646701001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "06/05/24",
+    "engEstTotal": 281044.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GORMAN OUTDOOR, INC.",
+      "totalBidAmount": 284018.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "GORMAN OUTDOOR, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 14.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "GORMAN OUTDOOR, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6824.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 41.5,
+      "bidders": {
+        "GORMAN OUTDOOR, INC.": 41.5
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 400.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "GORMAN OUTDOOR, INC.": 1.0
+      }
+    }
+  ]
+}

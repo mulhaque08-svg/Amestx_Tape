@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6397-45-001",
+    "county": "Bexar",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639745001",
+    "projectType": "DENSE GRADED HOT MIX",
+    "letDate": "03/16/22",
+    "engEstTotal": 266000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 332800.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 372000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "LONE STAR PAVING COMPANY",
+      "totalBidAmount": 394350.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6014",
+      "description": "D-GR HMA(SQ)TY B PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 60.0,
+        "COLORADO MATERIALS, LTD.": 65.0,
+        "LONE STAR PAVING COMPANY": 68.0
+      }
+    },
+    {
+      "itemCode": "8011 6015",
+      "description": "D-GR HMA(SQ)TY B PG 64-22(DELIVERY)",
+      "unit": "TON",
+      "quantity": 3000.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 75.4,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 75.4,
+        "COLORADO MATERIALS, LTD.": 85.0,
+        "LONE STAR PAVING COMPANY": 88.25
+      }
+    },
+    {
+      "itemCode": "8011 6036",
+      "description": "D-GR HMA (SQ) TY C PG 70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 81.4,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 81.4,
+        "COLORADO MATERIALS, LTD.": 90.0,
+        "LONE STAR PAVING COMPANY": 100.0
+      }
+    },
+    {
+      "itemCode": "8011 6037",
+      "description": "D-GR HMA (SQ) TY C PG 70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 66.0,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 66.0,
+        "COLORADO MATERIALS, LTD.": 70.0,
+        "LONE STAR PAVING COMPANY": 80.0
+      }
+    }
+  ]
+}

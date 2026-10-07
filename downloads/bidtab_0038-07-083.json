@@ -1,0 +1,602 @@
+{
+  "metadata": {
+    "csj": "0038-07-083",
+    "county": "Starr",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "STP 2023(833)HES",
+    "projectType": "INSTALL TRAFFIC SIGNAL",
+    "letDate": "05/04/23",
+    "engEstTotal": 252098.45,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.",
+      "totalBidAmount": 301664.6
+    },
+    {
+      "rank": 2,
+      "vendorName": "D&G ENERGY CORPORATION",
+      "totalBidAmount": 345450.4
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0416 6032",
+      "description": "DRILL SHAFT (TRF SIG POLE) (36 IN)",
+      "unit": "LF",
+      "quantity": 60.0,
+      "engEstUnit": 270.0,
+      "lowUnit": 290.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 290.0,
+        "D&G ENERGY CORPORATION": 275.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 23000.0,
+      "lowUnit": 25000.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 25000.0,
+        "D&G ENERGY CORPORATION": 40000.0
+      }
+    },
+    {
+      "itemCode": "0529 6024",
+      "description": "CONC CURB (MOUNTABLE)",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 55.0,
+        "D&G ENERGY CORPORATION": 58.0
+      }
+    },
+    {
+      "itemCode": "0531 6001",
+      "description": "CONC SIDEWALKS (4\")",
+      "unit": "SY",
+      "quantity": 4.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 90.0,
+        "D&G ENERGY CORPORATION": 100.0
+      }
+    },
+    {
+      "itemCode": "0531 6004",
+      "description": "CURB RAMPS (TY 1)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 3100.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 3100.0,
+        "D&G ENERGY CORPORATION": 3600.0
+      }
+    },
+    {
+      "itemCode": "0618 6016",
+      "description": "CONDT (PVC) (SCH 40) (1\")",
+      "unit": "LF",
+      "quantity": 110.0,
+      "engEstUnit": 15.5,
+      "lowUnit": 22.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 22.0,
+        "D&G ENERGY CORPORATION": 10.25
+      }
+    },
+    {
+      "itemCode": "0618 6023",
+      "description": "CONDT (PVC) (SCH 40) (2\")",
+      "unit": "LF",
+      "quantity": 1395.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 11.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 11.0,
+        "D&G ENERGY CORPORATION": 12.0
+      }
+    },
+    {
+      "itemCode": "0618 6033",
+      "description": "CONDT (PVC) (SCH 40) (4\")",
+      "unit": "LF",
+      "quantity": 155.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 30.0,
+        "D&G ENERGY CORPORATION": 18.0
+      }
+    },
+    {
+      "itemCode": "0618 6047",
+      "description": "CONDT (PVC) (SCH 80) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 170.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 23.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 23.0,
+        "D&G ENERGY CORPORATION": 35.0
+      }
+    },
+    {
+      "itemCode": "0618 6059",
+      "description": "CONDT (PVC) (SCH 80) (4\") (BORE)",
+      "unit": "LF",
+      "quantity": 185.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 38.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 38.0,
+        "D&G ENERGY CORPORATION": 40.0
+      }
+    },
+    {
+      "itemCode": "0620 6007",
+      "description": "ELEC CONDR (NO.8) BARE",
+      "unit": "LF",
+      "quantity": 465.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.7,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1.7,
+        "D&G ENERGY CORPORATION": 1.4
+      }
+    },
+    {
+      "itemCode": "0620 6009",
+      "description": "ELEC CONDR (NO.6) BARE",
+      "unit": "LF",
+      "quantity": 65.0,
+      "engEstUnit": 1.25,
+      "lowUnit": 2.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 2.0,
+        "D&G ENERGY CORPORATION": 1.75
+      }
+    },
+    {
+      "itemCode": "0620 6010",
+      "description": "ELEC CONDR (NO.6) INSULATED",
+      "unit": "LF",
+      "quantity": 130.0,
+      "engEstUnit": 1.4,
+      "lowUnit": 2.1,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 2.1,
+        "D&G ENERGY CORPORATION": 1.95
+      }
+    },
+    {
+      "itemCode": "0621 6005",
+      "description": "TRAY CABLE (4 CONDR) (12 AWG)",
+      "unit": "LF",
+      "quantity": 340.0,
+      "engEstUnit": 2.1,
+      "lowUnit": 2.6,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 2.6,
+        "D&G ENERGY CORPORATION": 2.4
+      }
+    },
+    {
+      "itemCode": "0624 6002",
+      "description": "GROUND BOX TY A (122311)W/APRON",
+      "unit": "EA",
+      "quantity": 17.0,
+      "engEstUnit": 875.0,
+      "lowUnit": 990.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 990.0,
+        "D&G ENERGY CORPORATION": 965.0
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 1250.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1250.0,
+        "D&G ENERGY CORPORATION": 1400.0
+      }
+    },
+    {
+      "itemCode": "0625 6003",
+      "description": "ZINC-COAT STL WIRE STRAND (3/8\")",
+      "unit": "LF",
+      "quantity": 880.0,
+      "engEstUnit": 2.3,
+      "lowUnit": 2.5,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 2.5,
+        "D&G ENERGY CORPORATION": 3.35
+      }
+    },
+    {
+      "itemCode": "0628 6301",
+      "description": "ELC SRV TY T 120/240 000(NS)GS(L)TS(O)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2250.0,
+      "lowUnit": 2330.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 2330.0,
+        "D&G ENERGY CORPORATION": 4500.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 193.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 193.0,
+        "D&G ENERGY CORPORATION": 150.0
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 300.0,
+        "D&G ENERGY CORPORATION": 240.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 325.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 325.0,
+        "D&G ENERGY CORPORATION": 240.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 38.0,
+      "engEstUnit": 3.9,
+      "lowUnit": 5.7,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 5.7,
+        "D&G ENERGY CORPORATION": 6.3
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 80.0,
+      "engEstUnit": 3.8,
+      "lowUnit": 5.7,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 5.7,
+        "D&G ENERGY CORPORATION": 6.24
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 750.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 1.2,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1.2,
+        "D&G ENERGY CORPORATION": 1.2
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 5500.0,
+      "engEstUnit": 0.1,
+      "lowUnit": 0.15,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 0.15,
+        "D&G ENERGY CORPORATION": 1.44
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.45,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 0.45,
+        "D&G ENERGY CORPORATION": 1.5
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 270.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.7,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 0.7,
+        "D&G ENERGY CORPORATION": 5.1
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 11.6,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 11.6,
+        "D&G ENERGY CORPORATION": 106.0
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 11.6,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 11.6,
+        "D&G ENERGY CORPORATION": 138.0
+      }
+    },
+    {
+      "itemCode": "0682 6001",
+      "description": "VEH SIG SEC (12\")LED(GRN)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 260.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 260.0,
+        "D&G ENERGY CORPORATION": 265.0
+      }
+    },
+    {
+      "itemCode": "0682 6002",
+      "description": "VEH SIG SEC (12\")LED(GRN ARW)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 260.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 260.0,
+        "D&G ENERGY CORPORATION": 265.0
+      }
+    },
+    {
+      "itemCode": "0682 6003",
+      "description": "VEH SIG SEC (12\")LED(YEL)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 260.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 260.0,
+        "D&G ENERGY CORPORATION": 265.0
+      }
+    },
+    {
+      "itemCode": "0682 6004",
+      "description": "VEH SIG SEC (12\")LED(YEL ARW)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 260.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 260.0,
+        "D&G ENERGY CORPORATION": 265.0
+      }
+    },
+    {
+      "itemCode": "0682 6005",
+      "description": "VEH SIG SEC (12\")LED(RED)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 260.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 260.0,
+        "D&G ENERGY CORPORATION": 265.0
+      }
+    },
+    {
+      "itemCode": "0682 6006",
+      "description": "VEH SIG SEC (12\")LED(RED ARW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 210.0,
+      "lowUnit": 260.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 260.0,
+        "D&G ENERGY CORPORATION": 265.0
+      }
+    },
+    {
+      "itemCode": "0682 6018",
+      "description": "PED SIG SEC (LED)(COUNTDOWN)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 478.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 478.0,
+        "D&G ENERGY CORPORATION": 630.0
+      }
+    },
+    {
+      "itemCode": "0682 6049",
+      "description": "BACKPLATE W/REFL BRDR(4 SEC)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 144.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 144.0,
+        "D&G ENERGY CORPORATION": 155.0
+      }
+    },
+    {
+      "itemCode": "0682 6060",
+      "description": "BACKPLATE W/REFL BRDR(3 SEC)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 125.0,
+        "D&G ENERGY CORPORATION": 145.0
+      }
+    },
+    {
+      "itemCode": "0684 6007",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(2 CONDR)",
+      "unit": "LF",
+      "quantity": 865.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.8,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1.8,
+        "D&G ENERGY CORPORATION": 1.5
+      }
+    },
+    {
+      "itemCode": "0684 6010",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(5 CONDR)",
+      "unit": "LF",
+      "quantity": 1670.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 2.6,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 2.6,
+        "D&G ENERGY CORPORATION": 2.75
+      }
+    },
+    {
+      "itemCode": "0684 6012",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(7 CONDR)",
+      "unit": "LF",
+      "quantity": 770.0,
+      "engEstUnit": 2.75,
+      "lowUnit": 3.2,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 3.2,
+        "D&G ENERGY CORPORATION": 3.25
+      }
+    },
+    {
+      "itemCode": "0684 6080",
+      "description": "TRF SIG CBL (TY C)(14 AWG)(2 CONDR)",
+      "unit": "LF",
+      "quantity": 1825.0,
+      "engEstUnit": 1.75,
+      "lowUnit": 1.7,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 1.7,
+        "D&G ENERGY CORPORATION": 1.35
+      }
+    },
+    {
+      "itemCode": "0686 6019",
+      "description": "INS TRF SIG PL AM (S)STR(TY D)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 8800.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 8800.0,
+        "D&G ENERGY CORPORATION": 10800.0
+      }
+    },
+    {
+      "itemCode": "0686 6020",
+      "description": "INS TRF SIG PL AM (S)STR(TY D)LUM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 9500.0,
+      "lowUnit": 10660.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 10660.0,
+        "D&G ENERGY CORPORATION": 12200.0
+      }
+    },
+    {
+      "itemCode": "0688 6001",
+      "description": "PED DETECT PUSH BUTTON (APS)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 720.0,
+      "lowUnit": 815.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 815.0,
+        "D&G ENERGY CORPORATION": 850.0
+      }
+    },
+    {
+      "itemCode": "0688 6003",
+      "description": "PED DETECTOR CONTROLLER UNIT",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 3300.0,
+      "lowUnit": 3770.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 3770.0,
+        "D&G ENERGY CORPORATION": 3725.0
+      }
+    },
+    {
+      "itemCode": "0688 6004",
+      "description": "VEH LP DETECT (SAWCUT)",
+      "unit": "LF",
+      "quantity": 441.0,
+      "engEstUnit": 12.25,
+      "lowUnit": 14.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 14.0,
+        "D&G ENERGY CORPORATION": 11.0
+      }
+    },
+    {
+      "itemCode": "6292 6001",
+      "description": "RVDS(PRESENCE DETECTION ONLY)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 6500.0,
+      "lowUnit": 9600.0,
+      "bidders": {
+        "AUSTIN TRAFFIC SIGNAL CONSTRUCTION CO., INC.": 9600.0,
+        "D&G ENERGY CORPORATION": 9920.0
+      }
+    }
+  ]
+}

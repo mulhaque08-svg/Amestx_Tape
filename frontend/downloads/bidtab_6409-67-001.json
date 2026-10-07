@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6409-67-001",
+    "county": "Nueces",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640967001",
+    "projectType": "RETAINING WALL REPAIR",
+    "letDate": "12/13/22",
+    "engEstTotal": 176390.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MB WESTERN INDUSTRIAL CONTRACTING COMPANY",
+      "totalBidAmount": 175361.6
+    },
+    {
+      "rank": 2,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 217888.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 268056.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 16000.0,
+      "lowUnit": 30000.0,
+      "bidders": {
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 30000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 22000.0,
+        "CRACKSEAL OF TEXAS, LLC": 50000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 120.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 92.0,
+      "bidders": {
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 92.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 110.0,
+        "CRACKSEAL OF TEXAS, LLC": 100.0
+      }
+    }
+  ]
+}

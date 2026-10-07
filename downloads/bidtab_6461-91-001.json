@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6461-91-001",
+    "county": "Grayson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646191001",
+    "projectType": "FULL DEPTH CONCRETE REPAIR",
+    "letDate": "07/09/24",
+    "engEstTotal": 798780.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "STX CIVIL",
+      "totalBidAmount": 737885.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GHB EQUIPMENT COMPANY, L.L.C.",
+      "totalBidAmount": 789970.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "O. TREVINO CONSTRUCTION, LLC",
+      "totalBidAmount": 974800.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0361 6035",
+      "description": "FULL - DEPTH REPAIR CPCD (10\")",
+      "unit": "SY",
+      "quantity": 1540.0,
+      "engEstUnit": 390.0,
+      "lowUnit": 380.0,
+      "bidders": {
+        "STX CIVIL": 380.0,
+        "GHB EQUIPMENT COMPANY, L.L.C.": 359.0,
+        "O. TREVINO CONSTRUCTION, LLC": 455.0
+      }
+    },
+    {
+      "itemCode": "0361 6052",
+      "description": "FULL - DEPTH REPAIR CRCP (8\"-14\")",
+      "unit": "SY",
+      "quantity": 180.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "STX CIVIL": 400.0,
+        "GHB EQUIPMENT COMPANY, L.L.C.": 394.0,
+        "O. TREVINO CONSTRUCTION, LLC": 690.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 68980.0,
+      "lowUnit": 60000.0,
+      "bidders": {
+        "STX CIVIL": 60000.0,
+        "GHB EQUIPMENT COMPANY, L.L.C.": 50000.0,
+        "O. TREVINO CONSTRUCTION, LLC": 97000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 43.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "STX CIVIL": 30.0,
+        "GHB EQUIPMENT COMPANY, L.L.C.": 500.0,
+        "O. TREVINO CONSTRUCTION, LLC": 100.0
+      }
+    }
+  ]
+}

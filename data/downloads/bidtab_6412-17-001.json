@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6412-17-001",
+    "county": "Chambers",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641217001",
+    "projectType": "EMULSION",
+    "letDate": "08/03/22",
+    "engEstTotal": 795436.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CLEVELAND ASPHALT PRODUCTS, INC.",
+      "totalBidAmount": 429372.88
+    },
+    {
+      "rank": 2,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 491472.2
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6214",
+      "description": "EMULSION (CRS-2P) (DEL) (SITE 1)",
+      "unit": "GAL",
+      "quantity": 115755.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 3.23,
+      "bidders": {
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 3.23,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.7
+      }
+    },
+    {
+      "itemCode": "8010 6215",
+      "description": "EMULSION (CRS-2P) (DEL) (SITE 2)",
+      "unit": "GAL",
+      "quantity": 2310.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 3.38,
+      "bidders": {
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 3.38,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.7
+      }
+    },
+    {
+      "itemCode": "8010 6216",
+      "description": "EMULSION (CRS-2P) (DEL) (SITE 3)",
+      "unit": "GAL",
+      "quantity": 12841.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 3.23,
+      "bidders": {
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 3.23,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.7
+      }
+    },
+    {
+      "itemCode": "8010 6220",
+      "description": "EMULSION (CRS-2P) (PICKUP)",
+      "unit": "GAL",
+      "quantity": 2000.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 3.1,
+      "bidders": {
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 3.1,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.56
+      }
+    }
+  ]
+}

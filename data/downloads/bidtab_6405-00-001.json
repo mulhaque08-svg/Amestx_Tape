@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6405-00-001",
+    "county": "Gillespie",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 640500001",
+    "projectType": "BRIDGE PREVENTATIVE MAINTENANCE",
+    "letDate": "06/14/23",
+    "engEstTotal": 41800.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC",
+      "totalBidAmount": 35925.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GIBSON & ASSOCIATES, INC.",
+      "totalBidAmount": 66300.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "3LW CIVIL LLC",
+      "totalBidAmount": 72950.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 7500.0,
+      "bidders": {
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 7500.0,
+        "GIBSON & ASSOCIATES, INC.": 15750.0,
+        "3LW CIVIL LLC": 15000.0
+      }
+    },
+    {
+      "itemCode": "4002 6001",
+      "description": "REPLACE ELASTOMERIC BEARING PADS",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 16000.0,
+      "bidders": {
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 16000.0,
+        "GIBSON & ASSOCIATES, INC.": 35000.0,
+        "3LW CIVIL LLC": 30000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 15.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 25.0,
+        "GIBSON & ASSOCIATES, INC.": 50.0,
+        "3LW CIVIL LLC": 350.0
+      }
+    }
+  ]
+}

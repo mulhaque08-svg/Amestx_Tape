@@ -1,0 +1,960 @@
+{
+  "metadata": {
+    "csj": "0051-09-126",
+    "county": "Galveston",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "STP 2022(920)HES",
+    "projectType": "HAZARD ELIMINATION & SAFETY",
+    "letDate": "08/04/22",
+    "engEstTotal": 681071.91,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ALLSTATE SIGNAL & CONSTRUCTION, LLC",
+      "totalBidAmount": 848580.69
+    },
+    {
+      "rank": 2,
+      "vendorName": "THIRD COAST SERVICES LLC",
+      "totalBidAmount": 873371.84
+    },
+    {
+      "rank": 3,
+      "vendorName": "FLORIDA TRAFFIC CONTROL DEVICES, INC.",
+      "totalBidAmount": 906414.5
+    },
+    {
+      "rank": 4,
+      "vendorName": "TRAF-TEX, INC.",
+      "totalBidAmount": 948152.07
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6036",
+      "description": "REMOVING CONC (SIDEWALK OR RAMP)",
+      "unit": "SY",
+      "quantity": 29.0,
+      "engEstUnit": 16.43,
+      "lowUnit": 22.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 22.0,
+        "THIRD COAST SERVICES LLC": 102.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 116.03,
+        "TRAF-TEX, INC.": 31.0
+      }
+    },
+    {
+      "itemCode": "0416 6032",
+      "description": "DRILL SHAFT (TRF SIG POLE) (36 IN)",
+      "unit": "LF",
+      "quantity": 77.0,
+      "engEstUnit": 239.44,
+      "lowUnit": 392.43,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 392.43,
+        "THIRD COAST SERVICES LLC": 409.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 549.39,
+        "TRAF-TEX, INC.": 555.0
+      }
+    },
+    {
+      "itemCode": "0416 6034",
+      "description": "DRILL SHAFT (TRF SIG POLE) (48 IN)",
+      "unit": "LF",
+      "quantity": 113.0,
+      "engEstUnit": 336.76,
+      "lowUnit": 471.2,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 471.2,
+        "THIRD COAST SERVICES LLC": 402.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 590.83,
+        "TRAF-TEX, INC.": 696.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 70000.0,
+      "lowUnit": 82200.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 82200.0,
+        "THIRD COAST SERVICES LLC": 87300.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 56055.06,
+        "TRAF-TEX, INC.": 22277.0
+      }
+    },
+    {
+      "itemCode": "0529 6012",
+      "description": "CONC CURB (SLOTTED)",
+      "unit": "LF",
+      "quantity": 184.0,
+      "engEstUnit": 8.12,
+      "lowUnit": 16.8,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 16.8,
+        "THIRD COAST SERVICES LLC": 76.35,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 87.02,
+        "TRAF-TEX, INC.": 55.61
+      }
+    },
+    {
+      "itemCode": "0531 6001",
+      "description": "CONC SIDEWALKS (4\")",
+      "unit": "SY",
+      "quantity": 69.0,
+      "engEstUnit": 48.82,
+      "lowUnit": 141.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 141.0,
+        "THIRD COAST SERVICES LLC": 203.6,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 232.06,
+        "TRAF-TEX, INC.": 176.82
+      }
+    },
+    {
+      "itemCode": "0531 6004",
+      "description": "CURB RAMPS (TY 1)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1899.98,
+      "lowUnit": 2675.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 2675.0,
+        "THIRD COAST SERVICES LLC": 8653.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 9862.44,
+        "TRAF-TEX, INC.": 4226.0
+      }
+    },
+    {
+      "itemCode": "0531 6037",
+      "description": "CURB RAMP (TY 1) (MOD)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 4500.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 4500.0,
+        "THIRD COAST SERVICES LLC": 8653.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 9862.44,
+        "TRAF-TEX, INC.": 4281.0
+      }
+    },
+    {
+      "itemCode": "0618 6046",
+      "description": "CONDT (PVC) (SCH 80) (2\")",
+      "unit": "LF",
+      "quantity": 870.0,
+      "engEstUnit": 9.98,
+      "lowUnit": 14.71,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 14.71,
+        "THIRD COAST SERVICES LLC": 10.6,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 16.56,
+        "TRAF-TEX, INC.": 29.3
+      }
+    },
+    {
+      "itemCode": "0618 6047",
+      "description": "CONDT (PVC) (SCH 80) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 285.0,
+      "engEstUnit": 15.14,
+      "lowUnit": 16.49,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 16.49,
+        "THIRD COAST SERVICES LLC": 20.7,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 24.18,
+        "TRAF-TEX, INC.": 36.9
+      }
+    },
+    {
+      "itemCode": "0618 6053",
+      "description": "CONDT (PVC) (SCH 80) (3\")",
+      "unit": "LF",
+      "quantity": 530.0,
+      "engEstUnit": 14.05,
+      "lowUnit": 22.75,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 22.75,
+        "THIRD COAST SERVICES LLC": 16.2,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 21.34,
+        "TRAF-TEX, INC.": 46.7
+      }
+    },
+    {
+      "itemCode": "0618 6054",
+      "description": "CONDT (PVC) (SCH 80) (3\") (BORE)",
+      "unit": "LF",
+      "quantity": 655.0,
+      "engEstUnit": 18.63,
+      "lowUnit": 24.63,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 24.63,
+        "THIRD COAST SERVICES LLC": 26.3,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 29.37,
+        "TRAF-TEX, INC.": 48.0
+      }
+    },
+    {
+      "itemCode": "0620 6009",
+      "description": "ELEC CONDR (NO.6) BARE",
+      "unit": "LF",
+      "quantity": 1595.0,
+      "engEstUnit": 1.8,
+      "lowUnit": 1.78,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 1.78,
+        "THIRD COAST SERVICES LLC": 1.82,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1.22,
+        "TRAF-TEX, INC.": 2.08
+      }
+    },
+    {
+      "itemCode": "0620 6011",
+      "description": "ELEC CONDR (NO.4) BARE",
+      "unit": "LF",
+      "quantity": 120.0,
+      "engEstUnit": 2.47,
+      "lowUnit": 3.03,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 3.03,
+        "THIRD COAST SERVICES LLC": 2.47,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1.8,
+        "TRAF-TEX, INC.": 3.1
+      }
+    },
+    {
+      "itemCode": "0620 6012",
+      "description": "ELEC CONDR (NO.4) INSULATED",
+      "unit": "LF",
+      "quantity": 230.0,
+      "engEstUnit": 2.75,
+      "lowUnit": 3.34,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 3.34,
+        "THIRD COAST SERVICES LLC": 2.91,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 2.04,
+        "TRAF-TEX, INC.": 3.6
+      }
+    },
+    {
+      "itemCode": "0621 6002",
+      "description": "TRAY CABLE (3 CONDR) (12 AWG)",
+      "unit": "LF",
+      "quantity": 1525.0,
+      "engEstUnit": 2.1,
+      "lowUnit": 2.28,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 2.28,
+        "THIRD COAST SERVICES LLC": 2.1,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1.71,
+        "TRAF-TEX, INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "0621 6005",
+      "description": "TRAY CABLE (4 CONDR) (12 AWG)",
+      "unit": "LF",
+      "quantity": 1270.0,
+      "engEstUnit": 2.08,
+      "lowUnit": 2.58,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 2.58,
+        "THIRD COAST SERVICES LLC": 2.39,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 2.04,
+        "TRAF-TEX, INC.": 3.15
+      }
+    },
+    {
+      "itemCode": "0624 6009",
+      "description": "GROUND BOX TY D (162922)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 1542.95,
+      "lowUnit": 765.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 765.0,
+        "THIRD COAST SERVICES LLC": 1115.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 707.87,
+        "TRAF-TEX, INC.": 916.0
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 980.23,
+      "lowUnit": 1048.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 1048.0,
+        "THIRD COAST SERVICES LLC": 1355.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1054.79,
+        "TRAF-TEX, INC.": 1002.0
+      }
+    },
+    {
+      "itemCode": "0628 6145",
+      "description": "ELC SRV TY D 120/240 060(NS)SS(E)SP(O)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 5206.76,
+      "lowUnit": 7455.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 7455.0,
+        "THIRD COAST SERVICES LLC": 5576.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 5940.65,
+        "TRAF-TEX, INC.": 8385.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 61.28,
+      "lowUnit": 50.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 50.0,
+        "THIRD COAST SERVICES LLC": 145.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 274.72,
+        "TRAF-TEX, INC.": 129.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 34.0,
+      "engEstUnit": 4.57,
+      "lowUnit": 7.35,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 7.35,
+        "THIRD COAST SERVICES LLC": 5.12,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 5.22,
+        "TRAF-TEX, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 136.0,
+      "engEstUnit": 4.37,
+      "lowUnit": 7.35,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 7.35,
+        "THIRD COAST SERVICES LLC": 5.69,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 5.8,
+        "TRAF-TEX, INC.": 5.55
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 40.0,
+      "engEstUnit": 4.35,
+      "lowUnit": 7.35,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 7.35,
+        "THIRD COAST SERVICES LLC": 5.69,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 5.8,
+        "TRAF-TEX, INC.": 5.55
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 2220.0,
+      "engEstUnit": 0.24,
+      "lowUnit": 0.86,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 0.86,
+        "THIRD COAST SERVICES LLC": 0.51,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 0.52,
+        "TRAF-TEX, INC.": 0.5
+      }
+    },
+    {
+      "itemCode": "0677 6005",
+      "description": "ELIM EXT PAV MRK & MRKS (12\")",
+      "unit": "LF",
+      "quantity": 730.0,
+      "engEstUnit": 0.94,
+      "lowUnit": 1.85,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 1.85,
+        "THIRD COAST SERVICES LLC": 0.85,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 0.87,
+        "TRAF-TEX, INC.": 0.85
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 483.0,
+      "engEstUnit": 1.87,
+      "lowUnit": 2.36,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 2.36,
+        "THIRD COAST SERVICES LLC": 1.82,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1.86,
+        "TRAF-TEX, INC.": 1.8
+      }
+    },
+    {
+      "itemCode": "0677 6008",
+      "description": "ELIM EXT PAV MRK & MRKS (ARROW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 33.12,
+      "lowUnit": 57.75,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 57.75,
+        "THIRD COAST SERVICES LLC": 51.21,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 52.21,
+        "TRAF-TEX, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0677 6012",
+      "description": "ELIM EXT PAV MRK & MRKS (WORD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 40.54,
+      "lowUnit": 57.75,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 57.75,
+        "THIRD COAST SERVICES LLC": 51.21,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 52.21,
+        "TRAF-TEX, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 6155.0,
+      "engEstUnit": 0.02,
+      "lowUnit": 0.04,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 0.04,
+        "THIRD COAST SERVICES LLC": 0.06,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 0.06,
+        "TRAF-TEX, INC.": 0.06
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 450.0,
+      "engEstUnit": 0.04,
+      "lowUnit": 0.05,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 0.05,
+        "THIRD COAST SERVICES LLC": 0.11,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 0.12,
+        "TRAF-TEX, INC.": 0.11
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 1360.0,
+      "engEstUnit": 0.13,
+      "lowUnit": 0.13,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 0.13,
+        "THIRD COAST SERVICES LLC": 0.28,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 0.29,
+        "TRAF-TEX, INC.": 0.28
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 4.18,
+      "lowUnit": 5.25,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 5.25,
+        "THIRD COAST SERVICES LLC": 22.76,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 23.21,
+        "TRAF-TEX, INC.": 22.25
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 6.48,
+      "lowUnit": 5.25,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 5.25,
+        "THIRD COAST SERVICES LLC": 22.76,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 23.21,
+        "TRAF-TEX, INC.": 22.25
+      }
+    },
+    {
+      "itemCode": "0678 6033",
+      "description": "PAV SURF PREP FOR MRK (RPM)",
+      "unit": "EA",
+      "quantity": 210.0,
+      "engEstUnit": 0.08,
+      "lowUnit": 1.05,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 1.05,
+        "THIRD COAST SERVICES LLC": 0.22,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 0.23,
+        "TRAF-TEX, INC.": 0.22
+      }
+    },
+    {
+      "itemCode": "0678 6049",
+      "description": "PAV SURF PREP FOR MRK (BLST CLN) X-WALK",
+      "unit": "SF",
+      "quantity": 1185.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.11,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 1.11,
+        "THIRD COAST SERVICES LLC": 0.97,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 0.99,
+        "TRAF-TEX, INC.": 0.95
+      }
+    },
+    {
+      "itemCode": "0682 6001",
+      "description": "VEH SIG SEC (12\")LED(GRN)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 210.33,
+      "lowUnit": 260.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 260.0,
+        "THIRD COAST SERVICES LLC": 191.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 221.66,
+        "TRAF-TEX, INC.": 229.0
+      }
+    },
+    {
+      "itemCode": "0682 6002",
+      "description": "VEH SIG SEC (12\")LED(GRN ARW)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 198.89,
+      "lowUnit": 260.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 260.0,
+        "THIRD COAST SERVICES LLC": 191.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 221.66,
+        "TRAF-TEX, INC.": 229.0
+      }
+    },
+    {
+      "itemCode": "0682 6003",
+      "description": "VEH SIG SEC (12\")LED(YEL)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 191.66,
+      "lowUnit": 260.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 260.0,
+        "THIRD COAST SERVICES LLC": 191.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 221.66,
+        "TRAF-TEX, INC.": 229.0
+      }
+    },
+    {
+      "itemCode": "0682 6004",
+      "description": "VEH SIG SEC (12\")LED(YEL ARW)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 206.73,
+      "lowUnit": 260.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 260.0,
+        "THIRD COAST SERVICES LLC": 191.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 221.66,
+        "TRAF-TEX, INC.": 229.0
+      }
+    },
+    {
+      "itemCode": "0682 6005",
+      "description": "VEH SIG SEC (12\")LED(RED)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 191.78,
+      "lowUnit": 260.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 260.0,
+        "THIRD COAST SERVICES LLC": 191.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 221.66,
+        "TRAF-TEX, INC.": 229.0
+      }
+    },
+    {
+      "itemCode": "0682 6006",
+      "description": "VEH SIG SEC (12\")LED(RED ARW)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 189.63,
+      "lowUnit": 260.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 260.0,
+        "THIRD COAST SERVICES LLC": 191.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 221.66,
+        "TRAF-TEX, INC.": 229.0
+      }
+    },
+    {
+      "itemCode": "0682 6018",
+      "description": "PED SIG SEC (LED)(COUNTDOWN)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 517.5,
+      "lowUnit": 615.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 615.0,
+        "THIRD COAST SERVICES LLC": 551.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 496.65,
+        "TRAF-TEX, INC.": 579.0
+      }
+    },
+    {
+      "itemCode": "0682 6049",
+      "description": "BACKPLATE W/REFL BRDR(4 SEC)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 134.08,
+      "lowUnit": 148.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 148.0,
+        "THIRD COAST SERVICES LLC": 150.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 154.95,
+        "TRAF-TEX, INC.": 208.0
+      }
+    },
+    {
+      "itemCode": "0682 6060",
+      "description": "BACKPLATE W/REFL BRDR(3 SEC)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 116.61,
+      "lowUnit": 128.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 128.0,
+        "THIRD COAST SERVICES LLC": 123.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 142.85,
+        "TRAF-TEX, INC.": 180.0
+      }
+    },
+    {
+      "itemCode": "0684 6007",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(2 CONDR)",
+      "unit": "LF",
+      "quantity": 2395.0,
+      "engEstUnit": 1.64,
+      "lowUnit": 1.64,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 1.64,
+        "THIRD COAST SERVICES LLC": 1.65,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1.29,
+        "TRAF-TEX, INC.": 1.7
+      }
+    },
+    {
+      "itemCode": "0684 6009",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(4 CONDR)",
+      "unit": "LF",
+      "quantity": 2490.0,
+      "engEstUnit": 2.04,
+      "lowUnit": 2.9,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 2.9,
+        "THIRD COAST SERVICES LLC": 2.22,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1.88,
+        "TRAF-TEX, INC.": 2.55
+      }
+    },
+    {
+      "itemCode": "0684 6012",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(7 CONDR)",
+      "unit": "LF",
+      "quantity": 4550.0,
+      "engEstUnit": 2.73,
+      "lowUnit": 3.16,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 3.16,
+        "THIRD COAST SERVICES LLC": 2.81,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 2.71,
+        "TRAF-TEX, INC.": 3.54
+      }
+    },
+    {
+      "itemCode": "0686 6029",
+      "description": "INS TRF SIG PL AM (S)1 ARM(28')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 8400.0,
+      "lowUnit": 12446.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 12446.0,
+        "THIRD COAST SERVICES LLC": 11652.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 12465.35,
+        "TRAF-TEX, INC.": 11864.0
+      }
+    },
+    {
+      "itemCode": "0686 6039",
+      "description": "INS TRF SIG PL AM(S)1 ARM(36')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 11039.37,
+      "lowUnit": 16576.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 16576.0,
+        "THIRD COAST SERVICES LLC": 15600.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 16606.89,
+        "TRAF-TEX, INC.": 15943.0
+      }
+    },
+    {
+      "itemCode": "0686 6041",
+      "description": "INS TRF SIG PL AM(S)1 ARM(40')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 9947.4,
+      "lowUnit": 15363.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 15363.0,
+        "THIRD COAST SERVICES LLC": 14451.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 15554.22,
+        "TRAF-TEX, INC.": 14383.0
+      }
+    },
+    {
+      "itemCode": "0686 6043",
+      "description": "INS TRF SIG PL AM(S)1 ARM(40')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 11531.46,
+      "lowUnit": 17580.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 17580.0,
+        "THIRD COAST SERVICES LLC": 16743.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 18025.42,
+        "TRAF-TEX, INC.": 16716.0
+      }
+    },
+    {
+      "itemCode": "0686 6047",
+      "description": "INS TRF SIG PL AM(S)1 ARM(44')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 12504.07,
+      "lowUnit": 18331.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 18331.0,
+        "THIRD COAST SERVICES LLC": 17657.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 18903.1,
+        "TRAF-TEX, INC.": 17588.0
+      }
+    },
+    {
+      "itemCode": "0686 6055",
+      "description": "INS TRF SIG PL AM(S)1 ARM(50')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 27606.28,
+      "lowUnit": 31813.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 31813.0,
+        "THIRD COAST SERVICES LLC": 32146.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 34303.7,
+        "TRAF-TEX, INC.": 32376.0
+      }
+    },
+    {
+      "itemCode": "0686 6058",
+      "description": "INS TRF SIG PL AM(S)1 ARM(55')ILSN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 26221.43,
+      "lowUnit": 31105.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 31105.0,
+        "THIRD COAST SERVICES LLC": 32206.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 34501.79,
+        "TRAF-TEX, INC.": 32619.0
+      }
+    },
+    {
+      "itemCode": "0686 6060",
+      "description": "INS TRF SIG PL AM(S)1 ARM(55')LUM&ILSN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 28653.24,
+      "lowUnit": 34115.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 34115.0,
+        "THIRD COAST SERVICES LLC": 35181.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 37590.4,
+        "TRAF-TEX, INC.": 35583.0
+      }
+    },
+    {
+      "itemCode": "0687 6001",
+      "description": "PED POLE ASSEMBLY",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 1602.56,
+      "lowUnit": 2350.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 2350.0,
+        "THIRD COAST SERVICES LLC": 1831.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 2946.05,
+        "TRAF-TEX, INC.": 2473.0
+      }
+    },
+    {
+      "itemCode": "0688 6001",
+      "description": "PED DETECT PUSH BUTTON (APS)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 755.58,
+      "lowUnit": 590.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 590.0,
+        "THIRD COAST SERVICES LLC": 704.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 708.13,
+        "TRAF-TEX, INC.": 681.2
+      }
+    },
+    {
+      "itemCode": "0688 6003",
+      "description": "PED DETECTOR CONTROLLER UNIT",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 2120.45,
+      "lowUnit": 2735.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 2735.0,
+        "THIRD COAST SERVICES LLC": 3002.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 3291.97,
+        "TRAF-TEX, INC.": 3900.0
+      }
+    },
+    {
+      "itemCode": "6007 6011",
+      "description": "FIBER OPTIC CBL (SNGLE-MODE)(12 FIBER)",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 2.11,
+      "lowUnit": 15.83,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 15.83,
+        "THIRD COAST SERVICES LLC": 2.77,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 61.13,
+        "TRAF-TEX, INC.": 37.61
+      }
+    },
+    {
+      "itemCode": "6058 6001",
+      "description": "BBU SYSTEM (EXTERNAL BATT CABINET)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 6590.16,
+      "lowUnit": 7000.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 7000.0,
+        "THIRD COAST SERVICES LLC": 7156.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 7346.54,
+        "TRAF-TEX, INC.": 9499.0
+      }
+    },
+    {
+      "itemCode": "6062 6034",
+      "description": "ITS RADIO (DUAL)(5 GHZ/5 GHZ)-I-U",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3013.7,
+      "lowUnit": 2775.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 2775.0,
+        "THIRD COAST SERVICES LLC": 3607.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 4203.46,
+        "TRAF-TEX, INC.": 3735.0
+      }
+    },
+    {
+      "itemCode": "6186 6002",
+      "description": "ITS GND BOX(PCAST) TY 1 (243636)W/APRN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3174.77,
+      "lowUnit": 3581.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 3581.0,
+        "THIRD COAST SERVICES LLC": 4315.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 3564.93,
+        "TRAF-TEX, INC.": 3861.0
+      }
+    },
+    {
+      "itemCode": "6306 6009",
+      "description": "VIVDS PROSR SYS (INSTALL ONLY)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 843.01,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 1000.0,
+        "THIRD COAST SERVICES LLC": 577.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 246.35,
+        "TRAF-TEX, INC.": 499.0
+      }
+    },
+    {
+      "itemCode": "6306 6010",
+      "description": "VIVDS CAM ASSY (INSTALL ONLY)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 511.13,
+      "lowUnit": 750.0,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 750.0,
+        "THIRD COAST SERVICES LLC": 386.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 184.58,
+        "TRAF-TEX, INC.": 171.0
+      }
+    },
+    {
+      "itemCode": "6306 6012",
+      "description": "VIVDS CABLING (INSTALL ONLY)",
+      "unit": "LF",
+      "quantity": 1765.0,
+      "engEstUnit": 0.86,
+      "lowUnit": 1.5,
+      "bidders": {
+        "ALLSTATE SIGNAL & CONSTRUCTION, LLC": 1.5,
+        "THIRD COAST SERVICES LLC": 0.97,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 0.59,
+        "TRAF-TEX, INC.": 1.32
+      }
+    }
+  ]
+}

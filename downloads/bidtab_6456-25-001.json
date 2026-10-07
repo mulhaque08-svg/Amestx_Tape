@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "csj": "6456-25-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645625001",
+    "projectType": "GRAFFITI REMOVAL",
+    "letDate": "01/10/24",
+    "engEstTotal": 267250.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FIREMAN EXCAVATING, INC.",
+      "totalBidAmount": 184105.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 278750.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 937000.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 250.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 600.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 1.0,
+        "SHALOM SERVICES CORPORATION": 1000.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 600.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "SHALOM SERVICES CORPORATION": 50.0
+      }
+    },
+    {
+      "itemCode": "0740 6001",
+      "description": "GRAFFITI REMOVAL (BLAST CLEANING)",
+      "unit": "SF",
+      "quantity": 10000.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.5,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 0.5,
+        "GARRET SHIELDS INFRASTRUCTURE": 0.9,
+        "SHALOM SERVICES CORPORATION": 3.0
+      }
+    },
+    {
+      "itemCode": "0740 6002",
+      "description": "GRAFFITI REMOVAL (PAINTING)",
+      "unit": "SF",
+      "quantity": 150000.0,
+      "engEstUnit": 0.95,
+      "lowUnit": 0.1,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 0.1,
+        "GARRET SHIELDS INFRASTRUCTURE": 1.1,
+        "SHALOM SERVICES CORPORATION": 3.0
+      }
+    },
+    {
+      "itemCode": "0740 6005",
+      "description": "ANTI - GRAFFITI COATNG(PERMNENT-TY III)",
+      "unit": "SF",
+      "quantity": 2000.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 1.0,
+        "SHALOM SERVICES CORPORATION": 3.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 5.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "SHALOM SERVICES CORPORATION": 0.1
+      }
+    }
+  ]
+}

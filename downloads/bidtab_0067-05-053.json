@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "0067-05-053",
+    "county": "Hale",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 67-5-53",
+    "projectType": "REHABILITATE EXISTING ROADWAY",
+    "letDate": "01/05/23",
+    "engEstTotal": 2675989.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SILVER CREEK CONSTRUCTION, INC.",
+      "totalBidAmount": 2049918.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "O. TREVINO CONSTRUCTION, LLC",
+      "totalBidAmount": 2274949.05
+    },
+    {
+      "rank": 3,
+      "vendorName": "SCR CIVIL CONSTRUCTION, LLC",
+      "totalBidAmount": 2634288.3
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0361 6004",
+      "description": "FULL - DEPTH REPAIR CRCP (10\")",
+      "unit": "SY",
+      "quantity": 3420.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 299.0,
+      "bidders": {
+        "SILVER CREEK CONSTRUCTION, INC.": 299.0,
+        "O. TREVINO CONSTRUCTION, LLC": 326.5,
+        "SCR CIVIL CONSTRUCTION, LLC": 418.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 260000.0,
+      "lowUnit": 204000.0,
+      "bidders": {
+        "SILVER CREEK CONSTRUCTION, INC.": 204000.0,
+        "O. TREVINO CONSTRUCTION, LLC": 225000.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 240000.0
+      }
+    },
+    {
+      "itemCode": "3025 6001",
+      "description": "RAISING AND UNDERSEALING CONCRETE SLAB",
+      "unit": "LB",
+      "quantity": 75045.0,
+      "engEstUnit": 7.5,
+      "lowUnit": 5.25,
+      "bidders": {
+        "SILVER CREEK CONSTRUCTION, INC.": 5.25,
+        "O. TREVINO CONSTRUCTION, LLC": 6.75,
+        "SCR CIVIL CONSTRUCTION, LLC": 6.5
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 419.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "SILVER CREEK CONSTRUCTION, INC.": 100.0,
+        "O. TREVINO CONSTRUCTION, LLC": 185.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 70.0
+      }
+    }
+  ]
+}

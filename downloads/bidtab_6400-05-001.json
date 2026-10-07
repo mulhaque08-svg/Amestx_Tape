@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6400-05-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640005001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/09/22",
+    "engEstTotal": 105199.1,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 72295.02
+    },
+    {
+      "rank": 2,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 74819.3
+    },
+    {
+      "rank": 3,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 127780.68
+    },
+    {
+      "rank": 4,
+      "vendorName": "SCOUT 5 CONSTRUCTION LLC",
+      "totalBidAmount": 166214.98
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 7820.0,
+      "lowUnit": 4000.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 4000.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "SCOUT 5 CONSTRUCTION LLC": 2999.64
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 29.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 0.5,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 0.5,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "SCOUT 5 CONSTRUCTION LLC": 0.01
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6467-41-001",
+    "county": "Hunt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646741001",
+    "projectType": "TREE TRIMMING",
+    "letDate": "08/15/24",
+    "engEstTotal": 253300.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "EASTGATE SERVICES",
+      "totalBidAmount": 202561.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CATOCON, INC.",
+      "totalBidAmount": 242205.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "AZA CONSTRUCTION INC",
+      "totalBidAmount": 288541.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "AAD CONTRACTING INC.",
+      "totalBidAmount": 426900.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "EASTGATE SERVICES": 1.0,
+        "CATOCON, INC.": 1.0,
+        "AZA CONSTRUCTION INC": 1.0,
+        "AAD CONTRACTING INC.": 6500.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 150.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1350.0,
+      "bidders": {
+        "EASTGATE SERVICES": 1350.0,
+        "CATOCON, INC.": 1500.0,
+        "AZA CONSTRUCTION INC": 1750.0,
+        "AAD CONTRACTING INC.": 2200.0
+      }
+    },
+    {
+      "itemCode": "0752 6004",
+      "description": "TREE TRIMMING / BRUSH REMOVAL(CHANNELS)",
+      "unit": "AC",
+      "quantity": 20.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "EASTGATE SERVICES": 1.0,
+        "CATOCON, INC.": 500.0,
+        "AZA CONSTRUCTION INC": 1300.0,
+        "AAD CONTRACTING INC.": 2500.0
+      }
+    }
+  ]
+}

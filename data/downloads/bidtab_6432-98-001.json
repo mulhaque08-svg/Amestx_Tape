@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6432-98-001",
+    "county": "Dewitt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 643298001",
+    "projectType": "HOT-MIX COLD-LAID",
+    "letDate": "02/22/23",
+    "engEstTotal": 285000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 262410.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 270000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "QUALITY HOT MIX, INC.",
+      "totalBidAmount": 280500.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 311310.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8013 6002",
+      "description": "HMCL ACP TYPE D SAC-B AC-0.6 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 3000.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 87.47,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 87.47,
+        "BRAUNTEX MATERIALS, INC.": 90.0,
+        "QUALITY HOT MIX, INC.": 93.5,
+        "COLORADO MATERIALS, LTD.": 103.77
+      }
+    }
+  ]
+}

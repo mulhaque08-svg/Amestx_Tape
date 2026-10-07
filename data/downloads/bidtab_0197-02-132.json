@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "csj": "0197-02-132",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2021(907)",
+    "projectType": "HAZARD ELIMINATION & SAFETY",
+    "letDate": "08/05/21",
+    "engEstTotal": 2092224.7,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GIBSON & ASSOCIATES, INC.",
+      "totalBidAmount": 2151209.64
+    },
+    {
+      "rank": 2,
+      "vendorName": "SELECT MAINTENANCE, L.L.C.",
+      "totalBidAmount": 2251114.06
+    },
+    {
+      "rank": 3,
+      "vendorName": "ALTUS CONSTRUCTION LLC",
+      "totalBidAmount": 2273641.81
+    },
+    {
+      "rank": 4,
+      "vendorName": "ROY JORGENSEN ASSOCIATES, INC.",
+      "totalBidAmount": 2275407.13
+    },
+    {
+      "rank": 5,
+      "vendorName": "STRIPE-A-ZONE, INC.",
+      "totalBidAmount": 2297598.43
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 190202.25,
+      "lowUnit": 101500.0,
+      "bidders": {
+        "GIBSON & ASSOCIATES, INC.": 101500.0,
+        "SELECT MAINTENANCE, L.L.C.": 210000.0,
+        "ALTUS CONSTRUCTION LLC": 223763.23,
+        "ROY JORGENSEN ASSOCIATES, INC.": 200000.0,
+        "STRIPE-A-ZONE, INC.": 25000.0
+      }
+    },
+    {
+      "itemCode": "0533 6003",
+      "description": "RUMBLE STRIPS (SHOULDER) ASPHALT",
+      "unit": "LF",
+      "quantity": 27500.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.17,
+      "bidders": {
+        "GIBSON & ASSOCIATES, INC.": 0.17,
+        "SELECT MAINTENANCE, L.L.C.": 0.13,
+        "ALTUS CONSTRUCTION LLC": 0.53,
+        "ROY JORGENSEN ASSOCIATES, INC.": 0.2,
+        "STRIPE-A-ZONE, INC.": 0.11
+      }
+    },
+    {
+      "itemCode": "0533 6005",
+      "description": "RUMBLE STRIPS (SHOULDER) CONCRETE",
+      "unit": "LF",
+      "quantity": 161187.0,
+      "engEstUnit": 1.35,
+      "lowUnit": 0.72,
+      "bidders": {
+        "GIBSON & ASSOCIATES, INC.": 0.72,
+        "SELECT MAINTENANCE, L.L.C.": 0.63,
+        "ALTUS CONSTRUCTION LLC": 0.12,
+        "ROY JORGENSEN ASSOCIATES, INC.": 0.74,
+        "STRIPE-A-ZONE, INC.": 0.64
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 146.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "GIBSON & ASSOCIATES, INC.": 90.0,
+        "SELECT MAINTENANCE, L.L.C.": 40.0,
+        "ALTUS CONSTRUCTION LLC": 60.48,
+        "ROY JORGENSEN ASSOCIATES, INC.": 200.0,
+        "STRIPE-A-ZONE, INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "6072 6001",
+      "description": "MODULAR GLARE SCREENS (FURN & INSTALL)",
+      "unit": "LF",
+      "quantity": 76375.0,
+      "engEstUnit": 20.5,
+      "lowUnit": 24.6,
+      "bidders": {
+        "GIBSON & ASSOCIATES, INC.": 24.6,
+        "SELECT MAINTENANCE, L.L.C.": 22.67,
+        "ALTUS CONSTRUCTION LLC": 24.75,
+        "ROY JORGENSEN ASSOCIATES, INC.": 23.25,
+        "STRIPE-A-ZONE, INC.": 27.85
+      }
+    }
+  ]
+}

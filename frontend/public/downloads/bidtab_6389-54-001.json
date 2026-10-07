@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6389-54-001",
+    "county": "Tarrant",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638954001",
+    "projectType": "HOT MIX - MATERIAL ONLY",
+    "letDate": "10/07/21",
+    "engEstTotal": 465190.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AUSTIN ASPHALT, INC.",
+      "totalBidAmount": 519940.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 552710.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6039",
+      "description": "D-GR HMA(SQ) TY B SAC B PG64-22(PICKUP)",
+      "unit": "TON",
+      "quantity": 665.0,
+      "engEstUnit": 46.0,
+      "lowUnit": 56.0,
+      "bidders": {
+        "AUSTIN ASPHALT, INC.": 56.0,
+        "TEXAS MATERIALS GROUP, INC.": 49.0
+      }
+    },
+    {
+      "itemCode": "8011 6040",
+      "description": "D-GR HMA(SQ) TY C SAC A PG70-28(DEL)",
+      "unit": "TON",
+      "quantity": 4250.0,
+      "engEstUnit": 76.0,
+      "lowUnit": 84.0,
+      "bidders": {
+        "AUSTIN ASPHALT, INC.": 84.0,
+        "TEXAS MATERIALS GROUP, INC.": 90.5
+      }
+    },
+    {
+      "itemCode": "8011 6041",
+      "description": "D-GR HMA(SQ) TY C SAC A PG70-28(PICKUP)",
+      "unit": "TON",
+      "quantity": 1400.0,
+      "engEstUnit": 66.0,
+      "lowUnit": 75.5,
+      "bidders": {
+        "AUSTIN ASPHALT, INC.": 75.5,
+        "TEXAS MATERIALS GROUP, INC.": 82.5
+      }
+    },
+    {
+      "itemCode": "8019 6007",
+      "description": "ASPHALTIC CONC PATCH MATERIAL (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 96.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "AUSTIN ASPHALT, INC.": 100.0,
+        "TEXAS MATERIALS GROUP, INC.": 100.0
+      }
+    }
+  ]
+}

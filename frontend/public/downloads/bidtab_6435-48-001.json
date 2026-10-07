@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6435-48-001",
+    "county": "Goliad",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 643548001",
+    "projectType": "HOT MIX",
+    "letDate": "02/15/23",
+    "engEstTotal": 295500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 325230.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 300.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 85.0
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 3000.0,
+      "engEstUnit": 92.0,
+      "lowUnit": 99.91,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 99.91
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6438-45-001",
+    "county": "Taylor",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643845001",
+    "projectType": "CLEANING AND SEALING CRACKS",
+    "letDate": "08/02/23",
+    "engEstTotal": 1006239.83,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 849708.98
+    },
+    {
+      "rank": 2,
+      "vendorName": "FYL ENTERPRISES, LLC",
+      "totalBidAmount": 899785.36
+    },
+    {
+      "rank": 3,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 1024118.15
+    },
+    {
+      "rank": 4,
+      "vendorName": "NATIONAL INDUSTRIAL MAINTENANCE, INC.",
+      "totalBidAmount": 1426434.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 32958.83,
+      "lowUnit": 13500.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 13500.0,
+        "FYL ENTERPRISES, LLC": 10000.0,
+        "CRACKSEAL OF TEXAS, LLC": 10000.0,
+        "NATIONAL INDUSTRIAL MAINTENANCE, INC.": 50000.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6397-94-001",
+    "county": "Brown",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639794001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY (CALL-OUT)",
+    "letDate": "03/16/22",
+    "engEstTotal": 290560.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 345766.4
+    },
+    {
+      "rank": 2,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 353121.2
+    },
+    {
+      "rank": 3,
+      "vendorName": "COMPLETION DOSZIER LLC",
+      "totalBidAmount": 374822.4
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 9080.0,
+      "engEstUnit": 32.0,
+      "lowUnit": 38.08,
+      "bidders": {
+        "R&M INCORPORATED": 38.08,
+        "ABESCAPE GROUP LLC": 38.89,
+        "COMPLETION DOSZIER LLC": 41.28
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6419-87-001",
+    "county": "Grayson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641987001",
+    "projectType": "DEBRIS REMOVAL",
+    "letDate": "10/07/22",
+    "engEstTotal": 539960.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 479285.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ROSS SA ENTERPRISE LLC",
+      "totalBidAmount": 513480.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 1023142.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 60000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ANTHONY SERVICES": 1.0,
+        "ROSS SA ENTERPRISE LLC": 20000.0,
+        "DIGG COMMERCIAL, LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "0735 6001",
+      "description": "DEBRIS REMOVAL (CNTR MEDIANS/MAINLANES)",
+      "unit": "CYC",
+      "quantity": 182.0,
+      "engEstUnit": 920.0,
+      "lowUnit": 175.0,
+      "bidders": {
+        "ANTHONY SERVICES": 175.0,
+        "ROSS SA ENTERPRISE LLC": 70.0,
+        "DIGG COMMERCIAL, LLC": 825.0
+      }
+    },
+    {
+      "itemCode": "0735 6003",
+      "description": "DEBRIS REMOVAL (FRONTAGE ROADS)",
+      "unit": "CYC",
+      "quantity": 52.0,
+      "engEstUnit": 920.0,
+      "lowUnit": 175.0,
+      "bidders": {
+        "ANTHONY SERVICES": 175.0,
+        "ROSS SA ENTERPRISE LLC": 70.0,
+        "DIGG COMMERCIAL, LLC": 946.0
+      }
+    },
+    {
+      "itemCode": "0735 6005",
+      "description": "DEBRIS REMOVAL (ENTRANCE/EXIT RAMPS)",
+      "unit": "CYC",
+      "quantity": 130.0,
+      "engEstUnit": 920.0,
+      "lowUnit": 175.0,
+      "bidders": {
+        "ANTHONY SERVICES": 175.0,
+        "ROSS SA ENTERPRISE LLC": 70.0,
+        "DIGG COMMERCIAL, LLC": 500.0
+      }
+    }
+  ]
+}

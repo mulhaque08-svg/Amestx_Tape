@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6464-19-001",
+    "county": "Karnes",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646419001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/20/24",
+    "engEstTotal": 235875.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 252597.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 261120.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 21000.0,
+      "lowUnit": 11000.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 11000.0,
+        "CRACKSEAL OF TEXAS, LLC": 10000.0
+      }
+    }
+  ]
+}

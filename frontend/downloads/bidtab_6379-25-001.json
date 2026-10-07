@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6379-25-001",
+    "county": "Val Verde",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637925001",
+    "projectType": "CLEANING AND SEALING CRACKS",
+    "letDate": "06/03/21",
+    "engEstTotal": 315370.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 288442.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 299885.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 28670.0,
+      "lowUnit": 30000.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 30000.0,
+        "D & M CONTRACTORS, LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "0510 6002",
+      "description": "ONE-WAY TRAF CONT (PILOT CAR)",
+      "unit": "HR",
+      "quantity": 400.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 1.0,
+        "D & M CONTRACTORS, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0712 6008",
+      "description": "JT / CRCK SEAL (RUBBER - ASPHALT)",
+      "unit": "LMI",
+      "quantity": 500.0,
+      "engEstUnit": 515.0,
+      "lowUnit": 516.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 516.0,
+        "D & M CONTRACTORS, LLC": 577.77
+      }
+    }
+  ]
+}

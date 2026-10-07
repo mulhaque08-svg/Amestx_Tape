@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "csj": "6442-24-001",
+    "county": "Walker",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 644224001",
+    "projectType": "HOT MIX",
+    "letDate": "12/05/23",
+    "engEstTotal": 612400.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 623600.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BIG CREEK CONSTRUCTION, LTD.",
+      "totalBidAmount": 648800.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 663400.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 691600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 77.0,
+      "lowUnit": 78.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 78.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 74.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 90.0,
+        "TEXAS MATERIALS GROUP, INC.": 88.0
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 4000.0,
+      "engEstUnit": 97.0,
+      "lowUnit": 98.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 98.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 102.8,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 102.0,
+        "TEXAS MATERIALS GROUP, INC.": 105.0
+      }
+    },
+    {
+      "itemCode": "8011 6005",
+      "description": "D-GR HMA(SQ) TY F PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 80.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 76.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 97.0,
+        "TEXAS MATERIALS GROUP, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "8011 6006",
+      "description": "D-GR HMA(SQ) TY F PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 96.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 100.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 103.8,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 109.0,
+        "TEXAS MATERIALS GROUP, INC.": 117.0
+      }
+    }
+  ]
+}

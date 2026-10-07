@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6408-79-001",
+    "county": "Shelby",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 640879001",
+    "projectType": "HOT MIX",
+    "letDate": "06/14/22",
+    "engEstTotal": 264000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "EAST TEXAS ASPHALT CO., LTD.",
+      "totalBidAmount": 262700.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8006 6016",
+      "description": "SP TY C PG 76-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 121.0,
+      "bidders": {
+        "EAST TEXAS ASPHALT CO., LTD.": 121.0
+      }
+    },
+    {
+      "itemCode": "8011 6016",
+      "description": "D-GR HMA(SQ)TY C PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 700.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 116.0,
+      "bidders": {
+        "EAST TEXAS ASPHALT CO., LTD.": 116.0
+      }
+    }
+  ]
+}

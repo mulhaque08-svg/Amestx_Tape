@@ -1,0 +1,772 @@
+{
+  "metadata": {
+    "csj": "6449-75-001",
+    "county": "Fort Bend",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644975001",
+    "projectType": "CLEANING AND SWEEPING HIGHWAYS",
+    "letDate": "11/01/23",
+    "engEstTotal": 1326420.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SWEEPING CORPORATION OF AMERICA, LLC",
+      "totalBidAmount": 1148521.2
+    },
+    {
+      "rank": 2,
+      "vendorName": "PROFESSIONAL TRAFFIC CONTROL LLC",
+      "totalBidAmount": 1278963.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CEN-TEX IRRIGATION SYSTEMS, INC.",
+      "totalBidAmount": 1877402.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2000.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 7500.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0735 6081",
+      "description": "DEBRIS-CNTR MEDIANS/MAINLANES-AREA (14)",
+      "unit": "CYC",
+      "quantity": 52.0,
+      "engEstUnit": 1704.0,
+      "lowUnit": 1738.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1738.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 3200.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0735 6082",
+      "description": "DEBRIS-CNTR MEDIANS/MAINLANES-AREA (15)",
+      "unit": "CYC",
+      "quantity": 52.0,
+      "engEstUnit": 163.0,
+      "lowUnit": 148.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 148.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 500.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "0735 6102",
+      "description": "DEBRIS - FRONTAGE ROADS - AREA (15)",
+      "unit": "CYC",
+      "quantity": 52.0,
+      "engEstUnit": 163.0,
+      "lowUnit": 148.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 148.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 270.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "0735 6121",
+      "description": "DEBRIS-ENTRANCE/EXIT RAMPS - AREA (14)",
+      "unit": "CYC",
+      "quantity": 52.0,
+      "engEstUnit": 728.0,
+      "lowUnit": 1738.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1738.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 150.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0735 6122",
+      "description": "DEBRIS-ENTRANCE/EXIT RAMPS - AREA (15)",
+      "unit": "CYC",
+      "quantity": 52.0,
+      "engEstUnit": 82.0,
+      "lowUnit": 148.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 148.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 150.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "0738 6010",
+      "description": "CLEANING / SWEEPING (SPOT)",
+      "unit": "MI",
+      "quantity": 20.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 250.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 250.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "0738 6011",
+      "description": "CLEANING / SWEEPING (HANDWORK)",
+      "unit": "SY",
+      "quantity": 215366.0,
+      "engEstUnit": 0.75,
+      "lowUnit": 0.2,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 0.2,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 0.5,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1.75
+      }
+    },
+    {
+      "itemCode": "0738 6094",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(1)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 3889.0,
+      "lowUnit": 3675.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 3675.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2800.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 4800.0
+      }
+    },
+    {
+      "itemCode": "0738 6095",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(2)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 755.0,
+      "lowUnit": 735.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 735.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 600.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0738 6096",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(3)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 240.0,
+      "lowUnit": 227.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 227.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 175.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 450.0
+      }
+    },
+    {
+      "itemCode": "0738 6099",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(6)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1841.0,
+      "lowUnit": 1697.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1697.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1300.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 2100.0
+      }
+    },
+    {
+      "itemCode": "0738 6100",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(7)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 553.0,
+      "lowUnit": 577.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 577.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 450.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0738 6101",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(8)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 553.0,
+      "lowUnit": 577.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 577.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 450.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0738 6102",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(9)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 369.0,
+      "lowUnit": 332.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 332.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 300.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 450.0
+      }
+    },
+    {
+      "itemCode": "0738 6103",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (10)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 553.0,
+      "lowUnit": 385.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 385.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 300.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 600.0
+      }
+    },
+    {
+      "itemCode": "0738 6104",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (11)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1473.0,
+      "lowUnit": 1312.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1312.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1000.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1700.0
+      }
+    },
+    {
+      "itemCode": "0738 6106",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (13)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1473.0,
+      "lowUnit": 1452.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1452.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1200.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1900.0
+      }
+    },
+    {
+      "itemCode": "0738 6107",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (14)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 5779.0,
+      "lowUnit": 5530.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 5530.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 4300.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 7000.0
+      }
+    },
+    {
+      "itemCode": "0738 6108",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (15)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 479.0,
+      "lowUnit": 472.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 472.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 365.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0738 6110",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (17)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 47.0,
+      "lowUnit": 52.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 52.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 100.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 120.0
+      }
+    },
+    {
+      "itemCode": "0738 6111",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (18)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 93.0,
+      "lowUnit": 87.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 87.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 100.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0738 6112",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (19)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 2025.0,
+      "lowUnit": 1575.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1575.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1200.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 2600.0
+      }
+    },
+    {
+      "itemCode": "0738 6113",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (20)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 5789.0,
+      "lowUnit": 612.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 612.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 500.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0738 6114",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(1)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 3889.0,
+      "lowUnit": 3675.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 3675.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2800.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 5000.0
+      }
+    },
+    {
+      "itemCode": "0738 6115",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(2)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 755.0,
+      "lowUnit": 735.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 735.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 600.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1100.0
+      }
+    },
+    {
+      "itemCode": "0738 6116",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(3)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 240.0,
+      "lowUnit": 227.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 227.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 175.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0738 6117",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(4)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 553.0,
+      "lowUnit": 420.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 420.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 350.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 700.0
+      }
+    },
+    {
+      "itemCode": "0738 6118",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(5)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 37.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 35.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 100.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "0738 6119",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(6)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1841.0,
+      "lowUnit": 1697.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1697.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1300.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 2500.0
+      }
+    },
+    {
+      "itemCode": "0738 6120",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(7)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 553.0,
+      "lowUnit": 577.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 577.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 450.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 920.0
+      }
+    },
+    {
+      "itemCode": "0738 6121",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(8)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 553.0,
+      "lowUnit": 577.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 577.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 450.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 920.0
+      }
+    },
+    {
+      "itemCode": "0738 6122",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(9)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 369.0,
+      "lowUnit": 332.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 332.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 300.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 600.0
+      }
+    },
+    {
+      "itemCode": "0738 6123",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(10)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 553.0,
+      "lowUnit": 385.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 385.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 300.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 750.0
+      }
+    },
+    {
+      "itemCode": "0738 6124",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(11)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1473.0,
+      "lowUnit": 1312.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1312.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1000.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 2200.0
+      }
+    },
+    {
+      "itemCode": "0738 6125",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(12)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 185.0,
+      "lowUnit": 122.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 122.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 100.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 240.0
+      }
+    },
+    {
+      "itemCode": "0738 6126",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(13)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1473.0,
+      "lowUnit": 1452.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1452.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1200.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 2300.0
+      }
+    },
+    {
+      "itemCode": "0738 6127",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(14)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 5779.0,
+      "lowUnit": 5530.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 5530.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 4300.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 7500.0
+      }
+    },
+    {
+      "itemCode": "0738 6128",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(15)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 479.0,
+      "lowUnit": 472.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 472.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 365.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0738 6129",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(16)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 185.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 140.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 100.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0738 6130",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(17)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 47.0,
+      "lowUnit": 52.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 52.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 100.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 175.0
+      }
+    },
+    {
+      "itemCode": "0738 6131",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(18)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 93.0,
+      "lowUnit": 87.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 87.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 100.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "0738 6132",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(19)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 2025.0,
+      "lowUnit": 1575.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1575.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1200.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 2800.0
+      }
+    },
+    {
+      "itemCode": "0738 6133",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(20)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 590.0,
+      "lowUnit": 612.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 612.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 500.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0738 6134",
+      "description": "CLEAN / SWEEP - FRONTAGE ROAD - AREA(1)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 921.0,
+      "lowUnit": 875.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 875.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1150.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1500.0
+      }
+    },
+    {
+      "itemCode": "0738 6135",
+      "description": "CLEAN / SWEEP - FRONTAGE ROAD - AREA(2)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 405.0,
+      "lowUnit": 385.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 385.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 440.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0738 6146",
+      "description": "CLEAN / SWEEP - FRONTAGE ROAD -AREA(13)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 369.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 350.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 500.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0738 6147",
+      "description": "CLEAN / SWEEP - FRONTAGE ROAD -AREA(14)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 5799.0,
+      "lowUnit": 5530.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 5530.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 7100.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 7500.0
+      }
+    },
+    {
+      "itemCode": "0738 6148",
+      "description": "CLEAN / SWEEP - FRONTAGE ROAD -AREA(15)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 479.0,
+      "lowUnit": 472.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 472.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 650.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0738 6154",
+      "description": "CLEAN / SWEEP - (ENTR /EXT RMP)(AREA 1)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 203.0,
+      "lowUnit": 192.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 192.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 220.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0738 6166",
+      "description": "CLEAN / SWEEP - (ENTR/EXT RMP)(AREA 13)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 369.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 350.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 400.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 700.0
+      }
+    },
+    {
+      "itemCode": "0738 6167",
+      "description": "CLEAN / SWEEP - (ENTR/EXT RMP)(AREA 14)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 2486.0,
+      "lowUnit": 2362.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2362.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2700.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 3600.0
+      }
+    },
+    {
+      "itemCode": "0738 6168",
+      "description": "CLEAN / SWEEP - (ENTR/EXT RMP)(AREA 15)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 277.0,
+      "lowUnit": 262.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 262.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 300.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0738 6221",
+      "description": "CLEAN/SWEEP-OUTSIDE MAIN LANE-AREA(21)",
+      "unit": "CYC",
+      "quantity": 4.0,
+      "engEstUnit": 2780.0,
+      "lowUnit": 2432.5,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2432.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1900.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 3600.0
+      }
+    },
+    {
+      "itemCode": "0738 6222",
+      "description": "CLEAN/SWEEP-OUTSIDE MAIN LANE-AREA(22)",
+      "unit": "CYC",
+      "quantity": 4.0,
+      "engEstUnit": 2920.0,
+      "lowUnit": 2555.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 2555.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2000.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 3700.0
+      }
+    },
+    {
+      "itemCode": "0738 6223",
+      "description": "CLEAN/SWEEP-OUTSIDE MAIN LANE-AREA(23)",
+      "unit": "CYC",
+      "quantity": 4.0,
+      "engEstUnit": 960.0,
+      "lowUnit": 840.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 840.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 750.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1400.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 2.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 50.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1000.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 1500.0
+      }
+    }
+  ]
+}

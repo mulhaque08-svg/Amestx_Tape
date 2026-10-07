@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "csj": "6383-15-001",
+    "county": "Kerr",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638315001",
+    "projectType": "PICNIC AREA MAINTENANCE",
+    "letDate": "07/02/21",
+    "engEstTotal": 619760.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JCW CONSTRUCTION, LLC",
+      "totalBidAmount": 599880.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 18560.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 13.0,
+      "bidders": {
+        "JCW CONSTRUCTION, LLC": 13.0
+      }
+    },
+    {
+      "itemCode": "0745 6061",
+      "description": "GROUNDS MAINT (MOWING / TRIMMING)",
+      "unit": "CYC",
+      "quantity": 40.0,
+      "engEstUnit": 3850.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "JCW CONSTRUCTION, LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "0745 6154",
+      "description": "JANITORIAL MAINT (PICNIC AREAS)",
+      "unit": "CYC",
+      "quantity": 208.0,
+      "engEstUnit": 990.0,
+      "lowUnit": 1700.0,
+      "bidders": {
+        "JCW CONSTRUCTION, LLC": 1700.0
+      }
+    }
+  ]
+}

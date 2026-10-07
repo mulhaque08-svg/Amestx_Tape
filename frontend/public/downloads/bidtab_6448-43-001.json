@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6448-43-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644843001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/02/24",
+    "engEstTotal": 309337.6,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 229893.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 238454.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 262908.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 28121.6,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ANTHONY SERVICES": 1.0,
+        "ICOS MANAGEMENT, LLC": 15000.0,
+        "RISE UP CONSTRUCTION LLC": 25000.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ANTHONY SERVICES": 1.0,
+        "ICOS MANAGEMENT, LLC": 43.5,
+        "RISE UP CONSTRUCTION LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6104",
+      "description": "FULL-WIDTH MOWING (RURAL)",
+      "unit": "AC",
+      "quantity": 2672.0,
+      "engEstUnit": 58.0,
+      "lowUnit": 62.0,
+      "bidders": {
+        "ANTHONY SERVICES": 62.0,
+        "ICOS MANAGEMENT, LLC": 52.0,
+        "RISE UP CONSTRUCTION LLC": 64.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 2672.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 24.0,
+      "bidders": {
+        "ANTHONY SERVICES": 24.0,
+        "ICOS MANAGEMENT, LLC": 30.0,
+        "RISE UP CONSTRUCTION LLC": 25.0
+      }
+    }
+  ]
+}

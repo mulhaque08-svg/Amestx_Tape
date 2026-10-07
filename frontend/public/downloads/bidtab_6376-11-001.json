@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "csj": "6376-11-001",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637611001",
+    "projectType": "PAVEMENT MARKINGS",
+    "letDate": "04/07/21",
+    "engEstTotal": 446083.55,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "STRIPE LINES, INC.",
+      "totalBidAmount": 262181.48
+    },
+    {
+      "rank": 2,
+      "vendorName": "BATTERSON, LLP",
+      "totalBidAmount": 292683.28
+    },
+    {
+      "rank": 3,
+      "vendorName": "PROFESSIONAL TRAFFIC CONTROL LLC",
+      "totalBidAmount": 323043.64
+    },
+    {
+      "rank": 4,
+      "vendorName": "SURFACE PREPARATION TECHNOLOGIES, LLC",
+      "totalBidAmount": 329925.97
+    },
+    {
+      "rank": 5,
+      "vendorName": "INTERSTATE BARRICADES & MARKINGS, INC.",
+      "totalBidAmount": 376616.49
+    },
+    {
+      "rank": 6,
+      "vendorName": "PMI PAVEMENT MARKING, LLC",
+      "totalBidAmount": 422111.2
+    },
+    {
+      "rank": 7,
+      "vendorName": "STRIPING TECHNOLOGY, L.P.",
+      "totalBidAmount": 528518.73
+    },
+    {
+      "rank": 8,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 549538.98
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 50000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "STRIPE LINES, INC.": 1000.0,
+        "BATTERSON, LLP": 1.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 6000.0,
+        "SURFACE PREPARATION TECHNOLOGIES, LLC": 24600.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 10000.0,
+        "PMI PAVEMENT MARKING, LLC": 96.0
+      }
+    },
+    {
+      "itemCode": "0533 6005",
+      "description": "RUMBLE STRIPS (SHOULDER) CONCRETE",
+      "unit": "LF",
+      "quantity": 210096.08,
+      "engEstUnit": 0.65,
+      "lowUnit": 0.37,
+      "bidders": {
+        "STRIPE LINES, INC.": 0.37,
+        "BATTERSON, LLP": 0.44,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 0.65,
+        "SURFACE PREPARATION TECHNOLOGIES, LLC": 0.52,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.65,
+        "PMI PAVEMENT MARKING, LLC": 1.13
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 58.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "STRIPE LINES, INC.": 25.0,
+        "BATTERSON, LLP": 100.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 35.0,
+        "SURFACE PREPARATION TECHNOLOGIES, LLC": 1.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 100.0,
+        "PMI PAVEMENT MARKING, LLC": 145.0
+      }
+    }
+  ]
+}

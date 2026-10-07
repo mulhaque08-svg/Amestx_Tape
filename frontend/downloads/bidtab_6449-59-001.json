@@ -1,0 +1,371 @@
+{
+  "metadata": {
+    "csj": "6449-59-001",
+    "county": "Chambers",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 644959001",
+    "projectType": "BRIDGE PREVENTATIVE MAINTENANCE",
+    "letDate": "11/02/23",
+    "engEstTotal": 435610.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "STRUCTURAL INTEGRITY GROUP LLC",
+      "totalBidAmount": 381541.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 413410.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MB WESTERN INDUSTRIAL CONTRACTING COMPANY",
+      "totalBidAmount": 431420.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "PATHFIELD INVESTMENTS LLC",
+      "totalBidAmount": 517615.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "ISI CONTRACTING, INC.",
+      "totalBidAmount": 564262.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "AAD CONTRACTING INC.",
+      "totalBidAmount": 604675.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "SELECT MAINTENANCE, L.L.C.",
+      "totalBidAmount": 661589.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 3.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 1100.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 5000.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 1000.0,
+        "PATHFIELD INVESTMENTS LLC": 5000.0,
+        "ISI CONTRACTING, INC.": 1250.0,
+        "AAD CONTRACTING INC.": 1500.0
+      }
+    },
+    {
+      "itemCode": "0158 6003",
+      "description": "SPEC EXCAV WORK (HYD EXCAVATOR)",
+      "unit": "HR",
+      "quantity": 16.0,
+      "engEstUnit": 417.0,
+      "lowUnit": 285.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 285.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 200.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 200.0,
+        "PATHFIELD INVESTMENTS LLC": 150.0,
+        "ISI CONTRACTING, INC.": 400.0,
+        "AAD CONTRACTING INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 14.0,
+      "engEstUnit": 235.0,
+      "lowUnit": 620.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 620.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 200.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 260.0,
+        "PATHFIELD INVESTMENTS LLC": 500.0,
+        "ISI CONTRACTING, INC.": 6000.0,
+        "AAD CONTRACTING INC.": 220.0
+      }
+    },
+    {
+      "itemCode": "0401 6001",
+      "description": "FLOWABLE BACKFILL",
+      "unit": "CY",
+      "quantity": 53.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 450.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 450.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 700.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 450.0,
+        "PATHFIELD INVESTMENTS LLC": 500.0,
+        "ISI CONTRACTING, INC.": 750.0,
+        "AAD CONTRACTING INC.": 240.0
+      }
+    },
+    {
+      "itemCode": "0429 6002",
+      "description": "CONC STR REPAIR (EPOXY MORTAR)",
+      "unit": "SF",
+      "quantity": 26.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 200.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 300.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 245.0,
+        "PATHFIELD INVESTMENTS LLC": 210.0,
+        "ISI CONTRACTING, INC.": 350.0,
+        "AAD CONTRACTING INC.": 150.0
+      }
+    },
+    {
+      "itemCode": "0429 6003",
+      "description": "CONC STR REPAIR(DECK REP(PART DEPTH))",
+      "unit": "SF",
+      "quantity": 38.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 225.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 200.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 245.0,
+        "PATHFIELD INVESTMENTS LLC": 240.0,
+        "ISI CONTRACTING, INC.": 500.0,
+        "AAD CONTRACTING INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0429 6005",
+      "description": "CONC STR REPAIR(DECK REP (FULL DEPTH))",
+      "unit": "SF",
+      "quantity": 20.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 525.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 525.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 200.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 607.0,
+        "PATHFIELD INVESTMENTS LLC": 300.0,
+        "ISI CONTRACTING, INC.": 550.0,
+        "AAD CONTRACTING INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 82.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 200.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 250.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 250.0,
+        "PATHFIELD INVESTMENTS LLC": 250.0,
+        "ISI CONTRACTING, INC.": 1300.0,
+        "AAD CONTRACTING INC.": 190.0
+      }
+    },
+    {
+      "itemCode": "0432 6014",
+      "description": "RIPRAP (STONE TY R)(DRY)(6 IN)",
+      "unit": "CY",
+      "quantity": 12.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 500.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 250.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 550.0,
+        "PATHFIELD INVESTMENTS LLC": 210.0,
+        "ISI CONTRACTING, INC.": 550.0,
+        "AAD CONTRACTING INC.": 175.0
+      }
+    },
+    {
+      "itemCode": "0432 6035",
+      "description": "RIPRAP (STONE PROTECTION)(24 IN)",
+      "unit": "CY",
+      "quantity": 32.0,
+      "engEstUnit": 181.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 500.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 250.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 300.0,
+        "PATHFIELD INVESTMENTS LLC": 400.0,
+        "ISI CONTRACTING, INC.": 550.0,
+        "AAD CONTRACTING INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "0438 6001",
+      "description": "CLEANING AND SEALING EXISTING JOINTS",
+      "unit": "LF",
+      "quantity": 140.0,
+      "engEstUnit": 16.0,
+      "lowUnit": 33.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 33.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 50.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 75.0,
+        "PATHFIELD INVESTMENTS LLC": 90.0,
+        "ISI CONTRACTING, INC.": 48.0,
+        "AAD CONTRACTING INC.": 55.0
+      }
+    },
+    {
+      "itemCode": "0438 6008",
+      "description": "CLEANING AND SEALING JOINTS (CL 7)",
+      "unit": "LF",
+      "quantity": 1276.0,
+      "engEstUnit": 99.0,
+      "lowUnit": 41.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 41.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 60.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 50.0,
+        "PATHFIELD INVESTMENTS LLC": 90.0,
+        "ISI CONTRACTING, INC.": 17.0,
+        "AAD CONTRACTING INC.": 75.0
+      }
+    },
+    {
+      "itemCode": "0496 6005",
+      "description": "REMOV STR (WINGWALL)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 7000.0,
+      "lowUnit": 3100.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 3100.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 5000.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 2500.0,
+        "PATHFIELD INVESTMENTS LLC": 10000.0,
+        "ISI CONTRACTING, INC.": 3400.0,
+        "AAD CONTRACTING INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0496 6007",
+      "description": "REMOV STR (PIPE)",
+      "unit": "LF",
+      "quantity": 25.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 250.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 36.0,
+        "PATHFIELD INVESTMENTS LLC": 3000.0,
+        "ISI CONTRACTING, INC.": 105.0,
+        "AAD CONTRACTING INC.": 75.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 9000.0,
+      "lowUnit": 64700.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 64700.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 40000.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 90000.0,
+        "PATHFIELD INVESTMENTS LLC": 40000.0,
+        "ISI CONTRACTING, INC.": 15000.0,
+        "AAD CONTRACTING INC.": 75000.0
+      }
+    },
+    {
+      "itemCode": "0752 6006",
+      "description": "TREE REMOVAL (12\" - 18\" DIA)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 2900.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 2900.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 1000.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 1000.0,
+        "PATHFIELD INVESTMENTS LLC": 500.0,
+        "ISI CONTRACTING, INC.": 1250.0,
+        "AAD CONTRACTING INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0760 6001",
+      "description": "DITCH CLEANING AND RESHAPING (FOOT)",
+      "unit": "LF",
+      "quantity": 275.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 26.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 26.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 50.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 20.0,
+        "PATHFIELD INVESTMENTS LLC": 35.0,
+        "ISI CONTRACTING, INC.": 24.0,
+        "AAD CONTRACTING INC.": 12.0
+      }
+    },
+    {
+      "itemCode": "0780 6002",
+      "description": "CNC CRACK REPAIR (DISCRETE)(INJECT)",
+      "unit": "LF",
+      "quantity": 36.0,
+      "engEstUnit": 67.0,
+      "lowUnit": 61.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 61.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 130.0,
+        "PATHFIELD INVESTMENTS LLC": 200.0,
+        "ISI CONTRACTING, INC.": 225.0,
+        "AAD CONTRACTING INC.": 95.0
+      }
+    },
+    {
+      "itemCode": "3086 6001",
+      "description": "SOIL DENS.AND RAISING CONC.SLABS(HDPF)",
+      "unit": "LB",
+      "quantity": 8500.0,
+      "engEstUnit": 9.5,
+      "lowUnit": 3.05,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 3.05,
+        "GARRET SHIELDS INFRASTRUCTURE": 5.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 7.0,
+        "PATHFIELD INVESTMENTS LLC": 10.0,
+        "ISI CONTRACTING, INC.": 4.0,
+        "AAD CONTRACTING INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 1.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 1000.0,
+        "PATHFIELD INVESTMENTS LLC": 1000.0,
+        "ISI CONTRACTING, INC.": 3000.0,
+        "AAD CONTRACTING INC.": 8000.0
+      }
+    }
+  ]
+}

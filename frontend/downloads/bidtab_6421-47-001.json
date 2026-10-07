@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6421-47-001",
+    "county": "Tom Green",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642147001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "10/10/22",
+    "engEstTotal": 252036.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RJ LANDSCAPING SERVICES LLC",
+      "totalBidAmount": 249915.69
+    },
+    {
+      "rank": 2,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 252096.24
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 2898.0,
+      "engEstUnit": 82.0,
+      "lowUnit": 79.405,
+      "bidders": {
+        "RJ LANDSCAPING SERVICES LLC": 79.405,
+        "ABESCAPE GROUP LLC": 77.88
+      }
+    }
+  ]
+}

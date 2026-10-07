@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6444-90-001",
+    "county": "Navarro",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 644490001",
+    "projectType": "ROCK/RIPRAP",
+    "letDate": "06/07/23",
+    "engEstTotal": 172000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "A. L. HELMCAMP, INC.",
+      "totalBidAmount": 93090.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 102000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 120000.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "USA AMTECH, INC.",
+      "totalBidAmount": 171750.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8020 6074",
+      "description": "RIPRAP(STNCMN)(DRY)(3\"X5\")(DEL)(ST1)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 43.72,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 43.72,
+        "KNIFE RIVER CORPORATION - SOUTH": 42.0,
+        "TOUCHSTONE RESOURCES, LLC": 55.0,
+        "USA AMTECH, INC.": 75.5
+      }
+    },
+    {
+      "itemCode": "8020 6099",
+      "description": "RIPRAP STN CMN DRY(18\"X24\")(DEL) SITE 1",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 72.0,
+      "lowUnit": 49.37,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 49.37,
+        "KNIFE RIVER CORPORATION - SOUTH": 60.0,
+        "TOUCHSTONE RESOURCES, LLC": 65.0,
+        "USA AMTECH, INC.": 96.25
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6372-43-001",
+    "county": "Waller",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637243001",
+    "projectType": "PUMP STATION AND DRAIN SYSTEM CLEANING",
+    "letDate": "01/12/21",
+    "engEstTotal": 200888.75,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AIMS COMPANIES",
+      "totalBidAmount": 196675.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "E.V.G. ENTERPRISE",
+      "totalBidAmount": 245415.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "PRESLEY LAND MANAGEMENT LLC",
+      "totalBidAmount": 325390.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "AIMS COMPANIES": 1000.0,
+        "E.V.G. ENTERPRISE": 1000.0,
+        "PRESLEY LAND MANAGEMENT LLC": 3000.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1800.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "AIMS COMPANIES": 2000.0,
+        "E.V.G. ENTERPRISE": 1000.0,
+        "PRESLEY LAND MANAGEMENT LLC": 3000.0
+      }
+    },
+    {
+      "itemCode": "7019 6001",
+      "description": "STORM SEWER (TELEVISION INSPECTION)",
+      "unit": "LF",
+      "quantity": 1000.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 6.0,
+      "bidders": {
+        "AIMS COMPANIES": 6.0,
+        "E.V.G. ENTERPRISE": 5.0,
+        "PRESLEY LAND MANAGEMENT LLC": 12.0
+      }
+    }
+  ]
+}

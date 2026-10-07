@@ -1,0 +1,707 @@
+{
+  "metadata": {
+    "csj": "6418-57-001",
+    "county": "Jefferson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641857001",
+    "projectType": "PAVEMENT MARKINGS",
+    "letDate": "10/06/22",
+    "engEstTotal": 1084950.33,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BARRICADES UNLIMITED",
+      "totalBidAmount": 989383.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "PINNACLE GRINDING AND GROOVING LLC",
+      "totalBidAmount": 1452255.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "INTERSTATE BARRICADES & MARKINGS, INC.",
+      "totalBidAmount": 1916818.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 120.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 100.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 1.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 751.9,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 1000.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 800.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 3000.0
+      }
+    },
+    {
+      "itemCode": "0668 6074",
+      "description": "PREFAB PAV MRK TY C (W) (12\") (SLD)",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 7.2,
+      "lowUnit": 6.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 6.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 11.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0668 6076",
+      "description": "PREFAB PAV MRK TY C (W) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 10.88,
+      "lowUnit": 15.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 15.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 18.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 8.0
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 189.11,
+      "lowUnit": 200.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 200.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 299.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "0668 6078",
+      "description": "PREFAB PAV MRK TY C (W) (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 280.6,
+      "lowUnit": 249.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 249.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 365.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0668 6080",
+      "description": "PREFAB PAV MRK TY C (W) (UTURN ARROW)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 331.52,
+      "lowUnit": 224.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 224.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 455.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "0668 6083",
+      "description": "PREFAB PAV MRK TY C (W) (LNDP ARROW)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 330.47,
+      "lowUnit": 349.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 349.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 500.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 450.0
+      }
+    },
+    {
+      "itemCode": "0668 6084",
+      "description": "PREFAB PAV MRK TY C (W) (NUMBER)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 155.03,
+      "lowUnit": 50.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 50.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 290.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 235.04,
+      "lowUnit": 350.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 350.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 350.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0668 6089",
+      "description": "PREFAB PAV MRK TY C (W) (RR XING)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 533.77,
+      "lowUnit": 499.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 499.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 950.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 550.0
+      }
+    },
+    {
+      "itemCode": "0668 6090",
+      "description": "PREFAB PAV MRK TY C (W) (SYMBOL)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 386.96,
+      "lowUnit": 250.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 250.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 450.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0668 6092",
+      "description": "PREFAB PAV MRK TY C (W) (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 200.0,
+      "engEstUnit": 15.89,
+      "lowUnit": 21.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 21.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 28.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0668 6115",
+      "description": "PREFAB PAV MRK TY C (MULTI) (SHIELD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2515.88,
+      "lowUnit": 2100.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 2100.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 2800.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 2500.0
+      }
+    },
+    {
+      "itemCode": "0672 6006",
+      "description": "REFL PAV MRKR TY I-A",
+      "unit": "EA",
+      "quantity": 3000.0,
+      "engEstUnit": 3.08,
+      "lowUnit": 2.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 2.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 4.75,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 3000.0,
+      "engEstUnit": 3.22,
+      "lowUnit": 5.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 5.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 4.75,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "0672 6008",
+      "description": "REFL PAV MRKR TY I-R",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 4.89,
+      "lowUnit": 3.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 3.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 18.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 7500.0,
+      "engEstUnit": 3.16,
+      "lowUnit": 5.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 5.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 4.66,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 5000.0,
+      "engEstUnit": 3.58,
+      "lowUnit": 5.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 5.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 4.75,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0672 6016",
+      "description": "TRAFFIC BUTTON TY W",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 2.56,
+      "lowUnit": 2.5,
+      "bidders": {
+        "BARRICADES UNLIMITED": 2.5,
+        "PINNACLE GRINDING AND GROOVING LLC": 5.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0672 6017",
+      "description": "TRAFFIC BUTTON TY Y",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 2.01,
+      "lowUnit": 2.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 2.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 6.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0672 6018",
+      "description": "TRAFFIC BUTTON TY B",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 1.87,
+      "lowUnit": 2.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 2.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 10.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 20000.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.45,
+      "bidders": {
+        "BARRICADES UNLIMITED": 0.45,
+        "PINNACLE GRINDING AND GROOVING LLC": 0.48,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.75
+      }
+    },
+    {
+      "itemCode": "0677 6002",
+      "description": "ELIM EXT PAV MRK & MRKS (6\")",
+      "unit": "LF",
+      "quantity": 20000.0,
+      "engEstUnit": 0.22,
+      "lowUnit": 0.17,
+      "bidders": {
+        "BARRICADES UNLIMITED": 0.17,
+        "PINNACLE GRINDING AND GROOVING LLC": 0.58,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.95
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 3000.0,
+      "engEstUnit": 0.53,
+      "lowUnit": 1.1,
+      "bidders": {
+        "BARRICADES UNLIMITED": 1.1,
+        "PINNACLE GRINDING AND GROOVING LLC": 0.73,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 1.5
+      }
+    },
+    {
+      "itemCode": "0677 6005",
+      "description": "ELIM EXT PAV MRK & MRKS (12\")",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 0.94,
+      "lowUnit": 0.24,
+      "bidders": {
+        "BARRICADES UNLIMITED": 0.24,
+        "PINNACLE GRINDING AND GROOVING LLC": 2.1,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 2000.0,
+      "engEstUnit": 1.88,
+      "lowUnit": 2.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 2.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 4.1,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 6.0
+      }
+    },
+    {
+      "itemCode": "0677 6008",
+      "description": "ELIM EXT PAV MRK & MRKS (ARROW)",
+      "unit": "EA",
+      "quantity": 75.0,
+      "engEstUnit": 36.4,
+      "lowUnit": 25.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 25.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 40.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 75.0
+      }
+    },
+    {
+      "itemCode": "0677 6009",
+      "description": "ELIM EXT PAV MRK & MRKS (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 62.93,
+      "lowUnit": 29.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 29.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 59.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 75.0
+      }
+    },
+    {
+      "itemCode": "0677 6012",
+      "description": "ELIM EXT PAV MRK & MRKS (WORD)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 47.03,
+      "lowUnit": 38.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 38.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 55.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 75.0
+      }
+    },
+    {
+      "itemCode": "0677 6016",
+      "description": "ELIM EXT PAV MRK & MRKS (RR XING)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 128.43,
+      "lowUnit": 71.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 71.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 175.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 125.0
+      }
+    },
+    {
+      "itemCode": "0677 6017",
+      "description": "ELIM EXT PAV MRK & MRKS (SYMBOL)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 37.1,
+      "lowUnit": 25.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 25.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 60.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 125.0
+      }
+    },
+    {
+      "itemCode": "0677 6019",
+      "description": "ELIM EXT PAV MRK & MRKS (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 200.0,
+      "engEstUnit": 15.44,
+      "lowUnit": 9.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 9.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 20.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "0677 6036",
+      "description": "ELIM EXT PAV MRK & MRKS (UTURN ARROW)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 55.38,
+      "lowUnit": 24.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 24.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 90.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 85.0
+      }
+    },
+    {
+      "itemCode": "0678 6001",
+      "description": "PAV SURF PREP FOR MRK (4\")",
+      "unit": "LF",
+      "quantity": 30000.0,
+      "engEstUnit": 0.02,
+      "lowUnit": 0.01,
+      "bidders": {
+        "BARRICADES UNLIMITED": 0.01,
+        "PINNACLE GRINDING AND GROOVING LLC": 0.11,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.01
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 30000.0,
+      "engEstUnit": 0.01,
+      "lowUnit": 0.01,
+      "bidders": {
+        "BARRICADES UNLIMITED": 0.01,
+        "PINNACLE GRINDING AND GROOVING LLC": 0.13,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.01
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 1500.0,
+      "engEstUnit": 0.03,
+      "lowUnit": 0.75,
+      "bidders": {
+        "BARRICADES UNLIMITED": 0.75,
+        "PINNACLE GRINDING AND GROOVING LLC": 0.18,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.02
+      }
+    },
+    {
+      "itemCode": "0678 6006",
+      "description": "PAV SURF PREP FOR MRK (12\")",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 0.14,
+      "lowUnit": 0.03,
+      "bidders": {
+        "BARRICADES UNLIMITED": 0.03,
+        "PINNACLE GRINDING AND GROOVING LLC": 0.22,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.03
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 50.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 50.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 0.5,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.06
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 7.17,
+      "lowUnit": 60.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 60.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 10.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0678 6010",
+      "description": "PAV SURF PREP FOR MRK (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 8.29,
+      "lowUnit": 5.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 5.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 20.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0678 6012",
+      "description": "PAV SURF PREP FOR MRK (UTURN ARR)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 7.65,
+      "lowUnit": 5.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 5.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 22.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 7.17,
+      "lowUnit": 120.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 120.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 20.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0678 6020",
+      "description": "PAV SURF PREP FOR MRK (RR XING)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 14.35,
+      "lowUnit": 4.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 4.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 35.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0678 6023",
+      "description": "PAV SURF PREP FOR MRK (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 200.0,
+      "engEstUnit": 5.2,
+      "lowUnit": 3.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 3.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 20.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0678 6034",
+      "description": "PAV SURF PREP FOR MRK (BLAST CLN)(4\")",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.2,
+      "bidders": {
+        "BARRICADES UNLIMITED": 0.2,
+        "PINNACLE GRINDING AND GROOVING LLC": 1.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0678 6035",
+      "description": "PAV SURF PREP FOR MRK (BLAST CLN)(6\")",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 0.2,
+      "bidders": {
+        "BARRICADES UNLIMITED": 0.2,
+        "PINNACLE GRINDING AND GROOVING LLC": 3.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 1.5
+      }
+    },
+    {
+      "itemCode": "0678 6036",
+      "description": "PAV SURF PREP FOR MRK (BLAST CLN)(8\")",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 0.4,
+      "lowUnit": 0.4,
+      "bidders": {
+        "BARRICADES UNLIMITED": 0.4,
+        "PINNACLE GRINDING AND GROOVING LLC": 5.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0678 6038",
+      "description": "PAV SURF PREP FOR MRK (BLAST CLN)(24\")",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 1.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 10.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 15.0,
+      "engEstUnit": 80.75,
+      "lowUnit": 150.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 150.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 120.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 225.0
+      }
+    },
+    {
+      "itemCode": "6056 6001",
+      "description": "PREFORMED IN-LANE(TRANS) RUMBLE STRIP",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 7.53,
+      "lowUnit": 8.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 8.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 27.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "6056 6002",
+      "description": "PREFORMED CENTERLINE RUMBLE STRIP",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 0.8,
+      "lowUnit": 5.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 5.0,
+        "PINNACLE GRINDING AND GROOVING LLC": 10.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 9.5
+      }
+    }
+  ]
+}

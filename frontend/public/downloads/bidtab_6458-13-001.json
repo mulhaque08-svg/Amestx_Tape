@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6458-13-001",
+    "county": "Fannin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645813001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/05/23",
+    "engEstTotal": 311656.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "PREMIER CONTRACTORS LLC",
+      "totalBidAmount": 287920.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MARLANE CONSTRUCTION, LLC",
+      "totalBidAmount": 329630.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 358478.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "SERVIN MOWING",
+      "totalBidAmount": 395860.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "PREMIER CONTRACTORS LLC": 1000.0,
+        "MARLANE CONSTRUCTION, LLC": 1000.0,
+        "ANTHONY SERVICES": 500.0,
+        "SERVIN MOWING": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 8112.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "PREMIER CONTRACTORS LLC": 35.0,
+        "MARLANE CONSTRUCTION, LLC": 40.0,
+        "ANTHONY SERVICES": 44.0,
+        "SERVIN MOWING": 48.5
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "PREMIER CONTRACTORS LLC": 20.0,
+        "MARLANE CONSTRUCTION, LLC": 43.0,
+        "ANTHONY SERVICES": 1.0,
+        "SERVIN MOWING": 48.5
+      }
+    }
+  ]
+}

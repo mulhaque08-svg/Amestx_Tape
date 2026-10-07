@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6391-51-001",
+    "county": "Montgomery",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639151001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/04/22",
+    "engEstTotal": 917936.6,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "WAYNE YANCEY, INC.",
+      "totalBidAmount": 1075694.54
+    },
+    {
+      "rank": 2,
+      "vendorName": "YELLOWSTONE LANDSCAPE - CENTRAL, INC.",
+      "totalBidAmount": 1092100.02
+    },
+    {
+      "rank": 3,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 1764928.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "WAYNE YANCEY, INC.": 1.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "WAYNE YANCEY, INC.": 1.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 32067.6,
+      "engEstUnit": 28.5,
+      "lowUnit": 33.44,
+      "bidders": {
+        "WAYNE YANCEY, INC.": 33.44,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 33.95,
+        "CROSS PLUS CONSTRUCTION, LLC": 55.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 33.44,
+      "bidders": {
+        "WAYNE YANCEY, INC.": 33.44,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 33.95,
+        "CROSS PLUS CONSTRUCTION, LLC": 12.0
+      }
+    }
+  ]
+}

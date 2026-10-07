@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "csj": "6464-76-001",
+    "county": "Angelina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646476001",
+    "projectType": "HOT MIX/TY B, D & SP/ANGELINA",
+    "letDate": "03/19/24",
+    "engEstTotal": 211118.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 223324.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8006 6016",
+      "description": "SP TY C PG 76-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 112.24,
+      "lowUnit": 118.54,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 118.54
+      }
+    },
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 117.59,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 117.59
+      }
+    },
+    {
+      "itemCode": "8011 6014",
+      "description": "D-GR HMA(SQ)TY B PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 103.79,
+      "lowUnit": 109.98,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 109.98
+      }
+    }
+  ]
+}

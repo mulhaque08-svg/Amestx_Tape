@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6468-56-001",
+    "county": "Jackson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646856001",
+    "projectType": "DEBRIS REMOVAL",
+    "letDate": "07/24/24",
+    "engEstTotal": 207100.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 234300.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ROY JORGENSEN ASSOCIATES, INC.",
+      "totalBidAmount": 821415.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0480 6002",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "CY",
+      "quantity": 174.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 200.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 18700.0,
+      "lowUnit": 20000.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 20000.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 75000.0
+      }
+    },
+    {
+      "itemCode": "0752 6005",
+      "description": "TREE REMOVAL (4\" - 12\" DIA)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 1000.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "7000 6001",
+      "description": "REML & DISPL DRIFTWOOD & DEBRIS",
+      "unit": "CY",
+      "quantity": 1549.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 435.0
+      }
+    }
+  ]
+}

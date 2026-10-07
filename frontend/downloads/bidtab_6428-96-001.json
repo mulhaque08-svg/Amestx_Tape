@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6428-96-001",
+    "county": "Jim Wells",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642896001",
+    "projectType": "HOT-MIX COLD-LAID",
+    "letDate": "12/13/22",
+    "engEstTotal": 293500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 392700.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 514470.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8013 6009",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 1)",
+      "unit": "TON",
+      "quantity": 250.0,
+      "engEstUnit": 83.0,
+      "lowUnit": 119.0,
+      "bidders": {
+        "BRAUNTEX MATERIALS, INC.": 119.0,
+        "COLORADO MATERIALS, LTD.": 153.4
+      }
+    },
+    {
+      "itemCode": "8013 6010",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 2)",
+      "unit": "TON",
+      "quantity": 1400.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 119.0,
+      "bidders": {
+        "BRAUNTEX MATERIALS, INC.": 119.0,
+        "COLORADO MATERIALS, LTD.": 153.4
+      }
+    },
+    {
+      "itemCode": "8013 6011",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 3)",
+      "unit": "TON",
+      "quantity": 250.0,
+      "engEstUnit": 83.0,
+      "lowUnit": 119.0,
+      "bidders": {
+        "BRAUNTEX MATERIALS, INC.": 119.0,
+        "COLORADO MATERIALS, LTD.": 158.4
+      }
+    },
+    {
+      "itemCode": "8013 6012",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 4)",
+      "unit": "TON",
+      "quantity": 1400.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 119.0,
+      "bidders": {
+        "BRAUNTEX MATERIALS, INC.": 119.0,
+        "COLORADO MATERIALS, LTD.": 158.4
+      }
+    }
+  ]
+}

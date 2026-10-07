@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6402-69-001",
+    "county": "Colorado",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 640269001",
+    "projectType": "HOT MIX",
+    "letDate": "06/03/22",
+    "engEstTotal": 296000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "QUALITY HOT MIX, INC.",
+      "totalBidAmount": 347800.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "JAMES CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 355200.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 425500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6042",
+      "description": "D-GR HMA (SQ)(TY-D PG 64-22 SAC-B)(DEL)",
+      "unit": "TON",
+      "quantity": 3700.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 94.0,
+      "bidders": {
+        "QUALITY HOT MIX, INC.": 94.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 96.0,
+        "TEXAS MATERIALS GROUP, INC.": 115.0
+      }
+    }
+  ]
+}

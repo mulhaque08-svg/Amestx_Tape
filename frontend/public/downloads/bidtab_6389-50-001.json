@@ -1,0 +1,956 @@
+{
+  "metadata": {
+    "csj": "6389-50-001",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638950001",
+    "projectType": "PAVEMENT MARKINGS",
+    "letDate": "01/07/22",
+    "engEstTotal": 778973.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BATTERSON, LLP",
+      "totalBidAmount": 906749.6
+    },
+    {
+      "rank": 2,
+      "vendorName": "PROFESSIONAL TRAFFIC CONTROL LLC",
+      "totalBidAmount": 1072721.95
+    },
+    {
+      "rank": 3,
+      "vendorName": "INTERSTATE BARRICADES & MARKINGS, INC.",
+      "totalBidAmount": 1355387.25
+    },
+    {
+      "rank": 4,
+      "vendorName": "TOTAL HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 1562241.2
+    },
+    {
+      "rank": 5,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 1569548.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "BATTERSON, LLP": 2000.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 1000.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 2500.0,
+        "TRP CONSTRUCTION GROUP, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 415.6,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "BATTERSON, LLP": 1000.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 5000.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 5000.0,
+        "TRP CONSTRUCTION GROUP, LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "0668 6084",
+      "description": "PREFAB PAV MRK TY C (W) (NUMBER)",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 127.0,
+      "bidders": {
+        "BATTERSON, LLP": 127.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 110.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 275.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 155.0,
+        "TRP CONSTRUCTION GROUP, LLC": 350.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 230.0,
+      "bidders": {
+        "BATTERSON, LLP": 230.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 200.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 275.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 300.0,
+        "TRP CONSTRUCTION GROUP, LLC": 350.0
+      }
+    },
+    {
+      "itemCode": "0668 6115",
+      "description": "PREFAB PAV MRK TY C (MULTI) (SHIELD)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 1427.27,
+      "lowUnit": 1900.0,
+      "bidders": {
+        "BATTERSON, LLP": 1900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2500.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 2250.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 2375.0,
+        "TRP CONSTRUCTION GROUP, LLC": 3500.0
+      }
+    },
+    {
+      "itemCode": "0672 6006",
+      "description": "REFL PAV MRKR TY I-A",
+      "unit": "EA",
+      "quantity": 3000.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 2.5,
+      "bidders": {
+        "BATTERSON, LLP": 2.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 3.99,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 5.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 2.0,
+        "TRP CONSTRUCTION GROUP, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 200.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 2.5,
+      "bidders": {
+        "BATTERSON, LLP": 2.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 3.99,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 5.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 3.0,
+        "TRP CONSTRUCTION GROUP, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0672 6008",
+      "description": "REFL PAV MRKR TY I-R",
+      "unit": "EA",
+      "quantity": 5000.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "BATTERSON, LLP": 5.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 7.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 15.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 15.0,
+        "TRP CONSTRUCTION GROUP, LLC": 9.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 1500.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 3.5,
+      "bidders": {
+        "BATTERSON, LLP": 3.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 3.99,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 5.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 3.0,
+        "TRP CONSTRUCTION GROUP, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 50000.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 3.5,
+      "bidders": {
+        "BATTERSON, LLP": 3.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 3.99,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 5.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 6.0,
+        "TRP CONSTRUCTION GROUP, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BATTERSON, LLP": 1.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 0.18,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.5,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 1.0,
+        "TRP CONSTRUCTION GROUP, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0677 6002",
+      "description": "ELIM EXT PAV MRK & MRKS (6\")",
+      "unit": "LF",
+      "quantity": 80000.0,
+      "engEstUnit": 0.21,
+      "lowUnit": 0.26,
+      "bidders": {
+        "BATTERSON, LLP": 0.26,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 0.18,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.5,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 0.35,
+        "TRP CONSTRUCTION GROUP, LLC": 0.5
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 28000.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.5,
+      "bidders": {
+        "BATTERSON, LLP": 0.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 0.35,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.75,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 0.45,
+        "TRP CONSTRUCTION GROUP, LLC": 0.7
+      }
+    },
+    {
+      "itemCode": "0677 6005",
+      "description": "ELIM EXT PAV MRK & MRKS (12\")",
+      "unit": "LF",
+      "quantity": 15000.0,
+      "engEstUnit": 0.75,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BATTERSON, LLP": 1.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 0.5,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 1.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 0.6,
+        "TRP CONSTRUCTION GROUP, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 10000.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "BATTERSON, LLP": 2.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 2.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 1.2,
+        "TRP CONSTRUCTION GROUP, LLC": 3.5
+      }
+    },
+    {
+      "itemCode": "0677 6008",
+      "description": "ELIM EXT PAV MRK & MRKS (ARROW)",
+      "unit": "EA",
+      "quantity": 200.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 49.0,
+      "bidders": {
+        "BATTERSON, LLP": 49.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 35.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 25.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 55.0,
+        "TRP CONSTRUCTION GROUP, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0677 6009",
+      "description": "ELIM EXT PAV MRK & MRKS (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 56.0,
+      "bidders": {
+        "BATTERSON, LLP": 56.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 52.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 35.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 90.0,
+        "TRP CONSTRUCTION GROUP, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0677 6010",
+      "description": "ELIM EXT PAV MRK & MRKS (TPL ARROW)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 52.0,
+      "lowUnit": 68.0,
+      "bidders": {
+        "BATTERSON, LLP": 68.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 75.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 45.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 110.0,
+        "TRP CONSTRUCTION GROUP, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0677 6011",
+      "description": "ELIM EXT PAV MRK & MRKS (NUMBER)",
+      "unit": "EA",
+      "quantity": 200.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 49.0,
+      "bidders": {
+        "BATTERSON, LLP": 49.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 28.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 35.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 55.0,
+        "TRP CONSTRUCTION GROUP, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0677 6012",
+      "description": "ELIM EXT PAV MRK & MRKS (WORD)",
+      "unit": "EA",
+      "quantity": 200.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 49.0,
+      "bidders": {
+        "BATTERSON, LLP": 49.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 40.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 35.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 75.0,
+        "TRP CONSTRUCTION GROUP, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0677 6013",
+      "description": "ELIM EXT PAV MRK & MRKS (ENTR GORE)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "BATTERSON, LLP": 250.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 150.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 100.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 250.0,
+        "TRP CONSTRUCTION GROUP, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0677 6014",
+      "description": "ELIM EXT PAV MRK & MRKS (EXIT GORE)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "BATTERSON, LLP": 250.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 150.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 200.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 250.0,
+        "TRP CONSTRUCTION GROUP, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0677 6016",
+      "description": "ELIM EXT PAV MRK & MRKS (RR XING)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "BATTERSON, LLP": 100.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 52.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 200.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 300.0,
+        "TRP CONSTRUCTION GROUP, LLC": 350.0
+      }
+    },
+    {
+      "itemCode": "0677 6017",
+      "description": "ELIM EXT PAV MRK & MRKS (SYMBOL)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "BATTERSON, LLP": 65.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 15.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 100.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 55.0,
+        "TRP CONSTRUCTION GROUP, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0677 6018",
+      "description": "ELIM EXT PAV MRK & MRKS (18\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 27.0,
+      "bidders": {
+        "BATTERSON, LLP": 27.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 5.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 5.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 12.0,
+        "TRP CONSTRUCTION GROUP, LLC": 45.0
+      }
+    },
+    {
+      "itemCode": "0677 6019",
+      "description": "ELIM EXT PAV MRK & MRKS (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 27.0,
+      "bidders": {
+        "BATTERSON, LLP": 27.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 5.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 10.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 18.0,
+        "TRP CONSTRUCTION GROUP, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0677 6020",
+      "description": "ELIM EXT PAV MRK & MRKS (MED NOSE)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 102.0,
+      "bidders": {
+        "BATTERSON, LLP": 102.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 10.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 200.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 75.0,
+        "TRP CONSTRUCTION GROUP, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0677 6022",
+      "description": "ELIM EXT PAV MRK & MRKS (SHEILD)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 117.46,
+      "lowUnit": 102.0,
+      "bidders": {
+        "BATTERSON, LLP": 102.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 55.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 250.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 500.0,
+        "TRP CONSTRUCTION GROUP, LLC": 750.0
+      }
+    },
+    {
+      "itemCode": "0677 6023",
+      "description": "ELIM EXT PAV MRK & MARKS (BIKE ARROW)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 49.0,
+      "bidders": {
+        "BATTERSON, LLP": 49.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 25.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 10.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 55.0,
+        "TRP CONSTRUCTION GROUP, LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "0677 6025",
+      "description": "ELIM EXT PAV MRK & MARKS (BIKE SYMBOL)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 49.0,
+      "bidders": {
+        "BATTERSON, LLP": 49.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 40.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 10.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 55.0,
+        "TRP CONSTRUCTION GROUP, LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "0677 6036",
+      "description": "ELIM EXT PAV MRK & MRKS (UTURN ARROW)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 68.0,
+      "bidders": {
+        "BATTERSON, LLP": 68.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 40.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 25.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 125.0,
+        "TRP CONSTRUCTION GROUP, LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 140200.0,
+      "engEstUnit": 0.01,
+      "lowUnit": 0.01,
+      "bidders": {
+        "BATTERSON, LLP": 0.01,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 0.01,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.01,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 0.3,
+        "TRP CONSTRUCTION GROUP, LLC": 0.02
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 62000.0,
+      "engEstUnit": 0.01,
+      "lowUnit": 0.01,
+      "bidders": {
+        "BATTERSON, LLP": 0.01,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 0.04,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.02,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 0.5,
+        "TRP CONSTRUCTION GROUP, LLC": 0.05
+      }
+    },
+    {
+      "itemCode": "0678 6006",
+      "description": "PAV SURF PREP FOR MRK (12\")",
+      "unit": "LF",
+      "quantity": 30000.0,
+      "engEstUnit": 0.01,
+      "lowUnit": 0.05,
+      "bidders": {
+        "BATTERSON, LLP": 0.05,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 0.06,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.03,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 0.12,
+        "TRP CONSTRUCTION GROUP, LLC": 0.2
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 16000.0,
+      "engEstUnit": 0.01,
+      "lowUnit": 0.07,
+      "bidders": {
+        "BATTERSON, LLP": 0.07,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 0.12,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.06,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 0.25,
+        "TRP CONSTRUCTION GROUP, LLC": 0.4
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 300.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.7,
+      "bidders": {
+        "BATTERSON, LLP": 2.7,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 3.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 1.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 12.0,
+        "TRP CONSTRUCTION GROUP, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0678 6010",
+      "description": "PAV SURF PREP FOR MRK (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 2.7,
+      "bidders": {
+        "BATTERSON, LLP": 2.7,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 5.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 2.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 0.25,
+        "TRP CONSTRUCTION GROUP, LLC": 15.0
+      }
+    },
+    {
+      "itemCode": "0678 6011",
+      "description": "PAV SURF PREP FOR MRK (TPL ARROW)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 2.7,
+      "bidders": {
+        "BATTERSON, LLP": 2.7,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 7.5,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 3.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 22.0,
+        "TRP CONSTRUCTION GROUP, LLC": 15.0
+      }
+    },
+    {
+      "itemCode": "0678 6012",
+      "description": "PAV SURF PREP FOR MRK (UTURN ARR)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 2.7,
+      "bidders": {
+        "BATTERSON, LLP": 2.7,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 7.5,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 3.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 22.0,
+        "TRP CONSTRUCTION GROUP, LLC": 15.0
+      }
+    },
+    {
+      "itemCode": "0678 6015",
+      "description": "PAV SURF PREP FOR MRK (NUMBER)",
+      "unit": "EA",
+      "quantity": 200.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 1.5,
+      "bidders": {
+        "BATTERSON, LLP": 1.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 6.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 2.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 12.0,
+        "TRP CONSTRUCTION GROUP, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 300.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 2.3,
+      "bidders": {
+        "BATTERSON, LLP": 2.3,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 10.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 2.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 15.0,
+        "TRP CONSTRUCTION GROUP, LLC": 15.0
+      }
+    },
+    {
+      "itemCode": "0678 6017",
+      "description": "PAV SURF PREP FOR MRK (ENTR GORE)",
+      "unit": "EA",
+      "quantity": 125.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 7.0,
+      "bidders": {
+        "BATTERSON, LLP": 7.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 25.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 10.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 35.0,
+        "TRP CONSTRUCTION GROUP, LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "0678 6018",
+      "description": "PAV SURF PREP FOR MRK (EXIT GORE)",
+      "unit": "EA",
+      "quantity": 125.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 7.0,
+      "bidders": {
+        "BATTERSON, LLP": 7.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 25.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 20.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 35.0,
+        "TRP CONSTRUCTION GROUP, LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "0678 6020",
+      "description": "PAV SURF PREP FOR MRK (RR XING)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 3.5,
+      "bidders": {
+        "BATTERSON, LLP": 3.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 25.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 20.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 35.0,
+        "TRP CONSTRUCTION GROUP, LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "0678 6021",
+      "description": "PAV SURF PREP FOR MRK (SYMBOL)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 3.5,
+      "bidders": {
+        "BATTERSON, LLP": 3.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 10.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 10.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 5.0,
+        "TRP CONSTRUCTION GROUP, LLC": 15.0
+      }
+    },
+    {
+      "itemCode": "0678 6022",
+      "description": "PAV SURF PREP FOR MRK (18\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 1.75,
+      "bidders": {
+        "BATTERSON, LLP": 1.75,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 3.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 5.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 5.0,
+        "TRP CONSTRUCTION GROUP, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0678 6023",
+      "description": "PAV SURF PREP FOR MRK (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "BATTERSON, LLP": 2.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 3.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 10.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 5.0,
+        "TRP CONSTRUCTION GROUP, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0678 6024",
+      "description": "PAV SURF PREP FOR MRK (MED NOSE)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "BATTERSON, LLP": 4.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 10.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 10.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 15.0,
+        "TRP CONSTRUCTION GROUP, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0678 6025",
+      "description": "PAV SURF PREP FOR MRKS (SHIELD)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 6.87,
+      "lowUnit": 4.0,
+      "bidders": {
+        "BATTERSON, LLP": 4.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 25.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 50.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 35.0,
+        "TRP CONSTRUCTION GROUP, LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "0678 6026",
+      "description": "PAV SURF PREP FOR MRK (BIKE ARROW)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "BATTERSON, LLP": 2.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 3.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 5.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 5.0,
+        "TRP CONSTRUCTION GROUP, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0678 6028",
+      "description": "PAV SURF PREP FOR MRK (BIKE SYMBOL)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "BATTERSON, LLP": 2.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 10.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 5.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 5.0,
+        "TRP CONSTRUCTION GROUP, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0678 6033",
+      "description": "PAV SURF PREP FOR MRK (RPM)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 0.24,
+      "lowUnit": 5.0,
+      "bidders": {
+        "BATTERSON, LLP": 5.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 0.05,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 1.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 5.0,
+        "TRP CONSTRUCTION GROUP, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 7.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "BATTERSON, LLP": 50.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 75.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 1.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 125.0,
+        "TRP CONSTRUCTION GROUP, LLC": 45.0
+      }
+    },
+    {
+      "itemCode": "6038 6004",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(SLD)",
+      "unit": "LF",
+      "quantity": 10560.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 0.6,
+      "bidders": {
+        "BATTERSON, LLP": 0.6,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 0.69,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.55,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 1.0,
+        "TRP CONSTRUCTION GROUP, LLC": 0.75
+      }
+    },
+    {
+      "itemCode": "6038 6005",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(BRK)",
+      "unit": "LF",
+      "quantity": 10560.0,
+      "engEstUnit": 0.65,
+      "lowUnit": 0.6,
+      "bidders": {
+        "BATTERSON, LLP": 0.6,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 0.69,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.55,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 1.0,
+        "TRP CONSTRUCTION GROUP, LLC": 0.75
+      }
+    },
+    {
+      "itemCode": "6038 6007",
+      "description": "MULTIPOLYMER PAV MRK (W)(8\")(SLD)",
+      "unit": "LF",
+      "quantity": 10560.0,
+      "engEstUnit": 0.9,
+      "lowUnit": 0.9,
+      "bidders": {
+        "BATTERSON, LLP": 0.9,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 0.85,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.75,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 1.4,
+        "TRP CONSTRUCTION GROUP, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "6038 6011",
+      "description": "MULTIPOLYMER PAV MRK (W)(12\")(SLD)",
+      "unit": "LF",
+      "quantity": 10560.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.5,
+      "bidders": {
+        "BATTERSON, LLP": 1.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 3.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 1.5,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 3.0,
+        "TRP CONSTRUCTION GROUP, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "6038 6017",
+      "description": "MULTIPOLYMER PAV MRK (Y)(6\")(SLD)",
+      "unit": "LF",
+      "quantity": 10560.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 0.6,
+      "bidders": {
+        "BATTERSON, LLP": 0.6,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 0.69,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.55,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 1.0,
+        "TRP CONSTRUCTION GROUP, LLC": 0.75
+      }
+    },
+    {
+      "itemCode": "6038 6018",
+      "description": "MULTIPOLYMER PAV MRK (Y)(6\")(BRK)",
+      "unit": "LF",
+      "quantity": 10560.0,
+      "engEstUnit": 0.65,
+      "lowUnit": 0.6,
+      "bidders": {
+        "BATTERSON, LLP": 0.6,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 0.69,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.55,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 1.0,
+        "TRP CONSTRUCTION GROUP, LLC": 0.75
+      }
+    },
+    {
+      "itemCode": "6038 6024",
+      "description": "MULTIPOLYMER PAV MRK (BLK)(6\")(BRK)",
+      "unit": "LF",
+      "quantity": 10560.0,
+      "engEstUnit": 0.65,
+      "lowUnit": 0.6,
+      "bidders": {
+        "BATTERSON, LLP": 0.6,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 0.75,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 0.55,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 1.0,
+        "TRP CONSTRUCTION GROUP, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "6056 6001",
+      "description": "PREFORMED IN-LANE(TRANS) RUMBLE STRIP",
+      "unit": "LF",
+      "quantity": 25.0,
+      "engEstUnit": 18.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "BATTERSON, LLP": 10.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 20.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 50.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 15.0,
+        "TRP CONSTRUCTION GROUP, LLC": 100.0
+      }
+    }
+  ]
+}

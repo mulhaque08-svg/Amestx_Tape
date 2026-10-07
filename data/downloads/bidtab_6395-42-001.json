@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6395-42-001",
+    "county": "Washington",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639542001",
+    "projectType": "AGGREGATE",
+    "letDate": "02/14/22",
+    "engEstTotal": 83175.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 95800.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 96000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 102000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6113",
+      "description": "AGGR (TY B GR 5) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 55.45,
+      "lowUnit": 65.5,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 65.5,
+        "COLORADO MATERIALS, LTD.": 64.0,
+        "TOUCHSTONE RESOURCES, LLC": 68.0
+      }
+    },
+    {
+      "itemCode": "8039 6114",
+      "description": "AGGR (TY B GR 5) (DEL) (ST2)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 55.45,
+      "lowUnit": 60.6,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 60.6,
+        "COLORADO MATERIALS, LTD.": 62.5,
+        "TOUCHSTONE RESOURCES, LLC": 68.0
+      }
+    },
+    {
+      "itemCode": "8039 6115",
+      "description": "AGGR (TY B GR 5) (DEL) (ST3)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 55.45,
+      "lowUnit": 65.5,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 65.5,
+        "COLORADO MATERIALS, LTD.": 65.5,
+        "TOUCHSTONE RESOURCES, LLC": 68.0
+      }
+    }
+  ]
+}

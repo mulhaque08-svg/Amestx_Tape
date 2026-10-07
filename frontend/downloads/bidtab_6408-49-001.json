@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "csj": "6408-49-001",
+    "county": "Midland",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640849001",
+    "projectType": "CLEANING AND SEALING CRACKS",
+    "letDate": "07/12/22",
+    "engEstTotal": 215499.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 174516.35
+    },
+    {
+      "rank": 2,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 247917.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "DEEP SOUTH INDUSTRIAL SERVICES, INC.",
+      "totalBidAmount": 291439.5
+    },
+    {
+      "rank": 4,
+      "vendorName": "FYL ENTERPRISES, LLC",
+      "totalBidAmount": 293804.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 322385.64
+    },
+    {
+      "rank": 6,
+      "vendorName": "12TWELVE ROAD AND BRIDGE LLC",
+      "totalBidAmount": 369412.2
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 0.25,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 0.25,
+        "D & M CONTRACTORS, LLC": 9000.0,
+        "DEEP SOUTH INDUSTRIAL SERVICES, INC.": 10000.0,
+        "FYL ENTERPRISES, LLC": 10000.0,
+        "CRACKSEAL OF TEXAS, LLC": 15000.0,
+        "12TWELVE ROAD AND BRIDGE LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "0502 6001",
+      "description": "BARRICADES, SIGNS AND TRAFFIC HANDLING",
+      "unit": "MO",
+      "quantity": 2.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 0.25,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 0.25,
+        "D & M CONTRACTORS, LLC": 5.0,
+        "DEEP SOUTH INDUSTRIAL SERVICES, INC.": 1.0,
+        "FYL ENTERPRISES, LLC": 1.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "12TWELVE ROAD AND BRIDGE LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 31.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 0.25,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 0.25,
+        "D & M CONTRACTORS, LLC": 1.0,
+        "DEEP SOUTH INDUSTRIAL SERVICES, INC.": 1.0,
+        "FYL ENTERPRISES, LLC": 1.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "12TWELVE ROAD AND BRIDGE LLC": 0.1
+      }
+    }
+  ]
+}

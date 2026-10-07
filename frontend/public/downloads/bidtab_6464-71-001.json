@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6464-71-001",
+    "county": "Washington",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646471001",
+    "projectType": "CRACK SEAL",
+    "letDate": "07/11/24",
+    "engEstTotal": 127639.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RHINO EQUITY, LLC",
+      "totalBidAmount": 170680.02
+    },
+    {
+      "rank": 2,
+      "vendorName": "ISI CONTRACTING, INC.",
+      "totalBidAmount": 172235.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 175304.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 20000.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 20000.0,
+        "ISI CONTRACTING, INC.": 10000.0,
+        "D & M CONTRACTORS, LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 10.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 250.0,
+        "ISI CONTRACTING, INC.": 250.0,
+        "D & M CONTRACTORS, LLC": 10.0
+      }
+    }
+  ]
+}

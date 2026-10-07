@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6399-72-001",
+    "county": "Sabine",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639972001",
+    "projectType": "HOT MIX",
+    "letDate": "03/29/22",
+    "engEstTotal": 241022.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 264727.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "EAST TEXAS ASPHALT CO., LTD.",
+      "totalBidAmount": 390000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8006 6003",
+      "description": "SP MIXTURES SP-C PG70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 78.55,
+      "lowUnit": 87.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 87.5,
+        "EAST TEXAS ASPHALT CO., LTD.": 120.0
+      }
+    },
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 72.78,
+      "lowUnit": 79.99,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 79.99,
+        "EAST TEXAS ASPHALT CO., LTD.": 120.0
+      }
+    },
+    {
+      "itemCode": "8011 6014",
+      "description": "D-GR HMA(SQ)TY B PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 250.0,
+      "engEstUnit": 74.23,
+      "lowUnit": 79.99,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 79.99,
+        "EAST TEXAS ASPHALT CO., LTD.": 120.0
+      }
+    },
+    {
+      "itemCode": "8011 6016",
+      "description": "D-GR HMA(SQ)TY C PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 75.26,
+      "lowUnit": 82.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 82.0,
+        "EAST TEXAS ASPHALT CO., LTD.": 120.0
+      }
+    }
+  ]
+}

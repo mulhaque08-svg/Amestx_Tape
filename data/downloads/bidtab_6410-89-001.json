@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6410-89-001",
+    "county": "Victoria",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641089001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/01/23",
+    "engEstTotal": 485126.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 754831.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 2512.0,
+      "engEstUnit": 23.0,
+      "lowUnit": 38.5,
+      "bidders": {
+        "R&M INCORPORATED": 38.5
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 17094.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 38.5,
+      "bidders": {
+        "R&M INCORPORATED": 38.5
+      }
+    }
+  ]
+}

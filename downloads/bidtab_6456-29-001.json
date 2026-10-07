@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6456-29-001",
+    "county": "Washington",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 645629001",
+    "projectType": "CUTBACK",
+    "letDate": "10/23/23",
+    "engEstTotal": 145800.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 149280.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CLEVELAND ASPHALT PRODUCTS, INC.",
+      "totalBidAmount": 151680.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "WRIGHT ASPHALT PRODUCTS COMPANY LLC",
+      "totalBidAmount": 161400.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6196",
+      "description": "CUTBACK ASPHALT (RC-250)(DEL)(SITE 1)",
+      "unit": "GAL",
+      "quantity": 12000.0,
+      "engEstUnit": 4.05,
+      "lowUnit": 4.1,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 4.1,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 4.19,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 4.5
+      }
+    },
+    {
+      "itemCode": "8010 6197",
+      "description": "CUTBACK ASPHALT (RC-250)(DEL)(SITE 2)",
+      "unit": "GAL",
+      "quantity": 12000.0,
+      "engEstUnit": 4.05,
+      "lowUnit": 4.13,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 4.13,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 4.21,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 4.48
+      }
+    },
+    {
+      "itemCode": "8010 6198",
+      "description": "CUTBACK ASPHALT (RC-250)(DEL)(SITE 3)",
+      "unit": "GAL",
+      "quantity": 12000.0,
+      "engEstUnit": 4.05,
+      "lowUnit": 4.21,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 4.21,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 4.24,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 4.47
+      }
+    }
+  ]
+}

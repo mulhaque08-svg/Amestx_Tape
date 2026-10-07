@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6464-55-001",
+    "county": "Ellis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646455001",
+    "projectType": "HOT MIX",
+    "letDate": "03/12/24",
+    "engEstTotal": 285300.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 239700.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BIG CREEK CONSTRUCTION, LTD.",
+      "totalBidAmount": 276350.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 362500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8006 6003",
+      "description": "SP MIXTURES SP-C PG70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 150.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 81.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 81.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 98.0,
+        "FNH CONSTRUCTION, LLC": 165.0
+      }
+    },
+    {
+      "itemCode": "8006 6007",
+      "description": "SP MIXTURES SP-D PG70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 150.0,
+      "engEstUnit": 97.0,
+      "lowUnit": 81.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 81.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 99.0,
+        "FNH CONSTRUCTION, LLC": 165.0
+      }
+    },
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 2400.0,
+      "engEstUnit": 98.0,
+      "lowUnit": 83.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 83.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 95.0,
+        "FNH CONSTRUCTION, LLC": 120.0
+      }
+    },
+    {
+      "itemCode": "8011 6016",
+      "description": "D-GR HMA(SQ)TY C PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 99.0,
+      "lowUnit": 81.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 81.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 94.0,
+        "FNH CONSTRUCTION, LLC": 125.0
+      }
+    }
+  ]
+}

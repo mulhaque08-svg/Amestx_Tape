@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6406-24-001",
+    "county": "Tarrant",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640624001",
+    "projectType": "CLEANING AND SEALING CRACKS",
+    "letDate": "11/15/22",
+    "engEstTotal": 196735.86,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 239921.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 287337.07
+    },
+    {
+      "rank": 3,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 462220.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 16390.1,
+      "lowUnit": 4000.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 4000.0,
+        "CRACKSEAL OF TEXAS, LLC": 20000.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 3000.0
+      }
+    },
+    {
+      "itemCode": "0713 6003",
+      "description": "JT SEALING AND CLEANING(LNGT CNSTR JTS)",
+      "unit": "LF",
+      "quantity": 12300.0,
+      "engEstUnit": 3.25,
+      "lowUnit": 2.25,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 2.25,
+        "CRACKSEAL OF TEXAS, LLC": 3.75,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 7.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 48.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 1.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.001,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 200.0
+      }
+    }
+  ]
+}

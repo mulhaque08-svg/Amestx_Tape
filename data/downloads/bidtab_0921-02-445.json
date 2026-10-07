@@ -1,0 +1,408 @@
+{
+  "metadata": {
+    "csj": "0921-02-445",
+    "county": "Hidalgo",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2021(257)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "08/04/22",
+    "engEstTotal": 1324613.08,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FOREMOST PAVING, INC.",
+      "totalBidAmount": 1554168.79
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS STEEL INDUSTRIAL PLACING, LLC",
+      "totalBidAmount": 1656860.44
+    },
+    {
+      "rank": 3,
+      "vendorName": "IOC COMPANY LLC",
+      "totalBidAmount": 1990077.76
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 6.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 1200.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 2000.0,
+        "IOC COMPANY LLC": 5500.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 712.3,
+      "engEstUnit": 10.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 20.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 20.0,
+        "IOC COMPANY LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 300.4,
+      "engEstUnit": 25.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 20.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 25.0,
+        "IOC COMPANY LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "0132 6001",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY A)",
+      "unit": "CY",
+      "quantity": 18.2,
+      "engEstUnit": 19.71,
+      "lowUnit": 300.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 300.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 30.0,
+        "IOC COMPANY LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0150 6001",
+      "description": "BLADING",
+      "unit": "STA",
+      "quantity": 5.2,
+      "engEstUnit": 250.0,
+      "lowUnit": 1800.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 1800.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 100.0,
+        "IOC COMPANY LLC": 3000.0
+      }
+    },
+    {
+      "itemCode": "0160 6005",
+      "description": "FURNISHING AND PLACING TOPSOIL",
+      "unit": "CY",
+      "quantity": 40.0,
+      "engEstUnit": 28.75,
+      "lowUnit": 200.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 200.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 35.0,
+        "IOC COMPANY LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0164 6035",
+      "description": "DRILL SEEDING (PERM) (RURAL) (CLAY)",
+      "unit": "SY",
+      "quantity": 889.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 1.3,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 1.3,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 4.0,
+        "IOC COMPANY LLC": 0.5
+      }
+    },
+    {
+      "itemCode": "0164 6041",
+      "description": "DRILL SEEDING (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 889.0,
+      "engEstUnit": 0.17,
+      "lowUnit": 1.15,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 1.15,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 4.0,
+        "IOC COMPANY LLC": 0.5
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 200.0,
+      "engEstUnit": 33.28,
+      "lowUnit": 90.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 90.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 50.0,
+        "IOC COMPANY LLC": 80.0
+      }
+    },
+    {
+      "itemCode": "0169 6001",
+      "description": "SOIL RETENTION BLANKETS (CL 1) (TY A)",
+      "unit": "SY",
+      "quantity": 889.0,
+      "engEstUnit": 0.97,
+      "lowUnit": 3.1,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 3.1,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 4.0,
+        "IOC COMPANY LLC": 1.64
+      }
+    },
+    {
+      "itemCode": "0275 6001",
+      "description": "CEMENT",
+      "unit": "TON",
+      "quantity": 47.4,
+      "engEstUnit": 180.56,
+      "lowUnit": 220.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 220.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 250.0,
+        "IOC COMPANY LLC": 335.0
+      }
+    },
+    {
+      "itemCode": "0275 6046",
+      "description": "CEMENT TREAT (NEW BASE)(11\")",
+      "unit": "SY",
+      "quantity": 1395.4,
+      "engEstUnit": 4.0,
+      "lowUnit": 32.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 32.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 7.0,
+        "IOC COMPANY LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0310 6009",
+      "description": "PRIME COAT (MC-30)",
+      "unit": "GAL",
+      "quantity": 279.08,
+      "engEstUnit": 6.0,
+      "lowUnit": 13.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 13.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 15.0,
+        "IOC COMPANY LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 73.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 120.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 120.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 135.0,
+        "IOC COMPANY LLC": 180.0
+      }
+    },
+    {
+      "itemCode": "0416 6002",
+      "description": "DRILL SHAFT (24 IN)",
+      "unit": "LF",
+      "quantity": 800.0,
+      "engEstUnit": 205.27,
+      "lowUnit": 290.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 290.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 450.0,
+        "IOC COMPANY LLC": 308.03
+      }
+    },
+    {
+      "itemCode": "0422 6007",
+      "description": "REINF CONC SLAB (SLAB BEAM)",
+      "unit": "SF",
+      "quantity": 4338.0,
+      "engEstUnit": 24.77,
+      "lowUnit": 22.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 22.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 22.5,
+        "IOC COMPANY LLC": 45.0
+      }
+    },
+    {
+      "itemCode": "0425 6009",
+      "description": "PRESTR CONC SLAB BEAM (4SB12)",
+      "unit": "LF",
+      "quantity": 1062.0,
+      "engEstUnit": 194.33,
+      "lowUnit": 180.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 180.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 220.0,
+        "IOC COMPANY LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 204.4,
+      "engEstUnit": 165.21,
+      "lowUnit": 150.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 150.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 195.0,
+        "IOC COMPANY LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0496 6007",
+      "description": "REMOV STR (PIPE)",
+      "unit": "LF",
+      "quantity": 210.0,
+      "engEstUnit": 5.62,
+      "lowUnit": 30.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 30.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 30.0,
+        "IOC COMPANY LLC": 25.0
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 35000.0,
+      "lowUnit": 50000.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 50000.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 27500.0,
+        "IOC COMPANY LLC": 50000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 50000.0,
+      "lowUnit": 65000.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 65000.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 108392.74,
+        "IOC COMPANY LLC": 200000.0
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 25.7,
+      "engEstUnit": 38.23,
+      "lowUnit": 460.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 460.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 285.0,
+        "IOC COMPANY LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0530 6016",
+      "description": "DRIVEWAYS (BASE)",
+      "unit": "SY",
+      "quantity": 260.5,
+      "engEstUnit": 23.3,
+      "lowUnit": 50.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 50.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 65.0,
+        "IOC COMPANY LLC": 80.0
+      }
+    },
+    {
+      "itemCode": "0545 6007",
+      "description": "CRASH CUSH ATTEN (INSTL)(L)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 26900.0,
+      "lowUnit": 30000.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 30000.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 32000.0,
+        "IOC COMPANY LLC": 30600.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 78.75,
+      "lowUnit": 90.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 90.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 100.0,
+        "IOC COMPANY LLC": 115.0
+      }
+    },
+    {
+      "itemCode": "0658 6010",
+      "description": "INSTL DEL ASSM (D-SW)SZ 2(WC)GND",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 59.47,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 100.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 85.0,
+        "IOC COMPANY LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 8.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 8.0,
+        "IOC COMPANY LLC": 8.0
+      }
+    },
+    {
+      "itemCode": "0678 6001",
+      "description": "PAV SURF PREP FOR MRK (4\")",
+      "unit": "LF",
+      "quantity": 2080.0,
+      "engEstUnit": 0.16,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 1.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 1.0,
+        "IOC COMPANY LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "3076 6049",
+      "description": "D-GR HMA TY-D SAC-A PG76-22",
+      "unit": "TON",
+      "quantity": 238.7,
+      "engEstUnit": 170.0,
+      "lowUnit": 280.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 280.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 250.0,
+        "IOC COMPANY LLC": 200.0
+      }
+    }
+  ]
+}

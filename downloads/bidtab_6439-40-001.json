@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6439-40-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643940001",
+    "projectType": "FULL DEPTH CONCRETE REPAIR",
+    "letDate": "08/02/23",
+    "engEstTotal": 309015.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "O. TREVINO CONSTRUCTION, LLC",
+      "totalBidAmount": 296740.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ROY JORGENSEN ASSOCIATES, INC.",
+      "totalBidAmount": 298990.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 327800.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 341504.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 442000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0361 6065",
+      "description": "FULL-DEPTH REPAIR CRCP (8\"-10\")",
+      "unit": "SY",
+      "quantity": 630.0,
+      "engEstUnit": 325.0,
+      "lowUnit": 323.0,
+      "bidders": {
+        "O. TREVINO CONSTRUCTION, LLC": 323.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 325.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 360.0,
+        "ICOS MANAGEMENT, LLC": 425.0,
+        "FNH CONSTRUCTION, LLC": 400.0
+      }
+    },
+    {
+      "itemCode": "0361 6084",
+      "description": "FULL DEPTH REPAIR CPCD (8\"-10\"",
+      "unit": "SY",
+      "quantity": 150.0,
+      "engEstUnit": 325.0,
+      "lowUnit": 323.0,
+      "bidders": {
+        "O. TREVINO CONSTRUCTION, LLC": 323.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 268.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 300.0,
+        "ICOS MANAGEMENT, LLC": 425.0,
+        "FNH CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 25515.0,
+      "lowUnit": 29000.0,
+      "bidders": {
+        "O. TREVINO CONSTRUCTION, LLC": 29000.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 30000.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 25000.0,
+        "ICOS MANAGEMENT, LLC": 1.0,
+        "FNH CONSTRUCTION, LLC": 45000.0
+      }
+    }
+  ]
+}

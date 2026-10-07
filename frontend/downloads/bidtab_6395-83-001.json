@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6395-83-001",
+    "county": "Lampasas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639583001",
+    "projectType": "HOT-MIX_(MATERIALS ONLY)",
+    "letDate": "07/25/24",
+    "engEstTotal": 298735.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "LONE STAR PAVING COMPANY",
+      "totalBidAmount": 240500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 272750.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 83.0,
+      "bidders": {
+        "LONE STAR PAVING COMPANY": 83.0,
+        "TEXAS MATERIALS GROUP, INC.": 102.75
+      }
+    },
+    {
+      "itemCode": "8011 6011",
+      "description": "D-GR HMA(SQ)TY D PG 64-22 (DLVR)SITE 1",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 137.49,
+      "lowUnit": 107.0,
+      "bidders": {
+        "LONE STAR PAVING COMPANY": 107.0,
+        "TEXAS MATERIALS GROUP, INC.": 117.75
+      }
+    },
+    {
+      "itemCode": "8011 6039",
+      "description": "D-GR HMA(SQ) TY B SAC B PG64-22(PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 77.0,
+      "bidders": {
+        "LONE STAR PAVING COMPANY": 77.0,
+        "TEXAS MATERIALS GROUP, INC.": 89.5
+      }
+    }
+  ]
+}

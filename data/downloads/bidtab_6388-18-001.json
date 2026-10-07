@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6388-18-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638818001",
+    "projectType": "VEGETATION MANAGEMENT",
+    "letDate": "11/09/21",
+    "engEstTotal": 208505.4,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "PRESLEY LAND MANAGEMENT LLC",
+      "totalBidAmount": 182432.64
+    },
+    {
+      "rank": 2,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 187229.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "GANT CONTRACTORS, INC.",
+      "totalBidAmount": 198655.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 17100.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "PRESLEY LAND MANAGEMENT LLC": 0.01,
+        "ANTHONY SERVICES": 1.0,
+        "GANT CONTRACTORS, INC.": 10000.0
+      }
+    },
+    {
+      "itemCode": "0730 6104",
+      "description": "FULL-WIDTH MOWING (RURAL)",
+      "unit": "AC",
+      "quantity": 1462.0,
+      "engEstUnit": 41.7,
+      "lowUnit": 41.9,
+      "bidders": {
+        "PRESLEY LAND MANAGEMENT LLC": 41.9,
+        "ANTHONY SERVICES": 40.0,
+        "GANT CONTRACTORS, INC.": 42.0
+      }
+    },
+    {
+      "itemCode": "0730 6105",
+      "description": "FULL-WIDTH MOWING (URBAN)",
+      "unit": "AC",
+      "quantity": 2892.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 41.9,
+      "bidders": {
+        "PRESLEY LAND MANAGEMENT LLC": 41.9,
+        "ANTHONY SERVICES": 44.0,
+        "GANT CONTRACTORS, INC.": 44.0
+      }
+    }
+  ]
+}

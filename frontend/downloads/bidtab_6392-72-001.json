@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "csj": "6392-72-001",
+    "county": "Delta",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639272001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/16/21",
+    "engEstTotal": 156830.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "STEVEN FOSTER",
+      "totalBidAmount": 154993.28
+    },
+    {
+      "rank": 2,
+      "vendorName": "EASTGATE SERVICES",
+      "totalBidAmount": 157582.2
+    },
+    {
+      "rank": 3,
+      "vendorName": "RICKEY BAIRD",
+      "totalBidAmount": 158021.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "GANT CONTRACTORS, INC.",
+      "totalBidAmount": 158021.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "PREMIER CONTRACTORS LLC",
+      "totalBidAmount": 166747.05
+    },
+    {
+      "rank": 6,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 178570.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "RDA VEGETATION MANAGEMENT LLC",
+      "totalBidAmount": 197510.03
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "STEVEN FOSTER": 1.0,
+        "EASTGATE SERVICES": 1.0,
+        "RICKEY BAIRD": 1.0,
+        "GANT CONTRACTORS, INC.": 1.0,
+        "PREMIER CONTRACTORS LLC": 1.0,
+        "ANTHONY SERVICES": 1000.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 4388.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 35.31,
+      "bidders": {
+        "STEVEN FOSTER": 35.31,
+        "EASTGATE SERVICES": 35.9,
+        "RICKEY BAIRD": 36.0,
+        "GANT CONTRACTORS, INC.": 36.0,
+        "PREMIER CONTRACTORS LLC": 38.0,
+        "ANTHONY SERVICES": 40.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "STEVEN FOSTER": 1.0,
+        "EASTGATE SERVICES": 1.0,
+        "RICKEY BAIRD": 1.0,
+        "GANT CONTRACTORS, INC.": 1.0,
+        "PREMIER CONTRACTORS LLC": 0.001,
+        "ANTHONY SERVICES": 1.0
+      }
+    }
+  ]
+}

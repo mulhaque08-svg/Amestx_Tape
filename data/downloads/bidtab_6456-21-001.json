@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "csj": "6456-21-001",
+    "county": "Kleberg",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 645621001",
+    "projectType": "BRIDGE PREVENTATIVE MAINTENANCE",
+    "letDate": "10/17/23",
+    "engEstTotal": 234025.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 194210.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC",
+      "totalBidAmount": 217882.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 248020.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "BECK-REIT & SONS, LTD.",
+      "totalBidAmount": 263799.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 300.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 0.01,
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 24.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 50.0,
+        "BECK-REIT & SONS, LTD.": 55.0
+      }
+    },
+    {
+      "itemCode": "0132 6005",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 3.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 200.0,
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 950.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 40.0,
+        "BECK-REIT & SONS, LTD.": 100.0
+      }
+    },
+    {
+      "itemCode": "0429 6009",
+      "description": "CONC STR REPAIR (STANDARD)",
+      "unit": "SF",
+      "quantity": 389.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 300.0,
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 220.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 200.0,
+        "BECK-REIT & SONS, LTD.": 199.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 90.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 300.0,
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 150.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 300.0,
+        "BECK-REIT & SONS, LTD.": 255.0
+      }
+    },
+    {
+      "itemCode": "0752 6005",
+      "description": "TREE REMOVAL (4\" - 12\" DIA)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 400.0,
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 250.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "BECK-REIT & SONS, LTD.": 500.0
+      }
+    },
+    {
+      "itemCode": "0780 6002",
+      "description": "CNC CRACK REPAIR (DISCRETE)(INJECT)",
+      "unit": "LF",
+      "quantity": 36.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 100.0,
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 150.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 200.0,
+        "BECK-REIT & SONS, LTD.": 1.0
+      }
+    },
+    {
+      "itemCode": "4002 6001",
+      "description": "REPLACE ELASTOMERIC BEARING PADS",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 10500.0,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 15000.0,
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 6800.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 25000.0,
+        "BECK-REIT & SONS, LTD.": 28000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 68.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 1.0,
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 1.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 50.0,
+        "BECK-REIT & SONS, LTD.": 1.0
+      }
+    },
+    {
+      "itemCode": "7014 6002",
+      "description": "TRASH, DEBRIS, AND SEDIMENT REMOVAL",
+      "unit": "CYC",
+      "quantity": 2.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 1.0,
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 250.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 1000.0,
+        "BECK-REIT & SONS, LTD.": 500.0
+      }
+    }
+  ]
+}

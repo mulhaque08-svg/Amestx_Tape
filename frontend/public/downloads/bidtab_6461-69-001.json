@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "csj": "6461-69-001",
+    "county": "Frio",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646169001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "01/05/24",
+    "engEstTotal": 936244.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 805476.8
+    },
+    {
+      "rank": 2,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 812560.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "BOEN LANDSCAPING & IRRIGATION, LLC",
+      "totalBidAmount": 930218.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "USA DT SERVICES, INC.",
+      "totalBidAmount": 1356338.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "R&M INCORPORATED": 1.0,
+        "ICOS MANAGEMENT, LLC": 20.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 1.0,
+        "USA DT SERVICES, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 20664.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 34.95,
+      "bidders": {
+        "R&M INCORPORATED": 34.95,
+        "ICOS MANAGEMENT, LLC": 35.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 40.0,
+        "USA DT SERVICES, INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 150.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "R&M INCORPORATED": 1.0,
+        "ICOS MANAGEMENT, LLC": 35.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 100.0,
+        "USA DT SERVICES, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 5538.0,
+      "engEstUnit": 18.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "R&M INCORPORATED": 15.0,
+        "ICOS MANAGEMENT, LLC": 15.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 16.0,
+        "USA DT SERVICES, INC.": 21.0
+      }
+    }
+  ]
+}

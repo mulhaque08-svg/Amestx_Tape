@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "csj": "6398-25-001",
+    "county": "Johnson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639825001",
+    "projectType": "SWEEPING AND DEBRIS REMOVAL",
+    "letDate": "05/05/22",
+    "engEstTotal": 324469.37,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CTX SPECIAL SERVICES CO LLC",
+      "totalBidAmount": 377777.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SWEEPING CORPORATION OF AMERICA, INC.",
+      "totalBidAmount": 677984.4
+    },
+    {
+      "rank": 3,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 785848.4
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 260.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "CTX SPECIAL SERVICES CO LLC": 300.0,
+        "SWEEPING CORPORATION OF AMERICA, INC.": 250.0,
+        "DIGG COMMERCIAL, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 301.35,
+      "bidders": {
+        "CTX SPECIAL SERVICES CO LLC": 301.35,
+        "SWEEPING CORPORATION OF AMERICA, INC.": 250.0,
+        "DIGG COMMERCIAL, LLC": 2000.0
+      }
+    },
+    {
+      "itemCode": "0735 6002",
+      "description": "DEBRIS REMOVAL (CNTR MEDIANS/MAINLANES)",
+      "unit": "MI",
+      "quantity": 2616.0,
+      "engEstUnit": 31.4,
+      "lowUnit": 25.0,
+      "bidders": {
+        "CTX SPECIAL SERVICES CO LLC": 25.0,
+        "SWEEPING CORPORATION OF AMERICA, INC.": 75.0,
+        "DIGG COMMERCIAL, LLC": 62.0
+      }
+    },
+    {
+      "itemCode": "0735 6007",
+      "description": "DEBRIS REMOVAL (SPOT DEBRIS)",
+      "unit": "MI",
+      "quantity": 100.0,
+      "engEstUnit": 41.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "CTX SPECIAL SERVICES CO LLC": 30.0,
+        "SWEEPING CORPORATION OF AMERICA, INC.": 75.0,
+        "DIGG COMMERCIAL, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0738 6002",
+      "description": "CLEANING / SWEEPING (CENTER MEDIAN)",
+      "unit": "MI",
+      "quantity": 580.56,
+      "engEstUnit": 134.36,
+      "lowUnit": 165.0,
+      "bidders": {
+        "CTX SPECIAL SERVICES CO LLC": 165.0,
+        "SWEEPING CORPORATION OF AMERICA, INC.": 290.0,
+        "DIGG COMMERCIAL, LLC": 180.0
+      }
+    },
+    {
+      "itemCode": "0738 6004",
+      "description": "CLEANING / SWEEPING (OUTSIDE MAIN LANE)",
+      "unit": "MI",
+      "quantity": 669.36,
+      "engEstUnit": 136.36,
+      "lowUnit": 200.0,
+      "bidders": {
+        "CTX SPECIAL SERVICES CO LLC": 200.0,
+        "SWEEPING CORPORATION OF AMERICA, INC.": 290.0,
+        "DIGG COMMERCIAL, LLC": 165.0
+      }
+    },
+    {
+      "itemCode": "0738 6009",
+      "description": "CLEANING / SWEEPING (AGGREGATE REMOVAL)",
+      "unit": "MI",
+      "quantity": 60.64,
+      "engEstUnit": 100.0,
+      "lowUnit": 230.0,
+      "bidders": {
+        "CTX SPECIAL SERVICES CO LLC": 230.0,
+        "SWEEPING CORPORATION OF AMERICA, INC.": 290.0,
+        "DIGG COMMERCIAL, LLC": 330.0
+      }
+    },
+    {
+      "itemCode": "0738 6010",
+      "description": "CLEANING / SWEEPING (SPOT)",
+      "unit": "MI",
+      "quantity": 300.0,
+      "engEstUnit": 141.15,
+      "lowUnit": 172.0,
+      "bidders": {
+        "CTX SPECIAL SERVICES CO LLC": 172.0,
+        "SWEEPING CORPORATION OF AMERICA, INC.": 290.0,
+        "DIGG COMMERCIAL, LLC": 363.0
+      }
+    }
+  ]
+}

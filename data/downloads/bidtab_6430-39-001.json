@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "csj": "6430-39-001",
+    "county": "Grayson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 643039001",
+    "projectType": "BRIDGE PREVENTATIVE MAINTENANCE",
+    "letDate": "03/16/23",
+    "engEstTotal": 294465.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BECK-REIT & SONS, LTD.",
+      "totalBidAmount": 273695.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BA NEWTON'S ENTERPRISES LLC",
+      "totalBidAmount": 319525.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MB WESTERN INDUSTRIAL CONTRACTING COMPANY",
+      "totalBidAmount": 393990.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 424350.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 168.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "BECK-REIT & SONS, LTD.": 40.0,
+        "BA NEWTON'S ENTERPRISES LLC": 100.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 50.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0
+      }
+    },
+    {
+      "itemCode": "0132 6019",
+      "description": "EMBANKMENT (VEHICLE)(ORD COMP)(TY B)",
+      "unit": "CY",
+      "quantity": 230.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 70.0,
+      "bidders": {
+        "BECK-REIT & SONS, LTD.": 70.0,
+        "BA NEWTON'S ENTERPRISES LLC": 100.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 30.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0
+      }
+    },
+    {
+      "itemCode": "0401 6001",
+      "description": "FLOWABLE BACKFILL",
+      "unit": "CY",
+      "quantity": 35.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "BECK-REIT & SONS, LTD.": 300.0,
+        "BA NEWTON'S ENTERPRISES LLC": 200.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 200.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 600.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 46.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 255.0,
+      "bidders": {
+        "BECK-REIT & SONS, LTD.": 255.0,
+        "BA NEWTON'S ENTERPRISES LLC": 150.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 310.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 300.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 959.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 155.0,
+      "bidders": {
+        "BECK-REIT & SONS, LTD.": 155.0,
+        "BA NEWTON'S ENTERPRISES LLC": 175.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 270.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 250.0
+      }
+    },
+    {
+      "itemCode": "0432 6035",
+      "description": "RIPRAP (STONE PROTECTION)(24 IN)",
+      "unit": "CY",
+      "quantity": 200.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 155.0,
+      "bidders": {
+        "BECK-REIT & SONS, LTD.": 155.0,
+        "BA NEWTON'S ENTERPRISES LLC": 200.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 275.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 250.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 30000.0,
+      "lowUnit": 40000.0,
+      "bidders": {
+        "BECK-REIT & SONS, LTD.": 40000.0,
+        "BA NEWTON'S ENTERPRISES LLC": 25000.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 30000.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 30000.0
+      }
+    }
+  ]
+}

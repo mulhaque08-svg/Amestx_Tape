@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6448-01-001",
+    "county": "Kaufman",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644801001",
+    "projectType": "REFLECTORIZED PAVEMENT MARKINGS & MARKERS",
+    "letDate": "10/10/23",
+    "engEstTotal": 243245.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRAFFIC HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 240351.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 292850.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "STRIPE-A-ZONE, LLC",
+      "totalBidAmount": 382680.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 3500.0,
+      "bidders": {
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 3500.0,
+        "TRP CONSTRUCTION GROUP, LLC": 1000.0,
+        "STRIPE-A-ZONE, LLC": 6500.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 15000.0,
+      "engEstUnit": 0.56,
+      "lowUnit": 0.45,
+      "bidders": {
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 0.45,
+        "TRP CONSTRUCTION GROUP, LLC": 1.0,
+        "STRIPE-A-ZONE, LLC": 1.95
+      }
+    },
+    {
+      "itemCode": "0677 6002",
+      "description": "ELIM EXT PAV MRK & MRKS (6\")",
+      "unit": "LF",
+      "quantity": 15000.0,
+      "engEstUnit": 0.56,
+      "lowUnit": 0.57,
+      "bidders": {
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 0.57,
+        "TRP CONSTRUCTION GROUP, LLC": 1.0,
+        "STRIPE-A-ZONE, LLC": 1.75
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 15000.0,
+      "engEstUnit": 0.7,
+      "lowUnit": 0.75,
+      "bidders": {
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 0.75,
+        "TRP CONSTRUCTION GROUP, LLC": 1.0,
+        "STRIPE-A-ZONE, LLC": 2.05
+      }
+    }
+  ]
+}

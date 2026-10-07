@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6423-90-001",
+    "county": "Coleman",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642390001",
+    "projectType": "HOT-MIX COLD-LAID (MATERIALS ONLY)",
+    "letDate": "10/27/22",
+    "engEstTotal": 220000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MALBEC MATERIALS LLC",
+      "totalBidAmount": 211000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 228400.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "LONE STAR PAVING COMPANY",
+      "totalBidAmount": 247000.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "ZACK BURKETT CO.",
+      "totalBidAmount": 267500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8013 6003",
+      "description": "HMCL ACP TYPE B (DELIVERY)(SITE 1)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 105.5,
+      "bidders": {
+        "MALBEC MATERIALS LLC": 105.5,
+        "TEXAS MATERIALS GROUP, INC.": 114.2,
+        "LONE STAR PAVING COMPANY": 123.5,
+        "ZACK BURKETT CO.": 133.75
+      }
+    }
+  ]
+}

@@ -1,0 +1,2390 @@
+{
+  "metadata": {
+    "csj": "0699-01-052",
+    "county": "Taylor",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2021(851)",
+    "projectType": "WIDEN ROAD - ADD LANES",
+    "letDate": "08/04/21",
+    "engEstTotal": 24229629.75,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "A. L. HELMCAMP, INC.",
+      "totalBidAmount": 28944554.94
+    },
+    {
+      "rank": 2,
+      "vendorName": "KIEWIT INFRASTRUCTURE SOUTH CO.",
+      "totalBidAmount": 33782319.73
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 20.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 4000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 4000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 20000.0
+      }
+    },
+    {
+      "itemCode": "0104 6001",
+      "description": "REMOVING CONC (PAV)",
+      "unit": "SY",
+      "quantity": 1379.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 18.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 18.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 87.49
+      }
+    },
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 56.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 38.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 38.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 87.05
+      }
+    },
+    {
+      "itemCode": "0104 6011",
+      "description": "REMOVING CONC (MEDIANS)",
+      "unit": "SY",
+      "quantity": 130.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 43.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 43.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 77.37
+      }
+    },
+    {
+      "itemCode": "0104 6017",
+      "description": "REMOVING CONC (DRIVEWAYS)",
+      "unit": "SY",
+      "quantity": 2783.0,
+      "engEstUnit": 16.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 30.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 68.17
+      }
+    },
+    {
+      "itemCode": "0104 6022",
+      "description": "REMOVING CONC (CURB AND GUTTER)",
+      "unit": "LF",
+      "quantity": 12675.0,
+      "engEstUnit": 9.0,
+      "lowUnit": 18.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 18.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 14.44
+      }
+    },
+    {
+      "itemCode": "0104 6036",
+      "description": "REMOVING CONC (SIDEWALK OR RAMP)",
+      "unit": "SY",
+      "quantity": 1028.0,
+      "engEstUnit": 19.0,
+      "lowUnit": 23.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 23.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 52.71
+      }
+    },
+    {
+      "itemCode": "0104 6044",
+      "description": "REMOVING CONC (FLUME)",
+      "unit": "SY",
+      "quantity": 73.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 34.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 34.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 73.25
+      }
+    },
+    {
+      "itemCode": "0105 6045",
+      "description": "REMOVING STAB BASE AND ASPH PAV (2\"-8\")",
+      "unit": "SY",
+      "quantity": 54008.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 9.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 9.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 9.38
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 20769.0,
+      "engEstUnit": 8.5,
+      "lowUnit": 29.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 29.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 60.0
+      }
+    },
+    {
+      "itemCode": "0110 6003",
+      "description": "EXCAVATION (SPECIAL)",
+      "unit": "CY",
+      "quantity": 990.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 24.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 24.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 60.0
+      }
+    },
+    {
+      "itemCode": "0132 6004",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY B)",
+      "unit": "CY",
+      "quantity": 1262.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 25.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 500.0
+      }
+    },
+    {
+      "itemCode": "0162 6002",
+      "description": "BLOCK SODDING",
+      "unit": "SY",
+      "quantity": 17733.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.7,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 4.7,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 3.56
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 9318.0,
+      "engEstUnit": 0.15,
+      "lowUnit": 0.2,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 0.2,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 0.25
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 9318.0,
+      "engEstUnit": 0.15,
+      "lowUnit": 0.2,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 0.2,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 0.26
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 149.4,
+      "engEstUnit": 20.0,
+      "lowUnit": 42.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 42.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 32.76
+      }
+    },
+    {
+      "itemCode": "0275 6002",
+      "description": "CEMENT TREAT (EXIST MATL) (6\")",
+      "unit": "SY",
+      "quantity": 35.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 100.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 200.0
+      }
+    },
+    {
+      "itemCode": "0292 6002",
+      "description": "ASPHALT STAB BASE (GR 2)(PG 64)",
+      "unit": "TON",
+      "quantity": 76.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 156.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 156.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 148.3
+      }
+    },
+    {
+      "itemCode": "0310 6005",
+      "description": "PRIME COAT (AE-P)",
+      "unit": "GAL",
+      "quantity": 12024.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 5.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 4.39
+      }
+    },
+    {
+      "itemCode": "0354 6021",
+      "description": "PLANE ASPH CONC PAV(0\" TO 2\")",
+      "unit": "SY",
+      "quantity": 1905.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 5.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 3.66
+      }
+    },
+    {
+      "itemCode": "0360 6020",
+      "description": "CONC PVMT (JOINTED - CPCD) (10\")",
+      "unit": "SY",
+      "quantity": 55936.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 107.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 107.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 119.16
+      }
+    },
+    {
+      "itemCode": "0360 6043",
+      "description": "CONC PVMT (CONT REINF)(FAST TRK)(13\")",
+      "unit": "SY",
+      "quantity": 6529.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 137.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 137.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 174.86
+      }
+    },
+    {
+      "itemCode": "0360 6048",
+      "description": "CONC PVMT (CONT REINF) (FAST TRK) (9\")",
+      "unit": "SY",
+      "quantity": 347.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 145.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 145.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 219.08
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 160.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 180.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 180.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 125.0
+      }
+    },
+    {
+      "itemCode": "0400 6006",
+      "description": "CUT & RESTORING PAV",
+      "unit": "SY",
+      "quantity": 823.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 79.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 79.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 60.0
+      }
+    },
+    {
+      "itemCode": "0400 6007",
+      "description": "CUT & RESTORE CONC PAVING",
+      "unit": "SY",
+      "quantity": 117.0,
+      "engEstUnit": 210.0,
+      "lowUnit": 320.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 320.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 400.0
+      }
+    },
+    {
+      "itemCode": "0402 6001",
+      "description": "TRENCH EXCAVATION PROTECTION",
+      "unit": "LF",
+      "quantity": 12573.0,
+      "engEstUnit": 17.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 5.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 4.14
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 3602.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 48.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 48.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 50.0
+      }
+    },
+    {
+      "itemCode": "0416 6003",
+      "description": "DRILL SHAFT (30 IN)",
+      "unit": "LF",
+      "quantity": 1307.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 185.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 185.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 212.0
+      }
+    },
+    {
+      "itemCode": "0416 6029",
+      "description": "DRILL SHAFT (RDWY ILL POLE) (30 IN)",
+      "unit": "LF",
+      "quantity": 8.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 250.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 263.64
+      }
+    },
+    {
+      "itemCode": "0416 6031",
+      "description": "DRILL SHAFT (TRF SIG POLE) (30 IN)",
+      "unit": "LF",
+      "quantity": 33.0,
+      "engEstUnit": 285.0,
+      "lowUnit": 320.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 320.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 329.56
+      }
+    },
+    {
+      "itemCode": "0416 6032",
+      "description": "DRILL SHAFT (TRF SIG POLE) (36 IN)",
+      "unit": "LF",
+      "quantity": 65.0,
+      "engEstUnit": 290.0,
+      "lowUnit": 390.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 390.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 411.95
+      }
+    },
+    {
+      "itemCode": "0416 6034",
+      "description": "DRILL SHAFT (TRF SIG POLE) (48 IN)",
+      "unit": "LF",
+      "quantity": 176.0,
+      "engEstUnit": 415.0,
+      "lowUnit": 550.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 550.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 576.72
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 0.35,
+      "engEstUnit": 450.0,
+      "lowUnit": 2200.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 2200.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 1500.0
+      }
+    },
+    {
+      "itemCode": "0432 6002",
+      "description": "RIPRAP (CONC)(5 IN)",
+      "unit": "CY",
+      "quantity": 98.0,
+      "engEstUnit": 440.0,
+      "lowUnit": 700.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 700.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 1500.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 18.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 320.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 320.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 864.55
+      }
+    },
+    {
+      "itemCode": "0460 6004",
+      "description": "CMP (GAL STL 30 IN)",
+      "unit": "LF",
+      "quantity": 58.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 95.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 95.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 53.16
+      }
+    },
+    {
+      "itemCode": "0466 6206",
+      "description": "WINGWALL (SW - 0) (HW=3 FT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 6000.0,
+      "lowUnit": 8500.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 8500.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 12680.06
+      }
+    },
+    {
+      "itemCode": "0466 6207",
+      "description": "WINGWALL (SW - 0) (HW=4 FT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 7000.0,
+      "lowUnit": 13000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 13000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 20892.54
+      }
+    },
+    {
+      "itemCode": "0466 6211",
+      "description": "WINGWALL (SW - 0) (HW=8 FT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 22000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 22000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 45790.1
+      }
+    },
+    {
+      "itemCode": "0467 6177",
+      "description": "SET (TY I)(S= 5 FT)(HW= 4 FT)(4:1) (C)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 7000.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 10000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 15270.18
+      }
+    },
+    {
+      "itemCode": "0467 6326",
+      "description": "SET (TY II) (12 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 900.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 1883.84
+      }
+    },
+    {
+      "itemCode": "0467 6422",
+      "description": "SET (TY II) (30 IN) (RCP) (6: 1) (C)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2400.0,
+      "lowUnit": 2300.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 2300.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 3182.05
+      }
+    },
+    {
+      "itemCode": "0474 6009",
+      "description": "SLOT DRAIN (GAL STL) (24 IN)",
+      "unit": "LF",
+      "quantity": 240.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 260.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 260.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 342.64
+      }
+    },
+    {
+      "itemCode": "0476 6024",
+      "description": "JACK BOR OR TUN PIPE(36 IN)(RC)(CL III)",
+      "unit": "LF",
+      "quantity": 58.0,
+      "engEstUnit": 1350.0,
+      "lowUnit": 1600.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1600.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0496 6002",
+      "description": "REMOV STR (INLET)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 650.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 800.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 4758.03
+      }
+    },
+    {
+      "itemCode": "0496 6004",
+      "description": "REMOV STR (SET)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 800.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 3416.9
+      }
+    },
+    {
+      "itemCode": "0496 6005",
+      "description": "REMOV STR (WINGWALL)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1200.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 5939.8
+      }
+    },
+    {
+      "itemCode": "0496 6007",
+      "description": "REMOV STR (PIPE)",
+      "unit": "LF",
+      "quantity": 12.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 60.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 381.68
+      }
+    },
+    {
+      "itemCode": "0496 6008",
+      "description": "REMOV STR (BOX CULVERT)",
+      "unit": "LF",
+      "quantity": 70.0,
+      "engEstUnit": 48.0,
+      "lowUnit": 70.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 70.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 510.07
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 1700000.0,
+      "lowUnit": 2300000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 2300000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 3000000.0
+      }
+    },
+    {
+      "itemCode": "0508 6001",
+      "description": "CONSTRUCTING DETOURS",
+      "unit": "SY",
+      "quantity": 11154.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 69.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 69.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 90.0
+      }
+    },
+    {
+      "itemCode": "0512 6009",
+      "description": "PORT CTB (FUR & INST)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 2140.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 90.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 250.0
+      }
+    },
+    {
+      "itemCode": "0512 6010",
+      "description": "PORT CTB (FUR & INST)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 600.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 90.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 250.0
+      }
+    },
+    {
+      "itemCode": "0512 6033",
+      "description": "PORT CTB (MOVE)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 8500.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 21.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 21.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 6.0
+      }
+    },
+    {
+      "itemCode": "0512 6034",
+      "description": "PORT CTB (MOVE)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 2060.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 21.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 21.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 25.0
+      }
+    },
+    {
+      "itemCode": "0512 6045",
+      "description": "PORT CTB (STKPL)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 2140.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 27.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 27.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 20.0
+      }
+    },
+    {
+      "itemCode": "0512 6046",
+      "description": "PORT CTB (STKPL)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 600.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 27.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 27.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 20.0
+      }
+    },
+    {
+      "itemCode": "0528 6002",
+      "description": "COLORED TEXTURED CONC (6\")",
+      "unit": "SY",
+      "quantity": 2590.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 125.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 187.64
+      }
+    },
+    {
+      "itemCode": "0529 6002",
+      "description": "CONC CURB (TY II)",
+      "unit": "LF",
+      "quantity": 739.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 26.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 26.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 39.41
+      }
+    },
+    {
+      "itemCode": "0529 6005",
+      "description": "CONC CURB (MONO) (TY II)",
+      "unit": "LF",
+      "quantity": 12359.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 16.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 24.94
+      }
+    },
+    {
+      "itemCode": "0529 6008",
+      "description": "CONC CURB & GUTTER (TY II)",
+      "unit": "LF",
+      "quantity": 486.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 53.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 53.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 74.36
+      }
+    },
+    {
+      "itemCode": "0529 6011",
+      "description": "CONC CURB (DOWEL)",
+      "unit": "LF",
+      "quantity": 9313.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 16.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 25.54
+      }
+    },
+    {
+      "itemCode": "0529 6012",
+      "description": "CONC CURB (SLOTTED)",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 158.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 158.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 29.81
+      }
+    },
+    {
+      "itemCode": "0529 6020",
+      "description": "CONC CURB & GUTTER (ARMOR CURB)",
+      "unit": "LF",
+      "quantity": 18.0,
+      "engEstUnit": 285.0,
+      "lowUnit": 220.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 220.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 596.64
+      }
+    },
+    {
+      "itemCode": "0530 6004",
+      "description": "DRIVEWAYS (CONC)",
+      "unit": "SY",
+      "quantity": 3179.0,
+      "engEstUnit": 72.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 125.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 130.46
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 1891.0,
+      "engEstUnit": 42.0,
+      "lowUnit": 53.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 53.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 102.15
+      }
+    },
+    {
+      "itemCode": "0530 6025",
+      "description": "DRIVEWAYS (CONC) (FAST TRACK)",
+      "unit": "SY",
+      "quantity": 1028.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 220.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 220.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 157.29
+      }
+    },
+    {
+      "itemCode": "0531 6002",
+      "description": "CONC SIDEWALKS (5\")",
+      "unit": "SY",
+      "quantity": 6055.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 64.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 64.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 116.41
+      }
+    },
+    {
+      "itemCode": "0531 6003",
+      "description": "CONC SIDEWALKS (6\")",
+      "unit": "SY",
+      "quantity": 32.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 70.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 70.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 121.6
+      }
+    },
+    {
+      "itemCode": "0531 6004",
+      "description": "CURB RAMPS (TY 1)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1700.0,
+      "lowUnit": 1600.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1600.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 1650.57
+      }
+    },
+    {
+      "itemCode": "0531 6005",
+      "description": "CURB RAMPS (TY 2)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1800.0,
+      "lowUnit": 1700.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1700.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 2096.87
+      }
+    },
+    {
+      "itemCode": "0531 6010",
+      "description": "CURB RAMPS (TY 7)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 1700.0,
+      "lowUnit": 1800.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1800.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 1902.72
+      }
+    },
+    {
+      "itemCode": "0531 6013",
+      "description": "CURB RAMPS (TY 10)",
+      "unit": "EA",
+      "quantity": 19.0,
+      "engEstUnit": 1700.0,
+      "lowUnit": 1900.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1900.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 2073.77
+      }
+    },
+    {
+      "itemCode": "0531 6016",
+      "description": "CURB RAMPS (TY 21)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1950.0,
+      "lowUnit": 2300.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 2300.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 1705.17
+      }
+    },
+    {
+      "itemCode": "0531 6017",
+      "description": "CURB RAMPS (TY 22)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2600.0,
+      "lowUnit": 3400.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 3400.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 2962.56
+      }
+    },
+    {
+      "itemCode": "0531 6057",
+      "description": "CONC SIDEWALK (SPECIAL)(RETAINING WALL)",
+      "unit": "SF",
+      "quantity": 285.0,
+      "engEstUnit": 210.0,
+      "lowUnit": 95.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 95.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 104.36
+      }
+    },
+    {
+      "itemCode": "0560 6001",
+      "description": "MAILBOX INSTALL-S (TWG-POST) TY 1",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 280.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 280.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 291.11
+      }
+    },
+    {
+      "itemCode": "0610 6007",
+      "description": "REMOVE RD IL ASM (SHOE-BASE)",
+      "unit": "EA",
+      "quantity": 44.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 530.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 530.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 549.26
+      }
+    },
+    {
+      "itemCode": "0610 6009",
+      "description": "REMOVE RD IL ASM (TRANS-BASE)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 370.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 370.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 384.48
+      }
+    },
+    {
+      "itemCode": "0610 6214",
+      "description": "IN RD IL (TY SA) 40T-8 (250W EQ) LED",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 3350.0,
+      "lowUnit": 5100.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 5100.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 5272.9
+      }
+    },
+    {
+      "itemCode": "0618 6046",
+      "description": "CONDT (PVC) (SCH 80) (2\")",
+      "unit": "LF",
+      "quantity": 1646.0,
+      "engEstUnit": 7.8,
+      "lowUnit": 15.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 15.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 15.93
+      }
+    },
+    {
+      "itemCode": "0618 6047",
+      "description": "CONDT (PVC) (SCH 80) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 31.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 26.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 26.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 27.46
+      }
+    },
+    {
+      "itemCode": "0618 6053",
+      "description": "CONDT (PVC) (SCH 80) (3\")",
+      "unit": "LF",
+      "quantity": 204.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 26.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 26.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 27.46
+      }
+    },
+    {
+      "itemCode": "0618 6054",
+      "description": "CONDT (PVC) (SCH 80) (3\") (BORE)",
+      "unit": "LF",
+      "quantity": 3347.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 28.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 28.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 29.11
+      }
+    },
+    {
+      "itemCode": "0618 6058",
+      "description": "CONDT (PVC) (SCH 80) (4\")",
+      "unit": "LF",
+      "quantity": 140.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 43.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 43.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 43.94
+      }
+    },
+    {
+      "itemCode": "0620 6008",
+      "description": "ELEC CONDR (NO.8) INSULATED",
+      "unit": "LF",
+      "quantity": 11651.0,
+      "engEstUnit": 1.4,
+      "lowUnit": 1.8,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1.8,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 1.92
+      }
+    },
+    {
+      "itemCode": "0620 6012",
+      "description": "ELEC CONDR (NO.4) INSULATED",
+      "unit": "LF",
+      "quantity": 240.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 5.3,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 5.3,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 5.49
+      }
+    },
+    {
+      "itemCode": "0624 6002",
+      "description": "GROUND BOX TY A (122311)W/APRON",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1200.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 1208.37
+      }
+    },
+    {
+      "itemCode": "0624 6009",
+      "description": "GROUND BOX TY D (162922)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1100.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 1098.52
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1500.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 1592.85
+      }
+    },
+    {
+      "itemCode": "0624 6028",
+      "description": "REMOVE GROUND BOX",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 110.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 110.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 109.85
+      }
+    },
+    {
+      "itemCode": "0628 6115",
+      "description": "ELC SRV TY D 120/240 060(NS)AL(E)PS(U)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 6250.0,
+      "lowUnit": 5800.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 5800.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 6041.86
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 55.0,
+      "engEstUnit": 520.0,
+      "lowUnit": 760.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 760.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 796.43
+      }
+    },
+    {
+      "itemCode": "0644 6002",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P-BM)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 695.0,
+      "lowUnit": 860.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 860.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 900.79
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 17.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 830.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 830.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 862.34
+      }
+    },
+    {
+      "itemCode": "0644 6007",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(U)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 850.0,
+      "lowUnit": 860.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 860.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 902.98
+      }
+    },
+    {
+      "itemCode": "0644 6012",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SB(T)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 790.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 790.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 826.09
+      }
+    },
+    {
+      "itemCode": "0644 6015",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SB(U)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 730.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 900.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 941.43
+      }
+    },
+    {
+      "itemCode": "0644 6027",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 515.0,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1100.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 1150.15
+      }
+    },
+    {
+      "itemCode": "0644 6033",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 1300.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1300.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 1298.45
+      }
+    },
+    {
+      "itemCode": "0644 6068",
+      "description": "RELOCATE SM RD SN SUP&AM TY 10BWG",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 680.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 680.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 709.64
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 55.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 85.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 109.85
+      }
+    },
+    {
+      "itemCode": "0662 6048",
+      "description": "WK ZN PAV MRK REMOV (REFL) TY I-C",
+      "unit": "EA",
+      "quantity": 5190.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 5.25,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 5.25,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 4.01
+      }
+    },
+    {
+      "itemCode": "0662 6050",
+      "description": "WK ZN PAV MRK REMOV (REFL) TY II-A-A",
+      "unit": "EA",
+      "quantity": 5730.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 5.25,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 5.25,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 4.01
+      }
+    },
+    {
+      "itemCode": "0662 6056",
+      "description": "WK ZN PAV MRK REMOV (TRAF BTN) TY W",
+      "unit": "EA",
+      "quantity": 11000.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 4.2,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 4.2,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 2.86
+      }
+    },
+    {
+      "itemCode": "0662 6058",
+      "description": "WK ZN PAV MRK REMOV (TRAF BTN) TY Y",
+      "unit": "EA",
+      "quantity": 12502.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 4.2,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 4.2,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 2.86
+      }
+    },
+    {
+      "itemCode": "0662 6075",
+      "description": "WK ZN PAV MRK REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 1154.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 8.4,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 8.4,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 8.24
+      }
+    },
+    {
+      "itemCode": "0662 6080",
+      "description": "WK ZN PAV MRK REMOV (W)(ARROW)",
+      "unit": "EA",
+      "quantity": 77.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 189.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 189.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 170.27
+      }
+    },
+    {
+      "itemCode": "0662 6090",
+      "description": "WK ZN PAV MRK REMOV (W)(WORD)",
+      "unit": "EA",
+      "quantity": 74.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 231.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 231.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 214.21
+      }
+    },
+    {
+      "itemCode": "0662 6092",
+      "description": "WK ZN PAV MRK REMOV (W)36\"(YLD TRI)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 105.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 105.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 82.39
+      }
+    },
+    {
+      "itemCode": "0668 6016",
+      "description": "PREFAB PAV MRK TY B (W)(12\")(SLD)",
+      "unit": "LF",
+      "quantity": 3238.0,
+      "engEstUnit": 7.5,
+      "lowUnit": 8.4,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 8.4,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 11.96
+      }
+    },
+    {
+      "itemCode": "0668 6017",
+      "description": "PREFAB PAV MRK TY B (W)(18\")(SLD)",
+      "unit": "LF",
+      "quantity": 467.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 10.5,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 10.5,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 16.59
+      }
+    },
+    {
+      "itemCode": "0668 6018",
+      "description": "PREFAB PAV MRK TY B (W)(24\")(SLD)",
+      "unit": "LF",
+      "quantity": 565.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 14.7,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 14.7,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 25.78
+      }
+    },
+    {
+      "itemCode": "0668 6019",
+      "description": "PREFAB PAV MRK TY B (W)(ARROW)",
+      "unit": "EA",
+      "quantity": 63.0,
+      "engEstUnit": 635.0,
+      "lowUnit": 215.25,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 215.25,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 436.11
+      }
+    },
+    {
+      "itemCode": "0668 6020",
+      "description": "PREFAB PAV MRK TY B (W)(DBL ARROW)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 320.25,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 320.25,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 818.4
+      }
+    },
+    {
+      "itemCode": "0668 6027",
+      "description": "PREFAB PAV MRK TY B (W)(WORD)",
+      "unit": "EA",
+      "quantity": 35.0,
+      "engEstUnit": 470.0,
+      "lowUnit": 246.75,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 246.75,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 647.03
+      }
+    },
+    {
+      "itemCode": "0668 6033",
+      "description": "PREFAB PAV MRK TY B (W)(18\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 38.0,
+      "engEstUnit": 58.0,
+      "lowUnit": 42.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 42.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 76.9
+      }
+    },
+    {
+      "itemCode": "0668 6034",
+      "description": "PREFAB PAV MRK TY B (W)(36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 42.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 42.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 131.82
+      }
+    },
+    {
+      "itemCode": "0668 6052",
+      "description": "PREFAB PAV MRK TY B (Y)(24\")(SLD)",
+      "unit": "LF",
+      "quantity": 148.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 15.75,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 15.75,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 28.29
+      }
+    },
+    {
+      "itemCode": "0668 6054",
+      "description": "PREFAB PAV MRK TY B (Y)(MED NOSE)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 525.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 525.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 823.89
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 380.0,
+      "engEstUnit": 3.15,
+      "lowUnit": 4.2,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 4.2,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 4.39
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 538.0,
+      "engEstUnit": 2.75,
+      "lowUnit": 4.2,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 4.2,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 4.39
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 218.0,
+      "engEstUnit": 3.4,
+      "lowUnit": 4.2,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 4.2,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 4.39
+      }
+    },
+    {
+      "itemCode": "0672 6016",
+      "description": "TRAFFIC BUTTON TY W",
+      "unit": "EA",
+      "quantity": 306.0,
+      "engEstUnit": 1.8,
+      "lowUnit": 4.2,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 4.2,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 3.24
+      }
+    },
+    {
+      "itemCode": "0672 6017",
+      "description": "TRAFFIC BUTTON TY Y",
+      "unit": "EA",
+      "quantity": 571.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 4.2,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 4.2,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 3.24
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 17849.0,
+      "engEstUnit": 0.7,
+      "lowUnit": 0.53,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 0.53,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 0.44
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 558.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.05,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1.05,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 1.1
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 420.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 2.1,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 2.1,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 3.3
+      }
+    },
+    {
+      "itemCode": "0677 6008",
+      "description": "ELIM EXT PAV MRK & MRKS (ARROW)",
+      "unit": "EA",
+      "quantity": 21.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 42.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 42.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 52.73
+      }
+    },
+    {
+      "itemCode": "0677 6012",
+      "description": "ELIM EXT PAV MRK & MRKS (WORD)",
+      "unit": "EA",
+      "quantity": 13.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 42.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 42.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 71.4
+      }
+    },
+    {
+      "itemCode": "0678 6001",
+      "description": "PAV SURF PREP FOR MRK (4\")",
+      "unit": "LF",
+      "quantity": 15206.0,
+      "engEstUnit": 0.1,
+      "lowUnit": 0.11,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 0.11,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 0.11
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 4749.0,
+      "engEstUnit": 0.15,
+      "lowUnit": 0.21,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 0.21,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 0.22
+      }
+    },
+    {
+      "itemCode": "0678 6006",
+      "description": "PAV SURF PREP FOR MRK (12\")",
+      "unit": "LF",
+      "quantity": 3238.0,
+      "engEstUnit": 0.35,
+      "lowUnit": 0.53,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 0.53,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 1.1
+      }
+    },
+    {
+      "itemCode": "0678 6007",
+      "description": "PAV SURF PREP FOR MRK (18\")",
+      "unit": "LF",
+      "quantity": 467.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 1.58,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1.58,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 1.1
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 713.0,
+      "engEstUnit": 1.2,
+      "lowUnit": 1.84,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1.84,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 2.2
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 63.0,
+      "engEstUnit": 17.0,
+      "lowUnit": 31.5,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 31.5,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 27.46
+      }
+    },
+    {
+      "itemCode": "0678 6010",
+      "description": "PAV SURF PREP FOR MRK (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 28.0,
+      "lowUnit": 52.5,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 52.5,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 49.43
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 35.0,
+      "engEstUnit": 23.0,
+      "lowUnit": 31.5,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 31.5,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 38.45
+      }
+    },
+    {
+      "itemCode": "0678 6022",
+      "description": "PAV SURF PREP FOR MRK (18\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 38.0,
+      "engEstUnit": 7.2,
+      "lowUnit": 15.75,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 15.75,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 19.77
+      }
+    },
+    {
+      "itemCode": "0678 6023",
+      "description": "PAV SURF PREP FOR MRK (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 15.75,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 15.75,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 19.77
+      }
+    },
+    {
+      "itemCode": "0678 6024",
+      "description": "PAV SURF PREP FOR MRK (MED NOSE)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 262.5,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 262.5,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 49.43
+      }
+    },
+    {
+      "itemCode": "0681 6001",
+      "description": "TEMP TRAF SIGNALS",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 35000.0,
+      "lowUnit": 110000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 110000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 110000.0
+      }
+    },
+    {
+      "itemCode": "0682 6001",
+      "description": "VEH SIG SEC (12\")LED(GRN)",
+      "unit": "EA",
+      "quantity": 31.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 230.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 230.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 236.18
+      }
+    },
+    {
+      "itemCode": "0682 6002",
+      "description": "VEH SIG SEC (12\")LED(GRN ARW)",
+      "unit": "EA",
+      "quantity": 23.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 230.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 230.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 236.18
+      }
+    },
+    {
+      "itemCode": "0682 6003",
+      "description": "VEH SIG SEC (12\")LED(YEL)",
+      "unit": "EA",
+      "quantity": 31.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 230.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 230.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 236.18
+      }
+    },
+    {
+      "itemCode": "0682 6004",
+      "description": "VEH SIG SEC (12\")LED(YEL ARW)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 230.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 230.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 236.18
+      }
+    },
+    {
+      "itemCode": "0682 6005",
+      "description": "VEH SIG SEC (12\")LED(RED)",
+      "unit": "EA",
+      "quantity": 31.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 230.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 230.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 236.18
+      }
+    },
+    {
+      "itemCode": "0682 6006",
+      "description": "VEH SIG SEC (12\")LED(RED ARW)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 230.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 230.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 236.18
+      }
+    },
+    {
+      "itemCode": "0682 6018",
+      "description": "PED SIG SEC (LED)(COUNTDOWN)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 760.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 760.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 796.43
+      }
+    },
+    {
+      "itemCode": "0682 6049",
+      "description": "BACKPLATE W/REFL BRDR(4 SEC)",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 220.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 220.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 219.7
+      }
+    },
+    {
+      "itemCode": "0682 6060",
+      "description": "BACKPLATE W/REFL BRDR(3 SEC)",
+      "unit": "EA",
+      "quantity": 21.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 190.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 190.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 192.24
+      }
+    },
+    {
+      "itemCode": "0684 6007",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(2 CONDR)",
+      "unit": "LF",
+      "quantity": 3970.0,
+      "engEstUnit": 1.65,
+      "lowUnit": 2.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 2.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 1.92
+      }
+    },
+    {
+      "itemCode": "0684 6009",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(4 CONDR)",
+      "unit": "LF",
+      "quantity": 4090.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.7,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 2.7,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 2.75
+      }
+    },
+    {
+      "itemCode": "0684 6025",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(20 CONDR)",
+      "unit": "LF",
+      "quantity": 3743.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 6.5,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 6.5,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 6.59
+      }
+    },
+    {
+      "itemCode": "0686 6031",
+      "description": "INS TRF SIG PL AM(S)1 ARM(28')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 7000.0,
+      "lowUnit": 12000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 12000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 12523.13
+      }
+    },
+    {
+      "itemCode": "0686 6035",
+      "description": "INS TRF SIG PL AM(S)1 ARM(32')LUM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 7100.0,
+      "lowUnit": 14000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 14000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 14500.46
+      }
+    },
+    {
+      "itemCode": "0686 6043",
+      "description": "INS TRF SIG PL AM(S)1 ARM(40')LUM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 8525.0,
+      "lowUnit": 17000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 17000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 17027.06
+      }
+    },
+    {
+      "itemCode": "0686 6045",
+      "description": "INS TRF SIG PL AM(S)1 ARM(44')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 7900.0,
+      "lowUnit": 16000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 16000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 15928.54
+      }
+    },
+    {
+      "itemCode": "0686 6047",
+      "description": "INS TRF SIG PL AM(S)1 ARM(44')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 9200.0,
+      "lowUnit": 17000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 17000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 17027.06
+      }
+    },
+    {
+      "itemCode": "0686 6051",
+      "description": "INS TRF SIG PL AM(S)1 ARM(48')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 9650.0,
+      "lowUnit": 17000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 17000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 17576.32
+      }
+    },
+    {
+      "itemCode": "0686 6055",
+      "description": "INS TRF SIG PL AM(S)1 ARM(50')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 19000.0,
+      "lowUnit": 40000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 40000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 41194.5
+      }
+    },
+    {
+      "itemCode": "0686 6059",
+      "description": "INS TRF SIG PL AM(S)1 ARM(55')LUM",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 41000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 41000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 42842.28
+      }
+    },
+    {
+      "itemCode": "0686 6067",
+      "description": "INS TRF SIG PL AM(S)1 ARM(65')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 43000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 43000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 45039.32
+      }
+    },
+    {
+      "itemCode": "0687 6001",
+      "description": "PED POLE ASSEMBLY",
+      "unit": "EA",
+      "quantity": 11.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 2200.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 2200.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 2197.04
+      }
+    },
+    {
+      "itemCode": "0688 6001",
+      "description": "PED DETECT PUSH BUTTON (APS)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 775.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 800.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 823.89
+      }
+    },
+    {
+      "itemCode": "0688 6003",
+      "description": "PED DETECTOR CONTROLLER UNIT",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3200.0,
+      "lowUnit": 4300.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 4300.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 4394.08
+      }
+    },
+    {
+      "itemCode": "0688 6004",
+      "description": "VEH LP DETECT (SAWCUT)",
+      "unit": "LF",
+      "quantity": 346.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 1.1,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1.1,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 1.1
+      }
+    },
+    {
+      "itemCode": "0734 6002",
+      "description": "LITTER REMOVAL",
+      "unit": "CYC",
+      "quantity": 7.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 8000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 8000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 109.85
+      }
+    },
+    {
+      "itemCode": "0740 6005",
+      "description": "ANTI - GRAFFITI COATNG(PERMNENT-TY III)",
+      "unit": "SF",
+      "quantity": 16342.0,
+      "engEstUnit": 1.1,
+      "lowUnit": 1.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 1.0
+      }
+    },
+    {
+      "itemCode": "0751 6003",
+      "description": "IRRIG SYS OPERATION AND REPAIR",
+      "unit": "MO",
+      "quantity": 3.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 5600.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 5600.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 11534.46
+      }
+    },
+    {
+      "itemCode": "3077 6001",
+      "description": "SP MIXES SP-B PG64-22",
+      "unit": "TON",
+      "quantity": 13478.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 98.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 98.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 87.2
+      }
+    },
+    {
+      "itemCode": "3077 6053",
+      "description": "SP MIXES SP-D SAC-B PG70-22",
+      "unit": "TON",
+      "quantity": 135.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 145.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 145.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 274.63
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 6135.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 4.2,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 4.2,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 4.36
+      }
+    },
+    {
+      "itemCode": "4006 6001",
+      "description": "SOUND WALL (14 FT)",
+      "unit": "LF",
+      "quantity": 65.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1300.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1300.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 933.19
+      }
+    },
+    {
+      "itemCode": "4006 6006",
+      "description": "SOUND WALL (12 FT)",
+      "unit": "LF",
+      "quantity": 1286.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 570.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 570.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 728.32
+      }
+    },
+    {
+      "itemCode": "4006 6027",
+      "description": "SOUND WALL (12 FT)(SPL)",
+      "unit": "LF",
+      "quantity": 24.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 1800.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1800.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 3102.74
+      }
+    },
+    {
+      "itemCode": "5033 6001",
+      "description": "FIXED BOLLARD",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 980.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 980.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 549.26
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 14000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 14000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 15379.28
+      }
+    },
+    {
+      "itemCode": "6010 6001",
+      "description": "CCTV FIELD EQUIPMENT (ANALOG)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 6500.0,
+      "lowUnit": 14000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 14000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 14300.0
+      }
+    },
+    {
+      "itemCode": "6010 6003",
+      "description": "CCTV FIELD CONTROLLER",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 4500.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 3000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 3130.0
+      }
+    },
+    {
+      "itemCode": "6010 6004",
+      "description": "CCTV MOUNT (POLE)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 925.0,
+      "lowUnit": 2900.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 2900.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 2966.0
+      }
+    },
+    {
+      "itemCode": "6038 6002",
+      "description": "MULTIPOLYMER PAV MRK (W)(4\")(BRK)",
+      "unit": "LF",
+      "quantity": 4655.0,
+      "engEstUnit": 0.55,
+      "lowUnit": 1.1,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1.1,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 0.93
+      }
+    },
+    {
+      "itemCode": "6038 6007",
+      "description": "MULTIPOLYMER PAV MRK (W)(8\")(SLD)",
+      "unit": "LF",
+      "quantity": 4208.0,
+      "engEstUnit": 0.9,
+      "lowUnit": 1.6,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1.6,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 1.76
+      }
+    },
+    {
+      "itemCode": "6038 6009",
+      "description": "MULTIPOLYMER PAV MRK (W)(8\")(DOT)",
+      "unit": "LF",
+      "quantity": 541.0,
+      "engEstUnit": 1.45,
+      "lowUnit": 1.6,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1.6,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 2.2
+      }
+    },
+    {
+      "itemCode": "6038 6014",
+      "description": "MULTIPOLYMER PAV MRK (Y)(4\")(SLD)",
+      "unit": "LF",
+      "quantity": 8866.0,
+      "engEstUnit": 0.4,
+      "lowUnit": 1.1,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1.1,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 0.82
+      }
+    },
+    {
+      "itemCode": "6038 6015",
+      "description": "MULTIPOLYMER PAV MRK (Y)(4\")(BRK)",
+      "unit": "LF",
+      "quantity": 1685.0,
+      "engEstUnit": 0.65,
+      "lowUnit": 1.1,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 1.1,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 0.93
+      }
+    },
+    {
+      "itemCode": "6054 6001",
+      "description": "SPREAD SPECTRUM RADIO",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 2900.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 2900.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 3020.93
+      }
+    },
+    {
+      "itemCode": "6054 6002",
+      "description": "COAXIAL CABLE",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.2,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 2.2,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 2.2
+      }
+    },
+    {
+      "itemCode": "6054 6004",
+      "description": "ANTENNA (OMNI-DIRECTIONAL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1400.0,
+      "lowUnit": 79.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 79.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 82.39
+      }
+    },
+    {
+      "itemCode": "6058 6001",
+      "description": "BBU SYSTEM (EXTERNAL BATT CABINET)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 7100.0,
+      "lowUnit": 9000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 9000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 9337.42
+      }
+    },
+    {
+      "itemCode": "6158 6001",
+      "description": "TMSP RADAR SPEED CONTROL MONITOR",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 13000.0,
+      "lowUnit": 13000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 13000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 12047.58
+      }
+    },
+    {
+      "itemCode": "6306 6001",
+      "description": "VIVDS PROSR SYS",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 9000.0,
+      "lowUnit": 7400.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 7400.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 7689.64
+      }
+    },
+    {
+      "itemCode": "6306 6002",
+      "description": "VIVDS CAM ASSY FXD LNS",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 1900.0,
+      "lowUnit": 2200.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 2200.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 2197.04
+      }
+    },
+    {
+      "itemCode": "6306 6005",
+      "description": "VIVDS CNTRL SOFTWARE",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 690.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 690.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 714.04
+      }
+    },
+    {
+      "itemCode": "6306 6006",
+      "description": "VIVDS TEMPORARY",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 14000.0,
+      "lowUnit": 22000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 22000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 22971.0
+      }
+    },
+    {
+      "itemCode": "6306 6007",
+      "description": "VIVDS CABLING",
+      "unit": "LF",
+      "quantity": 3724.0,
+      "engEstUnit": 3.1,
+      "lowUnit": 4.3,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 4.3,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 4.39
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6402-91-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640291001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/09/22",
+    "engEstTotal": 198340.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 65188.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 145763.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 210040.52
+    },
+    {
+      "rank": 4,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 228800.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 18500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0,
+        "D & M CONTRACTORS, LLC": 10000.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "ANTHONY SERVICES": 25000.0
+      }
+    }
+  ]
+}

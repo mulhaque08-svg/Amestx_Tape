@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "csj": "6428-34-001",
+    "county": "Tom Green",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 642834001",
+    "projectType": "BRIDGE BEAM REPAIR",
+    "letDate": "01/10/23",
+    "engEstTotal": 158592.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 140960.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "3LW CIVIL LLC",
+      "totalBidAmount": 156360.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC",
+      "totalBidAmount": 165680.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 177564.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "DELGADO'S CONTRACTORS, LLC",
+      "totalBidAmount": 191400.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "PENHALL COMPANY",
+      "totalBidAmount": 205321.29
+    },
+    {
+      "rank": 7,
+      "vendorName": "SCR CIVIL CONSTRUCTION, LLC",
+      "totalBidAmount": 224040.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 16992.0,
+      "lowUnit": 20000.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 20000.0,
+        "3LW CIVIL LLC": 20000.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 20000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 16500.0,
+        "DELGADO'S CONTRACTORS, LLC": 15000.0,
+        "PENHALL COMPANY": 18817.27
+      }
+    },
+    {
+      "itemCode": "0788 6002",
+      "description": "CONCRETE BEAM REPAIR (CFRP)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 18000.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 18000.0,
+        "3LW CIVIL LLC": 13500.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 25000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 16500.0,
+        "DELGADO'S CONTRACTORS, LLC": 45000.0,
+        "PENHALL COMPANY": 13903.2
+      }
+    },
+    {
+      "itemCode": "0788 6003",
+      "description": "CONCRETE BEAM REP(STRAND SPLICE & CFRP)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 35000.0,
+      "lowUnit": 34000.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 34000.0,
+        "3LW CIVIL LLC": 37520.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 40000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 27500.0,
+        "DELGADO'S CONTRACTORS, LLC": 25000.0,
+        "PENHALL COMPANY": 48749.48
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 48.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 10.0,
+        "3LW CIVIL LLC": 50.0,
+        "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC": 35.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 193.0,
+        "DELGADO'S CONTRACTORS, LLC": 125.0,
+        "PENHALL COMPANY": 137.86
+      }
+    }
+  ]
+}

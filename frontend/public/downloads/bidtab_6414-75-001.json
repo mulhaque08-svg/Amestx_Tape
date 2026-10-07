@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6414-75-001",
+    "county": "Brazos",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641475001",
+    "projectType": "AGGREGATE",
+    "letDate": "08/16/22",
+    "engEstTotal": 105000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 130000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 150000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6113",
+      "description": "AGGR (TY B GR 5) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 85.0,
+        "COLORADO MATERIALS, LTD.": 98.0
+      }
+    },
+    {
+      "itemCode": "8039 6114",
+      "description": "AGGR (TY B GR 5) (DEL) (ST2)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 85.0,
+        "COLORADO MATERIALS, LTD.": 100.0
+      }
+    },
+    {
+      "itemCode": "8039 6115",
+      "description": "AGGR (TY B GR 5) (DEL) (ST3)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 90.0,
+        "COLORADO MATERIALS, LTD.": 102.0
+      }
+    }
+  ]
+}

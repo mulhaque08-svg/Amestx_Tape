@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6393-03-001",
+    "county": "Walker",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639303001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "12/08/21",
+    "engEstTotal": 93750.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 111285.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 159680.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 172230.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6078",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 1)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 35.8,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 35.8,
+        "TOUCHSTONE RESOURCES, LLC": 43.08,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 36.35
+      }
+    },
+    {
+      "itemCode": "8007 6079",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 2)",
+      "unit": "TON",
+      "quantity": 750.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 28.86,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 28.86,
+        "TOUCHSTONE RESOURCES, LLC": 40.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 42.76
+      }
+    },
+    {
+      "itemCode": "8007 6080",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 3)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 25.81,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 25.81,
+        "TOUCHSTONE RESOURCES, LLC": 43.6,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 48.77
+      }
+    },
+    {
+      "itemCode": "8007 6081",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 4)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 28.03,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 28.03,
+        "TOUCHSTONE RESOURCES, LLC": 43.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 55.04
+      }
+    }
+  ]
+}

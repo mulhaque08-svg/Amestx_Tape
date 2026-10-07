@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6443-34-001",
+    "county": "Angelina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644334001",
+    "projectType": "THERMOPLASTIC PAVEMENT MARKINGS",
+    "letDate": "09/06/23",
+    "engEstTotal": 738595.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "REYNOLDS & KAY, LTD.",
+      "totalBidAmount": 635450.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "INTERSTATE BARRICADES & MARKINGS, INC.",
+      "totalBidAmount": 698750.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "BATTERSON, LLP",
+      "totalBidAmount": 704900.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "STRIPE-A-ZONE, LLC",
+      "totalBidAmount": 809590.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 867525.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "PROFESSIONAL TRAFFIC CONTROL LLC",
+      "totalBidAmount": 980990.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "TRAFFIC HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 1025950.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 3740.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 3740.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 5000.0,
+        "BATTERSON, LLP": 3000.0,
+        "STRIPE-A-ZONE, LLC": 5000.0,
+        "TRP CONSTRUCTION GROUP, LLC": 2500.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 4000.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 1500.0,
+      "engEstUnit": 0.35,
+      "lowUnit": 2.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 2.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 1.0,
+        "BATTERSON, LLP": 1.0,
+        "STRIPE-A-ZONE, LLC": 4.5,
+        "TRP CONSTRUCTION GROUP, LLC": 0.75,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 0.3
+      }
+    }
+  ]
+}

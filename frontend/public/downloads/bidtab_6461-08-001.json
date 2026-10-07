@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "csj": "6461-08-001",
+    "county": "Wharton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646108001",
+    "projectType": "HOT MIX",
+    "letDate": "02/02/24",
+    "engEstTotal": 450000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "QUALITY HOT MIX, INC.",
+      "totalBidAmount": 440000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "JAMES CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 455000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 495000.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 500000.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 572500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6042",
+      "description": "D-GR HMA (SQ)(TY-D PG 64-22 SAC-B)(DEL)",
+      "unit": "TON",
+      "quantity": 5000.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 88.0,
+      "bidders": {
+        "QUALITY HOT MIX, INC.": 88.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 91.0,
+        "BRAUNTEX MATERIALS, INC.": 99.0,
+        "TEXAS MATERIALS GROUP, INC.": 100.0,
+        "COLORADO MATERIALS, LTD.": 114.5
+      }
+    }
+  ]
+}

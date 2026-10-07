@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6457-05-001",
+    "county": "Bell",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 645705001",
+    "projectType": "HOT-MIX COLD-LAID",
+    "letDate": "12/05/23",
+    "engEstTotal": 450500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 539275.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 557750.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8013 6001",
+      "description": "HMCL ACP TYPE B SAC-B AC-0.6 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2800.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 109.5,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 109.5,
+        "TEXAS MATERIALS GROUP, INC.": 115.0
+      }
+    },
+    {
+      "itemCode": "8013 6002",
+      "description": "HMCL ACP TYPE D SAC-B AC-0.6 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2050.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 113.5,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 113.5,
+        "TEXAS MATERIALS GROUP, INC.": 115.0
+      }
+    }
+  ]
+}

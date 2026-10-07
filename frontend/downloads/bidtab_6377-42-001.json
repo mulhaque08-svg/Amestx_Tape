@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6377-42-001",
+    "county": "Tyler",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637742001",
+    "projectType": "HOT-MIX COLD-LAID",
+    "letDate": "04/12/22",
+    "engEstTotal": 57400.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 66241.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "EAST TEXAS ASPHALT CO., LTD.",
+      "totalBidAmount": 66500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8013 6003",
+      "description": "HMCL ACP TYPE B (DELIVERY)(SITE 1)",
+      "unit": "TON",
+      "quantity": 700.0,
+      "engEstUnit": 82.0,
+      "lowUnit": 94.63,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 94.63,
+        "EAST TEXAS ASPHALT CO., LTD.": 95.0
+      }
+    }
+  ]
+}

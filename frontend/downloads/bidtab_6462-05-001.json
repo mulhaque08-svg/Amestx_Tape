@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6462-05-001",
+    "county": "Ellis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646205001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "01/10/24",
+    "engEstTotal": 152000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 108500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 130000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6011",
+      "description": "FL BS (SITE DEL)(TY D GR 1-2)(SITE 1)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 28.25,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 28.25,
+        "TOUCHSTONE RESOURCES, LLC": 33.0
+      }
+    },
+    {
+      "itemCode": "8007 6012",
+      "description": "FL BS (SITE DEL)(TY D GR 1-2)(SITE 2)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 26.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 26.0,
+        "TOUCHSTONE RESOURCES, LLC": 32.0
+      }
+    }
+  ]
+}

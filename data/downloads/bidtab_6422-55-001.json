@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6422-55-001",
+    "county": "Brazos",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642255001",
+    "projectType": "HOT MIX",
+    "letDate": "12/01/22",
+    "engEstTotal": 517500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 453460.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BRAZOS PAVING, INC.",
+      "totalBidAmount": 455000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 476750.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 509750.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "WALLER COUNTY ASPHALT INC.",
+      "totalBidAmount": 528475.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 80.0,
+        "BRAZOS PAVING, INC.": 82.0,
+        "TEXAS MATERIALS GROUP, INC.": 85.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 83.5,
+        "WALLER COUNTY ASPHALT INC.": 89.0
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 4500.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 91.88,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 91.88,
+        "BRAZOS PAVING, INC.": 92.0,
+        "TEXAS MATERIALS GROUP, INC.": 96.5,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 104.0,
+        "WALLER COUNTY ASPHALT INC.": 107.55
+      }
+    }
+  ]
+}

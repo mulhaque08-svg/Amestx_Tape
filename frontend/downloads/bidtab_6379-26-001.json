@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "csj": "6379-26-001",
+    "county": "Brewster",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637926001",
+    "projectType": "TRAFFIC CONTROL SERVICES",
+    "letDate": "04/29/21",
+    "engEstTotal": 247500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MIJELUM, L.L.C.",
+      "totalBidAmount": 345001.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 30000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "MIJELUM, L.L.C.": 1.0
+      }
+    },
+    {
+      "itemCode": "0510 6001",
+      "description": "ONE-WAY TRAF CONT (FLAGGER CONT)",
+      "unit": "HR",
+      "quantity": 800.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "MIJELUM, L.L.C.": 30.0
+      }
+    },
+    {
+      "itemCode": "0510 6002",
+      "description": "ONE-WAY TRAF CONT (PILOT CAR)",
+      "unit": "HR",
+      "quantity": 800.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "MIJELUM, L.L.C.": 200.0
+      }
+    },
+    {
+      "itemCode": "7148 6001",
+      "description": "1 LN CLOSURE 2 LN RD NO SHOULDERS",
+      "unit": "HR",
+      "quantity": 300.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "MIJELUM, L.L.C.": 40.0
+      }
+    },
+    {
+      "itemCode": "7148 6002",
+      "description": "1 LN CLOSURE 2 LN RD PAVED SHOULDERS",
+      "unit": "HR",
+      "quantity": 500.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "MIJELUM, L.L.C.": 50.0
+      }
+    },
+    {
+      "itemCode": "7148 6016",
+      "description": "WORK AREA ON SHOULDER",
+      "unit": "HR",
+      "quantity": 200.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "MIJELUM, L.L.C.": 20.0
+      }
+    }
+  ]
+}

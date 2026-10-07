@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6463-68-001",
+    "county": "Hemphill",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646368001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "04/04/24",
+    "engEstTotal": 369040.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BERT WHITAKER",
+      "totalBidAmount": 360004.6
+    },
+    {
+      "rank": 2,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 412360.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "BERT WHITAKER": 1000.0,
+        "RISE UP CONSTRUCTION LLC": 5000.0
+      }
+    },
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 116.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 37.37,
+      "bidders": {
+        "BERT WHITAKER": 37.37,
+        "RISE UP CONSTRUCTION LLC": 42.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 8864.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 37.37,
+      "bidders": {
+        "BERT WHITAKER": 37.37,
+        "RISE UP CONSTRUCTION LLC": 42.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 600.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 37.37,
+      "bidders": {
+        "BERT WHITAKER": 37.37,
+        "RISE UP CONSTRUCTION LLC": 42.0
+      }
+    }
+  ]
+}

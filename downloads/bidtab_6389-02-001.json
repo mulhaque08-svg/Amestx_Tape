@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "csj": "6389-02-001",
+    "county": "Mclennan",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638902001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "11/04/21",
+    "engEstTotal": 821355.84,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "T&L CLEANING SERVICES LLC",
+      "totalBidAmount": 806984.37
+    },
+    {
+      "rank": 2,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 1069149.35
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 13087.56,
+      "lowUnit": 1.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 326.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 60.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 55.0
+      }
+    },
+    {
+      "itemCode": "0730 6104",
+      "description": "FULL-WIDTH MOWING (RURAL)",
+      "unit": "AC",
+      "quantity": 7988.96,
+      "engEstUnit": 42.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 40.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 53.0
+      }
+    },
+    {
+      "itemCode": "0730 6105",
+      "description": "FULL-WIDTH MOWING (URBAN)",
+      "unit": "AC",
+      "quantity": 2928.69,
+      "engEstUnit": 48.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 45.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 71.0
+      }
+    },
+    {
+      "itemCode": "0731 6007",
+      "description": "PAVEMENT EDGES, STRUCTURES & FIXTURES",
+      "unit": "MI",
+      "quantity": 289.128,
+      "engEstUnit": 220.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 300.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 350.0
+      }
+    },
+    {
+      "itemCode": "0731 6011",
+      "description": "BROADCAST APPLICATION",
+      "unit": "AC",
+      "quantity": 2550.96,
+      "engEstUnit": 70.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 75.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 89.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 2625.72,
+      "engEstUnit": 13.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 16.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 17.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 1000.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 16.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 17.0
+      }
+    }
+  ]
+}

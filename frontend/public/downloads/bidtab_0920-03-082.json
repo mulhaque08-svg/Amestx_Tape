@@ -1,0 +1,629 @@
+{
+  "metadata": {
+    "csj": "0920-03-082",
+    "county": "Hardin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2022(836)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "05/03/24",
+    "engEstTotal": 2807681.19,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 3831475.49
+    },
+    {
+      "rank": 2,
+      "vendorName": "C. E. BARKER, LTD.",
+      "totalBidAmount": 4152670.71
+    },
+    {
+      "rank": 3,
+      "vendorName": "PROJECT ALLIED RESOURCES, LLC",
+      "totalBidAmount": 4665503.97
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 21.9,
+      "engEstUnit": 2000.0,
+      "lowUnit": 2900.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 2900.0,
+        "C. E. BARKER, LTD.": 9000.0,
+        "PROJECT ALLIED RESOURCES, LLC": 2430.0
+      }
+    },
+    {
+      "itemCode": "0104 6030",
+      "description": "REMOVING CONC (PILE ENCASEMENT)",
+      "unit": "CY",
+      "quantity": 5.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 1575.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 1575.0,
+        "C. E. BARKER, LTD.": 6842.5,
+        "PROJECT ALLIED RESOURCES, LLC": 348.0
+      }
+    },
+    {
+      "itemCode": "0105 6046",
+      "description": "REMOVING STAB BASE & ASPH PAV (0\"-10\")",
+      "unit": "SY",
+      "quantity": 1361.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 16.0,
+        "C. E. BARKER, LTD.": 9.13,
+        "PROJECT ALLIED RESOURCES, LLC": 31.6
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 788.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 18.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 18.0,
+        "C. E. BARKER, LTD.": 45.75,
+        "PROJECT ALLIED RESOURCES, LLC": 63.0
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 483.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 45.0,
+        "C. E. BARKER, LTD.": 55.13,
+        "PROJECT ALLIED RESOURCES, LLC": 76.0
+      }
+    },
+    {
+      "itemCode": "0112 6001",
+      "description": "SUBGRADE WIDENING (ORD COMP)",
+      "unit": "STA",
+      "quantity": 10.5,
+      "engEstUnit": 380.0,
+      "lowUnit": 1902.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 1902.0,
+        "C. E. BARKER, LTD.": 513.19,
+        "PROJECT ALLIED RESOURCES, LLC": 2680.0
+      }
+    },
+    {
+      "itemCode": "0132 6005",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 1416.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 55.0,
+        "C. E. BARKER, LTD.": 55.13,
+        "PROJECT ALLIED RESOURCES, LLC": 70.0
+      }
+    },
+    {
+      "itemCode": "0164 6001",
+      "description": "BROADCAST SEED (PERM) (RURAL) (SANDY)",
+      "unit": "SY",
+      "quantity": 1213.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.05,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 1.05,
+        "C. E. BARKER, LTD.": 1.41,
+        "PROJECT ALLIED RESOURCES, LLC": 3.56
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 3211.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 1.05,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 1.05,
+        "C. E. BARKER, LTD.": 0.59,
+        "PROJECT ALLIED RESOURCES, LLC": 0.5
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 3211.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 1.05,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 1.05,
+        "C. E. BARKER, LTD.": 0.57,
+        "PROJECT ALLIED RESOURCES, LLC": 0.51
+      }
+    },
+    {
+      "itemCode": "0164 6021",
+      "description": "CELL FBR MLCH SEED(PERM)(RURAL)(SANDY)",
+      "unit": "SY",
+      "quantity": 5209.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.05,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 1.05,
+        "C. E. BARKER, LTD.": 0.94,
+        "PROJECT ALLIED RESOURCES, LLC": 3.13
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 54.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 150.0,
+        "C. E. BARKER, LTD.": 87.98,
+        "PROJECT ALLIED RESOURCES, LLC": 104.0
+      }
+    },
+    {
+      "itemCode": "0169 6004",
+      "description": "SOIL RETENTION BLANKETS (CL 1) (TY D)",
+      "unit": "SY",
+      "quantity": 3198.0,
+      "engEstUnit": 3.35,
+      "lowUnit": 2.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 2.0,
+        "C. E. BARKER, LTD.": 3.28,
+        "PROJECT ALLIED RESOURCES, LLC": 5.3
+      }
+    },
+    {
+      "itemCode": "0216 6001",
+      "description": "PROOF ROLLING",
+      "unit": "HR",
+      "quantity": 50.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 447.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 447.0,
+        "C. E. BARKER, LTD.": 117.3,
+        "PROJECT ALLIED RESOURCES, LLC": 238.0
+      }
+    },
+    {
+      "itemCode": "0310 6005",
+      "description": "PRIME COAT (AE-P)",
+      "unit": "GAL",
+      "quantity": 332.0,
+      "engEstUnit": 7.5,
+      "lowUnit": 16.25,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 16.25,
+        "C. E. BARKER, LTD.": 12.9,
+        "PROJECT ALLIED RESOURCES, LLC": 40.1
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 234.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 265.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 265.0,
+        "C. E. BARKER, LTD.": 175.95,
+        "PROJECT ALLIED RESOURCES, LLC": 643.0
+      }
+    },
+    {
+      "itemCode": "0416 6001",
+      "description": "DRILL SHAFT (18 IN)",
+      "unit": "LF",
+      "quantity": 220.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 335.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 335.0,
+        "C. E. BARKER, LTD.": 233.79,
+        "PROJECT ALLIED RESOURCES, LLC": 244.0
+      }
+    },
+    {
+      "itemCode": "0416 6002",
+      "description": "DRILL SHAFT (24 IN)",
+      "unit": "LF",
+      "quantity": 1095.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 369.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 369.0,
+        "C. E. BARKER, LTD.": 263.12,
+        "PROJECT ALLIED RESOURCES, LLC": 330.0
+      }
+    },
+    {
+      "itemCode": "0416 6004",
+      "description": "DRILL SHAFT (36 IN)",
+      "unit": "LF",
+      "quantity": 330.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 960.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 960.0,
+        "C. E. BARKER, LTD.": 321.77,
+        "PROJECT ALLIED RESOURCES, LLC": 554.0
+      }
+    },
+    {
+      "itemCode": "0422 6001",
+      "description": "REINF CONC SLAB",
+      "unit": "SF",
+      "quantity": 1560.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 49.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 49.0,
+        "C. E. BARKER, LTD.": 30.05,
+        "PROJECT ALLIED RESOURCES, LLC": 47.8
+      }
+    },
+    {
+      "itemCode": "0422 6007",
+      "description": "REINF CONC SLAB (SLAB BEAM)",
+      "unit": "SF",
+      "quantity": 3900.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 36.24,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 36.24,
+        "C. E. BARKER, LTD.": 34.46,
+        "PROJECT ALLIED RESOURCES, LLC": 47.8
+      }
+    },
+    {
+      "itemCode": "0422 6015",
+      "description": "APPROACH SLAB",
+      "unit": "CY",
+      "quantity": 135.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 580.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 580.0,
+        "C. E. BARKER, LTD.": 794.12,
+        "PROJECT ALLIED RESOURCES, LLC": 1340.0
+      }
+    },
+    {
+      "itemCode": "0432 6031",
+      "description": "RIPRAP (STONE PROTECTION)(12 IN)",
+      "unit": "CY",
+      "quantity": 492.0,
+      "engEstUnit": 210.0,
+      "lowUnit": 255.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 255.0,
+        "C. E. BARKER, LTD.": 260.02,
+        "PROJECT ALLIED RESOURCES, LLC": 360.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 263.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 290.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 290.0,
+        "C. E. BARKER, LTD.": 233.04,
+        "PROJECT ALLIED RESOURCES, LLC": 414.0
+      }
+    },
+    {
+      "itemCode": "0432 6046",
+      "description": "RIPRAP (MOW STRIP)(5 IN)",
+      "unit": "CY",
+      "quantity": 101.0,
+      "engEstUnit": 780.0,
+      "lowUnit": 630.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 630.0,
+        "C. E. BARKER, LTD.": 643.59,
+        "PROJECT ALLIED RESOURCES, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0454 6004",
+      "description": "ARMOR JOINT (SEALED)",
+      "unit": "LF",
+      "quantity": 162.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 180.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 180.0,
+        "C. E. BARKER, LTD.": 117.3,
+        "PROJECT ALLIED RESOURCES, LLC": 260.0
+      }
+    },
+    {
+      "itemCode": "0460 6001",
+      "description": "CMP (GAL STL 12 IN)",
+      "unit": "LF",
+      "quantity": 4.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 1330.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 1330.0,
+        "C. E. BARKER, LTD.": 58.65,
+        "PROJECT ALLIED RESOURCES, LLC": 405.0
+      }
+    },
+    {
+      "itemCode": "0467 6316",
+      "description": "SET (TY II) (12 IN) (CMP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 5000.0,
+        "C. E. BARKER, LTD.": 1524.9,
+        "PROJECT ALLIED RESOURCES, LLC": 2670.0
+      }
+    },
+    {
+      "itemCode": "0467 6395",
+      "description": "SET (TY II) (24 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 3950.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 3950.0,
+        "C. E. BARKER, LTD.": 2475.03,
+        "PROJECT ALLIED RESOURCES, LLC": 3340.0
+      }
+    },
+    {
+      "itemCode": "0467 6463",
+      "description": "SET (TY II) (42 IN) (RCP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 5750.0,
+      "lowUnit": 7100.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 7100.0,
+        "C. E. BARKER, LTD.": 9900.12,
+        "PROJECT ALLIED RESOURCES, LLC": 12700.0
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 35000.0,
+      "lowUnit": 36000.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 36000.0,
+        "C. E. BARKER, LTD.": 35190.0,
+        "PROJECT ALLIED RESOURCES, LLC": 61000.0
+      }
+    },
+    {
+      "itemCode": "0496 6016",
+      "description": "REMOV STR (PIPE)",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 480.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 480.0,
+        "C. E. BARKER, LTD.": 1368.5,
+        "PROJECT ALLIED RESOURCES, LLC": 1010.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 252369.89,
+      "lowUnit": 379000.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 379000.0,
+        "C. E. BARKER, LTD.": 390000.0,
+        "PROJECT ALLIED RESOURCES, LLC": 335000.0
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 469.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 40.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 40.5,
+        "C. E. BARKER, LTD.": 75.07,
+        "PROJECT ALLIED RESOURCES, LLC": 175.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 3280.0,
+      "lowUnit": 3045.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 3045.0,
+        "C. E. BARKER, LTD.": 3753.6,
+        "PROJECT ALLIED RESOURCES, LLC": 4020.0
+      }
+    },
+    {
+      "itemCode": "0545 6006",
+      "description": "CRASH CUSH ATTEN (INSTL)(L)(N)(TL2)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 44000.0,
+      "lowUnit": 26775.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 26775.0,
+        "C. E. BARKER, LTD.": 30110.91,
+        "PROJECT ALLIED RESOURCES, LLC": 37600.0
+      }
+    },
+    {
+      "itemCode": "0552 6005",
+      "description": "GATE (TY 1)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 3465.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 3465.0,
+        "C. E. BARKER, LTD.": 1407.6,
+        "PROJECT ALLIED RESOURCES, LLC": 5880.0
+      }
+    },
+    {
+      "itemCode": "0560 6011",
+      "description": "MAILBOX INSTALL-S (TWW-POST) TY 4",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 315.0,
+      "lowUnit": 309.75,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 309.75,
+        "C. E. BARKER, LTD.": 504.39,
+        "PROJECT ALLIED RESOURCES, LLC": 640.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 650.0,
+      "lowUnit": 735.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 735.0,
+        "C. E. BARKER, LTD.": 839.87,
+        "PROJECT ALLIED RESOURCES, LLC": 1770.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 210.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 210.0,
+        "C. E. BARKER, LTD.": 99.71,
+        "PROJECT ALLIED RESOURCES, LLC": 275.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 26.25,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 26.25,
+        "C. E. BARKER, LTD.": 21.11,
+        "PROJECT ALLIED RESOURCES, LLC": 84.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 80.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 52.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 52.5,
+        "C. E. BARKER, LTD.": 32.84,
+        "PROJECT ALLIED RESOURCES, LLC": 63.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 15.75,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 15.75,
+        "C. E. BARKER, LTD.": 10.56,
+        "PROJECT ALLIED RESOURCES, LLC": 27.8
+      }
+    },
+    {
+      "itemCode": "3076 6066",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 98.0,
+      "engEstUnit": 7.5,
+      "lowUnit": 44.35,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 44.35,
+        "C. E. BARKER, LTD.": 20.81,
+        "PROJECT ALLIED RESOURCES, LLC": 33.2
+      }
+    },
+    {
+      "itemCode": "3076 6071",
+      "description": "D-GR HMA TY-D PG 64-22 (EXEMPT)",
+      "unit": "TON",
+      "quantity": 181.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 275.75,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 275.75,
+        "C. E. BARKER, LTD.": 479.19,
+        "PROJECT ALLIED RESOURCES, LLC": 529.0
+      }
+    },
+    {
+      "itemCode": "4216 6005",
+      "description": "THERMOPLASTIC PIPE (PP) (42\")",
+      "unit": "LF",
+      "quantity": 144.0,
+      "engEstUnit": 210.0,
+      "lowUnit": 144.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 144.0,
+        "C. E. BARKER, LTD.": 504.39,
+        "PROJECT ALLIED RESOURCES, LLC": 278.0
+      }
+    }
+  ]
+}

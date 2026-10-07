@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6375-19-001",
+    "county": "Victoria",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637519001",
+    "projectType": "FLEX BASE - VAO (MATERIAL ONLY)",
+    "letDate": "04/13/23",
+    "engEstTotal": 172500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "QUALITY HOT MIX, INC.",
+      "totalBidAmount": 168000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 176250.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 219375.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6078",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 1)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 36.0,
+      "bidders": {
+        "QUALITY HOT MIX, INC.": 36.0,
+        "COLORADO MATERIALS, LTD.": 35.75,
+        "BRAUNTEX MATERIALS, INC.": 48.75
+      }
+    },
+    {
+      "itemCode": "8007 6079",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 2)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 39.0,
+      "lowUnit": 34.0,
+      "bidders": {
+        "QUALITY HOT MIX, INC.": 34.0,
+        "COLORADO MATERIALS, LTD.": 40.25,
+        "BRAUNTEX MATERIALS, INC.": 48.75
+      }
+    },
+    {
+      "itemCode": "8007 6080",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 3)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 41.0,
+      "lowUnit": 42.0,
+      "bidders": {
+        "QUALITY HOT MIX, INC.": 42.0,
+        "COLORADO MATERIALS, LTD.": 41.5,
+        "BRAUNTEX MATERIALS, INC.": 48.75
+      }
+    }
+  ]
+}

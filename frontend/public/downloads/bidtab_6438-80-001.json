@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6438-80-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643880001",
+    "projectType": "REFLECTORIZED PAVEMENT MARKINGS & MARKERS",
+    "letDate": "08/02/23",
+    "engEstTotal": 331800.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BRYDL CONTRACTING, LLC",
+      "totalBidAmount": 286227.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TRAFFIC HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 452300.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 1.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 40000.0
+      }
+    },
+    {
+      "itemCode": "0668 6115",
+      "description": "PREFAB PAV MRK TY C (MULTI) (SHIELD)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 3850.0,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 3850.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 5500.0
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 53000.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 4.95,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 4.95,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 5.9
+      }
+    },
+    {
+      "itemCode": "0677 6022",
+      "description": "ELIM EXT PAV MRK & MRKS (SHEILD)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 285.0,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 285.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0678 6025",
+      "description": "PAV SURF PREP FOR MRKS (SHIELD)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 125.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 200.0
+      }
+    }
+  ]
+}

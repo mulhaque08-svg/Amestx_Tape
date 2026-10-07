@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "csj": "6379-40-001",
+    "county": "Cameron",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637940001",
+    "projectType": "SWEEPING AND DEBRIS REMOVAL",
+    "letDate": "04/08/21",
+    "engEstTotal": 975886.8,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "STRIPE-A-ZONE, INC.",
+      "totalBidAmount": 716667.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.",
+      "totalBidAmount": 984816.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "PANNELL INDUSTRIES, INC.",
+      "totalBidAmount": 1141625.1
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0735 6002",
+      "description": "DEBRIS REMOVAL (CNTR MEDIANS/MAINLANES)",
+      "unit": "MI",
+      "quantity": 1737.96,
+      "engEstUnit": 80.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "STRIPE-A-ZONE, INC.": 75.0,
+        "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.": 100.0,
+        "PANNELL INDUSTRIES, INC.": 110.0
+      }
+    },
+    {
+      "itemCode": "0738 6002",
+      "description": "CLEANING / SWEEPING (CENTER MEDIAN)",
+      "unit": "MI",
+      "quantity": 868.98,
+      "engEstUnit": 250.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "STRIPE-A-ZONE, INC.": 200.0,
+        "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.": 280.0,
+        "PANNELL INDUSTRIES, INC.": 310.0
+      }
+    },
+    {
+      "itemCode": "0738 6004",
+      "description": "CLEANING / SWEEPING (OUTSIDE MAIN LANE)",
+      "unit": "MI",
+      "quantity": 609.84,
+      "engEstUnit": 250.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "STRIPE-A-ZONE, INC.": 200.0,
+        "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.": 280.0,
+        "PANNELL INDUSTRIES, INC.": 310.0
+      }
+    },
+    {
+      "itemCode": "0738 6006",
+      "description": "CLEANING / SWEEPING (FRONTAGE ROAD)",
+      "unit": "MI",
+      "quantity": 1082.13,
+      "engEstUnit": 250.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "STRIPE-A-ZONE, INC.": 200.0,
+        "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.": 280.0,
+        "PANNELL INDUSTRIES, INC.": 310.0
+      }
+    },
+    {
+      "itemCode": "0738 6008",
+      "description": "CLEANING / SWEEPING(ENTRANCE/EXIT RAMP)",
+      "unit": "MI",
+      "quantity": 332.85,
+      "engEstUnit": 250.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "STRIPE-A-ZONE, INC.": 200.0,
+        "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.": 280.0,
+        "PANNELL INDUSTRIES, INC.": 300.0
+      }
+    }
+  ]
+}

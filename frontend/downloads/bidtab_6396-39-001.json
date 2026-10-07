@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "csj": "6396-39-001",
+    "county": "Kaufman",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639639001",
+    "projectType": "DITCH CLEANING AND RESHAPING",
+    "letDate": "05/04/22",
+    "engEstTotal": 451150.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 408200.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "FIREMAN EXCAVATING, INC.",
+      "totalBidAmount": 610800.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 744500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0480 6002",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "CY",
+      "quantity": 3000.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 50.0,
+        "FIREMAN EXCAVATING, INC.": 20.0,
+        "FNH CONSTRUCTION, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 500.0,
+        "FIREMAN EXCAVATING, INC.": 5000.0,
+        "FNH CONSTRUCTION, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0760 6001",
+      "description": "DITCH CLEANING AND RESHAPING (FOOT)",
+      "unit": "LF",
+      "quantity": 30000.0,
+      "engEstUnit": 3.25,
+      "lowUnit": 4.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 4.0,
+        "FIREMAN EXCAVATING, INC.": 2.0,
+        "FNH CONSTRUCTION, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0760 6002",
+      "description": "DITCH CLEAN / RESHAPING(CU YD IN PLACE)",
+      "unit": "CY",
+      "quantity": 1000.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 5.0,
+        "FIREMAN EXCAVATING, INC.": 20.0,
+        "FNH CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "7000 6001",
+      "description": "REML & DISPL DRIFTWOOD & DEBRIS",
+      "unit": "CY",
+      "quantity": 500.0,
+      "engEstUnit": 64.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 10.0,
+        "FIREMAN EXCAVATING, INC.": 80.0,
+        "FNH CONSTRUCTION, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "7083 6001",
+      "description": "CLEANING GUARDRAIL",
+      "unit": "LF",
+      "quantity": 11000.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 5.0,
+        "FIREMAN EXCAVATING, INC.": 2.0,
+        "FNH CONSTRUCTION, LLC": 8.0
+      }
+    },
+    {
+      "itemCode": "7083 6003",
+      "description": "CLEANING DRAINAGE FLUMES",
+      "unit": "LF",
+      "quantity": 16900.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 3.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 3.0,
+        "FIREMAN EXCAVATING, INC.": 2.0,
+        "FNH CONSTRUCTION, LLC": 10.0
+      }
+    }
+  ]
+}

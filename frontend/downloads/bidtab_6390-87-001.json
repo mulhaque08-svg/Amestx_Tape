@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6390-87-001",
+    "county": "Pecos",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639087001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/02/21",
+    "engEstTotal": 422520.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CM COMPANY",
+      "totalBidAmount": 309566.32
+    },
+    {
+      "rank": 2,
+      "vendorName": "DOUBLE A CONTRACTING, L.P.",
+      "totalBidAmount": 358578.64
+    },
+    {
+      "rank": 3,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 406605.08
+    },
+    {
+      "rank": 4,
+      "vendorName": "K-BAR SERVICES, INC.",
+      "totalBidAmount": 408436.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 14084.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 21.98,
+      "bidders": {
+        "CM COMPANY": 21.98,
+        "DOUBLE A CONTRACTING, L.P.": 25.46,
+        "ABESCAPE GROUP LLC": 28.87,
+        "K-BAR SERVICES, INC.": 29.0
+      }
+    }
+  ]
+}

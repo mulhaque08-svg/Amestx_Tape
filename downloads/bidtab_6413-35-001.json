@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6413-35-001",
+    "county": "Comal",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641335001",
+    "projectType": "PICNIC AREA MAINTENANCE",
+    "letDate": "08/17/22",
+    "engEstTotal": 294456.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BK FIELD OPERATIONS LLC",
+      "totalBidAmount": 287298.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BIG TEX CONTRACTORS, LLC",
+      "totalBidAmount": 349476.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ABOVE ALL CONSTRUCTION",
+      "totalBidAmount": 372912.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "JCW CONSTRUCTION, LLC",
+      "totalBidAmount": 537450.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "ROY JORGENSEN ASSOCIATES, INC.",
+      "totalBidAmount": 598900.2
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 17076.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 10.5,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 10.5,
+        "BIG TEX CONTRACTORS, LLC": 1.0,
+        "ABOVE ALL CONSTRUCTION": 12.0,
+        "JCW CONSTRUCTION, LLC": 12.5,
+        "ROY JORGENSEN ASSOCIATES, INC.": 16.45
+      }
+    },
+    {
+      "itemCode": "0745 6061",
+      "description": "GROUNDS MAINT (MOWING / TRIMMING)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 2500.0,
+        "BIG TEX CONTRACTORS, LLC": 100.0,
+        "ABOVE ALL CONSTRUCTION": 1000.0,
+        "JCW CONSTRUCTION, LLC": 1500.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0745 6155",
+      "description": "JANITORIAL MAINT (PICNIC AREAS)",
+      "unit": "MO",
+      "quantity": 24.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 2000.0,
+        "BIG TEX CONTRACTORS, LLC": 13750.0,
+        "ABOVE ALL CONSTRUCTION": 6000.0,
+        "JCW CONSTRUCTION, LLC": 12000.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 12250.0
+      }
+    }
+  ]
+}

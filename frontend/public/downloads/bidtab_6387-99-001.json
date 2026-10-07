@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "csj": "6387-99-001",
+    "county": "Taylor",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638799001",
+    "projectType": "TREE TRIMMING AND BRUSH REMOVAL",
+    "letDate": "01/13/23",
+    "engEstTotal": 246405.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "PATHFIELD INVESTMENTS LLC",
+      "totalBidAmount": 254013.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 289305.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CATOCON, INC.",
+      "totalBidAmount": 299557.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 311852.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 18000.0,
+      "lowUnit": 20000.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 20000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 20000.0,
+        "CATOCON, INC.": 25000.0,
+        "ANTHONY SERVICES": 40000.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 51.35,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3500.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 3500.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 3000.0,
+        "CATOCON, INC.": 4000.0,
+        "ANTHONY SERVICES": 3800.0
+      }
+    },
+    {
+      "itemCode": "0752 6004",
+      "description": "TREE TRIMMING / BRUSH REMOVAL(CHANNELS)",
+      "unit": "AC",
+      "quantity": 5.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 3000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 3000.0,
+        "CATOCON, INC.": 1.0,
+        "ANTHONY SERVICES": 2500.0
+      }
+    },
+    {
+      "itemCode": "0752 6005",
+      "description": "TREE REMOVAL (4\" - 12\" DIA)",
+      "unit": "EA",
+      "quantity": 418.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 50.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 135.0,
+        "CATOCON, INC.": 117.0,
+        "ANTHONY SERVICES": 68.0
+      }
+    },
+    {
+      "itemCode": "0752 6006",
+      "description": "TREE REMOVAL (12\" - 18\" DIA)",
+      "unit": "EA",
+      "quantity": 65.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 100.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 125.0,
+        "CATOCON, INC.": 117.0,
+        "ANTHONY SERVICES": 108.0
+      }
+    },
+    {
+      "itemCode": "0752 6007",
+      "description": "TREE REMOVAL (18\" - 24\" DIA)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 150.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 300.0,
+        "CATOCON, INC.": 300.0,
+        "ANTHONY SERVICES": 498.0
+      }
+    },
+    {
+      "itemCode": "0752 6008",
+      "description": "TREE REMOVAL (24\" - 30\" DIA)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "PATHFIELD INVESTMENTS LLC": 100.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 300.0,
+        "CATOCON, INC.": 850.0,
+        "ANTHONY SERVICES": 888.0
+      }
+    }
+  ]
+}

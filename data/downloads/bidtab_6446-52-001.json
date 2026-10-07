@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6446-52-001",
+    "county": "San Saba",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 644652001",
+    "projectType": "HOT-MIX (MATERIALS ONLY)",
+    "letDate": "06/22/23",
+    "engEstTotal": 222000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BIG CREEK CONSTRUCTION, LTD.",
+      "totalBidAmount": 193000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 194000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 222740.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6011",
+      "description": "D-GR HMA(SQ)TY D PG 64-22 (DLVR)SITE 1",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 111.0,
+      "lowUnit": 96.5,
+      "bidders": {
+        "BIG CREEK CONSTRUCTION, LTD.": 96.5,
+        "TEXAS MATERIALS GROUP, INC.": 97.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 111.37
+      }
+    }
+  ]
+}

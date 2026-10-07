@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6461-50-001",
+    "county": "Calhoun",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646150001",
+    "projectType": "HOT-MIX COLD-LAID",
+    "letDate": "04/04/24",
+    "engEstTotal": 315000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "QUALITY HOT MIX, INC.",
+      "totalBidAmount": 294000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 315000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 327000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8013 6002",
+      "description": "HMCL ACP TYPE D SAC-B AC-0.6 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 3000.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 98.0,
+      "bidders": {
+        "QUALITY HOT MIX, INC.": 98.0,
+        "BRAUNTEX MATERIALS, INC.": 105.0,
+        "COLORADO MATERIALS, LTD.": 109.0
+      }
+    }
+  ]
+}

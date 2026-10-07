@@ -1,0 +1,928 @@
+{
+  "metadata": {
+    "csj": "2451-02-014",
+    "county": "Culberson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2024(365)",
+    "projectType": "SURFACING/ROADWAY RESTORATION",
+    "letDate": "11/01/23",
+    "engEstTotal": 21998584.55,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "LESNA CONSTRUCTION, INC.",
+      "totalBidAmount": 22966170.76
+    },
+    {
+      "rank": 2,
+      "vendorName": "DAN WILLIAMS COMPANY",
+      "totalBidAmount": 27517019.99
+    },
+    {
+      "rank": 3,
+      "vendorName": "A. L. HELMCAMP, INC.",
+      "totalBidAmount": 27854106.14
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 264.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1400.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 1400.0,
+        "DAN WILLIAMS COMPANY": 500.0,
+        "A. L. HELMCAMP, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0105 6044",
+      "description": "REMOVING STAB BASE AND ASPH PAV (10\")",
+      "unit": "SY",
+      "quantity": 106031.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 4.0,
+        "DAN WILLIAMS COMPANY": 6.5,
+        "A. L. HELMCAMP, INC.": 16.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 42478.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 18.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 18.0,
+        "DAN WILLIAMS COMPANY": 33.0,
+        "A. L. HELMCAMP, INC.": 38.0
+      }
+    },
+    {
+      "itemCode": "0132 6002",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY A)",
+      "unit": "CY",
+      "quantity": 42830.0,
+      "engEstUnit": 28.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 40.0,
+        "DAN WILLIAMS COMPANY": 53.0,
+        "A. L. HELMCAMP, INC.": 45.0
+      }
+    },
+    {
+      "itemCode": "0134 6005",
+      "description": "BACKFILL TY A",
+      "unit": "CY",
+      "quantity": 21003.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 35.0,
+        "DAN WILLIAMS COMPANY": 42.0,
+        "A. L. HELMCAMP, INC.": 48.0
+      }
+    },
+    {
+      "itemCode": "0150 6002",
+      "description": "BLADING",
+      "unit": "HR",
+      "quantity": 46.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 100.0,
+        "DAN WILLIAMS COMPANY": 150.0,
+        "A. L. HELMCAMP, INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "0216 6001",
+      "description": "PROOF ROLLING",
+      "unit": "HR",
+      "quantity": 46.0,
+      "engEstUnit": 135.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 100.0,
+        "DAN WILLIAMS COMPANY": 85.0,
+        "A. L. HELMCAMP, INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "0310 6001",
+      "description": "PRIME COAT (MULTI OPTION)",
+      "unit": "GAL",
+      "quantity": 29076.0,
+      "engEstUnit": 6.5,
+      "lowUnit": 6.5,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 6.5,
+        "DAN WILLIAMS COMPANY": 5.0,
+        "A. L. HELMCAMP, INC.": 7.0
+      }
+    },
+    {
+      "itemCode": "0354 6021",
+      "description": "PLANE ASPH CONC PAV(0\" TO 2\")",
+      "unit": "SY",
+      "quantity": 45.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 100.0,
+        "DAN WILLIAMS COMPANY": 95.0,
+        "A. L. HELMCAMP, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0401 6001",
+      "description": "FLOWABLE BACKFILL",
+      "unit": "CY",
+      "quantity": 815.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 250.0,
+        "DAN WILLIAMS COMPANY": 325.0,
+        "A. L. HELMCAMP, INC.": 275.0
+      }
+    },
+    {
+      "itemCode": "0402 6001",
+      "description": "TRENCH EXCAVATION PROTECTION",
+      "unit": "LF",
+      "quantity": 654.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 10.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 10.0,
+        "DAN WILLIAMS COMPANY": 1.75,
+        "A. L. HELMCAMP, INC.": 28.0
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 3455.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 20.0,
+        "DAN WILLIAMS COMPANY": 55.0,
+        "A. L. HELMCAMP, INC.": 70.0
+      }
+    },
+    {
+      "itemCode": "0432 6026",
+      "description": "RIPRAP (STONE COMMON)(DRY)(18 IN)",
+      "unit": "CY",
+      "quantity": 195.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 150.0,
+        "DAN WILLIAMS COMPANY": 275.0,
+        "A. L. HELMCAMP, INC.": 600.0
+      }
+    },
+    {
+      "itemCode": "0432 6041",
+      "description": "RIPRAP (SPECIAL)",
+      "unit": "CY",
+      "quantity": 38.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 800.0,
+        "DAN WILLIAMS COMPANY": 305.0,
+        "A. L. HELMCAMP, INC.": 600.0
+      }
+    },
+    {
+      "itemCode": "0459 6014",
+      "description": "GABION MATTRESSES (GALV) (24 IN)",
+      "unit": "SY",
+      "quantity": 13387.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 125.0,
+        "DAN WILLIAMS COMPANY": 150.0,
+        "A. L. HELMCAMP, INC.": 110.0
+      }
+    },
+    {
+      "itemCode": "0466 6186",
+      "description": "WINGWALL (PW - 2) (HW=11 FT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 32000.0,
+      "lowUnit": 51000.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 51000.0,
+        "DAN WILLIAMS COMPANY": 50000.0,
+        "A. L. HELMCAMP, INC.": 121000.0
+      }
+    },
+    {
+      "itemCode": "0466 6194",
+      "description": "WINGWALL (PW - 2) (HW=5 FT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 19000.0,
+      "lowUnit": 30000.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 30000.0,
+        "DAN WILLIAMS COMPANY": 20000.0,
+        "A. L. HELMCAMP, INC.": 23650.0
+      }
+    },
+    {
+      "itemCode": "0466 6195",
+      "description": "WINGWALL (PW - 2) (HW=6 FT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 22000.0,
+      "lowUnit": 30000.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 30000.0,
+        "DAN WILLIAMS COMPANY": 20000.0,
+        "A. L. HELMCAMP, INC.": 23650.0
+      }
+    },
+    {
+      "itemCode": "0466 6197",
+      "description": "WINGWALL (PW - 2) (HW=8 FT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 30000.0,
+      "lowUnit": 41000.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 41000.0,
+        "DAN WILLIAMS COMPANY": 30000.0,
+        "A. L. HELMCAMP, INC.": 71500.0
+      }
+    },
+    {
+      "itemCode": "0467 6388",
+      "description": "SET (TY II) (24 IN) (RCP) (3: 1) (C)",
+      "unit": "EA",
+      "quantity": 46.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1530.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 1530.0,
+        "DAN WILLIAMS COMPANY": 1800.0,
+        "A. L. HELMCAMP, INC.": 2475.0
+      }
+    },
+    {
+      "itemCode": "0467 6390",
+      "description": "SET (TY II) (24 IN) (RCP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2250.0,
+      "lowUnit": 1815.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 1815.0,
+        "DAN WILLIAMS COMPANY": 1850.0,
+        "A. L. HELMCAMP, INC.": 2750.0
+      }
+    },
+    {
+      "itemCode": "0467 6395",
+      "description": "SET (TY II) (24 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 2250.0,
+      "lowUnit": 2200.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 2200.0,
+        "DAN WILLIAMS COMPANY": 2000.0,
+        "A. L. HELMCAMP, INC.": 3300.0
+      }
+    },
+    {
+      "itemCode": "0467 6417",
+      "description": "SET (TY II) (30 IN) (RCP) (3: 1) (C)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 2250.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 2250.0,
+        "DAN WILLIAMS COMPANY": 2200.0,
+        "A. L. HELMCAMP, INC.": 3300.0
+      }
+    },
+    {
+      "itemCode": "0467 6448",
+      "description": "SET (TY II) (36 IN) (RCP) (3: 1) (C)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3650.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 3650.0,
+        "DAN WILLIAMS COMPANY": 3500.0,
+        "A. L. HELMCAMP, INC.": 5720.0
+      }
+    },
+    {
+      "itemCode": "0496 6001",
+      "description": "REMOV STR (BOX CULVERT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 2000.0,
+        "DAN WILLIAMS COMPANY": 5000.0,
+        "A. L. HELMCAMP, INC.": 11000.0
+      }
+    },
+    {
+      "itemCode": "0496 6005",
+      "description": "REMOV STR (WINGWALL)",
+      "unit": "EA",
+      "quantity": 32.0,
+      "engEstUnit": 1800.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 1500.0,
+        "DAN WILLIAMS COMPANY": 1400.0,
+        "A. L. HELMCAMP, INC.": 1650.0
+      }
+    },
+    {
+      "itemCode": "0496 6007",
+      "description": "REMOV STR (PIPE)",
+      "unit": "LF",
+      "quantity": 1575.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 18.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 18.0,
+        "DAN WILLIAMS COMPANY": 32.0,
+        "A. L. HELMCAMP, INC.": 22.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 2026223.0,
+      "lowUnit": 2000000.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 2000000.0,
+        "DAN WILLIAMS COMPANY": 2500000.0,
+        "A. L. HELMCAMP, INC.": 2250000.0
+      }
+    },
+    {
+      "itemCode": "0508 6001",
+      "description": "CONSTRUCTING DETOURS",
+      "unit": "SY",
+      "quantity": 1440.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 115.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 115.0,
+        "DAN WILLIAMS COMPANY": 32.0,
+        "A. L. HELMCAMP, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0510 6003",
+      "description": "ONE-WAY TRAF CONT (PORT TRAF SIG)",
+      "unit": "MO",
+      "quantity": 18.0,
+      "engEstUnit": 6500.0,
+      "lowUnit": 4000.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 4000.0,
+        "DAN WILLIAMS COMPANY": 3500.0,
+        "A. L. HELMCAMP, INC.": 5140.0
+      }
+    },
+    {
+      "itemCode": "0510 6004",
+      "description": "ONE-WAY TRAFFIC CONTROL (PORT TRAF SIG)",
+      "unit": "DAY",
+      "quantity": 720.0,
+      "engEstUnit": 425.0,
+      "lowUnit": 110.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 110.0,
+        "DAN WILLIAMS COMPANY": 70.0,
+        "A. L. HELMCAMP, INC.": 240.0
+      }
+    },
+    {
+      "itemCode": "0512 6017",
+      "description": "PORT CTB (DES SOURCE)(F-SHAPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 7410.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 3.25,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 3.25,
+        "DAN WILLIAMS COMPANY": 15.0,
+        "A. L. HELMCAMP, INC.": 18.0
+      }
+    },
+    {
+      "itemCode": "0512 6029",
+      "description": "PORT CTB (MOVE)(F-SHAPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 44880.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 2.0,
+        "DAN WILLIAMS COMPANY": 1.0,
+        "A. L. HELMCAMP, INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "0512 6041",
+      "description": "PORT CTB (STKPL)(F-SHAPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 7410.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 3.25,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 3.25,
+        "DAN WILLIAMS COMPANY": 14.5,
+        "A. L. HELMCAMP, INC.": 18.0
+      }
+    },
+    {
+      "itemCode": "0530 6004",
+      "description": "DRIVEWAYS (CONC)",
+      "unit": "SY",
+      "quantity": 326.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 115.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 115.0,
+        "DAN WILLIAMS COMPANY": 125.0,
+        "A. L. HELMCAMP, INC.": 220.0
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 652.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 120.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 120.0,
+        "DAN WILLIAMS COMPANY": 145.0,
+        "A. L. HELMCAMP, INC.": 174.0
+      }
+    },
+    {
+      "itemCode": "0533 6003",
+      "description": "RUMBLE STRIPS (SHOULDER) ASPHALT",
+      "unit": "LF",
+      "quantity": 51655.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 0.2,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 0.2,
+        "DAN WILLIAMS COMPANY": 0.21,
+        "A. L. HELMCAMP, INC.": 0.4
+      }
+    },
+    {
+      "itemCode": "0533 6004",
+      "description": "RUMBLE STRIPS (CENTERLINE) ASPHALT",
+      "unit": "LF",
+      "quantity": 24106.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 0.2,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 0.2,
+        "DAN WILLIAMS COMPANY": 0.29,
+        "A. L. HELMCAMP, INC.": 0.4
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 10.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 10.0,
+        "DAN WILLIAMS COMPANY": 5.0,
+        "A. L. HELMCAMP, INC.": 6.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 3500.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 3500.0,
+        "DAN WILLIAMS COMPANY": 3500.0,
+        "A. L. HELMCAMP, INC.": 3872.0
+      }
+    },
+    {
+      "itemCode": "0545 6003",
+      "description": "CRASH CUSH ATTEN (MOVE & RESET)",
+      "unit": "EA",
+      "quantity": 84.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 500.0,
+        "DAN WILLIAMS COMPANY": 825.0,
+        "A. L. HELMCAMP, INC.": 4263.0
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 500.0,
+        "DAN WILLIAMS COMPANY": 800.0,
+        "A. L. HELMCAMP, INC.": 3730.0
+      }
+    },
+    {
+      "itemCode": "0545 6019",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 12000.0,
+      "lowUnit": 12500.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 12500.0,
+        "DAN WILLIAMS COMPANY": 10000.0,
+        "A. L. HELMCAMP, INC.": 8029.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 1100.0,
+        "DAN WILLIAMS COMPANY": 1750.0,
+        "A. L. HELMCAMP, INC.": 1072.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 1100.0,
+        "DAN WILLIAMS COMPANY": 1900.0,
+        "A. L. HELMCAMP, INC.": 1100.0
+      }
+    },
+    {
+      "itemCode": "0644 6007",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(U)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1400.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 1500.0,
+        "DAN WILLIAMS COMPANY": 2100.0,
+        "A. L. HELMCAMP, INC.": 1100.0
+      }
+    },
+    {
+      "itemCode": "0644 6033",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 1500.0,
+        "DAN WILLIAMS COMPANY": 2200.0,
+        "A. L. HELMCAMP, INC.": 1430.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 200.0,
+        "DAN WILLIAMS COMPANY": 175.0,
+        "A. L. HELMCAMP, INC.": 110.0
+      }
+    },
+    {
+      "itemCode": "0658 6011",
+      "description": "INSTL DEL ASSM (D-SW)SZ 2(WC)GND(BI)",
+      "unit": "EA",
+      "quantity": 49.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 75.0,
+        "DAN WILLIAMS COMPANY": 70.0,
+        "A. L. HELMCAMP, INC.": 98.0
+      }
+    },
+    {
+      "itemCode": "0658 6047",
+      "description": "INSTL OM ASSM (OM-2Y)(WC)GND",
+      "unit": "EA",
+      "quantity": 33.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 75.0,
+        "DAN WILLIAMS COMPANY": 125.0,
+        "A. L. HELMCAMP, INC.": 98.0
+      }
+    },
+    {
+      "itemCode": "0658 6060",
+      "description": "REMOVE DELIN & OBJECT MARKER ASSMS",
+      "unit": "EA",
+      "quantity": 87.0,
+      "engEstUnit": 32.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 50.0,
+        "DAN WILLIAMS COMPANY": 25.0,
+        "A. L. HELMCAMP, INC.": 33.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 55.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 75.0,
+        "DAN WILLIAMS COMPANY": 55.0,
+        "A. L. HELMCAMP, INC.": 39.0
+      }
+    },
+    {
+      "itemCode": "0662 6008",
+      "description": "WK ZN PAV MRK NON-REMOV (W)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 105600.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.5,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 0.5,
+        "DAN WILLIAMS COMPANY": 0.5,
+        "A. L. HELMCAMP, INC.": 0.55
+      }
+    },
+    {
+      "itemCode": "0662 6050",
+      "description": "WK ZN PAV MRK REMOV (REFL) TY II-A-A",
+      "unit": "EA",
+      "quantity": 400.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 8.0,
+        "DAN WILLIAMS COMPANY": 10.0,
+        "A. L. HELMCAMP, INC.": 11.0
+      }
+    },
+    {
+      "itemCode": "0662 6067",
+      "description": "WK ZN PAV MRK REMOV (W)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 5810.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.7,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 2.7,
+        "DAN WILLIAMS COMPANY": 1.35,
+        "A. L. HELMCAMP, INC.": 1.5
+      }
+    },
+    {
+      "itemCode": "0662 6075",
+      "description": "WK ZN PAV MRK REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 427.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 15.0,
+        "DAN WILLIAMS COMPANY": 20.0,
+        "A. L. HELMCAMP, INC.": 22.0
+      }
+    },
+    {
+      "itemCode": "0662 6098",
+      "description": "WK ZN PAV MRK REMOV (Y)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 34253.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.85,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 2.85,
+        "DAN WILLIAMS COMPANY": 1.35,
+        "A. L. HELMCAMP, INC.": 1.5
+      }
+    },
+    {
+      "itemCode": "0662 6109",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY W",
+      "unit": "EA",
+      "quantity": 2642.0,
+      "engEstUnit": 1.75,
+      "lowUnit": 2.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 2.0,
+        "DAN WILLIAMS COMPANY": 2.3,
+        "A. L. HELMCAMP, INC.": 0.9
+      }
+    },
+    {
+      "itemCode": "0662 6110",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y",
+      "unit": "EA",
+      "quantity": 2642.0,
+      "engEstUnit": 1.75,
+      "lowUnit": 2.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 2.0,
+        "DAN WILLIAMS COMPANY": 2.3,
+        "A. L. HELMCAMP, INC.": 0.9
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 47.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 6.2,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 6.2,
+        "DAN WILLIAMS COMPANY": 10.0,
+        "A. L. HELMCAMP, INC.": 11.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 1022.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 6.2,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 6.2,
+        "DAN WILLIAMS COMPANY": 5.0,
+        "A. L. HELMCAMP, INC.": 5.5
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 26400.0,
+      "engEstUnit": 1.15,
+      "lowUnit": 0.66,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 0.66,
+        "DAN WILLIAMS COMPANY": 1.0,
+        "A. L. HELMCAMP, INC.": 1.1
+      }
+    },
+    {
+      "itemCode": "0700 6001",
+      "description": "POTHOLE REPAIR (STANDARD)",
+      "unit": "SY",
+      "quantity": 200.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 85.0,
+        "DAN WILLIAMS COMPANY": 100.0,
+        "A. L. HELMCAMP, INC.": 120.0
+      }
+    },
+    {
+      "itemCode": "2005 6001",
+      "description": "FILTER FABRIC (TY 2)",
+      "unit": "SY",
+      "quantity": 50.0,
+      "engEstUnit": 43.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 100.0,
+        "DAN WILLIAMS COMPANY": 9.5,
+        "A. L. HELMCAMP, INC.": 24.0
+      }
+    },
+    {
+      "itemCode": "3076 6006",
+      "description": "D-GR HMA TY-B PG70-22",
+      "unit": "TON",
+      "quantity": 30738.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 190.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 190.0,
+        "DAN WILLIAMS COMPANY": 225.0,
+        "A. L. HELMCAMP, INC.": 175.0
+      }
+    },
+    {
+      "itemCode": "3076 6066",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 21808.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 5.5,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 5.5,
+        "DAN WILLIAMS COMPANY": 6.0,
+        "A. L. HELMCAMP, INC.": 7.0
+      }
+    },
+    {
+      "itemCode": "3077 6022",
+      "description": "SP MIXES SP-C SAC-A PG70-22",
+      "unit": "TON",
+      "quantity": 14716.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 205.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 205.0,
+        "DAN WILLIAMS COMPANY": 235.0,
+        "A. L. HELMCAMP, INC.": 163.0
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 20047.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 5.5,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 5.5,
+        "DAN WILLIAMS COMPANY": 6.0,
+        "A. L. HELMCAMP, INC.": 7.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 16000.0,
+      "bidders": {
+        "LESNA CONSTRUCTION, INC.": 16000.0,
+        "DAN WILLIAMS COMPANY": 15000.0,
+        "A. L. HELMCAMP, INC.": 40000.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6457-77-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645777001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/05/23",
+    "engEstTotal": 557532.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JASCO",
+      "totalBidAmount": 638620.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CEN-TEX IRRIGATION SYSTEMS, INC.",
+      "totalBidAmount": 678004.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 35000.0,
+      "lowUnit": 50000.0,
+      "bidders": {
+        "JASCO": 50000.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 75000.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 242.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "JASCO": 100.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0730 6105",
+      "description": "FULL-WIDTH MOWING (URBAN)",
+      "unit": "AC",
+      "quantity": 4908.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "JASCO": 85.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 84.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 4908.0,
+      "engEstUnit": 24.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "JASCO": 30.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 29.0
+      }
+    }
+  ]
+}

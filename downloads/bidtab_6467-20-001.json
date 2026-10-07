@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6467-20-001",
+    "county": "Ellis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646720001",
+    "projectType": "SWEEPING AND DEBRIS REMOVAL",
+    "letDate": "07/09/24",
+    "engEstTotal": 1502844.06,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "PROFESSIONAL TRAFFIC CONTROL LLC",
+      "totalBidAmount": 1174823.6
+    },
+    {
+      "rank": 2,
+      "vendorName": "SWEEPING CORPORATION OF AMERICA, LLC",
+      "totalBidAmount": 1185764.8
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 71564.0,
+      "lowUnit": 124000.0,
+      "bidders": {
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 124000.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 15000.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6410-85-001",
+    "county": "Dewitt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641085001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/02/23",
+    "engEstTotal": 344648.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MTS BRUSH HOGGING DOZER AND LAWN LLC",
+      "totalBidAmount": 460944.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BK FIELD OPERATIONS LLC",
+      "totalBidAmount": 529387.2
+    },
+    {
+      "rank": 3,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 621576.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 2276.0,
+      "engEstUnit": 23.0,
+      "lowUnit": 33.0,
+      "bidders": {
+        "MTS BRUSH HOGGING DOZER AND LAWN LLC": 33.0,
+        "BK FIELD OPERATIONS LLC": 37.9,
+        "P-VILLE, INCORPORATED": 44.5
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 11692.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 33.0,
+      "bidders": {
+        "MTS BRUSH HOGGING DOZER AND LAWN LLC": 33.0,
+        "BK FIELD OPERATIONS LLC": 37.9,
+        "P-VILLE, INCORPORATED": 44.5
+      }
+    }
+  ]
+}

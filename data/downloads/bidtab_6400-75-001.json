@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6400-75-001",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640075001",
+    "projectType": "DITCH CLEANING AND RESHAPING",
+    "letDate": "06/14/22",
+    "engEstTotal": 270400.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "E.V.G. ENTERPRISE",
+      "totalBidAmount": 284000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 298000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "E.V.G. ENTERPRISE": 2000.0,
+        "TEXAS DRAINAGE INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "E.V.G. ENTERPRISE": 2000.0,
+        "TEXAS DRAINAGE INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0760 6001",
+      "description": "DITCH CLEANING AND RESHAPING (FOOT)",
+      "unit": "LF",
+      "quantity": 180000.0,
+      "engEstUnit": 1.4,
+      "lowUnit": 1.5,
+      "bidders": {
+        "E.V.G. ENTERPRISE": 1.5,
+        "TEXAS DRAINAGE INC.": 1.65
+      }
+    }
+  ]
+}

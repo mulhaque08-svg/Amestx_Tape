@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6400-34-001",
+    "county": "Hale",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640034001",
+    "projectType": "CRACK SEAL",
+    "letDate": "09/07/22",
+    "engEstTotal": 277045.85,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 254744.69
+    },
+    {
+      "rank": 2,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 264656.43
+    },
+    {
+      "rank": 3,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 271435.49
+    },
+    {
+      "rank": 4,
+      "vendorName": "NATIONAL INDUSTRIAL MAINTENANCE, INC.",
+      "totalBidAmount": 291312.32
+    },
+    {
+      "rank": 5,
+      "vendorName": "SCOUT 5 CONSTRUCTION LLC",
+      "totalBidAmount": 493030.86
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 25500.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "D & M CONTRACTORS, LLC": 2000.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0,
+        "NATIONAL INDUSTRIAL MAINTENANCE, INC.": 10000.0,
+        "SCOUT 5 CONSTRUCTION LLC": 5002.94
+      }
+    },
+    {
+      "itemCode": "0502 6001",
+      "description": "BARRICADES, SIGNS AND TRAFFIC HANDLING",
+      "unit": "MO",
+      "quantity": 2.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "D & M CONTRACTORS, LLC": 5.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0,
+        "NATIONAL INDUSTRIAL MAINTENANCE, INC.": 1.0,
+        "SCOUT 5 CONSTRUCTION LLC": 0.01
+      }
+    }
+  ]
+}

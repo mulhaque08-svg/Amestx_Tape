@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6391-27-001",
+    "county": "Titus",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639127001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "11/17/21",
+    "engEstTotal": 220560.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "EASTGATE SERVICES",
+      "totalBidAmount": 252761.76
+    },
+    {
+      "rank": 2,
+      "vendorName": "RDA VEGETATION MANAGEMENT LLC",
+      "totalBidAmount": 264304.4
+    },
+    {
+      "rank": 3,
+      "vendorName": "HX FARMS, INC.",
+      "totalBidAmount": 286728.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6060",
+      "description": "FULL - WIDTH MOWING - TRACT (7)",
+      "unit": "AC",
+      "quantity": 7352.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 34.38,
+      "bidders": {
+        "EASTGATE SERVICES": 34.38,
+        "RDA VEGETATION MANAGEMENT LLC": 35.95,
+        "HX FARMS, INC.": 39.0
+      }
+    }
+  ]
+}

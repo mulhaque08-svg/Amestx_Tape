@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "csj": "6459-17-001",
+    "county": "Leon",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645917001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/12/23",
+    "engEstTotal": 265890.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AABA MOWING CONTRACTORS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 188790.05
+    },
+    {
+      "rank": 2,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 213403.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "ORTEGA'S LAWN AND LANDSCAPING, LLC",
+      "totalBidAmount": 258098.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "MARLANE CONSTRUCTION, LLC",
+      "totalBidAmount": 267242.5
+    },
+    {
+      "rank": 5,
+      "vendorName": "SERNA CONTRACTORS, LLC",
+      "totalBidAmount": 280827.05
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6295.0,
+      "engEstUnit": 42.0,
+      "lowUnit": 29.99,
+      "bidders": {
+        "AABA MOWING CONTRACTORS, LIMITED LIABILITY COMPANY": 29.99,
+        "R&M INCORPORATED": 33.9,
+        "ORTEGA'S LAWN AND LANDSCAPING, LLC": 41.0,
+        "MARLANE CONSTRUCTION, LLC": 41.5,
+        "SERNA CONTRACTORS, LLC": 41.99
+      }
+    }
+  ]
+}

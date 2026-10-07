@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6469-12-001",
+    "county": "San Patricio",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646912001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "06/18/24",
+    "engEstTotal": 292500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 342485.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 358605.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 376675.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6078",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 1)",
+      "unit": "TON",
+      "quantity": 6500.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 52.69,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 52.69,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 55.17,
+        "MARTIN MARIETTA MATERIALS, INC.": 57.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6468-86-001",
+    "county": "Ector",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646886001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/13/24",
+    "engEstTotal": 324266.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 565230.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 627299.35
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 7000.0,
+      "lowUnit": 40000.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 40000.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 5000.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 10.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0
+      }
+    }
+  ]
+}

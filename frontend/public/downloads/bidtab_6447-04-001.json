@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6447-04-001",
+    "county": "Smith",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644704001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/02/23",
+    "engEstTotal": 466118.75,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 499797.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "NATIONAL INDUSTRIAL MAINTENANCE, INC.",
+      "totalBidAmount": 705080.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 17000.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 17000.0,
+        "NATIONAL INDUSTRIAL MAINTENANCE, INC.": 50000.0
+      }
+    },
+    {
+      "itemCode": "0712 6008",
+      "description": "JT / CRCK SEAL (RUBBER - ASPHALT)",
+      "unit": "LMI",
+      "quantity": 689.47,
+      "engEstUnit": 625.0,
+      "lowUnit": 700.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 700.0,
+        "NATIONAL INDUSTRIAL MAINTENANCE, INC.": 950.0
+      }
+    },
+    {
+      "itemCode": "7329 6002",
+      "description": "MAINTENANCE SPEED LIMIT SIGNING",
+      "unit": "DAY",
+      "quantity": 42.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 2.0,
+        "NATIONAL INDUSTRIAL MAINTENANCE, INC.": 1.0
+      }
+    }
+  ]
+}

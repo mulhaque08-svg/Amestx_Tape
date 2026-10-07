@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6385-70-001",
+    "county": "Houston",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638570001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "07/22/21",
+    "engEstTotal": 105450.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "A. L. HELMCAMP, INC.",
+      "totalBidAmount": 86760.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "EAST TEXAS ASPHALT CO., LTD.",
+      "totalBidAmount": 96000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 105000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6063",
+      "description": "FL BS (SITE DEL) (TY E GR 2) (SITE 1)",
+      "unit": "TON",
+      "quantity": 3000.0,
+      "engEstUnit": 35.15,
+      "lowUnit": 28.92,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 28.92,
+        "EAST TEXAS ASPHALT CO., LTD.": 32.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 35.0
+      }
+    }
+  ]
+}

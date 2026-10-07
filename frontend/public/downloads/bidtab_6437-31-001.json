@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "csj": "6437-31-001",
+    "county": "Ellis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643731001",
+    "projectType": "REPAIR/REPLACE CONCRETE BARRIER",
+    "letDate": "06/27/23",
+    "engEstTotal": 454700.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "IBCTX, LLC",
+      "totalBidAmount": 451100.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GIBSON & ASSOCIATES, INC.",
+      "totalBidAmount": 768530.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ROY JORGENSEN ASSOCIATES, INC.",
+      "totalBidAmount": 848042.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 1000.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 260.0,
+      "bidders": {
+        "IBCTX, LLC": 260.0,
+        "GIBSON & ASSOCIATES, INC.": 348.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 205.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "IBCTX, LLC": 1500.0,
+        "GIBSON & ASSOCIATES, INC.": 800.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 6000.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1800.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "IBCTX, LLC": 2000.0,
+        "GIBSON & ASSOCIATES, INC.": 1250.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 7500.0
+      }
+    },
+    {
+      "itemCode": "0514 6001",
+      "description": "PERM CTB (SGL SLOPE) (TY 1) (42 )",
+      "unit": "LF",
+      "quantity": 300.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "IBCTX, LLC": 250.0,
+        "GIBSON & ASSOCIATES, INC.": 600.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0514 6013",
+      "description": "PERM CTB (F-SHAPE) (TY 1)",
+      "unit": "LF",
+      "quantity": 150.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "IBCTX, LLC": 250.0,
+        "GIBSON & ASSOCIATES, INC.": 570.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0778 6001",
+      "description": "CONCRETE RAIL REPAIR (IN-KIND)",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "IBCTX, LLC": 250.0,
+        "GIBSON & ASSOCIATES, INC.": 600.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 42.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "IBCTX, LLC": 50.0,
+        "GIBSON & ASSOCIATES, INC.": 140.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 1.0
+      }
+    }
+  ]
+}

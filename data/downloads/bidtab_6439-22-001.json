@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6439-22-001",
+    "county": "Walker",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643922001",
+    "projectType": "MILL AND INLAY",
+    "letDate": "05/05/23",
+    "engEstTotal": 1589070.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.",
+      "totalBidAmount": 1747300.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 1962950.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0354 6064",
+      "description": "PLANE ASPH CONC PAV (2 1/2\")",
+      "unit": "SY",
+      "quantity": 60000.0,
+      "engEstUnit": 3.15,
+      "lowUnit": 2.6,
+      "bidders": {
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 2.6,
+        "TEXAS MATERIALS GROUP, INC.": 2.5
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 500.0,
+        "TEXAS MATERIALS GROUP, INC.": 12400.0
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 2000.0,
+      "engEstUnit": 1.25,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 1.0,
+        "TEXAS MATERIALS GROUP, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "3077 6022",
+      "description": "SP MIXES SP-C SAC-A PG70-22",
+      "unit": "TON",
+      "quantity": 8250.0,
+      "engEstUnit": 165.0,
+      "lowUnit": 190.0,
+      "bidders": {
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 190.0,
+        "TEXAS MATERIALS GROUP, INC.": 215.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 104.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 100.0,
+        "TEXAS MATERIALS GROUP, INC.": 50.0
+      }
+    }
+  ]
+}

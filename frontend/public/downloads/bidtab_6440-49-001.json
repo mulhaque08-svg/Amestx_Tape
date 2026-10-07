@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6440-49-001",
+    "county": "Childress",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644049001",
+    "projectType": "LANDSCAPE MAINTENANCE",
+    "letDate": "06/05/23",
+    "engEstTotal": 51030.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CLAY MORRIS",
+      "totalBidAmount": 53460.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 243.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "CLAY MORRIS": 10.0
+      }
+    },
+    {
+      "itemCode": "0751 6007",
+      "description": "MOWING, TRIMMING, AND EDGING",
+      "unit": "AC",
+      "quantity": 243.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 210.0,
+      "bidders": {
+        "CLAY MORRIS": 210.0
+      }
+    }
+  ]
+}

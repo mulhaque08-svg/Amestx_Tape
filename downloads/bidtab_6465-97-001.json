@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "csj": "6465-97-001",
+    "county": "Jasper",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646597001",
+    "projectType": "FULL DEPTH CONCRETE REPAIR",
+    "letDate": "07/09/24",
+    "engEstTotal": 361075.1,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RHINO EQUITY, LLC",
+      "totalBidAmount": 346300.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 422095.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ISI CONTRACTING, INC.",
+      "totalBidAmount": 441778.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "O. TREVINO CONSTRUCTION, LLC",
+      "totalBidAmount": 499804.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "C. E. BARKER, LTD.",
+      "totalBidAmount": 674482.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0361 6006",
+      "description": "FULL - DEPTH REPAIR CRCP (12\")",
+      "unit": "SY",
+      "quantity": 170.0,
+      "engEstUnit": 525.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 500.0,
+        "ICOS MANAGEMENT, LLC": 770.0,
+        "ISI CONTRACTING, INC.": 728.0,
+        "O. TREVINO CONSTRUCTION, LLC": 1000.0,
+        "C. E. BARKER, LTD.": 824.5
+      }
+    },
+    {
+      "itemCode": "0361 6033",
+      "description": "FULL - DEPTH REPAIR CPCD (8\")",
+      "unit": "SY",
+      "quantity": 184.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 550.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 550.0,
+        "ICOS MANAGEMENT, LLC": 550.0,
+        "ISI CONTRACTING, INC.": 680.0,
+        "O. TREVINO CONSTRUCTION, LLC": 479.0,
+        "C. E. BARKER, LTD.": 1122.0
+      }
+    },
+    {
+      "itemCode": "0361 6047",
+      "description": "FULL - DEPTH REPAIR CPJR (12\")",
+      "unit": "SY",
+      "quantity": 202.0,
+      "engEstUnit": 525.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 600.0,
+        "ICOS MANAGEMENT, LLC": 660.0,
+        "ISI CONTRACTING, INC.": 729.0,
+        "O. TREVINO CONSTRUCTION, LLC": 679.0,
+        "C. E. BARKER, LTD.": 824.5
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 32825.1,
+      "lowUnit": 18000.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 18000.0,
+        "ICOS MANAGEMENT, LLC": 45000.0,
+        "ISI CONTRACTING, INC.": 15000.0,
+        "O. TREVINO CONSTRUCTION, LLC": 48000.0,
+        "C. E. BARKER, LTD.": 60000.0
+      }
+    }
+  ]
+}

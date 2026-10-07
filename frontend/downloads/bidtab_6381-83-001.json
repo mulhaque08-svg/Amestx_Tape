@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6381-83-001",
+    "county": "Victoria",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638183001",
+    "projectType": "HOT MIX",
+    "letDate": "06/07/21",
+    "engEstTotal": 297000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "QUALITY HOT MIX, INC.",
+      "totalBidAmount": 301500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 321570.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CENTURY ASPHALT, LTD.",
+      "totalBidAmount": 355500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6042",
+      "description": "D-GR HMA (SQ)(TY-D PG 64-22 SAC-B)(DEL)",
+      "unit": "TON",
+      "quantity": 4500.0,
+      "engEstUnit": 66.0,
+      "lowUnit": 67.0,
+      "bidders": {
+        "QUALITY HOT MIX, INC.": 67.0,
+        "COLORADO MATERIALS, LTD.": 71.46,
+        "CENTURY ASPHALT, LTD.": 79.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6433-66-001",
+    "county": "Sutton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643366001",
+    "projectType": "PAVEMENT MARKINGS",
+    "letDate": "03/14/23",
+    "engEstTotal": 264791.38,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "L&L COMPANY",
+      "totalBidAmount": 130462.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "PAVEMENT MARKINGS INC.",
+      "totalBidAmount": 157608.58
+    },
+    {
+      "rank": 3,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 195785.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "L&L COMPANY": 1.0,
+        "PAVEMENT MARKINGS INC.": 1000.0,
+        "TRP CONSTRUCTION GROUP, LLC": 6500.0
+      }
+    },
+    {
+      "itemCode": "6056 6002",
+      "description": "PREFORMED CENTERLINE RUMBLE STRIP",
+      "unit": "LF",
+      "quantity": 2293.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 4.0,
+      "bidders": {
+        "L&L COMPANY": 4.0,
+        "PAVEMENT MARKINGS INC.": 3.8,
+        "TRP CONSTRUCTION GROUP, LLC": 6.0
+      }
+    }
+  ]
+}

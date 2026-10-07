@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6372-12-001",
+    "county": "Jefferson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637212001",
+    "projectType": "FLEXIBLE BASE MATERIAL ONLY",
+    "letDate": "01/13/21",
+    "engEstTotal": 18025.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 22050.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 24500.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 30800.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6078",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 1)",
+      "unit": "TON",
+      "quantity": 700.0,
+      "engEstUnit": 25.75,
+      "lowUnit": 31.5,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 31.5,
+        "TEXAS MATERIALS GROUP, INC.": 35.0,
+        "DIGG COMMERCIAL, LLC": 44.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "csj": "6413-25-001",
+    "county": "Ector",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641325001",
+    "projectType": "SWEEPING AND DEBRIS REMOVAL",
+    "letDate": "08/04/22",
+    "engEstTotal": 374934.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "J-MEN CONCRETE CONSTRUCTION",
+      "totalBidAmount": 295686.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DOUBLE A CONTRACTING, L.P.",
+      "totalBidAmount": 498496.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 11000.0,
+      "bidders": {
+        "J-MEN CONCRETE CONSTRUCTION": 11000.0,
+        "DOUBLE A CONTRACTING, L.P.": 3500.0
+      }
+    },
+    {
+      "itemCode": "0738 6002",
+      "description": "CLEANING / SWEEPING (CENTER MEDIAN)",
+      "unit": "MI",
+      "quantity": 118.53,
+      "engEstUnit": 300.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "J-MEN CONCRETE CONSTRUCTION": 200.0,
+        "DOUBLE A CONTRACTING, L.P.": 250.0
+      }
+    },
+    {
+      "itemCode": "0738 6004",
+      "description": "CLEANING / SWEEPING (OUTSIDE MAIN LANE)",
+      "unit": "MI",
+      "quantity": 747.36,
+      "engEstUnit": 300.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "J-MEN CONCRETE CONSTRUCTION": 200.0,
+        "DOUBLE A CONTRACTING, L.P.": 300.0
+      }
+    },
+    {
+      "itemCode": "0738 6006",
+      "description": "CLEANING / SWEEPING (FRONTAGE ROAD)",
+      "unit": "MI",
+      "quantity": 23.85,
+      "engEstUnit": 300.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "J-MEN CONCRETE CONSTRUCTION": 200.0,
+        "DOUBLE A CONTRACTING, L.P.": 400.0
+      }
+    },
+    {
+      "itemCode": "0738 6008",
+      "description": "CLEANING / SWEEPING(ENTRANCE/EXIT RAMP)",
+      "unit": "MI",
+      "quantity": 50.04,
+      "engEstUnit": 300.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "J-MEN CONCRETE CONSTRUCTION": 200.0,
+        "DOUBLE A CONTRACTING, L.P.": 400.0
+      }
+    },
+    {
+      "itemCode": "0738 6010",
+      "description": "CLEANING / SWEEPING (SPOT)",
+      "unit": "MI",
+      "quantity": 90.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "J-MEN CONCRETE CONSTRUCTION": 20.0,
+        "DOUBLE A CONTRACTING, L.P.": 500.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6443-74-001",
+    "county": "Bell",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 644374001",
+    "projectType": "HOT MIX",
+    "letDate": "08/02/23",
+    "engEstTotal": 1390000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 1339500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BIG CREEK CONSTRUCTION, LTD.",
+      "totalBidAmount": 1356000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 72.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 72.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 69.0
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 10500.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 87.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 87.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 90.0
+      }
+    },
+    {
+      "itemCode": "8011 6014",
+      "description": "D-GR HMA(SQ)TY B PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 3000.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 66.75,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 66.75,
+        "BIG CREEK CONSTRUCTION, LTD.": 63.0
+      }
+    },
+    {
+      "itemCode": "8011 6015",
+      "description": "D-GR HMA(SQ)TY B PG 64-22(DELIVERY)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 81.75,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 81.75,
+        "BIG CREEK CONSTRUCTION, LTD.": 84.0
+      }
+    }
+  ]
+}

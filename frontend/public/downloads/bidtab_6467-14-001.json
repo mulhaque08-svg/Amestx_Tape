@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6467-14-001",
+    "county": "Johnson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646714001",
+    "projectType": "AGGREGATE",
+    "letDate": "05/16/24",
+    "engEstTotal": 144240.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 170000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 190700.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6085",
+      "description": "AGGR (TY B GR 3) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 72.12,
+      "lowUnit": 85.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 85.0,
+        "MARTIN MARIETTA MATERIALS, INC.": 95.35
+      }
+    }
+  ]
+}

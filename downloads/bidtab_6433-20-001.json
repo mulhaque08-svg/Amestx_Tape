@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6433-20-001",
+    "county": "Victoria",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 643320001",
+    "projectType": "LIME",
+    "letDate": "04/13/23",
+    "engEstTotal": 20475.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 20475.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TUFFTEX MATERIALS",
+      "totalBidAmount": 39926.25
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8017 6005",
+      "description": "LIME (HYD) (DRY) (SITE 1)",
+      "unit": "BAG",
+      "quantity": 525.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 13.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 13.0,
+        "TUFFTEX MATERIALS": 25.35
+      }
+    },
+    {
+      "itemCode": "8017 6006",
+      "description": "LIME (HYD) (DRY) (SITE 2)",
+      "unit": "BAG",
+      "quantity": 525.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 13.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 13.0,
+        "TUFFTEX MATERIALS": 25.35
+      }
+    },
+    {
+      "itemCode": "8017 6007",
+      "description": "LIME (HYD) (DRY) (SITE 3)",
+      "unit": "BAG",
+      "quantity": 525.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 13.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 13.0,
+        "TUFFTEX MATERIALS": 25.35
+      }
+    }
+  ]
+}

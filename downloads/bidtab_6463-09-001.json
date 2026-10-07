@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6463-09-001",
+    "county": "Jefferson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646309001",
+    "projectType": "CULVERT CLEANING",
+    "letDate": "07/09/24",
+    "engEstTotal": 334825.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "HAZMAT INTERNATIONAL, INC.",
+      "totalBidAmount": 397690.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "C. E. BARKER, LTD.",
+      "totalBidAmount": 579600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0480 6001",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "EA",
+      "quantity": 63.0,
+      "engEstUnit": 4250.0,
+      "lowUnit": 4500.0,
+      "bidders": {
+        "HAZMAT INTERNATIONAL, INC.": 4500.0,
+        "C. E. BARKER, LTD.": 3900.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 70000.0,
+      "bidders": {
+        "HAZMAT INTERNATIONAL, INC.": 70000.0,
+        "C. E. BARKER, LTD.": 27000.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 880.0,
+      "bidders": {
+        "HAZMAT INTERNATIONAL, INC.": 880.0,
+        "C. E. BARKER, LTD.": 4800.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 63.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "HAZMAT INTERNATIONAL, INC.": 100.0,
+        "C. E. BARKER, LTD.": 2500.0
+      }
+    }
+  ]
+}

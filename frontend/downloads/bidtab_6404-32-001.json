@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6404-32-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 640432001",
+    "projectType": "AGGREGATE",
+    "letDate": "06/07/22",
+    "engEstTotal": 66500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 70000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "NSG LOGISTICS, LLC",
+      "totalBidAmount": 71750.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "RK HALL, LLC",
+      "totalBidAmount": 73750.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6099",
+      "description": "AGGR (TY B GR 4) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 66.5,
+      "lowUnit": 70.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 70.0,
+        "NSG LOGISTICS, LLC": 71.75,
+        "RK HALL, LLC": 73.75
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6460-87-001",
+    "county": "Hunt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646087001",
+    "projectType": "DITCH CLEANING AND RESHAPING",
+    "letDate": "07/10/24",
+    "engEstTotal": 437900.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RHINO EQUITY, LLC",
+      "totalBidAmount": 370506.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 445600.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CATOCON, INC.",
+      "totalBidAmount": 557800.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "AAD CONTRACTING INC.",
+      "totalBidAmount": 1791500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0480 6001",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "EA",
+      "quantity": 200.0,
+      "engEstUnit": 222.0,
+      "lowUnit": 215.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 215.0,
+        "TEXAS DRAINAGE INC.": 225.0,
+        "CATOCON, INC.": 100.0,
+        "AAD CONTRACTING INC.": 1800.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 1.0,
+        "TEXAS DRAINAGE INC.": 100.0,
+        "CATOCON, INC.": 50.0,
+        "AAD CONTRACTING INC.": 6500.0
+      }
+    },
+    {
+      "itemCode": "0760 6001",
+      "description": "DITCH CLEANING AND RESHAPING (FOOT)",
+      "unit": "LF",
+      "quantity": 250000.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.3,
+      "bidders": {
+        "RHINO EQUITY, LLC": 1.3,
+        "TEXAS DRAINAGE INC.": 1.58,
+        "CATOCON, INC.": 1.85,
+        "AAD CONTRACTING INC.": 5.5
+      }
+    }
+  ]
+}

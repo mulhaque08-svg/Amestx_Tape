@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6423-62-001",
+    "county": "Hunt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642362001",
+    "projectType": "POTHOLE REPAIR",
+    "letDate": "02/16/23",
+    "engEstTotal": 115200.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MORTON ENTERPRISE",
+      "totalBidAmount": 139056.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1900.0,
+      "bidders": {
+        "MORTON ENTERPRISE": 1900.0
+      }
+    },
+    {
+      "itemCode": "0700 6003",
+      "description": "POTHOLE REPAIR (STANDARD)",
+      "unit": "TON",
+      "quantity": 240.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 219.0,
+      "bidders": {
+        "MORTON ENTERPRISE": 219.0
+      }
+    }
+  ]
+}

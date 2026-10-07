@@ -1,0 +1,778 @@
+{
+  "metadata": {
+    "csj": "0178-01-042",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "STP 2023(893)HES",
+    "projectType": "HAZARD ELIMINATION & SAFETY",
+    "letDate": "06/28/23",
+    "engEstTotal": 977849.42,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRAF-TEX, INC.",
+      "totalBidAmount": 985519.7
+    },
+    {
+      "rank": 2,
+      "vendorName": "THIRD COAST SERVICES LLC",
+      "totalBidAmount": 989884.66
+    },
+    {
+      "rank": 3,
+      "vendorName": "FLORIDA TRAFFIC CONTROL DEVICES, INC.",
+      "totalBidAmount": 1157576.63
+    },
+    {
+      "rank": 4,
+      "vendorName": "STATEWIDE TRAFFIC SIGNAL COMPANY",
+      "totalBidAmount": 1250276.27
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6036",
+      "description": "REMOVING CONC (SIDEWALK OR RAMP)",
+      "unit": "SY",
+      "quantity": 101.0,
+      "engEstUnit": 14.99,
+      "lowUnit": 135.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 135.0,
+        "THIRD COAST SERVICES LLC": 110.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 121.03,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 50.0
+      }
+    },
+    {
+      "itemCode": "0416 6032",
+      "description": "DRILL SHAFT (TRF SIG POLE) (36 IN)",
+      "unit": "LF",
+      "quantity": 98.0,
+      "engEstUnit": 223.59,
+      "lowUnit": 273.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 273.0,
+        "THIRD COAST SERVICES LLC": 300.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 447.85,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 340.0
+      }
+    },
+    {
+      "itemCode": "0416 6034",
+      "description": "DRILL SHAFT (TRF SIG POLE) (48 IN)",
+      "unit": "LF",
+      "quantity": 110.0,
+      "engEstUnit": 348.44,
+      "lowUnit": 467.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 467.0,
+        "THIRD COAST SERVICES LLC": 360.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 618.45,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 450.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 82487.9,
+      "lowUnit": 28500.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 28500.0,
+        "THIRD COAST SERVICES LLC": 98000.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 92117.03,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 50400.0
+      }
+    },
+    {
+      "itemCode": "0529 6011",
+      "description": "CONC CURB (DOWEL)",
+      "unit": "LF",
+      "quantity": 18.0,
+      "engEstUnit": 19.38,
+      "lowUnit": 35.15,
+      "bidders": {
+        "TRAF-TEX, INC.": 35.15,
+        "THIRD COAST SERVICES LLC": 54.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 242.05,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 40.0
+      }
+    },
+    {
+      "itemCode": "0531 6001",
+      "description": "CONC SIDEWALKS (4\")",
+      "unit": "SY",
+      "quantity": 35.0,
+      "engEstUnit": 88.33,
+      "lowUnit": 92.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 92.0,
+        "THIRD COAST SERVICES LLC": 162.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 484.11,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 150.0
+      }
+    },
+    {
+      "itemCode": "0531 6004",
+      "description": "CURB RAMPS (TY 1)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 2652.33,
+      "lowUnit": 1956.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 1956.0,
+        "THIRD COAST SERVICES LLC": 6480.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 5446.22,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 3600.0
+      }
+    },
+    {
+      "itemCode": "0531 6008",
+      "description": "CURB RAMPS (TY 5)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 3480.12,
+      "lowUnit": 2554.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 2554.0,
+        "THIRD COAST SERVICES LLC": 6480.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 5446.22,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 6700.0
+      }
+    },
+    {
+      "itemCode": "0618 6046",
+      "description": "CONDT (PVC) (SCH 80) (2\")",
+      "unit": "LF",
+      "quantity": 2550.0,
+      "engEstUnit": 10.08,
+      "lowUnit": 15.92,
+      "bidders": {
+        "TRAF-TEX, INC.": 15.92,
+        "THIRD COAST SERVICES LLC": 10.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 18.42,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 25.0
+      }
+    },
+    {
+      "itemCode": "0618 6047",
+      "description": "CONDT (PVC) (SCH 80) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 210.0,
+      "engEstUnit": 14.98,
+      "lowUnit": 20.15,
+      "bidders": {
+        "TRAF-TEX, INC.": 20.15,
+        "THIRD COAST SERVICES LLC": 20.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 22.69,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 25.0
+      }
+    },
+    {
+      "itemCode": "0618 6053",
+      "description": "CONDT (PVC) (SCH 80) (3\")",
+      "unit": "LF",
+      "quantity": 720.0,
+      "engEstUnit": 20.76,
+      "lowUnit": 24.16,
+      "bidders": {
+        "TRAF-TEX, INC.": 24.16,
+        "THIRD COAST SERVICES LLC": 13.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 24.11,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 40.0
+      }
+    },
+    {
+      "itemCode": "0618 6054",
+      "description": "CONDT (PVC) (SCH 80) (3\") (BORE)",
+      "unit": "LF",
+      "quantity": 560.0,
+      "engEstUnit": 19.15,
+      "lowUnit": 24.94,
+      "bidders": {
+        "TRAF-TEX, INC.": 24.94,
+        "THIRD COAST SERVICES LLC": 23.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 25.58,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 40.0
+      }
+    },
+    {
+      "itemCode": "0618 6058",
+      "description": "CONDT (PVC) (SCH 80) (4\")",
+      "unit": "LF",
+      "quantity": 420.0,
+      "engEstUnit": 29.14,
+      "lowUnit": 21.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 21.0,
+        "THIRD COAST SERVICES LLC": 19.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 24.88,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 65.0
+      }
+    },
+    {
+      "itemCode": "0618 6059",
+      "description": "CONDT (PVC) (SCH 80) (4\") (BORE)",
+      "unit": "LF",
+      "quantity": 210.0,
+      "engEstUnit": 33.15,
+      "lowUnit": 30.64,
+      "bidders": {
+        "TRAF-TEX, INC.": 30.64,
+        "THIRD COAST SERVICES LLC": 27.5,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 32.52,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 65.0
+      }
+    },
+    {
+      "itemCode": "0620 6009",
+      "description": "ELEC CONDR (NO.6) BARE",
+      "unit": "LF",
+      "quantity": 3750.0,
+      "engEstUnit": 1.89,
+      "lowUnit": 1.54,
+      "bidders": {
+        "TRAF-TEX, INC.": 1.54,
+        "THIRD COAST SERVICES LLC": 1.8,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1.53,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1.62
+      }
+    },
+    {
+      "itemCode": "0620 6011",
+      "description": "ELEC CONDR (NO.4) BARE",
+      "unit": "LF",
+      "quantity": 490.0,
+      "engEstUnit": 2.7,
+      "lowUnit": 2.3,
+      "bidders": {
+        "TRAF-TEX, INC.": 2.3,
+        "THIRD COAST SERVICES LLC": 2.4,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 2.19,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 2.17
+      }
+    },
+    {
+      "itemCode": "0620 6012",
+      "description": "ELEC CONDR (NO.4) INSULATED",
+      "unit": "LF",
+      "quantity": 975.0,
+      "engEstUnit": 3.02,
+      "lowUnit": 2.6,
+      "bidders": {
+        "TRAF-TEX, INC.": 2.6,
+        "THIRD COAST SERVICES LLC": 2.5,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 2.43,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 2.47
+      }
+    },
+    {
+      "itemCode": "0621 6005",
+      "description": "TRAY CABLE (4 CONDR) (12 AWG)",
+      "unit": "LF",
+      "quantity": 2940.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 3.55,
+      "bidders": {
+        "TRAF-TEX, INC.": 3.55,
+        "THIRD COAST SERVICES LLC": 3.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 2.45,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 2.72
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 34.0,
+      "engEstUnit": 1202.14,
+      "lowUnit": 1012.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 1012.0,
+        "THIRD COAST SERVICES LLC": 985.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1307.6,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 5200.0
+      }
+    },
+    {
+      "itemCode": "0628 6145",
+      "description": "ELC SRV TY D 120/240 060(NS)SS(E)SP(O)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 5925.77,
+      "lowUnit": 6487.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 6487.0,
+        "THIRD COAST SERVICES LLC": 5495.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 6343.77,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 6120.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 666.67,
+      "lowUnit": 971.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 971.0,
+        "THIRD COAST SERVICES LLC": 1100.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1762.12,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1800.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 7.52,
+      "lowUnit": 11.11,
+      "bidders": {
+        "TRAF-TEX, INC.": 11.11,
+        "THIRD COAST SERVICES LLC": 11.4,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 12.1,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 15.0
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 5.68,
+      "lowUnit": 11.11,
+      "bidders": {
+        "TRAF-TEX, INC.": 11.11,
+        "THIRD COAST SERVICES LLC": 11.4,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 12.1,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 15.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 1840.0,
+      "engEstUnit": 0.45,
+      "lowUnit": 0.61,
+      "bidders": {
+        "TRAF-TEX, INC.": 0.61,
+        "THIRD COAST SERVICES LLC": 0.62,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 0.67,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 0.6
+      }
+    },
+    {
+      "itemCode": "0677 6002",
+      "description": "ELIM EXT PAV MRK & MRKS (6\")",
+      "unit": "LF",
+      "quantity": 3220.0,
+      "engEstUnit": 0.34,
+      "lowUnit": 0.83,
+      "bidders": {
+        "TRAF-TEX, INC.": 0.83,
+        "THIRD COAST SERVICES LLC": 0.86,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 0.91,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 0.8
+      }
+    },
+    {
+      "itemCode": "0677 6005",
+      "description": "ELIM EXT PAV MRK & MRKS (12\")",
+      "unit": "LF",
+      "quantity": 750.0,
+      "engEstUnit": 1.68,
+      "lowUnit": 1.72,
+      "bidders": {
+        "TRAF-TEX, INC.": 1.72,
+        "THIRD COAST SERVICES LLC": 1.76,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1.88,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1.75
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 322.0,
+      "engEstUnit": 2.8,
+      "lowUnit": 1.72,
+      "bidders": {
+        "TRAF-TEX, INC.": 1.72,
+        "THIRD COAST SERVICES LLC": 3.45,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 3.63,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 4.0
+      }
+    },
+    {
+      "itemCode": "0678 6034",
+      "description": "PAV SURF PREP FOR MRK (BLAST CLN)(4\")",
+      "unit": "LF",
+      "quantity": 1840.0,
+      "engEstUnit": 0.07,
+      "lowUnit": 0.1,
+      "bidders": {
+        "TRAF-TEX, INC.": 0.1,
+        "THIRD COAST SERVICES LLC": 0.01,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 0.01,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 0.02
+      }
+    },
+    {
+      "itemCode": "0678 6035",
+      "description": "PAV SURF PREP FOR MRK (BLAST CLN)(6\")",
+      "unit": "LF",
+      "quantity": 3220.0,
+      "engEstUnit": 0.27,
+      "lowUnit": 0.1,
+      "bidders": {
+        "TRAF-TEX, INC.": 0.1,
+        "THIRD COAST SERVICES LLC": 0.01,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 0.01,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 0.02
+      }
+    },
+    {
+      "itemCode": "0678 6038",
+      "description": "PAV SURF PREP FOR MRK (BLAST CLN)(24\")",
+      "unit": "LF",
+      "quantity": 861.0,
+      "engEstUnit": 3.33,
+      "lowUnit": 0.1,
+      "bidders": {
+        "TRAF-TEX, INC.": 0.1,
+        "THIRD COAST SERVICES LLC": 0.01,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 0.01,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 0.02
+      }
+    },
+    {
+      "itemCode": "0682 6001",
+      "description": "VEH SIG SEC (12\")LED(GRN)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 234.01,
+      "lowUnit": 224.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 224.0,
+        "THIRD COAST SERVICES LLC": 200.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 258.16,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 650.0
+      }
+    },
+    {
+      "itemCode": "0682 6002",
+      "description": "VEH SIG SEC (12\")LED(GRN ARW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 224.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 224.0,
+        "THIRD COAST SERVICES LLC": 200.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 258.16,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 650.0
+      }
+    },
+    {
+      "itemCode": "0682 6003",
+      "description": "VEH SIG SEC (12\")LED(YEL)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 229.31,
+      "lowUnit": 224.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 224.0,
+        "THIRD COAST SERVICES LLC": 200.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 258.16,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 650.0
+      }
+    },
+    {
+      "itemCode": "0682 6004",
+      "description": "VEH SIG SEC (12\")LED(YEL ARW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 224.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 224.0,
+        "THIRD COAST SERVICES LLC": 200.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 258.16,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 650.0
+      }
+    },
+    {
+      "itemCode": "0682 6005",
+      "description": "VEH SIG SEC (12\")LED(RED)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 235.0,
+      "lowUnit": 224.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 224.0,
+        "THIRD COAST SERVICES LLC": 200.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 258.16,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 650.0
+      }
+    },
+    {
+      "itemCode": "0682 6006",
+      "description": "VEH SIG SEC (12\")LED(RED ARW)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 236.83,
+      "lowUnit": 224.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 224.0,
+        "THIRD COAST SERVICES LLC": 200.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 258.16,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 650.0
+      }
+    },
+    {
+      "itemCode": "0682 6018",
+      "description": "PED SIG SEC (LED)(COUNTDOWN)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 598.15,
+      "lowUnit": 576.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 576.0,
+        "THIRD COAST SERVICES LLC": 700.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 681.71,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1000.0
+      }
+    },
+    {
+      "itemCode": "0682 6021",
+      "description": "BACK PLATE (12\")(1 SEC)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 111.23,
+      "lowUnit": 118.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 118.0,
+        "THIRD COAST SERVICES LLC": 100.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 110.93,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 100.0
+      }
+    },
+    {
+      "itemCode": "0682 6047",
+      "description": "LOUVER (12\") (ADJUSTABLE)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 365.44,
+      "lowUnit": 462.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 462.0,
+        "THIRD COAST SERVICES LLC": 325.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 195.65,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 275.0
+      }
+    },
+    {
+      "itemCode": "0682 6054",
+      "description": "BACKPLATE W/REF BRDR(3 SEC)(VENT)ALUM",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 131.61,
+      "lowUnit": 177.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 177.0,
+        "THIRD COAST SERVICES LLC": 130.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 151.46,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 400.0
+      }
+    },
+    {
+      "itemCode": "0682 6055",
+      "description": "BACKPLATE W/REF BRDR(4 SEC)(VENT)ALUM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 161.0,
+      "lowUnit": 203.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 203.0,
+        "THIRD COAST SERVICES LLC": 155.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 187.77,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 800.0
+      }
+    },
+    {
+      "itemCode": "0684 6012",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(7 CONDR)",
+      "unit": "LF",
+      "quantity": 1155.0,
+      "engEstUnit": 3.14,
+      "lowUnit": 3.27,
+      "bidders": {
+        "TRAF-TEX, INC.": 3.27,
+        "THIRD COAST SERVICES LLC": 3.4,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 3.24,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 3.0
+      }
+    },
+    {
+      "itemCode": "0684 6029",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(3 CONDR)",
+      "unit": "LF",
+      "quantity": 5020.0,
+      "engEstUnit": 1.84,
+      "lowUnit": 1.38,
+      "bidders": {
+        "TRAF-TEX, INC.": 1.38,
+        "THIRD COAST SERVICES LLC": 1.6,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1.46,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1.8
+      }
+    },
+    {
+      "itemCode": "0684 6031",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(5 CONDR)",
+      "unit": "LF",
+      "quantity": 5105.0,
+      "engEstUnit": 2.8,
+      "lowUnit": 2.62,
+      "bidders": {
+        "TRAF-TEX, INC.": 2.62,
+        "THIRD COAST SERVICES LLC": 2.6,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 2.48,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 2.4
+      }
+    },
+    {
+      "itemCode": "0684 6033",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(7 CONDR)",
+      "unit": "LF",
+      "quantity": 8260.0,
+      "engEstUnit": 3.11,
+      "lowUnit": 2.96,
+      "bidders": {
+        "TRAF-TEX, INC.": 2.96,
+        "THIRD COAST SERVICES LLC": 2.8,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 2.98,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 3.0
+      }
+    },
+    {
+      "itemCode": "0684 6080",
+      "description": "TRF SIG CBL (TY C)(14 AWG)(2 CONDR)",
+      "unit": "LF",
+      "quantity": 19815.0,
+      "engEstUnit": 1.85,
+      "lowUnit": 1.35,
+      "bidders": {
+        "TRAF-TEX, INC.": 1.35,
+        "THIRD COAST SERVICES LLC": 1.5,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1.45,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1.5
+      }
+    },
+    {
+      "itemCode": "0687 6001",
+      "description": "PED POLE ASSEMBLY",
+      "unit": "EA",
+      "quantity": 13.0,
+      "engEstUnit": 1910.51,
+      "lowUnit": 2455.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 2455.0,
+        "THIRD COAST SERVICES LLC": 1800.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 3347.9,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 2500.0
+      }
+    },
+    {
+      "itemCode": "0688 6001",
+      "description": "PED DETECT PUSH BUTTON (APS)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 796.63,
+      "lowUnit": 936.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 936.0,
+        "THIRD COAST SERVICES LLC": 830.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 822.83,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1500.0
+      }
+    },
+    {
+      "itemCode": "0688 6003",
+      "description": "PED DETECTOR CONTROLLER UNIT",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 2529.66,
+      "lowUnit": 2103.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 2103.0,
+        "THIRD COAST SERVICES LLC": 3000.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 3262.34,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 500.0
+      }
+    },
+    {
+      "itemCode": "0688 6004",
+      "description": "VEH LP DETECT (SAWCUT)",
+      "unit": "LF",
+      "quantity": 3075.0,
+      "engEstUnit": 11.44,
+      "lowUnit": 17.98,
+      "bidders": {
+        "TRAF-TEX, INC.": 17.98,
+        "THIRD COAST SERVICES LLC": 9.85,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 22.15,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 14.5
+      }
+    },
+    {
+      "itemCode": "6038 6005",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(BRK)",
+      "unit": "LF",
+      "quantity": 440.0,
+      "engEstUnit": 0.67,
+      "lowUnit": 6.11,
+      "bidders": {
+        "TRAF-TEX, INC.": 6.11,
+        "THIRD COAST SERVICES LLC": 6.27,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 6.66,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 6.0
+      }
+    },
+    {
+      "itemCode": "6038 6013",
+      "description": "MULTIPOLYMER PAV MRK (W)(24\")(SLD)",
+      "unit": "LF",
+      "quantity": 825.0,
+      "engEstUnit": 6.04,
+      "lowUnit": 16.67,
+      "bidders": {
+        "TRAF-TEX, INC.": 16.67,
+        "THIRD COAST SERVICES LLC": 17.1,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 18.15,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 17.0
+      }
+    },
+    {
+      "itemCode": "6058 6001",
+      "description": "BBU SYSTEM (EXTERNAL BATT CABINET)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 7788.2,
+      "lowUnit": 9008.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 9008.0,
+        "THIRD COAST SERVICES LLC": 7500.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 7766.01,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 7000.0
+      }
+    }
+  ]
+}

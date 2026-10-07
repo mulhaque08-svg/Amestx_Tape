@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6466-99-001",
+    "county": "San Patricio",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646699001",
+    "projectType": "AGGREGATE",
+    "letDate": "05/21/24",
+    "engEstTotal": 259200.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 238500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 252837.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 256500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6240",
+      "description": "AGGR (TY PB GR 4) (DEL) (ST2)",
+      "unit": "TON",
+      "quantity": 900.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 91.7,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 91.7,
+        "MARTIN MARIETTA MATERIALS, INC.": 96.55,
+        "BRAUNTEX MATERIALS, INC.": 95.0
+      }
+    },
+    {
+      "itemCode": "8039 6241",
+      "description": "AGGR (TY PB GR 4) (DEL) (ST3)",
+      "unit": "TON",
+      "quantity": 900.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 86.2,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 86.2,
+        "MARTIN MARIETTA MATERIALS, INC.": 90.7,
+        "BRAUNTEX MATERIALS, INC.": 95.0
+      }
+    },
+    {
+      "itemCode": "8039 6521",
+      "description": "AGGR (TY PB GR 3S) (DELIVERY) (ST 1)",
+      "unit": "TON",
+      "quantity": 900.0,
+      "engEstUnit": 98.0,
+      "lowUnit": 87.1,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 87.1,
+        "MARTIN MARIETTA MATERIALS, INC.": 93.68,
+        "BRAUNTEX MATERIALS, INC.": 95.0
+      }
+    }
+  ]
+}

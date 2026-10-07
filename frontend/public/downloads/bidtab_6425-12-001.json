@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6425-12-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642512001",
+    "projectType": "REFLECTORIZED PAVEMENT MARKINGS & MARKERS",
+    "letDate": "02/09/23",
+    "engEstTotal": 284800.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BRYDL CONTRACTING, LLC",
+      "totalBidAmount": 310413.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 497289.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 32000.0,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 32000.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 1200.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.5,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 4.5,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 10.0
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 60650.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 4.5,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 4.5,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 8.0
+      }
+    }
+  ]
+}

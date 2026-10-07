@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6459-65-001",
+    "county": "Lamar",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645965001",
+    "projectType": "ILLUMINATION MAINTENANCE",
+    "letDate": "03/05/24",
+    "engEstTotal": 426180.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "VACA UNDERGROUND UTILITIES INC",
+      "totalBidAmount": 354775.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION",
+      "totalBidAmount": 405750.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "YUNEX LLC",
+      "totalBidAmount": 432667.4
+    },
+    {
+      "rank": 4,
+      "vendorName": "AMERICAN LIGHTING AND SIGNALIZATION, LLC",
+      "totalBidAmount": 455807.94
+    },
+    {
+      "rank": 5,
+      "vendorName": "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, LLC",
+      "totalBidAmount": 528369.38
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 37380.0,
+      "lowUnit": 30000.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 30000.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 15000.0,
+        "YUNEX LLC": 41156.1,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 27325.0,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, LLC": 55499.38
+      }
+    },
+    {
+      "itemCode": "6156 6007",
+      "description": "REPLC LED HI MST IL(6 FIXT)(ASYM)(TY B)",
+      "unit": "EA",
+      "quantity": 35.0,
+      "engEstUnit": 10500.0,
+      "lowUnit": 9000.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 9000.0,
+        "NORTH TEXAS TRAFFIC SYSTEMS CONSTRUCTION": 10800.0,
+        "YUNEX LLC": 11009.6,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 11888.62,
+        "HIGHWAY INTELLIGENT TRAFFIC SOLUTIONS, LLC": 12681.25
+      }
+    }
+  ]
+}

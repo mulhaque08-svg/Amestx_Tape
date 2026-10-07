@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6423-32-001",
+    "county": "Medina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642332001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "01/06/23",
+    "engEstTotal": 861050.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "USA DT SERVICES, INC.",
+      "totalBidAmount": 771863.3
+    },
+    {
+      "rank": 2,
+      "vendorName": "BK FIELD OPERATIONS LLC",
+      "totalBidAmount": 780887.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 1113251.3
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "USA DT SERVICES, INC.": 0.01,
+        "BK FIELD OPERATIONS LLC": 0.1,
+        "R&M INCORPORATED": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 19794.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 35.45,
+      "bidders": {
+        "USA DT SERVICES, INC.": 35.45,
+        "BK FIELD OPERATIONS LLC": 36.0,
+        "R&M INCORPORATED": 51.45
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 150.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "USA DT SERVICES, INC.": 45.0,
+        "BK FIELD OPERATIONS LLC": 1.0,
+        "R&M INCORPORATED": 1.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 3786.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 16.75,
+      "bidders": {
+        "USA DT SERVICES, INC.": 16.75,
+        "BK FIELD OPERATIONS LLC": 18.0,
+        "R&M INCORPORATED": 25.0
+      }
+    }
+  ]
+}

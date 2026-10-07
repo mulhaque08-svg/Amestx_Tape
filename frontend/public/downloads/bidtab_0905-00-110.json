@@ -1,0 +1,666 @@
+{
+  "metadata": {
+    "csj": "0905-00-110",
+    "county": "Lubbock",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 905-00-110",
+    "projectType": "CONSTRUCT RAMPS",
+    "letDate": "06/04/21",
+    "engEstTotal": 4588697.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TI-ZACK CONCRETE, INC.",
+      "totalBidAmount": 4034018.84
+    },
+    {
+      "rank": 2,
+      "vendorName": "O. TREVINO CONSTRUCTION, LLC",
+      "totalBidAmount": 4837441.05
+    },
+    {
+      "rank": 3,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 4863138.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "ENCINO LANDSCAPE, INC.",
+      "totalBidAmount": 5655489.1
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6017",
+      "description": "REMOVING CONC (DRIVEWAYS)",
+      "unit": "SY",
+      "quantity": 6520.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 15.0,
+        "O. TREVINO CONSTRUCTION, LLC": 20.0,
+        "FNH CONSTRUCTION, LLC": 20.0,
+        "ENCINO LANDSCAPE, INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "0104 6029",
+      "description": "REMOVING CONC (CURB OR CURB & GUTTER)",
+      "unit": "LF",
+      "quantity": 1405.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 15.0,
+        "O. TREVINO CONSTRUCTION, LLC": 20.0,
+        "FNH CONSTRUCTION, LLC": 20.0,
+        "ENCINO LANDSCAPE, INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "0104 6036",
+      "description": "REMOVING CONC (SIDEWALK OR RAMP)",
+      "unit": "SY",
+      "quantity": 1936.0,
+      "engEstUnit": 26.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 15.0,
+        "O. TREVINO CONSTRUCTION, LLC": 20.0,
+        "FNH CONSTRUCTION, LLC": 20.0,
+        "ENCINO LANDSCAPE, INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "0105 6043",
+      "description": "REMOVING STAB BASE & ASPH PAV (0-6\")",
+      "unit": "SY",
+      "quantity": 640.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 15.0,
+        "O. TREVINO CONSTRUCTION, LLC": 20.0,
+        "FNH CONSTRUCTION, LLC": 20.0,
+        "ENCINO LANDSCAPE, INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "0160 6003",
+      "description": "FURNISHING AND PLACING TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 17844.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 3.0,
+        "O. TREVINO CONSTRUCTION, LLC": 2.5,
+        "FNH CONSTRUCTION, LLC": 8.0,
+        "ENCINO LANDSCAPE, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0162 6002",
+      "description": "BLOCK SODDING",
+      "unit": "SY",
+      "quantity": 17844.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 4.0,
+        "O. TREVINO CONSTRUCTION, LLC": 6.7,
+        "FNH CONSTRUCTION, LLC": 6.0,
+        "ENCINO LANDSCAPE, INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "0164 6051",
+      "description": "DRILL SEED (TEMP)(WARM OR COOL)",
+      "unit": "SY",
+      "quantity": 17844.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 1.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 1.0,
+        "O. TREVINO CONSTRUCTION, LLC": 0.2,
+        "FNH CONSTRUCTION, LLC": 1.0,
+        "ENCINO LANDSCAPE, INC.": 0.15
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 521.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 1.0,
+        "O. TREVINO CONSTRUCTION, LLC": 45.0,
+        "FNH CONSTRUCTION, LLC": 50.0,
+        "ENCINO LANDSCAPE, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0334 6080",
+      "description": "HMCL ACP TY-D AC-1.5",
+      "unit": "TON",
+      "quantity": 86.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 200.0,
+        "O. TREVINO CONSTRUCTION, LLC": 215.0,
+        "FNH CONSTRUCTION, LLC": 500.0,
+        "ENCINO LANDSCAPE, INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "0423 6008",
+      "description": "RETAINING WALL (CAST - IN - PLACE)",
+      "unit": "SF",
+      "quantity": 24.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 80.0,
+        "O. TREVINO CONSTRUCTION, LLC": 100.0,
+        "FNH CONSTRUCTION, LLC": 85.0,
+        "ENCINO LANDSCAPE, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0450 6048",
+      "description": "RAIL (HANDRAIL)(TY B)",
+      "unit": "LF",
+      "quantity": 59.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 125.0,
+        "O. TREVINO CONSTRUCTION, LLC": 160.0,
+        "FNH CONSTRUCTION, LLC": 185.0,
+        "ENCINO LANDSCAPE, INC.": 150.0
+      }
+    },
+    {
+      "itemCode": "0467 6377",
+      "description": "SET (TY II) (24 IN) (CMP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 2800.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 2800.0,
+        "O. TREVINO CONSTRUCTION, LLC": 5900.0,
+        "FNH CONSTRUCTION, LLC": 2000.0,
+        "ENCINO LANDSCAPE, INC.": 1400.0
+      }
+    },
+    {
+      "itemCode": "0496 6004",
+      "description": "REMOV STR (SET)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 500.0,
+        "O. TREVINO CONSTRUCTION, LLC": 650.0,
+        "FNH CONSTRUCTION, LLC": 500.0,
+        "ENCINO LANDSCAPE, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0496 6043",
+      "description": "REMOV STR (SMALL FENCE)",
+      "unit": "LF",
+      "quantity": 97.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 12.0,
+        "O. TREVINO CONSTRUCTION, LLC": 10.0,
+        "FNH CONSTRUCTION, LLC": 5.0,
+        "ENCINO LANDSCAPE, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 415000.0,
+      "lowUnit": 275000.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 275000.0,
+        "O. TREVINO CONSTRUCTION, LLC": 480000.0,
+        "FNH CONSTRUCTION, LLC": 500000.0,
+        "ENCINO LANDSCAPE, INC.": 500000.0
+      }
+    },
+    {
+      "itemCode": "0529 6008",
+      "description": "CONC CURB & GUTTER (TY II)",
+      "unit": "LF",
+      "quantity": 1920.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 40.0,
+        "O. TREVINO CONSTRUCTION, LLC": 50.0,
+        "FNH CONSTRUCTION, LLC": 55.0,
+        "ENCINO LANDSCAPE, INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0530 6004",
+      "description": "DRIVEWAYS (CONC)",
+      "unit": "SY",
+      "quantity": 9138.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 95.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 95.0,
+        "O. TREVINO CONSTRUCTION, LLC": 98.0,
+        "FNH CONSTRUCTION, LLC": 85.0,
+        "ENCINO LANDSCAPE, INC.": 120.0
+      }
+    },
+    {
+      "itemCode": "0531 6002",
+      "description": "CONC SIDEWALKS (5\")",
+      "unit": "SY",
+      "quantity": 22620.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 90.0,
+        "O. TREVINO CONSTRUCTION, LLC": 69.2,
+        "FNH CONSTRUCTION, LLC": 55.0,
+        "ENCINO LANDSCAPE, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0531 6018",
+      "description": "CURB RAMPS (TY 1)",
+      "unit": "SY",
+      "quantity": 103.0,
+      "engEstUnit": 190.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 90.0,
+        "O. TREVINO CONSTRUCTION, LLC": 250.0,
+        "FNH CONSTRUCTION, LLC": 300.0,
+        "ENCINO LANDSCAPE, INC.": 140.0
+      }
+    },
+    {
+      "itemCode": "0531 6019",
+      "description": "CURB RAMPS (TY 2)",
+      "unit": "SY",
+      "quantity": 32.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 90.0,
+        "O. TREVINO CONSTRUCTION, LLC": 250.0,
+        "FNH CONSTRUCTION, LLC": 300.0,
+        "ENCINO LANDSCAPE, INC.": 140.0
+      }
+    },
+    {
+      "itemCode": "0531 6022",
+      "description": "CURB RAMPS (TY 5)",
+      "unit": "SY",
+      "quantity": 10.0,
+      "engEstUnit": 550.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 90.0,
+        "O. TREVINO CONSTRUCTION, LLC": 300.0,
+        "FNH CONSTRUCTION, LLC": 300.0,
+        "ENCINO LANDSCAPE, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0531 6024",
+      "description": "CURB RAMPS (TY 7)",
+      "unit": "SY",
+      "quantity": 891.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 90.0,
+        "O. TREVINO CONSTRUCTION, LLC": 250.0,
+        "FNH CONSTRUCTION, LLC": 300.0,
+        "ENCINO LANDSCAPE, INC.": 140.0
+      }
+    },
+    {
+      "itemCode": "0531 6027",
+      "description": "CURB RAMPS (TY 10)",
+      "unit": "SY",
+      "quantity": 864.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 90.0,
+        "O. TREVINO CONSTRUCTION, LLC": 250.0,
+        "FNH CONSTRUCTION, LLC": 300.0,
+        "ENCINO LANDSCAPE, INC.": 140.0
+      }
+    },
+    {
+      "itemCode": "0560 6001",
+      "description": "MAILBOX INSTALL-S (TWG-POST) TY 1",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 155.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 155.0,
+        "O. TREVINO CONSTRUCTION, LLC": 260.0,
+        "FNH CONSTRUCTION, LLC": 850.0,
+        "ENCINO LANDSCAPE, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0644 6009",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SB(P)",
+      "unit": "EA",
+      "quantity": 270.0,
+      "engEstUnit": 991.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 400.0,
+        "O. TREVINO CONSTRUCTION, LLC": 700.0,
+        "FNH CONSTRUCTION, LLC": 850.0,
+        "ENCINO LANDSCAPE, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0644 6012",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SB(T)",
+      "unit": "EA",
+      "quantity": 21.0,
+      "engEstUnit": 1075.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 400.0,
+        "O. TREVINO CONSTRUCTION, LLC": 770.0,
+        "FNH CONSTRUCTION, LLC": 850.0,
+        "ENCINO LANDSCAPE, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0644 6015",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SB(U)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 560.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 400.0,
+        "O. TREVINO CONSTRUCTION, LLC": 770.0,
+        "FNH CONSTRUCTION, LLC": 650.0,
+        "ENCINO LANDSCAPE, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0644 6039",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SB(P)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 760.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 400.0,
+        "O. TREVINO CONSTRUCTION, LLC": 770.0,
+        "FNH CONSTRUCTION, LLC": 100.0,
+        "ENCINO LANDSCAPE, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0644 6042",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SB(T)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 400.0,
+        "O. TREVINO CONSTRUCTION, LLC": 830.0,
+        "FNH CONSTRUCTION, LLC": 100.0,
+        "ENCINO LANDSCAPE, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0644 6044",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SB(U)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 798.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 400.0,
+        "O. TREVINO CONSTRUCTION, LLC": 950.0,
+        "FNH CONSTRUCTION, LLC": 6.0,
+        "ENCINO LANDSCAPE, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0644 6068",
+      "description": "RELOCATE SM RD SN SUP&AM TY 10BWG",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 150.0,
+        "O. TREVINO CONSTRUCTION, LLC": 415.0,
+        "FNH CONSTRUCTION, LLC": 8.0,
+        "ENCINO LANDSCAPE, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 183.0,
+      "engEstUnit": 184.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 50.0,
+        "O. TREVINO CONSTRUCTION, LLC": 108.0,
+        "FNH CONSTRUCTION, LLC": 20.0,
+        "ENCINO LANDSCAPE, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0644 6078",
+      "description": "REMOVE SM RD SN SUP&AM (SIGN ONLY)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 56.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 25.0,
+        "O. TREVINO CONSTRUCTION, LLC": 12.0,
+        "FNH CONSTRUCTION, LLC": 8.0,
+        "ENCINO LANDSCAPE, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0668 6068",
+      "description": "PREFAB PAV MRK TY C (W) (6\") (SLD)",
+      "unit": "LF",
+      "quantity": 1633.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 6.5,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 6.5,
+        "O. TREVINO CONSTRUCTION, LLC": 6.8,
+        "FNH CONSTRUCTION, LLC": 6.0,
+        "ENCINO LANDSCAPE, INC.": 8.0
+      }
+    },
+    {
+      "itemCode": "0668 6074",
+      "description": "PREFAB PAV MRK TY C (W) (12\") (SLD)",
+      "unit": "LF",
+      "quantity": 520.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 13.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 13.0,
+        "O. TREVINO CONSTRUCTION, LLC": 13.75,
+        "FNH CONSTRUCTION, LLC": 6.0,
+        "ENCINO LANDSCAPE, INC.": 8.0
+      }
+    },
+    {
+      "itemCode": "0668 6076",
+      "description": "PREFAB PAV MRK TY C (W) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 430.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 26.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 26.0,
+        "O. TREVINO CONSTRUCTION, LLC": 27.5,
+        "FNH CONSTRUCTION, LLC": 20.0,
+        "ENCINO LANDSCAPE, INC.": 14.0
+      }
+    },
+    {
+      "itemCode": "0677 6005",
+      "description": "ELIM EXT PAV MRK & MRKS (12\")",
+      "unit": "LF",
+      "quantity": 2583.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 3.5,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 3.5,
+        "O. TREVINO CONSTRUCTION, LLC": 3.7,
+        "FNH CONSTRUCTION, LLC": 6.0,
+        "ENCINO LANDSCAPE, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 1633.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 1.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 1.0,
+        "O. TREVINO CONSTRUCTION, LLC": 1.15,
+        "FNH CONSTRUCTION, LLC": 6.0,
+        "ENCINO LANDSCAPE, INC.": 0.5
+      }
+    },
+    {
+      "itemCode": "0678 6006",
+      "description": "PAV SURF PREP FOR MRK (12\")",
+      "unit": "LF",
+      "quantity": 520.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 2.0,
+        "O. TREVINO CONSTRUCTION, LLC": 2.3,
+        "FNH CONSTRUCTION, LLC": 6.0,
+        "ENCINO LANDSCAPE, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 430.0,
+      "engEstUnit": 1.75,
+      "lowUnit": 3.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 3.0,
+        "O. TREVINO CONSTRUCTION, LLC": 3.45,
+        "FNH CONSTRUCTION, LLC": 20.0,
+        "ENCINO LANDSCAPE, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0734 6002",
+      "description": "LITTER REMOVAL",
+      "unit": "CYC",
+      "quantity": 8.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 500.0,
+        "O. TREVINO CONSTRUCTION, LLC": 850.0,
+        "FNH CONSTRUCTION, LLC": 3000.0,
+        "ENCINO LANDSCAPE, INC.": 2000.0
+      }
+    },
+    {
+      "itemCode": "0738 6010",
+      "description": "CLEANING / SWEEPING (SPOT)",
+      "unit": "MI",
+      "quantity": 6.7,
+      "engEstUnit": 3000.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 100.0,
+        "O. TREVINO CONSTRUCTION, LLC": 1250.0,
+        "FNH CONSTRUCTION, LLC": 5000.0,
+        "ENCINO LANDSCAPE, INC.": 2000.0
+      }
+    },
+    {
+      "itemCode": "5111 6001",
+      "description": "INSTALL SALVAGED FENCE",
+      "unit": "LF",
+      "quantity": 97.0,
+      "engEstUnit": 28.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 5.0,
+        "O. TREVINO CONSTRUCTION, LLC": 20.0,
+        "FNH CONSTRUCTION, LLC": 20.0,
+        "ENCINO LANDSCAPE, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 12000.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 1500.0,
+        "O. TREVINO CONSTRUCTION, LLC": 35000.0,
+        "FNH CONSTRUCTION, LLC": 16500.0,
+        "ENCINO LANDSCAPE, INC.": 39999.0
+      }
+    },
+    {
+      "itemCode": "7012 6001",
+      "description": "CURB INLET SEDIMENT PROTECTION",
+      "unit": "LF",
+      "quantity": 402.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "TI-ZACK CONCRETE, INC.": 1.0,
+        "O. TREVINO CONSTRUCTION, LLC": 8.0,
+        "FNH CONSTRUCTION, LLC": 10.0,
+        "ENCINO LANDSCAPE, INC.": 20.0
+      }
+    }
+  ]
+}

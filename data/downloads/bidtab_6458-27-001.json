@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6458-27-001",
+    "county": "Grayson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645827001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/06/23",
+    "engEstTotal": 327980.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DOUBLE S TRACTOR SERVICES, LLC",
+      "totalBidAmount": 290019.8
+    },
+    {
+      "rank": 2,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 318762.56
+    },
+    {
+      "rank": 3,
+      "vendorName": "MARLANE CONSTRUCTION, LLC",
+      "totalBidAmount": 373290.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "DOUBLE S TRACTOR SERVICES, LLC": 1.0,
+        "ANTHONY SERVICES": 3000.0,
+        "MARLANE CONSTRUCTION, LLC": 2000.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 7962.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 36.4,
+      "bidders": {
+        "DOUBLE S TRACTOR SERVICES, LLC": 36.4,
+        "ANTHONY SERVICES": 38.88,
+        "MARLANE CONSTRUCTION, LLC": 45.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 200.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "DOUBLE S TRACTOR SERVICES, LLC": 1.0,
+        "ANTHONY SERVICES": 1.0,
+        "MARLANE CONSTRUCTION, LLC": 45.0
+      }
+    }
+  ]
+}

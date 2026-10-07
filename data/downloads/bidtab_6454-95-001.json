@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6454-95-001",
+    "county": "Bowie",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645495001",
+    "projectType": "DEBRIS REMOVAL",
+    "letDate": "10/17/23",
+    "engEstTotal": 204250.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MORTON ENTERPRISE",
+      "totalBidAmount": 191919.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 5143.0,
+      "bidders": {
+        "MORTON ENTERPRISE": 5143.0
+      }
+    },
+    {
+      "itemCode": "0735 6001",
+      "description": "DEBRIS REMOVAL (CNTR MEDIANS/MAINLANES)",
+      "unit": "CYC",
+      "quantity": 74.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 2519.0,
+      "bidders": {
+        "MORTON ENTERPRISE": 2519.0
+      }
+    }
+  ]
+}

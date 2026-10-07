@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6403-60-001",
+    "county": "Hunt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 640360001",
+    "projectType": "DENSE GRADE HOT MIX",
+    "letDate": "06/29/22",
+    "engEstTotal": 455625.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RK HALL, LLC",
+      "totalBidAmount": 472500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 472500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 4500.0,
+      "engEstUnit": 101.25,
+      "lowUnit": 105.0,
+      "bidders": {
+        "RK HALL, LLC": 105.0,
+        "FNH CONSTRUCTION, LLC": 105.0
+      }
+    }
+  ]
+}

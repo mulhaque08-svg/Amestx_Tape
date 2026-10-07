@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6378-39-001",
+    "county": "Houston",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637839001",
+    "projectType": "HYDRAULIC CEMENT",
+    "letDate": "04/15/21",
+    "engEstTotal": 82336.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AKA-MATERIALS",
+      "totalBidAmount": 81529.6
+    },
+    {
+      "rank": 2,
+      "vendorName": "KLP COMMERCIAL, L.L.C.",
+      "totalBidAmount": 104784.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 111296.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8012 6002",
+      "description": "HYDRAULIC CEMENT(TY I)(DEL)(SITE 2)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 170.0,
+      "bidders": {
+        "AKA-MATERIALS": 170.0,
+        "KLP COMMERCIAL, L.L.C.": 225.0,
+        "DIGG COMMERCIAL, LLC": 220.0
+      }
+    },
+    {
+      "itemCode": "8012 6003",
+      "description": "HYDRAULIC CEMENT(TY I)(DEL)(SITE 3)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 170.0,
+      "bidders": {
+        "AKA-MATERIALS": 170.0,
+        "KLP COMMERCIAL, L.L.C.": 225.0,
+        "DIGG COMMERCIAL, LLC": 220.0
+      }
+    },
+    {
+      "itemCode": "8012 6018",
+      "description": "HYDRAULIC CEMENT(TY I)(47LB)",
+      "unit": "BAG",
+      "quantity": 1792.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 7.55,
+      "bidders": {
+        "AKA-MATERIALS": 7.55,
+        "KLP COMMERCIAL, L.L.C.": 8.25,
+        "DIGG COMMERCIAL, LLC": 13.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6453-73-001",
+    "county": "Morris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645373001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "01/10/24",
+    "engEstTotal": 188632.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TERRY ENTERPRISES",
+      "totalBidAmount": 193596.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "HX FARMS, INC.",
+      "totalBidAmount": 199801.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "EASTGATE SERVICES",
+      "totalBidAmount": 218416.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6055",
+      "description": "FULL - WIDTH MOWING - TRACT (2)",
+      "unit": "AC",
+      "quantity": 4964.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 39.0,
+      "bidders": {
+        "TERRY ENTERPRISES": 39.0,
+        "HX FARMS, INC.": 40.25,
+        "EASTGATE SERVICES": 44.0
+      }
+    }
+  ]
+}

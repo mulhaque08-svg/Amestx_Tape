@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6395-27-001",
+    "county": "Archer",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639527001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/24/22",
+    "engEstTotal": 205335.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BIG STATE MAINTENANCE, INC.",
+      "totalBidAmount": 226267.98
+    },
+    {
+      "rank": 2,
+      "vendorName": "EVERYTHING IRRIGATION LLC",
+      "totalBidAmount": 272273.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1085.0,
+      "engEstUnit": 37.0,
+      "lowUnit": 39.22,
+      "bidders": {
+        "BIG STATE MAINTENANCE, INC.": 39.22,
+        "EVERYTHING IRRIGATION LLC": 47.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 4674.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 39.22,
+      "bidders": {
+        "BIG STATE MAINTENANCE, INC.": 39.22,
+        "EVERYTHING IRRIGATION LLC": 47.0
+      }
+    }
+  ]
+}

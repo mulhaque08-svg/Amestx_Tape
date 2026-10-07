@@ -1,0 +1,820 @@
+{
+  "metadata": {
+    "csj": "0718-02-072",
+    "county": "Tarrant",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2023(819)",
+    "projectType": "RESURFACE ROADWAY",
+    "letDate": "05/05/23",
+    "engEstTotal": 5908901.15,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 5497888.16
+    },
+    {
+      "rank": 2,
+      "vendorName": "PEACHTREE CONSTRUCTION, LTD.",
+      "totalBidAmount": 5558389.17
+    },
+    {
+      "rank": 3,
+      "vendorName": "AUSTIN BRIDGE & ROAD SERVICES, LP",
+      "totalBidAmount": 5624209.36
+    },
+    {
+      "rank": 4,
+      "vendorName": "EUROVIA ATLANTIC COAST LLC",
+      "totalBidAmount": 6563622.99
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 280.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 245.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 245.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 275.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 500.0,
+        "EUROVIA ATLANTIC COAST LLC": 450.0
+      }
+    },
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 129.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 30.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 33.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 75.0,
+        "EUROVIA ATLANTIC COAST LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0134 6004",
+      "description": "BACKFILL (TY A OR B)",
+      "unit": "STA",
+      "quantity": 280.0,
+      "engEstUnit": 280.0,
+      "lowUnit": 180.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 180.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 375.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 91.09,
+        "EUROVIA ATLANTIC COAST LLC": 425.0
+      }
+    },
+    {
+      "itemCode": "0164 6003",
+      "description": "BROADCAST SEED (PERM) (RURAL) (CLAY)",
+      "unit": "SY",
+      "quantity": 2276.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 0.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.5,
+        "PEACHTREE CONSTRUCTION, LTD.": 0.57,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 0.5,
+        "EUROVIA ATLANTIC COAST LLC": 0.5
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 80.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 140.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 75.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 152.0,
+        "EUROVIA ATLANTIC COAST LLC": 165.0
+      }
+    },
+    {
+      "itemCode": "0305 6002",
+      "description": "SALV, HAUL & STKPL RCL APH PV (0 TO 2\")",
+      "unit": "SY",
+      "quantity": 128132.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.19,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 2.19,
+        "PEACHTREE CONSTRUCTION, LTD.": 2.81,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 2.25,
+        "EUROVIA ATLANTIC COAST LLC": 3.85
+      }
+    },
+    {
+      "itemCode": "0351 6028",
+      "description": "FLEX PAVE STRUCTURE REPAIR (8\"-10\")",
+      "unit": "SY",
+      "quantity": 8726.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 87.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 87.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 85.2,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 80.85,
+        "EUROVIA ATLANTIC COAST LLC": 84.25
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 293.0,
+      "engEstUnit": 710.0,
+      "lowUnit": 625.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 625.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 625.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 1066.85,
+        "EUROVIA ATLANTIC COAST LLC": 720.0
+      }
+    },
+    {
+      "itemCode": "0438 6001",
+      "description": "CLEANING AND SEALING EXISTING JOINTS",
+      "unit": "LF",
+      "quantity": 264.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 140.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 148.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 148.0,
+        "EUROVIA ATLANTIC COAST LLC": 250.05
+      }
+    },
+    {
+      "itemCode": "0467 6358",
+      "description": "SET (TY II) (18 IN) (RCP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1250.0,
+      "lowUnit": 2650.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 2650.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 2950.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 1500.0,
+        "EUROVIA ATLANTIC COAST LLC": 2650.0
+      }
+    },
+    {
+      "itemCode": "0496 6006",
+      "description": "REMOV STR (HEADWALL)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1975.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 1000.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 1050.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 2500.0,
+        "EUROVIA ATLANTIC COAST LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 537173.0,
+      "lowUnit": 550000.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 550000.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 500000.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 542000.0,
+        "EUROVIA ATLANTIC COAST LLC": 580000.0
+      }
+    },
+    {
+      "itemCode": "0510 6001",
+      "description": "ONE-WAY TRAF CONT (FLAGGER CONT)",
+      "unit": "HR",
+      "quantity": 80.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 120.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 120.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 75.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 275.0,
+        "EUROVIA ATLANTIC COAST LLC": 225.0
+      }
+    },
+    {
+      "itemCode": "0510 6002",
+      "description": "ONE-WAY TRAF CONT (PILOT CAR)",
+      "unit": "HR",
+      "quantity": 80.0,
+      "engEstUnit": 135.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 350.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 240.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 275.0,
+        "EUROVIA ATLANTIC COAST LLC": 155.0
+      }
+    },
+    {
+      "itemCode": "0533 6001",
+      "description": "RUMBLE STRIPS (SHOULDER)",
+      "unit": "LF",
+      "quantity": 42111.0,
+      "engEstUnit": 0.75,
+      "lowUnit": 0.15,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.15,
+        "PEACHTREE CONSTRUCTION, LTD.": 0.4,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 0.06,
+        "EUROVIA ATLANTIC COAST LLC": 0.37
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 5385.0,
+      "engEstUnit": 5.5,
+      "lowUnit": 2.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 2.5,
+        "PEACHTREE CONSTRUCTION, LTD.": 2.65,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 2.56,
+        "EUROVIA ATLANTIC COAST LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 3400.0,
+      "lowUnit": 2775.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 2775.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 2850.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 2846.15,
+        "EUROVIA ATLANTIC COAST LLC": 2765.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 365.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 250.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 275.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 256.41,
+        "EUROVIA ATLANTIC COAST LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 84.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 590.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 590.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 940.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 590.0,
+        "EUROVIA ATLANTIC COAST LLC": 590.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 19.0,
+      "engEstUnit": 925.0,
+      "lowUnit": 770.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 770.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 1125.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 770.0,
+        "EUROVIA ATLANTIC COAST LLC": 770.0
+      }
+    },
+    {
+      "itemCode": "0644 6033",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1275.0,
+      "lowUnit": 1040.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 1040.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 1610.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 1040.0,
+        "EUROVIA ATLANTIC COAST LLC": 1040.0
+      }
+    },
+    {
+      "itemCode": "0644 6067",
+      "description": "IN SM RD SN SUP&AM (INST SIGN ONLY)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 225.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 320.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 225.0,
+        "EUROVIA ATLANTIC COAST LLC": 225.0
+      }
+    },
+    {
+      "itemCode": "0644 6068",
+      "description": "RELOCATE SM RD SN SUP&AM TY 10BWG",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 725.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 600.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 975.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 600.0,
+        "EUROVIA ATLANTIC COAST LLC": 600.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 103.0,
+      "engEstUnit": 145.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 85.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 162.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 85.0,
+        "EUROVIA ATLANTIC COAST LLC": 85.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 33.0,
+      "engEstUnit": 37.5,
+      "lowUnit": 18.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 18.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 33.6,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 18.0,
+        "EUROVIA ATLANTIC COAST LLC": 18.0
+      }
+    },
+    {
+      "itemCode": "0658 6047",
+      "description": "INSTL OM ASSM (OM-2Y)(WC)GND",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 50.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 202.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 50.0,
+        "EUROVIA ATLANTIC COAST LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0658 6060",
+      "description": "REMOVE DELIN & OBJECT MARKER ASSMS",
+      "unit": "EA",
+      "quantity": 96.0,
+      "engEstUnit": 33.5,
+      "lowUnit": 25.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 25.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 34.2,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 25.0,
+        "EUROVIA ATLANTIC COAST LLC": 25.0
+      }
+    },
+    {
+      "itemCode": "0658 6064",
+      "description": "INSTL DEL ASSM (D-SY)SZ 1(BRF)GF2",
+      "unit": "EA",
+      "quantity": 61.0,
+      "engEstUnit": 31.0,
+      "lowUnit": 27.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 27.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 46.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 27.0,
+        "EUROVIA ATLANTIC COAST LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0662 6001",
+      "description": "WK ZN PAV MRK NON-REMOV (W)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 449.0,
+      "engEstUnit": 0.55,
+      "lowUnit": 0.65,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.65,
+        "PEACHTREE CONSTRUCTION, LTD.": 0.7,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 0.65,
+        "EUROVIA ATLANTIC COAST LLC": 0.65
+      }
+    },
+    {
+      "itemCode": "0662 6004",
+      "description": "WK ZN PAV MRK NON-REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 53495.0,
+      "engEstUnit": 0.35,
+      "lowUnit": 0.3,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.3,
+        "PEACHTREE CONSTRUCTION, LTD.": 0.32,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 0.3,
+        "EUROVIA ATLANTIC COAST LLC": 0.3
+      }
+    },
+    {
+      "itemCode": "0662 6012",
+      "description": "WK ZN PAV MRK NON-REMOV (W)8\"(SLD)",
+      "unit": "LF",
+      "quantity": 4593.0,
+      "engEstUnit": 0.75,
+      "lowUnit": 0.77,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.77,
+        "PEACHTREE CONSTRUCTION, LTD.": 0.85,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 0.77,
+        "EUROVIA ATLANTIC COAST LLC": 0.77
+      }
+    },
+    {
+      "itemCode": "0662 6014",
+      "description": "WK ZN PAV MRK NON-REMOV (W)12\"(SLD)",
+      "unit": "LF",
+      "quantity": 784.0,
+      "engEstUnit": 1.75,
+      "lowUnit": 3.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 3.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 3.2,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 3.0,
+        "EUROVIA ATLANTIC COAST LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0662 6016",
+      "description": "WK ZN PAV MRK NON-REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 495.0,
+      "engEstUnit": 7.5,
+      "lowUnit": 4.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 4.5,
+        "PEACHTREE CONSTRUCTION, LTD.": 4.8,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 4.5,
+        "EUROVIA ATLANTIC COAST LLC": 4.5
+      }
+    },
+    {
+      "itemCode": "0662 6017",
+      "description": "WK ZN PAV MRK NON-REMOV (W)(ARROW)",
+      "unit": "EA",
+      "quantity": 40.0,
+      "engEstUnit": 82.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 90.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 97.5,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 90.0,
+        "EUROVIA ATLANTIC COAST LLC": 90.0
+      }
+    },
+    {
+      "itemCode": "0662 6018",
+      "description": "WK ZN PAV MRK NON-REMOV (W)(DBL ARW)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 170.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 170.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 185.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 170.0,
+        "EUROVIA ATLANTIC COAST LLC": 170.0
+      }
+    },
+    {
+      "itemCode": "0662 6029",
+      "description": "WK ZN PAV MRK NON-REMOV(W)(WORD)",
+      "unit": "EA",
+      "quantity": 40.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 115.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 115.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 131.5,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 115.0,
+        "EUROVIA ATLANTIC COAST LLC": 115.0
+      }
+    },
+    {
+      "itemCode": "0662 6034",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 61078.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.3,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.3,
+        "PEACHTREE CONSTRUCTION, LTD.": 0.32,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 0.3,
+        "EUROVIA ATLANTIC COAST LLC": 0.3
+      }
+    },
+    {
+      "itemCode": "0662 6041",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 1567.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 4.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 4.5,
+        "PEACHTREE CONSTRUCTION, LTD.": 4.9,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 4.5,
+        "EUROVIA ATLANTIC COAST LLC": 4.5
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 40.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 213.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 213.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 240.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 213.0,
+        "EUROVIA ATLANTIC COAST LLC": 213.0
+      }
+    },
+    {
+      "itemCode": "0668 6078",
+      "description": "PREFAB PAV MRK TY C (W) (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 360.0,
+      "lowUnit": 365.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 365.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 405.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 365.0,
+        "EUROVIA ATLANTIC COAST LLC": 365.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 40.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 271.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 271.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 290.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 271.0,
+        "EUROVIA ATLANTIC COAST LLC": 271.0
+      }
+    },
+    {
+      "itemCode": "0668 6092",
+      "description": "PREFAB PAV MRK TY C (W) (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 43.0,
+      "lowUnit": 63.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 63.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 69.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 63.0,
+        "EUROVIA ATLANTIC COAST LLC": 63.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 247.0,
+      "engEstUnit": 6.25,
+      "lowUnit": 5.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 5.5,
+        "PEACHTREE CONSTRUCTION, LTD.": 6.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 5.5,
+        "EUROVIA ATLANTIC COAST LLC": 5.5
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 2027.0,
+      "engEstUnit": 6.75,
+      "lowUnit": 5.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 5.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 5.5,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 5.0,
+        "EUROVIA ATLANTIC COAST LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 10.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 11.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 10.0,
+        "EUROVIA ATLANTIC COAST LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 114573.0,
+      "engEstUnit": 0.85,
+      "lowUnit": 0.3,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.3,
+        "PEACHTREE CONSTRUCTION, LTD.": 0.3,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 0.3,
+        "EUROVIA ATLANTIC COAST LLC": 0.3
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 4633.0,
+      "engEstUnit": 1.25,
+      "lowUnit": 0.9,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.9,
+        "PEACHTREE CONSTRUCTION, LTD.": 0.9,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 0.9,
+        "EUROVIA ATLANTIC COAST LLC": 0.9
+      }
+    },
+    {
+      "itemCode": "0677 6005",
+      "description": "ELIM EXT PAV MRK & MRKS (12\")",
+      "unit": "LF",
+      "quantity": 784.0,
+      "engEstUnit": 2.2,
+      "lowUnit": 1.37,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 1.37,
+        "PEACHTREE CONSTRUCTION, LTD.": 1.38,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 1.37,
+        "EUROVIA ATLANTIC COAST LLC": 1.37
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 1702.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 3.77,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 3.77,
+        "PEACHTREE CONSTRUCTION, LTD.": 3.8,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 3.77,
+        "EUROVIA ATLANTIC COAST LLC": 3.77
+      }
+    },
+    {
+      "itemCode": "0677 6028",
+      "description": "ELIM EXT PV MRK & MRKS (RUMBLE STRIP)",
+      "unit": "LF",
+      "quantity": 2346.0,
+      "engEstUnit": 1.85,
+      "lowUnit": 0.84,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.84,
+        "PEACHTREE CONSTRUCTION, LTD.": 2.4,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 0.44,
+        "EUROVIA ATLANTIC COAST LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0785 6004",
+      "description": "BRIDGE JOINT REPAIR (ARMOR)",
+      "unit": "LF",
+      "quantity": 90.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 400.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 378.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 491.0,
+        "EUROVIA ATLANTIC COAST LLC": 800.0
+      }
+    },
+    {
+      "itemCode": "0785 6010",
+      "description": "BRIDGE JOINT REPLACEMENT (ARMOR)",
+      "unit": "LF",
+      "quantity": 419.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 550.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 550.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 525.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 586.0,
+        "EUROVIA ATLANTIC COAST LLC": 730.0
+      }
+    },
+    {
+      "itemCode": "3077 6027",
+      "description": "SP MIXES SP-C SAC-A PG70-28",
+      "unit": "TON",
+      "quantity": 14736.0,
+      "engEstUnit": 155.0,
+      "lowUnit": 165.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 165.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 155.4,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 161.75,
+        "EUROVIA ATLANTIC COAST LLC": 169.0
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 25627.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.01,
+        "PEACHTREE CONSTRUCTION, LTD.": 1.5,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 0.25,
+        "EUROVIA ATLANTIC COAST LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 100.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 50.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 58.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 97.43,
+        "EUROVIA ATLANTIC COAST LLC": 115.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 12000.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 12000.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 13500.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 11366.25,
+        "EUROVIA ATLANTIC COAST LLC": 18000.0
+      }
+    }
+  ]
+}

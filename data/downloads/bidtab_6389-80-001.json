@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6389-80-001",
+    "county": "Ellis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638980001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "04/07/22",
+    "engEstTotal": 624409.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "YELLOWSTONE LANDSCAPE - CENTRAL, INC.",
+      "totalBidAmount": 602010.55
+    },
+    {
+      "rank": 2,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 697291.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CEN-TEX IRRIGATION SYSTEMS, INC.",
+      "totalBidAmount": 819065.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 56764.5,
+      "lowUnit": 1.0,
+      "bidders": {
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 10000.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 12500.0
+      }
+    },
+    {
+      "itemCode": "0730 6104",
+      "description": "FULL-WIDTH MOWING (RURAL)",
+      "unit": "AC",
+      "quantity": 1578.0,
+      "engEstUnit": 47.0,
+      "lowUnit": 49.95,
+      "bidders": {
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 49.95,
+        "CROSS PLUS CONSTRUCTION, LLC": 59.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 58.0
+      }
+    },
+    {
+      "itemCode": "0730 6105",
+      "description": "FULL-WIDTH MOWING (URBAN)",
+      "unit": "AC",
+      "quantity": 10071.0,
+      "engEstUnit": 49.0,
+      "lowUnit": 51.95,
+      "bidders": {
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 51.95,
+        "CROSS PLUS CONSTRUCTION, LLC": 59.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 71.0
+      }
+    }
+  ]
+}

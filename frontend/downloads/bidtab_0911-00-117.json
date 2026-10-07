@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "csj": "0911-00-117",
+    "county": "Angelina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 911-00-117",
+    "projectType": "BRIDGE MAINTENANCE",
+    "letDate": "11/03/21",
+    "engEstTotal": 639798.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 505300.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "AAD CONTRACTING INC.",
+      "totalBidAmount": 550570.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "SCR CIVIL CONSTRUCTION, LLC",
+      "totalBidAmount": 591515.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "RAGLE CONSTRUCTION, INC.",
+      "totalBidAmount": 622260.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0169 6001",
+      "description": "SOIL RETENTION BLANKETS (CL 1) (TY A)",
+      "unit": "SY",
+      "quantity": 200.0,
+      "engEstUnit": 1.43,
+      "lowUnit": 10.0,
+      "bidders": {
+        "FNH CONSTRUCTION, LLC": 10.0,
+        "AAD CONTRACTING INC.": 4.5,
+        "SCR CIVIL CONSTRUCTION, LLC": 18.0,
+        "RAGLE CONSTRUCTION, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0401 6001",
+      "description": "FLOWABLE BACKFILL",
+      "unit": "CY",
+      "quantity": 20.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "FNH CONSTRUCTION, LLC": 500.0,
+        "AAD CONTRACTING INC.": 220.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 700.0,
+        "RAGLE CONSTRUCTION, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 39.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "FNH CONSTRUCTION, LLC": 1000.0,
+        "AAD CONTRACTING INC.": 180.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 400.0,
+        "RAGLE CONSTRUCTION, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0432 6027",
+      "description": "RIPRAP (STONE COMMON)(DRY)(24 IN)",
+      "unit": "CY",
+      "quantity": 55.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "FNH CONSTRUCTION, LLC": 500.0,
+        "AAD CONTRACTING INC.": 250.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 450.0,
+        "RAGLE CONSTRUCTION, INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 43592.0,
+      "lowUnit": 50000.0,
+      "bidders": {
+        "FNH CONSTRUCTION, LLC": 50000.0,
+        "AAD CONTRACTING INC.": 80000.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 59100.0,
+        "RAGLE CONSTRUCTION, INC.": 62000.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "0921-06-363",
+    "county": "Cameron",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 921-6-363",
+    "projectType": "RESURFACE ROADWAY",
+    "letDate": "09/06/23",
+    "engEstTotal": 20592.73,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "LUCANIA CONSTRUCTION LLC",
+      "totalBidAmount": 64546.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "FOREMOST PAVING, INC.",
+      "totalBidAmount": 89100.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0251 6096",
+      "description": "REWORK BS MTL (TY C)(4\")(ORD COMP)",
+      "unit": "SY",
+      "quantity": 711.0,
+      "engEstUnit": 0.86,
+      "lowUnit": 9.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 9.0,
+        "FOREMOST PAVING, INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "0310 6009",
+      "description": "PRIME COAT (MC-30)",
+      "unit": "GAL",
+      "quantity": 142.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 55.0,
+        "FOREMOST PAVING, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 1402.67,
+      "lowUnit": 7000.0,
+      "bidders": {
+        "LUCANIA CONSTRUCTION LLC": 7000.0,
+        "FOREMOST PAVING, INC.": 7200.0
+      }
+    }
+  ]
+}

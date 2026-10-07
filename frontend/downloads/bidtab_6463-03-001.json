@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6463-03-001",
+    "county": "Navarro",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646303001",
+    "projectType": "CLEANING AND SWEEPING HIGHWAYS",
+    "letDate": "06/05/24",
+    "engEstTotal": 1447858.8,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SWEEPING CORPORATION OF AMERICA, LLC",
+      "totalBidAmount": 787133.48
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 1374292.8
+    },
+    {
+      "rank": 3,
+      "vendorName": "PROFESSIONAL TRAFFIC CONTROL LLC",
+      "totalBidAmount": 1743716.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 132143.0,
+      "lowUnit": 40000.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 40000.0,
+        "DIGG COMMERCIAL, LLC": 100000.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 150000.0
+      }
+    }
+  ]
+}

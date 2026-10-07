@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6470-13-001",
+    "county": "Kaufman",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 647013001",
+    "projectType": "EMULSION",
+    "letDate": "08/07/24",
+    "engEstTotal": 187560.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ERGON ASPHALT & EMULSIONS, INC.",
+      "totalBidAmount": 168288.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "WRIGHT ASPHALT PRODUCTS COMPANY LLC",
+      "totalBidAmount": 175692.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 192696.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6001",
+      "description": "CUTBACK ASPHALT (RC-250)(DELIVERY)",
+      "unit": "GAL",
+      "quantity": 22800.0,
+      "engEstUnit": 4.2,
+      "lowUnit": 3.58,
+      "bidders": {
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.58,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 4.11,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 4.06
+      }
+    },
+    {
+      "itemCode": "8010 6010",
+      "description": "EMULSION (CSS-1H)(DELIVERY)",
+      "unit": "GAL",
+      "quantity": 6000.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.74,
+      "bidders": {
+        "ERGON ASPHALT & EMULSIONS, INC.": 2.74,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 2.53,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.16
+      }
+    },
+    {
+      "itemCode": "8010 6012",
+      "description": "EMULSION (CRS-2P)(DELIVERY)",
+      "unit": "GAL",
+      "quantity": 22800.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 3.08,
+      "bidders": {
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.08,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 2.93,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.56
+      }
+    }
+  ]
+}

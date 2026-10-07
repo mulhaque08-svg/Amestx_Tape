@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6436-75-001",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643675001",
+    "projectType": "STORM SEWER SYSTEM CLEANING",
+    "letDate": "06/27/23",
+    "engEstTotal": 357270.82,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AIMS COMPANIES",
+      "totalBidAmount": 267562.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "E.V.G. ENTERPRISE",
+      "totalBidAmount": 272225.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 303294.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "AIMS COMPANIES": 900.0,
+        "E.V.G. ENTERPRISE": 3500.0,
+        "SHALOM SERVICES CORPORATION": 2500.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 3189.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "AIMS COMPANIES": 1000.0,
+        "E.V.G. ENTERPRISE": 3500.0,
+        "SHALOM SERVICES CORPORATION": 2500.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 7.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "AIMS COMPANIES": 250.0,
+        "E.V.G. ENTERPRISE": 100.0,
+        "SHALOM SERVICES CORPORATION": 1.0
+      }
+    },
+    {
+      "itemCode": "7019 6001",
+      "description": "STORM SEWER (TELEVISION INSPECTION)",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "AIMS COMPANIES": 10.0,
+        "E.V.G. ENTERPRISE": 2.0,
+        "SHALOM SERVICES CORPORATION": 5.0
+      }
+    }
+  ]
+}

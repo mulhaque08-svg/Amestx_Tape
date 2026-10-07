@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "csj": "0909-00-089",
+    "county": "Mclennan",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2B23(177)",
+    "projectType": "MAINTENANCE & OPERATIONS PROJECT",
+    "letDate": "08/03/23",
+    "engEstTotal": 3582438.7,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D. I. J. CONSTRUCTION, INC.",
+      "totalBidAmount": 2409825.67
+    },
+    {
+      "rank": 2,
+      "vendorName": "VIZCAINO, L.P.",
+      "totalBidAmount": 2571923.24
+    },
+    {
+      "rank": 3,
+      "vendorName": "STRIPE-A-ZONE, LLC",
+      "totalBidAmount": 2619278.03
+    },
+    {
+      "rank": 4,
+      "vendorName": "STRIPE LINES, INC.",
+      "totalBidAmount": 2721620.9
+    },
+    {
+      "rank": 5,
+      "vendorName": "PAVEMENT MARKINGS INC.",
+      "totalBidAmount": 3179039.82
+    },
+    {
+      "rank": 6,
+      "vendorName": "INTERSTATE BARRICADES & MARKINGS, INC.",
+      "totalBidAmount": 3272852.4
+    },
+    {
+      "rank": 7,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 3348499.8
+    },
+    {
+      "rank": 8,
+      "vendorName": "TRAFFIC HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 3963724.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 326000.0,
+      "lowUnit": 70000.0,
+      "bidders": {
+        "D. I. J. CONSTRUCTION, INC.": 70000.0,
+        "VIZCAINO, L.P.": 200000.0,
+        "STRIPE-A-ZONE, LLC": 75000.0,
+        "STRIPE LINES, INC.": 50000.0,
+        "PAVEMENT MARKINGS INC.": 3500.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 190000.0
+      }
+    },
+    {
+      "itemCode": "6056 6002",
+      "description": "PREFORMED CENTERLINE RUMBLE STRIP",
+      "unit": "LF",
+      "quantity": 55455.0,
+      "engEstUnit": 6.75,
+      "lowUnit": 2.0,
+      "bidders": {
+        "D. I. J. CONSTRUCTION, INC.": 2.0,
+        "VIZCAINO, L.P.": 0.4,
+        "STRIPE-A-ZONE, LLC": 4.75,
+        "STRIPE LINES, INC.": 5.5,
+        "PAVEMENT MARKINGS INC.": 3.8,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 6.0
+      }
+    }
+  ]
+}

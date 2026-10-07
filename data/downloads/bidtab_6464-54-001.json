@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6464-54-001",
+    "county": "Upshur",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646454001",
+    "projectType": "LANDSCAPE MAINTENANCE",
+    "letDate": "03/19/24",
+    "engEstTotal": 82000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SCOUT 5 CONSTRUCTION LLC",
+      "totalBidAmount": 53300.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SOUTHERN EDGE CONTRACTORS LLC",
+      "totalBidAmount": 59880.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "HX FARMS, INC.",
+      "totalBidAmount": 69600.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "THE ROLLING GROUP LLC",
+      "totalBidAmount": 80146.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0751 6006",
+      "description": "LITTER PICKUP",
+      "unit": "CYC",
+      "quantity": 48.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 550.0,
+      "bidders": {
+        "SCOUT 5 CONSTRUCTION LLC": 550.0,
+        "SOUTHERN EDGE CONTRACTORS LLC": 100.0,
+        "HX FARMS, INC.": 450.0,
+        "THE ROLLING GROUP LLC": 777.0
+      }
+    },
+    {
+      "itemCode": "0751 6008",
+      "description": "MOWING, TRIMMING, AND EDGING",
+      "unit": "CYC",
+      "quantity": 48.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 550.0,
+      "bidders": {
+        "SCOUT 5 CONSTRUCTION LLC": 550.0,
+        "SOUTHERN EDGE CONTRACTORS LLC": 85.0,
+        "HX FARMS, INC.": 750.0,
+        "THE ROLLING GROUP LLC": 777.0
+      }
+    },
+    {
+      "itemCode": "0751 6011",
+      "description": "PRUNING",
+      "unit": "CYC",
+      "quantity": 2.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "SCOUT 5 CONSTRUCTION LLC": 250.0,
+        "SOUTHERN EDGE CONTRACTORS LLC": 25500.0,
+        "HX FARMS, INC.": 6000.0,
+        "THE ROLLING GROUP LLC": 2777.0
+      }
+    }
+  ]
+}

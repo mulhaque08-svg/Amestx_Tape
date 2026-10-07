@@ -1,0 +1,551 @@
+{
+  "metadata": {
+    "csj": "0002-06-062",
+    "county": "Hudspeth",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2023(118)",
+    "projectType": "PREVENTIVE MAINTENANCE",
+    "letDate": "09/07/22",
+    "engEstTotal": 5305331.55,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DAN WILLIAMS COMPANY",
+      "totalBidAmount": 4777419.05
+    },
+    {
+      "rank": 2,
+      "vendorName": "LESNA CONSTRUCTION, INC.",
+      "totalBidAmount": 6416948.4
+    },
+    {
+      "rank": 3,
+      "vendorName": "INTERNATIONAL EAGLE ENTERPRISES, INC.",
+      "totalBidAmount": 6891382.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0110 6003",
+      "description": "EXCAVATION (SPECIAL)",
+      "unit": "CY",
+      "quantity": 2.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 700.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 700.0,
+        "LESNA CONSTRUCTION, INC.": 850.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0134 6004",
+      "description": "BACKFILL (TY A OR B)",
+      "unit": "STA",
+      "quantity": 255.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 250.0,
+        "LESNA CONSTRUCTION, INC.": 275.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 275.0
+      }
+    },
+    {
+      "itemCode": "0351 6002",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(6\")",
+      "unit": "SY",
+      "quantity": 5381.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 50.0,
+        "LESNA CONSTRUCTION, INC.": 70.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "0354 6002",
+      "description": "PLAN & TEXT ASPH CONC PAV(0\" TO 2\")",
+      "unit": "SY",
+      "quantity": 4289.0,
+      "engEstUnit": 1.33,
+      "lowUnit": 6.5,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 6.5,
+        "LESNA CONSTRUCTION, INC.": 6.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0354 6188",
+      "description": "PLANE ASPH CONC PAV(MICRO-MLLING)(1\")",
+      "unit": "SY",
+      "quantity": 107624.0,
+      "engEstUnit": 0.77,
+      "lowUnit": 0.9,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 0.9,
+        "LESNA CONSTRUCTION, INC.": 4.5,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 8.0
+      }
+    },
+    {
+      "itemCode": "0416 6005",
+      "description": "DRILL SHAFT (42 IN)",
+      "unit": "LF",
+      "quantity": 84.0,
+      "engEstUnit": 565.0,
+      "lowUnit": 570.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 570.0,
+        "LESNA CONSTRUCTION, INC.": 650.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 625.0
+      }
+    },
+    {
+      "itemCode": "0416 6007",
+      "description": "DRILL SHAFT (54 IN)",
+      "unit": "LF",
+      "quantity": 76.0,
+      "engEstUnit": 565.0,
+      "lowUnit": 575.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 575.0,
+        "LESNA CONSTRUCTION, INC.": 700.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 625.0
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 9.0,
+      "engEstUnit": 490.0,
+      "lowUnit": 850.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 850.0,
+        "LESNA CONSTRUCTION, INC.": 900.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 700.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 26.0,
+      "engEstUnit": 475.0,
+      "lowUnit": 625.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 625.0,
+        "LESNA CONSTRUCTION, INC.": 700.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 550.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 296688.02,
+      "lowUnit": 52000.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 52000.0,
+        "LESNA CONSTRUCTION, INC.": 400000.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 600000.0
+      }
+    },
+    {
+      "itemCode": "0533 6003",
+      "description": "RUMBLE STRIPS (SHOULDER) ASPHALT",
+      "unit": "LF",
+      "quantity": 42240.0,
+      "engEstUnit": 0.19,
+      "lowUnit": 0.13,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 0.13,
+        "LESNA CONSTRUCTION, INC.": 0.26,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3370.0,
+      "lowUnit": 3200.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 3200.0,
+        "LESNA CONSTRUCTION, INC.": 3800.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 3800.0
+      }
+    },
+    {
+      "itemCode": "0618 6023",
+      "description": "CONDT (PVC) (SCH 40) (2\")",
+      "unit": "LF",
+      "quantity": 400.0,
+      "engEstUnit": 33.0,
+      "lowUnit": 29.85,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 29.85,
+        "LESNA CONSTRUCTION, INC.": 35.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 33.0
+      }
+    },
+    {
+      "itemCode": "0618 6024",
+      "description": "CONDT (PVC) (SCH 40) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 710.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 42.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 42.0,
+        "LESNA CONSTRUCTION, INC.": 60.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 48.0
+      }
+    },
+    {
+      "itemCode": "0620 6010",
+      "description": "ELEC CONDR (NO.6) INSULATED",
+      "unit": "LF",
+      "quantity": 1000.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 3.26,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 3.26,
+        "LESNA CONSTRUCTION, INC.": 4.5,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0620 6012",
+      "description": "ELEC CONDR (NO.4) INSULATED",
+      "unit": "LF",
+      "quantity": 1215.0,
+      "engEstUnit": 4.2,
+      "lowUnit": 3.95,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 3.95,
+        "LESNA CONSTRUCTION, INC.": 5.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 6.5
+      }
+    },
+    {
+      "itemCode": "0620 6016",
+      "description": "ELEC CONDR (NO.2) INSULATED",
+      "unit": "LF",
+      "quantity": 1650.0,
+      "engEstUnit": 5.25,
+      "lowUnit": 4.7,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 4.7,
+        "LESNA CONSTRUCTION, INC.": 5.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 6.0
+      }
+    },
+    {
+      "itemCode": "0624 6002",
+      "description": "GROUND BOX TY A (122311)W/APRON",
+      "unit": "EA",
+      "quantity": 11.0,
+      "engEstUnit": 1550.0,
+      "lowUnit": 2225.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 2225.0,
+        "LESNA CONSTRUCTION, INC.": 2700.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 3200.0
+      }
+    },
+    {
+      "itemCode": "0628 6128",
+      "description": "ELC SRV TY D 120/240 060(NS)GS(N)GC(O)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 9880.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 9880.0,
+        "LESNA CONSTRUCTION, INC.": 12000.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 12000.0
+      }
+    },
+    {
+      "itemCode": "0628 6225",
+      "description": "ELC SRV TY D 120/240 100(NS)GS(N)GC(O)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 9000.0,
+      "lowUnit": 11105.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 11105.0,
+        "LESNA CONSTRUCTION, INC.": 13000.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 13000.0
+      }
+    },
+    {
+      "itemCode": "0650 6028",
+      "description": "INS OH SN SUP(30 FT BAL TEE)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 41000.0,
+      "lowUnit": 60000.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 60000.0,
+        "LESNA CONSTRUCTION, INC.": 63500.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 67000.0
+      }
+    },
+    {
+      "itemCode": "0662 6109",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY W",
+      "unit": "EA",
+      "quantity": 1708.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.05,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 2.05,
+        "LESNA CONSTRUCTION, INC.": 5.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 316.0,
+      "engEstUnit": 3.23,
+      "lowUnit": 6.35,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 6.35,
+        "LESNA CONSTRUCTION, INC.": 6.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "3080 6001",
+      "description": "STONE-MTRX-ASPH SMA-C SAC-A PG76-22",
+      "unit": "TON",
+      "quantity": 14798.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 153.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 153.0,
+        "LESNA CONSTRUCTION, INC.": 180.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 167.0
+      }
+    },
+    {
+      "itemCode": "3080 6029",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 16144.0,
+      "engEstUnit": 6.5,
+      "lowUnit": 5.5,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 5.5,
+        "LESNA CONSTRUCTION, INC.": 7.5,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 7.75
+      }
+    },
+    {
+      "itemCode": "3082 6004",
+      "description": "TBWC (MEMBRANE)",
+      "unit": "GAL",
+      "quantity": 23677.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 5.0,
+        "LESNA CONSTRUCTION, INC.": 7.5,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 7.75
+      }
+    },
+    {
+      "itemCode": "3082 6005",
+      "description": "TBWC PG76-22 SAC-A TY C",
+      "unit": "TON",
+      "quantity": 5381.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 145.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 145.0,
+        "LESNA CONSTRUCTION, INC.": 175.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 167.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 20.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 130.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 130.0,
+        "LESNA CONSTRUCTION, INC.": 875.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "6003 6001",
+      "description": "ITS SYSTEM SUPPORT EQUIPMENT",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 40000.0,
+      "lowUnit": 60000.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 60000.0,
+        "LESNA CONSTRUCTION, INC.": 58000.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 62000.0
+      }
+    },
+    {
+      "itemCode": "6010 6011",
+      "description": "CCTV FIELD EQUIP (DIGITAL) (INSTL ONLY)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 1055.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 1055.0,
+        "LESNA CONSTRUCTION, INC.": 1200.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 1300.0
+      }
+    },
+    {
+      "itemCode": "6028 6001",
+      "description": "INSTALL DMS (POLE MTD CABINET)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 40000.0,
+      "lowUnit": 40000.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 40000.0,
+        "LESNA CONSTRUCTION, INC.": 41000.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 46000.0
+      }
+    },
+    {
+      "itemCode": "6137 6005",
+      "description": "INSTALLATION OF FES (FIELD CABINET)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1800.0,
+      "lowUnit": 2050.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 2050.0,
+        "LESNA CONSTRUCTION, INC.": 2200.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 2800.0
+      }
+    },
+    {
+      "itemCode": "6386 6001",
+      "description": "INSTALLATION OF CELLULAR MODEM",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 4000.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 4000.0,
+        "LESNA CONSTRUCTION, INC.": 4100.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 4700.0
+      }
+    },
+    {
+      "itemCode": "6433 6001",
+      "description": "FUR & INST ROADWAY WEATHER INFO SYSTEM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 120000.0,
+      "lowUnit": 97000.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 97000.0,
+        "LESNA CONSTRUCTION, INC.": 98000.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 106000.0
+      }
+    },
+    {
+      "itemCode": "6433 6002",
+      "description": "PRECIPITATION TYPE SENSOR",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 9300.0,
+      "lowUnit": 11000.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 11000.0,
+        "LESNA CONSTRUCTION, INC.": 11000.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 12500.0
+      }
+    },
+    {
+      "itemCode": "6433 6003",
+      "description": "AIR TEMPERATURE/RELATIVE HUMIDITY SENSO",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 2305.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 2305.0,
+        "LESNA CONSTRUCTION, INC.": 2500.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 3000.0
+      }
+    },
+    {
+      "itemCode": "6433 6006",
+      "description": "NON-INTRUSIVE PAVEMENT CONDITION SENSOR",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 21000.0,
+      "lowUnit": 20000.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 20000.0,
+        "LESNA CONSTRUCTION, INC.": 22000.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 22000.0
+      }
+    },
+    {
+      "itemCode": "6433 6007",
+      "description": "NON-INTRUSIVE PAVEMENT TEMP SENSOR",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 13000.0,
+      "lowUnit": 15250.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 15250.0,
+        "LESNA CONSTRUCTION, INC.": 16000.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 17300.0
+      }
+    },
+    {
+      "itemCode": "6433 6009",
+      "description": "WINDSPEED/DIRECTION SENSOR",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 4600.0,
+      "lowUnit": 5300.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 5300.0,
+        "LESNA CONSTRUCTION, INC.": 5500.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 6000.0
+      }
+    },
+    {
+      "itemCode": "6433 6010",
+      "description": "BAROMETRIC PRESSURE SENSOR",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2300.0,
+      "lowUnit": 2650.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 2650.0,
+        "LESNA CONSTRUCTION, INC.": 2800.0,
+        "INTERNATIONAL EAGLE ENTERPRISES, INC.": 3200.0
+      }
+    }
+  ]
+}

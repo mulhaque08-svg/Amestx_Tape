@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "csj": "6450-39-001",
+    "county": "Ector",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645039001",
+    "projectType": "CLEANING AND SWEEPING HIGHWAYS",
+    "letDate": "09/07/23",
+    "engEstTotal": 353781.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "J-MEN CONCRETE CONSTRUCTION",
+      "totalBidAmount": 389412.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 764172.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 1900.0,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "J-MEN CONCRETE CONSTRUCTION": 15000.0,
+        "DIGG COMMERCIAL, LLC": 50000.0
+      }
+    },
+    {
+      "itemCode": "0738 6002",
+      "description": "CLEANING / SWEEPING (CENTER MEDIAN)",
+      "unit": "MI",
+      "quantity": 122.58,
+      "engEstUnit": 275.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "J-MEN CONCRETE CONSTRUCTION": 250.0,
+        "DIGG COMMERCIAL, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0738 6004",
+      "description": "CLEANING / SWEEPING (OUTSIDE MAIN LANE)",
+      "unit": "MI",
+      "quantity": 740.16,
+      "engEstUnit": 275.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "J-MEN CONCRETE CONSTRUCTION": 200.0,
+        "DIGG COMMERCIAL, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0738 6006",
+      "description": "CLEANING / SWEEPING (FRONTAGE ROAD)",
+      "unit": "MI",
+      "quantity": 32.4,
+      "engEstUnit": 275.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "J-MEN CONCRETE CONSTRUCTION": 200.0,
+        "DIGG COMMERCIAL, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0738 6008",
+      "description": "CLEANING / SWEEPING(ENTRANCE/EXIT RAMP)",
+      "unit": "MI",
+      "quantity": 73.8,
+      "engEstUnit": 275.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "J-MEN CONCRETE CONSTRUCTION": 200.0,
+        "DIGG COMMERCIAL, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0738 6010",
+      "description": "CLEANING / SWEEPING (SPOT)",
+      "unit": "MI",
+      "quantity": 9.9,
+      "engEstUnit": 275.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "J-MEN CONCRETE CONSTRUCTION": 50.0,
+        "DIGG COMMERCIAL, LLC": 500.0
+      }
+    }
+  ]
+}

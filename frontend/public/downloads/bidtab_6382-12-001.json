@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6382-12-001",
+    "county": "Starr",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638212001",
+    "projectType": "SWEEPING AND DEBRIS REMOVAL",
+    "letDate": "01/07/22",
+    "engEstTotal": 653320.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SWEEPING CORPORATION OF AMERICA, INC.",
+      "totalBidAmount": 696288.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "PROFESSIONAL TRAFFIC CONTROL LLC",
+      "totalBidAmount": 1123133.59
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 50000.0,
+      "lowUnit": 24000.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, INC.": 24000.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0738 6002",
+      "description": "CLEANING / SWEEPING (CENTER MEDIAN)",
+      "unit": "MI",
+      "quantity": 1037.6,
+      "engEstUnit": 250.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, INC.": 300.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 449.99
+      }
+    },
+    {
+      "itemCode": "0738 6004",
+      "description": "CLEANING / SWEEPING (OUTSIDE MAIN LANE)",
+      "unit": "MI",
+      "quantity": 927.28,
+      "engEstUnit": 250.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, INC.": 300.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 449.99
+      }
+    },
+    {
+      "itemCode": "0738 6006",
+      "description": "CLEANING / SWEEPING (FRONTAGE ROAD)",
+      "unit": "MI",
+      "quantity": 224.8,
+      "engEstUnit": 250.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, INC.": 300.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 449.99
+      }
+    },
+    {
+      "itemCode": "0738 6010",
+      "description": "CLEANING / SWEEPING (SPOT)",
+      "unit": "MI",
+      "quantity": 50.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, INC.": 300.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 449.99
+      }
+    }
+  ]
+}

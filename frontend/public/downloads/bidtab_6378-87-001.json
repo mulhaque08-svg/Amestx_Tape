@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6378-87-001",
+    "county": "Nacogdoches",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637887001",
+    "projectType": "EMULSION",
+    "letDate": "07/15/21",
+    "engEstTotal": 71675.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 71610.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CLEVELAND ASPHALT PRODUCTS, INC.",
+      "totalBidAmount": 73810.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ERGON ASPHALT & EMULSIONS, INC.",
+      "totalBidAmount": 81130.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6252",
+      "description": "CRS2P (DEL) (SITE 1)",
+      "unit": "GAL",
+      "quantity": 18500.0,
+      "engEstUnit": 2.35,
+      "lowUnit": 2.34,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.34,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 2.42,
+        "ERGON ASPHALT & EMULSIONS, INC.": 2.66
+      }
+    },
+    {
+      "itemCode": "8010 6253",
+      "description": "CRS2P (DEL) (SITE 2)",
+      "unit": "GAL",
+      "quantity": 12000.0,
+      "engEstUnit": 2.35,
+      "lowUnit": 2.36,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.36,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 2.42,
+        "ERGON ASPHALT & EMULSIONS, INC.": 2.66
+      }
+    }
+  ]
+}

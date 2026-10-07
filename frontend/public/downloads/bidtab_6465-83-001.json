@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6465-83-001",
+    "county": "Kaufman",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646583001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "06/11/24",
+    "engEstTotal": 122000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 140000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 160000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "A. L. HELMCAMP, INC.",
+      "totalBidAmount": 185540.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6011",
+      "description": "FL BS (SITE DEL)(TY D GR 1-2)(SITE 1)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 29.0,
+      "lowUnit": 32.25,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 32.25,
+        "TOUCHSTONE RESOURCES, LLC": 40.0,
+        "A. L. HELMCAMP, INC.": 43.26
+      }
+    },
+    {
+      "itemCode": "8007 6012",
+      "description": "FL BS (SITE DEL)(TY D GR 1-2)(SITE 2)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 32.0,
+      "lowUnit": 37.75,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 37.75,
+        "TOUCHSTONE RESOURCES, LLC": 40.0,
+        "A. L. HELMCAMP, INC.": 49.51
+      }
+    }
+  ]
+}

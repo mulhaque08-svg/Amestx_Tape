@@ -1,0 +1,611 @@
+{
+  "metadata": {
+    "csj": "1245-02-050",
+    "county": "Potter",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2023(053)",
+    "projectType": "PREVENTIVE MAINTENANCE",
+    "letDate": "09/08/22",
+    "engEstTotal": 7835330.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RK HALL, LLC",
+      "totalBidAmount": 7909237.48
+    },
+    {
+      "rank": 2,
+      "vendorName": "DUININCK, INC.",
+      "totalBidAmount": 8332385.4
+    },
+    {
+      "rank": 3,
+      "vendorName": "GILVIN-TERRILL, LTD.",
+      "totalBidAmount": 8563707.92
+    },
+    {
+      "rank": 4,
+      "vendorName": "J. LEE MILLIGAN, INC.",
+      "totalBidAmount": 8649185.55
+    },
+    {
+      "rank": 5,
+      "vendorName": "KIEWIT INFRASTRUCTURE SOUTH CO.",
+      "totalBidAmount": 9652783.73
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6001",
+      "description": "PREPARING ROW",
+      "unit": "AC",
+      "quantity": 24.77,
+      "engEstUnit": 200.0,
+      "lowUnit": 278.29,
+      "bidders": {
+        "RK HALL, LLC": 278.29,
+        "DUININCK, INC.": 105.0,
+        "GILVIN-TERRILL, LTD.": 500.0,
+        "J. LEE MILLIGAN, INC.": 490.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 369.5
+      }
+    },
+    {
+      "itemCode": "0104 6054",
+      "description": "REMOVING CONCRETE(MOW STRIP)",
+      "unit": "LF",
+      "quantity": 4455.0,
+      "engEstUnit": 9.0,
+      "lowUnit": 15.9,
+      "bidders": {
+        "RK HALL, LLC": 15.9,
+        "DUININCK, INC.": 5.15,
+        "GILVIN-TERRILL, LTD.": 5.0,
+        "J. LEE MILLIGAN, INC.": 8.55,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 5.07
+      }
+    },
+    {
+      "itemCode": "0134 6001",
+      "description": "BACKFILL (TY A)",
+      "unit": "STA",
+      "quantity": 542.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 259.54,
+      "bidders": {
+        "RK HALL, LLC": 259.54,
+        "DUININCK, INC.": 340.0,
+        "GILVIN-TERRILL, LTD.": 250.0,
+        "J. LEE MILLIGAN, INC.": 265.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 288.77
+      }
+    },
+    {
+      "itemCode": "0164 6042",
+      "description": "DRILL SEEDING (TEMP) (WARM)",
+      "unit": "AC",
+      "quantity": 24.86,
+      "engEstUnit": 600.0,
+      "lowUnit": 441.3,
+      "bidders": {
+        "RK HALL, LLC": 441.3,
+        "DUININCK, INC.": 440.0,
+        "GILVIN-TERRILL, LTD.": 450.0,
+        "J. LEE MILLIGAN, INC.": 580.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 704.08
+      }
+    },
+    {
+      "itemCode": "0351 6012",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(2\")",
+      "unit": "SY",
+      "quantity": 7470.0,
+      "engEstUnit": 21.0,
+      "lowUnit": 20.91,
+      "bidders": {
+        "RK HALL, LLC": 20.91,
+        "DUININCK, INC.": 26.5,
+        "GILVIN-TERRILL, LTD.": 30.0,
+        "J. LEE MILLIGAN, INC.": 31.45,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 30.92
+      }
+    },
+    {
+      "itemCode": "0354 6179",
+      "description": "PLANE ASPH CONC PAV (0\"-2.75\")",
+      "unit": "SY",
+      "quantity": 3272.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.94,
+      "bidders": {
+        "RK HALL, LLC": 4.94,
+        "DUININCK, INC.": 5.65,
+        "GILVIN-TERRILL, LTD.": 5.0,
+        "J. LEE MILLIGAN, INC.": 5.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 3.84
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 58.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 1272.0,
+      "bidders": {
+        "RK HALL, LLC": 1272.0,
+        "DUININCK, INC.": 845.0,
+        "GILVIN-TERRILL, LTD.": 800.0,
+        "J. LEE MILLIGAN, INC.": 740.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 1126.52
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 650000.0,
+      "lowUnit": 197730.93,
+      "bidders": {
+        "RK HALL, LLC": 197730.93,
+        "DUININCK, INC.": 480000.0,
+        "GILVIN-TERRILL, LTD.": 850000.0,
+        "J. LEE MILLIGAN, INC.": 859000.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 959761.79
+      }
+    },
+    {
+      "itemCode": "0530 6002",
+      "description": "INTERSECTIONS (ACP)",
+      "unit": "SY",
+      "quantity": 892.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 25.96,
+      "bidders": {
+        "RK HALL, LLC": 25.96,
+        "DUININCK, INC.": 29.5,
+        "GILVIN-TERRILL, LTD.": 65.0,
+        "J. LEE MILLIGAN, INC.": 58.25,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 72.79
+      }
+    },
+    {
+      "itemCode": "0533 6001",
+      "description": "RUMBLE STRIPS (SHOULDER)",
+      "unit": "LF",
+      "quantity": 107560.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.16,
+      "bidders": {
+        "RK HALL, LLC": 0.16,
+        "DUININCK, INC.": 0.1,
+        "GILVIN-TERRILL, LTD.": 0.3,
+        "J. LEE MILLIGAN, INC.": 0.25,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 0.1
+      }
+    },
+    {
+      "itemCode": "0533 6002",
+      "description": "RUMBLE STRIPS (CENTERLINE)",
+      "unit": "LF",
+      "quantity": 53780.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.18,
+      "bidders": {
+        "RK HALL, LLC": 0.18,
+        "DUININCK, INC.": 0.15,
+        "GILVIN-TERRILL, LTD.": 0.3,
+        "J. LEE MILLIGAN, INC.": 0.3,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 0.1
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 2595.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.24,
+      "bidders": {
+        "RK HALL, LLC": 4.24,
+        "DUININCK, INC.": 2.65,
+        "GILVIN-TERRILL, LTD.": 4.0,
+        "J. LEE MILLIGAN, INC.": 3.15,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 4.51
+      }
+    },
+    {
+      "itemCode": "0542 6004",
+      "description": "RM MTL BM GD FENCE TRANS (THRIE-BEAM)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 424.0,
+      "bidders": {
+        "RK HALL, LLC": 424.0,
+        "DUININCK, INC.": 265.0,
+        "GILVIN-TERRILL, LTD.": 400.0,
+        "J. LEE MILLIGAN, INC.": 315.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 450.61
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 4200.0,
+      "lowUnit": 3312.5,
+      "bidders": {
+        "RK HALL, LLC": 3312.5,
+        "DUININCK, INC.": 3300.0,
+        "GILVIN-TERRILL, LTD.": 3125.0,
+        "J. LEE MILLIGAN, INC.": 3700.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 3520.38
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 424.0,
+      "bidders": {
+        "RK HALL, LLC": 424.0,
+        "DUININCK, INC.": 265.0,
+        "GILVIN-TERRILL, LTD.": 400.0,
+        "J. LEE MILLIGAN, INC.": 315.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 450.61
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 41.0,
+      "engEstUnit": 850.0,
+      "lowUnit": 832.1,
+      "bidders": {
+        "RK HALL, LLC": 832.1,
+        "DUININCK, INC.": 675.0,
+        "GILVIN-TERRILL, LTD.": 820.0,
+        "J. LEE MILLIGAN, INC.": 1055.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 884.32
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 11.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 1018.66,
+      "bidders": {
+        "RK HALL, LLC": 1018.66,
+        "DUININCK, INC.": 830.0,
+        "GILVIN-TERRILL, LTD.": 37.0,
+        "J. LEE MILLIGAN, INC.": 1185.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 1082.59
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 134.48,
+      "bidders": {
+        "RK HALL, LLC": 134.48,
+        "DUININCK, INC.": 21.0,
+        "GILVIN-TERRILL, LTD.": 110.0,
+        "J. LEE MILLIGAN, INC.": 110.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 168.98
+      }
+    },
+    {
+      "itemCode": "0658 6013",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 16.0,
+      "lowUnit": 36.04,
+      "bidders": {
+        "RK HALL, LLC": 36.04,
+        "DUININCK, INC.": 21.0,
+        "GILVIN-TERRILL, LTD.": 34.0,
+        "J. LEE MILLIGAN, INC.": 21.1,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 38.3
+      }
+    },
+    {
+      "itemCode": "0658 6061",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2",
+      "unit": "EA",
+      "quantity": 57.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 47.7,
+      "bidders": {
+        "RK HALL, LLC": 47.7,
+        "DUININCK, INC.": 38.5,
+        "GILVIN-TERRILL, LTD.": 45.0,
+        "J. LEE MILLIGAN, INC.": 44.85,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 50.69
+      }
+    },
+    {
+      "itemCode": "0658 6100",
+      "description": "INSTL OM ASSM (OM-2Z)(WFLX)GND(BI)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 128.26,
+      "bidders": {
+        "RK HALL, LLC": 128.26,
+        "DUININCK, INC.": 185.0,
+        "GILVIN-TERRILL, LTD.": 145.0,
+        "J. LEE MILLIGAN, INC.": 163.5,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 136.31
+      }
+    },
+    {
+      "itemCode": "0662 6001",
+      "description": "WK ZN PAV MRK NON-REMOV (W)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 5760.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 0.21,
+      "bidders": {
+        "RK HALL, LLC": 0.21,
+        "DUININCK, INC.": 0.21,
+        "GILVIN-TERRILL, LTD.": 0.2,
+        "J. LEE MILLIGAN, INC.": 0.21,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 0.23
+      }
+    },
+    {
+      "itemCode": "0662 6032",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 6805.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 0.21,
+      "bidders": {
+        "RK HALL, LLC": 0.21,
+        "DUININCK, INC.": 0.21,
+        "GILVIN-TERRILL, LTD.": 0.2,
+        "J. LEE MILLIGAN, INC.": 0.21,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 0.23
+      }
+    },
+    {
+      "itemCode": "0662 6034",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 85180.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 0.18,
+      "bidders": {
+        "RK HALL, LLC": 0.18,
+        "DUININCK, INC.": 0.18,
+        "GILVIN-TERRILL, LTD.": 0.17,
+        "J. LEE MILLIGAN, INC.": 0.18,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 0.19
+      }
+    },
+    {
+      "itemCode": "0662 6109",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY W",
+      "unit": "EA",
+      "quantity": 3179.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.29,
+      "bidders": {
+        "RK HALL, LLC": 1.29,
+        "DUININCK, INC.": 1.05,
+        "GILVIN-TERRILL, LTD.": 1.0,
+        "J. LEE MILLIGAN, INC.": 1.6,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 2.25
+      }
+    },
+    {
+      "itemCode": "0662 6110",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y",
+      "unit": "EA",
+      "quantity": 12612.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.29,
+      "bidders": {
+        "RK HALL, LLC": 1.29,
+        "DUININCK, INC.": 1.05,
+        "GILVIN-TERRILL, LTD.": 1.0,
+        "J. LEE MILLIGAN, INC.": 1.65,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 2.25
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 290.0,
+      "engEstUnit": 3.25,
+      "lowUnit": 6.36,
+      "bidders": {
+        "RK HALL, LLC": 6.36,
+        "DUININCK, INC.": 6.3,
+        "GILVIN-TERRILL, LTD.": 6.0,
+        "J. LEE MILLIGAN, INC.": 6.35,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 6.76
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 1411.0,
+      "engEstUnit": 3.25,
+      "lowUnit": 5.3,
+      "bidders": {
+        "RK HALL, LLC": 5.3,
+        "DUININCK, INC.": 5.25,
+        "GILVIN-TERRILL, LTD.": 5.0,
+        "J. LEE MILLIGAN, INC.": 5.25,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 5.63
+      }
+    },
+    {
+      "itemCode": "3057 6001",
+      "description": "REINFORMT GRID FOR ASPHALT PVMT OVERLAY",
+      "unit": "SY",
+      "quantity": 188864.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 8.06,
+      "bidders": {
+        "RK HALL, LLC": 8.06,
+        "DUININCK, INC.": 8.0,
+        "GILVIN-TERRILL, LTD.": 8.0,
+        "J. LEE MILLIGAN, INC.": 8.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 8.73
+      }
+    },
+    {
+      "itemCode": "3076 6058",
+      "description": "D-GR HMA TY-F SAC-A PG70-22",
+      "unit": "TON",
+      "quantity": 9144.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 137.23,
+      "bidders": {
+        "RK HALL, LLC": 137.23,
+        "DUININCK, INC.": 145.0,
+        "GILVIN-TERRILL, LTD.": 135.0,
+        "J. LEE MILLIGAN, INC.": 135.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 170.49
+      }
+    },
+    {
+      "itemCode": "3076 6066",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 28817.0,
+      "engEstUnit": 5.5,
+      "lowUnit": 4.39,
+      "bidders": {
+        "RK HALL, LLC": 4.39,
+        "DUININCK, INC.": 3.4,
+        "GILVIN-TERRILL, LTD.": 4.5,
+        "J. LEE MILLIGAN, INC.": 4.75,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 4.97
+      }
+    },
+    {
+      "itemCode": "3077 6058",
+      "description": "SP MIXES SP-D SAC-A PG70-28",
+      "unit": "TON",
+      "quantity": 24430.0,
+      "engEstUnit": 122.0,
+      "lowUnit": 137.03,
+      "bidders": {
+        "RK HALL, LLC": 137.03,
+        "DUININCK, INC.": 141.6,
+        "GILVIN-TERRILL, LTD.": 140.0,
+        "J. LEE MILLIGAN, INC.": 134.75,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 148.38
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 39620.0,
+      "engEstUnit": 5.5,
+      "lowUnit": 7.49,
+      "bidders": {
+        "RK HALL, LLC": 7.49,
+        "DUININCK, INC.": 7.2,
+        "GILVIN-TERRILL, LTD.": 4.5,
+        "J. LEE MILLIGAN, INC.": 7.4,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 7.14
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 24837.8,
+      "bidders": {
+        "RK HALL, LLC": 24837.8,
+        "DUININCK, INC.": 10500.0,
+        "GILVIN-TERRILL, LTD.": 20000.0,
+        "J. LEE MILLIGAN, INC.": 16500.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 24383.72
+      }
+    },
+    {
+      "itemCode": "6024 6002",
+      "description": "HPPM W/RET REQ TY I(W)4\"(BRK)(090MIL)",
+      "unit": "LF",
+      "quantity": 5760.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 0.51,
+      "bidders": {
+        "RK HALL, LLC": 0.51,
+        "DUININCK, INC.": 0.51,
+        "GILVIN-TERRILL, LTD.": 0.48,
+        "J. LEE MILLIGAN, INC.": 0.5,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 0.54
+      }
+    },
+    {
+      "itemCode": "6024 6005",
+      "description": "HPPM W/RET REQ TY I(W)4\"(SLD)(090MIL)",
+      "unit": "LF",
+      "quantity": 108354.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.46,
+      "bidders": {
+        "RK HALL, LLC": 0.46,
+        "DUININCK, INC.": 0.45,
+        "GILVIN-TERRILL, LTD.": 0.43,
+        "J. LEE MILLIGAN, INC.": 0.45,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 0.48
+      }
+    },
+    {
+      "itemCode": "6024 6014",
+      "description": "HPPM W/RET REQ TY I(Y)4\"(BRK)(090MIL)",
+      "unit": "LF",
+      "quantity": 6805.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 0.51,
+      "bidders": {
+        "RK HALL, LLC": 0.51,
+        "DUININCK, INC.": 0.51,
+        "GILVIN-TERRILL, LTD.": 0.48,
+        "J. LEE MILLIGAN, INC.": 0.5,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 0.54
+      }
+    },
+    {
+      "itemCode": "6024 6017",
+      "description": "HPPM W/RET REQ TY I(Y)4\"(SLD)(090MIL)",
+      "unit": "LF",
+      "quantity": 85180.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.46,
+      "bidders": {
+        "RK HALL, LLC": 0.46,
+        "DUININCK, INC.": 0.45,
+        "GILVIN-TERRILL, LTD.": 0.43,
+        "J. LEE MILLIGAN, INC.": 0.45,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 0.48
+      }
+    }
+  ]
+}

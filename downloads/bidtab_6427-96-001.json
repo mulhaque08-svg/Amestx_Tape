@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6427-96-001",
+    "county": "Robertson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642796001",
+    "projectType": "HOT MIX",
+    "letDate": "01/06/23",
+    "engEstTotal": 416000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 341500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BRAZOS PAVING, INC.",
+      "totalBidAmount": 345500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 94.0,
+      "lowUnit": 78.5,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 78.5,
+        "BRAZOS PAVING, INC.": 79.5
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2500.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 89.5,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 89.5,
+        "BRAZOS PAVING, INC.": 90.5
+      }
+    }
+  ]
+}

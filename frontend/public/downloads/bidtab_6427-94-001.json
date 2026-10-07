@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6427-94-001",
+    "county": "Milam",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642794001",
+    "projectType": "HOT MIX",
+    "letDate": "01/05/23",
+    "engEstTotal": 458800.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 381000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BIG CREEK CONSTRUCTION, LTD.",
+      "totalBidAmount": 400000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "BRAZOS PAVING, INC.",
+      "totalBidAmount": 410370.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 427400.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "LONE STAR PAVING COMPANY",
+      "totalBidAmount": 510000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 94.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 80.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 80.0,
+        "BRAZOS PAVING, INC.": 80.85,
+        "TEXAS MATERIALS GROUP, INC.": 84.0,
+        "LONE STAR PAVING COMPANY": 80.0
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 4000.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 91.25,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 91.25,
+        "BIG CREEK CONSTRUCTION, LTD.": 96.0,
+        "BRAZOS PAVING, INC.": 98.55,
+        "TEXAS MATERIALS GROUP, INC.": 102.65,
+        "LONE STAR PAVING COMPANY": 123.5
+      }
+    }
+  ]
+}

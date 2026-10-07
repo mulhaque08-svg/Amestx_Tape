@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "csj": "6448-77-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 644877001",
+    "projectType": "REMOVAL AND DISPOSAL OF DRIFTWOOD",
+    "letDate": "01/10/24",
+    "engEstTotal": 221150.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 194080.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ALBECO CONTRACTORS LLC",
+      "totalBidAmount": 205950.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "L & M MOWING CONTRACTORS, LLC",
+      "totalBidAmount": 218632.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 247875.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "MARCOM'S MOWING SERVICE, LLC",
+      "totalBidAmount": 314738.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0110 6004",
+      "description": "EXCAVATION (ROADWAY AND CHANNEL)",
+      "unit": "CY",
+      "quantity": 900.0,
+      "engEstUnit": 36.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 10.0,
+        "ALBECO CONTRACTORS LLC": 86.0,
+        "L & M MOWING CONTRACTORS, LLC": 45.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 45.0,
+        "MARCOM'S MOWING SERVICE, LLC": 50.83
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 1000.0,
+        "ALBECO CONTRACTORS LLC": 1500.0,
+        "L & M MOWING CONTRACTORS, LLC": 1.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 1000.0,
+        "MARCOM'S MOWING SERVICE, LLC": 2750.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 50.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 0.1,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 0.1,
+        "ALBECO CONTRACTORS LLC": 1.0,
+        "L & M MOWING CONTRACTORS, LLC": 1.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 1.0,
+        "MARCOM'S MOWING SERVICE, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "7000 6001",
+      "description": "REML & DISPL DRIFTWOOD & DEBRIS",
+      "unit": "CY",
+      "quantity": 2225.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 80.0,
+        "ALBECO CONTRACTORS LLC": 53.0,
+        "L & M MOWING CONTRACTORS, LLC": 80.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 90.0,
+        "MARCOM'S MOWING SERVICE, LLC": 109.94
+      }
+    }
+  ]
+}

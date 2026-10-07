@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6388-91-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638891001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/07/21",
+    "engEstTotal": 296443.8,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 272536.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GANT CONTRACTORS, INC.",
+      "totalBidAmount": 273136.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "PRESLEY LAND MANAGEMENT LLC",
+      "totalBidAmount": 276435.1
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 21958.8,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ANTHONY SERVICES": 1.0,
+        "GANT CONTRACTORS, INC.": 1.0,
+        "PRESLEY LAND MANAGEMENT LLC": 0.1
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 48.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "ANTHONY SERVICES": 30.0,
+        "GANT CONTRACTORS, INC.": 42.0,
+        "PRESLEY LAND MANAGEMENT LLC": 45.0
+      }
+    },
+    {
+      "itemCode": "0730 6104",
+      "description": "FULL-WIDTH MOWING (RURAL)",
+      "unit": "AC",
+      "quantity": 1050.0,
+      "engEstUnit": 43.0,
+      "lowUnit": 42.0,
+      "bidders": {
+        "ANTHONY SERVICES": 42.0,
+        "GANT CONTRACTORS, INC.": 42.0,
+        "PRESLEY LAND MANAGEMENT LLC": 45.0
+      }
+    },
+    {
+      "itemCode": "0730 6105",
+      "description": "FULL-WIDTH MOWING (URBAN)",
+      "unit": "AC",
+      "quantity": 5043.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "ANTHONY SERVICES": 45.0,
+        "GANT CONTRACTORS, INC.": 45.0,
+        "PRESLEY LAND MANAGEMENT LLC": 45.0
+      }
+    }
+  ]
+}

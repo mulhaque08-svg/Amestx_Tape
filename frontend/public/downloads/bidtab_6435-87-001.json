@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6435-87-001",
+    "county": "Ellis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643587001",
+    "projectType": "CLEANING AND SWEEPING HIGHWAYS",
+    "letDate": "06/28/23",
+    "engEstTotal": 1437873.93,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SWEEPING CORPORATION OF AMERICA, LLC",
+      "totalBidAmount": 541558.25
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 1304613.7
+    },
+    {
+      "rank": 3,
+      "vendorName": "VIZCAINO, L.P.",
+      "totalBidAmount": 1940860.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 130715.81,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 10000.0,
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "VIZCAINO, L.P.": 5000.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "csj": "6467-74-001",
+    "county": "Grayson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646774001",
+    "projectType": "TRAFFIC CONTROL SERVICES",
+    "letDate": "07/09/24",
+    "engEstTotal": 995000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RHINO EQUITY, LLC",
+      "totalBidAmount": 767401.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "FC TRAFFIC CONTROL, INC.",
+      "totalBidAmount": 830410.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "BARRICADES UNLIMITED",
+      "totalBidAmount": 833501.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "AWP SAFETY",
+      "totalBidAmount": 859675.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "SUPERIOR TRAFFIC CONTROL, LLC",
+      "totalBidAmount": 863000.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "ROSS SA ENTERPRISE LLC",
+      "totalBidAmount": 907000.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "PROFESSIONAL TRAFFIC CONTROL LLC",
+      "totalBidAmount": 922500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 90000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 1.0,
+        "FC TRAFFIC CONTROL, INC.": 10.0,
+        "BARRICADES UNLIMITED": 1.0,
+        "AWP SAFETY": 25115.0,
+        "SUPERIOR TRAFFIC CONTROL, LLC": 100000.0,
+        "ROSS SA ENTERPRISE LLC": 55000.0
+      }
+    },
+    {
+      "itemCode": "0510 6001",
+      "description": "ONE-WAY TRAF CONT (FLAGGER CONT)",
+      "unit": "HR",
+      "quantity": 500.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 150.0,
+        "FC TRAFFIC CONTROL, INC.": 50.0,
+        "BARRICADES UNLIMITED": 120.0,
+        "AWP SAFETY": 47.0,
+        "SUPERIOR TRAFFIC CONTROL, LLC": 60.0,
+        "ROSS SA ENTERPRISE LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0510 6002",
+      "description": "ONE-WAY TRAF CONT (PILOT CAR)",
+      "unit": "HR",
+      "quantity": 3000.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 75.0,
+        "FC TRAFFIC CONTROL, INC.": 50.0,
+        "BARRICADES UNLIMITED": 100.0,
+        "AWP SAFETY": 157.0,
+        "SUPERIOR TRAFFIC CONTROL, LLC": 100.0,
+        "ROSS SA ENTERPRISE LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "7139 6002",
+      "description": "LANE CLOSURE (TYPE 2)",
+      "unit": "HR",
+      "quantity": 80.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 145.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 145.0,
+        "FC TRAFFIC CONTROL, INC.": 45.0,
+        "BARRICADES UNLIMITED": 50.0,
+        "AWP SAFETY": 123.0,
+        "SUPERIOR TRAFFIC CONTROL, LLC": 400.0,
+        "ROSS SA ENTERPRISE LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "7139 6004",
+      "description": "LANE CLOSURE (TYPE 4)",
+      "unit": "HR",
+      "quantity": 40.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 145.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 145.0,
+        "FC TRAFFIC CONTROL, INC.": 45.0,
+        "BARRICADES UNLIMITED": 50.0,
+        "AWP SAFETY": 173.0,
+        "SUPERIOR TRAFFIC CONTROL, LLC": 200.0,
+        "ROSS SA ENTERPRISE LLC": 125.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,750 @@
+{
+  "metadata": {
+    "csj": "0816-02-083",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2023(437)",
+    "projectType": "REPLACE BRIDGE AND APPROACHES",
+    "letDate": "02/02/23",
+    "engEstTotal": 4133176.8,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ED BELL CONSTRUCTION COMPANY",
+      "totalBidAmount": 4788222.29
+    },
+    {
+      "rank": 2,
+      "vendorName": "INDUS ROAD & BRIDGE, INC.",
+      "totalBidAmount": 4825268.97
+    },
+    {
+      "rank": 3,
+      "vendorName": "MCMAHON CONTRACTING AND CONSTRUCTION, LLC",
+      "totalBidAmount": 5254514.17
+    },
+    {
+      "rank": 4,
+      "vendorName": "JAGOE-PUBLIC COMPANY",
+      "totalBidAmount": 5755126.9
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 15.5,
+      "engEstUnit": 15000.0,
+      "lowUnit": 17250.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 17250.0,
+        "INDUS ROAD & BRIDGE, INC.": 6200.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 3447.57,
+        "JAGOE-PUBLIC COMPANY": 5000.0
+      }
+    },
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 313.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 21.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 21.0,
+        "INDUS ROAD & BRIDGE, INC.": 42.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 27.06,
+        "JAGOE-PUBLIC COMPANY": 29.0
+      }
+    },
+    {
+      "itemCode": "0105 6075",
+      "description": "REMOV STAB BASE AND ASPH PAV (10\"-18\")",
+      "unit": "SY",
+      "quantity": 3245.0,
+      "engEstUnit": 9.0,
+      "lowUnit": 9.9,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 9.9,
+        "INDUS ROAD & BRIDGE, INC.": 16.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 11.78,
+        "JAGOE-PUBLIC COMPANY": 11.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 4604.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 10.0,
+        "INDUS ROAD & BRIDGE, INC.": 35.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 30.76,
+        "JAGOE-PUBLIC COMPANY": 10.0
+      }
+    },
+    {
+      "itemCode": "0132 6006",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY C)",
+      "unit": "CY",
+      "quantity": 14625.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 25.0,
+        "INDUS ROAD & BRIDGE, INC.": 34.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 30.73,
+        "JAGOE-PUBLIC COMPANY": 37.0
+      }
+    },
+    {
+      "itemCode": "0161 6017",
+      "description": "COMPOST MANUF TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 19411.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.25,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 2.25,
+        "INDUS ROAD & BRIDGE, INC.": 1.8,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 2.25,
+        "JAGOE-PUBLIC COMPANY": 2.5
+      }
+    },
+    {
+      "itemCode": "0162 6002",
+      "description": "BLOCK SODDING",
+      "unit": "SY",
+      "quantity": 19411.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 4.01,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 4.01,
+        "INDUS ROAD & BRIDGE, INC.": 4.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 5.49,
+        "JAGOE-PUBLIC COMPANY": 6.0
+      }
+    },
+    {
+      "itemCode": "0164 6051",
+      "description": "DRILL SEED (TEMP)(WARM OR COOL)",
+      "unit": "SY",
+      "quantity": 19411.0,
+      "engEstUnit": 0.35,
+      "lowUnit": 0.27,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 0.27,
+        "INDUS ROAD & BRIDGE, INC.": 0.3,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 0.4,
+        "JAGOE-PUBLIC COMPANY": 0.15
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 5776.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 3.06,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 3.06,
+        "INDUS ROAD & BRIDGE, INC.": 18.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 25.0,
+        "JAGOE-PUBLIC COMPANY": 10.0
+      }
+    },
+    {
+      "itemCode": "0310 6027",
+      "description": "PRIME COAT(MC-30 OR AE-P)",
+      "unit": "GAL",
+      "quantity": 916.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 13.38,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 13.38,
+        "INDUS ROAD & BRIDGE, INC.": 14.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 14.75,
+        "JAGOE-PUBLIC COMPANY": 2.5
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 196.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 325.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 325.0,
+        "INDUS ROAD & BRIDGE, INC.": 250.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 196.19,
+        "JAGOE-PUBLIC COMPANY": 240.0
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 470.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 85.36,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 85.36,
+        "INDUS ROAD & BRIDGE, INC.": 25.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 100.43,
+        "JAGOE-PUBLIC COMPANY": 52.0
+      }
+    },
+    {
+      "itemCode": "0416 6001",
+      "description": "DRILL SHAFT (18 IN)",
+      "unit": "LF",
+      "quantity": 166.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 175.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 175.0,
+        "INDUS ROAD & BRIDGE, INC.": 135.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 230.7,
+        "JAGOE-PUBLIC COMPANY": 140.0
+      }
+    },
+    {
+      "itemCode": "0416 6004",
+      "description": "DRILL SHAFT (36 IN)",
+      "unit": "LF",
+      "quantity": 882.0,
+      "engEstUnit": 260.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 300.0,
+        "INDUS ROAD & BRIDGE, INC.": 245.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 318.29,
+        "JAGOE-PUBLIC COMPANY": 260.0
+      }
+    },
+    {
+      "itemCode": "0422 6002",
+      "description": "REINF CONC SLAB (HPC)",
+      "unit": "SF",
+      "quantity": 18130.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 27.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 27.0,
+        "INDUS ROAD & BRIDGE, INC.": 27.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 31.28,
+        "JAGOE-PUBLIC COMPANY": 40.0
+      }
+    },
+    {
+      "itemCode": "0422 6016",
+      "description": "APPROACH SLAB (HPC)",
+      "unit": "CY",
+      "quantity": 75.4,
+      "engEstUnit": 630.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 800.0,
+        "INDUS ROAD & BRIDGE, INC.": 670.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 855.63,
+        "JAGOE-PUBLIC COMPANY": 1600.0
+      }
+    },
+    {
+      "itemCode": "0432 6031",
+      "description": "RIPRAP (STONE PROTECTION)(12 IN)",
+      "unit": "CY",
+      "quantity": 1412.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 175.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 175.0,
+        "INDUS ROAD & BRIDGE, INC.": 175.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 179.01,
+        "JAGOE-PUBLIC COMPANY": 220.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 25.0,
+      "engEstUnit": 550.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 600.0,
+        "INDUS ROAD & BRIDGE, INC.": 1000.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 792.51,
+        "JAGOE-PUBLIC COMPANY": 1100.0
+      }
+    },
+    {
+      "itemCode": "0454 6020",
+      "description": "SEALED EXPANSION JOINT (4 IN) (SEJ - B)",
+      "unit": "LF",
+      "quantity": 144.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 125.0,
+        "INDUS ROAD & BRIDGE, INC.": 145.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 152.44,
+        "JAGOE-PUBLIC COMPANY": 100.0
+      }
+    },
+    {
+      "itemCode": "0467 6391",
+      "description": "SET (TY II) (24 IN) (RCP) (4: 1) (P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 999.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 999.0,
+        "INDUS ROAD & BRIDGE, INC.": 3000.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 1887.93,
+        "JAGOE-PUBLIC COMPANY": 2300.0
+      }
+    },
+    {
+      "itemCode": "0496 6010",
+      "description": "REMOV STR (BRIDGE 100 - 499 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 100000.0,
+      "lowUnit": 125000.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 125000.0,
+        "INDUS ROAD & BRIDGE, INC.": 100000.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 150780.0,
+        "JAGOE-PUBLIC COMPANY": 200000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 375743.35,
+      "lowUnit": 468000.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 468000.0,
+        "INDUS ROAD & BRIDGE, INC.": 470950.87,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 517115.0,
+        "JAGOE-PUBLIC COMPANY": 500000.0
+      }
+    },
+    {
+      "itemCode": "0508 6001",
+      "description": "CONSTRUCTING DETOURS",
+      "unit": "SY",
+      "quantity": 1006.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 101.57,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 101.57,
+        "INDUS ROAD & BRIDGE, INC.": 140.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 58.26,
+        "JAGOE-PUBLIC COMPANY": 150.0
+      }
+    },
+    {
+      "itemCode": "0510 6003",
+      "description": "ONE-WAY TRAF CONT (PORT TRAF SIG)",
+      "unit": "MO",
+      "quantity": 10.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 3150.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 3150.0,
+        "INDUS ROAD & BRIDGE, INC.": 3500.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 5900.0,
+        "JAGOE-PUBLIC COMPANY": 6500.0
+      }
+    },
+    {
+      "itemCode": "0512 6005",
+      "description": "PORT CTB (FUR & INST)(F-SHAPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 2010.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 21.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 21.0,
+        "INDUS ROAD & BRIDGE, INC.": 50.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 55.97,
+        "JAGOE-PUBLIC COMPANY": 24.25
+      }
+    },
+    {
+      "itemCode": "0512 6029",
+      "description": "PORT CTB (MOVE)(F-SHAPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 1950.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 4.2,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 4.2,
+        "INDUS ROAD & BRIDGE, INC.": 9.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 11.38,
+        "JAGOE-PUBLIC COMPANY": 9.6
+      }
+    },
+    {
+      "itemCode": "0512 6053",
+      "description": "PORT CTB (REMOVE)(F-SHAPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 2010.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 7.35,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 7.35,
+        "INDUS ROAD & BRIDGE, INC.": 18.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 26.21,
+        "JAGOE-PUBLIC COMPANY": 21.0
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 290.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 86.76,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 86.76,
+        "INDUS ROAD & BRIDGE, INC.": 180.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 89.68,
+        "JAGOE-PUBLIC COMPANY": 74.0
+      }
+    },
+    {
+      "itemCode": "0538 6001",
+      "description": "RIGHT OF WAY MARKERS",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 525.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 525.0,
+        "INDUS ROAD & BRIDGE, INC.": 250.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 106.2,
+        "JAGOE-PUBLIC COMPANY": 680.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 400.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 1.07,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 1.07,
+        "INDUS ROAD & BRIDGE, INC.": 5.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 3.54,
+        "JAGOE-PUBLIC COMPANY": 4.8
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 2955.38,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 2955.38,
+        "INDUS ROAD & BRIDGE, INC.": 3500.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 3186.0,
+        "JAGOE-PUBLIC COMPANY": 3300.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 270.0,
+      "lowUnit": 239.63,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 239.63,
+        "INDUS ROAD & BRIDGE, INC.": 300.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 1180.0,
+        "JAGOE-PUBLIC COMPANY": 300.0
+      }
+    },
+    {
+      "itemCode": "0545 6003",
+      "description": "CRASH CUSH ATTEN (MOVE & RESET)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1364.78,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 1364.78,
+        "INDUS ROAD & BRIDGE, INC.": 1200.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 1180.0,
+        "JAGOE-PUBLIC COMPANY": 1700.0
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 682.39,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 682.39,
+        "INDUS ROAD & BRIDGE, INC.": 1000.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 1003.0,
+        "JAGOE-PUBLIC COMPANY": 1000.0
+      }
+    },
+    {
+      "itemCode": "0545 6019",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 11195.82,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 11195.82,
+        "INDUS ROAD & BRIDGE, INC.": 10000.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 8555.0,
+        "JAGOE-PUBLIC COMPANY": 10000.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 647.52,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 647.52,
+        "INDUS ROAD & BRIDGE, INC.": 700.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 1174.1,
+        "JAGOE-PUBLIC COMPANY": 740.0
+      }
+    },
+    {
+      "itemCode": "0644 6007",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(U)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 967.02,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 967.02,
+        "INDUS ROAD & BRIDGE, INC.": 1000.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 1296.82,
+        "JAGOE-PUBLIC COMPANY": 980.0
+      }
+    },
+    {
+      "itemCode": "0644 6036",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U-BM)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1244.99,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 1244.99,
+        "INDUS ROAD & BRIDGE, INC.": 1200.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 2000.11,
+        "JAGOE-PUBLIC COMPANY": 1400.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 15.98,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 15.98,
+        "INDUS ROAD & BRIDGE, INC.": 18.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 40.12,
+        "JAGOE-PUBLIC COMPANY": 23.75
+      }
+    },
+    {
+      "itemCode": "0658 6016",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)GF1 (BI)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 28.0,
+      "lowUnit": 21.3,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 21.3,
+        "INDUS ROAD & BRIDGE, INC.": 24.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 40.12,
+        "JAGOE-PUBLIC COMPANY": 29.75
+      }
+    },
+    {
+      "itemCode": "0662 6063",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 8374.0,
+      "engEstUnit": 0.9,
+      "lowUnit": 1.64,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 1.64,
+        "INDUS ROAD & BRIDGE, INC.": 2.5,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 2.36,
+        "JAGOE-PUBLIC COMPANY": 2.4
+      }
+    },
+    {
+      "itemCode": "0662 6075",
+      "description": "WK ZN PAV MRK REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 44.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 16.96,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 16.96,
+        "INDUS ROAD & BRIDGE, INC.": 25.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 23.6,
+        "JAGOE-PUBLIC COMPANY": 23.75
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 54.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 16.96,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 16.96,
+        "INDUS ROAD & BRIDGE, INC.": 23.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 23.6,
+        "JAGOE-PUBLIC COMPANY": 23.75
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 2400.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 2.54,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 2.54,
+        "INDUS ROAD & BRIDGE, INC.": 1.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 1.18,
+        "JAGOE-PUBLIC COMPANY": 1.2
+      }
+    },
+    {
+      "itemCode": "0678 6001",
+      "description": "PAV SURF PREP FOR MRK (4\")",
+      "unit": "LF",
+      "quantity": 1640.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 1.13,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 1.13,
+        "INDUS ROAD & BRIDGE, INC.": 1.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 1.18,
+        "JAGOE-PUBLIC COMPANY": 1.2
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 4.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 1000.0,
+        "INDUS ROAD & BRIDGE, INC.": 1800.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 5439.16,
+        "JAGOE-PUBLIC COMPANY": 320.0
+      }
+    },
+    {
+      "itemCode": "3077 6013",
+      "description": "SP MIXES SP-C SAC-B PG64-22",
+      "unit": "TON",
+      "quantity": 756.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 162.64,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 162.64,
+        "INDUS ROAD & BRIDGE, INC.": 188.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 179.36,
+        "JAGOE-PUBLIC COMPANY": 120.0
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 275.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 3.21,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 3.21,
+        "INDUS ROAD & BRIDGE, INC.": 4.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 3.54,
+        "JAGOE-PUBLIC COMPANY": 2.0
+      }
+    },
+    {
+      "itemCode": "5116 6001",
+      "description": "AMPHIBIAN/REPTILE EXCLUSION FENCE INST",
+      "unit": "LF",
+      "quantity": 800.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 2.41,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 2.41,
+        "INDUS ROAD & BRIDGE, INC.": 4.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 4.6,
+        "JAGOE-PUBLIC COMPANY": 4.6
+      }
+    },
+    {
+      "itemCode": "5116 6002",
+      "description": "AMPHIBIAN/REPTILE EXCLUSION FENCE REM",
+      "unit": "LF",
+      "quantity": 800.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 0.54,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 0.54,
+        "INDUS ROAD & BRIDGE, INC.": 1.6,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 1.2,
+        "JAGOE-PUBLIC COMPANY": 1.2
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 8500.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 8500.0,
+        "INDUS ROAD & BRIDGE, INC.": 43000.0,
+        "MCMAHON CONTRACTING AND CONSTRUCTION, LLC": 28320.0,
+        "JAGOE-PUBLIC COMPANY": 13300.0
+      }
+    }
+  ]
+}

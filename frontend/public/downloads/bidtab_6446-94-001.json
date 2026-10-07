@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6446-94-001",
+    "county": "Kimble",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644694001",
+    "projectType": "DEBRIS REMOVAL",
+    "letDate": "10/05/23",
+    "engEstTotal": 664476.07,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AUSTIN BARRICADE COMPANY, L.L.C.",
+      "totalBidAmount": 643568.19
+    },
+    {
+      "rank": 2,
+      "vendorName": "VIZCAINO, L.P.",
+      "totalBidAmount": 648891.12
+    },
+    {
+      "rank": 3,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 800706.33
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0735 6002",
+      "description": "DEBRIS REMOVAL (CNTR MEDIANS/MAINLANES)",
+      "unit": "MI",
+      "quantity": 5915.904,
+      "engEstUnit": 58.09,
+      "lowUnit": 8.0,
+      "bidders": {
+        "AUSTIN BARRICADE COMPANY, L.L.C.": 8.0,
+        "VIZCAINO, L.P.": 80.0,
+        "ANTHONY SERVICES": 44.0
+      }
+    },
+    {
+      "itemCode": "0735 6004",
+      "description": "DEBRIS REMOVAL (FRONTAGE ROADS)",
+      "unit": "MI",
+      "quantity": 1810.656,
+      "engEstUnit": 31.25,
+      "lowUnit": 8.0,
+      "bidders": {
+        "AUSTIN BARRICADE COMPANY, L.L.C.": 8.0,
+        "VIZCAINO, L.P.": 75.0,
+        "ANTHONY SERVICES": 30.0
+      }
+    },
+    {
+      "itemCode": "0735 6006",
+      "description": "DEBRIS REMOVAL (ENTRANCE/EXIT RAMPS)",
+      "unit": "MI",
+      "quantity": 241.524,
+      "engEstUnit": 149.34,
+      "lowUnit": 11.0,
+      "bidders": {
+        "AUSTIN BARRICADE COMPANY, L.L.C.": 11.0,
+        "VIZCAINO, L.P.": 75.0,
+        "ANTHONY SERVICES": 40.0
+      }
+    },
+    {
+      "itemCode": "0735 6148",
+      "description": "DEBRIS REMOVAL (DIRECT CONNECTOR)",
+      "unit": "MI",
+      "quantity": 281.724,
+      "engEstUnit": 32.42,
+      "lowUnit": 11.0,
+      "bidders": {
+        "AUSTIN BARRICADE COMPANY, L.L.C.": 11.0,
+        "VIZCAINO, L.P.": 75.0,
+        "ANTHONY SERVICES": 80.0
+      }
+    }
+  ]
+}

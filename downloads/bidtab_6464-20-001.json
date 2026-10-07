@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6464-20-001",
+    "county": "San Patricio",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646420001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/20/24",
+    "engEstTotal": 205325.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 198732.2
+    },
+    {
+      "rank": 2,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 247992.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 370210.8
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 18000.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 10000.0,
+        "CRACKSEAL OF TEXAS, LLC": 10000.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 10000.0
+      }
+    }
+  ]
+}

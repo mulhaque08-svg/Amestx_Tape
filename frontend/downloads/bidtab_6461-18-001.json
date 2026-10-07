@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6461-18-001",
+    "county": "Grayson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646118001",
+    "projectType": "TREE TRIMMING",
+    "letDate": "03/14/24",
+    "engEstTotal": 190200.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FALLS FOUNDATION REPAIR, LLC",
+      "totalBidAmount": 142649.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BA NEWTON'S ENTERPRISES LLC",
+      "totalBidAmount": 169890.6
+    },
+    {
+      "rank": 3,
+      "vendorName": "PROFESSIONAL TRAFFIC CONTROL LLC",
+      "totalBidAmount": 210275.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "GV LANDSCAPE AND CONSTRUCTION LLC",
+      "totalBidAmount": 223000.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "MARLANE CONSTRUCTION, LLC",
+      "totalBidAmount": 252154.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "AAD CONTRACTING INC.",
+      "totalBidAmount": 262400.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "WILSONS FLAGGING CONTROL COMPANY LLC",
+      "totalBidAmount": 287350.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 19605.0,
+      "bidders": {
+        "FALLS FOUNDATION REPAIR, LLC": 19605.0,
+        "BA NEWTON'S ENTERPRISES LLC": 16800.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1000.0,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 50000.0,
+        "MARLANE CONSTRUCTION, LLC": 1.0,
+        "AAD CONTRACTING INC.": 20000.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 82.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "FALLS FOUNDATION REPAIR, LLC": 1500.0,
+        "BA NEWTON'S ENTERPRISES LLC": 1862.8,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2200.0,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 1900.0,
+        "MARLANE CONSTRUCTION, LLC": 2800.0,
+        "AAD CONTRACTING INC.": 2500.0
+      }
+    }
+  ]
+}

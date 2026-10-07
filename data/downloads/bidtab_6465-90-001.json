@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6465-90-001",
+    "county": "Jefferson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646590001",
+    "projectType": "CRACK SEAL",
+    "letDate": "06/05/24",
+    "engEstTotal": 474872.75,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 363165.89
+    },
+    {
+      "rank": 2,
+      "vendorName": "ISI CONTRACTING, INC.",
+      "totalBidAmount": 419502.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 446836.05
+    },
+    {
+      "rank": 4,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 671262.4
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 43170.25,
+      "lowUnit": 2900.0,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 2900.0,
+        "ISI CONTRACTING, INC.": 15000.0,
+        "D & M CONTRACTORS, LLC": 10000.0,
+        "ICOS MANAGEMENT, LLC": 80000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 8.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 450.0,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 450.0,
+        "ISI CONTRACTING, INC.": 400.0,
+        "D & M CONTRACTORS, LLC": 50.0,
+        "ICOS MANAGEMENT, LLC": 100.0
+      }
+    }
+  ]
+}

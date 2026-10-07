@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "csj": "6396-75-001",
+    "county": "Austin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639675001",
+    "projectType": "JANITORIAL MAINTENANCE",
+    "letDate": "02/15/22",
+    "engEstTotal": 26700.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RWCS JANITORIAL LLC",
+      "totalBidAmount": 29930.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "7005 6120",
+      "description": "JANITORIAL MAINTENANCE - ALL BUILDING",
+      "unit": "MO",
+      "quantity": 12.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "7158 6001",
+      "description": "JANITORIAL SERVICES - WEEKLY",
+      "unit": "CYC",
+      "quantity": 104.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "7158 6002",
+      "description": "JANITORIAL SERVICES - MONTHLY",
+      "unit": "MO",
+      "quantity": 12.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "7158 6004",
+      "description": "JANITORIAL SERVICES - WINDOW WASHING",
+      "unit": "CYC",
+      "quantity": 2.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 100.0
+      }
+    }
+  ]
+}

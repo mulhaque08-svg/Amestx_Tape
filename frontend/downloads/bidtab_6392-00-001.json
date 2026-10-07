@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6392-00-001",
+    "county": "Taylor",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639200001",
+    "projectType": "REHABILITATION OF EXISTING ROADWAY",
+    "letDate": "05/21/24",
+    "engEstTotal": 218705.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BONTKE BROTHERS CONSTRUCTION COMPANY",
+      "totalBidAmount": 253265.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 293600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 81.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 200.0,
+        "FNH CONSTRUCTION, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0150 6002",
+      "description": "BLADING",
+      "unit": "HR",
+      "quantity": 8.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 1500.0,
+        "FNH CONSTRUCTION, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0310 6005",
+      "description": "PRIME COAT (AE-P)",
+      "unit": "GAL",
+      "quantity": 1125.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 15.0,
+        "FNH CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 21000.0,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 15000.0,
+        "FNH CONSTRUCTION, LLC": 27500.0
+      }
+    },
+    {
+      "itemCode": "3076 6035",
+      "description": "D-GR HMA TY-D PG64-22",
+      "unit": "TON",
+      "quantity": 928.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 180.0,
+      "bidders": {
+        "BONTKE BROTHERS CONSTRUCTION COMPANY": 180.0,
+        "FNH CONSTRUCTION, LLC": 225.0
+      }
+    }
+  ]
+}

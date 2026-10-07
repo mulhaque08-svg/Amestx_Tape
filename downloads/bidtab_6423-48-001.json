@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "csj": "6423-48-001",
+    "county": "Navarro",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642348001",
+    "projectType": "REFLECTORIZED PAVEMENT MARKINGS & MARKERS",
+    "letDate": "03/08/23",
+    "engEstTotal": 680125.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 691800.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TRAFFIC HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 811585.2
+    },
+    {
+      "rank": 3,
+      "vendorName": "FC TRAFFIC CONTROL, INC.",
+      "totalBidAmount": 1056375.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 1500.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 2845.0,
+        "FC TRAFFIC CONTROL, INC.": 10000.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 200000.0,
+      "engEstUnit": 0.35,
+      "lowUnit": 0.56,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 0.56,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 0.44,
+        "FC TRAFFIC CONTROL, INC.": 0.3
+      }
+    },
+    {
+      "itemCode": "0677 6002",
+      "description": "ELIM EXT PAV MRK & MRKS (6\")",
+      "unit": "LF",
+      "quantity": 12500.0,
+      "engEstUnit": 0.55,
+      "lowUnit": 0.56,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 0.56,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 0.71,
+        "FC TRAFFIC CONTROL, INC.": 0.3
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 10000.0,
+      "engEstUnit": 0.75,
+      "lowUnit": 1.15,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 1.15,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 0.88,
+        "FC TRAFFIC CONTROL, INC.": 0.3
+      }
+    },
+    {
+      "itemCode": "0678 6001",
+      "description": "PAV SURF PREP FOR MRK (4\")",
+      "unit": "LF",
+      "quantity": 40000.0,
+      "engEstUnit": 0.05,
+      "lowUnit": 0.01,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 0.01,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 0.001,
+        "FC TRAFFIC CONTROL, INC.": 0.3
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 150000.0,
+      "engEstUnit": 0.05,
+      "lowUnit": 0.01,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 0.01,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 0.001,
+        "FC TRAFFIC CONTROL, INC.": 0.3
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 10000.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.01,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 0.01,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 0.001,
+        "FC TRAFFIC CONTROL, INC.": 0.3
+      }
+    }
+  ]
+}

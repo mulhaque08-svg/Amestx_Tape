@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6463-69-001",
+    "county": "Carson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646369001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "04/04/24",
+    "engEstTotal": 446500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BERT WHITAKER",
+      "totalBidAmount": 434933.1
+    },
+    {
+      "rank": 2,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 456630.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "BERT WHITAKER": 1000.0,
+        "RISE UP CONSTRUCTION LLC": 750.0
+      }
+    },
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 980.0,
+      "engEstUnit": 36.0,
+      "lowUnit": 38.93,
+      "bidders": {
+        "BERT WHITAKER": 38.93,
+        "RISE UP CONSTRUCTION LLC": 39.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 10090.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 36.93,
+      "bidders": {
+        "BERT WHITAKER": 36.93,
+        "RISE UP CONSTRUCTION LLC": 39.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 600.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 36.93,
+      "bidders": {
+        "BERT WHITAKER": 36.93,
+        "RISE UP CONSTRUCTION LLC": 39.0
+      }
+    }
+  ]
+}

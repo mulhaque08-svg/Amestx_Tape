@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6457-43-001",
+    "county": "Waller",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645743001",
+    "projectType": "DITCH CLEANING AND RESHAPING",
+    "letDate": "03/12/24",
+    "engEstTotal": 263950.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RELIANT SAND AND CONSTRUCTION, INC.",
+      "totalBidAmount": 249949.25
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 249950.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "RHINO EQUITY, LLC",
+      "totalBidAmount": 287512.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 490000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "RELIANT SAND AND CONSTRUCTION, INC.": 100.0,
+        "TEXAS DRAINAGE INC.": 100.0,
+        "RHINO EQUITY, LLC": 1.0,
+        "SHALOM SERVICES CORPORATION": 2500.0
+      }
+    },
+    {
+      "itemCode": "0760 6001",
+      "description": "DITCH CLEANING AND RESHAPING (FOOT)",
+      "unit": "LF",
+      "quantity": 200000.0,
+      "engEstUnit": 1.31,
+      "lowUnit": 1.24,
+      "bidders": {
+        "RELIANT SAND AND CONSTRUCTION, INC.": 1.24,
+        "TEXAS DRAINAGE INC.": 1.24,
+        "RHINO EQUITY, LLC": 1.4,
+        "SHALOM SERVICES CORPORATION": 2.0
+      }
+    }
+  ]
+}

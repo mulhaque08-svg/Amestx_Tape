@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "0901-19-207",
+    "county": "Grayson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2023(141)",
+    "projectType": "PREVENTIVE MAINTENANCE",
+    "letDate": "11/03/22",
+    "engEstTotal": 1498975.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GHB EQUIPMENT COMPANY, L.L.C.",
+      "totalBidAmount": 1694730.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 2399600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0361 6035",
+      "description": "FULL - DEPTH REPAIR CPCD (10\")",
+      "unit": "SY",
+      "quantity": 3800.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 349.5,
+      "bidders": {
+        "GHB EQUIPMENT COMPANY, L.L.C.": 349.5,
+        "FNH CONSTRUCTION, LLC": 480.0
+      }
+    },
+    {
+      "itemCode": "0361 6052",
+      "description": "FULL - DEPTH REPAIR CRCP (8\"-14\")",
+      "unit": "SY",
+      "quantity": 390.0,
+      "engEstUnit": 330.0,
+      "lowUnit": 369.5,
+      "bidders": {
+        "GHB EQUIPMENT COMPANY, L.L.C.": 369.5,
+        "FNH CONSTRUCTION, LLC": 600.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 136300.0,
+      "lowUnit": 110000.0,
+      "bidders": {
+        "GHB EQUIPMENT COMPANY, L.L.C.": 110000.0,
+        "FNH CONSTRUCTION, LLC": 230000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 109.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "GHB EQUIPMENT COMPANY, L.L.C.": 75.0,
+        "FNH CONSTRUCTION, LLC": 150.0
+      }
+    }
+  ]
+}

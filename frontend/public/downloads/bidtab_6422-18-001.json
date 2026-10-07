@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6422-18-001",
+    "county": "Angelina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642218001",
+    "projectType": "CUTBACK ASPHALT RC250",
+    "letDate": "12/20/22",
+    "engEstTotal": 44640.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "WRIGHT ASPHALT PRODUCTS COMPANY LLC",
+      "totalBidAmount": 49200.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CLEVELAND ASPHALT PRODUCTS, INC.",
+      "totalBidAmount": 51840.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6196",
+      "description": "CUTBACK ASPHALT (RC-250)(DEL)(SITE 1)",
+      "unit": "GAL",
+      "quantity": 12000.0,
+      "engEstUnit": 3.72,
+      "lowUnit": 4.1,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 4.1,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 4.32
+      }
+    }
+  ]
+}

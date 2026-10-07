@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6461-17-001",
+    "county": "Grayson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646117001",
+    "projectType": "DITCH CLEANING AND RESHAPING",
+    "letDate": "03/14/24",
+    "engEstTotal": 143306.79,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 128908.07
+    },
+    {
+      "rank": 2,
+      "vendorName": "ALBECO CONTRACTORS LLC",
+      "totalBidAmount": 137014.35
+    },
+    {
+      "rank": 3,
+      "vendorName": "GV LANDSCAPE AND CONSTRUCTION LLC",
+      "totalBidAmount": 213449.5
+    },
+    {
+      "rank": 4,
+      "vendorName": "AAD CONTRACTING INC.",
+      "totalBidAmount": 520665.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0480 6001",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "EA",
+      "quantity": 125.0,
+      "engEstUnit": 245.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 225.0,
+        "ALBECO CONTRACTORS LLC": 625.0,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 500.0,
+        "AAD CONTRACTING INC.": 1500.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 12000.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 100.0,
+        "ALBECO CONTRACTORS LLC": 6000.0,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 50000.0,
+        "AAD CONTRACTING INC.": 20000.0
+      }
+    },
+    {
+      "itemCode": "0760 6001",
+      "description": "DITCH CLEANING AND RESHAPING (FOOT)",
+      "unit": "LF",
+      "quantity": 55633.0,
+      "engEstUnit": 1.63,
+      "lowUnit": 1.79,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 1.79,
+        "ALBECO CONTRACTORS LLC": 0.95,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 1.5,
+        "AAD CONTRACTING INC.": 5.0
+      }
+    }
+  ]
+}

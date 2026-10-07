@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6460-75-001",
+    "county": "Galveston",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646075001",
+    "projectType": "HIGH EDGE REMOVAL",
+    "letDate": "06/05/24",
+    "engEstTotal": 380724.44,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JACKSON EXCAVATION, LLC",
+      "totalBidAmount": 305950.44
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 313383.44
+    },
+    {
+      "rank": 3,
+      "vendorName": "RHINO EQUITY, LLC",
+      "totalBidAmount": 343280.28
+    },
+    {
+      "rank": 4,
+      "vendorName": "HAZMAT INTERNATIONAL, INC.",
+      "totalBidAmount": 447954.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0150 6001",
+      "description": "BLADING",
+      "unit": "STA",
+      "quantity": 421.0,
+      "engEstUnit": 61.78,
+      "lowUnit": 90.0,
+      "bidders": {
+        "JACKSON EXCAVATION, LLC": 90.0,
+        "TEXAS DRAINAGE INC.": 125.0,
+        "RHINO EQUITY, LLC": 100.0,
+        "HAZMAT INTERNATIONAL, INC.": 120.0
+      }
+    },
+    {
+      "itemCode": "0150 6003",
+      "description": "BLADING",
+      "unit": "LF",
+      "quantity": 258556.0,
+      "engEstUnit": 1.3,
+      "lowUnit": 0.99,
+      "bidders": {
+        "JACKSON EXCAVATION, LLC": 0.99,
+        "TEXAS DRAINAGE INC.": 0.99,
+        "RHINO EQUITY, LLC": 1.13,
+        "HAZMAT INTERNATIONAL, INC.": 1.5
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 641.28,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "JACKSON EXCAVATION, LLC": 1000.0,
+        "TEXAS DRAINAGE INC.": 99.0,
+        "RHINO EQUITY, LLC": 1.0,
+        "HAZMAT INTERNATIONAL, INC.": 50.0
+      }
+    }
+  ]
+}

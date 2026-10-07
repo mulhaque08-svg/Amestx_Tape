@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6465-45-001",
+    "county": "Cameron",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646545001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "06/05/24",
+    "engEstTotal": 1269835.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 1703485.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "USA DT SERVICES, INC.",
+      "totalBidAmount": 1772670.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 100000.0,
+      "lowUnit": 300000.0,
+      "bidders": {
+        "R&M INCORPORATED": 300000.0,
+        "USA DT SERVICES, INC.": 350000.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 15384.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "R&M INCORPORATED": 80.0,
+        "USA DT SERVICES, INC.": 80.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "R&M INCORPORATED": 1.0,
+        "USA DT SERVICES, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 6395.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 27.0,
+      "bidders": {
+        "R&M INCORPORATED": 27.0,
+        "USA DT SERVICES, INC.": 30.0
+      }
+    }
+  ]
+}

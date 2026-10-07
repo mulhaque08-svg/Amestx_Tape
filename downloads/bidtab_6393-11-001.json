@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6393-11-001",
+    "county": "Brazoria",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639311001",
+    "projectType": "PUMP STATION & DRAINAGE SYSTEM CLEANING",
+    "letDate": "02/08/22",
+    "engEstTotal": 270771.25,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AIMS COMPANIES",
+      "totalBidAmount": 238430.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 242690.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 886.08,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "AIMS COMPANIES": 1200.0,
+        "SHALOM SERVICES CORPORATION": 2500.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 600.02,
+      "lowUnit": 1400.0,
+      "bidders": {
+        "AIMS COMPANIES": 1400.0,
+        "SHALOM SERVICES CORPORATION": 2500.0
+      }
+    },
+    {
+      "itemCode": "7019 6001",
+      "description": "STORM SEWER (TELEVISION INSPECTION)",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 6.4,
+      "lowUnit": 3.0,
+      "bidders": {
+        "AIMS COMPANIES": 3.0,
+        "SHALOM SERVICES CORPORATION": 3.0
+      }
+    }
+  ]
+}

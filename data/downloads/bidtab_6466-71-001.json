@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6466-71-001",
+    "county": "Comal",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646671001",
+    "projectType": "CRACK SEAL",
+    "letDate": "06/20/24",
+    "engEstTotal": 184200.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FYL ENTERPRISES, LLC",
+      "totalBidAmount": 180876.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 299400.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 404535.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "FYL ENTERPRISES, LLC": 10000.0,
+        "ICOS MANAGEMENT, LLC": 15000.0,
+        "D & M CONTRACTORS, LLC": 10000.0
+      }
+    }
+  ]
+}

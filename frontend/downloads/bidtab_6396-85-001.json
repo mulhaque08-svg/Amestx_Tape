@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "csj": "6396-85-001",
+    "county": "Wichita",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639685001",
+    "projectType": "PAINT AND BEADS",
+    "letDate": "03/09/22",
+    "engEstTotal": 89000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 146180.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8003 6001",
+      "description": "TRAFFIC PAINT (W)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 3600.0,
+      "lowUnit": 5906.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 5906.0
+      }
+    },
+    {
+      "itemCode": "8003 6002",
+      "description": "TRAFFIC PAINT (Y)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 3700.0,
+      "lowUnit": 5937.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 5937.0
+      }
+    },
+    {
+      "itemCode": "8003 6003",
+      "description": "GLASS BEADS (TY III)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 1600.0,
+      "lowUnit": 2775.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 2775.0
+      }
+    }
+  ]
+}

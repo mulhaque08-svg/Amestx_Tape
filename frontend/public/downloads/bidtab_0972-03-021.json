@@ -1,0 +1,662 @@
+{
+  "metadata": {
+    "csj": "0972-03-021",
+    "county": "Jones",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2B23(134)",
+    "projectType": "CONSTRUCT NEW ROAD",
+    "letDate": "08/03/23",
+    "engEstTotal": 8058457.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GILVIN-TERRILL, LTD.",
+      "totalBidAmount": 8867738.98
+    },
+    {
+      "rank": 2,
+      "vendorName": "A. L. HELMCAMP, INC.",
+      "totalBidAmount": 12756115.56
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 58.0,
+      "engEstUnit": 6000.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 10000.0,
+        "A. L. HELMCAMP, INC.": 4000.0
+      }
+    },
+    {
+      "itemCode": "0105 6008",
+      "description": "REMOVING STAB BASE AND ASPH PAV (6\")",
+      "unit": "SY",
+      "quantity": 4725.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 10.0,
+        "A. L. HELMCAMP, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 174882.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 15.0,
+        "A. L. HELMCAMP, INC.": 37.0
+      }
+    },
+    {
+      "itemCode": "0132 6008",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY D)",
+      "unit": "CY",
+      "quantity": 40515.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 8.0,
+        "A. L. HELMCAMP, INC.": 24.0
+      }
+    },
+    {
+      "itemCode": "0164 6036",
+      "description": "DRILL SEEDING (PERM) (RURAL) (CLAY)",
+      "unit": "AC",
+      "quantity": 18.06,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 1000.0,
+        "A. L. HELMCAMP, INC.": 1265.0
+      }
+    },
+    {
+      "itemCode": "0164 6042",
+      "description": "DRILL SEEDING (TEMP) (WARM)",
+      "unit": "AC",
+      "quantity": 9.04,
+      "engEstUnit": 850.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 1000.0,
+        "A. L. HELMCAMP, INC.": 910.0
+      }
+    },
+    {
+      "itemCode": "0164 6044",
+      "description": "DRILL SEEDING (TEMP) (COOL)",
+      "unit": "AC",
+      "quantity": 9.02,
+      "engEstUnit": 850.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 1000.0,
+        "A. L. HELMCAMP, INC.": 935.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 735.9,
+      "engEstUnit": 60.0,
+      "lowUnit": 76.54,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 76.54,
+        "A. L. HELMCAMP, INC.": 46.0
+      }
+    },
+    {
+      "itemCode": "0169 6001",
+      "description": "SOIL RETENTION BLANKETS (CL 1) (TY A)",
+      "unit": "SY",
+      "quantity": 2910.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 3.0,
+        "A. L. HELMCAMP, INC.": 2.75
+      }
+    },
+    {
+      "itemCode": "0310 6009",
+      "description": "PRIME COAT (MC-30)",
+      "unit": "GAL",
+      "quantity": 3751.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 7.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 7.0,
+        "A. L. HELMCAMP, INC.": 5.5
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 62.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 500.0,
+        "A. L. HELMCAMP, INC.": 220.0
+      }
+    },
+    {
+      "itemCode": "0400 6006",
+      "description": "CUT & RESTORING PAV",
+      "unit": "SY",
+      "quantity": 11.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 500.0,
+        "A. L. HELMCAMP, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0401 6001",
+      "description": "FLOWABLE BACKFILL",
+      "unit": "CY",
+      "quantity": 6.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 1000.0,
+        "A. L. HELMCAMP, INC.": 580.0
+      }
+    },
+    {
+      "itemCode": "0416 6004",
+      "description": "DRILL SHAFT (36 IN)",
+      "unit": "LF",
+      "quantity": 512.0,
+      "engEstUnit": 320.0,
+      "lowUnit": 510.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 510.0,
+        "A. L. HELMCAMP, INC.": 510.0
+      }
+    },
+    {
+      "itemCode": "0422 6001",
+      "description": "REINF CONC SLAB",
+      "unit": "SF",
+      "quantity": 11050.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 40.0,
+        "A. L. HELMCAMP, INC.": 62.0
+      }
+    },
+    {
+      "itemCode": "0422 6015",
+      "description": "APPROACH SLAB",
+      "unit": "CY",
+      "quantity": 51.3,
+      "engEstUnit": 1200.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 2500.0,
+        "A. L. HELMCAMP, INC.": 1900.0
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 182.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 800.0,
+        "A. L. HELMCAMP, INC.": 890.0
+      }
+    },
+    {
+      "itemCode": "0432 6010",
+      "description": "RIPRAP (CONC)(CL B)(5 IN)",
+      "unit": "CY",
+      "quantity": 180.0,
+      "engEstUnit": 850.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 800.0,
+        "A. L. HELMCAMP, INC.": 795.0
+      }
+    },
+    {
+      "itemCode": "0432 6026",
+      "description": "RIPRAP (STONE COMMON)(DRY)(18 IN)",
+      "unit": "CY",
+      "quantity": 62.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 600.0,
+        "A. L. HELMCAMP, INC.": 155.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 64.0,
+      "engEstUnit": 650.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 800.0,
+        "A. L. HELMCAMP, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0454 6018",
+      "description": "SEALED EXPANSION JOINT (4 IN) (SEJ - M)",
+      "unit": "LF",
+      "quantity": 68.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 300.0,
+        "A. L. HELMCAMP, INC.": 340.0
+      }
+    },
+    {
+      "itemCode": "0467 6358",
+      "description": "SET (TY II) (18 IN) (RCP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 3500.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 3500.0,
+        "A. L. HELMCAMP, INC.": 2313.0
+      }
+    },
+    {
+      "itemCode": "0467 6363",
+      "description": "SET (TY II) (18 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 4000.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 4000.0,
+        "A. L. HELMCAMP, INC.": 2536.0
+      }
+    },
+    {
+      "itemCode": "0467 6394",
+      "description": "SET (TY II) (24 IN) (RCP) (6: 1) (C)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 2800.0,
+      "lowUnit": 4500.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 4500.0,
+        "A. L. HELMCAMP, INC.": 3060.0
+      }
+    },
+    {
+      "itemCode": "0496 6004",
+      "description": "REMOV STR (SET)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 3200.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 3200.0,
+        "A. L. HELMCAMP, INC.": 2118.0
+      }
+    },
+    {
+      "itemCode": "0496 6016",
+      "description": "REMOV STR (PIPE)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 3200.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 3200.0,
+        "A. L. HELMCAMP, INC.": 3877.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 719000.0,
+      "lowUnit": 880000.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 880000.0,
+        "A. L. HELMCAMP, INC.": 825000.0
+      }
+    },
+    {
+      "itemCode": "0508 6001",
+      "description": "CONSTRUCTING DETOURS",
+      "unit": "SY",
+      "quantity": 3870.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 45.0,
+        "A. L. HELMCAMP, INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "0510 6003",
+      "description": "ONE-WAY TRAF CONT (PORT TRAF SIG)",
+      "unit": "MO",
+      "quantity": 5.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 4500.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 4500.0,
+        "A. L. HELMCAMP, INC.": 10000.0
+      }
+    },
+    {
+      "itemCode": "0512 6013",
+      "description": "PORT CTB (DES SOURCE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 1140.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 15.0,
+        "A. L. HELMCAMP, INC.": 75.0
+      }
+    },
+    {
+      "itemCode": "0512 6025",
+      "description": "PORT CTB (MOVE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 870.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 12.0,
+        "A. L. HELMCAMP, INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0512 6037",
+      "description": "PORT CTB (STKPL)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 1140.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 15.0,
+        "A. L. HELMCAMP, INC.": 75.0
+      }
+    },
+    {
+      "itemCode": "0512 6041",
+      "description": "PORT CTB (STKPL)(F-SHAPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 420.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 15.0,
+        "A. L. HELMCAMP, INC.": 75.0
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 544.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 70.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 70.0,
+        "A. L. HELMCAMP, INC.": 85.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 3300.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 3300.0,
+        "A. L. HELMCAMP, INC.": 3835.0
+      }
+    },
+    {
+      "itemCode": "0545 6003",
+      "description": "CRASH CUSH ATTEN (MOVE & RESET)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3200.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 3200.0,
+        "A. L. HELMCAMP, INC.": 8040.0
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 1500.0,
+        "A. L. HELMCAMP, INC.": 4020.0
+      }
+    },
+    {
+      "itemCode": "0545 6019",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 10250.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 10250.0,
+        "A. L. HELMCAMP, INC.": 17135.0
+      }
+    },
+    {
+      "itemCode": "0550 6001",
+      "description": "CHAIN LINK FENCE (INSTALL) (6')",
+      "unit": "LF",
+      "quantity": 4633.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 20.0,
+        "A. L. HELMCAMP, INC.": 45.0
+      }
+    },
+    {
+      "itemCode": "0550 6021",
+      "description": "GATE (INSTALL)(SINGLE)(6' X 24')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 2500.0,
+        "A. L. HELMCAMP, INC.": 4000.0
+      }
+    },
+    {
+      "itemCode": "0552 6003",
+      "description": "WIRE FENCE (TY C)",
+      "unit": "LF",
+      "quantity": 1497.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 20.0,
+        "A. L. HELMCAMP, INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 851.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 851.0,
+        "A. L. HELMCAMP, INC.": 910.0
+      }
+    },
+    {
+      "itemCode": "0644 6060",
+      "description": "IN SM RD SN SUP&AM TYTWT(1)WS(P)",
+      "unit": "EA",
+      "quantity": 34.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 542.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 542.0,
+        "A. L. HELMCAMP, INC.": 650.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 27.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 100.0,
+        "A. L. HELMCAMP, INC.": 130.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 52.95,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 52.95,
+        "A. L. HELMCAMP, INC.": 69.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 17.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 57.95,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 57.95,
+        "A. L. HELMCAMP, INC.": 31.0
+      }
+    },
+    {
+      "itemCode": "0658 6073",
+      "description": "INSTL OM ASSM (OM-2Y)(WC)GND(BI)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 57.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 57.0,
+        "A. L. HELMCAMP, INC.": 97.0
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 720.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 1.0,
+        "A. L. HELMCAMP, INC.": 1.3
+      }
+    },
+    {
+      "itemCode": "0668 6076",
+      "description": "PREFAB PAV MRK TY C (W) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 16.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 30.0,
+        "A. L. HELMCAMP, INC.": 39.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 341.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 9.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 9.0,
+        "A. L. HELMCAMP, INC.": 11.7
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 35826.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.25,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 0.25,
+        "A. L. HELMCAMP, INC.": 0.33
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 12.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 25.0,
+        "A. L. HELMCAMP, INC.": 32.5
+      }
+    },
+    {
+      "itemCode": "6120 6001",
+      "description": "DEAD END ROADWAY BARRICADE",
+      "unit": "LF",
+      "quantity": 24.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "GILVIN-TERRILL, LTD.": 125.0,
+        "A. L. HELMCAMP, INC.": 165.0
+      }
+    }
+  ]
+}

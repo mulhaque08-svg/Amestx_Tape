@@ -1,0 +1,610 @@
+{
+  "metadata": {
+    "csj": "6441-25-001",
+    "county": "Kaufman",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644125001",
+    "projectType": "METAL BEAM GUARD FENCE REPAIR",
+    "letDate": "08/03/23",
+    "engEstTotal": 1608110.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FIREMAN EXCAVATING, INC.",
+      "totalBidAmount": 1042858.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "ROSS SA ENTERPRISE LLC",
+      "totalBidAmount": 1450286.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ROY JORGENSEN ASSOCIATES, INC.",
+      "totalBidAmount": 2525309.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "VANN/ELLI, INC.",
+      "totalBidAmount": 3265276.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 50.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 50.0,
+        "ROSS SA ENTERPRISE LLC": 100.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 150.0,
+        "VANN/ELLI, INC.": 750.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 250.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 2000.0,
+        "ROSS SA ENTERPRISE LLC": 1.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 1500.0,
+        "VANN/ELLI, INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "0770 6001",
+      "description": "REPAIR RAIL ELEMENT (W - BEAM)",
+      "unit": "LF",
+      "quantity": 10000.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 5.0,
+        "ROSS SA ENTERPRISE LLC": 20.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 30.0,
+        "VANN/ELLI, INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "0770 6002",
+      "description": "REPAIR RAIL ELEMENT (THRIE - BEAM)",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 350.0,
+        "ROSS SA ENTERPRISE LLC": 50.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 30.0,
+        "VANN/ELLI, INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0770 6003",
+      "description": "REP RAIL ELMNT(THRIE-BM TRANS TO W -BM)",
+      "unit": "LF",
+      "quantity": 25.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 350.0,
+        "ROSS SA ENTERPRISE LLC": 50.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 30.0,
+        "VANN/ELLI, INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "0770 6005",
+      "description": "REM/REPAIR RAIL ELEMENT (CURVED RAIL)",
+      "unit": "LF",
+      "quantity": 350.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 6.5,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 6.5,
+        "ROSS SA ENTERPRISE LLC": 30.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 25.0,
+        "VANN/ELLI, INC.": 65.0
+      }
+    },
+    {
+      "itemCode": "0770 6012",
+      "description": "REM / REPL TIMBER POST W / O CONC FND",
+      "unit": "EA",
+      "quantity": 1668.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "ROSS SA ENTERPRISE LLC": 1.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 40.0,
+        "VANN/ELLI, INC.": 52.0
+      }
+    },
+    {
+      "itemCode": "0770 6013",
+      "description": "REM / REPL STEEL POST W / O CONC FND",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "ROSS SA ENTERPRISE LLC": 35.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 50.0,
+        "VANN/ELLI, INC.": 85.0
+      }
+    },
+    {
+      "itemCode": "0770 6015",
+      "description": "REM / REPL STEEL POST W / CONC FND",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "ROSS SA ENTERPRISE LLC": 100.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 50.0,
+        "VANN/ELLI, INC.": 95.0
+      }
+    },
+    {
+      "itemCode": "0770 6017",
+      "description": "REALIGN POSTS",
+      "unit": "EA",
+      "quantity": 700.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "ROSS SA ENTERPRISE LLC": 125.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 15.0,
+        "VANN/ELLI, INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0770 6019",
+      "description": "REMOVE & REPLACE BLOCKOUT",
+      "unit": "EA",
+      "quantity": 1668.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "ROSS SA ENTERPRISE LLC": 1.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 18.0,
+        "VANN/ELLI, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0770 6021",
+      "description": "REPLACE SINGLE GDRAIL TERMINAL RAIL",
+      "unit": "LF",
+      "quantity": 3000.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 5.0,
+        "ROSS SA ENTERPRISE LLC": 30.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 28.0,
+        "VANN/ELLI, INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "0770 6022",
+      "description": "REPLACE SINGLE GDRAIL TERMINAL POST",
+      "unit": "EA",
+      "quantity": 480.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "ROSS SA ENTERPRISE LLC": 1.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 60.0,
+        "VANN/ELLI, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0770 6027",
+      "description": "REMOVE GDRAIL END TRT / REPL WITH SGT",
+      "unit": "EA",
+      "quantity": 80.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 3000.0,
+        "ROSS SA ENTERPRISE LLC": 3750.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 4000.0,
+        "VANN/ELLI, INC.": 4000.0
+      }
+    },
+    {
+      "itemCode": "0770 6028",
+      "description": "REPL SINGLE GDRAIL TERM IMPACT HEAD",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 500.0,
+        "ROSS SA ENTERPRISE LLC": 500.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 1500.0,
+        "VANN/ELLI, INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0770 6029",
+      "description": "REM & RESET SGT IMPACT HEAD",
+      "unit": "EA",
+      "quantity": 40.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 500.0,
+        "ROSS SA ENTERPRISE LLC": 100.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 200.0,
+        "VANN/ELLI, INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "0770 6030",
+      "description": "REPLACE SGT CABLE ASSEMBLY",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 20.0,
+        "ROSS SA ENTERPRISE LLC": 10.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 90.0,
+        "VANN/ELLI, INC.": 125.0
+      }
+    },
+    {
+      "itemCode": "0770 6031",
+      "description": "REPLACE SGT CABLE ANCHOR",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 20.0,
+        "ROSS SA ENTERPRISE LLC": 10.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 90.0,
+        "VANN/ELLI, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0770 6032",
+      "description": "REPLACE SGT STRUT",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 20.0,
+        "ROSS SA ENTERPRISE LLC": 30.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 90.0,
+        "VANN/ELLI, INC.": 90.0
+      }
+    },
+    {
+      "itemCode": "0770 6033",
+      "description": "REPLACE SGT OBJECT MARKER",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 10.0,
+        "ROSS SA ENTERPRISE LLC": 30.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 30.0,
+        "VANN/ELLI, INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "0770 6052",
+      "description": "REPAIR STEEL POST WITH BASE PLATE",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 100.0,
+        "ROSS SA ENTERPRISE LLC": 100.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 375.0,
+        "VANN/ELLI, INC.": 550.0
+      }
+    },
+    {
+      "itemCode": "0770 6057",
+      "description": "REMOVE & REPLACE STL BLOCKOUT",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 100.0,
+        "ROSS SA ENTERPRISE LLC": 50.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 18.0,
+        "VANN/ELLI, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0770 6060",
+      "description": "REMOVE AND REPLACE DAT",
+      "unit": "EA",
+      "quantity": 22.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 800.0,
+        "ROSS SA ENTERPRISE LLC": 1450.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 1550.0,
+        "VANN/ELLI, INC.": 2600.0
+      }
+    },
+    {
+      "itemCode": "0771 6001",
+      "description": "REPLACE POSTS (TL-3)",
+      "unit": "EA",
+      "quantity": 500.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "ROSS SA ENTERPRISE LLC": 1.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 150.0,
+        "VANN/ELLI, INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "0771 6002",
+      "description": "REPLACE POSTS (TL-4)",
+      "unit": "EA",
+      "quantity": 2500.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "ROSS SA ENTERPRISE LLC": 200.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 275.0,
+        "VANN/ELLI, INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0771 6003",
+      "description": "CABLE SPLICE / TURNBUCKLE (TL-3)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 20.0,
+        "ROSS SA ENTERPRISE LLC": 100.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 250.0,
+        "VANN/ELLI, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0771 6004",
+      "description": "CABLE SPLICE / TURNBUCKLE (TL-4)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 20.0,
+        "ROSS SA ENTERPRISE LLC": 50.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 400.0,
+        "VANN/ELLI, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0771 6006",
+      "description": "REPAIR CONCRETE FOUNDATION (TL-4)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 800.0,
+        "ROSS SA ENTERPRISE LLC": 50.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 300.0,
+        "VANN/ELLI, INC.": 125.0
+      }
+    },
+    {
+      "itemCode": "0771 6007",
+      "description": "REPR OR REPLC CABLE BARR TERM SEC(TL-3)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 100.0,
+        "ROSS SA ENTERPRISE LLC": 1.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 500.0,
+        "VANN/ELLI, INC.": 4000.0
+      }
+    },
+    {
+      "itemCode": "0771 6008",
+      "description": "REPR OR REPLC CABLE BARR TERM SEC(TL-4)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 500.0,
+        "ROSS SA ENTERPRISE LLC": 1000.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 1500.0,
+        "VANN/ELLI, INC.": 4200.0
+      }
+    },
+    {
+      "itemCode": "0771 6009",
+      "description": "REPLACE CABLE (TL-3)",
+      "unit": "LF",
+      "quantity": 75.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "ROSS SA ENTERPRISE LLC": 10.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 5.0,
+        "VANN/ELLI, INC.": 7.0
+      }
+    },
+    {
+      "itemCode": "0771 6010",
+      "description": "REPLACE CABLE (TL-4)",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "ROSS SA ENTERPRISE LLC": 5.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 4.0,
+        "VANN/ELLI, INC.": 7.0
+      }
+    },
+    {
+      "itemCode": "0771 6011",
+      "description": "CHECK / RE-TENSION CABLE",
+      "unit": "EA",
+      "quantity": 300.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 6.0,
+        "ROSS SA ENTERPRISE LLC": 25.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 300.0,
+        "VANN/ELLI, INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "0772 6005",
+      "description": "POST AND CABLE FENCE(REMV / REPL POSTS)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 5.0,
+        "ROSS SA ENTERPRISE LLC": 50.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 40.0,
+        "VANN/ELLI, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0772 6006",
+      "description": "POST AND CABLE FENCE(RMV/REPL CNC ANCH)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "ROSS SA ENTERPRISE LLC": 50.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 100.0,
+        "VANN/ELLI, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0772 6007",
+      "description": "POST AND CABLE FENCE (REMV/ REPL CABLE)",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 0.5,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 0.5,
+        "ROSS SA ENTERPRISE LLC": 20.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 50.0,
+        "VANN/ELLI, INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "0772 6009",
+      "description": "POST AND CABLE FENCE (REPAIR)",
+      "unit": "LF",
+      "quantity": 250.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 0.5,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 0.5,
+        "ROSS SA ENTERPRISE LLC": 10.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 20.0,
+        "VANN/ELLI, INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "0774 6044",
+      "description": "REMOVE AND REPLACE (SMTC) (N)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 17000.0,
+      "lowUnit": 20000.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 20000.0,
+        "ROSS SA ENTERPRISE LLC": 35000.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 27500.0,
+        "VANN/ELLI, INC.": 42000.0
+      }
+    },
+    {
+      "itemCode": "0774 6059",
+      "description": "REPAIR (TRACC) (BAY)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 400.0,
+        "ROSS SA ENTERPRISE LLC": 500.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 2500.0,
+        "VANN/ELLI, INC.": 7500.0
+      }
+    },
+    {
+      "itemCode": "0774 6068",
+      "description": "REPAIR (SMTC) (N)",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 50.0,
+        "ROSS SA ENTERPRISE LLC": 200.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 150.0,
+        "VANN/ELLI, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0776 6032",
+      "description": "REPAIR(STEEL POST W/ CHANNEL IRON RAIL)",
+      "unit": "LF",
+      "quantity": 25.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 1.5,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.5,
+        "ROSS SA ENTERPRISE LLC": 100.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 125.0,
+        "VANN/ELLI, INC.": 700.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6400-70-001",
+    "county": "Brazos",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640070001",
+    "projectType": "SPOT BASE REPAIR",
+    "letDate": "05/04/22",
+    "engEstTotal": 680640.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.",
+      "totalBidAmount": 898531.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 1094329.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 1260930.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0351 6004",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(8\")",
+      "unit": "SY",
+      "quantity": 48450.0,
+      "engEstUnit": 9.75,
+      "lowUnit": 14.0,
+      "bidders": {
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 14.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 15.2,
+        "TEXAS MATERIALS GROUP, INC.": 18.4
+      }
+    },
+    {
+      "itemCode": "0351 6039",
+      "description": "FLEX PAVEMENT STRUCTURE REPAIR (8\"-12\")",
+      "unit": "SY",
+      "quantity": 2550.0,
+      "engEstUnit": 11.75,
+      "lowUnit": 16.0,
+      "bidders": {
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 16.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 21.15,
+        "TEXAS MATERIALS GROUP, INC.": 24.5
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 500.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 3500.0,
+        "TEXAS MATERIALS GROUP, INC.": 25000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 20.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 150.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 85.0,
+        "TEXAS MATERIALS GROUP, INC.": 180.0
+      }
+    }
+  ]
+}

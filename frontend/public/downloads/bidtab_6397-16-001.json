@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6397-16-001",
+    "county": "Waller",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639716001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "04/12/22",
+    "engEstTotal": 273120.27,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "WAYNE YANCEY, INC.",
+      "totalBidAmount": 297610.89
+    },
+    {
+      "rank": 2,
+      "vendorName": "YELLOWSTONE LANDSCAPE - CENTRAL, INC.",
+      "totalBidAmount": 310023.22
+    },
+    {
+      "rank": 3,
+      "vendorName": "COMPLETION DOSZIER LLC",
+      "totalBidAmount": 378710.64
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 325.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "WAYNE YANCEY, INC.": 0.01,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 1.0,
+        "COMPLETION DOSZIER LLC": 1000.0
+      }
+    }
+  ]
+}

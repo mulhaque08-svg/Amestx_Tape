@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6392-96-001",
+    "county": "Galveston",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639296001",
+    "projectType": "DITCH CLEANING AND RESHAPING",
+    "letDate": "02/03/22",
+    "engEstTotal": 644585.62,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 630870.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 708.73,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0760 6001",
+      "description": "DITCH CLEANING AND RESHAPING (FOOT)",
+      "unit": "LF",
+      "quantity": 400000.0,
+      "engEstUnit": 1.54,
+      "lowUnit": 1.57,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 1.57
+      }
+    }
+  ]
+}

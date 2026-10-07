@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "csj": "6398-97-001",
+    "county": "Hopkins",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639897001",
+    "projectType": "CLEANING AND SWEEPING HIGHWAYS",
+    "letDate": "04/21/22",
+    "engEstTotal": 95450.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS TMA RENTAL",
+      "totalBidAmount": 58640.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MORTON ENTERPRISE",
+      "totalBidAmount": 71195.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CTX SPECIAL SERVICES CO LLC",
+      "totalBidAmount": 94200.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "SWEEPING CORPORATION OF AMERICA, INC.",
+      "totalBidAmount": 144952.86
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "TEXAS TMA RENTAL": 10.0,
+        "MORTON ENTERPRISE": 100.0,
+        "CTX SPECIAL SERVICES CO LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, INC.": 714.29
+      }
+    },
+    {
+      "itemCode": "0738 6001",
+      "description": "CLEANING / SWEEPING (CENTER MEDIAN)",
+      "unit": "CYC",
+      "quantity": 9.0,
+      "engEstUnit": 1800.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "TEXAS TMA RENTAL": 1500.0,
+        "MORTON ENTERPRISE": 1519.0,
+        "CTX SPECIAL SERVICES CO LLC": 2000.0,
+        "SWEEPING CORPORATION OF AMERICA, INC.": 2204.8
+      }
+    },
+    {
+      "itemCode": "0738 6003",
+      "description": "CLEANING / SWEEPING (OUTSIDE MAIN LANE)",
+      "unit": "CYC",
+      "quantity": 9.0,
+      "engEstUnit": 1300.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "TEXAS TMA RENTAL": 1000.0,
+        "MORTON ENTERPRISE": 1233.0,
+        "CTX SPECIAL SERVICES CO LLC": 1500.0,
+        "SWEEPING CORPORATION OF AMERICA, INC.": 2204.8
+      }
+    },
+    {
+      "itemCode": "0738 6005",
+      "description": "CLEANING / SWEEPING (FRONTAGE ROAD)",
+      "unit": "CYC",
+      "quantity": 9.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "TEXAS TMA RENTAL": 400.0,
+        "MORTON ENTERPRISE": 434.0,
+        "CTX SPECIAL SERVICES CO LLC": 1250.0,
+        "SWEEPING CORPORATION OF AMERICA, INC.": 2204.8
+      }
+    },
+    {
+      "itemCode": "0738 6007",
+      "description": "CLEANING / SWEEPING(ENTRANCE/EXIT RAMP)",
+      "unit": "CYC",
+      "quantity": 9.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 750.0,
+      "bidders": {
+        "TEXAS TMA RENTAL": 750.0,
+        "MORTON ENTERPRISE": 819.0,
+        "CTX SPECIAL SERVICES CO LLC": 1000.0,
+        "SWEEPING CORPORATION OF AMERICA, INC.": 2204.8
+      }
+    },
+    {
+      "itemCode": "0738 6010",
+      "description": "CLEANING / SWEEPING (SPOT)",
+      "unit": "MI",
+      "quantity": 125.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "TEXAS TMA RENTAL": 150.0,
+        "MORTON ENTERPRISE": 178.0,
+        "CTX SPECIAL SERVICES CO LLC": 210.0,
+        "SWEEPING CORPORATION OF AMERICA, INC.": 440.96
+      }
+    }
+  ]
+}

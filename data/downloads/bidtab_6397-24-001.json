@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6397-24-001",
+    "county": "Midland",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639724001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "03/08/22",
+    "engEstTotal": 84000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 75250.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 77500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6058",
+      "description": "FL BS (TY A GR 3)(DEL)(IN VEH)(SITE 1)",
+      "unit": "CY",
+      "quantity": 50.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 77.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 77.0,
+        "TOUCHSTONE RESOURCES, LLC": 70.0
+      }
+    },
+    {
+      "itemCode": "8007 6059",
+      "description": "FL BS (TY A GR 3)(DEL)(IN VEH)(SITE 2)",
+      "unit": "CY",
+      "quantity": 200.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 103.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 103.0,
+        "TOUCHSTONE RESOURCES, LLC": 70.0
+      }
+    },
+    {
+      "itemCode": "8007 6060",
+      "description": "FL BS (TY A GR 3)(DEL)(IN VEH)(SITE 3)",
+      "unit": "CY",
+      "quantity": 400.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 58.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 58.0,
+        "TOUCHSTONE RESOURCES, LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "8007 6061",
+      "description": "FL BS (TY A GR 3)(DEL)(IN VEH)(SITE 4)",
+      "unit": "CY",
+      "quantity": 400.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 69.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 69.0,
+        "TOUCHSTONE RESOURCES, LLC": 75.0
+      }
+    }
+  ]
+}

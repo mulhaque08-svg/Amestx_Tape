@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6392-12-001",
+    "county": "Dewitt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639212001",
+    "projectType": "JANITORIAL MAINTENANCE",
+    "letDate": "10/14/21",
+    "engEstTotal": 79500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JANI-KING OF AUSTIN",
+      "totalBidAmount": 73605.82
+    },
+    {
+      "rank": 2,
+      "vendorName": "JCW CONSTRUCTION, LLC",
+      "totalBidAmount": 113101.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 3200.0,
+      "lowUnit": 0.001,
+      "bidders": {
+        "JANI-KING OF AUSTIN": 0.001,
+        "JCW CONSTRUCTION, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "7158 6001",
+      "description": "JANITORIAL SERVICES - WEEKLY",
+      "unit": "CYC",
+      "quantity": 104.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 632.09,
+      "bidders": {
+        "JANI-KING OF AUSTIN": 632.09,
+        "JCW CONSTRUCTION, LLC": 1025.0
+      }
+    },
+    {
+      "itemCode": "7158 6003",
+      "description": "JANITORIAL SERVICES - STRIP/WAX FLOORS",
+      "unit": "CYC",
+      "quantity": 2.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 1225.08,
+      "bidders": {
+        "JANI-KING OF AUSTIN": 1225.08,
+        "JCW CONSTRUCTION, LLC": 2000.0
+      }
+    },
+    {
+      "itemCode": "7158 6004",
+      "description": "JANITORIAL SERVICES - WINDOW WASHING",
+      "unit": "CYC",
+      "quantity": 1.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "JANI-KING OF AUSTIN": 900.0,
+        "JCW CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "7158 6005",
+      "description": "JANITORIAL SERVICES-CARPET CLEAN(STEAM)",
+      "unit": "CYC",
+      "quantity": 2.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 2259.15,
+      "bidders": {
+        "JANI-KING OF AUSTIN": 2259.15,
+        "JCW CONSTRUCTION, LLC": 1000.0
+      }
+    }
+  ]
+}

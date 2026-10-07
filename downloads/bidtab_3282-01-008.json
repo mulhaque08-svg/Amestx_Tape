@@ -1,0 +1,680 @@
+{
+  "metadata": {
+    "csj": "3282-01-008",
+    "county": "Leon",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "STP  2023(206)TAPS",
+    "projectType": "CONSTRUCT PEDESTRIAN INFRASTRUCTURE",
+    "letDate": "01/05/24",
+    "engEstTotal": 681780.1,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 783652.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "3LW CIVIL LLC",
+      "totalBidAmount": 862775.42
+    },
+    {
+      "rank": 3,
+      "vendorName": "ENCINO LANDSCAPE, INC.",
+      "totalBidAmount": 920663.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "STX CIVIL",
+      "totalBidAmount": 969685.02
+    },
+    {
+      "rank": 5,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 1163452.14
+    },
+    {
+      "rank": 6,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 1212318.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "DCC CONSTRUCTION AND SERVICES, L.L.C.",
+      "totalBidAmount": 1328336.0
+    },
+    {
+      "rank": 8,
+      "vendorName": "TREVWAY, INC.",
+      "totalBidAmount": 1530013.86
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 38.6,
+      "engEstUnit": 500.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 500.0,
+        "3LW CIVIL LLC": 750.0,
+        "ENCINO LANDSCAPE, INC.": 400.0,
+        "STX CIVIL": 500.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 463.0,
+        "FNH CONSTRUCTION, LLC": 2000.0
+      }
+    },
+    {
+      "itemCode": "0100 6004",
+      "description": "PREPARING ROW(TREE)(12\" TO 24\" DIA)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 975.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 1000.0,
+        "3LW CIVIL LLC": 500.0,
+        "ENCINO LANDSCAPE, INC.": 1000.0,
+        "STX CIVIL": 1436.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 1140.0,
+        "FNH CONSTRUCTION, LLC": 3000.0
+      }
+    },
+    {
+      "itemCode": "0100 6011",
+      "description": "PREPARING ROW(TREE)(24\" TO 36\" DIA.)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 1000.0,
+        "3LW CIVIL LLC": 500.0,
+        "ENCINO LANDSCAPE, INC.": 2000.0,
+        "STX CIVIL": 3200.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 1720.0,
+        "FNH CONSTRUCTION, LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "0104 6017",
+      "description": "REMOVING CONC (DRIVEWAYS)",
+      "unit": "SY",
+      "quantity": 1984.0,
+      "engEstUnit": 12.5,
+      "lowUnit": 20.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 20.0,
+        "3LW CIVIL LLC": 25.0,
+        "ENCINO LANDSCAPE, INC.": 15.0,
+        "STX CIVIL": 30.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 16.94,
+        "FNH CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0104 6029",
+      "description": "REMOVING CONC (CURB OR CURB & GUTTER)",
+      "unit": "LF",
+      "quantity": 449.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 20.0,
+        "3LW CIVIL LLC": 25.0,
+        "ENCINO LANDSCAPE, INC.": 10.0,
+        "STX CIVIL": 35.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 22.15,
+        "FNH CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0105 6020",
+      "description": "REMOVING STAB BASE & ASPH PAV (12\")",
+      "unit": "SY",
+      "quantity": 110.0,
+      "engEstUnit": 9.5,
+      "lowUnit": 20.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 20.0,
+        "3LW CIVIL LLC": 18.5,
+        "ENCINO LANDSCAPE, INC.": 15.0,
+        "STX CIVIL": 15.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 30.0,
+        "FNH CONSTRUCTION, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0105 6071",
+      "description": "REMOVING STAB BASE & ASPH PAV (5\" - 6\")",
+      "unit": "SY",
+      "quantity": 350.0,
+      "engEstUnit": 7.5,
+      "lowUnit": 20.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 20.0,
+        "3LW CIVIL LLC": 18.5,
+        "ENCINO LANDSCAPE, INC.": 20.0,
+        "STX CIVIL": 15.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 14.2,
+        "FNH CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 234.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 50.0,
+        "3LW CIVIL LLC": 30.0,
+        "ENCINO LANDSCAPE, INC.": 20.0,
+        "STX CIVIL": 10.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 30.0,
+        "FNH CONSTRUCTION, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0132 6006",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY C)",
+      "unit": "CY",
+      "quantity": 286.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 50.0,
+        "3LW CIVIL LLC": 30.0,
+        "ENCINO LANDSCAPE, INC.": 30.0,
+        "STX CIVIL": 25.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 46.0,
+        "FNH CONSTRUCTION, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0160 6003",
+      "description": "FURNISHING AND PLACING TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 3610.0,
+      "engEstUnit": 1.25,
+      "lowUnit": 4.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 4.0,
+        "3LW CIVIL LLC": 3.5,
+        "ENCINO LANDSCAPE, INC.": 3.0,
+        "STX CIVIL": 1.5,
+        "KNIFE RIVER CORPORATION - SOUTH": 15.36,
+        "FNH CONSTRUCTION, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0162 6002",
+      "description": "BLOCK SODDING",
+      "unit": "SY",
+      "quantity": 3610.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 8.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 8.0,
+        "3LW CIVIL LLC": 6.5,
+        "ENCINO LANDSCAPE, INC.": 6.0,
+        "STX CIVIL": 5.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 11.37,
+        "FNH CONSTRUCTION, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0164 6071",
+      "description": "BROADCAST SEED (TEMP)(WARM OR COOL)",
+      "unit": "SY",
+      "quantity": 3610.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 1.0,
+        "3LW CIVIL LLC": 0.1,
+        "ENCINO LANDSCAPE, INC.": 1.0,
+        "STX CIVIL": 0.5,
+        "KNIFE RIVER CORPORATION - SOUTH": 1.14,
+        "FNH CONSTRUCTION, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 106.68,
+      "engEstUnit": 20.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 50.0,
+        "3LW CIVIL LLC": 10.0,
+        "ENCINO LANDSCAPE, INC.": 25.0,
+        "STX CIVIL": 14.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 49.5,
+        "FNH CONSTRUCTION, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0351 6008",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(12\")",
+      "unit": "SY",
+      "quantity": 134.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 120.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 120.0,
+        "3LW CIVIL LLC": 155.0,
+        "ENCINO LANDSCAPE, INC.": 200.0,
+        "STX CIVIL": 140.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 532.0,
+        "FNH CONSTRUCTION, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0460 6003",
+      "description": "CMP (GAL STL 24 IN)",
+      "unit": "LF",
+      "quantity": 6.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 150.0,
+        "3LW CIVIL LLC": 175.0,
+        "ENCINO LANDSCAPE, INC.": 125.0,
+        "STX CIVIL": 125.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 171.0,
+        "FNH CONSTRUCTION, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0466 6097",
+      "description": "HEADWALL (CH - PW - 0) (DIA= 24 IN)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 4500.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 10000.0,
+        "3LW CIVIL LLC": 6120.0,
+        "ENCINO LANDSCAPE, INC.": 3000.0,
+        "STX CIVIL": 15000.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 19600.0,
+        "FNH CONSTRUCTION, LLC": 8500.0
+      }
+    },
+    {
+      "itemCode": "0467 6363",
+      "description": "SET (TY II) (18 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 1200.0,
+        "3LW CIVIL LLC": 1374.0,
+        "ENCINO LANDSCAPE, INC.": 1000.0,
+        "STX CIVIL": 1800.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 2065.0,
+        "FNH CONSTRUCTION, LLC": 2250.0
+      }
+    },
+    {
+      "itemCode": "0476 6013",
+      "description": "JACK BOR OR TUN PIPE(24 IN)(RC)(CL III)",
+      "unit": "LF",
+      "quantity": 63.0,
+      "engEstUnit": 1250.0,
+      "lowUnit": 230.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 230.0,
+        "3LW CIVIL LLC": 405.0,
+        "ENCINO LANDSCAPE, INC.": 500.0,
+        "STX CIVIL": 1550.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 1208.0,
+        "FNH CONSTRUCTION, LLC": 2000.0
+      }
+    },
+    {
+      "itemCode": "0479 6005",
+      "description": "ADJUSTING MANHOLES (WATER VALVE BOX)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 650.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 500.0,
+        "3LW CIVIL LLC": 350.0,
+        "ENCINO LANDSCAPE, INC.": 600.0,
+        "STX CIVIL": 600.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 650.0,
+        "FNH CONSTRUCTION, LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0496 6006",
+      "description": "REMOV STR (HEADWALL)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 1000.0,
+        "3LW CIVIL LLC": 1250.0,
+        "ENCINO LANDSCAPE, INC.": 1000.0,
+        "STX CIVIL": 1600.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 1045.0,
+        "FNH CONSTRUCTION, LLC": 2500.0
+      }
+    },
+    {
+      "itemCode": "0496 6016",
+      "description": "REMOV STR (PIPE)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 500.0,
+        "3LW CIVIL LLC": 700.0,
+        "ENCINO LANDSCAPE, INC.": 500.0,
+        "STX CIVIL": 650.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 2100.0,
+        "FNH CONSTRUCTION, LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 75000.0,
+      "lowUnit": 50000.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 50000.0,
+        "3LW CIVIL LLC": 80000.0,
+        "ENCINO LANDSCAPE, INC.": 70000.0,
+        "STX CIVIL": 80000.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 103600.0,
+        "FNH CONSTRUCTION, LLC": 100000.0
+      }
+    },
+    {
+      "itemCode": "0529 6007",
+      "description": "CONC CURB & GUTTER (TY I)",
+      "unit": "LF",
+      "quantity": 1253.0,
+      "engEstUnit": 21.5,
+      "lowUnit": 40.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 40.0,
+        "3LW CIVIL LLC": 40.0,
+        "ENCINO LANDSCAPE, INC.": 35.0,
+        "STX CIVIL": 50.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 46.42,
+        "FNH CONSTRUCTION, LLC": 65.0
+      }
+    },
+    {
+      "itemCode": "0530 6004",
+      "description": "DRIVEWAYS (CONC)",
+      "unit": "SY",
+      "quantity": 1811.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "3LW CIVIL LLC": 92.5,
+        "ENCINO LANDSCAPE, INC.": 130.0,
+        "STX CIVIL": 110.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 97.0,
+        "FNH CONSTRUCTION, LLC": 95.0
+      }
+    },
+    {
+      "itemCode": "0530 6017",
+      "description": "DRIVEWAYS (CONC) (HES)",
+      "unit": "SY",
+      "quantity": 114.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 120.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 120.0,
+        "3LW CIVIL LLC": 100.0,
+        "ENCINO LANDSCAPE, INC.": 200.0,
+        "STX CIVIL": 121.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 256.0,
+        "FNH CONSTRUCTION, LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "0531 6003",
+      "description": "CONC SIDEWALKS (6\")",
+      "unit": "SY",
+      "quantity": 1558.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 90.0,
+        "3LW CIVIL LLC": 105.0,
+        "ENCINO LANDSCAPE, INC.": 130.0,
+        "STX CIVIL": 95.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 128.15,
+        "FNH CONSTRUCTION, LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "0531 6004",
+      "description": "CURB RAMPS (TY 1)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 3000.0,
+        "3LW CIVIL LLC": 1800.0,
+        "ENCINO LANDSCAPE, INC.": 2500.0,
+        "STX CIVIL": 3000.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 1012.0,
+        "FNH CONSTRUCTION, LLC": 3250.0
+      }
+    },
+    {
+      "itemCode": "0531 6006",
+      "description": "CURB RAMPS (TY 3)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 3000.0,
+        "3LW CIVIL LLC": 1920.0,
+        "ENCINO LANDSCAPE, INC.": 2500.0,
+        "STX CIVIL": 4200.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 1600.0,
+        "FNH CONSTRUCTION, LLC": 3250.0
+      }
+    },
+    {
+      "itemCode": "0531 6010",
+      "description": "CURB RAMPS (TY 7)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 3000.0,
+        "3LW CIVIL LLC": 1950.0,
+        "ENCINO LANDSCAPE, INC.": 2500.0,
+        "STX CIVIL": 3250.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 1570.0,
+        "FNH CONSTRUCTION, LLC": 3250.0
+      }
+    },
+    {
+      "itemCode": "0560 6001",
+      "description": "MAILBOX INSTALL-S (TWG-POST) TY 1",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 500.0,
+        "3LW CIVIL LLC": 324.5,
+        "ENCINO LANDSCAPE, INC.": 700.0,
+        "STX CIVIL": 765.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 400.0,
+        "FNH CONSTRUCTION, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0560 6002",
+      "description": "MAILBOX INSTALL-D (TWG-POST) TY 1",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 500.0,
+        "3LW CIVIL LLC": 352.0,
+        "ENCINO LANDSCAPE, INC.": 725.0,
+        "STX CIVIL": 770.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 460.0,
+        "FNH CONSTRUCTION, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0560 6003",
+      "description": "MAILBOX INSTALL-M (TWG-POST) TY 1",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 850.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 500.0,
+        "3LW CIVIL LLC": 546.7,
+        "ENCINO LANDSCAPE, INC.": 850.0,
+        "STX CIVIL": 1115.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 740.0,
+        "FNH CONSTRUCTION, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 650.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 600.0,
+        "3LW CIVIL LLC": 709.5,
+        "ENCINO LANDSCAPE, INC.": 850.0,
+        "STX CIVIL": 880.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 1025.0,
+        "FNH CONSTRUCTION, LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 600.0,
+        "3LW CIVIL LLC": 797.5,
+        "ENCINO LANDSCAPE, INC.": 1000.0,
+        "STX CIVIL": 1115.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 1365.0,
+        "FNH CONSTRUCTION, LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0644 6027",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(P)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 600.0,
+        "3LW CIVIL LLC": 805.75,
+        "ENCINO LANDSCAPE, INC.": 1200.0,
+        "STX CIVIL": 1226.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 1600.0,
+        "FNH CONSTRUCTION, LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "3LW CIVIL LLC": 126.5,
+        "ENCINO LANDSCAPE, INC.": 200.0,
+        "STX CIVIL": 169.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 171.0,
+        "FNH CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0668 6076",
+      "description": "PREFAB PAV MRK TY C (W) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 263.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 30.0,
+        "3LW CIVIL LLC": 14.8,
+        "ENCINO LANDSCAPE, INC.": 25.0,
+        "STX CIVIL": 36.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 27.0,
+        "FNH CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 263.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 6.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 6.0,
+        "3LW CIVIL LLC": 1.49,
+        "ENCINO LANDSCAPE, INC.": 2.0,
+        "STX CIVIL": 6.5,
+        "KNIFE RIVER CORPORATION - SOUTH": 2.25,
+        "FNH CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 12500.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 1000.0,
+        "3LW CIVIL LLC": 6500.0,
+        "ENCINO LANDSCAPE, INC.": 7500.0,
+        "STX CIVIL": 8500.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 7600.0,
+        "FNH CONSTRUCTION, LLC": 16500.0
+      }
+    }
+  ]
+}

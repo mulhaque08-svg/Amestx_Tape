@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "csj": "0905-00-118",
+    "county": "Lubbock",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 905-00-118",
+    "projectType": "HIGHWAY IMPROVEMENT",
+    "letDate": "02/03/22",
+    "engEstTotal": 551967.75,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 451441.8
+    },
+    {
+      "rank": 2,
+      "vendorName": "FC TRAFFIC CONTROL, INC.",
+      "totalBidAmount": 530000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CENTERLINE TECHNOLOGIES, LLC",
+      "totalBidAmount": 632445.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 49815.25,
+      "lowUnit": 1.0,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 1.0,
+        "FC TRAFFIC CONTROL, INC.": 34002.0,
+        "CENTERLINE TECHNOLOGIES, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0672 6006",
+      "description": "REFL PAV MRKR TY I-A",
+      "unit": "EA",
+      "quantity": 4139.0,
+      "engEstUnit": 3.25,
+      "lowUnit": 2.99,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 2.99,
+        "FC TRAFFIC CONTROL, INC.": 3.4,
+        "CENTERLINE TECHNOLOGIES, LLC": 3.75
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 11505.0,
+      "engEstUnit": 3.25,
+      "lowUnit": 2.99,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 2.99,
+        "FC TRAFFIC CONTROL, INC.": 3.4,
+        "CENTERLINE TECHNOLOGIES, LLC": 3.75
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 58500.0,
+      "engEstUnit": 3.25,
+      "lowUnit": 2.99,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 2.99,
+        "FC TRAFFIC CONTROL, INC.": 3.4,
+        "CENTERLINE TECHNOLOGIES, LLC": 3.75
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 70826.0,
+      "engEstUnit": 3.25,
+      "lowUnit": 3.24,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 3.24,
+        "FC TRAFFIC CONTROL, INC.": 3.4,
+        "CENTERLINE TECHNOLOGIES, LLC": 5.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6453-75-001",
+    "county": "Upshur",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645375001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "01/10/24",
+    "engEstTotal": 206616.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SERVIN MOWING",
+      "totalBidAmount": 188016.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SOUTHERN EDGE CONTRACTORS LLC",
+      "totalBidAmount": 197164.04
+    },
+    {
+      "rank": 3,
+      "vendorName": "HX FARMS, INC.",
+      "totalBidAmount": 205282.4
+    },
+    {
+      "rank": 4,
+      "vendorName": "TERRY ENTERPRISES",
+      "totalBidAmount": 252484.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 40.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 34.9,
+      "bidders": {
+        "SERVIN MOWING": 34.9,
+        "SOUTHERN EDGE CONTRACTORS LLC": 1.0,
+        "HX FARMS, INC.": 0.01,
+        "TERRY ENTERPRISES": 47.0
+      }
+    },
+    {
+      "itemCode": "0730 6056",
+      "description": "FULL - WIDTH MOWING - TRACT (3)",
+      "unit": "AC",
+      "quantity": 5332.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "SERVIN MOWING": 35.0,
+        "SOUTHERN EDGE CONTRACTORS LLC": 36.97,
+        "HX FARMS, INC.": 38.5,
+        "TERRY ENTERPRISES": 47.0
+      }
+    }
+  ]
+}

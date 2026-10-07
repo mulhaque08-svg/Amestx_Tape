@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6400-79-001",
+    "county": "Tyler",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 640079001",
+    "projectType": "LIMESTONE ROCK ASPHALT",
+    "letDate": "04/12/22",
+    "engEstTotal": 42000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 53522.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 56164.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8040 6107",
+      "description": "LRA (TY II GR DS) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 350.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 152.92,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 152.92,
+        "MARTIN MARIETTA MATERIALS, INC.": 160.47
+      }
+    }
+  ]
+}

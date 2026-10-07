@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6388-39-001",
+    "county": "El Paso",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638839001",
+    "projectType": "ASPHALTIC PATCHING MATERIAL",
+    "letDate": "09/28/21",
+    "engEstTotal": 80000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MESA D CORP.",
+      "totalBidAmount": 110175.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CSA MATERIALS INC.",
+      "totalBidAmount": 114593.25
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8019 6023",
+      "description": "ASPH CONC PAT MAT(ASPPM)(DEL)(SITE 1)",
+      "unit": "TON",
+      "quantity": 100.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 159.0,
+      "bidders": {
+        "MESA D CORP.": 159.0,
+        "CSA MATERIALS INC.": 182.91
+      }
+    },
+    {
+      "itemCode": "8019 6024",
+      "description": "ASPH CONC PAT MAT(ASPPM)(DEL)(SITE 2)",
+      "unit": "TON",
+      "quantity": 75.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 165.0,
+      "bidders": {
+        "MESA D CORP.": 165.0,
+        "CSA MATERIALS INC.": 173.15
+      }
+    },
+    {
+      "itemCode": "8019 6025",
+      "description": "ASPH CONC PAT MAT(ASPPM)(DEL)(SITE 3)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 165.0,
+      "bidders": {
+        "MESA D CORP.": 165.0,
+        "CSA MATERIALS INC.": 166.16
+      }
+    },
+    {
+      "itemCode": "8019 6026",
+      "description": "ASPH CONC PAT MAT(ASPPM)(DEL)(SITE 4)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 165.0,
+      "bidders": {
+        "MESA D CORP.": 165.0,
+        "CSA MATERIALS INC.": 160.16
+      }
+    },
+    {
+      "itemCode": "8019 6027",
+      "description": "ASPH CONC PAT MAT(ASPPM)(DEL)(SITE 5)",
+      "unit": "TON",
+      "quantity": 100.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 159.0,
+      "bidders": {
+        "MESA D CORP.": 159.0,
+        "CSA MATERIALS INC.": 180.52
+      }
+    }
+  ]
+}

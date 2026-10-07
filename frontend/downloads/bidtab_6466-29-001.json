@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6466-29-001",
+    "county": "Jim Wells",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646629001",
+    "projectType": "HOT-MIX COLD-LAID",
+    "letDate": "04/16/24",
+    "engEstTotal": 296000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 258125.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 307632.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 315500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8013 6009",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 1)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 98.75,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 98.75,
+        "COLORADO MATERIALS, LTD.": 115.27,
+        "BRAUNTEX MATERIALS, INC.": 119.0
+      }
+    },
+    {
+      "itemCode": "8013 6010",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 2)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 98.75,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 98.75,
+        "COLORADO MATERIALS, LTD.": 117.84,
+        "BRAUNTEX MATERIALS, INC.": 119.0
+      }
+    },
+    {
+      "itemCode": "8013 6011",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 3)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 105.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 105.0,
+        "COLORADO MATERIALS, LTD.": 122.13,
+        "BRAUNTEX MATERIALS, INC.": 129.0
+      }
+    },
+    {
+      "itemCode": "8013 6012",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 4)",
+      "unit": "TON",
+      "quantity": 1600.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 105.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 105.0,
+        "COLORADO MATERIALS, LTD.": 125.77,
+        "BRAUNTEX MATERIALS, INC.": 129.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6377-95-001",
+    "county": "Travis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637795001",
+    "projectType": "ASPHALT",
+    "letDate": "06/16/21",
+    "engEstTotal": 168000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "LONE STAR PAVING COMPANY",
+      "totalBidAmount": 129850.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 399000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6065",
+      "description": "D-GR HMA (SQ) TY D SAC B PG 76-22 (DEL)",
+      "unit": "TON",
+      "quantity": 1400.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 92.75,
+      "bidders": {
+        "LONE STAR PAVING COMPANY": 92.75,
+        "TEXAS MATERIALS GROUP, INC.": 285.0
+      }
+    }
+  ]
+}

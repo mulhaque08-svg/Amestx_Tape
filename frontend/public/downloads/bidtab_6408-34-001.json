@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6408-34-001",
+    "county": "Tarrant",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 640834001",
+    "projectType": "DENSE GRADED HOT MIX",
+    "letDate": "06/29/22",
+    "engEstTotal": 1292000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 1355000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "EUROVIA ATLANTIC COAST LLC",
+      "totalBidAmount": 1408100.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "JAGOE-PUBLIC COMPANY",
+      "totalBidAmount": 1577000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6039",
+      "description": "D-GR HMA(SQ) TY B SAC B PG64-22(PICKUP)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "FNH CONSTRUCTION, LLC": 85.0,
+        "EUROVIA ATLANTIC COAST LLC": 74.0,
+        "JAGOE-PUBLIC COMPANY": 75.0
+      }
+    },
+    {
+      "itemCode": "8011 6040",
+      "description": "D-GR HMA(SQ) TY C SAC A PG70-28(DEL)",
+      "unit": "TON",
+      "quantity": 10000.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 122.0,
+      "bidders": {
+        "FNH CONSTRUCTION, LLC": 122.0,
+        "EUROVIA ATLANTIC COAST LLC": 128.75,
+        "JAGOE-PUBLIC COMPANY": 147.5
+      }
+    },
+    {
+      "itemCode": "8019 6010",
+      "description": "ASPHALTIC CONC PATCH MATERIAL (DEL)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 135.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "FNH CONSTRUCTION, LLC": 250.0,
+        "EUROVIA ATLANTIC COAST LLC": 233.0,
+        "JAGOE-PUBLIC COMPANY": 135.0
+      }
+    }
+  ]
+}

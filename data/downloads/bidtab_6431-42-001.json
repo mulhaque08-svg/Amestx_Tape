@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6431-42-001",
+    "county": "Rains",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 643142001",
+    "projectType": "DENSE GRADED HOT MIX",
+    "letDate": "03/07/23",
+    "engEstTotal": 630500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 620500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "RK HALL, LLC",
+      "totalBidAmount": 621250.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "LONGVIEW BRIDGE AND ROAD, LTD.",
+      "totalBidAmount": 709400.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 5500.0,
+      "engEstUnit": 86.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 85.0,
+        "RK HALL, LLC": 85.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 98.0
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 102.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 102.0,
+        "RK HALL, LLC": 102.5,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 113.6
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6462-60-001",
+    "county": "Cameron",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 646260001",
+    "projectType": "BRIDGE PREVENTATIVE MAINTENANCE",
+    "letDate": "06/06/24",
+    "engEstTotal": 502600.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS STEEL INDUSTRIAL PLACING, CONCRETE DIVISION LLC",
+      "totalBidAmount": 644767.2
+    },
+    {
+      "rank": 2,
+      "vendorName": "RHINO EQUITY, LLC",
+      "totalBidAmount": 983280.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "LUCANIA CONTRACTORS LLC",
+      "totalBidAmount": 995440.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0438 6001",
+      "description": "CLEANING AND SEALING EXISTING JOINTS",
+      "unit": "LF",
+      "quantity": 6144.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 70.5,
+      "bidders": {
+        "TEXAS STEEL INDUSTRIAL PLACING, CONCRETE DIVISION LLC": 70.5,
+        "RHINO EQUITY, LLC": 120.0,
+        "LUCANIA CONTRACTORS LLC": 135.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 45400.0,
+      "lowUnit": 58615.2,
+      "bidders": {
+        "TEXAS STEEL INDUSTRIAL PLACING, CONCRETE DIVISION LLC": 58615.2,
+        "RHINO EQUITY, LLC": 150000.0,
+        "LUCANIA CONTRACTORS LLC": 100000.0
+      }
+    }
+  ]
+}

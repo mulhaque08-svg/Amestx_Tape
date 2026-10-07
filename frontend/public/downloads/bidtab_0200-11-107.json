@@ -1,0 +1,671 @@
+{
+  "metadata": {
+    "csj": "0200-11-107",
+    "county": "Jefferson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2021(143)",
+    "projectType": "BRIDGE MAINTENANCE",
+    "letDate": "01/06/22",
+    "engEstTotal": 3667056.3,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FORDE CONSTRUCTION COMPANY, INC.",
+      "totalBidAmount": 2889131.66
+    },
+    {
+      "rank": 2,
+      "vendorName": "GIBSON & ASSOCIATES, INC.",
+      "totalBidAmount": 2972767.24
+    },
+    {
+      "rank": 3,
+      "vendorName": "RAGLE CONSTRUCTION, INC.",
+      "totalBidAmount": 3607604.86
+    },
+    {
+      "rank": 4,
+      "vendorName": "OLYMPUS PAINTING CONTRACTORS, INC.",
+      "totalBidAmount": 3861835.7
+    },
+    {
+      "rank": 5,
+      "vendorName": "CEKRA INC.",
+      "totalBidAmount": 5493974.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0401 6001",
+      "description": "FLOWABLE BACKFILL",
+      "unit": "CY",
+      "quantity": 8.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 940.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 940.0,
+        "GIBSON & ASSOCIATES, INC.": 300.0,
+        "RAGLE CONSTRUCTION, INC.": 325.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 500.0,
+        "CEKRA INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "0407 6004",
+      "description": "SHEET PILING (PZ - 35)",
+      "unit": "SF",
+      "quantity": 2161.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 110.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 110.0,
+        "GIBSON & ASSOCIATES, INC.": 127.5,
+        "RAGLE CONSTRUCTION, INC.": 175.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 84.0,
+        "CEKRA INC.": 125.0
+      }
+    },
+    {
+      "itemCode": "0428 6001",
+      "description": "PENETRATING CONCRETE SURFACE TREATMENT",
+      "unit": "SY",
+      "quantity": 12455.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 5.0,
+        "GIBSON & ASSOCIATES, INC.": 15.5,
+        "RAGLE CONSTRUCTION, INC.": 5.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 8.5,
+        "CEKRA INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "0429 6002",
+      "description": "CONC STR REPAIR (EPOXY MORTAR)",
+      "unit": "SF",
+      "quantity": 3.0,
+      "engEstUnit": 550.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 600.0,
+        "GIBSON & ASSOCIATES, INC.": 500.0,
+        "RAGLE CONSTRUCTION, INC.": 300.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 800.0,
+        "CEKRA INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0429 6003",
+      "description": "CONC STR REPAIR(DECK REP(PART DEPTH))",
+      "unit": "SF",
+      "quantity": 4410.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 45.0,
+        "GIBSON & ASSOCIATES, INC.": 44.0,
+        "RAGLE CONSTRUCTION, INC.": 70.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 140.0,
+        "CEKRA INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "0429 6005",
+      "description": "CONC STR REPAIR(DECK REP (FULL DEPTH))",
+      "unit": "SF",
+      "quantity": 3600.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 75.0,
+        "GIBSON & ASSOCIATES, INC.": 136.5,
+        "RAGLE CONSTRUCTION, INC.": 120.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 215.0,
+        "CEKRA INC.": 325.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 17.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 565.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 565.0,
+        "GIBSON & ASSOCIATES, INC.": 300.0,
+        "RAGLE CONSTRUCTION, INC.": 250.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 800.0,
+        "CEKRA INC.": 2000.0
+      }
+    },
+    {
+      "itemCode": "0429 6009",
+      "description": "CONC STR REPAIR (STANDARD)",
+      "unit": "SF",
+      "quantity": 7.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 935.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 935.0,
+        "GIBSON & ASSOCIATES, INC.": 200.0,
+        "RAGLE CONSTRUCTION, INC.": 500.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 800.0,
+        "CEKRA INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0432 6034",
+      "description": "RIPRAP (STONE PROTECTION)(21 IN)",
+      "unit": "CY",
+      "quantity": 476.9,
+      "engEstUnit": 275.0,
+      "lowUnit": 180.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 180.0,
+        "GIBSON & ASSOCIATES, INC.": 156.0,
+        "RAGLE CONSTRUCTION, INC.": 250.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 225.0,
+        "CEKRA INC.": 150.0
+      }
+    },
+    {
+      "itemCode": "0434 6003",
+      "description": "ELASTOMERIC BEARING (SPECIAL)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 420.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 420.0,
+        "GIBSON & ASSOCIATES, INC.": 100.0,
+        "RAGLE CONSTRUCTION, INC.": 1500.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 3330.0,
+        "CEKRA INC.": 5000.0
+      }
+    },
+    {
+      "itemCode": "0438 6001",
+      "description": "CLEANING AND SEALING EXISTING JOINTS",
+      "unit": "LF",
+      "quantity": 1170.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 50.0,
+        "GIBSON & ASSOCIATES, INC.": 47.0,
+        "RAGLE CONSTRUCTION, INC.": 30.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 38.0,
+        "CEKRA INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "0439 6013",
+      "description": "MULTI-LAYER POLYMER OVERLAY",
+      "unit": "SY",
+      "quantity": 842.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 80.0,
+        "GIBSON & ASSOCIATES, INC.": 66.0,
+        "RAGLE CONSTRUCTION, INC.": 70.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 65.0,
+        "CEKRA INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "0451 6005",
+      "description": "RETROFIT RAIL (TY T221)",
+      "unit": "LF",
+      "quantity": 520.0,
+      "engEstUnit": 165.0,
+      "lowUnit": 273.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 273.0,
+        "GIBSON & ASSOCIATES, INC.": 335.0,
+        "RAGLE CONSTRUCTION, INC.": 155.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 250.0,
+        "CEKRA INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0483 6013",
+      "description": "SHOT BLASTING",
+      "unit": "SY",
+      "quantity": 842.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 15.0,
+        "GIBSON & ASSOCIATES, INC.": 5.75,
+        "RAGLE CONSTRUCTION, INC.": 10.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 30.0,
+        "CEKRA INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0495 6001",
+      "description": "RAISING EXIST STRUCT",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 63000.0,
+      "lowUnit": 65000.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 65000.0,
+        "GIBSON & ASSOCIATES, INC.": 42000.0,
+        "RAGLE CONSTRUCTION, INC.": 200000.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 120000.0,
+        "CEKRA INC.": 250000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 175000.0,
+      "lowUnit": 288000.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 288000.0,
+        "GIBSON & ASSOCIATES, INC.": 263000.0,
+        "RAGLE CONSTRUCTION, INC.": 360000.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 160000.0,
+        "CEKRA INC.": 550000.0
+      }
+    },
+    {
+      "itemCode": "0512 6002",
+      "description": "PORT CTB (FUR & INST)(SGL SLOPE)(TY 2)",
+      "unit": "LF",
+      "quantity": 1392.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 8.0,
+        "GIBSON & ASSOCIATES, INC.": 23.75,
+        "RAGLE CONSTRUCTION, INC.": 45.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 91.0,
+        "CEKRA INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0512 6026",
+      "description": "PORT CTB (MOVE)(SGL SLP)(TY 2)",
+      "unit": "LF",
+      "quantity": 5641.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 25.0,
+        "GIBSON & ASSOCIATES, INC.": 7.0,
+        "RAGLE CONSTRUCTION, INC.": 15.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 18.0,
+        "CEKRA INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0512 6050",
+      "description": "PORT CTB (REMOVE)(SGL SLP)(TY 2)",
+      "unit": "LF",
+      "quantity": 1392.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 8.0,
+        "GIBSON & ASSOCIATES, INC.": 10.5,
+        "RAGLE CONSTRUCTION, INC.": 15.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 21.0,
+        "CEKRA INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 250.0,
+      "engEstUnit": 3.15,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 1.0,
+        "GIBSON & ASSOCIATES, INC.": 1.71,
+        "RAGLE CONSTRUCTION, INC.": 1.5,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 10.0,
+        "CEKRA INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0542 6002",
+      "description": "REMOVE TERMINAL ANCHOR SECTION",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 260.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 150.0,
+        "GIBSON & ASSOCIATES, INC.": 1045.0,
+        "RAGLE CONSTRUCTION, INC.": 950.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 500.0,
+        "CEKRA INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0542 6004",
+      "description": "RM MTL BM GD FENCE TRANS (THRIE-BEAM)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 395.0,
+      "lowUnit": 270.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 270.0,
+        "GIBSON & ASSOCIATES, INC.": 225.5,
+        "RAGLE CONSTRUCTION, INC.": 205.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 500.0,
+        "CEKRA INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 3360.0,
+      "lowUnit": 4000.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 4000.0,
+        "GIBSON & ASSOCIATES, INC.": 4136.0,
+        "RAGLE CONSTRUCTION, INC.": 3760.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 3900.0,
+        "CEKRA INC.": 3200.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 575.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 200.0,
+        "GIBSON & ASSOCIATES, INC.": 226.6,
+        "RAGLE CONSTRUCTION, INC.": 206.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 500.0,
+        "CEKRA INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0545 6003",
+      "description": "CRASH CUSH ATTEN (MOVE & RESET)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 1600.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 1600.0,
+        "GIBSON & ASSOCIATES, INC.": 797.5,
+        "RAGLE CONSTRUCTION, INC.": 725.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 1650.0,
+        "CEKRA INC.": 2500.0
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1250.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 900.0,
+        "GIBSON & ASSOCIATES, INC.": 203.5,
+        "RAGLE CONSTRUCTION, INC.": 185.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 1800.0,
+        "CEKRA INC.": 1500.0
+      }
+    },
+    {
+      "itemCode": "0545 6019",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 12000.0,
+      "lowUnit": 10500.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 10500.0,
+        "GIBSON & ASSOCIATES, INC.": 10835.0,
+        "RAGLE CONSTRUCTION, INC.": 9850.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 9408.0,
+        "CEKRA INC.": 12000.0
+      }
+    },
+    {
+      "itemCode": "0556 6006",
+      "description": "PIPE UNDERDRAINS (TY 6) (6\")",
+      "unit": "LF",
+      "quantity": 60.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 47.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 47.0,
+        "GIBSON & ASSOCIATES, INC.": 110.0,
+        "RAGLE CONSTRUCTION, INC.": 100.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 200.0,
+        "CEKRA INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0658 6063",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BR)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 60.0,
+        "GIBSON & ASSOCIATES, INC.": 8.8,
+        "RAGLE CONSTRUCTION, INC.": 35.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 300.0,
+        "CEKRA INC.": 31.0
+      }
+    },
+    {
+      "itemCode": "0658 6065",
+      "description": "INSTL DEL ASSM (D-SY)SZ 1(BRF)GF2(BR)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 60.0,
+        "GIBSON & ASSOCIATES, INC.": 8.91,
+        "RAGLE CONSTRUCTION, INC.": 30.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 300.0,
+        "CEKRA INC.": 28.0
+      }
+    },
+    {
+      "itemCode": "0658 6069",
+      "description": "INSTL DEL ASSM (D-SW)SZ  (BRF)CTB (BR)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 55.0,
+        "GIBSON & ASSOCIATES, INC.": 6.33,
+        "RAGLE CONSTRUCTION, INC.": 20.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 300.0,
+        "CEKRA INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "0658 6070",
+      "description": "INSTL DEL ASSM (D-SY)SZ  (BRF)CTB (BR)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 55.0,
+        "GIBSON & ASSOCIATES, INC.": 6.33,
+        "RAGLE CONSTRUCTION, INC.": 25.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 300.0,
+        "CEKRA INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0662 6060",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 751.0,
+      "engEstUnit": 1.3,
+      "lowUnit": 1.55,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 1.55,
+        "GIBSON & ASSOCIATES, INC.": 1.43,
+        "RAGLE CONSTRUCTION, INC.": 1.3,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 3.6,
+        "CEKRA INC.": 1.5
+      }
+    },
+    {
+      "itemCode": "0662 6063",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 20880.0,
+      "engEstUnit": 1.3,
+      "lowUnit": 1.55,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 1.55,
+        "GIBSON & ASSOCIATES, INC.": 1.43,
+        "RAGLE CONSTRUCTION, INC.": 1.3,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 1.65,
+        "CEKRA INC.": 1.5
+      }
+    },
+    {
+      "itemCode": "0662 6095",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 20903.0,
+      "engEstUnit": 1.3,
+      "lowUnit": 1.55,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 1.55,
+        "GIBSON & ASSOCIATES, INC.": 1.43,
+        "RAGLE CONSTRUCTION, INC.": 1.3,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 1.65,
+        "CEKRA INC.": 1.5
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 20536.0,
+      "engEstUnit": 0.7,
+      "lowUnit": 0.24,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 0.24,
+        "GIBSON & ASSOCIATES, INC.": 0.22,
+        "RAGLE CONSTRUCTION, INC.": 0.2,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 0.5,
+        "CEKRA INC.": 0.5
+      }
+    },
+    {
+      "itemCode": "0780 6001",
+      "description": "CNC CRACK REPAIR (DISCRETE)(GRAVITY)",
+      "unit": "LF",
+      "quantity": 1960.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 16.0,
+        "GIBSON & ASSOCIATES, INC.": 14.5,
+        "RAGLE CONSTRUCTION, INC.": 25.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 46.0,
+        "CEKRA INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0780 6002",
+      "description": "CNC CRACK REPAIR (DISCRETE)(INJECT)",
+      "unit": "LF",
+      "quantity": 6.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 300.0,
+        "GIBSON & ASSOCIATES, INC.": 200.0,
+        "RAGLE CONSTRUCTION, INC.": 125.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 200.0,
+        "CEKRA INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "0784 6187",
+      "description": "REP STL BRDG MEMB (DRAIN HOLE RETROFIT)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 2000.0,
+        "GIBSON & ASSOCIATES, INC.": 3700.0,
+        "RAGLE CONSTRUCTION, INC.": 1500.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 1000.0,
+        "CEKRA INC.": 2500.0
+      }
+    },
+    {
+      "itemCode": "0785 6011",
+      "description": "BRIDGE JOINT REPLACEMENT (SEJ)",
+      "unit": "LF",
+      "quantity": 99.0,
+      "engEstUnit": 790.0,
+      "lowUnit": 650.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 650.0,
+        "GIBSON & ASSOCIATES, INC.": 710.0,
+        "RAGLE CONSTRUCTION, INC.": 600.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 255.0,
+        "CEKRA INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 115.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 300.0,
+        "GIBSON & ASSOCIATES, INC.": 56.0,
+        "RAGLE CONSTRUCTION, INC.": 80.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 300.0,
+        "CEKRA INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "7000 6002",
+      "description": "REML & DISPL DRIFTWOOD & DEBRIS",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 32000.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 32000.0,
+        "GIBSON & ASSOCIATES, INC.": 5000.0,
+        "RAGLE CONSTRUCTION, INC.": 10000.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 15000.0,
+        "CEKRA INC.": 25000.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6457-41-001",
+    "county": "Callahan",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645741001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/02/24",
+    "engEstTotal": 417308.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JOSE ERNESTO SALAZAR, LLC",
+      "totalBidAmount": 391555.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ABESCAPE LANDSCAPING, LLC",
+      "totalBidAmount": 474605.22
+    },
+    {
+      "rank": 3,
+      "vendorName": "T&L CLEANING SERVICES LLC",
+      "totalBidAmount": 481413.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "GREG SCRUGGS",
+      "totalBidAmount": 491260.3
+    },
+    {
+      "rank": 5,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 499947.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 889.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 39.0,
+      "bidders": {
+        "JOSE ERNESTO SALAZAR, LLC": 39.0,
+        "ABESCAPE LANDSCAPING, LLC": 30.0,
+        "T&L CLEANING SERVICES LLC": 50.0,
+        "GREG SCRUGGS": 40.0,
+        "RISE UP CONSTRUCTION LLC": 45.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6998.0,
+      "engEstUnit": 42.0,
+      "lowUnit": 38.0,
+      "bidders": {
+        "JOSE ERNESTO SALAZAR, LLC": 38.0,
+        "ABESCAPE LANDSCAPING, LLC": 43.89,
+        "T&L CLEANING SERVICES LLC": 50.0,
+        "GREG SCRUGGS": 45.0,
+        "RISE UP CONSTRUCTION LLC": 45.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 4293.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "JOSE ERNESTO SALAZAR, LLC": 20.0,
+        "ABESCAPE LANDSCAPING, LLC": 30.0,
+        "T&L CLEANING SERVICES LLC": 20.0,
+        "GREG SCRUGGS": 30.0,
+        "RISE UP CONSTRUCTION LLC": 24.0
+      }
+    }
+  ]
+}

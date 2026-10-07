@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6439-74-001",
+    "county": "San Saba",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643974001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "04/11/23",
+    "engEstTotal": 276012.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 248410.8
+    },
+    {
+      "rank": 2,
+      "vendorName": "MOIR WATERSHED SERVICES, LLC",
+      "totalBidAmount": 260678.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "LIGHT & FOLIAGE SUPPLY, LLC",
+      "totalBidAmount": 302769.83
+    },
+    {
+      "rank": 4,
+      "vendorName": "USA DT SERVICES, INC.",
+      "totalBidAmount": 414018.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 7667.0,
+      "engEstUnit": 36.0,
+      "lowUnit": 32.4,
+      "bidders": {
+        "R&M INCORPORATED": 32.4,
+        "MOIR WATERSHED SERVICES, LLC": 34.0,
+        "LIGHT & FOLIAGE SUPPLY, LLC": 39.49,
+        "USA DT SERVICES, INC.": 54.0
+      }
+    }
+  ]
+}

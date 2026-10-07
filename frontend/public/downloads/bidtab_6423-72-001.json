@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6423-72-001",
+    "county": "Fisher",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642372001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/28/23",
+    "engEstTotal": 218480.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KENKO CONTRACTORS PRO LLC",
+      "totalBidAmount": 188680.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "KENNETH THOMASON",
+      "totalBidAmount": 192253.44
+    },
+    {
+      "rank": 3,
+      "vendorName": "GREG SCRUGGS",
+      "totalBidAmount": 218524.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1076.0,
+      "engEstUnit": 32.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "KENKO CONTRACTORS PRO LLC": 25.0,
+        "KENNETH THOMASON": 29.73,
+        "GREG SCRUGGS": 30.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 4652.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 31.0,
+      "bidders": {
+        "KENKO CONTRACTORS PRO LLC": 31.0,
+        "KENNETH THOMASON": 29.73,
+        "GREG SCRUGGS": 35.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 1464.0,
+      "engEstUnit": 14.5,
+      "lowUnit": 12.0,
+      "bidders": {
+        "KENKO CONTRACTORS PRO LLC": 12.0,
+        "KENNETH THOMASON": 15.0,
+        "GREG SCRUGGS": 16.0
+      }
+    }
+  ]
+}

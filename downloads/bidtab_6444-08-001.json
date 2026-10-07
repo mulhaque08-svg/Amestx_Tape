@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "csj": "6444-08-001",
+    "county": "Brewster",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644408001",
+    "projectType": "CULVERT CLEANING",
+    "letDate": "09/07/23",
+    "engEstTotal": 772130.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "E.V.G. ENTERPRISE",
+      "totalBidAmount": 711600.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 923580.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0480 6002",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "CY",
+      "quantity": 9785.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "E.V.G. ENTERPRISE": 15.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 64.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 85000.0,
+      "lowUnit": 500000.0,
+      "bidders": {
+        "E.V.G. ENTERPRISE": 500000.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 185000.0
+      }
+    },
+    {
+      "itemCode": "0760 6002",
+      "description": "DITCH CLEAN / RESHAPING(CU YD IN PLACE)",
+      "unit": "CY",
+      "quantity": 732.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "E.V.G. ENTERPRISE": 10.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 70.0
+      }
+    },
+    {
+      "itemCode": "0764 6001",
+      "description": "DRAIN INLET CLEANING",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "E.V.G. ENTERPRISE": 1000.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 300.0
+      }
+    },
+    {
+      "itemCode": "0764 6008",
+      "description": "STORM SEWER CLEANING (PIPE)(19\"-24\"DIA)",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "E.V.G. ENTERPRISE": 10.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 5.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "E.V.G. ENTERPRISE": 1.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0
+      }
+    }
+  ]
+}

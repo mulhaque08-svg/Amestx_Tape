@@ -1,0 +1,566 @@
+{
+  "metadata": {
+    "csj": "1843-01-023",
+    "county": "Goliad",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "STP 2024(125)HES",
+    "projectType": "TRAFFIC SIGNAL IMPROVEMENTS",
+    "letDate": "10/06/23",
+    "engEstTotal": 3524401.4,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BRANNAN PAVING CO., LTD.",
+      "totalBidAmount": 2869910.68
+    },
+    {
+      "rank": 2,
+      "vendorName": "CK NEWBERRY, LLC",
+      "totalBidAmount": 2989464.95
+    },
+    {
+      "rank": 3,
+      "vendorName": "HUNTER INDUSTRIES, LTD.",
+      "totalBidAmount": 3100358.34
+    },
+    {
+      "rank": 4,
+      "vendorName": "DUNN SERVICES, INC.",
+      "totalBidAmount": 3412339.53
+    },
+    {
+      "rank": 5,
+      "vendorName": "J. CARROLL WEAVER, INC.",
+      "totalBidAmount": 3545524.18
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 199.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 305.02,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 305.02,
+        "CK NEWBERRY, LLC": 500.0,
+        "HUNTER INDUSTRIES, LTD.": 740.6,
+        "DUNN SERVICES, INC.": 1250.0,
+        "J. CARROLL WEAVER, INC.": 456.0
+      }
+    },
+    {
+      "itemCode": "0112 6001",
+      "description": "SUBGRADE WIDENING (ORD COMP)",
+      "unit": "STA",
+      "quantity": 199.0,
+      "engEstUnit": 525.0,
+      "lowUnit": 801.0,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 801.0,
+        "CK NEWBERRY, LLC": 400.0,
+        "HUNTER INDUSTRIES, LTD.": 593.3,
+        "DUNN SERVICES, INC.": 989.0,
+        "J. CARROLL WEAVER, INC.": 254.57
+      }
+    },
+    {
+      "itemCode": "0134 6004",
+      "description": "BACKFILL (TY A OR B)",
+      "unit": "STA",
+      "quantity": 199.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 789.01,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 789.01,
+        "CK NEWBERRY, LLC": 545.0,
+        "HUNTER INDUSTRIES, LTD.": 269.5,
+        "DUNN SERVICES, INC.": 243.5,
+        "J. CARROLL WEAVER, INC.": 148.82
+      }
+    },
+    {
+      "itemCode": "0260 6012",
+      "description": "LIME(HYD,COM OR QK)(SLRY)OR QK(DRY)",
+      "unit": "TON",
+      "quantity": 475.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 315.0,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 315.0,
+        "CK NEWBERRY, LLC": 320.0,
+        "HUNTER INDUSTRIES, LTD.": 346.5,
+        "DUNN SERVICES, INC.": 365.0,
+        "J. CARROLL WEAVER, INC.": 372.25
+      }
+    },
+    {
+      "itemCode": "0260 6079",
+      "description": "LIME TRT (SUBGRADE)(6\")",
+      "unit": "SY",
+      "quantity": 35127.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 4.13,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 4.13,
+        "CK NEWBERRY, LLC": 3.8,
+        "HUNTER INDUSTRIES, LTD.": 3.24,
+        "DUNN SERVICES, INC.": 7.05,
+        "J. CARROLL WEAVER, INC.": 7.6
+      }
+    },
+    {
+      "itemCode": "0310 6012",
+      "description": "PRIME COAT (RC-250)",
+      "unit": "GAL",
+      "quantity": 6154.0,
+      "engEstUnit": 5.5,
+      "lowUnit": 7.94,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 7.94,
+        "CK NEWBERRY, LLC": 5.0,
+        "HUNTER INDUSTRIES, LTD.": 6.7,
+        "DUNN SERVICES, INC.": 5.0,
+        "J. CARROLL WEAVER, INC.": 6.31
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 101.4,
+      "engEstUnit": 220.0,
+      "lowUnit": 115.0,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 115.0,
+        "CK NEWBERRY, LLC": 200.0,
+        "HUNTER INDUSTRIES, LTD.": 275.82,
+        "DUNN SERVICES, INC.": 217.5,
+        "J. CARROLL WEAVER, INC.": 210.9
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 372.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 30.0,
+        "CK NEWBERRY, LLC": 25.0,
+        "HUNTER INDUSTRIES, LTD.": 103.21,
+        "DUNN SERVICES, INC.": 15.0,
+        "J. CARROLL WEAVER, INC.": 29.64
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 12.0,
+      "engEstUnit": 635.0,
+      "lowUnit": 723.53,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 723.53,
+        "CK NEWBERRY, LLC": 700.0,
+        "HUNTER INDUSTRIES, LTD.": 822.61,
+        "DUNN SERVICES, INC.": 507.7,
+        "J. CARROLL WEAVER, INC.": 855.0
+      }
+    },
+    {
+      "itemCode": "0466 6182",
+      "description": "WINGWALL (PW - 1) (HW=7 FT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 32500.0,
+      "lowUnit": 28647.0,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 28647.0,
+        "CK NEWBERRY, LLC": 18000.0,
+        "HUNTER INDUSTRIES, LTD.": 32361.2,
+        "DUNN SERVICES, INC.": 29195.0,
+        "J. CARROLL WEAVER, INC.": 32490.0
+      }
+    },
+    {
+      "itemCode": "0466 6183",
+      "description": "WINGWALL (PW - 1) (HW=8 FT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 40000.0,
+      "lowUnit": 45130.0,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 45130.0,
+        "CK NEWBERRY, LLC": 25000.0,
+        "HUNTER INDUSTRIES, LTD.": 37332.24,
+        "DUNN SERVICES, INC.": 31225.0,
+        "J. CARROLL WEAVER, INC.": 40584.0
+      }
+    },
+    {
+      "itemCode": "0467 6227",
+      "description": "SET (TY I)(S= 6 FT)(HW= 7 FT)(3:1) (C)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 21000.0,
+      "lowUnit": 24556.0,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 24556.0,
+        "CK NEWBERRY, LLC": 20000.0,
+        "HUNTER INDUSTRIES, LTD.": 29751.32,
+        "DUNN SERVICES, INC.": 33000.0,
+        "J. CARROLL WEAVER, INC.": 17955.0
+      }
+    },
+    {
+      "itemCode": "0467 6358",
+      "description": "SET (TY II) (18 IN) (RCP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 2100.0,
+      "lowUnit": 1656.7,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 1656.7,
+        "CK NEWBERRY, LLC": 1500.0,
+        "HUNTER INDUSTRIES, LTD.": 2343.45,
+        "DUNN SERVICES, INC.": 2500.0,
+        "J. CARROLL WEAVER, INC.": 1995.0
+      }
+    },
+    {
+      "itemCode": "0467 6390",
+      "description": "SET (TY II) (24 IN) (RCP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 2200.0,
+      "lowUnit": 3044.25,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 3044.25,
+        "CK NEWBERRY, LLC": 2000.0,
+        "HUNTER INDUSTRIES, LTD.": 2598.6,
+        "DUNN SERVICES, INC.": 2600.0,
+        "J. CARROLL WEAVER, INC.": 2137.5
+      }
+    },
+    {
+      "itemCode": "0467 6417",
+      "description": "SET (TY II) (30 IN) (RCP) (3: 1) (C)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 3497.56,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 3497.56,
+        "CK NEWBERRY, LLC": 2500.0,
+        "HUNTER INDUSTRIES, LTD.": 3983.18,
+        "DUNN SERVICES, INC.": 2707.79,
+        "J. CARROLL WEAVER, INC.": 3648.0
+      }
+    },
+    {
+      "itemCode": "0467 6419",
+      "description": "SET (TY II) (30 IN) (RCP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 3250.0,
+      "lowUnit": 3505.35,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 3505.35,
+        "CK NEWBERRY, LLC": 3000.0,
+        "HUNTER INDUSTRIES, LTD.": 4798.39,
+        "DUNN SERVICES, INC.": 3500.0,
+        "J. CARROLL WEAVER, INC.": 3990.0
+      }
+    },
+    {
+      "itemCode": "0480 6001",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 1350.0,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 1350.0,
+        "CK NEWBERRY, LLC": 2500.0,
+        "HUNTER INDUSTRIES, LTD.": 3200.21,
+        "DUNN SERVICES, INC.": 1112.5,
+        "J. CARROLL WEAVER, INC.": 2565.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 316892.4,
+      "lowUnit": 263430.0,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 263430.0,
+        "CK NEWBERRY, LLC": 275000.0,
+        "HUNTER INDUSTRIES, LTD.": 218372.35,
+        "DUNN SERVICES, INC.": 325000.0,
+        "J. CARROLL WEAVER, INC.": 276831.61
+      }
+    },
+    {
+      "itemCode": "0510 6003",
+      "description": "ONE-WAY TRAF CONT (PORT TRAF SIG)",
+      "unit": "MO",
+      "quantity": 8.0,
+      "engEstUnit": 5500.0,
+      "lowUnit": 3125.0,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 3125.0,
+        "CK NEWBERRY, LLC": 4000.0,
+        "HUNTER INDUSTRIES, LTD.": 3889.25,
+        "DUNN SERVICES, INC.": 5728.28,
+        "J. CARROLL WEAVER, INC.": 6270.0
+      }
+    },
+    {
+      "itemCode": "0512 6005",
+      "description": "PORT CTB (FUR & INST)(F-SHAPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 1150.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 27.31,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 27.31,
+        "CK NEWBERRY, LLC": 45.0,
+        "HUNTER INDUSTRIES, LTD.": 40.9,
+        "DUNN SERVICES, INC.": 65.05,
+        "J. CARROLL WEAVER, INC.": 88.6
+      }
+    },
+    {
+      "itemCode": "0512 6053",
+      "description": "PORT CTB (REMOVE)(F-SHAPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 1150.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 14.76,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 14.76,
+        "CK NEWBERRY, LLC": 30.0,
+        "HUNTER INDUSTRIES, LTD.": 20.22,
+        "DUNN SERVICES, INC.": 21.4,
+        "J. CARROLL WEAVER, INC.": 33.88
+      }
+    },
+    {
+      "itemCode": "0530 6006",
+      "description": "DRIVEWAYS (SURF TREAT)",
+      "unit": "SY",
+      "quantity": 1206.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 40.06,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 40.06,
+        "CK NEWBERRY, LLC": 50.0,
+        "HUNTER INDUSTRIES, LTD.": 50.6,
+        "DUNN SERVICES, INC.": 50.0,
+        "J. CARROLL WEAVER, INC.": 40.26
+      }
+    },
+    {
+      "itemCode": "0530 6009",
+      "description": "TURNOUTS (SURF TREAT)",
+      "unit": "SY",
+      "quantity": 186.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 38.9,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 38.9,
+        "CK NEWBERRY, LLC": 50.0,
+        "HUNTER INDUSTRIES, LTD.": 50.6,
+        "DUNN SERVICES, INC.": 50.0,
+        "J. CARROLL WEAVER, INC.": 40.25
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 950.0,
+      "engEstUnit": 3.25,
+      "lowUnit": 3.1,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 3.1,
+        "CK NEWBERRY, LLC": 3.0,
+        "HUNTER INDUSTRIES, LTD.": 3.36,
+        "DUNN SERVICES, INC.": 2.5,
+        "J. CARROLL WEAVER, INC.": 6.84
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 3400.0,
+      "lowUnit": 3430.0,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 3430.0,
+        "CK NEWBERRY, LLC": 3500.0,
+        "HUNTER INDUSTRIES, LTD.": 3722.44,
+        "DUNN SERVICES, INC.": 3300.0,
+        "J. CARROLL WEAVER, INC.": 4275.0
+      }
+    },
+    {
+      "itemCode": "0560 6011",
+      "description": "MAILBOX INSTALL-S (TWW-POST) TY 4",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 330.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 250.0,
+        "CK NEWBERRY, LLC": 400.0,
+        "HUNTER INDUSTRIES, LTD.": 349.76,
+        "DUNN SERVICES, INC.": 292.5,
+        "J. CARROLL WEAVER, INC.": 370.5
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 700.0,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 700.0,
+        "CK NEWBERRY, LLC": 700.0,
+        "HUNTER INDUSTRIES, LTD.": 640.32,
+        "DUNN SERVICES, INC.": 680.0,
+        "J. CARROLL WEAVER, INC.": 700.0
+      }
+    },
+    {
+      "itemCode": "0644 6028",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(P-BM)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 800.0,
+        "CK NEWBERRY, LLC": 1000.0,
+        "HUNTER INDUSTRIES, LTD.": 914.75,
+        "DUNN SERVICES, INC.": 830.0,
+        "J. CARROLL WEAVER, INC.": 969.0
+      }
+    },
+    {
+      "itemCode": "0644 6030",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(T)",
+      "unit": "EA",
+      "quantity": 17.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 850.0,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 850.0,
+        "CK NEWBERRY, LLC": 1000.0,
+        "HUNTER INDUSTRIES, LTD.": 952.41,
+        "DUNN SERVICES, INC.": 920.0,
+        "J. CARROLL WEAVER, INC.": 1008.9
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 43.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 75.0,
+        "CK NEWBERRY, LLC": 85.0,
+        "HUNTER INDUSTRIES, LTD.": 80.71,
+        "DUNN SERVICES, INC.": 82.5,
+        "J. CARROLL WEAVER, INC.": 85.5
+      }
+    },
+    {
+      "itemCode": "0658 6073",
+      "description": "INSTL OM ASSM (OM-2Y)(WC)GND(BI)",
+      "unit": "EA",
+      "quantity": 17.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 65.0,
+        "CK NEWBERRY, LLC": 100.0,
+        "HUNTER INDUSTRIES, LTD.": 102.24,
+        "DUNN SERVICES, INC.": 75.0,
+        "J. CARROLL WEAVER, INC.": 108.3
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 679.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.75,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 1.75,
+        "CK NEWBERRY, LLC": 2.0,
+        "HUNTER INDUSTRIES, LTD.": 1.63,
+        "DUNN SERVICES, INC.": 2.3,
+        "J. CARROLL WEAVER, INC.": 2.28
+      }
+    },
+    {
+      "itemCode": "0668 6076",
+      "description": "PREFAB PAV MRK TY C (W) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 51.0,
+      "engEstUnit": 18.0,
+      "lowUnit": 14.8,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 14.8,
+        "CK NEWBERRY, LLC": 21.0,
+        "HUNTER INDUSTRIES, LTD.": 21.1,
+        "DUNN SERVICES, INC.": 15.83,
+        "J. CARROLL WEAVER, INC.": 22.8
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 469.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 4.4,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 4.4,
+        "CK NEWBERRY, LLC": 5.25,
+        "HUNTER INDUSTRIES, LTD.": 5.28,
+        "DUNN SERVICES, INC.": 4.96,
+        "J. CARROLL WEAVER, INC.": 5.7
+      }
+    },
+    {
+      "itemCode": "4171 6001",
+      "description": "INSTALL BRIDGE IDENTIFICATION NUMBERS",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 675.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "BRANNAN PAVING CO., LTD.": 500.0,
+        "CK NEWBERRY, LLC": 725.0,
+        "HUNTER INDUSTRIES, LTD.": 880.36,
+        "DUNN SERVICES, INC.": 680.0,
+        "J. CARROLL WEAVER, INC.": 3990.0
+      }
+    }
+  ]
+}

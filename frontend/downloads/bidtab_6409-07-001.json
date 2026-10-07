@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6409-07-001",
+    "county": "Angelina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640907001",
+    "projectType": "RAISED PAVEMENT MARKERS",
+    "letDate": "07/06/22",
+    "engEstTotal": 281000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BRYDL CONTRACTING, LLC",
+      "totalBidAmount": 285344.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 357520.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 1.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 2000.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 5000.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 3.65,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 3.65,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 4.48
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 65000.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 3.65,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 3.65,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 4.48
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 8000.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 3.72,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 3.72,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 4.48
+      }
+    }
+  ]
+}

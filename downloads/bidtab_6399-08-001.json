@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6399-08-001",
+    "county": "Live Oak",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639908001",
+    "projectType": "HOT-MIX COLD-LAID",
+    "letDate": "04/19/22",
+    "engEstTotal": 292500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 309000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 312000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 326250.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "LONE STAR PAVING COMPANY",
+      "totalBidAmount": 365250.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "GM QUALITY CONSTRUCTION LLC",
+      "totalBidAmount": 525000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8013 6009",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 1)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 96.0,
+      "lowUnit": 103.0,
+      "bidders": {
+        "BRAUNTEX MATERIALS, INC.": 103.0,
+        "TEXAS MATERIALS GROUP, INC.": 98.0,
+        "COLORADO MATERIALS, LTD.": 107.5,
+        "LONE STAR PAVING COMPANY": 118.0,
+        "GM QUALITY CONSTRUCTION LLC": 175.0
+      }
+    },
+    {
+      "itemCode": "8013 6010",
+      "description": "HMCL ACP TYPE D (DELIVERY)(SITE 2)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 99.0,
+      "lowUnit": 103.0,
+      "bidders": {
+        "BRAUNTEX MATERIALS, INC.": 103.0,
+        "TEXAS MATERIALS GROUP, INC.": 110.0,
+        "COLORADO MATERIALS, LTD.": 110.0,
+        "LONE STAR PAVING COMPANY": 125.5,
+        "GM QUALITY CONSTRUCTION LLC": 175.0
+      }
+    }
+  ]
+}

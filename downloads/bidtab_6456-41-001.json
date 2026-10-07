@@ -1,0 +1,876 @@
+{
+  "metadata": {
+    "csj": "6456-41-001",
+    "county": "Gregg",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645641001",
+    "projectType": "PAVEMENT MARKINGS",
+    "letDate": "11/02/23",
+    "engEstTotal": 5233465.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "REYNOLDS & KAY, LTD.",
+      "totalBidAmount": 5035050.88
+    },
+    {
+      "rank": 2,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 5233196.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "TRAFFIC HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 6077763.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "STRIPE-A-ZONE, LLC",
+      "totalBidAmount": 6608126.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0533 6001",
+      "description": "RUMBLE STRIPS (SHOULDER)",
+      "unit": "LF",
+      "quantity": 10000.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 1.285,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 1.285,
+        "TRP CONSTRUCTION GROUP, LLC": 0.8,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 1.0,
+        "STRIPE-A-ZONE, LLC": 4.75
+      }
+    },
+    {
+      "itemCode": "0533 6002",
+      "description": "RUMBLE STRIPS (CENTERLINE)",
+      "unit": "LF",
+      "quantity": 10000.0,
+      "engEstUnit": 0.35,
+      "lowUnit": 1.285,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 1.285,
+        "TRP CONSTRUCTION GROUP, LLC": 0.8,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 1.0,
+        "STRIPE-A-ZONE, LLC": 4.75
+      }
+    },
+    {
+      "itemCode": "0668 6068",
+      "description": "PREFAB PAV MRK TY C (W) (6\") (SLD)",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.213,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 3.213,
+        "TRP CONSTRUCTION GROUP, LLC": 10.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 8.0,
+        "STRIPE-A-ZONE, LLC": 5.95
+      }
+    },
+    {
+      "itemCode": "0668 6072",
+      "description": "PREFAB PAV MRK TY C (W) (8\") (SLD)",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 5.355,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 5.355,
+        "TRP CONSTRUCTION GROUP, LLC": 5.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 6.0,
+        "STRIPE-A-ZONE, LLC": 7.95
+      }
+    },
+    {
+      "itemCode": "0668 6074",
+      "description": "PREFAB PAV MRK TY C (W) (12\") (SLD)",
+      "unit": "LF",
+      "quantity": 1000.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 8.568,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 8.568,
+        "TRP CONSTRUCTION GROUP, LLC": 8.7,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 9.0,
+        "STRIPE-A-ZONE, LLC": 15.0
+      }
+    },
+    {
+      "itemCode": "0668 6075",
+      "description": "PREFAB PAV MRK TY C (W) (18\") (SLD)",
+      "unit": "LF",
+      "quantity": 1000.0,
+      "engEstUnit": 9.0,
+      "lowUnit": 10.711,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 10.711,
+        "TRP CONSTRUCTION GROUP, LLC": 12.5,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 14.0,
+        "STRIPE-A-ZONE, LLC": 17.0
+      }
+    },
+    {
+      "itemCode": "0668 6076",
+      "description": "PREFAB PAV MRK TY C (W) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 3000.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 15.0,
+        "TRP CONSTRUCTION GROUP, LLC": 16.75,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 18.0,
+        "STRIPE-A-ZONE, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 190.0,
+      "lowUnit": 214.221,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 214.221,
+        "TRP CONSTRUCTION GROUP, LLC": 306.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 285.0,
+        "STRIPE-A-ZONE, LLC": 225.0
+      }
+    },
+    {
+      "itemCode": "0668 6078",
+      "description": "PREFAB PAV MRK TY C (W) (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 294.554,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 294.554,
+        "TRP CONSTRUCTION GROUP, LLC": 495.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 500.0,
+        "STRIPE-A-ZONE, LLC": 375.0
+      }
+    },
+    {
+      "itemCode": "0668 6079",
+      "description": "PREFAB PAV MRK TY C (W) (TPL ARROW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 348.11,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 348.11,
+        "TRP CONSTRUCTION GROUP, LLC": 612.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 700.0,
+        "STRIPE-A-ZONE, LLC": 525.0
+      }
+    },
+    {
+      "itemCode": "0668 6083",
+      "description": "PREFAB PAV MRK TY C (W) (LNDP ARROW)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 425.0,
+      "lowUnit": 321.331,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 321.331,
+        "TRP CONSTRUCTION GROUP, LLC": 620.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 600.0,
+        "STRIPE-A-ZONE, LLC": 475.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 262.421,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 262.421,
+        "TRP CONSTRUCTION GROUP, LLC": 400.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 400.0,
+        "STRIPE-A-ZONE, LLC": 245.0
+      }
+    },
+    {
+      "itemCode": "0668 6089",
+      "description": "PREFAB PAV MRK TY C (W) (RR XING)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 650.0,
+      "lowUnit": 696.219,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 696.219,
+        "TRP CONSTRUCTION GROUP, LLC": 1100.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 900.0,
+        "STRIPE-A-ZONE, LLC": 750.0
+      }
+    },
+    {
+      "itemCode": "0668 6090",
+      "description": "PREFAB PAV MRK TY C (W) (SYMBOL)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 241.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 241.0,
+        "TRP CONSTRUCTION GROUP, LLC": 117.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 400.0,
+        "STRIPE-A-ZONE, LLC": 325.0
+      }
+    },
+    {
+      "itemCode": "0668 6091",
+      "description": "PREFAB PAV MRK TY C (W) (18\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 53.555,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 53.555,
+        "TRP CONSTRUCTION GROUP, LLC": 100.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 90.0,
+        "STRIPE-A-ZONE, LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "0668 6092",
+      "description": "PREFAB PAV MRK TY C (W) (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 5.356,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 5.356,
+        "TRP CONSTRUCTION GROUP, LLC": 87.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 90.0,
+        "STRIPE-A-ZONE, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0668 6104",
+      "description": "PREFAB PAV MRK TY C (Y) (6\") (SLD)",
+      "unit": "LF",
+      "quantity": 600.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 3.213,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 3.213,
+        "TRP CONSTRUCTION GROUP, LLC": 4.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 5.0,
+        "STRIPE-A-ZONE, LLC": 13.0
+      }
+    },
+    {
+      "itemCode": "0668 6106",
+      "description": "PREFAB PAV MRK TY C (Y) (12\") (SLD)",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 8.569,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 8.569,
+        "TRP CONSTRUCTION GROUP, LLC": 8.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 9.75,
+        "STRIPE-A-ZONE, LLC": 15.0
+      }
+    },
+    {
+      "itemCode": "0668 6108",
+      "description": "PREFAB PAV MRK TY C (Y) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 15.0,
+        "TRP CONSTRUCTION GROUP, LLC": 15.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 18.0,
+        "STRIPE-A-ZONE, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0668 6113",
+      "description": "PRE PM TY C(ACC PRK)(BL&WH)(W/BORDR)LG",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 321.331,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 321.331,
+        "TRP CONSTRUCTION GROUP, LLC": 500.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 500.0,
+        "STRIPE-A-ZONE, LLC": 400.0
+      }
+    },
+    {
+      "itemCode": "0668 6115",
+      "description": "PREFAB PAV MRK TY C (MULTI) (SHIELD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2750.0,
+      "lowUnit": 2667.763,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 2667.763,
+        "TRP CONSTRUCTION GROUP, LLC": 3500.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 3600.0,
+        "STRIPE-A-ZONE, LLC": 5500.0
+      }
+    },
+    {
+      "itemCode": "0672 6006",
+      "description": "REFL PAV MRKR TY I-A",
+      "unit": "EA",
+      "quantity": 10000.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.284,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 4.284,
+        "TRP CONSTRUCTION GROUP, LLC": 3.85,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 6.55,
+        "STRIPE-A-ZONE, LLC": 7.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 10000.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.284,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 4.284,
+        "TRP CONSTRUCTION GROUP, LLC": 3.85,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 6.55,
+        "STRIPE-A-ZONE, LLC": 7.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 60000.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.284,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 4.284,
+        "TRP CONSTRUCTION GROUP, LLC": 3.85,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 6.55,
+        "STRIPE-A-ZONE, LLC": 7.25
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 7000.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.284,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 4.284,
+        "TRP CONSTRUCTION GROUP, LLC": 3.85,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 6.55,
+        "STRIPE-A-ZONE, LLC": 7.25
+      }
+    },
+    {
+      "itemCode": "0672 6016",
+      "description": "TRAFFIC BUTTON TY W",
+      "unit": "EA",
+      "quantity": 30000.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.284,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 4.284,
+        "TRP CONSTRUCTION GROUP, LLC": 3.85,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 4.0,
+        "STRIPE-A-ZONE, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0672 6017",
+      "description": "TRAFFIC BUTTON TY Y",
+      "unit": "EA",
+      "quantity": 20000.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.284,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 4.284,
+        "TRP CONSTRUCTION GROUP, LLC": 3.85,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 4.0,
+        "STRIPE-A-ZONE, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0672 6018",
+      "description": "TRAFFIC BUTTON TY B",
+      "unit": "EA",
+      "quantity": 10000.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.284,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 4.284,
+        "TRP CONSTRUCTION GROUP, LLC": 3.85,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 5.0,
+        "STRIPE-A-ZONE, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0677 6002",
+      "description": "ELIM EXT PAV MRK & MRKS (6\")",
+      "unit": "LF",
+      "quantity": 3500.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.072,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 1.072,
+        "TRP CONSTRUCTION GROUP, LLC": 1.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 1.0,
+        "STRIPE-A-ZONE, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 2000.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.072,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 1.072,
+        "TRP CONSTRUCTION GROUP, LLC": 1.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 1.0,
+        "STRIPE-A-ZONE, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0677 6005",
+      "description": "ELIM EXT PAV MRK & MRKS (12\")",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.142,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 2.142,
+        "TRP CONSTRUCTION GROUP, LLC": 3.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 3.0,
+        "STRIPE-A-ZONE, LLC": 9.0
+      }
+    },
+    {
+      "itemCode": "0677 6006",
+      "description": "ELIM EXT PAV MRK & MRKS (18\")",
+      "unit": "LF",
+      "quantity": 300.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.213,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 3.213,
+        "TRP CONSTRUCTION GROUP, LLC": 3.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 5.0,
+        "STRIPE-A-ZONE, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 400.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.213,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 3.213,
+        "TRP CONSTRUCTION GROUP, LLC": 3.5,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 6.0,
+        "STRIPE-A-ZONE, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0677 6008",
+      "description": "ELIM EXT PAV MRK & MRKS (ARROW)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 107.111,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 107.111,
+        "TRP CONSTRUCTION GROUP, LLC": 100.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 94.0,
+        "STRIPE-A-ZONE, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0677 6009",
+      "description": "ELIM EXT PAV MRK & MRKS (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 107.111,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 107.111,
+        "TRP CONSTRUCTION GROUP, LLC": 250.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 135.0,
+        "STRIPE-A-ZONE, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0677 6010",
+      "description": "ELIM EXT PAV MRK & MRKS (TPL ARROW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 107.111,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 107.111,
+        "TRP CONSTRUCTION GROUP, LLC": 500.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 200.0,
+        "STRIPE-A-ZONE, LLC": 225.0
+      }
+    },
+    {
+      "itemCode": "0677 6012",
+      "description": "ELIM EXT PAV MRK & MRKS (WORD)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 107.111,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 107.111,
+        "TRP CONSTRUCTION GROUP, LLC": 100.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 200.0,
+        "STRIPE-A-ZONE, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0677 6016",
+      "description": "ELIM EXT PAV MRK & MRKS (RR XING)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 535.553,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 535.553,
+        "TRP CONSTRUCTION GROUP, LLC": 250.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 465.0,
+        "STRIPE-A-ZONE, LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0677 6017",
+      "description": "ELIM EXT PAV MRK & MRKS (SYMBOL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 107.111,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 107.111,
+        "TRP CONSTRUCTION GROUP, LLC": 250.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 200.0,
+        "STRIPE-A-ZONE, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0677 6018",
+      "description": "ELIM EXT PAV MRK & MRKS (18\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 53.555,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 53.555,
+        "TRP CONSTRUCTION GROUP, LLC": 100.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 65.0,
+        "STRIPE-A-ZONE, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0677 6019",
+      "description": "ELIM EXT PAV MRK & MRKS (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 53.555,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 53.555,
+        "TRP CONSTRUCTION GROUP, LLC": 50.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 65.0,
+        "STRIPE-A-ZONE, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0677 6022",
+      "description": "ELIM EXT PAV MRK & MRKS (SHEILD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 535.553,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 535.553,
+        "TRP CONSTRUCTION GROUP, LLC": 500.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 800.0,
+        "STRIPE-A-ZONE, LLC": 1250.0
+      }
+    },
+    {
+      "itemCode": "0677 6028",
+      "description": "ELIM EXT PV MRK & MRKS (RUMBLE STRIP)",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.072,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 1.072,
+        "TRP CONSTRUCTION GROUP, LLC": 2.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 14.0,
+        "STRIPE-A-ZONE, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 350.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 1.072,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 1.072,
+        "TRP CONSTRUCTION GROUP, LLC": 3.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 2.0,
+        "STRIPE-A-ZONE, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 1.072,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 1.072,
+        "TRP CONSTRUCTION GROUP, LLC": 5.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 2.0,
+        "STRIPE-A-ZONE, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0678 6006",
+      "description": "PAV SURF PREP FOR MRK (12\")",
+      "unit": "LF",
+      "quantity": 20.0,
+      "engEstUnit": 0.75,
+      "lowUnit": 2.142,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 2.142,
+        "TRP CONSTRUCTION GROUP, LLC": 50.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 10.0,
+        "STRIPE-A-ZONE, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0678 6007",
+      "description": "PAV SURF PREP FOR MRK (18\")",
+      "unit": "LF",
+      "quantity": 30.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 2.142,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 2.142,
+        "TRP CONSTRUCTION GROUP, LLC": 35.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 10.0,
+        "STRIPE-A-ZONE, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 40.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 2.142,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 2.142,
+        "TRP CONSTRUCTION GROUP, LLC": 25.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 15.0,
+        "STRIPE-A-ZONE, LLC": 7.0
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 107.111,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 107.111,
+        "TRP CONSTRUCTION GROUP, LLC": 500.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 95.0,
+        "STRIPE-A-ZONE, LLC": 80.0
+      }
+    },
+    {
+      "itemCode": "0678 6010",
+      "description": "PAV SURF PREP FOR MRK (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 107.111,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 107.111,
+        "TRP CONSTRUCTION GROUP, LLC": 500.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 95.0,
+        "STRIPE-A-ZONE, LLC": 120.0
+      }
+    },
+    {
+      "itemCode": "0678 6011",
+      "description": "PAV SURF PREP FOR MRK (TPL ARROW)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 107.111,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 107.111,
+        "TRP CONSTRUCTION GROUP, LLC": 500.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 145.0,
+        "STRIPE-A-ZONE, LLC": 160.0
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 107.111,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 107.111,
+        "TRP CONSTRUCTION GROUP, LLC": 500.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 100.0,
+        "STRIPE-A-ZONE, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0678 6020",
+      "description": "PAV SURF PREP FOR MRK (RR XING)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 214.221,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 214.221,
+        "TRP CONSTRUCTION GROUP, LLC": 500.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 225.0,
+        "STRIPE-A-ZONE, LLC": 400.0
+      }
+    },
+    {
+      "itemCode": "0678 6021",
+      "description": "PAV SURF PREP FOR MRK (SYMBOL)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 107.111,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 107.111,
+        "TRP CONSTRUCTION GROUP, LLC": 500.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 145.0,
+        "STRIPE-A-ZONE, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0678 6022",
+      "description": "PAV SURF PREP FOR MRK (18\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 53.555,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 53.555,
+        "TRP CONSTRUCTION GROUP, LLC": 100.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 25.0,
+        "STRIPE-A-ZONE, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0678 6023",
+      "description": "PAV SURF PREP FOR MRK (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 53.555,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 53.555,
+        "TRP CONSTRUCTION GROUP, LLC": 200.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 46.0,
+        "STRIPE-A-ZONE, LLC": 25.0
+      }
+    },
+    {
+      "itemCode": "0678 6025",
+      "description": "PAV SURF PREP FOR MRKS (SHIELD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 535.553,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 535.553,
+        "TRP CONSTRUCTION GROUP, LLC": 500.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 189.0,
+        "STRIPE-A-ZONE, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "6056 6001",
+      "description": "PREFORMED IN-LANE(TRANS) RUMBLE STRIP",
+      "unit": "LF",
+      "quantity": 160.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 16.067,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 16.067,
+        "TRP CONSTRUCTION GROUP, LLC": 6.25,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 20.0,
+        "STRIPE-A-ZONE, LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "6056 6002",
+      "description": "PREFORMED CENTERLINE RUMBLE STRIP",
+      "unit": "LF",
+      "quantity": 300.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 10.711,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 10.711,
+        "TRP CONSTRUCTION GROUP, LLC": 10.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 20.0,
+        "STRIPE-A-ZONE, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "7329 6001",
+      "description": "MAINTENANCE SPEED LIMIT SIGNING",
+      "unit": "EA",
+      "quantity": 60.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 2142.21,
+      "bidders": {
+        "REYNOLDS & KAY, LTD.": 2142.21,
+        "TRP CONSTRUCTION GROUP, LLC": 2850.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 2400.0,
+        "STRIPE-A-ZONE, LLC": 2000.0
+      }
+    }
+  ]
+}

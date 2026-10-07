@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6470-40-001",
+    "county": "Angelina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 647040001",
+    "projectType": "HYDRAULIC CEMENT/BAG/ANGELINA (HOUSTON & SABINE)",
+    "letDate": "07/23/24",
+    "engEstTotal": 64512.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AKA-MATERIALS",
+      "totalBidAmount": 61098.24
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 61376.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DOMINION ENGINEERING MANAGEMENT SERVICES (DEMS), LLC",
+      "totalBidAmount": 108783.36
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8012 6020",
+      "description": "HYDRAULIC CEMENT(TY I)(DEL)(47LBS)(ST1)",
+      "unit": "BAG",
+      "quantity": 896.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 7.75,
+      "bidders": {
+        "AKA-MATERIALS": 7.75,
+        "TOUCHSTONE RESOURCES, LLC": 7.5,
+        "DOMINION ENGINEERING MANAGEMENT SERVICES (DEMS), LLC": 13.67
+      }
+    },
+    {
+      "itemCode": "8012 6021",
+      "description": "HYDRAULIC CEMENT(TY I)(DEL)(47LBS)(ST2)",
+      "unit": "BAG",
+      "quantity": 5376.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 7.49,
+      "bidders": {
+        "AKA-MATERIALS": 7.49,
+        "TOUCHSTONE RESOURCES, LLC": 7.5,
+        "DOMINION ENGINEERING MANAGEMENT SERVICES (DEMS), LLC": 13.4
+      }
+    },
+    {
+      "itemCode": "8012 6022",
+      "description": "HYDRAULIC CEMENT(TY I)(DEL)(47LBS)(ST3)",
+      "unit": "BAG",
+      "quantity": 1792.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 7.75,
+      "bidders": {
+        "AKA-MATERIALS": 7.75,
+        "TOUCHSTONE RESOURCES, LLC": 8.0,
+        "DOMINION ENGINEERING MANAGEMENT SERVICES (DEMS), LLC": 13.67
+      }
+    }
+  ]
+}

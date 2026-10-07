@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6461-24-001",
+    "county": "Waller",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646124001",
+    "projectType": "STORM SEWER SYSTEM CLEANING",
+    "letDate": "03/12/24",
+    "engEstTotal": 190390.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 174700.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "AIMS COMPANIES",
+      "totalBidAmount": 383850.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 100.0,
+        "AIMS COMPANIES": 1000.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 1000.0,
+        "AIMS COMPANIES": 2000.0
+      }
+    },
+    {
+      "itemCode": "7019 6001",
+      "description": "STORM SEWER (TELEVISION INSPECTION)",
+      "unit": "LF",
+      "quantity": 2000.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 1.0,
+        "AIMS COMPANIES": 6.0
+      }
+    }
+  ]
+}

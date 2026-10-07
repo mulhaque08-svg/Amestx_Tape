@@ -1,0 +1,736 @@
+{
+  "metadata": {
+    "csj": "0573-01-041",
+    "county": "Bastrop",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 573-1-41",
+    "projectType": "WIDEN ROAD - ADD SHOULDERS",
+    "letDate": "02/02/23",
+    "engEstTotal": 2836279.99,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "HUNTER INDUSTRIES, LTD.",
+      "totalBidAmount": 2515580.84
+    },
+    {
+      "rank": 2,
+      "vendorName": "LONE STAR SITEWORK, LLC",
+      "totalBidAmount": 2830212.29
+    },
+    {
+      "rank": 3,
+      "vendorName": "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.",
+      "totalBidAmount": 3066494.72
+    },
+    {
+      "rank": 4,
+      "vendorName": "ACME BRIDGE COMPANY, INC.",
+      "totalBidAmount": 3270438.29
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 81.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 691.74,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 691.74,
+        "LONE STAR SITEWORK, LLC": 400.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 376.64,
+        "ACME BRIDGE COMPANY, INC.": 1510.0
+      }
+    },
+    {
+      "itemCode": "0105 6045",
+      "description": "REMOVING STAB BASE AND ASPH PAV (2\"-8\")",
+      "unit": "SY",
+      "quantity": 4704.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 6.84,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 6.84,
+        "LONE STAR SITEWORK, LLC": 8.4,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 12.66,
+        "ACME BRIDGE COMPANY, INC.": 7.9
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 6679.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 18.36,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 18.36,
+        "LONE STAR SITEWORK, LLC": 9.85,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 15.38,
+        "ACME BRIDGE COMPANY, INC.": 17.2
+      }
+    },
+    {
+      "itemCode": "0132 6003",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY B)",
+      "unit": "CY",
+      "quantity": 4040.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 18.36,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 18.36,
+        "LONE STAR SITEWORK, LLC": 22.4,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 15.65,
+        "ACME BRIDGE COMPANY, INC.": 13.3
+      }
+    },
+    {
+      "itemCode": "0160 6003",
+      "description": "FURNISHING AND PLACING TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 32676.0,
+      "engEstUnit": 1.75,
+      "lowUnit": 1.13,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1.13,
+        "LONE STAR SITEWORK, LLC": 2.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1.65,
+        "ACME BRIDGE COMPANY, INC.": 3.2
+      }
+    },
+    {
+      "itemCode": "0164 6001",
+      "description": "BROADCAST SEED (PERM) (RURAL) (SANDY)",
+      "unit": "SY",
+      "quantity": 32676.0,
+      "engEstUnit": 0.18,
+      "lowUnit": 0.18,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.18,
+        "LONE STAR SITEWORK, LLC": 0.22,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 0.23,
+        "ACME BRIDGE COMPANY, INC.": 0.15
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 32676.0,
+      "engEstUnit": 0.18,
+      "lowUnit": 0.16,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.16,
+        "LONE STAR SITEWORK, LLC": 0.19,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 0.18,
+        "ACME BRIDGE COMPANY, INC.": 0.13
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 32676.0,
+      "engEstUnit": 0.18,
+      "lowUnit": 0.16,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.16,
+        "LONE STAR SITEWORK, LLC": 0.19,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 0.18,
+        "ACME BRIDGE COMPANY, INC.": 0.13
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 810.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 20.52,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 20.52,
+        "LONE STAR SITEWORK, LLC": 50.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 42.76,
+        "ACME BRIDGE COMPANY, INC.": 42.0
+      }
+    },
+    {
+      "itemCode": "0169 6001",
+      "description": "SOIL RETENTION BLANKETS (CL 1) (TY A)",
+      "unit": "SY",
+      "quantity": 32676.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.5,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1.5,
+        "LONE STAR SITEWORK, LLC": 1.8,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1.68,
+        "ACME BRIDGE COMPANY, INC.": 1.45
+      }
+    },
+    {
+      "itemCode": "0310 6001",
+      "description": "PRIME COAT (MULTI OPTION)",
+      "unit": "GAL",
+      "quantity": 4070.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 5.26,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 5.26,
+        "LONE STAR SITEWORK, LLC": 4.6,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 5.22,
+        "ACME BRIDGE COMPANY, INC.": 4.45
+      }
+    },
+    {
+      "itemCode": "0351 6002",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(6\")",
+      "unit": "SY",
+      "quantity": 1974.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 49.24,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 49.24,
+        "LONE STAR SITEWORK, LLC": 57.75,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 67.97,
+        "ACME BRIDGE COMPANY, INC.": 56.4
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 27.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 210.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 210.0,
+        "LONE STAR SITEWORK, LLC": 725.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 186.09,
+        "ACME BRIDGE COMPANY, INC.": 212.0
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 240.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 105.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 105.0,
+        "LONE STAR SITEWORK, LLC": 60.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 18.02,
+        "ACME BRIDGE COMPANY, INC.": 106.0
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 2.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 735.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 735.0,
+        "LONE STAR SITEWORK, LLC": 1025.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 633.83,
+        "ACME BRIDGE COMPANY, INC.": 742.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 17.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 788.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 788.0,
+        "LONE STAR SITEWORK, LLC": 785.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 612.11,
+        "ACME BRIDGE COMPANY, INC.": 795.0
+      }
+    },
+    {
+      "itemCode": "0432 6051",
+      "description": "RIPRAP (STONE COMMON)(GROUT)(18 IN)",
+      "unit": "CY",
+      "quantity": 26.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 237.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 237.0,
+        "LONE STAR SITEWORK, LLC": 330.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 502.35,
+        "ACME BRIDGE COMPANY, INC.": 280.0
+      }
+    },
+    {
+      "itemCode": "0467 6363",
+      "description": "SET (TY II) (18 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1300.0,
+      "lowUnit": 1050.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1050.0,
+        "LONE STAR SITEWORK, LLC": 2875.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1774.12,
+        "ACME BRIDGE COMPANY, INC.": 1060.0
+      }
+    },
+    {
+      "itemCode": "0467 6395",
+      "description": "SET (TY II) (24 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1800.0,
+      "lowUnit": 1575.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1575.0,
+        "LONE STAR SITEWORK, LLC": 3290.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 2187.25,
+        "ACME BRIDGE COMPANY, INC.": 1590.0
+      }
+    },
+    {
+      "itemCode": "0467 6474",
+      "description": "SET (TY II) (48 IN) (RCP) (3: 1) (C)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 5750.0,
+      "lowUnit": 4725.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 4725.0,
+        "LONE STAR SITEWORK, LLC": 6760.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 7666.02,
+        "ACME BRIDGE COMPANY, INC.": 4770.0
+      }
+    },
+    {
+      "itemCode": "0467 6477",
+      "description": "SET (TY II) (48 IN) (RCP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 6000.0,
+      "lowUnit": 5250.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 5250.0,
+        "LONE STAR SITEWORK, LLC": 7580.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 9273.45,
+        "ACME BRIDGE COMPANY, INC.": 5300.0
+      }
+    },
+    {
+      "itemCode": "0467 6519",
+      "description": "SET (TY II) (DES 1) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 1575.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1575.0,
+        "LONE STAR SITEWORK, LLC": 3040.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 2341.2,
+        "ACME BRIDGE COMPANY, INC.": 1590.0
+      }
+    },
+    {
+      "itemCode": "0496 6004",
+      "description": "REMOV STR (SET)",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 788.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 788.0,
+        "LONE STAR SITEWORK, LLC": 850.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1086.79,
+        "ACME BRIDGE COMPANY, INC.": 795.0
+      }
+    },
+    {
+      "itemCode": "0496 6050",
+      "description": "REMOV STR (DRIVEWAY CULVERT)",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1313.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1313.0,
+        "LONE STAR SITEWORK, LLC": 675.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 777.96,
+        "ACME BRIDGE COMPANY, INC.": 1320.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 235500.0,
+      "lowUnit": 235403.29,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 235403.29,
+        "LONE STAR SITEWORK, LLC": 75617.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 208101.14,
+        "ACME BRIDGE COMPANY, INC.": 294000.0
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 2035.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 36.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 36.0,
+        "LONE STAR SITEWORK, LLC": 60.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 51.2,
+        "ACME BRIDGE COMPANY, INC.": 62.5
+      }
+    },
+    {
+      "itemCode": "0533 6002",
+      "description": "RUMBLE STRIPS (CENTERLINE)",
+      "unit": "LF",
+      "quantity": 8077.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.25,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.25,
+        "LONE STAR SITEWORK, LLC": 1.87,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 0.4,
+        "ACME BRIDGE COMPANY, INC.": 0.53
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 350.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 0.89,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.89,
+        "LONE STAR SITEWORK, LLC": 2.4,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 2.5,
+        "ACME BRIDGE COMPANY, INC.": 0.94
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 3575.0,
+      "lowUnit": 3224.87,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 3224.87,
+        "LONE STAR SITEWORK, LLC": 3900.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 3678.83,
+        "ACME BRIDGE COMPANY, INC.": 3420.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 265.19,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 265.19,
+        "LONE STAR SITEWORK, LLC": 270.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 299.51,
+        "ACME BRIDGE COMPANY, INC.": 281.0
+      }
+    },
+    {
+      "itemCode": "0560 6001",
+      "description": "MAILBOX INSTALL-S (TWG-POST) TY 1",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 367.85,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 367.85,
+        "LONE STAR SITEWORK, LLC": 441.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 415.02,
+        "ACME BRIDGE COMPANY, INC.": 323.0
+      }
+    },
+    {
+      "itemCode": "0560 6002",
+      "description": "MAILBOX INSTALL-D (TWG-POST) TY 1",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 290.0,
+      "lowUnit": 585.87,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 585.87,
+        "LONE STAR SITEWORK, LLC": 703.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 654.84,
+        "ACME BRIDGE COMPANY, INC.": 371.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 810.76,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 810.76,
+        "LONE STAR SITEWORK, LLC": 973.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 902.22,
+        "ACME BRIDGE COMPANY, INC.": 688.0
+      }
+    },
+    {
+      "itemCode": "0644 6002",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P-BM)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 1015.83,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1015.83,
+        "LONE STAR SITEWORK, LLC": 1219.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1127.8,
+        "ACME BRIDGE COMPANY, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 957.81,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 957.81,
+        "LONE STAR SITEWORK, LLC": 1150.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1063.97,
+        "ACME BRIDGE COMPANY, INC.": 787.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 173.14,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 173.14,
+        "LONE STAR SITEWORK, LLC": 208.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 200.84,
+        "ACME BRIDGE COMPANY, INC.": 84.8
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 83.76,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 83.76,
+        "LONE STAR SITEWORK, LLC": 100.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 102.52,
+        "ACME BRIDGE COMPANY, INC.": 29.7
+      }
+    },
+    {
+      "itemCode": "0658 6100",
+      "description": "INSTL OM ASSM (OM-2Z)(WFLX)GND(BI)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 75.0,
+        "LONE STAR SITEWORK, LLC": 90.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 164.65,
+        "ACME BRIDGE COMPANY, INC.": 222.0
+      }
+    },
+    {
+      "itemCode": "0662 6016",
+      "description": "WK ZN PAV MRK NON-REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 24.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 17.76,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 17.76,
+        "LONE STAR SITEWORK, LLC": 6.85,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 10.61,
+        "ACME BRIDGE COMPANY, INC.": 5.3
+      }
+    },
+    {
+      "itemCode": "0662 6075",
+      "description": "WK ZN PAV MRK REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 48.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 25.0,
+        "LONE STAR SITEWORK, LLC": 14.8,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 15.74,
+        "ACME BRIDGE COMPANY, INC.": 5.3
+      }
+    },
+    {
+      "itemCode": "0662 6095",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 16154.0,
+      "engEstUnit": 1.2,
+      "lowUnit": 0.77,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 0.77,
+        "LONE STAR SITEWORK, LLC": 1.1,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1.0,
+        "ACME BRIDGE COMPANY, INC.": 0.65
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 202.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.6,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1.6,
+        "LONE STAR SITEWORK, LLC": 2.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 2.71,
+        "ACME BRIDGE COMPANY, INC.": 1.8
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 202.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 7.77,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 7.77,
+        "LONE STAR SITEWORK, LLC": 6.8,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 6.73,
+        "ACME BRIDGE COMPANY, INC.": 6.4
+      }
+    },
+    {
+      "itemCode": "3076 6015",
+      "description": "D-GR HMA TY-C PG64-22",
+      "unit": "TON",
+      "quantity": 2239.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 96.21,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 96.21,
+        "LONE STAR SITEWORK, LLC": 110.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 145.82,
+        "ACME BRIDGE COMPANY, INC.": 113.0
+      }
+    },
+    {
+      "itemCode": "3076 6048",
+      "description": "D-GR HMA TY-D PG76-22",
+      "unit": "TON",
+      "quantity": 3494.0,
+      "engEstUnit": 135.0,
+      "lowUnit": 104.85,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 104.85,
+        "LONE STAR SITEWORK, LLC": 123.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 141.98,
+        "ACME BRIDGE COMPANY, INC.": 127.0
+      }
+    },
+    {
+      "itemCode": "3076 6051",
+      "description": "D-GR HMA TY-D PG76-22 (LEVEL-UP)",
+      "unit": "TON",
+      "quantity": 652.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 110.7,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 110.7,
+        "LONE STAR SITEWORK, LLC": 122.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 142.66,
+        "ACME BRIDGE COMPANY, INC.": 129.0
+      }
+    },
+    {
+      "itemCode": "3081 6008",
+      "description": "TOM-C PG76-22 SAC-B",
+      "unit": "TON",
+      "quantity": 2262.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 134.46,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 134.46,
+        "LONE STAR SITEWORK, LLC": 140.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 164.92,
+        "ACME BRIDGE COMPANY, INC.": 145.0
+      }
+    },
+    {
+      "itemCode": "3084 6001",
+      "description": "BONDING COURSE",
+      "unit": "GAL",
+      "quantity": 7215.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 4.01,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 4.01,
+        "LONE STAR SITEWORK, LLC": 4.3,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 6.94,
+        "ACME BRIDGE COMPANY, INC.": 4.2
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 13000.0,
+      "lowUnit": 10969.94,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 10969.94,
+        "LONE STAR SITEWORK, LLC": 12960.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 9202.98,
+        "ACME BRIDGE COMPANY, INC.": 11800.0
+      }
+    },
+    {
+      "itemCode": "7251 6001",
+      "description": "SUBSURFACE UTIL LOCATE (OUTSIDE RDBED)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1450.24,
+      "bidders": {
+        "HUNTER INDUSTRIES, LTD.": 1450.24,
+        "LONE STAR SITEWORK, LLC": 1750.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1461.2,
+        "ACME BRIDGE COMPANY, INC.": 3180.0
+      }
+    }
+  ]
+}

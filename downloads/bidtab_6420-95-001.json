@@ -1,0 +1,418 @@
+{
+  "metadata": {
+    "csj": "6420-95-001",
+    "county": "Cass",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 642095001",
+    "projectType": "BRIDGE PREVENTATIVE MAINTENANCE",
+    "letDate": "10/07/22",
+    "engEstTotal": 695776.4,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "THK CONSTRUCTION LLC",
+      "totalBidAmount": 606935.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 631662.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "3LW CIVIL LLC",
+      "totalBidAmount": 650881.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 653671.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 662880.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 772895.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "HODGES AND SON CONSTRUCTION COMPANY, INC.",
+      "totalBidAmount": 773785.0
+    },
+    {
+      "rank": 8,
+      "vendorName": "BUILT RIGHT CONSTRUCTION OF OKLAHOMA, LLC",
+      "totalBidAmount": 871760.0
+    },
+    {
+      "rank": 9,
+      "vendorName": "EAST TEXAS BRIDGE, INC.",
+      "totalBidAmount": 932710.0
+    },
+    {
+      "rank": 10,
+      "vendorName": "SCR CIVIL CONSTRUCTION, LLC",
+      "totalBidAmount": 942670.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 472.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 20.0,
+        "TALBRAN ENTERPRISES LLC": 110.0,
+        "3LW CIVIL LLC": 57.5,
+        "CROSS PLUS CONSTRUCTION, LLC": 22.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 40.0,
+        "SHALOM SERVICES CORPORATION": 80.0
+      }
+    },
+    {
+      "itemCode": "0104 6025",
+      "description": "REMOVE CONC (WINGWALL)",
+      "unit": "CY",
+      "quantity": 4.0,
+      "engEstUnit": 422.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 250.0,
+        "TALBRAN ENTERPRISES LLC": 1650.0,
+        "3LW CIVIL LLC": 432.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 550.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 500.0,
+        "SHALOM SERVICES CORPORATION": 135.0
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 130.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 20.0,
+        "TALBRAN ENTERPRISES LLC": 88.0,
+        "3LW CIVIL LLC": 31.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 19.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 50.0,
+        "SHALOM SERVICES CORPORATION": 30.0
+      }
+    },
+    {
+      "itemCode": "0132 6001",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY A)",
+      "unit": "CY",
+      "quantity": 117.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 25.0,
+        "TALBRAN ENTERPRISES LLC": 55.0,
+        "3LW CIVIL LLC": 49.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 44.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 80.0,
+        "SHALOM SERVICES CORPORATION": 35.0
+      }
+    },
+    {
+      "itemCode": "0401 6001",
+      "description": "FLOWABLE BACKFILL",
+      "unit": "CY",
+      "quantity": 75.0,
+      "engEstUnit": 280.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 350.0,
+        "TALBRAN ENTERPRISES LLC": 550.0,
+        "3LW CIVIL LLC": 350.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 275.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 300.0,
+        "SHALOM SERVICES CORPORATION": 500.0
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 200.0,
+      "engEstUnit": 48.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 60.0,
+        "TALBRAN ENTERPRISES LLC": 1.0,
+        "3LW CIVIL LLC": 60.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 55.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "SHALOM SERVICES CORPORATION": 15.0
+      }
+    },
+    {
+      "itemCode": "0429 6005",
+      "description": "CONC STR REPAIR(DECK REP (FULL DEPTH))",
+      "unit": "SF",
+      "quantity": 15.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 200.0,
+        "TALBRAN ENTERPRISES LLC": 880.0,
+        "3LW CIVIL LLC": 292.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 330.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 200.0,
+        "SHALOM SERVICES CORPORATION": 600.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 310.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 110.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 110.0,
+        "TALBRAN ENTERPRISES LLC": 205.0,
+        "3LW CIVIL LLC": 244.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 165.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 180.0,
+        "SHALOM SERVICES CORPORATION": 150.0
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 3.0,
+      "engEstUnit": 605.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 800.0,
+        "TALBRAN ENTERPRISES LLC": 1200.0,
+        "3LW CIVIL LLC": 610.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 825.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 500.0,
+        "SHALOM SERVICES CORPORATION": 800.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 405.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 200.0,
+        "TALBRAN ENTERPRISES LLC": 330.0,
+        "3LW CIVIL LLC": 245.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 248.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 180.0,
+        "SHALOM SERVICES CORPORATION": 200.0
+      }
+    },
+    {
+      "itemCode": "0432 6039",
+      "description": "BEDDING MATERIAL (6 IN)",
+      "unit": "CY",
+      "quantity": 136.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 175.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 175.0,
+        "TALBRAN ENTERPRISES LLC": 275.0,
+        "3LW CIVIL LLC": 145.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 165.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 40.0,
+        "SHALOM SERVICES CORPORATION": 200.0
+      }
+    },
+    {
+      "itemCode": "0438 6002",
+      "description": "CLEANING AND SEALING EXIST JOINTS(CL3)",
+      "unit": "LF",
+      "quantity": 1020.0,
+      "engEstUnit": 27.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 40.0,
+        "TALBRAN ENTERPRISES LLC": 6.0,
+        "3LW CIVIL LLC": 41.75,
+        "CROSS PLUS CONSTRUCTION, LLC": 33.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 40.0,
+        "SHALOM SERVICES CORPORATION": 60.0
+      }
+    },
+    {
+      "itemCode": "0466 6153",
+      "description": "WINGWALL (FW - 0) (HW=6 FT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 13000.0,
+      "lowUnit": 13000.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 13000.0,
+        "TALBRAN ENTERPRISES LLC": 22000.0,
+        "3LW CIVIL LLC": 9500.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 15400.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 25000.0,
+        "SHALOM SERVICES CORPORATION": 18000.0
+      }
+    },
+    {
+      "itemCode": "0466 6158",
+      "description": "WINGWALL (FW - S) (HW=11 FT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 36350.0,
+      "lowUnit": 18000.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 18000.0,
+        "TALBRAN ENTERPRISES LLC": 28000.0,
+        "3LW CIVIL LLC": 23650.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 24200.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 50000.0,
+        "SHALOM SERVICES CORPORATION": 60000.0
+      }
+    },
+    {
+      "itemCode": "0480 6002",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "CY",
+      "quantity": 130.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 24.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 24.0,
+        "TALBRAN ENTERPRISES LLC": 115.0,
+        "3LW CIVIL LLC": 48.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 110.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "SHALOM SERVICES CORPORATION": 100.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 61752.4,
+      "lowUnit": 65000.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 65000.0,
+        "TALBRAN ENTERPRISES LLC": 15000.0,
+        "3LW CIVIL LLC": 80000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 66000.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 60000.0,
+        "SHALOM SERVICES CORPORATION": 40000.0
+      }
+    },
+    {
+      "itemCode": "0778 6013",
+      "description": "CONCRETE RAIL REPLACEMENT (TYPE 201)",
+      "unit": "LF",
+      "quantity": 7.0,
+      "engEstUnit": 610.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 1500.0,
+        "TALBRAN ENTERPRISES LLC": 2750.0,
+        "3LW CIVIL LLC": 640.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 440.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 1000.0,
+        "SHALOM SERVICES CORPORATION": 500.0
+      }
+    },
+    {
+      "itemCode": "0778 6014",
+      "description": "CONCRETE RAIL REPLACEMENT (TYPE 202)",
+      "unit": "LF",
+      "quantity": 10.0,
+      "engEstUnit": 610.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 1500.0,
+        "TALBRAN ENTERPRISES LLC": 2800.0,
+        "3LW CIVIL LLC": 640.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 440.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 1000.0,
+        "SHALOM SERVICES CORPORATION": 500.0
+      }
+    },
+    {
+      "itemCode": "0778 6021",
+      "description": "CONCRETE RAIL REPLACEMENT (TYPE 501)",
+      "unit": "LF",
+      "quantity": 25.0,
+      "engEstUnit": 630.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 1500.0,
+        "TALBRAN ENTERPRISES LLC": 3300.0,
+        "3LW CIVIL LLC": 649.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 440.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 500.0,
+        "SHALOM SERVICES CORPORATION": 340.0
+      }
+    },
+    {
+      "itemCode": "0780 6002",
+      "description": "CNC CRACK REPAIR (DISCRETE)(INJECT)",
+      "unit": "LF",
+      "quantity": 250.0,
+      "engEstUnit": 78.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 100.0,
+        "TALBRAN ENTERPRISES LLC": 110.0,
+        "3LW CIVIL LLC": 105.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 55.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 50.0,
+        "SHALOM SERVICES CORPORATION": 190.0
+      }
+    },
+    {
+      "itemCode": "0785 6002",
+      "description": "BRIDGE JOINT REPAIR (POLYMER)",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 462.0,
+      "lowUnit": 190.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 190.0,
+        "TALBRAN ENTERPRISES LLC": 23.0,
+        "3LW CIVIL LLC": 105.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 330.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 150.0,
+        "SHALOM SERVICES CORPORATION": 300.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 24.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 150.0,
+        "TALBRAN ENTERPRISES LLC": 1.0,
+        "3LW CIVIL LLC": 100.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 1.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 200.0,
+        "SHALOM SERVICES CORPORATION": 50.0
+      }
+    }
+  ]
+}

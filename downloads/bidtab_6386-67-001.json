@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6386-67-001",
+    "county": "Travis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638667001",
+    "projectType": "FLEX BASE - MATERIAL ONLY",
+    "letDate": "06/15/22",
+    "engEstTotal": 225000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 190000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 203495.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 229125.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6051",
+      "description": "FL BS (STE DEL)(TY A GR 5)(DROP OFF)(1)",
+      "unit": "CY",
+      "quantity": 1500.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 45.0,
+        "DIGG COMMERCIAL, LLC": 54.81,
+        "KNIFE RIVER CORPORATION - SOUTH": 60.5
+      }
+    },
+    {
+      "itemCode": "8007 6052",
+      "description": "FL BS (STE DEL)(TY A GR 5)(DROP OFF)(2)",
+      "unit": "CY",
+      "quantity": 1500.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 40.0,
+        "DIGG COMMERCIAL, LLC": 34.88,
+        "KNIFE RIVER CORPORATION - SOUTH": 34.25
+      }
+    },
+    {
+      "itemCode": "8007 6053",
+      "description": "FL BS (STE DEL)(TY A GR 5)(DROP OFF)(3)",
+      "unit": "CY",
+      "quantity": 1000.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 41.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 41.0,
+        "DIGG COMMERCIAL, LLC": 48.61,
+        "KNIFE RIVER CORPORATION - SOUTH": 60.5
+      }
+    },
+    {
+      "itemCode": "8007 6054",
+      "description": "FL BS (STE DEL)(TY A GR 5)(DROP OFF)(4)",
+      "unit": "CY",
+      "quantity": 500.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 43.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 43.0,
+        "DIGG COMMERCIAL, LLC": 40.7,
+        "KNIFE RIVER CORPORATION - SOUTH": 53.0
+      }
+    }
+  ]
+}

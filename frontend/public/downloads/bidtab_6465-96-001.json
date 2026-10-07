@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6465-96-001",
+    "county": "Navarro",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646596001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/07/24",
+    "engEstTotal": 234787.85,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 222132.7
+    },
+    {
+      "rank": 2,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 243117.95
+    },
+    {
+      "rank": 3,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 294971.6
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 21344.35,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 3000.0,
+        "D & M CONTRACTORS, LLC": 15000.0,
+        "ICOS MANAGEMENT, LLC": 1.0
+      }
+    }
+  ]
+}

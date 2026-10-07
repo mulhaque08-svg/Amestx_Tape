@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6390-91-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639091001",
+    "projectType": "WINTER WEATHER MATERIAL",
+    "letDate": "10/26/21",
+    "engEstTotal": 262500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "UNITED SALT CORPORATION",
+      "totalBidAmount": 211950.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "NSG LOGISTICS, LLC",
+      "totalBidAmount": 353875.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "THE BARGAIN SOURCE",
+      "totalBidAmount": 430000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8032 6247",
+      "description": "TYPE II BRINE SALT(PICK-UP)",
+      "unit": "TON",
+      "quantity": 2500.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 84.78,
+      "bidders": {
+        "UNITED SALT CORPORATION": 84.78,
+        "NSG LOGISTICS, LLC": 141.55,
+        "THE BARGAIN SOURCE": 172.0
+      }
+    }
+  ]
+}

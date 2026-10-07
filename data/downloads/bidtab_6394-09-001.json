@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6394-09-001",
+    "county": "Midland",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639409001",
+    "projectType": "DRAINAGE IMPROVEMENT AND/OR REPAIRS",
+    "letDate": "02/08/22",
+    "engEstTotal": 40109.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JCP QUALITY MAINTENANCE, LLC",
+      "totalBidAmount": 35001.09
+    },
+    {
+      "rank": 2,
+      "vendorName": "GV LANDSCAPE AND CONSTRUCTION LLC",
+      "totalBidAmount": 89232.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "3LW CIVIL LLC",
+      "totalBidAmount": 247310.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 50.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 240.0,
+      "bidders": {
+        "JCP QUALITY MAINTENANCE, LLC": 240.0,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 77.0,
+        "3LW CIVIL LLC": 130.0
+      }
+    },
+    {
+      "itemCode": "0480 6001",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "EA",
+      "quantity": 59.0,
+      "engEstUnit": 261.0,
+      "lowUnit": 84.75,
+      "bidders": {
+        "JCP QUALITY MAINTENANCE, LLC": 84.75,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 750.0,
+        "3LW CIVIL LLC": 3500.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "JCP QUALITY MAINTENANCE, LLC": 2500.0,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 20000.0,
+        "3LW CIVIL LLC": 15000.0
+      }
+    },
+    {
+      "itemCode": "0764 6017",
+      "description": "STORM SEWER CLEAN (BOX CULV)(12-<24 SF)",
+      "unit": "LF",
+      "quantity": 214.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 42.06,
+      "bidders": {
+        "JCP QUALITY MAINTENANCE, LLC": 42.06,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 38.0,
+        "3LW CIVIL LLC": 65.0
+      }
+    }
+  ]
+}

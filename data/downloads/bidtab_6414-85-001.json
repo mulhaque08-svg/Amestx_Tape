@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6414-85-001",
+    "county": "Smith",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641485001",
+    "projectType": "TREE TRIMMING AND BRUSH REMOVAL",
+    "letDate": "10/11/22",
+    "engEstTotal": 167512.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "EASTGATE SERVICES",
+      "totalBidAmount": 153341.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TERRY ENTERPRISES",
+      "totalBidAmount": 182219.85
+    },
+    {
+      "rank": 3,
+      "vendorName": "PREMIER CONTRACTORS LLC",
+      "totalBidAmount": 197415.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "ROAD SOLUTIONS L.L.C.",
+      "totalBidAmount": 197973.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "HX FARMS, INC.",
+      "totalBidAmount": 201348.7
+    },
+    {
+      "rank": 6,
+      "vendorName": "FOWLER CONSTRUCTION",
+      "totalBidAmount": 227886.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "MARLANE CONSTRUCTION, LLC",
+      "totalBidAmount": 334025.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "EASTGATE SERVICES": 1.0,
+        "TERRY ENTERPRISES": 1.0,
+        "PREMIER CONTRACTORS LLC": 5000.0,
+        "ROAD SOLUTIONS L.L.C.": 18000.0,
+        "HX FARMS, INC.": 1.0,
+        "FOWLER CONSTRUCTION": 1.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 91.15,
+      "engEstUnit": 1750.0,
+      "lowUnit": 1600.0,
+      "bidders": {
+        "EASTGATE SERVICES": 1600.0,
+        "TERRY ENTERPRISES": 1999.0,
+        "PREMIER CONTRACTORS LLC": 2100.0,
+        "ROAD SOLUTIONS L.L.C.": 1950.0,
+        "HX FARMS, INC.": 2198.0,
+        "FOWLER CONSTRUCTION": 2500.0
+      }
+    }
+  ]
+}

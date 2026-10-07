@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6422-45-001",
+    "county": "Brazoria",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642245001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/01/23",
+    "engEstTotal": 678728.26,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RELIANT SAND AND CONSTRUCTION, INC.",
+      "totalBidAmount": 566294.93
+    },
+    {
+      "rank": 2,
+      "vendorName": "YELLOWSTONE LANDSCAPE - CENTRAL, INC.",
+      "totalBidAmount": 596251.46
+    },
+    {
+      "rank": 3,
+      "vendorName": "MTS BRUSH HOGGING DOZER AND LAWN LLC",
+      "totalBidAmount": 602547.6
+    },
+    {
+      "rank": 4,
+      "vendorName": "LAWNSCAPES UNLIMITED",
+      "totalBidAmount": 632286.04
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6003",
+      "description": "MOBILIZATION (CALLOUT 1)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 534.48,
+      "lowUnit": 100.0,
+      "bidders": {
+        "RELIANT SAND AND CONSTRUCTION, INC.": 100.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 1.0,
+        "MTS BRUSH HOGGING DOZER AND LAWN LLC": 100.0,
+        "LAWNSCAPES UNLIMITED": 1.0
+      }
+    }
+  ]
+}

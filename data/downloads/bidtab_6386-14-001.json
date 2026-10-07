@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6386-14-001",
+    "county": "Midland",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638614001",
+    "projectType": "HOT MIX",
+    "letDate": "11/09/21",
+    "engEstTotal": 270000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RK HALL, LLC",
+      "totalBidAmount": 243750.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CSA MATERIALS INC.",
+      "totalBidAmount": 253500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 82.5,
+      "bidders": {
+        "RK HALL, LLC": 82.5,
+        "CSA MATERIALS INC.": 84.5
+      }
+    },
+    {
+      "itemCode": "8011 6016",
+      "description": "D-GR HMA(SQ)TY C PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "RK HALL, LLC": 80.0,
+        "CSA MATERIALS INC.": 84.5
+      }
+    }
+  ]
+}

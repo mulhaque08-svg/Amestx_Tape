@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6385-97-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638597001",
+    "projectType": "WINTER WEATHER MATERIAL",
+    "letDate": "10/26/21",
+    "engEstTotal": 266500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "UNITED SALT CORPORATION",
+      "totalBidAmount": 188231.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "THE BARGAIN SOURCE",
+      "totalBidAmount": 438700.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "NSG LOGISTICS, LLC",
+      "totalBidAmount": 456617.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8032 6246",
+      "description": "TYPE I ROAD SALT(PICK-UP)",
+      "unit": "TON",
+      "quantity": 4100.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 45.91,
+      "bidders": {
+        "UNITED SALT CORPORATION": 45.91,
+        "THE BARGAIN SOURCE": 107.0,
+        "NSG LOGISTICS, LLC": 111.37
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6392-26-001",
+    "county": "Medina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639226001",
+    "projectType": "HOT MIX",
+    "letDate": "12/14/22",
+    "engEstTotal": 255000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 237750.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 246390.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 329130.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6015",
+      "description": "D-GR HMA(SQ)TY B PG 64-22(DELIVERY)",
+      "unit": "TON",
+      "quantity": 3000.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 79.25,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 79.25,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 82.13,
+        "COLORADO MATERIALS, LTD.": 109.71
+      }
+    }
+  ]
+}

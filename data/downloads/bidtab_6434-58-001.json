@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "csj": "6434-58-001",
+    "county": "Midland",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 643458001",
+    "projectType": "SAND",
+    "letDate": "03/14/23",
+    "engEstTotal": 19500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 17750.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "C&C SOSA COMPANY, LLC",
+      "totalBidAmount": 19000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "RK HALL, LLC",
+      "totalBidAmount": 20700.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "E.V.G. ENTERPRISE",
+      "totalBidAmount": 28500.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 29400.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8029 6001",
+      "description": "CONCRETE SAND(DELIVERY)(SITE 1)",
+      "unit": "CY",
+      "quantity": 50.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 55.0,
+        "C&C SOSA COMPANY, LLC": 60.0,
+        "RK HALL, LLC": 69.0,
+        "E.V.G. ENTERPRISE": 95.0,
+        "DIGG COMMERCIAL, LLC": 65.0
+      }
+    },
+    {
+      "itemCode": "8029 6002",
+      "description": "CONCRETE SAND(DELIVERY)(SITE 2)",
+      "unit": "CY",
+      "quantity": 50.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 60.0,
+        "C&C SOSA COMPANY, LLC": 62.0,
+        "RK HALL, LLC": 69.0,
+        "E.V.G. ENTERPRISE": 95.0,
+        "DIGG COMMERCIAL, LLC": 107.0
+      }
+    },
+    {
+      "itemCode": "8029 6003",
+      "description": "CONCRETE SAND(DELIVERY)(SITE 3)",
+      "unit": "CY",
+      "quantity": 100.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 60.0,
+        "C&C SOSA COMPANY, LLC": 65.0,
+        "RK HALL, LLC": 69.0,
+        "E.V.G. ENTERPRISE": 95.0,
+        "DIGG COMMERCIAL, LLC": 113.0
+      }
+    },
+    {
+      "itemCode": "8029 6004",
+      "description": "CONCRETE SAND(DELIVERY)(SITE 4)",
+      "unit": "CY",
+      "quantity": 100.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 60.0,
+        "C&C SOSA COMPANY, LLC": 64.0,
+        "RK HALL, LLC": 69.0,
+        "E.V.G. ENTERPRISE": 95.0,
+        "DIGG COMMERCIAL, LLC": 95.0
+      }
+    }
+  ]
+}

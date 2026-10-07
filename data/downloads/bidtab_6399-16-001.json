@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6399-16-001",
+    "county": "San Jacinto",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639916001",
+    "projectType": "EMULSION",
+    "letDate": "03/22/22",
+    "engEstTotal": 221744.25,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 264332.51
+    },
+    {
+      "rank": 2,
+      "vendorName": "WRIGHT ASPHALT PRODUCTS COMPANY LLC",
+      "totalBidAmount": 330367.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6011",
+      "description": "EMULSION (CRS-2P)(PICKUP)",
+      "unit": "GAL",
+      "quantity": 4000.0,
+      "engEstUnit": 2.47,
+      "lowUnit": 2.76,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.76,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.25
+      }
+    },
+    {
+      "itemCode": "8010 6252",
+      "description": "CRS2P (DEL) (SITE 1)",
+      "unit": "GAL",
+      "quantity": 24320.0,
+      "engEstUnit": 2.47,
+      "lowUnit": 2.95,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.95,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.7
+      }
+    },
+    {
+      "itemCode": "8010 6253",
+      "description": "CRS2P (DEL) (SITE 2)",
+      "unit": "GAL",
+      "quantity": 24320.0,
+      "engEstUnit": 2.47,
+      "lowUnit": 2.95,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.95,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.7
+      }
+    },
+    {
+      "itemCode": "8010 6254",
+      "description": "CRS2P (DEL) (SITE 3)",
+      "unit": "GAL",
+      "quantity": 24322.0,
+      "engEstUnit": 2.47,
+      "lowUnit": 2.95,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.95,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.7
+      }
+    },
+    {
+      "itemCode": "8010 6255",
+      "description": "CRS2P (DEL) (SITE 4)",
+      "unit": "GAL",
+      "quantity": 12813.0,
+      "engEstUnit": 2.47,
+      "lowUnit": 2.97,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.97,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.7
+      }
+    }
+  ]
+}

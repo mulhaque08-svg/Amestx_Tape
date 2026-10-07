@@ -1,0 +1,890 @@
+{
+  "metadata": {
+    "csj": "0911-00-108",
+    "county": "Angelina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2021(562)",
+    "projectType": "INTERSECTION IMPROVEMENT",
+    "letDate": "05/06/21",
+    "engEstTotal": 361208.35,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRAF-TEX, INC.",
+      "totalBidAmount": 311290.55
+    },
+    {
+      "rank": 2,
+      "vendorName": "THIRD COAST SERVICES LLC",
+      "totalBidAmount": 312393.73
+    },
+    {
+      "rank": 3,
+      "vendorName": "SELECT MAINTENANCE, L.L.C.",
+      "totalBidAmount": 438837.65
+    },
+    {
+      "rank": 4,
+      "vendorName": "STRIPING TECHNOLOGY, L.P.",
+      "totalBidAmount": 473888.85
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6022",
+      "description": "REMOVING CONC (CURB AND GUTTER)",
+      "unit": "LF",
+      "quantity": 30.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 15.6,
+      "bidders": {
+        "TRAF-TEX, INC.": 15.6,
+        "THIRD COAST SERVICES LLC": 55.5,
+        "SELECT MAINTENANCE, L.L.C.": 40.0,
+        "STRIPING TECHNOLOGY, L.P.": 50.0
+      }
+    },
+    {
+      "itemCode": "0104 6036",
+      "description": "REMOVING CONC (SIDEWALK OR RAMP)",
+      "unit": "SY",
+      "quantity": 18.0,
+      "engEstUnit": 16.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 85.0,
+        "THIRD COAST SERVICES LLC": 55.5,
+        "SELECT MAINTENANCE, L.L.C.": 40.0,
+        "STRIPING TECHNOLOGY, L.P.": 50.0
+      }
+    },
+    {
+      "itemCode": "0416 6029",
+      "description": "DRILL SHAFT (RDWY ILL POLE) (30 IN)",
+      "unit": "LF",
+      "quantity": 16.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 144.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 144.0,
+        "THIRD COAST SERVICES LLC": 198.0,
+        "SELECT MAINTENANCE, L.L.C.": 165.0,
+        "STRIPING TECHNOLOGY, L.P.": 200.0
+      }
+    },
+    {
+      "itemCode": "0416 6030",
+      "description": "DRILL SHAFT (TRF SIG POLE) (24 IN)",
+      "unit": "LF",
+      "quantity": 18.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 88.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 88.0,
+        "THIRD COAST SERVICES LLC": 135.0,
+        "SELECT MAINTENANCE, L.L.C.": 145.0,
+        "STRIPING TECHNOLOGY, L.P.": 175.0
+      }
+    },
+    {
+      "itemCode": "0416 6032",
+      "description": "DRILL SHAFT (TRF SIG POLE) (36 IN)",
+      "unit": "LF",
+      "quantity": 16.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 162.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 162.0,
+        "THIRD COAST SERVICES LLC": 254.0,
+        "SELECT MAINTENANCE, L.L.C.": 225.0,
+        "STRIPING TECHNOLOGY, L.P.": 225.0
+      }
+    },
+    {
+      "itemCode": "0416 6034",
+      "description": "DRILL SHAFT (TRF SIG POLE) (48 IN)",
+      "unit": "LF",
+      "quantity": 22.0,
+      "engEstUnit": 475.0,
+      "lowUnit": 297.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 297.0,
+        "THIRD COAST SERVICES LLC": 322.0,
+        "SELECT MAINTENANCE, L.L.C.": 325.0,
+        "STRIPING TECHNOLOGY, L.P.": 700.0
+      }
+    },
+    {
+      "itemCode": "0496 6030",
+      "description": "REMOVE STR (BOLLARD)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 88.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 88.0,
+        "THIRD COAST SERVICES LLC": 943.5,
+        "SELECT MAINTENANCE, L.L.C.": 100.0,
+        "STRIPING TECHNOLOGY, L.P.": 200.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 31500.0,
+      "lowUnit": 15840.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 15840.0,
+        "THIRD COAST SERVICES LLC": 31500.0,
+        "SELECT MAINTENANCE, L.L.C.": 43400.0,
+        "STRIPING TECHNOLOGY, L.P.": 20000.0
+      }
+    },
+    {
+      "itemCode": "0529 6008",
+      "description": "CONC CURB & GUTTER (TY II)",
+      "unit": "LF",
+      "quantity": 40.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 77.85,
+      "bidders": {
+        "TRAF-TEX, INC.": 77.85,
+        "THIRD COAST SERVICES LLC": 111.0,
+        "SELECT MAINTENANCE, L.L.C.": 80.0,
+        "STRIPING TECHNOLOGY, L.P.": 100.0
+      }
+    },
+    {
+      "itemCode": "0531 6001",
+      "description": "CONC SIDEWALKS (4\")",
+      "unit": "SY",
+      "quantity": 56.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 90.65,
+      "bidders": {
+        "TRAF-TEX, INC.": 90.65,
+        "THIRD COAST SERVICES LLC": 133.2,
+        "SELECT MAINTENANCE, L.L.C.": 80.0,
+        "STRIPING TECHNOLOGY, L.P.": 500.0
+      }
+    },
+    {
+      "itemCode": "0531 6010",
+      "description": "CURB RAMPS (TY 7)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 2425.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 2425.0,
+        "THIRD COAST SERVICES LLC": 3552.0,
+        "SELECT MAINTENANCE, L.L.C.": 2500.0,
+        "STRIPING TECHNOLOGY, L.P.": 5000.0
+      }
+    },
+    {
+      "itemCode": "0610 6214",
+      "description": "IN RD IL (TY SA) 40T-8 (250W EQ) LED",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3120.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 3120.0,
+        "THIRD COAST SERVICES LLC": 2994.0,
+        "SELECT MAINTENANCE, L.L.C.": 3200.0,
+        "STRIPING TECHNOLOGY, L.P.": 3500.0
+      }
+    },
+    {
+      "itemCode": "0618 6012",
+      "description": "CONDT (HDPE) (4\") BORE",
+      "unit": "LF",
+      "quantity": 250.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 25.6,
+      "bidders": {
+        "TRAF-TEX, INC.": 25.6,
+        "THIRD COAST SERVICES LLC": 23.38,
+        "SELECT MAINTENANCE, L.L.C.": 22.0,
+        "STRIPING TECHNOLOGY, L.P.": 30.0
+      }
+    },
+    {
+      "itemCode": "0618 6046",
+      "description": "CONDT (PVC) (SCH 80) (2\")",
+      "unit": "LF",
+      "quantity": 120.0,
+      "engEstUnit": 8.5,
+      "lowUnit": 15.55,
+      "bidders": {
+        "TRAF-TEX, INC.": 15.55,
+        "THIRD COAST SERVICES LLC": 7.92,
+        "SELECT MAINTENANCE, L.L.C.": 12.0,
+        "STRIPING TECHNOLOGY, L.P.": 10.0
+      }
+    },
+    {
+      "itemCode": "0618 6047",
+      "description": "CONDT (PVC) (SCH 80) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 181.0,
+      "engEstUnit": 24.0,
+      "lowUnit": 17.1,
+      "bidders": {
+        "TRAF-TEX, INC.": 17.1,
+        "THIRD COAST SERVICES LLC": 17.28,
+        "SELECT MAINTENANCE, L.L.C.": 14.0,
+        "STRIPING TECHNOLOGY, L.P.": 22.0
+      }
+    },
+    {
+      "itemCode": "0618 6058",
+      "description": "CONDT (PVC) (SCH 80) (4\")",
+      "unit": "LF",
+      "quantity": 81.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 38.9,
+      "bidders": {
+        "TRAF-TEX, INC.": 38.9,
+        "THIRD COAST SERVICES LLC": 18.97,
+        "SELECT MAINTENANCE, L.L.C.": 20.0,
+        "STRIPING TECHNOLOGY, L.P.": 12.0
+      }
+    },
+    {
+      "itemCode": "0620 6007",
+      "description": "ELEC CONDR (NO.8) BARE",
+      "unit": "LF",
+      "quantity": 576.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.05,
+      "bidders": {
+        "TRAF-TEX, INC.": 1.05,
+        "THIRD COAST SERVICES LLC": 1.35,
+        "SELECT MAINTENANCE, L.L.C.": 1.75,
+        "STRIPING TECHNOLOGY, L.P.": 2.0
+      }
+    },
+    {
+      "itemCode": "0620 6008",
+      "description": "ELEC CONDR (NO.8) INSULATED",
+      "unit": "LF",
+      "quantity": 580.0,
+      "engEstUnit": 1.6,
+      "lowUnit": 1.1,
+      "bidders": {
+        "TRAF-TEX, INC.": 1.1,
+        "THIRD COAST SERVICES LLC": 1.56,
+        "SELECT MAINTENANCE, L.L.C.": 1.85,
+        "STRIPING TECHNOLOGY, L.P.": 2.0
+      }
+    },
+    {
+      "itemCode": "0620 6009",
+      "description": "ELEC CONDR (NO.6) BARE",
+      "unit": "LF",
+      "quantity": 152.0,
+      "engEstUnit": 1.8,
+      "lowUnit": 1.2,
+      "bidders": {
+        "TRAF-TEX, INC.": 1.2,
+        "THIRD COAST SERVICES LLC": 1.58,
+        "SELECT MAINTENANCE, L.L.C.": 1.95,
+        "STRIPING TECHNOLOGY, L.P.": 2.0
+      }
+    },
+    {
+      "itemCode": "0620 6010",
+      "description": "ELEC CONDR (NO.6) INSULATED",
+      "unit": "LF",
+      "quantity": 304.0,
+      "engEstUnit": 1.8,
+      "lowUnit": 1.3,
+      "bidders": {
+        "TRAF-TEX, INC.": 1.3,
+        "THIRD COAST SERVICES LLC": 1.75,
+        "SELECT MAINTENANCE, L.L.C.": 2.0,
+        "STRIPING TECHNOLOGY, L.P.": 2.0
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 677.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 677.0,
+        "THIRD COAST SERVICES LLC": 924.0,
+        "SELECT MAINTENANCE, L.L.C.": 725.0,
+        "STRIPING TECHNOLOGY, L.P.": 700.0
+      }
+    },
+    {
+      "itemCode": "0628 6009",
+      "description": "ELC SRV TY A 120/240 060(NS)SS(E)SP(O)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 6700.0,
+      "lowUnit": 3783.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 3783.0,
+        "THIRD COAST SERVICES LLC": 4588.0,
+        "SELECT MAINTENANCE, L.L.C.": 5200.0,
+        "STRIPING TECHNOLOGY, L.P.": 5800.0
+      }
+    },
+    {
+      "itemCode": "0628 6145",
+      "description": "ELC SRV TY D 120/240 060(NS)SS(E)SP(O)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 4800.0,
+      "lowUnit": 3585.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 3585.0,
+        "THIRD COAST SERVICES LLC": 4361.0,
+        "SELECT MAINTENANCE, L.L.C.": 5300.0,
+        "STRIPING TECHNOLOGY, L.P.": 5800.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 635.0,
+      "lowUnit": 894.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 894.0,
+        "THIRD COAST SERVICES LLC": 425.0,
+        "SELECT MAINTENANCE, L.L.C.": 750.0,
+        "STRIPING TECHNOLOGY, L.P.": 500.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 94.0,
+      "lowUnit": 130.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 130.0,
+        "THIRD COAST SERVICES LLC": 89.0,
+        "SELECT MAINTENANCE, L.L.C.": 100.0,
+        "STRIPING TECHNOLOGY, L.P.": 400.0
+      }
+    },
+    {
+      "itemCode": "0668 6076",
+      "description": "PREFAB PAV MRK TY C (W) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 493.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 13.75,
+      "bidders": {
+        "TRAF-TEX, INC.": 13.75,
+        "THIRD COAST SERVICES LLC": 13.88,
+        "SELECT MAINTENANCE, L.L.C.": 16.0,
+        "STRIPING TECHNOLOGY, L.P.": 15.0
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 363.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 363.0,
+        "THIRD COAST SERVICES LLC": 366.3,
+        "SELECT MAINTENANCE, L.L.C.": 300.0,
+        "STRIPING TECHNOLOGY, L.P.": 210.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 418.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 418.0,
+        "THIRD COAST SERVICES LLC": 421.8,
+        "SELECT MAINTENANCE, L.L.C.": 300.0,
+        "STRIPING TECHNOLOGY, L.P.": 255.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 4.95,
+      "bidders": {
+        "TRAF-TEX, INC.": 4.95,
+        "THIRD COAST SERVICES LLC": 5.0,
+        "SELECT MAINTENANCE, L.L.C.": 4.0,
+        "STRIPING TECHNOLOGY, L.P.": 20.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 4.95,
+      "bidders": {
+        "TRAF-TEX, INC.": 4.95,
+        "THIRD COAST SERVICES LLC": 5.0,
+        "SELECT MAINTENANCE, L.L.C.": 4.0,
+        "STRIPING TECHNOLOGY, L.P.": 20.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 863.0,
+      "engEstUnit": 0.75,
+      "lowUnit": 0.44,
+      "bidders": {
+        "TRAF-TEX, INC.": 0.44,
+        "THIRD COAST SERVICES LLC": 0.44,
+        "SELECT MAINTENANCE, L.L.C.": 1.0,
+        "STRIPING TECHNOLOGY, L.P.": 3.0
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 195.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 2.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 2.0,
+        "THIRD COAST SERVICES LLC": 2.0,
+        "SELECT MAINTENANCE, L.L.C.": 2.0,
+        "STRIPING TECHNOLOGY, L.P.": 5.0
+      }
+    },
+    {
+      "itemCode": "0677 6008",
+      "description": "ELIM EXT PAV MRK & MRKS (ARROW)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 66.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 66.0,
+        "THIRD COAST SERVICES LLC": 66.6,
+        "SELECT MAINTENANCE, L.L.C.": 100.0,
+        "STRIPING TECHNOLOGY, L.P.": 100.0
+      }
+    },
+    {
+      "itemCode": "0682 6001",
+      "description": "VEH SIG SEC (12\")LED(GRN)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 177.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 177.0,
+        "THIRD COAST SERVICES LLC": 152.0,
+        "SELECT MAINTENANCE, L.L.C.": 195.0,
+        "STRIPING TECHNOLOGY, L.P.": 225.0
+      }
+    },
+    {
+      "itemCode": "0682 6002",
+      "description": "VEH SIG SEC (12\")LED(GRN ARW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 177.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 177.0,
+        "THIRD COAST SERVICES LLC": 152.0,
+        "SELECT MAINTENANCE, L.L.C.": 195.0,
+        "STRIPING TECHNOLOGY, L.P.": 225.0
+      }
+    },
+    {
+      "itemCode": "0682 6003",
+      "description": "VEH SIG SEC (12\")LED(YEL)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 177.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 177.0,
+        "THIRD COAST SERVICES LLC": 152.0,
+        "SELECT MAINTENANCE, L.L.C.": 195.0,
+        "STRIPING TECHNOLOGY, L.P.": 225.0
+      }
+    },
+    {
+      "itemCode": "0682 6004",
+      "description": "VEH SIG SEC (12\")LED(YEL ARW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 177.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 177.0,
+        "THIRD COAST SERVICES LLC": 152.0,
+        "SELECT MAINTENANCE, L.L.C.": 195.0,
+        "STRIPING TECHNOLOGY, L.P.": 225.0
+      }
+    },
+    {
+      "itemCode": "0682 6005",
+      "description": "VEH SIG SEC (12\")LED(RED)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 177.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 177.0,
+        "THIRD COAST SERVICES LLC": 152.0,
+        "SELECT MAINTENANCE, L.L.C.": 195.0,
+        "STRIPING TECHNOLOGY, L.P.": 225.0
+      }
+    },
+    {
+      "itemCode": "0682 6018",
+      "description": "PED SIG SEC (LED)(COUNTDOWN)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 452.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 452.0,
+        "THIRD COAST SERVICES LLC": 565.0,
+        "SELECT MAINTENANCE, L.L.C.": 500.0,
+        "STRIPING TECHNOLOGY, L.P.": 500.0
+      }
+    },
+    {
+      "itemCode": "0682 6051",
+      "description": "BACKPLATE W/REFL BRDR(3 SEC)ALUM",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 154.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 154.0,
+        "THIRD COAST SERVICES LLC": 104.0,
+        "SELECT MAINTENANCE, L.L.C.": 135.0,
+        "STRIPING TECHNOLOGY, L.P.": 150.0
+      }
+    },
+    {
+      "itemCode": "0682 6053",
+      "description": "BACKPLATE W/REFL BRDR(5 SEC)ALUM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 232.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 232.0,
+        "THIRD COAST SERVICES LLC": 176.0,
+        "SELECT MAINTENANCE, L.L.C.": 155.0,
+        "STRIPING TECHNOLOGY, L.P.": 240.0
+      }
+    },
+    {
+      "itemCode": "0684 6007",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(2 CONDR)",
+      "unit": "LF",
+      "quantity": 706.0,
+      "engEstUnit": 1.3,
+      "lowUnit": 1.15,
+      "bidders": {
+        "TRAF-TEX, INC.": 1.15,
+        "THIRD COAST SERVICES LLC": 1.4,
+        "SELECT MAINTENANCE, L.L.C.": 1.55,
+        "STRIPING TECHNOLOGY, L.P.": 1.5
+      }
+    },
+    {
+      "itemCode": "0684 6008",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(3 CONDR)",
+      "unit": "LF",
+      "quantity": 229.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.3,
+      "bidders": {
+        "TRAF-TEX, INC.": 1.3,
+        "THIRD COAST SERVICES LLC": 1.58,
+        "SELECT MAINTENANCE, L.L.C.": 1.65,
+        "STRIPING TECHNOLOGY, L.P.": 1.55
+      }
+    },
+    {
+      "itemCode": "0684 6009",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(4 CONDR)",
+      "unit": "LF",
+      "quantity": 1794.0,
+      "engEstUnit": 1.7,
+      "lowUnit": 1.6,
+      "bidders": {
+        "TRAF-TEX, INC.": 1.6,
+        "THIRD COAST SERVICES LLC": 1.71,
+        "SELECT MAINTENANCE, L.L.C.": 1.65,
+        "STRIPING TECHNOLOGY, L.P.": 2.0
+      }
+    },
+    {
+      "itemCode": "0684 6012",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(7 CONDR)",
+      "unit": "LF",
+      "quantity": 375.0,
+      "engEstUnit": 2.3,
+      "lowUnit": 2.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 2.0,
+        "THIRD COAST SERVICES LLC": 2.18,
+        "SELECT MAINTENANCE, L.L.C.": 2.0,
+        "STRIPING TECHNOLOGY, L.P.": 2.0
+      }
+    },
+    {
+      "itemCode": "0686 6167",
+      "description": "INS TRF SIG PL AM(S)2 ARM(44-36')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 13000.0,
+      "lowUnit": 9266.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 9266.0,
+        "THIRD COAST SERVICES LLC": 9677.0,
+        "SELECT MAINTENANCE, L.L.C.": 11750.0,
+        "STRIPING TECHNOLOGY, L.P.": 14100.0
+      }
+    },
+    {
+      "itemCode": "0686 6195",
+      "description": "INS TRF SIG PL AM(S)2 ARM(50-44')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 21975.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 21975.0,
+        "THIRD COAST SERVICES LLC": 22326.0,
+        "SELECT MAINTENANCE, L.L.C.": 14500.0,
+        "STRIPING TECHNOLOGY, L.P.": 30550.0
+      }
+    },
+    {
+      "itemCode": "0687 6001",
+      "description": "PED POLE ASSEMBLY",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1120.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 1120.0,
+        "THIRD COAST SERVICES LLC": 942.0,
+        "SELECT MAINTENANCE, L.L.C.": 2500.0,
+        "STRIPING TECHNOLOGY, L.P.": 810.0
+      }
+    },
+    {
+      "itemCode": "0688 6001",
+      "description": "PED DETECT PUSH BUTTON (APS)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 770.0,
+      "lowUnit": 1153.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 1153.0,
+        "THIRD COAST SERVICES LLC": 1089.0,
+        "SELECT MAINTENANCE, L.L.C.": 555.0,
+        "STRIPING TECHNOLOGY, L.P.": 1290.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 5378.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 5378.0,
+        "THIRD COAST SERVICES LLC": 179.0,
+        "SELECT MAINTENANCE, L.L.C.": 4000.0,
+        "STRIPING TECHNOLOGY, L.P.": 18000.0
+      }
+    },
+    {
+      "itemCode": "6058 6001",
+      "description": "BBU SYSTEM (EXTERNAL BATT CABINET)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 6700.0,
+      "lowUnit": 8588.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 8588.0,
+        "THIRD COAST SERVICES LLC": 5963.0,
+        "SELECT MAINTENANCE, L.L.C.": 6050.0,
+        "STRIPING TECHNOLOGY, L.P.": 8100.0
+      }
+    },
+    {
+      "itemCode": "6083 6001",
+      "description": "VIDEO IMAGING AND RAD VEH DETECTION SYS",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 23665.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 23665.0,
+        "THIRD COAST SERVICES LLC": 21765.0,
+        "SELECT MAINTENANCE, L.L.C.": 23000.0,
+        "STRIPING TECHNOLOGY, L.P.": 29355.0
+      }
+    },
+    {
+      "itemCode": "6089 6002",
+      "description": "CAT 5 ETHERNET CABLE",
+      "unit": "LF",
+      "quantity": 691.0,
+      "engEstUnit": 4.2,
+      "lowUnit": 1.05,
+      "bidders": {
+        "TRAF-TEX, INC.": 1.05,
+        "THIRD COAST SERVICES LLC": 1.78,
+        "SELECT MAINTENANCE, L.L.C.": 2.0,
+        "STRIPING TECHNOLOGY, L.P.": 1.75
+      }
+    },
+    {
+      "itemCode": "6093 6001",
+      "description": "REMOVE EXISTING VIVIDS",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 1100.0,
+        "THIRD COAST SERVICES LLC": 180.0,
+        "SELECT MAINTENANCE, L.L.C.": 200.0,
+        "STRIPING TECHNOLOGY, L.P.": 500.0
+      }
+    },
+    {
+      "itemCode": "6227 6001",
+      "description": "SOLAR POWERED LED WARNING SIGN",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 4470.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 4470.0,
+        "THIRD COAST SERVICES LLC": 3144.0,
+        "SELECT MAINTENANCE, L.L.C.": 3505.0,
+        "STRIPING TECHNOLOGY, L.P.": 6400.0
+      }
+    },
+    {
+      "itemCode": "6227 6002",
+      "description": "SOLAR POWERED LED ROADSIDE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 4636.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 4636.0,
+        "THIRD COAST SERVICES LLC": 3144.0,
+        "SELECT MAINTENANCE, L.L.C.": 3700.0,
+        "STRIPING TECHNOLOGY, L.P.": 6600.0
+      }
+    },
+    {
+      "itemCode": "6306 6001",
+      "description": "VIVDS PROSR SYS",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 7500.0,
+      "lowUnit": 5244.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 5244.0,
+        "THIRD COAST SERVICES LLC": 4607.0,
+        "SELECT MAINTENANCE, L.L.C.": 5500.0,
+        "STRIPING TECHNOLOGY, L.P.": 6400.0
+      }
+    },
+    {
+      "itemCode": "6306 6003",
+      "description": "VIVDS CAM ASSY VAR LNS",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1800.0,
+      "lowUnit": 1176.0,
+      "bidders": {
+        "TRAF-TEX, INC.": 1176.0,
+        "THIRD COAST SERVICES LLC": 1219.0,
+        "SELECT MAINTENANCE, L.L.C.": 1880.0,
+        "STRIPING TECHNOLOGY, L.P.": 1605.0
+      }
+    },
+    {
+      "itemCode": "6306 6007",
+      "description": "VIVDS CABLING",
+      "unit": "LF",
+      "quantity": 718.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.1,
+      "bidders": {
+        "TRAF-TEX, INC.": 3.1,
+        "THIRD COAST SERVICES LLC": 2.6,
+        "SELECT MAINTENANCE, L.L.C.": 2.5,
+        "STRIPING TECHNOLOGY, L.P.": 2.2
+      }
+    },
+    {
+      "itemCode": "6306 6018",
+      "description": "VIVDS CAM ASSY (REMOVE)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 96.9,
+      "bidders": {
+        "TRAF-TEX, INC.": 96.9,
+        "THIRD COAST SERVICES LLC": 89.0,
+        "SELECT MAINTENANCE, L.L.C.": 200.0,
+        "STRIPING TECHNOLOGY, L.P.": 100.0
+      }
+    },
+    {
+      "itemCode": "6306 6020",
+      "description": "VIVDS CABLING (REMOVE)",
+      "unit": "LF",
+      "quantity": 691.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 0.55,
+      "bidders": {
+        "TRAF-TEX, INC.": 0.55,
+        "THIRD COAST SERVICES LLC": 0.45,
+        "SELECT MAINTENANCE, L.L.C.": 1.0,
+        "STRIPING TECHNOLOGY, L.P.": 0.55
+      }
+    }
+  ]
+}

@@ -1,0 +1,1422 @@
+{
+  "metadata": {
+    "csj": "0220-05-080",
+    "county": "Cameron",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "STP 2024(690)HES",
+    "projectType": "INSTALL RAISED MEDIAN",
+    "letDate": "01/05/24",
+    "engEstTotal": 5830776.53,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "IOC COMPANY LLC",
+      "totalBidAmount": 4549748.76
+    },
+    {
+      "rank": 2,
+      "vendorName": "FOREMOST PAVING, INC.",
+      "totalBidAmount": 5124087.55
+    },
+    {
+      "rank": 3,
+      "vendorName": "TEXAS CORDIA CONSTRUCTION, LLC",
+      "totalBidAmount": 6609325.4
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 199.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 1110.0,
+      "bidders": {
+        "IOC COMPANY LLC": 1110.0,
+        "FOREMOST PAVING, INC.": 500.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 725.0
+      }
+    },
+    {
+      "itemCode": "0104 6011",
+      "description": "REMOVING CONC (MEDIANS)",
+      "unit": "SY",
+      "quantity": 258.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "IOC COMPANY LLC": 15.0,
+        "FOREMOST PAVING, INC.": 50.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 12.0
+      }
+    },
+    {
+      "itemCode": "0104 6014",
+      "description": "REMOVING CONC (FOUNDATIONS)",
+      "unit": "CY",
+      "quantity": 5.5,
+      "engEstUnit": 205.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "IOC COMPANY LLC": 250.0,
+        "FOREMOST PAVING, INC.": 650.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 260.0
+      }
+    },
+    {
+      "itemCode": "0104 6021",
+      "description": "REMOVING CONC (CURB)",
+      "unit": "LF",
+      "quantity": 5.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "IOC COMPANY LLC": 100.0,
+        "FOREMOST PAVING, INC.": 100.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 180.0
+      }
+    },
+    {
+      "itemCode": "0104 6067",
+      "description": "REMOVING CONC (SAWCUT)",
+      "unit": "LF",
+      "quantity": 5.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "IOC COMPANY LLC": 125.0,
+        "FOREMOST PAVING, INC.": 100.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 280.0
+      }
+    },
+    {
+      "itemCode": "0164 6035",
+      "description": "DRILL SEEDING (PERM) (RURAL) (CLAY)",
+      "unit": "SY",
+      "quantity": 1691.0,
+      "engEstUnit": 0.28,
+      "lowUnit": 0.9,
+      "bidders": {
+        "IOC COMPANY LLC": 0.9,
+        "FOREMOST PAVING, INC.": 1.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0164 6041",
+      "description": "DRILL SEEDING (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 1691.0,
+      "engEstUnit": 0.23,
+      "lowUnit": 0.9,
+      "bidders": {
+        "IOC COMPANY LLC": 0.9,
+        "FOREMOST PAVING, INC.": 1.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 0.4,
+      "engEstUnit": 27.64,
+      "lowUnit": 350.0,
+      "bidders": {
+        "IOC COMPANY LLC": 350.0,
+        "FOREMOST PAVING, INC.": 550.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0204 6003",
+      "description": "SPRINKLING (DUST CONTROL)",
+      "unit": "MG",
+      "quantity": 100.0,
+      "engEstUnit": 17.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "IOC COMPANY LLC": 35.0,
+        "FOREMOST PAVING, INC.": 1.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0354 6041",
+      "description": "PLANE ASPH CONC PAV (1.5\")",
+      "unit": "SY",
+      "quantity": 136694.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 0.5,
+      "bidders": {
+        "IOC COMPANY LLC": 0.5,
+        "FOREMOST PAVING, INC.": 2.5,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0361 6004",
+      "description": "FULL - DEPTH REPAIR CRCP (10\")",
+      "unit": "SY",
+      "quantity": 50.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "IOC COMPANY LLC": 400.0,
+        "FOREMOST PAVING, INC.": 850.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1070.0
+      }
+    },
+    {
+      "itemCode": "0416 6032",
+      "description": "DRILL SHAFT (TRF SIG POLE) (36 IN)",
+      "unit": "LF",
+      "quantity": 95.0,
+      "engEstUnit": 340.0,
+      "lowUnit": 348.11,
+      "bidders": {
+        "IOC COMPANY LLC": 348.11,
+        "FOREMOST PAVING, INC.": 320.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 340.0
+      }
+    },
+    {
+      "itemCode": "0432 6006",
+      "description": "RIPRAP (CONC)(CL B)",
+      "unit": "CY",
+      "quantity": 1216.0,
+      "engEstUnit": 475.0,
+      "lowUnit": 395.0,
+      "bidders": {
+        "IOC COMPANY LLC": 395.0,
+        "FOREMOST PAVING, INC.": 325.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 705.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 27.4,
+      "engEstUnit": 510.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "IOC COMPANY LLC": 600.0,
+        "FOREMOST PAVING, INC.": 425.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 675.0
+      }
+    },
+    {
+      "itemCode": "0467 6363",
+      "description": "SET (TY II) (18 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 1196.0,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "IOC COMPANY LLC": 1100.0,
+        "FOREMOST PAVING, INC.": 1700.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1260.0
+      }
+    },
+    {
+      "itemCode": "0467 6395",
+      "description": "SET (TY II) (24 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1800.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "IOC COMPANY LLC": 2500.0,
+        "FOREMOST PAVING, INC.": 2300.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1890.0
+      }
+    },
+    {
+      "itemCode": "0479 6004",
+      "description": "ADJUSTING MANHOLES (SANITARY)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "IOC COMPANY LLC": 2000.0,
+        "FOREMOST PAVING, INC.": 5300.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 4470.0
+      }
+    },
+    {
+      "itemCode": "0480 6001",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 2400.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "IOC COMPANY LLC": 1500.0,
+        "FOREMOST PAVING, INC.": 3000.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1860.0
+      }
+    },
+    {
+      "itemCode": "0496 6004",
+      "description": "REMOV STR (SET)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 450.2,
+      "lowUnit": 500.0,
+      "bidders": {
+        "IOC COMPANY LLC": 500.0,
+        "FOREMOST PAVING, INC.": 1000.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 470.0
+      }
+    },
+    {
+      "itemCode": "0496 6006",
+      "description": "REMOV STR (HEADWALL)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1750.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "IOC COMPANY LLC": 3000.0,
+        "FOREMOST PAVING, INC.": 800.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 4820.0
+      }
+    },
+    {
+      "itemCode": "0496 6007",
+      "description": "REMOV STR (PIPE)",
+      "unit": "LF",
+      "quantity": 66.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "IOC COMPANY LLC": 30.0,
+        "FOREMOST PAVING, INC.": 25.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 560000.0,
+      "lowUnit": 400000.0,
+      "bidders": {
+        "IOC COMPANY LLC": 400000.0,
+        "FOREMOST PAVING, INC.": 450000.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 400000.0
+      }
+    },
+    {
+      "itemCode": "0512 6009",
+      "description": "PORT CTB (FUR & INST)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 8160.0,
+      "engEstUnit": 32.5,
+      "lowUnit": 15.0,
+      "bidders": {
+        "IOC COMPANY LLC": 15.0,
+        "FOREMOST PAVING, INC.": 30.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 110.0
+      }
+    },
+    {
+      "itemCode": "0512 6010",
+      "description": "PORT CTB (FUR & INST)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 560.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "IOC COMPANY LLC": 15.0,
+        "FOREMOST PAVING, INC.": 30.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 120.0
+      }
+    },
+    {
+      "itemCode": "0512 6033",
+      "description": "PORT CTB (MOVE)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 24320.0,
+      "engEstUnit": 7.5,
+      "lowUnit": 1.0,
+      "bidders": {
+        "IOC COMPANY LLC": 1.0,
+        "FOREMOST PAVING, INC.": 5.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0512 6034",
+      "description": "PORT CTB (MOVE)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 1280.0,
+      "engEstUnit": 9.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "IOC COMPANY LLC": 1.0,
+        "FOREMOST PAVING, INC.": 5.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 8.0
+      }
+    },
+    {
+      "itemCode": "0512 6057",
+      "description": "PORT CTB (REMOVE)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 8160.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "IOC COMPANY LLC": 5.0,
+        "FOREMOST PAVING, INC.": 11.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0512 6058",
+      "description": "PORT CTB (REMOVE)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 560.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "IOC COMPANY LLC": 5.0,
+        "FOREMOST PAVING, INC.": 11.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0514 6013",
+      "description": "PERM CTB (F-SHAPE) (TY 1)",
+      "unit": "LF",
+      "quantity": 750.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "IOC COMPANY LLC": 60.0,
+        "FOREMOST PAVING, INC.": 85.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0514 6041",
+      "description": "PERM CTB (F-SHAPE)(SPL)",
+      "unit": "LF",
+      "quantity": 5.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 2250.0,
+      "bidders": {
+        "IOC COMPANY LLC": 2250.0,
+        "FOREMOST PAVING, INC.": 1200.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1540.0
+      }
+    },
+    {
+      "itemCode": "0529 6002",
+      "description": "CONC CURB (TY II)",
+      "unit": "LF",
+      "quantity": 7625.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "IOC COMPANY LLC": 10.0,
+        "FOREMOST PAVING, INC.": 20.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 25.0
+      }
+    },
+    {
+      "itemCode": "0529 6024",
+      "description": "CONC CURB (MOUNTABLE)",
+      "unit": "LF",
+      "quantity": 24885.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 12.75,
+      "bidders": {
+        "IOC COMPANY LLC": 12.75,
+        "FOREMOST PAVING, INC.": 11.6,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 17.0
+      }
+    },
+    {
+      "itemCode": "0530 6004",
+      "description": "DRIVEWAYS (CONC)",
+      "unit": "SY",
+      "quantity": 530.0,
+      "engEstUnit": 82.0,
+      "lowUnit": 175.0,
+      "bidders": {
+        "IOC COMPANY LLC": 175.0,
+        "FOREMOST PAVING, INC.": 200.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 110.0
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 61.1,
+      "engEstUnit": 37.14,
+      "lowUnit": 150.0,
+      "bidders": {
+        "IOC COMPANY LLC": 150.0,
+        "FOREMOST PAVING, INC.": 200.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 130.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.49,
+      "bidders": {
+        "IOC COMPANY LLC": 2.49,
+        "FOREMOST PAVING, INC.": 3.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 7.0
+      }
+    },
+    {
+      "itemCode": "0542 6002",
+      "description": "REMOVE TERMINAL ANCHOR SECTION",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 270.0,
+      "lowUnit": 195.49,
+      "bidders": {
+        "IOC COMPANY LLC": 195.49,
+        "FOREMOST PAVING, INC.": 196.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 220.0
+      }
+    },
+    {
+      "itemCode": "0542 6003",
+      "description": "REMOVE DOWNSTREAM ANCHOR TERMINAL",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 196.2,
+      "lowUnit": 195.21,
+      "bidders": {
+        "IOC COMPANY LLC": 195.21,
+        "FOREMOST PAVING, INC.": 196.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 230.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 3350.0,
+      "lowUnit": 3570.49,
+      "bidders": {
+        "IOC COMPANY LLC": 3570.49,
+        "FOREMOST PAVING, INC.": 3600.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 3180.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 260.4,
+      "lowUnit": 195.21,
+      "bidders": {
+        "IOC COMPANY LLC": 195.21,
+        "FOREMOST PAVING, INC.": 200.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 470.0
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1075.0,
+      "lowUnit": 1521.49,
+      "bidders": {
+        "IOC COMPANY LLC": 1521.49,
+        "FOREMOST PAVING, INC.": 1600.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1800.0
+      }
+    },
+    {
+      "itemCode": "0545 6019",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 9500.0,
+      "lowUnit": 15023.23,
+      "bidders": {
+        "IOC COMPANY LLC": 15023.23,
+        "FOREMOST PAVING, INC.": 12000.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 11210.0
+      }
+    },
+    {
+      "itemCode": "0560 6025",
+      "description": "RELOCATE EXISTING MAILBOX",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 405.0,
+      "lowUnit": 321.49,
+      "bidders": {
+        "IOC COMPANY LLC": 321.49,
+        "FOREMOST PAVING, INC.": 325.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0618 6033",
+      "description": "CONDT (PVC) (SCH 40) (4\")",
+      "unit": "LF",
+      "quantity": 70.0,
+      "engEstUnit": 27.0,
+      "lowUnit": 30.94,
+      "bidders": {
+        "IOC COMPANY LLC": 30.94,
+        "FOREMOST PAVING, INC.": 29.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0618 6059",
+      "description": "CONDT (PVC) (SCH 80) (4\") (BORE)",
+      "unit": "LF",
+      "quantity": 182.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 48.63,
+      "bidders": {
+        "IOC COMPANY LLC": 48.63,
+        "FOREMOST PAVING, INC.": 45.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0620 6007",
+      "description": "ELEC CONDR (NO.8) BARE",
+      "unit": "LF",
+      "quantity": 662.0,
+      "engEstUnit": 1.6,
+      "lowUnit": 2.21,
+      "bidders": {
+        "IOC COMPANY LLC": 2.21,
+        "FOREMOST PAVING, INC.": 2.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0621 6005",
+      "description": "TRAY CABLE (4 CONDR) (12 AWG)",
+      "unit": "LF",
+      "quantity": 437.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.54,
+      "bidders": {
+        "IOC COMPANY LLC": 2.54,
+        "FOREMOST PAVING, INC.": 2.5,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0644 6027",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(P)",
+      "unit": "EA",
+      "quantity": 37.0,
+      "engEstUnit": 788.0,
+      "lowUnit": 749.21,
+      "bidders": {
+        "IOC COMPANY LLC": 749.21,
+        "FOREMOST PAVING, INC.": 750.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 900.0
+      }
+    },
+    {
+      "itemCode": "0644 6030",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(T)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 975.0,
+      "lowUnit": 821.49,
+      "bidders": {
+        "IOC COMPANY LLC": 821.49,
+        "FOREMOST PAVING, INC.": 850.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 32.0,
+      "engEstUnit": 108.0,
+      "lowUnit": 149.21,
+      "bidders": {
+        "IOC COMPANY LLC": 149.21,
+        "FOREMOST PAVING, INC.": 150.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 120.0
+      }
+    },
+    {
+      "itemCode": "0662 6048",
+      "description": "WK ZN PAV MRK REMOV (REFL) TY I-C",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 4.59,
+      "lowUnit": 5.0,
+      "bidders": {
+        "IOC COMPANY LLC": 5.0,
+        "FOREMOST PAVING, INC.": 5.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0662 6052",
+      "description": "WK ZN PAV MRK REMOV (REFL) TY II-C-R",
+      "unit": "EA",
+      "quantity": 1696.0,
+      "engEstUnit": 5.25,
+      "lowUnit": 5.0,
+      "bidders": {
+        "IOC COMPANY LLC": 5.0,
+        "FOREMOST PAVING, INC.": 5.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0662 6060",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 16270.0,
+      "engEstUnit": 1.25,
+      "lowUnit": 0.55,
+      "bidders": {
+        "IOC COMPANY LLC": 0.55,
+        "FOREMOST PAVING, INC.": 0.8,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0662 6061",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(DOT)",
+      "unit": "LF",
+      "quantity": 1190.0,
+      "engEstUnit": 1.25,
+      "lowUnit": 1.2,
+      "bidders": {
+        "IOC COMPANY LLC": 1.2,
+        "FOREMOST PAVING, INC.": 1.45,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0662 6063",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 64100.0,
+      "engEstUnit": 0.8,
+      "lowUnit": 0.32,
+      "bidders": {
+        "IOC COMPANY LLC": 0.32,
+        "FOREMOST PAVING, INC.": 0.7,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 0.32
+      }
+    },
+    {
+      "itemCode": "0662 6071",
+      "description": "WK ZN PAV MRK REMOV (W)8\"(SLD)",
+      "unit": "LF",
+      "quantity": 140.0,
+      "engEstUnit": 1.25,
+      "lowUnit": 0.48,
+      "bidders": {
+        "IOC COMPANY LLC": 0.48,
+        "FOREMOST PAVING, INC.": 4.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 0.48
+      }
+    },
+    {
+      "itemCode": "0662 6075",
+      "description": "WK ZN PAV MRK REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 374.0,
+      "engEstUnit": 8.1,
+      "lowUnit": 12.0,
+      "bidders": {
+        "IOC COMPANY LLC": 12.0,
+        "FOREMOST PAVING, INC.": 11.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0662 6095",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 61830.0,
+      "engEstUnit": 0.7,
+      "lowUnit": 0.32,
+      "bidders": {
+        "IOC COMPANY LLC": 0.32,
+        "FOREMOST PAVING, INC.": 0.7,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 0.32
+      }
+    },
+    {
+      "itemCode": "0662 6109",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY W",
+      "unit": "EA",
+      "quantity": 9500.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.64,
+      "bidders": {
+        "IOC COMPANY LLC": 1.64,
+        "FOREMOST PAVING, INC.": 1.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 1000.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.71,
+      "bidders": {
+        "IOC COMPANY LLC": 1.71,
+        "FOREMOST PAVING, INC.": 1.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 41.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "IOC COMPANY LLC": 200.0,
+        "FOREMOST PAVING, INC.": 255.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 41.0,
+      "engEstUnit": 268.51,
+      "lowUnit": 300.0,
+      "bidders": {
+        "IOC COMPANY LLC": 300.0,
+        "FOREMOST PAVING, INC.": 285.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0668 6094",
+      "description": "PREFAB PAV MRK TY C (W)(BIKE ARROW)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "IOC COMPANY LLC": 400.0,
+        "FOREMOST PAVING, INC.": 140.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 400.0
+      }
+    },
+    {
+      "itemCode": "0668 6096",
+      "description": "PREFAB PAV MRK TY C (W)(BIKE SYMBOL)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 210.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "IOC COMPANY LLC": 400.0,
+        "FOREMOST PAVING, INC.": 185.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 400.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 152.0,
+      "engEstUnit": 4.45,
+      "lowUnit": 5.0,
+      "bidders": {
+        "IOC COMPANY LLC": 5.0,
+        "FOREMOST PAVING, INC.": 5.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 78.0,
+      "engEstUnit": 4.4,
+      "lowUnit": 5.0,
+      "bidders": {
+        "IOC COMPANY LLC": 5.0,
+        "FOREMOST PAVING, INC.": 5.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 1073.0,
+      "engEstUnit": 4.33,
+      "lowUnit": 5.0,
+      "bidders": {
+        "IOC COMPANY LLC": 5.0,
+        "FOREMOST PAVING, INC.": 4.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 76910.0,
+      "engEstUnit": 0.21,
+      "lowUnit": 0.4,
+      "bidders": {
+        "IOC COMPANY LLC": 0.4,
+        "FOREMOST PAVING, INC.": 0.67,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 0.4
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 5267.0,
+      "engEstUnit": 0.86,
+      "lowUnit": 0.65,
+      "bidders": {
+        "IOC COMPANY LLC": 0.65,
+        "FOREMOST PAVING, INC.": 0.9,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0677 6005",
+      "description": "ELIM EXT PAV MRK & MRKS (12\")",
+      "unit": "LF",
+      "quantity": 1723.0,
+      "engEstUnit": 1.4,
+      "lowUnit": 0.85,
+      "bidders": {
+        "IOC COMPANY LLC": 0.85,
+        "FOREMOST PAVING, INC.": 2.5,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 796.0,
+      "engEstUnit": 3.76,
+      "lowUnit": 4.0,
+      "bidders": {
+        "IOC COMPANY LLC": 4.0,
+        "FOREMOST PAVING, INC.": 6.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 4.0
+      }
+    },
+    {
+      "itemCode": "0677 6008",
+      "description": "ELIM EXT PAV MRK & MRKS (ARROW)",
+      "unit": "EA",
+      "quantity": 59.0,
+      "engEstUnit": 62.0,
+      "lowUnit": 70.0,
+      "bidders": {
+        "IOC COMPANY LLC": 70.0,
+        "FOREMOST PAVING, INC.": 60.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 70.0
+      }
+    },
+    {
+      "itemCode": "0677 6012",
+      "description": "ELIM EXT PAV MRK & MRKS (WORD)",
+      "unit": "EA",
+      "quantity": 39.0,
+      "engEstUnit": 67.0,
+      "lowUnit": 70.0,
+      "bidders": {
+        "IOC COMPANY LLC": 70.0,
+        "FOREMOST PAVING, INC.": 60.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 70.0
+      }
+    },
+    {
+      "itemCode": "0678 6001",
+      "description": "PAV SURF PREP FOR MRK (4\")",
+      "unit": "LF",
+      "quantity": 3918.0,
+      "engEstUnit": 0.13,
+      "lowUnit": 0.1,
+      "bidders": {
+        "IOC COMPANY LLC": 0.1,
+        "FOREMOST PAVING, INC.": 0.2,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 0.1
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 5948.0,
+      "engEstUnit": 0.1,
+      "lowUnit": 0.2,
+      "bidders": {
+        "IOC COMPANY LLC": 0.2,
+        "FOREMOST PAVING, INC.": 0.3,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 0.2
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 4634.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.3,
+      "bidders": {
+        "IOC COMPANY LLC": 0.3,
+        "FOREMOST PAVING, INC.": 0.5,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 0.3
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 160.0,
+      "engEstUnit": 0.85,
+      "lowUnit": 5.0,
+      "bidders": {
+        "IOC COMPANY LLC": 5.0,
+        "FOREMOST PAVING, INC.": 1.1,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 22.4,
+      "lowUnit": 50.0,
+      "bidders": {
+        "IOC COMPANY LLC": 50.0,
+        "FOREMOST PAVING, INC.": 5.25,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 24.4,
+      "lowUnit": 50.0,
+      "bidders": {
+        "IOC COMPANY LLC": 50.0,
+        "FOREMOST PAVING, INC.": 5.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0682 6001",
+      "description": "VEH SIG SEC (12\")LED(GRN)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 295.0,
+      "lowUnit": 292.86,
+      "bidders": {
+        "IOC COMPANY LLC": 292.86,
+        "FOREMOST PAVING, INC.": 270.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 290.0
+      }
+    },
+    {
+      "itemCode": "0682 6002",
+      "description": "VEH SIG SEC (12\")LED(GRN ARW)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 268.0,
+      "lowUnit": 292.86,
+      "bidders": {
+        "IOC COMPANY LLC": 292.86,
+        "FOREMOST PAVING, INC.": 270.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 290.0
+      }
+    },
+    {
+      "itemCode": "0682 6003",
+      "description": "VEH SIG SEC (12\")LED(YEL)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 292.86,
+      "bidders": {
+        "IOC COMPANY LLC": 292.86,
+        "FOREMOST PAVING, INC.": 270.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 290.0
+      }
+    },
+    {
+      "itemCode": "0682 6004",
+      "description": "VEH SIG SEC (12\")LED(YEL ARW)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 320.0,
+      "lowUnit": 292.86,
+      "bidders": {
+        "IOC COMPANY LLC": 292.86,
+        "FOREMOST PAVING, INC.": 270.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 290.0
+      }
+    },
+    {
+      "itemCode": "0682 6005",
+      "description": "VEH SIG SEC (12\")LED(RED)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 295.0,
+      "lowUnit": 292.86,
+      "bidders": {
+        "IOC COMPANY LLC": 292.86,
+        "FOREMOST PAVING, INC.": 270.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 290.0
+      }
+    },
+    {
+      "itemCode": "0682 6006",
+      "description": "VEH SIG SEC (12\")LED(RED ARW)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 322.41,
+      "lowUnit": 292.86,
+      "bidders": {
+        "IOC COMPANY LLC": 292.86,
+        "FOREMOST PAVING, INC.": 270.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 290.0
+      }
+    },
+    {
+      "itemCode": "0682 6049",
+      "description": "BACKPLATE W/REFL BRDR(4 SEC)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 166.0,
+      "lowUnit": 195.61,
+      "bidders": {
+        "IOC COMPANY LLC": 195.61,
+        "FOREMOST PAVING, INC.": 180.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 190.0
+      }
+    },
+    {
+      "itemCode": "0682 6050",
+      "description": "BACKPLATE W/REFL BRDR(5 SEC)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 229.87,
+      "bidders": {
+        "IOC COMPANY LLC": 229.87,
+        "FOREMOST PAVING, INC.": 210.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 230.0
+      }
+    },
+    {
+      "itemCode": "0682 6060",
+      "description": "BACKPLATE W/REFL BRDR(3 SEC)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 160.24,
+      "bidders": {
+        "IOC COMPANY LLC": 160.24,
+        "FOREMOST PAVING, INC.": 150.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 160.0
+      }
+    },
+    {
+      "itemCode": "0684 6007",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(2 CONDR)",
+      "unit": "LF",
+      "quantity": 1264.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.1,
+      "bidders": {
+        "IOC COMPANY LLC": 2.1,
+        "FOREMOST PAVING, INC.": 2.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0684 6010",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(5 CONDR)",
+      "unit": "LF",
+      "quantity": 2411.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.54,
+      "bidders": {
+        "IOC COMPANY LLC": 2.54,
+        "FOREMOST PAVING, INC.": 2.3,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0684 6012",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(7 CONDR)",
+      "unit": "LF",
+      "quantity": 897.0,
+      "engEstUnit": 3.4,
+      "lowUnit": 2.76,
+      "bidders": {
+        "IOC COMPANY LLC": 2.76,
+        "FOREMOST PAVING, INC.": 2.5,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0686 6037",
+      "description": "INS TRF SIG PL AM(S)1 ARM(36')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 13000.0,
+      "lowUnit": 13371.96,
+      "bidders": {
+        "IOC COMPANY LLC": 13371.96,
+        "FOREMOST PAVING, INC.": 12100.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 13100.0
+      }
+    },
+    {
+      "itemCode": "0686 6043",
+      "description": "INS TRF SIG PL AM(S)1 ARM(40')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 17440.0,
+      "lowUnit": 16024.25,
+      "bidders": {
+        "IOC COMPANY LLC": 16024.25,
+        "FOREMOST PAVING, INC.": 15000.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 15700.0
+      }
+    },
+    {
+      "itemCode": "0686 6045",
+      "description": "INS TRF SIG PL AM(S)1 ARM(44')",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 14482.0,
+      "lowUnit": 16300.54,
+      "bidders": {
+        "IOC COMPANY LLC": 16300.54,
+        "FOREMOST PAVING, INC.": 15000.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 15970.0
+      }
+    },
+    {
+      "itemCode": "0686 6047",
+      "description": "INS TRF SIG PL AM(S)1 ARM(44')LUM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 17090.0,
+      "lowUnit": 16411.05,
+      "bidders": {
+        "IOC COMPANY LLC": 16411.05,
+        "FOREMOST PAVING, INC.": 15000.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 16080.0
+      }
+    },
+    {
+      "itemCode": "0713 6006",
+      "description": "CRACK CLEANING AND SEALING (CRCP)",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "IOC COMPANY LLC": 25.0,
+        "FOREMOST PAVING, INC.": 100.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0780 6002",
+      "description": "CNC CRACK REPAIR (DISCRETE)(INJECT)",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "IOC COMPANY LLC": 150.0,
+        "FOREMOST PAVING, INC.": 150.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 190.0
+      }
+    },
+    {
+      "itemCode": "3080 6013",
+      "description": "STONE-MTRX-ASPH SMA-F SAC-A PG76-22",
+      "unit": "TON",
+      "quantity": 10887.0,
+      "engEstUnit": 109.84,
+      "lowUnit": 155.0,
+      "bidders": {
+        "IOC COMPANY LLC": 155.0,
+        "FOREMOST PAVING, INC.": 144.5,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 145.0
+      }
+    },
+    {
+      "itemCode": "3084 6001",
+      "description": "BONDING COURSE",
+      "unit": "GAL",
+      "quantity": 8915.0,
+      "engEstUnit": 4.25,
+      "lowUnit": 1.5,
+      "bidders": {
+        "IOC COMPANY LLC": 1.5,
+        "FOREMOST PAVING, INC.": 2.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 6763.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "IOC COMPANY LLC": 100.0,
+        "FOREMOST PAVING, INC.": 7500.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "6038 6004",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(SLD)",
+      "unit": "LF",
+      "quantity": 7770.0,
+      "engEstUnit": 1.6,
+      "lowUnit": 2.6,
+      "bidders": {
+        "IOC COMPANY LLC": 2.6,
+        "FOREMOST PAVING, INC.": 1.85,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "6038 6005",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(BRK)",
+      "unit": "LF",
+      "quantity": 2948.0,
+      "engEstUnit": 1.9,
+      "lowUnit": 3.1,
+      "bidders": {
+        "IOC COMPANY LLC": 3.1,
+        "FOREMOST PAVING, INC.": 2.45,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "6038 6006",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(DOT)",
+      "unit": "LF",
+      "quantity": 102.0,
+      "engEstUnit": 2.91,
+      "lowUnit": 4.1,
+      "bidders": {
+        "IOC COMPANY LLC": 4.1,
+        "FOREMOST PAVING, INC.": 4.85,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 4.0
+      }
+    },
+    {
+      "itemCode": "6038 6007",
+      "description": "MULTIPOLYMER PAV MRK (W)(8\")(SLD)",
+      "unit": "LF",
+      "quantity": 5929.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 4.1,
+      "bidders": {
+        "IOC COMPANY LLC": 4.1,
+        "FOREMOST PAVING, INC.": 3.8,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 4.0
+      }
+    },
+    {
+      "itemCode": "6038 6013",
+      "description": "MULTIPOLYMER PAV MRK (W)(24\")(SLD)",
+      "unit": "LF",
+      "quantity": 1793.0,
+      "engEstUnit": 11.2,
+      "lowUnit": 8.1,
+      "bidders": {
+        "IOC COMPANY LLC": 8.1,
+        "FOREMOST PAVING, INC.": 12.85,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 8.0
+      }
+    },
+    {
+      "itemCode": "6038 6017",
+      "description": "MULTIPOLYMER PAV MRK (Y)(6\")(SLD)",
+      "unit": "LF",
+      "quantity": 7054.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.6,
+      "bidders": {
+        "IOC COMPANY LLC": 2.6,
+        "FOREMOST PAVING, INC.": 1.85,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "6038 6025",
+      "description": "MULTIYPOLYMER PAV MRK (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 32.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 325.0,
+      "bidders": {
+        "IOC COMPANY LLC": 325.0,
+        "FOREMOST PAVING, INC.": 320.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 330.0
+      }
+    },
+    {
+      "itemCode": "6038 6027",
+      "description": "MULTIPOLYMER PAV MRK (W) (WORD)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 314.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "IOC COMPANY LLC": 400.0,
+        "FOREMOST PAVING, INC.": 320.0,
+        "TEXAS CORDIA CONSTRUCTION, LLC": 400.0
+      }
+    }
+  ]
+}

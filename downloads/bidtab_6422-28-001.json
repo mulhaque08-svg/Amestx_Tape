@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "csj": "6422-28-001",
+    "county": "Gregg",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642228001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/14/23",
+    "engEstTotal": 228775.05,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DOUBLE S TRACTOR SERVICES, LLC",
+      "totalBidAmount": 218891.14
+    },
+    {
+      "rank": 2,
+      "vendorName": "SERVIN MOWING",
+      "totalBidAmount": 230783.75
+    },
+    {
+      "rank": 3,
+      "vendorName": "MOIR WATERSHED SERVICES, LLC",
+      "totalBidAmount": 236583.3
+    },
+    {
+      "rank": 4,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 249533.2
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "DOUBLE S TRACTOR SERVICES, LLC": 0.01,
+        "SERVIN MOWING": 1.0,
+        "MOIR WATERSHED SERVICES, LLC": 2000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6016.6,
+      "engEstUnit": 32.0,
+      "lowUnit": 31.0,
+      "bidders": {
+        "DOUBLE S TRACTOR SERVICES, LLC": 31.0,
+        "SERVIN MOWING": 34.25,
+        "MOIR WATERSHED SERVICES, LLC": 30.5,
+        "CROSS PLUS CONSTRUCTION, LLC": 36.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 31.0,
+      "bidders": {
+        "DOUBLE S TRACTOR SERVICES, LLC": 31.0,
+        "SERVIN MOWING": 1.0,
+        "MOIR WATERSHED SERVICES, LLC": 79.5,
+        "CROSS PLUS CONSTRUCTION, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 2055.1,
+      "engEstUnit": 13.5,
+      "lowUnit": 15.0,
+      "bidders": {
+        "DOUBLE S TRACTOR SERVICES, LLC": 15.0,
+        "SERVIN MOWING": 12.0,
+        "MOIR WATERSHED SERVICES, LLC": 20.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 16.0
+      }
+    }
+  ]
+}

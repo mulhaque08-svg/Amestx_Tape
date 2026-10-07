@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "csj": "6397-23-001",
+    "county": "Lamar",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 639723001",
+    "projectType": "BRIDGE BEAM REPAIR",
+    "letDate": "03/17/22",
+    "engEstTotal": 137400.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "PENHALL COMPANY",
+      "totalBidAmount": 127669.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GV LANDSCAPE AND CONSTRUCTION LLC",
+      "totalBidAmount": 129900.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "IBCTX, LLC",
+      "totalBidAmount": 144555.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "GIBSON & ASSOCIATES, INC.",
+      "totalBidAmount": 145620.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "GHB EQUIPMENT COMPANY, L.L.C.",
+      "totalBidAmount": 150400.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "STRUCTURAL INTEGRITY GROUP LLC",
+      "totalBidAmount": 175190.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "HIGHWAY 19 CONSTRUCTION LLC",
+      "totalBidAmount": 293000.0
+    },
+    {
+      "rank": 8,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 308800.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 24.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 380.0,
+      "bidders": {
+        "PENHALL COMPANY": 380.0,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 200.0,
+        "IBCTX, LLC": 300.0,
+        "GIBSON & ASSOCIATES, INC.": 330.0,
+        "GHB EQUIPMENT COMPANY, L.L.C.": 800.0,
+        "STRUCTURAL INTEGRITY GROUP LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 12739.0,
+      "bidders": {
+        "PENHALL COMPANY": 12739.0,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 7500.0,
+        "IBCTX, LLC": 14455.0,
+        "GIBSON & ASSOCIATES, INC.": 10000.0,
+        "GHB EQUIPMENT COMPANY, L.L.C.": 15000.0,
+        "STRUCTURAL INTEGRITY GROUP LLC": 19000.0
+      }
+    },
+    {
+      "itemCode": "0788 6002",
+      "description": "CONCRETE BEAM REPAIR (CFRP)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 8912.0,
+      "bidders": {
+        "PENHALL COMPANY": 8912.0,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 20500.0,
+        "IBCTX, LLC": 15000.0,
+        "GIBSON & ASSOCIATES, INC.": 15000.0,
+        "GHB EQUIPMENT COMPANY, L.L.C.": 20000.0,
+        "STRUCTURAL INTEGRITY GROUP LLC": 15000.0
+      }
+    },
+    {
+      "itemCode": "0788 6003",
+      "description": "CONCRETE BEAM REP(STRAND SPLICE & CFRP)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 16460.0,
+      "bidders": {
+        "PENHALL COMPANY": 16460.0,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 22000.0,
+        "IBCTX, LLC": 20000.0,
+        "GIBSON & ASSOCIATES, INC.": 26000.0,
+        "GHB EQUIPMENT COMPANY, L.L.C.": 18000.0,
+        "STRUCTURAL INTEGRITY GROUP LLC": 21500.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 36.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 63.0,
+      "bidders": {
+        "PENHALL COMPANY": 63.0,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 150.0,
+        "IBCTX, LLC": 100.0,
+        "GIBSON & ASSOCIATES, INC.": 100.0,
+        "GHB EQUIPMENT COMPANY, L.L.C.": 100.0,
+        "STRUCTURAL INTEGRITY GROUP LLC": 90.0
+      }
+    }
+  ]
+}

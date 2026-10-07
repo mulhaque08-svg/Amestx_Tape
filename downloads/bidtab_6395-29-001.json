@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6395-29-001",
+    "county": "Montague",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639529001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/03/22",
+    "engEstTotal": 313964.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 310778.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "EVERYTHING IRRIGATION LLC",
+      "totalBidAmount": 311297.63
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1685.0,
+      "engEstUnit": 36.0,
+      "lowUnit": 38.0,
+      "bidders": {
+        "ANTHONY SERVICES": 38.0,
+        "EVERYTHING IRRIGATION LLC": 34.43
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 7356.0,
+      "engEstUnit": 34.0,
+      "lowUnit": 33.0,
+      "bidders": {
+        "ANTHONY SERVICES": 33.0,
+        "EVERYTHING IRRIGATION LLC": 34.43
+      }
+    }
+  ]
+}

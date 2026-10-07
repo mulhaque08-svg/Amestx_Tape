@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6398-33-001",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639833001",
+    "projectType": "FLEXIBLE BASE MATERIAL",
+    "letDate": "04/12/22",
+    "engEstTotal": 62000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 52000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 94800.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6064",
+      "description": "FL BS (TY E GR 1-2)(IN VEH)(PICKUP)",
+      "unit": "CY",
+      "quantity": 600.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 50.0,
+        "DIGG COMMERCIAL, LLC": 76.0
+      }
+    },
+    {
+      "itemCode": "8027 6001",
+      "description": "SAND (IN VEH) (DEL)",
+      "unit": "CY",
+      "quantity": 400.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 40.0,
+        "DIGG COMMERCIAL, LLC": 98.0
+      }
+    },
+    {
+      "itemCode": "8027 6002",
+      "description": "SAND (VEH) (PICKUP)",
+      "unit": "CY",
+      "quantity": 200.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 30.0,
+        "DIGG COMMERCIAL, LLC": 50.0
+      }
+    }
+  ]
+}

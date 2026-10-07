@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6451-27-001",
+    "county": "Concho",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645127001",
+    "projectType": "SKID RESTORATION (NON-REHAB)",
+    "letDate": "09/27/23",
+    "engEstTotal": 297517.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 369716.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 7500.0,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 7500.0
+      }
+    },
+    {
+      "itemCode": "2021 6001",
+      "description": "ULTRA HP WATER CUTTING TREATMENT",
+      "unit": "SY",
+      "quantity": 74420.0,
+      "engEstUnit": 3.85,
+      "lowUnit": 4.8,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 4.8
+      }
+    }
+  ]
+}

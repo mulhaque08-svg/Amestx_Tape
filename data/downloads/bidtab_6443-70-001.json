@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6443-70-001",
+    "county": "Hidalgo",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644370001",
+    "projectType": "CRACK SEAL",
+    "letDate": "06/05/24",
+    "engEstTotal": 873687.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 856325.08
+    },
+    {
+      "rank": 2,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 1109175.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 1226375.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 70000.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "CRACKSEAL OF TEXAS, LLC": 10000.0,
+        "ICOS MANAGEMENT, LLC": 100000.0,
+        "D & M CONTRACTORS, LLC": 40000.0
+      }
+    }
+  ]
+}

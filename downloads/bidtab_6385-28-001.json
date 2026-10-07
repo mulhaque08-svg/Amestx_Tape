@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6385-28-001",
+    "county": "Trinity",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638528001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/08/22",
+    "engEstTotal": 144319.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DON YATES, INC.",
+      "totalBidAmount": 122540.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 130899.85
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 10.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 0.5,
+      "bidders": {
+        "DON YATES, INC.": 0.5,
+        "R&M INCORPORATED": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 3651.5,
+      "engEstUnit": 33.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "DON YATES, INC.": 30.0,
+        "R&M INCORPORATED": 29.9
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 0.25,
+      "bidders": {
+        "DON YATES, INC.": 0.25,
+        "R&M INCORPORATED": 1.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 1440.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 9.0,
+      "bidders": {
+        "DON YATES, INC.": 9.0,
+        "R&M INCORPORATED": 15.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 10.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 0.5,
+      "bidders": {
+        "DON YATES, INC.": 0.5,
+        "R&M INCORPORATED": 1.0
+      }
+    }
+  ]
+}

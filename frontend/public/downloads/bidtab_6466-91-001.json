@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6466-91-001",
+    "county": "Aransas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646691001",
+    "projectType": "HOT MIX",
+    "letDate": "05/21/24",
+    "engEstTotal": 298000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ANDERSON COLUMBIA CO., INC.",
+      "totalBidAmount": 295600.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 300460.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 100.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 95.2,
+      "bidders": {
+        "ANDERSON COLUMBIA CO., INC.": 95.2,
+        "COLORADO MATERIALS, LTD.": 85.0
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2400.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 119.2,
+      "bidders": {
+        "ANDERSON COLUMBIA CO., INC.": 119.2,
+        "COLORADO MATERIALS, LTD.": 121.65
+      }
+    }
+  ]
+}

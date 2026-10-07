@@ -1,0 +1,671 @@
+{
+  "metadata": {
+    "csj": "1437-02-016",
+    "county": "Wilson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "STP 2022(693)HES",
+    "projectType": "HAZARD ELIMINATION & SAFETY",
+    "letDate": "06/29/22",
+    "engEstTotal": 730517.78,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.",
+      "totalBidAmount": 853370.48
+    },
+    {
+      "rank": 2,
+      "vendorName": "HUNTER INDUSTRIES, LTD.",
+      "totalBidAmount": 973202.72
+    },
+    {
+      "rank": 3,
+      "vendorName": "CK NEWBERRY, LLC",
+      "totalBidAmount": 1062146.3
+    },
+    {
+      "rank": 4,
+      "vendorName": "ACME BRIDGE COMPANY, INC.",
+      "totalBidAmount": 1091380.74
+    },
+    {
+      "rank": 5,
+      "vendorName": "RELMCO, INC.",
+      "totalBidAmount": 1144210.2
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 18.0,
+      "engEstUnit": 650.0,
+      "lowUnit": 626.72,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 626.72,
+        "HUNTER INDUSTRIES, LTD.": 1378.62,
+        "CK NEWBERRY, LLC": 1000.0,
+        "ACME BRIDGE COMPANY, INC.": 1560.0,
+        "RELMCO, INC.": 3093.26
+      }
+    },
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 12.0,
+      "engEstUnit": 16.11,
+      "lowUnit": 72.4,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 72.4,
+        "HUNTER INDUSTRIES, LTD.": 37.62,
+        "CK NEWBERRY, LLC": 50.0,
+        "ACME BRIDGE COMPANY, INC.": 59.4,
+        "RELMCO, INC.": 10.5
+      }
+    },
+    {
+      "itemCode": "0104 6017",
+      "description": "REMOVING CONC (DRIVEWAYS)",
+      "unit": "SY",
+      "quantity": 262.0,
+      "engEstUnit": 12.2,
+      "lowUnit": 23.97,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 23.97,
+        "HUNTER INDUSTRIES, LTD.": 37.62,
+        "CK NEWBERRY, LLC": 15.0,
+        "ACME BRIDGE COMPANY, INC.": 19.73,
+        "RELMCO, INC.": 10.5
+      }
+    },
+    {
+      "itemCode": "0105 6045",
+      "description": "REMOVING STAB BASE AND ASPH PAV (2\"-8\")",
+      "unit": "SY",
+      "quantity": 2289.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 9.03,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 9.03,
+        "HUNTER INDUSTRIES, LTD.": 13.68,
+        "CK NEWBERRY, LLC": 15.0,
+        "ACME BRIDGE COMPANY, INC.": 10.3,
+        "RELMCO, INC.": 20.88
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 516.0,
+      "engEstUnit": 16.91,
+      "lowUnit": 26.61,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 26.61,
+        "HUNTER INDUSTRIES, LTD.": 46.98,
+        "CK NEWBERRY, LLC": 35.0,
+        "ACME BRIDGE COMPANY, INC.": 50.1,
+        "RELMCO, INC.": 52.26
+      }
+    },
+    {
+      "itemCode": "0132 6003",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY B)",
+      "unit": "CY",
+      "quantity": 203.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 34.71,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 34.71,
+        "HUNTER INDUSTRIES, LTD.": 46.98,
+        "CK NEWBERRY, LLC": 45.0,
+        "ACME BRIDGE COMPANY, INC.": 42.96,
+        "RELMCO, INC.": 61.55
+      }
+    },
+    {
+      "itemCode": "0160 6003",
+      "description": "FURNISHING AND PLACING TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 3014.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 3.33,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 3.33,
+        "HUNTER INDUSTRIES, LTD.": 5.54,
+        "CK NEWBERRY, LLC": 5.0,
+        "ACME BRIDGE COMPANY, INC.": 4.55,
+        "RELMCO, INC.": 12.65
+      }
+    },
+    {
+      "itemCode": "0164 6001",
+      "description": "BROADCAST SEED (PERM) (RURAL) (SANDY)",
+      "unit": "SY",
+      "quantity": 3014.0,
+      "engEstUnit": 0.14,
+      "lowUnit": 0.31,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 0.31,
+        "HUNTER INDUSTRIES, LTD.": 0.45,
+        "CK NEWBERRY, LLC": 0.5,
+        "ACME BRIDGE COMPANY, INC.": 0.27,
+        "RELMCO, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 51.0,
+      "engEstUnit": 208.36,
+      "lowUnit": 53.87,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 53.87,
+        "HUNTER INDUSTRIES, LTD.": 27.36,
+        "CK NEWBERRY, LLC": 45.0,
+        "ACME BRIDGE COMPANY, INC.": 89.3,
+        "RELMCO, INC.": 26.303
+      }
+    },
+    {
+      "itemCode": "0216 6001",
+      "description": "PROOF ROLLING",
+      "unit": "HR",
+      "quantity": 4.0,
+      "engEstUnit": 60.02,
+      "lowUnit": 82.28,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 82.28,
+        "HUNTER INDUSTRIES, LTD.": 152.1,
+        "CK NEWBERRY, LLC": 100.0,
+        "ACME BRIDGE COMPANY, INC.": 108.0,
+        "RELMCO, INC.": 104.42
+      }
+    },
+    {
+      "itemCode": "0354 6022",
+      "description": "PLANE ASPH CONC PAV(0\" TO 3\")",
+      "unit": "SY",
+      "quantity": 712.0,
+      "engEstUnit": 1.84,
+      "lowUnit": 21.3,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 21.3,
+        "HUNTER INDUSTRIES, LTD.": 24.23,
+        "CK NEWBERRY, LLC": 12.0,
+        "ACME BRIDGE COMPANY, INC.": 26.8,
+        "RELMCO, INC.": 13.01
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 8.0,
+      "engEstUnit": 132.43,
+      "lowUnit": 193.18,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 193.18,
+        "HUNTER INDUSTRIES, LTD.": 300.0,
+        "CK NEWBERRY, LLC": 300.0,
+        "ACME BRIDGE COMPANY, INC.": 331.0,
+        "RELMCO, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0432 6022",
+      "description": "RIPRAP (STONE COMMON)(DRY)(6 IN)",
+      "unit": "CY",
+      "quantity": 6.0,
+      "engEstUnit": 114.63,
+      "lowUnit": 475.31,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 475.31,
+        "HUNTER INDUSTRIES, LTD.": 350.0,
+        "CK NEWBERRY, LLC": 125.0,
+        "ACME BRIDGE COMPANY, INC.": 277.0,
+        "RELMCO, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0467 6362",
+      "description": "SET (TY II) (18 IN) (RCP) (6: 1) (C)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1680.0,
+      "lowUnit": 1827.23,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1827.23,
+        "HUNTER INDUSTRIES, LTD.": 3000.0,
+        "CK NEWBERRY, LLC": 2500.0,
+        "ACME BRIDGE COMPANY, INC.": 2930.0,
+        "RELMCO, INC.": 1400.0
+      }
+    },
+    {
+      "itemCode": "0496 6004",
+      "description": "REMOV STR (SET)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 410.45,
+      "lowUnit": 353.2,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 353.2,
+        "HUNTER INDUSTRIES, LTD.": 350.0,
+        "CK NEWBERRY, LLC": 1500.0,
+        "ACME BRIDGE COMPANY, INC.": 302.0,
+        "RELMCO, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0496 6007",
+      "description": "REMOV STR (PIPE)",
+      "unit": "LF",
+      "quantity": 123.0,
+      "engEstUnit": 14.2,
+      "lowUnit": 19.67,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 19.67,
+        "HUNTER INDUSTRIES, LTD.": 20.0,
+        "CK NEWBERRY, LLC": 35.0,
+        "ACME BRIDGE COMPANY, INC.": 25.0,
+        "RELMCO, INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 66755.73,
+      "lowUnit": 85120.36,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 85120.36,
+        "HUNTER INDUSTRIES, LTD.": 96172.82,
+        "CK NEWBERRY, LLC": 125000.0,
+        "ACME BRIDGE COMPANY, INC.": 87000.0,
+        "RELMCO, INC.": 110000.0
+      }
+    },
+    {
+      "itemCode": "0530 6004",
+      "description": "DRIVEWAYS (CONC)",
+      "unit": "SY",
+      "quantity": 229.0,
+      "engEstUnit": 68.51,
+      "lowUnit": 137.12,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 137.12,
+        "HUNTER INDUSTRIES, LTD.": 125.0,
+        "CK NEWBERRY, LLC": 175.0,
+        "ACME BRIDGE COMPANY, INC.": 105.0,
+        "RELMCO, INC.": 90.0
+      }
+    },
+    {
+      "itemCode": "0530 6006",
+      "description": "DRIVEWAYS (SURF TREAT)",
+      "unit": "SY",
+      "quantity": 886.0,
+      "engEstUnit": 38.76,
+      "lowUnit": 59.67,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 59.67,
+        "HUNTER INDUSTRIES, LTD.": 67.5,
+        "CK NEWBERRY, LLC": 45.0,
+        "ACME BRIDGE COMPANY, INC.": 45.85,
+        "RELMCO, INC.": 61.47
+      }
+    },
+    {
+      "itemCode": "0530 6021",
+      "description": "DRIVEWAYS (ACP) (TYPE 2)",
+      "unit": "SY",
+      "quantity": 516.0,
+      "engEstUnit": 38.93,
+      "lowUnit": 119.18,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 119.18,
+        "HUNTER INDUSTRIES, LTD.": 67.5,
+        "CK NEWBERRY, LLC": 115.0,
+        "ACME BRIDGE COMPANY, INC.": 120.0,
+        "RELMCO, INC.": 67.63
+      }
+    },
+    {
+      "itemCode": "0560 6025",
+      "description": "RELOCATE EXISTING MAILBOX",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 431.61,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 431.61,
+        "HUNTER INDUSTRIES, LTD.": 500.0,
+        "CK NEWBERRY, LLC": 350.0,
+        "ACME BRIDGE COMPANY, INC.": 559.0,
+        "RELMCO, INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0644 6039",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SB(P)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 721.43,
+      "lowUnit": 651.61,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 651.61,
+        "HUNTER INDUSTRIES, LTD.": 1000.0,
+        "CK NEWBERRY, LLC": 600.0,
+        "ACME BRIDGE COMPANY, INC.": 1120.0,
+        "RELMCO, INC.": 600.0
+      }
+    },
+    {
+      "itemCode": "0644 6070",
+      "description": "RELOCATE SM RD SN SUP&AM TY S80",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 626.37,
+      "lowUnit": 460.32,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 460.32,
+        "HUNTER INDUSTRIES, LTD.": 750.0,
+        "CK NEWBERRY, LLC": 700.0,
+        "ACME BRIDGE COMPANY, INC.": 391.0,
+        "RELMCO, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0662 6050",
+      "description": "WK ZN PAV MRK REMOV (REFL) TY II-A-A",
+      "unit": "EA",
+      "quantity": 236.0,
+      "engEstUnit": 2.93,
+      "lowUnit": 9.23,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 9.23,
+        "HUNTER INDUSTRIES, LTD.": 8.0,
+        "CK NEWBERRY, LLC": 8.0,
+        "ACME BRIDGE COMPANY, INC.": 8.9,
+        "RELMCO, INC.": 6.82
+      }
+    },
+    {
+      "itemCode": "0662 6063",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 3523.0,
+      "engEstUnit": 3.07,
+      "lowUnit": 1.02,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1.02,
+        "HUNTER INDUSTRIES, LTD.": 0.9,
+        "CK NEWBERRY, LLC": 1.5,
+        "ACME BRIDGE COMPANY, INC.": 1.0,
+        "RELMCO, INC.": 1.31
+      }
+    },
+    {
+      "itemCode": "0662 6067",
+      "description": "WK ZN PAV MRK REMOV (W)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 3549.0,
+      "engEstUnit": 1.15,
+      "lowUnit": 1.73,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1.73,
+        "HUNTER INDUSTRIES, LTD.": 1.55,
+        "CK NEWBERRY, LLC": 1.5,
+        "ACME BRIDGE COMPANY, INC.": 1.75,
+        "RELMCO, INC.": 1.31
+      }
+    },
+    {
+      "itemCode": "0662 6071",
+      "description": "WK ZN PAV MRK REMOV (W)8\"(SLD)",
+      "unit": "LF",
+      "quantity": 175.0,
+      "engEstUnit": 1.05,
+      "lowUnit": 2.56,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 2.56,
+        "HUNTER INDUSTRIES, LTD.": 1.8,
+        "CK NEWBERRY, LLC": 3.0,
+        "ACME BRIDGE COMPANY, INC.": 2.0,
+        "RELMCO, INC.": 2.62
+      }
+    },
+    {
+      "itemCode": "0662 6093",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 782.0,
+      "engEstUnit": 0.48,
+      "lowUnit": 1.1,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1.1,
+        "HUNTER INDUSTRIES, LTD.": 0.88,
+        "CK NEWBERRY, LLC": 2.5,
+        "ACME BRIDGE COMPANY, INC.": 0.98,
+        "RELMCO, INC.": 2.1
+      }
+    },
+    {
+      "itemCode": "0662 6095",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 13219.0,
+      "engEstUnit": 0.45,
+      "lowUnit": 1.05,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1.05,
+        "HUNTER INDUSTRIES, LTD.": 0.95,
+        "CK NEWBERRY, LLC": 1.5,
+        "ACME BRIDGE COMPANY, INC.": 1.05,
+        "RELMCO, INC.": 1.31
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 3.05,
+      "lowUnit": 22.29,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 22.29,
+        "HUNTER INDUSTRIES, LTD.": 10.0,
+        "CK NEWBERRY, LLC": 8.5,
+        "ACME BRIDGE COMPANY, INC.": 11.2,
+        "RELMCO, INC.": 7.87
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 142.0,
+      "engEstUnit": 3.1,
+      "lowUnit": 11.72,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 11.72,
+        "HUNTER INDUSTRIES, LTD.": 10.0,
+        "CK NEWBERRY, LLC": 8.5,
+        "ACME BRIDGE COMPANY, INC.": 11.2,
+        "RELMCO, INC.": 7.87
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 7640.0,
+      "engEstUnit": 0.81,
+      "lowUnit": 0.29,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 0.29,
+        "HUNTER INDUSTRIES, LTD.": 0.25,
+        "CK NEWBERRY, LLC": 0.55,
+        "ACME BRIDGE COMPANY, INC.": 0.28,
+        "RELMCO, INC.": 0.52
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 204.0,
+      "engEstUnit": 1.37,
+      "lowUnit": 0.94,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 0.94,
+        "HUNTER INDUSTRIES, LTD.": 0.4,
+        "CK NEWBERRY, LLC": 1.1,
+        "ACME BRIDGE COMPANY, INC.": 0.45,
+        "RELMCO, INC.": 1.05
+      }
+    },
+    {
+      "itemCode": "0677 6006",
+      "description": "ELIM EXT PAV MRK & MRKS (18\")",
+      "unit": "LF",
+      "quantity": 42.0,
+      "engEstUnit": 2.25,
+      "lowUnit": 3.52,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 3.52,
+        "HUNTER INDUSTRIES, LTD.": 1.0,
+        "CK NEWBERRY, LLC": 3.25,
+        "ACME BRIDGE COMPANY, INC.": 1.1,
+        "RELMCO, INC.": 3.15
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 30.0,
+      "engEstUnit": 19.22,
+      "lowUnit": 5.59,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 5.59,
+        "HUNTER INDUSTRIES, LTD.": 2.0,
+        "CK NEWBERRY, LLC": 5.5,
+        "ACME BRIDGE COMPANY, INC.": 2.25,
+        "RELMCO, INC.": 5.25
+      }
+    },
+    {
+      "itemCode": "0677 6008",
+      "description": "ELIM EXT PAV MRK & MRKS (ARROW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 122.5,
+      "lowUnit": 127.81,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 127.81,
+        "HUNTER INDUSTRIES, LTD.": 70.0,
+        "CK NEWBERRY, LLC": 110.0,
+        "ACME BRIDGE COMPANY, INC.": 78.21,
+        "RELMCO, INC.": 105.0
+      }
+    },
+    {
+      "itemCode": "0677 6012",
+      "description": "ELIM EXT PAV MRK & MRKS (WORD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 60.89,
+      "lowUnit": 127.81,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 127.81,
+        "HUNTER INDUSTRIES, LTD.": 70.0,
+        "CK NEWBERRY, LLC": 110.0,
+        "ACME BRIDGE COMPANY, INC.": 78.21,
+        "RELMCO, INC.": 105.0
+      }
+    },
+    {
+      "itemCode": "0677 6020",
+      "description": "ELIM EXT PAV MRK & MRKS (MED NOSE)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 363.87,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 363.87,
+        "HUNTER INDUSTRIES, LTD.": 300.0,
+        "CK NEWBERRY, LLC": 275.0,
+        "ACME BRIDGE COMPANY, INC.": 335.0,
+        "RELMCO, INC.": 262.5
+      }
+    },
+    {
+      "itemCode": "0685 6002",
+      "description": "RELOCATE RDSD FLASH BEACON ASSEMBLY",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1299.0,
+      "lowUnit": 7251.61,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 7251.61,
+        "HUNTER INDUSTRIES, LTD.": 8500.0,
+        "CK NEWBERRY, LLC": 7000.0,
+        "ACME BRIDGE COMPANY, INC.": 7260.0,
+        "RELMCO, INC.": 30000.0
+      }
+    },
+    {
+      "itemCode": "3076 6003",
+      "description": "D-GR HMA TY-B PG64-22 (EXEMPT)",
+      "unit": "TON",
+      "quantity": 2188.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 106.27,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 106.27,
+        "HUNTER INDUSTRIES, LTD.": 116.1,
+        "CK NEWBERRY, LLC": 125.0,
+        "ACME BRIDGE COMPANY, INC.": 156.0,
+        "RELMCO, INC.": 145.131
+      }
+    },
+    {
+      "itemCode": "3076 6066",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 660.0,
+      "engEstUnit": 7.3,
+      "lowUnit": 7.08,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 7.08,
+        "HUNTER INDUSTRIES, LTD.": 5.87,
+        "CK NEWBERRY, LLC": 6.25,
+        "ACME BRIDGE COMPANY, INC.": 5.0,
+        "RELMCO, INC.": 5.94
+      }
+    },
+    {
+      "itemCode": "3076 6082",
+      "description": "D-GR HMA TY-D PG70-22(LEVEL-UP)(EXEMPT)",
+      "unit": "TON",
+      "quantity": 966.0,
+      "engEstUnit": 159.0,
+      "lowUnit": 124.97,
+      "bidders": {
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 124.97,
+        "HUNTER INDUSTRIES, LTD.": 143.28,
+        "CK NEWBERRY, LLC": 175.0,
+        "ACME BRIDGE COMPANY, INC.": 190.0,
+        "RELMCO, INC.": 165.35
+      }
+    }
+  ]
+}

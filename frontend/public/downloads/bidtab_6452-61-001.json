@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "csj": "6452-61-001",
+    "county": "Shelby",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645261001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY - SHELBY COUNTY",
+    "letDate": "02/01/24",
+    "engEstTotal": 352818.53,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SERVIN MOWING",
+      "totalBidAmount": 239608.18
+    },
+    {
+      "rank": 2,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 272404.6
+    },
+    {
+      "rank": 3,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 282200.38
+    },
+    {
+      "rank": 4,
+      "vendorName": "SERNA CONTRACTORS, LLC",
+      "totalBidAmount": 343095.4
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 21.36,
+      "engEstUnit": 35.0,
+      "lowUnit": 34.9,
+      "bidders": {
+        "SERVIN MOWING": 34.9,
+        "RISE UP CONSTRUCTION LLC": 100.0,
+        "R&M INCORPORATED": 42.9,
+        "SERNA CONTRACTORS, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 5514.54,
+      "engEstUnit": 50.0,
+      "lowUnit": 34.9,
+      "bidders": {
+        "SERVIN MOWING": 34.9,
+        "RISE UP CONSTRUCTION LLC": 42.0,
+        "R&M INCORPORATED": 42.9,
+        "SERNA CONTRACTORS, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 34.9,
+      "bidders": {
+        "SERVIN MOWING": 34.9,
+        "RISE UP CONSTRUCTION LLC": 2.0,
+        "R&M INCORPORATED": 1.0,
+        "SERNA CONTRACTORS, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 21.36,
+      "engEstUnit": 17.81,
+      "lowUnit": 14.0,
+      "bidders": {
+        "SERVIN MOWING": 14.0,
+        "RISE UP CONSTRUCTION LLC": 25.0,
+        "R&M INCORPORATED": 14.0,
+        "SERNA CONTRACTORS, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 3168.66,
+      "engEstUnit": 23.5,
+      "lowUnit": 14.0,
+      "bidders": {
+        "SERVIN MOWING": 14.0,
+        "RISE UP CONSTRUCTION LLC": 12.0,
+        "R&M INCORPORATED": 14.0,
+        "SERNA CONTRACTORS, LLC": 20.0
+      }
+    }
+  ]
+}

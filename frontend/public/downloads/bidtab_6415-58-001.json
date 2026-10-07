@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6415-58-001",
+    "county": "Shelby",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641558001",
+    "projectType": "ROCK/RIPRAP TYPE (8IN) (12IN) (18IN)",
+    "letDate": "12/20/22",
+    "engEstTotal": 148110.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 152250.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 192000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 195000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8020 6023",
+      "description": "RIPRAP (PROTECTION TYPE)(12IN)(SITE 1)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 70.8,
+      "lowUnit": 66.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 66.0,
+        "DIGG COMMERCIAL, LLC": 96.0,
+        "TOUCHSTONE RESOURCES, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "8020 6085",
+      "description": "RIPRAP (PROTECTION TYPE)(8 IN)(SITE 1)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 74.23,
+      "lowUnit": 79.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 79.5,
+        "DIGG COMMERCIAL, LLC": 96.0,
+        "TOUCHSTONE RESOURCES, LLC": 95.0
+      }
+    },
+    {
+      "itemCode": "8020 6095",
+      "description": "RIPRAP (DEL)(STONE PROT)(18 IN)(SITE 1)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 76.96,
+      "lowUnit": 79.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 79.5,
+        "DIGG COMMERCIAL, LLC": 96.0,
+        "TOUCHSTONE RESOURCES, LLC": 100.0
+      }
+    }
+  ]
+}

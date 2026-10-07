@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "csj": "6464-36-001",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646436001",
+    "projectType": "HIGH EDGE REMOVAL",
+    "letDate": "05/07/24",
+    "engEstTotal": 292000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 228544.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "LONGHORN SERVICES NORTH TEXAS, LLC.",
+      "totalBidAmount": 234000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "RHINO EQUITY, LLC",
+      "totalBidAmount": 236500.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 261000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0150 6001",
+      "description": "BLADING",
+      "unit": "STA",
+      "quantity": 1550.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 123.99,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 123.99,
+        "LONGHORN SERVICES NORTH TEXAS, LLC.": 30.0,
+        "RHINO EQUITY, LLC": 100.0,
+        "SHALOM SERVICES CORPORATION": 150.0
+      }
+    },
+    {
+      "itemCode": "0150 6003",
+      "description": "BLADING",
+      "unit": "LF",
+      "quantity": 16000.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 1.94,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 1.94,
+        "LONGHORN SERVICES NORTH TEXAS, LLC.": 10.0,
+        "RHINO EQUITY, LLC": 4.25,
+        "SHALOM SERVICES CORPORATION": 1.25
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 95.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 95.0,
+        "LONGHORN SERVICES NORTH TEXAS, LLC.": 1500.0,
+        "RHINO EQUITY, LLC": 500.0,
+        "SHALOM SERVICES CORPORATION": 1000.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 95.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 95.0,
+        "LONGHORN SERVICES NORTH TEXAS, LLC.": 5000.0,
+        "RHINO EQUITY, LLC": 1000.0,
+        "SHALOM SERVICES CORPORATION": 1000.0
+      }
+    }
+  ]
+}

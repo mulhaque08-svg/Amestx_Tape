@@ -1,0 +1,731 @@
+{
+  "metadata": {
+    "csj": "1310-01-043",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2022(414)",
+    "projectType": "REALIGNMENT OF EXISTING ROADWAY",
+    "letDate": "03/04/22",
+    "engEstTotal": 1609333.8,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ED BELL CONSTRUCTION COMPANY",
+      "totalBidAmount": 1884000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "EUROVIA ATLANTIC COAST LLC",
+      "totalBidAmount": 1979509.66
+    },
+    {
+      "rank": 3,
+      "vendorName": "A. K. GILLIS & SONS, LLC",
+      "totalBidAmount": 2019832.39
+    },
+    {
+      "rank": 4,
+      "vendorName": "D. L. LENNON INCORPORATED - CONTRACTOR",
+      "totalBidAmount": 2105165.88
+    },
+    {
+      "rank": 5,
+      "vendorName": "JAGOE-PUBLIC COMPANY",
+      "totalBidAmount": 2115783.18
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 15.75,
+      "engEstUnit": 9000.0,
+      "lowUnit": 10500.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 10500.0,
+        "EUROVIA ATLANTIC COAST LLC": 1150.0,
+        "A. K. GILLIS & SONS, LLC": 350.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 4094.0,
+        "JAGOE-PUBLIC COMPANY": 6500.0
+      }
+    },
+    {
+      "itemCode": "0100 6006",
+      "description": "PREP ROW (TREE)(LESS THAN 24\" DIA)",
+      "unit": "EA",
+      "quantity": 54.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 550.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 550.0,
+        "EUROVIA ATLANTIC COAST LLC": 495.0,
+        "A. K. GILLIS & SONS, LLC": 500.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 800.0,
+        "JAGOE-PUBLIC COMPANY": 640.0
+      }
+    },
+    {
+      "itemCode": "0100 6012",
+      "description": "PREP ROW (TREE) (18\"-36\" DIA.)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 825.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 825.0,
+        "EUROVIA ATLANTIC COAST LLC": 1240.0,
+        "A. K. GILLIS & SONS, LLC": 750.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 1500.0,
+        "JAGOE-PUBLIC COMPANY": 1100.0
+      }
+    },
+    {
+      "itemCode": "0104 6001",
+      "description": "REMOVING CONC (PAV)",
+      "unit": "SY",
+      "quantity": 794.0,
+      "engEstUnit": 18.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 20.0,
+        "EUROVIA ATLANTIC COAST LLC": 16.0,
+        "A. K. GILLIS & SONS, LLC": 25.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 55.0,
+        "JAGOE-PUBLIC COMPANY": 33.0
+      }
+    },
+    {
+      "itemCode": "0105 6094",
+      "description": "REMOVING STAB BASE & ASPH PAV(12\"-27\")",
+      "unit": "SY",
+      "quantity": 4983.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 6.0,
+        "EUROVIA ATLANTIC COAST LLC": 13.0,
+        "A. K. GILLIS & SONS, LLC": 10.11,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 8.5,
+        "JAGOE-PUBLIC COMPANY": 6.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 12629.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 20.0,
+        "EUROVIA ATLANTIC COAST LLC": 14.5,
+        "A. K. GILLIS & SONS, LLC": 12.49,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 12.0,
+        "JAGOE-PUBLIC COMPANY": 20.0
+      }
+    },
+    {
+      "itemCode": "0161 6017",
+      "description": "COMPOST MANUF TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 20756.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 0.65,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 0.65,
+        "EUROVIA ATLANTIC COAST LLC": 2.0,
+        "A. K. GILLIS & SONS, LLC": 0.58,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 0.58,
+        "JAGOE-PUBLIC COMPANY": 0.75
+      }
+    },
+    {
+      "itemCode": "0164 6035",
+      "description": "DRILL SEEDING (PERM) (RURAL) (CLAY)",
+      "unit": "SY",
+      "quantity": 20756.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 0.15,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 0.15,
+        "EUROVIA ATLANTIC COAST LLC": 0.11,
+        "A. K. GILLIS & SONS, LLC": 0.44,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 0.44,
+        "JAGOE-PUBLIC COMPANY": 0.13
+      }
+    },
+    {
+      "itemCode": "0164 6051",
+      "description": "DRILL SEED (TEMP)(WARM OR COOL)",
+      "unit": "SY",
+      "quantity": 2400.0,
+      "engEstUnit": 0.22,
+      "lowUnit": 0.39,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 0.39,
+        "EUROVIA ATLANTIC COAST LLC": 0.39,
+        "A. K. GILLIS & SONS, LLC": 0.1,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 0.1,
+        "JAGOE-PUBLIC COMPANY": 0.45
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 3448.8,
+      "engEstUnit": 16.0,
+      "lowUnit": 2.1,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 2.1,
+        "EUROVIA ATLANTIC COAST LLC": 1.0,
+        "A. K. GILLIS & SONS, LLC": 2.98,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 1.0,
+        "JAGOE-PUBLIC COMPANY": 30.0
+      }
+    },
+    {
+      "itemCode": "0260 6016",
+      "description": "LIME (HYD, COM, OR QK(SLURRY))",
+      "unit": "TON",
+      "quantity": 100.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 210.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 210.0,
+        "EUROVIA ATLANTIC COAST LLC": 235.0,
+        "A. K. GILLIS & SONS, LLC": 188.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 250.0,
+        "JAGOE-PUBLIC COMPANY": 215.0
+      }
+    },
+    {
+      "itemCode": "0260 6027",
+      "description": "LIME TRT (EXST MATL)(8\")",
+      "unit": "SY",
+      "quantity": 7451.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 8.0,
+        "EUROVIA ATLANTIC COAST LLC": 13.5,
+        "A. K. GILLIS & SONS, LLC": 2.37,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 5.0,
+        "JAGOE-PUBLIC COMPANY": 9.0
+      }
+    },
+    {
+      "itemCode": "0310 6027",
+      "description": "PRIME COAT(MC-30 OR AE-P)",
+      "unit": "GAL",
+      "quantity": 1416.0,
+      "engEstUnit": 3.4,
+      "lowUnit": 7.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 7.0,
+        "EUROVIA ATLANTIC COAST LLC": 6.0,
+        "A. K. GILLIS & SONS, LLC": 9.36,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 8.0,
+        "JAGOE-PUBLIC COMPANY": 2.5
+      }
+    },
+    {
+      "itemCode": "0360 6003",
+      "description": "CONC PVMT (CONT REINF - CRCP) (9\")",
+      "unit": "SY",
+      "quantity": 448.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 151.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 151.0,
+        "EUROVIA ATLANTIC COAST LLC": 131.0,
+        "A. K. GILLIS & SONS, LLC": 154.88,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 150.0,
+        "JAGOE-PUBLIC COMPANY": 140.0
+      }
+    },
+    {
+      "itemCode": "0432 6030",
+      "description": "RIPRAP (STONE COMMON)(GROUT)(12 IN)",
+      "unit": "CY",
+      "quantity": 15.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 420.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 420.0,
+        "EUROVIA ATLANTIC COAST LLC": 315.0,
+        "A. K. GILLIS & SONS, LLC": 253.68,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 309.0,
+        "JAGOE-PUBLIC COMPANY": 470.0
+      }
+    },
+    {
+      "itemCode": "0467 6363",
+      "description": "SET (TY II) (18 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 1000.0,
+        "EUROVIA ATLANTIC COAST LLC": 1050.0,
+        "A. K. GILLIS & SONS, LLC": 700.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 1200.0,
+        "JAGOE-PUBLIC COMPANY": 1200.0
+      }
+    },
+    {
+      "itemCode": "0467 6394",
+      "description": "SET (TY II) (24 IN) (RCP) (6: 1) (C)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 2000.0,
+        "EUROVIA ATLANTIC COAST LLC": 1275.0,
+        "A. K. GILLIS & SONS, LLC": 1200.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 1500.0,
+        "JAGOE-PUBLIC COMPANY": 1500.0
+      }
+    },
+    {
+      "itemCode": "0467 6395",
+      "description": "SET (TY II) (24 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 2000.0,
+        "EUROVIA ATLANTIC COAST LLC": 1275.0,
+        "A. K. GILLIS & SONS, LLC": 1200.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 1600.0,
+        "JAGOE-PUBLIC COMPANY": 1500.0
+      }
+    },
+    {
+      "itemCode": "0467 6423",
+      "description": "SET (TY II) (30 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 2500.0,
+        "EUROVIA ATLANTIC COAST LLC": 2300.0,
+        "A. K. GILLIS & SONS, LLC": 2500.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 3500.0,
+        "JAGOE-PUBLIC COMPANY": 2700.0
+      }
+    },
+    {
+      "itemCode": "0496 6004",
+      "description": "REMOV STR (SET)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 400.0,
+        "EUROVIA ATLANTIC COAST LLC": 250.0,
+        "A. K. GILLIS & SONS, LLC": 200.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 350.0,
+        "JAGOE-PUBLIC COMPANY": 290.0
+      }
+    },
+    {
+      "itemCode": "0496 6007",
+      "description": "REMOV STR (PIPE)",
+      "unit": "LF",
+      "quantity": 391.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 15.0,
+        "EUROVIA ATLANTIC COAST LLC": 12.0,
+        "A. K. GILLIS & SONS, LLC": 15.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 7.0,
+        "JAGOE-PUBLIC COMPANY": 14.0
+      }
+    },
+    {
+      "itemCode": "0496 6031",
+      "description": "REMOV STR (CATTLE GUARD)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2200.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 1000.0,
+        "EUROVIA ATLANTIC COAST LLC": 3114.04,
+        "A. K. GILLIS & SONS, LLC": 1500.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 1500.0,
+        "JAGOE-PUBLIC COMPANY": 2400.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 150000.0,
+      "lowUnit": 179254.77,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 179254.77,
+        "EUROVIA ATLANTIC COAST LLC": 140000.0,
+        "A. K. GILLIS & SONS, LLC": 276771.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 144000.0,
+        "JAGOE-PUBLIC COMPANY": 200000.0
+      }
+    },
+    {
+      "itemCode": "0508 6001",
+      "description": "CONSTRUCTING DETOURS",
+      "unit": "SY",
+      "quantity": 3353.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 75.0,
+        "EUROVIA ATLANTIC COAST LLC": 133.0,
+        "A. K. GILLIS & SONS, LLC": 130.74,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 159.7,
+        "JAGOE-PUBLIC COMPANY": 110.0
+      }
+    },
+    {
+      "itemCode": "0512 6009",
+      "description": "PORT CTB (FUR & INST)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 1120.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 25.0,
+        "EUROVIA ATLANTIC COAST LLC": 38.0,
+        "A. K. GILLIS & SONS, LLC": 84.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 99.0,
+        "JAGOE-PUBLIC COMPANY": 44.25
+      }
+    },
+    {
+      "itemCode": "0512 6010",
+      "description": "PORT CTB (FUR & INST)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 80.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 50.0,
+        "EUROVIA ATLANTIC COAST LLC": 38.0,
+        "A. K. GILLIS & SONS, LLC": 82.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 99.0,
+        "JAGOE-PUBLIC COMPANY": 44.25
+      }
+    },
+    {
+      "itemCode": "0512 6033",
+      "description": "PORT CTB (MOVE)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 1080.0,
+      "engEstUnit": 9.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 5.0,
+        "EUROVIA ATLANTIC COAST LLC": 10.0,
+        "A. K. GILLIS & SONS, LLC": 21.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 15.0,
+        "JAGOE-PUBLIC COMPANY": 15.0
+      }
+    },
+    {
+      "itemCode": "0512 6034",
+      "description": "PORT CTB (MOVE)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 80.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 10.0,
+        "EUROVIA ATLANTIC COAST LLC": 10.0,
+        "A. K. GILLIS & SONS, LLC": 21.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 15.0,
+        "JAGOE-PUBLIC COMPANY": 15.0
+      }
+    },
+    {
+      "itemCode": "0512 6057",
+      "description": "PORT CTB (REMOVE)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 1120.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 10.0,
+        "EUROVIA ATLANTIC COAST LLC": 15.0,
+        "A. K. GILLIS & SONS, LLC": 21.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 25.0,
+        "JAGOE-PUBLIC COMPANY": 17.5
+      }
+    },
+    {
+      "itemCode": "0512 6058",
+      "description": "PORT CTB (REMOVE)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 80.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 20.0,
+        "EUROVIA ATLANTIC COAST LLC": 15.0,
+        "A. K. GILLIS & SONS, LLC": 21.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 25.0,
+        "JAGOE-PUBLIC COMPANY": 17.5
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 249.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 75.0,
+        "EUROVIA ATLANTIC COAST LLC": 75.0,
+        "A. K. GILLIS & SONS, LLC": 52.32,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 28.6,
+        "JAGOE-PUBLIC COMPANY": 75.0
+      }
+    },
+    {
+      "itemCode": "0530 6017",
+      "description": "DRIVEWAYS (CONC) (HES)",
+      "unit": "SY",
+      "quantity": 158.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 150.0,
+        "EUROVIA ATLANTIC COAST LLC": 145.0,
+        "A. K. GILLIS & SONS, LLC": 100.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 145.0,
+        "JAGOE-PUBLIC COMPANY": 140.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 874.5,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 874.5,
+        "EUROVIA ATLANTIC COAST LLC": 950.0,
+        "A. K. GILLIS & SONS, LLC": 950.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 950.0,
+        "JAGOE-PUBLIC COMPANY": 920.0
+      }
+    },
+    {
+      "itemCode": "0644 6002",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P-BM)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 935.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 935.0,
+        "EUROVIA ATLANTIC COAST LLC": 1000.0,
+        "A. K. GILLIS & SONS, LLC": 100.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 1000.0,
+        "JAGOE-PUBLIC COMPANY": 990.0
+      }
+    },
+    {
+      "itemCode": "0658 6046",
+      "description": "INSTL OM ASSM (OM-2X)(WC)GND",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 220.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 220.0,
+        "EUROVIA ATLANTIC COAST LLC": 60.0,
+        "A. K. GILLIS & SONS, LLC": 60.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 150.0,
+        "JAGOE-PUBLIC COMPANY": 120.0
+      }
+    },
+    {
+      "itemCode": "0662 6063",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 7455.0,
+      "engEstUnit": 1.2,
+      "lowUnit": 1.1,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 1.1,
+        "EUROVIA ATLANTIC COAST LLC": 0.75,
+        "A. K. GILLIS & SONS, LLC": 0.75,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 0.75,
+        "JAGOE-PUBLIC COMPANY": 1.2
+      }
+    },
+    {
+      "itemCode": "0662 6095",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 8944.0,
+      "engEstUnit": 1.2,
+      "lowUnit": 1.1,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 1.1,
+        "EUROVIA ATLANTIC COAST LLC": 0.75,
+        "A. K. GILLIS & SONS, LLC": 0.75,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 0.75,
+        "JAGOE-PUBLIC COMPANY": 1.2
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 19.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 7.7,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 7.7,
+        "EUROVIA ATLANTIC COAST LLC": 4.0,
+        "A. K. GILLIS & SONS, LLC": 4.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 4.0,
+        "JAGOE-PUBLIC COMPANY": 8.1
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 2742.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 1.1,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 1.1,
+        "EUROVIA ATLANTIC COAST LLC": 0.5,
+        "A. K. GILLIS & SONS, LLC": 0.5,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 1.5,
+        "JAGOE-PUBLIC COMPANY": 1.2
+      }
+    },
+    {
+      "itemCode": "0730 6107",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "CYC",
+      "quantity": 2.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 1000.0,
+        "EUROVIA ATLANTIC COAST LLC": 3700.0,
+        "A. K. GILLIS & SONS, LLC": 3500.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 150.0,
+        "JAGOE-PUBLIC COMPANY": 4000.0
+      }
+    },
+    {
+      "itemCode": "0734 6002",
+      "description": "LITTER REMOVAL",
+      "unit": "CYC",
+      "quantity": 2.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 1000.0,
+        "EUROVIA ATLANTIC COAST LLC": 4000.0,
+        "A. K. GILLIS & SONS, LLC": 3500.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 1500.0,
+        "JAGOE-PUBLIC COMPANY": 2000.0
+      }
+    },
+    {
+      "itemCode": "3077 6001",
+      "description": "SP MIXES SP-B PG64-22",
+      "unit": "TON",
+      "quantity": 105.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 275.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 275.0,
+        "EUROVIA ATLANTIC COAST LLC": 255.0,
+        "A. K. GILLIS & SONS, LLC": 103.8,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 103.8,
+        "JAGOE-PUBLIC COMPANY": 150.0
+      }
+    },
+    {
+      "itemCode": "3077 6013",
+      "description": "SP MIXES SP-C SAC-B PG64-22",
+      "unit": "TON",
+      "quantity": 1296.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 123.2,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 123.2,
+        "EUROVIA ATLANTIC COAST LLC": 111.0,
+        "A. K. GILLIS & SONS, LLC": 123.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 123.0,
+        "JAGOE-PUBLIC COMPANY": 110.0
+      }
+    },
+    {
+      "itemCode": "3077 6044",
+      "description": "SP MIXES SP-D PG64-22 (LEVEL-UP)",
+      "unit": "TON",
+      "quantity": 8.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 495.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 495.0,
+        "EUROVIA ATLANTIC COAST LLC": 405.0,
+        "A. K. GILLIS & SONS, LLC": 152.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 152.0,
+        "JAGOE-PUBLIC COMPANY": 175.0
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 294.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 6.0,
+        "EUROVIA ATLANTIC COAST LLC": 5.0,
+        "A. K. GILLIS & SONS, LLC": 7.5,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 7.5,
+        "JAGOE-PUBLIC COMPANY": 2.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "ED BELL CONSTRUCTION COMPANY": 10000.0,
+        "EUROVIA ATLANTIC COAST LLC": 17000.0,
+        "A. K. GILLIS & SONS, LLC": 15000.0,
+        "D. L. LENNON INCORPORATED - CONTRACTOR": 15000.0,
+        "JAGOE-PUBLIC COMPANY": 15000.0
+      }
+    }
+  ]
+}

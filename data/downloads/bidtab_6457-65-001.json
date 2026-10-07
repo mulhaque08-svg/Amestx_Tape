@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6457-65-001",
+    "county": "Austin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645765001",
+    "projectType": "SWEEPING AND DEBRIS REMOVAL",
+    "letDate": "10/26/23",
+    "engEstTotal": 213666.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TREC SERVICES, LLC",
+      "totalBidAmount": 249996.92
+    },
+    {
+      "rank": 2,
+      "vendorName": "SWEEPING CORPORATION OF AMERICA, LLC",
+      "totalBidAmount": 252760.44
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 4560.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 21.75,
+      "bidders": {
+        "TREC SERVICES, LLC": 21.75,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 37.0
+      }
+    },
+    {
+      "itemCode": "0735 6002",
+      "description": "DEBRIS REMOVAL (CNTR MEDIANS/MAINLANES)",
+      "unit": "MI",
+      "quantity": 192.12,
+      "engEstUnit": 100.0,
+      "lowUnit": 228.69,
+      "bidders": {
+        "TREC SERVICES, LLC": 228.69,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 37.0
+      }
+    },
+    {
+      "itemCode": "0738 6002",
+      "description": "CLEANING / SWEEPING (CENTER MEDIAN)",
+      "unit": "MI",
+      "quantity": 192.12,
+      "engEstUnit": 225.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "TREC SERVICES, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0738 6004",
+      "description": "CLEANING / SWEEPING (OUTSIDE MAIN LANE)",
+      "unit": "MI",
+      "quantity": 192.12,
+      "engEstUnit": 225.0,
+      "lowUnit": 275.0,
+      "bidders": {
+        "TREC SERVICES, LLC": 275.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 200.0
+      }
+    }
+  ]
+}

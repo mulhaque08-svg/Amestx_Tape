@@ -1,0 +1,1010 @@
+{
+  "metadata": {
+    "csj": "0482-01-036",
+    "county": "Jim Hogg",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2B24(072)",
+    "projectType": "RECONSTRUCT EXISTING ROADWAY",
+    "letDate": "05/03/24",
+    "engEstTotal": 34499734.73,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FOREMOST PAVING, INC.",
+      "totalBidAmount": 34775852.97
+    },
+    {
+      "rank": 2,
+      "vendorName": "ANDERSON COLUMBIA CO., INC.",
+      "totalBidAmount": 37213248.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 524.0,
+      "engEstUnit": 2735.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 2500.0,
+        "ANDERSON COLUMBIA CO., INC.": 1880.0
+      }
+    },
+    {
+      "itemCode": "0104 6028",
+      "description": "REMOVING CONC (MISC)",
+      "unit": "SY",
+      "quantity": 156.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 45.0,
+        "ANDERSON COLUMBIA CO., INC.": 68.0
+      }
+    },
+    {
+      "itemCode": "0104 6054",
+      "description": "REMOVING CONCRETE(MOW STRIP)",
+      "unit": "LF",
+      "quantity": 872.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 25.0,
+        "ANDERSON COLUMBIA CO., INC.": 32.0
+      }
+    },
+    {
+      "itemCode": "0105 6020",
+      "description": "REMOVING STAB BASE & ASPH PAV (12\")",
+      "unit": "SY",
+      "quantity": 119839.0,
+      "engEstUnit": 7.35,
+      "lowUnit": 4.9,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 4.9,
+        "ANDERSON COLUMBIA CO., INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 156096.6,
+      "engEstUnit": 6.0,
+      "lowUnit": 3.35,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 3.35,
+        "ANDERSON COLUMBIA CO., INC.": 4.5
+      }
+    },
+    {
+      "itemCode": "0132 6006",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY C)",
+      "unit": "CY",
+      "quantity": 64255.4,
+      "engEstUnit": 10.0,
+      "lowUnit": 7.9,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 7.9,
+        "ANDERSON COLUMBIA CO., INC.": 8.5
+      }
+    },
+    {
+      "itemCode": "0134 6001",
+      "description": "BACKFILL (TY A)",
+      "unit": "STA",
+      "quantity": 524.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 325.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 325.0,
+        "ANDERSON COLUMBIA CO., INC.": 350.0
+      }
+    },
+    {
+      "itemCode": "0164 6023",
+      "description": "CELL FBR MLCH SEED(PERM)(RURAL)(CLAY)",
+      "unit": "SY",
+      "quantity": 548500.0,
+      "engEstUnit": 0.42,
+      "lowUnit": 0.5,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 0.5,
+        "ANDERSON COLUMBIA CO., INC.": 0.5
+      }
+    },
+    {
+      "itemCode": "0164 6029",
+      "description": "CELL FBR MLCH SEED(TEMP)(WARM)",
+      "unit": "SY",
+      "quantity": 548500.0,
+      "engEstUnit": 0.43,
+      "lowUnit": 0.45,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 0.45,
+        "ANDERSON COLUMBIA CO., INC.": 0.48
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 9520.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 40.0,
+        "ANDERSON COLUMBIA CO., INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0204 6003",
+      "description": "SPRINKLING (DUST CONTROL)",
+      "unit": "MG",
+      "quantity": 2096.0,
+      "engEstUnit": 9.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 1.0,
+        "ANDERSON COLUMBIA CO., INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0251 6158",
+      "description": "RWRK BS MTL(TY B)(12\")(DC)(ORG POS)",
+      "unit": "CY",
+      "quantity": 46004.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 7.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 7.0,
+        "ANDERSON COLUMBIA CO., INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0251 6210",
+      "description": "RWRK BS MTL (TY B)(14\")(DC)(ORG POS)",
+      "unit": "CY",
+      "quantity": 27059.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 12.0,
+        "ANDERSON COLUMBIA CO., INC.": 14.0
+      }
+    },
+    {
+      "itemCode": "0275 6001",
+      "description": "CEMENT",
+      "unit": "TON",
+      "quantity": 7107.0,
+      "engEstUnit": 215.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 200.0,
+        "ANDERSON COLUMBIA CO., INC.": 230.0
+      }
+    },
+    {
+      "itemCode": "0275 6005",
+      "description": "CEMENT TREAT (EXIST MATL)(12\")",
+      "unit": "SY",
+      "quantity": 340122.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 2.85,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 2.85,
+        "ANDERSON COLUMBIA CO., INC.": 3.2
+      }
+    },
+    {
+      "itemCode": "0275 6032",
+      "description": "CEMENT TREAT (NEW BASE) (16\")",
+      "unit": "SY",
+      "quantity": 1445.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 8.25,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 8.25,
+        "ANDERSON COLUMBIA CO., INC.": 9.0
+      }
+    },
+    {
+      "itemCode": "0275 6374",
+      "description": "CMT TRT(MX EXST MTL & NW BS)(12\")(DC)",
+      "unit": "SY",
+      "quantity": 329548.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 3.05,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 3.05,
+        "ANDERSON COLUMBIA CO., INC.": 3.5
+      }
+    },
+    {
+      "itemCode": "0305 6005",
+      "description": "SALV, HAUL & STKPL RCL APH PV (6 TO 8\")",
+      "unit": "SY",
+      "quantity": 256457.0,
+      "engEstUnit": 3.8,
+      "lowUnit": 4.65,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 4.65,
+        "ANDERSON COLUMBIA CO., INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0310 6009",
+      "description": "PRIME COAT (MC-30)",
+      "unit": "GAL",
+      "quantity": 66204.0,
+      "engEstUnit": 5.04,
+      "lowUnit": 5.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 5.0,
+        "ANDERSON COLUMBIA CO., INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0354 6021",
+      "description": "PLANE ASPH CONC PAV(0\" TO 2\")",
+      "unit": "SY",
+      "quantity": 190.0,
+      "engEstUnit": 1.98,
+      "lowUnit": 85.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 85.0,
+        "ANDERSON COLUMBIA CO., INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "0402 6001",
+      "description": "TRENCH EXCAVATION PROTECTION",
+      "unit": "LF",
+      "quantity": 404.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 18.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 18.0,
+        "ANDERSON COLUMBIA CO., INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0432 6002",
+      "description": "RIPRAP (CONC)(5 IN)",
+      "unit": "CY",
+      "quantity": 1322.0,
+      "engEstUnit": 445.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 600.0,
+        "ANDERSON COLUMBIA CO., INC.": 550.0
+      }
+    },
+    {
+      "itemCode": "0432 6003",
+      "description": "RIPRAP (CONC)(6 IN)",
+      "unit": "CY",
+      "quantity": 1.63,
+      "engEstUnit": 600.0,
+      "lowUnit": 610.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 610.0,
+        "ANDERSON COLUMBIA CO., INC.": 600.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 56.0,
+      "engEstUnit": 490.0,
+      "lowUnit": 610.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 610.0,
+        "ANDERSON COLUMBIA CO., INC.": 550.0
+      }
+    },
+    {
+      "itemCode": "0466 6150",
+      "description": "WINGWALL (FW - 0) (HW=3 FT)",
+      "unit": "EA",
+      "quantity": 32.0,
+      "engEstUnit": 12895.0,
+      "lowUnit": 9000.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 9000.0,
+        "ANDERSON COLUMBIA CO., INC.": 6000.0
+      }
+    },
+    {
+      "itemCode": "0467 6363",
+      "description": "SET (TY II) (18 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 1224.22,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 2000.0,
+        "ANDERSON COLUMBIA CO., INC.": 1600.0
+      }
+    },
+    {
+      "itemCode": "0467 6390",
+      "description": "SET (TY II) (24 IN) (RCP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 1900.0,
+      "lowUnit": 2200.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 2200.0,
+        "ANDERSON COLUMBIA CO., INC.": 2000.0
+      }
+    },
+    {
+      "itemCode": "0467 6392",
+      "description": "SET (TY II) (24 IN) (RCP) (5: 1) (C)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 2426.3,
+      "lowUnit": 2200.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 2200.0,
+        "ANDERSON COLUMBIA CO., INC.": 2000.0
+      }
+    },
+    {
+      "itemCode": "0496 6004",
+      "description": "REMOV STR (SET)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 468.2,
+      "lowUnit": 1800.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 1800.0,
+        "ANDERSON COLUMBIA CO., INC.": 650.0
+      }
+    },
+    {
+      "itemCode": "0496 6005",
+      "description": "REMOV STR (WINGWALL)",
+      "unit": "EA",
+      "quantity": 32.0,
+      "engEstUnit": 1820.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 1500.0,
+        "ANDERSON COLUMBIA CO., INC.": 2500.0
+      }
+    },
+    {
+      "itemCode": "0496 6006",
+      "description": "REMOV STR (HEADWALL)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 1500.0,
+        "ANDERSON COLUMBIA CO., INC.": 1300.0
+      }
+    },
+    {
+      "itemCode": "0496 6007",
+      "description": "REMOV STR (PIPE)",
+      "unit": "LF",
+      "quantity": 540.0,
+      "engEstUnit": 13.35,
+      "lowUnit": 20.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 20.0,
+        "ANDERSON COLUMBIA CO., INC.": 16.0
+      }
+    },
+    {
+      "itemCode": "0496 6008",
+      "description": "REMOV STR (BOX CULVERT)",
+      "unit": "LF",
+      "quantity": 1373.0,
+      "engEstUnit": 42.35,
+      "lowUnit": 55.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 55.0,
+        "ANDERSON COLUMBIA CO., INC.": 49.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 3136339.52,
+      "lowUnit": 2540000.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 2540000.0,
+        "ANDERSON COLUMBIA CO., INC.": 3600000.0
+      }
+    },
+    {
+      "itemCode": "0508 6001",
+      "description": "CONSTRUCTING DETOURS",
+      "unit": "SY",
+      "quantity": 70188.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 48.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 48.0,
+        "ANDERSON COLUMBIA CO., INC.": 54.0
+      }
+    },
+    {
+      "itemCode": "0510 6003",
+      "description": "ONE-WAY TRAF CONT (PORT TRAF SIG)",
+      "unit": "MO",
+      "quantity": 1.0,
+      "engEstUnit": 6150.0,
+      "lowUnit": 10500.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 10500.0,
+        "ANDERSON COLUMBIA CO., INC.": 9500.0
+      }
+    },
+    {
+      "itemCode": "0512 6001",
+      "description": "PORT CTB (FUR & INST)(SGL SLOPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 17310.0,
+      "engEstUnit": 33.5,
+      "lowUnit": 22.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 22.0,
+        "ANDERSON COLUMBIA CO., INC.": 26.0
+      }
+    },
+    {
+      "itemCode": "0512 6025",
+      "description": "PORT CTB (MOVE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 85540.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 3.75,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 3.75,
+        "ANDERSON COLUMBIA CO., INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0512 6049",
+      "description": "PORT CTB (REMOVE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 17310.0,
+      "engEstUnit": 6.75,
+      "lowUnit": 16.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 16.0,
+        "ANDERSON COLUMBIA CO., INC.": 17.0
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 3244.0,
+      "engEstUnit": 41.5,
+      "lowUnit": 45.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 45.0,
+        "ANDERSON COLUMBIA CO., INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 475.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 3.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 3.0,
+        "ANDERSON COLUMBIA CO., INC.": 3.3
+      }
+    },
+    {
+      "itemCode": "0542 6004",
+      "description": "RM MTL BM GD FENCE TRANS (THRIE-BEAM)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 196.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 196.0,
+        "ANDERSON COLUMBIA CO., INC.": 280.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3289.0,
+      "lowUnit": 3600.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 3600.0,
+        "ANDERSON COLUMBIA CO., INC.": 3200.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 278.96,
+      "lowUnit": 196.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 196.0,
+        "ANDERSON COLUMBIA CO., INC.": 436.0
+      }
+    },
+    {
+      "itemCode": "0545 6003",
+      "description": "CRASH CUSH ATTEN (MOVE & RESET)",
+      "unit": "EA",
+      "quantity": 84.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1525.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 1525.0,
+        "ANDERSON COLUMBIA CO., INC.": 1800.0
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 550.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 550.0,
+        "ANDERSON COLUMBIA CO., INC.": 870.0
+      }
+    },
+    {
+      "itemCode": "0545 6019",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 9633.33,
+      "lowUnit": 9300.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 9300.0,
+        "ANDERSON COLUMBIA CO., INC.": 8800.0
+      }
+    },
+    {
+      "itemCode": "0644 6027",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(P)",
+      "unit": "EA",
+      "quantity": 29.0,
+      "engEstUnit": 808.63,
+      "lowUnit": 700.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 700.0,
+        "ANDERSON COLUMBIA CO., INC.": 720.0
+      }
+    },
+    {
+      "itemCode": "0644 6030",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(T)",
+      "unit": "EA",
+      "quantity": 26.0,
+      "engEstUnit": 850.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 900.0,
+        "ANDERSON COLUMBIA CO., INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0644 6033",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 1150.0,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 1100.0,
+        "ANDERSON COLUMBIA CO., INC.": 120.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 37.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 140.0,
+        "ANDERSON COLUMBIA CO., INC.": 110.0
+      }
+    },
+    {
+      "itemCode": "0658 6060",
+      "description": "REMOVE DELIN & OBJECT MARKER ASSMS",
+      "unit": "EA",
+      "quantity": 47.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 140.0,
+        "ANDERSON COLUMBIA CO., INC.": 20.0
+      }
+    },
+    {
+      "itemCode": "0658 6100",
+      "description": "INSTL OM ASSM (OM-2Z)(WFLX)GND(BI)",
+      "unit": "EA",
+      "quantity": 48.0,
+      "engEstUnit": 89.83,
+      "lowUnit": 50.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 50.0,
+        "ANDERSON COLUMBIA CO., INC.": 66.0
+      }
+    },
+    {
+      "itemCode": "0662 6008",
+      "description": "WK ZN PAV MRK NON-REMOV (W)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 110330.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.52,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 0.52,
+        "ANDERSON COLUMBIA CO., INC.": 0.6
+      }
+    },
+    {
+      "itemCode": "0662 6037",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 105320.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.52,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 0.52,
+        "ANDERSON COLUMBIA CO., INC.": 0.6
+      }
+    },
+    {
+      "itemCode": "0662 6050",
+      "description": "WK ZN PAV MRK REMOV (REFL) TY II-A-A",
+      "unit": "EA",
+      "quantity": 6856.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 4.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 4.0,
+        "ANDERSON COLUMBIA CO., INC.": 4.5
+      }
+    },
+    {
+      "itemCode": "0662 6067",
+      "description": "WK ZN PAV MRK REMOV (W)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 169355.0,
+      "engEstUnit": 0.55,
+      "lowUnit": 0.3,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 0.3,
+        "ANDERSON COLUMBIA CO., INC.": 0.3
+      }
+    },
+    {
+      "itemCode": "0662 6071",
+      "description": "WK ZN PAV MRK REMOV (W)8\"(SLD)",
+      "unit": "LF",
+      "quantity": 82.0,
+      "engEstUnit": 1.1,
+      "lowUnit": 0.5,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 0.5,
+        "ANDERSON COLUMBIA CO., INC.": 0.5
+      }
+    },
+    {
+      "itemCode": "0662 6075",
+      "description": "WK ZN PAV MRK REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 140.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 16.0,
+        "ANDERSON COLUMBIA CO., INC.": 17.0
+      }
+    },
+    {
+      "itemCode": "0662 6080",
+      "description": "WK ZN PAV MRK REMOV (W)(ARROW)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 200.0,
+        "ANDERSON COLUMBIA CO., INC.": 220.0
+      }
+    },
+    {
+      "itemCode": "0662 6090",
+      "description": "WK ZN PAV MRK REMOV (W)(WORD)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 205.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 300.0,
+        "ANDERSON COLUMBIA CO., INC.": 330.0
+      }
+    },
+    {
+      "itemCode": "0662 6096",
+      "description": "WK ZN PAV MRK REMOV (Y)6\"(BRK)",
+      "unit": "LF",
+      "quantity": 220.0,
+      "engEstUnit": 0.62,
+      "lowUnit": 0.36,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 0.36,
+        "ANDERSON COLUMBIA CO., INC.": 0.4
+      }
+    },
+    {
+      "itemCode": "0662 6098",
+      "description": "WK ZN PAV MRK REMOV (Y)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 177664.0,
+      "engEstUnit": 0.45,
+      "lowUnit": 0.3,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 0.3,
+        "ANDERSON COLUMBIA CO., INC.": 0.4
+      }
+    },
+    {
+      "itemCode": "0662 6109",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY W",
+      "unit": "EA",
+      "quantity": 5403.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.7,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 1.7,
+        "ANDERSON COLUMBIA CO., INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 5345.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.7,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 1.7,
+        "ANDERSON COLUMBIA CO., INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 200.0,
+        "ANDERSON COLUMBIA CO., INC.": 220.0
+      }
+    },
+    {
+      "itemCode": "0668 6083",
+      "description": "PREFAB PAV MRK TY C (W) (LNDP ARROW)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 562.0,
+      "lowUnit": 450.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 450.0,
+        "ANDERSON COLUMBIA CO., INC.": 490.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 274.26,
+      "lowUnit": 305.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 305.0,
+        "ANDERSON COLUMBIA CO., INC.": 330.0
+      }
+    },
+    {
+      "itemCode": "0668 6116",
+      "description": "PREFAB PAV MRK TY C(EVAC SYM, BLUE/WHT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 850.68,
+      "lowUnit": 755.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 755.0,
+        "ANDERSON COLUMBIA CO., INC.": 820.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 458.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 5.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 5.0,
+        "ANDERSON COLUMBIA CO., INC.": 5.5
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 1515.0,
+      "engEstUnit": 3.98,
+      "lowUnit": 5.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 5.0,
+        "ANDERSON COLUMBIA CO., INC.": 5.5
+      }
+    },
+    {
+      "itemCode": "0672 6017",
+      "description": "TRAFFIC BUTTON TY Y",
+      "unit": "EA",
+      "quantity": 14580.0,
+      "engEstUnit": 2.2,
+      "lowUnit": 3.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 3.0,
+        "ANDERSON COLUMBIA CO., INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "0672 6018",
+      "description": "TRAFFIC BUTTON TY B",
+      "unit": "EA",
+      "quantity": 8036.0,
+      "engEstUnit": 2.2,
+      "lowUnit": 3.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 3.0,
+        "ANDERSON COLUMBIA CO., INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 143196.0,
+      "engEstUnit": 0.45,
+      "lowUnit": 0.6,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 0.6,
+        "ANDERSON COLUMBIA CO., INC.": 0.6
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 1350.0,
+      "engEstUnit": 0.15,
+      "lowUnit": 0.1,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 0.1,
+        "ANDERSON COLUMBIA CO., INC.": 0.1
+      }
+    },
+    {
+      "itemCode": "3077 6010",
+      "description": "SP MIXES SP-B SAC-B PG76-22",
+      "unit": "TON",
+      "quantity": 45524.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 126.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 126.0,
+        "ANDERSON COLUMBIA CO., INC.": 127.0
+      }
+    },
+    {
+      "itemCode": "3077 6033",
+      "description": "SP MIXES SP-C SAC-A PG76-22",
+      "unit": "TON",
+      "quantity": 36419.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 158.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 158.0,
+        "ANDERSON COLUMBIA CO., INC.": 156.0
+      }
+    },
+    {
+      "itemCode": "3084 6001",
+      "description": "BONDING COURSE",
+      "unit": "GAL",
+      "quantity": 22363.0,
+      "engEstUnit": 4.65,
+      "lowUnit": 5.5,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 5.5,
+        "ANDERSON COLUMBIA CO., INC.": 5.5
+      }
+    },
+    {
+      "itemCode": "5088 6001",
+      "description": "BIRD EXCLUSION METHOD",
+      "unit": "SF",
+      "quantity": 5673.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 14.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 14.0,
+        "ANDERSON COLUMBIA CO., INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 32000.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 32000.0,
+        "ANDERSON COLUMBIA CO., INC.": 29000.0
+      }
+    },
+    {
+      "itemCode": "6038 6004",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(SLD)",
+      "unit": "LF",
+      "quantity": 270.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 25.0,
+        "ANDERSON COLUMBIA CO., INC.": 22.0
+      }
+    },
+    {
+      "itemCode": "6038 6017",
+      "description": "MULTIPOLYMER PAV MRK (Y)(6\")(SLD)",
+      "unit": "LF",
+      "quantity": 270.0,
+      "engEstUnit": 2.7,
+      "lowUnit": 25.0,
+      "bidders": {
+        "FOREMOST PAVING, INC.": 25.0,
+        "ANDERSON COLUMBIA CO., INC.": 22.0
+      }
+    }
+  ]
+}

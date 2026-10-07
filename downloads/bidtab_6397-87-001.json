@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6397-87-001",
+    "county": "Nueces",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639787001",
+    "projectType": "CRACK SEAL",
+    "letDate": "06/14/22",
+    "engEstTotal": 226350.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 141787.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 180385.25
+    },
+    {
+      "rank": 3,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 208087.61
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 19500.0,
+      "lowUnit": 3500.0,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 3500.0,
+        "D & M CONTRACTORS, LLC": 5000.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.01
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 20.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 0.1,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 0.1,
+        "D & M CONTRACTORS, LLC": 50.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.001
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "csj": "6377-71-001",
+    "county": "Val Verde",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637771001",
+    "projectType": "TREE TRIMMING AND BRUSH REMOVAL",
+    "letDate": "08/11/22",
+    "engEstTotal": 291760.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SOUTH TEXAS BUILDCON, LLC",
+      "totalBidAmount": 280000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "WESTGATE GROUP, LLC",
+      "totalBidAmount": 280458.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3625.0,
+      "bidders": {
+        "SOUTH TEXAS BUILDCON, LLC": 3625.0,
+        "WESTGATE GROUP, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0502 6001",
+      "description": "BARRICADES, SIGNS AND TRAFFIC HANDLING",
+      "unit": "MO",
+      "quantity": 4.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "SOUTH TEXAS BUILDCON, LLC": 500.0,
+        "WESTGATE GROUP, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 117.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "SOUTH TEXAS BUILDCON, LLC": 500.0,
+        "WESTGATE GROUP, LLC": 2250.0
+      }
+    },
+    {
+      "itemCode": "0752 6005",
+      "description": "TREE REMOVAL (4\" - 12\" DIA)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "SOUTH TEXAS BUILDCON, LLC": 1500.0,
+        "WESTGATE GROUP, LLC": 160.0
+      }
+    },
+    {
+      "itemCode": "0752 6006",
+      "description": "TREE REMOVAL (12\" - 18\" DIA)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 87.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "SOUTH TEXAS BUILDCON, LLC": 2000.0,
+        "WESTGATE GROUP, LLC": 160.0
+      }
+    },
+    {
+      "itemCode": "0752 6007",
+      "description": "TREE REMOVAL (18\" - 24\" DIA)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "SOUTH TEXAS BUILDCON, LLC": 2500.0,
+        "WESTGATE GROUP, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0752 6008",
+      "description": "TREE REMOVAL (24\" - 30\" DIA)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 205.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "SOUTH TEXAS BUILDCON, LLC": 3000.0,
+        "WESTGATE GROUP, LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0752 6009",
+      "description": "TREE REMOVAL (30\" - 36\" DIA)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 3500.0,
+      "bidders": {
+        "SOUTH TEXAS BUILDCON, LLC": 3500.0,
+        "WESTGATE GROUP, LLC": 300.0
+      }
+    }
+  ]
+}

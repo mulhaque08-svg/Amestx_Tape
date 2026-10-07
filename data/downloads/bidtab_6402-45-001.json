@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6402-45-001",
+    "county": "Wharton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 640245001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "01/10/23",
+    "engEstTotal": 255000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "QUALITY HOT MIX, INC.",
+      "totalBidAmount": 251250.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 270000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 366000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6078",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 1)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 41.0,
+      "lowUnit": 42.5,
+      "bidders": {
+        "QUALITY HOT MIX, INC.": 42.5,
+        "COLORADO MATERIALS, LTD.": 48.0,
+        "DIGG COMMERCIAL, LLC": 66.0
+      }
+    },
+    {
+      "itemCode": "8007 6079",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 2)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 47.0,
+      "lowUnit": 47.0,
+      "bidders": {
+        "QUALITY HOT MIX, INC.": 47.0,
+        "COLORADO MATERIALS, LTD.": 55.0,
+        "DIGG COMMERCIAL, LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "8007 6080",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 3)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 41.0,
+      "lowUnit": 41.0,
+      "bidders": {
+        "QUALITY HOT MIX, INC.": 41.0,
+        "COLORADO MATERIALS, LTD.": 43.0,
+        "DIGG COMMERCIAL, LLC": 54.0
+      }
+    },
+    {
+      "itemCode": "8007 6081",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 4)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 41.0,
+      "lowUnit": 37.0,
+      "bidders": {
+        "QUALITY HOT MIX, INC.": 37.0,
+        "COLORADO MATERIALS, LTD.": 34.0,
+        "DIGG COMMERCIAL, LLC": 49.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6394-20-001",
+    "county": "Live Oak",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639420001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/04/22",
+    "engEstTotal": 789850.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "EVERYTHING IRRIGATION LLC",
+      "totalBidAmount": 705163.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 896975.74
+    },
+    {
+      "rank": 3,
+      "vendorName": "SJ&J CONSTRUCTION, LLC",
+      "totalBidAmount": 921568.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 6000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "EVERYTHING IRRIGATION LLC": 1.0,
+        "R&M INCORPORATED": 1.0,
+        "SJ&J CONSTRUCTION, LLC": 30000.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 13866.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "EVERYTHING IRRIGATION LLC": 40.0,
+        "R&M INCORPORATED": 52.89,
+        "SJ&J CONSTRUCTION, LLC": 48.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "EVERYTHING IRRIGATION LLC": 1.0,
+        "R&M INCORPORATED": 1.0,
+        "SJ&J CONSTRUCTION, LLC": 25.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 6540.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 23.0,
+      "bidders": {
+        "EVERYTHING IRRIGATION LLC": 23.0,
+        "R&M INCORPORATED": 25.0,
+        "SJ&J CONSTRUCTION, LLC": 25.0
+      }
+    }
+  ]
+}

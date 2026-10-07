@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "csj": "0904-00-207",
+    "county": "Potter",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2024(137)",
+    "projectType": "HIGHWAY IMPROVEMENT",
+    "letDate": "10/06/23",
+    "engEstTotal": 3583233.13,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CENTERLINE TECHNOLOGIES, LLC",
+      "totalBidAmount": 3292241.77
+    },
+    {
+      "rank": 2,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 3579042.87
+    },
+    {
+      "rank": 3,
+      "vendorName": "DOUBLE A CONTRACTING, L.P.",
+      "totalBidAmount": 3714237.77
+    },
+    {
+      "rank": 4,
+      "vendorName": "STRIPE-A-ZONE, LLC",
+      "totalBidAmount": 4871989.03
+    },
+    {
+      "rank": 5,
+      "vendorName": "TRAFFIC HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 5268115.27
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 175000.0,
+      "lowUnit": 25000.0,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 25000.0,
+        "TRP CONSTRUCTION GROUP, LLC": 223000.0,
+        "DOUBLE A CONTRACTING, L.P.": 10.0,
+        "STRIPE-A-ZONE, LLC": 50000.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 250000.0
+      }
+    },
+    {
+      "itemCode": "0677 6019",
+      "description": "ELIM EXT PAV MRK & MRKS (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 2098.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 5.0,
+        "TRP CONSTRUCTION GROUP, LLC": 37.0,
+        "DOUBLE A CONTRACTING, L.P.": 6.0,
+        "STRIPE-A-ZONE, LLC": 13.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 25.0
+      }
+    },
+    {
+      "itemCode": "6362 6002",
+      "description": "REC REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 13939.0,
+      "engEstUnit": 21.0,
+      "lowUnit": 20.75,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 20.75,
+        "TRP CONSTRUCTION GROUP, LLC": 18.0,
+        "DOUBLE A CONTRACTING, L.P.": 29.0,
+        "STRIPE-A-ZONE, LLC": 38.5,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 29.5
+      }
+    },
+    {
+      "itemCode": "6362 6004",
+      "description": "REC REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 47200.0,
+      "engEstUnit": 21.0,
+      "lowUnit": 20.75,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 20.75,
+        "TRP CONSTRUCTION GROUP, LLC": 18.0,
+        "DOUBLE A CONTRACTING, L.P.": 29.0,
+        "STRIPE-A-ZONE, LLC": 38.5,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 29.5
+      }
+    },
+    {
+      "itemCode": "6362 6005",
+      "description": "REC REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 18445.0,
+      "engEstUnit": 21.0,
+      "lowUnit": 21.0,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 21.0,
+        "TRP CONSTRUCTION GROUP, LLC": 18.0,
+        "DOUBLE A CONTRACTING, L.P.": 29.0,
+        "STRIPE-A-ZONE, LLC": 38.5,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 29.5
+      }
+    }
+  ]
+}

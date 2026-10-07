@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6470-74-001",
+    "county": "Trinity",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 647074001",
+    "projectType": "FLEXIBLE BASE/TY E/TRINITY (POLK & SAN JAC)",
+    "letDate": "08/06/24",
+    "engEstTotal": 210000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 203500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 209500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6063",
+      "description": "FL BS (SITE DEL) (TY E GR 2) (SITE 1)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 52.5,
+      "lowUnit": 56.75,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 56.75,
+        "TOUCHSTONE RESOURCES, LLC": 49.5
+      }
+    },
+    {
+      "itemCode": "8007 6065",
+      "description": "FL BS (SITE DEL) (TY E GR 2)  (SITE 2)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 52.5,
+      "lowUnit": 48.25,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 48.25,
+        "TOUCHSTONE RESOURCES, LLC": 55.0
+      }
+    },
+    {
+      "itemCode": "8007 6118",
+      "description": "FL BS (SITE DEL) (TY E GR 2) (SITE 3)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 52.5,
+      "lowUnit": 50.25,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 50.25,
+        "TOUCHSTONE RESOURCES, LLC": 50.0
+      }
+    }
+  ]
+}

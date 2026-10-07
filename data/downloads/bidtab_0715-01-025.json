@@ -1,0 +1,782 @@
+{
+  "metadata": {
+    "csj": "0715-01-025",
+    "county": "Gonzales",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2023(980)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "06/28/23",
+    "engEstTotal": 5761078.05,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "E-Z BEL CONSTRUCTION, LLC",
+      "totalBidAmount": 6351464.79
+    },
+    {
+      "rank": 2,
+      "vendorName": "CAPITAL EXCAVATION COMPANY",
+      "totalBidAmount": 6940512.61
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 28.7,
+      "engEstUnit": 3500.0,
+      "lowUnit": 3100.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 3100.0,
+        "CAPITAL EXCAVATION COMPANY": 6500.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 2935.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 24.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 24.0,
+        "CAPITAL EXCAVATION COMPANY": 28.95
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 5088.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 24.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 24.0,
+        "CAPITAL EXCAVATION COMPANY": 24.87
+      }
+    },
+    {
+      "itemCode": "0132 6005",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 761.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 25.0,
+        "CAPITAL EXCAVATION COMPANY": 80.0
+      }
+    },
+    {
+      "itemCode": "0132 6006",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY C)",
+      "unit": "CY",
+      "quantity": 5124.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 25.0,
+        "CAPITAL EXCAVATION COMPANY": 75.0
+      }
+    },
+    {
+      "itemCode": "0150 6002",
+      "description": "BLADING",
+      "unit": "HR",
+      "quantity": 62.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 60.0,
+        "CAPITAL EXCAVATION COMPANY": 300.0
+      }
+    },
+    {
+      "itemCode": "0164 6003",
+      "description": "BROADCAST SEED (PERM) (RURAL) (CLAY)",
+      "unit": "SY",
+      "quantity": 17570.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 0.35,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 0.35,
+        "CAPITAL EXCAVATION COMPANY": 0.45
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 4393.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 0.31,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 0.31,
+        "CAPITAL EXCAVATION COMPANY": 0.4
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 4393.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 0.31,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 0.31,
+        "CAPITAL EXCAVATION COMPANY": 0.4
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 372.1,
+      "engEstUnit": 50.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 20.0,
+        "CAPITAL EXCAVATION COMPANY": 35.0
+      }
+    },
+    {
+      "itemCode": "0275 6001",
+      "description": "CEMENT",
+      "unit": "TON",
+      "quantity": 237.0,
+      "engEstUnit": 240.0,
+      "lowUnit": 265.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 265.0,
+        "CAPITAL EXCAVATION COMPANY": 250.0
+      }
+    },
+    {
+      "itemCode": "0275 6010",
+      "description": "CEMENT TREAT (SUBGRADE) (8\")",
+      "unit": "SY",
+      "quantity": 14781.0,
+      "engEstUnit": 3.75,
+      "lowUnit": 5.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 5.0,
+        "CAPITAL EXCAVATION COMPANY": 6.5
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 418.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 366.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 366.0,
+        "CAPITAL EXCAVATION COMPANY": 360.0
+      }
+    },
+    {
+      "itemCode": "0400 6006",
+      "description": "CUT & RESTORING PAV",
+      "unit": "SY",
+      "quantity": 595.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 68.5,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 68.5,
+        "CAPITAL EXCAVATION COMPANY": 134.0
+      }
+    },
+    {
+      "itemCode": "0402 6001",
+      "description": "TRENCH EXCAVATION PROTECTION",
+      "unit": "LF",
+      "quantity": 92.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 20.0,
+        "CAPITAL EXCAVATION COMPANY": 97.4
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 4242.0,
+      "engEstUnit": 28.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 20.0,
+        "CAPITAL EXCAVATION COMPANY": 26.9
+      }
+    },
+    {
+      "itemCode": "0416 6002",
+      "description": "DRILL SHAFT (24 IN)",
+      "unit": "LF",
+      "quantity": 690.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 225.0,
+        "CAPITAL EXCAVATION COMPANY": 580.0
+      }
+    },
+    {
+      "itemCode": "0422 6007",
+      "description": "REINF CONC SLAB (SLAB BEAM)",
+      "unit": "SF",
+      "quantity": 4658.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 33.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 33.0,
+        "CAPITAL EXCAVATION COMPANY": 23.0
+      }
+    },
+    {
+      "itemCode": "0422 6015",
+      "description": "APPROACH SLAB",
+      "unit": "CY",
+      "quantity": 98.1,
+      "engEstUnit": 500.0,
+      "lowUnit": 925.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 925.0,
+        "CAPITAL EXCAVATION COMPANY": 700.0
+      }
+    },
+    {
+      "itemCode": "0432 6002",
+      "description": "RIPRAP (CONC)(5 IN)",
+      "unit": "CY",
+      "quantity": 129.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 749.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 749.0,
+        "CAPITAL EXCAVATION COMPANY": 600.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 1263.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 245.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 245.0,
+        "CAPITAL EXCAVATION COMPANY": 203.0
+      }
+    },
+    {
+      "itemCode": "0454 6004",
+      "description": "ARMOR JOINT (SEALED)",
+      "unit": "LF",
+      "quantity": 90.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 145.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 145.0,
+        "CAPITAL EXCAVATION COMPANY": 138.0
+      }
+    },
+    {
+      "itemCode": "0466 6144",
+      "description": "WINGWALL (FW - 0) (HW=12 FT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 45000.0,
+      "lowUnit": 70000.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 70000.0,
+        "CAPITAL EXCAVATION COMPANY": 37200.0
+      }
+    },
+    {
+      "itemCode": "0466 6218",
+      "description": "WINGWALL (FW-0) (HW=6 FT) (MOD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 54000.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 54000.0,
+        "CAPITAL EXCAVATION COMPANY": 17900.0
+      }
+    },
+    {
+      "itemCode": "0466 6248",
+      "description": "WINGWALL (FW-0)(HW=5FT)(MOD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 51000.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 51000.0,
+        "CAPITAL EXCAVATION COMPANY": 11900.0
+      }
+    },
+    {
+      "itemCode": "0466 6265",
+      "description": "WINGWALL(FW-S)(HW=5FT)(MOD)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 48000.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 48000.0,
+        "CAPITAL EXCAVATION COMPANY": 10400.0
+      }
+    },
+    {
+      "itemCode": "0466 6266",
+      "description": "WINGWALL(FW-S)(HW=6FT)(MOD)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 55000.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 55000.0,
+        "CAPITAL EXCAVATION COMPANY": 12500.0
+      }
+    },
+    {
+      "itemCode": "0467 6341",
+      "description": "SET (TY II) (15 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 4800.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 4800.0,
+        "CAPITAL EXCAVATION COMPANY": 3660.0
+      }
+    },
+    {
+      "itemCode": "0467 6363",
+      "description": "SET (TY II) (18 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 2100.0,
+      "lowUnit": 3800.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 3800.0,
+        "CAPITAL EXCAVATION COMPANY": 2820.0
+      }
+    },
+    {
+      "itemCode": "0496 6001",
+      "description": "REMOV STR (BOX CULVERT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 14760.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 14760.0,
+        "CAPITAL EXCAVATION COMPANY": 12200.0
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 30000.0,
+      "lowUnit": 14760.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 14760.0,
+        "CAPITAL EXCAVATION COMPANY": 19500.0
+      }
+    },
+    {
+      "itemCode": "0496 6016",
+      "description": "REMOV STR (PIPE)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 375.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 800.0,
+        "CAPITAL EXCAVATION COMPANY": 1760.0
+      }
+    },
+    {
+      "itemCode": "0496 6043",
+      "description": "REMOV STR (SMALL FENCE)",
+      "unit": "LF",
+      "quantity": 234.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 2.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 2.0,
+        "CAPITAL EXCAVATION COMPANY": 27.5
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 525000.0,
+      "lowUnit": 200000.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 200000.0,
+        "CAPITAL EXCAVATION COMPANY": 602000.0
+      }
+    },
+    {
+      "itemCode": "0510 6003",
+      "description": "ONE-WAY TRAF CONT (PORT TRAF SIG)",
+      "unit": "MO",
+      "quantity": 7.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 10000.0,
+        "CAPITAL EXCAVATION COMPANY": 3660.0
+      }
+    },
+    {
+      "itemCode": "0512 6001",
+      "description": "PORT CTB (FUR & INST)(SGL SLOPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 3120.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 28.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 28.0,
+        "CAPITAL EXCAVATION COMPANY": 21.7
+      }
+    },
+    {
+      "itemCode": "0512 6025",
+      "description": "PORT CTB (MOVE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 4170.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 16.0,
+        "CAPITAL EXCAVATION COMPANY": 9.65
+      }
+    },
+    {
+      "itemCode": "0512 6049",
+      "description": "PORT CTB (REMOVE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 3120.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 2.5,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 2.5,
+        "CAPITAL EXCAVATION COMPANY": 21.7
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 104.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 200.0,
+        "CAPITAL EXCAVATION COMPANY": 217.0
+      }
+    },
+    {
+      "itemCode": "0530 6006",
+      "description": "DRIVEWAYS (SURF TREAT)",
+      "unit": "SY",
+      "quantity": 166.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 188.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 188.0,
+        "CAPITAL EXCAVATION COMPANY": 139.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 2154.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.25,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 2.25,
+        "CAPITAL EXCAVATION COMPANY": 2.45
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 19.0,
+      "engEstUnit": 3400.0,
+      "lowUnit": 3005.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 3005.0,
+        "CAPITAL EXCAVATION COMPANY": 3250.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 275.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 275.0,
+        "CAPITAL EXCAVATION COMPANY": 300.0
+      }
+    },
+    {
+      "itemCode": "0545 6003",
+      "description": "CRASH CUSH ATTEN (MOVE & RESET)",
+      "unit": "EA",
+      "quantity": 22.0,
+      "engEstUnit": 1560.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 500.0,
+        "CAPITAL EXCAVATION COMPANY": 540.0
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 830.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 300.0,
+        "CAPITAL EXCAVATION COMPANY": 320.0
+      }
+    },
+    {
+      "itemCode": "0545 6007",
+      "description": "CRASH CUSH ATTEN (INSTL)(L)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 21500.0,
+      "lowUnit": 29000.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 29000.0,
+        "CAPITAL EXCAVATION COMPANY": 6500.0
+      }
+    },
+    {
+      "itemCode": "0545 6019",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 8800.0,
+      "lowUnit": 9300.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 9300.0,
+        "CAPITAL EXCAVATION COMPANY": 13000.0
+      }
+    },
+    {
+      "itemCode": "0552 6001",
+      "description": "WIRE FENCE (TY A)",
+      "unit": "LF",
+      "quantity": 148.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 35.0,
+        "CAPITAL EXCAVATION COMPANY": 86.7
+      }
+    },
+    {
+      "itemCode": "0552 6003",
+      "description": "WIRE FENCE (TY C)",
+      "unit": "LF",
+      "quantity": 234.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 35.0,
+        "CAPITAL EXCAVATION COMPANY": 44.3
+      }
+    },
+    {
+      "itemCode": "0560 6007",
+      "description": "MAILBOX INSTALL-S (WC-POST) TY 3",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 195.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 195.0,
+        "CAPITAL EXCAVATION COMPANY": 224.0
+      }
+    },
+    {
+      "itemCode": "0560 6008",
+      "description": "MAILBOX INSTALL-D (WC-POST) TY 3",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 206.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 206.0,
+        "CAPITAL EXCAVATION COMPANY": 260.0
+      }
+    },
+    {
+      "itemCode": "0644 6060",
+      "description": "IN SM RD SN SUP&AM TYTWT(1)WS(P)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 818.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 818.0,
+        "CAPITAL EXCAVATION COMPANY": 520.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 22.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 16.5,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 16.5,
+        "CAPITAL EXCAVATION COMPANY": 21.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 55.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 21.5,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 21.5,
+        "CAPITAL EXCAVATION COMPANY": 27.65
+      }
+    },
+    {
+      "itemCode": "0662 6063",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 16400.0,
+      "engEstUnit": 0.65,
+      "lowUnit": 0.7,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 0.7,
+        "CAPITAL EXCAVATION COMPANY": 0.7
+      }
+    },
+    {
+      "itemCode": "0662 6075",
+      "description": "WK ZN PAV MRK REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 144.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 5.0,
+        "CAPITAL EXCAVATION COMPANY": 17.2
+      }
+    },
+    {
+      "itemCode": "0662 6095",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 20990.0,
+      "engEstUnit": 0.65,
+      "lowUnit": 0.7,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 0.7,
+        "CAPITAL EXCAVATION COMPANY": 0.7
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 377.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 7.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 7.0,
+        "CAPITAL EXCAVATION COMPANY": 5.35
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 16690.0,
+      "engEstUnit": 0.37,
+      "lowUnit": 0.38,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 0.38,
+        "CAPITAL EXCAVATION COMPANY": 0.6
+      }
+    },
+    {
+      "itemCode": "3076 6001",
+      "description": "D-GR HMA TY-B PG64-22",
+      "unit": "TON",
+      "quantity": 4645.0,
+      "engEstUnit": 107.0,
+      "lowUnit": 102.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 102.0,
+        "CAPITAL EXCAVATION COMPANY": 108.0
+      }
+    },
+    {
+      "itemCode": "3076 6041",
+      "description": "D-GR HMA TY-D SAC-A PG70-22",
+      "unit": "TON",
+      "quantity": 908.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 154.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 154.0,
+        "CAPITAL EXCAVATION COMPANY": 164.0
+      }
+    },
+    {
+      "itemCode": "3076 6066",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 866.0,
+      "engEstUnit": 3.75,
+      "lowUnit": 4.9,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 4.9,
+        "CAPITAL EXCAVATION COMPANY": 5.2
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 8500.0,
+      "lowUnit": 17500.0,
+      "bidders": {
+        "E-Z BEL CONSTRUCTION, LLC": 17500.0,
+        "CAPITAL EXCAVATION COMPANY": 21000.0
+      }
+    }
+  ]
+}

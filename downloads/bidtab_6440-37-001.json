@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "csj": "6440-37-001",
+    "county": "Concho",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644037001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "06/13/23",
+    "engEstTotal": 257856.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CM COMPANY",
+      "totalBidAmount": 233435.52
+    },
+    {
+      "rank": 2,
+      "vendorName": "EGGEMEYER MOWING & CONTRACTING, INC.",
+      "totalBidAmount": 236544.96
+    },
+    {
+      "rank": 3,
+      "vendorName": "USA DT SERVICES, INC.",
+      "totalBidAmount": 250802.88
+    },
+    {
+      "rank": 4,
+      "vendorName": "PREMIER CONTRACTORS LLC",
+      "totalBidAmount": 265440.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 379200.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 7584.0,
+      "engEstUnit": 34.0,
+      "lowUnit": 30.78,
+      "bidders": {
+        "CM COMPANY": 30.78,
+        "EGGEMEYER MOWING & CONTRACTING, INC.": 31.19,
+        "USA DT SERVICES, INC.": 33.07,
+        "PREMIER CONTRACTORS LLC": 35.0,
+        "R&M INCORPORATED": 50.0
+      }
+    }
+  ]
+}

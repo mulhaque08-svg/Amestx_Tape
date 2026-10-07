@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6449-61-001",
+    "county": "Sabine",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644961001",
+    "projectType": "SABINE COUNTY - MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "01/10/24",
+    "engEstTotal": 291523.2,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ACE CONTRACTORS, INC.",
+      "totalBidAmount": 292599.18
+    },
+    {
+      "rank": 2,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 309030.19
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 5027.82,
+      "engEstUnit": 50.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "ACE CONTRACTORS, INC.": 50.0,
+        "P-VILLE, INCORPORATED": 52.49
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "ACE CONTRACTORS, INC.": 0.01,
+        "P-VILLE, INCORPORATED": 52.49
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 2575.48,
+      "engEstUnit": 15.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "ACE CONTRACTORS, INC.": 16.0,
+        "P-VILLE, INCORPORATED": 16.5
+      }
+    }
+  ]
+}

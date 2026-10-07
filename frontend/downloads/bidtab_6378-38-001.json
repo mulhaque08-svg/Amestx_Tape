@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6378-38-001",
+    "county": "Polk",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637838001",
+    "projectType": "HYDRAULIC CEMENT",
+    "letDate": "04/15/21",
+    "engEstTotal": 9500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KLP COMMERCIAL, L.L.C.",
+      "totalBidAmount": 12875.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 14500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8012 6002",
+      "description": "HYDRAULIC CEMENT(TY I)(DEL)(SITE 2)",
+      "unit": "TON",
+      "quantity": 50.0,
+      "engEstUnit": 165.0,
+      "lowUnit": 245.0,
+      "bidders": {
+        "KLP COMMERCIAL, L.L.C.": 245.0,
+        "DIGG COMMERCIAL, LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "8012 6018",
+      "description": "HYDRAULIC CEMENT(TY I)(47LB)",
+      "unit": "BAG",
+      "quantity": 50.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 12.5,
+      "bidders": {
+        "KLP COMMERCIAL, L.L.C.": 12.5,
+        "DIGG COMMERCIAL, LLC": 40.0
+      }
+    }
+  ]
+}

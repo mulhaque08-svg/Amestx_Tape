@@ -1,0 +1,1616 @@
+{
+  "metadata": {
+    "csj": "0912-00-588",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 912-00-588",
+    "projectType": "TRAFFIC SIGNAL IMPROVEMENTS",
+    "letDate": "02/03/22",
+    "engEstTotal": 1217142.97,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "VACA UNDERGROUND UTILITIES INC",
+      "totalBidAmount": 1328813.9
+    },
+    {
+      "rank": 2,
+      "vendorName": "THIRD COAST SERVICES LLC",
+      "totalBidAmount": 1488482.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TRAF-TEX, INC.",
+      "totalBidAmount": 1509020.14
+    },
+    {
+      "rank": 4,
+      "vendorName": "FLORIDA TRAFFIC CONTROL DEVICES, INC.",
+      "totalBidAmount": 1514492.66
+    },
+    {
+      "rank": 5,
+      "vendorName": "STATEWIDE TRAFFIC SIGNAL COMPANY",
+      "totalBidAmount": 1717055.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6001",
+      "description": "REMOVING CONC (PAV)",
+      "unit": "SY",
+      "quantity": 90.0,
+      "engEstUnit": 5.5,
+      "lowUnit": 5.75,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 5.75,
+        "THIRD COAST SERVICES LLC": 31.5,
+        "TRAF-TEX, INC.": 29.7,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 46.39,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 48.0
+      }
+    },
+    {
+      "itemCode": "0104 6011",
+      "description": "REMOVING CONC (MEDIANS)",
+      "unit": "SY",
+      "quantity": 4.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 10.0,
+        "THIRD COAST SERVICES LLC": 31.5,
+        "TRAF-TEX, INC.": 29.7,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 173.94,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 67.0
+      }
+    },
+    {
+      "itemCode": "0104 6017",
+      "description": "REMOVING CONC (DRIVEWAYS)",
+      "unit": "SY",
+      "quantity": 145.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 11.5,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 11.5,
+        "THIRD COAST SERVICES LLC": 31.5,
+        "TRAF-TEX, INC.": 29.07,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 57.98,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 62.0
+      }
+    },
+    {
+      "itemCode": "0104 6021",
+      "description": "REMOVING CONC (CURB)",
+      "unit": "LF",
+      "quantity": 320.0,
+      "engEstUnit": 4.75,
+      "lowUnit": 8.5,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 8.5,
+        "THIRD COAST SERVICES LLC": 21.0,
+        "TRAF-TEX, INC.": 17.44,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 23.19,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 43.0
+      }
+    },
+    {
+      "itemCode": "0104 6029",
+      "description": "REMOVING CONC (CURB OR CURB & GUTTER)",
+      "unit": "LF",
+      "quantity": 90.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 8.5,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 8.5,
+        "THIRD COAST SERVICES LLC": 52.5,
+        "TRAF-TEX, INC.": 29.07,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 23.19,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 80.0
+      }
+    },
+    {
+      "itemCode": "0104 6036",
+      "description": "REMOVING CONC (SIDEWALK OR RAMP)",
+      "unit": "SY",
+      "quantity": 330.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 19.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 19.0,
+        "THIRD COAST SERVICES LLC": 31.5,
+        "TRAF-TEX, INC.": 17.44,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 34.79,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 52.0
+      }
+    },
+    {
+      "itemCode": "0105 6037",
+      "description": "REMOVING STAB BASE AND ASPH PAV(0\"-16\")",
+      "unit": "SY",
+      "quantity": 160.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 7.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 7.0,
+        "THIRD COAST SERVICES LLC": 4.4,
+        "TRAF-TEX, INC.": 11.63,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 46.39,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 56.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 150.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 8.0,
+        "THIRD COAST SERVICES LLC": 9.03,
+        "TRAF-TEX, INC.": 41.86,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 57.98,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 86.0
+      }
+    },
+    {
+      "itemCode": "0112 6001",
+      "description": "SUBGRADE WIDENING (ORD COMP)",
+      "unit": "STA",
+      "quantity": 2.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 3000.0,
+        "THIRD COAST SERVICES LLC": 327.6,
+        "TRAF-TEX, INC.": 1069.64,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 2899.07,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 6400.0
+      }
+    },
+    {
+      "itemCode": "0132 6005",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 95.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 14.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 14.0,
+        "THIRD COAST SERVICES LLC": 66.26,
+        "TRAF-TEX, INC.": 75.57,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 57.98,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 59.0
+      }
+    },
+    {
+      "itemCode": "0292 6002",
+      "description": "ASPHALT STAB BASE (GR 2)(PG 64)",
+      "unit": "TON",
+      "quantity": 0.5,
+      "engEstUnit": 66.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 500.0,
+        "THIRD COAST SERVICES LLC": 66.26,
+        "TRAF-TEX, INC.": 191.84,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1739.44,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 500.0
+      }
+    },
+    {
+      "itemCode": "0360 6044",
+      "description": "CONC PVMT (CONT REINF)(FAST TRK)(12\")",
+      "unit": "SY",
+      "quantity": 200.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 110.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 110.0,
+        "THIRD COAST SERVICES LLC": 210.0,
+        "TRAF-TEX, INC.": 232.53,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 231.93,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 230.0
+      }
+    },
+    {
+      "itemCode": "0360 6057",
+      "description": "CONC PVMT (CONT REINF)(FAST TRK)(14\")",
+      "unit": "SY",
+      "quantity": 500.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 110.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 110.0,
+        "THIRD COAST SERVICES LLC": 210.0,
+        "TRAF-TEX, INC.": 290.66,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 231.93,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 280.0
+      }
+    },
+    {
+      "itemCode": "0416 6032",
+      "description": "DRILL SHAFT (TRF SIG POLE) (36 IN)",
+      "unit": "LF",
+      "quantity": 174.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 275.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 275.0,
+        "THIRD COAST SERVICES LLC": 425.0,
+        "TRAF-TEX, INC.": 172.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 237.82,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 320.0
+      }
+    },
+    {
+      "itemCode": "0416 6034",
+      "description": "DRILL SHAFT (TRF SIG POLE) (48 IN)",
+      "unit": "LF",
+      "quantity": 110.0,
+      "engEstUnit": 346.88,
+      "lowUnit": 350.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 350.0,
+        "THIRD COAST SERVICES LLC": 495.0,
+        "TRAF-TEX, INC.": 452.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 338.26,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 420.0
+      }
+    },
+    {
+      "itemCode": "0432 6003",
+      "description": "RIPRAP (CONC)(6 IN)",
+      "unit": "CY",
+      "quantity": 5.0,
+      "engEstUnit": 460.0,
+      "lowUnit": 450.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 450.0,
+        "THIRD COAST SERVICES LLC": 682.5,
+        "TRAF-TEX, INC.": 290.66,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 2899.07,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 670.0
+      }
+    },
+    {
+      "itemCode": "0496 6002",
+      "description": "REMOV STR (INLET)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 600.0,
+        "THIRD COAST SERVICES LLC": 1575.0,
+        "TRAF-TEX, INC.": 639.46,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1159.63,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1800.0
+      }
+    },
+    {
+      "itemCode": "0496 6003",
+      "description": "REMOV STR (MANHOLE)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 825.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 825.0,
+        "THIRD COAST SERVICES LLC": 1575.0,
+        "TRAF-TEX, INC.": 697.59,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1159.63,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 2550.0
+      }
+    },
+    {
+      "itemCode": "0496 6004",
+      "description": "REMOV STR (SET)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 350.0,
+        "THIRD COAST SERVICES LLC": 1575.0,
+        "TRAF-TEX, INC.": 191.84,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1159.63,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1800.0
+      }
+    },
+    {
+      "itemCode": "0496 6007",
+      "description": "REMOV STR (PIPE)",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 20.0,
+        "THIRD COAST SERVICES LLC": 15.75,
+        "TRAF-TEX, INC.": 104.64,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 28.99,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 44.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 100000.0,
+      "lowUnit": 125000.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 125000.0,
+        "THIRD COAST SERVICES LLC": 145000.0,
+        "TRAF-TEX, INC.": 31938.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 104025.42,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 24000.0
+      }
+    },
+    {
+      "itemCode": "0529 6002",
+      "description": "CONC CURB (TY II)",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 56.84,
+      "lowUnit": 19.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 19.0,
+        "THIRD COAST SERVICES LLC": 26.25,
+        "TRAF-TEX, INC.": 23.25,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 20.87,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 40.0
+      }
+    },
+    {
+      "itemCode": "0529 6005",
+      "description": "CONC CURB (MONO) (TY II)",
+      "unit": "LF",
+      "quantity": 350.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 4.2,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 4.2,
+        "THIRD COAST SERVICES LLC": 52.5,
+        "TRAF-TEX, INC.": 23.25,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 20.87,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 44.0
+      }
+    },
+    {
+      "itemCode": "0529 6011",
+      "description": "CONC CURB (DOWEL)",
+      "unit": "LF",
+      "quantity": 120.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 9.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 9.0,
+        "THIRD COAST SERVICES LLC": 26.25,
+        "TRAF-TEX, INC.": 11.63,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 20.87,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 49.0
+      }
+    },
+    {
+      "itemCode": "0531 6001",
+      "description": "CONC SIDEWALKS (4\")",
+      "unit": "SY",
+      "quantity": 235.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 45.0,
+        "THIRD COAST SERVICES LLC": 115.5,
+        "TRAF-TEX, INC.": 63.95,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 127.56,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 142.0
+      }
+    },
+    {
+      "itemCode": "0531 6004",
+      "description": "CURB RAMPS (TY 1)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 1900.0,
+      "lowUnit": 1600.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 1600.0,
+        "THIRD COAST SERVICES LLC": 5250.0,
+        "TRAF-TEX, INC.": 2843.49,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 6030.06,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 6400.0
+      }
+    },
+    {
+      "itemCode": "0531 6008",
+      "description": "CURB RAMPS (TY 5)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2200.0,
+      "lowUnit": 2800.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 2800.0,
+        "THIRD COAST SERVICES LLC": 5250.0,
+        "TRAF-TEX, INC.": 2903.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 6030.06,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 6400.0
+      }
+    },
+    {
+      "itemCode": "0531 6010",
+      "description": "CURB RAMPS (TY 7)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1600.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 1600.0,
+        "THIRD COAST SERVICES LLC": 5250.0,
+        "TRAF-TEX, INC.": 2093.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 6030.06,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 6400.0
+      }
+    },
+    {
+      "itemCode": "0531 6016",
+      "description": "CURB RAMPS (TY 21)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2200.0,
+      "lowUnit": 2800.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 2800.0,
+        "THIRD COAST SERVICES LLC": 5250.0,
+        "TRAF-TEX, INC.": 2096.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 6030.06,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 6400.0
+      }
+    },
+    {
+      "itemCode": "0531 6017",
+      "description": "CURB RAMPS (TY 22)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2100.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 3000.0,
+        "THIRD COAST SERVICES LLC": 5250.0,
+        "TRAF-TEX, INC.": 3488.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 6030.06,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 6400.0
+      }
+    },
+    {
+      "itemCode": "0618 6042",
+      "description": "CONDT (PVC) (SCH 80) (1 1/4\")",
+      "unit": "LF",
+      "quantity": 120.0,
+      "engEstUnit": 5.85,
+      "lowUnit": 12.25,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 12.25,
+        "THIRD COAST SERVICES LLC": 7.37,
+        "TRAF-TEX, INC.": 12.21,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 15.11,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 20.0
+      }
+    },
+    {
+      "itemCode": "0618 6046",
+      "description": "CONDT (PVC) (SCH 80) (2\")",
+      "unit": "LF",
+      "quantity": 1240.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 15.0,
+        "THIRD COAST SERVICES LLC": 9.35,
+        "TRAF-TEX, INC.": 15.25,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 16.34,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 17.0
+      }
+    },
+    {
+      "itemCode": "0618 6047",
+      "description": "CONDT (PVC) (SCH 80) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 737.0,
+      "engEstUnit": 15.5,
+      "lowUnit": 20.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 20.0,
+        "THIRD COAST SERVICES LLC": 17.8,
+        "TRAF-TEX, INC.": 19.56,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 23.62,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 17.0
+      }
+    },
+    {
+      "itemCode": "0618 6053",
+      "description": "CONDT (PVC) (SCH 80) (3\")",
+      "unit": "LF",
+      "quantity": 450.0,
+      "engEstUnit": 16.5,
+      "lowUnit": 22.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 22.0,
+        "THIRD COAST SERVICES LLC": 13.8,
+        "TRAF-TEX, INC.": 21.74,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 21.53,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 25.0
+      }
+    },
+    {
+      "itemCode": "0618 6054",
+      "description": "CONDT (PVC) (SCH 80) (3\") (BORE)",
+      "unit": "LF",
+      "quantity": 645.0,
+      "engEstUnit": 19.0,
+      "lowUnit": 24.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 24.0,
+        "THIRD COAST SERVICES LLC": 22.24,
+        "TRAF-TEX, INC.": 25.41,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 28.88,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 25.0
+      }
+    },
+    {
+      "itemCode": "0618 6058",
+      "description": "CONDT (PVC) (SCH 80) (4\")",
+      "unit": "LF",
+      "quantity": 195.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 30.0,
+        "THIRD COAST SERVICES LLC": 21.43,
+        "TRAF-TEX, INC.": 27.51,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 28.22,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 30.0
+      }
+    },
+    {
+      "itemCode": "0618 6059",
+      "description": "CONDT (PVC) (SCH 80) (4\") (BORE)",
+      "unit": "LF",
+      "quantity": 180.0,
+      "engEstUnit": 26.5,
+      "lowUnit": 33.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 33.0,
+        "THIRD COAST SERVICES LLC": 27.47,
+        "TRAF-TEX, INC.": 38.55,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 35.32,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 30.0
+      }
+    },
+    {
+      "itemCode": "0620 6009",
+      "description": "ELEC CONDR (NO.6) BARE",
+      "unit": "LF",
+      "quantity": 2670.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 2.1,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 2.1,
+        "THIRD COAST SERVICES LLC": 1.42,
+        "TRAF-TEX, INC.": 1.79,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1.38,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1.55
+      }
+    },
+    {
+      "itemCode": "0620 6011",
+      "description": "ELEC CONDR (NO.4) BARE",
+      "unit": "LF",
+      "quantity": 155.0,
+      "engEstUnit": 1.8,
+      "lowUnit": 2.75,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 2.75,
+        "THIRD COAST SERVICES LLC": 2.15,
+        "TRAF-TEX, INC.": 2.61,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 2.24,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 4.0
+      }
+    },
+    {
+      "itemCode": "0620 6012",
+      "description": "ELEC CONDR (NO.4) INSULATED",
+      "unit": "LF",
+      "quantity": 310.0,
+      "engEstUnit": 2.15,
+      "lowUnit": 3.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 3.0,
+        "THIRD COAST SERVICES LLC": 2.42,
+        "TRAF-TEX, INC.": 2.81,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 2.36,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 6.0
+      }
+    },
+    {
+      "itemCode": "0621 6005",
+      "description": "TRAY CABLE (4 CONDR) (12 AWG)",
+      "unit": "LF",
+      "quantity": 1685.0,
+      "engEstUnit": 2.2,
+      "lowUnit": 1.9,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 1.9,
+        "THIRD COAST SERVICES LLC": 2.05,
+        "TRAF-TEX, INC.": 2.73,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 2.24,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 2.0
+      }
+    },
+    {
+      "itemCode": "0624 6009",
+      "description": "GROUND BOX TY D (162922)",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 698.5,
+      "lowUnit": 750.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 750.0,
+        "THIRD COAST SERVICES LLC": 737.0,
+        "TRAF-TEX, INC.": 723.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 631.87,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1600.0
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 910.0,
+      "lowUnit": 1050.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 1050.0,
+        "THIRD COAST SERVICES LLC": 1146.0,
+        "TRAF-TEX, INC.": 809.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 946.81,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 2000.0
+      }
+    },
+    {
+      "itemCode": "0624 6028",
+      "description": "REMOVE GROUND BOX",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 155.0,
+      "lowUnit": 5500.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 5500.0,
+        "THIRD COAST SERVICES LLC": 161.0,
+        "TRAF-TEX, INC.": 238.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 126.62,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 200.0
+      }
+    },
+    {
+      "itemCode": "0628 6002",
+      "description": "REMOVE ELECTRICAL SERVICES",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 590.0,
+      "lowUnit": 136.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 136.0,
+        "THIRD COAST SERVICES LLC": 322.0,
+        "TRAF-TEX, INC.": 953.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 163.94,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 500.0
+      }
+    },
+    {
+      "itemCode": "0628 6145",
+      "description": "ELC SRV TY D 120/240 060(NS)SS(E)SP(O)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 4415.0,
+      "lowUnit": 5500.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 5500.0,
+        "THIRD COAST SERVICES LLC": 4847.0,
+        "TRAF-TEX, INC.": 5309.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 5279.68,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 5700.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 436.55,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 1000.0,
+        "THIRD COAST SERVICES LLC": 1147.0,
+        "TRAF-TEX, INC.": 978.17,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1215.85,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1400.0
+      }
+    },
+    {
+      "itemCode": "0644 6027",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 514.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 1000.0,
+        "THIRD COAST SERVICES LLC": 1623.0,
+        "TRAF-TEX, INC.": 1509.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1242.79,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1800.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 50.0,
+        "THIRD COAST SERVICES LLC": 241.0,
+        "TRAF-TEX, INC.": 118.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 196.06,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 575.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 6.0,
+        "THIRD COAST SERVICES LLC": 4.2,
+        "TRAF-TEX, INC.": 4.4,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 4.64,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 5.25
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 6.0,
+        "THIRD COAST SERVICES LLC": 4.73,
+        "TRAF-TEX, INC.": 4.4,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 5.22,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 5.25
+      }
+    },
+    {
+      "itemCode": "0677 6002",
+      "description": "ELIM EXT PAV MRK & MRKS (6\")",
+      "unit": "LF",
+      "quantity": 240.0,
+      "engEstUnit": 0.34,
+      "lowUnit": 0.6,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 0.6,
+        "THIRD COAST SERVICES LLC": 0.42,
+        "TRAF-TEX, INC.": 0.44,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 0.46,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1.5
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 300.0,
+      "engEstUnit": 0.55,
+      "lowUnit": 0.85,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 0.85,
+        "THIRD COAST SERVICES LLC": 0.63,
+        "TRAF-TEX, INC.": 0.72,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 0.7,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1.55
+      }
+    },
+    {
+      "itemCode": "0677 6005",
+      "description": "ELIM EXT PAV MRK & MRKS (12\")",
+      "unit": "LF",
+      "quantity": 1950.0,
+      "engEstUnit": 0.4,
+      "lowUnit": 1.7,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 1.7,
+        "THIRD COAST SERVICES LLC": 0.84,
+        "TRAF-TEX, INC.": 1.21,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 0.93,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 2.05
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 700.0,
+      "engEstUnit": 1.59,
+      "lowUnit": 3.4,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 3.4,
+        "THIRD COAST SERVICES LLC": 1.37,
+        "TRAF-TEX, INC.": 2.2,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1.51,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 3.1
+      }
+    },
+    {
+      "itemCode": "0677 6008",
+      "description": "ELIM EXT PAV MRK & MRKS (ARROW)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 57.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 57.0,
+        "THIRD COAST SERVICES LLC": 47.25,
+        "TRAF-TEX, INC.": 19.8,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 52.18,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 70.0
+      }
+    },
+    {
+      "itemCode": "0677 6012",
+      "description": "ELIM EXT PAV MRK & MRKS (WORD)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 42.84,
+      "lowUnit": 57.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 57.0,
+        "THIRD COAST SERVICES LLC": 47.25,
+        "TRAF-TEX, INC.": 22.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 52.18,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 70.0
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 240.0,
+      "engEstUnit": 0.04,
+      "lowUnit": 0.01,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 0.01,
+        "THIRD COAST SERVICES LLC": 0.06,
+        "TRAF-TEX, INC.": 0.02,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 0.06,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1.0
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 300.0,
+      "engEstUnit": 0.04,
+      "lowUnit": 0.06,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 0.06,
+        "THIRD COAST SERVICES LLC": 0.11,
+        "TRAF-TEX, INC.": 0.03,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 0.12,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1.0
+      }
+    },
+    {
+      "itemCode": "0678 6006",
+      "description": "PAV SURF PREP FOR MRK (12\")",
+      "unit": "LF",
+      "quantity": 1950.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.05,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 0.05,
+        "THIRD COAST SERVICES LLC": 0.16,
+        "TRAF-TEX, INC.": 0.07,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 0.17,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1.0
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 700.0,
+      "engEstUnit": 0.28,
+      "lowUnit": 0.08,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 0.08,
+        "THIRD COAST SERVICES LLC": 0.26,
+        "TRAF-TEX, INC.": 0.11,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 0.29,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1.5
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 12.0,
+        "THIRD COAST SERVICES LLC": 21.0,
+        "TRAF-TEX, INC.": 5.5,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 23.19,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 25.0
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 12.0,
+        "THIRD COAST SERVICES LLC": 21.0,
+        "TRAF-TEX, INC.": 6.6,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 23.19,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 25.0
+      }
+    },
+    {
+      "itemCode": "0682 6001",
+      "description": "VEH SIG SEC (12\")LED(GRN)",
+      "unit": "EA",
+      "quantity": 40.0,
+      "engEstUnit": 165.0,
+      "lowUnit": 220.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 220.0,
+        "THIRD COAST SERVICES LLC": 210.0,
+        "TRAF-TEX, INC.": 185.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 208.9,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 234.0
+      }
+    },
+    {
+      "itemCode": "0682 6002",
+      "description": "VEH SIG SEC (12\")LED(GRN ARW)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 172.8,
+      "lowUnit": 220.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 220.0,
+        "THIRD COAST SERVICES LLC": 210.0,
+        "TRAF-TEX, INC.": 185.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 208.9,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 234.0
+      }
+    },
+    {
+      "itemCode": "0682 6003",
+      "description": "VEH SIG SEC (12\")LED(YEL)",
+      "unit": "EA",
+      "quantity": 52.0,
+      "engEstUnit": 174.35,
+      "lowUnit": 220.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 220.0,
+        "THIRD COAST SERVICES LLC": 210.0,
+        "TRAF-TEX, INC.": 185.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 208.9,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 234.0
+      }
+    },
+    {
+      "itemCode": "0682 6004",
+      "description": "VEH SIG SEC (12\")LED(YEL ARW)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 174.36,
+      "lowUnit": 220.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 220.0,
+        "THIRD COAST SERVICES LLC": 210.0,
+        "TRAF-TEX, INC.": 185.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 208.9,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 234.0
+      }
+    },
+    {
+      "itemCode": "0682 6005",
+      "description": "VEH SIG SEC (12\")LED(RED)",
+      "unit": "EA",
+      "quantity": 44.0,
+      "engEstUnit": 173.72,
+      "lowUnit": 220.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 220.0,
+        "THIRD COAST SERVICES LLC": 210.0,
+        "TRAF-TEX, INC.": 185.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 208.9,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 234.0
+      }
+    },
+    {
+      "itemCode": "0682 6006",
+      "description": "VEH SIG SEC (12\")LED(RED ARW)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 172.72,
+      "lowUnit": 220.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 220.0,
+        "THIRD COAST SERVICES LLC": 210.0,
+        "TRAF-TEX, INC.": 185.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 208.9,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 234.0
+      }
+    },
+    {
+      "itemCode": "0682 6018",
+      "description": "PED SIG SEC (LED)(COUNTDOWN)",
+      "unit": "EA",
+      "quantity": 32.0,
+      "engEstUnit": 355.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 500.0,
+        "THIRD COAST SERVICES LLC": 508.46,
+        "TRAF-TEX, INC.": 425.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 458.48,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 647.0
+      }
+    },
+    {
+      "itemCode": "0682 6021",
+      "description": "BACK PLATE (12\")(1 SEC)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 42.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 75.0,
+        "THIRD COAST SERVICES LLC": 110.0,
+        "TRAF-TEX, INC.": 98.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 105.34,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 50.0
+      }
+    },
+    {
+      "itemCode": "0682 6054",
+      "description": "BACKPLATE W/REF BRDR(3 SEC)(VENT)ALUM",
+      "unit": "EA",
+      "quantity": 71.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 75.0,
+        "THIRD COAST SERVICES LLC": 105.0,
+        "TRAF-TEX, INC.": 124.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 124.11,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 111.0
+      }
+    },
+    {
+      "itemCode": "0682 6055",
+      "description": "BACKPLATE W/REF BRDR(4 SEC)(VENT)ALUM",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 100.0,
+        "THIRD COAST SERVICES LLC": 115.0,
+        "TRAF-TEX, INC.": 135.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 134.55,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 133.0
+      }
+    },
+    {
+      "itemCode": "0682 6056",
+      "description": "BACKPLATE W/REF BRDR(5 SEC)(VENT)ALUM",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 165.0,
+      "lowUnit": 115.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 115.0,
+        "THIRD COAST SERVICES LLC": 130.0,
+        "TRAF-TEX, INC.": 144.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 143.83,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 149.0
+      }
+    },
+    {
+      "itemCode": "0684 6007",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(2 CONDR)",
+      "unit": "LF",
+      "quantity": 4120.0,
+      "engEstUnit": 1.8,
+      "lowUnit": 1.75,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 1.75,
+        "THIRD COAST SERVICES LLC": 1.36,
+        "TRAF-TEX, INC.": 1.41,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1.16,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1.55
+      }
+    },
+    {
+      "itemCode": "0684 6009",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(4 CONDR)",
+      "unit": "LF",
+      "quantity": 4145.0,
+      "engEstUnit": 2.25,
+      "lowUnit": 2.25,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 2.25,
+        "THIRD COAST SERVICES LLC": 1.76,
+        "TRAF-TEX, INC.": 1.9,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1.61,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1.75
+      }
+    },
+    {
+      "itemCode": "0684 6012",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(7 CONDR)",
+      "unit": "LF",
+      "quantity": 5920.0,
+      "engEstUnit": 2.75,
+      "lowUnit": 3.35,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 3.35,
+        "THIRD COAST SERVICES LLC": 2.42,
+        "TRAF-TEX, INC.": 2.72,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 2.47,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 2.3
+      }
+    },
+    {
+      "itemCode": "0684 6080",
+      "description": "TRF SIG CBL (TY C)(14 AWG)(2 CONDR)",
+      "unit": "LF",
+      "quantity": 800.0,
+      "engEstUnit": 1.23,
+      "lowUnit": 1.9,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 1.9,
+        "THIRD COAST SERVICES LLC": 1.31,
+        "TRAF-TEX, INC.": 1.26,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1.11,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 2.1
+      }
+    },
+    {
+      "itemCode": "0685 6003",
+      "description": "REMOVE RDSD FLASH BEACON ASSEMBLY",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1159.9,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 1100.0,
+        "THIRD COAST SERVICES LLC": 241.0,
+        "TRAF-TEX, INC.": 2300.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 329.98,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 500.0
+      }
+    },
+    {
+      "itemCode": "0685 6004",
+      "description": "INSTL RDSD FLSH BCN ASSM (SOLAR PWRD)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 4868.83,
+      "lowUnit": 7500.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 7500.0,
+        "THIRD COAST SERVICES LLC": 5054.0,
+        "TRAF-TEX, INC.": 4414.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 4546.08,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 7300.0
+      }
+    },
+    {
+      "itemCode": "0686 6033",
+      "description": "INS TRF SIG PL AM(S)1 ARM(32')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 8300.0,
+      "lowUnit": 8400.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 8400.0,
+        "THIRD COAST SERVICES LLC": 6873.0,
+        "TRAF-TEX, INC.": 8556.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 10469.88,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 9800.0
+      }
+    },
+    {
+      "itemCode": "0686 6035",
+      "description": "INS TRF SIG PL AM(S)1 ARM(32')LUM",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 9100.0,
+      "lowUnit": 10250.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 10250.0,
+        "THIRD COAST SERVICES LLC": 8300.0,
+        "TRAF-TEX, INC.": 9975.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 11086.74,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 11600.0
+      }
+    },
+    {
+      "itemCode": "0686 6037",
+      "description": "INS TRF SIG PL AM(S)1 ARM(36')",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 9600.0,
+      "lowUnit": 8800.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 8800.0,
+        "THIRD COAST SERVICES LLC": 7295.0,
+        "TRAF-TEX, INC.": 8894.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 10781.54,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 10300.0
+      }
+    },
+    {
+      "itemCode": "0686 6039",
+      "description": "INS TRF SIG PL AM(S)1 ARM(36')LUM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 10500.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 10500.0,
+        "THIRD COAST SERVICES LLC": 8622.0,
+        "TRAF-TEX, INC.": 10321.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 11603.99,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 12500.0
+      }
+    },
+    {
+      "itemCode": "0686 6043",
+      "description": "INS TRF SIG PL AM(S)1 ARM(40')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 11000.0,
+      "lowUnit": 11500.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 11500.0,
+        "THIRD COAST SERVICES LLC": 9645.0,
+        "TRAF-TEX, INC.": 11421.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 12590.97,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 14000.0
+      }
+    },
+    {
+      "itemCode": "0686 6047",
+      "description": "INS TRF SIG PL AM(S)1 ARM(44')LUM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 9500.0,
+      "lowUnit": 12250.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 12250.0,
+        "THIRD COAST SERVICES LLC": 9744.0,
+        "TRAF-TEX, INC.": 11792.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 13232.37,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 14500.0
+      }
+    },
+    {
+      "itemCode": "0686 6055",
+      "description": "INS TRF SIG PL AM(S)1 ARM(50')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 16000.0,
+      "lowUnit": 28000.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 28000.0,
+        "THIRD COAST SERVICES LLC": 24542.0,
+        "TRAF-TEX, INC.": 27524.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 28802.91,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 24500.0
+      }
+    },
+    {
+      "itemCode": "0686 6059",
+      "description": "INS TRF SIG PL AM(S)1 ARM(55')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 16391.0,
+      "lowUnit": 28750.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 28750.0,
+        "THIRD COAST SERVICES LLC": 25290.0,
+        "TRAF-TEX, INC.": 28556.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 29787.43,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 26500.0
+      }
+    },
+    {
+      "itemCode": "0686 6063",
+      "description": "INS TRF SIG PL AM(S)1 ARM(60')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 16765.13,
+      "lowUnit": 29000.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 29000.0,
+        "THIRD COAST SERVICES LLC": 25762.0,
+        "TRAF-TEX, INC.": 28948.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 30604.32,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 27000.0
+      }
+    },
+    {
+      "itemCode": "0686 6067",
+      "description": "INS TRF SIG PL AM(S)1 ARM(65')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 16748.57,
+      "lowUnit": 29250.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 29250.0,
+        "THIRD COAST SERVICES LLC": 26108.0,
+        "TRAF-TEX, INC.": 29316.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 31260.16,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 28000.0
+      }
+    },
+    {
+      "itemCode": "0687 6001",
+      "description": "PED POLE ASSEMBLY",
+      "unit": "EA",
+      "quantity": 40.0,
+      "engEstUnit": 1450.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 1500.0,
+        "THIRD COAST SERVICES LLC": 1735.0,
+        "TRAF-TEX, INC.": 1730.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 2834.37,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1920.0
+      }
+    },
+    {
+      "itemCode": "0688 6001",
+      "description": "PED DETECT PUSH BUTTON (APS)",
+      "unit": "EA",
+      "quantity": 32.0,
+      "engEstUnit": 620.0,
+      "lowUnit": 775.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 775.0,
+        "THIRD COAST SERVICES LLC": 1349.0,
+        "TRAF-TEX, INC.": 648.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 768.95,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 665.0
+      }
+    },
+    {
+      "itemCode": "0688 6003",
+      "description": "PED DETECTOR CONTROLLER UNIT",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3600.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 2500.0,
+        "THIRD COAST SERVICES LLC": 806.0,
+        "TRAF-TEX, INC.": 3477.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1362.6,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 3400.0
+      }
+    },
+    {
+      "itemCode": "0688 6004",
+      "description": "VEH LP DETECT (SAWCUT)",
+      "unit": "LF",
+      "quantity": 2050.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 10.0,
+        "THIRD COAST SERVICES LLC": 7.63,
+        "TRAF-TEX, INC.": 12.75,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 16.81,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 11.2
+      }
+    },
+    {
+      "itemCode": "3076 6072",
+      "description": "D-GR HMA TY-D PG 76-22 (EXEMPT)",
+      "unit": "TON",
+      "quantity": 5.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 300.0,
+        "THIRD COAST SERVICES LLC": 214.0,
+        "TRAF-TEX, INC.": 233.54,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 173.94,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 640.0
+      }
+    },
+    {
+      "itemCode": "3076 6079",
+      "description": "D-GR HMA TY-C PG70-22 (EXEMPT)",
+      "unit": "TON",
+      "quantity": 5.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 300.0,
+        "THIRD COAST SERVICES LLC": 267.5,
+        "TRAF-TEX, INC.": 233.54,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 231.93,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 640.0
+      }
+    },
+    {
+      "itemCode": "6058 6001",
+      "description": "BBU SYSTEM (EXTERNAL BATT CABINET)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 6440.0,
+      "lowUnit": 6500.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 6500.0,
+        "THIRD COAST SERVICES LLC": 5832.0,
+        "TRAF-TEX, INC.": 9531.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 6307.22,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 5800.0
+      }
+    },
+    {
+      "itemCode": "6061 6001",
+      "description": "GPS COMMUNICATIONS UNIT",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 567.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 567.0,
+        "THIRD COAST SERVICES LLC": 616.0,
+        "TRAF-TEX, INC.": 269.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 513.88,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1000.0
+      }
+    },
+    {
+      "itemCode": "6186 6002",
+      "description": "ITS GND BOX(PCAST) TY 1 (243636)W/APRN",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2600.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 2500.0,
+        "THIRD COAST SERVICES LLC": 3848.0,
+        "TRAF-TEX, INC.": 4100.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 3095.03,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 5800.0
+      }
+    },
+    {
+      "itemCode": "6292 6004",
+      "description": "RVDS(PRESENCE DET ONLY)(INSTALL ONLY)",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 850.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 300.0,
+        "THIRD COAST SERVICES LLC": 482.0,
+        "TRAF-TEX, INC.": 1149.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 376.34,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 900.0
+      }
+    },
+    {
+      "itemCode": "6292 6005",
+      "description": "RVDS(ADVANCE DET ONLY)(INSTALL ONLY)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 300.0,
+        "THIRD COAST SERVICES LLC": 482.0,
+        "TRAF-TEX, INC.": 1149.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 566.55,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 900.0
+      }
+    },
+    {
+      "itemCode": "6306 6009",
+      "description": "VIVDS PROSR SYS (INSTALL ONLY)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 750.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 750.0,
+        "THIRD COAST SERVICES LLC": 375.0,
+        "TRAF-TEX, INC.": 1926.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 236.48,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 900.0
+      }
+    },
+    {
+      "itemCode": "6306 6010",
+      "description": "VIVDS CAM ASSY (INSTALL ONLY)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 250.0,
+        "THIRD COAST SERVICES LLC": 536.0,
+        "TRAF-TEX, INC.": 622.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 176.86,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 1400.0
+      }
+    },
+    {
+      "itemCode": "6350 6001",
+      "description": "LEAD LED CHEVRON",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3754.0,
+      "lowUnit": 6000.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 6000.0,
+        "THIRD COAST SERVICES LLC": 6068.0,
+        "TRAF-TEX, INC.": 8874.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 4309.72,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 6000.0
+      }
+    },
+    {
+      "itemCode": "6350 6002",
+      "description": "LED CHEVRON",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 1873.55,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "VACA UNDERGROUND UTILITIES INC": 2000.0,
+        "THIRD COAST SERVICES LLC": 1814.0,
+        "TRAF-TEX, INC.": 6574.0,
+        "FLORIDA TRAFFIC CONTROL DEVICES, INC.": 1983.15,
+        "STATEWIDE TRAFFIC SIGNAL COMPANY": 2400.0
+      }
+    }
+  ]
+}

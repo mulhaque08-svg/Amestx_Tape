@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "csj": "6469-25-001",
+    "county": "Mcculloch",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646925001",
+    "projectType": "TREE TRIMMING AND BRUSH REMOVAL",
+    "letDate": "07/09/24",
+    "engEstTotal": 727694.55,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AUSTIN BARRICADE COMPANY, L.L.C.",
+      "totalBidAmount": 593412.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ALLIES LAND CLEARING",
+      "totalBidAmount": 609000.32
+    },
+    {
+      "rank": 3,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 639620.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "ROAD SOLUTIONS L.L.C.",
+      "totalBidAmount": 645393.5
+    },
+    {
+      "rank": 5,
+      "vendorName": "PATHFIELD INVESTMENTS LLC",
+      "totalBidAmount": 694000.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "EASTGATE SERVICES",
+      "totalBidAmount": 866888.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 66154.05,
+      "lowUnit": 45000.0,
+      "bidders": {
+        "AUSTIN BARRICADE COMPANY, L.L.C.": 45000.0,
+        "ALLIES LAND CLEARING": 0.01,
+        "CROSS PLUS CONSTRUCTION, LLC": 20000.0,
+        "ROAD SOLUTIONS L.L.C.": 95000.0,
+        "PATHFIELD INVESTMENTS LLC": 50000.0,
+        "EASTGATE SERVICES": 10000.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 239.6,
+      "engEstUnit": 2295.0,
+      "lowUnit": 1720.0,
+      "bidders": {
+        "AUSTIN BARRICADE COMPANY, L.L.C.": 1720.0,
+        "ALLIES LAND CLEARING": 2500.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 2200.0,
+        "ROAD SOLUTIONS L.L.C.": 2195.0,
+        "PATHFIELD INVESTMENTS LLC": 2500.0,
+        "EASTGATE SERVICES": 3545.0
+      }
+    },
+    {
+      "itemCode": "0752 6005",
+      "description": "TREE REMOVAL (4\" - 12\" DIA)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 604.8,
+      "lowUnit": 489.0,
+      "bidders": {
+        "AUSTIN BARRICADE COMPANY, L.L.C.": 489.0,
+        "ALLIES LAND CLEARING": 200.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 500.0,
+        "ROAD SOLUTIONS L.L.C.": 95.0,
+        "PATHFIELD INVESTMENTS LLC": 100.0,
+        "EASTGATE SERVICES": 100.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "csj": "6388-52-001",
+    "county": "Tarrant",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638852001",
+    "projectType": "FLEXIBLE PAVEMENT STRUCTURE REPAIR",
+    "letDate": "01/06/22",
+    "engEstTotal": 6484837.8,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FOUTSCO PAVING COMPANY, LLC",
+      "totalBidAmount": 5107233.8
+    },
+    {
+      "rank": 2,
+      "vendorName": "PEACHTREE CONSTRUCTION, LTD.",
+      "totalBidAmount": 5205831.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "NORTHEASTERN PAVERS, LLC",
+      "totalBidAmount": 5649147.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "AUSTIN BRIDGE & ROAD SERVICES, LP",
+      "totalBidAmount": 5923848.97
+    },
+    {
+      "rank": 5,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 6131653.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0351 6002",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(6\")",
+      "unit": "SY",
+      "quantity": 29620.0,
+      "engEstUnit": 35.54,
+      "lowUnit": 50.0,
+      "bidders": {
+        "FOUTSCO PAVING COMPANY, LLC": 50.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 46.5,
+        "NORTHEASTERN PAVERS, LLC": 45.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 48.3,
+        "TEXAS MATERIALS GROUP, INC.": 49.0
+      }
+    },
+    {
+      "itemCode": "0351 6012",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(2\")",
+      "unit": "SY",
+      "quantity": 192526.0,
+      "engEstUnit": 28.0,
+      "lowUnit": 18.8,
+      "bidders": {
+        "FOUTSCO PAVING COMPANY, LLC": 18.8,
+        "PEACHTREE CONSTRUCTION, LTD.": 18.5,
+        "NORTHEASTERN PAVERS, LLC": 22.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 20.0,
+        "TEXAS MATERIALS GROUP, INC.": 23.75
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 18130.0,
+      "lowUnit": 6500.0,
+      "bidders": {
+        "FOUTSCO PAVING COMPANY, LLC": 6500.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 250000.0,
+        "NORTHEASTERN PAVERS, LLC": 50000.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 590000.0,
+        "TEXAS MATERIALS GROUP, INC.": 75846.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 163.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FOUTSCO PAVING COMPANY, LLC": 1.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 40.0,
+        "NORTHEASTERN PAVERS, LLC": 75.0,
+        "AUSTIN BRIDGE & ROAD SERVICES, LP": 176.69,
+        "TEXAS MATERIALS GROUP, INC.": 45.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6384-89-001",
+    "county": "Kaufman",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638489001",
+    "projectType": "SWEEPING AND DEBRIS REMOVAL",
+    "letDate": "09/01/21",
+    "engEstTotal": 1204026.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.",
+      "totalBidAmount": 1275753.4
+    },
+    {
+      "rank": 2,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 2003354.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 24000.0,
+      "bidders": {
+        "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.": 24000.0,
+        "FNH CONSTRUCTION, LLC": 200000.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6413-49-001",
+    "county": "Jefferson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641349001",
+    "projectType": "ASPHALTIC PATCHING MATERIAL",
+    "letDate": "08/09/22",
+    "engEstTotal": 21450.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "WALLER COUNTY ASPHALT INC.",
+      "totalBidAmount": 21701.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 24150.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8019 6023",
+      "description": "ASPH CONC PAT MAT(ASPPM)(DEL)(SITE 1)",
+      "unit": "TON",
+      "quantity": 50.0,
+      "engEstUnit": 143.0,
+      "lowUnit": 148.75,
+      "bidders": {
+        "WALLER COUNTY ASPHALT INC.": 148.75,
+        "TEXAS MATERIALS GROUP, INC.": 160.0
+      }
+    },
+    {
+      "itemCode": "8019 6024",
+      "description": "ASPH CONC PAT MAT(ASPPM)(DEL)(SITE 2)",
+      "unit": "TON",
+      "quantity": 50.0,
+      "engEstUnit": 143.0,
+      "lowUnit": 131.98,
+      "bidders": {
+        "WALLER COUNTY ASPHALT INC.": 131.98,
+        "TEXAS MATERIALS GROUP, INC.": 168.0
+      }
+    },
+    {
+      "itemCode": "8019 6025",
+      "description": "ASPH CONC PAT MAT(ASPPM)(DEL)(SITE 3)",
+      "unit": "TON",
+      "quantity": 50.0,
+      "engEstUnit": 143.0,
+      "lowUnit": 153.3,
+      "bidders": {
+        "WALLER COUNTY ASPHALT INC.": 153.3,
+        "TEXAS MATERIALS GROUP, INC.": 155.0
+      }
+    }
+  ]
+}

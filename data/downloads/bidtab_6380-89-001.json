@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6380-89-001",
+    "county": "Montgomery",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638089001",
+    "projectType": "POTHOLE REPAIR",
+    "letDate": "11/16/21",
+    "engEstTotal": 75750.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "WALLER COUNTY ASPHALT INC.",
+      "totalBidAmount": 75750.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8019 6007",
+      "description": "ASPHALTIC CONC PATCH MATERIAL (PICKUP)",
+      "unit": "TON",
+      "quantity": 250.0,
+      "engEstUnit": 93.0,
+      "lowUnit": 88.0,
+      "bidders": {
+        "WALLER COUNTY ASPHALT INC.": 88.0
+      }
+    },
+    {
+      "itemCode": "8019 6010",
+      "description": "ASPHALTIC CONC PATCH MATERIAL (DEL)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 107.5,
+      "bidders": {
+        "WALLER COUNTY ASPHALT INC.": 107.5
+      }
+    }
+  ]
+}

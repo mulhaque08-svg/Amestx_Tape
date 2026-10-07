@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6372-76-001",
+    "county": "Montgomery",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637276001",
+    "projectType": "ASPHALT PAVEMENT REPAIR",
+    "letDate": "03/04/21",
+    "engEstTotal": 323500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FORDE CONSTRUCTION COMPANY, INC.",
+      "totalBidAmount": 482600.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MAIN LANE INDUSTRIES LTD.",
+      "totalBidAmount": 535250.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ANGEL BROTHERS HOLDINGS CORP.",
+      "totalBidAmount": 718000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0351 6005",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(9\")",
+      "unit": "SY",
+      "quantity": 2000.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 115.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 115.0,
+        "MAIN LANE INDUSTRIES LTD.": 109.0,
+        "ANGEL BROTHERS HOLDINGS CORP.": 103.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 100.0,
+        "MAIN LANE INDUSTRIES LTD.": 1000.0,
+        "ANGEL BROTHERS HOLDINGS CORP.": 6000.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 1000.0,
+        "MAIN LANE INDUSTRIES LTD.": 3000.0,
+        "ANGEL BROTHERS HOLDINGS CORP.": 30500.0
+      }
+    },
+    {
+      "itemCode": "0700 6005",
+      "description": "POTHOLE REPAIR (SAW - CUT)",
+      "unit": "SY",
+      "quantity": 4000.0,
+      "engEstUnit": 39.5,
+      "lowUnit": 59.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 59.0,
+        "MAIN LANE INDUSTRIES LTD.": 77.0,
+        "ANGEL BROTHERS HOLDINGS CORP.": 109.0
+      }
+    }
+  ]
+}

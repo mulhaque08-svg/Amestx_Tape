@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6405-68-001",
+    "county": "Bastrop",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640568001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/01/24",
+    "engEstTotal": 584570.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 439334.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 486028.08
+    },
+    {
+      "rank": 3,
+      "vendorName": "BOEN LANDSCAPING & IRRIGATION, LLC",
+      "totalBidAmount": 621040.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 719018.64
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 1.0,
+        "RISE UP CONSTRUCTION LLC": 1.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 1000.0,
+        "R&M INCORPORATED": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 2200.0,
+      "engEstUnit": 44.75,
+      "lowUnit": 32.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 32.0,
+        "RISE UP CONSTRUCTION LLC": 44.76,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 40.0,
+        "R&M INCORPORATED": 65.46
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 8784.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 42.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 42.0,
+        "RISE UP CONSTRUCTION LLC": 44.12,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 60.0,
+        "R&M INCORPORATED": 65.46
+      }
+    }
+  ]
+}

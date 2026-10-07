@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "csj": "6426-42-001",
+    "county": "Navarro",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642642001",
+    "projectType": "DITCH CLEANING AND RESHAPING",
+    "letDate": "03/07/23",
+    "engEstTotal": 524600.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 421750.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0480 6001",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "EA",
+      "quantity": 150.0,
+      "engEstUnit": 240.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 225.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 480.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0760 6001",
+      "description": "DITCH CLEANING AND RESHAPING (FOOT)",
+      "unit": "LF",
+      "quantity": 220000.0,
+      "engEstUnit": 2.1,
+      "lowUnit": 1.75,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 1.75
+      }
+    }
+  ]
+}

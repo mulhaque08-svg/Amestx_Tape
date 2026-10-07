@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6421-27-001",
+    "county": "Baylor",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642127001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/16/23",
+    "engEstTotal": 224979.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRIPLE T MAINTENANCE INC.",
+      "totalBidAmount": 204748.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CEHAND SERVICES LLC",
+      "totalBidAmount": 209898.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 215121.07
+    },
+    {
+      "rank": 4,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 272806.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1001.0,
+      "engEstUnit": 39.0,
+      "lowUnit": 38.0,
+      "bidders": {
+        "TRIPLE T MAINTENANCE INC.": 38.0,
+        "CEHAND SERVICES LLC": 30.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 39.95,
+        "ANTHONY SERVICES": 50.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 4386.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 38.0,
+      "bidders": {
+        "TRIPLE T MAINTENANCE INC.": 38.0,
+        "CEHAND SERVICES LLC": 41.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 39.92,
+        "ANTHONY SERVICES": 46.0
+      }
+    }
+  ]
+}

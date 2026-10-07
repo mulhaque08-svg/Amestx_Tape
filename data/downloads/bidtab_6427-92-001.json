@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6427-92-001",
+    "county": "Burleson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642792001",
+    "projectType": "HOT MIX",
+    "letDate": "01/06/23",
+    "engEstTotal": 471000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 395600.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BRAZOS PAVING, INC.",
+      "totalBidAmount": 402470.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "BIG CREEK CONSTRUCTION, LTD.",
+      "totalBidAmount": 408600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6003",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 83.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 83.0,
+        "BRAZOS PAVING, INC.": 85.35,
+        "BIG CREEK CONSTRUCTION, LTD.": 83.0
+      }
+    },
+    {
+      "itemCode": "8011 6004",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 4000.0,
+      "engEstUnit": 113.0,
+      "lowUnit": 94.75,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 94.75,
+        "BRAZOS PAVING, INC.": 96.35,
+        "BIG CREEK CONSTRUCTION, LTD.": 98.0
+      }
+    }
+  ]
+}

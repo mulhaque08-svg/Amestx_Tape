@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6395-87-001",
+    "county": "Galveston",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639587001",
+    "projectType": "ASPHALT",
+    "letDate": "04/12/22",
+    "engEstTotal": 291850.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GURR'S LOCAL CONTRACTOR SERVICES LLC",
+      "totalBidAmount": 386662.2
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 416643.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "AMERICAN MATERIALS, INC.",
+      "totalBidAmount": 440414.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 1981.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 83.1,
+      "bidders": {
+        "GURR'S LOCAL CONTRACTOR SERVICES LLC": 83.1,
+        "TEXAS MATERIALS GROUP, INC.": 89.0,
+        "AMERICAN MATERIALS, INC.": 95.0
+      }
+    },
+    {
+      "itemCode": "8011 6004",
+      "description": "D-GR HMA(SQ) TY D PG 70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 1981.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 83.1,
+      "bidders": {
+        "GURR'S LOCAL CONTRACTOR SERVICES LLC": 83.1,
+        "TEXAS MATERIALS GROUP, INC.": 94.0,
+        "AMERICAN MATERIALS, INC.": 99.0
+      }
+    },
+    {
+      "itemCode": "8021 6010",
+      "description": "ASPH TRTMNT(PLANT-MIX)(DEL)(GR 4)(ST 1)",
+      "unit": "TON",
+      "quantity": 660.0,
+      "engEstUnit": 52.0,
+      "lowUnit": 87.0,
+      "bidders": {
+        "GURR'S LOCAL CONTRACTOR SERVICES LLC": 87.0,
+        "TEXAS MATERIALS GROUP, INC.": 82.0,
+        "AMERICAN MATERIALS, INC.": 85.0
+      }
+    }
+  ]
+}

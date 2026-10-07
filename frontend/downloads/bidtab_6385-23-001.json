@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6385-23-001",
+    "county": "Brazos",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638523001",
+    "projectType": "AGGREGATE",
+    "letDate": "08/10/21",
+    "engEstTotal": 67926.25,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 61948.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 67750.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 77498.5
+    },
+    {
+      "rank": 4,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 92224.25
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6113",
+      "description": "AGGR (TY B GR 5) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 55.45,
+      "lowUnit": 49.66,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 49.66,
+        "KNIFE RIVER CORPORATION - SOUTH": 54.0,
+        "TOUCHSTONE RESOURCES, LLC": 65.49,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 74.11
+      }
+    },
+    {
+      "itemCode": "8039 6114",
+      "description": "AGGR (TY B GR 5) (DEL) (ST2)",
+      "unit": "TON",
+      "quantity": 700.0,
+      "engEstUnit": 55.45,
+      "lowUnit": 51.18,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 51.18,
+        "KNIFE RIVER CORPORATION - SOUTH": 56.0,
+        "TOUCHSTONE RESOURCES, LLC": 61.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 76.09
+      }
+    },
+    {
+      "itemCode": "8039 6115",
+      "description": "AGGR (TY B GR 5) (DEL) (ST3)",
+      "unit": "TON",
+      "quantity": 25.0,
+      "engEstUnit": 55.45,
+      "lowUnit": 51.68,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 51.68,
+        "KNIFE RIVER CORPORATION - SOUTH": 62.0,
+        "TOUCHSTONE RESOURCES, LLC": 82.14,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 76.25
+      }
+    }
+  ]
+}

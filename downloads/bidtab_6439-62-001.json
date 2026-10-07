@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6439-62-001",
+    "county": "San Saba",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 643962001",
+    "projectType": "EMULSION",
+    "letDate": "04/11/23",
+    "engEstTotal": 95280.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 103440.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ERGON ASPHALT & EMULSIONS, INC.",
+      "totalBidAmount": 109080.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6142",
+      "description": "EMULSION (CRS-2) (DEL) SITE 1",
+      "unit": "GAL",
+      "quantity": 24000.0,
+      "engEstUnit": 2.65,
+      "lowUnit": 2.86,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.86,
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.03
+      }
+    },
+    {
+      "itemCode": "8010 6143",
+      "description": "EMULSION (CRS-2) (DEL) SITE 2",
+      "unit": "GAL",
+      "quantity": 12000.0,
+      "engEstUnit": 2.64,
+      "lowUnit": 2.9,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.9,
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.03
+      }
+    }
+  ]
+}

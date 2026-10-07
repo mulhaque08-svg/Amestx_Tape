@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6435-44-001",
+    "county": "Kent",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643544001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/28/23",
+    "engEstTotal": 176893.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KENNETH THOMASON",
+      "totalBidAmount": 161213.67
+    },
+    {
+      "rank": 2,
+      "vendorName": "GREG SCRUGGS",
+      "totalBidAmount": 185341.05
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 573.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 28.73,
+      "bidders": {
+        "KENNETH THOMASON": 28.73,
+        "GREG SCRUGGS": 34.95
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 3306.0,
+      "engEstUnit": 32.5,
+      "lowUnit": 28.73,
+      "bidders": {
+        "KENNETH THOMASON": 28.73,
+        "GREG SCRUGGS": 34.95
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 3318.0,
+      "engEstUnit": 15.75,
+      "lowUnit": 15.0,
+      "bidders": {
+        "KENNETH THOMASON": 15.0,
+        "GREG SCRUGGS": 15.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6436-58-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 643658001",
+    "projectType": "AGGREGATE",
+    "letDate": "03/14/23",
+    "engEstTotal": 225000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 210000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 234000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6099",
+      "description": "AGGR (TY B GR 4) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 3000.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 70.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 70.0,
+        "DIGG COMMERCIAL, LLC": 78.0
+      }
+    }
+  ]
+}

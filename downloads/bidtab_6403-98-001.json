@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "csj": "6403-98-001",
+    "county": "Liberty",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640398001",
+    "projectType": "TREE TRIMMING AND BRUSH REMOVAL",
+    "letDate": "07/21/22",
+    "engEstTotal": 216900.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ROAD SOLUTIONS L.L.C.",
+      "totalBidAmount": 227640.04
+    },
+    {
+      "rank": 2,
+      "vendorName": "BOEN LANDSCAPING & IRRIGATION, LLC",
+      "totalBidAmount": 307600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ROAD SOLUTIONS L.L.C.": 1.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 30.0,
+      "engEstUnit": 5500.0,
+      "lowUnit": 5600.0,
+      "bidders": {
+        "ROAD SOLUTIONS L.L.C.": 5600.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 8000.0
+      }
+    },
+    {
+      "itemCode": "0752 6005",
+      "description": "TREE REMOVAL (4\" - 12\" DIA)",
+      "unit": "EA",
+      "quantity": 55.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 120.0,
+      "bidders": {
+        "ROAD SOLUTIONS L.L.C.": 120.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0752 6006",
+      "description": "TREE REMOVAL (12\" - 18\" DIA)",
+      "unit": "EA",
+      "quantity": 55.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 185.0,
+      "bidders": {
+        "ROAD SOLUTIONS L.L.C.": 185.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0752 6007",
+      "description": "TREE REMOVAL (18\" - 24\" DIA)",
+      "unit": "EA",
+      "quantity": 45.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 325.0,
+      "bidders": {
+        "ROAD SOLUTIONS L.L.C.": 325.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0752 6008",
+      "description": "TREE REMOVAL (24\" - 30\" DIA)",
+      "unit": "EA",
+      "quantity": 35.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 375.0,
+      "bidders": {
+        "ROAD SOLUTIONS L.L.C.": 375.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0752 6009",
+      "description": "TREE REMOVAL (30\" - 36\" DIA)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 525.0,
+      "bidders": {
+        "ROAD SOLUTIONS L.L.C.": 525.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 600.0
+      }
+    }
+  ]
+}

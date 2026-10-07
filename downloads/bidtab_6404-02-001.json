@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "csj": "6404-02-001",
+    "county": "Culberson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 640402001",
+    "projectType": "BRIDGE PREVENTATIVE MAINTENANCE",
+    "letDate": "01/05/23",
+    "engEstTotal": 551831.75,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "B & MS CONSTRUCTION, INC.",
+      "totalBidAmount": 637877.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "SCR CIVIL CONSTRUCTION, LLC",
+      "totalBidAmount": 951272.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "DAN WILLIAMS COMPANY",
+      "totalBidAmount": 1018905.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 40.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 70.0,
+      "bidders": {
+        "B & MS CONSTRUCTION, INC.": 70.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 270.0,
+        "DAN WILLIAMS COMPANY": 45.0
+      }
+    },
+    {
+      "itemCode": "0420 6130",
+      "description": "CL K CONC (PEDESTAL)",
+      "unit": "EA",
+      "quantity": 95.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 700.0,
+      "bidders": {
+        "B & MS CONSTRUCTION, INC.": 700.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 650.0,
+        "DAN WILLIAMS COMPANY": 750.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 225.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 241.5,
+      "bidders": {
+        "B & MS CONSTRUCTION, INC.": 241.5,
+        "SCR CIVIL CONSTRUCTION, LLC": 485.0,
+        "DAN WILLIAMS COMPANY": 400.0
+      }
+    },
+    {
+      "itemCode": "0432 6009",
+      "description": "RIPRAP (CONC) (CL B) (4\")",
+      "unit": "CY",
+      "quantity": 6.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 747.5,
+      "bidders": {
+        "B & MS CONSTRUCTION, INC.": 747.5,
+        "SCR CIVIL CONSTRUCTION, LLC": 2200.0,
+        "DAN WILLIAMS COMPANY": 1600.0
+      }
+    },
+    {
+      "itemCode": "0495 6001",
+      "description": "RAISING EXIST STRUCT",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 110000.0,
+      "lowUnit": 65000.0,
+      "bidders": {
+        "B & MS CONSTRUCTION, INC.": 65000.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 147000.0,
+        "DAN WILLIAMS COMPANY": 330000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 61849.25,
+      "lowUnit": 65000.0,
+      "bidders": {
+        "B & MS CONSTRUCTION, INC.": 65000.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 95000.0,
+        "DAN WILLIAMS COMPANY": 100000.0
+      }
+    },
+    {
+      "itemCode": "0785 6011",
+      "description": "BRIDGE JOINT REPLACEMENT (SEJ)",
+      "unit": "LF",
+      "quantity": 394.0,
+      "engEstUnit": 330.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "B & MS CONSTRUCTION, INC.": 250.0,
+        "SCR CIVIL CONSTRUCTION, LLC": 1100.0,
+        "DAN WILLIAMS COMPANY": 500.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 5462.5,
+      "bidders": {
+        "B & MS CONSTRUCTION, INC.": 5462.5,
+        "SCR CIVIL CONSTRUCTION, LLC": 8000.0,
+        "DAN WILLIAMS COMPANY": 25000.0
+      }
+    }
+  ]
+}

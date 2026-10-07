@@ -1,0 +1,764 @@
+{
+  "metadata": {
+    "csj": "1511-01-013",
+    "county": "Upshur",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2024(791)",
+    "projectType": "REPLACE BRIDGE AND APPROACHES",
+    "letDate": "03/06/24",
+    "engEstTotal": 2229422.25,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "THK CONSTRUCTION LLC",
+      "totalBidAmount": 1790148.09
+    },
+    {
+      "rank": 2,
+      "vendorName": "TRUE ROADS CONSTRUCTION, LLC",
+      "totalBidAmount": 1939811.6
+    },
+    {
+      "rank": 3,
+      "vendorName": "HODGES AND SON CONSTRUCTION COMPANY, INC.",
+      "totalBidAmount": 1994460.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "EAST TEXAS BRIDGE, INC.",
+      "totalBidAmount": 2039492.2
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 122.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 7.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 7.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 10.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 18.0,
+        "EAST TEXAS BRIDGE, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0104 6054",
+      "description": "REMOVING CONCRETE(MOW STRIP)",
+      "unit": "LF",
+      "quantity": 650.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 5.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 4.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 6.0,
+        "EAST TEXAS BRIDGE, INC.": 15.0
+      }
+    },
+    {
+      "itemCode": "0105 6076",
+      "description": "REMOV STAB BASE AND ASPH PAV (2\"-15\")",
+      "unit": "SY",
+      "quantity": 2184.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 12.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 7.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 15.0,
+        "EAST TEXAS BRIDGE, INC.": 13.5
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 508.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 20.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 24.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 15.0,
+        "EAST TEXAS BRIDGE, INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0132 6006",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY C)",
+      "unit": "CY",
+      "quantity": 1953.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 20.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 24.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 30.0,
+        "EAST TEXAS BRIDGE, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0160 6003",
+      "description": "FURNISHING AND PLACING TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 2832.0,
+      "engEstUnit": 5.5,
+      "lowUnit": 4.5,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 4.5,
+        "TRUE ROADS CONSTRUCTION, LLC": 4.5,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 3.0,
+        "EAST TEXAS BRIDGE, INC.": 4.0
+      }
+    },
+    {
+      "itemCode": "0164 6054",
+      "description": "BOND FBR MTRX SEED (PERM)(RURAL)(SAND)",
+      "unit": "SY",
+      "quantity": 2832.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 2.68,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 2.68,
+        "TRUE ROADS CONSTRUCTION, LLC": 0.7,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 2.0,
+        "EAST TEXAS BRIDGE, INC.": 1.1
+      }
+    },
+    {
+      "itemCode": "0164 6055",
+      "description": "BONDED FBR MTRX SEED (TEMP)(WARM)",
+      "unit": "SY",
+      "quantity": 1416.0,
+      "engEstUnit": 1.25,
+      "lowUnit": 0.01,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 0.01,
+        "TRUE ROADS CONSTRUCTION, LLC": 0.7,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.0,
+        "EAST TEXAS BRIDGE, INC.": 0.9
+      }
+    },
+    {
+      "itemCode": "0164 6056",
+      "description": "BONDED FBR MTRX SEED (TEMP)(COOL)",
+      "unit": "SY",
+      "quantity": 1416.0,
+      "engEstUnit": 1.25,
+      "lowUnit": 0.01,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 0.01,
+        "TRUE ROADS CONSTRUCTION, LLC": 0.7,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.0,
+        "EAST TEXAS BRIDGE, INC.": 0.9
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 91.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 10.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 30.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1.0,
+        "EAST TEXAS BRIDGE, INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0169 6002",
+      "description": "SOIL RETENTION BLANKETS (CL 1) (TY B)",
+      "unit": "SY",
+      "quantity": 160.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 2.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 2.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 2.4,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 4.0,
+        "EAST TEXAS BRIDGE, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0275 6001",
+      "description": "CEMENT",
+      "unit": "TON",
+      "quantity": 95.0,
+      "engEstUnit": 325.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 250.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 350.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 300.0,
+        "EAST TEXAS BRIDGE, INC.": 375.0
+      }
+    },
+    {
+      "itemCode": "0275 6010",
+      "description": "CEMENT TREAT (SUBGRADE) (8\")",
+      "unit": "SY",
+      "quantity": 3319.0,
+      "engEstUnit": 6.75,
+      "lowUnit": 5.75,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 5.75,
+        "TRUE ROADS CONSTRUCTION, LLC": 6.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 7.0,
+        "EAST TEXAS BRIDGE, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0275 6078",
+      "description": "CEMENT TREAT (NEW BASE)(DC)(8\")",
+      "unit": "SY",
+      "quantity": 3267.0,
+      "engEstUnit": 5.25,
+      "lowUnit": 5.75,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 5.75,
+        "TRUE ROADS CONSTRUCTION, LLC": 6.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 7.0,
+        "EAST TEXAS BRIDGE, INC.": 5.0
+      }
+    },
+    {
+      "itemCode": "0310 6009",
+      "description": "PRIME COAT (MC-30)",
+      "unit": "GAL",
+      "quantity": 818.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 8.36,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 8.36,
+        "TRUE ROADS CONSTRUCTION, LLC": 10.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 15.0,
+        "EAST TEXAS BRIDGE, INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 137.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 300.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 310.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 300.0,
+        "EAST TEXAS BRIDGE, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0416 6002",
+      "description": "DRILL SHAFT (24 IN)",
+      "unit": "LF",
+      "quantity": 275.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 206.22,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 206.22,
+        "TRUE ROADS CONSTRUCTION, LLC": 275.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 195.0,
+        "EAST TEXAS BRIDGE, INC.": 230.0
+      }
+    },
+    {
+      "itemCode": "0416 6004",
+      "description": "DRILL SHAFT (36 IN)",
+      "unit": "LF",
+      "quantity": 240.0,
+      "engEstUnit": 375.0,
+      "lowUnit": 272.07,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 272.07,
+        "TRUE ROADS CONSTRUCTION, LLC": 425.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 275.0,
+        "EAST TEXAS BRIDGE, INC.": 315.0
+      }
+    },
+    {
+      "itemCode": "0422 6008",
+      "description": "REINF CONC SLAB (SLAB BEAM)(HPC)",
+      "unit": "SF",
+      "quantity": 4848.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 19.5,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 19.5,
+        "TRUE ROADS CONSTRUCTION, LLC": 31.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 22.0,
+        "EAST TEXAS BRIDGE, INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0422 6016",
+      "description": "APPROACH SLAB (HPC)",
+      "unit": "CY",
+      "quantity": 84.4,
+      "engEstUnit": 895.0,
+      "lowUnit": 630.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 630.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 700.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1000.0,
+        "EAST TEXAS BRIDGE, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0432 6006",
+      "description": "RIPRAP (CONC)(CL B)",
+      "unit": "CY",
+      "quantity": 2.4,
+      "engEstUnit": 875.0,
+      "lowUnit": 950.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 950.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 1000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 950.0,
+        "EAST TEXAS BRIDGE, INC.": 2000.0
+      }
+    },
+    {
+      "itemCode": "0432 6031",
+      "description": "RIPRAP (STONE PROTECTION)(12 IN)",
+      "unit": "CY",
+      "quantity": 566.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 160.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 160.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 175.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 200.0,
+        "EAST TEXAS BRIDGE, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0432 6039",
+      "description": "BEDDING MATERIAL (6 IN)",
+      "unit": "CY",
+      "quantity": 108.0,
+      "engEstUnit": 215.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 140.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 180.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 180.0,
+        "EAST TEXAS BRIDGE, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 30.0,
+      "engEstUnit": 740.0,
+      "lowUnit": 750.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 750.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 600.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 600.0,
+        "EAST TEXAS BRIDGE, INC.": 800.0
+      }
+    },
+    {
+      "itemCode": "0454 6003",
+      "description": "ARMOR JOINT",
+      "unit": "LF",
+      "quantity": 88.0,
+      "engEstUnit": 195.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 150.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 90.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 200.0,
+        "EAST TEXAS BRIDGE, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0454 6004",
+      "description": "ARMOR JOINT (SEALED)",
+      "unit": "LF",
+      "quantity": 85.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 150.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 110.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 220.0,
+        "EAST TEXAS BRIDGE, INC.": 150.0
+      }
+    },
+    {
+      "itemCode": "0467 6363",
+      "description": "SET (TY II) (18 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1700.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 1000.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 1500.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 2500.0,
+        "EAST TEXAS BRIDGE, INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 40000.0,
+      "lowUnit": 25000.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 25000.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 31000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 50000.0,
+        "EAST TEXAS BRIDGE, INC.": 25000.0
+      }
+    },
+    {
+      "itemCode": "0496 6016",
+      "description": "REMOV STR (PIPE)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 500.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 525.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1000.0,
+        "EAST TEXAS BRIDGE, INC.": 500.0
+      }
+    },
+    {
+      "itemCode": "0496 6043",
+      "description": "REMOV STR (SMALL FENCE)",
+      "unit": "LF",
+      "quantity": 858.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 5.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 4.5,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 5.0,
+        "EAST TEXAS BRIDGE, INC.": 8.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 175000.0,
+      "lowUnit": 175000.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 175000.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 60000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 150000.0,
+        "EAST TEXAS BRIDGE, INC.": 200000.0
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 119.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 25.16,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 25.16,
+        "TRUE ROADS CONSTRUCTION, LLC": 100.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 120.0,
+        "EAST TEXAS BRIDGE, INC.": 75.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 400.0,
+      "engEstUnit": 6.75,
+      "lowUnit": 2.12,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 2.12,
+        "TRUE ROADS CONSTRUCTION, LLC": 2.4,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 2.0,
+        "EAST TEXAS BRIDGE, INC.": 2.5
+      }
+    },
+    {
+      "itemCode": "0542 6005",
+      "description": "RM MTL BM GD FEN TRANS (T101)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 159.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 159.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 180.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 150.0,
+        "EAST TEXAS BRIDGE, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3450.0,
+      "lowUnit": 3047.5,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 3047.5,
+        "TRUE ROADS CONSTRUCTION, LLC": 3450.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 2900.0,
+        "EAST TEXAS BRIDGE, INC.": 3200.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 410.0,
+      "lowUnit": 212.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 212.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 240.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 500.0,
+        "EAST TEXAS BRIDGE, INC.": 250.0
+      }
+    },
+    {
+      "itemCode": "0552 6003",
+      "description": "WIRE FENCE (TY C)",
+      "unit": "LF",
+      "quantity": 760.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 20.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 21.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 20.0,
+        "EAST TEXAS BRIDGE, INC.": 32.0
+      }
+    },
+    {
+      "itemCode": "0552 6005",
+      "description": "GATE (TY 1)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 3450.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 500.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 900.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 2000.0,
+        "EAST TEXAS BRIDGE, INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 1500.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 1200.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1500.0,
+        "EAST TEXAS BRIDGE, INC.": 1700.0
+      }
+    },
+    {
+      "itemCode": "0644 6060",
+      "description": "IN SM RD SN SUP&AM TYTWT(1)WS(P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 1500.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 1200.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 1500.0,
+        "EAST TEXAS BRIDGE, INC.": 1400.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 155.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 500.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 180.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 500.0,
+        "EAST TEXAS BRIDGE, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 21.2,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 21.2,
+        "TRUE ROADS CONSTRUCTION, LLC": 24.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 20.0,
+        "EAST TEXAS BRIDGE, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0658 6016",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)GF1 (BI)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 21.2,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 21.2,
+        "TRUE ROADS CONSTRUCTION, LLC": 24.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 20.0,
+        "EAST TEXAS BRIDGE, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0662 6109",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY W",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 0.1,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 0.1,
+        "TRUE ROADS CONSTRUCTION, LLC": 2.4,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 5.0,
+        "EAST TEXAS BRIDGE, INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 0.1,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 0.1,
+        "TRUE ROADS CONSTRUCTION, LLC": 2.4,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 5.0,
+        "EAST TEXAS BRIDGE, INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 22.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 10.6,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 10.6,
+        "TRUE ROADS CONSTRUCTION, LLC": 12.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 10.0,
+        "EAST TEXAS BRIDGE, INC.": 11.0
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 608.0,
+      "engEstUnit": 0.75,
+      "lowUnit": 2.12,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 2.12,
+        "TRUE ROADS CONSTRUCTION, LLC": 2.4,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 2.0,
+        "EAST TEXAS BRIDGE, INC.": 2.2
+      }
+    },
+    {
+      "itemCode": "0678 6033",
+      "description": "PAV SURF PREP FOR MRK (RPM)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 26.5,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 26.5,
+        "TRUE ROADS CONSTRUCTION, LLC": 30.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 25.0,
+        "EAST TEXAS BRIDGE, INC.": 27.5
+      }
+    },
+    {
+      "itemCode": "3077 6032",
+      "description": "SP MIXES SP-C PG76-22",
+      "unit": "TON",
+      "quantity": 352.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 207.79,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 207.79,
+        "TRUE ROADS CONSTRUCTION, LLC": 234.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 300.0,
+        "EAST TEXAS BRIDGE, INC.": 245.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 15950.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 10000.0,
+        "TRUE ROADS CONSTRUCTION, LLC": 18000.0,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 10000.0,
+        "EAST TEXAS BRIDGE, INC.": 15000.0
+      }
+    },
+    {
+      "itemCode": "6149 6004",
+      "description": "REFL PAV MRK AWT (W) 6\" (SLD) (100MIL)",
+      "unit": "LF",
+      "quantity": 1720.0,
+      "engEstUnit": 1.4,
+      "lowUnit": 3.18,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 3.18,
+        "TRUE ROADS CONSTRUCTION, LLC": 3.6,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 3.0,
+        "EAST TEXAS BRIDGE, INC.": 3.3
+      }
+    },
+    {
+      "itemCode": "6149 6010",
+      "description": "REFL PAV MRK AWT (Y) 6\" (SLD) (100MIL)",
+      "unit": "LF",
+      "quantity": 1720.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 3.18,
+      "bidders": {
+        "THK CONSTRUCTION LLC": 3.18,
+        "TRUE ROADS CONSTRUCTION, LLC": 3.6,
+        "HODGES AND SON CONSTRUCTION COMPANY, INC.": 3.0,
+        "EAST TEXAS BRIDGE, INC.": 3.3
+      }
+    }
+  ]
+}

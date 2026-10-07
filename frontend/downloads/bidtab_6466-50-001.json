@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6466-50-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646650001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/07/24",
+    "engEstTotal": 240742.81,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 152014.36
+    },
+    {
+      "rank": 2,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 188741.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 234084.8
+    },
+    {
+      "rank": 4,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 263265.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 19877.93,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 3000.0,
+        "D & M CONTRACTORS, LLC": 12000.0,
+        "ICOS MANAGEMENT, LLC": 1.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 25000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 28.0,
+      "engEstUnit": 135.71,
+      "lowUnit": 1.0,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0,
+        "D & M CONTRACTORS, LLC": 1.0,
+        "ICOS MANAGEMENT, LLC": 1.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 50.0
+      }
+    }
+  ]
+}

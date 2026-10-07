@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6423-40-001",
+    "county": "Comal",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642340001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "01/05/23",
+    "engEstTotal": 412820.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "USA DT SERVICES, INC.",
+      "totalBidAmount": 693048.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 798100.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "USA DT SERVICES, INC.": 0.01,
+        "CROSS PLUS CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 10008.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 68.5,
+      "bidders": {
+        "USA DT SERVICES, INC.": 68.5,
+        "CROSS PLUS CONSTRUCTION, LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 150.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "USA DT SERVICES, INC.": 50.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 150.0
+      }
+    }
+  ]
+}

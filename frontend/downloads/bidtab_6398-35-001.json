@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6398-35-001",
+    "county": "Palo Pinto",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639835001",
+    "projectType": "EMULSION",
+    "letDate": "04/21/22",
+    "engEstTotal": 195250.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ERGON ASPHALT & EMULSIONS, INC.",
+      "totalBidAmount": 195280.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "WRIGHT ASPHALT PRODUCTS COMPANY LLC",
+      "totalBidAmount": 198300.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 203790.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6005",
+      "description": "EMULSION (CHFRS-2P) (DEL)",
+      "unit": "GAL",
+      "quantity": 49000.0,
+      "engEstUnit": 3.25,
+      "lowUnit": 3.28,
+      "bidders": {
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.28,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.3,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.39
+      }
+    },
+    {
+      "itemCode": "8010 6007",
+      "description": "EMULSION (CSS-1H) (DEL)",
+      "unit": "GAL",
+      "quantity": 12000.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.88,
+      "bidders": {
+        "ERGON ASPHALT & EMULSIONS, INC.": 2.88,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.05,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.14
+      }
+    }
+  ]
+}

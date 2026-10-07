@@ -1,0 +1,877 @@
+{
+  "metadata": {
+    "csj": "0914-33-088",
+    "county": "Hays",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "STP 2022(313)TAPS",
+    "projectType": "CONSTRUCT PEDESTRIAN INFRASTRUCTURE",
+    "letDate": "09/06/23",
+    "engEstTotal": 1304314.9,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D&S CONCRETE CONTRACTORS LLC",
+      "totalBidAmount": 1277863.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "3LW CIVIL LLC",
+      "totalBidAmount": 1502697.46
+    },
+    {
+      "rank": 3,
+      "vendorName": "STX CIVIL",
+      "totalBidAmount": 1630655.24
+    },
+    {
+      "rank": 4,
+      "vendorName": "AUSTIN ENGINEERING CO., INC.",
+      "totalBidAmount": 1715019.4
+    },
+    {
+      "rank": 5,
+      "vendorName": "AUSTIN UNDERGROUND INCORPORATED",
+      "totalBidAmount": 1797832.4
+    },
+    {
+      "rank": 6,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 1838244.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "TIGHT LINE CONSTRUCTION, LLC",
+      "totalBidAmount": 1899665.5
+    },
+    {
+      "rank": 8,
+      "vendorName": "DUNN SERVICES, INC.",
+      "totalBidAmount": 1905227.61
+    },
+    {
+      "rank": 9,
+      "vendorName": "DAN WILLIAMS COMPANY",
+      "totalBidAmount": 2002721.25
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 70.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 500.0,
+        "3LW CIVIL LLC": 1728.57,
+        "STX CIVIL": 879.5,
+        "AUSTIN ENGINEERING CO., INC.": 2000.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 1000.0,
+        "FNH CONSTRUCTION, LLC": 2150.0
+      }
+    },
+    {
+      "itemCode": "0104 6015",
+      "description": "REMOVING CONC (SIDEWALKS)",
+      "unit": "SY",
+      "quantity": 4.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 100.0,
+        "3LW CIVIL LLC": 20.0,
+        "STX CIVIL": 15.15,
+        "AUSTIN ENGINEERING CO., INC.": 76.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 200.0,
+        "FNH CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0104 6017",
+      "description": "REMOVING CONC (DRIVEWAYS)",
+      "unit": "SY",
+      "quantity": 174.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 50.0,
+        "3LW CIVIL LLC": 17.25,
+        "STX CIVIL": 18.94,
+        "AUSTIN ENGINEERING CO., INC.": 29.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 40.0,
+        "FNH CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0104 6021",
+      "description": "REMOVING CONC (CURB)",
+      "unit": "LF",
+      "quantity": 51.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 10.0,
+        "3LW CIVIL LLC": 18.5,
+        "STX CIVIL": 6.31,
+        "AUSTIN ENGINEERING CO., INC.": 5.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 50.0,
+        "FNH CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0105 6026",
+      "description": "REMOVE STAB BASE & ASPH PAV (13\"-18\")",
+      "unit": "SY",
+      "quantity": 860.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 45.0,
+        "3LW CIVIL LLC": 42.5,
+        "STX CIVIL": 25.0,
+        "AUSTIN ENGINEERING CO., INC.": 0.7,
+        "AUSTIN UNDERGROUND INCORPORATED": 25.0,
+        "FNH CONSTRUCTION, LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 658.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 30.0,
+        "3LW CIVIL LLC": 28.0,
+        "STX CIVIL": 15.44,
+        "AUSTIN ENGINEERING CO., INC.": 31.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 50.0,
+        "FNH CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0160 6003",
+      "description": "FURNISHING AND PLACING TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 3298.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 5.0,
+        "3LW CIVIL LLC": 4.27,
+        "STX CIVIL": 1.8,
+        "AUSTIN ENGINEERING CO., INC.": 1.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 6.0,
+        "FNH CONSTRUCTION, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0162 6002",
+      "description": "BLOCK SODDING",
+      "unit": "SY",
+      "quantity": 3298.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 8.0,
+        "3LW CIVIL LLC": 9.5,
+        "STX CIVIL": 8.97,
+        "AUSTIN ENGINEERING CO., INC.": 10.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 9.0,
+        "FNH CONSTRUCTION, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 56.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 50.0,
+        "3LW CIVIL LLC": 282.88,
+        "STX CIVIL": 56.87,
+        "AUSTIN ENGINEERING CO., INC.": 178.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 70.0,
+        "FNH CONSTRUCTION, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 12.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 1000.0,
+        "3LW CIVIL LLC": 579.0,
+        "STX CIVIL": 880.27,
+        "AUSTIN ENGINEERING CO., INC.": 1167.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 1200.0,
+        "FNH CONSTRUCTION, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0460 6004",
+      "description": "CMP (GAL STL 30 IN)",
+      "unit": "LF",
+      "quantity": 60.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 155.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 155.0,
+        "3LW CIVIL LLC": 129.0,
+        "STX CIVIL": 164.21,
+        "AUSTIN ENGINEERING CO., INC.": 151.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 165.0,
+        "FNH CONSTRUCTION, LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0460 6007",
+      "description": "CMP (GAL STL 48 IN)",
+      "unit": "LF",
+      "quantity": 112.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 250.0,
+        "3LW CIVIL LLC": 299.9,
+        "STX CIVIL": 271.2,
+        "AUSTIN ENGINEERING CO., INC.": 203.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 240.0,
+        "FNH CONSTRUCTION, LLC": 550.0
+      }
+    },
+    {
+      "itemCode": "0466 6099",
+      "description": "HEADWALL (CH - PW - 0) (DIA= 30 IN)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 8500.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 5000.0,
+        "3LW CIVIL LLC": 6990.0,
+        "STX CIVIL": 15897.24,
+        "AUSTIN ENGINEERING CO., INC.": 13000.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 14000.0,
+        "FNH CONSTRUCTION, LLC": 12500.0
+      }
+    },
+    {
+      "itemCode": "0467 6468",
+      "description": "SET (TY II) (48 IN) (CMP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 1000.0,
+        "3LW CIVIL LLC": 6490.0,
+        "STX CIVIL": 7518.32,
+        "AUSTIN ENGINEERING CO., INC.": 11000.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 5000.0,
+        "FNH CONSTRUCTION, LLC": 18500.0
+      }
+    },
+    {
+      "itemCode": "0471 6003",
+      "description": "GRATE & FRAME",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 1500.0,
+        "3LW CIVIL LLC": 2665.0,
+        "STX CIVIL": 3546.2,
+        "AUSTIN ENGINEERING CO., INC.": 4000.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 2200.0,
+        "FNH CONSTRUCTION, LLC": 11500.0
+      }
+    },
+    {
+      "itemCode": "0496 6002",
+      "description": "REMOV STR (INLET)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 800.0,
+        "3LW CIVIL LLC": 990.0,
+        "STX CIVIL": 1261.12,
+        "AUSTIN ENGINEERING CO., INC.": 1200.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 600.0,
+        "FNH CONSTRUCTION, LLC": 2500.0
+      }
+    },
+    {
+      "itemCode": "0496 6004",
+      "description": "REMOV STR (SET)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 800.0,
+        "3LW CIVIL LLC": 665.0,
+        "STX CIVIL": 946.76,
+        "AUSTIN ENGINEERING CO., INC.": 1600.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 700.0,
+        "FNH CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 117503.9,
+      "lowUnit": 100000.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 100000.0,
+        "3LW CIVIL LLC": 133500.0,
+        "STX CIVIL": 128106.74,
+        "AUSTIN ENGINEERING CO., INC.": 112000.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 135000.0,
+        "FNH CONSTRUCTION, LLC": 180000.0
+      }
+    },
+    {
+      "itemCode": "0529 6021",
+      "description": "CONC CURB & GUTTER (SLOTTED)",
+      "unit": "LF",
+      "quantity": 2446.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 40.0,
+        "3LW CIVIL LLC": 77.67,
+        "STX CIVIL": 81.86,
+        "AUSTIN ENGINEERING CO., INC.": 64.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 50.0,
+        "FNH CONSTRUCTION, LLC": 85.0
+      }
+    },
+    {
+      "itemCode": "0530 6002",
+      "description": "INTERSECTIONS (ACP)",
+      "unit": "SY",
+      "quantity": 132.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 75.0,
+        "3LW CIVIL LLC": 200.0,
+        "STX CIVIL": 83.09,
+        "AUSTIN ENGINEERING CO., INC.": 245.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 300.0,
+        "FNH CONSTRUCTION, LLC": 55.0
+      }
+    },
+    {
+      "itemCode": "0530 6004",
+      "description": "DRIVEWAYS (CONC)",
+      "unit": "SY",
+      "quantity": 1018.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 95.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 95.0,
+        "3LW CIVIL LLC": 82.0,
+        "STX CIVIL": 120.6,
+        "AUSTIN ENGINEERING CO., INC.": 173.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 200.0,
+        "FNH CONSTRUCTION, LLC": 85.0
+      }
+    },
+    {
+      "itemCode": "0531 6002",
+      "description": "CONC SIDEWALKS (5\")",
+      "unit": "SY",
+      "quantity": 4452.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 92.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 92.0,
+        "3LW CIVIL LLC": 73.0,
+        "STX CIVIL": 95.97,
+        "AUSTIN ENGINEERING CO., INC.": 93.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 105.0,
+        "FNH CONSTRUCTION, LLC": 65.0
+      }
+    },
+    {
+      "itemCode": "0531 6004",
+      "description": "CURB RAMPS (TY 1)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 900.0,
+        "3LW CIVIL LLC": 2000.0,
+        "STX CIVIL": 2757.87,
+        "AUSTIN ENGINEERING CO., INC.": 1500.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 2700.0,
+        "FNH CONSTRUCTION, LLC": 3250.0
+      }
+    },
+    {
+      "itemCode": "0531 6008",
+      "description": "CURB RAMPS (TY 5)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 1200.0,
+        "3LW CIVIL LLC": 2100.0,
+        "STX CIVIL": 3974.02,
+        "AUSTIN ENGINEERING CO., INC.": 1700.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 6200.0,
+        "FNH CONSTRUCTION, LLC": 3250.0
+      }
+    },
+    {
+      "itemCode": "0531 6010",
+      "description": "CURB RAMPS (TY 7)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 900.0,
+        "3LW CIVIL LLC": 2200.0,
+        "STX CIVIL": 2764.04,
+        "AUSTIN ENGINEERING CO., INC.": 2000.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 3000.0,
+        "FNH CONSTRUCTION, LLC": 3250.0
+      }
+    },
+    {
+      "itemCode": "0531 6013",
+      "description": "CURB RAMPS (TY 10)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 1200.0,
+        "3LW CIVIL LLC": 2500.0,
+        "STX CIVIL": 2378.87,
+        "AUSTIN ENGINEERING CO., INC.": 2000.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 3000.0,
+        "FNH CONSTRUCTION, LLC": 3250.0
+      }
+    },
+    {
+      "itemCode": "0618 6029",
+      "description": "CONDT (PVC) (SCH 40) (3\")",
+      "unit": "LF",
+      "quantity": 165.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 28.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 28.0,
+        "3LW CIVIL LLC": 35.0,
+        "STX CIVIL": 118.53,
+        "AUSTIN ENGINEERING CO., INC.": 72.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 75.0,
+        "FNH CONSTRUCTION, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0618 6030",
+      "description": "CONDT (PVC) (SCH 40) (3\") (BORE)",
+      "unit": "LF",
+      "quantity": 180.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 60.0,
+        "3LW CIVIL LLC": 55.0,
+        "STX CIVIL": 126.22,
+        "AUSTIN ENGINEERING CO., INC.": 163.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 165.0,
+        "FNH CONSTRUCTION, LLC": 60.0
+      }
+    },
+    {
+      "itemCode": "0620 6007",
+      "description": "ELEC CONDR (NO.8) BARE",
+      "unit": "LF",
+      "quantity": 345.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 3.0,
+        "3LW CIVIL LLC": 2.25,
+        "STX CIVIL": 5.54,
+        "AUSTIN ENGINEERING CO., INC.": 3.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 3.5,
+        "FNH CONSTRUCTION, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 3000.0,
+        "3LW CIVIL LLC": 1300.0,
+        "STX CIVIL": 4617.94,
+        "AUSTIN ENGINEERING CO., INC.": 4000.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 4000.0,
+        "FNH CONSTRUCTION, LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 500.0,
+        "3LW CIVIL LLC": 800.0,
+        "STX CIVIL": 1223.75,
+        "AUSTIN ENGINEERING CO., INC.": 1000.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 1300.0,
+        "FNH CONSTRUCTION, LLC": 1150.0
+      }
+    },
+    {
+      "itemCode": "0644 6068",
+      "description": "RELOCATE SM RD SN SUP&AM TY 10BWG",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 250.0,
+        "3LW CIVIL LLC": 650.0,
+        "STX CIVIL": 1085.22,
+        "AUSTIN ENGINEERING CO., INC.": 770.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 625.0,
+        "FNH CONSTRUCTION, LLC": 950.0
+      }
+    },
+    {
+      "itemCode": "0644 6113",
+      "description": "REMOVE SM RD SN (FOUNDATION ONLY)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 200.0,
+        "3LW CIVIL LLC": 75.0,
+        "STX CIVIL": 146.24,
+        "AUSTIN ENGINEERING CO., INC.": 239.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 225.0,
+        "FNH CONSTRUCTION, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0658 6046",
+      "description": "INSTL OM ASSM (OM-2X)(WC)GND",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 200.0,
+        "3LW CIVIL LLC": 100.0,
+        "STX CIVIL": 127.76,
+        "AUSTIN ENGINEERING CO., INC.": 114.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 225.0,
+        "FNH CONSTRUCTION, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 80.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 5.0,
+        "3LW CIVIL LLC": 6.4,
+        "STX CIVIL": 3.08,
+        "AUSTIN ENGINEERING CO., INC.": 3.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 1.4,
+        "FNH CONSTRUCTION, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 124.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 7.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 7.0,
+        "3LW CIVIL LLC": 12.5,
+        "STX CIVIL": 7.7,
+        "AUSTIN ENGINEERING CO., INC.": 6.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 8.5,
+        "FNH CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0678 6006",
+      "description": "PAV SURF PREP FOR MRK (12\")",
+      "unit": "LF",
+      "quantity": 19.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 3.0,
+        "3LW CIVIL LLC": 1.0,
+        "STX CIVIL": 1.54,
+        "AUSTIN ENGINEERING CO., INC.": 6.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 0.7,
+        "FNH CONSTRUCTION, LLC": 12.0
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 712.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 4.0,
+        "3LW CIVIL LLC": 1.0,
+        "STX CIVIL": 3.08,
+        "AUSTIN ENGINEERING CO., INC.": 6.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 1.4,
+        "FNH CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0682 6018",
+      "description": "PED SIG SEC (LED)(COUNTDOWN)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 1500.0,
+        "3LW CIVIL LLC": 825.0,
+        "STX CIVIL": 1693.24,
+        "AUSTIN ENGINEERING CO., INC.": 922.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 940.0,
+        "FNH CONSTRUCTION, LLC": 2000.0
+      }
+    },
+    {
+      "itemCode": "0684 6007",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(2 CONDR)",
+      "unit": "LF",
+      "quantity": 1260.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 2.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 2.0,
+        "3LW CIVIL LLC": 2.0,
+        "STX CIVIL": 5.7,
+        "AUSTIN ENGINEERING CO., INC.": 6.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 6.25,
+        "FNH CONSTRUCTION, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0684 6031",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(5 CONDR)",
+      "unit": "LF",
+      "quantity": 1300.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 3.5,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 3.5,
+        "3LW CIVIL LLC": 2.25,
+        "STX CIVIL": 6.31,
+        "AUSTIN ENGINEERING CO., INC.": 7.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 7.5,
+        "FNH CONSTRUCTION, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0687 6001",
+      "description": "PED POLE ASSEMBLY",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 6000.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 6000.0,
+        "3LW CIVIL LLC": 3000.0,
+        "STX CIVIL": 7542.63,
+        "AUSTIN ENGINEERING CO., INC.": 6300.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 6500.0,
+        "FNH CONSTRUCTION, LLC": 2850.0
+      }
+    },
+    {
+      "itemCode": "0688 6001",
+      "description": "PED DETECT PUSH BUTTON (APS)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 1250.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 1500.0,
+        "3LW CIVIL LLC": 750.0,
+        "STX CIVIL": 1847.17,
+        "AUSTIN ENGINEERING CO., INC.": 1100.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 1100.0,
+        "FNH CONSTRUCTION, LLC": 1850.0
+      }
+    },
+    {
+      "itemCode": "0688 6003",
+      "description": "PED DETECTOR CONTROLLER UNIT",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 4500.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 4500.0,
+        "3LW CIVIL LLC": 3500.0,
+        "STX CIVIL": 6311.18,
+        "AUSTIN ENGINEERING CO., INC.": 4300.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 4200.0,
+        "FNH CONSTRUCTION, LLC": 6500.0
+      }
+    },
+    {
+      "itemCode": "1004 6001",
+      "description": "TREE PROTECTION",
+      "unit": "EA",
+      "quantity": 26.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 200.0,
+        "3LW CIVIL LLC": 500.0,
+        "STX CIVIL": 350.87,
+        "AUSTIN ENGINEERING CO., INC.": 239.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 250.0,
+        "FNH CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "3076 6070",
+      "description": "D-GR HMA TY-D PG 76-22 SAC-B (EXEMPT)",
+      "unit": "TON",
+      "quantity": 1.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 95.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 95.0,
+        "3LW CIVIL LLC": 20000.0,
+        "STX CIVIL": 1087.54,
+        "AUSTIN ENGINEERING CO., INC.": 20000.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 4500.0,
+        "FNH CONSTRUCTION, LLC": 5000.0
+      }
+    },
+    {
+      "itemCode": "3084 6001",
+      "description": "BONDING COURSE",
+      "unit": "GAL",
+      "quantity": 2.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 35.0,
+        "3LW CIVIL LLC": 6.0,
+        "STX CIVIL": 10.37,
+        "AUSTIN ENGINEERING CO., INC.": 6.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 65.0,
+        "FNH CONSTRUCTION, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 300.0,
+        "3LW CIVIL LLC": 5500.0,
+        "STX CIVIL": 5697.85,
+        "AUSTIN ENGINEERING CO., INC.": 12000.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 16000.0,
+        "FNH CONSTRUCTION, LLC": 16500.0
+      }
+    },
+    {
+      "itemCode": "6027 6003",
+      "description": "CONDUIT (PREPARE)",
+      "unit": "LF",
+      "quantity": 575.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 3.0,
+        "3LW CIVIL LLC": 2.0,
+        "STX CIVIL": 5.16,
+        "AUSTIN ENGINEERING CO., INC.": 17.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 18.0,
+        "FNH CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "6027 6008",
+      "description": "GROUND BOX (PREPARE)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 1000.0,
+        "3LW CIVIL LLC": 350.0,
+        "STX CIVIL": 631.12,
+        "AUSTIN ENGINEERING CO., INC.": 516.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 540.0,
+        "FNH CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "6027 6010",
+      "description": "GROUND BOX W/ APRON (ADJUST)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "D&S CONCRETE CONTRACTORS LLC": 1500.0,
+        "3LW CIVIL LLC": 2000.0,
+        "STX CIVIL": 4925.8,
+        "AUSTIN ENGINEERING CO., INC.": 1100.0,
+        "AUSTIN UNDERGROUND INCORPORATED": 1100.0,
+        "FNH CONSTRUCTION, LLC": 1000.0
+      }
+    }
+  ]
+}

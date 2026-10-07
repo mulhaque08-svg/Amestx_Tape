@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "csj": "6467-72-001",
+    "county": "Chambers",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 646772001",
+    "projectType": "BRIDGE PREVENTATIVE MAINTENANCE",
+    "letDate": "07/23/24",
+    "engEstTotal": 229045.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 318625.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ROY JORGENSEN ASSOCIATES, INC.",
+      "totalBidAmount": 636530.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0158 6003",
+      "description": "SPEC EXCAV WORK (HYD EXCAVATOR)",
+      "unit": "HR",
+      "quantity": 40.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 300.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 700.0
+      }
+    },
+    {
+      "itemCode": "0401 6001",
+      "description": "FLOWABLE BACKFILL",
+      "unit": "CY",
+      "quantity": 35.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 500.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 1500.0
+      }
+    },
+    {
+      "itemCode": "0429 6002",
+      "description": "CONC STR REPAIR (EPOXY MORTAR)",
+      "unit": "SF",
+      "quantity": 32.5,
+      "engEstUnit": 450.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 350.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 700.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 241.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 380.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 380.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 525.0
+      }
+    },
+    {
+      "itemCode": "0438 6001",
+      "description": "CLEANING AND SEALING EXISTING JOINTS",
+      "unit": "LF",
+      "quantity": 1731.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 70.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 70.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 105.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 25000.0,
+      "bidders": {
+        "ICOS MANAGEMENT, LLC": 25000.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 60000.0
+      }
+    }
+  ]
+}

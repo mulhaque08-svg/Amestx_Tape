@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6389-63-001",
+    "county": "Navarro",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638963001",
+    "projectType": "TREE TRIMMING AND BRUSH REMOVAL",
+    "letDate": "04/12/22",
+    "engEstTotal": 79900.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AZA CONSTRUCTION INC",
+      "totalBidAmount": 63320.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ROAD SOLUTIONS L.L.C.",
+      "totalBidAmount": 72200.2
+    },
+    {
+      "rank": 3,
+      "vendorName": "BUSHWACKERS CONTRACTING, LLC",
+      "totalBidAmount": 74307.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "CEHAND ROOFING AND CONSTRUCTION, LLC",
+      "totalBidAmount": 88321.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 7600.0,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "AZA CONSTRUCTION INC": 15000.0,
+        "ROAD SOLUTIONS L.L.C.": 9500.0,
+        "BUSHWACKERS CONTRACTING, LLC": 1.15,
+        "CEHAND ROOFING AND CONSTRUCTION, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 31.0,
+      "engEstUnit": 1850.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "AZA CONSTRUCTION INC": 1500.0,
+        "ROAD SOLUTIONS L.L.C.": 1950.0,
+        "BUSHWACKERS CONTRACTING, LLC": 2395.35,
+        "CEHAND ROOFING AND CONSTRUCTION, LLC": 2800.0
+      }
+    }
+  ]
+}

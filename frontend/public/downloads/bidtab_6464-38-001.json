@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "csj": "6464-38-001",
+    "county": "Young",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 646438001",
+    "projectType": "BRIDGE REPAIR",
+    "letDate": "03/12/24",
+    "engEstTotal": 155035.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GIBSON & ASSOCIATES, INC.",
+      "totalBidAmount": 148642.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "PATHFIELD INVESTMENTS LLC",
+      "totalBidAmount": 239800.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0429 6006",
+      "description": "CONC STR REPR(RAPID DECK REP(FULL DPT))",
+      "unit": "SF",
+      "quantity": 50.0,
+      "engEstUnit": 425.0,
+      "lowUnit": 445.0,
+      "bidders": {
+        "GIBSON & ASSOCIATES, INC.": 445.0,
+        "PATHFIELD INVESTMENTS LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 13185.0,
+      "lowUnit": 27000.0,
+      "bidders": {
+        "GIBSON & ASSOCIATES, INC.": 27000.0,
+        "PATHFIELD INVESTMENTS LLC": 18000.0
+      }
+    },
+    {
+      "itemCode": "0780 6002",
+      "description": "CNC CRACK REPAIR (DISCRETE)(INJECT)",
+      "unit": "LF",
+      "quantity": 20.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "GIBSON & ASSOCIATES, INC.": 100.0,
+        "PATHFIELD INVESTMENTS LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0785 6002",
+      "description": "BRIDGE JOINT REPAIR (POLYMER)",
+      "unit": "LF",
+      "quantity": 46.0,
+      "engEstUnit": 550.0,
+      "lowUnit": 477.0,
+      "bidders": {
+        "GIBSON & ASSOCIATES, INC.": 477.0,
+        "PATHFIELD INVESTMENTS LLC": 400.0
+      }
+    },
+    {
+      "itemCode": "4002 6001",
+      "description": "REPLACE ELASTOMERIC BEARING PADS",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "GIBSON & ASSOCIATES, INC.": 5000.0,
+        "PATHFIELD INVESTMENTS LLC": 12500.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 2200.0,
+      "bidders": {
+        "GIBSON & ASSOCIATES, INC.": 2200.0,
+        "PATHFIELD INVESTMENTS LLC": 5000.0
+      }
+    }
+  ]
+}

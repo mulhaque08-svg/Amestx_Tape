@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6439-64-001",
+    "county": "Potter",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643964001",
+    "projectType": "CRACK SEAL",
+    "letDate": "09/07/23",
+    "engEstTotal": 1339817.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 1224880.4
+    },
+    {
+      "rank": 2,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 1656158.06
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 15792.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 5000.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 10000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 180.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 1.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 50.0
+      }
+    }
+  ]
+}

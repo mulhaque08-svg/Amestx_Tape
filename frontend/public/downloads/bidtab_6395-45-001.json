@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "csj": "6395-45-001",
+    "county": "Wharton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639545001",
+    "projectType": "RAISED PAVEMENT MARKINGS",
+    "letDate": "02/07/23",
+    "engEstTotal": 190799.65,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BRYDL CONTRACTING, LLC",
+      "totalBidAmount": 164315.1
+    },
+    {
+      "rank": 2,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 186678.11
+    },
+    {
+      "rank": 3,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 189709.5
+    },
+    {
+      "rank": 4,
+      "vendorName": "MB WESTERN INDUSTRIAL CONTRACTING COMPANY",
+      "totalBidAmount": 325442.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 10000.0,
+        "CRACKSEAL OF TEXAS, LLC": 9000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 1.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 30000.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 7071.0,
+      "engEstUnit": 3.75,
+      "lowUnit": 3.66,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 3.66,
+        "CRACKSEAL OF TEXAS, LLC": 4.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 4.5,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 6.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 30457.0,
+      "engEstUnit": 3.2,
+      "lowUnit": 3.66,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 3.66,
+        "CRACKSEAL OF TEXAS, LLC": 4.3,
+        "CROSS PLUS CONSTRUCTION, LLC": 4.5,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 6.5
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 4607.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.66,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 3.66,
+        "CRACKSEAL OF TEXAS, LLC": 4.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 4.5,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 6.5
+      }
+    }
+  ]
+}

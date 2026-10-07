@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6417-89-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 641789001",
+    "projectType": "BRIDGE JOINT CLEANING AND SEALING",
+    "letDate": "01/11/23",
+    "engEstTotal": 292088.56,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SCOUT 5 CONSTRUCTION LLC",
+      "totalBidAmount": 253600.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 350712.14
+    },
+    {
+      "rank": 3,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 356703.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "PATHFIELD INVESTMENTS LLC",
+      "totalBidAmount": 358225.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "PENHALL COMPANY",
+      "totalBidAmount": 413964.1
+    },
+    {
+      "rank": 6,
+      "vendorName": "O. TREVINO CONSTRUCTION, LLC",
+      "totalBidAmount": 481517.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 482796.08
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 23993.63,
+      "lowUnit": 8500.12,
+      "bidders": {
+        "SCOUT 5 CONSTRUCTION LLC": 8500.12,
+        "CRACKSEAL OF TEXAS, LLC": 30000.0,
+        "D & M CONTRACTORS, LLC": 30000.0,
+        "PATHFIELD INVESTMENTS LLC": 30000.0,
+        "PENHALL COMPANY": 39714.9,
+        "O. TREVINO CONSTRUCTION, LLC": 47000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 54.0,
+      "engEstUnit": 86.07,
+      "lowUnit": 0.01,
+      "bidders": {
+        "SCOUT 5 CONSTRUCTION LLC": 0.01,
+        "CRACKSEAL OF TEXAS, LLC": 0.001,
+        "D & M CONTRACTORS, LLC": 10.0,
+        "PATHFIELD INVESTMENTS LLC": 150.0,
+        "PENHALL COMPANY": 103.33,
+        "O. TREVINO CONSTRUCTION, LLC": 250.0
+      }
+    }
+  ]
+}

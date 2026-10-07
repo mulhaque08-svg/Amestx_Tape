@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6448-81-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644881001",
+    "projectType": "POTHOLE REPAIR",
+    "letDate": "03/05/24",
+    "engEstTotal": 450000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 389560.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "FOUTSCO PAVING COMPANY, LLC",
+      "totalBidAmount": 630100.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 60.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "FOUTSCO PAVING COMPANY, LLC": 2500.0
+      }
+    },
+    {
+      "itemCode": "0700 6001",
+      "description": "POTHOLE REPAIR (STANDARD)",
+      "unit": "SY",
+      "quantity": 1500.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 73.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 73.0,
+        "FOUTSCO PAVING COMPANY, LLC": 320.0
+      }
+    }
+  ]
+}

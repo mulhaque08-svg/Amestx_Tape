@@ -1,0 +1,734 @@
+{
+  "metadata": {
+    "csj": "0008-12-094",
+    "county": "Tarrant",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 8-12-94",
+    "projectType": "REHABILITATE EXISTING ROADWAY",
+    "letDate": "05/04/23",
+    "engEstTotal": 6877584.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SELECT MAINTENANCE, L.L.C.",
+      "totalBidAmount": 6688663.45
+    },
+    {
+      "rank": 2,
+      "vendorName": "O. TREVINO CONSTRUCTION, LLC",
+      "totalBidAmount": 7224000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 364.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 12.5,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 12.5,
+        "O. TREVINO CONSTRUCTION, LLC": 27.59
+      }
+    },
+    {
+      "itemCode": "0110 6003",
+      "description": "EXCAVATION (SPECIAL)",
+      "unit": "CY",
+      "quantity": 208.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 20.0,
+        "O. TREVINO CONSTRUCTION, LLC": 38.44
+      }
+    },
+    {
+      "itemCode": "0132 6004",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY B)",
+      "unit": "CY",
+      "quantity": 208.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 20.0,
+        "O. TREVINO CONSTRUCTION, LLC": 90.64
+      }
+    },
+    {
+      "itemCode": "0361 6076",
+      "description": "FULL-DEPTH REPAIR CRCP (VAR DEPTH)",
+      "unit": "CY",
+      "quantity": 500.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 1000.0,
+        "O. TREVINO CONSTRUCTION, LLC": 1100.0
+      }
+    },
+    {
+      "itemCode": "0429 6001",
+      "description": "CONC STR REPAIR(CLEAN & COAT WTH EPOXY)",
+      "unit": "SF",
+      "quantity": 16.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 350.0,
+        "O. TREVINO CONSTRUCTION, LLC": 573.35
+      }
+    },
+    {
+      "itemCode": "0429 6005",
+      "description": "CONC STR REPAIR(DECK REP (FULL DEPTH))",
+      "unit": "SF",
+      "quantity": 24.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 500.0,
+        "O. TREVINO CONSTRUCTION, LLC": 391.2
+      }
+    },
+    {
+      "itemCode": "0432 6007",
+      "description": "RIPRAP (CONC)(CL C)",
+      "unit": "CY",
+      "quantity": 201.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 530.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 530.0,
+        "O. TREVINO CONSTRUCTION, LLC": 735.22
+      }
+    },
+    {
+      "itemCode": "0438 6004",
+      "description": "CLEANING AND SEALING EXIST JOINTS(CL7)",
+      "unit": "LF",
+      "quantity": 10229.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 25.0,
+        "O. TREVINO CONSTRUCTION, LLC": 57.4
+      }
+    },
+    {
+      "itemCode": "0438 6005",
+      "description": "CLEANING AND SEALING JOINTS",
+      "unit": "LF",
+      "quantity": 1210.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 25.0,
+        "O. TREVINO CONSTRUCTION, LLC": 12.1
+      }
+    },
+    {
+      "itemCode": "0438 6010",
+      "description": "RESIZING AND SEALING JOINTS",
+      "unit": "LF",
+      "quantity": 2450.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 32.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 32.0,
+        "O. TREVINO CONSTRUCTION, LLC": 70.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 640000.0,
+      "lowUnit": 665000.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 665000.0,
+        "O. TREVINO CONSTRUCTION, LLC": 720000.0
+      }
+    },
+    {
+      "itemCode": "0512 6001",
+      "description": "PORT CTB (FUR & INST)(SGL SLOPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 2520.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 150.0,
+        "O. TREVINO CONSTRUCTION, LLC": 90.0
+      }
+    },
+    {
+      "itemCode": "0512 6049",
+      "description": "PORT CTB (REMOVE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 2520.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 15.0,
+        "O. TREVINO CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0514 6001",
+      "description": "PERM CTB (SGL SLOPE) (TY 1) (42 )",
+      "unit": "LF",
+      "quantity": 30.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 265.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 265.0,
+        "O. TREVINO CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0514 6003",
+      "description": "PERM CTB (SGL SLOPE) (TY 3) (42 )",
+      "unit": "LF",
+      "quantity": 65.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 335.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 335.0,
+        "O. TREVINO CONSTRUCTION, LLC": 525.0
+      }
+    },
+    {
+      "itemCode": "0514 6033",
+      "description": "PERM CTB (SGL SLOPE) (MOD)",
+      "unit": "LF",
+      "quantity": 18.0,
+      "engEstUnit": 1250.0,
+      "lowUnit": 295.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 295.0,
+        "O. TREVINO CONSTRUCTION, LLC": 600.0
+      }
+    },
+    {
+      "itemCode": "0533 6001",
+      "description": "RUMBLE STRIPS (SHOULDER)",
+      "unit": "LF",
+      "quantity": 90150.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 0.6,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.6,
+        "O. TREVINO CONSTRUCTION, LLC": 0.71
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 1907.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 6.0,
+        "O. TREVINO CONSTRUCTION, LLC": 3.3
+      }
+    },
+    {
+      "itemCode": "0542 6002",
+      "description": "REMOVE TERMINAL ANCHOR SECTION",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 500.0,
+        "O. TREVINO CONSTRUCTION, LLC": 329.0
+      }
+    },
+    {
+      "itemCode": "0542 6003",
+      "description": "REMOVE DOWNSTREAM ANCHOR TERMINAL",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 500.0,
+        "O. TREVINO CONSTRUCTION, LLC": 275.0
+      }
+    },
+    {
+      "itemCode": "0542 6004",
+      "description": "RM MTL BM GD FENCE TRANS (THRIE-BEAM)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 500.0,
+        "O. TREVINO CONSTRUCTION, LLC": 326.81
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 500.0,
+        "O. TREVINO CONSTRUCTION, LLC": 385.0
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 850.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 850.0,
+        "O. TREVINO CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0545 6019",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 13750.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 13750.0,
+        "O. TREVINO CONSTRUCTION, LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "0545 6025",
+      "description": "CRASH CUSHION ATTEN (INSTALL)(REACT)(N)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 35000.0,
+      "lowUnit": 28000.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 28000.0,
+        "O. TREVINO CONSTRUCTION, LLC": 34000.0
+      }
+    },
+    {
+      "itemCode": "0658 6013",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB",
+      "unit": "EA",
+      "quantity": 23.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 12.0,
+        "O. TREVINO CONSTRUCTION, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "0658 6026",
+      "description": "INSTL DEL ASSM (D-SY)SZ (BRF)CTB",
+      "unit": "EA",
+      "quantity": 1600.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 12.0,
+        "O. TREVINO CONSTRUCTION, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "0662 6057",
+      "description": "WK ZN PAV MRK REMOV (TRAF BTN) TY W",
+      "unit": "LF",
+      "quantity": 754.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 7.77,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 7.77,
+        "O. TREVINO CONSTRUCTION, LLC": 1.4
+      }
+    },
+    {
+      "itemCode": "0668 6025",
+      "description": "PREFAB PAV MRK TY B (W)(LNDP ARROW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 1800.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 1800.0,
+        "O. TREVINO CONSTRUCTION, LLC": 2500.0
+      }
+    },
+    {
+      "itemCode": "0668 6059",
+      "description": "PREFAB PAV MRK TY B (MULTI)(SHIELD)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 4400.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 4400.0,
+        "O. TREVINO CONSTRUCTION, LLC": 3000.0
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 6910.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 5.11,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 5.11,
+        "O. TREVINO CONSTRUCTION, LLC": 4.6
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 201658.0,
+      "engEstUnit": 0.35,
+      "lowUnit": 0.26,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.26,
+        "O. TREVINO CONSTRUCTION, LLC": 0.2
+      }
+    },
+    {
+      "itemCode": "0677 6002",
+      "description": "ELIM EXT PAV MRK & MRKS (6\")",
+      "unit": "LF",
+      "quantity": 133940.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.3,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.3,
+        "O. TREVINO CONSTRUCTION, LLC": 0.2
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 53360.0,
+      "engEstUnit": 0.75,
+      "lowUnit": 0.55,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.55,
+        "O. TREVINO CONSTRUCTION, LLC": 0.4
+      }
+    },
+    {
+      "itemCode": "0677 6005",
+      "description": "ELIM EXT PAV MRK & MRKS (12\")",
+      "unit": "LF",
+      "quantity": 2613.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 2.0,
+        "O. TREVINO CONSTRUCTION, LLC": 1.75
+      }
+    },
+    {
+      "itemCode": "0677 6008",
+      "description": "ELIM EXT PAV MRK & MRKS (ARROW)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 82.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 82.0,
+        "O. TREVINO CONSTRUCTION, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0677 6011",
+      "description": "ELIM EXT PAV MRK & MRKS (NUMBER)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 57.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 57.0,
+        "O. TREVINO CONSTRUCTION, LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "0677 6022",
+      "description": "ELIM EXT PAV MRK & MRKS (SHEILD)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 485.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 485.0,
+        "O. TREVINO CONSTRUCTION, LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 335598.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 0.001,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.001,
+        "O. TREVINO CONSTRUCTION, LLC": 0.01
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 53360.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.001,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.001,
+        "O. TREVINO CONSTRUCTION, LLC": 0.02
+      }
+    },
+    {
+      "itemCode": "0678 6006",
+      "description": "PAV SURF PREP FOR MRK (12\")",
+      "unit": "LF",
+      "quantity": 13566.0,
+      "engEstUnit": 0.75,
+      "lowUnit": 0.92,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.92,
+        "O. TREVINO CONSTRUCTION, LLC": 0.5
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 1.0,
+        "O. TREVINO CONSTRUCTION, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 1.0,
+        "O. TREVINO CONSTRUCTION, LLC": 25.0
+      }
+    },
+    {
+      "itemCode": "0678 6025",
+      "description": "PAV SURF PREP FOR MRKS (SHIELD)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 20.0,
+        "O. TREVINO CONSTRUCTION, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0713 6001",
+      "description": "JT SEALING AND CLEANING(TRANS CNTR JTS)",
+      "unit": "LF",
+      "quantity": 4730.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 1.9,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 1.9,
+        "O. TREVINO CONSTRUCTION, LLC": 3.25
+      }
+    },
+    {
+      "itemCode": "0713 6002",
+      "description": "JT SEALING AND CLEANING(LONGT CNTR JTS)",
+      "unit": "LF",
+      "quantity": 448010.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 1.9,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 1.9,
+        "O. TREVINO CONSTRUCTION, LLC": 1.99
+      }
+    },
+    {
+      "itemCode": "3069 6002",
+      "description": "TEXTURING CONCRETE PAVEMENT)",
+      "unit": "SY",
+      "quantity": 438736.0,
+      "engEstUnit": 3.1,
+      "lowUnit": 3.15,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 3.15,
+        "O. TREVINO CONSTRUCTION, LLC": 3.15
+      }
+    },
+    {
+      "itemCode": "3069 6003",
+      "description": "TEXTURING BRIDGE DECK",
+      "unit": "SY",
+      "quantity": 57516.0,
+      "engEstUnit": 3.1,
+      "lowUnit": 3.15,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 3.15,
+        "O. TREVINO CONSTRUCTION, LLC": 3.15
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 1407.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 80.0,
+        "O. TREVINO CONSTRUCTION, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "6038 6004",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(SLD)",
+      "unit": "LF",
+      "quantity": 97341.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.79,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.79,
+        "O. TREVINO CONSTRUCTION, LLC": 0.85
+      }
+    },
+    {
+      "itemCode": "6038 6005",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(BRK)",
+      "unit": "LF",
+      "quantity": 66970.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.85,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.85,
+        "O. TREVINO CONSTRUCTION, LLC": 0.85
+      }
+    },
+    {
+      "itemCode": "6038 6007",
+      "description": "MULTIPOLYMER PAV MRK (W)(8\")(SLD)",
+      "unit": "LF",
+      "quantity": 53360.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.2,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 1.2,
+        "O. TREVINO CONSTRUCTION, LLC": 0.92
+      }
+    },
+    {
+      "itemCode": "6038 6011",
+      "description": "MULTIPOLYMER PAV MRK (W)(12\")(SLD)",
+      "unit": "LF",
+      "quantity": 10953.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 4.8,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 4.8,
+        "O. TREVINO CONSTRUCTION, LLC": 2.4
+      }
+    },
+    {
+      "itemCode": "6038 6012",
+      "description": "MULTIPOLYMER PAV MRK (W)(12\")(LNDP)",
+      "unit": "LF",
+      "quantity": 2613.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 3.0,
+        "O. TREVINO CONSTRUCTION, LLC": 2.4
+      }
+    },
+    {
+      "itemCode": "6038 6017",
+      "description": "MULTIPOLYMER PAV MRK (Y)(6\")(SLD)",
+      "unit": "LF",
+      "quantity": 104317.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.79,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.79,
+        "O. TREVINO CONSTRUCTION, LLC": 0.85
+      }
+    },
+    {
+      "itemCode": "6038 6024",
+      "description": "MULTIPOLYMER PAV MRK (BLK)(6\")(BRK)",
+      "unit": "LF",
+      "quantity": 66970.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.85,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 0.85,
+        "O. TREVINO CONSTRUCTION, LLC": 0.85
+      }
+    },
+    {
+      "itemCode": "6038 6025",
+      "description": "MULTIYPOLYMER PAV MRK (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 245.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 245.0,
+        "O. TREVINO CONSTRUCTION, LLC": 260.0
+      }
+    },
+    {
+      "itemCode": "6038 6027",
+      "description": "MULTIPOLYMER PAV MRK (W) (WORD)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 300.0,
+        "O. TREVINO CONSTRUCTION, LLC": 2.85
+      }
+    },
+    {
+      "itemCode": "6038 6030",
+      "description": "MULTIPOLYMER PAV MRK (W) (NUMBER)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 275.0,
+      "bidders": {
+        "SELECT MAINTENANCE, L.L.C.": 275.0,
+        "O. TREVINO CONSTRUCTION, LLC": 360.0
+      }
+    }
+  ]
+}

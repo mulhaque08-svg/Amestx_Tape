@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6458-75-001",
+    "county": "Terry",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645875001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/06/24",
+    "engEstTotal": 338960.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BERT WHITAKER",
+      "totalBidAmount": 312124.32
+    },
+    {
+      "rank": 2,
+      "vendorName": "CM COMPANY",
+      "totalBidAmount": 378264.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 383961.44
+    },
+    {
+      "rank": 4,
+      "vendorName": "GORMAN OUTDOOR, INC.",
+      "totalBidAmount": 394244.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 407156.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6003",
+      "description": "MOBILIZATION (CALLOUT 1)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "BERT WHITAKER": 1000.0,
+        "CM COMPANY": 1.0,
+        "RISE UP CONSTRUCTION LLC": 2500.0,
+        "GORMAN OUTDOOR, INC.": 1.0,
+        "ABESCAPE GROUP LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 9456.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 30.47,
+      "bidders": {
+        "BERT WHITAKER": 30.47,
+        "CM COMPANY": 40.0,
+        "RISE UP CONSTRUCTION LLC": 38.49,
+        "GORMAN OUTDOOR, INC.": 40.0,
+        "ABESCAPE GROUP LLC": 42.0
+      }
+    }
+  ]
+}

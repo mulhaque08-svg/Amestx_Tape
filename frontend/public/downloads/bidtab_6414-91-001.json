@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "csj": "6414-91-001",
+    "county": "Parker",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641491001",
+    "projectType": "HOT MIX",
+    "letDate": "10/06/22",
+    "engEstTotal": 774700.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "NORTHEASTERN PAVERS, LLC",
+      "totalBidAmount": 782500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 788000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "EUROVIA ATLANTIC COAST LLC",
+      "totalBidAmount": 842000.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "AUSTIN ASPHALT, INC.",
+      "totalBidAmount": 888000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6010",
+      "description": "D-GR HMA(SQ) TY D PG 64-28 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2500.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "NORTHEASTERN PAVERS, LLC": 100.0,
+        "TEXAS MATERIALS GROUP, INC.": 97.0,
+        "EUROVIA ATLANTIC COAST LLC": 108.0,
+        "AUSTIN ASPHALT, INC.": 118.5
+      }
+    },
+    {
+      "itemCode": "8011 6015",
+      "description": "D-GR HMA(SQ)TY B PG 64-22(DELIVERY)",
+      "unit": "TON",
+      "quantity": 2500.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "NORTHEASTERN PAVERS, LLC": 90.0,
+        "TEXAS MATERIALS GROUP, INC.": 85.0,
+        "EUROVIA ATLANTIC COAST LLC": 89.0,
+        "AUSTIN ASPHALT, INC.": 97.5
+      }
+    },
+    {
+      "itemCode": "8011 6017",
+      "description": "D-GR HMA(SQ)TY C PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "NORTHEASTERN PAVERS, LLC": 90.0,
+        "TEXAS MATERIALS GROUP, INC.": 92.0,
+        "EUROVIA ATLANTIC COAST LLC": 104.0,
+        "AUSTIN ASPHALT, INC.": 107.5
+      }
+    },
+    {
+      "itemCode": "8011 6040",
+      "description": "D-GR HMA(SQ) TY C SAC A PG70-28(DEL)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 119.8,
+      "lowUnit": 115.0,
+      "bidders": {
+        "NORTHEASTERN PAVERS, LLC": 115.0,
+        "TEXAS MATERIALS GROUP, INC.": 130.0,
+        "EUROVIA ATLANTIC COAST LLC": 129.0,
+        "AUSTIN ASPHALT, INC.": 124.5
+      }
+    }
+  ]
+}

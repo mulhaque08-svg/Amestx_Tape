@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6385-02-001",
+    "county": "Wichita",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638502001",
+    "projectType": "MOWING HIGHWAY ROW",
+    "letDate": "02/03/22",
+    "engEstTotal": 306266.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BIG STATE MAINTENANCE, INC.",
+      "totalBidAmount": 296236.71
+    },
+    {
+      "rank": 2,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 357416.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 373162.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1322.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 37.59,
+      "bidders": {
+        "BIG STATE MAINTENANCE, INC.": 37.59,
+        "CROSS PLUS CONSTRUCTION, LLC": 46.0,
+        "ANTHONY SERVICES": 50.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6447.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 37.59,
+      "bidders": {
+        "BIG STATE MAINTENANCE, INC.": 37.59,
+        "CROSS PLUS CONSTRUCTION, LLC": 46.0,
+        "ANTHONY SERVICES": 46.0
+      }
+    }
+  ]
+}

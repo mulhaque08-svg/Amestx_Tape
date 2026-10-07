@@ -1,0 +1,842 @@
+{
+  "metadata": {
+    "csj": "0915-12-716",
+    "county": "Bexar",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "STP 2024(786)HESG",
+    "projectType": "TRAFFIC SIGNAL IMPROVEMENTS",
+    "letDate": "08/02/24",
+    "engEstTotal": 1006758.2,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ELECNOR BELCO ELECTRIC, INC.",
+      "totalBidAmount": 880880.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "E-Z BEL CONSTRUCTION, LLC",
+      "totalBidAmount": 938899.32
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6021",
+      "description": "REMOVING CONC (CURB)",
+      "unit": "LF",
+      "quantity": 161.0,
+      "engEstUnit": 16.43,
+      "lowUnit": 29.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 29.0,
+        "E-Z BEL CONSTRUCTION, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0416 6031",
+      "description": "DRILL SHAFT (TRF SIG POLE) (30 IN)",
+      "unit": "LF",
+      "quantity": 110.0,
+      "engEstUnit": 324.93,
+      "lowUnit": 342.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 342.0,
+        "E-Z BEL CONSTRUCTION, LLC": 320.0
+      }
+    },
+    {
+      "itemCode": "0432 6003",
+      "description": "RIPRAP (CONC)(6 IN)",
+      "unit": "CY",
+      "quantity": 6.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 569.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 569.0,
+        "E-Z BEL CONSTRUCTION, LLC": 800.0
+      }
+    },
+    {
+      "itemCode": "0496 6030",
+      "description": "REMOVE STR (BOLLARD)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 233.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 600.0,
+        "E-Z BEL CONSTRUCTION, LLC": 700.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 90000.0,
+      "lowUnit": 25039.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 25039.0,
+        "E-Z BEL CONSTRUCTION, LLC": 60000.0
+      }
+    },
+    {
+      "itemCode": "0529 6002",
+      "description": "CONC CURB (TY II)",
+      "unit": "LF",
+      "quantity": 235.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 44.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 44.0,
+        "E-Z BEL CONSTRUCTION, LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "0531 6001",
+      "description": "CONC SIDEWALKS (4\")",
+      "unit": "SY",
+      "quantity": 172.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 131.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 131.0,
+        "E-Z BEL CONSTRUCTION, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0531 6018",
+      "description": "CURB RAMPS (TY 1)",
+      "unit": "SY",
+      "quantity": 8.0,
+      "engEstUnit": 182.97,
+      "lowUnit": 285.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 285.0,
+        "E-Z BEL CONSTRUCTION, LLC": 400.0
+      }
+    },
+    {
+      "itemCode": "0531 6019",
+      "description": "CURB RAMPS (TY 2)",
+      "unit": "SY",
+      "quantity": 111.0,
+      "engEstUnit": 161.46,
+      "lowUnit": 205.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 205.0,
+        "E-Z BEL CONSTRUCTION, LLC": 350.0
+      }
+    },
+    {
+      "itemCode": "0531 6022",
+      "description": "CURB RAMPS (TY 5)",
+      "unit": "SY",
+      "quantity": 20.0,
+      "engEstUnit": 157.24,
+      "lowUnit": 210.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 210.0,
+        "E-Z BEL CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0618 6046",
+      "description": "CONDT (PVC) (SCH 80) (2\")",
+      "unit": "LF",
+      "quantity": 540.0,
+      "engEstUnit": 23.43,
+      "lowUnit": 22.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 22.0,
+        "E-Z BEL CONSTRUCTION, LLC": 22.0
+      }
+    },
+    {
+      "itemCode": "0618 6047",
+      "description": "CONDT (PVC) (SCH 80) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 825.0,
+      "engEstUnit": 27.8,
+      "lowUnit": 32.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 32.0,
+        "E-Z BEL CONSTRUCTION, LLC": 26.0
+      }
+    },
+    {
+      "itemCode": "0618 6053",
+      "description": "CONDT (PVC) (SCH 80) (3\")",
+      "unit": "LF",
+      "quantity": 920.0,
+      "engEstUnit": 21.68,
+      "lowUnit": 26.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 26.0,
+        "E-Z BEL CONSTRUCTION, LLC": 28.0
+      }
+    },
+    {
+      "itemCode": "0618 6054",
+      "description": "CONDT (PVC) (SCH 80) (3\") (BORE)",
+      "unit": "LF",
+      "quantity": 1495.0,
+      "engEstUnit": 59.85,
+      "lowUnit": 36.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 36.0,
+        "E-Z BEL CONSTRUCTION, LLC": 35.0
+      }
+    },
+    {
+      "itemCode": "0620 6007",
+      "description": "ELEC CONDR (NO.8) BARE",
+      "unit": "LF",
+      "quantity": 3610.0,
+      "engEstUnit": 1.52,
+      "lowUnit": 1.9,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 1.9,
+        "E-Z BEL CONSTRUCTION, LLC": 1.85
+      }
+    },
+    {
+      "itemCode": "0620 6009",
+      "description": "ELEC CONDR (NO.6) BARE",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 2.16,
+      "lowUnit": 2.4,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 2.4,
+        "E-Z BEL CONSTRUCTION, LLC": 2.1
+      }
+    },
+    {
+      "itemCode": "0620 6010",
+      "description": "ELEC CONDR (NO.6) INSULATED",
+      "unit": "LF",
+      "quantity": 85.0,
+      "engEstUnit": 2.42,
+      "lowUnit": 2.4,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 2.4,
+        "E-Z BEL CONSTRUCTION, LLC": 2.4
+      }
+    },
+    {
+      "itemCode": "0621 6002",
+      "description": "TRAY CABLE (3 CONDR) (12 AWG)",
+      "unit": "LF",
+      "quantity": 705.0,
+      "engEstUnit": 3.17,
+      "lowUnit": 3.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 3.0,
+        "E-Z BEL CONSTRUCTION, LLC": 2.4
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 1700.0,
+      "lowUnit": 1672.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 1672.0,
+        "E-Z BEL CONSTRUCTION, LLC": 1600.0
+      }
+    },
+    {
+      "itemCode": "0628 6213",
+      "description": "ELC SRV TY D 120/240 100(NS)AL(E)PS(U)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 6560.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 6560.0,
+        "E-Z BEL CONSTRUCTION, LLC": 6500.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 550.0,
+      "lowUnit": 1800.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 1800.0,
+        "E-Z BEL CONSTRUCTION, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 150.0,
+        "E-Z BEL CONSTRUCTION, LLC": 135.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 55.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.8,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 0.8,
+        "E-Z BEL CONSTRUCTION, LLC": 1.55
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 59.0,
+      "engEstUnit": 1.75,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 1.0,
+        "E-Z BEL CONSTRUCTION, LLC": 3.1
+      }
+    },
+    {
+      "itemCode": "0677 6005",
+      "description": "ELIM EXT PAV MRK & MRKS (12\")",
+      "unit": "LF",
+      "quantity": 1000.0,
+      "engEstUnit": 2.9,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 1.0,
+        "E-Z BEL CONSTRUCTION, LLC": 4.65
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 665.0,
+      "engEstUnit": 6.55,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 1.0,
+        "E-Z BEL CONSTRUCTION, LLC": 9.3
+      }
+    },
+    {
+      "itemCode": "0677 6016",
+      "description": "ELIM EXT PAV MRK & MRKS (RR XING)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 143.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 143.0,
+        "E-Z BEL CONSTRUCTION, LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 1960.0,
+      "engEstUnit": 0.35,
+      "lowUnit": 0.5,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 0.5,
+        "E-Z BEL CONSTRUCTION, LLC": 0.45
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 61.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 1.0,
+        "E-Z BEL CONSTRUCTION, LLC": 0.9
+      }
+    },
+    {
+      "itemCode": "0678 6006",
+      "description": "PAV SURF PREP FOR MRK (12\")",
+      "unit": "LF",
+      "quantity": 6.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 1.0,
+        "E-Z BEL CONSTRUCTION, LLC": 1.35
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 659.0,
+      "engEstUnit": 1.85,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 1.0,
+        "E-Z BEL CONSTRUCTION, LLC": 2.7
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 40.8,
+      "lowUnit": 63.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 63.0,
+        "E-Z BEL CONSTRUCTION, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0678 6020",
+      "description": "PAV SURF PREP FOR MRK (RR XING)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 106.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 106.0,
+        "E-Z BEL CONSTRUCTION, LLC": 45.0
+      }
+    },
+    {
+      "itemCode": "0682 6001",
+      "description": "VEH SIG SEC (12\")LED(GRN)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 297.23,
+      "lowUnit": 246.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 246.0,
+        "E-Z BEL CONSTRUCTION, LLC": 280.0
+      }
+    },
+    {
+      "itemCode": "0682 6002",
+      "description": "VEH SIG SEC (12\")LED(GRN ARW)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 319.48,
+      "lowUnit": 246.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 246.0,
+        "E-Z BEL CONSTRUCTION, LLC": 280.0
+      }
+    },
+    {
+      "itemCode": "0682 6003",
+      "description": "VEH SIG SEC (12\")LED(YEL)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 309.03,
+      "lowUnit": 246.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 246.0,
+        "E-Z BEL CONSTRUCTION, LLC": 280.0
+      }
+    },
+    {
+      "itemCode": "0682 6004",
+      "description": "VEH SIG SEC (12\")LED(YEL ARW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 307.95,
+      "lowUnit": 246.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 246.0,
+        "E-Z BEL CONSTRUCTION, LLC": 280.0
+      }
+    },
+    {
+      "itemCode": "0682 6005",
+      "description": "VEH SIG SEC (12\")LED(RED)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 307.83,
+      "lowUnit": 246.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 246.0,
+        "E-Z BEL CONSTRUCTION, LLC": 280.0
+      }
+    },
+    {
+      "itemCode": "0682 6006",
+      "description": "VEH SIG SEC (12\")LED(RED ARW)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 321.41,
+      "lowUnit": 246.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 246.0,
+        "E-Z BEL CONSTRUCTION, LLC": 280.0
+      }
+    },
+    {
+      "itemCode": "0682 6018",
+      "description": "PED SIG SEC (LED)(COUNTDOWN)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 746.68,
+      "lowUnit": 462.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 462.0,
+        "E-Z BEL CONSTRUCTION, LLC": 680.0
+      }
+    },
+    {
+      "itemCode": "0682 6049",
+      "description": "BACKPLATE W/REFL BRDR(4 SEC)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 144.58,
+      "lowUnit": 451.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 451.0,
+        "E-Z BEL CONSTRUCTION, LLC": 255.0
+      }
+    },
+    {
+      "itemCode": "0682 6060",
+      "description": "BACKPLATE W/REFL BRDR(3 SEC)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 114.0,
+      "lowUnit": 275.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 275.0,
+        "E-Z BEL CONSTRUCTION, LLC": 165.0
+      }
+    },
+    {
+      "itemCode": "0684 6030",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(4 CONDR)",
+      "unit": "LF",
+      "quantity": 1480.0,
+      "engEstUnit": 2.47,
+      "lowUnit": 3.5,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 3.5,
+        "E-Z BEL CONSTRUCTION, LLC": 2.1
+      }
+    },
+    {
+      "itemCode": "0684 6035",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(9 CONDR)",
+      "unit": "LF",
+      "quantity": 4555.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 4.4,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 4.4,
+        "E-Z BEL CONSTRUCTION, LLC": 3.45
+      }
+    },
+    {
+      "itemCode": "0684 6049",
+      "description": "TRF SIG CBL (TY A)(16 AWG)(3 CONDR)",
+      "unit": "LF",
+      "quantity": 2040.0,
+      "engEstUnit": 1.25,
+      "lowUnit": 3.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 3.0,
+        "E-Z BEL CONSTRUCTION, LLC": 1.75
+      }
+    },
+    {
+      "itemCode": "0686 6026",
+      "description": "INS TRF SIG PL AM(S)1 ARM(24')ILSN",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 8500.0,
+      "lowUnit": 10962.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 10962.0,
+        "E-Z BEL CONSTRUCTION, LLC": 10250.0
+      }
+    },
+    {
+      "itemCode": "0686 6028",
+      "description": "INS TRF SIG PL AM(S)1 ARM(24')LUM&ILSN",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 8500.0,
+      "lowUnit": 13128.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 13128.0,
+        "E-Z BEL CONSTRUCTION, LLC": 12500.0
+      }
+    },
+    {
+      "itemCode": "0686 6030",
+      "description": "INS TRF SIG PL AM(S)1 ARM(28')ILSN",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 9500.0,
+      "lowUnit": 11000.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 11000.0,
+        "E-Z BEL CONSTRUCTION, LLC": 10250.0
+      }
+    },
+    {
+      "itemCode": "0686 6032",
+      "description": "INS TRF SIG PL AM(S)1 ARM(28')LUM&ILSN",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 11000.0,
+      "lowUnit": 13200.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 13200.0,
+        "E-Z BEL CONSTRUCTION, LLC": 12750.0
+      }
+    },
+    {
+      "itemCode": "0686 6036",
+      "description": "INS TRF SIG PL AM(S)1 ARM(32')LUM&ILSN",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 9500.0,
+      "lowUnit": 14300.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 14300.0,
+        "E-Z BEL CONSTRUCTION, LLC": 13500.0
+      }
+    },
+    {
+      "itemCode": "0686 6040",
+      "description": "INS TRF SIG PL AM(S)1 ARM(36')LUM&ILSN",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 12000.0,
+      "lowUnit": 15500.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 15500.0,
+        "E-Z BEL CONSTRUCTION, LLC": 14750.0
+      }
+    },
+    {
+      "itemCode": "0687 6001",
+      "description": "PED POLE ASSEMBLY",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 2630.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 2630.0,
+        "E-Z BEL CONSTRUCTION, LLC": 1800.0
+      }
+    },
+    {
+      "itemCode": "0688 6001",
+      "description": "PED DETECT PUSH BUTTON (APS)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 885.0,
+      "lowUnit": 1258.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 1258.0,
+        "E-Z BEL CONSTRUCTION, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0688 6003",
+      "description": "PED DETECTOR CONTROLLER UNIT",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 207.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 207.0,
+        "E-Z BEL CONSTRUCTION, LLC": 170.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 77.0,
+      "engEstUnit": 94.39,
+      "lowUnit": 195.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 195.0,
+        "E-Z BEL CONSTRUCTION, LLC": 60.0
+      }
+    },
+    {
+      "itemCode": "6004 6031",
+      "description": "ITS COM CBL (ETHERNET)",
+      "unit": "LF",
+      "quantity": 235.0,
+      "engEstUnit": 3.4,
+      "lowUnit": 2.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 2.0,
+        "E-Z BEL CONSTRUCTION, LLC": 3.4
+      }
+    },
+    {
+      "itemCode": "6010 6001",
+      "description": "CCTV FIELD EQUIPMENT (ANALOG)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 6500.0,
+      "lowUnit": 3500.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 3500.0,
+        "E-Z BEL CONSTRUCTION, LLC": 3500.0
+      }
+    },
+    {
+      "itemCode": "6010 6003",
+      "description": "CCTV FIELD CONTROLLER",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 150.0,
+        "E-Z BEL CONSTRUCTION, LLC": 400.0
+      }
+    },
+    {
+      "itemCode": "6010 6004",
+      "description": "CCTV MOUNT (POLE)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 340.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 340.0,
+        "E-Z BEL CONSTRUCTION, LLC": 400.0
+      }
+    },
+    {
+      "itemCode": "6027 6009",
+      "description": "GROUND BOX (ADJUST)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 500.0,
+        "E-Z BEL CONSTRUCTION, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "6058 6001",
+      "description": "BBU SYSTEM (EXTERNAL BATT CABINET)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1264.07,
+      "lowUnit": 8502.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 8502.0,
+        "E-Z BEL CONSTRUCTION, LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "6090 6001",
+      "description": "ILSN (LED) (6 D)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3302.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 3302.0,
+        "E-Z BEL CONSTRUCTION, LLC": 3500.0
+      }
+    },
+    {
+      "itemCode": "6090 6002",
+      "description": "ILSN (LED) (8 D)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 3172.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 3172.0,
+        "E-Z BEL CONSTRUCTION, LLC": 3400.0
+      }
+    },
+    {
+      "itemCode": "6437 6001",
+      "description": "FEDS PROCESSOR UNIT",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 15220.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 15220.0,
+        "E-Z BEL CONSTRUCTION, LLC": 17000.0
+      }
+    },
+    {
+      "itemCode": "6437 6002",
+      "description": "FEDS FISH EYE CAMERA ASSEMBLY",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 18000.0,
+      "lowUnit": 3373.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 3373.0,
+        "E-Z BEL CONSTRUCTION, LLC": 4100.0
+      }
+    },
+    {
+      "itemCode": "6437 6004",
+      "description": "LIFETIME FEDS DATA COLLECT & REPORTING",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 8157.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 8157.0,
+        "E-Z BEL CONSTRUCTION, LLC": 9100.0
+      }
+    },
+    {
+      "itemCode": "6437 6005",
+      "description": "FEDS ETHERNET REPEATER",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 900.0,
+        "E-Z BEL CONSTRUCTION, LLC": 1400.0
+      }
+    },
+    {
+      "itemCode": "6437 6006",
+      "description": "FEDS COMM CABLE (ETHERNET - CAT5E)",
+      "unit": "LF",
+      "quantity": 345.0,
+      "engEstUnit": 3.21,
+      "lowUnit": 2.0,
+      "bidders": {
+        "ELECNOR BELCO ELECTRIC, INC.": 2.0,
+        "E-Z BEL CONSTRUCTION, LLC": 3.0
+      }
+    }
+  ]
+}

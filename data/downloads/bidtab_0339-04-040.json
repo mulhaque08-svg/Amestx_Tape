@@ -1,0 +1,655 @@
+{
+  "metadata": {
+    "csj": "0339-04-040",
+    "county": "Hardin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2024(371)",
+    "projectType": "SURFACING/ROADWAY RESTORATION",
+    "letDate": "11/02/23",
+    "engEstTotal": 1972106.8,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 1536305.3
+    },
+    {
+      "rank": 2,
+      "vendorName": "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.",
+      "totalBidAmount": 1638683.15
+    },
+    {
+      "rank": 3,
+      "vendorName": "SELECT MAINTENANCE, L.L.C.",
+      "totalBidAmount": 2001722.14
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6021",
+      "description": "REMOVING CONC (CURB)",
+      "unit": "LF",
+      "quantity": 300.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 12.8,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 12.8,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 50.0,
+        "SELECT MAINTENANCE, L.L.C.": 8.0
+      }
+    },
+    {
+      "itemCode": "0354 6035",
+      "description": "PLANE CONC PAV(0\" TO 1\")",
+      "unit": "SY",
+      "quantity": 2330.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 5.25,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 5.25,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 10.0,
+        "SELECT MAINTENANCE, L.L.C.": 8.0
+      }
+    },
+    {
+      "itemCode": "0354 6089",
+      "description": "PLANE ASPH CONC PAV(1\" TO 2\")",
+      "unit": "SY",
+      "quantity": 27029.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 2.55,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 2.55,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 5.0,
+        "SELECT MAINTENANCE, L.L.C.": 8.0
+      }
+    },
+    {
+      "itemCode": "0361 6033",
+      "description": "FULL - DEPTH REPAIR CPCD (8\")",
+      "unit": "SY",
+      "quantity": 541.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 440.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 440.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 420.0,
+        "SELECT MAINTENANCE, L.L.C.": 350.0
+      }
+    },
+    {
+      "itemCode": "0438 6001",
+      "description": "CLEANING AND SEALING EXISTING JOINTS",
+      "unit": "LF",
+      "quantity": 30357.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 2.1,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 2.1,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 2.0,
+        "SELECT MAINTENANCE, L.L.C.": 5.5
+      }
+    },
+    {
+      "itemCode": "0479 6003",
+      "description": "ADJUSTING MANHOLES & INLETS",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 850.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 850.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 3500.0,
+        "SELECT MAINTENANCE, L.L.C.": 2000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 250000.0,
+      "lowUnit": 152000.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 152000.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 160000.0,
+        "SELECT MAINTENANCE, L.L.C.": 190000.0
+      }
+    },
+    {
+      "itemCode": "0529 6002",
+      "description": "CONC CURB (TY II)",
+      "unit": "LF",
+      "quantity": 300.0,
+      "engEstUnit": 22.5,
+      "lowUnit": 58.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 58.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 55.0,
+        "SELECT MAINTENANCE, L.L.C.": 35.0
+      }
+    },
+    {
+      "itemCode": "0530 6011",
+      "description": "INTRSCT, DRVWAYS, & TURNOUT (ACP)",
+      "unit": "SY",
+      "quantity": 1151.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 70.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 70.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 90.0,
+        "SELECT MAINTENANCE, L.L.C.": 76.0
+      }
+    },
+    {
+      "itemCode": "0560 6011",
+      "description": "MAILBOX INSTALL-S (TWW-POST) TY 4",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 325.0,
+      "lowUnit": 260.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 260.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 240.0,
+        "SELECT MAINTENANCE, L.L.C.": 250.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 585.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 585.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 450.0,
+        "SELECT MAINTENANCE, L.L.C.": 450.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 850.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 800.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 700.0,
+        "SELECT MAINTENANCE, L.L.C.": 700.0
+      }
+    },
+    {
+      "itemCode": "0644 6007",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(U)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1050.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 1050.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 1100.0,
+        "SELECT MAINTENANCE, L.L.C.": 1100.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 29.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 120.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 120.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 65.0,
+        "SELECT MAINTENANCE, L.L.C.": 60.0
+      }
+    },
+    {
+      "itemCode": "0662 6001",
+      "description": "WK ZN PAV MRK NON-REMOV (W)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 1570.0,
+      "engEstUnit": 0.65,
+      "lowUnit": 0.7,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.7,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 0.65,
+        "SELECT MAINTENANCE, L.L.C.": 0.65
+      }
+    },
+    {
+      "itemCode": "0662 6004",
+      "description": "WK ZN PAV MRK NON-REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 6171.0,
+      "engEstUnit": 0.65,
+      "lowUnit": 0.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.5,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 0.45,
+        "SELECT MAINTENANCE, L.L.C.": 0.45
+      }
+    },
+    {
+      "itemCode": "0662 6012",
+      "description": "WK ZN PAV MRK NON-REMOV (W)8\"(SLD)",
+      "unit": "LF",
+      "quantity": 309.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.05,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 1.05,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 1.0,
+        "SELECT MAINTENANCE, L.L.C.": 1.0
+      }
+    },
+    {
+      "itemCode": "0662 6016",
+      "description": "WK ZN PAV MRK NON-REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 190.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 5.8,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 5.8,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 5.5,
+        "SELECT MAINTENANCE, L.L.C.": 5.5
+      }
+    },
+    {
+      "itemCode": "0662 6017",
+      "description": "WK ZN PAV MRK NON-REMOV (W)(ARROW)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 97.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 100.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 95.0,
+        "SELECT MAINTENANCE, L.L.C.": 95.0
+      }
+    },
+    {
+      "itemCode": "0662 6029",
+      "description": "WK ZN PAV MRK NON-REMOV(W)(WORD)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 93.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 100.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 95.0,
+        "SELECT MAINTENANCE, L.L.C.": 95.0
+      }
+    },
+    {
+      "itemCode": "0662 6032",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 1090.0,
+      "engEstUnit": 0.65,
+      "lowUnit": 0.7,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.7,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 0.65,
+        "SELECT MAINTENANCE, L.L.C.": 0.65
+      }
+    },
+    {
+      "itemCode": "0662 6034",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 6522.0,
+      "engEstUnit": 0.65,
+      "lowUnit": 0.6,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.6,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 0.45,
+        "SELECT MAINTENANCE, L.L.C.": 0.45
+      }
+    },
+    {
+      "itemCode": "0662 6109",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY W",
+      "unit": "EA",
+      "quantity": 641.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 4.3,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 4.3,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 1.5,
+        "SELECT MAINTENANCE, L.L.C.": 1.0
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 344.0,
+      "engEstUnit": 0.4,
+      "lowUnit": 2.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 2.5,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 1.5,
+        "SELECT MAINTENANCE, L.L.C.": 1.0
+      }
+    },
+    {
+      "itemCode": "0668 6076",
+      "description": "PREFAB PAV MRK TY C (W) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 299.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 17.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 17.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 16.0,
+        "SELECT MAINTENANCE, L.L.C.": 16.0
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 210.0,
+      "lowUnit": 270.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 270.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 255.0,
+        "SELECT MAINTENANCE, L.L.C.": 255.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 295.0,
+      "lowUnit": 390.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 390.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 370.0,
+        "SELECT MAINTENANCE, L.L.C.": 370.0
+      }
+    },
+    {
+      "itemCode": "0668 6092",
+      "description": "PREFAB PAV MRK TY C (W) (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 42.0,
+      "lowUnit": 62.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 62.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 58.0,
+        "SELECT MAINTENANCE, L.L.C.": 58.0
+      }
+    },
+    {
+      "itemCode": "0668 6108",
+      "description": "PREFAB PAV MRK TY C (Y) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 226.0,
+      "engEstUnit": 36.0,
+      "lowUnit": 17.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 17.5,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 16.5,
+        "SELECT MAINTENANCE, L.L.C.": 16.5
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 105.0,
+      "engEstUnit": 4.25,
+      "lowUnit": 7.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 7.5,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 5.25,
+        "SELECT MAINTENANCE, L.L.C.": 5.25
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 291.0,
+      "engEstUnit": 4.15,
+      "lowUnit": 8.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 8.5,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 5.25,
+        "SELECT MAINTENANCE, L.L.C.": 5.25
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 1899.0,
+      "engEstUnit": 1.1,
+      "lowUnit": 1.05,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 1.05,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 0.5,
+        "SELECT MAINTENANCE, L.L.C.": 0.5
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 305.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.05,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 1.05,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 1.0,
+        "SELECT MAINTENANCE, L.L.C.": 1.0
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 109.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 3.2,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 3.2,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 3.0,
+        "SELECT MAINTENANCE, L.L.C.": 4.11
+      }
+    },
+    {
+      "itemCode": "0677 6008",
+      "description": "ELIM EXT PAV MRK & MRKS (ARROW)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 105.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 105.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 40.0,
+        "SELECT MAINTENANCE, L.L.C.": 40.0
+      }
+    },
+    {
+      "itemCode": "0677 6012",
+      "description": "ELIM EXT PAV MRK & MRKS (WORD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 66.0,
+      "lowUnit": 48.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 48.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 40.0,
+        "SELECT MAINTENANCE, L.L.C.": 40.0
+      }
+    },
+    {
+      "itemCode": "0677 6019",
+      "description": "ELIM EXT PAV MRK & MRKS (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 48.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 48.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 20.0,
+        "SELECT MAINTENANCE, L.L.C.": 20.0
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 1899.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.21,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.21,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 0.1,
+        "SELECT MAINTENANCE, L.L.C.": 0.1
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 305.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.21,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.21,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 0.2,
+        "SELECT MAINTENANCE, L.L.C.": 0.2
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 109.0,
+      "engEstUnit": 1.05,
+      "lowUnit": 0.54,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 0.54,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 0.6,
+        "SELECT MAINTENANCE, L.L.C.": 0.6
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 52.0,
+      "lowUnit": 8.55,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 8.55,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 7.0,
+        "SELECT MAINTENANCE, L.L.C.": 7.0
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 8.55,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 8.55,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 7.0,
+        "SELECT MAINTENANCE, L.L.C.": 7.0
+      }
+    },
+    {
+      "itemCode": "0678 6023",
+      "description": "PAV SURF PREP FOR MRK (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 63.0,
+      "lowUnit": 5.35,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 5.35,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 5.0,
+        "SELECT MAINTENANCE, L.L.C.": 5.0
+      }
+    },
+    {
+      "itemCode": "0720 6001",
+      "description": "SPALLING REPAIR (HYDRAULIC CEMENT)",
+      "unit": "CF",
+      "quantity": 200.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 320.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 320.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 310.0,
+        "SELECT MAINTENANCE, L.L.C.": 150.0
+      }
+    },
+    {
+      "itemCode": "0720 6003",
+      "description": "SPALLING REPAIR (POLYMERIC) (SEMIRIGID)",
+      "unit": "GAL",
+      "quantity": 1496.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 83.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 83.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 100.0,
+        "SELECT MAINTENANCE, L.L.C.": 85.0
+      }
+    },
+    {
+      "itemCode": "3081 6007",
+      "description": "TOM-C PG76-22 SAC-A",
+      "unit": "TON",
+      "quantity": 1527.0,
+      "engEstUnit": 260.0,
+      "lowUnit": 215.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 215.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 225.0,
+        "SELECT MAINTENANCE, L.L.C.": 230.0
+      }
+    },
+    {
+      "itemCode": "3081 6015",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 2703.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 10.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 5.0,
+        "SELECT MAINTENANCE, L.L.C.": 11.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 10000.0,
+        "CORNERSTONE PAVING AND CONSTRUCTION, L.L.C.": 18000.0,
+        "SELECT MAINTENANCE, L.L.C.": 32000.0
+      }
+    }
+  ]
+}

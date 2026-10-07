@@ -1,0 +1,785 @@
+{
+  "metadata": {
+    "csj": "1022-01-034",
+    "county": "Chambers",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2021(469)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "10/07/21",
+    "engEstTotal": 1582874.15,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ISI CONTRACTING, INC.",
+      "totalBidAmount": 1598096.25
+    },
+    {
+      "rank": 2,
+      "vendorName": "RAGLE CONSTRUCTION, INC.",
+      "totalBidAmount": 2346153.95
+    },
+    {
+      "rank": 3,
+      "vendorName": "EARTH BUILDERS, L.P.",
+      "totalBidAmount": 2641170.6
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 2.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 2500.0,
+        "RAGLE CONSTRUCTION, INC.": 75000.0,
+        "EARTH BUILDERS, L.P.": 30000.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 481.0,
+      "engEstUnit": 19.6,
+      "lowUnit": 7.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 7.0,
+        "RAGLE CONSTRUCTION, INC.": 70.0,
+        "EARTH BUILDERS, L.P.": 30.0
+      }
+    },
+    {
+      "itemCode": "0132 6005",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 634.0,
+      "engEstUnit": 16.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 35.0,
+        "RAGLE CONSTRUCTION, INC.": 30.0,
+        "EARTH BUILDERS, L.P.": 55.0
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 819.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 1.3,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 1.3,
+        "RAGLE CONSTRUCTION, INC.": 1.25,
+        "EARTH BUILDERS, L.P.": 2.5
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 819.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 1.3,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 1.3,
+        "RAGLE CONSTRUCTION, INC.": 1.25,
+        "EARTH BUILDERS, L.P.": 2.5
+      }
+    },
+    {
+      "itemCode": "0164 6023",
+      "description": "CELL FBR MLCH SEED(PERM)(RURAL)(CLAY)",
+      "unit": "SY",
+      "quantity": 1637.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 1.7,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 1.7,
+        "RAGLE CONSTRUCTION, INC.": 1.55,
+        "EARTH BUILDERS, L.P.": 3.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 33.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 13.5,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 13.5,
+        "RAGLE CONSTRUCTION, INC.": 74.42,
+        "EARTH BUILDERS, L.P.": 250.0
+      }
+    },
+    {
+      "itemCode": "0169 6003",
+      "description": "SOIL RETENTION BLANKETS (CL 1) (TY C)",
+      "unit": "SY",
+      "quantity": 328.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 6.5,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 6.5,
+        "RAGLE CONSTRUCTION, INC.": 5.75,
+        "EARTH BUILDERS, L.P.": 10.0
+      }
+    },
+    {
+      "itemCode": "0216 6001",
+      "description": "PROOF ROLLING",
+      "unit": "HR",
+      "quantity": 40.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 84.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 84.0,
+        "RAGLE CONSTRUCTION, INC.": 60.0,
+        "EARTH BUILDERS, L.P.": 125.0
+      }
+    },
+    {
+      "itemCode": "0260 6012",
+      "description": "LIME(HYD,COM OR QK)(SLRY)OR QK(DRY)",
+      "unit": "TON",
+      "quantity": 51.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 190.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 190.0,
+        "RAGLE CONSTRUCTION, INC.": 180.0,
+        "EARTH BUILDERS, L.P.": 300.0
+      }
+    },
+    {
+      "itemCode": "0260 6079",
+      "description": "LIME TRT (SUBGRADE)(6\")",
+      "unit": "SY",
+      "quantity": 3112.0,
+      "engEstUnit": 1.8,
+      "lowUnit": 5.5,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 5.5,
+        "RAGLE CONSTRUCTION, INC.": 8.0,
+        "EARTH BUILDERS, L.P.": 22.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 92.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 35.0,
+        "RAGLE CONSTRUCTION, INC.": 110.0,
+        "EARTH BUILDERS, L.P.": 250.0
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 687.0,
+      "engEstUnit": 28.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 8.0,
+        "RAGLE CONSTRUCTION, INC.": 30.0,
+        "EARTH BUILDERS, L.P.": 45.0
+      }
+    },
+    {
+      "itemCode": "0403 6006",
+      "description": "TEMPORARY SPL SHORING (COFFERDAM)",
+      "unit": "SF",
+      "quantity": 2245.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 2.0,
+        "RAGLE CONSTRUCTION, INC.": 60.0,
+        "EARTH BUILDERS, L.P.": 75.0
+      }
+    },
+    {
+      "itemCode": "0409 6002",
+      "description": "PRESTR CONC PIL (18 IN SQ)",
+      "unit": "LF",
+      "quantity": 1873.0,
+      "engEstUnit": 145.0,
+      "lowUnit": 115.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 115.0,
+        "RAGLE CONSTRUCTION, INC.": 147.0,
+        "EARTH BUILDERS, L.P.": 150.0
+      }
+    },
+    {
+      "itemCode": "0420 6011",
+      "description": "CL B CONC (FLUME)",
+      "unit": "CY",
+      "quantity": 2.2,
+      "engEstUnit": 500.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 1200.0,
+        "RAGLE CONSTRUCTION, INC.": 1000.0,
+        "EARTH BUILDERS, L.P.": 1600.0
+      }
+    },
+    {
+      "itemCode": "0420 6013",
+      "description": "CL C CONC (ABUT)",
+      "unit": "CY",
+      "quantity": 45.5,
+      "engEstUnit": 1300.0,
+      "lowUnit": 700.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 700.0,
+        "RAGLE CONSTRUCTION, INC.": 1400.0,
+        "EARTH BUILDERS, L.P.": 2600.0
+      }
+    },
+    {
+      "itemCode": "0422 6005",
+      "description": "REINF CONC SLAB (BOX BEAM)",
+      "unit": "SF",
+      "quantity": 2569.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 11.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 11.0,
+        "RAGLE CONSTRUCTION, INC.": 30.0,
+        "EARTH BUILDERS, L.P.": 35.0
+      }
+    },
+    {
+      "itemCode": "0422 6015",
+      "description": "APPROACH SLAB",
+      "unit": "CY",
+      "quantity": 51.6,
+      "engEstUnit": 350.0,
+      "lowUnit": 730.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 730.0,
+        "RAGLE CONSTRUCTION, INC.": 650.0,
+        "EARTH BUILDERS, L.P.": 900.0
+      }
+    },
+    {
+      "itemCode": "0422 6023",
+      "description": "SHEAR KEY",
+      "unit": "CY",
+      "quantity": 13.3,
+      "engEstUnit": 250.0,
+      "lowUnit": 590.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 590.0,
+        "RAGLE CONSTRUCTION, INC.": 250.0,
+        "EARTH BUILDERS, L.P.": 650.0
+      }
+    },
+    {
+      "itemCode": "0423 6005",
+      "description": "RETAINING WALL (SPREAD FOOTING)",
+      "unit": "SF",
+      "quantity": 1260.0,
+      "engEstUnit": 77.0,
+      "lowUnit": 88.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 88.0,
+        "RAGLE CONSTRUCTION, INC.": 110.0,
+        "EARTH BUILDERS, L.P.": 190.0
+      }
+    },
+    {
+      "itemCode": "0425 6001",
+      "description": "PRESTR CONC BOX BEAM (4B20)",
+      "unit": "LF",
+      "quantity": 447.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 165.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 165.0,
+        "RAGLE CONSTRUCTION, INC.": 210.0,
+        "EARTH BUILDERS, L.P.": 330.0
+      }
+    },
+    {
+      "itemCode": "0425 6002",
+      "description": "PRESTR CONC BOX BEAM (5B20)",
+      "unit": "LF",
+      "quantity": 149.0,
+      "engEstUnit": 210.0,
+      "lowUnit": 165.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 165.0,
+        "RAGLE CONSTRUCTION, INC.": 250.0,
+        "EARTH BUILDERS, L.P.": 330.0
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 1.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 5000.0,
+        "RAGLE CONSTRUCTION, INC.": 1500.0,
+        "EARTH BUILDERS, L.P.": 800.0
+      }
+    },
+    {
+      "itemCode": "0432 6024",
+      "description": "RIPRAP (STONE COMMON)(DRY)(12 IN)",
+      "unit": "CY",
+      "quantity": 227.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 195.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 195.0,
+        "RAGLE CONSTRUCTION, INC.": 180.0,
+        "EARTH BUILDERS, L.P.": 150.0
+      }
+    },
+    {
+      "itemCode": "0432 6026",
+      "description": "RIPRAP (STONE COMMON)(DRY)(18 IN)",
+      "unit": "CY",
+      "quantity": 190.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 405.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 405.0,
+        "RAGLE CONSTRUCTION, INC.": 180.0,
+        "EARTH BUILDERS, L.P.": 150.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 38.0,
+      "engEstUnit": 520.0,
+      "lowUnit": 842.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 842.0,
+        "RAGLE CONSTRUCTION, INC.": 500.0,
+        "EARTH BUILDERS, L.P.": 650.0
+      }
+    },
+    {
+      "itemCode": "0450 6006",
+      "description": "RAIL (TY T223)",
+      "unit": "LF",
+      "quantity": 182.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 190.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 190.0,
+        "RAGLE CONSTRUCTION, INC.": 150.0,
+        "EARTH BUILDERS, L.P.": 180.0
+      }
+    },
+    {
+      "itemCode": "0454 6004",
+      "description": "ARMOR JOINT (SEALED)",
+      "unit": "LF",
+      "quantity": 61.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 170.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 170.0,
+        "RAGLE CONSTRUCTION, INC.": 130.0,
+        "EARTH BUILDERS, L.P.": 150.0
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 36000.0,
+      "lowUnit": 30000.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 30000.0,
+        "RAGLE CONSTRUCTION, INC.": 198000.0,
+        "EARTH BUILDERS, L.P.": 65000.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 148000.0,
+      "lowUnit": 159000.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 159000.0,
+        "RAGLE CONSTRUCTION, INC.": 230000.0,
+        "EARTH BUILDERS, L.P.": 275000.0
+      }
+    },
+    {
+      "itemCode": "0510 6003",
+      "description": "ONE-WAY TRAF CONT (PORT TRAF SIG)",
+      "unit": "MO",
+      "quantity": 11.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 1850.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 1850.0,
+        "RAGLE CONSTRUCTION, INC.": 4000.0,
+        "EARTH BUILDERS, L.P.": 5500.0
+      }
+    },
+    {
+      "itemCode": "0512 6001",
+      "description": "PORT CTB (FUR & INST)(SGL SLOPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 600.0,
+      "engEstUnit": 10.5,
+      "lowUnit": 150.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 150.0,
+        "RAGLE CONSTRUCTION, INC.": 30.0,
+        "EARTH BUILDERS, L.P.": 90.0
+      }
+    },
+    {
+      "itemCode": "0512 6025",
+      "description": "PORT CTB (MOVE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 600.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 5.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 5.0,
+        "RAGLE CONSTRUCTION, INC.": 5.0,
+        "EARTH BUILDERS, L.P.": 20.0
+      }
+    },
+    {
+      "itemCode": "0512 6049",
+      "description": "PORT CTB (REMOVE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 600.0,
+      "engEstUnit": 5.4,
+      "lowUnit": 16.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 16.0,
+        "RAGLE CONSTRUCTION, INC.": 15.0,
+        "EARTH BUILDERS, L.P.": 25.0
+      }
+    },
+    {
+      "itemCode": "0533 6004",
+      "description": "RUMBLE STRIPS (CENTERLINE) ASPHALT",
+      "unit": "LF",
+      "quantity": 815.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 3.1,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 3.1,
+        "RAGLE CONSTRUCTION, INC.": 1.0,
+        "EARTH BUILDERS, L.P.": 10.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 400.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 6.0,
+        "RAGLE CONSTRUCTION, INC.": 1.0,
+        "EARTH BUILDERS, L.P.": 5.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 2700.0,
+      "lowUnit": 2750.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 2750.0,
+        "RAGLE CONSTRUCTION, INC.": 3500.0,
+        "EARTH BUILDERS, L.P.": 3500.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 305.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 305.0,
+        "RAGLE CONSTRUCTION, INC.": 225.0,
+        "EARTH BUILDERS, L.P.": 350.0
+      }
+    },
+    {
+      "itemCode": "0545 6003",
+      "description": "CRASH CUSH ATTEN (MOVE & RESET)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1950.0,
+      "lowUnit": 674.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 674.0,
+        "RAGLE CONSTRUCTION, INC.": 1000.0,
+        "EARTH BUILDERS, L.P.": 3000.0
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 674.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 674.0,
+        "RAGLE CONSTRUCTION, INC.": 600.0,
+        "EARTH BUILDERS, L.P.": 3000.0
+      }
+    },
+    {
+      "itemCode": "0545 6019",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 9000.0,
+      "lowUnit": 20000.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 20000.0,
+        "RAGLE CONSTRUCTION, INC.": 9150.0,
+        "EARTH BUILDERS, L.P.": 14000.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 360.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 360.0,
+        "RAGLE CONSTRUCTION, INC.": 550.0,
+        "EARTH BUILDERS, L.P.": 800.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 790.0,
+      "lowUnit": 360.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 360.0,
+        "RAGLE CONSTRUCTION, INC.": 650.0,
+        "EARTH BUILDERS, L.P.": 900.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 310.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 310.0,
+        "RAGLE CONSTRUCTION, INC.": 65.0,
+        "EARTH BUILDERS, L.P.": 150.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 17.0,
+      "lowUnit": 16.5,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 16.5,
+        "RAGLE CONSTRUCTION, INC.": 25.0,
+        "EARTH BUILDERS, L.P.": 25.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 29.0,
+      "lowUnit": 16.5,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 16.5,
+        "RAGLE CONSTRUCTION, INC.": 45.0,
+        "EARTH BUILDERS, L.P.": 35.0
+      }
+    },
+    {
+      "itemCode": "0662 6004",
+      "description": "WK ZN PAV MRK NON-REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 994.0,
+      "engEstUnit": 0.35,
+      "lowUnit": 0.55,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 0.55,
+        "RAGLE CONSTRUCTION, INC.": 0.5,
+        "EARTH BUILDERS, L.P.": 3.5
+      }
+    },
+    {
+      "itemCode": "0662 6063",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 2829.0,
+      "engEstUnit": 1.05,
+      "lowUnit": 1.55,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 1.55,
+        "RAGLE CONSTRUCTION, INC.": 1.5,
+        "EARTH BUILDERS, L.P.": 2.0
+      }
+    },
+    {
+      "itemCode": "0662 6075",
+      "description": "WK ZN PAV MRK REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 24.0,
+      "engEstUnit": 8.05,
+      "lowUnit": 10.5,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 10.5,
+        "RAGLE CONSTRUCTION, INC.": 10.0,
+        "EARTH BUILDERS, L.P.": 25.0
+      }
+    },
+    {
+      "itemCode": "0662 6095",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 9600.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.55,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 1.55,
+        "RAGLE CONSTRUCTION, INC.": 1.5,
+        "EARTH BUILDERS, L.P.": 1.3
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 78.0,
+      "engEstUnit": 1.4,
+      "lowUnit": 8.5,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 8.5,
+        "RAGLE CONSTRUCTION, INC.": 1.0,
+        "EARTH BUILDERS, L.P.": 4.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 138.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 5.15,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 5.15,
+        "RAGLE CONSTRUCTION, INC.": 5.0,
+        "EARTH BUILDERS, L.P.": 10.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 6958.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.55,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 0.55,
+        "RAGLE CONSTRUCTION, INC.": 0.5,
+        "EARTH BUILDERS, L.P.": 0.7
+      }
+    },
+    {
+      "itemCode": "0678 6001",
+      "description": "PAV SURF PREP FOR MRK (4\")",
+      "unit": "LF",
+      "quantity": 9374.0,
+      "engEstUnit": 0.1,
+      "lowUnit": 0.05,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 0.05,
+        "RAGLE CONSTRUCTION, INC.": 0.01,
+        "EARTH BUILDERS, L.P.": 0.7
+      }
+    },
+    {
+      "itemCode": "5048 6002",
+      "description": "FLOATING TURBIDITY BARRIER(FUR & INST)",
+      "unit": "LF",
+      "quantity": 2017.0,
+      "engEstUnit": 49.0,
+      "lowUnit": 3.4,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 3.4,
+        "RAGLE CONSTRUCTION, INC.": 20.0,
+        "EARTH BUILDERS, L.P.": 10.0
+      }
+    },
+    {
+      "itemCode": "5048 6003",
+      "description": "FLOATING TURBIDITY BARRIER (REMOVE)",
+      "unit": "LF",
+      "quantity": 2017.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 0.3,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 0.3,
+        "RAGLE CONSTRUCTION, INC.": 10.0,
+        "EARTH BUILDERS, L.P.": 1.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 6000.0,
+      "bidders": {
+        "ISI CONTRACTING, INC.": 6000.0,
+        "RAGLE CONSTRUCTION, INC.": 3000.0,
+        "EARTH BUILDERS, L.P.": 21000.0
+      }
+    }
+  ]
+}

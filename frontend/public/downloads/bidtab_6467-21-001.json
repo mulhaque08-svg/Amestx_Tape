@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6467-21-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646721001",
+    "projectType": "EMULSION",
+    "letDate": "08/07/24",
+    "engEstTotal": 48500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 46109.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "WRIGHT ASPHALT PRODUCTS COMPANY LLC",
+      "totalBidAmount": 48300.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6184",
+      "description": "ASPH (RC-250) (DEL)  (SITE 1)",
+      "unit": "TON",
+      "quantity": 50.0,
+      "engEstUnit": 970.0,
+      "lowUnit": 922.18,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 922.18,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 966.0
+      }
+    }
+  ]
+}

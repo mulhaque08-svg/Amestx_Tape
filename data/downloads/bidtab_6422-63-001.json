@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6422-63-001",
+    "county": "Walker",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642263001",
+    "projectType": "HOT MIX",
+    "letDate": "12/01/22",
+    "engEstTotal": 753000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 678200.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 714550.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "WALLER COUNTY ASPHALT INC.",
+      "totalBidAmount": 822100.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "BIG CREEK CONSTRUCTION, LTD.",
+      "totalBidAmount": 857000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 83.5,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 83.5,
+        "TEXAS MATERIALS GROUP, INC.": 85.0,
+        "WALLER COUNTY ASPHALT INC.": 89.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 85.0
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 7000.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 94.5,
+      "bidders": {
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 94.5,
+        "TEXAS MATERIALS GROUP, INC.": 99.65,
+        "WALLER COUNTY ASPHALT INC.": 114.9,
+        "BIG CREEK CONSTRUCTION, LTD.": 120.0
+      }
+    }
+  ]
+}

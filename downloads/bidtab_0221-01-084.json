@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "0221-01-084",
+    "county": "Lamar",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2024(065)",
+    "projectType": "MAINTENANCE & OPERATIONS PROJECT",
+    "letDate": "09/06/23",
+    "engEstTotal": 2399103.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "A. L. HELMCAMP, INC.",
+      "totalBidAmount": 2221279.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 2779840.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 2792180.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "CATOCON, INC.",
+      "totalBidAmount": 3104960.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 218100.0,
+      "lowUnit": 200000.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 200000.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 1100000.0,
+        "FNH CONSTRUCTION, LLC": 200000.0,
+        "CATOCON, INC.": 275000.0
+      }
+    },
+    {
+      "itemCode": "0752 6015",
+      "description": "TREE AND BRUSH REMOVAL",
+      "unit": "AC",
+      "quantity": 108.36,
+      "engEstUnit": 18000.0,
+      "lowUnit": 16500.0,
+      "bidders": {
+        "A. L. HELMCAMP, INC.": 16500.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 13000.0,
+        "FNH CONSTRUCTION, LLC": 21000.0,
+        "CATOCON, INC.": 22000.0
+      }
+    }
+  ]
+}

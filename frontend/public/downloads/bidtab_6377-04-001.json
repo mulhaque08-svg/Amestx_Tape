@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6377-04-001",
+    "county": "Kimble",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637704001",
+    "projectType": "ASPHALT",
+    "letDate": "03/09/21",
+    "engEstTotal": 177384.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "WRIGHT ASPHALT PRODUCTS COMPANY LLC",
+      "totalBidAmount": 189348.3
+    },
+    {
+      "rank": 2,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 196536.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CLEVELAND ASPHALT PRODUCTS, INC.",
+      "totalBidAmount": 244530.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6002",
+      "description": "CUTBACK ASPHALT (MC-30)(DELIVERY)",
+      "unit": "GAL",
+      "quantity": 28500.0,
+      "engEstUnit": 2.86,
+      "lowUnit": 3.186,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.186,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.16,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 4.2
+      }
+    },
+    {
+      "itemCode": "8010 6016",
+      "description": "ASPH (MC-800)(DEL)(SITE 1)",
+      "unit": "GAL",
+      "quantity": 5700.0,
+      "engEstUnit": 2.77,
+      "lowUnit": 2.834,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 2.834,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.92,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 3.65
+      }
+    },
+    {
+      "itemCode": "8010 6017",
+      "description": "ASPH (MC-800)(DEL)(SITE 2)",
+      "unit": "GAL",
+      "quantity": 17100.0,
+      "engEstUnit": 2.79,
+      "lowUnit": 2.919,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 2.919,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.94,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 3.65
+      }
+    },
+    {
+      "itemCode": "8010 6018",
+      "description": "ASPH (MC-800)(DEL)(SITE 4)",
+      "unit": "GAL",
+      "quantity": 11400.0,
+      "engEstUnit": 2.84,
+      "lowUnit": 2.849,
+      "bidders": {
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 2.849,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.97,
+        "CLEVELAND ASPHALT PRODUCTS, INC.": 3.65
+      }
+    }
+  ]
+}

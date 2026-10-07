@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6429-20-001",
+    "county": "Trinity",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642920001",
+    "projectType": "AGGREGATE GRADE 4 & 5",
+    "letDate": "12/20/22",
+    "engEstTotal": 74221.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ARCOSA LWS, LLC",
+      "totalBidAmount": 81600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6197",
+      "description": "AGGR (TY L GR 4) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 108.07,
+      "lowUnit": 120.0,
+      "bidders": {
+        "ARCOSA LWS, LLC": 120.0
+      }
+    },
+    {
+      "itemCode": "8039 6211",
+      "description": "AGGR (TY L GR 5) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 100.93,
+      "lowUnit": 108.0,
+      "bidders": {
+        "ARCOSA LWS, LLC": 108.0
+      }
+    }
+  ]
+}

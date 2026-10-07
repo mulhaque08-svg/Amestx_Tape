@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6406-79-001",
+    "county": "Kaufman",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640679001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/09/22",
+    "engEstTotal": 188124.4,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 109295.2
+    },
+    {
+      "rank": 2,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 148865.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 202584.76
+    },
+    {
+      "rank": 4,
+      "vendorName": "HARRIS TRUCKING SERVICE, LLC",
+      "totalBidAmount": 256976.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0,
+        "D & M CONTRACTORS, LLC": 2000.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "HARRIS TRUCKING SERVICE, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 28.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0,
+        "D & M CONTRACTORS, LLC": 0.5,
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "HARRIS TRUCKING SERVICE, LLC": 1.0
+      }
+    }
+  ]
+}

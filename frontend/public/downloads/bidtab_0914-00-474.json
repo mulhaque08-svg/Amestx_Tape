@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "0914-00-474",
+    "county": "Travis",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 914-00-474",
+    "projectType": "PREVENTIVE MAINTENANCE",
+    "letDate": "01/05/23",
+    "engEstTotal": 570986.37,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 124791.94
+    },
+    {
+      "rank": 2,
+      "vendorName": "D. I. J. CONSTRUCTION, INC.",
+      "totalBidAmount": 250924.55
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 39527.22,
+      "lowUnit": 4000.0,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 4000.0,
+        "D. I. J. CONSTRUCTION, INC.": 25000.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 505.0,
+      "engEstUnit": 4.86,
+      "lowUnit": 4.0,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 4.0,
+        "D. I. J. CONSTRUCTION, INC.": 7.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 2376.0,
+      "engEstUnit": 3.75,
+      "lowUnit": 4.0,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 4.0,
+        "D. I. J. CONSTRUCTION, INC.": 7.0
+      }
+    }
+  ]
+}

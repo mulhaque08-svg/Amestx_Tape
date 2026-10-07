@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6369-16-001",
+    "county": "Williamson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 636916001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/10/21",
+    "engEstTotal": 232922.25,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 204487.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 264783.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 37176.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CRACKSEAL OF TEXAS, LLC": 1.0,
+        "D & M CONTRACTORS, LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 32.0,
+      "engEstUnit": 113.0,
+      "lowUnit": 0.5,
+      "bidders": {
+        "CRACKSEAL OF TEXAS, LLC": 0.5,
+        "D & M CONTRACTORS, LLC": 75.0
+      }
+    }
+  ]
+}

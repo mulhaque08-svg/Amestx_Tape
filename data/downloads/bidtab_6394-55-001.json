@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6394-55-001",
+    "county": "Brown",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639455001",
+    "projectType": "MILLING (CALL-OUT) (KNOWN & UNKNOWN LOCATIONS)",
+    "letDate": "03/16/22",
+    "engEstTotal": 296523.03,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEX OP CONSTRUCTION, LP",
+      "totalBidAmount": 148040.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DUSTROL, INC.",
+      "totalBidAmount": 230040.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0354 6002",
+      "description": "PLAN & TEXT ASPH CONC PAV(0\" TO 2\")",
+      "unit": "SY",
+      "quantity": 86000.0,
+      "engEstUnit": 3.05,
+      "lowUnit": 1.29,
+      "bidders": {
+        "TEX OP CONSTRUCTION, LP": 1.29,
+        "DUSTROL, INC.": 2.49
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 22271.43,
+      "lowUnit": 8800.0,
+      "bidders": {
+        "TEX OP CONSTRUCTION, LP": 8800.0,
+        "DUSTROL, INC.": 2500.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 5900.0,
+      "bidders": {
+        "TEX OP CONSTRUCTION, LP": 5900.0,
+        "DUSTROL, INC.": 2500.0
+      }
+    },
+    {
+      "itemCode": "0662 6109",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY W",
+      "unit": "EA",
+      "quantity": 1500.0,
+      "engEstUnit": 1.28,
+      "lowUnit": 1.0,
+      "bidders": {
+        "TEX OP CONSTRUCTION, LP": 1.0,
+        "DUSTROL, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 1500.0,
+      "engEstUnit": 0.46,
+      "lowUnit": 1.0,
+      "bidders": {
+        "TEX OP CONSTRUCTION, LP": 1.0,
+        "DUSTROL, INC.": 1.0
+      }
+    }
+  ]
+}

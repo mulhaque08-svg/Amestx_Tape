@@ -1,0 +1,778 @@
+{
+  "metadata": {
+    "csj": "0028-01-105",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 28-1-105",
+    "projectType": "SURFACING/ROADWAY RESTORATION",
+    "letDate": "01/04/24",
+    "engEstTotal": 9805574.23,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DURWOOD GREENE CONSTRUCTION CO.",
+      "totalBidAmount": 8121312.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 8557641.94
+    },
+    {
+      "rank": 3,
+      "vendorName": "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC",
+      "totalBidAmount": 10789631.96
+    },
+    {
+      "rank": 4,
+      "vendorName": "JAMES CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 10948945.07
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6023",
+      "description": "REMOVING CONC (CTB)",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 80.0,
+        "TEXAS MATERIALS GROUP, INC.": 41.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 131.27,
+        "JAMES CONSTRUCTION GROUP, LLC": 205.0
+      }
+    },
+    {
+      "itemCode": "0104 6054",
+      "description": "REMOVING CONCRETE(MOW STRIP)",
+      "unit": "LF",
+      "quantity": 42.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 24.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 24.0,
+        "TEXAS MATERIALS GROUP, INC.": 74.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 212.06,
+        "JAMES CONSTRUCTION GROUP, LLC": 475.0
+      }
+    },
+    {
+      "itemCode": "0134 6004",
+      "description": "BACKFILL (TY A OR B)",
+      "unit": "STA",
+      "quantity": 462.0,
+      "engEstUnit": 202.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 150.0,
+        "TEXAS MATERIALS GROUP, INC.": 209.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 351.93,
+        "JAMES CONSTRUCTION GROUP, LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0351 6025",
+      "description": "FLEX PAVEMENT STRUCTURE REPAIR (8\"-15\")",
+      "unit": "SY",
+      "quantity": 486.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 200.0,
+        "TEXAS MATERIALS GROUP, INC.": 137.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 177.09,
+        "JAMES CONSTRUCTION GROUP, LLC": 247.0
+      }
+    },
+    {
+      "itemCode": "0354 6113",
+      "description": "PLAN & TEXT ASPH CONC PAV (2\")",
+      "unit": "SY",
+      "quantity": 298019.0,
+      "engEstUnit": 2.2,
+      "lowUnit": 2.1,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 2.1,
+        "TEXAS MATERIALS GROUP, INC.": 1.4,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 1.68,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.67
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 137.0,
+      "engEstUnit": 540.0,
+      "lowUnit": 830.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 830.0,
+        "TEXAS MATERIALS GROUP, INC.": 825.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 434.71,
+        "JAMES CONSTRUCTION GROUP, LLC": 425.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 2038.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 2.5,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 2.5,
+        "TEXAS MATERIALS GROUP, INC.": 2.1,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 2.3,
+        "JAMES CONSTRUCTION GROUP, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0542 6004",
+      "description": "RM MTL BM GD FENCE TRANS (THRIE-BEAM)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 280.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 300.0,
+        "TEXAS MATERIALS GROUP, INC.": 265.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 255.71,
+        "JAMES CONSTRUCTION GROUP, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 3100.0,
+      "lowUnit": 3500.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 3500.0,
+        "TEXAS MATERIALS GROUP, INC.": 2965.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 3191.25,
+        "JAMES CONSTRUCTION GROUP, LLC": 2750.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 26.0,
+      "engEstUnit": 320.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 300.0,
+        "TEXAS MATERIALS GROUP, INC.": 265.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 255.71,
+        "JAMES CONSTRUCTION GROUP, LLC": 225.0
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 2500.0,
+        "TEXAS MATERIALS GROUP, INC.": 1589.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 2250.24,
+        "JAMES CONSTRUCTION GROUP, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0545 6007",
+      "description": "CRASH CUSH ATTEN (INSTL)(L)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 30000.0,
+      "lowUnit": 32000.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 32000.0,
+        "TEXAS MATERIALS GROUP, INC.": 34900.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 26849.44,
+        "JAMES CONSTRUCTION GROUP, LLC": 26500.0
+      }
+    },
+    {
+      "itemCode": "0618 6046",
+      "description": "CONDT (PVC) (SCH 80) (2\")",
+      "unit": "LF",
+      "quantity": 285.0,
+      "engEstUnit": 10.75,
+      "lowUnit": 20.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 20.0,
+        "TEXAS MATERIALS GROUP, INC.": 12.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 15.66,
+        "JAMES CONSTRUCTION GROUP, LLC": 15.31
+      }
+    },
+    {
+      "itemCode": "0618 6047",
+      "description": "CONDT (PVC) (SCH 80) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 645.0,
+      "engEstUnit": 15.4,
+      "lowUnit": 27.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 27.0,
+        "TEXAS MATERIALS GROUP, INC.": 32.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 20.69,
+        "JAMES CONSTRUCTION GROUP, LLC": 20.23
+      }
+    },
+    {
+      "itemCode": "0620 6007",
+      "description": "ELEC CONDR (NO.8) BARE",
+      "unit": "LF",
+      "quantity": 915.0,
+      "engEstUnit": 1.8,
+      "lowUnit": 2.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 2.0,
+        "TEXAS MATERIALS GROUP, INC.": 1.65,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 1.51,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.48
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1400.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 1400.0,
+        "TEXAS MATERIALS GROUP, INC.": 1165.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 1038.93,
+        "JAMES CONSTRUCTION GROUP, LLC": 1015.66
+      }
+    },
+    {
+      "itemCode": "0624 6028",
+      "description": "REMOVE GROUND BOX",
+      "unit": "EA",
+      "quantity": 22.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 150.0,
+        "TEXAS MATERIALS GROUP, INC.": 370.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 100.47,
+        "JAMES CONSTRUCTION GROUP, LLC": 98.22
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 650.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 650.0,
+        "TEXAS MATERIALS GROUP, INC.": 694.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 554.3,
+        "JAMES CONSTRUCTION GROUP, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 892.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 900.0,
+        "TEXAS MATERIALS GROUP, INC.": 932.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 726.27,
+        "JAMES CONSTRUCTION GROUP, LLC": 685.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 120.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 120.0,
+        "TEXAS MATERIALS GROUP, INC.": 132.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 97.18,
+        "JAMES CONSTRUCTION GROUP, LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "0658 6047",
+      "description": "INSTL OM ASSM (OM-2Y)(WC)GND",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 120.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 120.0,
+        "TEXAS MATERIALS GROUP, INC.": 79.5,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 107.41,
+        "JAMES CONSTRUCTION GROUP, LLC": 90.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 207.0,
+      "engEstUnit": 37.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 20.0,
+        "TEXAS MATERIALS GROUP, INC.": 17.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 14.32,
+        "JAMES CONSTRUCTION GROUP, LLC": 35.0
+      }
+    },
+    {
+      "itemCode": "0662 6005",
+      "description": "WK ZN PAV MRK NON-REMOV (W)6\"(BRK)",
+      "unit": "LF",
+      "quantity": 7618.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.5,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 0.5,
+        "TEXAS MATERIALS GROUP, INC.": 0.4,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 0.31,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.3
+      }
+    },
+    {
+      "itemCode": "0662 6008",
+      "description": "WK ZN PAV MRK NON-REMOV (W)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 211853.0,
+      "engEstUnit": 0.4,
+      "lowUnit": 0.5,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 0.5,
+        "TEXAS MATERIALS GROUP, INC.": 0.26,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 0.31,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.3
+      }
+    },
+    {
+      "itemCode": "0662 6012",
+      "description": "WK ZN PAV MRK NON-REMOV (W)8\"(SLD)",
+      "unit": "LF",
+      "quantity": 5766.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 0.75,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 0.75,
+        "TEXAS MATERIALS GROUP, INC.": 0.6,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 0.54,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.53
+      }
+    },
+    {
+      "itemCode": "0662 6014",
+      "description": "WK ZN PAV MRK NON-REMOV (W)12\"(SLD)",
+      "unit": "LF",
+      "quantity": 1528.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.75,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 1.75,
+        "TEXAS MATERIALS GROUP, INC.": 1.05,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 1.53,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.5
+      }
+    },
+    {
+      "itemCode": "0662 6016",
+      "description": "WK ZN PAV MRK NON-REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 4645.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 5.0,
+        "TEXAS MATERIALS GROUP, INC.": 2.1,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 3.07,
+        "JAMES CONSTRUCTION GROUP, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0662 6017",
+      "description": "WK ZN PAV MRK NON-REMOV (W)(ARROW)",
+      "unit": "EA",
+      "quantity": 54.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 90.0,
+        "TEXAS MATERIALS GROUP, INC.": 63.5,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 71.6,
+        "JAMES CONSTRUCTION GROUP, LLC": 70.0
+      }
+    },
+    {
+      "itemCode": "0662 6029",
+      "description": "WK ZN PAV MRK NON-REMOV(W)(WORD)",
+      "unit": "EA",
+      "quantity": 52.0,
+      "engEstUnit": 79.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 90.0,
+        "TEXAS MATERIALS GROUP, INC.": 53.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 71.6,
+        "JAMES CONSTRUCTION GROUP, LLC": 70.0
+      }
+    },
+    {
+      "itemCode": "0662 6035",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)6\"(BRK)",
+      "unit": "LF",
+      "quantity": 1440.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.5,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 0.5,
+        "TEXAS MATERIALS GROUP, INC.": 0.4,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 0.31,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.3
+      }
+    },
+    {
+      "itemCode": "0662 6037",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 219550.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.5,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 0.5,
+        "TEXAS MATERIALS GROUP, INC.": 0.26,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 0.31,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.3
+      }
+    },
+    {
+      "itemCode": "0662 6039",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)12\"(SLD)",
+      "unit": "LF",
+      "quantity": 7618.0,
+      "engEstUnit": 1.8,
+      "lowUnit": 1.5,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 1.5,
+        "TEXAS MATERIALS GROUP, INC.": 1.1,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 1.53,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.5
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 1070.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 6.0,
+        "TEXAS MATERIALS GROUP, INC.": 4.25,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 6.14,
+        "JAMES CONSTRUCTION GROUP, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 2859.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 6.0,
+        "TEXAS MATERIALS GROUP, INC.": 4.25,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 6.14,
+        "JAMES CONSTRUCTION GROUP, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "0677 6028",
+      "description": "ELIM EXT PV MRK & MRKS (RUMBLE STRIP)",
+      "unit": "LF",
+      "quantity": 5704.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 2.0,
+        "TEXAS MATERIALS GROUP, INC.": 0.9,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 2.05,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 254439.0,
+      "engEstUnit": 0.1,
+      "lowUnit": 0.01,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 0.01,
+        "TEXAS MATERIALS GROUP, INC.": 0.02,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 0.01,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.01
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 2883.0,
+      "engEstUnit": 0.07,
+      "lowUnit": 0.02,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 0.02,
+        "TEXAS MATERIALS GROUP, INC.": 0.11,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 0.02,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.02
+      }
+    },
+    {
+      "itemCode": "0678 6006",
+      "description": "PAV SURF PREP FOR MRK (12\")",
+      "unit": "LF",
+      "quantity": 4218.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.25,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 0.25,
+        "TEXAS MATERIALS GROUP, INC.": 0.21,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 0.26,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.25
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 2182.0,
+      "engEstUnit": 0.4,
+      "lowUnit": 0.5,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 0.5,
+        "TEXAS MATERIALS GROUP, INC.": 0.26,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 0.51,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.5
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 27.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 5.0,
+        "TEXAS MATERIALS GROUP, INC.": 12.7,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 5.11,
+        "JAMES CONSTRUCTION GROUP, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 26.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 5.0,
+        "TEXAS MATERIALS GROUP, INC.": 12.7,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 5.11,
+        "JAMES CONSTRUCTION GROUP, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0678 6020",
+      "description": "PAV SURF PREP FOR MRK (RR XING)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 5.0,
+        "TEXAS MATERIALS GROUP, INC.": 47.5,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 5.11,
+        "JAMES CONSTRUCTION GROUP, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0682 6049",
+      "description": "BACKPLATE W/REFL BRDR(4 SEC)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 170.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 170.0,
+        "TEXAS MATERIALS GROUP, INC.": 222.5,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 156.15,
+        "JAMES CONSTRUCTION GROUP, LLC": 152.66
+      }
+    },
+    {
+      "itemCode": "0682 6060",
+      "description": "BACKPLATE W/REFL BRDR(3 SEC)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 160.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 160.0,
+        "TEXAS MATERIALS GROUP, INC.": 191.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 143.67,
+        "JAMES CONSTRUCTION GROUP, LLC": 140.46
+      }
+    },
+    {
+      "itemCode": "0738 6011",
+      "description": "CLEANING / SWEEPING (HANDWORK)",
+      "unit": "SY",
+      "quantity": 5505.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 5.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 5.0,
+        "TEXAS MATERIALS GROUP, INC.": 3.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 5.95,
+        "JAMES CONSTRUCTION GROUP, LLC": 3.05
+      }
+    },
+    {
+      "itemCode": "3081 6007",
+      "description": "TOM-C PG76-22 SAC-A",
+      "unit": "TON",
+      "quantity": 16838.0,
+      "engEstUnit": 186.0,
+      "lowUnit": 148.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 148.0,
+        "TEXAS MATERIALS GROUP, INC.": 168.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 209.83,
+        "JAMES CONSTRUCTION GROUP, LLC": 198.5
+      }
+    },
+    {
+      "itemCode": "3081 6009",
+      "description": "TOM-F PG76-22 SAC-A",
+      "unit": "TON",
+      "quantity": 16838.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 148.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 148.0,
+        "TEXAS MATERIALS GROUP, INC.": 168.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 188.34,
+        "JAMES CONSTRUCTION GROUP, LLC": 195.5
+      }
+    },
+    {
+      "itemCode": "3081 6015",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 17881.0,
+      "engEstUnit": 6.5,
+      "lowUnit": 1.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 1.0,
+        "TEXAS MATERIALS GROUP, INC.": 6.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 6.25,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.9
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 77.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 200.0,
+        "TEXAS MATERIALS GROUP, INC.": 120.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 204.57,
+        "JAMES CONSTRUCTION GROUP, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "6292 6008",
+      "description": "REMOVE RVDS",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 30.0,
+        "TEXAS MATERIALS GROUP, INC.": 265.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 25.12,
+        "JAMES CONSTRUCTION GROUP, LLC": 24.56
+      }
+    },
+    {
+      "itemCode": "6306 6009",
+      "description": "VIVDS PROSR SYS (INSTALL ONLY)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 670.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 1200.0,
+        "TEXAS MATERIALS GROUP, INC.": 794.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 1129.31,
+        "JAMES CONSTRUCTION GROUP, LLC": 1104.1
+      }
+    },
+    {
+      "itemCode": "6306 6010",
+      "description": "VIVDS CAM ASSY (INSTALL ONLY)",
+      "unit": "EA",
+      "quantity": 11.0,
+      "engEstUnit": 1228.5,
+      "lowUnit": 270.0,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 270.0,
+        "TEXAS MATERIALS GROUP, INC.": 450.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 225.25,
+        "JAMES CONSTRUCTION GROUP, LLC": 220.22
+      }
+    },
+    {
+      "itemCode": "6306 6012",
+      "description": "VIVDS CABLING (INSTALL ONLY)",
+      "unit": "LF",
+      "quantity": 1630.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.2,
+      "bidders": {
+        "DURWOOD GREENE CONSTRUCTION CO.": 1.2,
+        "TEXAS MATERIALS GROUP, INC.": 1.0,
+        "VULCAN MATERIALS ASPHALT AND CONSTRUCTION, LLC": 1.01,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.99
+      }
+    }
+  ]
+}

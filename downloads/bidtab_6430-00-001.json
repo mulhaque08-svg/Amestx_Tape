@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "csj": "6430-00-001",
+    "county": "Matagorda",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 643000001",
+    "projectType": "HOT MIX",
+    "letDate": "02/01/23",
+    "engEstTotal": 380000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JAMES CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 368000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "QUALITY HOT MIX, INC.",
+      "totalBidAmount": 380000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "AMERICAN MATERIALS, INC.",
+      "totalBidAmount": 407600.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 436000.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 452040.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6042",
+      "description": "D-GR HMA (SQ)(TY-D PG 64-22 SAC-B)(DEL)",
+      "unit": "TON",
+      "quantity": 4000.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 92.0,
+      "bidders": {
+        "JAMES CONSTRUCTION GROUP, LLC": 92.0,
+        "QUALITY HOT MIX, INC.": 95.0,
+        "AMERICAN MATERIALS, INC.": 101.9,
+        "TEXAS MATERIALS GROUP, INC.": 109.0,
+        "COLORADO MATERIALS, LTD.": 113.01
+      }
+    }
+  ]
+}

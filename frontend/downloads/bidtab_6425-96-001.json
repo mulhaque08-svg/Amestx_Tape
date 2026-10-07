@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6425-96-001",
+    "county": "Washington",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642596001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "12/06/22",
+    "engEstTotal": 157500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 153000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 184005.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 219000.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "TEXCON GENERAL CONTRACTORS",
+      "totalBidAmount": 309675.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6078",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 1)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 34.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 34.0,
+        "COLORADO MATERIALS, LTD.": 40.89,
+        "DIGG COMMERCIAL, LLC": 57.0,
+        "TEXCON GENERAL CONTRACTORS": 72.78
+      }
+    },
+    {
+      "itemCode": "8007 6079",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 2)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 34.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 34.0,
+        "COLORADO MATERIALS, LTD.": 37.49,
+        "DIGG COMMERCIAL, LLC": 49.0,
+        "TEXCON GENERAL CONTRACTORS": 67.86
+      }
+    },
+    {
+      "itemCode": "8007 6080",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 3)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 34.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 34.0,
+        "COLORADO MATERIALS, LTD.": 44.29,
+        "DIGG COMMERCIAL, LLC": 40.0,
+        "TEXCON GENERAL CONTRACTORS": 65.81
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6388-68-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638868001",
+    "projectType": "HYDRAULIC CEMENT",
+    "letDate": "10/12/21",
+    "engEstTotal": 258000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AKA-MATERIALS",
+      "totalBidAmount": 256320.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 257280.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "STRAIGHT LINE SAWING & SEALING, INC.",
+      "totalBidAmount": 270960.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "TUFFTEX MATERIALS",
+      "totalBidAmount": 271440.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "KLP COMMERCIAL, L.L.C.",
+      "totalBidAmount": 311760.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 432000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8012 6028",
+      "description": "HYDRAULIC CEMENT(TYII)(DEL)(94LBS)(ST1)",
+      "unit": "BAG",
+      "quantity": 24000.0,
+      "engEstUnit": 10.75,
+      "lowUnit": 10.68,
+      "bidders": {
+        "AKA-MATERIALS": 10.68,
+        "TOUCHSTONE RESOURCES, LLC": 10.72,
+        "STRAIGHT LINE SAWING & SEALING, INC.": 11.29,
+        "TUFFTEX MATERIALS": 11.31,
+        "KLP COMMERCIAL, L.L.C.": 12.99,
+        "DIGG COMMERCIAL, LLC": 18.0
+      }
+    }
+  ]
+}

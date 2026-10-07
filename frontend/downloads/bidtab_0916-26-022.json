@@ -1,0 +1,536 @@
+{
+  "metadata": {
+    "csj": "0916-26-022",
+    "county": "Goliad",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2021(890)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "01/06/22",
+    "engEstTotal": 397363.69,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "LISKA CONSTRUCTION COMPANY, INC.",
+      "totalBidAmount": 459835.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "CONSTAR CONSTRUCTION",
+      "totalBidAmount": 467476.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "TEXAS STEEL INDUSTRIAL PLACING, LLC",
+      "totalBidAmount": 479808.1
+    },
+    {
+      "rank": 4,
+      "vendorName": "RELMCO, INC.",
+      "totalBidAmount": 480757.7
+    },
+    {
+      "rank": 5,
+      "vendorName": "MB WESTERN INDUSTRIAL CONTRACTING COMPANY",
+      "totalBidAmount": 484096.5
+    },
+    {
+      "rank": 6,
+      "vendorName": "ACME BRIDGE COMPANY, INC.",
+      "totalBidAmount": 503031.87
+    },
+    {
+      "rank": 7,
+      "vendorName": "HILL COUNTRY BRIDGE, INC.",
+      "totalBidAmount": 581220.8
+    },
+    {
+      "rank": 8,
+      "vendorName": "CK NEWBERRY, LLC",
+      "totalBidAmount": 610638.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 4.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1900.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 1900.0,
+        "CONSTAR CONSTRUCTION": 1000.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 2730.0,
+        "RELMCO, INC.": 3500.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 910.0,
+        "ACME BRIDGE COMPANY, INC.": 3420.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 101.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 25.0,
+        "CONSTAR CONSTRUCTION": 13.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 30.0,
+        "RELMCO, INC.": 30.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 38.0,
+        "ACME BRIDGE COMPANY, INC.": 35.4
+      }
+    },
+    {
+      "itemCode": "0132 6006",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY C)",
+      "unit": "CY",
+      "quantity": 262.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 20.0,
+        "CONSTAR CONSTRUCTION": 20.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 74.0,
+        "RELMCO, INC.": 40.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 40.0,
+        "ACME BRIDGE COMPANY, INC.": 51.8
+      }
+    },
+    {
+      "itemCode": "0164 6001",
+      "description": "BROADCAST SEED (PERM) (RURAL) (SANDY)",
+      "unit": "SY",
+      "quantity": 478.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 4.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 4.0,
+        "CONSTAR CONSTRUCTION": 3.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 1.45,
+        "RELMCO, INC.": 2.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 1.0,
+        "ACME BRIDGE COMPANY, INC.": 2.65
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 239.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 3.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 3.0,
+        "CONSTAR CONSTRUCTION": 3.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 5.0,
+        "RELMCO, INC.": 5.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 1.0,
+        "ACME BRIDGE COMPANY, INC.": 3.2
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 239.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 3.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 3.0,
+        "CONSTAR CONSTRUCTION": 3.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 5.0,
+        "RELMCO, INC.": 5.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 1.0,
+        "ACME BRIDGE COMPANY, INC.": 3.2
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 9.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 65.0,
+        "CONSTAR CONSTRUCTION": 160.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 200.0,
+        "RELMCO, INC.": 40.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 190.0,
+        "ACME BRIDGE COMPANY, INC.": 85.6
+      }
+    },
+    {
+      "itemCode": "0169 6003",
+      "description": "SOIL RETENTION BLANKETS (CL 1) (TY C)",
+      "unit": "SY",
+      "quantity": 162.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 6.0,
+        "CONSTAR CONSTRUCTION": 8.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 12.5,
+        "RELMCO, INC.": 3.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 7.0,
+        "ACME BRIDGE COMPANY, INC.": 6.4
+      }
+    },
+    {
+      "itemCode": "0310 6009",
+      "description": "PRIME COAT (MC-30)",
+      "unit": "GAL",
+      "quantity": 169.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 28.5,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 28.5,
+        "CONSTAR CONSTRUCTION": 27.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 29.5,
+        "RELMCO, INC.": 10.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 9.0,
+        "ACME BRIDGE COMPANY, INC.": 13.4
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 28.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 200.0,
+        "CONSTAR CONSTRUCTION": 120.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 150.0,
+        "RELMCO, INC.": 180.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 100.0,
+        "ACME BRIDGE COMPANY, INC.": 207.0
+      }
+    },
+    {
+      "itemCode": "0416 6002",
+      "description": "DRILL SHAFT (24 IN)",
+      "unit": "LF",
+      "quantity": 156.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 240.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 240.0,
+        "CONSTAR CONSTRUCTION": 350.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 240.0,
+        "RELMCO, INC.": 250.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 200.0,
+        "ACME BRIDGE COMPANY, INC.": 205.0
+      }
+    },
+    {
+      "itemCode": "0420 6013",
+      "description": "CL C CONC (ABUT)",
+      "unit": "CY",
+      "quantity": 22.8,
+      "engEstUnit": 940.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 1200.0,
+        "CONSTAR CONSTRUCTION": 950.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 950.0,
+        "RELMCO, INC.": 1666.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 1200.0,
+        "ACME BRIDGE COMPANY, INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0422 6007",
+      "description": "REINF CONC SLAB (SLAB BEAM)",
+      "unit": "SF",
+      "quantity": 1504.0,
+      "engEstUnit": 21.0,
+      "lowUnit": 23.5,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 23.5,
+        "CONSTAR CONSTRUCTION": 22.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 19.5,
+        "RELMCO, INC.": 19.6,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 20.0,
+        "ACME BRIDGE COMPANY, INC.": 26.0
+      }
+    },
+    {
+      "itemCode": "0425 6012",
+      "description": "PRESTR CONC SLAB BEAM (5SB15)",
+      "unit": "LF",
+      "quantity": 297.0,
+      "engEstUnit": 190.0,
+      "lowUnit": 188.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 188.0,
+        "CONSTAR CONSTRUCTION": 263.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 220.0,
+        "RELMCO, INC.": 210.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 185.0,
+        "ACME BRIDGE COMPANY, INC.": 277.0
+      }
+    },
+    {
+      "itemCode": "0432 6002",
+      "description": "RIPRAP (CONC)(5 IN)",
+      "unit": "CY",
+      "quantity": 63.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 550.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 550.0,
+        "CONSTAR CONSTRUCTION": 400.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 630.0,
+        "RELMCO, INC.": 425.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 468.0,
+        "ACME BRIDGE COMPANY, INC.": 573.0
+      }
+    },
+    {
+      "itemCode": "0432 6031",
+      "description": "RIPRAP (STONE PROTECTION)(12 IN)",
+      "unit": "CY",
+      "quantity": 95.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 155.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 155.0,
+        "CONSTAR CONSTRUCTION": 195.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 190.0,
+        "RELMCO, INC.": 185.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 211.0,
+        "ACME BRIDGE COMPANY, INC.": 193.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 27.0,
+      "engEstUnit": 465.0,
+      "lowUnit": 550.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 550.0,
+        "CONSTAR CONSTRUCTION": 350.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 630.0,
+        "RELMCO, INC.": 425.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 550.0,
+        "ACME BRIDGE COMPANY, INC.": 737.0
+      }
+    },
+    {
+      "itemCode": "0450 6006",
+      "description": "RAIL (TY T223)",
+      "unit": "LF",
+      "quantity": 124.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 150.0,
+        "CONSTAR CONSTRUCTION": 170.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 115.0,
+        "RELMCO, INC.": 75.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 170.0,
+        "ACME BRIDGE COMPANY, INC.": 127.0
+      }
+    },
+    {
+      "itemCode": "0454 6004",
+      "description": "ARMOR JOINT (SEALED)",
+      "unit": "LF",
+      "quantity": 56.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 95.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 95.0,
+        "CONSTAR CONSTRUCTION": 96.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 85.0,
+        "RELMCO, INC.": 100.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 165.0,
+        "ACME BRIDGE COMPANY, INC.": 134.0
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 21500.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 21500.0,
+        "CONSTAR CONSTRUCTION": 7000.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 32000.0,
+        "RELMCO, INC.": 25000.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 37000.0,
+        "ACME BRIDGE COMPANY, INC.": 15200.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 34855.79,
+      "lowUnit": 41000.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 41000.0,
+        "CONSTAR CONSTRUCTION": 40000.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 38000.0,
+        "RELMCO, INC.": 45000.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 52000.0,
+        "ACME BRIDGE COMPANY, INC.": 30000.0
+      }
+    },
+    {
+      "itemCode": "0530 6006",
+      "description": "DRIVEWAYS (SURF TREAT)",
+      "unit": "SY",
+      "quantity": 51.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 110.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 110.0,
+        "CONSTAR CONSTRUCTION": 53.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 35.0,
+        "RELMCO, INC.": 50.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 25.0,
+        "ACME BRIDGE COMPANY, INC.": 73.8
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 2600.0,
+      "lowUnit": 3630.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 3630.0,
+        "CONSTAR CONSTRUCTION": 3300.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 3990.0,
+        "RELMCO, INC.": 3800.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 4635.0,
+        "ACME BRIDGE COMPANY, INC.": 3510.0
+      }
+    },
+    {
+      "itemCode": "0545 6012",
+      "description": "CRASH CUSH ATTEN (INSTL)(R)(N)(TL2)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 24000.0,
+      "lowUnit": 18185.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 18185.0,
+        "CONSTAR CONSTRUCTION": 16000.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 18500.0,
+        "RELMCO, INC.": 32000.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 25000.0,
+        "ACME BRIDGE COMPANY, INC.": 15900.0
+      }
+    },
+    {
+      "itemCode": "0552 6003",
+      "description": "WIRE FENCE (TY C)",
+      "unit": "LF",
+      "quantity": 288.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 17.5,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 17.5,
+        "CONSTAR CONSTRUCTION": 23.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 35.0,
+        "RELMCO, INC.": 25.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 25.0,
+        "ACME BRIDGE COMPANY, INC.": 16.0
+      }
+    },
+    {
+      "itemCode": "0644 6027",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 1100.0,
+        "CONSTAR CONSTRUCTION": 200.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 600.0,
+        "RELMCO, INC.": 880.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 665.0,
+        "ACME BRIDGE COMPANY, INC.": 1170.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 100.0,
+        "CONSTAR CONSTRUCTION": 100.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 100.0,
+        "RELMCO, INC.": 200.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 66.0,
+        "ACME BRIDGE COMPANY, INC.": 63.9
+      }
+    },
+    {
+      "itemCode": "0658 6010",
+      "description": "INSTL DEL ASSM (D-SW)SZ 2(WC)GND",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 59.0,
+      "lowUnit": 70.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 70.0,
+        "CONSTAR CONSTRUCTION": 20.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 80.0,
+        "RELMCO, INC.": 40.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 102.0,
+        "ACME BRIDGE COMPANY, INC.": 74.5
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 28.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 35.0,
+        "CONSTAR CONSTRUCTION": 20.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 35.0,
+        "RELMCO, INC.": 40.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 29.0,
+        "ACME BRIDGE COMPANY, INC.": 26.6
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 34.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "LISKA CONSTRUCTION COMPANY, INC.": 35.0,
+        "CONSTAR CONSTRUCTION": 20.0,
+        "TEXAS STEEL INDUSTRIAL PLACING, LLC": 45.0,
+        "RELMCO, INC.": 40.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 37.0,
+        "ACME BRIDGE COMPANY, INC.": 37.3
+      }
+    }
+  ]
+}

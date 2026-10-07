@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6432-54-001",
+    "county": "Taylor",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643254001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/20/24",
+    "engEstTotal": 215500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ABESCAPE LANDSCAPING, LLC",
+      "totalBidAmount": 204000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1410.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "ABESCAPE LANDSCAPING, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 4325.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 36.0,
+      "bidders": {
+        "ABESCAPE LANDSCAPING, LLC": 36.0
+      }
+    }
+  ]
+}

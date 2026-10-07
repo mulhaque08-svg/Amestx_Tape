@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6431-32-001",
+    "county": "Coryell",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 643132001",
+    "projectType": "HOT MIX",
+    "letDate": "03/07/23",
+    "engEstTotal": 976250.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 965375.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 1011737.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "BIG CREEK CONSTRUCTION, LTD.",
+      "totalBidAmount": 1020250.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 1250.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 68.5,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 68.5,
+        "KNIFE RIVER CORPORATION - SOUTH": 75.75,
+        "BIG CREEK CONSTRUCTION, LTD.": 73.0
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 8000.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 90.0,
+        "KNIFE RIVER CORPORATION - SOUTH": 94.25,
+        "BIG CREEK CONSTRUCTION, LTD.": 95.0
+      }
+    },
+    {
+      "itemCode": "8011 6014",
+      "description": "D-GR HMA(SQ)TY B PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 63.75,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 63.75,
+        "KNIFE RIVER CORPORATION - SOUTH": 67.65,
+        "BIG CREEK CONSTRUCTION, LTD.": 68.0
+      }
+    },
+    {
+      "itemCode": "8011 6015",
+      "description": "D-GR HMA(SQ)TY B PG 64-22(DELIVERY)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 85.25,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 85.25,
+        "KNIFE RIVER CORPORATION - SOUTH": 86.15,
+        "BIG CREEK CONSTRUCTION, LTD.": 90.0
+      }
+    }
+  ]
+}

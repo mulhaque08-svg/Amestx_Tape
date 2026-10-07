@@ -1,0 +1,681 @@
+{
+  "metadata": {
+    "csj": "6379-87-001",
+    "county": "Grayson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637987001",
+    "projectType": "METAL BEAM GUARD FENCE REPAIR",
+    "letDate": "07/02/21",
+    "engEstTotal": 699075.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC",
+      "totalBidAmount": 349429.02
+    },
+    {
+      "rank": 2,
+      "vendorName": "MARCOM'S MOWING SERVICE, LLC",
+      "totalBidAmount": 536133.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "SOUTHERN CROSS CONTRACTORS, LLC",
+      "totalBidAmount": 584052.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 20.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 500.0,
+        "MARCOM'S MOWING SERVICE, LLC": 450.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 3500.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 3500.0,
+        "MARCOM'S MOWING SERVICE, LLC": 1.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0512 6026",
+      "description": "PORT CTB (MOVE)(SGL SLP)(TY 2)",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 60.0,
+        "MARCOM'S MOWING SERVICE, LLC": 50.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0512 6063",
+      "description": "PORT CTB (MOVE) (SAFETY SH) (TY 2)",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 60.0,
+        "MARCOM'S MOWING SERVICE, LLC": 50.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 6.0,
+        "MARCOM'S MOWING SERVICE, LLC": 10.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0542 6002",
+      "description": "REMOVE TERMINAL ANCHOR SECTION",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 250.0,
+        "MARCOM'S MOWING SERVICE, LLC": 2500.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0542 6003",
+      "description": "REMOVE DOWNSTREAM ANCHOR TERMINAL",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 250.0,
+        "MARCOM'S MOWING SERVICE, LLC": 1.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 500.0,
+        "MARCOM'S MOWING SERVICE, LLC": 2000.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 2600.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 300.0,
+        "MARCOM'S MOWING SERVICE, LLC": 3000.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0658 6013",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 10.0,
+        "MARCOM'S MOWING SERVICE, LLC": 1.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 12.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 10.0,
+        "MARCOM'S MOWING SERVICE, LLC": 1.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 15.0
+      }
+    },
+    {
+      "itemCode": "0658 6026",
+      "description": "INSTL DEL ASSM (D-SY)SZ (BRF)CTB",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 10.0,
+        "MARCOM'S MOWING SERVICE, LLC": 1.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 15.0
+      }
+    },
+    {
+      "itemCode": "0658 6027",
+      "description": "INSTL DEL ASSM (D-SY)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 10.0,
+        "MARCOM'S MOWING SERVICE, LLC": 1.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 15.0
+      }
+    },
+    {
+      "itemCode": "0658 6047",
+      "description": "INSTL OM ASSM (OM-2Y)(WC)GND",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 200.0,
+        "MARCOM'S MOWING SERVICE, LLC": 30.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0658 6061",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 17.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 17.0,
+        "MARCOM'S MOWING SERVICE, LLC": 50.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 17.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 17.0,
+        "MARCOM'S MOWING SERVICE, LLC": 30.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0658 6064",
+      "description": "INSTL DEL ASSM (D-SY)SZ 1(BRF)GF2",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 17.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 17.0,
+        "MARCOM'S MOWING SERVICE, LLC": 30.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0770 6001",
+      "description": "REPAIR RAIL ELEMENT (W - BEAM)",
+      "unit": "LF",
+      "quantity": 3000.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 9.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 9.0,
+        "MARCOM'S MOWING SERVICE, LLC": 17.26,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 18.25
+      }
+    },
+    {
+      "itemCode": "0770 6002",
+      "description": "REPAIR RAIL ELEMENT (THRIE - BEAM)",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 20.0,
+        "MARCOM'S MOWING SERVICE, LLC": 79.24,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 60.0
+      }
+    },
+    {
+      "itemCode": "0770 6003",
+      "description": "REP RAIL ELMNT(THRIE-BM TRANS TO W -BM)",
+      "unit": "LF",
+      "quantity": 25.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 30.0,
+        "MARCOM'S MOWING SERVICE, LLC": 76.1,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "0770 6004",
+      "description": "REPAIR RAIL ELEMENT (CURVED RAIL)",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 35.0,
+        "MARCOM'S MOWING SERVICE, LLC": 42.08,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "0770 6010",
+      "description": "REM / REPL TIMBER/STL POST W/O CONC FND",
+      "unit": "EA",
+      "quantity": 300.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 40.0,
+        "MARCOM'S MOWING SERVICE, LLC": 60.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 85.0
+      }
+    },
+    {
+      "itemCode": "0770 6017",
+      "description": "REALIGN POSTS",
+      "unit": "EA",
+      "quantity": 300.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 10.0,
+        "MARCOM'S MOWING SERVICE, LLC": 20.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 35.0
+      }
+    },
+    {
+      "itemCode": "0770 6021",
+      "description": "REPLACE SINGLE GDRAIL TERMINAL RAIL",
+      "unit": "LF",
+      "quantity": 300.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 20.0,
+        "MARCOM'S MOWING SERVICE, LLC": 30.6,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 39.0
+      }
+    },
+    {
+      "itemCode": "0770 6022",
+      "description": "REPLACE SINGLE GDRAIL TERMINAL POST",
+      "unit": "EA",
+      "quantity": 75.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 100.0,
+        "MARCOM'S MOWING SERVICE, LLC": 81.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 95.0
+      }
+    },
+    {
+      "itemCode": "0770 6024",
+      "description": "REPLACE TERMINAL ANCHOR POSTS",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 200.0,
+        "MARCOM'S MOWING SERVICE, LLC": 5.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0770 6025",
+      "description": "REPLACE HINGED TOP SGT STEEL POST",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 200.0,
+        "MARCOM'S MOWING SERVICE, LLC": 800.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0770 6027",
+      "description": "REMOVE GDRAIL END TRT / REPL WITH SGT",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 3250.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 500.0,
+        "MARCOM'S MOWING SERVICE, LLC": 3500.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 2850.0
+      }
+    },
+    {
+      "itemCode": "0770 6028",
+      "description": "REPL SINGLE GDRAIL TERM IMPACT HEAD",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 1250.0,
+      "lowUnit": 1250.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 1250.0,
+        "MARCOM'S MOWING SERVICE, LLC": 850.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0770 6029",
+      "description": "REM & RESET SGT IMPACT HEAD",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 150.0,
+        "MARCOM'S MOWING SERVICE, LLC": 100.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0770 6031",
+      "description": "REPLACE SGT CABLE ANCHOR",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 35.0,
+        "MARCOM'S MOWING SERVICE, LLC": 110.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 70.0
+      }
+    },
+    {
+      "itemCode": "0770 6032",
+      "description": "REPLACE SGT STRUT",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 35.0,
+        "MARCOM'S MOWING SERVICE, LLC": 300.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 60.0
+      }
+    },
+    {
+      "itemCode": "0770 6033",
+      "description": "REPLACE SGT OBJECT MARKER",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 25.0,
+        "MARCOM'S MOWING SERVICE, LLC": 20.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 25.0
+      }
+    },
+    {
+      "itemCode": "0770 6034",
+      "description": "REPAIR RAIL ELEMENT(W - BEAM FURNISHED)",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 18.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 15.0,
+        "MARCOM'S MOWING SERVICE, LLC": 10.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0770 6052",
+      "description": "REPAIR STEEL POST WITH BASE PLATE",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 250.0,
+        "MARCOM'S MOWING SERVICE, LLC": 250.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0771 6002",
+      "description": "REPLACE POSTS (TL-4)",
+      "unit": "EA",
+      "quantity": 300.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 50.0,
+        "MARCOM'S MOWING SERVICE, LLC": 155.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 140.0
+      }
+    },
+    {
+      "itemCode": "0771 6004",
+      "description": "CABLE SPLICE / TURNBUCKLE (TL-4)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 100.0,
+        "MARCOM'S MOWING SERVICE, LLC": 250.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0771 6006",
+      "description": "REPAIR CONCRETE FOUNDATION (TL-4)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 100.0,
+        "MARCOM'S MOWING SERVICE, LLC": 250.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0771 6008",
+      "description": "REPR OR REPLC CABLE BARR TERM SEC(TL-4)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 2000.0,
+        "MARCOM'S MOWING SERVICE, LLC": 500.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 750.0
+      }
+    },
+    {
+      "itemCode": "0771 6010",
+      "description": "REPLACE CABLE (TL-4)",
+      "unit": "LF",
+      "quantity": 200.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 7.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 7.0,
+        "MARCOM'S MOWING SERVICE, LLC": 5.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0771 6011",
+      "description": "CHECK / RE-TENSION CABLE",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 500.0,
+        "MARCOM'S MOWING SERVICE, LLC": 200.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0774 6001",
+      "description": "REMOVE AND REPLACE (TRACC)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 11000.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 11000.0,
+        "MARCOM'S MOWING SERVICE, LLC": 5000.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 13800.0
+      }
+    },
+    {
+      "itemCode": "0774 6003",
+      "description": "REMOVE AND REPLACE (NARROW REACT 350)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 2000.0,
+        "MARCOM'S MOWING SERVICE, LLC": 5000.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 19950.0
+      }
+    },
+    {
+      "itemCode": "0774 6007",
+      "description": "REPAIR (TRACC)",
+      "unit": "LF",
+      "quantity": 15.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 200.0,
+        "MARCOM'S MOWING SERVICE, LLC": 500.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 800.0
+      }
+    },
+    {
+      "itemCode": "0774 6010",
+      "description": "REPAIR (REACT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 200.0,
+        "MARCOM'S MOWING SERVICE, LLC": 500.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0774 6038",
+      "description": "REMOVE AND REPLACE (FASTRACC)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 18000.0,
+      "lowUnit": 12500.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 12500.0,
+        "MARCOM'S MOWING SERVICE, LLC": 10000.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 16250.0
+      }
+    },
+    {
+      "itemCode": "0774 6052",
+      "description": "REPAIR (FASTRACC)",
+      "unit": "LF",
+      "quantity": 25.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 200.0,
+        "MARCOM'S MOWING SERVICE, LLC": 500.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0774 6079",
+      "description": "REMOVE & REPLACE TRACC (TXDOT FURNISHD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3600.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 1.0,
+        "MARCOM'S MOWING SERVICE, LLC": 2500.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0774 6080",
+      "description": "REMOVE & REPLACE REACT 350(TXDOT FRNSH)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3600.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 1.0,
+        "MARCOM'S MOWING SERVICE, LLC": 2500.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0774 6090",
+      "description": "REPAIR (HEART)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "SOUTHEAST HIGHWAY GUARDRAIL & ATTENUATORS, LLC": 0.01,
+        "MARCOM'S MOWING SERVICE, LLC": 500.0,
+        "SOUTHERN CROSS CONTRACTORS, LLC": 1500.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6394-66-001",
+    "county": "San Patricio",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639466001",
+    "projectType": "LIMESTONE ROCK AND ASPHALT",
+    "letDate": "02/15/22",
+    "engEstTotal": 292000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 380840.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 398400.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8040 6107",
+      "description": "LRA (TY II GR DS) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 4000.0,
+      "engEstUnit": 73.0,
+      "lowUnit": 95.21,
+      "bidders": {
+        "MARTIN MARIETTA MATERIALS, INC.": 95.21,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 99.6
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6462-47-001",
+    "county": "Montague",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646247001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "04/04/24",
+    "engEstTotal": 350919.8,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 330432.88
+    },
+    {
+      "rank": 2,
+      "vendorName": "RENEGADE SITE SOLUTIONS, LLC",
+      "totalBidAmount": 349501.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "ABESCAPE LANDSCAPING, LLC",
+      "totalBidAmount": 555178.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1685.0,
+      "engEstUnit": 35.64,
+      "lowUnit": 26.0,
+      "bidders": {
+        "ANTHONY SERVICES": 26.0,
+        "RENEGADE SITE SOLUTIONS, LLC": 34.7,
+        "ABESCAPE LANDSCAPING, LLC": 58.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 7856.0,
+      "engEstUnit": 35.65,
+      "lowUnit": 36.48,
+      "bidders": {
+        "ANTHONY SERVICES": 36.48,
+        "RENEGADE SITE SOLUTIONS, LLC": 37.0,
+        "ABESCAPE LANDSCAPING, LLC": 58.0
+      }
+    }
+  ]
+}

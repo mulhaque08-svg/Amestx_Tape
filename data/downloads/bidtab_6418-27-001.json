@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6418-27-001",
+    "county": "Falls",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641827001",
+    "projectType": "HOT MIX",
+    "letDate": "08/30/22",
+    "engEstTotal": 279070.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 283160.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BIG CREEK CONSTRUCTION, LTD.",
+      "totalBidAmount": 293000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 306210.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 74.8,
+      "lowUnit": 83.75,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 83.75,
+        "BIG CREEK CONSTRUCTION, LTD.": 85.0,
+        "TEXAS MATERIALS GROUP, INC.": 89.1
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2500.0,
+      "engEstUnit": 96.8,
+      "lowUnit": 96.25,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 96.25,
+        "BIG CREEK CONSTRUCTION, LTD.": 99.0,
+        "TEXAS MATERIALS GROUP, INC.": 104.25
+      }
+    },
+    {
+      "itemCode": "8011 6015",
+      "description": "D-GR HMA(SQ)TY B PG 64-22(DELIVERY)",
+      "unit": "TON",
+      "quantity": 300.0,
+      "engEstUnit": 73.7,
+      "lowUnit": 85.95,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 85.95,
+        "BIG CREEK CONSTRUCTION, LTD.": 95.0,
+        "TEXAS MATERIALS GROUP, INC.": 92.55
+      }
+    }
+  ]
+}

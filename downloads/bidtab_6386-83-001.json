@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6386-83-001",
+    "county": "Burnet",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638683001",
+    "projectType": "CRACK SEAL",
+    "letDate": "08/10/22",
+    "engEstTotal": 115432.98,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FYL ENTERPRISES, LLC",
+      "totalBidAmount": 148460.34
+    },
+    {
+      "rank": 2,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 154692.79
+    },
+    {
+      "rank": 3,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 182264.07
+    },
+    {
+      "rank": 4,
+      "vendorName": "SCOUT 5 CONSTRUCTION LLC",
+      "totalBidAmount": 325211.04
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FYL ENTERPRISES, LLC": 1.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "SCOUT 5 CONSTRUCTION LLC": 5000.33
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 30.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 0.033,
+      "bidders": {
+        "FYL ENTERPRISES, LLC": 0.033,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.01,
+        "SCOUT 5 CONSTRUCTION LLC": 0.01
+      }
+    }
+  ]
+}

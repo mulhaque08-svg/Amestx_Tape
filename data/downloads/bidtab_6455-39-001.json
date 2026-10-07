@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "csj": "6455-39-001",
+    "county": "Mclennan",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645539001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "11/01/23",
+    "engEstTotal": 1165923.28,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "T&L CLEANING SERVICES LLC",
+      "totalBidAmount": 961360.46
+    },
+    {
+      "rank": 2,
+      "vendorName": "JASCO",
+      "totalBidAmount": 1337520.9
+    },
+    {
+      "rank": 3,
+      "vendorName": "CEN-TEX IRRIGATION SYSTEMS, INC.",
+      "totalBidAmount": 1357869.64
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 9856.74,
+      "engEstUnit": 60.0,
+      "lowUnit": 59.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 59.0,
+        "JASCO": 70.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 71.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 326.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 59.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 59.0,
+        "JASCO": 70.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 71.0
+      }
+    },
+    {
+      "itemCode": "0731 6007",
+      "description": "PAVEMENT EDGES, STRUCTURES & FIXTURES",
+      "unit": "MI",
+      "quantity": 289.128,
+      "engEstUnit": 600.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 400.0,
+        "JASCO": 900.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 750.0
+      }
+    },
+    {
+      "itemCode": "0731 6011",
+      "description": "BROADCAST APPLICATION",
+      "unit": "AC",
+      "quantity": 2550.96,
+      "engEstUnit": 85.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 75.0,
+        "JASCO": 90.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 125.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 2237.1,
+      "engEstUnit": 22.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 16.0,
+        "JASCO": 25.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 21.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 1000.0,
+      "engEstUnit": 24.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "T&L CLEANING SERVICES LLC": 16.0,
+        "JASCO": 25.0,
+        "CEN-TEX IRRIGATION SYSTEMS, INC.": 21.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "csj": "6368-60-001",
+    "county": "Shelby",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 636860001",
+    "projectType": "BRIDGE PREVENTATIVE MAINTENANCE",
+    "letDate": "01/20/21",
+    "engEstTotal": 256658.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SJ&J CONSTRUCTION, LLC",
+      "totalBidAmount": 235526.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "RESTEK, INC.",
+      "totalBidAmount": 304495.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "BLACKSMITH VENTURES LLC",
+      "totalBidAmount": 307380.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "TREVWAY, INC.",
+      "totalBidAmount": 340255.64
+    },
+    {
+      "rank": 5,
+      "vendorName": "SCOTT TUCKER CONSTRUCTION COMPANY, LLC",
+      "totalBidAmount": 349589.65
+    },
+    {
+      "rank": 6,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 367607.0
+    },
+    {
+      "rank": 7,
+      "vendorName": "BECK-REIT & SONS, LTD.",
+      "totalBidAmount": 370186.0
+    },
+    {
+      "rank": 8,
+      "vendorName": "CROSBY RD CONSTRUCTION INC",
+      "totalBidAmount": 416098.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 97.0,
+      "engEstUnit": 210.0,
+      "lowUnit": 180.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 180.0,
+        "RESTEK, INC.": 85.0,
+        "BLACKSMITH VENTURES LLC": 250.0,
+        "TREVWAY, INC.": 300.0,
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 300.21,
+        "TALBRAN ENTERPRISES LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0429 6002",
+      "description": "CONC STR REPAIR (EPOXY MORTAR)",
+      "unit": "SF",
+      "quantity": 6.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 150.0,
+        "RESTEK, INC.": 450.0,
+        "BLACKSMITH VENTURES LLC": 370.0,
+        "TREVWAY, INC.": 700.0,
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 432.38,
+        "TALBRAN ENTERPRISES LLC": 320.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 47.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 150.0,
+        "RESTEK, INC.": 350.0,
+        "BLACKSMITH VENTURES LLC": 210.0,
+        "TREVWAY, INC.": 600.0,
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 204.34,
+        "TALBRAN ENTERPRISES LLC": 293.0
+      }
+    },
+    {
+      "itemCode": "0429 6009",
+      "description": "CONC STR REPAIR (STANDARD)",
+      "unit": "SF",
+      "quantity": 2.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 80.0,
+        "RESTEK, INC.": 750.0,
+        "BLACKSMITH VENTURES LLC": 400.0,
+        "TREVWAY, INC.": 631.0,
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 588.82,
+        "TALBRAN ENTERPRISES LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0432 6003",
+      "description": "RIPRAP (CONC)(6 IN)",
+      "unit": "CY",
+      "quantity": 1.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 1000.0,
+        "RESTEK, INC.": 2000.0,
+        "BLACKSMITH VENTURES LLC": 2000.0,
+        "TREVWAY, INC.": 1577.88,
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 2002.75,
+        "TALBRAN ENTERPRISES LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0432 6027",
+      "description": "RIPRAP (STONE COMMON)(DRY)(24 IN)",
+      "unit": "CY",
+      "quantity": 514.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 190.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 190.0,
+        "RESTEK, INC.": 185.0,
+        "BLACKSMITH VENTURES LLC": 200.0,
+        "TREVWAY, INC.": 204.56,
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 247.88,
+        "TALBRAN ENTERPRISES LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0438 6001",
+      "description": "CLEANING AND SEALING EXISTING JOINTS",
+      "unit": "LF",
+      "quantity": 1176.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 20.0,
+        "RESTEK, INC.": 35.0,
+        "BLACKSMITH VENTURES LLC": 40.0,
+        "TREVWAY, INC.": 22.17,
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 30.06,
+        "TALBRAN ENTERPRISES LLC": 26.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 23333.0,
+      "lowUnit": 20000.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 20000.0,
+        "RESTEK, INC.": 25000.0,
+        "BLACKSMITH VENTURES LLC": 21600.0,
+        "TREVWAY, INC.": 30000.0,
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 34944.0,
+        "TALBRAN ENTERPRISES LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "0776 6041",
+      "description": "REPAIR (STEEL RAIL)",
+      "unit": "LF",
+      "quantity": 40.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 88.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 88.0,
+        "RESTEK, INC.": 500.0,
+        "BLACKSMITH VENTURES LLC": 450.0,
+        "TREVWAY, INC.": 100.0,
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 275.55,
+        "TALBRAN ENTERPRISES LLC": 274.0
+      }
+    },
+    {
+      "itemCode": "0785 6003",
+      "description": "BRIDGE JOINT REPAIR (STEEL)",
+      "unit": "LF",
+      "quantity": 56.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 26.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 26.0,
+        "RESTEK, INC.": 250.0,
+        "BLACKSMITH VENTURES LLC": 200.0,
+        "TREVWAY, INC.": 300.0,
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 349.18,
+        "TALBRAN ENTERPRISES LLC": 555.0
+      }
+    },
+    {
+      "itemCode": "7000 6002",
+      "description": "REML & DISPL DRIFTWOOD & DEBRIS",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 5000.0,
+        "RESTEK, INC.": 2500.0,
+        "BLACKSMITH VENTURES LLC": 5000.0,
+        "TREVWAY, INC.": 15000.0,
+        "SCOTT TUCKER CONSTRUCTION COMPANY, LLC": 12100.37,
+        "TALBRAN ENTERPRISES LLC": 9000.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "csj": "6422-53-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642253001",
+    "projectType": "FLEXIBLE PAVEMENT STRUCTURE REPAIR",
+    "letDate": "01/05/23",
+    "engEstTotal": 1198472.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "PEACHTREE CONSTRUCTION, LTD.",
+      "totalBidAmount": 1038731.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "FOUTSCO PAVING COMPANY, LLC",
+      "totalBidAmount": 1102694.89
+    },
+    {
+      "rank": 3,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 1363232.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0351 6044",
+      "description": "FLEXIBLE PAV STR REPAIR 12\"-TYPICAL A",
+      "unit": "SY",
+      "quantity": 1000.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 115.0,
+      "bidders": {
+        "PEACHTREE CONSTRUCTION, LTD.": 115.0,
+        "FOUTSCO PAVING COMPANY, LLC": 125.0,
+        "FNH CONSTRUCTION, LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "0354 6003",
+      "description": "PLAN & TEXT ASPH CONC PAV(0\" TO 3\")",
+      "unit": "SY",
+      "quantity": 31700.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 3.65,
+      "bidders": {
+        "PEACHTREE CONSTRUCTION, LTD.": 3.65,
+        "FOUTSCO PAVING COMPANY, LLC": 2.5,
+        "FNH CONSTRUCTION, LLC": 12.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 108952.0,
+      "lowUnit": 70000.0,
+      "bidders": {
+        "PEACHTREE CONSTRUCTION, LTD.": 70000.0,
+        "FOUTSCO PAVING COMPANY, LLC": 1000.0,
+        "FNH CONSTRUCTION, LLC": 120000.0
+      }
+    },
+    {
+      "itemCode": "3077 6021",
+      "description": "SP MIXES SP-C PG70-22",
+      "unit": "TON",
+      "quantity": 5330.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 135.0,
+      "bidders": {
+        "PEACHTREE CONSTRUCTION, LTD.": 135.0,
+        "FOUTSCO PAVING COMPANY, LLC": 164.0,
+        "FNH CONSTRUCTION, LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 3804.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 1.5,
+      "bidders": {
+        "PEACHTREE CONSTRUCTION, LTD.": 1.5,
+        "FOUTSCO PAVING COMPANY, LLC": 6.0,
+        "FNH CONSTRUCTION, LLC": 8.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 35.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "PEACHTREE CONSTRUCTION, LTD.": 60.0,
+        "FOUTSCO PAVING COMPANY, LLC": 0.01,
+        "FNH CONSTRUCTION, LLC": 150.0
+      }
+    }
+  ]
+}

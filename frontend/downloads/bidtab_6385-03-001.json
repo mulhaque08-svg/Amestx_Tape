@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "csj": "6385-03-001",
+    "county": "Pecos",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638503001",
+    "projectType": "REFLECTIVE PAVEMENT MARKINGS (LONG LINE)",
+    "letDate": "08/10/21",
+    "engEstTotal": 194500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "L&L COMPANY",
+      "totalBidAmount": 142050.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DOUBLE A CONTRACTING, L.P.",
+      "totalBidAmount": 183046.04
+    },
+    {
+      "rank": 3,
+      "vendorName": "PMI PAVEMENT MARKING, LLC",
+      "totalBidAmount": 226050.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "PAVEMENT MARKINGS INC.",
+      "totalBidAmount": 275600.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "STRIPE-A-ZONE, INC.",
+      "totalBidAmount": 301000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "L&L COMPANY": 500.0,
+        "DOUBLE A CONTRACTING, L.P.": 3499.01,
+        "PMI PAVEMENT MARKING, LLC": 2000.0,
+        "PAVEMENT MARKINGS INC.": 5800.0,
+        "STRIPE-A-ZONE, INC.": 8500.0
+      }
+    }
+  ]
+}

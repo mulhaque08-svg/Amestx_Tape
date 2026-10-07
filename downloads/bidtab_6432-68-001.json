@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "csj": "6432-68-001",
+    "county": "Jefferson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643268001",
+    "projectType": "DEBRIS REMOVAL",
+    "letDate": "08/14/24",
+    "engEstTotal": 228002.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "12TWELVE ROAD AND BRIDGE LLC",
+      "totalBidAmount": 127999.24
+    },
+    {
+      "rank": 2,
+      "vendorName": "BOEN LANDSCAPING & IRRIGATION, LLC",
+      "totalBidAmount": 157100.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 167920.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "AAD CONTRACTING INC.",
+      "totalBidAmount": 174400.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 24000.0,
+      "lowUnit": 9697.0,
+      "bidders": {
+        "12TWELVE ROAD AND BRIDGE LLC": 9697.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 1500.0,
+        "ICOS MANAGEMENT, LLC": 35000.0,
+        "AAD CONTRACTING INC.": 19000.0
+      }
+    },
+    {
+      "itemCode": "7309 6001",
+      "description": "CLEANING STRUCTURE (BENT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3675.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "12TWELVE ROAD AND BRIDGE LLC": 1000.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 1600.0,
+        "ICOS MANAGEMENT, LLC": 5700.0,
+        "AAD CONTRACTING INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "7309 6002",
+      "description": "CLEANING STRUCTURE (ABUTMENT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3675.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "12TWELVE ROAD AND BRIDGE LLC": 1000.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 1600.0,
+        "ICOS MANAGEMENT, LLC": 5700.0,
+        "AAD CONTRACTING INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "7309 6003",
+      "description": "CLEANING STRUCTURE (GIRDER)",
+      "unit": "EA",
+      "quantity": 39.0,
+      "engEstUnit": 1575.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "12TWELVE ROAD AND BRIDGE LLC": 1200.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 1600.0,
+        "ICOS MANAGEMENT, LLC": 1150.0,
+        "AAD CONTRACTING INC.": 2000.0
+      }
+    },
+    {
+      "itemCode": "7309 6004",
+      "description": "CLEANING STRUCTURE (DECK SOFFIT)",
+      "unit": "EA",
+      "quantity": 45.0,
+      "engEstUnit": 2299.5,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "12TWELVE ROAD AND BRIDGE LLC": 1500.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 1600.0,
+        "ICOS MANAGEMENT, LLC": 1150.0,
+        "AAD CONTRACTING INC.": 1000.0
+      }
+    }
+  ]
+}

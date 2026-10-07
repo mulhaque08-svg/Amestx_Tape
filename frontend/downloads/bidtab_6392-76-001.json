@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6392-76-001",
+    "county": "Lamar",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639276001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "12/16/21",
+    "engEstTotal": 267636.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RICKEY BAIRD",
+      "totalBidAmount": 226304.6
+    },
+    {
+      "rank": 2,
+      "vendorName": "STEVEN FOSTER",
+      "totalBidAmount": 252790.94
+    },
+    {
+      "rank": 3,
+      "vendorName": "EVERYTHING IRRIGATION LLC",
+      "totalBidAmount": 265436.3
+    },
+    {
+      "rank": 4,
+      "vendorName": "GANT CONTRACTORS, INC.",
+      "totalBidAmount": 277787.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 319080.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "RICKEY BAIRD": 1.0,
+        "STEVEN FOSTER": 1.0,
+        "EVERYTHING IRRIGATION LLC": 0.1,
+        "GANT CONTRACTORS, INC.": 1.0,
+        "ANTHONY SERVICES": 4000.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6774.0,
+      "engEstUnit": 39.0,
+      "lowUnit": 33.4,
+      "bidders": {
+        "RICKEY BAIRD": 33.4,
+        "STEVEN FOSTER": 37.31,
+        "EVERYTHING IRRIGATION LLC": 39.0,
+        "GANT CONTRACTORS, INC.": 41.0,
+        "ANTHONY SERVICES": 45.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 39.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "RICKEY BAIRD": 1.0,
+        "STEVEN FOSTER": 1.0,
+        "EVERYTHING IRRIGATION LLC": 25.0,
+        "GANT CONTRACTORS, INC.": 1.0,
+        "ANTHONY SERVICES": 45.0
+      }
+    }
+  ]
+}

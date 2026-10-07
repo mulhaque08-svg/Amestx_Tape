@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6461-49-001",
+    "county": "Calhoun",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646149001",
+    "projectType": "HOT MIX",
+    "letDate": "04/05/24",
+    "engEstTotal": 306000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 298500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "QUALITY HOT MIX, INC.",
+      "totalBidAmount": 300000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 321000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6042",
+      "description": "D-GR HMA (SQ)(TY-D PG 64-22 SAC-B)(DEL)",
+      "unit": "TON",
+      "quantity": 3000.0,
+      "engEstUnit": 102.0,
+      "lowUnit": 99.5,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 99.5,
+        "QUALITY HOT MIX, INC.": 100.0,
+        "BRAUNTEX MATERIALS, INC.": 107.0
+      }
+    }
+  ]
+}

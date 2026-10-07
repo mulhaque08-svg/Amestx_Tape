@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "csj": "6436-09-001",
+    "county": "Goliad",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643609001",
+    "projectType": "CRACK SEAL",
+    "letDate": "06/13/23",
+    "engEstTotal": 149660.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FYL ENTERPRISES, LLC",
+      "totalBidAmount": 78352.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 84624.6
+    },
+    {
+      "rank": 3,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 103484.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "SCOUT 5 CONSTRUCTION LLC",
+      "totalBidAmount": 108093.92
+    },
+    {
+      "rank": 5,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 109494.04
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 14000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "FYL ENTERPRISES, LLC": 1000.0,
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1700.0,
+        "D & M CONTRACTORS, LLC": 2500.0,
+        "SCOUT 5 CONSTRUCTION LLC": 4998.82,
+        "CRACKSEAL OF TEXAS, LLC": 0.001
+      }
+    }
+  ]
+}

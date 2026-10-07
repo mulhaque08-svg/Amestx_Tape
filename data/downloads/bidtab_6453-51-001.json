@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "csj": "6453-51-001",
+    "county": "Medina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645351001",
+    "projectType": "CONCRETE SPALL REPAIR",
+    "letDate": "12/13/23",
+    "engEstTotal": 89885.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RELMCO, INC.",
+      "totalBidAmount": 72975.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 86250.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ICOS MANAGEMENT, LLC",
+      "totalBidAmount": 89580.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "BECK-REIT & SONS, LTD.",
+      "totalBidAmount": 107255.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "DIAMOND R CONTRACTING, LLC",
+      "totalBidAmount": 110000.07
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 17.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "RELMCO, INC.": 100.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 50.0,
+        "ICOS MANAGEMENT, LLC": 100.0,
+        "BECK-REIT & SONS, LTD.": 250.0,
+        "DIAMOND R CONTRACTING, LLC": 588.235
+      }
+    },
+    {
+      "itemCode": "0400 6006",
+      "description": "CUT & RESTORING PAV",
+      "unit": "SY",
+      "quantity": 16.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "RELMCO, INC.": 200.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 250.0,
+        "ICOS MANAGEMENT, LLC": 200.0,
+        "BECK-REIT & SONS, LTD.": 800.0,
+        "DIAMOND R CONTRACTING, LLC": 625.0
+      }
+    },
+    {
+      "itemCode": "0429 6005",
+      "description": "CONC STR REPAIR(DECK REP (FULL DEPTH))",
+      "unit": "SF",
+      "quantity": 72.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "RELMCO, INC.": 250.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 500.0,
+        "ICOS MANAGEMENT, LLC": 400.0,
+        "BECK-REIT & SONS, LTD.": 400.0,
+        "DIAMOND R CONTRACTING, LLC": 277.778
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 88.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "RELMCO, INC.": 225.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 200.0,
+        "ICOS MANAGEMENT, LLC": 320.0,
+        "BECK-REIT & SONS, LTD.": 255.0,
+        "DIAMOND R CONTRACTING, LLC": 113.637
+      }
+    },
+    {
+      "itemCode": "0429 6009",
+      "description": "CONC STR REPAIR (STANDARD)",
+      "unit": "SF",
+      "quantity": 39.0,
+      "engEstUnit": 140.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "RELMCO, INC.": 225.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 200.0,
+        "ICOS MANAGEMENT, LLC": 300.0,
+        "BECK-REIT & SONS, LTD.": 255.0,
+        "DIAMOND R CONTRACTING, LLC": 256.411
+      }
+    }
+  ]
+}

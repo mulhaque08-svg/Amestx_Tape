@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6424-28-001",
+    "county": "Kaufman",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642428001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "11/15/22",
+    "engEstTotal": 224000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 232000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "A. L. HELMCAMP, INC.",
+      "totalBidAmount": 360320.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 367600.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 384000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6011",
+      "description": "FL BS (SITE DEL)(TY D GR 1-2)(SITE 1)",
+      "unit": "TON",
+      "quantity": 4000.0,
+      "engEstUnit": 28.0,
+      "lowUnit": 26.0,
+      "bidders": {
+        "FNH CONSTRUCTION, LLC": 26.0,
+        "A. L. HELMCAMP, INC.": 41.68,
+        "KNIFE RIVER CORPORATION - SOUTH": 42.9,
+        "DIGG COMMERCIAL, LLC": 47.0
+      }
+    },
+    {
+      "itemCode": "8007 6012",
+      "description": "FL BS (SITE DEL)(TY D GR 1-2)(SITE 2)",
+      "unit": "TON",
+      "quantity": 4000.0,
+      "engEstUnit": 28.0,
+      "lowUnit": 32.0,
+      "bidders": {
+        "FNH CONSTRUCTION, LLC": 32.0,
+        "A. L. HELMCAMP, INC.": 48.4,
+        "KNIFE RIVER CORPORATION - SOUTH": 49.0,
+        "DIGG COMMERCIAL, LLC": 49.0
+      }
+    }
+  ]
+}

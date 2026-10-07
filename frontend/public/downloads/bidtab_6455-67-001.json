@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6455-67-001",
+    "county": "Hale",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 645567001",
+    "projectType": "AGGREGATE",
+    "letDate": "11/02/23",
+    "engEstTotal": 360000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "J. LEE MILLIGAN, INC.",
+      "totalBidAmount": 399280.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 432000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6099",
+      "description": "AGGR (TY B GR 4) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 2500.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 74.75,
+      "bidders": {
+        "J. LEE MILLIGAN, INC.": 74.75,
+        "TOUCHSTONE RESOURCES, LLC": 90.0
+      }
+    },
+    {
+      "itemCode": "8039 6100",
+      "description": "AGGR (TY B GR 4) (DEL) (ST2)",
+      "unit": "TON",
+      "quantity": 2300.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 92.35,
+      "bidders": {
+        "J. LEE MILLIGAN, INC.": 92.35,
+        "TOUCHSTONE RESOURCES, LLC": 90.0
+      }
+    }
+  ]
+}

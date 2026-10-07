@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6424-86-001",
+    "county": "Jasper",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642486001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/07/23",
+    "engEstTotal": 1233255.6,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 1535410.24
+    },
+    {
+      "rank": 2,
+      "vendorName": "ACE CONTRACTORS, INC.",
+      "totalBidAmount": 1574812.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 1706588.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 6538.8,
+      "engEstUnit": 46.0,
+      "lowUnit": 54.95,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 54.95,
+        "ACE CONTRACTORS, INC.": 60.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 65.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 19616.4,
+      "engEstUnit": 47.0,
+      "lowUnit": 59.95,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 59.95,
+        "ACE CONTRACTORS, INC.": 60.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 65.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 1.0,
+        "ACE CONTRACTORS, INC.": 55.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 65.0
+      }
+    }
+  ]
+}

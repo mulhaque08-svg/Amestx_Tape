@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6398-98-001",
+    "county": "Hopkins",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639898001",
+    "projectType": "DITCH CLEANING AND RESHAPING",
+    "letDate": "05/05/22",
+    "engEstTotal": 409500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 222300.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "EASTGATE SERVICES",
+      "totalBidAmount": 233760.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ANCHOR CONTRACTING, LLC",
+      "totalBidAmount": 246010.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0480 6001",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 225.0,
+        "EASTGATE SERVICES": 150.0,
+        "ANCHOR CONTRACTING, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 100.0,
+        "EASTGATE SERVICES": 1.0,
+        "ANCHOR CONTRACTING, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0760 6001",
+      "description": "DITCH CLEANING AND RESHAPING (FOOT)",
+      "unit": "LF",
+      "quantity": 125000.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 1.75,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 1.75,
+        "EASTGATE SERVICES": 1.75,
+        "ANCHOR CONTRACTING, LLC": 1.82
+      }
+    }
+  ]
+}

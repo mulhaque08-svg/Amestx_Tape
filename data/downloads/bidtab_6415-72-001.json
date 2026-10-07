@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6415-72-001",
+    "county": "Sabine",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 641572001",
+    "projectType": "HOT MIX",
+    "letDate": "08/23/22",
+    "engEstTotal": 192000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 205980.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "EAST TEXAS ASPHALT CO., LTD.",
+      "totalBidAmount": 240000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 96.0,
+      "lowUnit": 102.99,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 102.99,
+        "EAST TEXAS ASPHALT CO., LTD.": 120.0
+      }
+    }
+  ]
+}

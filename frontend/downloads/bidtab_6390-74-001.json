@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6390-74-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639074001",
+    "projectType": "RAISED PAVEMENT MARKERS",
+    "letDate": "04/26/22",
+    "engEstTotal": 275180.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BRYDL CONTRACTING, LLC",
+      "totalBidAmount": 319676.2
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOTAL HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 398011.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 19000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 1.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 15000.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 6265.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 4.88,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 4.88,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 5.4
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 59200.0,
+      "engEstUnit": 3.6,
+      "lowUnit": 4.88,
+      "bidders": {
+        "BRYDL CONTRACTING, LLC": 4.88,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 5.4
+      }
+    }
+  ]
+}

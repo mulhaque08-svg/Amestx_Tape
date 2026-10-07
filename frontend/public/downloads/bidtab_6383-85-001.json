@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6383-85-001",
+    "county": "Angelina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638385001",
+    "projectType": "INST OF SPOT PAINT AND BEAD STRIPING",
+    "letDate": "08/11/21",
+    "engEstTotal": 268980.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "PMI PAVEMENT MARKING, LLC",
+      "totalBidAmount": 216550.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "STRIPING TECHNOLOGY, L.P.",
+      "totalBidAmount": 243600.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "INTERSTATE BARRICADES & MARKINGS, INC.",
+      "totalBidAmount": 251000.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "STRIPE-A-ZONE, INC.",
+      "totalBidAmount": 255550.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "TOTAL HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 435000.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 565000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "PMI PAVEMENT MARKING, LLC": 1000.0,
+        "STRIPING TECHNOLOGY, L.P.": 2500.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 1500.0,
+        "STRIPE-A-ZONE, INC.": 1500.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 5000.0,
+        "TRP CONSTRUCTION GROUP, LLC": 7500.0
+      }
+    }
+  ]
+}

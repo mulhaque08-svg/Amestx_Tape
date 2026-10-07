@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "csj": "6465-66-001",
+    "county": "Potter",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646566001",
+    "projectType": "RAISED PAVEMENT MARKERS",
+    "letDate": "05/02/24",
+    "engEstTotal": 1056235.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRP INFRASTRUCTURE SERVICES, LLC",
+      "totalBidAmount": 935481.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "CENTERLINE TECHNOLOGIES, LLC",
+      "totalBidAmount": 1013888.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "FC TRAFFIC CONTROL, INC.",
+      "totalBidAmount": 1037111.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 1072361.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 35000.0,
+      "lowUnit": 35000.0,
+      "bidders": {
+        "TRP INFRASTRUCTURE SERVICES, LLC": 35000.0,
+        "CENTERLINE TECHNOLOGIES, LLC": 1.0,
+        "FC TRAFFIC CONTROL, INC.": 250000.0,
+        "RISE UP CONSTRUCTION LLC": 100000.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 20826.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.5,
+      "bidders": {
+        "TRP INFRASTRUCTURE SERVICES, LLC": 4.5,
+        "CENTERLINE TECHNOLOGIES, LLC": 5.0,
+        "FC TRAFFIC CONTROL, INC.": 4.0,
+        "RISE UP CONSTRUCTION LLC": 4.5
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 128725.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.5,
+      "bidders": {
+        "TRP INFRASTRUCTURE SERVICES, LLC": 4.5,
+        "CENTERLINE TECHNOLOGIES, LLC": 4.5,
+        "FC TRAFFIC CONTROL, INC.": 4.0,
+        "RISE UP CONSTRUCTION LLC": 4.5
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 47196.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 4.5,
+      "bidders": {
+        "TRP INFRASTRUCTURE SERVICES, LLC": 4.5,
+        "CENTERLINE TECHNOLOGIES, LLC": 7.0,
+        "FC TRAFFIC CONTROL, INC.": 4.0,
+        "RISE UP CONSTRUCTION LLC": 4.5
+      }
+    }
+  ]
+}

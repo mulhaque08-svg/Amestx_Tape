@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6438-82-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643882001",
+    "projectType": "REFLECTORIZED PAVEMENT MARKINGS & MARKERS",
+    "letDate": "08/03/23",
+    "engEstTotal": 305760.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 329052.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TRAFFIC HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 404510.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 30000.0,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 30000.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 35000.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 1020.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 5.5,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 5.5,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 5.9
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 47880.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 5.5,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 5.5,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 5.9
+      }
+    }
+  ]
+}

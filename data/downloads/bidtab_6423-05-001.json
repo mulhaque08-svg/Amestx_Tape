@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6423-05-001",
+    "county": "Navarro",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642305001",
+    "projectType": "REMOVAL AND DISPOSAL OF DRIFTWOOD",
+    "letDate": "02/01/23",
+    "engEstTotal": 800380.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FIREMAN EXCAVATING, INC.",
+      "totalBidAmount": 385634.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 696740.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 836360.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "PATHFIELD INVESTMENTS LLC",
+      "totalBidAmount": 1022420.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 1140500.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 1857650.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 580.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1000.0,
+        "SHALOM SERVICES CORPORATION": 100.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 500.0,
+        "PATHFIELD INVESTMENTS LLC": 20000.0,
+        "FNH CONSTRUCTION, LLC": 3500.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "7000 6001",
+      "description": "REML & DISPL DRIFTWOOD & DEBRIS",
+      "unit": "CY",
+      "quantity": 8688.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 43.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 43.0,
+        "SHALOM SERVICES CORPORATION": 80.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 95.0,
+        "PATHFIELD INVESTMENTS LLC": 90.0,
+        "FNH CONSTRUCTION, LLC": 125.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 200.0
+      }
+    }
+  ]
+}

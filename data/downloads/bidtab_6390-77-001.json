@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6390-77-001",
+    "county": "Donley",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639077001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/04/22",
+    "engEstTotal": 824194.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS BLACKTOPS LLC",
+      "totalBidAmount": 941936.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 1163568.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 27704.0,
+      "engEstUnit": 29.75,
+      "lowUnit": 34.0,
+      "bidders": {
+        "TEXAS BLACKTOPS LLC": 34.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 42.0
+      }
+    }
+  ]
+}

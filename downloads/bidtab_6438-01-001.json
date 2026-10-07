@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6438-01-001",
+    "county": "Upshur",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643801001",
+    "projectType": "TREE TRIMMING",
+    "letDate": "06/14/23",
+    "engEstTotal": 197700.6,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "2H, LLC",
+      "totalBidAmount": 140275.32
+    },
+    {
+      "rank": 2,
+      "vendorName": "TERRY ENTERPRISES",
+      "totalBidAmount": 192371.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "S FOWLER SERVICES LLC",
+      "totalBidAmount": 229638.8
+    },
+    {
+      "rank": 4,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 244567.2
+    },
+    {
+      "rank": 5,
+      "vendorName": "BA NEWTON'S ENTERPRISES LLC",
+      "totalBidAmount": 267167.5
+    },
+    {
+      "rank": 6,
+      "vendorName": "RDA VEGETATION MANAGEMENT LLC",
+      "totalBidAmount": 321501.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 35000.0,
+      "bidders": {
+        "2H, LLC": 35000.0,
+        "TERRY ENTERPRISES": 1000.0,
+        "S FOWLER SERVICES LLC": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 10000.0,
+        "BA NEWTON'S ENTERPRISES LLC": 23900.0,
+        "RDA VEGETATION MANAGEMENT LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 95.667,
+      "engEstUnit": 1800.0,
+      "lowUnit": 975.0,
+      "bidders": {
+        "2H, LLC": 975.0,
+        "TERRY ENTERPRISES": 2000.0,
+        "S FOWLER SERVICES LLC": 2400.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 1600.0,
+        "BA NEWTON'S ENTERPRISES LLC": 2500.0,
+        "RDA VEGETATION MANAGEMENT LLC": 3000.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6405-62-001",
+    "county": "Hays",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640562001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/08/23",
+    "engEstTotal": 217808.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 314305.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "YELLOWSTONE LANDSCAPE - CENTRAL, INC.",
+      "totalBidAmount": 346638.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 490.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 1.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 7000.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 4084.0,
+      "engEstUnit": 49.5,
+      "lowUnit": 75.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 75.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 69.5
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 400.0,
+      "engEstUnit": 33.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "CROSS PLUS CONSTRUCTION, LLC": 20.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 69.5
+      }
+    }
+  ]
+}

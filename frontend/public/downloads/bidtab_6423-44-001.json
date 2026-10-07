@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6423-44-001",
+    "county": "Wilson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642344001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "01/05/23",
+    "engEstTotal": 687140.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BK FIELD OPERATIONS LLC",
+      "totalBidAmount": 573644.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "USA DT SERVICES, INC.",
+      "totalBidAmount": 625133.42
+    },
+    {
+      "rank": 3,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 1301200.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 1.0,
+        "USA DT SERVICES, INC.": 0.01,
+        "CROSS PLUS CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 16866.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 34.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 34.0,
+        "USA DT SERVICES, INC.": 36.62,
+        "CROSS PLUS CONSTRUCTION, LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 150.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BK FIELD OPERATIONS LLC": 1.0,
+        "USA DT SERVICES, INC.": 50.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 75.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "csj": "6392-04-001",
+    "county": "Scurry",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639204001",
+    "projectType": "TRAFFIC CONTROL SERVICES",
+    "letDate": "06/29/22",
+    "engEstTotal": 651691.1,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AREA WIDE PROTECTIVE, INC.",
+      "totalBidAmount": 621400.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "FC TRAFFIC CONTROL, INC.",
+      "totalBidAmount": 864750.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "BARRICADES UNLIMITED",
+      "totalBidAmount": 934962.5
+    },
+    {
+      "rank": 4,
+      "vendorName": "TOTAL HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 1536825.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 30000.0,
+      "lowUnit": 40000.0,
+      "bidders": {
+        "AREA WIDE PROTECTIVE, INC.": 40000.0,
+        "FC TRAFFIC CONTROL, INC.": 6000.0,
+        "BARRICADES UNLIMITED": 75000.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 300000.0
+      }
+    },
+    {
+      "itemCode": "7148 6001",
+      "description": "1 LN CLOSURE 2 LN RD NO SHOULDERS",
+      "unit": "HR",
+      "quantity": 995.0,
+      "engEstUnit": 136.5,
+      "lowUnit": 125.0,
+      "bidders": {
+        "AREA WIDE PROTECTIVE, INC.": 125.0,
+        "FC TRAFFIC CONTROL, INC.": 125.0,
+        "BARRICADES UNLIMITED": 290.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 280.0
+      }
+    },
+    {
+      "itemCode": "7148 6002",
+      "description": "1 LN CLOSURE 2 LN RD PAVED SHOULDERS",
+      "unit": "HR",
+      "quantity": 430.0,
+      "engEstUnit": 122.4,
+      "lowUnit": 115.0,
+      "bidders": {
+        "AREA WIDE PROTECTIVE, INC.": 115.0,
+        "FC TRAFFIC CONTROL, INC.": 125.0,
+        "BARRICADES UNLIMITED": 255.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 265.0
+      }
+    },
+    {
+      "itemCode": "7148 6003",
+      "description": "1 LN CLOSURE 4 LN RD",
+      "unit": "HR",
+      "quantity": 430.0,
+      "engEstUnit": 107.27,
+      "lowUnit": 115.0,
+      "bidders": {
+        "AREA WIDE PROTECTIVE, INC.": 115.0,
+        "FC TRAFFIC CONTROL, INC.": 125.0,
+        "BARRICADES UNLIMITED": 175.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "7148 6019",
+      "description": "FURNISH ADDITIONAL FLAGGER",
+      "unit": "HR",
+      "quantity": 1075.0,
+      "engEstUnit": 58.6,
+      "lowUnit": 50.0,
+      "bidders": {
+        "AREA WIDE PROTECTIVE, INC.": 50.0,
+        "FC TRAFFIC CONTROL, INC.": 125.0,
+        "BARRICADES UNLIMITED": 85.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "7148 6020",
+      "description": "PILOT VEHICLE AND OPERATOR",
+      "unit": "HR",
+      "quantity": 1455.0,
+      "engEstUnit": 67.1,
+      "lowUnit": 75.0,
+      "bidders": {
+        "AREA WIDE PROTECTIVE, INC.": 75.0,
+        "FC TRAFFIC CONTROL, INC.": 125.0,
+        "BARRICADES UNLIMITED": 90.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 105.0
+      }
+    }
+  ]
+}

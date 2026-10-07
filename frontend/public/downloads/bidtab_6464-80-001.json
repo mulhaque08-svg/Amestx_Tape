@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6464-80-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646480001",
+    "projectType": "SWEEPING AND DEBRIS REMOVAL",
+    "letDate": "06/06/24",
+    "engEstTotal": 1371202.3,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 679598.3
+    },
+    {
+      "rank": 2,
+      "vendorName": "SWEEPING CORPORATION OF AMERICA, LLC",
+      "totalBidAmount": 849193.8
+    },
+    {
+      "rank": 3,
+      "vendorName": "PROFESSIONAL TRAFFIC CONTROL LLC",
+      "totalBidAmount": 987499.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 130000.0,
+      "lowUnit": 20000.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 20000.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 97000.0
+      }
+    }
+  ]
+}

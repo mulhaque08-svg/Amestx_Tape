@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "csj": "6395-98-001",
+    "county": "Van Zandt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639598001",
+    "projectType": "HOT MIX",
+    "letDate": "02/03/22",
+    "engEstTotal": 302500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 270500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "LONGVIEW BRIDGE AND ROAD, LTD.",
+      "totalBidAmount": 334000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8006 6001",
+      "description": "SP MIXTURES SP-C PG64-22  (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 79.0,
+      "lowUnit": 66.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 66.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 86.0
+      }
+    },
+    {
+      "itemCode": "8006 6002",
+      "description": "SP MIXTURES SP-C PG64-22  (DELIVERY)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 89.0,
+      "lowUnit": 81.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 81.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 98.0
+      }
+    },
+    {
+      "itemCode": "8006 6004",
+      "description": "SP MIXTURES SP-C PG70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 91.0,
+      "lowUnit": 86.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 86.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 104.0
+      }
+    },
+    {
+      "itemCode": "8006 6005",
+      "description": "SP MIXTURES SP-D PG64-22  (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 81.0,
+      "lowUnit": 67.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 67.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 86.0
+      }
+    },
+    {
+      "itemCode": "8006 6006",
+      "description": "SP MIXTURES SP-D PG64-22  (DELIVERY)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 82.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 82.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 98.0
+      }
+    },
+    {
+      "itemCode": "8006 6007",
+      "description": "SP MIXTURES SP-D PG70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 83.0,
+      "lowUnit": 72.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 72.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 92.0
+      }
+    },
+    {
+      "itemCode": "8006 6008",
+      "description": "SP MIXTURES SP-D PG70-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 92.0,
+      "lowUnit": 87.0,
+      "bidders": {
+        "TEXAS MATERIALS GROUP, INC.": 87.0,
+        "LONGVIEW BRIDGE AND ROAD, LTD.": 104.0
+      }
+    }
+  ]
+}

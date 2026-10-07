@@ -1,0 +1,1344 @@
+{
+  "metadata": {
+    "csj": "0264-04-054",
+    "county": "Coke",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2023(767)",
+    "projectType": "ADD PASSING LANES",
+    "letDate": "11/01/23",
+    "engEstTotal": 30817175.62,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "REECE ALBERT, INC.",
+      "totalBidAmount": 24893157.94
+    },
+    {
+      "rank": 2,
+      "vendorName": "DELHUR INDUSTRIES, INC.",
+      "totalBidAmount": 31356505.26
+    },
+    {
+      "rank": 3,
+      "vendorName": "J. H. STRAIN & SONS, INC.",
+      "totalBidAmount": 33808625.73
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 763.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 48.32,
+      "bidders": {
+        "REECE ALBERT, INC.": 48.32,
+        "DELHUR INDUSTRIES, INC.": 480.4,
+        "J. H. STRAIN & SONS, INC.": 4010.0
+      }
+    },
+    {
+      "itemCode": "0100 6009",
+      "description": "PREPARING ROW (TREE) (6\" TO 24\" DIA)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 928.75,
+      "bidders": {
+        "REECE ALBERT, INC.": 928.75,
+        "DELHUR INDUSTRIES, INC.": 1650.0,
+        "J. H. STRAIN & SONS, INC.": 1750.0
+      }
+    },
+    {
+      "itemCode": "0100 6011",
+      "description": "PREPARING ROW(TREE)(24\" TO 36\" DIA.)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 1888.58,
+      "bidders": {
+        "REECE ALBERT, INC.": 1888.58,
+        "DELHUR INDUSTRIES, INC.": 3410.0,
+        "J. H. STRAIN & SONS, INC.": 3000.0
+      }
+    },
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 212.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 107.04,
+      "bidders": {
+        "REECE ALBERT, INC.": 107.04,
+        "DELHUR INDUSTRIES, INC.": 46.47,
+        "J. H. STRAIN & SONS, INC.": 55.0
+      }
+    },
+    {
+      "itemCode": "0105 6070",
+      "description": "REMOVING STAB BASE & ASPH PAV (6\" - 8\")",
+      "unit": "SY",
+      "quantity": 13620.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "REECE ALBERT, INC.": 5.0,
+        "DELHUR INDUSTRIES, INC.": 8.12,
+        "J. H. STRAIN & SONS, INC.": 11.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 3803.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "REECE ALBERT, INC.": 10.0,
+        "DELHUR INDUSTRIES, INC.": 12.0,
+        "J. H. STRAIN & SONS, INC.": 40.0
+      }
+    },
+    {
+      "itemCode": "0132 6004",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY B)",
+      "unit": "CY",
+      "quantity": 27381.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 17.54,
+      "bidders": {
+        "REECE ALBERT, INC.": 17.54,
+        "DELHUR INDUSTRIES, INC.": 23.97,
+        "J. H. STRAIN & SONS, INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0134 6004",
+      "description": "BACKFILL (TY A OR B)",
+      "unit": "STA",
+      "quantity": 842.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 176.92,
+      "bidders": {
+        "REECE ALBERT, INC.": 176.92,
+        "DELHUR INDUSTRIES, INC.": 293.67,
+        "J. H. STRAIN & SONS, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0164 6035",
+      "description": "DRILL SEEDING (PERM) (RURAL) (CLAY)",
+      "unit": "SY",
+      "quantity": 168272.0,
+      "engEstUnit": 0.4,
+      "lowUnit": 0.19,
+      "bidders": {
+        "REECE ALBERT, INC.": 0.19,
+        "DELHUR INDUSTRIES, INC.": 0.19,
+        "J. H. STRAIN & SONS, INC.": 0.25
+      }
+    },
+    {
+      "itemCode": "0164 6041",
+      "description": "DRILL SEEDING (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 84136.0,
+      "engEstUnit": 0.7,
+      "lowUnit": 0.16,
+      "bidders": {
+        "REECE ALBERT, INC.": 0.16,
+        "DELHUR INDUSTRIES, INC.": 0.15,
+        "J. H. STRAIN & SONS, INC.": 0.25
+      }
+    },
+    {
+      "itemCode": "0164 6043",
+      "description": "DRILL SEEDING (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 84136.0,
+      "engEstUnit": 0.85,
+      "lowUnit": 0.16,
+      "bidders": {
+        "REECE ALBERT, INC.": 0.16,
+        "DELHUR INDUSTRIES, INC.": 0.15,
+        "J. H. STRAIN & SONS, INC.": 0.25
+      }
+    },
+    {
+      "itemCode": "0216 6001",
+      "description": "PROOF ROLLING",
+      "unit": "HR",
+      "quantity": 68.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 172.52,
+      "bidders": {
+        "REECE ALBERT, INC.": 172.52,
+        "DELHUR INDUSTRIES, INC.": 220.0,
+        "J. H. STRAIN & SONS, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0260 6002",
+      "description": "LIME (HYDRATED LIME (SLURRY))",
+      "unit": "TON",
+      "quantity": 860.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 434.8,
+      "bidders": {
+        "REECE ALBERT, INC.": 434.8,
+        "DELHUR INDUSTRIES, INC.": 421.3,
+        "J. H. STRAIN & SONS, INC.": 425.0
+      }
+    },
+    {
+      "itemCode": "0260 6073",
+      "description": "LIME TRT (SUBGRADE)(8\")",
+      "unit": "SY",
+      "quantity": 11593.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 10.48,
+      "bidders": {
+        "REECE ALBERT, INC.": 10.48,
+        "DELHUR INDUSTRIES, INC.": 7.1,
+        "J. H. STRAIN & SONS, INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0260 6079",
+      "description": "LIME TRT (SUBGRADE)(6\")",
+      "unit": "SY",
+      "quantity": 39112.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 9.32,
+      "bidders": {
+        "REECE ALBERT, INC.": 9.32,
+        "DELHUR INDUSTRIES, INC.": 6.92,
+        "J. H. STRAIN & SONS, INC.": 10.0
+      }
+    },
+    {
+      "itemCode": "0310 6009",
+      "description": "PRIME COAT (MC-30)",
+      "unit": "GAL",
+      "quantity": 10900.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 7.4,
+      "bidders": {
+        "REECE ALBERT, INC.": 7.4,
+        "DELHUR INDUSTRIES, INC.": 6.46,
+        "J. H. STRAIN & SONS, INC.": 7.0
+      }
+    },
+    {
+      "itemCode": "0351 6004",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(8\")",
+      "unit": "SY",
+      "quantity": 7516.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 87.2,
+      "bidders": {
+        "REECE ALBERT, INC.": 87.2,
+        "DELHUR INDUSTRIES, INC.": 93.41,
+        "J. H. STRAIN & SONS, INC.": 85.0
+      }
+    },
+    {
+      "itemCode": "0354 6021",
+      "description": "PLANE ASPH CONC PAV(0\" TO 2\")",
+      "unit": "SY",
+      "quantity": 6938.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 6.43,
+      "bidders": {
+        "REECE ALBERT, INC.": 6.43,
+        "DELHUR INDUSTRIES, INC.": 2.04,
+        "J. H. STRAIN & SONS, INC.": 5.4
+      }
+    },
+    {
+      "itemCode": "0354 6022",
+      "description": "PLANE ASPH CONC PAV(0\" TO 3\")",
+      "unit": "SY",
+      "quantity": 8723.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 6.82,
+      "bidders": {
+        "REECE ALBERT, INC.": 6.82,
+        "DELHUR INDUSTRIES, INC.": 6.42,
+        "J. H. STRAIN & SONS, INC.": 5.4
+      }
+    },
+    {
+      "itemCode": "0354 6045",
+      "description": "PLANE ASPH CONC PAV (2\")",
+      "unit": "SY",
+      "quantity": 6668.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 6.69,
+      "bidders": {
+        "REECE ALBERT, INC.": 6.69,
+        "DELHUR INDUSTRIES, INC.": 4.65,
+        "J. H. STRAIN & SONS, INC.": 5.4
+      }
+    },
+    {
+      "itemCode": "0354 6048",
+      "description": "PLANE ASPH CONC PAV (3\")",
+      "unit": "SY",
+      "quantity": 1056.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 7.04,
+      "bidders": {
+        "REECE ALBERT, INC.": 7.04,
+        "DELHUR INDUSTRIES, INC.": 5.03,
+        "J. H. STRAIN & SONS, INC.": 5.4
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 267.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 484.89,
+      "bidders": {
+        "REECE ALBERT, INC.": 484.89,
+        "DELHUR INDUSTRIES, INC.": 357.5,
+        "J. H. STRAIN & SONS, INC.": 312.0
+      }
+    },
+    {
+      "itemCode": "0400 6008",
+      "description": "CUT & RESTORE ASPH PAVING",
+      "unit": "SY",
+      "quantity": 196.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 45.84,
+      "bidders": {
+        "REECE ALBERT, INC.": 45.84,
+        "DELHUR INDUSTRIES, INC.": 242.0,
+        "J. H. STRAIN & SONS, INC.": 331.0
+      }
+    },
+    {
+      "itemCode": "0400 6012",
+      "description": "CUT AND RESTORE PAV (FLEX BASE)",
+      "unit": "SY",
+      "quantity": 42.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 22.56,
+      "bidders": {
+        "REECE ALBERT, INC.": 22.56,
+        "DELHUR INDUSTRIES, INC.": 242.0,
+        "J. H. STRAIN & SONS, INC.": 125.0
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 1911.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 53.0,
+      "bidders": {
+        "REECE ALBERT, INC.": 53.0,
+        "DELHUR INDUSTRIES, INC.": 38.5,
+        "J. H. STRAIN & SONS, INC.": 82.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 156.0,
+      "engEstUnit": 270.0,
+      "lowUnit": 394.68,
+      "bidders": {
+        "REECE ALBERT, INC.": 394.68,
+        "DELHUR INDUSTRIES, INC.": 385.0,
+        "J. H. STRAIN & SONS, INC.": 437.0
+      }
+    },
+    {
+      "itemCode": "0432 6002",
+      "description": "RIPRAP (CONC)(5 IN)",
+      "unit": "CY",
+      "quantity": 78.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 857.01,
+      "bidders": {
+        "REECE ALBERT, INC.": 857.01,
+        "DELHUR INDUSTRIES, INC.": 907.5,
+        "J. H. STRAIN & SONS, INC.": 1250.0
+      }
+    },
+    {
+      "itemCode": "0432 6031",
+      "description": "RIPRAP (STONE PROTECTION)(12 IN)",
+      "unit": "CY",
+      "quantity": 484.0,
+      "engEstUnit": 210.0,
+      "lowUnit": 225.76,
+      "bidders": {
+        "REECE ALBERT, INC.": 225.76,
+        "DELHUR INDUSTRIES, INC.": 319.0,
+        "J. H. STRAIN & SONS, INC.": 188.0
+      }
+    },
+    {
+      "itemCode": "0432 6042",
+      "description": "RIPRAP (CONC)(DISSIPATER)",
+      "unit": "CY",
+      "quantity": 4.0,
+      "engEstUnit": 2100.0,
+      "lowUnit": 1001.36,
+      "bidders": {
+        "REECE ALBERT, INC.": 1001.36,
+        "DELHUR INDUSTRIES, INC.": 1650.0,
+        "J. H. STRAIN & SONS, INC.": 4375.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 483.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 704.78,
+      "bidders": {
+        "REECE ALBERT, INC.": 704.78,
+        "DELHUR INDUSTRIES, INC.": 781.0,
+        "J. H. STRAIN & SONS, INC.": 781.0
+      }
+    },
+    {
+      "itemCode": "0438 6001",
+      "description": "CLEANING AND SEALING EXISTING JOINTS",
+      "unit": "LF",
+      "quantity": 82.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 152.23,
+      "bidders": {
+        "REECE ALBERT, INC.": 152.23,
+        "DELHUR INDUSTRIES, INC.": 148.5,
+        "J. H. STRAIN & SONS, INC.": 162.0
+      }
+    },
+    {
+      "itemCode": "0438 6002",
+      "description": "CLEANING AND SEALING EXIST JOINTS(CL3)",
+      "unit": "LF",
+      "quantity": 423.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 56.38,
+      "bidders": {
+        "REECE ALBERT, INC.": 56.38,
+        "DELHUR INDUSTRIES, INC.": 55.0,
+        "J. H. STRAIN & SONS, INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "0451 6004",
+      "description": "RETROFIT RAIL (TY T131RC)",
+      "unit": "LF",
+      "quantity": 352.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 287.55,
+      "bidders": {
+        "REECE ALBERT, INC.": 287.55,
+        "DELHUR INDUSTRIES, INC.": 305.03,
+        "J. H. STRAIN & SONS, INC.": 318.0
+      }
+    },
+    {
+      "itemCode": "0466 6180",
+      "description": "WINGWALL (PW - 1) (HW=5 FT)",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 19084.36,
+      "bidders": {
+        "REECE ALBERT, INC.": 19084.36,
+        "DELHUR INDUSTRIES, INC.": 26400.0,
+        "J. H. STRAIN & SONS, INC.": 50000.0
+      }
+    },
+    {
+      "itemCode": "0466 6182",
+      "description": "WINGWALL (PW - 1) (HW=7 FT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 32000.0,
+      "lowUnit": 28625.42,
+      "bidders": {
+        "REECE ALBERT, INC.": 28625.42,
+        "DELHUR INDUSTRIES, INC.": 35200.0,
+        "J. H. STRAIN & SONS, INC.": 97500.0
+      }
+    },
+    {
+      "itemCode": "0467 6106",
+      "description": "SET (TY I)(S=3 FT)(HW=3FT)(4:1)(C)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 9500.0,
+      "lowUnit": 9577.14,
+      "bidders": {
+        "REECE ALBERT, INC.": 9577.14,
+        "DELHUR INDUSTRIES, INC.": 11550.0,
+        "J. H. STRAIN & SONS, INC.": 10625.0
+      }
+    },
+    {
+      "itemCode": "0467 6150",
+      "description": "SET (TY I)(S= 4 FT)(HW= 5 FT)(4:1) (C)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 12000.0,
+      "lowUnit": 10954.0,
+      "bidders": {
+        "REECE ALBERT, INC.": 10954.0,
+        "DELHUR INDUSTRIES, INC.": 12100.0,
+        "J. H. STRAIN & SONS, INC.": 11875.0
+      }
+    },
+    {
+      "itemCode": "0467 6177",
+      "description": "SET (TY I)(S= 5 FT)(HW= 4 FT)(4:1) (C)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 11500.0,
+      "lowUnit": 10464.6,
+      "bidders": {
+        "REECE ALBERT, INC.": 10464.6,
+        "DELHUR INDUSTRIES, INC.": 13200.0,
+        "J. H. STRAIN & SONS, INC.": 15000.0
+      }
+    },
+    {
+      "itemCode": "0467 6211",
+      "description": "SET (TY I)(S= 6 FT)(HW= 4 FT)(3:1) (C)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 9927.84,
+      "bidders": {
+        "REECE ALBERT, INC.": 9927.84,
+        "DELHUR INDUSTRIES, INC.": 19250.0,
+        "J. H. STRAIN & SONS, INC.": 18750.0
+      }
+    },
+    {
+      "itemCode": "0467 6212",
+      "description": "SET (TY I)(S= 6 FT)(HW= 4 FT)(4:1) (C)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 18000.0,
+      "lowUnit": 10814.17,
+      "bidders": {
+        "REECE ALBERT, INC.": 10814.17,
+        "DELHUR INDUSTRIES, INC.": 20900.0,
+        "J. H. STRAIN & SONS, INC.": 21250.0
+      }
+    },
+    {
+      "itemCode": "0467 6227",
+      "description": "SET (TY I)(S= 6 FT)(HW= 7 FT)(3:1) (C)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 21000.0,
+      "lowUnit": 13911.83,
+      "bidders": {
+        "REECE ALBERT, INC.": 13911.83,
+        "DELHUR INDUSTRIES, INC.": 22000.0,
+        "J. H. STRAIN & SONS, INC.": 24375.0
+      }
+    },
+    {
+      "itemCode": "0467 6245",
+      "description": "SET (TY I)(S= 7 FT)(HW= 4 FT)(4:1) (C)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 11000.0,
+      "lowUnit": 12599.24,
+      "bidders": {
+        "REECE ALBERT, INC.": 12599.24,
+        "DELHUR INDUSTRIES, INC.": 27500.0,
+        "J. H. STRAIN & SONS, INC.": 22500.0
+      }
+    },
+    {
+      "itemCode": "0467 6264",
+      "description": "SET (TY I)(S= 8 FT)(HW= 10 FT(3:1) (C)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 40000.0,
+      "lowUnit": 17567.67,
+      "bidders": {
+        "REECE ALBERT, INC.": 17567.67,
+        "DELHUR INDUSTRIES, INC.": 30800.0,
+        "J. H. STRAIN & SONS, INC.": 37500.0
+      }
+    },
+    {
+      "itemCode": "0467 6363",
+      "description": "SET (TY II) (18 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 42.0,
+      "engEstUnit": 1800.0,
+      "lowUnit": 6200.95,
+      "bidders": {
+        "REECE ALBERT, INC.": 6200.95,
+        "DELHUR INDUSTRIES, INC.": 2200.0,
+        "J. H. STRAIN & SONS, INC.": 1875.0
+      }
+    },
+    {
+      "itemCode": "0480 6001",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 2169.6,
+      "bidders": {
+        "REECE ALBERT, INC.": 2169.6,
+        "DELHUR INDUSTRIES, INC.": 1440.0,
+        "J. H. STRAIN & SONS, INC.": 3750.0
+      }
+    },
+    {
+      "itemCode": "0496 6043",
+      "description": "REMOV STR (SMALL FENCE)",
+      "unit": "LF",
+      "quantity": 144.0,
+      "engEstUnit": 17.0,
+      "lowUnit": 19.58,
+      "bidders": {
+        "REECE ALBERT, INC.": 19.58,
+        "DELHUR INDUSTRIES, INC.": 22.0,
+        "J. H. STRAIN & SONS, INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0496 6050",
+      "description": "REMOV STR (DRIVEWAY CULVERT)",
+      "unit": "EA",
+      "quantity": 17.0,
+      "engEstUnit": 1700.0,
+      "lowUnit": 1301.31,
+      "bidders": {
+        "REECE ALBERT, INC.": 1301.31,
+        "DELHUR INDUSTRIES, INC.": 880.0,
+        "J. H. STRAIN & SONS, INC.": 3125.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 2801561.42,
+      "lowUnit": 1805517.87,
+      "bidders": {
+        "REECE ALBERT, INC.": 1805517.87,
+        "DELHUR INDUSTRIES, INC.": 6077280.0,
+        "J. H. STRAIN & SONS, INC.": 3400000.0
+      }
+    },
+    {
+      "itemCode": "0512 6089",
+      "description": "PTB(FRN&INSTL)(SSCB OR CSB)(TY1)OR(STL)",
+      "unit": "LF",
+      "quantity": 5550.0,
+      "engEstUnit": 73.0,
+      "lowUnit": 41.41,
+      "bidders": {
+        "REECE ALBERT, INC.": 41.41,
+        "DELHUR INDUSTRIES, INC.": 77.7,
+        "J. H. STRAIN & SONS, INC.": 115.0
+      }
+    },
+    {
+      "itemCode": "0512 6090",
+      "description": "PTB(MOVE)(SSCB OR CSB)(TY1)OR(STL)",
+      "unit": "LF",
+      "quantity": 18990.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 9.36,
+      "bidders": {
+        "REECE ALBERT, INC.": 9.36,
+        "DELHUR INDUSTRIES, INC.": 6.96,
+        "J. H. STRAIN & SONS, INC.": 12.0
+      }
+    },
+    {
+      "itemCode": "0512 6091",
+      "description": "PTB(REMOVE)(SSCB OR CSB)(TY1)OR(STL)",
+      "unit": "LF",
+      "quantity": 5550.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 19.13,
+      "bidders": {
+        "REECE ALBERT, INC.": 19.13,
+        "DELHUR INDUSTRIES, INC.": 18.0,
+        "J. H. STRAIN & SONS, INC.": 24.0
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 6839.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 56.61,
+      "bidders": {
+        "REECE ALBERT, INC.": 56.61,
+        "DELHUR INDUSTRIES, INC.": 40.18,
+        "J. H. STRAIN & SONS, INC.": 55.0
+      }
+    },
+    {
+      "itemCode": "0530 6006",
+      "description": "DRIVEWAYS (SURF TREAT)",
+      "unit": "SY",
+      "quantity": 1981.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 75.01,
+      "bidders": {
+        "REECE ALBERT, INC.": 75.01,
+        "DELHUR INDUSTRIES, INC.": 60.0,
+        "J. H. STRAIN & SONS, INC.": 35.0
+      }
+    },
+    {
+      "itemCode": "0533 6003",
+      "description": "RUMBLE STRIPS (SHOULDER) ASPHALT",
+      "unit": "LF",
+      "quantity": 167826.0,
+      "engEstUnit": 0.8,
+      "lowUnit": 0.12,
+      "bidders": {
+        "REECE ALBERT, INC.": 0.12,
+        "DELHUR INDUSTRIES, INC.": 0.18,
+        "J. H. STRAIN & SONS, INC.": 0.19
+      }
+    },
+    {
+      "itemCode": "0533 6004",
+      "description": "RUMBLE STRIPS (CENTERLINE) ASPHALT",
+      "unit": "LF",
+      "quantity": 69389.0,
+      "engEstUnit": 0.8,
+      "lowUnit": 0.12,
+      "bidders": {
+        "REECE ALBERT, INC.": 0.12,
+        "DELHUR INDUSTRIES, INC.": 0.28,
+        "J. H. STRAIN & SONS, INC.": 0.3
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 20427.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.26,
+      "bidders": {
+        "REECE ALBERT, INC.": 2.26,
+        "DELHUR INDUSTRIES, INC.": 3.85,
+        "J. H. STRAIN & SONS, INC.": 2.25
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 36.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 3721.25,
+      "bidders": {
+        "REECE ALBERT, INC.": 3721.25,
+        "DELHUR INDUSTRIES, INC.": 3899.5,
+        "J. H. STRAIN & SONS, INC.": 3860.0
+      }
+    },
+    {
+      "itemCode": "0544 6002",
+      "description": "GUARDRAIL END TREATMENT (MOVE & RESET)",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 850.0,
+      "lowUnit": 2819.13,
+      "bidders": {
+        "REECE ALBERT, INC.": 2819.13,
+        "DELHUR INDUSTRIES, INC.": 2007.5,
+        "J. H. STRAIN & SONS, INC.": 3000.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 39.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 225.53,
+      "bidders": {
+        "REECE ALBERT, INC.": 225.53,
+        "DELHUR INDUSTRIES, INC.": 330.0,
+        "J. H. STRAIN & SONS, INC.": 240.0
+      }
+    },
+    {
+      "itemCode": "0545 6003",
+      "description": "CRASH CUSH ATTEN (MOVE & RESET)",
+      "unit": "EA",
+      "quantity": 40.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 1515.03,
+      "bidders": {
+        "REECE ALBERT, INC.": 1515.03,
+        "DELHUR INDUSTRIES, INC.": 1100.0,
+        "J. H. STRAIN & SONS, INC.": 3000.0
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1700.0,
+      "lowUnit": 1515.05,
+      "bidders": {
+        "REECE ALBERT, INC.": 1515.05,
+        "DELHUR INDUSTRIES, INC.": 1100.0,
+        "J. H. STRAIN & SONS, INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0545 6019",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 10529.94,
+      "bidders": {
+        "REECE ALBERT, INC.": 10529.94,
+        "DELHUR INDUSTRIES, INC.": 8189.4,
+        "J. H. STRAIN & SONS, INC.": 9000.0
+      }
+    },
+    {
+      "itemCode": "0552 6003",
+      "description": "WIRE FENCE (TY C)",
+      "unit": "LF",
+      "quantity": 67.0,
+      "engEstUnit": 26.0,
+      "lowUnit": 67.33,
+      "bidders": {
+        "REECE ALBERT, INC.": 67.33,
+        "DELHUR INDUSTRIES, INC.": 110.0,
+        "J. H. STRAIN & SONS, INC.": 120.0
+      }
+    },
+    {
+      "itemCode": "0552 6004",
+      "description": "WIRE FENCE (TY D)",
+      "unit": "LF",
+      "quantity": 67.0,
+      "engEstUnit": 27.0,
+      "lowUnit": 78.13,
+      "bidders": {
+        "REECE ALBERT, INC.": 78.13,
+        "DELHUR INDUSTRIES, INC.": 110.0,
+        "J. H. STRAIN & SONS, INC.": 120.0
+      }
+    },
+    {
+      "itemCode": "0560 6011",
+      "description": "MAILBOX INSTALL-S (TWW-POST) TY 4",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 385.0,
+      "lowUnit": 367.61,
+      "bidders": {
+        "REECE ALBERT, INC.": 367.61,
+        "DELHUR INDUSTRIES, INC.": 358.6,
+        "J. H. STRAIN & SONS, INC.": 313.0
+      }
+    },
+    {
+      "itemCode": "0560 6013",
+      "description": "MAILBOX INSTALL-M (TWW-POST) TY 4",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 840.1,
+      "bidders": {
+        "REECE ALBERT, INC.": 840.1,
+        "DELHUR INDUSTRIES, INC.": 819.5,
+        "J. H. STRAIN & SONS, INC.": 812.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 101.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 772.44,
+      "bidders": {
+        "REECE ALBERT, INC.": 772.44,
+        "DELHUR INDUSTRIES, INC.": 753.5,
+        "J. H. STRAIN & SONS, INC.": 825.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 76.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 893.1,
+      "bidders": {
+        "REECE ALBERT, INC.": 893.1,
+        "DELHUR INDUSTRIES, INC.": 871.2,
+        "J. H. STRAIN & SONS, INC.": 900.0
+      }
+    },
+    {
+      "itemCode": "0644 6030",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(T)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1125.4,
+      "bidders": {
+        "REECE ALBERT, INC.": 1125.4,
+        "DELHUR INDUSTRIES, INC.": 1097.8,
+        "J. H. STRAIN & SONS, INC.": 1125.0
+      }
+    },
+    {
+      "itemCode": "0644 6033",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 1300.0,
+      "lowUnit": 1252.82,
+      "bidders": {
+        "REECE ALBERT, INC.": 1252.82,
+        "DELHUR INDUSTRIES, INC.": 1222.1,
+        "J. H. STRAIN & SONS, INC.": 1187.0
+      }
+    },
+    {
+      "itemCode": "0644 6034",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U-1EXT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1300.0,
+      "lowUnit": 1321.61,
+      "bidders": {
+        "REECE ALBERT, INC.": 1321.61,
+        "DELHUR INDUSTRIES, INC.": 1289.2,
+        "J. H. STRAIN & SONS, INC.": 1237.0
+      }
+    },
+    {
+      "itemCode": "0644 6037",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U-WC)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 1400.0,
+      "lowUnit": 1406.18,
+      "bidders": {
+        "REECE ALBERT, INC.": 1406.18,
+        "DELHUR INDUSTRIES, INC.": 1371.7,
+        "J. H. STRAIN & SONS, INC.": 1237.0
+      }
+    },
+    {
+      "itemCode": "0644 6064",
+      "description": "IN BRIDGE MNT CLEARANCE SGN ASSM(TY N)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2790.0,
+      "lowUnit": 4022.33,
+      "bidders": {
+        "REECE ALBERT, INC.": 4022.33,
+        "DELHUR INDUSTRIES, INC.": 3923.7,
+        "J. H. STRAIN & SONS, INC.": 4800.0
+      }
+    },
+    {
+      "itemCode": "0658 6011",
+      "description": "INSTL DEL ASSM (D-SW)SZ 2(WC)GND(BI)",
+      "unit": "EA",
+      "quantity": 43.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 48.49,
+      "bidders": {
+        "REECE ALBERT, INC.": 48.49,
+        "DELHUR INDUSTRIES, INC.": 47.3,
+        "J. H. STRAIN & SONS, INC.": 106.0
+      }
+    },
+    {
+      "itemCode": "0658 6013",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 107.66,
+      "bidders": {
+        "REECE ALBERT, INC.": 107.66,
+        "DELHUR INDUSTRIES, INC.": 22.0,
+        "J. H. STRAIN & SONS, INC.": 24.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 107.66,
+      "bidders": {
+        "REECE ALBERT, INC.": 107.66,
+        "DELHUR INDUSTRIES, INC.": 22.0,
+        "J. H. STRAIN & SONS, INC.": 24.0
+      }
+    },
+    {
+      "itemCode": "0658 6026",
+      "description": "INSTL DEL ASSM (D-SY)SZ (BRF)CTB",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 107.66,
+      "bidders": {
+        "REECE ALBERT, INC.": 107.66,
+        "DELHUR INDUSTRIES, INC.": 22.0,
+        "J. H. STRAIN & SONS, INC.": 24.0
+      }
+    },
+    {
+      "itemCode": "0658 6061",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 39.47,
+      "bidders": {
+        "REECE ALBERT, INC.": 39.47,
+        "DELHUR INDUSTRIES, INC.": 44.0,
+        "J. H. STRAIN & SONS, INC.": 42.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 192.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 39.47,
+      "bidders": {
+        "REECE ALBERT, INC.": 39.47,
+        "DELHUR INDUSTRIES, INC.": 49.5,
+        "J. H. STRAIN & SONS, INC.": 42.0
+      }
+    },
+    {
+      "itemCode": "0658 6064",
+      "description": "INSTL DEL ASSM (D-SY)SZ 1(BRF)GF2",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 39.47,
+      "bidders": {
+        "REECE ALBERT, INC.": 39.47,
+        "DELHUR INDUSTRIES, INC.": 44.0,
+        "J. H. STRAIN & SONS, INC.": 42.0
+      }
+    },
+    {
+      "itemCode": "0658 6099",
+      "description": "INSTL OM ASSM (OM-2Z)(WFLX)GND",
+      "unit": "EA",
+      "quantity": 118.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 48.49,
+      "bidders": {
+        "REECE ALBERT, INC.": 48.49,
+        "DELHUR INDUSTRIES, INC.": 47.3,
+        "J. H. STRAIN & SONS, INC.": 106.0
+      }
+    },
+    {
+      "itemCode": "0662 6005",
+      "description": "WK ZN PAV MRK NON-REMOV (W)6\"(BRK)",
+      "unit": "LF",
+      "quantity": 3380.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.28,
+      "bidders": {
+        "REECE ALBERT, INC.": 0.28,
+        "DELHUR INDUSTRIES, INC.": 0.55,
+        "J. H. STRAIN & SONS, INC.": 0.3
+      }
+    },
+    {
+      "itemCode": "0662 6008",
+      "description": "WK ZN PAV MRK NON-REMOV (W)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 158651.0,
+      "engEstUnit": 0.7,
+      "lowUnit": 0.23,
+      "bidders": {
+        "REECE ALBERT, INC.": 0.23,
+        "DELHUR INDUSTRIES, INC.": 0.28,
+        "J. H. STRAIN & SONS, INC.": 0.3
+      }
+    },
+    {
+      "itemCode": "0662 6037",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 156381.0,
+      "engEstUnit": 0.7,
+      "lowUnit": 0.25,
+      "bidders": {
+        "REECE ALBERT, INC.": 0.25,
+        "DELHUR INDUSTRIES, INC.": 0.28,
+        "J. H. STRAIN & SONS, INC.": 0.3
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 16086.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.82,
+      "bidders": {
+        "REECE ALBERT, INC.": 1.82,
+        "DELHUR INDUSTRIES, INC.": 1.67,
+        "J. H. STRAIN & SONS, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 330.0,
+      "lowUnit": 281.91,
+      "bidders": {
+        "REECE ALBERT, INC.": 281.91,
+        "DELHUR INDUSTRIES, INC.": 330.0,
+        "J. H. STRAIN & SONS, INC.": 420.0
+      }
+    },
+    {
+      "itemCode": "0668 6083",
+      "description": "PREFAB PAV MRK TY C (W) (LNDP ARROW)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 958.5,
+      "bidders": {
+        "REECE ALBERT, INC.": 958.5,
+        "DELHUR INDUSTRIES, INC.": 605.0,
+        "J. H. STRAIN & SONS, INC.": 840.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 417.23,
+      "bidders": {
+        "REECE ALBERT, INC.": 417.23,
+        "DELHUR INDUSTRIES, INC.": 440.0,
+        "J. H. STRAIN & SONS, INC.": 420.0
+      }
+    },
+    {
+      "itemCode": "0668 6092",
+      "description": "PREFAB PAV MRK TY C (W) (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 50.74,
+      "bidders": {
+        "REECE ALBERT, INC.": 50.74,
+        "DELHUR INDUSTRIES, INC.": 82.5,
+        "J. H. STRAIN & SONS, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 640.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 5.64,
+      "bidders": {
+        "REECE ALBERT, INC.": 5.64,
+        "DELHUR INDUSTRIES, INC.": 6.05,
+        "J. H. STRAIN & SONS, INC.": 5.4
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 1702.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 5.53,
+      "bidders": {
+        "REECE ALBERT, INC.": 5.53,
+        "DELHUR INDUSTRIES, INC.": 5.5,
+        "J. H. STRAIN & SONS, INC.": 5.4
+      }
+    },
+    {
+      "itemCode": "0730 6107",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "CYC",
+      "quantity": 6.0,
+      "engEstUnit": 6000.0,
+      "lowUnit": 22249.68,
+      "bidders": {
+        "REECE ALBERT, INC.": 22249.68,
+        "DELHUR INDUSTRIES, INC.": 11000.0,
+        "J. H. STRAIN & SONS, INC.": 6500.0
+      }
+    },
+    {
+      "itemCode": "0780 6002",
+      "description": "CNC CRACK REPAIR (DISCRETE)(INJECT)",
+      "unit": "LF",
+      "quantity": 281.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 140.96,
+      "bidders": {
+        "REECE ALBERT, INC.": 140.96,
+        "DELHUR INDUSTRIES, INC.": 137.5,
+        "J. H. STRAIN & SONS, INC.": 150.0
+      }
+    },
+    {
+      "itemCode": "0786 6001",
+      "description": "CARBON FIBER REINF POLYMER PROTECTION",
+      "unit": "SF",
+      "quantity": 47.2,
+      "engEstUnit": 120.0,
+      "lowUnit": 208.62,
+      "bidders": {
+        "REECE ALBERT, INC.": 208.62,
+        "DELHUR INDUSTRIES, INC.": 203.5,
+        "J. H. STRAIN & SONS, INC.": 222.0
+      }
+    },
+    {
+      "itemCode": "0788 6001",
+      "description": "CONCRETE BEAM REPAIR",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 7668.03,
+      "bidders": {
+        "REECE ALBERT, INC.": 7668.03,
+        "DELHUR INDUSTRIES, INC.": 7480.0,
+        "J. H. STRAIN & SONS, INC.": 8160.0
+      }
+    },
+    {
+      "itemCode": "0788 6002",
+      "description": "CONCRETE BEAM REPAIR (CFRP)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 26000.0,
+      "lowUnit": 28529.57,
+      "bidders": {
+        "REECE ALBERT, INC.": 28529.57,
+        "DELHUR INDUSTRIES, INC.": 27830.0,
+        "J. H. STRAIN & SONS, INC.": 30300.0
+      }
+    },
+    {
+      "itemCode": "3077 6023",
+      "description": "SP MIXES SP-C SAC-B PG70-22",
+      "unit": "TON",
+      "quantity": 76512.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 156.39,
+      "bidders": {
+        "REECE ALBERT, INC.": 156.39,
+        "DELHUR INDUSTRIES, INC.": 152.23,
+        "J. H. STRAIN & SONS, INC.": 165.0
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 27830.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 3.15,
+      "bidders": {
+        "REECE ALBERT, INC.": 3.15,
+        "DELHUR INDUSTRIES, INC.": 5.15,
+        "J. H. STRAIN & SONS, INC.": 3.5
+      }
+    },
+    {
+      "itemCode": "4171 6001",
+      "description": "INSTALL BRIDGE IDENTIFICATION NUMBERS",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 550.0,
+      "lowUnit": 735.58,
+      "bidders": {
+        "REECE ALBERT, INC.": 735.58,
+        "DELHUR INDUSTRIES, INC.": 555.0,
+        "J. H. STRAIN & SONS, INC.": 600.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 494.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 121.11,
+      "bidders": {
+        "REECE ALBERT, INC.": 121.11,
+        "DELHUR INDUSTRIES, INC.": 180.0,
+        "J. H. STRAIN & SONS, INC.": 130.0
+      }
+    },
+    {
+      "itemCode": "4122 6023",
+      "description": "THERMO PIPE(18\")(PP)(TY S)(TY II)",
+      "unit": "LF",
+      "quantity": 258.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 194.2,
+      "bidders": {
+        "REECE ALBERT, INC.": 194.2,
+        "DELHUR INDUSTRIES, INC.": 0.0,
+        "J. H. STRAIN & SONS, INC.": 0.0
+      }
+    }
+  ]
+}

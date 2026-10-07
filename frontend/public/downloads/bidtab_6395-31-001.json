@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6395-31-001",
+    "county": "Wilbarger",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639531001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/10/22",
+    "engEstTotal": 251656.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRIPLE T MAINTENANCE INC.",
+      "totalBidAmount": 253280.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1147.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 29.5,
+      "bidders": {
+        "TRIPLE T MAINTENANCE INC.": 29.5
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 5352.0,
+      "engEstUnit": 38.0,
+      "lowUnit": 41.0,
+      "bidders": {
+        "TRIPLE T MAINTENANCE INC.": 41.0
+      }
+    }
+  ]
+}

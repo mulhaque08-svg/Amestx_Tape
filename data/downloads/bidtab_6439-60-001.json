@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6439-60-001",
+    "county": "Brown",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 643960001",
+    "projectType": "EMULSION",
+    "letDate": "04/11/23",
+    "engEstTotal": 159240.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 181680.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ERGON ASPHALT & EMULSIONS, INC.",
+      "totalBidAmount": 189360.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6090",
+      "description": "EMULSION(CSS-1H)(DEL)(GAL)(SITE 3)",
+      "unit": "GAL",
+      "quantity": 12000.0,
+      "engEstUnit": 2.65,
+      "lowUnit": 2.93,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.93,
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.06
+      }
+    },
+    {
+      "itemCode": "8010 6142",
+      "description": "EMULSION (CRS-2) (DEL) SITE 1",
+      "unit": "GAL",
+      "quantity": 12000.0,
+      "engEstUnit": 2.65,
+      "lowUnit": 2.91,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.91,
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.18
+      }
+    },
+    {
+      "itemCode": "8010 6143",
+      "description": "EMULSION (CRS-2) (DEL) SITE 2",
+      "unit": "GAL",
+      "quantity": 12000.0,
+      "engEstUnit": 2.64,
+      "lowUnit": 2.88,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.88,
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.18
+      }
+    },
+    {
+      "itemCode": "8010 6144",
+      "description": "EMULSION (CRS-2) (DEL) SITE 3",
+      "unit": "GAL",
+      "quantity": 12000.0,
+      "engEstUnit": 2.67,
+      "lowUnit": 2.93,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.93,
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.18
+      }
+    },
+    {
+      "itemCode": "8010 6145",
+      "description": "EMULSION (CRS-2) (DEL) SITE 4",
+      "unit": "GAL",
+      "quantity": 12000.0,
+      "engEstUnit": 2.66,
+      "lowUnit": 3.49,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.49,
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.18
+      }
+    }
+  ]
+}

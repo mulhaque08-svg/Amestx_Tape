@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "csj": "6465-49-001",
+    "county": "Wise",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646549001",
+    "projectType": "DEBRIS REMOVAL",
+    "letDate": "05/02/24",
+    "engEstTotal": 419847.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RHINO EQUITY, LLC",
+      "totalBidAmount": 309310.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "PROFESSIONAL TRAFFIC CONTROL LLC",
+      "totalBidAmount": 379136.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "HAZMAT INTERNATIONAL, INC.",
+      "totalBidAmount": 518998.5
+    },
+    {
+      "rank": 4,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 557972.5
+    },
+    {
+      "rank": 5,
+      "vendorName": "ANTHONY SERVICES",
+      "totalBidAmount": 592854.73
+    },
+    {
+      "rank": 6,
+      "vendorName": "JASCO",
+      "totalBidAmount": 691377.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 32.0,
+      "engEstUnit": 808.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 1000.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1.0,
+        "HAZMAT INTERNATIONAL, INC.": 100.0,
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "ANTHONY SERVICES": 2000.0,
+        "JASCO": 1700.0
+      }
+    },
+    {
+      "itemCode": "0735 6002",
+      "description": "DEBRIS REMOVAL (CNTR MEDIANS/MAINLANES)",
+      "unit": "MI",
+      "quantity": 2588.1,
+      "engEstUnit": 110.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 100.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 45.0,
+        "HAZMAT INTERNATIONAL, INC.": 185.0,
+        "DIGG COMMERCIAL, LLC": 5.0,
+        "ANTHONY SERVICES": 64.98,
+        "JASCO": 170.0
+      }
+    },
+    {
+      "itemCode": "0735 6007",
+      "description": "DEBRIS REMOVAL (SPOT DEBRIS)",
+      "unit": "MI",
+      "quantity": 10.0,
+      "engEstUnit": 130.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "RHINO EQUITY, LLC": 50.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 200.0,
+        "HAZMAT INTERNATIONAL, INC.": 100.0,
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "ANTHONY SERVICES": 500.0,
+        "JASCO": 1700.0
+      }
+    }
+  ]
+}

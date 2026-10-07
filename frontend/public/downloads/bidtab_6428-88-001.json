@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6428-88-001",
+    "county": "Nueces",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642888001",
+    "projectType": "HOT MIX",
+    "letDate": "12/13/22",
+    "engEstTotal": 293480.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ANDERSON COLUMBIA CO., INC.",
+      "totalBidAmount": 297720.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 330469.6
+    },
+    {
+      "rank": 3,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 355600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 240.0,
+      "engEstUnit": 92.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "ANDERSON COLUMBIA CO., INC.": 90.0,
+        "COLORADO MATERIALS, LTD.": 100.0,
+        "TOUCHSTONE RESOURCES, LLC": 105.0
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2360.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 117.0,
+      "bidders": {
+        "ANDERSON COLUMBIA CO., INC.": 117.0,
+        "COLORADO MATERIALS, LTD.": 129.86,
+        "TOUCHSTONE RESOURCES, LLC": 140.0
+      }
+    }
+  ]
+}

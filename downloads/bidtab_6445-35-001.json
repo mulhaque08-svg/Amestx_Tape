@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6445-35-001",
+    "county": "Aransas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 644535001",
+    "projectType": "AGGREGATE",
+    "letDate": "06/13/23",
+    "engEstTotal": 274500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 254322.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 258552.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 270900.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 351000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6240",
+      "description": "AGGR (TY PB GR 4) (DEL) (ST2)",
+      "unit": "TON",
+      "quantity": 900.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 96.57,
+      "bidders": {
+        "MARTIN MARIETTA MATERIALS, INC.": 96.57,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 99.0,
+        "BRAUNTEX MATERIALS, INC.": 97.0,
+        "TOUCHSTONE RESOURCES, LLC": 130.0
+      }
+    },
+    {
+      "itemCode": "8039 6241",
+      "description": "AGGR (TY PB GR 4) (DEL) (ST3)",
+      "unit": "TON",
+      "quantity": 900.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 91.74,
+      "bidders": {
+        "MARTIN MARIETTA MATERIALS, INC.": 91.74,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 94.2,
+        "BRAUNTEX MATERIALS, INC.": 97.0,
+        "TOUCHSTONE RESOURCES, LLC": 130.0
+      }
+    },
+    {
+      "itemCode": "8039 6521",
+      "description": "AGGR (TY PB GR 3S) (DELIVERY) (ST 1)",
+      "unit": "TON",
+      "quantity": 900.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 94.27,
+      "bidders": {
+        "MARTIN MARIETTA MATERIALS, INC.": 94.27,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 94.08,
+        "BRAUNTEX MATERIALS, INC.": 107.0,
+        "TOUCHSTONE RESOURCES, LLC": 130.0
+      }
+    }
+  ]
+}

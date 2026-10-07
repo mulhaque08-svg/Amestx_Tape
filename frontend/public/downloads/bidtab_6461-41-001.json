@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6461-41-001",
+    "county": "Victoria",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646141001",
+    "projectType": "LIME",
+    "letDate": "04/15/24",
+    "engEstTotal": 19687.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS LIME COMPANY",
+      "totalBidAmount": 17718.75
+    },
+    {
+      "rank": 2,
+      "vendorName": "E.P.S.H., LLC",
+      "totalBidAmount": 18884.25
+    },
+    {
+      "rank": 3,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 19372.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8017 6005",
+      "description": "LIME (HYD) (DRY) (SITE 1)",
+      "unit": "BAG",
+      "quantity": 525.0,
+      "engEstUnit": 12.5,
+      "lowUnit": 11.25,
+      "bidders": {
+        "TEXAS LIME COMPANY": 11.25,
+        "E.P.S.H., LLC": 11.99,
+        "TOUCHSTONE RESOURCES, LLC": 12.3
+      }
+    },
+    {
+      "itemCode": "8017 6006",
+      "description": "LIME (HYD) (DRY) (SITE 2)",
+      "unit": "BAG",
+      "quantity": 525.0,
+      "engEstUnit": 12.5,
+      "lowUnit": 11.25,
+      "bidders": {
+        "TEXAS LIME COMPANY": 11.25,
+        "E.P.S.H., LLC": 11.99,
+        "TOUCHSTONE RESOURCES, LLC": 12.3
+      }
+    },
+    {
+      "itemCode": "8017 6007",
+      "description": "LIME (HYD) (DRY) (SITE 3)",
+      "unit": "BAG",
+      "quantity": 525.0,
+      "engEstUnit": 12.5,
+      "lowUnit": 11.25,
+      "bidders": {
+        "TEXAS LIME COMPANY": 11.25,
+        "E.P.S.H., LLC": 11.99,
+        "TOUCHSTONE RESOURCES, LLC": 12.3
+      }
+    }
+  ]
+}

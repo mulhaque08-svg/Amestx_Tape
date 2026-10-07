@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "csj": "6450-25-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645025001",
+    "projectType": "TREE TRIMMING AND BRUSH REMOVAL",
+    "letDate": "12/12/23",
+    "engEstTotal": 235523.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 235700.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "PATHFIELD INVESTMENTS LLC",
+      "totalBidAmount": 470480.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 35000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 1000.0,
+        "PATHFIELD INVESTMENTS LLC": 40000.0
+      }
+    },
+    {
+      "itemCode": "0752 6002",
+      "description": "BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 16.64,
+      "engEstUnit": 2200.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 5000.0,
+        "PATHFIELD INVESTMENTS LLC": 5000.0
+      }
+    },
+    {
+      "itemCode": "0752 6004",
+      "description": "TREE TRIMMING / BRUSH REMOVAL(CHANNELS)",
+      "unit": "AC",
+      "quantity": 16.0,
+      "engEstUnit": 2250.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 5000.0,
+        "PATHFIELD INVESTMENTS LLC": 5000.0
+      }
+    },
+    {
+      "itemCode": "0752 6005",
+      "description": "TREE REMOVAL (4\" - 12\" DIA)",
+      "unit": "EA",
+      "quantity": 757.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 50.0,
+        "PATHFIELD INVESTMENTS LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0752 6006",
+      "description": "TREE REMOVAL (12\" - 18\" DIA)",
+      "unit": "EA",
+      "quantity": 157.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 100.0,
+        "PATHFIELD INVESTMENTS LLC": 400.0
+      }
+    },
+    {
+      "itemCode": "0752 6007",
+      "description": "TREE REMOVAL (18\" - 24\" DIA)",
+      "unit": "EA",
+      "quantity": 31.0,
+      "engEstUnit": 325.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 250.0,
+        "PATHFIELD INVESTMENTS LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0752 6008",
+      "description": "TREE REMOVAL (24\" - 30\" DIA)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 1000.0,
+        "PATHFIELD INVESTMENTS LLC": 2000.0
+      }
+    }
+  ]
+}

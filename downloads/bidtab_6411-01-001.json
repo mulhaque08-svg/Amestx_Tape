@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6411-01-001",
+    "county": "Matagorda",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641101001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/01/23",
+    "engEstTotal": 355500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 482058.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "LAWNSCAPES UNLIMITED",
+      "totalBidAmount": 711000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 2768.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 33.9,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 33.9,
+        "LAWNSCAPES UNLIMITED": 50.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 11452.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 33.9,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 33.9,
+        "LAWNSCAPES UNLIMITED": 50.0
+      }
+    }
+  ]
+}

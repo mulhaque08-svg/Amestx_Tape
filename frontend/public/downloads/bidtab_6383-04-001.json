@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6383-04-001",
+    "county": "Kendall",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638304001",
+    "projectType": "LIMESTONE ROCK AND ASPHALT",
+    "letDate": "06/16/21",
+    "engEstTotal": 282750.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 296687.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 303177.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8009 6025",
+      "description": "LRA (TY I)(GR-AA) (DELIVERY)",
+      "unit": "TON",
+      "quantity": 1250.0,
+      "engEstUnit": 63.0,
+      "lowUnit": 68.75,
+      "bidders": {
+        "MARTIN MARIETTA MATERIALS, INC.": 68.75,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 70.63
+      }
+    },
+    {
+      "itemCode": "8009 6026",
+      "description": "LRA (TY II)(GR-DS) (DELIVERY)",
+      "unit": "TON",
+      "quantity": 3000.0,
+      "engEstUnit": 68.0,
+      "lowUnit": 70.25,
+      "bidders": {
+        "MARTIN MARIETTA MATERIALS, INC.": 70.25,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 71.63
+      }
+    }
+  ]
+}

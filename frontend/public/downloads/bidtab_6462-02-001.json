@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6462-02-001",
+    "county": "Parker",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 646202001",
+    "projectType": "HOT MIX",
+    "letDate": "04/04/24",
+    "engEstTotal": 573920.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AUSTIN ASPHALT, INC.",
+      "totalBidAmount": 600500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "KIEWIT INFRASTRUCTURE SOUTH CO.",
+      "totalBidAmount": 622000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 730000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 110.76,
+      "lowUnit": 111.0,
+      "bidders": {
+        "AUSTIN ASPHALT, INC.": 111.0,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 118.0,
+        "TEXAS MATERIALS GROUP, INC.": 140.0
+      }
+    },
+    {
+      "itemCode": "8011 6017",
+      "description": "D-GR HMA(SQ)TY C PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 86.58,
+      "lowUnit": 113.5,
+      "bidders": {
+        "AUSTIN ASPHALT, INC.": 113.5,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 110.0,
+        "TEXAS MATERIALS GROUP, INC.": 140.0
+      }
+    },
+    {
+      "itemCode": "8011 6040",
+      "description": "D-GR HMA(SQ) TY C SAC A PG70-28(DEL)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 145.0,
+      "lowUnit": 131.25,
+      "bidders": {
+        "AUSTIN ASPHALT, INC.": 131.25,
+        "KIEWIT INFRASTRUCTURE SOUTH CO.": 142.0,
+        "TEXAS MATERIALS GROUP, INC.": 155.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6466-79-001",
+    "county": "Wichita",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646679001",
+    "projectType": "TRAFFIC CONTROL SERVICES",
+    "letDate": "07/09/24",
+    "engEstTotal": 494000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FC TRAFFIC CONTROL, INC.",
+      "totalBidAmount": 392800.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "PROFESSIONAL TRAFFIC CONTROL LLC",
+      "totalBidAmount": 473000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "AWP SAFETY",
+      "totalBidAmount": 473600.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "ROSS SA ENTERPRISE LLC",
+      "totalBidAmount": 490000.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "TRAFFIC HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 554880.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 40.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 50.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 250.0,
+        "AWP SAFETY": 332.0,
+        "ROSS SA ENTERPRISE LLC": 500.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 122.0
+      }
+    },
+    {
+      "itemCode": "7148 6009",
+      "description": "EXIT OR ENTRANCE RAMP CLOSURE",
+      "unit": "HR",
+      "quantity": 80.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "FC TRAFFIC CONTROL, INC.": 10.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 350.0,
+        "AWP SAFETY": 429.0,
+        "ROSS SA ENTERPRISE LLC": 250.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 200.0
+      }
+    }
+  ]
+}

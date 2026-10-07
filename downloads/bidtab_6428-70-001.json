@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6428-70-001",
+    "county": "Fannin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642870001",
+    "projectType": "DENSE GRADED HOT MIX",
+    "letDate": "02/01/23",
+    "engEstTotal": 704000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RK HALL, LLC",
+      "totalBidAmount": 704000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "RICHARD DRAKE CONSTRUCTION COMPANY, L.P.",
+      "totalBidAmount": 812000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "AUSTIN ASPHALT, INC.",
+      "totalBidAmount": 840800.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 82.0,
+      "lowUnit": 76.0,
+      "bidders": {
+        "RK HALL, LLC": 76.0,
+        "RICHARD DRAKE CONSTRUCTION COMPANY, L.P.": 88.75,
+        "AUSTIN ASPHALT, INC.": 88.15
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 6000.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 92.0,
+      "bidders": {
+        "RK HALL, LLC": 92.0,
+        "RICHARD DRAKE CONSTRUCTION COMPANY, L.P.": 105.75,
+        "AUSTIN ASPHALT, INC.": 110.75
+      }
+    }
+  ]
+}

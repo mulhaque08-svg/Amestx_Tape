@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6426-08-001",
+    "county": "Madison",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642608001",
+    "projectType": "HOT MIX",
+    "letDate": "12/01/22",
+    "engEstTotal": 438000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 384320.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "VULCAN CONSTRUCTION MATERIALS, LLC",
+      "totalBidAmount": 416700.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "BIG CREEK CONSTRUCTION, LTD.",
+      "totalBidAmount": 417000.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "WALLER COUNTY ASPHALT INC.",
+      "totalBidAmount": 469000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6001",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 80.0,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 83.5,
+        "BIG CREEK CONSTRUCTION, LTD.": 85.0,
+        "WALLER COUNTY ASPHALT INC.": 89.0
+      }
+    },
+    {
+      "itemCode": "8011 6002",
+      "description": "D-GR HMA(SQ) TY D PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 4000.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 92.08,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 92.08,
+        "VULCAN CONSTRUCTION MATERIALS, LLC": 100.0,
+        "BIG CREEK CONSTRUCTION, LTD.": 100.0,
+        "WALLER COUNTY ASPHALT INC.": 112.8
+      }
+    }
+  ]
+}

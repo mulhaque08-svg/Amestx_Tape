@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6423-42-001",
+    "county": "Uvalde",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642342001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "01/06/23",
+    "engEstTotal": 709220.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "USA DT SERVICES, INC.",
+      "totalBidAmount": 635540.3
+    },
+    {
+      "rank": 2,
+      "vendorName": "BK FIELD OPERATIONS LLC",
+      "totalBidAmount": 644621.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "AAD CONTRACTING INC.",
+      "totalBidAmount": 699130.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 1342600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 0.01,
+      "bidders": {
+        "USA DT SERVICES, INC.": 0.01,
+        "BK FIELD OPERATIONS LLC": 0.1,
+        "AAD CONTRACTING INC.": 1700.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 17418.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 36.1,
+      "bidders": {
+        "USA DT SERVICES, INC.": 36.1,
+        "BK FIELD OPERATIONS LLC": 37.0,
+        "AAD CONTRACTING INC.": 35.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 150.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "USA DT SERVICES, INC.": 45.0,
+        "BK FIELD OPERATIONS LLC": 1.0,
+        "AAD CONTRACTING INC.": 30.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 75.0
+      }
+    }
+  ]
+}

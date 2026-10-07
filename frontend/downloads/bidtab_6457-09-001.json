@@ -1,0 +1,974 @@
+{
+  "metadata": {
+    "csj": "6457-09-001",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645709001",
+    "projectType": "SWEEPING AND DEBRIS REMOVAL",
+    "letDate": "06/06/24",
+    "engEstTotal": 2016708.6,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 1690158.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SWEEPING CORPORATION OF AMERICA, LLC",
+      "totalBidAmount": 1869508.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "HAZMAT INTERNATIONAL, INC.",
+      "totalBidAmount": 1897040.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "PROFESSIONAL TRAFFIC CONTROL LLC",
+      "totalBidAmount": 2085392.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 60.0,
+      "engEstUnit": 100.5,
+      "lowUnit": 1.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 100.0,
+        "HAZMAT INTERNATIONAL, INC.": 1200.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 525.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 1.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 250.0,
+        "HAZMAT INTERNATIONAL, INC.": 2500.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0735 6007",
+      "description": "DEBRIS REMOVAL (SPOT DEBRIS)",
+      "unit": "MI",
+      "quantity": 20.0,
+      "engEstUnit": 58.32,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 25.0,
+        "HAZMAT INTERNATIONAL, INC.": 100.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0735 6068",
+      "description": "DEBRIS-CNTR MEDIANS/MAINLANES-AREA (1)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 810.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 481.5,
+        "HAZMAT INTERNATIONAL, INC.": 450.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0735 6070",
+      "description": "DEBRIS-CNTR MEDIANS/MAINLANES-AREA (3)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 830.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 374.5,
+        "HAZMAT INTERNATIONAL, INC.": 350.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0735 6072",
+      "description": "DEBRIS-CNTR MEDIANS/MAINLANES-AREA (5)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 1260.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 749.0,
+        "HAZMAT INTERNATIONAL, INC.": 700.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1250.0
+      }
+    },
+    {
+      "itemCode": "0735 6085",
+      "description": "DEBRIS-CNTR MEDIANS/MAINLANES-AREA (18)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 535.0,
+        "HAZMAT INTERNATIONAL, INC.": 500.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0735 6087",
+      "description": "DEBRIS-CNTR MEDIANS/MAINLANES-AREA (20)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 775.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 481.5,
+        "HAZMAT INTERNATIONAL, INC.": 300.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 450.0
+      }
+    },
+    {
+      "itemCode": "0735 6136",
+      "description": "DEBRIS-DIRECT CONNECTOR - AREA (9)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 190.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 53.5,
+        "HAZMAT INTERNATIONAL, INC.": 50.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 225.0
+      }
+    },
+    {
+      "itemCode": "0735 6137",
+      "description": "DEBRIS-DIRECT CONNECTOR - AREA (10)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 320.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 160.5,
+        "HAZMAT INTERNATIONAL, INC.": 150.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 225.0
+      }
+    },
+    {
+      "itemCode": "0735 6146",
+      "description": "DEBRIS-DIRECT CONNECTOR - AREA (19)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 575.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 107.0,
+        "HAZMAT INTERNATIONAL, INC.": 100.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "0735 6147",
+      "description": "DEBRIS-DIRECT CONNECTOR - AREA (20)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 550.0,
+      "lowUnit": 450.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 450.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 160.5,
+        "HAZMAT INTERNATIONAL, INC.": 150.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 225.0
+      }
+    },
+    {
+      "itemCode": "0735 6149",
+      "description": "DEBRIS-CNTR MEDIANS/MAINLANES-AREA (21)",
+      "unit": "CYC",
+      "quantity": 48.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1177.0,
+        "HAZMAT INTERNATIONAL, INC.": 700.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 700.0
+      }
+    },
+    {
+      "itemCode": "0738 6010",
+      "description": "CLEANING / SWEEPING (SPOT)",
+      "unit": "MI",
+      "quantity": 20.0,
+      "engEstUnit": 240.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 200.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 300.0,
+        "HAZMAT INTERNATIONAL, INC.": 100.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0738 6011",
+      "description": "CLEANING / SWEEPING (HANDWORK)",
+      "unit": "SY",
+      "quantity": 120000.0,
+      "engEstUnit": 0.23,
+      "lowUnit": 0.1,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 0.1,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 0.05,
+        "HAZMAT INTERNATIONAL, INC.": 0.5,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 0.05
+      }
+    },
+    {
+      "itemCode": "0738 6094",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(1)",
+      "unit": "CYC",
+      "quantity": 48.0,
+      "engEstUnit": 1566.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1116.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1687.5
+      }
+    },
+    {
+      "itemCode": "0738 6096",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(3)",
+      "unit": "CYC",
+      "quantity": 48.0,
+      "engEstUnit": 1218.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 868.0,
+        "HAZMAT INTERNATIONAL, INC.": 700.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1575.0
+      }
+    },
+    {
+      "itemCode": "0738 6098",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(5)",
+      "unit": "CYC",
+      "quantity": 48.0,
+      "engEstUnit": 2436.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1736.0,
+        "HAZMAT INTERNATIONAL, INC.": 1000.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2400.0
+      }
+    },
+    {
+      "itemCode": "0738 6100",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(7)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 367.25,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 496.0,
+        "HAZMAT INTERNATIONAL, INC.": 225.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 169.0
+      }
+    },
+    {
+      "itemCode": "0738 6101",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN - AREA(8)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 499.5,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 372.0,
+        "HAZMAT INTERNATIONAL, INC.": 450.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 338.0
+      }
+    },
+    {
+      "itemCode": "0738 6104",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (11)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 1130.5,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 868.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 315.0
+      }
+    },
+    {
+      "itemCode": "0738 6105",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (12)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 393.75,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 372.0,
+        "HAZMAT INTERNATIONAL, INC.": 450.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 135.0
+      }
+    },
+    {
+      "itemCode": "0738 6106",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (13)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1984.0,
+        "HAZMAT INTERNATIONAL, INC.": 1000.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1200.0
+      }
+    },
+    {
+      "itemCode": "0738 6107",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (14)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1375.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1240.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1875.0
+      }
+    },
+    {
+      "itemCode": "0738 6108",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (15)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 457.5,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 372.0,
+        "HAZMAT INTERNATIONAL, INC.": 450.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 563.0
+      }
+    },
+    {
+      "itemCode": "0738 6109",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (16)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 725.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1240.0,
+        "HAZMAT INTERNATIONAL, INC.": 450.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 338.0
+      }
+    },
+    {
+      "itemCode": "0738 6111",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (18)",
+      "unit": "CYC",
+      "quantity": 48.0,
+      "engEstUnit": 1375.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1240.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2250.0
+      }
+    },
+    {
+      "itemCode": "0738 6113",
+      "description": "CLEAN / SWEEP - CENTER MEDIAN-AREA (20)",
+      "unit": "CYC",
+      "quantity": 48.0,
+      "engEstUnit": 825.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1116.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1125.0
+      }
+    },
+    {
+      "itemCode": "0738 6114",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(1)",
+      "unit": "CYC",
+      "quantity": 48.0,
+      "engEstUnit": 1237.5,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1116.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1687.5
+      }
+    },
+    {
+      "itemCode": "0738 6116",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(3)",
+      "unit": "CYC",
+      "quantity": 48.0,
+      "engEstUnit": 1400.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 868.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1575.0
+      }
+    },
+    {
+      "itemCode": "0738 6118",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(5)",
+      "unit": "CYC",
+      "quantity": 48.0,
+      "engEstUnit": 1925.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1736.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2000.0
+      }
+    },
+    {
+      "itemCode": "0738 6120",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(7)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 312.5,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 496.0,
+        "HAZMAT INTERNATIONAL, INC.": 225.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 169.0
+      }
+    },
+    {
+      "itemCode": "0738 6121",
+      "description": "CLEAN / SWEEP-OUTSIDE MAIN LANE-AREA(8)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 375.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 372.0,
+        "HAZMAT INTERNATIONAL, INC.": 450.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 338.0
+      }
+    },
+    {
+      "itemCode": "0738 6124",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(11)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 868.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 315.0
+      }
+    },
+    {
+      "itemCode": "0738 6125",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(12)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 318.75,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 372.0,
+        "HAZMAT INTERNATIONAL, INC.": 450.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 135.0
+      }
+    },
+    {
+      "itemCode": "0738 6126",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(13)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 500.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1984.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1200.0
+      }
+    },
+    {
+      "itemCode": "0738 6127",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(14)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1375.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1240.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1875.0
+      }
+    },
+    {
+      "itemCode": "0738 6128",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(15)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 457.5,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 372.0,
+        "HAZMAT INTERNATIONAL, INC.": 450.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 563.0
+      }
+    },
+    {
+      "itemCode": "0738 6129",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(16)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 725.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1240.0,
+        "HAZMAT INTERNATIONAL, INC.": 450.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 338.0
+      }
+    },
+    {
+      "itemCode": "0738 6130",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(17)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 496.0,
+        "HAZMAT INTERNATIONAL, INC.": 150.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "0738 6131",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(18)",
+      "unit": "CYC",
+      "quantity": 48.0,
+      "engEstUnit": 1375.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1240.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2250.0
+      }
+    },
+    {
+      "itemCode": "0738 6133",
+      "description": "CLEAN /SWEEP-OUTSIDE MAIN LANE-AREA(20)",
+      "unit": "CYC",
+      "quantity": 48.0,
+      "engEstUnit": 915.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1116.0,
+        "HAZMAT INTERNATIONAL, INC.": 800.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 1125.0
+      }
+    },
+    {
+      "itemCode": "0738 6135",
+      "description": "CLEAN / SWEEP - FRONTAGE ROAD - AREA(2)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 2960.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 3968.0,
+        "HAZMAT INTERNATIONAL, INC.": 5000.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 240.0
+      }
+    },
+    {
+      "itemCode": "0738 6136",
+      "description": "CLEAN / SWEEP - FRONTAGE ROAD - AREA(3)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 868.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 315.0
+      }
+    },
+    {
+      "itemCode": "0738 6139",
+      "description": "CLEAN / SWEEP - FRONTAGE ROAD - AREA(6)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 1275.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1860.0,
+        "HAZMAT INTERNATIONAL, INC.": 1400.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 540.0
+      }
+    },
+    {
+      "itemCode": "0738 6151",
+      "description": "CLEAN / SWEEP - FRONTAGE ROAD -AREA(18)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 1400.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1240.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 450.0
+      }
+    },
+    {
+      "itemCode": "0738 6153",
+      "description": "CLEAN / SWEEP - FRONTAGE ROAD -AREA(20)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1116.0,
+        "HAZMAT INTERNATIONAL, INC.": 800.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 270.0
+      }
+    },
+    {
+      "itemCode": "0738 6154",
+      "description": "CLEAN / SWEEP - (ENTR /EXT RMP)(AREA 1)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1116.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 270.0
+      }
+    },
+    {
+      "itemCode": "0738 6156",
+      "description": "CLEAN / SWEEP - (ENTR /EXT RMP)(AREA 3)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 875.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 868.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 405.0
+      }
+    },
+    {
+      "itemCode": "0738 6157",
+      "description": "CLEAN / SWEEP - (ENTR /EXT RMP)(AREA 4)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 992.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 315.0
+      }
+    },
+    {
+      "itemCode": "0738 6171",
+      "description": "CLEAN / SWEEP - (ENTR/EXT RMP)(AREA 18)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 1250.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1240.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 600.0
+      }
+    },
+    {
+      "itemCode": "0738 6173",
+      "description": "CLEAN / SWEEP - (ENTR/EXT RMP)(AREA 20)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1116.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 750.0
+      }
+    },
+    {
+      "itemCode": "0738 6182",
+      "description": "CLEAN/SWEEPING-DIRECT CONNECT-AREA(9)",
+      "unit": "CYC",
+      "quantity": 48.0,
+      "engEstUnit": 152.5,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 124.0,
+        "HAZMAT INTERNATIONAL, INC.": 200.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0738 6183",
+      "description": "CLEAN/SWEEPING-DIRECT CONNECT-AREA(10",
+      "unit": "CYC",
+      "quantity": 48.0,
+      "engEstUnit": 380.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 248.0,
+        "HAZMAT INTERNATIONAL, INC.": 600.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 750.0
+      }
+    },
+    {
+      "itemCode": "0738 6189",
+      "description": "CLEAN/SWEEPING-DIRECT CONNECT-AREA(19)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 220.75,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 248.0,
+        "HAZMAT INTERNATIONAL, INC.": 400.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0738 6190",
+      "description": "CLEAN/SWEEPING-DIRECT CONNECT-AREA(20)",
+      "unit": "CYC",
+      "quantity": 48.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 372.0,
+        "HAZMAT INTERNATIONAL, INC.": 600.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 750.0
+      }
+    },
+    {
+      "itemCode": "0738 6191",
+      "description": "CLEAN/SWEEP-CENTER MEDIAN-AREA (21)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 2135.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1736.0,
+        "HAZMAT INTERNATIONAL, INC.": 1400.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2400.0
+      }
+    },
+    {
+      "itemCode": "0738 6192",
+      "description": "CLEAN/SWEEP-CENTER MEDIAN-AREA (22)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 992.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 600.0
+      }
+    },
+    {
+      "itemCode": "0738 6194",
+      "description": "CLEAN/SWEEP-CENTER MEDIAN-AREA (24)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 992.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 600.0
+      }
+    },
+    {
+      "itemCode": "0738 6221",
+      "description": "CLEAN/SWEEP-OUTSIDE MAIN LANE-AREA(21)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 2135.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1736.0,
+        "HAZMAT INTERNATIONAL, INC.": 1400.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 2400.0
+      }
+    },
+    {
+      "itemCode": "0738 6222",
+      "description": "CLEAN/SWEEP-OUTSIDE MAIN LANE-AREA(22)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 992.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 600.0
+      }
+    },
+    {
+      "itemCode": "0738 6223",
+      "description": "CLEAN/SWEEP-OUTSIDE MAIN LANE-AREA(23)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 950.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1736.0,
+        "HAZMAT INTERNATIONAL, INC.": 1400.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 360.0
+      }
+    },
+    {
+      "itemCode": "0738 6224",
+      "description": "CLEAN/SWEEP-OUTSIDE MAIN LANE-AREA(24)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 992.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 360.0
+      }
+    },
+    {
+      "itemCode": "0738 6225",
+      "description": "CLEAN/SWEEP-OUTSIDE MAIN LANE-AREA(25)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 992.0,
+        "HAZMAT INTERNATIONAL, INC.": 900.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 630.0
+      }
+    },
+    {
+      "itemCode": "0738 6251",
+      "description": "CLEAN/SWEEP-FRONTAGE ROAD - AREA (21)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1736.0,
+        "HAZMAT INTERNATIONAL, INC.": 1800.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 630.0
+      }
+    },
+    {
+      "itemCode": "0738 6281",
+      "description": "CLEAN/SWEEP - (ENTR/EXT RMP) (AREA 21)",
+      "unit": "CYC",
+      "quantity": 24.0,
+      "engEstUnit": 1400.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 1736.0,
+        "HAZMAT INTERNATIONAL, INC.": 1800.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 630.0
+      }
+    },
+    {
+      "itemCode": "0738 6358",
+      "description": "MAKE READY: DRAIN SLOTS, BARRIER SLOTS",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 33000.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 250.0,
+        "SWEEPING CORPORATION OF AMERICA, LLC": 20000.0,
+        "HAZMAT INTERNATIONAL, INC.": 25000.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 10000.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,806 @@
+{
+  "metadata": {
+    "csj": "0271-15-097",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2021(836)",
+    "projectType": "BRIDGE MAINTENANCE",
+    "letDate": "08/04/21",
+    "engEstTotal": 4475522.67,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CEKRA INC.",
+      "totalBidAmount": 3481497.4
+    },
+    {
+      "rank": 2,
+      "vendorName": "RAGLE CONSTRUCTION, INC.",
+      "totalBidAmount": 4158438.83
+    },
+    {
+      "rank": 3,
+      "vendorName": "GIBSON & ASSOCIATES, INC.",
+      "totalBidAmount": 6100791.12
+    },
+    {
+      "rank": 4,
+      "vendorName": "OLYMPUS PAINTING CONTRACTORS, INC.",
+      "totalBidAmount": 6863183.62
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0429 6005",
+      "description": "CONC STR REPAIR(DECK REP (FULL DEPTH))",
+      "unit": "SF",
+      "quantity": 320.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "CEKRA INC.": 500.0,
+        "RAGLE CONSTRUCTION, INC.": 450.0,
+        "GIBSON & ASSOCIATES, INC.": 350.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 390.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 2040.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 450.0,
+      "bidders": {
+        "CEKRA INC.": 450.0,
+        "RAGLE CONSTRUCTION, INC.": 105.0,
+        "GIBSON & ASSOCIATES, INC.": 490.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 260.0
+      }
+    },
+    {
+      "itemCode": "0429 6018",
+      "description": "CONC STR REP (REMOVE AND REPL BM END)",
+      "unit": "CY",
+      "quantity": 48.7,
+      "engEstUnit": 7000.0,
+      "lowUnit": 3500.0,
+      "bidders": {
+        "CEKRA INC.": 3500.0,
+        "RAGLE CONSTRUCTION, INC.": 3850.0,
+        "GIBSON & ASSOCIATES, INC.": 500.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 10000.0
+      }
+    },
+    {
+      "itemCode": "0431 6002",
+      "description": "PNEUMATICALLY PLACED CONC (REPAIR)",
+      "unit": "CF",
+      "quantity": 60.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "CEKRA INC.": 1000.0,
+        "RAGLE CONSTRUCTION, INC.": 475.0,
+        "GIBSON & ASSOCIATES, INC.": 2225.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0438 6009",
+      "description": "CLEANING EXISTING JOINTS",
+      "unit": "LF",
+      "quantity": 620.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "CEKRA INC.": 80.0,
+        "RAGLE CONSTRUCTION, INC.": 20.0,
+        "GIBSON & ASSOCIATES, INC.": 175.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 45.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 391667.98,
+      "lowUnit": 340000.0,
+      "bidders": {
+        "CEKRA INC.": 340000.0,
+        "RAGLE CONSTRUCTION, INC.": 410000.0,
+        "GIBSON & ASSOCIATES, INC.": 600000.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 540000.0
+      }
+    },
+    {
+      "itemCode": "0512 6013",
+      "description": "PORT CTB (DES SOURCE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 2280.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "CEKRA INC.": 80.0,
+        "RAGLE CONSTRUCTION, INC.": 8.0,
+        "GIBSON & ASSOCIATES, INC.": 32.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0512 6021",
+      "description": "PORT CTB (DES SOURCE)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 220.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "CEKRA INC.": 10.0,
+        "RAGLE CONSTRUCTION, INC.": 8.0,
+        "GIBSON & ASSOCIATES, INC.": 40.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 23.0
+      }
+    },
+    {
+      "itemCode": "0512 6022",
+      "description": "PORT CTB (DES SOURCE)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 40.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "CEKRA INC.": 15.0,
+        "RAGLE CONSTRUCTION, INC.": 10.0,
+        "GIBSON & ASSOCIATES, INC.": 40.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 23.0
+      }
+    },
+    {
+      "itemCode": "0512 6025",
+      "description": "PORT CTB (MOVE)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 1980.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "CEKRA INC.": 15.0,
+        "RAGLE CONSTRUCTION, INC.": 7.0,
+        "GIBSON & ASSOCIATES, INC.": 34.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0512 6037",
+      "description": "PORT CTB (STKPL)(SGL SLP)(TY 1)",
+      "unit": "LF",
+      "quantity": 2280.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 7.0,
+      "bidders": {
+        "CEKRA INC.": 7.0,
+        "RAGLE CONSTRUCTION, INC.": 7.0,
+        "GIBSON & ASSOCIATES, INC.": 32.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0512 6045",
+      "description": "PORT CTB (STKPL)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 220.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 7.0,
+      "bidders": {
+        "CEKRA INC.": 7.0,
+        "RAGLE CONSTRUCTION, INC.": 8.0,
+        "GIBSON & ASSOCIATES, INC.": 40.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 23.0
+      }
+    },
+    {
+      "itemCode": "0512 6046",
+      "description": "PORT CTB (STKPL)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 40.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "CEKRA INC.": 10.0,
+        "RAGLE CONSTRUCTION, INC.": 9.0,
+        "GIBSON & ASSOCIATES, INC.": 40.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 23.0
+      }
+    },
+    {
+      "itemCode": "0545 6003",
+      "description": "CRASH CUSH ATTEN (MOVE & RESET)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "CEKRA INC.": 2500.0,
+        "RAGLE CONSTRUCTION, INC.": 1600.0,
+        "GIBSON & ASSOCIATES, INC.": 2500.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 3000.0
+      }
+    },
+    {
+      "itemCode": "0545 6004",
+      "description": "CRASH CUSH ATTEN (STKPL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "CEKRA INC.": 1500.0,
+        "RAGLE CONSTRUCTION, INC.": 600.0,
+        "GIBSON & ASSOCIATES, INC.": 550.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 780.0
+      }
+    },
+    {
+      "itemCode": "0545 6007",
+      "description": "CRASH CUSH ATTEN (INSTL)(L)(N)(TL3)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 35000.0,
+      "lowUnit": 25000.0,
+      "bidders": {
+        "CEKRA INC.": 25000.0,
+        "RAGLE CONSTRUCTION, INC.": 23000.0,
+        "GIBSON & ASSOCIATES, INC.": 25000.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 25155.0
+      }
+    },
+    {
+      "itemCode": "0545 6010",
+      "description": "CRASH CUSH ATTEN (INSTL)(L)(W)(TL3)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 35000.0,
+      "lowUnit": 35000.0,
+      "bidders": {
+        "CEKRA INC.": 35000.0,
+        "RAGLE CONSTRUCTION, INC.": 28175.0,
+        "GIBSON & ASSOCIATES, INC.": 34000.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 35100.0
+      }
+    },
+    {
+      "itemCode": "0550 6003",
+      "description": "CHAIN LINK FENCE (REMOVE)",
+      "unit": "LF",
+      "quantity": 140.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 51.0,
+      "bidders": {
+        "CEKRA INC.": 51.0,
+        "RAGLE CONSTRUCTION, INC.": 31.0,
+        "GIBSON & ASSOCIATES, INC.": 6.88,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 56.25
+      }
+    },
+    {
+      "itemCode": "0550 6008",
+      "description": "CHAIN LINK FENCE (INSTALL) (8')",
+      "unit": "LF",
+      "quantity": 3818.0,
+      "engEstUnit": 48.16,
+      "lowUnit": 101.0,
+      "bidders": {
+        "CEKRA INC.": 101.0,
+        "RAGLE CONSTRUCTION, INC.": 60.0,
+        "GIBSON & ASSOCIATES, INC.": 68.2,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 115.0
+      }
+    },
+    {
+      "itemCode": "0617 6001",
+      "description": "TEMP RD IL (RD IL ASM)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1519.6,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "CEKRA INC.": 5000.0,
+        "RAGLE CONSTRUCTION, INC.": 3100.0,
+        "GIBSON & ASSOCIATES, INC.": 3410.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 10000.0
+      }
+    },
+    {
+      "itemCode": "0618 6070",
+      "description": "CONDT (RM) (2\")",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 18.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "CEKRA INC.": 100.0,
+        "RAGLE CONSTRUCTION, INC.": 55.0,
+        "GIBSON & ASSOCIATES, INC.": 60.5,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 75.0
+      }
+    },
+    {
+      "itemCode": "0620 6007",
+      "description": "ELEC CONDR (NO.8) BARE",
+      "unit": "LF",
+      "quantity": 120.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "CEKRA INC.": 10.0,
+        "RAGLE CONSTRUCTION, INC.": 4.0,
+        "GIBSON & ASSOCIATES, INC.": 4.4,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 5.5
+      }
+    },
+    {
+      "itemCode": "0620 6008",
+      "description": "ELEC CONDR (NO.8) INSULATED",
+      "unit": "LF",
+      "quantity": 240.0,
+      "engEstUnit": 1.8,
+      "lowUnit": 10.0,
+      "bidders": {
+        "CEKRA INC.": 10.0,
+        "RAGLE CONSTRUCTION, INC.": 5.0,
+        "GIBSON & ASSOCIATES, INC.": 5.5,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 7.0
+      }
+    },
+    {
+      "itemCode": "0662 6063",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 8217.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.54,
+      "bidders": {
+        "CEKRA INC.": 1.54,
+        "RAGLE CONSTRUCTION, INC.": 0.89,
+        "GIBSON & ASSOCIATES, INC.": 1.36,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0662 6095",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 341.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.54,
+      "bidders": {
+        "CEKRA INC.": 1.54,
+        "RAGLE CONSTRUCTION, INC.": 0.89,
+        "GIBSON & ASSOCIATES, INC.": 1.9,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 313.65,
+      "bidders": {
+        "CEKRA INC.": 313.65,
+        "RAGLE CONSTRUCTION, INC.": 175.0,
+        "GIBSON & ASSOCIATES, INC.": 231.98,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 273.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 245.0,
+      "lowUnit": 399.75,
+      "bidders": {
+        "CEKRA INC.": 399.75,
+        "RAGLE CONSTRUCTION, INC.": 225.0,
+        "GIBSON & ASSOCIATES, INC.": 1297.09,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 1532.93
+      }
+    },
+    {
+      "itemCode": "0668 6115",
+      "description": "PREFAB PAV MRK TY C (MULTI) (SHIELD)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2100.0,
+      "lowUnit": 4520.25,
+      "bidders": {
+        "CEKRA INC.": 4520.25,
+        "RAGLE CONSTRUCTION, INC.": 2500.0,
+        "GIBSON & ASSOCIATES, INC.": 3053.88,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 3609.13
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 171.0,
+      "engEstUnit": 4.25,
+      "lowUnit": 6.77,
+      "bidders": {
+        "CEKRA INC.": 6.77,
+        "RAGLE CONSTRUCTION, INC.": 5.0,
+        "GIBSON & ASSOCIATES, INC.": 5.04,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 5.96
+      }
+    },
+    {
+      "itemCode": "0677 6002",
+      "description": "ELIM EXT PAV MRK & MRKS (6\")",
+      "unit": "LF",
+      "quantity": 8792.0,
+      "engEstUnit": 0.41,
+      "lowUnit": 0.56,
+      "bidders": {
+        "CEKRA INC.": 0.56,
+        "RAGLE CONSTRUCTION, INC.": 0.25,
+        "GIBSON & ASSOCIATES, INC.": 0.24,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 0.29
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 1938.0,
+      "engEstUnit": 0.75,
+      "lowUnit": 0.8,
+      "bidders": {
+        "CEKRA INC.": 0.8,
+        "RAGLE CONSTRUCTION, INC.": 0.5,
+        "GIBSON & ASSOCIATES, INC.": 0.33,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 0.39
+      }
+    },
+    {
+      "itemCode": "0677 6004",
+      "description": "ELIM EXT PAV MRK & MRKS (10\")",
+      "unit": "LF",
+      "quantity": 690.0,
+      "engEstUnit": 1.05,
+      "lowUnit": 1.23,
+      "bidders": {
+        "CEKRA INC.": 1.23,
+        "RAGLE CONSTRUCTION, INC.": 0.6,
+        "GIBSON & ASSOCIATES, INC.": 1.62,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 1.92
+      }
+    },
+    {
+      "itemCode": "0677 6005",
+      "description": "ELIM EXT PAV MRK & MRKS (12\")",
+      "unit": "LF",
+      "quantity": 205.0,
+      "engEstUnit": 1.48,
+      "lowUnit": 1.23,
+      "bidders": {
+        "CEKRA INC.": 1.23,
+        "RAGLE CONSTRUCTION, INC.": 0.75,
+        "GIBSON & ASSOCIATES, INC.": 1.19,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 1.41
+      }
+    },
+    {
+      "itemCode": "0677 6008",
+      "description": "ELIM EXT PAV MRK & MRKS (ARROW)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 43.0,
+      "bidders": {
+        "CEKRA INC.": 43.0,
+        "RAGLE CONSTRUCTION, INC.": 25.0,
+        "GIBSON & ASSOCIATES, INC.": 79.3,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 93.72
+      }
+    },
+    {
+      "itemCode": "0677 6012",
+      "description": "ELIM EXT PAV MRK & MRKS (WORD)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 52.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "CEKRA INC.": 50.0,
+        "RAGLE CONSTRUCTION, INC.": 35.0,
+        "GIBSON & ASSOCIATES, INC.": 79.3,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 93.72
+      }
+    },
+    {
+      "itemCode": "0677 6022",
+      "description": "ELIM EXT PAV MRK & MRKS (SHEILD)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 492.0,
+      "bidders": {
+        "CEKRA INC.": 492.0,
+        "RAGLE CONSTRUCTION, INC.": 85.0,
+        "GIBSON & ASSOCIATES, INC.": 118.95,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 140.59
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 8792.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.14,
+      "bidders": {
+        "CEKRA INC.": 0.14,
+        "RAGLE CONSTRUCTION, INC.": 0.02,
+        "GIBSON & ASSOCIATES, INC.": 0.08,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 0.25
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 1938.0,
+      "engEstUnit": 0.18,
+      "lowUnit": 0.27,
+      "bidders": {
+        "CEKRA INC.": 0.27,
+        "RAGLE CONSTRUCTION, INC.": 0.04,
+        "GIBSON & ASSOCIATES, INC.": 0.1,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 0.25
+      }
+    },
+    {
+      "itemCode": "0678 6005",
+      "description": "PAV SURF PREP FOR MRK (10\")",
+      "unit": "LF",
+      "quantity": 690.0,
+      "engEstUnit": 0.13,
+      "lowUnit": 1.6,
+      "bidders": {
+        "CEKRA INC.": 1.6,
+        "RAGLE CONSTRUCTION, INC.": 0.05,
+        "GIBSON & ASSOCIATES, INC.": 0.12,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 0.25
+      }
+    },
+    {
+      "itemCode": "0678 6006",
+      "description": "PAV SURF PREP FOR MRK (12\")",
+      "unit": "LF",
+      "quantity": 205.0,
+      "engEstUnit": 0.17,
+      "lowUnit": 1.9,
+      "bidders": {
+        "CEKRA INC.": 1.9,
+        "RAGLE CONSTRUCTION, INC.": 0.06,
+        "GIBSON & ASSOCIATES, INC.": 0.15,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 0.25
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 43.0,
+      "bidders": {
+        "CEKRA INC.": 43.0,
+        "RAGLE CONSTRUCTION, INC.": 3.0,
+        "GIBSON & ASSOCIATES, INC.": 6.17,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 7.3
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1.8,
+      "lowUnit": 55.35,
+      "bidders": {
+        "CEKRA INC.": 55.35,
+        "RAGLE CONSTRUCTION, INC.": 5.0,
+        "GIBSON & ASSOCIATES, INC.": 6.17,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 7.3
+      }
+    },
+    {
+      "itemCode": "0678 6025",
+      "description": "PAV SURF PREP FOR MRKS (SHIELD)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 11.5,
+      "lowUnit": 20.0,
+      "bidders": {
+        "CEKRA INC.": 20.0,
+        "RAGLE CONSTRUCTION, INC.": 15.0,
+        "GIBSON & ASSOCIATES, INC.": 9.87,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 11.67
+      }
+    },
+    {
+      "itemCode": "0738 6001",
+      "description": "CLEANING / SWEEPING (CENTER MEDIAN)",
+      "unit": "CYC",
+      "quantity": 10.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 3200.0,
+      "bidders": {
+        "CEKRA INC.": 3200.0,
+        "RAGLE CONSTRUCTION, INC.": 250.0,
+        "GIBSON & ASSOCIATES, INC.": 550.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 4500.0
+      }
+    },
+    {
+      "itemCode": "0738 6003",
+      "description": "CLEANING / SWEEPING (OUTSIDE MAIN LANE)",
+      "unit": "CYC",
+      "quantity": 10.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "CEKRA INC.": 2000.0,
+        "RAGLE CONSTRUCTION, INC.": 250.0,
+        "GIBSON & ASSOCIATES, INC.": 550.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 4500.0
+      }
+    },
+    {
+      "itemCode": "0778 6001",
+      "description": "CONCRETE RAIL REPAIR (IN-KIND)",
+      "unit": "LF",
+      "quantity": 140.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "CEKRA INC.": 1000.0,
+        "RAGLE CONSTRUCTION, INC.": 850.0,
+        "GIBSON & ASSOCIATES, INC.": 1200.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 720.0
+      }
+    },
+    {
+      "itemCode": "4187 6001",
+      "description": "REMOV & REPL TAR WITH STRUCTURAL GROUT",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 6000.0,
+      "lowUnit": 50000.0,
+      "bidders": {
+        "CEKRA INC.": 50000.0,
+        "RAGLE CONSTRUCTION, INC.": 150000.0,
+        "GIBSON & ASSOCIATES, INC.": 325000.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 50000.0
+      }
+    },
+    {
+      "itemCode": "5087 6001",
+      "description": "BIRD DETERRENT",
+      "unit": "LF",
+      "quantity": 41.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "CEKRA INC.": 1000.0,
+        "RAGLE CONSTRUCTION, INC.": 100.0,
+        "GIBSON & ASSOCIATES, INC.": 135.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 150.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 1800.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "CEKRA INC.": 100.0,
+        "RAGLE CONSTRUCTION, INC.": 55.0,
+        "GIBSON & ASSOCIATES, INC.": 55.0,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 150.0
+      }
+    },
+    {
+      "itemCode": "6019 6006",
+      "description": "PREFB PV MK W/WNTY TY B (W)(6\")(SLD)",
+      "unit": "LF",
+      "quantity": 3155.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 9.2,
+      "bidders": {
+        "CEKRA INC.": 9.2,
+        "RAGLE CONSTRUCTION, INC.": 6.25,
+        "GIBSON & ASSOCIATES, INC.": 4.4,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 5.2
+      }
+    },
+    {
+      "itemCode": "6019 6007",
+      "description": "PREFB PV MK W/WNTY TY B(W)6\"(BRK)CNTST",
+      "unit": "LF",
+      "quantity": 690.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 15.31,
+      "bidders": {
+        "CEKRA INC.": 15.31,
+        "RAGLE CONSTRUCTION, INC.": 9.5,
+        "GIBSON & ASSOCIATES, INC.": 9.9,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 12.0
+      }
+    },
+    {
+      "itemCode": "6038 6004",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(SLD)",
+      "unit": "LF",
+      "quantity": 5575.0,
+      "engEstUnit": 0.75,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CEKRA INC.": 1.0,
+        "RAGLE CONSTRUCTION, INC.": 0.39,
+        "GIBSON & ASSOCIATES, INC.": 0.72,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "6038 6006",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(DOT)",
+      "unit": "LF",
+      "quantity": 62.0,
+      "engEstUnit": 1.8,
+      "lowUnit": 2.46,
+      "bidders": {
+        "CEKRA INC.": 2.46,
+        "RAGLE CONSTRUCTION, INC.": 0.65,
+        "GIBSON & ASSOCIATES, INC.": 1.63,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "6038 6007",
+      "description": "MULTIPOLYMER PAV MRK (W)(8\")(SLD)",
+      "unit": "LF",
+      "quantity": 1938.0,
+      "engEstUnit": 1.8,
+      "lowUnit": 1.66,
+      "bidders": {
+        "CEKRA INC.": 1.66,
+        "RAGLE CONSTRUCTION, INC.": 0.75,
+        "GIBSON & ASSOCIATES, INC.": 1.02,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 2.0
+      }
+    },
+    {
+      "itemCode": "6038 6012",
+      "description": "MULTIPOLYMER PAV MRK (W)(12\")(LNDP)",
+      "unit": "LF",
+      "quantity": 205.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 3.7,
+      "bidders": {
+        "CEKRA INC.": 3.7,
+        "RAGLE CONSTRUCTION, INC.": 2.5,
+        "GIBSON & ASSOCIATES, INC.": 1.77,
+        "OLYMPUS PAINTING CONTRACTORS, INC.": 2.5
+      }
+    }
+  ]
+}

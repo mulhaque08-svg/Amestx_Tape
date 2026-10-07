@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6467-33-001",
+    "county": "Galveston",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646733001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "08/06/24",
+    "engEstTotal": 263367.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GREEN SAGE SERVICES LLC",
+      "totalBidAmount": 269911.48
+    },
+    {
+      "rank": 2,
+      "vendorName": "BOEN LANDSCAPING & IRRIGATION, LLC",
+      "totalBidAmount": 342868.8
+    },
+    {
+      "rank": 3,
+      "vendorName": "YELLOWSTONE LANDSCAPE - CENTRAL, INC.",
+      "totalBidAmount": 343114.8
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6003",
+      "description": "MOBILIZATION (CALLOUT 1)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1525.16,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "GREEN SAGE SERVICES LLC": 1100.0,
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 1.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 42.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6394-39-001",
+    "county": "Brazos",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639439001",
+    "projectType": "AGGREGATE",
+    "letDate": "12/14/21",
+    "engEstTotal": 67926.25,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KNIFE RIVER CORPORATION - SOUTH",
+      "totalBidAmount": 72427.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 77300.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 105687.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8039 6113",
+      "description": "AGGR (TY B GR 5) (DEL) (ST1)",
+      "unit": "TON",
+      "quantity": 500.0,
+      "engEstUnit": 55.45,
+      "lowUnit": 57.9,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 57.9,
+        "TOUCHSTONE RESOURCES, LLC": 63.0,
+        "MARTIN MARIETTA MATERIALS, INC.": 85.25
+      }
+    },
+    {
+      "itemCode": "8039 6114",
+      "description": "AGGR (TY B GR 5) (DEL) (ST2)",
+      "unit": "TON",
+      "quantity": 700.0,
+      "engEstUnit": 55.45,
+      "lowUnit": 59.9,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 59.9,
+        "TOUCHSTONE RESOURCES, LLC": 63.0,
+        "MARTIN MARIETTA MATERIALS, INC.": 87.0
+      }
+    },
+    {
+      "itemCode": "8039 6115",
+      "description": "AGGR (TY B GR 5) (DEL) (ST3)",
+      "unit": "TON",
+      "quantity": 25.0,
+      "engEstUnit": 55.45,
+      "lowUnit": 61.9,
+      "bidders": {
+        "KNIFE RIVER CORPORATION - SOUTH": 61.9,
+        "TOUCHSTONE RESOURCES, LLC": 68.0,
+        "MARTIN MARIETTA MATERIALS, INC.": 86.5
+      }
+    }
+  ]
+}

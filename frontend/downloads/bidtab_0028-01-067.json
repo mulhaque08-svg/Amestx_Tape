@@ -1,0 +1,3026 @@
+{
+  "metadata": {
+    "csj": "0028-01-067",
+    "county": "Harris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 28-1-67",
+    "projectType": "RECONSTRUCT AND WIDEN FROM 4 TO 6 LANES",
+    "letDate": "06/27/23",
+    "engEstTotal": 51205205.35,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BALFOUR BEATTY INFRASTRUCTURE, INC.",
+      "totalBidAmount": 62500910.13
+    },
+    {
+      "rank": 2,
+      "vendorName": "REYTEC CONSTRUCTION RESOURCES, INC.",
+      "totalBidAmount": 65586481.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "SER CONSTRUCTION PARTNERS, LLC",
+      "totalBidAmount": 68458560.94
+    },
+    {
+      "rank": 4,
+      "vendorName": "HARPER BROTHERS CONSTRUCTION LLC",
+      "totalBidAmount": 74351539.86
+    },
+    {
+      "rank": 5,
+      "vendorName": "R CONSTRUCTION CIVIL, LLC",
+      "totalBidAmount": 74884296.52
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6001",
+      "description": "PREPARING ROW",
+      "unit": "AC",
+      "quantity": 1.3,
+      "engEstUnit": 10000.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 10000.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 25000.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 100000.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 37500.0,
+        "R CONSTRUCTION CIVIL, LLC": 15236.0
+      }
+    },
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 61.0,
+      "engEstUnit": 12000.0,
+      "lowUnit": 98750.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 98750.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 12750.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3500.0,
+        "R CONSTRUCTION CIVIL, LLC": 2899.0
+      }
+    },
+    {
+      "itemCode": "0104 6001",
+      "description": "REMOVING CONC (PAV)",
+      "unit": "SY",
+      "quantity": 2875.0,
+      "engEstUnit": 6.5,
+      "lowUnit": 5.25,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 5.25,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 5.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 8.4,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.25,
+        "R CONSTRUCTION CIVIL, LLC": 7.0
+      }
+    },
+    {
+      "itemCode": "0104 6011",
+      "description": "REMOVING CONC (MEDIANS)",
+      "unit": "SY",
+      "quantity": 239.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 9.25,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 9.25,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 5.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 5.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.25,
+        "R CONSTRUCTION CIVIL, LLC": 7.0
+      }
+    },
+    {
+      "itemCode": "0104 6015",
+      "description": "REMOVING CONC (SIDEWALKS)",
+      "unit": "SY",
+      "quantity": 445.0,
+      "engEstUnit": 16.0,
+      "lowUnit": 3.4,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 3.4,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 5.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 5.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.25,
+        "R CONSTRUCTION CIVIL, LLC": 8.0
+      }
+    },
+    {
+      "itemCode": "0104 6017",
+      "description": "REMOVING CONC (DRIVEWAYS)",
+      "unit": "SY",
+      "quantity": 1716.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 4.7,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 4.7,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 5.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 14.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.25,
+        "R CONSTRUCTION CIVIL, LLC": 7.0
+      }
+    },
+    {
+      "itemCode": "0104 6021",
+      "description": "REMOVING CONC (CURB)",
+      "unit": "LF",
+      "quantity": 803.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 1.9,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1.9,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 5.0,
+        "R CONSTRUCTION CIVIL, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0104 6054",
+      "description": "REMOVING CONCRETE(MOW STRIP)",
+      "unit": "LF",
+      "quantity": 186.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 6.9,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 6.9,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 5.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 4.4,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.75,
+        "R CONSTRUCTION CIVIL, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0105 6037",
+      "description": "REMOVING STAB BASE AND ASPH PAV(0\"-16\")",
+      "unit": "SY",
+      "quantity": 57866.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 5.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 10.4,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.5,
+        "R CONSTRUCTION CIVIL, LLC": 13.5
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 47424.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 10.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 18.4,
+        "HARPER BROTHERS CONSTRUCTION LLC": 5.0,
+        "R CONSTRUCTION CIVIL, LLC": 25.0
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 37.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 100.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 50.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 25.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 50.0,
+        "R CONSTRUCTION CIVIL, LLC": 320.0
+      }
+    },
+    {
+      "itemCode": "0132 6006",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY C)",
+      "unit": "CY",
+      "quantity": 3570.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 20.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 25.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 26.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 30.0,
+        "R CONSTRUCTION CIVIL, LLC": 16.0
+      }
+    },
+    {
+      "itemCode": "0160 6005",
+      "description": "FURNISHING AND PLACING TOPSOIL",
+      "unit": "CY",
+      "quantity": 14.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 35.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 150.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 36.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 75.0,
+        "R CONSTRUCTION CIVIL, LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "0161 6017",
+      "description": "COMPOST MANUF TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 1315.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.25,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1.25,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 5.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.5,
+        "R CONSTRUCTION CIVIL, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0162 6002",
+      "description": "BLOCK SODDING",
+      "unit": "SY",
+      "quantity": 13575.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 3.75,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 3.75,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 5.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 4.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 6.0,
+        "R CONSTRUCTION CIVIL, LLC": 4.0
+      }
+    },
+    {
+      "itemCode": "0162 6003",
+      "description": "STRAW OR HAY MULCH",
+      "unit": "SY",
+      "quantity": 1300.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.2,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.2,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 5.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3.25,
+        "R CONSTRUCTION CIVIL, LLC": 0.25
+      }
+    },
+    {
+      "itemCode": "0164 6052",
+      "description": "BROADCAST SEED (PERM)(SPECIAL MIX)",
+      "unit": "SY",
+      "quantity": 1300.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.35,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.35,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 0.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.4,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.45,
+        "R CONSTRUCTION CIVIL, LLC": 0.4
+      }
+    },
+    {
+      "itemCode": "0166 6001",
+      "description": "FERTILIZER",
+      "unit": "AC",
+      "quantity": 3.07,
+      "engEstUnit": 600.0,
+      "lowUnit": 750.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 750.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 7500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 787.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2500.0,
+        "R CONSTRUCTION CIVIL, LLC": 846.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 369.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 25.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 30.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 19.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 40.0,
+        "R CONSTRUCTION CIVIL, LLC": 34.0
+      }
+    },
+    {
+      "itemCode": "0260 6006",
+      "description": "LIME TRT (EXST MATL) (6\")",
+      "unit": "SY",
+      "quantity": 55601.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 6.5,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 6.5,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 3.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 3.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 4.5,
+        "R CONSTRUCTION CIVIL, LLC": 15.0
+      }
+    },
+    {
+      "itemCode": "0260 6012",
+      "description": "LIME(HYD,COM OR QK)(SLRY)OR QK(DRY)",
+      "unit": "TON",
+      "quantity": 751.0,
+      "engEstUnit": 260.0,
+      "lowUnit": 305.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 305.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 300.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 317.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 325.0,
+        "R CONSTRUCTION CIVIL, LLC": 332.0
+      }
+    },
+    {
+      "itemCode": "0276 6224",
+      "description": "CEM TRT(PLNT MX) (CL N)(TY E)(GR 4)(6\")",
+      "unit": "SY",
+      "quantity": 55601.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 15.5,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 15.5,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 20.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 16.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 19.0,
+        "R CONSTRUCTION CIVIL, LLC": 17.0
+      }
+    },
+    {
+      "itemCode": "0292 6017",
+      "description": "ASPHALT STAB BASE (GR 4)(PG 64)",
+      "unit": "TON",
+      "quantity": 3058.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 68.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 68.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 140.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 125.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 110.0,
+        "R CONSTRUCTION CIVIL, LLC": 135.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 13519.0,
+      "engEstUnit": 52.0,
+      "lowUnit": 52.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 52.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 43.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 59.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 65.0,
+        "R CONSTRUCTION CIVIL, LLC": 54.0
+      }
+    },
+    {
+      "itemCode": "0400 6006",
+      "description": "CUT & RESTORING PAV",
+      "unit": "SY",
+      "quantity": 1883.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 90.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 90.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 150.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 27.4,
+        "HARPER BROTHERS CONSTRUCTION LLC": 90.0,
+        "R CONSTRUCTION CIVIL, LLC": 122.0
+      }
+    },
+    {
+      "itemCode": "0400 6009",
+      "description": "CEMENT STAB BACKFILL (INLET OR MH)",
+      "unit": "CY",
+      "quantity": 1210.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 55.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 43.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 59.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 65.0,
+        "R CONSTRUCTION CIVIL, LLC": 53.0
+      }
+    },
+    {
+      "itemCode": "0401 6001",
+      "description": "FLOWABLE BACKFILL",
+      "unit": "CY",
+      "quantity": 145.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 170.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 170.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 250.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 197.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 250.0,
+        "R CONSTRUCTION CIVIL, LLC": 190.0
+      }
+    },
+    {
+      "itemCode": "0402 6001",
+      "description": "TRENCH EXCAVATION PROTECTION",
+      "unit": "LF",
+      "quantity": 11433.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 8.7,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 8.7,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.9,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3.5,
+        "R CONSTRUCTION CIVIL, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 147734.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 4.7,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 4.7,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.15,
+        "R CONSTRUCTION CIVIL, LLC": 8.0
+      }
+    },
+    {
+      "itemCode": "0416 6008",
+      "description": "DRILL SHAFT (60 IN)",
+      "unit": "LF",
+      "quantity": 90.0,
+      "engEstUnit": 628.39,
+      "lowUnit": 612.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 612.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1200.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 698.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1475.0,
+        "R CONSTRUCTION CIVIL, LLC": 2513.0
+      }
+    },
+    {
+      "itemCode": "0416 6032",
+      "description": "DRILL SHAFT (TRF SIG POLE) (36 IN)",
+      "unit": "LF",
+      "quantity": 146.0,
+      "engEstUnit": 270.0,
+      "lowUnit": 340.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 340.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 400.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 378.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 255.0,
+        "R CONSTRUCTION CIVIL, LLC": 293.0
+      }
+    },
+    {
+      "itemCode": "0416 6034",
+      "description": "DRILL SHAFT (TRF SIG POLE) (48 IN)",
+      "unit": "LF",
+      "quantity": 88.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 406.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 406.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 472.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 400.0,
+        "R CONSTRUCTION CIVIL, LLC": 460.0
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 227.0,
+      "engEstUnit": 365.0,
+      "lowUnit": 525.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 525.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 350.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 469.7,
+        "HARPER BROTHERS CONSTRUCTION LLC": 675.0,
+        "R CONSTRUCTION CIVIL, LLC": 495.0
+      }
+    },
+    {
+      "itemCode": "0432 6004",
+      "description": "RIPRAP CONC (8 IN)",
+      "unit": "CY",
+      "quantity": 11.0,
+      "engEstUnit": 1530.0,
+      "lowUnit": 525.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 525.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 1832.7,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1250.0,
+        "R CONSTRUCTION CIVIL, LLC": 1082.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 21.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 135.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 135.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1000.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 212.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 500.0,
+        "R CONSTRUCTION CIVIL, LLC": 1062.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 8.0,
+      "engEstUnit": 550.0,
+      "lowUnit": 700.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 700.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1000.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 529.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 900.0,
+        "R CONSTRUCTION CIVIL, LLC": 380.0
+      }
+    },
+    {
+      "itemCode": "0467 6363",
+      "description": "SET (TY II) (18 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1300.0,
+      "lowUnit": 1350.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1350.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2600.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 995.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1825.0,
+        "R CONSTRUCTION CIVIL, LLC": 5262.0
+      }
+    },
+    {
+      "itemCode": "0467 6395",
+      "description": "SET (TY II) (24 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1301.0,
+      "lowUnit": 1950.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1950.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 3000.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 1759.9,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2175.0,
+        "R CONSTRUCTION CIVIL, LLC": 2350.0
+      }
+    },
+    {
+      "itemCode": "0476 6059",
+      "description": "JACK BOR TUN BOX CULV (10 FT X 10 FT)",
+      "unit": "LF",
+      "quantity": 474.0,
+      "engEstUnit": 7500.0,
+      "lowUnit": 2700.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2700.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 5750.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 5622.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 9500.0,
+        "R CONSTRUCTION CIVIL, LLC": 6990.0
+      }
+    },
+    {
+      "itemCode": "0479 6001",
+      "description": "ADJUSTING MANHOLES",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 3700.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 3700.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 800.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 441.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2350.0,
+        "R CONSTRUCTION CIVIL, LLC": 821.0
+      }
+    },
+    {
+      "itemCode": "0496 6001",
+      "description": "REMOV STR (BOX CULVERT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 7700.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 7700.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2000.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 7292.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 31500.0,
+        "R CONSTRUCTION CIVIL, LLC": 6388.0
+      }
+    },
+    {
+      "itemCode": "0496 6002",
+      "description": "REMOV STR (INLET)",
+      "unit": "EA",
+      "quantity": 39.0,
+      "engEstUnit": 620.0,
+      "lowUnit": 810.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 810.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 350.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 215.4,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1175.0,
+        "R CONSTRUCTION CIVIL, LLC": 820.0
+      }
+    },
+    {
+      "itemCode": "0496 6003",
+      "description": "REMOV STR (MANHOLE)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 615.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 615.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 316.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1750.0,
+        "R CONSTRUCTION CIVIL, LLC": 820.0
+      }
+    },
+    {
+      "itemCode": "0496 6004",
+      "description": "REMOV STR (SET)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 450.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 450.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 200.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 111.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 625.0,
+        "R CONSTRUCTION CIVIL, LLC": 615.0
+      }
+    },
+    {
+      "itemCode": "0496 6006",
+      "description": "REMOV STR (HEADWALL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1800.0,
+      "lowUnit": 700.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 700.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 900.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 483.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2125.0,
+        "R CONSTRUCTION CIVIL, LLC": 2459.0
+      }
+    },
+    {
+      "itemCode": "0496 6007",
+      "description": "REMOV STR (PIPE)",
+      "unit": "LF",
+      "quantity": 6541.0,
+      "engEstUnit": 28.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 15.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 18.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 20.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 50.0,
+        "R CONSTRUCTION CIVIL, LLC": 18.0
+      }
+    },
+    {
+      "itemCode": "0496 6008",
+      "description": "REMOV STR (BOX CULVERT)",
+      "unit": "LF",
+      "quantity": 16.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 250.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 178.9,
+        "HARPER BROTHERS CONSTRUCTION LLC": 420.0,
+        "R CONSTRUCTION CIVIL, LLC": 154.0
+      }
+    },
+    {
+      "itemCode": "0496 6099",
+      "description": "REMOVE STR (RAIL)",
+      "unit": "LF",
+      "quantity": 164.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 19.25,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 19.25,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 5.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 23.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 70.0,
+        "R CONSTRUCTION CIVIL, LLC": 21.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 3305000.0,
+      "lowUnit": 6200000.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 6200000.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1500000.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 5500000.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2750000.0,
+        "R CONSTRUCTION CIVIL, LLC": 7000000.0
+      }
+    },
+    {
+      "itemCode": "0508 6001",
+      "description": "CONSTRUCTING DETOURS",
+      "unit": "SY",
+      "quantity": 16630.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 125.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 80.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 121.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 130.0,
+        "R CONSTRUCTION CIVIL, LLC": 120.0
+      }
+    },
+    {
+      "itemCode": "0529 6005",
+      "description": "CONC CURB (MONO) (TY II)",
+      "unit": "LF",
+      "quantity": 7480.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 4.5,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 4.5,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 4.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 3.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 8.5,
+        "R CONSTRUCTION CIVIL, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0529 6011",
+      "description": "CONC CURB (DOWEL)",
+      "unit": "LF",
+      "quantity": 565.0,
+      "engEstUnit": 8.5,
+      "lowUnit": 6.5,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 6.5,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 7.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 8.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 10.5,
+        "R CONSTRUCTION CIVIL, LLC": 11.0
+      }
+    },
+    {
+      "itemCode": "0530 6004",
+      "description": "DRIVEWAYS (CONC)",
+      "unit": "SY",
+      "quantity": 6076.0,
+      "engEstUnit": 83.0,
+      "lowUnit": 105.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 105.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 65.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 92.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 135.0,
+        "R CONSTRUCTION CIVIL, LLC": 95.0
+      }
+    },
+    {
+      "itemCode": "0531 6002",
+      "description": "CONC SIDEWALKS (5\")",
+      "unit": "SY",
+      "quantity": 4912.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 80.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 80.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 55.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 73.9,
+        "HARPER BROTHERS CONSTRUCTION LLC": 105.0,
+        "R CONSTRUCTION CIVIL, LLC": 55.0
+      }
+    },
+    {
+      "itemCode": "0531 6004",
+      "description": "CURB RAMPS (TY 1)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 2900.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2900.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 1648.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3600.0,
+        "R CONSTRUCTION CIVIL, LLC": 1956.0
+      }
+    },
+    {
+      "itemCode": "0531 6005",
+      "description": "CURB RAMPS (TY 2)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2420.0,
+      "lowUnit": 3400.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 3400.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 2964.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 4075.0,
+        "R CONSTRUCTION CIVIL, LLC": 1956.0
+      }
+    },
+    {
+      "itemCode": "0531 6010",
+      "description": "CURB RAMPS (TY 7)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 3100.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 3100.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 1903.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3000.0,
+        "R CONSTRUCTION CIVIL, LLC": 1955.0
+      }
+    },
+    {
+      "itemCode": "0531 6016",
+      "description": "CURB RAMPS (TY 21)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 2800.0,
+      "lowUnit": 5800.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 5800.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 12500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 2551.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 9325.0,
+        "R CONSTRUCTION CIVIL, LLC": 1956.0
+      }
+    },
+    {
+      "itemCode": "0536 6002",
+      "description": "CONC MEDIAN",
+      "unit": "SY",
+      "quantity": 24.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 62.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 62.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 250.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 85.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 250.0,
+        "R CONSTRUCTION CIVIL, LLC": 54.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 255.0,
+      "engEstUnit": 2.4,
+      "lowUnit": 5.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 5.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 3.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 5.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 5.0,
+        "R CONSTRUCTION CIVIL, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "0545 6006",
+      "description": "CRASH CUSH ATTEN (INSTL)(L)(N)(TL2)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 16500.0,
+      "lowUnit": 21000.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 21000.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 25000.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 29400.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 24770.0,
+        "R CONSTRUCTION CIVIL, LLC": 26269.0
+      }
+    },
+    {
+      "itemCode": "0560 6009",
+      "description": "MAILBOX INSTALL-S (RR-POST) TY 4",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 165.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 250.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 262.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 300.0,
+        "R CONSTRUCTION CIVIL, LLC": 318.0
+      }
+    },
+    {
+      "itemCode": "0560 6011",
+      "description": "MAILBOX INSTALL-S (TWW-POST) TY 4",
+      "unit": "EA",
+      "quantity": 11.0,
+      "engEstUnit": 285.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 250.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 550.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 262.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 315.0,
+        "R CONSTRUCTION CIVIL, LLC": 334.0
+      }
+    },
+    {
+      "itemCode": "0560 6012",
+      "description": "MAILBOX INSTALL-D (TWW-POST) TY 4",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 365.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 350.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 450.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 262.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 350.0,
+        "R CONSTRUCTION CIVIL, LLC": 371.0
+      }
+    },
+    {
+      "itemCode": "0560 6015",
+      "description": "MAILBOX INSTALL-S (TIM-POST) TY 5",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 250.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 450.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 262.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 300.0,
+        "R CONSTRUCTION CIVIL, LLC": 318.0
+      }
+    },
+    {
+      "itemCode": "0560 6022",
+      "description": "MAILBOX INSTALL-D (TWG-POST) TY 4",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 350.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 450.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 262.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 400.0,
+        "R CONSTRUCTION CIVIL, LLC": 424.0
+      }
+    },
+    {
+      "itemCode": "0618 6046",
+      "description": "CONDT (PVC) (SCH 80) (2\")",
+      "unit": "LF",
+      "quantity": 3360.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 6.58,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 6.58,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 18.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 18.9,
+        "HARPER BROTHERS CONSTRUCTION LLC": 14.0,
+        "R CONSTRUCTION CIVIL, LLC": 15.0
+      }
+    },
+    {
+      "itemCode": "0618 6047",
+      "description": "CONDT (PVC) (SCH 80) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 960.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 21.4,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 21.4,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 18.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 18.9,
+        "HARPER BROTHERS CONSTRUCTION LLC": 17.0,
+        "R CONSTRUCTION CIVIL, LLC": 18.0
+      }
+    },
+    {
+      "itemCode": "0618 6053",
+      "description": "CONDT (PVC) (SCH 80) (3\")",
+      "unit": "LF",
+      "quantity": 260.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 14.06,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 14.06,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 32.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 33.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 24.0,
+        "R CONSTRUCTION CIVIL, LLC": 25.0
+      }
+    },
+    {
+      "itemCode": "0618 6054",
+      "description": "CONDT (PVC) (SCH 80) (3\") (BORE)",
+      "unit": "LF",
+      "quantity": 15.0,
+      "engEstUnit": 31.0,
+      "lowUnit": 25.16,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 25.16,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 32.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 33.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 40.0,
+        "R CONSTRUCTION CIVIL, LLC": 42.0
+      }
+    },
+    {
+      "itemCode": "0618 6058",
+      "description": "CONDT (PVC) (SCH 80) (4\")",
+      "unit": "LF",
+      "quantity": 180.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 20.33,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 20.33,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 34.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 36.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 32.0,
+        "R CONSTRUCTION CIVIL, LLC": 34.0
+      }
+    },
+    {
+      "itemCode": "0618 6059",
+      "description": "CONDT (PVC) (SCH 80) (4\") (BORE)",
+      "unit": "LF",
+      "quantity": 2025.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 29.85,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 29.85,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 34.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 36.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 26.0,
+        "R CONSTRUCTION CIVIL, LLC": 27.0
+      }
+    },
+    {
+      "itemCode": "0620 6009",
+      "description": "ELEC CONDR (NO.6) BARE",
+      "unit": "LF",
+      "quantity": 14380.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.81,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1.81,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.0,
+        "R CONSTRUCTION CIVIL, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0620 6011",
+      "description": "ELEC CONDR (NO.4) BARE",
+      "unit": "LF",
+      "quantity": 685.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.25,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2.25,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.3,
+        "R CONSTRUCTION CIVIL, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0620 6012",
+      "description": "ELEC CONDR (NO.4) INSULATED",
+      "unit": "LF",
+      "quantity": 1370.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 2.72,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2.72,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 2.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.6,
+        "R CONSTRUCTION CIVIL, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0621 6005",
+      "description": "TRAY CABLE (4 CONDR) (12 AWG)",
+      "unit": "LF",
+      "quantity": 1950.0,
+      "engEstUnit": 2.7,
+      "lowUnit": 3.16,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 3.16,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 2.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.65,
+        "R CONSTRUCTION CIVIL, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0624 6009",
+      "description": "GROUND BOX TY D (162922)",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 1520.0,
+      "lowUnit": 993.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 993.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1100.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 1155.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1050.0,
+        "R CONSTRUCTION CIVIL, LLC": 1101.0
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1263.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1263.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1300.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 1365.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1150.0,
+        "R CONSTRUCTION CIVIL, LLC": 1206.0
+      }
+    },
+    {
+      "itemCode": "0628 6145",
+      "description": "ELC SRV TY D 120/240 060(NS)SS(E)SP(O)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 6000.0,
+      "lowUnit": 6025.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 6025.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 7500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 7875.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 7100.0,
+        "R CONSTRUCTION CIVIL, LLC": 7446.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 23.0,
+      "engEstUnit": 520.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 500.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 650.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 577.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 500.0,
+        "R CONSTRUCTION CIVIL, LLC": 515.0
+      }
+    },
+    {
+      "itemCode": "0644 6027",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(P)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 1050.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 800.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 700.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 1134.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 800.0,
+        "R CONSTRUCTION CIVIL, LLC": 824.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 35.0,
+      "engEstUnit": 66.5,
+      "lowUnit": 100.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 100.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 85.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 131.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 100.0,
+        "R CONSTRUCTION CIVIL, LLC": 103.0
+      }
+    },
+    {
+      "itemCode": "0662 6001",
+      "description": "WK ZN PAV MRK NON-REMOV (W)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 3000.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.6,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.6,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 0.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 2.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.6,
+        "R CONSTRUCTION CIVIL, LLC": 0.35
+      }
+    },
+    {
+      "itemCode": "0662 6004",
+      "description": "WK ZN PAV MRK NON-REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 11606.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.6,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.6,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 0.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 2.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.6,
+        "R CONSTRUCTION CIVIL, LLC": 0.35
+      }
+    },
+    {
+      "itemCode": "0662 6012",
+      "description": "WK ZN PAV MRK NON-REMOV (W)8\"(SLD)",
+      "unit": "LF",
+      "quantity": 87.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 1.5,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1.5,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 0.75,
+        "SER CONSTRUCTION PARTNERS, LLC": 7.4,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.0,
+        "R CONSTRUCTION CIVIL, LLC": 0.6
+      }
+    },
+    {
+      "itemCode": "0662 6016",
+      "description": "WK ZN PAV MRK NON-REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 326.0,
+      "engEstUnit": 2.7,
+      "lowUnit": 3.1,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 3.1,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 5.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 12.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 5.0,
+        "R CONSTRUCTION CIVIL, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0662 6017",
+      "description": "WK ZN PAV MRK NON-REMOV (W)(ARROW)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 200.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 120.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 262.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 125.0,
+        "R CONSTRUCTION CIVIL, LLC": 103.0
+      }
+    },
+    {
+      "itemCode": "0662 6029",
+      "description": "WK ZN PAV MRK NON-REMOV(W)(WORD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 250.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 120.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 273.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 150.0,
+        "R CONSTRUCTION CIVIL, LLC": 103.0
+      }
+    },
+    {
+      "itemCode": "0662 6034",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 11985.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.6,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.6,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 0.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 2.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.6,
+        "R CONSTRUCTION CIVIL, LLC": 0.35
+      }
+    },
+    {
+      "itemCode": "0662 6041",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 300.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 3.1,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 3.1,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 5.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 12.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 5.0,
+        "R CONSTRUCTION CIVIL, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0662 6060",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 5270.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.35,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1.35,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 2.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.0,
+        "R CONSTRUCTION CIVIL, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0662 6061",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(DOT)",
+      "unit": "LF",
+      "quantity": 447.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.25,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2.25,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 2.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.75,
+        "R CONSTRUCTION CIVIL, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0662 6063",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 15953.0,
+      "engEstUnit": 0.85,
+      "lowUnit": 1.35,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1.35,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 2.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.2,
+        "R CONSTRUCTION CIVIL, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0662 6069",
+      "description": "WK ZN PAV MRK REMOV (W)8\"(DOT)",
+      "unit": "LF",
+      "quantity": 420.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 4.5,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 4.5,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 4.7,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3.75,
+        "R CONSTRUCTION CIVIL, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0662 6071",
+      "description": "WK ZN PAV MRK REMOV (W)8\"(SLD)",
+      "unit": "LF",
+      "quantity": 1474.0,
+      "engEstUnit": 1.75,
+      "lowUnit": 2.25,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2.25,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 4.7,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.4,
+        "R CONSTRUCTION CIVIL, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0662 6075",
+      "description": "WK ZN PAV MRK REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 632.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 8.5,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 8.5,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 9.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 12.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 10.5,
+        "R CONSTRUCTION CIVIL, LLC": 8.0
+      }
+    },
+    {
+      "itemCode": "0662 6080",
+      "description": "WK ZN PAV MRK REMOV (W)(ARROW)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 200.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 200.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 262.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 195.0,
+        "R CONSTRUCTION CIVIL, LLC": 206.0
+      }
+    },
+    {
+      "itemCode": "0662 6090",
+      "description": "WK ZN PAV MRK REMOV (W)(WORD)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 190.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 250.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 350.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 262.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 205.0,
+        "R CONSTRUCTION CIVIL, LLC": 309.0
+      }
+    },
+    {
+      "itemCode": "0662 6095",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 24578.0,
+      "engEstUnit": 0.83,
+      "lowUnit": 1.35,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1.35,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 2.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.2,
+        "R CONSTRUCTION CIVIL, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0662 6102",
+      "description": "WK ZN PAV MRK REMOV (Y)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 107.0,
+      "engEstUnit": 3.75,
+      "lowUnit": 8.25,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 8.25,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 8.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 12.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 10.5,
+        "R CONSTRUCTION CIVIL, LLC": 8.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 326.0,
+      "engEstUnit": 5.5,
+      "lowUnit": 5.25,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 5.25,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 6.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 7.4,
+        "HARPER BROTHERS CONSTRUCTION LLC": 6.5,
+        "R CONSTRUCTION CIVIL, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 568.0,
+      "engEstUnit": 5.5,
+      "lowUnit": 6.95,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 6.95,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 6.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 7.4,
+        "HARPER BROTHERS CONSTRUCTION LLC": 6.5,
+        "R CONSTRUCTION CIVIL, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 135.0,
+      "engEstUnit": 5.5,
+      "lowUnit": 6.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 6.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 6.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 7.4,
+        "HARPER BROTHERS CONSTRUCTION LLC": 6.5,
+        "R CONSTRUCTION CIVIL, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 13821.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 0.6,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.6,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.44,
+        "R CONSTRUCTION CIVIL, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 1540.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.8,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.8,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.68,
+        "R CONSTRUCTION CIVIL, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0677 6005",
+      "description": "ELIM EXT PAV MRK & MRKS (12\")",
+      "unit": "LF",
+      "quantity": 1093.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 3.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.5,
+        "R CONSTRUCTION CIVIL, LLC": 4.0
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 309.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 7.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 3.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3.0,
+        "R CONSTRUCTION CIVIL, LLC": 7.0
+      }
+    },
+    {
+      "itemCode": "0677 6008",
+      "description": "ELIM EXT PAV MRK & MRKS (ARROW)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 36.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 100.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 85.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 15.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 55.0,
+        "R CONSTRUCTION CIVIL, LLC": 88.0
+      }
+    },
+    {
+      "itemCode": "0677 6009",
+      "description": "ELIM EXT PAV MRK & MRKS (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 200.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 125.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 15.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 55.0,
+        "R CONSTRUCTION CIVIL, LLC": 129.0
+      }
+    },
+    {
+      "itemCode": "0677 6012",
+      "description": "ELIM EXT PAV MRK & MRKS (WORD)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 64.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 100.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 85.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 15.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 55.0,
+        "R CONSTRUCTION CIVIL, LLC": 88.0
+      }
+    },
+    {
+      "itemCode": "0678 6001",
+      "description": "PAV SURF PREP FOR MRK (4\")",
+      "unit": "LF",
+      "quantity": 20903.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 0.1,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.1,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 0.05,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.02,
+        "R CONSTRUCTION CIVIL, LLC": 0.05
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 14351.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 0.15,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.15,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 0.1,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.03,
+        "R CONSTRUCTION CIVIL, LLC": 0.1
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 2395.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.2,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.2,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 0.2,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.04,
+        "R CONSTRUCTION CIVIL, LLC": 0.2
+      }
+    },
+    {
+      "itemCode": "0678 6006",
+      "description": "PAV SURF PREP FOR MRK (12\")",
+      "unit": "LF",
+      "quantity": 414.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.2,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.2,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 0.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.06,
+        "R CONSTRUCTION CIVIL, LLC": 0.5
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 3178.0,
+      "engEstUnit": 0.8,
+      "lowUnit": 0.25,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 0.25,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.12,
+        "R CONSTRUCTION CIVIL, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 36.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 25.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 5.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 26.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 5.0,
+        "R CONSTRUCTION CIVIL, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0678 6010",
+      "description": "PAV SURF PREP FOR MRK (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 25.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 10.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 26.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 5.0,
+        "R CONSTRUCTION CIVIL, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 19.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 25.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 5.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 26.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 5.0,
+        "R CONSTRUCTION CIVIL, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0678 6033",
+      "description": "PAV SURF PREP FOR MRK (RPM)",
+      "unit": "EA",
+      "quantity": 1029.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 1.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 0.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 5.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 0.25,
+        "R CONSTRUCTION CIVIL, LLC": 0.5
+      }
+    },
+    {
+      "itemCode": "0681 6001",
+      "description": "TEMP TRAF SIGNALS",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 38100.0,
+      "lowUnit": 57209.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 57209.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 100000.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 65625.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 58500.0,
+        "R CONSTRUCTION CIVIL, LLC": 61352.0
+      }
+    },
+    {
+      "itemCode": "0682 6001",
+      "description": "VEH SIG SEC (12\")LED(GRN)",
+      "unit": "EA",
+      "quantity": 33.0,
+      "engEstUnit": 255.0,
+      "lowUnit": 220.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 220.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 246.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 257.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 290.0,
+        "R CONSTRUCTION CIVIL, LLC": 304.0
+      }
+    },
+    {
+      "itemCode": "0682 6002",
+      "description": "VEH SIG SEC (12\")LED(GRN ARW)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 260.0,
+      "lowUnit": 220.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 220.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 245.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 257.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 290.0,
+        "R CONSTRUCTION CIVIL, LLC": 304.0
+      }
+    },
+    {
+      "itemCode": "0682 6003",
+      "description": "VEH SIG SEC (12\")LED(YEL)",
+      "unit": "EA",
+      "quantity": 45.0,
+      "engEstUnit": 255.0,
+      "lowUnit": 220.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 220.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 245.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 257.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 290.0,
+        "R CONSTRUCTION CIVIL, LLC": 304.0
+      }
+    },
+    {
+      "itemCode": "0682 6004",
+      "description": "VEH SIG SEC (12\")LED(YEL ARW)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 265.0,
+      "lowUnit": 220.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 220.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 245.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 257.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 290.0,
+        "R CONSTRUCTION CIVIL, LLC": 304.0
+      }
+    },
+    {
+      "itemCode": "0682 6005",
+      "description": "VEH SIG SEC (12\")LED(RED)",
+      "unit": "EA",
+      "quantity": 39.0,
+      "engEstUnit": 255.0,
+      "lowUnit": 220.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 220.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 245.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 257.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 290.0,
+        "R CONSTRUCTION CIVIL, LLC": 304.0
+      }
+    },
+    {
+      "itemCode": "0682 6006",
+      "description": "VEH SIG SEC (12\")LED(RED ARW)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 260.0,
+      "lowUnit": 220.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 220.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 245.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 257.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 290.0,
+        "R CONSTRUCTION CIVIL, LLC": 304.0
+      }
+    },
+    {
+      "itemCode": "0682 6018",
+      "description": "PED SIG SEC (LED)(COUNTDOWN)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 620.0,
+      "lowUnit": 790.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 790.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 550.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 577.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 700.0,
+        "R CONSTRUCTION CIVIL, LLC": 734.0
+      }
+    },
+    {
+      "itemCode": "0682 6054",
+      "description": "BACKPLATE W/REF BRDR(3 SEC)(VENT)ALUM",
+      "unit": "EA",
+      "quantity": 51.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 144.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 144.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 170.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 178.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 170.0,
+        "R CONSTRUCTION CIVIL, LLC": 178.0
+      }
+    },
+    {
+      "itemCode": "0682 6055",
+      "description": "BACKPLATE W/REF BRDR(4 SEC)(VENT)ALUM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 1700.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1700.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 210.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 220.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 220.0,
+        "R CONSTRUCTION CIVIL, LLC": 231.0
+      }
+    },
+    {
+      "itemCode": "0684 6008",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(3 CONDR)",
+      "unit": "LF",
+      "quantity": 5160.0,
+      "engEstUnit": 1.7,
+      "lowUnit": 2.09,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2.09,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.0,
+        "R CONSTRUCTION CIVIL, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0684 6010",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(5 CONDR)",
+      "unit": "LF",
+      "quantity": 5270.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.53,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2.53,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1.75,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.5,
+        "R CONSTRUCTION CIVIL, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0684 6012",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(7 CONDR)",
+      "unit": "LF",
+      "quantity": 12855.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.25,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 3.25,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 2.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3.25,
+        "R CONSTRUCTION CIVIL, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0684 6028",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(2 CONDR)",
+      "unit": "LF",
+      "quantity": 35700.0,
+      "engEstUnit": 1.6,
+      "lowUnit": 1.94,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1.94,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1.4,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.8,
+        "R CONSTRUCTION CIVIL, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0684 6049",
+      "description": "TRF SIG CBL (TY A)(16 AWG)(3 CONDR)",
+      "unit": "LF",
+      "quantity": 3985.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 1.5,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1.5,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1.1,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.4,
+        "R CONSTRUCTION CIVIL, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0686 6029",
+      "description": "INS TRF SIG PL AM (S)1 ARM(28')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 9500.0,
+      "lowUnit": 9826.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 9826.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 12450.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 13072.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 11550.0,
+        "R CONSTRUCTION CIVIL, LLC": 12113.0
+      }
+    },
+    {
+      "itemCode": "0686 6037",
+      "description": "INS TRF SIG PL AM(S)1 ARM(36')",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 11000.0,
+      "lowUnit": 11419.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 11419.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 13700.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 14385.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 12850.0,
+        "R CONSTRUCTION CIVIL, LLC": 13476.0
+      }
+    },
+    {
+      "itemCode": "0686 6043",
+      "description": "INS TRF SIG PL AM(S)1 ARM(40')LUM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 13500.0,
+      "lowUnit": 13279.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 13279.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 16765.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 17603.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 15200.0,
+        "R CONSTRUCTION CIVIL, LLC": 15941.0
+      }
+    },
+    {
+      "itemCode": "0686 6045",
+      "description": "INS TRF SIG PL AM(S)1 ARM(44')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 12000.0,
+      "lowUnit": 12744.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 12744.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 15765.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 15828.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 13800.0,
+        "R CONSTRUCTION CIVIL, LLC": 14473.0
+      }
+    },
+    {
+      "itemCode": "0686 6047",
+      "description": "INS TRF SIG PL AM(S)1 ARM(44')LUM",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 13895.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 13895.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 16100.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 16905.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 14800.0,
+        "R CONSTRUCTION CIVIL, LLC": 15521.0
+      }
+    },
+    {
+      "itemCode": "0686 6055",
+      "description": "INS TRF SIG PL AM(S)1 ARM(50')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 29500.0,
+      "lowUnit": 32881.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 32881.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 41500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 43575.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 38200.0,
+        "R CONSTRUCTION CIVIL, LLC": 40062.0
+      }
+    },
+    {
+      "itemCode": "0686 6059",
+      "description": "INS TRF SIG PL AM(S)1 ARM(55')LUM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 31500.0,
+      "lowUnit": 34139.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 34139.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 41750.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 43837.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 36700.0,
+        "R CONSTRUCTION CIVIL, LLC": 38489.0
+      }
+    },
+    {
+      "itemCode": "0686 6063",
+      "description": "INS TRF SIG PL AM(S)1 ARM(60')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 32000.0,
+      "lowUnit": 35136.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 35136.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 43540.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 444717.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 37800.0,
+        "R CONSTRUCTION CIVIL, LLC": 39643.0
+      }
+    },
+    {
+      "itemCode": "0687 6001",
+      "description": "PED POLE ASSEMBLY",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 2200.0,
+      "lowUnit": 2049.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2049.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 2625.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2250.0,
+        "R CONSTRUCTION CIVIL, LLC": 2585.0
+      }
+    },
+    {
+      "itemCode": "0688 6001",
+      "description": "PED DETECT PUSH BUTTON (APS)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 386.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 386.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 680.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 714.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 800.0,
+        "R CONSTRUCTION CIVIL, LLC": 919.0
+      }
+    },
+    {
+      "itemCode": "0688 6003",
+      "description": "PED DETECTOR CONTROLLER UNIT",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 4161.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 4161.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 3500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 3675.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3800.0,
+        "R CONSTRUCTION CIVIL, LLC": 4365.0
+      }
+    },
+    {
+      "itemCode": "0734 6002",
+      "description": "LITTER REMOVAL",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 2200.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 3000.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 819.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3500.0,
+        "R CONSTRUCTION CIVIL, LLC": 847.0
+      }
+    },
+    {
+      "itemCode": "0735 6001",
+      "description": "DEBRIS REMOVAL (CNTR MEDIANS/MAINLANES)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2500.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 819.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 4500.0,
+        "R CONSTRUCTION CIVIL, LLC": 847.0
+      }
+    },
+    {
+      "itemCode": "0738 6003",
+      "description": "CLEANING / SWEEPING (OUTSIDE MAIN LANE)",
+      "unit": "CYC",
+      "quantity": 12.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2500.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 1005.9,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1400.0,
+        "R CONSTRUCTION CIVIL, LLC": 847.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 15500.0,
+      "lowUnit": 14000.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 14000.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 15000.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 22428.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 18250.0,
+        "R CONSTRUCTION CIVIL, LLC": 16506.0
+      }
+    },
+    {
+      "itemCode": "6007 6011",
+      "description": "FIBER OPTIC CBL (SNGLE-MODE)(12 FIBER)",
+      "unit": "LF",
+      "quantity": 350.0,
+      "engEstUnit": 2.7,
+      "lowUnit": 2.53,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2.53,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 4.2,
+        "SER CONSTRUCTION PARTNERS, LLC": 4.4,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.75,
+        "R CONSTRUCTION CIVIL, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "6007 6017",
+      "description": "FIBER OPTIC CBL (SNGLE-MODE)(144 FIBER)",
+      "unit": "LF",
+      "quantity": 7035.0,
+      "engEstUnit": 5.3,
+      "lowUnit": 3.9,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 3.9,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 6.1,
+        "SER CONSTRUCTION PARTNERS, LLC": 6.4,
+        "HARPER BROTHERS CONSTRUCTION LLC": 5.35,
+        "R CONSTRUCTION CIVIL, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "6007 6021",
+      "description": "FIBER OPTIC SPLICE ENCLOSURE",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1800.0,
+      "lowUnit": 1468.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1468.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2050.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 2152.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1625.0,
+        "R CONSTRUCTION CIVIL, LLC": 1704.0
+      }
+    },
+    {
+      "itemCode": "6007 6093",
+      "description": "RACK MOUNTED FO SPLICE ENCLOSURE",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3800.0,
+      "lowUnit": 1190.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1190.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 3075.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 3228.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2150.0,
+        "R CONSTRUCTION CIVIL, LLC": 2255.0
+      }
+    },
+    {
+      "itemCode": "6015 6001",
+      "description": "FIBER OPTIC RS-232 DATA MODEM(S/M)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1150.0,
+      "lowUnit": 879.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 879.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 2625.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2600.0,
+        "R CONSTRUCTION CIVIL, LLC": 2727.0
+      }
+    },
+    {
+      "itemCode": "6016 6011",
+      "description": "ITS MULTI-DUCT CND (PVC-80)(BORE)",
+      "unit": "LF",
+      "quantity": 2070.0,
+      "engEstUnit": 27.5,
+      "lowUnit": 29.41,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 29.41,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 35.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 36.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 61.0,
+        "R CONSTRUCTION CIVIL, LLC": 64.0
+      }
+    },
+    {
+      "itemCode": "6016 6012",
+      "description": "ITS MULTI-DUCT CND (PVC-80)(CONC ENCSE)",
+      "unit": "LF",
+      "quantity": 3815.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 27.92,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 27.92,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 35.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 36.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 32.0,
+        "R CONSTRUCTION CIVIL, LLC": 34.0
+      }
+    },
+    {
+      "itemCode": "6038 6001",
+      "description": "MULTIPOLYMER PAV MRK (W)(4\")(SLD)",
+      "unit": "LF",
+      "quantity": 2302.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 1.55,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1.55,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.9,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.0,
+        "R CONSTRUCTION CIVIL, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "6038 6002",
+      "description": "MULTIPOLYMER PAV MRK (W)(4\")(BRK)",
+      "unit": "LF",
+      "quantity": 50.0,
+      "engEstUnit": 3.25,
+      "lowUnit": 2.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.9,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.25,
+        "R CONSTRUCTION CIVIL, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "6038 6003",
+      "description": "MULTIPOLYMER PAV MRK (W)(4\")(DOT)",
+      "unit": "LF",
+      "quantity": 155.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 3.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.9,
+        "HARPER BROTHERS CONSTRUCTION LLC": 4.0,
+        "R CONSTRUCTION CIVIL, LLC": 4.0
+      }
+    },
+    {
+      "itemCode": "6038 6004",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(SLD)",
+      "unit": "LF",
+      "quantity": 1047.0,
+      "engEstUnit": 0.73,
+      "lowUnit": 2.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.1,
+        "R CONSTRUCTION CIVIL, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "6038 6005",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(BRK)",
+      "unit": "LF",
+      "quantity": 6682.0,
+      "engEstUnit": 0.8,
+      "lowUnit": 2.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.15,
+        "R CONSTRUCTION CIVIL, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "6038 6007",
+      "description": "MULTIPOLYMER PAV MRK (W)(8\")(SLD)",
+      "unit": "LF",
+      "quantity": 2395.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 2.5,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2.5,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 3.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.7,
+        "HARPER BROTHERS CONSTRUCTION LLC": 4.5,
+        "R CONSTRUCTION CIVIL, LLC": 4.0
+      }
+    },
+    {
+      "itemCode": "6038 6011",
+      "description": "MULTIPOLYMER PAV MRK (W)(12\")(SLD)",
+      "unit": "LF",
+      "quantity": 414.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 4.95,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 4.95,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 5.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 3.7,
+        "HARPER BROTHERS CONSTRUCTION LLC": 7.5,
+        "R CONSTRUCTION CIVIL, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "6038 6013",
+      "description": "MULTIPOLYMER PAV MRK (W)(24\")(SLD)",
+      "unit": "LF",
+      "quantity": 2530.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 9.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 9.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 10.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 7.4,
+        "HARPER BROTHERS CONSTRUCTION LLC": 14.0,
+        "R CONSTRUCTION CIVIL, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "6038 6014",
+      "description": "MULTIPOLYMER PAV MRK (Y)(4\")(SLD)",
+      "unit": "LF",
+      "quantity": 16346.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 1.55,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1.55,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.9,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.65,
+        "R CONSTRUCTION CIVIL, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "6038 6015",
+      "description": "MULTIPOLYMER PAV MRK (Y)(4\")(BRK)",
+      "unit": "LF",
+      "quantity": 2050.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 0.9,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.0,
+        "R CONSTRUCTION CIVIL, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "6038 6022",
+      "description": "MULTIPOLYMER PAV MRK (Y)(24\")(SLD)",
+      "unit": "LF",
+      "quantity": 648.0,
+      "engEstUnit": 6.5,
+      "lowUnit": 9.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 9.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 10.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 7.4,
+        "HARPER BROTHERS CONSTRUCTION LLC": 14.0,
+        "R CONSTRUCTION CIVIL, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "6038 6024",
+      "description": "MULTIPOLYMER PAV MRK (BLK)(6\")(BRK)",
+      "unit": "LF",
+      "quantity": 6622.0,
+      "engEstUnit": 0.85,
+      "lowUnit": 2.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 1.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2.15,
+        "R CONSTRUCTION CIVIL, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "6047 6009",
+      "description": "PREFB PAV MK TY B (W)(ARROW)",
+      "unit": "EA",
+      "quantity": 36.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 250.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 665.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 262.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 325.83,
+        "R CONSTRUCTION CIVIL, LLC": 685.0
+      }
+    },
+    {
+      "itemCode": "6047 6010",
+      "description": "PREFB PAV MK TY B (W)(DBL ARW)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 300.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 650.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 288.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 397.0,
+        "R CONSTRUCTION CIVIL, LLC": 670.0
+      }
+    },
+    {
+      "itemCode": "6047 6017",
+      "description": "PREFB PAV MK TY B (W)(WORD)",
+      "unit": "EA",
+      "quantity": 19.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 350.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1000.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 262.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 355.0,
+        "R CONSTRUCTION CIVIL, LLC": 1030.0
+      }
+    },
+    {
+      "itemCode": "6058 6001",
+      "description": "BBU SYSTEM (EXTERNAL BATT CABINET)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 7900.0,
+      "lowUnit": 9572.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 9572.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 9500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 9975.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 8500.0,
+        "R CONSTRUCTION CIVIL, LLC": 8914.0
+      }
+    },
+    {
+      "itemCode": "6061 6001",
+      "description": "GPS COMMUNICATIONS UNIT",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 866.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 866.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 850.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 892.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1300.0,
+        "R CONSTRUCTION CIVIL, LLC": 1363.0
+      }
+    },
+    {
+      "itemCode": "6186 6004",
+      "description": "ITS GND BOX(PCAST) TY 1 (243648)W/APRN",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 3100.0,
+      "lowUnit": 4319.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 4319.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 3850.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 4042.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 4020.0,
+        "R CONSTRUCTION CIVIL, LLC": 4216.0
+      }
+    },
+    {
+      "itemCode": "6186 6008",
+      "description": "ITS GND BOX(PCAST) TY 2 (366036)W/APRN",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 5500.0,
+      "lowUnit": 6337.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 6337.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 5800.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 6090.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 6200.0,
+        "R CONSTRUCTION CIVIL, LLC": 6502.0
+      }
+    },
+    {
+      "itemCode": "6306 6006",
+      "description": "VIVDS TEMPORARY",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 18433.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 18433.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 21665.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 22748.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 19000.0,
+        "R CONSTRUCTION CIVIL, LLC": 47742.0
+      }
+    },
+    {
+      "itemCode": "7017 6041",
+      "description": "CASING (STEEL) (SANITARY SEWER) (12 IN)",
+      "unit": "LF",
+      "quantity": 19.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 442.61,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 442.61,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 289.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 325.0,
+        "R CONSTRUCTION CIVIL, LLC": 627.0
+      }
+    },
+    {
+      "itemCode": "7017 6051",
+      "description": "MANHOLE (SAN SEWER) ( 4' DIA)",
+      "unit": "EA",
+      "quantity": 17.0,
+      "engEstUnit": 7200.0,
+      "lowUnit": 8298.99,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 8298.99,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 7500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 4136.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 35000.0,
+        "R CONSTRUCTION CIVIL, LLC": 6756.0
+      }
+    },
+    {
+      "itemCode": "7017 6053",
+      "description": "MANHOLE (SAN SEWER) (5' DIA)",
+      "unit": "EA",
+      "quantity": 19.0,
+      "engEstUnit": 8400.0,
+      "lowUnit": 9405.52,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 9405.52,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 17500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 8872.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 38750.0,
+        "R CONSTRUCTION CIVIL, LLC": 12144.0
+      }
+    },
+    {
+      "itemCode": "7017 6058",
+      "description": "JACK BOR OR TUN(SANSWR)(PVC)(8IN (C900)",
+      "unit": "LF",
+      "quantity": 1921.0,
+      "engEstUnit": 720.0,
+      "lowUnit": 354.09,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 354.09,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 750.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 365.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 175.0,
+        "R CONSTRUCTION CIVIL, LLC": 1255.0
+      }
+    },
+    {
+      "itemCode": "7017 6059",
+      "description": "JCK BOR OR TUN SAN SWR(PVC)(10IN)(C900)",
+      "unit": "LF",
+      "quantity": 1755.0,
+      "engEstUnit": 840.0,
+      "lowUnit": 376.22,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 376.22,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1100.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 676.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 165.0,
+        "R CONSTRUCTION CIVIL, LLC": 924.0
+      }
+    },
+    {
+      "itemCode": "7017 6060",
+      "description": "JCK BOR OR TUN SAN SWR(PVC)(12IN)(C900)",
+      "unit": "LF",
+      "quantity": 1022.0,
+      "engEstUnit": 960.0,
+      "lowUnit": 420.48,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 420.48,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 1110.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 285.0,
+        "R CONSTRUCTION CIVIL, LLC": 1200.0
+      }
+    },
+    {
+      "itemCode": "7017 6061",
+      "description": "JCK BOR OR TUN SAN SWR(PVC)(24IN)(C900)",
+      "unit": "LF",
+      "quantity": 2144.0,
+      "engEstUnit": 1560.0,
+      "lowUnit": 663.92,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 663.92,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2300.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 1868.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 175.0,
+        "R CONSTRUCTION CIVIL, LLC": 1636.0
+      }
+    },
+    {
+      "itemCode": "7017 6073",
+      "description": "SERVICE CONNECTION (SANITARY SEWER)",
+      "unit": "EA",
+      "quantity": 57.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 5532.66,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 5532.66,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 5500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 5291.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 7000.0,
+        "R CONSTRUCTION CIVIL, LLC": 2838.0
+      }
+    },
+    {
+      "itemCode": "7017 6085",
+      "description": "ABANDON SANITARY SEWER (LIFT STATION)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 27600.0,
+      "lowUnit": 226759.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 226759.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 100000.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 60119.7,
+        "HARPER BROTHERS CONSTRUCTION LLC": 137500.0,
+        "R CONSTRUCTION CIVIL, LLC": 143602.0
+      }
+    },
+    {
+      "itemCode": "7017 6094",
+      "description": "REMOVE EXISTING MANHOLE(SANITARY SEWER)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 1680.0,
+      "lowUnit": 2213.06,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 2213.06,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 4500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 454.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1735.0,
+        "R CONSTRUCTION CIVIL, LLC": 1054.0
+      }
+    },
+    {
+      "itemCode": "7017 6099",
+      "description": "CONNECT EXIST SAN SWR TO MANHOLE",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 2880.0,
+      "lowUnit": 4426.13,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 4426.13,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 20000.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 868.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3500.0,
+        "R CONSTRUCTION CIVIL, LLC": 1469.0
+      }
+    },
+    {
+      "itemCode": "7017 6112",
+      "description": "MANHOLE (SAN SEWER)(6' DIA)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 9600.0,
+      "lowUnit": 13278.39,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 13278.39,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 20000.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 18141.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 60855.0,
+        "R CONSTRUCTION CIVIL, LLC": 18419.0
+      }
+    },
+    {
+      "itemCode": "7017 6133",
+      "description": "ABAND/FILL EXIST SAN SWR PIPE (8IN)",
+      "unit": "LF",
+      "quantity": 2528.0,
+      "engEstUnit": 24.0,
+      "lowUnit": 22.13,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 22.13,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 4.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 8.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 10.0,
+        "R CONSTRUCTION CIVIL, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "7017 6134",
+      "description": "ABAND/FILL EXIST SAN SWR PIPE (10IN)",
+      "unit": "LF",
+      "quantity": 7069.0,
+      "engEstUnit": 29.0,
+      "lowUnit": 24.34,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 24.34,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 4.5,
+        "SER CONSTRUCTION PARTNERS, LLC": 9.4,
+        "HARPER BROTHERS CONSTRUCTION LLC": 11.0,
+        "R CONSTRUCTION CIVIL, LLC": 27.0
+      }
+    },
+    {
+      "itemCode": "7017 6135",
+      "description": "ABAND/FILL EXIST SAN SWR PIPE (12IN)",
+      "unit": "LF",
+      "quantity": 325.0,
+      "engEstUnit": 34.0,
+      "lowUnit": 27.66,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 27.66,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 6.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 22.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 20.0,
+        "R CONSTRUCTION CIVIL, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "7017 6138",
+      "description": "ABAND/FILL EXIST SAN SWR PIPE (24IN)",
+      "unit": "LF",
+      "quantity": 1680.0,
+      "engEstUnit": 39.0,
+      "lowUnit": 44.26,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 44.26,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 30.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 24.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 30.0,
+        "R CONSTRUCTION CIVIL, LLC": 58.0
+      }
+    },
+    {
+      "itemCode": "7017 6169",
+      "description": "ABANDON MANHOLE",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1106.53,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 1106.53,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 1017.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 2215.0,
+        "R CONSTRUCTION CIVIL, LLC": 2596.0
+      }
+    },
+    {
+      "itemCode": "7017 6191",
+      "description": "JCK BOR TUN SAN SWR (PVC)(15IN)(C900)",
+      "unit": "LF",
+      "quantity": 2330.0,
+      "engEstUnit": 1080.0,
+      "lowUnit": 464.74,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 464.74,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 1891.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1320.0,
+        "R CONSTRUCTION CIVIL, LLC": 1205.0
+      }
+    },
+    {
+      "itemCode": "7017 6192",
+      "description": "JCK BOR TUN SAN SWR (PVC)(18 IN)(C900)",
+      "unit": "LF",
+      "quantity": 1250.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 509.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 509.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1500.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 1770.7,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1620.0,
+        "R CONSTRUCTION CIVIL, LLC": 1302.0
+      }
+    },
+    {
+      "itemCode": "7017 6193",
+      "description": "JCK BOR TUN SAN SWR (PCV)(21 IN)(C900)",
+      "unit": "LF",
+      "quantity": 465.0,
+      "engEstUnit": 1440.0,
+      "lowUnit": 553.27,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 553.27,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 1850.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 3348.5,
+        "HARPER BROTHERS CONSTRUCTION LLC": 170.0,
+        "R CONSTRUCTION CIVIL, LLC": 1616.0
+      }
+    },
+    {
+      "itemCode": "7017 6194",
+      "description": "JCK BOR TUN SAN SWR (PCV)(30 IN)(C900)",
+      "unit": "LF",
+      "quantity": 92.0,
+      "engEstUnit": 1920.0,
+      "lowUnit": 885.23,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 885.23,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 2000.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 8120.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 7200.0,
+        "R CONSTRUCTION CIVIL, LLC": 2423.0
+      }
+    },
+    {
+      "itemCode": "7017 6198",
+      "description": "MH(SAN SWR)(CORROSION REST)(FM DIS)(5FT",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 14384.92,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 14384.92,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 30000.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 22961.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 26100.0,
+        "R CONSTRUCTION CIVIL, LLC": 12250.0
+      }
+    },
+    {
+      "itemCode": "7295 6001",
+      "description": "NEW SAN SWR LIFT STATION (COMPLETE)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1550000.0,
+      "lowUnit": 5500000.0,
+      "bidders": {
+        "BALFOUR BEATTY INFRASTRUCTURE, INC.": 5500000.0,
+        "REYTEC CONSTRUCTION RESOURCES, INC.": 5000000.0,
+        "SER CONSTRUCTION PARTNERS, LLC": 3163605.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 8010000.0,
+        "R CONSTRUCTION CIVIL, LLC": 9000000.0
+      }
+    }
+  ]
+}

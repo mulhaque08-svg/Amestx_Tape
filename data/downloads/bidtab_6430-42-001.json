@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "csj": "6430-42-001",
+    "county": "Red River",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 643042001",
+    "projectType": "BRIDGE PREVENTATIVE MAINTENANCE",
+    "letDate": "03/16/23",
+    "engEstTotal": 160900.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BA NEWTON'S ENTERPRISES LLC",
+      "totalBidAmount": 175800.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MB WESTERN INDUSTRIAL CONTRACTING COMPANY",
+      "totalBidAmount": 349870.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 418500.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "SOUTHERN ROAD & BRIDGE, LLC",
+      "totalBidAmount": 570300.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 123.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "BA NEWTON'S ENTERPRISES LLC": 100.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 90.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0132 6019",
+      "description": "EMBANKMENT (VEHICLE)(ORD COMP)(TY B)",
+      "unit": "CY",
+      "quantity": 70.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "BA NEWTON'S ENTERPRISES LLC": 100.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 30.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 100.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 65.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 14.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "BA NEWTON'S ENTERPRISES LLC": 100.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 750.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 300.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 650.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 184.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 175.0,
+      "bidders": {
+        "BA NEWTON'S ENTERPRISES LLC": 175.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 275.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 250.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 225.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 15900.0,
+      "bidders": {
+        "BA NEWTON'S ENTERPRISES LLC": 15900.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 30000.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 30000.0,
+        "SOUTHERN ROAD & BRIDGE, LLC": 65000.0
+      }
+    }
+  ]
+}

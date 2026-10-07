@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "csj": "6433-40-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 643340001",
+    "projectType": "HOT MIX",
+    "letDate": "02/22/23",
+    "engEstTotal": 277300.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 292900.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8006 6003",
+      "description": "SP MIXTURES SP-C PG70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 900.0,
+      "engEstUnit": 97.0,
+      "lowUnit": 101.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 101.0
+      }
+    },
+    {
+      "itemCode": "8006 6005",
+      "description": "SP MIXTURES SP-D PG64-22  (PICKUP)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 101.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 101.0
+      }
+    }
+  ]
+}

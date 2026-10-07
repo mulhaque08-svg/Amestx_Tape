@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6377-96-001",
+    "county": "Bowie",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637796001",
+    "projectType": "LANDSCAPE MAINTENANCE",
+    "letDate": "04/21/21",
+    "engEstTotal": 108657.6,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "KYVER CONTRACTORS, LLC",
+      "totalBidAmount": 104620.64
+    },
+    {
+      "rank": 2,
+      "vendorName": "SOUTHERN EDGE CONTRACTORS LLC",
+      "totalBidAmount": 148108.96
+    },
+    {
+      "rank": 3,
+      "vendorName": "KLEEN SWEEP SERVICES",
+      "totalBidAmount": 184224.18
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 400.0,
+      "bidders": {
+        "KYVER CONTRACTORS, LLC": 400.0,
+        "SOUTHERN EDGE CONTRACTORS LLC": 1760.0,
+        "KLEEN SWEEP SERVICES": 3469.34
+      }
+    },
+    {
+      "itemCode": "0751 6005",
+      "description": "LITTER PICKUP",
+      "unit": "AC",
+      "quantity": 1591.44,
+      "engEstUnit": 20.0,
+      "lowUnit": 28.0,
+      "bidders": {
+        "KYVER CONTRACTORS, LLC": 28.0,
+        "SOUTHERN EDGE CONTRACTORS LLC": 17.0,
+        "KLEEN SWEEP SERVICES": 5.0
+      }
+    },
+    {
+      "itemCode": "0751 6007",
+      "description": "MOWING, TRIMMING, AND EDGING",
+      "unit": "AC",
+      "quantity": 1591.44,
+      "engEstUnit": 20.0,
+      "lowUnit": 28.0,
+      "bidders": {
+        "KYVER CONTRACTORS, LLC": 28.0,
+        "SOUTHERN EDGE CONTRACTORS LLC": 17.0,
+        "KLEEN SWEEP SERVICES": 54.5
+      }
+    },
+    {
+      "itemCode": "0751 6011",
+      "description": "PRUNING",
+      "unit": "CYC",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 5500.0,
+      "bidders": {
+        "KYVER CONTRACTORS, LLC": 5500.0,
+        "SOUTHERN EDGE CONTRACTORS LLC": 50000.0,
+        "KLEEN SWEEP SERVICES": 2800.0
+      }
+    }
+  ]
+}

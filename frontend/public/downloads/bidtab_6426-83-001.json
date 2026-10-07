@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "csj": "6426-83-001",
+    "county": "Brazos",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642683001",
+    "projectType": "WINTER WEATHER MATERIAL",
+    "letDate": "12/06/22",
+    "engEstTotal": 186000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "NSG LOGISTICS, LLC",
+      "totalBidAmount": 161168.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "UNITED SALT CORPORATION",
+      "totalBidAmount": 183027.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "SOUTHWEST ENVIROTX PARTNERS, LLC",
+      "totalBidAmount": 210000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8042 6116",
+      "description": "TYPE II BRINE SALT (DEL)(SITE 1)",
+      "unit": "TON",
+      "quantity": 100.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 165.33,
+      "bidders": {
+        "NSG LOGISTICS, LLC": 165.33,
+        "UNITED SALT CORPORATION": 204.03,
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 220.0
+      }
+    },
+    {
+      "itemCode": "8042 6117",
+      "description": "TYPE II BRINE SALT (DEL)(SITE 2)",
+      "unit": "TON",
+      "quantity": 100.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 170.86,
+      "bidders": {
+        "NSG LOGISTICS, LLC": 170.86,
+        "UNITED SALT CORPORATION": 211.03,
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 220.0
+      }
+    },
+    {
+      "itemCode": "8042 6118",
+      "description": "TYPE II BRINE SALT (DEL)(SITE 3)",
+      "unit": "TON",
+      "quantity": 100.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 161.65,
+      "bidders": {
+        "NSG LOGISTICS, LLC": 161.65,
+        "UNITED SALT CORPORATION": 195.03,
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 220.0
+      }
+    },
+    {
+      "itemCode": "8042 6135",
+      "description": "TYPE II BRINE SALT (DEL)(SITE 1)(EXP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 184.95,
+      "bidders": {
+        "NSG LOGISTICS, LLC": 184.95,
+        "UNITED SALT CORPORATION": 204.03,
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 240.0
+      }
+    },
+    {
+      "itemCode": "8042 6136",
+      "description": "TYPE II BRINE SALT (DEL)(SITE 2)(EXP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 191.14,
+      "bidders": {
+        "NSG LOGISTICS, LLC": 191.14,
+        "UNITED SALT CORPORATION": 211.03,
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 240.0
+      }
+    },
+    {
+      "itemCode": "8042 6137",
+      "description": "TYPE II BRINE SALT (DEL)(SITE 3)(EXP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 225.0,
+      "lowUnit": 180.83,
+      "bidders": {
+        "NSG LOGISTICS, LLC": 180.83,
+        "UNITED SALT CORPORATION": 195.03,
+        "SOUTHWEST ENVIROTX PARTNERS, LLC": 240.0
+      }
+    }
+  ]
+}

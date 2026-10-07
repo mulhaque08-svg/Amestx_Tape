@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6421-77-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642177001",
+    "projectType": "HOT MIX",
+    "letDate": "11/15/22",
+    "engEstTotal": 224700.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "EUROVIA ATLANTIC COAST LLC",
+      "totalBidAmount": 181300.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "JAGOE-PUBLIC COMPANY",
+      "totalBidAmount": 196000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8006 6003",
+      "description": "SP MIXTURES SP-C PG70-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 700.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 91.0,
+      "bidders": {
+        "EUROVIA ATLANTIC COAST LLC": 91.0,
+        "JAGOE-PUBLIC COMPANY": 100.0
+      }
+    },
+    {
+      "itemCode": "8006 6005",
+      "description": "SP MIXTURES SP-D PG64-22  (PICKUP)",
+      "unit": "TON",
+      "quantity": 1400.0,
+      "engEstUnit": 108.0,
+      "lowUnit": 84.0,
+      "bidders": {
+        "EUROVIA ATLANTIC COAST LLC": 84.0,
+        "JAGOE-PUBLIC COMPANY": 90.0
+      }
+    }
+  ]
+}

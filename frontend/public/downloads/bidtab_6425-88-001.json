@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6425-88-001",
+    "county": "Hunt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642588001",
+    "projectType": "DITCH CLEANING AND RESHAPING",
+    "letDate": "02/02/23",
+    "engEstTotal": 384570.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 364225.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "ANCHOR CONTRACTING, LLC",
+      "totalBidAmount": 453225.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "PATHFIELD INVESTMENTS LLC",
+      "totalBidAmount": 568500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0480 6001",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "EA",
+      "quantity": 185.0,
+      "engEstUnit": 222.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 225.0,
+        "ANCHOR CONTRACTING, LLC": 225.0,
+        "PATHFIELD INVESTMENTS LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 100.0,
+        "ANCHOR CONTRACTING, LLC": 100.0,
+        "PATHFIELD INVESTMENTS LLC": 5000.0
+      }
+    },
+    {
+      "itemCode": "0760 6001",
+      "description": "DITCH CLEANING AND RESHAPING (FOOT)",
+      "unit": "LF",
+      "quantity": 220000.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.45,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 1.45,
+        "ANCHOR CONTRACTING, LLC": 1.8,
+        "PATHFIELD INVESTMENTS LLC": 2.0
+      }
+    }
+  ]
+}

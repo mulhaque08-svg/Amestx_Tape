@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "0918-47-457",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "STP 2B24(223)HES",
+    "projectType": "CONSTRUCT PEDESTRIAN INFRASTRUCTURE",
+    "letDate": "08/02/24",
+    "engEstTotal": 737050.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 773400.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GIBSON & ASSOCIATES, INC.",
+      "totalBidAmount": 825400.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ENCINO LANDSCAPE, INC.",
+      "totalBidAmount": 889944.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 75000.0,
+      "lowUnit": 45000.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 45000.0,
+        "GIBSON & ASSOCIATES, INC.": 47500.0,
+        "ENCINO LANDSCAPE, INC.": 77777.0
+      }
+    },
+    {
+      "itemCode": "5125 6001",
+      "description": "PEDESTRIAN BARRIER (FURN & INSTALL)",
+      "unit": "LF",
+      "quantity": 16850.0,
+      "engEstUnit": 32.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 40.0,
+        "GIBSON & ASSOCIATES, INC.": 44.0,
+        "ENCINO LANDSCAPE, INC.": 40.15
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 1000.0,
+        "GIBSON & ASSOCIATES, INC.": 5400.0,
+        "ENCINO LANDSCAPE, INC.": 20000.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "csj": "0907-00-199",
+    "county": "Tom Green",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2023(385)",
+    "projectType": "HIGHWAY IMPROVEMENT",
+    "letDate": "01/06/23",
+    "engEstTotal": 2192060.88,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "L&L COMPANY",
+      "totalBidAmount": 1784037.16
+    },
+    {
+      "rank": 2,
+      "vendorName": "CENTERLINE TECHNOLOGIES, LLC",
+      "totalBidAmount": 2030666.95
+    },
+    {
+      "rank": 3,
+      "vendorName": "VIZCAINO, L.P.",
+      "totalBidAmount": 2167255.97
+    },
+    {
+      "rank": 4,
+      "vendorName": "TRAFFIC HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 2344763.98
+    },
+    {
+      "rank": 5,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 2535412.19
+    },
+    {
+      "rank": 6,
+      "vendorName": "BATTERSON, LLP",
+      "totalBidAmount": 2599418.94
+    },
+    {
+      "rank": 7,
+      "vendorName": "INTERSTATE BARRICADES & MARKINGS, INC.",
+      "totalBidAmount": 3107008.25
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "L&L COMPANY": 1.0,
+        "CENTERLINE TECHNOLOGIES, LLC": 1.0,
+        "VIZCAINO, L.P.": 1.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 100000.0,
+        "TRP CONSTRUCTION GROUP, LLC": 25000.0,
+        "BATTERSON, LLP": 80000.0
+      }
+    },
+    {
+      "itemCode": "0668 6089",
+      "description": "PREFAB PAV MRK TY C (W) (RR XING)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 767.06,
+      "lowUnit": 500.0,
+      "bidders": {
+        "L&L COMPANY": 500.0,
+        "CENTERLINE TECHNOLOGIES, LLC": 750.0,
+        "VIZCAINO, L.P.": 500.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 700.0,
+        "TRP CONSTRUCTION GROUP, LLC": 650.0,
+        "BATTERSON, LLP": 750.0
+      }
+    },
+    {
+      "itemCode": "6056 6002",
+      "description": "PREFORMED CENTERLINE RUMBLE STRIP",
+      "unit": "LF",
+      "quantity": 41325.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 3.5,
+      "bidders": {
+        "L&L COMPANY": 3.5,
+        "CENTERLINE TECHNOLOGIES, LLC": 3.75,
+        "VIZCAINO, L.P.": 2.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 4.0,
+        "TRP CONSTRUCTION GROUP, LLC": 5.0,
+        "BATTERSON, LLP": 7.3
+      }
+    }
+  ]
+}

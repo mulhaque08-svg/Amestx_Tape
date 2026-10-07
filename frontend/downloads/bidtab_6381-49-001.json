@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6381-49-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638149001",
+    "projectType": "RAISED PAVEMENT MARKINGS",
+    "letDate": "03/24/22",
+    "engEstTotal": 142428.98,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 115531.52
+    },
+    {
+      "rank": 2,
+      "vendorName": "BRYDL CONTRACTING, LLC",
+      "totalBidAmount": 119031.6
+    },
+    {
+      "rank": 3,
+      "vendorName": "TOTAL HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 141295.8
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 12948.18,
+      "lowUnit": 1.0,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0,
+        "BRYDL CONTRACTING, LLC": 40000.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 12000.0
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 15948.0,
+      "engEstUnit": 3.56,
+      "lowUnit": 7.24,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 7.24,
+        "BRYDL CONTRACTING, LLC": 4.45,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 5.85
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 9832.13,
+      "lowUnit": 1.0,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 1.0,
+        "BRYDL CONTRACTING, LLC": 2000.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 1500.0
+      }
+    }
+  ]
+}

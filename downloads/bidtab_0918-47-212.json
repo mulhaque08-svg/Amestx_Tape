@@ -1,0 +1,1391 @@
+{
+  "metadata": {
+    "csj": "0918-47-212",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "STP 2021(496)HES",
+    "projectType": "TRAFFIC SIGNAL IMPROVEMENTS",
+    "letDate": "04/08/21",
+    "engEstTotal": 2025929.25,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DURABLE SPECIALTIES, INC.",
+      "totalBidAmount": 2040000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "SELECT MAINTENANCE, L.L.C.",
+      "totalBidAmount": 2086090.7
+    },
+    {
+      "rank": 3,
+      "vendorName": "WG ENGINEERING & CONSTRUCTION, LLC",
+      "totalBidAmount": 2141515.37
+    },
+    {
+      "rank": 4,
+      "vendorName": "AMERICAN LIGHTING AND SIGNALIZATION, LLC",
+      "totalBidAmount": 2325568.69
+    },
+    {
+      "rank": 5,
+      "vendorName": "ED BELL CONSTRUCTION COMPANY",
+      "totalBidAmount": 2469439.8
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6011",
+      "description": "REMOVING CONC (MEDIANS)",
+      "unit": "SY",
+      "quantity": 144.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 45.0,
+        "SELECT MAINTENANCE, L.L.C.": 12.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 55.8,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 43.2,
+        "ED BELL CONSTRUCTION COMPANY": 39.38
+      }
+    },
+    {
+      "itemCode": "0104 6014",
+      "description": "REMOVING CONC (FOUNDATIONS)",
+      "unit": "CY",
+      "quantity": 1.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 500.0,
+        "SELECT MAINTENANCE, L.L.C.": 316.5,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1860.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 404.8,
+        "ED BELL CONSTRUCTION COMPANY": 236.27
+      }
+    },
+    {
+      "itemCode": "0104 6015",
+      "description": "REMOVING CONC (SIDEWALKS)",
+      "unit": "SY",
+      "quantity": 105.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 60.0,
+        "SELECT MAINTENANCE, L.L.C.": 13.7,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 62.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 48.6,
+        "ED BELL CONSTRUCTION COMPANY": 27.0
+      }
+    },
+    {
+      "itemCode": "0104 6022",
+      "description": "REMOVING CONC (CURB AND GUTTER)",
+      "unit": "LF",
+      "quantity": 584.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 20.0,
+        "SELECT MAINTENANCE, L.L.C.": 12.2,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 27.28,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 19.44,
+        "ED BELL CONSTRUCTION COMPANY": 17.4
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 67.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 100.0,
+        "SELECT MAINTENANCE, L.L.C.": 112.5,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 186.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 108.0,
+        "ED BELL CONSTRUCTION COMPANY": 126.0
+      }
+    },
+    {
+      "itemCode": "0251 6034",
+      "description": "REWORK BS MTL (TY C) (8\") (ORD COMP)",
+      "unit": "SY",
+      "quantity": 139.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 50.0,
+        "SELECT MAINTENANCE, L.L.C.": 9.8,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 99.2,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 54.0,
+        "ED BELL CONSTRUCTION COMPANY": 39.85
+      }
+    },
+    {
+      "itemCode": "0360 6003",
+      "description": "CONC PVMT (CONT REINF - CRCP) (9\")",
+      "unit": "SY",
+      "quantity": 139.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 215.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 215.0,
+        "SELECT MAINTENANCE, L.L.C.": 149.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 310.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 226.8,
+        "ED BELL CONSTRUCTION COMPANY": 371.7
+      }
+    },
+    {
+      "itemCode": "0416 6031",
+      "description": "DRILL SHAFT (TRF SIG POLE) (30 IN)",
+      "unit": "LF",
+      "quantity": 110.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 350.0,
+        "SELECT MAINTENANCE, L.L.C.": 145.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 298.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 784.63,
+        "ED BELL CONSTRUCTION COMPANY": 387.45
+      }
+    },
+    {
+      "itemCode": "0416 6032",
+      "description": "DRILL SHAFT (TRF SIG POLE) (36 IN)",
+      "unit": "LF",
+      "quantity": 286.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 380.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 380.0,
+        "SELECT MAINTENANCE, L.L.C.": 165.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 330.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 541.73,
+        "ED BELL CONSTRUCTION COMPANY": 442.62
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 17.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 900.0,
+        "SELECT MAINTENANCE, L.L.C.": 646.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1116.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 864.0,
+        "ED BELL CONSTRUCTION COMPANY": 1365.0
+      }
+    },
+    {
+      "itemCode": "0479 6001",
+      "description": "ADJUSTING MANHOLES",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 1000.0,
+        "SELECT MAINTENANCE, L.L.C.": 779.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1488.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1150.4,
+        "ED BELL CONSTRUCTION COMPANY": 1750.0
+      }
+    },
+    {
+      "itemCode": "0479 6005",
+      "description": "ADJUSTING MANHOLES (WATER VALVE BOX)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 800.0,
+        "SELECT MAINTENANCE, L.L.C.": 779.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1116.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 934.4,
+        "ED BELL CONSTRUCTION COMPANY": 350.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 100000.0,
+      "lowUnit": 50000.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 50000.0,
+        "SELECT MAINTENANCE, L.L.C.": 200000.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 27714.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 222682.8,
+        "ED BELL CONSTRUCTION COMPANY": 299000.0
+      }
+    },
+    {
+      "itemCode": "0529 6008",
+      "description": "CONC CURB & GUTTER (TY II)",
+      "unit": "LF",
+      "quantity": 637.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 75.0,
+        "SELECT MAINTENANCE, L.L.C.": 26.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 112.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 75.6,
+        "ED BELL CONSTRUCTION COMPANY": 52.5
+      }
+    },
+    {
+      "itemCode": "0531 6003",
+      "description": "CONC SIDEWALKS (6\")",
+      "unit": "SY",
+      "quantity": 684.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 110.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 110.0,
+        "SELECT MAINTENANCE, L.L.C.": 53.5,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 137.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 108.0,
+        "ED BELL CONSTRUCTION COMPANY": 106.55
+      }
+    },
+    {
+      "itemCode": "0531 6004",
+      "description": "CURB RAMPS (TY 1)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 3000.0,
+        "SELECT MAINTENANCE, L.L.C.": 1665.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3596.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2916.0,
+        "ED BELL CONSTRUCTION COMPANY": 1785.0
+      }
+    },
+    {
+      "itemCode": "0531 6005",
+      "description": "CURB RAMPS (TY 2)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3100.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 3100.0,
+        "SELECT MAINTENANCE, L.L.C.": 1892.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3844.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 3024.0,
+        "ED BELL CONSTRUCTION COMPANY": 1785.0
+      }
+    },
+    {
+      "itemCode": "0531 6009",
+      "description": "CURB RAMPS (TY 6)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 2900.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 2900.0,
+        "SELECT MAINTENANCE, L.L.C.": 1175.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3472.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2808.0,
+        "ED BELL CONSTRUCTION COMPANY": 1785.0
+      }
+    },
+    {
+      "itemCode": "0531 6010",
+      "description": "CURB RAMPS (TY 7)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 2900.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 2900.0,
+        "SELECT MAINTENANCE, L.L.C.": 1875.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3472.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2808.0,
+        "ED BELL CONSTRUCTION COMPANY": 1785.0
+      }
+    },
+    {
+      "itemCode": "0531 6013",
+      "description": "CURB RAMPS (TY 10)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 3100.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 3100.0,
+        "SELECT MAINTENANCE, L.L.C.": 2325.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3844.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 3024.0,
+        "ED BELL CONSTRUCTION COMPANY": 1785.0
+      }
+    },
+    {
+      "itemCode": "0531 6022",
+      "description": "CURB RAMPS (TY 5)",
+      "unit": "SY",
+      "quantity": 124.0,
+      "engEstUnit": 215.0,
+      "lowUnit": 155.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 155.0,
+        "SELECT MAINTENANCE, L.L.C.": 125.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 198.4,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 140.4,
+        "ED BELL CONSTRUCTION COMPANY": 231.0
+      }
+    },
+    {
+      "itemCode": "0536 6006",
+      "description": "CONC MEDIAN(MONO NOSE)",
+      "unit": "SY",
+      "quantity": 28.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 145.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 145.0,
+        "SELECT MAINTENANCE, L.L.C.": 70.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 192.2,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 135.0,
+        "ED BELL CONSTRUCTION COMPANY": 367.5
+      }
+    },
+    {
+      "itemCode": "0618 6046",
+      "description": "CONDT (PVC) (SCH 80) (2\")",
+      "unit": "LF",
+      "quantity": 425.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 16.0,
+        "SELECT MAINTENANCE, L.L.C.": 7.2,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 13.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 17.64,
+        "ED BELL CONSTRUCTION COMPANY": 13.67
+      }
+    },
+    {
+      "itemCode": "0618 6047",
+      "description": "CONDT (PVC) (SCH 80) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 235.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 32.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 32.0,
+        "SELECT MAINTENANCE, L.L.C.": 13.82,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 24.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 23.2,
+        "ED BELL CONSTRUCTION COMPANY": 19.72
+      }
+    },
+    {
+      "itemCode": "0618 6053",
+      "description": "CONDT (PVC) (SCH 80) (3\")",
+      "unit": "LF",
+      "quantity": 1650.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 20.0,
+        "SELECT MAINTENANCE, L.L.C.": 9.53,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 14.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 20.26,
+        "ED BELL CONSTRUCTION COMPANY": 17.1
+      }
+    },
+    {
+      "itemCode": "0618 6054",
+      "description": "CONDT (PVC) (SCH 80) (3\") (BORE)",
+      "unit": "LF",
+      "quantity": 3130.0,
+      "engEstUnit": 28.0,
+      "lowUnit": 36.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 36.0,
+        "SELECT MAINTENANCE, L.L.C.": 16.35,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 26.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 28.28,
+        "ED BELL CONSTRUCTION COMPANY": 22.74
+      }
+    },
+    {
+      "itemCode": "0618 6058",
+      "description": "CONDT (PVC) (SCH 80) (4\")",
+      "unit": "LF",
+      "quantity": 580.0,
+      "engEstUnit": 17.0,
+      "lowUnit": 26.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 26.0,
+        "SELECT MAINTENANCE, L.L.C.": 12.52,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 16.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 20.31,
+        "ED BELL CONSTRUCTION COMPANY": 23.67
+      }
+    },
+    {
+      "itemCode": "0618 6059",
+      "description": "CONDT (PVC) (SCH 80) (4\") (BORE)",
+      "unit": "LF",
+      "quantity": 3100.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 38.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 38.0,
+        "SELECT MAINTENANCE, L.L.C.": 19.4,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 32.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 32.48,
+        "ED BELL CONSTRUCTION COMPANY": 31.76
+      }
+    },
+    {
+      "itemCode": "0620 6004",
+      "description": "ELEC CONDR (NO.12) INSULATED",
+      "unit": "LF",
+      "quantity": 1260.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 1.0,
+        "SELECT MAINTENANCE, L.L.C.": 1.3,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1.4,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1.86,
+        "ED BELL CONSTRUCTION COMPANY": 0.99
+      }
+    },
+    {
+      "itemCode": "0620 6008",
+      "description": "ELEC CONDR (NO.8) INSULATED",
+      "unit": "LF",
+      "quantity": 4250.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 1.0,
+        "SELECT MAINTENANCE, L.L.C.": 1.5,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1.5,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1.46,
+        "ED BELL CONSTRUCTION COMPANY": 1.42
+      }
+    },
+    {
+      "itemCode": "0620 6009",
+      "description": "ELEC CONDR (NO.6) BARE",
+      "unit": "LF",
+      "quantity": 4555.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 2.0,
+        "SELECT MAINTENANCE, L.L.C.": 1.7,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 2.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1.39,
+        "ED BELL CONSTRUCTION COMPANY": 1.43
+      }
+    },
+    {
+      "itemCode": "0620 6010",
+      "description": "ELEC CONDR (NO.6) INSULATED",
+      "unit": "LF",
+      "quantity": 725.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 2.0,
+        "SELECT MAINTENANCE, L.L.C.": 1.75,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 2.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2.13,
+        "ED BELL CONSTRUCTION COMPANY": 1.65
+      }
+    },
+    {
+      "itemCode": "0624 6009",
+      "description": "GROUND BOX TY D (162922)",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 950.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 950.0,
+        "SELECT MAINTENANCE, L.L.C.": 500.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 985.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1022.13,
+        "ED BELL CONSTRUCTION COMPANY": 448.17
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 29.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 1200.0,
+        "SELECT MAINTENANCE, L.L.C.": 900.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1200.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1219.72,
+        "ED BELL CONSTRUCTION COMPANY": 823.72
+      }
+    },
+    {
+      "itemCode": "0624 6028",
+      "description": "REMOVE GROUND BOX",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 115.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 115.0,
+        "SELECT MAINTENANCE, L.L.C.": 150.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 200.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 287.07,
+        "ED BELL CONSTRUCTION COMPANY": 142.35
+      }
+    },
+    {
+      "itemCode": "0628 6187",
+      "description": "ELC SRV TY D 120/240 070(NS)SS(E)PS(U)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 6500.0,
+      "lowUnit": 6000.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 6000.0,
+        "SELECT MAINTENANCE, L.L.C.": 8000.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 6310.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 5791.15,
+        "ED BELL CONSTRUCTION COMPANY": 6059.62
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 750.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 750.0,
+        "SELECT MAINTENANCE, L.L.C.": 800.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 785.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 746.06,
+        "ED BELL CONSTRUCTION COMPANY": 1232.82
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 250.0,
+        "SELECT MAINTENANCE, L.L.C.": 150.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 250.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 249.67,
+        "ED BELL CONSTRUCTION COMPANY": 229.55
+      }
+    },
+    {
+      "itemCode": "0644 6078",
+      "description": "REMOVE SM RD SN SUP&AM (SIGN ONLY)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 50.0,
+        "SELECT MAINTENANCE, L.L.C.": 50.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 250.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 84.7,
+        "ED BELL CONSTRUCTION COMPANY": 73.47
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 44.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 250.0,
+        "SELECT MAINTENANCE, L.L.C.": 210.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 245.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 226.8,
+        "ED BELL CONSTRUCTION COMPANY": 209.88
+      }
+    },
+    {
+      "itemCode": "0668 6078",
+      "description": "PREFAB PAV MRK TY C (W) (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 360.0,
+      "lowUnit": 450.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 450.0,
+        "SELECT MAINTENANCE, L.L.C.": 375.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 434.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 405.0,
+        "ED BELL CONSTRUCTION COMPANY": 371.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 153.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 4.0,
+        "SELECT MAINTENANCE, L.L.C.": 3.75,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 4.5,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 4.05,
+        "ED BELL CONSTRUCTION COMPANY": 3.71
+      }
+    },
+    {
+      "itemCode": "0672 6013",
+      "description": "TRAFFIC BUTTON TY II-A-A",
+      "unit": "EA",
+      "quantity": 64.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 4.0,
+        "SELECT MAINTENANCE, L.L.C.": 3.75,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 4.5,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 4.05,
+        "ED BELL CONSTRUCTION COMPANY": 3.71
+      }
+    },
+    {
+      "itemCode": "0672 6014",
+      "description": "TRAFFIC BUTTON TY II-C-R",
+      "unit": "EA",
+      "quantity": 352.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 4.0,
+        "SELECT MAINTENANCE, L.L.C.": 3.75,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 5.5,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 4.05,
+        "ED BELL CONSTRUCTION COMPANY": 4.77
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 9360.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 1.0,
+        "SELECT MAINTENANCE, L.L.C.": 0.5,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 0.54,
+        "ED BELL CONSTRUCTION COMPANY": 0.85
+      }
+    },
+    {
+      "itemCode": "0677 6002",
+      "description": "ELIM EXT PAV MRK & MRKS (6\")",
+      "unit": "LF",
+      "quantity": 3540.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 1.0,
+        "SELECT MAINTENANCE, L.L.C.": 0.75,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1.2,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 0.81,
+        "ED BELL CONSTRUCTION COMPANY": 0.87
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 2590.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 1.0,
+        "SELECT MAINTENANCE, L.L.C.": 1.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1.08,
+        "ED BELL CONSTRUCTION COMPANY": 0.91
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 3340.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 3.0,
+        "SELECT MAINTENANCE, L.L.C.": 3.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 2.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 3.24,
+        "ED BELL CONSTRUCTION COMPANY": 1.57
+      }
+    },
+    {
+      "itemCode": "0677 6008",
+      "description": "ELIM EXT PAV MRK & MRKS (ARROW)",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 35.0,
+        "SELECT MAINTENANCE, L.L.C.": 30.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 69.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 32.4,
+        "ED BELL CONSTRUCTION COMPANY": 58.3
+      }
+    },
+    {
+      "itemCode": "0677 6009",
+      "description": "ELIM EXT PAV MRK & MRKS (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 40.0,
+        "SELECT MAINTENANCE, L.L.C.": 35.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 80.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 37.8,
+        "ED BELL CONSTRUCTION COMPANY": 68.9
+      }
+    },
+    {
+      "itemCode": "0678 6001",
+      "description": "PAV SURF PREP FOR MRK (4\")",
+      "unit": "LF",
+      "quantity": 10100.0,
+      "engEstUnit": 0.1,
+      "lowUnit": 0.1,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 0.1,
+        "SELECT MAINTENANCE, L.L.C.": 0.05,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 0.49,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 0.05,
+        "ED BELL CONSTRUCTION COMPANY": 0.37
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 2715.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.15,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 0.15,
+        "SELECT MAINTENANCE, L.L.C.": 0.1,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 0.5,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 0.11,
+        "ED BELL CONSTRUCTION COMPANY": 0.4
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 4395.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 1.0,
+        "SELECT MAINTENANCE, L.L.C.": 0.6,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 0.8,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 0.65,
+        "ED BELL CONSTRUCTION COMPANY": 0.64
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 44.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 13.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 13.0,
+        "SELECT MAINTENANCE, L.L.C.": 10.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 25.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 10.8,
+        "ED BELL CONSTRUCTION COMPANY": 21.2
+      }
+    },
+    {
+      "itemCode": "0678 6010",
+      "description": "PAV SURF PREP FOR MRK (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 18.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 20.0,
+        "SELECT MAINTENANCE, L.L.C.": 15.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 28.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 16.2,
+        "ED BELL CONSTRUCTION COMPANY": 23.32
+      }
+    },
+    {
+      "itemCode": "0682 6001",
+      "description": "VEH SIG SEC (12\")LED(GRN)",
+      "unit": "EA",
+      "quantity": 95.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 350.0,
+        "SELECT MAINTENANCE, L.L.C.": 210.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 230.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 230.74,
+        "ED BELL CONSTRUCTION COMPANY": 221.81
+      }
+    },
+    {
+      "itemCode": "0682 6002",
+      "description": "VEH SIG SEC (12\")LED(GRN ARW)",
+      "unit": "EA",
+      "quantity": 21.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 350.0,
+        "SELECT MAINTENANCE, L.L.C.": 210.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 230.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 230.74,
+        "ED BELL CONSTRUCTION COMPANY": 237.44
+      }
+    },
+    {
+      "itemCode": "0682 6003",
+      "description": "VEH SIG SEC (12\")LED(YEL)",
+      "unit": "EA",
+      "quantity": 95.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 350.0,
+        "SELECT MAINTENANCE, L.L.C.": 210.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 230.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 230.74,
+        "ED BELL CONSTRUCTION COMPANY": 225.72
+      }
+    },
+    {
+      "itemCode": "0682 6004",
+      "description": "VEH SIG SEC (12\")LED(YEL ARW)",
+      "unit": "EA",
+      "quantity": 37.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 350.0,
+        "SELECT MAINTENANCE, L.L.C.": 210.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 230.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 230.74,
+        "ED BELL CONSTRUCTION COMPANY": 228.32
+      }
+    },
+    {
+      "itemCode": "0682 6005",
+      "description": "VEH SIG SEC (12\")LED(RED)",
+      "unit": "EA",
+      "quantity": 95.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 350.0,
+        "SELECT MAINTENANCE, L.L.C.": 210.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 230.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 203.74,
+        "ED BELL CONSTRUCTION COMPANY": 221.81
+      }
+    },
+    {
+      "itemCode": "0682 6006",
+      "description": "VEH SIG SEC (12\")LED(RED ARW)",
+      "unit": "EA",
+      "quantity": 38.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 350.0,
+        "SELECT MAINTENANCE, L.L.C.": 210.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 230.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 230.74,
+        "ED BELL CONSTRUCTION COMPANY": 228.32
+      }
+    },
+    {
+      "itemCode": "0682 6018",
+      "description": "PED SIG SEC (LED)(COUNTDOWN)",
+      "unit": "EA",
+      "quantity": 60.0,
+      "engEstUnit": 750.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 800.0,
+        "SELECT MAINTENANCE, L.L.C.": 450.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 230.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 484.42,
+        "ED BELL CONSTRUCTION COMPANY": 463.25
+      }
+    },
+    {
+      "itemCode": "0682 6051",
+      "description": "BACKPLATE W/REFL BRDR(3 SEC)ALUM",
+      "unit": "EA",
+      "quantity": 93.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 135.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 135.0,
+        "SELECT MAINTENANCE, L.L.C.": 93.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 110.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 85.96,
+        "ED BELL CONSTRUCTION COMPANY": 104.33
+      }
+    },
+    {
+      "itemCode": "0682 6052",
+      "description": "BACKPLATE W/REFL BRDR(4 SEC)ALUM",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 165.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 165.0,
+        "SELECT MAINTENANCE, L.L.C.": 116.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 158.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 143.84,
+        "ED BELL CONSTRUCTION COMPANY": 133.01
+      }
+    },
+    {
+      "itemCode": "0682 6053",
+      "description": "BACKPLATE W/REFL BRDR(5 SEC)ALUM",
+      "unit": "EA",
+      "quantity": 18.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 175.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 175.0,
+        "SELECT MAINTENANCE, L.L.C.": 113.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 165.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 168.68,
+        "ED BELL CONSTRUCTION COMPANY": 150.11
+      }
+    },
+    {
+      "itemCode": "0684 6031",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(5 CONDR)",
+      "unit": "LF",
+      "quantity": 3740.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 2.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 2.0,
+        "SELECT MAINTENANCE, L.L.C.": 2.5,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3.3,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2.4,
+        "ED BELL CONSTRUCTION COMPANY": 1.41
+      }
+    },
+    {
+      "itemCode": "0684 6033",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(7 CONDR)",
+      "unit": "LF",
+      "quantity": 1293.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 2.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 2.0,
+        "SELECT MAINTENANCE, L.L.C.": 2.6,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 2.3,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 3.79,
+        "ED BELL CONSTRUCTION COMPANY": 1.56
+      }
+    },
+    {
+      "itemCode": "0684 6036",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(10 CONDR)",
+      "unit": "LF",
+      "quantity": 5135.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 3.0,
+        "SELECT MAINTENANCE, L.L.C.": 2.96,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 3.28,
+        "ED BELL CONSTRUCTION COMPANY": 1.93
+      }
+    },
+    {
+      "itemCode": "0684 6046",
+      "description": "TRF SIG CBL (TY A)(14 AWG)(20 CONDR)",
+      "unit": "LF",
+      "quantity": 4460.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 5.0,
+        "SELECT MAINTENANCE, L.L.C.": 3.8,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 5.14,
+        "ED BELL CONSTRUCTION COMPANY": 3.43
+      }
+    },
+    {
+      "itemCode": "0684 6079",
+      "description": "TRF SIG CBL (TY C)(12 AWG)(2 CONDR)",
+      "unit": "LF",
+      "quantity": 9080.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 2.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 2.0,
+        "SELECT MAINTENANCE, L.L.C.": 2.2,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1.53,
+        "ED BELL CONSTRUCTION COMPANY": 1.41
+      }
+    },
+    {
+      "itemCode": "0686 6025",
+      "description": "INS TRF SIG PL AM (S)1 ARM(24')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 6500.0,
+      "lowUnit": 6600.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 6600.0,
+        "SELECT MAINTENANCE, L.L.C.": 12000.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 5400.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 6498.96,
+        "ED BELL CONSTRUCTION COMPANY": 6405.02
+      }
+    },
+    {
+      "itemCode": "0686 6029",
+      "description": "INS TRF SIG PL AM (S)1 ARM(28')",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 6800.0,
+      "lowUnit": 6700.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 6700.0,
+        "SELECT MAINTENANCE, L.L.C.": 13000.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 5600.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 6896.4,
+        "ED BELL CONSTRUCTION COMPANY": 6604.47
+      }
+    },
+    {
+      "itemCode": "0686 6031",
+      "description": "INS TRF SIG PL AM(S)1 ARM(28')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 6900.0,
+      "lowUnit": 7300.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 7300.0,
+        "SELECT MAINTENANCE, L.L.C.": 13500.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 7200.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 7674.0,
+        "ED BELL CONSTRUCTION COMPANY": 7368.6
+      }
+    },
+    {
+      "itemCode": "0686 6033",
+      "description": "INS TRF SIG PL AM(S)1 ARM(32')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 7300.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 7300.0,
+        "SELECT MAINTENANCE, L.L.C.": 14000.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 6100.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 7393.2,
+        "ED BELL CONSTRUCTION COMPANY": 7394.79
+      }
+    },
+    {
+      "itemCode": "0686 6035",
+      "description": "INS TRF SIG PL AM(S)1 ARM(32')LUM",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 9000.0,
+      "lowUnit": 8100.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 8100.0,
+        "SELECT MAINTENANCE, L.L.C.": 15000.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 7600.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 8333.88,
+        "ED BELL CONSTRUCTION COMPANY": 8249.96
+      }
+    },
+    {
+      "itemCode": "0686 6037",
+      "description": "INS TRF SIG PL AM(S)1 ARM(36')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 8500.0,
+      "lowUnit": 7800.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 7800.0,
+        "SELECT MAINTENANCE, L.L.C.": 15500.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 6700.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 7914.84,
+        "ED BELL CONSTRUCTION COMPANY": 8024.43
+      }
+    },
+    {
+      "itemCode": "0686 6041",
+      "description": "INS TRF SIG PL AM(S)1 ARM(40')",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 9000.0,
+      "lowUnit": 8300.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 8300.0,
+        "SELECT MAINTENANCE, L.L.C.": 16000.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 7200.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 8329.56,
+        "ED BELL CONSTRUCTION COMPANY": 8532.9
+      }
+    },
+    {
+      "itemCode": "0686 6043",
+      "description": "INS TRF SIG PL AM(S)1 ARM(40')LUM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 9200.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 9200.0,
+        "SELECT MAINTENANCE, L.L.C.": 17000.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 8500.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 8938.84,
+        "ED BELL CONSTRUCTION COMPANY": 9770.12
+      }
+    },
+    {
+      "itemCode": "0686 6045",
+      "description": "INS TRF SIG PL AM(S)1 ARM(44')",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 9800.0,
+      "lowUnit": 8700.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 8700.0,
+        "SELECT MAINTENANCE, L.L.C.": 18000.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 7600.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 8654.64,
+        "ED BELL CONSTRUCTION COMPANY": 9101.55
+      }
+    },
+    {
+      "itemCode": "0686 6047",
+      "description": "INS TRF SIG PL AM(S)1 ARM(44')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 10500.0,
+      "lowUnit": 9504.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 9504.0,
+        "SELECT MAINTENANCE, L.L.C.": 20000.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 8900.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 9597.48,
+        "ED BELL CONSTRUCTION COMPANY": 9959.31
+      }
+    },
+    {
+      "itemCode": "0686 6049",
+      "description": "INS TRF SIG PL AM(S)1 ARM(48')",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 9000.0,
+      "lowUnit": 9000.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 9000.0,
+        "SELECT MAINTENANCE, L.L.C.": 21000.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 8000.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 8990.52,
+        "ED BELL CONSTRUCTION COMPANY": 9506.97
+      }
+    },
+    {
+      "itemCode": "0686 6051",
+      "description": "INS TRF SIG PL AM(S)1 ARM(48')LUM",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 9900.0,
+      "lowUnit": 9800.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 9800.0,
+        "SELECT MAINTENANCE, L.L.C.": 22000.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 10800.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 9904.2,
+        "ED BELL CONSTRUCTION COMPANY": 10338.74
+      }
+    },
+    {
+      "itemCode": "0687 6001",
+      "description": "PED POLE ASSEMBLY",
+      "unit": "EA",
+      "quantity": 35.0,
+      "engEstUnit": 2350.0,
+      "lowUnit": 2800.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 2800.0,
+        "SELECT MAINTENANCE, L.L.C.": 1500.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 2400.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2617.03,
+        "ED BELL CONSTRUCTION COMPANY": 3136.49
+      }
+    },
+    {
+      "itemCode": "0688 6001",
+      "description": "PED DETECT PUSH BUTTON (APS)",
+      "unit": "EA",
+      "quantity": 60.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 725.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 725.0,
+        "SELECT MAINTENANCE, L.L.C.": 510.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 730.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 878.83,
+        "ED BELL CONSTRUCTION COMPANY": 864.4
+      }
+    },
+    {
+      "itemCode": "0688 6003",
+      "description": "PED DETECTOR CONTROLLER UNIT",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3400.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 3400.0,
+        "SELECT MAINTENANCE, L.L.C.": 8000.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3500.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 2944.2,
+        "ED BELL CONSTRUCTION COMPANY": 1531.76
+      }
+    },
+    {
+      "itemCode": "0752 6025",
+      "description": "TREE TRIMMING (12\"-24\")",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 200.0,
+        "SELECT MAINTENANCE, L.L.C.": 1200.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1000.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1296.0,
+        "ED BELL CONSTRUCTION COMPANY": 2625.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 80.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 70.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 70.0,
+        "SELECT MAINTENANCE, L.L.C.": 65.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 230.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 81.0,
+        "ED BELL CONSTRUCTION COMPANY": 315.0
+      }
+    },
+    {
+      "itemCode": "6186 6014",
+      "description": "ITS GND BOX (POLY) TY 1 (243624)W/APRN",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 3600.0,
+      "lowUnit": 3060.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 3060.0,
+        "SELECT MAINTENANCE, L.L.C.": 3500.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 3245.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 3756.8,
+        "ED BELL CONSTRUCTION COMPANY": 3691.74
+      }
+    },
+    {
+      "itemCode": "6292 6004",
+      "description": "RVDS(PRESENCE DET ONLY)(INSTALL ONLY)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 900.0,
+        "SELECT MAINTENANCE, L.L.C.": 3000.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1250.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1108.68,
+        "ED BELL CONSTRUCTION COMPANY": 1072.65
+      }
+    },
+    {
+      "itemCode": "6292 6006",
+      "description": "RVDS(PRES AND ADV DET)(INSTALL ONLY)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "DURABLE SPECIALTIES, INC.": 900.0,
+        "SELECT MAINTENANCE, L.L.C.": 2500.0,
+        "WG ENGINEERING & CONSTRUCTION, LLC": 1200.0,
+        "AMERICAN LIGHTING AND SIGNALIZATION, LLC": 1108.68,
+        "ED BELL CONSTRUCTION COMPANY": 800.0
+      }
+    }
+  ]
+}

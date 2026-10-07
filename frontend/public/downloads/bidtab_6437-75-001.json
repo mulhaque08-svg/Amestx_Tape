@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "csj": "6437-75-001",
+    "county": "Victoria",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643775001",
+    "projectType": "JANITORIAL MAINTENANCE",
+    "letDate": "04/13/23",
+    "engEstTotal": 19336.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ACE GLOBAL",
+      "totalBidAmount": 14774.52
+    },
+    {
+      "rank": 2,
+      "vendorName": "RWCS JANITORIAL LLC",
+      "totalBidAmount": 19160.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ALPHA AND OMEGA CLEANING SERVICES, LLC",
+      "totalBidAmount": 19288.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "MAXPRO ENTERPRISE LLC",
+      "totalBidAmount": 20460.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ACE GLOBAL": 1.0,
+        "RWCS JANITORIAL LLC": 10.0,
+        "ALPHA AND OMEGA CLEANING SERVICES, LLC": 1.0,
+        "MAXPRO ENTERPRISE LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "7158 6001",
+      "description": "JANITORIAL SERVICES - WEEKLY",
+      "unit": "CYC",
+      "quantity": 52.0,
+      "engEstUnit": 180.0,
+      "lowUnit": 166.76,
+      "bidders": {
+        "ACE GLOBAL": 166.76,
+        "RWCS JANITORIAL LLC": 350.0,
+        "ALPHA AND OMEGA CLEANING SERVICES, LLC": 276.0,
+        "MAXPRO ENTERPRISE LLC": 280.0
+      }
+    },
+    {
+      "itemCode": "7158 6002",
+      "description": "JANITORIAL SERVICES - MONTHLY",
+      "unit": "MO",
+      "quantity": 12.0,
+      "engEstUnit": 720.0,
+      "lowUnit": 411.27,
+      "bidders": {
+        "ACE GLOBAL": 411.27,
+        "RWCS JANITORIAL LLC": 50.0,
+        "ALPHA AND OMEGA CLEANING SERVICES, LLC": 300.0,
+        "MAXPRO ENTERPRISE LLC": 350.0
+      }
+    },
+    {
+      "itemCode": "7158 6004",
+      "description": "JANITORIAL SERVICES - WINDOW WASHING",
+      "unit": "CYC",
+      "quantity": 1.0,
+      "engEstUnit": 135.0,
+      "lowUnit": 166.76,
+      "bidders": {
+        "ACE GLOBAL": 166.76,
+        "RWCS JANITORIAL LLC": 50.0,
+        "ALPHA AND OMEGA CLEANING SERVICES, LLC": 135.0,
+        "MAXPRO ENTERPRISE LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "7158 6005",
+      "description": "JANITORIAL SERVICES-CARPET CLEAN(STEAM)",
+      "unit": "CYC",
+      "quantity": 2.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "ACE GLOBAL": 500.0,
+        "RWCS JANITORIAL LLC": 150.0,
+        "ALPHA AND OMEGA CLEANING SERVICES, LLC": 600.0,
+        "MAXPRO ENTERPRISE LLC": 600.0
+      }
+    }
+  ]
+}

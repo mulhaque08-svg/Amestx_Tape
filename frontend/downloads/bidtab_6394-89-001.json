@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6394-89-001",
+    "county": "Wood",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639489001",
+    "projectType": "ASPHALT",
+    "letDate": "02/08/22",
+    "engEstTotal": 240000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 214800.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "WRIGHT ASPHALT PRODUCTS COMPANY LLC",
+      "totalBidAmount": 215500.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ERGON ASPHALT & EMULSIONS, INC.",
+      "totalBidAmount": 253700.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6014",
+      "description": "ASPHALT, AC-20-5TR (PICKUP)",
+      "unit": "GAL",
+      "quantity": 10000.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.76,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.76,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 2.95,
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.35
+      }
+    },
+    {
+      "itemCode": "8010 6232",
+      "description": "ASPH (AC20-5TR) (DEL) SITE 1",
+      "unit": "GAL",
+      "quantity": 30000.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 3.12,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.12,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.1,
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.67
+      }
+    },
+    {
+      "itemCode": "8010 6233",
+      "description": "ASPH (AC20-5TR) (DEL) SITE 2",
+      "unit": "GAL",
+      "quantity": 30000.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 3.12,
+      "bidders": {
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 3.12,
+        "WRIGHT ASPHALT PRODUCTS COMPANY LLC": 3.1,
+        "ERGON ASPHALT & EMULSIONS, INC.": 3.67
+      }
+    }
+  ]
+}

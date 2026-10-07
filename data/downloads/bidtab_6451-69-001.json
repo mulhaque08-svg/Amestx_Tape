@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "csj": "6451-69-001",
+    "county": "Wise",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 645169001",
+    "projectType": "BRIDGE JOINT REPAIR",
+    "letDate": "02/23/24",
+    "engEstTotal": 182046.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "STRUCTURAL INTEGRITY GROUP LLC",
+      "totalBidAmount": 162075.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 173700.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "IBCTX, LLC",
+      "totalBidAmount": 276725.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0429 6001",
+      "description": "CONC STR REPAIR(CLEAN & COAT WTH EPOXY)",
+      "unit": "SF",
+      "quantity": 55.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 115.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 115.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 200.0,
+        "IBCTX, LLC": 275.0
+      }
+    },
+    {
+      "itemCode": "0429 6003",
+      "description": "CONC STR REPAIR(DECK REP(PART DEPTH))",
+      "unit": "SF",
+      "quantity": 259.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 140.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 200.0,
+        "IBCTX, LLC": 275.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 357.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 315.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 315.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 200.0,
+        "IBCTX, LLC": 275.0
+      }
+    },
+    {
+      "itemCode": "0429 6009",
+      "description": "CONC STR REPAIR (STANDARD)",
+      "unit": "SF",
+      "quantity": 10.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 300.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 200.0,
+        "IBCTX, LLC": 275.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 1.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 13000.0,
+        "IBCTX, LLC": 27600.0
+      }
+    },
+    {
+      "itemCode": "0780 6002",
+      "description": "CNC CRACK REPAIR (DISCRETE)(INJECT)",
+      "unit": "LF",
+      "quantity": 6.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 100.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 200.0,
+        "IBCTX, LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "0780 6004",
+      "description": "CONC CRCK REPR(DISCRETE)(ROUT AND SEAL)",
+      "unit": "LF",
+      "quantity": 6.0,
+      "engEstUnit": 21.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 100.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 50.0,
+        "IBCTX, LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 4500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "STRUCTURAL INTEGRITY GROUP LLC": 1.0,
+        "GARRET SHIELDS INFRASTRUCTURE": 1000.0,
+        "IBCTX, LLC": 1500.0
+      }
+    }
+  ]
+}

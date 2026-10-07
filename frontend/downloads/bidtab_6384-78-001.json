@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6384-78-001",
+    "county": "Orange",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638478001",
+    "projectType": "CULVERT CLEANING",
+    "letDate": "08/10/21",
+    "engEstTotal": 223540.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 168500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "E.V.G. ENTERPRISE",
+      "totalBidAmount": 275850.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 351250.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0480 6001",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "EA",
+      "quantity": 67.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 2000.0,
+        "E.V.G. ENTERPRISE": 3500.0,
+        "FNH CONSTRUCTION, LLC": 2500.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 23140.0,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 15000.0,
+        "E.V.G. ENTERPRISE": 20000.0,
+        "FNH CONSTRUCTION, LLC": 40000.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 8500.0,
+      "lowUnit": 1550.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 1550.0,
+        "E.V.G. ENTERPRISE": 500.0,
+        "FNH CONSTRUCTION, LLC": 12500.0
+      }
+    }
+  ]
+}

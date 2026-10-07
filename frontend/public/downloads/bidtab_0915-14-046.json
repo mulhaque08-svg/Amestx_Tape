@@ -1,0 +1,611 @@
+{
+  "metadata": {
+    "csj": "0915-14-046",
+    "county": "Wilson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2021(062)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "07/02/21",
+    "engEstTotal": 581756.1,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TASCOSA BRIDGE CO., LC",
+      "totalBidAmount": 522735.85
+    },
+    {
+      "rank": 2,
+      "vendorName": "ACME BRIDGE COMPANY, INC.",
+      "totalBidAmount": 523400.54
+    },
+    {
+      "rank": 3,
+      "vendorName": "HARPER BROTHERS CONSTRUCTION LLC",
+      "totalBidAmount": 571963.72
+    },
+    {
+      "rank": 4,
+      "vendorName": "CK NEWBERRY, LLC",
+      "totalBidAmount": 616825.7
+    },
+    {
+      "rank": 5,
+      "vendorName": "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.",
+      "totalBidAmount": 847679.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 3.5,
+      "engEstUnit": 5000.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 2000.0,
+        "ACME BRIDGE COMPANY, INC.": 3510.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 5500.0,
+        "CK NEWBERRY, LLC": 5000.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1768.0
+      }
+    },
+    {
+      "itemCode": "0105 6014",
+      "description": "REMOVING STAB BASE & ASPH PAV (7\"-12\")",
+      "unit": "SY",
+      "quantity": 440.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 12.0,
+        "ACME BRIDGE COMPANY, INC.": 11.1,
+        "HARPER BROTHERS CONSTRUCTION LLC": 15.0,
+        "CK NEWBERRY, LLC": 16.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 13.89
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 113.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 25.0,
+        "ACME BRIDGE COMPANY, INC.": 35.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 30.0,
+        "CK NEWBERRY, LLC": 30.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 97.66
+      }
+    },
+    {
+      "itemCode": "0132 6003",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY B)",
+      "unit": "CY",
+      "quantity": 71.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 25.0,
+        "ACME BRIDGE COMPANY, INC.": 41.4,
+        "HARPER BROTHERS CONSTRUCTION LLC": 25.0,
+        "CK NEWBERRY, LLC": 50.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 73.44
+      }
+    },
+    {
+      "itemCode": "0164 6021",
+      "description": "CELL FBR MLCH SEED(PERM)(RURAL)(SANDY)",
+      "unit": "SY",
+      "quantity": 535.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 3.22,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 3.22,
+        "ACME BRIDGE COMPANY, INC.": 1.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.5,
+        "CK NEWBERRY, LLC": 2.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 2.4
+      }
+    },
+    {
+      "itemCode": "0164 6029",
+      "description": "CELL FBR MLCH SEED(TEMP)(WARM)",
+      "unit": "SY",
+      "quantity": 268.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 6.44,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 6.44,
+        "ACME BRIDGE COMPANY, INC.": 3.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3.0,
+        "CK NEWBERRY, LLC": 3.5,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 2.59
+      }
+    },
+    {
+      "itemCode": "0164 6031",
+      "description": "CELL FBR MLCH SEED(TEMP)(COOL)",
+      "unit": "SY",
+      "quantity": 268.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 0.01,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 0.01,
+        "ACME BRIDGE COMPANY, INC.": 3.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3.0,
+        "CK NEWBERRY, LLC": 3.5,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 2.59
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 16.8,
+      "engEstUnit": 25.0,
+      "lowUnit": 97.75,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 97.75,
+        "ACME BRIDGE COMPANY, INC.": 81.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 22.0,
+        "CK NEWBERRY, LLC": 30.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 162.63
+      }
+    },
+    {
+      "itemCode": "0169 6002",
+      "description": "SOIL RETENTION BLANKETS (CL 1) (TY B)",
+      "unit": "SY",
+      "quantity": 535.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 3.5,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 3.5,
+        "ACME BRIDGE COMPANY, INC.": 3.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.5,
+        "CK NEWBERRY, LLC": 3.5,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 5.7
+      }
+    },
+    {
+      "itemCode": "0216 6001",
+      "description": "PROOF ROLLING",
+      "unit": "HR",
+      "quantity": 2.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 500.0,
+        "ACME BRIDGE COMPANY, INC.": 66.7,
+        "HARPER BROTHERS CONSTRUCTION LLC": 50.0,
+        "CK NEWBERRY, LLC": 50.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 98.46
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 34.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 200.0,
+        "ACME BRIDGE COMPANY, INC.": 201.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 150.0,
+        "CK NEWBERRY, LLC": 150.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 230.68
+      }
+    },
+    {
+      "itemCode": "0402 6001",
+      "description": "TRENCH EXCAVATION PROTECTION",
+      "unit": "LF",
+      "quantity": 46.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 50.0,
+        "ACME BRIDGE COMPANY, INC.": 30.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.0,
+        "CK NEWBERRY, LLC": 23.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 113.93
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 1300.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 25.0,
+        "ACME BRIDGE COMPANY, INC.": 20.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 19.0,
+        "CK NEWBERRY, LLC": 23.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 25.02
+      }
+    },
+    {
+      "itemCode": "0416 6002",
+      "description": "DRILL SHAFT (24 IN)",
+      "unit": "LF",
+      "quantity": 219.0,
+      "engEstUnit": 230.0,
+      "lowUnit": 157.28,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 157.28,
+        "ACME BRIDGE COMPANY, INC.": 147.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 155.0,
+        "CK NEWBERRY, LLC": 575.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 536.41
+      }
+    },
+    {
+      "itemCode": "0420 6013",
+      "description": "CL C CONC (ABUT)",
+      "unit": "CY",
+      "quantity": 21.4,
+      "engEstUnit": 1400.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 900.0,
+        "ACME BRIDGE COMPANY, INC.": 1230.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1750.0,
+        "CK NEWBERRY, LLC": 1300.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 1289.65
+      }
+    },
+    {
+      "itemCode": "0422 6007",
+      "description": "REINF CONC SLAB (SLAB BEAM)",
+      "unit": "SF",
+      "quantity": 1300.0,
+      "engEstUnit": 27.5,
+      "lowUnit": 23.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 23.0,
+        "ACME BRIDGE COMPANY, INC.": 27.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 39.0,
+        "CK NEWBERRY, LLC": 21.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 62.19
+      }
+    },
+    {
+      "itemCode": "0422 6015",
+      "description": "APPROACH SLAB",
+      "unit": "CY",
+      "quantity": 39.0,
+      "engEstUnit": 550.0,
+      "lowUnit": 550.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 550.0,
+        "ACME BRIDGE COMPANY, INC.": 732.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 750.0,
+        "CK NEWBERRY, LLC": 575.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 668.06
+      }
+    },
+    {
+      "itemCode": "0425 6012",
+      "description": "PRESTR CONC SLAB BEAM (5SB15)",
+      "unit": "LF",
+      "quantity": 247.11,
+      "engEstUnit": 210.0,
+      "lowUnit": 267.56,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 267.56,
+        "ACME BRIDGE COMPANY, INC.": 250.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 350.0,
+        "CK NEWBERRY, LLC": 220.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 225.58
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 13.1,
+      "engEstUnit": 500.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 600.0,
+        "ACME BRIDGE COMPANY, INC.": 926.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 585.0,
+        "CK NEWBERRY, LLC": 325.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 611.54
+      }
+    },
+    {
+      "itemCode": "0450 6006",
+      "description": "RAIL (TY T223)",
+      "unit": "LF",
+      "quantity": 128.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 115.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 115.0,
+        "ACME BRIDGE COMPANY, INC.": 94.7,
+        "HARPER BROTHERS CONSTRUCTION LLC": 125.0,
+        "CK NEWBERRY, LLC": 125.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 248.08
+      }
+    },
+    {
+      "itemCode": "0454 6004",
+      "description": "ARMOR JOINT (SEALED)",
+      "unit": "LF",
+      "quantity": 57.8,
+      "engEstUnit": 100.0,
+      "lowUnit": 110.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 110.0,
+        "ACME BRIDGE COMPANY, INC.": 135.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 120.0,
+        "CK NEWBERRY, LLC": 175.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 206.25
+      }
+    },
+    {
+      "itemCode": "0459 6001",
+      "description": "GABIONS (GALV)",
+      "unit": "CY",
+      "quantity": 251.9,
+      "engEstUnit": 225.0,
+      "lowUnit": 224.7,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 224.7,
+        "ACME BRIDGE COMPANY, INC.": 202.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 168.0,
+        "CK NEWBERRY, LLC": 200.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 275.42
+      }
+    },
+    {
+      "itemCode": "0459 6007",
+      "description": "GABION MATTRESSES (GALV)(12 IN)",
+      "unit": "SY",
+      "quantity": 168.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 88.55,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 88.55,
+        "ACME BRIDGE COMPANY, INC.": 78.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 67.0,
+        "CK NEWBERRY, LLC": 75.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 61.13
+      }
+    },
+    {
+      "itemCode": "0460 6001",
+      "description": "CMP (GAL STL 12 IN)",
+      "unit": "LF",
+      "quantity": 8.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 100.0,
+        "ACME BRIDGE COMPANY, INC.": 96.3,
+        "HARPER BROTHERS CONSTRUCTION LLC": 220.0,
+        "CK NEWBERRY, LLC": 100.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 288.35
+      }
+    },
+    {
+      "itemCode": "0496 6009",
+      "description": "REMOV STR (BRIDGE 0 - 99 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 25000.0,
+      "lowUnit": 10500.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 10500.0,
+        "ACME BRIDGE COMPANY, INC.": 13500.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 35000.0,
+        "CK NEWBERRY, LLC": 35000.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 22754.22
+      }
+    },
+    {
+      "itemCode": "0496 6043",
+      "description": "REMOV STR (SMALL FENCE)",
+      "unit": "LF",
+      "quantity": 25.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 25.0,
+        "ACME BRIDGE COMPANY, INC.": 6.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 16.0,
+        "CK NEWBERRY, LLC": 15.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 15.62
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 53000.0,
+      "lowUnit": 72500.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 72500.0,
+        "ACME BRIDGE COMPANY, INC.": 41000.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 41000.0,
+        "CK NEWBERRY, LLC": 65000.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 147276.21
+      }
+    },
+    {
+      "itemCode": "0530 6006",
+      "description": "DRIVEWAYS (SURF TREAT)",
+      "unit": "SY",
+      "quantity": 148.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 50.0,
+        "ACME BRIDGE COMPANY, INC.": 74.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 56.53,
+        "CK NEWBERRY, LLC": 25.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 65.46
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3461.5,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 3461.5,
+        "ACME BRIDGE COMPANY, INC.": 2920.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 3100.0,
+        "CK NEWBERRY, LLC": 3200.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 2855.1
+      }
+    },
+    {
+      "itemCode": "0550 6015",
+      "description": "REMOVE AND INSTALL EXISTING GATE",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 450.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 450.0,
+        "ACME BRIDGE COMPANY, INC.": 1060.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 250.0,
+        "CK NEWBERRY, LLC": 1200.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 6155.1
+      }
+    },
+    {
+      "itemCode": "0552 6003",
+      "description": "WIRE FENCE (TY C)",
+      "unit": "LF",
+      "quantity": 25.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 15.0,
+        "ACME BRIDGE COMPANY, INC.": 26.6,
+        "HARPER BROTHERS CONSTRUCTION LLC": 50.0,
+        "CK NEWBERRY, LLC": 30.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 53.7
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 150.0,
+        "ACME BRIDGE COMPANY, INC.": 532.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 100.0,
+        "CK NEWBERRY, LLC": 125.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 602.55
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 17.25,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 17.25,
+        "ACME BRIDGE COMPANY, INC.": 16.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 15.0,
+        "CK NEWBERRY, LLC": 35.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 292.52
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 34.5,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 34.5,
+        "ACME BRIDGE COMPANY, INC.": 31.9,
+        "HARPER BROTHERS CONSTRUCTION LLC": 30.0,
+        "CK NEWBERRY, LLC": 35.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 285.51
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 57.5,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 57.5,
+        "ACME BRIDGE COMPANY, INC.": 91.2,
+        "HARPER BROTHERS CONSTRUCTION LLC": 85.77,
+        "CK NEWBERRY, LLC": 20.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 286.68
+      }
+    },
+    {
+      "itemCode": "0678 6001",
+      "description": "PAV SURF PREP FOR MRK (4\")",
+      "unit": "LF",
+      "quantity": 700.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 1.15,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 1.15,
+        "ACME BRIDGE COMPANY, INC.": 1.8,
+        "HARPER BROTHERS CONSTRUCTION LLC": 1.72,
+        "CK NEWBERRY, LLC": 3.5,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 5.65
+      }
+    },
+    {
+      "itemCode": "4171 6001",
+      "description": "INSTALL BRIDGE IDENTIFICATION NUMBERS",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 57.5,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 57.5,
+        "ACME BRIDGE COMPANY, INC.": 121.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 200.0,
+        "CK NEWBERRY, LLC": 1500.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 980.68
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 5560.0,
+      "bidders": {
+        "TASCOSA BRIDGE CO., LC": 5560.0,
+        "ACME BRIDGE COMPANY, INC.": 3700.0,
+        "HARPER BROTHERS CONSTRUCTION LLC": 7500.0,
+        "CK NEWBERRY, LLC": 4500.0,
+        "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.": 9402.55
+      }
+    }
+  ]
+}

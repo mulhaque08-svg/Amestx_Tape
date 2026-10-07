@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "csj": "6421-95-001",
+    "county": "Navarro",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642195001",
+    "projectType": "REFLECTIVE PAVEMENT MARKINGS (LONG LINE)",
+    "letDate": "02/01/23",
+    "engEstTotal": 358055.68,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 310260.15
+    },
+    {
+      "rank": 2,
+      "vendorName": "TRAFFIC HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 348236.01
+    },
+    {
+      "rank": 3,
+      "vendorName": "STRIPE-A-ZONE, LLC",
+      "totalBidAmount": 487823.04
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 22276.19,
+      "lowUnit": 12000.0,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 12000.0,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 10000.0,
+        "STRIPE-A-ZONE, LLC": 40000.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 246632.0,
+      "engEstUnit": 0.35,
+      "lowUnit": 0.3,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 0.3,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 0.35,
+        "STRIPE-A-ZONE, LLC": 0.8
+      }
+    },
+    {
+      "itemCode": "0677 6002",
+      "description": "ELIM EXT PAV MRK & MRKS (6\")",
+      "unit": "LF",
+      "quantity": 2342.0,
+      "engEstUnit": 0.22,
+      "lowUnit": 0.35,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 0.35,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 0.55,
+        "STRIPE-A-ZONE, LLC": 0.8
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 5941.0,
+      "engEstUnit": 0.65,
+      "lowUnit": 0.8,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 0.8,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 0.65,
+        "STRIPE-A-ZONE, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0678 6001",
+      "description": "PAV SURF PREP FOR MRK (4\")",
+      "unit": "LF",
+      "quantity": 178980.0,
+      "engEstUnit": 0.02,
+      "lowUnit": 0.02,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 0.02,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 0.01,
+        "STRIPE-A-ZONE, LLC": 0.05
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 69994.0,
+      "engEstUnit": 0.02,
+      "lowUnit": 0.04,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 0.04,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 0.01,
+        "STRIPE-A-ZONE, LLC": 0.05
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 5941.0,
+      "engEstUnit": 0.04,
+      "lowUnit": 0.07,
+      "bidders": {
+        "TRP CONSTRUCTION GROUP, LLC": 0.07,
+        "TRAFFIC HIGHWAY MAINTENANCE, LLC": 0.01,
+        "STRIPE-A-ZONE, LLC": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6429-90-001",
+    "county": "Angelina",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 642990001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/01/23",
+    "engEstTotal": 344696.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ACE CONTRACTORS, INC.",
+      "totalBidAmount": 445235.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 578016.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 196.0,
+      "engEstUnit": 44.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "ACE CONTRACTORS, INC.": 60.0,
+        "P-VILLE, INCORPORATED": 69.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 5623.0,
+      "engEstUnit": 44.0,
+      "lowUnit": 59.0,
+      "bidders": {
+        "ACE CONTRACTORS, INC.": 59.0,
+        "P-VILLE, INCORPORATED": 69.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 105.0,
+      "engEstUnit": 44.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "ACE CONTRACTORS, INC.": 60.0,
+        "P-VILLE, INCORPORATED": 69.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 5220.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 17.0,
+      "bidders": {
+        "ACE CONTRACTORS, INC.": 17.0,
+        "P-VILLE, INCORPORATED": 28.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 196.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 18.0,
+      "bidders": {
+        "ACE CONTRACTORS, INC.": 18.0,
+        "P-VILLE, INCORPORATED": 100.0
+      }
+    }
+  ]
+}

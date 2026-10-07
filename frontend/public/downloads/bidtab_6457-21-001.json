@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6457-21-001",
+    "county": "Haskell",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645721001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "02/20/24",
+    "engEstTotal": 278258.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TRIPLE T MAINTENANCE INC.",
+      "totalBidAmount": 241888.95
+    },
+    {
+      "rank": 2,
+      "vendorName": "ABESCAPE LANDSCAPING, LLC",
+      "totalBidAmount": 272355.24
+    },
+    {
+      "rank": 3,
+      "vendorName": "RENEGADE SITE SOLUTIONS, LLC",
+      "totalBidAmount": 301265.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1276.0,
+      "engEstUnit": 32.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "TRIPLE T MAINTENANCE INC.": 15.0,
+        "ABESCAPE LANDSCAPING, LLC": 31.98,
+        "RENEGADE SITE SOLUTIONS, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 5762.0,
+      "engEstUnit": 33.0,
+      "lowUnit": 33.017,
+      "bidders": {
+        "TRIPLE T MAINTENANCE INC.": 33.017,
+        "ABESCAPE LANDSCAPING, LLC": 31.98,
+        "RENEGADE SITE SOLUTIONS, LLC": 40.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 2955.0,
+      "engEstUnit": 16.0,
+      "lowUnit": 11.0,
+      "bidders": {
+        "TRIPLE T MAINTENANCE INC.": 11.0,
+        "ABESCAPE LANDSCAPING, LLC": 16.0,
+        "RENEGADE SITE SOLUTIONS, LLC": 11.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "csj": "6394-37-001",
+    "county": "Victoria",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639437001",
+    "projectType": "SWEEPING AND DEBRIS REMOVAL",
+    "letDate": "12/28/21",
+    "engEstTotal": 83230.1,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CTX SPECIAL SERVICES CO LLC",
+      "totalBidAmount": 84355.98
+    },
+    {
+      "rank": 2,
+      "vendorName": "G & L CONSTRUCTION, INC.",
+      "totalBidAmount": 93094.9
+    },
+    {
+      "rank": 3,
+      "vendorName": "SWEEPING CORPORATION OF AMERICA, INC.",
+      "totalBidAmount": 95616.65
+    },
+    {
+      "rank": 4,
+      "vendorName": "PROFESSIONAL TRAFFIC CONTROL LLC",
+      "totalBidAmount": 200633.51
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 77.7,
+      "bidders": {
+        "CTX SPECIAL SERVICES CO LLC": 77.7,
+        "G & L CONSTRUCTION, INC.": 3500.0,
+        "SWEEPING CORPORATION OF AMERICA, INC.": 1.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 7000.0
+      }
+    },
+    {
+      "itemCode": "0735 6002",
+      "description": "DEBRIS REMOVAL (CNTR MEDIANS/MAINLANES)",
+      "unit": "MI",
+      "quantity": 162.26,
+      "engEstUnit": 40.0,
+      "lowUnit": 27.77,
+      "bidders": {
+        "CTX SPECIAL SERVICES CO LLC": 27.77,
+        "G & L CONSTRUCTION, INC.": 75.0,
+        "SWEEPING CORPORATION OF AMERICA, INC.": 90.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 197.0
+      }
+    },
+    {
+      "itemCode": "0738 6002",
+      "description": "CLEANING / SWEEPING (CENTER MEDIAN)",
+      "unit": "MI",
+      "quantity": 162.26,
+      "engEstUnit": 210.0,
+      "lowUnit": 277.7,
+      "bidders": {
+        "CTX SPECIAL SERVICES CO LLC": 277.7,
+        "G & L CONSTRUCTION, INC.": 155.0,
+        "SWEEPING CORPORATION OF AMERICA, INC.": 325.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 197.0
+      }
+    },
+    {
+      "itemCode": "0738 6004",
+      "description": "CLEANING / SWEEPING (OUTSIDE MAIN LANE)",
+      "unit": "MI",
+      "quantity": 86.31,
+      "engEstUnit": 210.0,
+      "lowUnit": 377.7,
+      "bidders": {
+        "CTX SPECIAL SERVICES CO LLC": 377.7,
+        "G & L CONSTRUCTION, INC.": 210.0,
+        "SWEEPING CORPORATION OF AMERICA, INC.": 325.0,
+        "PROFESSIONAL TRAFFIC CONTROL LLC": 197.0
+      }
+    }
+  ]
+}

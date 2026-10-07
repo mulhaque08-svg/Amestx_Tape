@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6405-56-001",
+    "county": "Lee",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 640556001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/08/23",
+    "engEstTotal": 481632.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "R&M INCORPORATED",
+      "totalBidAmount": 696198.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 756886.1
+    },
+    {
+      "rank": 3,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 821460.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "YELLOWSTONE LANDSCAPE - CENTRAL, INC.",
+      "totalBidAmount": 826416.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "R&M INCORPORATED": 1.0,
+        "P-VILLE, INCORPORATED": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 10000.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 7200.0
+      }
+    },
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 2018.0,
+      "engEstUnit": 44.0,
+      "lowUnit": 64.0,
+      "bidders": {
+        "R&M INCORPORATED": 64.0,
+        "P-VILLE, INCORPORATED": 67.95,
+        "CROSS PLUS CONSTRUCTION, LLC": 70.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 72.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 8860.0,
+      "engEstUnit": 44.0,
+      "lowUnit": 64.0,
+      "bidders": {
+        "R&M INCORPORATED": 64.0,
+        "P-VILLE, INCORPORATED": 69.95,
+        "CROSS PLUS CONSTRUCTION, LLC": 70.0,
+        "YELLOWSTONE LANDSCAPE - CENTRAL, INC.": 72.0
+      }
+    }
+  ]
+}

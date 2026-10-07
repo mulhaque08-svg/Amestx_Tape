@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "csj": "6396-98-001",
+    "county": "Tarrant",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 639698001",
+    "projectType": "HOT MIX",
+    "letDate": "02/01/23",
+    "engEstTotal": 1730000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AUSTIN ASPHALT, INC.",
+      "totalBidAmount": 1678900.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 1705500.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "EUROVIA ATLANTIC COAST LLC",
+      "totalBidAmount": 1787000.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "JAGOE-PUBLIC COMPANY",
+      "totalBidAmount": 1875000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6038",
+      "description": "D-GR HMA(SQ) TY B SAC B PG64-22(DEL)",
+      "unit": "TON",
+      "quantity": 3000.0,
+      "engEstUnit": 82.0,
+      "lowUnit": 86.5,
+      "bidders": {
+        "AUSTIN ASPHALT, INC.": 86.5,
+        "TEXAS MATERIALS GROUP, INC.": 84.0,
+        "EUROVIA ATLANTIC COAST LLC": 86.0,
+        "JAGOE-PUBLIC COMPANY": 105.0
+      }
+    },
+    {
+      "itemCode": "8011 6039",
+      "description": "D-GR HMA(SQ) TY B SAC B PG64-22(PICKUP)",
+      "unit": "TON",
+      "quantity": 3000.0,
+      "engEstUnit": 77.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "AUSTIN ASPHALT, INC.": 75.0,
+        "TEXAS MATERIALS GROUP, INC.": 74.0,
+        "EUROVIA ATLANTIC COAST LLC": 67.0,
+        "JAGOE-PUBLIC COMPANY": 80.0
+      }
+    },
+    {
+      "itemCode": "8011 6040",
+      "description": "D-GR HMA(SQ) TY C SAC A PG70-28(DEL)",
+      "unit": "TON",
+      "quantity": 10000.0,
+      "engEstUnit": 119.08,
+      "lowUnit": 114.0,
+      "bidders": {
+        "AUSTIN ASPHALT, INC.": 114.0,
+        "TEXAS MATERIALS GROUP, INC.": 118.0,
+        "EUROVIA ATLANTIC COAST LLC": 124.0,
+        "JAGOE-PUBLIC COMPANY": 125.0
+      }
+    },
+    {
+      "itemCode": "8019 6007",
+      "description": "ASPHALTIC CONC PATCH MATERIAL (PICKUP)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 130.5,
+      "bidders": {
+        "AUSTIN ASPHALT, INC.": 130.5,
+        "TEXAS MATERIALS GROUP, INC.": 122.0,
+        "EUROVIA ATLANTIC COAST LLC": 205.0,
+        "JAGOE-PUBLIC COMPANY": 135.0
+      }
+    },
+    {
+      "itemCode": "8019 6010",
+      "description": "ASPHALTIC CONC PATCH MATERIAL (DEL)",
+      "unit": "TON",
+      "quantity": 200.0,
+      "engEstUnit": 211.0,
+      "lowUnit": 141.5,
+      "bidders": {
+        "AUSTIN ASPHALT, INC.": 141.5,
+        "TEXAS MATERIALS GROUP, INC.": 135.5,
+        "EUROVIA ATLANTIC COAST LLC": 235.0,
+        "JAGOE-PUBLIC COMPANY": 215.0
+      }
+    }
+  ]
+}

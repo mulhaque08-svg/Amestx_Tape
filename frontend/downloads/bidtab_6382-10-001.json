@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "csj": "6382-10-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638210001",
+    "projectType": "GRAFFITI REMOVAL",
+    "letDate": "08/04/21",
+    "engEstTotal": 576000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FIREMAN EXCAVATING, INC.",
+      "totalBidAmount": 460000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DBI SERVICES, LLC",
+      "totalBidAmount": 548500.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "ROY JORGENSEN ASSOCIATES, INC.",
+      "totalBidAmount": 629250.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 740010.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "SELECT MAINTENANCE, L.L.C.",
+      "totalBidAmount": 815250.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 50.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 100.0,
+        "DBI SERVICES, LLC": 500.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 2000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 500.0,
+        "SELECT MAINTENANCE, L.L.C.": 200.0
+      }
+    },
+    {
+      "itemCode": "0500 6034",
+      "description": "MOBILIZATION (EMERGENCY)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 200.0,
+        "DBI SERVICES, LLC": 800.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 2850.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 500.0,
+        "SELECT MAINTENANCE, L.L.C.": 400.0
+      }
+    },
+    {
+      "itemCode": "0740 6001",
+      "description": "GRAFFITI REMOVAL (BLAST CLEANING)",
+      "unit": "SF",
+      "quantity": 15000.0,
+      "engEstUnit": 2.1,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "DBI SERVICES, LLC": 2.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 3.0,
+        "SELECT MAINTENANCE, L.L.C.": 13.0
+      }
+    },
+    {
+      "itemCode": "0740 6002",
+      "description": "GRAFFITI REMOVAL (PAINTING)",
+      "unit": "SF",
+      "quantity": 200000.0,
+      "engEstUnit": 2.1,
+      "lowUnit": 0.3,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 0.3,
+        "DBI SERVICES, LLC": 2.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 1.4,
+        "CROSS PLUS CONSTRUCTION, LLC": 3.0,
+        "SELECT MAINTENANCE, L.L.C.": 2.12
+      }
+    },
+    {
+      "itemCode": "0740 6005",
+      "description": "ANTI - GRAFFITI COATNG(PERMNENT-TY III)",
+      "unit": "SF",
+      "quantity": 15000.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 1.0,
+        "DBI SERVICES, LLC": 2.1,
+        "ROY JORGENSEN ASSOCIATES, INC.": 1.75,
+        "CROSS PLUS CONSTRUCTION, LLC": 3.0,
+        "SELECT MAINTENANCE, L.L.C.": 9.25
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 10.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FIREMAN EXCAVATING, INC.": 100.0,
+        "DBI SERVICES, LLC": 100.0,
+        "ROY JORGENSEN ASSOCIATES, INC.": 100.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 1.0,
+        "SELECT MAINTENANCE, L.L.C.": 200.0
+      }
+    }
+  ]
+}

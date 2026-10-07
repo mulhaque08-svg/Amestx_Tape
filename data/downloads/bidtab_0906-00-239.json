@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "csj": "0906-00-239",
+    "county": "Ector",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 906-00-239",
+    "projectType": "PREVENTIVE MAINTENANCE",
+    "letDate": "03/06/24",
+    "engEstTotal": 1001506.85,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "MIJELUM, L.L.C.",
+      "totalBidAmount": 705606.1
+    },
+    {
+      "rank": 2,
+      "vendorName": "L&L COMPANY",
+      "totalBidAmount": 711007.88
+    },
+    {
+      "rank": 3,
+      "vendorName": "VIZCAINO, L.P.",
+      "totalBidAmount": 766276.12
+    },
+    {
+      "rank": 4,
+      "vendorName": "STRIPE-A-ZONE, LLC",
+      "totalBidAmount": 841347.12
+    },
+    {
+      "rank": 5,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 849227.4
+    },
+    {
+      "rank": 6,
+      "vendorName": "INTERSTATE BARRICADES & MARKINGS, INC.",
+      "totalBidAmount": 961201.12
+    },
+    {
+      "rank": 7,
+      "vendorName": "CENTERLINE TECHNOLOGIES, LLC",
+      "totalBidAmount": 965729.7
+    },
+    {
+      "rank": 8,
+      "vendorName": "PMI PAVEMENT MARKING, LLC",
+      "totalBidAmount": 967131.74
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 92877.67,
+      "lowUnit": 1.0,
+      "bidders": {
+        "MIJELUM, L.L.C.": 1.0,
+        "L&L COMPANY": 1.0,
+        "VIZCAINO, L.P.": 1.0,
+        "STRIPE-A-ZONE, LLC": 13000.0,
+        "TRP CONSTRUCTION GROUP, LLC": 12000.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 45000.0
+      }
+    },
+    {
+      "itemCode": "0668 6084",
+      "description": "PREFAB PAV MRK TY C (W) (NUMBER)",
+      "unit": "EA",
+      "quantity": 63.0,
+      "engEstUnit": 298.46,
+      "lowUnit": 200.0,
+      "bidders": {
+        "MIJELUM, L.L.C.": 200.0,
+        "L&L COMPANY": 350.0,
+        "VIZCAINO, L.P.": 250.0,
+        "STRIPE-A-ZONE, LLC": 175.0,
+        "TRP CONSTRUCTION GROUP, LLC": 275.0,
+        "INTERSTATE BARRICADES & MARKINGS, INC.": 200.0
+      }
+    }
+  ]
+}

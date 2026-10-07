@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6460-89-001",
+    "county": "Dallas",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646089001",
+    "projectType": "FLEXIBLE PAVEMENT STRUCTURE REPAIR",
+    "letDate": "03/06/24",
+    "engEstTotal": 1055790.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "PEACHTREE CONSTRUCTION, LTD.",
+      "totalBidAmount": 1011656.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 1231560.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0354 6002",
+      "description": "PLAN & TEXT ASPH CONC PAV(0\" TO 2\")",
+      "unit": "SY",
+      "quantity": 47000.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 2.3,
+      "bidders": {
+        "PEACHTREE CONSTRUCTION, LTD.": 2.3,
+        "FNH CONSTRUCTION, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 50000.0,
+      "lowUnit": 75000.0,
+      "bidders": {
+        "PEACHTREE CONSTRUCTION, LTD.": 75000.0,
+        "FNH CONSTRUCTION, LLC": 120000.0
+      }
+    },
+    {
+      "itemCode": "3077 6021",
+      "description": "SP MIXES SP-C PG70-22",
+      "unit": "TON",
+      "quantity": 5170.0,
+      "engEstUnit": 145.0,
+      "lowUnit": 152.8,
+      "bidders": {
+        "PEACHTREE CONSTRUCTION, LTD.": 152.8,
+        "FNH CONSTRUCTION, LLC": 140.0
+      }
+    },
+    {
+      "itemCode": "3077 6075",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 5640.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 1.5,
+      "bidders": {
+        "PEACHTREE CONSTRUCTION, LTD.": 1.5,
+        "FNH CONSTRUCTION, LLC": 4.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 58.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "PEACHTREE CONSTRUCTION, LTD.": 40.0,
+        "FNH CONSTRUCTION, LLC": 150.0
+      }
+    }
+  ]
+}

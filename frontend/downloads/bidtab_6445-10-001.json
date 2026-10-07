@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "csj": "6445-10-001",
+    "county": "Denton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 644510001",
+    "projectType": "CULVERT CLEANING",
+    "letDate": "12/12/23",
+    "engEstTotal": 177800.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GARRET SHIELDS INFRASTRUCTURE",
+      "totalBidAmount": 167880.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 192720.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 220130.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "NO EGO INC.",
+      "totalBidAmount": 238910.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0480 6002",
+      "description": "CLEAN EXIST CULVERTS",
+      "unit": "CY",
+      "quantity": 832.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 140.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 140.0,
+        "TEXAS DRAINAGE INC.": 135.0,
+        "SHALOM SERVICES CORPORATION": 191.0,
+        "NO EGO INC.": 30.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 1000.0,
+        "TEXAS DRAINAGE INC.": 1000.0,
+        "SHALOM SERVICES CORPORATION": 1000.0,
+        "NO EGO INC.": 6750.0
+      }
+    },
+    {
+      "itemCode": "0764 6001",
+      "description": "DRAIN INLET CLEANING",
+      "unit": "EA",
+      "quantity": 80.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 200.0,
+        "TEXAS DRAINAGE INC.": 500.0,
+        "SHALOM SERVICES CORPORATION": 140.0,
+        "NO EGO INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 18.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "GARRET SHIELDS INFRASTRUCTURE": 300.0,
+        "TEXAS DRAINAGE INC.": 300.0,
+        "SHALOM SERVICES CORPORATION": 1.0,
+        "NO EGO INC.": 200.0
+      }
+    }
+  ]
+}

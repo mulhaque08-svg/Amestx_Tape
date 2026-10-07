@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "csj": "6433-44-001",
+    "county": "Reeves",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 643344001",
+    "projectType": "CULVERT CLEANING",
+    "letDate": "02/14/23",
+    "engEstTotal": 205860.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 182680.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "L&L COMPANY",
+      "totalBidAmount": 207855.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "MB WESTERN INDUSTRIAL CONTRACTING COMPANY",
+      "totalBidAmount": 224580.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "BECK-REIT & SONS, LTD.",
+      "totalBidAmount": 247703.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "E.V.G. ENTERPRISE",
+      "totalBidAmount": 256640.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 20000.0,
+      "lowUnit": 20000.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 20000.0,
+        "L&L COMPANY": 45000.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 40000.0,
+        "BECK-REIT & SONS, LTD.": 56000.0,
+        "E.V.G. ENTERPRISE": 100000.0
+      }
+    },
+    {
+      "itemCode": "0764 6016",
+      "description": "STORM SEWER CLEAN (BOX CULV) (6-<12 SF)",
+      "unit": "LF",
+      "quantity": 920.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 34.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 34.0,
+        "L&L COMPANY": 47.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 30.0,
+        "BECK-REIT & SONS, LTD.": 40.0,
+        "E.V.G. ENTERPRISE": 20.0
+      }
+    },
+    {
+      "itemCode": "0764 6017",
+      "description": "STORM SEWER CLEAN (BOX CULV)(12-<24 SF)",
+      "unit": "LF",
+      "quantity": 444.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 40.0,
+        "L&L COMPANY": 46.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 35.0,
+        "BECK-REIT & SONS, LTD.": 50.0,
+        "E.V.G. ENTERPRISE": 30.0
+      }
+    },
+    {
+      "itemCode": "0764 6018",
+      "description": "STORM SEWER CLEAN (BOX CULV)(24-<48 SF)",
+      "unit": "LF",
+      "quantity": 1408.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 40.0,
+        "L&L COMPANY": 41.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 40.0,
+        "BECK-REIT & SONS, LTD.": 55.0,
+        "E.V.G. ENTERPRISE": 40.0
+      }
+    },
+    {
+      "itemCode": "0764 6019",
+      "description": "STORM SEWER CLEAN (BOX CULV)(48-<96 SF)",
+      "unit": "LF",
+      "quantity": 920.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 46.0,
+      "bidders": {
+        "TALBRAN ENTERPRISES LLC": 46.0,
+        "L&L COMPANY": 45.0,
+        "MB WESTERN INDUSTRIAL CONTRACTING COMPANY": 48.5,
+        "BECK-REIT & SONS, LTD.": 60.0,
+        "E.V.G. ENTERPRISE": 55.0
+      }
+    }
+  ]
+}

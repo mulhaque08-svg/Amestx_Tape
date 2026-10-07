@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "csj": "6461-63-001",
+    "county": "Rusk",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646163001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/05/24",
+    "engEstTotal": 715968.88,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SERVIN MOWING",
+      "totalBidAmount": 689948.44
+    },
+    {
+      "rank": 2,
+      "vendorName": "SERNA CONTRACTORS, LLC",
+      "totalBidAmount": 789271.91
+    },
+    {
+      "rank": 3,
+      "vendorName": "HX FARMS, INC.",
+      "totalBidAmount": 803134.7
+    },
+    {
+      "rank": 4,
+      "vendorName": "RHINO EQUITY, LLC",
+      "totalBidAmount": 859964.04
+    },
+    {
+      "rank": 5,
+      "vendorName": "RISE UP CONSTRUCTION LLC",
+      "totalBidAmount": 928376.6
+    },
+    {
+      "rank": 6,
+      "vendorName": "S G COMPANY, LLC",
+      "totalBidAmount": 943311.74
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6003",
+      "description": "MOBILIZATION (CALLOUT 1)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 33.98,
+      "bidders": {
+        "SERVIN MOWING": 33.98,
+        "SERNA CONTRACTORS, LLC": 1000.0,
+        "HX FARMS, INC.": 1.0,
+        "RHINO EQUITY, LLC": 6000.0,
+        "RISE UP CONSTRUCTION LLC": 2000.0,
+        "S G COMPANY, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 17765.88,
+      "engEstUnit": 36.0,
+      "lowUnit": 33.98,
+      "bidders": {
+        "SERVIN MOWING": 33.98,
+        "SERNA CONTRACTORS, LLC": 39.22,
+        "HX FARMS, INC.": 40.0,
+        "RHINO EQUITY, LLC": 38.0,
+        "RISE UP CONSTRUCTION LLC": 45.0,
+        "S G COMPANY, LLC": 48.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 33.97,
+      "bidders": {
+        "SERVIN MOWING": 33.97,
+        "SERNA CONTRACTORS, LLC": 34.25,
+        "HX FARMS, INC.": 40.0,
+        "RHINO EQUITY, LLC": 200.0,
+        "RISE UP CONSTRUCTION LLC": 45.0,
+        "S G COMPANY, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 6033.1,
+      "engEstUnit": 12.0,
+      "lowUnit": 14.0,
+      "bidders": {
+        "SERVIN MOWING": 14.0,
+        "SERNA CONTRACTORS, LLC": 14.55,
+        "HX FARMS, INC.": 15.0,
+        "RHINO EQUITY, LLC": 26.0,
+        "RISE UP CONSTRUCTION LLC": 20.0,
+        "S G COMPANY, LLC": 15.0
+      }
+    }
+  ]
+}

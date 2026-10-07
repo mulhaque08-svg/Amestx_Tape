@@ -1,0 +1,881 @@
+{
+  "metadata": {
+    "csj": "1186-02-025",
+    "county": "Bastrop",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "STP 2022(818)HES",
+    "projectType": "WIDEN ROAD - ADD SHOULDERS",
+    "letDate": "08/04/22",
+    "engEstTotal": 2292119.06,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DAN WILLIAMS COMPANY",
+      "totalBidAmount": 2496797.28
+    },
+    {
+      "rank": 2,
+      "vendorName": "JOE BLAND CONSTRUCTION, L.P.",
+      "totalBidAmount": 2622043.98
+    },
+    {
+      "rank": 3,
+      "vendorName": "AARON CONCRETE CONTRACTORS, L.P.",
+      "totalBidAmount": 2881673.9
+    },
+    {
+      "rank": 4,
+      "vendorName": "ACME BRIDGE COMPANY, INC.",
+      "totalBidAmount": 2963512.8
+    },
+    {
+      "rank": 5,
+      "vendorName": "CAPITAL EXCAVATION COMPANY",
+      "totalBidAmount": 3074140.59
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 53.1,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1400.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 1400.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 685.0,
+        "AARON CONCRETE CONTRACTORS, L.P.": 500.0,
+        "ACME BRIDGE COMPANY, INC.": 2500.0,
+        "CAPITAL EXCAVATION COMPANY": 1100.0
+      }
+    },
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 233.0,
+      "engEstUnit": 16.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 12.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 22.5,
+        "AARON CONCRETE CONTRACTORS, L.P.": 29.0,
+        "ACME BRIDGE COMPANY, INC.": 18.6,
+        "CAPITAL EXCAVATION COMPANY": 15.3
+      }
+    },
+    {
+      "itemCode": "0104 6017",
+      "description": "REMOVING CONC (DRIVEWAYS)",
+      "unit": "SY",
+      "quantity": 180.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 13.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 13.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 30.0,
+        "AARON CONCRETE CONTRACTORS, L.P.": 29.0,
+        "ACME BRIDGE COMPANY, INC.": 21.8,
+        "CAPITAL EXCAVATION COMPANY": 34.5
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 4339.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 14.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 14.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 12.0,
+        "AARON CONCRETE CONTRACTORS, L.P.": 20.0,
+        "ACME BRIDGE COMPANY, INC.": 25.0,
+        "CAPITAL EXCAVATION COMPANY": 18.25
+      }
+    },
+    {
+      "itemCode": "0160 6003",
+      "description": "FURNISHING AND PLACING TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 18687.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 1.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 1.75,
+        "AARON CONCRETE CONTRACTORS, L.P.": 1.9,
+        "ACME BRIDGE COMPANY, INC.": 2.8,
+        "CAPITAL EXCAVATION COMPANY": 3.0
+      }
+    },
+    {
+      "itemCode": "0164 6035",
+      "description": "DRILL SEEDING (PERM) (RURAL) (CLAY)",
+      "unit": "SY",
+      "quantity": 18687.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.27,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 0.27,
+        "JOE BLAND CONSTRUCTION, L.P.": 0.31,
+        "AARON CONCRETE CONTRACTORS, L.P.": 0.3,
+        "ACME BRIDGE COMPANY, INC.": 0.29,
+        "CAPITAL EXCAVATION COMPANY": 0.3
+      }
+    },
+    {
+      "itemCode": "0164 6071",
+      "description": "BROADCAST SEED (TEMP)(WARM OR COOL)",
+      "unit": "SY",
+      "quantity": 18687.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.27,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 0.27,
+        "JOE BLAND CONSTRUCTION, L.P.": 0.31,
+        "AARON CONCRETE CONTRACTORS, L.P.": 0.3,
+        "ACME BRIDGE COMPANY, INC.": 0.29,
+        "CAPITAL EXCAVATION COMPANY": 0.3
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 31.6,
+      "engEstUnit": 25.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 10.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 95.0,
+        "AARON CONCRETE CONTRACTORS, L.P.": 35.0,
+        "ACME BRIDGE COMPANY, INC.": 77.4,
+        "CAPITAL EXCAVATION COMPANY": 42.15
+      }
+    },
+    {
+      "itemCode": "0169 6002",
+      "description": "SOIL RETENTION BLANKETS (CL 1) (TY B)",
+      "unit": "SY",
+      "quantity": 18687.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.1,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 1.1,
+        "JOE BLAND CONSTRUCTION, L.P.": 1.24,
+        "AARON CONCRETE CONTRACTORS, L.P.": 1.2,
+        "ACME BRIDGE COMPANY, INC.": 1.15,
+        "CAPITAL EXCAVATION COMPANY": 1.15
+      }
+    },
+    {
+      "itemCode": "0260 6043",
+      "description": "LIME (HYD, COM OR QK)(SLURRY)",
+      "unit": "TON",
+      "quantity": 231.0,
+      "engEstUnit": 178.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 225.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 300.0,
+        "AARON CONCRETE CONTRACTORS, L.P.": 240.0,
+        "ACME BRIDGE COMPANY, INC.": 250.0,
+        "CAPITAL EXCAVATION COMPANY": 290.0
+      }
+    },
+    {
+      "itemCode": "0260 6073",
+      "description": "LIME TRT (SUBGRADE)(8\")",
+      "unit": "SY",
+      "quantity": 12736.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 2.5,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 2.5,
+        "JOE BLAND CONSTRUCTION, L.P.": 8.75,
+        "AARON CONCRETE CONTRACTORS, L.P.": 5.0,
+        "ACME BRIDGE COMPANY, INC.": 3.0,
+        "CAPITAL EXCAVATION COMPANY": 14.0
+      }
+    },
+    {
+      "itemCode": "0310 6001",
+      "description": "PRIME COAT (MULTI OPTION)",
+      "unit": "GAL",
+      "quantity": 2159.0,
+      "engEstUnit": 4.85,
+      "lowUnit": 5.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 5.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 5.98,
+        "AARON CONCRETE CONTRACTORS, L.P.": 5.4,
+        "ACME BRIDGE COMPANY, INC.": 5.7,
+        "CAPITAL EXCAVATION COMPANY": 5.0
+      }
+    },
+    {
+      "itemCode": "0351 6002",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(6\")",
+      "unit": "SY",
+      "quantity": 2380.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 61.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 61.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 73.0,
+        "AARON CONCRETE CONTRACTORS, L.P.": 73.0,
+        "ACME BRIDGE COMPANY, INC.": 70.8,
+        "CAPITAL EXCAVATION COMPANY": 65.0
+      }
+    },
+    {
+      "itemCode": "0351 6019",
+      "description": "FLEXIBLE PAVEMENT STRUCTURE REPAIR(3\")",
+      "unit": "SY",
+      "quantity": 2400.0,
+      "engEstUnit": 28.0,
+      "lowUnit": 31.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 31.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 35.9,
+        "AARON CONCRETE CONTRACTORS, L.P.": 42.0,
+        "ACME BRIDGE COMPANY, INC.": 35.4,
+        "CAPITAL EXCAVATION COMPANY": 34.0
+      }
+    },
+    {
+      "itemCode": "0354 6064",
+      "description": "PLANE ASPH CONC PAV (2 1/2\")",
+      "unit": "SY",
+      "quantity": 809.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 15.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 15.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 16.75,
+        "AARON CONCRETE CONTRACTORS, L.P.": 7.0,
+        "ACME BRIDGE COMPANY, INC.": 16.0,
+        "CAPITAL EXCAVATION COMPANY": 14.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 30.5,
+      "engEstUnit": 150.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 250.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 425.0,
+        "AARON CONCRETE CONTRACTORS, L.P.": 230.0,
+        "ACME BRIDGE COMPANY, INC.": 251.0,
+        "CAPITAL EXCAVATION COMPANY": 380.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 16.4,
+      "engEstUnit": 565.0,
+      "lowUnit": 550.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 550.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 582.0,
+        "AARON CONCRETE CONTRACTORS, L.P.": 550.0,
+        "ACME BRIDGE COMPANY, INC.": 835.0,
+        "CAPITAL EXCAVATION COMPANY": 1150.0
+      }
+    },
+    {
+      "itemCode": "0466 6097",
+      "description": "HEADWALL (CH - PW - 0) (DIA= 24 IN)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 6500.0,
+      "lowUnit": 11500.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 11500.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 17063.0,
+        "AARON CONCRETE CONTRACTORS, L.P.": 16000.0,
+        "ACME BRIDGE COMPANY, INC.": 10300.0,
+        "CAPITAL EXCAVATION COMPANY": 5200.0
+      }
+    },
+    {
+      "itemCode": "0467 6351",
+      "description": "SET (TY II) (18 IN) (HDPE) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 34.0,
+      "engEstUnit": 1400.0,
+      "lowUnit": 1750.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 1750.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 1374.0,
+        "AARON CONCRETE CONTRACTORS, L.P.": 1800.0,
+        "ACME BRIDGE COMPANY, INC.": 1300.0,
+        "CAPITAL EXCAVATION COMPANY": 2100.0
+      }
+    },
+    {
+      "itemCode": "0467 6384",
+      "description": "SET (TY II) (24 IN) (HDPE) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 1700.0,
+      "lowUnit": 2100.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 2100.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 1676.0,
+        "AARON CONCRETE CONTRACTORS, L.P.": 2100.0,
+        "ACME BRIDGE COMPANY, INC.": 1750.0,
+        "CAPITAL EXCAVATION COMPANY": 2960.0
+      }
+    },
+    {
+      "itemCode": "0496 6004",
+      "description": "REMOV STR (SET)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 1200.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 712.0,
+        "AARON CONCRETE CONTRACTORS, L.P.": 500.0,
+        "ACME BRIDGE COMPANY, INC.": 1190.0,
+        "CAPITAL EXCAVATION COMPANY": 2050.0
+      }
+    },
+    {
+      "itemCode": "0496 6005",
+      "description": "REMOV STR (WINGWALL)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 1200.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 1948.0,
+        "AARON CONCRETE CONTRACTORS, L.P.": 1300.0,
+        "ACME BRIDGE COMPANY, INC.": 1260.0,
+        "CAPITAL EXCAVATION COMPANY": 3080.0
+      }
+    },
+    {
+      "itemCode": "0496 6006",
+      "description": "REMOV STR (HEADWALL)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 1200.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 1950.0,
+        "AARON CONCRETE CONTRACTORS, L.P.": 1300.0,
+        "ACME BRIDGE COMPANY, INC.": 888.0,
+        "CAPITAL EXCAVATION COMPANY": 3790.0
+      }
+    },
+    {
+      "itemCode": "0496 6007",
+      "description": "REMOV STR (PIPE)",
+      "unit": "LF",
+      "quantity": 883.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 12.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 12.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 29.5,
+        "AARON CONCRETE CONTRACTORS, L.P.": 18.0,
+        "ACME BRIDGE COMPANY, INC.": 13.7,
+        "CAPITAL EXCAVATION COMPANY": 13.65
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 185000.0,
+      "lowUnit": 245000.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 245000.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 110164.0,
+        "AARON CONCRETE CONTRACTORS, L.P.": 200000.0,
+        "ACME BRIDGE COMPANY, INC.": 240000.0,
+        "CAPITAL EXCAVATION COMPANY": 250000.0
+      }
+    },
+    {
+      "itemCode": "0530 6002",
+      "description": "INTERSECTIONS (ACP)",
+      "unit": "SY",
+      "quantity": 506.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 70.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 70.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 55.05,
+        "AARON CONCRETE CONTRACTORS, L.P.": 84.0,
+        "ACME BRIDGE COMPANY, INC.": 125.0,
+        "CAPITAL EXCAVATION COMPANY": 47.0
+      }
+    },
+    {
+      "itemCode": "0530 6004",
+      "description": "DRIVEWAYS (CONC)",
+      "unit": "SY",
+      "quantity": 184.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 100.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 118.0,
+        "AARON CONCRETE CONTRACTORS, L.P.": 120.0,
+        "ACME BRIDGE COMPANY, INC.": 100.0,
+        "CAPITAL EXCAVATION COMPANY": 188.0
+      }
+    },
+    {
+      "itemCode": "0530 6005",
+      "description": "DRIVEWAYS (ACP)",
+      "unit": "SY",
+      "quantity": 1495.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 85.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 71.8,
+        "AARON CONCRETE CONTRACTORS, L.P.": 110.0,
+        "ACME BRIDGE COMPANY, INC.": 125.0,
+        "CAPITAL EXCAVATION COMPANY": 115.0
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 350.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 3.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 3.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 2.05,
+        "AARON CONCRETE CONTRACTORS, L.P.": 3.4,
+        "ACME BRIDGE COMPANY, INC.": 1.9,
+        "CAPITAL EXCAVATION COMPANY": 1.85
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 4500.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 4500.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 3700.12,
+        "AARON CONCRETE CONTRACTORS, L.P.": 3800.0,
+        "ACME BRIDGE COMPANY, INC.": 3460.0,
+        "CAPITAL EXCAVATION COMPANY": 3360.0
+      }
+    },
+    {
+      "itemCode": "0544 6002",
+      "description": "GUARDRAIL END TREATMENT (MOVE & RESET)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1400.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 1400.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 383.13,
+        "AARON CONCRETE CONTRACTORS, L.P.": 1600.0,
+        "ACME BRIDGE COMPANY, INC.": 358.0,
+        "CAPITAL EXCAVATION COMPANY": 350.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 250.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 306.51,
+        "AARON CONCRETE CONTRACTORS, L.P.": 28.0,
+        "ACME BRIDGE COMPANY, INC.": 287.0,
+        "CAPITAL EXCAVATION COMPANY": 280.0
+      }
+    },
+    {
+      "itemCode": "0560 6011",
+      "description": "MAILBOX INSTALL-S (TWW-POST) TY 4",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 260.0,
+      "lowUnit": 330.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 330.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 320.07,
+        "AARON CONCRETE CONTRACTORS, L.P.": 318.0,
+        "ACME BRIDGE COMPANY, INC.": 299.0,
+        "CAPITAL EXCAVATION COMPANY": 280.0
+      }
+    },
+    {
+      "itemCode": "0560 6012",
+      "description": "MAILBOX INSTALL-D (TWW-POST) TY 4",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 280.0,
+      "lowUnit": 360.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 360.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 347.21,
+        "AARON CONCRETE CONTRACTORS, L.P.": 344.0,
+        "ACME BRIDGE COMPANY, INC.": 325.0,
+        "CAPITAL EXCAVATION COMPANY": 310.0
+      }
+    },
+    {
+      "itemCode": "0560 6013",
+      "description": "MAILBOX INSTALL-M (TWW-POST) TY 4",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 730.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 1000.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 966.99,
+        "AARON CONCRETE CONTRACTORS, L.P.": 1000.0,
+        "ACME BRIDGE COMPANY, INC.": 904.0,
+        "CAPITAL EXCAVATION COMPANY": 860.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 32.0,
+      "engEstUnit": 625.0,
+      "lowUnit": 710.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 710.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 692.16,
+        "AARON CONCRETE CONTRACTORS, L.P.": 690.0,
+        "ACME BRIDGE COMPANY, INC.": 647.0,
+        "CAPITAL EXCAVATION COMPANY": 310.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 775.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 900.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 876.51,
+        "AARON CONCRETE CONTRACTORS, L.P.": 870.0,
+        "ACME BRIDGE COMPANY, INC.": 819.0,
+        "CAPITAL EXCAVATION COMPANY": 780.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 26.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 150.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 133.46,
+        "AARON CONCRETE CONTRACTORS, L.P.": 133.0,
+        "ACME BRIDGE COMPANY, INC.": 125.0,
+        "CAPITAL EXCAVATION COMPANY": 118.0
+      }
+    },
+    {
+      "itemCode": "0658 6046",
+      "description": "INSTL OM ASSM (OM-2X)(WC)GND",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 55.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 62.2,
+        "AARON CONCRETE CONTRACTORS, L.P.": 62.0,
+        "ACME BRIDGE COMPANY, INC.": 89.9,
+        "CAPITAL EXCAVATION COMPANY": 85.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 19.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 29.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 29.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 32.74,
+        "AARON CONCRETE CONTRACTORS, L.P.": 33.0,
+        "ACME BRIDGE COMPANY, INC.": 31.7,
+        "CAPITAL EXCAVATION COMPANY": 30.0
+      }
+    },
+    {
+      "itemCode": "0662 6063",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 22060.0,
+      "engEstUnit": 1.2,
+      "lowUnit": 0.55,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 0.55,
+        "JOE BLAND CONSTRUCTION, L.P.": 0.62,
+        "AARON CONCRETE CONTRACTORS, L.P.": 0.7,
+        "ACME BRIDGE COMPANY, INC.": 0.58,
+        "CAPITAL EXCAVATION COMPANY": 0.75
+      }
+    },
+    {
+      "itemCode": "0662 6075",
+      "description": "WK ZN PAV MRK REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 44.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 15.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 16.96,
+        "AARON CONCRETE CONTRACTORS, L.P.": 18.0,
+        "ACME BRIDGE COMPANY, INC.": 15.9,
+        "CAPITAL EXCAVATION COMPANY": 15.0
+      }
+    },
+    {
+      "itemCode": "0662 6095",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 22060.0,
+      "engEstUnit": 1.2,
+      "lowUnit": 0.55,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 0.55,
+        "JOE BLAND CONSTRUCTION, L.P.": 0.62,
+        "AARON CONCRETE CONTRACTORS, L.P.": 1.4,
+        "ACME BRIDGE COMPANY, INC.": 0.58,
+        "CAPITAL EXCAVATION COMPANY": 0.75
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 100.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 2.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 1.13,
+        "AARON CONCRETE CONTRACTORS, L.P.": 2.2,
+        "ACME BRIDGE COMPANY, INC.": 2.05,
+        "CAPITAL EXCAVATION COMPANY": 6.1
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 153.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 8.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 9.05,
+        "AARON CONCRETE CONTRACTORS, L.P.": 10.0,
+        "ACME BRIDGE COMPANY, INC.": 8.5,
+        "CAPITAL EXCAVATION COMPANY": 5.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 2000.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 2.6,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 2.6,
+        "JOE BLAND CONSTRUCTION, L.P.": 2.94,
+        "AARON CONCRETE CONTRACTORS, L.P.": 6.1,
+        "ACME BRIDGE COMPANY, INC.": 2.75,
+        "CAPITAL EXCAVATION COMPANY": 1.0
+      }
+    },
+    {
+      "itemCode": "0685 6005",
+      "description": "RELOCT RDSD FLSH BCN AM (SOLAR PWRD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 5500.0,
+      "lowUnit": 10000.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 10000.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 7828.66,
+        "AARON CONCRETE CONTRACTORS, L.P.": 7800.0,
+        "ACME BRIDGE COMPANY, INC.": 6770.0,
+        "CAPITAL EXCAVATION COMPANY": 6600.0
+      }
+    },
+    {
+      "itemCode": "3076 6003",
+      "description": "D-GR HMA TY-B PG64-22 (EXEMPT)",
+      "unit": "TON",
+      "quantity": 1781.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 115.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 115.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 131.63,
+        "AARON CONCRETE CONTRACTORS, L.P.": 125.0,
+        "ACME BRIDGE COMPANY, INC.": 125.0,
+        "CAPITAL EXCAVATION COMPANY": 116.0
+      }
+    },
+    {
+      "itemCode": "3076 6072",
+      "description": "D-GR HMA TY-D PG 76-22 (EXEMPT)",
+      "unit": "TON",
+      "quantity": 2305.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 145.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 145.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 168.73,
+        "AARON CONCRETE CONTRACTORS, L.P.": 180.0,
+        "ACME BRIDGE COMPANY, INC.": 161.0,
+        "CAPITAL EXCAVATION COMPANY": 150.0
+      }
+    },
+    {
+      "itemCode": "3081 6008",
+      "description": "TOM-C PG76-22 SAC-B",
+      "unit": "TON",
+      "quantity": 1347.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 179.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 179.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 201.04,
+        "AARON CONCRETE CONTRACTORS, L.P.": 205.0,
+        "ACME BRIDGE COMPANY, INC.": 192.0,
+        "CAPITAL EXCAVATION COMPANY": 180.0
+      }
+    },
+    {
+      "itemCode": "3084 6001",
+      "description": "BONDING COURSE",
+      "unit": "GAL",
+      "quantity": 4657.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 4.3,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 4.3,
+        "JOE BLAND CONSTRUCTION, L.P.": 5.15,
+        "AARON CONCRETE CONTRACTORS, L.P.": 5.7,
+        "ACME BRIDGE COMPANY, INC.": 4.9,
+        "CAPITAL EXCAVATION COMPANY": 5.05
+      }
+    },
+    {
+      "itemCode": "4122 6010",
+      "description": "THERMOPLASTIC PIPE(24 IN)(PP)(TYPE III)",
+      "unit": "LF",
+      "quantity": 230.0,
+      "engEstUnit": 65.0,
+      "lowUnit": 75.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 75.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 89.75,
+        "AARON CONCRETE CONTRACTORS, L.P.": 138.0,
+        "ACME BRIDGE COMPANY, INC.": 70.8,
+        "CAPITAL EXCAVATION COMPANY": 91.1
+      }
+    },
+    {
+      "itemCode": "4122 6014",
+      "description": "THERMOPLASTIC PIPE(18 IN)(PP)(TYPE III)",
+      "unit": "LF",
+      "quantity": 1000.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 65.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 48.0,
+        "AARON CONCRETE CONTRACTORS, L.P.": 106.0,
+        "ACME BRIDGE COMPANY, INC.": 70.8,
+        "CAPITAL EXCAVATION COMPANY": 78.6
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 7000.0,
+      "lowUnit": 12000.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 12000.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 3918.0,
+        "AARON CONCRETE CONTRACTORS, L.P.": 5100.0,
+        "ACME BRIDGE COMPANY, INC.": 17500.0,
+        "CAPITAL EXCAVATION COMPANY": 16600.0
+      }
+    },
+    {
+      "itemCode": "7251 6001",
+      "description": "SUBSURFACE UTIL LOCATE (OUTSIDE RDBED)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 2200.0,
+      "lowUnit": 350.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 350.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 1232.0,
+        "AARON CONCRETE CONTRACTORS, L.P.": 1300.0,
+        "ACME BRIDGE COMPANY, INC.": 793.0,
+        "CAPITAL EXCAVATION COMPANY": 2990.0
+      }
+    },
+    {
+      "itemCode": "7251 6002",
+      "description": "SUBSURFACE UTIL LOCATE (WITHIN RDBED)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 3200.0,
+      "lowUnit": 700.0,
+      "bidders": {
+        "DAN WILLIAMS COMPANY": 700.0,
+        "JOE BLAND CONSTRUCTION, L.P.": 6156.0,
+        "AARON CONCRETE CONTRACTORS, L.P.": 4500.0,
+        "ACME BRIDGE COMPANY, INC.": 1770.0,
+        "CAPITAL EXCAVATION COMPANY": 2990.0
+      }
+    }
+  ]
+}

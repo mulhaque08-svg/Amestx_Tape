@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "csj": "6380-08-001",
+    "county": "Taylor",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638008001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "04/20/21",
+    "engEstTotal": 193755.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GREG SCRUGGS",
+      "totalBidAmount": 155449.5
+    },
+    {
+      "rank": 2,
+      "vendorName": "GORMAN OUTDOOR, INC.",
+      "totalBidAmount": 168726.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CLASSIC IRRIGATION & LANDSCAPE LLC",
+      "totalBidAmount": 171550.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "TOP NOTCH FOAM",
+      "totalBidAmount": 176140.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "ABESCAPE GROUP LLC",
+      "totalBidAmount": 194459.16
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 0.001,
+      "bidders": {
+        "GREG SCRUGGS": 0.001,
+        "GORMAN OUTDOOR, INC.": 1.0,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 1.0,
+        "TOP NOTCH FOAM": 2000.0,
+        "ABESCAPE GROUP LLC": 0.01
+      }
+    },
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 1410.0,
+      "engEstUnit": 33.0,
+      "lowUnit": 27.49,
+      "bidders": {
+        "GREG SCRUGGS": 27.49,
+        "GORMAN OUTDOOR, INC.": 30.0,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 29.4,
+        "TOP NOTCH FOAM": 29.0,
+        "ABESCAPE GROUP LLC": 33.89
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 4325.0,
+      "engEstUnit": 33.0,
+      "lowUnit": 26.98,
+      "bidders": {
+        "GREG SCRUGGS": 26.98,
+        "GORMAN OUTDOOR, INC.": 29.0,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 29.4,
+        "TOP NOTCH FOAM": 30.0,
+        "ABESCAPE GROUP LLC": 33.89
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 0.001,
+      "bidders": {
+        "GREG SCRUGGS": 0.001,
+        "GORMAN OUTDOOR, INC.": 10.0,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 29.4,
+        "TOP NOTCH FOAM": 35.0,
+        "ABESCAPE GROUP LLC": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "csj": "6462-70-001",
+    "county": "Wharton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646270001",
+    "projectType": "JANITORIAL MAINTENANCE",
+    "letDate": "01/30/24",
+    "engEstTotal": 18380.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RWCS JANITORIAL LLC",
+      "totalBidAmount": 16450.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MAXPRO ENTERPRISE LLC",
+      "totalBidAmount": 18630.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "THE ROLLING GROUP LLC",
+      "totalBidAmount": 22730.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "LNZ ENTERPRISES LLC",
+      "totalBidAmount": 28100.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "7158 6001",
+      "description": "JANITORIAL SERVICES - WEEKLY",
+      "unit": "CYC",
+      "quantity": 52.0,
+      "engEstUnit": 265.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 300.0,
+        "MAXPRO ENTERPRISE LLC": 230.0,
+        "THE ROLLING GROUP LLC": 385.0,
+        "LNZ ENTERPRISES LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "7158 6002",
+      "description": "JANITORIAL SERVICES - MONTHLY",
+      "unit": "MO",
+      "quantity": 12.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 50.0,
+        "MAXPRO ENTERPRISE LLC": 450.0,
+        "THE ROLLING GROUP LLC": 205.0,
+        "LNZ ENTERPRISES LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "7158 6003",
+      "description": "JANITORIAL SERVICES - STRIP/WAX FLOORS",
+      "unit": "CYC",
+      "quantity": 2.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 100.0,
+        "MAXPRO ENTERPRISE LLC": 600.0,
+        "THE ROLLING GROUP LLC": 100.0,
+        "LNZ ENTERPRISES LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "7158 6004",
+      "description": "JANITORIAL SERVICES - WINDOW WASHING",
+      "unit": "CYC",
+      "quantity": 1.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "RWCS JANITORIAL LLC": 50.0,
+        "MAXPRO ENTERPRISE LLC": 70.0,
+        "THE ROLLING GROUP LLC": 50.0,
+        "LNZ ENTERPRISES LLC": 300.0
+      }
+    }
+  ]
+}

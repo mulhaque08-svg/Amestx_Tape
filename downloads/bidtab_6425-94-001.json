@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "csj": "6425-94-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642594001",
+    "projectType": "HOT MIX",
+    "letDate": "12/07/22",
+    "engEstTotal": 180000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AUSTIN ASPHALT, INC.",
+      "totalBidAmount": 181500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 202000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 236000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6017",
+      "description": "D-GR HMA(SQ)TY C PG 64-22 (DELIVERY)",
+      "unit": "TON",
+      "quantity": 2000.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 90.75,
+      "bidders": {
+        "AUSTIN ASPHALT, INC.": 90.75,
+        "TEXAS MATERIALS GROUP, INC.": 101.0,
+        "FNH CONSTRUCTION, LLC": 118.0
+      }
+    }
+  ]
+}

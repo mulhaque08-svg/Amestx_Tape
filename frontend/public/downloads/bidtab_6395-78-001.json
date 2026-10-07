@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6395-78-001",
+    "county": "Wichita",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 639578001",
+    "projectType": "DEBRIS REMOVAL",
+    "letDate": "02/04/22",
+    "engEstTotal": 410848.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "WILSON CONTRACTING",
+      "totalBidAmount": 390574.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 794456.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0735 6002",
+      "description": "DEBRIS REMOVAL (CNTR MEDIANS/MAINLANES)",
+      "unit": "MI",
+      "quantity": 5856.0,
+      "engEstUnit": 48.0,
+      "lowUnit": 49.0,
+      "bidders": {
+        "WILSON CONTRACTING": 49.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0735 6007",
+      "description": "DEBRIS REMOVAL (SPOT DEBRIS)",
+      "unit": "MI",
+      "quantity": 30.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "WILSON CONTRACTING": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 32.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "WILSON CONTRACTING": 100.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 158.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6460-80-001",
+    "county": "Burleson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 646080001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "01/08/24",
+    "engEstTotal": 237443.4,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ABESCAPE LANDSCAPING, LLC",
+      "totalBidAmount": 176623.48
+    },
+    {
+      "rank": 2,
+      "vendorName": "WELLMANN ENTERPRISES",
+      "totalBidAmount": 182522.07
+    },
+    {
+      "rank": 3,
+      "vendorName": "TERRASOL, LLC",
+      "totalBidAmount": 211132.87
+    },
+    {
+      "rank": 4,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 249709.76
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 5617.7,
+      "engEstUnit": 42.0,
+      "lowUnit": 31.44,
+      "bidders": {
+        "ABESCAPE LANDSCAPING, LLC": 31.44,
+        "WELLMANN ENTERPRISES": 32.49,
+        "TERRASOL, LLC": 37.45,
+        "P-VILLE, INCORPORATED": 44.45
+      }
+    }
+  ]
+}

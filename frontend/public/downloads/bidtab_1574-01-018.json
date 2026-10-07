@@ -1,0 +1,686 @@
+{
+  "metadata": {
+    "csj": "1574-01-018",
+    "county": "Morris",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 1574-1-18",
+    "projectType": "WIDEN ROAD - ADD SHOULDERS",
+    "letDate": "04/05/24",
+    "engEstTotal": 3914750.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "A. K. GILLIS & SONS, LLC",
+      "totalBidAmount": 3791092.27
+    },
+    {
+      "rank": 2,
+      "vendorName": "EAST TEXAS BRIDGE, INC.",
+      "totalBidAmount": 4497775.25
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 110.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 1700.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 1700.0,
+        "EAST TEXAS BRIDGE, INC.": 7400.0
+      }
+    },
+    {
+      "itemCode": "0112 6001",
+      "description": "SUBGRADE WIDENING (ORD COMP)",
+      "unit": "STA",
+      "quantity": 156.3,
+      "engEstUnit": 475.0,
+      "lowUnit": 293.28,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 293.28,
+        "EAST TEXAS BRIDGE, INC.": 575.0
+      }
+    },
+    {
+      "itemCode": "0132 6021",
+      "description": "EMBANKMENT (VEHICLE)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 2071.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 15.0,
+        "EAST TEXAS BRIDGE, INC.": 32.0
+      }
+    },
+    {
+      "itemCode": "0134 6002",
+      "description": "BACKFILL (TY B)",
+      "unit": "STA",
+      "quantity": 156.3,
+      "engEstUnit": 300.0,
+      "lowUnit": 293.28,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 293.28,
+        "EAST TEXAS BRIDGE, INC.": 485.0
+      }
+    },
+    {
+      "itemCode": "0150 6001",
+      "description": "BLADING",
+      "unit": "STA",
+      "quantity": 190.3,
+      "engEstUnit": 250.0,
+      "lowUnit": 401.27,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 401.27,
+        "EAST TEXAS BRIDGE, INC.": 400.0
+      }
+    },
+    {
+      "itemCode": "0310 6009",
+      "description": "PRIME COAT (MC-30)",
+      "unit": "GAL",
+      "quantity": 2923.0,
+      "engEstUnit": 9.0,
+      "lowUnit": 7.31,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 7.31,
+        "EAST TEXAS BRIDGE, INC.": 7.0
+      }
+    },
+    {
+      "itemCode": "0400 6007",
+      "description": "CUT & RESTORE CONC PAVING",
+      "unit": "SY",
+      "quantity": 34.0,
+      "engEstUnit": 245.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 200.0,
+        "EAST TEXAS BRIDGE, INC.": 300.0
+      }
+    },
+    {
+      "itemCode": "0400 6008",
+      "description": "CUT & RESTORE ASPH PAVING",
+      "unit": "SY",
+      "quantity": 800.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 100.0,
+        "EAST TEXAS BRIDGE, INC.": 90.0
+      }
+    },
+    {
+      "itemCode": "0402 6001",
+      "description": "TRENCH EXCAVATION PROTECTION",
+      "unit": "LF",
+      "quantity": 80.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 25.0,
+        "EAST TEXAS BRIDGE, INC.": 50.0
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 3760.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 35.0,
+        "EAST TEXAS BRIDGE, INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "0429 6007",
+      "description": "CONC STR REPAIR (VERTICAL & OVERHEAD)",
+      "unit": "SF",
+      "quantity": 60.0,
+      "engEstUnit": 160.0,
+      "lowUnit": 175.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 175.0,
+        "EAST TEXAS BRIDGE, INC.": 375.0
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 147.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 625.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 625.0,
+        "EAST TEXAS BRIDGE, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 120.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 319.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 319.0,
+        "EAST TEXAS BRIDGE, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0432 6039",
+      "description": "BEDDING MATERIAL (6 IN)",
+      "unit": "CY",
+      "quantity": 60.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 313.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 313.0,
+        "EAST TEXAS BRIDGE, INC.": 200.0
+      }
+    },
+    {
+      "itemCode": "0432 6045",
+      "description": "RIPRAP (MOW STRIP)(4 IN)",
+      "unit": "CY",
+      "quantity": 246.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 650.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 650.0,
+        "EAST TEXAS BRIDGE, INC.": 750.0
+      }
+    },
+    {
+      "itemCode": "0466 6181",
+      "description": "WINGWALL (PW - 1) (HW=6 FT)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 30000.0,
+      "lowUnit": 28000.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 28000.0,
+        "EAST TEXAS BRIDGE, INC.": 27500.0
+      }
+    },
+    {
+      "itemCode": "0466 6183",
+      "description": "WINGWALL (PW - 1) (HW=8 FT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 30000.0,
+      "lowUnit": 38000.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 38000.0,
+        "EAST TEXAS BRIDGE, INC.": 15000.0
+      }
+    },
+    {
+      "itemCode": "0467 6363",
+      "description": "SET (TY II) (18 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 900.0,
+        "EAST TEXAS BRIDGE, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0467 6388",
+      "description": "SET (TY II) (24 IN) (RCP) (3: 1) (C)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 1250.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 1250.0,
+        "EAST TEXAS BRIDGE, INC.": 1200.0
+      }
+    },
+    {
+      "itemCode": "0467 6390",
+      "description": "SET (TY II) (24 IN) (RCP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1400.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 1400.0,
+        "EAST TEXAS BRIDGE, INC.": 1400.0
+      }
+    },
+    {
+      "itemCode": "0467 6395",
+      "description": "SET (TY II) (24 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 123.0,
+      "engEstUnit": 1800.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 1500.0,
+        "EAST TEXAS BRIDGE, INC.": 1400.0
+      }
+    },
+    {
+      "itemCode": "0496 6006",
+      "description": "REMOV STR (HEADWALL)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 1250.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 1250.0,
+        "EAST TEXAS BRIDGE, INC.": 1500.0
+      }
+    },
+    {
+      "itemCode": "0496 6007",
+      "description": "REMOV STR (PIPE)",
+      "unit": "LF",
+      "quantity": 135.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 15.0,
+        "EAST TEXAS BRIDGE, INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 329000.0,
+      "lowUnit": 484067.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 484067.0,
+        "EAST TEXAS BRIDGE, INC.": 435000.0
+      }
+    },
+    {
+      "itemCode": "0510 6003",
+      "description": "ONE-WAY TRAF CONT (PORT TRAF SIG)",
+      "unit": "MO",
+      "quantity": 6.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 3000.0,
+        "EAST TEXAS BRIDGE, INC.": 10000.0
+      }
+    },
+    {
+      "itemCode": "0512 6072",
+      "description": "PTB (FRN&INSTL)(SGL SLP)(TY 1) OR (STL)",
+      "unit": "LF",
+      "quantity": 840.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 111.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 111.0,
+        "EAST TEXAS BRIDGE, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0512 6076",
+      "description": "PTB (REMOVE)(SGL SLP)(TY 1) OR (STL)",
+      "unit": "LF",
+      "quantity": 840.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 27.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 27.0,
+        "EAST TEXAS BRIDGE, INC.": 25.0
+      }
+    },
+    {
+      "itemCode": "0530 6009",
+      "description": "TURNOUTS (SURF TREAT)",
+      "unit": "SY",
+      "quantity": 335.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 150.0,
+        "EAST TEXAS BRIDGE, INC.": 75.0
+      }
+    },
+    {
+      "itemCode": "0544 6004",
+      "description": "GDRAIL END TRT(INST)(WOOD POST)(TY I)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 2800.0,
+      "lowUnit": 2900.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 2900.0,
+        "EAST TEXAS BRIDGE, INC.": 3200.0
+      }
+    },
+    {
+      "itemCode": "0545 6002",
+      "description": "CRASH CUSH ATTEN (DES SOURCE)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2500.0,
+      "lowUnit": 3500.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 3500.0,
+        "EAST TEXAS BRIDGE, INC.": 3500.0
+      }
+    },
+    {
+      "itemCode": "0545 6003",
+      "description": "CRASH CUSH ATTEN (MOVE & RESET)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 2500.0,
+        "EAST TEXAS BRIDGE, INC.": 2500.0
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1500.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 1500.0,
+        "EAST TEXAS BRIDGE, INC.": 1000.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 775.0,
+      "lowUnit": 710.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 710.0,
+        "EAST TEXAS BRIDGE, INC.": 750.0
+      }
+    },
+    {
+      "itemCode": "0644 6007",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(U)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1006.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 1006.0,
+        "EAST TEXAS BRIDGE, INC.": 1100.0
+      }
+    },
+    {
+      "itemCode": "0644 6027",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(P)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 925.0,
+      "lowUnit": 1163.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 1163.0,
+        "EAST TEXAS BRIDGE, INC.": 850.0
+      }
+    },
+    {
+      "itemCode": "0644 6030",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(T)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1100.0,
+      "lowUnit": 989.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 989.0,
+        "EAST TEXAS BRIDGE, INC.": 900.0
+      }
+    },
+    {
+      "itemCode": "0644 6060",
+      "description": "IN SM RD SN SUP&AM TYTWT(1)WS(P)",
+      "unit": "EA",
+      "quantity": 35.0,
+      "engEstUnit": 525.0,
+      "lowUnit": 434.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 434.0,
+        "EAST TEXAS BRIDGE, INC.": 550.0
+      }
+    },
+    {
+      "itemCode": "0644 6061",
+      "description": "IN SM RD SN SUP&AM TYTWT(1)WS(T)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 775.0,
+      "lowUnit": 631.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 631.0,
+        "EAST TEXAS BRIDGE, INC.": 650.0
+      }
+    },
+    {
+      "itemCode": "0644 6071",
+      "description": "RELOCATE SM RD SN SUP&AM TY TWT",
+      "unit": "EA",
+      "quantity": 53.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 342.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 342.0,
+        "EAST TEXAS BRIDGE, INC.": 575.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 52.95,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 52.95,
+        "EAST TEXAS BRIDGE, INC.": 55.0
+      }
+    },
+    {
+      "itemCode": "0662 6050",
+      "description": "WK ZN PAV MRK REMOV (REFL) TY II-A-A",
+      "unit": "EA",
+      "quantity": 240.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 5.0,
+        "EAST TEXAS BRIDGE, INC.": 5.5
+      }
+    },
+    {
+      "itemCode": "0662 6067",
+      "description": "WK ZN PAV MRK REMOV (W)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 5800.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.5,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 1.5,
+        "EAST TEXAS BRIDGE, INC.": 1.65
+      }
+    },
+    {
+      "itemCode": "0662 6075",
+      "description": "WK ZN PAV MRK REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 40.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 10.0,
+        "EAST TEXAS BRIDGE, INC.": 11.0
+      }
+    },
+    {
+      "itemCode": "0662 6098",
+      "description": "WK ZN PAV MRK REMOV (Y)6\"(SLD)",
+      "unit": "LF",
+      "quantity": 9600.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.5,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 1.5,
+        "EAST TEXAS BRIDGE, INC.": 1.65
+      }
+    },
+    {
+      "itemCode": "0662 6110",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y",
+      "unit": "EA",
+      "quantity": 405.0,
+      "engEstUnit": 1.25,
+      "lowUnit": 2.35,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 2.35,
+        "EAST TEXAS BRIDGE, INC.": 5.5
+      }
+    },
+    {
+      "itemCode": "0662 6111",
+      "description": "WK ZN PAV MRK SHT TERM (TAB)TY Y-2",
+      "unit": "EA",
+      "quantity": 2537.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 2.35,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 2.35,
+        "EAST TEXAS BRIDGE, INC.": 3.0
+      }
+    },
+    {
+      "itemCode": "0668 6076",
+      "description": "PREFAB PAV MRK TY C (W) (24\") (SLD)",
+      "unit": "LF",
+      "quantity": 32.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 15.0,
+        "EAST TEXAS BRIDGE, INC.": 17.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 405.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 5.0,
+        "EAST TEXAS BRIDGE, INC.": 5.5
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 2200.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 1.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 1.0,
+        "EAST TEXAS BRIDGE, INC.": 1.1
+      }
+    },
+    {
+      "itemCode": "4171 6001",
+      "description": "INSTALL BRIDGE IDENTIFICATION NUMBERS",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 1000.0,
+        "EAST TEXAS BRIDGE, INC.": 2000.0
+      }
+    },
+    {
+      "itemCode": "6056 6001",
+      "description": "PREFORMED IN-LANE(TRANS) RUMBLE STRIP",
+      "unit": "LF",
+      "quantity": 6652.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 4.0,
+        "EAST TEXAS BRIDGE, INC.": 4.5
+      }
+    },
+    {
+      "itemCode": "6056 6002",
+      "description": "PREFORMED CENTERLINE RUMBLE STRIP",
+      "unit": "LF",
+      "quantity": 3328.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 4.0,
+        "EAST TEXAS BRIDGE, INC.": 4.5
+      }
+    },
+    {
+      "itemCode": "6149 6004",
+      "description": "REFL PAV MRK AWT (W) 6\" (SLD) (100MIL)",
+      "unit": "LF",
+      "quantity": 33710.0,
+      "engEstUnit": 2.25,
+      "lowUnit": 0.85,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 0.85,
+        "EAST TEXAS BRIDGE, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "6149 6010",
+      "description": "REFL PAV MRK AWT (Y) 6\" (SLD) (100MIL)",
+      "unit": "LF",
+      "quantity": 27370.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 0.85,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 0.85,
+        "EAST TEXAS BRIDGE, INC.": 1.0
+      }
+    },
+    {
+      "itemCode": "6149 6011",
+      "description": "REFL PAV MRK AWT (Y) 6\" (BRK) (100MIL)",
+      "unit": "LF",
+      "quantity": 1440.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 1.0,
+      "bidders": {
+        "A. K. GILLIS & SONS, LLC": 1.0,
+        "EAST TEXAS BRIDGE, INC.": 1.1
+      }
+    }
+  ]
+}

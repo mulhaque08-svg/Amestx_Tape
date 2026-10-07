@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6414-07-001",
+    "county": "Hidalgo",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 641407001",
+    "projectType": "SWEEPING AND DEBRIS REMOVAL",
+    "letDate": "08/04/22",
+    "engEstTotal": 1876023.75,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SWEEPING CORPORATION OF AMERICA, LLC",
+      "totalBidAmount": 1762479.75
+    },
+    {
+      "rank": 2,
+      "vendorName": "VIZCAINO, L.P.",
+      "totalBidAmount": 2735248.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 3581664.4
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0738 6002",
+      "description": "CLEANING / SWEEPING (CENTER MEDIAN)",
+      "unit": "MI",
+      "quantity": 3711.6,
+      "engEstUnit": 225.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 225.0,
+        "VIZCAINO, L.P.": 350.0,
+        "DIGG COMMERCIAL, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0738 6004",
+      "description": "CLEANING / SWEEPING (OUTSIDE MAIN LANE)",
+      "unit": "MI",
+      "quantity": 3930.07,
+      "engEstUnit": 225.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 225.0,
+        "VIZCAINO, L.P.": 350.0,
+        "DIGG COMMERCIAL, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0738 6006",
+      "description": "CLEANING / SWEEPING (FRONTAGE ROAD)",
+      "unit": "MI",
+      "quantity": 120.48,
+      "engEstUnit": 225.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 225.0,
+        "VIZCAINO, L.P.": 350.0,
+        "DIGG COMMERCIAL, LLC": 230.0
+      }
+    },
+    {
+      "itemCode": "0738 6010",
+      "description": "CLEANING / SWEEPING (SPOT)",
+      "unit": "MI",
+      "quantity": 50.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "SWEEPING CORPORATION OF AMERICA, LLC": 300.0,
+        "VIZCAINO, L.P.": 350.0,
+        "DIGG COMMERCIAL, LLC": 400.0
+      }
+    }
+  ]
+}

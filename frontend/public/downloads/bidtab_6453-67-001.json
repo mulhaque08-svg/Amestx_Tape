@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6453-67-001",
+    "county": "San Jacinto",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 645367001",
+    "projectType": "DEBRIS REMOVAL - SAN JACINTO 2023",
+    "letDate": "11/01/23",
+    "engEstTotal": 210686.46,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AAD CONTRACTING INC.",
+      "totalBidAmount": 251307.19
+    },
+    {
+      "rank": 2,
+      "vendorName": "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC",
+      "totalBidAmount": 289753.36
+    },
+    {
+      "rank": 3,
+      "vendorName": "ISI CONTRACTING, INC.",
+      "totalBidAmount": 365248.1
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0735 6002",
+      "description": "DEBRIS REMOVAL (CNTR MEDIANS/MAINLANES)",
+      "unit": "MI",
+      "quantity": 3398.371,
+      "engEstUnit": 55.0,
+      "lowUnit": 67.5,
+      "bidders": {
+        "AAD CONTRACTING INC.": 67.5,
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 84.0,
+        "ISI CONTRACTING, INC.": 100.0
+      }
+    },
+    {
+      "itemCode": "0735 6006",
+      "description": "DEBRIS REMOVAL (ENTRANCE/EXIT RAMPS)",
+      "unit": "MI",
+      "quantity": 214.11,
+      "engEstUnit": 55.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "AAD CONTRACTING INC.": 65.0,
+        "AMERICAN INFRASTRUCTURE MAINTENANCE MANAGEMENT LLC": 20.0,
+        "ISI CONTRACTING, INC.": 100.0
+      }
+    }
+  ]
+}

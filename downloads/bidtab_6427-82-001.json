@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "csj": "6427-82-001",
+    "county": "Walker",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 642782001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "01/10/23",
+    "engEstTotal": 198000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 220500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 252000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 348000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6078",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 1)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 33.0,
+      "lowUnit": 47.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 47.0,
+        "DIGG COMMERCIAL, LLC": 51.0,
+        "COLORADO MATERIALS, LTD.": 57.0
+      }
+    },
+    {
+      "itemCode": "8007 6079",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 2)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 33.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 35.0,
+        "DIGG COMMERCIAL, LLC": 44.0,
+        "COLORADO MATERIALS, LTD.": 51.0
+      }
+    },
+    {
+      "itemCode": "8007 6080",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 3)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 33.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 30.0,
+        "DIGG COMMERCIAL, LLC": 44.0,
+        "COLORADO MATERIALS, LTD.": 59.0
+      }
+    },
+    {
+      "itemCode": "8007 6081",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 4)",
+      "unit": "TON",
+      "quantity": 1500.0,
+      "engEstUnit": 33.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "TOUCHSTONE RESOURCES, LLC": 35.0,
+        "DIGG COMMERCIAL, LLC": 29.0,
+        "COLORADO MATERIALS, LTD.": 65.0
+      }
+    }
+  ]
+}

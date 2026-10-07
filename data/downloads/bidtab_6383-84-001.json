@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6383-84-001",
+    "county": "Navarro",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638384001",
+    "projectType": "REMOVAL AND DISPOSAL OF DRIFTWOOD",
+    "letDate": "08/10/21",
+    "engEstTotal": 290726.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FOWLER CONSTRUCTION",
+      "totalBidAmount": 250945.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "PRESLEY LAND MANAGEMENT LLC",
+      "totalBidAmount": 264252.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 580.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "FOWLER CONSTRUCTION": 1000.0,
+        "PRESLEY LAND MANAGEMENT LLC": 400.0
+      }
+    },
+    {
+      "itemCode": "7000 6001",
+      "description": "REML & DISPL DRIFTWOOD & DEBRIS",
+      "unit": "CY",
+      "quantity": 4344.0,
+      "engEstUnit": 64.0,
+      "lowUnit": 55.0,
+      "bidders": {
+        "FOWLER CONSTRUCTION": 55.0,
+        "PRESLEY LAND MANAGEMENT LLC": 58.0
+      }
+    }
+  ]
+}

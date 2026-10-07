@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "csj": "6383-55-001",
+    "county": "Coleman",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638355001",
+    "projectType": "CLEANING AND SEALING CRACKS",
+    "letDate": "08/04/21",
+    "engEstTotal": 465944.6,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 324942.4
+    },
+    {
+      "rank": 2,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 396880.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 424770.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 442038.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 42358.6,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 3000.0,
+        "D & M CONTRACTORS, LLC": 5000.0,
+        "CRACKSEAL OF TEXAS, LLC": 1.0,
+        "TALBRAN ENTERPRISES LLC": 10000.0
+      }
+    },
+    {
+      "itemCode": "0712 6008",
+      "description": "JT / CRCK SEAL (RUBBER - ASPHALT)",
+      "unit": "LMI",
+      "quantity": 745.2,
+      "engEstUnit": 555.0,
+      "lowUnit": 432.0,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 432.0,
+        "D & M CONTRACTORS, LLC": 525.0,
+        "CRACKSEAL OF TEXAS, LLC": 570.0,
+        "TALBRAN ENTERPRISES LLC": 565.0
+      }
+    }
+  ]
+}

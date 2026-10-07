@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "csj": "6383-33-001",
+    "county": "Kaufman",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638333001",
+    "projectType": "REFLECTORIZED PAVEMENT MARKINGS & MARKERS",
+    "letDate": "08/10/21",
+    "engEstTotal": 222400.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "PMI PAVEMENT MARKING, LLC",
+      "totalBidAmount": 183350.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "STRIPING TECHNOLOGY, L.P.",
+      "totalBidAmount": 189900.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "TOTAL HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 201700.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "STRIPE-A-ZONE, INC.",
+      "totalBidAmount": 225800.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 253102.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 3500.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "PMI PAVEMENT MARKING, LLC": 2000.0,
+        "STRIPING TECHNOLOGY, L.P.": 3000.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 2875.0,
+        "STRIPE-A-ZONE, INC.": 2000.0,
+        "TRP CONSTRUCTION GROUP, LLC": 828.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 15000.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 0.35,
+      "bidders": {
+        "PMI PAVEMENT MARKING, LLC": 0.35,
+        "STRIPING TECHNOLOGY, L.P.": 0.25,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 0.38,
+        "STRIPE-A-ZONE, INC.": 0.5,
+        "TRP CONSTRUCTION GROUP, LLC": 0.35
+      }
+    },
+    {
+      "itemCode": "0677 6002",
+      "description": "ELIM EXT PAV MRK & MRKS (6\")",
+      "unit": "LF",
+      "quantity": 15000.0,
+      "engEstUnit": 0.32,
+      "lowUnit": 0.55,
+      "bidders": {
+        "PMI PAVEMENT MARKING, LLC": 0.55,
+        "STRIPING TECHNOLOGY, L.P.": 0.35,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 0.45,
+        "STRIPE-A-ZONE, INC.": 0.5,
+        "TRP CONSTRUCTION GROUP, LLC": 0.35
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 15000.0,
+      "engEstUnit": 0.4,
+      "lowUnit": 0.75,
+      "bidders": {
+        "PMI PAVEMENT MARKING, LLC": 0.75,
+        "STRIPING TECHNOLOGY, L.P.": 0.4,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 0.45,
+        "STRIPE-A-ZONE, INC.": 0.5,
+        "TRP CONSTRUCTION GROUP, LLC": 0.69
+      }
+    }
+  ]
+}

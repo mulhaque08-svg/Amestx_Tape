@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "csj": "6377-60-001",
+    "county": "Polk",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637760001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "04/16/21",
+    "engEstTotal": 278424.38,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "S G COMPANY, LLC",
+      "totalBidAmount": 249677.23
+    },
+    {
+      "rank": 2,
+      "vendorName": "IDEA CONTRACTING LLC",
+      "totalBidAmount": 252278.1
+    },
+    {
+      "rank": 3,
+      "vendorName": "ROY LEE WALKER",
+      "totalBidAmount": 265828.52
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 282.5,
+      "engEstUnit": 26.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "S G COMPANY, LLC": 3.0,
+        "IDEA CONTRACTING LLC": 145.0,
+        "ROY LEE WALKER": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 7985.12,
+      "engEstUnit": 26.0,
+      "lowUnit": 24.0,
+      "bidders": {
+        "S G COMPANY, LLC": 24.0,
+        "IDEA CONTRACTING LLC": 20.0,
+        "ROY LEE WALKER": 25.89
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 50.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "S G COMPANY, LLC": 1.0,
+        "IDEA CONTRACTING LLC": 100.0,
+        "ROY LEE WALKER": 1.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 6497.64,
+      "engEstUnit": 9.0,
+      "lowUnit": 8.75,
+      "bidders": {
+        "S G COMPANY, LLC": 8.75,
+        "IDEA CONTRACTING LLC": 5.0,
+        "ROY LEE WALKER": 9.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 282.5,
+      "engEstUnit": 15.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "S G COMPANY, LLC": 1.0,
+        "IDEA CONTRACTING LLC": 50.0,
+        "ROY LEE WALKER": 1.0
+      }
+    }
+  ]
+}

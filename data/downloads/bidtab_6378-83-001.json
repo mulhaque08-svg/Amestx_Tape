@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6378-83-001",
+    "county": "Wichita",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637883001",
+    "projectType": "PAINT AND BEADS",
+    "letDate": "04/26/21",
+    "engEstTotal": 79250.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 88000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 94530.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8003 6001",
+      "description": "TRAFFIC PAINT (W)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 3200.0,
+      "lowUnit": 3300.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 3300.0,
+        "TOUCHSTONE RESOURCES, LLC": 3864.0
+      }
+    },
+    {
+      "itemCode": "8003 6002",
+      "description": "TRAFFIC PAINT (Y)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 3275.0,
+      "lowUnit": 3500.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 3500.0,
+        "TOUCHSTONE RESOURCES, LLC": 3864.0
+      }
+    },
+    {
+      "itemCode": "8003 6003",
+      "description": "GLASS BEADS (TY III)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 1450.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "DIGG COMMERCIAL, LLC": 2000.0,
+        "TOUCHSTONE RESOURCES, LLC": 1725.0
+      }
+    }
+  ]
+}

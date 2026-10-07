@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "csj": "6380-18-001",
+    "county": "Lamb",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638018001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "05/05/21",
+    "engEstTotal": 641552.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BERT WHITAKER",
+      "totalBidAmount": 467330.8
+    },
+    {
+      "rank": 2,
+      "vendorName": "CM COMPANY",
+      "totalBidAmount": 511549.04
+    },
+    {
+      "rank": 3,
+      "vendorName": "CLASSIC IRRIGATION & LANDSCAPE LLC",
+      "totalBidAmount": 563844.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 597561.44
+    },
+    {
+      "rank": 5,
+      "vendorName": "TEXAS BLACKTOPS LLC",
+      "totalBidAmount": 694208.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "BERT WHITAKER": 1000.0,
+        "CM COMPANY": 1.0,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 1.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 1.0,
+        "TEXAS BLACKTOPS LLC": 1000.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 18728.0,
+      "engEstUnit": 34.0,
+      "lowUnit": 24.74,
+      "bidders": {
+        "BERT WHITAKER": 24.74,
+        "CM COMPANY": 26.93,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 30.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 31.48,
+        "TEXAS BLACKTOPS LLC": 36.0
+      }
+    }
+  ]
+}

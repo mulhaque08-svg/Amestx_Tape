@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "csj": "6376-45-001",
+    "county": "Red River",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637645001",
+    "projectType": "DENSE GRADED HOT MIX",
+    "letDate": "04/15/21",
+    "engEstTotal": 242000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RK HALL, LLC",
+      "totalBidAmount": 244000.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "RICHARD DRAKE CONSTRUCTION COMPANY, L.P.",
+      "totalBidAmount": 298000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6005",
+      "description": "D-GR HMA(SQ) TY F PG 64-22 (PICKUP)",
+      "unit": "TON",
+      "quantity": 4000.0,
+      "engEstUnit": 60.5,
+      "lowUnit": 61.0,
+      "bidders": {
+        "RK HALL, LLC": 61.0,
+        "RICHARD DRAKE CONSTRUCTION COMPANY, L.P.": 74.5
+      }
+    }
+  ]
+}

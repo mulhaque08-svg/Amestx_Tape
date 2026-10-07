@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6376-86-001",
+    "county": "Dimmit",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637686001",
+    "projectType": "FLEXIBLE BASE",
+    "letDate": "04/28/21",
+    "engEstTotal": 72600.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 53270.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 150000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "AUSTIN MATERIALS, LLC",
+      "totalBidAmount": 153000.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "MARTIN MARIETTA MATERIALS, INC.",
+      "totalBidAmount": 180000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8007 6078",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 1)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 25.78,
+      "lowUnit": 18.03,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 18.03,
+        "DIGG COMMERCIAL, LLC": 50.0,
+        "AUSTIN MATERIALS, LLC": 52.0,
+        "MARTIN MARIETTA MATERIALS, INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "8007 6079",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 2)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 26.26,
+      "lowUnit": 17.62,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 17.62,
+        "DIGG COMMERCIAL, LLC": 50.0,
+        "AUSTIN MATERIALS, LLC": 51.0,
+        "MARTIN MARIETTA MATERIALS, INC.": 60.0
+      }
+    },
+    {
+      "itemCode": "8007 6080",
+      "description": "FL BS (SITE DEL) (TY A GR 1-2) (SITE 3)",
+      "unit": "TON",
+      "quantity": 1000.0,
+      "engEstUnit": 20.56,
+      "lowUnit": 17.62,
+      "bidders": {
+        "COLORADO MATERIALS, LTD.": 17.62,
+        "DIGG COMMERCIAL, LLC": 50.0,
+        "AUSTIN MATERIALS, LLC": 50.0,
+        "MARTIN MARIETTA MATERIALS, INC.": 60.0
+      }
+    }
+  ]
+}

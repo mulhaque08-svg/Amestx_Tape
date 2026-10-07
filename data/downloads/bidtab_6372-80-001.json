@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "csj": "6372-80-001",
+    "county": "Hunt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637280001",
+    "projectType": "SITE SPECIFIC TY I STRIPING",
+    "letDate": "01/07/21",
+    "engEstTotal": 1197215.66,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CENTERLINE TECHNOLOGIES, LLC",
+      "totalBidAmount": 904562.06
+    },
+    {
+      "rank": 2,
+      "vendorName": "STRIPING TECHNOLOGY, L.P.",
+      "totalBidAmount": 983841.07
+    },
+    {
+      "rank": 3,
+      "vendorName": "BARRICADES UNLIMITED",
+      "totalBidAmount": 1115306.56
+    },
+    {
+      "rank": 4,
+      "vendorName": "STRIPE-A-ZONE, INC.",
+      "totalBidAmount": 1117181.24
+    },
+    {
+      "rank": 5,
+      "vendorName": "BATTERSON, LLP",
+      "totalBidAmount": 1118505.83
+    },
+    {
+      "rank": 6,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 1139092.27
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 47606.39,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 1.0,
+        "STRIPING TECHNOLOGY, L.P.": 1.0,
+        "BARRICADES UNLIMITED": 1.0,
+        "STRIPE-A-ZONE, INC.": 1.0,
+        "BATTERSON, LLP": 20000.0,
+        "TRP CONSTRUCTION GROUP, LLC": 50000.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 201400.0,
+      "engEstUnit": 0.41,
+      "lowUnit": 0.35,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 0.35,
+        "STRIPING TECHNOLOGY, L.P.": 0.25,
+        "BARRICADES UNLIMITED": 0.2,
+        "STRIPE-A-ZONE, INC.": 0.42,
+        "BATTERSON, LLP": 0.29,
+        "TRP CONSTRUCTION GROUP, LLC": 0.25
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 201400.0,
+      "engEstUnit": 0.08,
+      "lowUnit": 0.001,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 0.001,
+        "STRIPING TECHNOLOGY, L.P.": 0.01,
+        "BARRICADES UNLIMITED": 0.02,
+        "STRIPE-A-ZONE, INC.": 0.09,
+        "BATTERSON, LLP": 0.01,
+        "TRP CONSTRUCTION GROUP, LLC": 0.01
+      }
+    }
+  ]
+}

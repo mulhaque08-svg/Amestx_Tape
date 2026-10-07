@@ -1,0 +1,851 @@
+{
+  "metadata": {
+    "csj": "0474-01-005",
+    "county": "Kimble",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 474-1-5",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "08/04/21",
+    "engEstTotal": 2705633.45,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "RELMCO, INC.",
+      "totalBidAmount": 2649387.4
+    },
+    {
+      "rank": 2,
+      "vendorName": "ACME BRIDGE COMPANY, INC.",
+      "totalBidAmount": 3068068.44
+    },
+    {
+      "rank": 3,
+      "vendorName": "DELGADO'S CONTRACTORS, LLC",
+      "totalBidAmount": 3482474.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "PGC GENERAL CONTRACTORS, LLC",
+      "totalBidAmount": 3488928.68
+    },
+    {
+      "rank": 5,
+      "vendorName": "INTEGRITY SERVICES, LLC",
+      "totalBidAmount": 3878615.06
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 11.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 6000.0,
+      "bidders": {
+        "RELMCO, INC.": 6000.0,
+        "ACME BRIDGE COMPANY, INC.": 3140.0,
+        "DELGADO'S CONTRACTORS, LLC": 2000.0,
+        "PGC GENERAL CONTRACTORS, LLC": 4141.51,
+        "INTEGRITY SERVICES, LLC": 1200.0
+      }
+    },
+    {
+      "itemCode": "0104 6001",
+      "description": "REMOVING CONC (PAV)",
+      "unit": "SY",
+      "quantity": 1681.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "RELMCO, INC.": 10.0,
+        "ACME BRIDGE COMPANY, INC.": 12.4,
+        "DELGADO'S CONTRACTORS, LLC": 24.0,
+        "PGC GENERAL CONTRACTORS, LLC": 19.33,
+        "INTEGRITY SERVICES, LLC": 15.25
+      }
+    },
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 1098.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "RELMCO, INC.": 10.0,
+        "ACME BRIDGE COMPANY, INC.": 10.5,
+        "DELGADO'S CONTRACTORS, LLC": 9.0,
+        "PGC GENERAL CONTRACTORS, LLC": 17.95,
+        "INTEGRITY SERVICES, LLC": 11.0
+      }
+    },
+    {
+      "itemCode": "0104 6021",
+      "description": "REMOVING CONC (CURB)",
+      "unit": "LF",
+      "quantity": 1212.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "RELMCO, INC.": 8.0,
+        "ACME BRIDGE COMPANY, INC.": 12.5,
+        "DELGADO'S CONTRACTORS, LLC": 5.0,
+        "PGC GENERAL CONTRACTORS, LLC": 1.38,
+        "INTEGRITY SERVICES, LLC": 15.5
+      }
+    },
+    {
+      "itemCode": "0105 6084",
+      "description": "REM STAB BASE & ASPH (6\"-12\")",
+      "unit": "SY",
+      "quantity": 1192.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 6.5,
+      "bidders": {
+        "RELMCO, INC.": 6.5,
+        "ACME BRIDGE COMPANY, INC.": 9.7,
+        "DELGADO'S CONTRACTORS, LLC": 7.0,
+        "PGC GENERAL CONTRACTORS, LLC": 5.52,
+        "INTEGRITY SERVICES, LLC": 8.9
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 142.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "RELMCO, INC.": 20.0,
+        "ACME BRIDGE COMPANY, INC.": 30.0,
+        "DELGADO'S CONTRACTORS, LLC": 10.0,
+        "PGC GENERAL CONTRACTORS, LLC": 41.42,
+        "INTEGRITY SERVICES, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 556.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 18.0,
+      "bidders": {
+        "RELMCO, INC.": 18.0,
+        "ACME BRIDGE COMPANY, INC.": 20.1,
+        "DELGADO'S CONTRACTORS, LLC": 10.0,
+        "PGC GENERAL CONTRACTORS, LLC": 41.42,
+        "INTEGRITY SERVICES, LLC": 25.0
+      }
+    },
+    {
+      "itemCode": "0132 6003",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY B)",
+      "unit": "CY",
+      "quantity": 8137.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 23.0,
+      "bidders": {
+        "RELMCO, INC.": 23.0,
+        "ACME BRIDGE COMPANY, INC.": 21.1,
+        "DELGADO'S CONTRACTORS, LLC": 42.0,
+        "PGC GENERAL CONTRACTORS, LLC": 50.0,
+        "INTEGRITY SERVICES, LLC": 20.0
+      }
+    },
+    {
+      "itemCode": "0160 6003",
+      "description": "FURNISHING AND PLACING TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 5534.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "RELMCO, INC.": 4.0,
+        "ACME BRIDGE COMPANY, INC.": 2.6,
+        "DELGADO'S CONTRACTORS, LLC": 7.0,
+        "PGC GENERAL CONTRACTORS, LLC": 5.52,
+        "INTEGRITY SERVICES, LLC": 4.5
+      }
+    },
+    {
+      "itemCode": "0164 6003",
+      "description": "BROADCAST SEED (PERM) (RURAL) (CLAY)",
+      "unit": "SY",
+      "quantity": 5534.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.47,
+      "bidders": {
+        "RELMCO, INC.": 0.47,
+        "ACME BRIDGE COMPANY, INC.": 0.46,
+        "DELGADO'S CONTRACTORS, LLC": 1.0,
+        "PGC GENERAL CONTRACTORS, LLC": 0.59,
+        "INTEGRITY SERVICES, LLC": 0.48
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 2767.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.47,
+      "bidders": {
+        "RELMCO, INC.": 0.47,
+        "ACME BRIDGE COMPANY, INC.": 0.79,
+        "DELGADO'S CONTRACTORS, LLC": 1.0,
+        "PGC GENERAL CONTRACTORS, LLC": 1.04,
+        "INTEGRITY SERVICES, LLC": 0.84
+      }
+    },
+    {
+      "itemCode": "0164 6011",
+      "description": "BROADCAST SEED (TEMP) (COOL)",
+      "unit": "SY",
+      "quantity": 2767.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.47,
+      "bidders": {
+        "RELMCO, INC.": 0.47,
+        "ACME BRIDGE COMPANY, INC.": 0.8,
+        "DELGADO'S CONTRACTORS, LLC": 1.0,
+        "PGC GENERAL CONTRACTORS, LLC": 1.05,
+        "INTEGRITY SERVICES, LLC": 0.85
+      }
+    },
+    {
+      "itemCode": "0216 6001",
+      "description": "PROOF ROLLING",
+      "unit": "HR",
+      "quantity": 3.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "RELMCO, INC.": 150.0,
+        "ACME BRIDGE COMPANY, INC.": 63.9,
+        "DELGADO'S CONTRACTORS, LLC": 150.0,
+        "PGC GENERAL CONTRACTORS, LLC": 110.44,
+        "INTEGRITY SERVICES, LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "0330 6004",
+      "description": "LRA PAV TY-I GR-C",
+      "unit": "TON",
+      "quantity": 571.0,
+      "engEstUnit": 105.0,
+      "lowUnit": 105.0,
+      "bidders": {
+        "RELMCO, INC.": 105.0,
+        "ACME BRIDGE COMPANY, INC.": 107.0,
+        "DELGADO'S CONTRACTORS, LLC": 150.0,
+        "PGC GENERAL CONTRACTORS, LLC": 207.08,
+        "INTEGRITY SERVICES, LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "0360 6001",
+      "description": "CONC PVMT (CONT REINF - CRCP) (7\")",
+      "unit": "SY",
+      "quantity": 2714.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 92.23,
+      "bidders": {
+        "RELMCO, INC.": 92.23,
+        "ACME BRIDGE COMPANY, INC.": 109.0,
+        "DELGADO'S CONTRACTORS, LLC": 110.0,
+        "PGC GENERAL CONTRACTORS, LLC": 118.03,
+        "INTEGRITY SERVICES, LLC": 90.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 96.3,
+      "engEstUnit": 150.0,
+      "lowUnit": 165.0,
+      "bidders": {
+        "RELMCO, INC.": 165.0,
+        "ACME BRIDGE COMPANY, INC.": 125.0,
+        "DELGADO'S CONTRACTORS, LLC": 165.0,
+        "PGC GENERAL CONTRACTORS, LLC": 117.34,
+        "INTEGRITY SERVICES, LLC": 230.0
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 1063.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 20.0,
+      "bidders": {
+        "RELMCO, INC.": 20.0,
+        "ACME BRIDGE COMPANY, INC.": 35.0,
+        "DELGADO'S CONTRACTORS, LLC": 15.5,
+        "PGC GENERAL CONTRACTORS, LLC": 15.19,
+        "INTEGRITY SERVICES, LLC": 35.0
+      }
+    },
+    {
+      "itemCode": "0416 6004",
+      "description": "DRILL SHAFT (36 IN)",
+      "unit": "LF",
+      "quantity": 404.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 435.0,
+      "bidders": {
+        "RELMCO, INC.": 435.0,
+        "ACME BRIDGE COMPANY, INC.": 332.0,
+        "DELGADO'S CONTRACTORS, LLC": 325.0,
+        "PGC GENERAL CONTRACTORS, LLC": 295.2,
+        "INTEGRITY SERVICES, LLC": 542.7
+      }
+    },
+    {
+      "itemCode": "0420 6013",
+      "description": "CL C CONC (ABUT)",
+      "unit": "CY",
+      "quantity": 45.3,
+      "engEstUnit": 1200.0,
+      "lowUnit": 1052.18,
+      "bidders": {
+        "RELMCO, INC.": 1052.18,
+        "ACME BRIDGE COMPANY, INC.": 1000.0,
+        "DELGADO'S CONTRACTORS, LLC": 1100.0,
+        "PGC GENERAL CONTRACTORS, LLC": 984.31,
+        "INTEGRITY SERVICES, LLC": 1200.0
+      }
+    },
+    {
+      "itemCode": "0420 6029",
+      "description": "CL C CONC (CAP)",
+      "unit": "CY",
+      "quantity": 31.4,
+      "engEstUnit": 1400.0,
+      "lowUnit": 1164.41,
+      "bidders": {
+        "RELMCO, INC.": 1164.41,
+        "ACME BRIDGE COMPANY, INC.": 1200.0,
+        "DELGADO'S CONTRACTORS, LLC": 1100.0,
+        "PGC GENERAL CONTRACTORS, LLC": 1097.09,
+        "INTEGRITY SERVICES, LLC": 1250.0
+      }
+    },
+    {
+      "itemCode": "0420 6037",
+      "description": "CL C CONC (COLUMN)",
+      "unit": "CY",
+      "quantity": 29.8,
+      "engEstUnit": 1400.0,
+      "lowUnit": 1096.2,
+      "bidders": {
+        "RELMCO, INC.": 1096.2,
+        "ACME BRIDGE COMPANY, INC.": 1200.0,
+        "DELGADO'S CONTRACTORS, LLC": 1100.0,
+        "PGC GENERAL CONTRACTORS, LLC": 981.37,
+        "INTEGRITY SERVICES, LLC": 1250.0
+      }
+    },
+    {
+      "itemCode": "0422 6001",
+      "description": "REINF CONC SLAB",
+      "unit": "SF",
+      "quantity": 7820.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 19.11,
+      "bidders": {
+        "RELMCO, INC.": 19.11,
+        "ACME BRIDGE COMPANY, INC.": 26.0,
+        "DELGADO'S CONTRACTORS, LLC": 25.0,
+        "PGC GENERAL CONTRACTORS, LLC": 28.93,
+        "INTEGRITY SERVICES, LLC": 25.0
+      }
+    },
+    {
+      "itemCode": "0422 6015",
+      "description": "APPROACH SLAB",
+      "unit": "CY",
+      "quantity": 72.8,
+      "engEstUnit": 450.0,
+      "lowUnit": 784.0,
+      "bidders": {
+        "RELMCO, INC.": 784.0,
+        "ACME BRIDGE COMPANY, INC.": 602.0,
+        "DELGADO'S CONTRACTORS, LLC": 1000.0,
+        "PGC GENERAL CONTRACTORS, LLC": 737.04,
+        "INTEGRITY SERVICES, LLC": 650.0
+      }
+    },
+    {
+      "itemCode": "0425 6037",
+      "description": "PRESTR CONC GIRDER (TX40)",
+      "unit": "LF",
+      "quantity": 913.92,
+      "engEstUnit": 150.0,
+      "lowUnit": 165.0,
+      "bidders": {
+        "RELMCO, INC.": 165.0,
+        "ACME BRIDGE COMPANY, INC.": 240.0,
+        "DELGADO'S CONTRACTORS, LLC": 200.0,
+        "PGC GENERAL CONTRACTORS, LLC": 235.34,
+        "INTEGRITY SERVICES, LLC": 234.25
+      }
+    },
+    {
+      "itemCode": "0432 6033",
+      "description": "RIPRAP (STONE PROTECTION)(18 IN)",
+      "unit": "CY",
+      "quantity": 439.0,
+      "engEstUnit": 125.0,
+      "lowUnit": 108.44,
+      "bidders": {
+        "RELMCO, INC.": 108.44,
+        "ACME BRIDGE COMPANY, INC.": 149.0,
+        "DELGADO'S CONTRACTORS, LLC": 135.0,
+        "PGC GENERAL CONTRACTORS, LLC": 138.05,
+        "INTEGRITY SERVICES, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0432 6037",
+      "description": "RIPRAP (STONE PROTECTION) (36 IN)",
+      "unit": "CY",
+      "quantity": 4380.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 88.84,
+      "bidders": {
+        "RELMCO, INC.": 88.84,
+        "ACME BRIDGE COMPANY, INC.": 142.0,
+        "DELGADO'S CONTRACTORS, LLC": 185.0,
+        "PGC GENERAL CONTRACTORS, LLC": 124.25,
+        "INTEGRITY SERVICES, LLC": 220.0
+      }
+    },
+    {
+      "itemCode": "0432 6047",
+      "description": "RIPRAP (MOW STRIP)(6 IN)",
+      "unit": "CY",
+      "quantity": 39.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 616.0,
+      "bidders": {
+        "RELMCO, INC.": 616.0,
+        "ACME BRIDGE COMPANY, INC.": 750.0,
+        "DELGADO'S CONTRACTORS, LLC": 600.0,
+        "PGC GENERAL CONTRACTORS, LLC": 613.09,
+        "INTEGRITY SERVICES, LLC": 550.0
+      }
+    },
+    {
+      "itemCode": "0450 6040",
+      "description": "RAIL (TY C66)",
+      "unit": "LF",
+      "quantity": 500.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 110.0,
+      "bidders": {
+        "RELMCO, INC.": 110.0,
+        "ACME BRIDGE COMPANY, INC.": 219.0,
+        "DELGADO'S CONTRACTORS, LLC": 100.0,
+        "PGC GENERAL CONTRACTORS, LLC": 260.83,
+        "INTEGRITY SERVICES, LLC": 158.0
+      }
+    },
+    {
+      "itemCode": "0454 6003",
+      "description": "ARMOR JOINT",
+      "unit": "LF",
+      "quantity": 62.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 134.4,
+      "bidders": {
+        "RELMCO, INC.": 134.4,
+        "ACME BRIDGE COMPANY, INC.": 121.0,
+        "DELGADO'S CONTRACTORS, LLC": 180.0,
+        "PGC GENERAL CONTRACTORS, LLC": 107.58,
+        "INTEGRITY SERVICES, LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "0496 6001",
+      "description": "REMOV STR (BOX CULVERT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 18000.0,
+      "bidders": {
+        "RELMCO, INC.": 18000.0,
+        "ACME BRIDGE COMPANY, INC.": 12000.0,
+        "DELGADO'S CONTRACTORS, LLC": 12500.0,
+        "PGC GENERAL CONTRACTORS, LLC": 27517.58,
+        "INTEGRITY SERVICES, LLC": 23100.0
+      }
+    },
+    {
+      "itemCode": "0496 6005",
+      "description": "REMOV STR (WINGWALL)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "RELMCO, INC.": 5000.0,
+        "ACME BRIDGE COMPANY, INC.": 2000.0,
+        "DELGADO'S CONTRACTORS, LLC": 2500.0,
+        "PGC GENERAL CONTRACTORS, LLC": 2070.76,
+        "INTEGRITY SERVICES, LLC": 2500.0
+      }
+    },
+    {
+      "itemCode": "0496 6043",
+      "description": "REMOV STR (SMALL FENCE)",
+      "unit": "LF",
+      "quantity": 62.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "RELMCO, INC.": 100.0,
+        "ACME BRIDGE COMPANY, INC.": 5.0,
+        "DELGADO'S CONTRACTORS, LLC": 100.0,
+        "PGC GENERAL CONTRACTORS, LLC": 6.9,
+        "INTEGRITY SERVICES, LLC": 15.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 135000.0,
+      "lowUnit": 250000.0,
+      "bidders": {
+        "RELMCO, INC.": 250000.0,
+        "ACME BRIDGE COMPANY, INC.": 235000.0,
+        "DELGADO'S CONTRACTORS, LLC": 200000.0,
+        "PGC GENERAL CONTRACTORS, LLC": 255000.0,
+        "INTEGRITY SERVICES, LLC": 405310.3
+      }
+    },
+    {
+      "itemCode": "0508 6001",
+      "description": "CONSTRUCTING DETOURS",
+      "unit": "SY",
+      "quantity": 3342.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "RELMCO, INC.": 60.0,
+        "ACME BRIDGE COMPANY, INC.": 95.4,
+        "DELGADO'S CONTRACTORS, LLC": 100.0,
+        "PGC GENERAL CONTRACTORS, LLC": 100.78,
+        "INTEGRITY SERVICES, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0512 6005",
+      "description": "PORT CTB (FUR & INST)(F-SHAPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 1780.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "RELMCO, INC.": 25.0,
+        "ACME BRIDGE COMPANY, INC.": 40.5,
+        "DELGADO'S CONTRACTORS, LLC": 65.0,
+        "PGC GENERAL CONTRACTORS, LLC": 47.22,
+        "INTEGRITY SERVICES, LLC": 79.36
+      }
+    },
+    {
+      "itemCode": "0512 6053",
+      "description": "PORT CTB (REMOVE)(F-SHAPE)(TY 1)",
+      "unit": "LF",
+      "quantity": 1780.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 18.0,
+      "bidders": {
+        "RELMCO, INC.": 18.0,
+        "ACME BRIDGE COMPANY, INC.": 6.8,
+        "DELGADO'S CONTRACTORS, LLC": 10.0,
+        "PGC GENERAL CONTRACTORS, LLC": 25.99,
+        "INTEGRITY SERVICES, LLC": 14.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2600.0,
+      "lowUnit": 3520.0,
+      "bidders": {
+        "RELMCO, INC.": 3520.0,
+        "ACME BRIDGE COMPANY, INC.": 3280.0,
+        "DELGADO'S CONTRACTORS, LLC": 3250.0,
+        "PGC GENERAL CONTRACTORS, LLC": 4279.57,
+        "INTEGRITY SERVICES, LLC": 3360.0
+      }
+    },
+    {
+      "itemCode": "0545 6005",
+      "description": "CRASH CUSH ATTEN (REMOVE)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 800.0,
+      "bidders": {
+        "RELMCO, INC.": 800.0,
+        "ACME BRIDGE COMPANY, INC.": 185.0,
+        "DELGADO'S CONTRACTORS, LLC": 2000.0,
+        "PGC GENERAL CONTRACTORS, LLC": 241.59,
+        "INTEGRITY SERVICES, LLC": 1120.0
+      }
+    },
+    {
+      "itemCode": "0545 6018",
+      "description": "CRASH CUSH ATTEN (INSTL)(S)(N)(TL2)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 6500.0,
+      "lowUnit": 7500.0,
+      "bidders": {
+        "RELMCO, INC.": 7500.0,
+        "ACME BRIDGE COMPANY, INC.": 9520.0,
+        "DELGADO'S CONTRACTORS, LLC": 10000.0,
+        "PGC GENERAL CONTRACTORS, LLC": 12424.54,
+        "INTEGRITY SERVICES, LLC": 11200.0
+      }
+    },
+    {
+      "itemCode": "0550 6006",
+      "description": "GATE (REMOVE)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "RELMCO, INC.": 600.0,
+        "ACME BRIDGE COMPANY, INC.": 529.0,
+        "DELGADO'S CONTRACTORS, LLC": 400.0,
+        "PGC GENERAL CONTRACTORS, LLC": 552.2,
+        "INTEGRITY SERVICES, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0552 6003",
+      "description": "WIRE FENCE (TY C)",
+      "unit": "LF",
+      "quantity": 62.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "RELMCO, INC.": 25.0,
+        "ACME BRIDGE COMPANY, INC.": 10.6,
+        "DELGADO'S CONTRACTORS, LLC": 20.0,
+        "PGC GENERAL CONTRACTORS, LLC": 19.33,
+        "INTEGRITY SERVICES, LLC": 22.5
+      }
+    },
+    {
+      "itemCode": "0552 6005",
+      "description": "GATE (TY 1)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1500.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "RELMCO, INC.": 2500.0,
+        "ACME BRIDGE COMPANY, INC.": 1060.0,
+        "DELGADO'S CONTRACTORS, LLC": 1500.0,
+        "PGC GENERAL CONTRACTORS, LLC": 1656.6,
+        "INTEGRITY SERVICES, LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 700.0,
+      "lowUnit": 641.3,
+      "bidders": {
+        "RELMCO, INC.": 641.3,
+        "ACME BRIDGE COMPANY, INC.": 617.0,
+        "DELGADO'S CONTRACTORS, LLC": 700.0,
+        "PGC GENERAL CONTRACTORS, LLC": 773.08,
+        "INTEGRITY SERVICES, LLC": 980.0
+      }
+    },
+    {
+      "itemCode": "0644 6023",
+      "description": "IN SM RD SN SUP&AM TYFRP(1)UA(P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 600.0,
+      "lowUnit": 739.2,
+      "bidders": {
+        "RELMCO, INC.": 739.2,
+        "ACME BRIDGE COMPANY, INC.": 711.0,
+        "DELGADO'S CONTRACTORS, LLC": 800.0,
+        "PGC GENERAL CONTRACTORS, LLC": 897.33,
+        "INTEGRITY SERVICES, LLC": 1120.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 101.2,
+      "bidders": {
+        "RELMCO, INC.": 101.2,
+        "ACME BRIDGE COMPANY, INC.": 97.4,
+        "DELGADO'S CONTRACTORS, LLC": 102.0,
+        "PGC GENERAL CONTRACTORS, LLC": 124.25,
+        "INTEGRITY SERVICES, LLC": 112.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 26.4,
+      "bidders": {
+        "RELMCO, INC.": 26.4,
+        "ACME BRIDGE COMPANY, INC.": 25.4,
+        "DELGADO'S CONTRACTORS, LLC": 30.0,
+        "PGC GENERAL CONTRACTORS, LLC": 14.57,
+        "INTEGRITY SERVICES, LLC": 16.8
+      }
+    },
+    {
+      "itemCode": "0658 6047",
+      "description": "INSTL OM ASSM (OM-2Y)(WC)GND",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 97.9,
+      "bidders": {
+        "RELMCO, INC.": 97.9,
+        "ACME BRIDGE COMPANY, INC.": 94.2,
+        "DELGADO'S CONTRACTORS, LLC": 100.0,
+        "PGC GENERAL CONTRACTORS, LLC": 90.77,
+        "INTEGRITY SERVICES, LLC": 50.4
+      }
+    },
+    {
+      "itemCode": "0658 6061",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 30.8,
+      "bidders": {
+        "RELMCO, INC.": 30.8,
+        "ACME BRIDGE COMPANY, INC.": 29.6,
+        "DELGADO'S CONTRACTORS, LLC": 32.0,
+        "PGC GENERAL CONTRACTORS, LLC": 36.93,
+        "INTEGRITY SERVICES, LLC": 28.0
+      }
+    },
+    {
+      "itemCode": "0658 6102",
+      "description": "INSTL OM ASSM (OM-3L)(WFLX)SRF)SRF",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 530.0,
+      "lowUnit": 247.5,
+      "bidders": {
+        "RELMCO, INC.": 247.5,
+        "ACME BRIDGE COMPANY, INC.": 238.0,
+        "DELGADO'S CONTRACTORS, LLC": 250.0,
+        "PGC GENERAL CONTRACTORS, LLC": 111.13,
+        "INTEGRITY SERVICES, LLC": 550.0
+      }
+    },
+    {
+      "itemCode": "0658 6104",
+      "description": "INSTL OM ASSM (OM-3R)(WFLX)SRF)SRF",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 640.0,
+      "lowUnit": 247.5,
+      "bidders": {
+        "RELMCO, INC.": 247.5,
+        "ACME BRIDGE COMPANY, INC.": 238.0,
+        "DELGADO'S CONTRACTORS, LLC": 250.0,
+        "PGC GENERAL CONTRACTORS, LLC": 111.13,
+        "INTEGRITY SERVICES, LLC": 550.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 95.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 11.0,
+      "bidders": {
+        "RELMCO, INC.": 11.0,
+        "ACME BRIDGE COMPANY, INC.": 5.3,
+        "DELGADO'S CONTRACTORS, LLC": 11.0,
+        "PGC GENERAL CONTRACTORS, LLC": 6.9,
+        "INTEGRITY SERVICES, LLC": 5.6
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 394.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 11.0,
+      "bidders": {
+        "RELMCO, INC.": 11.0,
+        "ACME BRIDGE COMPANY, INC.": 1.3,
+        "DELGADO'S CONTRACTORS, LLC": 11.0,
+        "PGC GENERAL CONTRACTORS, LLC": 1.73,
+        "INTEGRITY SERVICES, LLC": 1.4
+      }
+    },
+    {
+      "itemCode": "0678 6001",
+      "description": "PAV SURF PREP FOR MRK (4\")",
+      "unit": "LF",
+      "quantity": 4916.0,
+      "engEstUnit": 0.25,
+      "lowUnit": 0.55,
+      "bidders": {
+        "RELMCO, INC.": 0.55,
+        "ACME BRIDGE COMPANY, INC.": 0.32,
+        "DELGADO'S CONTRACTORS, LLC": 1.0,
+        "PGC GENERAL CONTRACTORS, LLC": 0.41,
+        "INTEGRITY SERVICES, LLC": 0.34
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 300.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "RELMCO, INC.": 200.0,
+        "ACME BRIDGE COMPANY, INC.": 42.5,
+        "DELGADO'S CONTRACTORS, LLC": 125.0,
+        "PGC GENERAL CONTRACTORS, LLC": 121.48,
+        "INTEGRITY SERVICES, LLC": 52.5
+      }
+    }
+  ]
+}

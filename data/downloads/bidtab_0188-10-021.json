@@ -1,0 +1,4438 @@
+{
+  "metadata": {
+    "csj": "0188-10-021",
+    "county": "Fort Bend",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "F 2021(492)",
+    "projectType": "WIDEN ROADWAY",
+    "letDate": "08/04/21",
+    "engEstTotal": 102375984.75,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ZACHRY CONSTRUCTION CORPORATION",
+      "totalBidAmount": 108363935.28
+    },
+    {
+      "rank": 2,
+      "vendorName": "WEBBER, LLC",
+      "totalBidAmount": 108730117.5
+    },
+    {
+      "rank": 3,
+      "vendorName": "JAMES CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 110849740.24
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 386.6,
+      "engEstUnit": 5000.0,
+      "lowUnit": 16244.68,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 16244.68,
+        "WEBBER, LLC": 28124.7,
+        "JAMES CONSTRUCTION GROUP, LLC": 17375.34
+      }
+    },
+    {
+      "itemCode": "0100 6006",
+      "description": "PREP ROW (TREE)(LESS THAN 24\" DIA)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 1270.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3000.0,
+        "WEBBER, LLC": 4500.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 514.25
+      }
+    },
+    {
+      "itemCode": "0100 6007",
+      "description": "PREP ROW (TREE)(GREATER THAN 24\" DIA)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 5000.0,
+        "WEBBER, LLC": 5000.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1071.35
+      }
+    },
+    {
+      "itemCode": "0104 6001",
+      "description": "REMOVING CONC (PAV)",
+      "unit": "SY",
+      "quantity": 10438.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 8.13,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 8.13,
+        "WEBBER, LLC": 5.23,
+        "JAMES CONSTRUCTION GROUP, LLC": 11.45
+      }
+    },
+    {
+      "itemCode": "0104 6009",
+      "description": "REMOVING CONC (RIPRAP)",
+      "unit": "SY",
+      "quantity": 375.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 4.37,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4.37,
+        "WEBBER, LLC": 4.21,
+        "JAMES CONSTRUCTION GROUP, LLC": 6.18
+      }
+    },
+    {
+      "itemCode": "0104 6015",
+      "description": "REMOVING CONC (SIDEWALKS)",
+      "unit": "SY",
+      "quantity": 1354.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 9.71,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 9.71,
+        "WEBBER, LLC": 2.53,
+        "JAMES CONSTRUCTION GROUP, LLC": 4.34
+      }
+    },
+    {
+      "itemCode": "0104 6017",
+      "description": "REMOVING CONC (DRIVEWAYS)",
+      "unit": "SY",
+      "quantity": 4714.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 6.74,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 6.74,
+        "WEBBER, LLC": 2.87,
+        "JAMES CONSTRUCTION GROUP, LLC": 7.99
+      }
+    },
+    {
+      "itemCode": "0104 6021",
+      "description": "REMOVING CONC (CURB)",
+      "unit": "LF",
+      "quantity": 350.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 1.78,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1.78,
+        "WEBBER, LLC": 1.04,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.29
+      }
+    },
+    {
+      "itemCode": "0104 6023",
+      "description": "REMOVING CONC (CTB)",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 12.37,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 12.37,
+        "WEBBER, LLC": 10.42,
+        "JAMES CONSTRUCTION GROUP, LLC": 17.52
+      }
+    },
+    {
+      "itemCode": "0105 6030",
+      "description": "REMOVING STAB BASE & ASPH PAV (8\"-14\")",
+      "unit": "SY",
+      "quantity": 119531.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 3.36,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3.36,
+        "WEBBER, LLC": 5.9,
+        "JAMES CONSTRUCTION GROUP, LLC": 3.46
+      }
+    },
+    {
+      "itemCode": "0105 6039",
+      "description": "REMOVE STAB BASE AND ASPH PAV (6\"-20\")",
+      "unit": "SY",
+      "quantity": 85241.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 1.35,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1.35,
+        "WEBBER, LLC": 6.8,
+        "JAMES CONSTRUCTION GROUP, LLC": 4.64
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 138322.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 7.75,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 7.75,
+        "WEBBER, LLC": 12.7,
+        "JAMES CONSTRUCTION GROUP, LLC": 3.1
+      }
+    },
+    {
+      "itemCode": "0110 6002",
+      "description": "EXCAVATION (CHANNEL)",
+      "unit": "CY",
+      "quantity": 84280.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 8.0,
+        "WEBBER, LLC": 12.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 6.12
+      }
+    },
+    {
+      "itemCode": "0132 6006",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY C)",
+      "unit": "CY",
+      "quantity": 86149.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3.0,
+        "WEBBER, LLC": 4.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.39
+      }
+    },
+    {
+      "itemCode": "0132 6008",
+      "description": "EMBANKMENT (FINAL)(DENS CONT)(TY D)",
+      "unit": "CY",
+      "quantity": 1415.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 25.0,
+        "WEBBER, LLC": 1.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.11
+      }
+    },
+    {
+      "itemCode": "0132 6035",
+      "description": "EMBANK(FINAL)(DC)(TY E)(CSBE)",
+      "unit": "CY",
+      "quantity": 1850.0,
+      "engEstUnit": 33.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 25.0,
+        "WEBBER, LLC": 40.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 39.5
+      }
+    },
+    {
+      "itemCode": "0150 6002",
+      "description": "BLADING",
+      "unit": "HR",
+      "quantity": 46.0,
+      "engEstUnit": 118.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 500.0,
+        "WEBBER, LLC": 225.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 94.16
+      }
+    },
+    {
+      "itemCode": "0161 6017",
+      "description": "COMPOST MANUF TOPSOIL (4\")",
+      "unit": "SY",
+      "quantity": 81659.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.17,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.17,
+        "WEBBER, LLC": 0.8,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.22
+      }
+    },
+    {
+      "itemCode": "0162 6002",
+      "description": "BLOCK SODDING",
+      "unit": "SY",
+      "quantity": 99043.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 4.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4.0,
+        "WEBBER, LLC": 2.85,
+        "JAMES CONSTRUCTION GROUP, LLC": 3.51
+      }
+    },
+    {
+      "itemCode": "0162 6003",
+      "description": "STRAW OR HAY MULCH",
+      "unit": "SY",
+      "quantity": 170811.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.33,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.33,
+        "WEBBER, LLC": 0.1,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.15
+      }
+    },
+    {
+      "itemCode": "0164 6009",
+      "description": "BROADCAST SEED (TEMP) (WARM)",
+      "unit": "SY",
+      "quantity": 1083.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.16,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.16,
+        "WEBBER, LLC": 0.12,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0164 6051",
+      "description": "DRILL SEED (TEMP)(WARM OR COOL)",
+      "unit": "SY",
+      "quantity": 87915.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.17,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.17,
+        "WEBBER, LLC": 0.15,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.2
+      }
+    },
+    {
+      "itemCode": "0164 6052",
+      "description": "BROADCAST SEED (PERM)(SPECIAL MIX)",
+      "unit": "SY",
+      "quantity": 154.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 2.6,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.6,
+        "WEBBER, LLC": 0.15,
+        "JAMES CONSTRUCTION GROUP, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0164 6066",
+      "description": "DRILL SEEDING (PERM)(WARM OR COOL)",
+      "unit": "SY",
+      "quantity": 81659.0,
+      "engEstUnit": 0.2,
+      "lowUnit": 0.15,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.15,
+        "WEBBER, LLC": 0.18,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.25
+      }
+    },
+    {
+      "itemCode": "0166 6001",
+      "description": "FERTILIZER",
+      "unit": "AC",
+      "quantity": 53.8,
+      "engEstUnit": 800.0,
+      "lowUnit": 300.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 300.0,
+        "WEBBER, LLC": 500.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 656.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 6696.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 25.0,
+        "WEBBER, LLC": 26.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 18.0
+      }
+    },
+    {
+      "itemCode": "0260 6006",
+      "description": "LIME TRT (EXST MATL) (6\")",
+      "unit": "SY",
+      "quantity": 229678.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 3.07,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3.07,
+        "WEBBER, LLC": 2.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.49
+      }
+    },
+    {
+      "itemCode": "0260 6007",
+      "description": "LIME TRT (NEW BASE) (6\")",
+      "unit": "SY",
+      "quantity": 4471.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 4.5,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4.5,
+        "WEBBER, LLC": 2.8,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.92
+      }
+    },
+    {
+      "itemCode": "0260 6012",
+      "description": "LIME(HYD,COM OR QK)(SLRY)OR QK(DRY)",
+      "unit": "TON",
+      "quantity": 3102.4,
+      "engEstUnit": 180.0,
+      "lowUnit": 180.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 180.0,
+        "WEBBER, LLC": 47.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 193.7
+      }
+    },
+    {
+      "itemCode": "0275 6001",
+      "description": "CEMENT",
+      "unit": "TON",
+      "quantity": 4797.4,
+      "engEstUnit": 155.0,
+      "lowUnit": 134.56,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 134.56,
+        "WEBBER, LLC": 47.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 154.01
+      }
+    },
+    {
+      "itemCode": "0275 6002",
+      "description": "CEMENT TREAT (EXIST MATL) (6\")",
+      "unit": "SY",
+      "quantity": 229678.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 2.26,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.26,
+        "WEBBER, LLC": 1.8,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.31
+      }
+    },
+    {
+      "itemCode": "0276 6224",
+      "description": "CEM TRT(PLNT MX) (CL N)(TY E)(GR 4)(6\")",
+      "unit": "SY",
+      "quantity": 289493.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 8.33,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 8.33,
+        "WEBBER, LLC": 6.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 11.24
+      }
+    },
+    {
+      "itemCode": "0292 6002",
+      "description": "ASPHALT STAB BASE (GR 2)(PG 64)",
+      "unit": "TON",
+      "quantity": 412.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 80.93,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 80.93,
+        "WEBBER, LLC": 82.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 118.06
+      }
+    },
+    {
+      "itemCode": "0292 6017",
+      "description": "ASPHALT STAB BASE (GR 4)(PG 64)",
+      "unit": "TON",
+      "quantity": 15923.5,
+      "engEstUnit": 80.0,
+      "lowUnit": 79.93,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 79.93,
+        "WEBBER, LLC": 81.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 93.08
+      }
+    },
+    {
+      "itemCode": "0305 6038",
+      "description": "SALV, HAUL & STKPL RCL APH PV (5 TO 9\")",
+      "unit": "SY",
+      "quantity": 85241.0,
+      "engEstUnit": 2.3,
+      "lowUnit": 0.59,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.59,
+        "WEBBER, LLC": 2.06,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.01
+      }
+    },
+    {
+      "itemCode": "0356 6026",
+      "description": "FABRIC (BASE)",
+      "unit": "SY",
+      "quantity": 4915.0,
+      "engEstUnit": 1.65,
+      "lowUnit": 2.3,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.3,
+        "WEBBER, LLC": 3.53,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.04
+      }
+    },
+    {
+      "itemCode": "0360 6004",
+      "description": "CONC PVMT (CONT REINF - CRCP) (10\")",
+      "unit": "SY",
+      "quantity": 260996.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 54.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 54.0,
+        "WEBBER, LLC": 45.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 65.57
+      }
+    },
+    {
+      "itemCode": "0360 6043",
+      "description": "CONC PVMT (CONT REINF)(FAST TRK)(13\")",
+      "unit": "SY",
+      "quantity": 80417.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 125.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 125.0,
+        "WEBBER, LLC": 64.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 113.19
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 48838.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 53.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 53.0,
+        "WEBBER, LLC": 35.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 37.27
+      }
+    },
+    {
+      "itemCode": "0400 6007",
+      "description": "CUT & RESTORE CONC PAVING",
+      "unit": "SY",
+      "quantity": 90.0,
+      "engEstUnit": 210.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 250.0,
+        "WEBBER, LLC": 130.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 111.54
+      }
+    },
+    {
+      "itemCode": "0400 6008",
+      "description": "CUT & RESTORE ASPH PAVING",
+      "unit": "SY",
+      "quantity": 1709.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 61.13,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 61.13,
+        "WEBBER, LLC": 156.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 77.71
+      }
+    },
+    {
+      "itemCode": "0400 6009",
+      "description": "CEMENT STAB BACKFILL (INLET OR MH)",
+      "unit": "CY",
+      "quantity": 3236.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 54.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 54.0,
+        "WEBBER, LLC": 42.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 37.27
+      }
+    },
+    {
+      "itemCode": "0401 6001",
+      "description": "FLOWABLE BACKFILL",
+      "unit": "CY",
+      "quantity": 208.0,
+      "engEstUnit": 164.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 250.0,
+        "WEBBER, LLC": 240.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 138.18
+      }
+    },
+    {
+      "itemCode": "0402 6001",
+      "description": "TRENCH EXCAVATION PROTECTION",
+      "unit": "LF",
+      "quantity": 57955.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.86,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.86,
+        "WEBBER, LLC": 4.15,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.07
+      }
+    },
+    {
+      "itemCode": "0403 6001",
+      "description": "TEMPORARY SPL SHORING",
+      "unit": "SF",
+      "quantity": 1547.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 150.0,
+        "WEBBER, LLC": 42.56,
+        "JAMES CONSTRUCTION GROUP, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0416 6001",
+      "description": "DRILL SHAFT (18 IN)",
+      "unit": "LF",
+      "quantity": 156.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 60.59,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 60.59,
+        "WEBBER, LLC": 69.98,
+        "JAMES CONSTRUCTION GROUP, LLC": 101.83
+      }
+    },
+    {
+      "itemCode": "0416 6002",
+      "description": "DRILL SHAFT (24 IN)",
+      "unit": "LF",
+      "quantity": 1700.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 82.73,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 82.73,
+        "WEBBER, LLC": 88.71,
+        "JAMES CONSTRUCTION GROUP, LLC": 146.07
+      }
+    },
+    {
+      "itemCode": "0416 6003",
+      "description": "DRILL SHAFT (30 IN)",
+      "unit": "LF",
+      "quantity": 12636.0,
+      "engEstUnit": 170.0,
+      "lowUnit": 113.5,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 113.5,
+        "WEBBER, LLC": 115.07,
+        "JAMES CONSTRUCTION GROUP, LLC": 139.5
+      }
+    },
+    {
+      "itemCode": "0416 6005",
+      "description": "DRILL SHAFT (42 IN)",
+      "unit": "LF",
+      "quantity": 117.0,
+      "engEstUnit": 235.0,
+      "lowUnit": 254.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 254.0,
+        "WEBBER, LLC": 325.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 257.84
+      }
+    },
+    {
+      "itemCode": "0416 6006",
+      "description": "DRILL SHAFT (48 IN)",
+      "unit": "LF",
+      "quantity": 20.0,
+      "engEstUnit": 511.0,
+      "lowUnit": 326.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 326.0,
+        "WEBBER, LLC": 350.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 307.63
+      }
+    },
+    {
+      "itemCode": "0416 6007",
+      "description": "DRILL SHAFT (54 IN)",
+      "unit": "LF",
+      "quantity": 25.0,
+      "engEstUnit": 480.0,
+      "lowUnit": 716.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 716.0,
+        "WEBBER, LLC": 450.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 370.25
+      }
+    },
+    {
+      "itemCode": "0416 6029",
+      "description": "DRILL SHAFT (RDWY ILL POLE) (30 IN)",
+      "unit": "LF",
+      "quantity": 80.0,
+      "engEstUnit": 217.0,
+      "lowUnit": 191.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 191.0,
+        "WEBBER, LLC": 220.37,
+        "JAMES CONSTRUCTION GROUP, LLC": 180.13
+      }
+    },
+    {
+      "itemCode": "0416 6032",
+      "description": "DRILL SHAFT (TRF SIG POLE) (36 IN)",
+      "unit": "LF",
+      "quantity": 289.0,
+      "engEstUnit": 260.0,
+      "lowUnit": 252.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 252.0,
+        "WEBBER, LLC": 253.03,
+        "JAMES CONSTRUCTION GROUP, LLC": 208.75
+      }
+    },
+    {
+      "itemCode": "0416 6034",
+      "description": "DRILL SHAFT (TRF SIG POLE) (48 IN)",
+      "unit": "LF",
+      "quantity": 748.0,
+      "engEstUnit": 352.0,
+      "lowUnit": 324.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 324.0,
+        "WEBBER, LLC": 290.21,
+        "JAMES CONSTRUCTION GROUP, LLC": 307.63
+      }
+    },
+    {
+      "itemCode": "0420 6013",
+      "description": "CL C CONC (ABUT)",
+      "unit": "CY",
+      "quantity": 78.2,
+      "engEstUnit": 800.0,
+      "lowUnit": 1106.4,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1106.4,
+        "WEBBER, LLC": 4000.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 975.11
+      }
+    },
+    {
+      "itemCode": "0420 6029",
+      "description": "CL C CONC (CAP)",
+      "unit": "CY",
+      "quantity": 59.4,
+      "engEstUnit": 950.0,
+      "lowUnit": 1804.31,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1804.31,
+        "WEBBER, LLC": 4500.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1449.44
+      }
+    },
+    {
+      "itemCode": "0420 6037",
+      "description": "CL C CONC (COLUMN)",
+      "unit": "CY",
+      "quantity": 28.0,
+      "engEstUnit": 850.0,
+      "lowUnit": 2329.84,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2329.84,
+        "WEBBER, LLC": 4800.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1109.01
+      }
+    },
+    {
+      "itemCode": "0420 6071",
+      "description": "CL C CONC (COLLAR)",
+      "unit": "EA",
+      "quantity": 11.0,
+      "engEstUnit": 975.0,
+      "lowUnit": 2572.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2572.0,
+        "WEBBER, LLC": 830.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 564.12
+      }
+    },
+    {
+      "itemCode": "0420 6144",
+      "description": "CLASS S CONC UTILITY PROTECTION PADDING",
+      "unit": "CY",
+      "quantity": 10.2,
+      "engEstUnit": 700.0,
+      "lowUnit": 654.8,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 654.8,
+        "WEBBER, LLC": 500.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 677.83
+      }
+    },
+    {
+      "itemCode": "0422 6007",
+      "description": "REINF CONC SLAB (SLAB BEAM)",
+      "unit": "SF",
+      "quantity": 15824.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 11.81,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 11.81,
+        "WEBBER, LLC": 30.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 9.53
+      }
+    },
+    {
+      "itemCode": "0422 6011",
+      "description": "BRIDGE MEDIAN",
+      "unit": "SF",
+      "quantity": 1764.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 9.07,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 9.07,
+        "WEBBER, LLC": 18.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 8.8
+      }
+    },
+    {
+      "itemCode": "0422 6013",
+      "description": "BRIDGE SIDEWALK",
+      "unit": "SF",
+      "quantity": 1966.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 10.26,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 10.26,
+        "WEBBER, LLC": 17.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 8.42
+      }
+    },
+    {
+      "itemCode": "0422 6015",
+      "description": "APPROACH SLAB",
+      "unit": "CY",
+      "quantity": 129.0,
+      "engEstUnit": 480.0,
+      "lowUnit": 900.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 900.0,
+        "WEBBER, LLC": 2500.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 544.77
+      }
+    },
+    {
+      "itemCode": "0425 6011",
+      "description": "PRESTR CONC SLAB BEAM (4SB15)",
+      "unit": "LF",
+      "quantity": 871.5,
+      "engEstUnit": 150.0,
+      "lowUnit": 154.33,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 154.33,
+        "WEBBER, LLC": 275.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 150.87
+      }
+    },
+    {
+      "itemCode": "0425 6012",
+      "description": "PRESTR CONC SLAB BEAM (5SB15)",
+      "unit": "LF",
+      "quantity": 2365.5,
+      "engEstUnit": 190.0,
+      "lowUnit": 150.97,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 150.97,
+        "WEBBER, LLC": 215.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 152.07
+      }
+    },
+    {
+      "itemCode": "0432 6001",
+      "description": "RIPRAP (CONC)(4 IN)",
+      "unit": "CY",
+      "quantity": 4600.3,
+      "engEstUnit": 400.0,
+      "lowUnit": 385.54,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 385.54,
+        "WEBBER, LLC": 427.54,
+        "JAMES CONSTRUCTION GROUP, LLC": 375.84
+      }
+    },
+    {
+      "itemCode": "0432 6002",
+      "description": "RIPRAP (CONC)(5 IN)",
+      "unit": "CY",
+      "quantity": 450.0,
+      "engEstUnit": 420.0,
+      "lowUnit": 439.95,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 439.95,
+        "WEBBER, LLC": 424.03,
+        "JAMES CONSTRUCTION GROUP, LLC": 338.16
+      }
+    },
+    {
+      "itemCode": "0432 6003",
+      "description": "RIPRAP (CONC)(6 IN)",
+      "unit": "CY",
+      "quantity": 195.0,
+      "engEstUnit": 450.0,
+      "lowUnit": 517.79,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 517.79,
+        "WEBBER, LLC": 418.36,
+        "JAMES CONSTRUCTION GROUP, LLC": 338.16
+      }
+    },
+    {
+      "itemCode": "0432 6006",
+      "description": "RIPRAP (CONC)(CL B)",
+      "unit": "CY",
+      "quantity": 969.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 380.55,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 380.55,
+        "WEBBER, LLC": 432.53,
+        "JAMES CONSTRUCTION GROUP, LLC": 338.16
+      }
+    },
+    {
+      "itemCode": "0432 6026",
+      "description": "RIPRAP (STONE COMMON)(DRY)(18 IN)",
+      "unit": "CY",
+      "quantity": 32.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 261.18,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 261.18,
+        "WEBBER, LLC": 159.45,
+        "JAMES CONSTRUCTION GROUP, LLC": 335.6
+      }
+    },
+    {
+      "itemCode": "0432 6032",
+      "description": "RIPRAP (STONE PROTECTION)(15 IN)",
+      "unit": "CY",
+      "quantity": 1645.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 165.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 165.0,
+        "WEBBER, LLC": 161.34,
+        "JAMES CONSTRUCTION GROUP, LLC": 131.29
+      }
+    },
+    {
+      "itemCode": "0450 6032",
+      "description": "RAIL (TY C223)",
+      "unit": "LF",
+      "quantity": 288.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 201.93,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 201.93,
+        "WEBBER, LLC": 170.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 93.09
+      }
+    },
+    {
+      "itemCode": "0450 6103",
+      "description": "RAIL (TY PR11)",
+      "unit": "LF",
+      "quantity": 250.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 179.86,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 179.86,
+        "WEBBER, LLC": 113.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 136.33
+      }
+    },
+    {
+      "itemCode": "0454 6018",
+      "description": "SEALED EXPANSION JOINT (4 IN) (SEJ - M)",
+      "unit": "LF",
+      "quantity": 223.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 135.28,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 135.28,
+        "WEBBER, LLC": 150.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 102.19
+      }
+    },
+    {
+      "itemCode": "0460 6003",
+      "description": "CMP (GAL STL 24 IN)",
+      "unit": "LF",
+      "quantity": 53.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 72.7,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 72.7,
+        "WEBBER, LLC": 95.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 116.52
+      }
+    },
+    {
+      "itemCode": "0460 6004",
+      "description": "CMP (GAL STL 30 IN)",
+      "unit": "LF",
+      "quantity": 36.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 99.35,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 99.35,
+        "WEBBER, LLC": 95.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 162.66
+      }
+    },
+    {
+      "itemCode": "0460 6008",
+      "description": "CMP (GAL STL 60 IN)",
+      "unit": "LF",
+      "quantity": 25.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 211.87,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 211.87,
+        "WEBBER, LLC": 210.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 286.12
+      }
+    },
+    {
+      "itemCode": "0466 6151",
+      "description": "WINGWALL (FW - 0) (HW=4 FT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 5850.0,
+      "lowUnit": 4894.96,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4894.96,
+        "WEBBER, LLC": 18000.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 8940.83
+      }
+    },
+    {
+      "itemCode": "0466 6192",
+      "description": "WINGWALL (PW - 2) (HW=3 FT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 7200.0,
+      "lowUnit": 6043.17,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 6043.17,
+        "WEBBER, LLC": 16000.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 7154.21
+      }
+    },
+    {
+      "itemCode": "0467 6030",
+      "description": "SET (TY I) (60 IN) (6: 1) (C)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 8848.23,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 8848.23,
+        "WEBBER, LLC": 9500.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 9886.06
+      }
+    },
+    {
+      "itemCode": "0467 6171",
+      "description": "SET (TY I)(S= 5 FT)(HW= 3 FT)(3:1) (C)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 8010.0,
+      "lowUnit": 8000.9,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 8000.9,
+        "WEBBER, LLC": 6500.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 6573.93
+      }
+    },
+    {
+      "itemCode": "0467 6174",
+      "description": "SET (TY I)(S= 5 FT)(HW= 3 FT)(6:1) (P)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 4300.0,
+      "lowUnit": 8095.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 8095.0,
+        "WEBBER, LLC": 11100.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 11095.34
+      }
+    },
+    {
+      "itemCode": "0467 6280",
+      "description": "SET (TY I)(S= 8 FT)(HW= 6 FT)(4:1) (C)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 16000.0,
+      "lowUnit": 13550.97,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 13550.97,
+        "WEBBER, LLC": 27000.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 14421.36
+      }
+    },
+    {
+      "itemCode": "0467 6359",
+      "description": "SET (TY II) (18 IN) (RCP) (4: 1) (P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 834.0,
+      "lowUnit": 1879.43,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1879.43,
+        "WEBBER, LLC": 1600.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 976.3
+      }
+    },
+    {
+      "itemCode": "0467 6376",
+      "description": "SET (TY II) (24 IN) (CMP) (3: 1) (P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 920.0,
+      "lowUnit": 2275.33,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2275.33,
+        "WEBBER, LLC": 1700.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 992.36
+      }
+    },
+    {
+      "itemCode": "0467 6388",
+      "description": "SET (TY II) (24 IN) (RCP) (3: 1) (C)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 1380.0,
+      "lowUnit": 2029.33,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2029.33,
+        "WEBBER, LLC": 1100.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 992.58
+      }
+    },
+    {
+      "itemCode": "0467 6390",
+      "description": "SET (TY II) (24 IN) (RCP) (4: 1) (C)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 1508.0,
+      "lowUnit": 2427.77,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2427.77,
+        "WEBBER, LLC": 1100.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1158.52
+      }
+    },
+    {
+      "itemCode": "0467 6391",
+      "description": "SET (TY II) (24 IN) (RCP) (4: 1) (P)",
+      "unit": "EA",
+      "quantity": 41.0,
+      "engEstUnit": 1565.0,
+      "lowUnit": 2768.68,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2768.68,
+        "WEBBER, LLC": 1400.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1158.59
+      }
+    },
+    {
+      "itemCode": "0467 6394",
+      "description": "SET (TY II) (24 IN) (RCP) (6: 1) (C)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 1560.0,
+      "lowUnit": 3198.52,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3198.52,
+        "WEBBER, LLC": 1400.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1234.3
+      }
+    },
+    {
+      "itemCode": "0467 6395",
+      "description": "SET (TY II) (24 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 1400.0,
+      "lowUnit": 3198.52,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3198.52,
+        "WEBBER, LLC": 1600.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1233.37
+      }
+    },
+    {
+      "itemCode": "0467 6420",
+      "description": "SET (TY II) (30 IN) (RCP) (4: 1) (P)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2031.0,
+      "lowUnit": 3012.42,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3012.42,
+        "WEBBER, LLC": 1800.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1345.51
+      }
+    },
+    {
+      "itemCode": "0467 6422",
+      "description": "SET (TY II) (30 IN) (RCP) (6: 1) (C)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 2765.0,
+      "lowUnit": 3349.16,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3349.16,
+        "WEBBER, LLC": 2200.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1479.66
+      }
+    },
+    {
+      "itemCode": "0467 6453",
+      "description": "SET (TY II) (36 IN) (RCP) (6: 1) (C)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 3686.0,
+      "lowUnit": 4872.66,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4872.66,
+        "WEBBER, LLC": 2400.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1972.7
+      }
+    },
+    {
+      "itemCode": "0467 6465",
+      "description": "SET (TY II) (42 IN) (RCP) (6: 1) (C)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 8750.0,
+      "lowUnit": 7671.57,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 7671.57,
+        "WEBBER, LLC": 6200.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 5583.32
+      }
+    },
+    {
+      "itemCode": "0467 6479",
+      "description": "SET (TY II) (48 IN) (RCP) (6: 1) (C)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 4900.0,
+      "lowUnit": 13592.98,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 13592.98,
+        "WEBBER, LLC": 7000.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 6007.19
+      }
+    },
+    {
+      "itemCode": "0467 6480",
+      "description": "SET (TY II) (48 IN) (RCP) (6: 1) (P)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 6078.0,
+      "lowUnit": 13592.98,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 13592.98,
+        "WEBBER, LLC": 9000.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 7949.52
+      }
+    },
+    {
+      "itemCode": "0476 6044",
+      "description": "JACK BOR OR TUN PIPE(60 IN)(RC)(CL III)",
+      "unit": "LF",
+      "quantity": 150.0,
+      "engEstUnit": 1800.0,
+      "lowUnit": 1596.5,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1596.5,
+        "WEBBER, LLC": 1500.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1604.69
+      }
+    },
+    {
+      "itemCode": "0476 6071",
+      "description": "JACK BOR TUN BOX CULV (5 FT X 2 FT)",
+      "unit": "LF",
+      "quantity": 460.0,
+      "engEstUnit": 2528.0,
+      "lowUnit": 1315.38,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1315.38,
+        "WEBBER, LLC": 1400.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1349.44
+      }
+    },
+    {
+      "itemCode": "0476 6100",
+      "description": "JACK BOR TUN BOX CULV (12 FT X 6 FT)",
+      "unit": "LF",
+      "quantity": 80.0,
+      "engEstUnit": 9980.0,
+      "lowUnit": 5503.91,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 5503.91,
+        "WEBBER, LLC": 5400.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 5517.15
+      }
+    },
+    {
+      "itemCode": "0496 6002",
+      "description": "REMOV STR (INLET)",
+      "unit": "EA",
+      "quantity": 33.0,
+      "engEstUnit": 380.0,
+      "lowUnit": 1507.25,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1507.25,
+        "WEBBER, LLC": 480.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 679.74
+      }
+    },
+    {
+      "itemCode": "0496 6003",
+      "description": "REMOV STR (MANHOLE)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 420.0,
+      "lowUnit": 1514.93,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1514.93,
+        "WEBBER, LLC": 480.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 67.3
+      }
+    },
+    {
+      "itemCode": "0496 6004",
+      "description": "REMOV STR (SET)",
+      "unit": "EA",
+      "quantity": 320.0,
+      "engEstUnit": 235.0,
+      "lowUnit": 257.5,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 257.5,
+        "WEBBER, LLC": 330.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 453.16
+      }
+    },
+    {
+      "itemCode": "0496 6007",
+      "description": "REMOV STR (PIPE)",
+      "unit": "LF",
+      "quantity": 15949.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 12.84,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 12.84,
+        "WEBBER, LLC": 13.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 17.51
+      }
+    },
+    {
+      "itemCode": "0496 6008",
+      "description": "REMOV STR (BOX CULVERT)",
+      "unit": "LF",
+      "quantity": 921.0,
+      "engEstUnit": 45.0,
+      "lowUnit": 54.22,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 54.22,
+        "WEBBER, LLC": 26.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 68.61
+      }
+    },
+    {
+      "itemCode": "0496 6010",
+      "description": "REMOV STR (BRIDGE 100 - 499 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 120000.0,
+      "lowUnit": 60880.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 60880.0,
+        "WEBBER, LLC": 449100.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 20122.99
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 9277606.69,
+      "lowUnit": 7375000.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 7375000.0,
+        "WEBBER, LLC": 10873012.05,
+        "JAMES CONSTRUCTION GROUP, LLC": 11000000.0
+      }
+    },
+    {
+      "itemCode": "0508 6001",
+      "description": "CONSTRUCTING DETOURS",
+      "unit": "SY",
+      "quantity": 58764.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 67.92,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 67.92,
+        "WEBBER, LLC": 68.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 76.35
+      }
+    },
+    {
+      "itemCode": "0512 6009",
+      "description": "PORT CTB (FUR & INST)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 14460.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 57.38,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 57.38,
+        "WEBBER, LLC": 58.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 50.41
+      }
+    },
+    {
+      "itemCode": "0512 6010",
+      "description": "PORT CTB (FUR & INST)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 1560.0,
+      "engEstUnit": 50.0,
+      "lowUnit": 65.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 65.0,
+        "WEBBER, LLC": 55.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 50.58
+      }
+    },
+    {
+      "itemCode": "0512 6021",
+      "description": "PORT CTB (DES SOURCE)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 16450.0,
+      "engEstUnit": 9.0,
+      "lowUnit": 6.44,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 6.44,
+        "WEBBER, LLC": 9.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 9.56
+      }
+    },
+    {
+      "itemCode": "0512 6022",
+      "description": "PORT CTB (DES SOURCE)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 1140.0,
+      "engEstUnit": 24.0,
+      "lowUnit": 11.54,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 11.54,
+        "WEBBER, LLC": 9.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 9.63
+      }
+    },
+    {
+      "itemCode": "0512 6033",
+      "description": "PORT CTB (MOVE)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 37630.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 6.0,
+        "WEBBER, LLC": 3.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 3.34
+      }
+    },
+    {
+      "itemCode": "0512 6034",
+      "description": "PORT CTB (MOVE)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 3160.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 15.0,
+        "WEBBER, LLC": 4.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 3.34
+      }
+    },
+    {
+      "itemCode": "0512 6045",
+      "description": "PORT CTB (STKPL)(LOW PROF)(TY 1)",
+      "unit": "LF",
+      "quantity": 14460.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 15.0,
+        "WEBBER, LLC": 7.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 7.74
+      }
+    },
+    {
+      "itemCode": "0512 6046",
+      "description": "PORT CTB (STKPL)(LOW PROF)(TY 2)",
+      "unit": "LF",
+      "quantity": 1720.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 15.0,
+        "WEBBER, LLC": 10.6,
+        "JAMES CONSTRUCTION GROUP, LLC": 7.75
+      }
+    },
+    {
+      "itemCode": "0529 6005",
+      "description": "CONC CURB (MONO) (TY II)",
+      "unit": "LF",
+      "quantity": 118997.0,
+      "engEstUnit": 5.5,
+      "lowUnit": 3.46,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3.46,
+        "WEBBER, LLC": 3.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.93
+      }
+    },
+    {
+      "itemCode": "0529 6008",
+      "description": "CONC CURB & GUTTER (TY II)",
+      "unit": "LF",
+      "quantity": 776.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 17.39,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 17.39,
+        "WEBBER, LLC": 15.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 18.76
+      }
+    },
+    {
+      "itemCode": "0529 6009",
+      "description": "CONC CURB (DOWEL)(SLOTTED)",
+      "unit": "LF",
+      "quantity": 959.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 17.66,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 17.66,
+        "WEBBER, LLC": 25.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 5.22
+      }
+    },
+    {
+      "itemCode": "0529 6011",
+      "description": "CONC CURB (DOWEL)",
+      "unit": "LF",
+      "quantity": 3452.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 12.19,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 12.19,
+        "WEBBER, LLC": 25.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 5.64
+      }
+    },
+    {
+      "itemCode": "0529 6012",
+      "description": "CONC CURB (SLOTTED)",
+      "unit": "LF",
+      "quantity": 21504.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 7.05,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 7.05,
+        "WEBBER, LLC": 25.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.93
+      }
+    },
+    {
+      "itemCode": "0530 6004",
+      "description": "DRIVEWAYS (CONC)",
+      "unit": "SY",
+      "quantity": 2231.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 74.65,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 74.65,
+        "WEBBER, LLC": 64.73,
+        "JAMES CONSTRUCTION GROUP, LLC": 54.14
+      }
+    },
+    {
+      "itemCode": "0530 6025",
+      "description": "DRIVEWAYS (CONC) (FAST TRACK)",
+      "unit": "SY",
+      "quantity": 9605.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 62.09,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 62.09,
+        "WEBBER, LLC": 79.73,
+        "JAMES CONSTRUCTION GROUP, LLC": 57.42
+      }
+    },
+    {
+      "itemCode": "0531 6001",
+      "description": "CONC SIDEWALKS (4\")",
+      "unit": "SY",
+      "quantity": 34562.0,
+      "engEstUnit": 55.0,
+      "lowUnit": 48.99,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 48.99,
+        "WEBBER, LLC": 44.73,
+        "JAMES CONSTRUCTION GROUP, LLC": 38.11
+      }
+    },
+    {
+      "itemCode": "0531 6004",
+      "description": "CURB RAMPS (TY 1)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 2513.33,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2513.33,
+        "WEBBER, LLC": 1618.15,
+        "JAMES CONSTRUCTION GROUP, LLC": 1609.74
+      }
+    },
+    {
+      "itemCode": "0531 6008",
+      "description": "CURB RAMPS (TY 5)",
+      "unit": "EA",
+      "quantity": 11.0,
+      "engEstUnit": 2374.0,
+      "lowUnit": 2703.57,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2703.57,
+        "WEBBER, LLC": 1918.15,
+        "JAMES CONSTRUCTION GROUP, LLC": 3200.68
+      }
+    },
+    {
+      "itemCode": "0531 6010",
+      "description": "CURB RAMPS (TY 7)",
+      "unit": "EA",
+      "quantity": 108.0,
+      "engEstUnit": 1700.0,
+      "lowUnit": 2803.57,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2803.57,
+        "WEBBER, LLC": 1318.15,
+        "JAMES CONSTRUCTION GROUP, LLC": 1609.83
+      }
+    },
+    {
+      "itemCode": "0531 6016",
+      "description": "CURB RAMPS (TY 21)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 2903.57,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2903.57,
+        "WEBBER, LLC": 1918.15,
+        "JAMES CONSTRUCTION GROUP, LLC": 3350.49
+      }
+    },
+    {
+      "itemCode": "0531 6017",
+      "description": "CURB RAMPS (TY 22)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 3163.0,
+      "lowUnit": 4310.71,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4310.71,
+        "WEBBER, LLC": 2118.15,
+        "JAMES CONSTRUCTION GROUP, LLC": 3350.47
+      }
+    },
+    {
+      "itemCode": "0531 6048",
+      "description": "CONC SIDEWALKS (9\")",
+      "unit": "SY",
+      "quantity": 2100.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 84.79,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 84.79,
+        "WEBBER, LLC": 59.73,
+        "JAMES CONSTRUCTION GROUP, LLC": 80.69
+      }
+    },
+    {
+      "itemCode": "0536 6003",
+      "description": "CONC DIRECTIONAL ISLAND",
+      "unit": "LF",
+      "quantity": 427.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 71.09,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 71.09,
+        "WEBBER, LLC": 55.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 30.26
+      }
+    },
+    {
+      "itemCode": "0542 6001",
+      "description": "REMOVE METAL BEAM GUARD FENCE",
+      "unit": "LF",
+      "quantity": 449.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.0,
+        "WEBBER, LLC": 2.17,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0542 6002",
+      "description": "REMOVE TERMINAL ANCHOR SECTION",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 250.0,
+        "WEBBER, LLC": 285.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 3000.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3000.0,
+        "WEBBER, LLC": 2910.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 3000.0
+      }
+    },
+    {
+      "itemCode": "0544 6003",
+      "description": "GUARDRAIL END TREATMENT (REMOVE)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 270.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 150.0,
+        "WEBBER, LLC": 285.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0550 6001",
+      "description": "CHAIN LINK FENCE (INSTALL) (6')",
+      "unit": "LF",
+      "quantity": 2220.0,
+      "engEstUnit": 19.0,
+      "lowUnit": 17.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 17.0,
+        "WEBBER, LLC": 17.15,
+        "JAMES CONSTRUCTION GROUP, LLC": 16.5
+      }
+    },
+    {
+      "itemCode": "0550 6012",
+      "description": "CHAIN LINK FENCE GATE (INSTALL)(6'X16')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 4000.0,
+      "lowUnit": 15000.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 15000.0,
+        "WEBBER, LLC": 500.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1200.0
+      }
+    },
+    {
+      "itemCode": "0560 6001",
+      "description": "MAILBOX INSTALL-S (TWG-POST) TY 1",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 250.0,
+      "lowUnit": 315.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 315.0,
+        "WEBBER, LLC": 235.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 315.0
+      }
+    },
+    {
+      "itemCode": "0610 6007",
+      "description": "REMOVE RD IL ASM (SHOE-BASE)",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 170.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 170.0,
+        "WEBBER, LLC": 2500.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 250.0
+      }
+    },
+    {
+      "itemCode": "0610 6214",
+      "description": "IN RD IL (TY SA) 40T-8 (250W EQ) LED",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 2927.0,
+      "lowUnit": 3315.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3315.0,
+        "WEBBER, LLC": 3240.88,
+        "JAMES CONSTRUCTION GROUP, LLC": 3009.0
+      }
+    },
+    {
+      "itemCode": "0618 6031",
+      "description": "CONDT (PVC) (SCH 40) (3\") (CONC ENCSE)",
+      "unit": "LF",
+      "quantity": 20278.0,
+      "engEstUnit": 9.0,
+      "lowUnit": 13.81,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 13.81,
+        "WEBBER, LLC": 17.27,
+        "JAMES CONSTRUCTION GROUP, LLC": 16.33
+      }
+    },
+    {
+      "itemCode": "0618 6046",
+      "description": "CONDT (PVC) (SCH 80) (2\")",
+      "unit": "LF",
+      "quantity": 5932.0,
+      "engEstUnit": 8.0,
+      "lowUnit": 7.52,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 7.52,
+        "WEBBER, LLC": 12.14,
+        "JAMES CONSTRUCTION GROUP, LLC": 7.06
+      }
+    },
+    {
+      "itemCode": "0618 6047",
+      "description": "CONDT (PVC) (SCH 80) (2\") (BORE)",
+      "unit": "LF",
+      "quantity": 5813.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 9.64,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 9.64,
+        "WEBBER, LLC": 13.05,
+        "JAMES CONSTRUCTION GROUP, LLC": 12.66
+      }
+    },
+    {
+      "itemCode": "0618 6053",
+      "description": "CONDT (PVC) (SCH 80) (3\")",
+      "unit": "LF",
+      "quantity": 16265.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 12.1,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 12.1,
+        "WEBBER, LLC": 17.24,
+        "JAMES CONSTRUCTION GROUP, LLC": 10.15
+      }
+    },
+    {
+      "itemCode": "0618 6054",
+      "description": "CONDT (PVC) (SCH 80) (3\") (BORE)",
+      "unit": "LF",
+      "quantity": 11130.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 14.21,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 14.21,
+        "WEBBER, LLC": 18.15,
+        "JAMES CONSTRUCTION GROUP, LLC": 16.98
+      }
+    },
+    {
+      "itemCode": "0618 6058",
+      "description": "CONDT (PVC) (SCH 80) (4\")",
+      "unit": "LF",
+      "quantity": 666.0,
+      "engEstUnit": 14.0,
+      "lowUnit": 17.33,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 17.33,
+        "WEBBER, LLC": 23.17,
+        "JAMES CONSTRUCTION GROUP, LLC": 17.18
+      }
+    },
+    {
+      "itemCode": "0618 6059",
+      "description": "CONDT (PVC) (SCH 80) (4\") (BORE)",
+      "unit": "LF",
+      "quantity": 1895.0,
+      "engEstUnit": 28.0,
+      "lowUnit": 19.5,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 19.5,
+        "WEBBER, LLC": 24.54,
+        "JAMES CONSTRUCTION GROUP, LLC": 19.72
+      }
+    },
+    {
+      "itemCode": "0618 6074",
+      "description": "CONDT (RM) (3\")",
+      "unit": "LF",
+      "quantity": 130.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 42.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 42.0,
+        "WEBBER, LLC": 38.41,
+        "JAMES CONSTRUCTION GROUP, LLC": 53.74
+      }
+    },
+    {
+      "itemCode": "0620 6002",
+      "description": "ELEC CONDR (NO.14) INSULATED",
+      "unit": "LF",
+      "quantity": 40718.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.09,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1.09,
+        "WEBBER, LLC": 0.69,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.04
+      }
+    },
+    {
+      "itemCode": "0620 6007",
+      "description": "ELEC CONDR (NO.8) BARE",
+      "unit": "LF",
+      "quantity": 1416.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.44,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1.44,
+        "WEBBER, LLC": 1.01,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.22
+      }
+    },
+    {
+      "itemCode": "0620 6008",
+      "description": "ELEC CONDR (NO.8) INSULATED",
+      "unit": "LF",
+      "quantity": 2832.0,
+      "engEstUnit": 1.3,
+      "lowUnit": 1.68,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1.68,
+        "WEBBER, LLC": 1.27,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.44
+      }
+    },
+    {
+      "itemCode": "0620 6009",
+      "description": "ELEC CONDR (NO.6) BARE",
+      "unit": "LF",
+      "quantity": 20538.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.65,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1.65,
+        "WEBBER, LLC": 1.23,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.4
+      }
+    },
+    {
+      "itemCode": "0620 6010",
+      "description": "ELEC CONDR (NO.6) INSULATED",
+      "unit": "LF",
+      "quantity": 6361.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.9,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1.9,
+        "WEBBER, LLC": 1.45,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.59
+      }
+    },
+    {
+      "itemCode": "0620 6011",
+      "description": "ELEC CONDR (NO.4) BARE",
+      "unit": "LF",
+      "quantity": 965.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.59,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.59,
+        "WEBBER, LLC": 2.17,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.45
+      }
+    },
+    {
+      "itemCode": "0620 6012",
+      "description": "ELEC CONDR (NO.4) INSULATED",
+      "unit": "LF",
+      "quantity": 2075.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 2.97,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.97,
+        "WEBBER, LLC": 2.75,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.75
+      }
+    },
+    {
+      "itemCode": "0620 6015",
+      "description": "ELEC CONDR (NO.2) BARE",
+      "unit": "LF",
+      "quantity": 220.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 3.15,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3.15,
+        "WEBBER, LLC": 2.92,
+        "JAMES CONSTRUCTION GROUP, LLC": 3.4
+      }
+    },
+    {
+      "itemCode": "0620 6016",
+      "description": "ELEC CONDR (NO.2) INSULATED",
+      "unit": "LF",
+      "quantity": 660.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 3.45,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3.45,
+        "WEBBER, LLC": 3.22,
+        "JAMES CONSTRUCTION GROUP, LLC": 3.65
+      }
+    },
+    {
+      "itemCode": "0621 6005",
+      "description": "TRAY CABLE (4 CONDR) (12 AWG)",
+      "unit": "LF",
+      "quantity": 7860.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.31,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.31,
+        "WEBBER, LLC": 1.88,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.94
+      }
+    },
+    {
+      "itemCode": "0624 6002",
+      "description": "GROUND BOX TY A (122311)W/APRON",
+      "unit": "EA",
+      "quantity": 29.0,
+      "engEstUnit": 730.0,
+      "lowUnit": 737.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 737.0,
+        "WEBBER, LLC": 745.92,
+        "JAMES CONSTRUCTION GROUP, LLC": 721.21
+      }
+    },
+    {
+      "itemCode": "0624 6010",
+      "description": "GROUND BOX TY D (162922)W/APRON",
+      "unit": "EA",
+      "quantity": 80.0,
+      "engEstUnit": 1150.0,
+      "lowUnit": 892.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 892.0,
+        "WEBBER, LLC": 862.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 863.5
+      }
+    },
+    {
+      "itemCode": "0628 6054",
+      "description": "ELC SRV TY A 240/480 060(SS)SS(E)SP(O)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 7227.0,
+      "lowUnit": 5715.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 5715.0,
+        "WEBBER, LLC": 4909.4,
+        "JAMES CONSTRUCTION GROUP, LLC": 6730.0
+      }
+    },
+    {
+      "itemCode": "0628 6128",
+      "description": "ELC SRV TY D 120/240 060(NS)GS(N)GC(O)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 6300.0,
+      "lowUnit": 4995.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4995.0,
+        "WEBBER, LLC": 4201.4,
+        "JAMES CONSTRUCTION GROUP, LLC": 6120.0
+      }
+    },
+    {
+      "itemCode": "0628 6145",
+      "description": "ELC SRV TY D 120/240 060(NS)SS(E)SP(O)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 3894.0,
+      "lowUnit": 4659.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4659.0,
+        "WEBBER, LLC": 3906.4,
+        "JAMES CONSTRUCTION GROUP, LLC": 5835.0
+      }
+    },
+    {
+      "itemCode": "0628 6157",
+      "description": "ELC SRV TY D 120/240 060(SS)SS(E)SP(O)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 6000.0,
+      "lowUnit": 4659.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4659.0,
+        "WEBBER, LLC": 3847.4,
+        "JAMES CONSTRUCTION GROUP, LLC": 5835.0
+      }
+    },
+    {
+      "itemCode": "0628 6201",
+      "description": "ELC SRV TY D 120/240 070(SS)AL(E)SP(U)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 6000.0,
+      "lowUnit": 3583.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3583.0,
+        "WEBBER, LLC": 5263.4,
+        "JAMES CONSTRUCTION GROUP, LLC": 5480.0
+      }
+    },
+    {
+      "itemCode": "0628 6250",
+      "description": "ELC SRV TY D 120/240 100(NS)SS(N)SP(O)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 3201.0,
+      "lowUnit": 4287.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4287.0,
+        "WEBBER, LLC": 3611.4,
+        "JAMES CONSTRUCTION GROUP, LLC": 5520.0
+      }
+    },
+    {
+      "itemCode": "0644 6001",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(P)",
+      "unit": "EA",
+      "quantity": 194.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 425.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 425.0,
+        "WEBBER, LLC": 433.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 425.0
+      }
+    },
+    {
+      "itemCode": "0644 6004",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(T)",
+      "unit": "EA",
+      "quantity": 30.0,
+      "engEstUnit": 550.0,
+      "lowUnit": 535.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 535.0,
+        "WEBBER, LLC": 527.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 535.0
+      }
+    },
+    {
+      "itemCode": "0644 6007",
+      "description": "IN SM RD SN SUP&AM TY10BWG(1)SA(U)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 694.0,
+      "lowUnit": 690.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 690.0,
+        "WEBBER, LLC": 699.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 690.0
+      }
+    },
+    {
+      "itemCode": "0644 6031",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(T-2EXT)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 890.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 890.0,
+        "WEBBER, LLC": 896.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 890.0
+      }
+    },
+    {
+      "itemCode": "0644 6033",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U)",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 760.0,
+      "lowUnit": 795.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 795.0,
+        "WEBBER, LLC": 794.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 795.0
+      }
+    },
+    {
+      "itemCode": "0644 6034",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U-1EXT)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 800.0,
+      "lowUnit": 810.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 810.0,
+        "WEBBER, LLC": 796.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 810.0
+      }
+    },
+    {
+      "itemCode": "0644 6037",
+      "description": "IN SM RD SN SUP&AM TYS80(1)SA(U-WC)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 825.0,
+      "lowUnit": 1200.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1200.0,
+        "WEBBER, LLC": 1072.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1200.0
+      }
+    },
+    {
+      "itemCode": "0644 6068",
+      "description": "RELOCATE SM RD SN SUP&AM TY 10BWG",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 314.0,
+      "lowUnit": 335.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 335.0,
+        "WEBBER, LLC": 358.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 335.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 72.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 60.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 60.0,
+        "WEBBER, LLC": 54.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 60.0
+      }
+    },
+    {
+      "itemCode": "0650 6021",
+      "description": "INS OH SN SUP(25 FT BAL TEE)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 25910.0,
+      "lowUnit": 29850.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 29850.0,
+        "WEBBER, LLC": 29739.69,
+        "JAMES CONSTRUCTION GROUP, LLC": 29648.0
+      }
+    },
+    {
+      "itemCode": "0650 6038",
+      "description": "INS OH SN SUP(35 FT CANT)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 18900.0,
+      "lowUnit": 27692.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 27692.0,
+        "WEBBER, LLC": 27605.81,
+        "JAMES CONSTRUCTION GROUP, LLC": 27980.0
+      }
+    },
+    {
+      "itemCode": "0658 6063",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BR)",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 30.0,
+        "WEBBER, LLC": 35.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 30.0
+      }
+    },
+    {
+      "itemCode": "0658 6069",
+      "description": "INSTL DEL ASSM (D-SW)SZ  (BRF)CTB (BR)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 23.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 23.0,
+        "WEBBER, LLC": 35.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 23.0
+      }
+    },
+    {
+      "itemCode": "0662 6004",
+      "description": "WK ZN PAV MRK NON-REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 24613.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.25,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.25,
+        "WEBBER, LLC": 0.25,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.25
+      }
+    },
+    {
+      "itemCode": "0662 6012",
+      "description": "WK ZN PAV MRK NON-REMOV (W)8\"(SLD)",
+      "unit": "LF",
+      "quantity": 2930.0,
+      "engEstUnit": 0.6,
+      "lowUnit": 0.5,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.5,
+        "WEBBER, LLC": 0.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.6
+      }
+    },
+    {
+      "itemCode": "0662 6016",
+      "description": "WK ZN PAV MRK NON-REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 176.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 5.0,
+        "WEBBER, LLC": 5.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.5
+      }
+    },
+    {
+      "itemCode": "0662 6017",
+      "description": "WK ZN PAV MRK NON-REMOV (W)(ARROW)",
+      "unit": "EA",
+      "quantity": 33.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 35.0,
+        "WEBBER, LLC": 35.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 70.0
+      }
+    },
+    {
+      "itemCode": "0662 6029",
+      "description": "WK ZN PAV MRK NON-REMOV(W)(WORD)",
+      "unit": "EA",
+      "quantity": 28.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 45.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 45.0,
+        "WEBBER, LLC": 45.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 70.0
+      }
+    },
+    {
+      "itemCode": "0662 6034",
+      "description": "WK ZN PAV MRK NON-REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 27095.0,
+      "engEstUnit": 0.3,
+      "lowUnit": 0.25,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.25,
+        "WEBBER, LLC": 0.25,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.25
+      }
+    },
+    {
+      "itemCode": "0662 6048",
+      "description": "WK ZN PAV MRK REMOV (REFL) TY I-C",
+      "unit": "EA",
+      "quantity": 1807.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4.0,
+        "WEBBER, LLC": 4.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 4.0
+      }
+    },
+    {
+      "itemCode": "0662 6050",
+      "description": "WK ZN PAV MRK REMOV (REFL) TY II-A-A",
+      "unit": "EA",
+      "quantity": 1570.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4.0,
+        "WEBBER, LLC": 4.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 4.0
+      }
+    },
+    {
+      "itemCode": "0662 6056",
+      "description": "WK ZN PAV MRK REMOV (TRAF BTN) TY W",
+      "unit": "EA",
+      "quantity": 9348.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 3.5,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3.5,
+        "WEBBER, LLC": 3.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 4.0
+      }
+    },
+    {
+      "itemCode": "0662 6058",
+      "description": "WK ZN PAV MRK REMOV (TRAF BTN) TY Y",
+      "unit": "EA",
+      "quantity": 6220.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 3.5,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3.5,
+        "WEBBER, LLC": 3.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 4.0
+      }
+    },
+    {
+      "itemCode": "0662 6060",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(BRK)",
+      "unit": "LF",
+      "quantity": 1904.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1.0,
+        "WEBBER, LLC": 1.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.8
+      }
+    },
+    {
+      "itemCode": "0662 6061",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(DOT)",
+      "unit": "LF",
+      "quantity": 3381.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3.0,
+        "WEBBER, LLC": 3.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.8
+      }
+    },
+    {
+      "itemCode": "0662 6063",
+      "description": "WK ZN PAV MRK REMOV (W)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 105470.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.89,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.89,
+        "WEBBER, LLC": 0.89,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.8
+      }
+    },
+    {
+      "itemCode": "0662 6071",
+      "description": "WK ZN PAV MRK REMOV (W)8\"(SLD)",
+      "unit": "LF",
+      "quantity": 13094.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.5,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1.5,
+        "WEBBER, LLC": 1.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.78
+      }
+    },
+    {
+      "itemCode": "0662 6075",
+      "description": "WK ZN PAV MRK REMOV (W)24\"(SLD)",
+      "unit": "LF",
+      "quantity": 2502.0,
+      "engEstUnit": 9.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 6.0,
+        "WEBBER, LLC": 6.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 5.75
+      }
+    },
+    {
+      "itemCode": "0662 6080",
+      "description": "WK ZN PAV MRK REMOV (W)(ARROW)",
+      "unit": "EA",
+      "quantity": 120.0,
+      "engEstUnit": 185.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 150.0,
+        "WEBBER, LLC": 150.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 150.0
+      }
+    },
+    {
+      "itemCode": "0662 6090",
+      "description": "WK ZN PAV MRK REMOV (W)(WORD)",
+      "unit": "EA",
+      "quantity": 142.0,
+      "engEstUnit": 270.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 200.0,
+        "WEBBER, LLC": 200.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 175.0
+      }
+    },
+    {
+      "itemCode": "0662 6092",
+      "description": "WK ZN PAV MRK REMOV (W)36\"(YLD TRI)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 29.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 40.0,
+        "WEBBER, LLC": 40.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 28.0
+      }
+    },
+    {
+      "itemCode": "0662 6094",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(DOT)",
+      "unit": "LF",
+      "quantity": 171.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3.0,
+        "WEBBER, LLC": 3.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.88
+      }
+    },
+    {
+      "itemCode": "0662 6095",
+      "description": "WK ZN PAV MRK REMOV (Y)4\"(SLD)",
+      "unit": "LF",
+      "quantity": 217743.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.89,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.89,
+        "WEBBER, LLC": 0.89,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.8
+      }
+    },
+    {
+      "itemCode": "0668 6077",
+      "description": "PREFAB PAV MRK TY C (W) (ARROW)",
+      "unit": "EA",
+      "quantity": 206.0,
+      "engEstUnit": 246.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 150.0,
+        "WEBBER, LLC": 150.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0668 6078",
+      "description": "PREFAB PAV MRK TY C (W) (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 11.0,
+      "engEstUnit": 410.0,
+      "lowUnit": 270.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 270.0,
+        "WEBBER, LLC": 270.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 375.0
+      }
+    },
+    {
+      "itemCode": "0668 6080",
+      "description": "PREFAB PAV MRK TY C (W) (UTURN ARROW)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 408.0,
+      "lowUnit": 285.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 285.0,
+        "WEBBER, LLC": 285.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 478.0
+      }
+    },
+    {
+      "itemCode": "0668 6085",
+      "description": "PREFAB PAV MRK TY C (W) (WORD)",
+      "unit": "EA",
+      "quantity": 212.0,
+      "engEstUnit": 281.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 200.0,
+        "WEBBER, LLC": 200.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 240.0
+      }
+    },
+    {
+      "itemCode": "0672 6007",
+      "description": "REFL PAV MRKR TY I-C",
+      "unit": "EA",
+      "quantity": 829.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 4.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4.0,
+        "WEBBER, LLC": 4.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 4.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 84.0,
+      "engEstUnit": 4.5,
+      "lowUnit": 4.5,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4.5,
+        "WEBBER, LLC": 4.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 4.0
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 1977.0,
+      "engEstUnit": 4.3,
+      "lowUnit": 4.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4.0,
+        "WEBBER, LLC": 4.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 4.0
+      }
+    },
+    {
+      "itemCode": "0677 6001",
+      "description": "ELIM EXT PAV MRK & MRKS (4\")",
+      "unit": "LF",
+      "quantity": 233351.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.18,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.18,
+        "WEBBER, LLC": 0.18,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.4
+      }
+    },
+    {
+      "itemCode": "0677 6003",
+      "description": "ELIM EXT PAV MRK & MRKS (8\")",
+      "unit": "LF",
+      "quantity": 12039.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 0.35,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.35,
+        "WEBBER, LLC": 0.35,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.8
+      }
+    },
+    {
+      "itemCode": "0677 6007",
+      "description": "ELIM EXT PAV MRK & MRKS (24\")",
+      "unit": "LF",
+      "quantity": 1861.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.5,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1.5,
+        "WEBBER, LLC": 1.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.13
+      }
+    },
+    {
+      "itemCode": "0677 6008",
+      "description": "ELIM EXT PAV MRK & MRKS (ARROW)",
+      "unit": "EA",
+      "quantity": 79.0,
+      "engEstUnit": 39.0,
+      "lowUnit": 25.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 25.0,
+        "WEBBER, LLC": 25.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 52.0
+      }
+    },
+    {
+      "itemCode": "0677 6012",
+      "description": "ELIM EXT PAV MRK & MRKS (WORD)",
+      "unit": "EA",
+      "quantity": 105.0,
+      "engEstUnit": 44.0,
+      "lowUnit": 35.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 35.0,
+        "WEBBER, LLC": 35.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 52.0
+      }
+    },
+    {
+      "itemCode": "0678 6002",
+      "description": "PAV SURF PREP FOR MRK (6\")",
+      "unit": "LF",
+      "quantity": 43547.0,
+      "engEstUnit": 0.1,
+      "lowUnit": 0.03,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.03,
+        "WEBBER, LLC": 0.03,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.02
+      }
+    },
+    {
+      "itemCode": "0678 6004",
+      "description": "PAV SURF PREP FOR MRK (8\")",
+      "unit": "LF",
+      "quantity": 33407.0,
+      "engEstUnit": 0.1,
+      "lowUnit": 0.04,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.04,
+        "WEBBER, LLC": 0.04,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.02
+      }
+    },
+    {
+      "itemCode": "0678 6008",
+      "description": "PAV SURF PREP FOR MRK (24\")",
+      "unit": "LF",
+      "quantity": 10660.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 0.12,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.12,
+        "WEBBER, LLC": 0.12,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.1
+      }
+    },
+    {
+      "itemCode": "0678 6009",
+      "description": "PAV SURF PREP FOR MRK (ARROW)",
+      "unit": "EA",
+      "quantity": 206.0,
+      "engEstUnit": 9.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3.0,
+        "WEBBER, LLC": 3.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0678 6010",
+      "description": "PAV SURF PREP FOR MRK (DBL ARROW)",
+      "unit": "EA",
+      "quantity": 11.0,
+      "engEstUnit": 13.0,
+      "lowUnit": 6.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 6.0,
+        "WEBBER, LLC": 6.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0678 6012",
+      "description": "PAV SURF PREP FOR MRK (UTURN ARR)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 7.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 7.0,
+        "WEBBER, LLC": 7.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0678 6016",
+      "description": "PAV SURF PREP FOR MRK (WORD)",
+      "unit": "EA",
+      "quantity": 212.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 5.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 5.0,
+        "WEBBER, LLC": 5.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0678 6023",
+      "description": "PAV SURF PREP FOR MRK (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 5.0,
+      "lowUnit": 3.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3.0,
+        "WEBBER, LLC": 3.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0681 6001",
+      "description": "TEMP TRAF SIGNALS",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 45000.0,
+      "lowUnit": 32747.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 32747.0,
+        "WEBBER, LLC": 27522.03,
+        "JAMES CONSTRUCTION GROUP, LLC": 27296.12
+      }
+    },
+    {
+      "itemCode": "0682 6001",
+      "description": "VEH SIG SEC (12\")LED(GRN)",
+      "unit": "EA",
+      "quantity": 126.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 182.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 182.0,
+        "WEBBER, LLC": 182.17,
+        "JAMES CONSTRUCTION GROUP, LLC": 219.0
+      }
+    },
+    {
+      "itemCode": "0682 6002",
+      "description": "VEH SIG SEC (12\")LED(GRN ARW)",
+      "unit": "EA",
+      "quantity": 53.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 182.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 182.0,
+        "WEBBER, LLC": 182.17,
+        "JAMES CONSTRUCTION GROUP, LLC": 219.0
+      }
+    },
+    {
+      "itemCode": "0682 6003",
+      "description": "VEH SIG SEC (12\")LED(YEL)",
+      "unit": "EA",
+      "quantity": 125.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 182.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 182.0,
+        "WEBBER, LLC": 182.17,
+        "JAMES CONSTRUCTION GROUP, LLC": 219.0
+      }
+    },
+    {
+      "itemCode": "0682 6004",
+      "description": "VEH SIG SEC (12\")LED(YEL ARW)",
+      "unit": "EA",
+      "quantity": 53.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 182.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 182.0,
+        "WEBBER, LLC": 182.17,
+        "JAMES CONSTRUCTION GROUP, LLC": 219.0
+      }
+    },
+    {
+      "itemCode": "0682 6005",
+      "description": "VEH SIG SEC (12\")LED(RED)",
+      "unit": "EA",
+      "quantity": 126.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 182.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 182.0,
+        "WEBBER, LLC": 182.17,
+        "JAMES CONSTRUCTION GROUP, LLC": 219.0
+      }
+    },
+    {
+      "itemCode": "0682 6006",
+      "description": "VEH SIG SEC (12\")LED(RED ARW)",
+      "unit": "EA",
+      "quantity": 78.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 182.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 182.0,
+        "WEBBER, LLC": 182.17,
+        "JAMES CONSTRUCTION GROUP, LLC": 219.0
+      }
+    },
+    {
+      "itemCode": "0682 6018",
+      "description": "PED SIG SEC (LED)(COUNTDOWN)",
+      "unit": "EA",
+      "quantity": 109.0,
+      "engEstUnit": 380.0,
+      "lowUnit": 455.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 455.0,
+        "WEBBER, LLC": 422.89,
+        "JAMES CONSTRUCTION GROUP, LLC": 582.0
+      }
+    },
+    {
+      "itemCode": "0682 6054",
+      "description": "BACKPLATE W/REF BRDR(3 SEC)(VENT)ALUM",
+      "unit": "EA",
+      "quantity": 137.0,
+      "engEstUnit": 85.0,
+      "lowUnit": 122.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 122.0,
+        "WEBBER, LLC": 70.8,
+        "JAMES CONSTRUCTION GROUP, LLC": 89.0
+      }
+    },
+    {
+      "itemCode": "0682 6055",
+      "description": "BACKPLATE W/REF BRDR(4 SEC)(VENT)ALUM",
+      "unit": "EA",
+      "quantity": 45.0,
+      "engEstUnit": 95.0,
+      "lowUnit": 149.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 149.0,
+        "WEBBER, LLC": 76.7,
+        "JAMES CONSTRUCTION GROUP, LLC": 109.0
+      }
+    },
+    {
+      "itemCode": "0682 6056",
+      "description": "BACKPLATE W/REF BRDR(5 SEC)(VENT)ALUM",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 115.0,
+      "lowUnit": 168.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 168.0,
+        "WEBBER, LLC": 94.4,
+        "JAMES CONSTRUCTION GROUP, LLC": 129.0
+      }
+    },
+    {
+      "itemCode": "0684 6007",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(2 CONDR)",
+      "unit": "LF",
+      "quantity": 25305.0,
+      "engEstUnit": 1.5,
+      "lowUnit": 1.68,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1.68,
+        "WEBBER, LLC": 1.25,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.52
+      }
+    },
+    {
+      "itemCode": "0684 6009",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(4 CONDR)",
+      "unit": "LF",
+      "quantity": 23580.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 2.03,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.03,
+        "WEBBER, LLC": 1.63,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.94
+      }
+    },
+    {
+      "itemCode": "0684 6012",
+      "description": "TRF SIG CBL (TY A)(12 AWG)(7 CONDR)",
+      "unit": "LF",
+      "quantity": 30235.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 2.48,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.48,
+        "WEBBER, LLC": 2.07,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.41
+      }
+    },
+    {
+      "itemCode": "0685 6004",
+      "description": "INSTL RDSD FLSH BCN ASSM (SOLAR PWRD)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 5200.0,
+      "lowUnit": 4006.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4006.0,
+        "WEBBER, LLC": 3569.96,
+        "JAMES CONSTRUCTION GROUP, LLC": 6250.0
+      }
+    },
+    {
+      "itemCode": "0685 6006",
+      "description": "REMOV RDSD FLSH BCN AM (SOLAR PWRD)",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 540.0,
+      "lowUnit": 170.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 170.0,
+        "WEBBER, LLC": 452.83,
+        "JAMES CONSTRUCTION GROUP, LLC": 100.0
+      }
+    },
+    {
+      "itemCode": "0686 6031",
+      "description": "INS TRF SIG PL AM(S)1 ARM(28')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 7500.0,
+      "lowUnit": 8082.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 8082.0,
+        "WEBBER, LLC": 8419.3,
+        "JAMES CONSTRUCTION GROUP, LLC": 8033.0
+      }
+    },
+    {
+      "itemCode": "0686 6033",
+      "description": "INS TRF SIG PL AM(S)1 ARM(32')",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 7200.0,
+      "lowUnit": 7912.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 7912.0,
+        "WEBBER, LLC": 8267.08,
+        "JAMES CONSTRUCTION GROUP, LLC": 7689.0
+      }
+    },
+    {
+      "itemCode": "0686 6037",
+      "description": "INS TRF SIG PL AM(S)1 ARM(36')",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 8310.0,
+      "lowUnit": 8474.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 8474.0,
+        "WEBBER, LLC": 8743.8,
+        "JAMES CONSTRUCTION GROUP, LLC": 8093.0
+      }
+    },
+    {
+      "itemCode": "0686 6039",
+      "description": "INS TRF SIG PL AM(S)1 ARM(36')LUM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 8300.0,
+      "lowUnit": 9273.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 9273.0,
+        "WEBBER, LLC": 9524.96,
+        "JAMES CONSTRUCTION GROUP, LLC": 9220.0
+      }
+    },
+    {
+      "itemCode": "0686 6041",
+      "description": "INS TRF SIG PL AM(S)1 ARM(40')",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 8000.0,
+      "lowUnit": 9072.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 9072.0,
+        "WEBBER, LLC": 9239.4,
+        "JAMES CONSTRUCTION GROUP, LLC": 8513.0
+      }
+    },
+    {
+      "itemCode": "0686 6045",
+      "description": "INS TRF SIG PL AM(S)1 ARM(44')",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 7979.0,
+      "lowUnit": 9468.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 9468.0,
+        "WEBBER, LLC": 9635.88,
+        "JAMES CONSTRUCTION GROUP, LLC": 9099.0
+      }
+    },
+    {
+      "itemCode": "0686 6047",
+      "description": "INS TRF SIG PL AM(S)1 ARM(44')LUM",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 10500.0,
+      "lowUnit": 10267.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 10267.0,
+        "WEBBER, LLC": 10434.74,
+        "JAMES CONSTRUCTION GROUP, LLC": 10241.0
+      }
+    },
+    {
+      "itemCode": "0686 6053",
+      "description": "INS TRF SIG PL AM(S)1 ARM(50')",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 14000.0,
+      "lowUnit": 23107.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 23107.0,
+        "WEBBER, LLC": 23189.36,
+        "JAMES CONSTRUCTION GROUP, LLC": 21335.0
+      }
+    },
+    {
+      "itemCode": "0686 6055",
+      "description": "INS TRF SIG PL AM(S)1 ARM(50')LUM",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 17500.0,
+      "lowUnit": 25784.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 25784.0,
+        "WEBBER, LLC": 25866.78,
+        "JAMES CONSTRUCTION GROUP, LLC": 24069.0
+      }
+    },
+    {
+      "itemCode": "0686 6057",
+      "description": "INS TRF SIG PL AM(S)1 ARM(55')",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 15000.0,
+      "lowUnit": 23880.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 23880.0,
+        "WEBBER, LLC": 23962.26,
+        "JAMES CONSTRUCTION GROUP, LLC": 21990.0
+      }
+    },
+    {
+      "itemCode": "0686 6059",
+      "description": "INS TRF SIG PL AM(S)1 ARM(55')LUM",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 18300.0,
+      "lowUnit": 26680.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 26680.0,
+        "WEBBER, LLC": 26762.4,
+        "JAMES CONSTRUCTION GROUP, LLC": 24828.0
+      }
+    },
+    {
+      "itemCode": "0686 6061",
+      "description": "INS TRF SIG PL AM(S)1 ARM(60')",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 14911.0,
+      "lowUnit": 24788.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 24788.0,
+        "WEBBER, LLC": 24870.86,
+        "JAMES CONSTRUCTION GROUP, LLC": 22760.0
+      }
+    },
+    {
+      "itemCode": "0686 6063",
+      "description": "INS TRF SIG PL AM(S)1 ARM(60')LUM",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 16755.0,
+      "lowUnit": 27452.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 27452.0,
+        "WEBBER, LLC": 27522.32,
+        "JAMES CONSTRUCTION GROUP, LLC": 25472.0
+      }
+    },
+    {
+      "itemCode": "0686 6065",
+      "description": "INS TRF SIG PL AM(S)1 ARM(65')",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 16695.0,
+      "lowUnit": 25426.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 25426.0,
+        "WEBBER, LLC": 25496.26,
+        "JAMES CONSTRUCTION GROUP, LLC": 23540.0
+      }
+    },
+    {
+      "itemCode": "0686 6067",
+      "description": "INS TRF SIG PL AM(S)1 ARM(65')LUM",
+      "unit": "EA",
+      "quantity": 10.0,
+      "engEstUnit": 21000.0,
+      "lowUnit": 28056.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 28056.0,
+        "WEBBER, LLC": 28126.48,
+        "JAMES CONSTRUCTION GROUP, LLC": 26234.0
+      }
+    },
+    {
+      "itemCode": "0687 6001",
+      "description": "PED POLE ASSEMBLY",
+      "unit": "EA",
+      "quantity": 95.0,
+      "engEstUnit": 1650.0,
+      "lowUnit": 1598.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1598.0,
+        "WEBBER, LLC": 1319.84,
+        "JAMES CONSTRUCTION GROUP, LLC": 1435.0
+      }
+    },
+    {
+      "itemCode": "0688 6001",
+      "description": "PED DETECT PUSH BUTTON (APS)",
+      "unit": "EA",
+      "quantity": 116.0,
+      "engEstUnit": 725.0,
+      "lowUnit": 750.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 750.0,
+        "WEBBER, LLC": 505.49,
+        "JAMES CONSTRUCTION GROUP, LLC": 778.0
+      }
+    },
+    {
+      "itemCode": "0688 6003",
+      "description": "PED DETECTOR CONTROLLER UNIT",
+      "unit": "EA",
+      "quantity": 22.0,
+      "engEstUnit": 3120.0,
+      "lowUnit": 1315.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1315.0,
+        "WEBBER, LLC": 2523.29,
+        "JAMES CONSTRUCTION GROUP, LLC": 1255.0
+      }
+    },
+    {
+      "itemCode": "0690 6024",
+      "description": "REMOVAL OF SIGNAL HEAD ASSM",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 85.0,
+        "WEBBER, LLC": 135.86,
+        "JAMES CONSTRUCTION GROUP, LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "0690 6027",
+      "description": "REMOVAL OF SIGNAL RELATED SIGNS",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 42.5,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 42.5,
+        "WEBBER, LLC": 90.57,
+        "JAMES CONSTRUCTION GROUP, LLC": 75.0
+      }
+    },
+    {
+      "itemCode": "0690 6030",
+      "description": "REMOVAL OF PEDESTRIAN PUSH BUTTONS",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 22.0,
+      "lowUnit": 42.5,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 42.5,
+        "WEBBER, LLC": 135.86,
+        "JAMES CONSTRUCTION GROUP, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0690 6094",
+      "description": "REMOV PED SIG LED TRAF SIG LAMP UNIT",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 85.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 85.0,
+        "WEBBER, LLC": 90.57,
+        "JAMES CONSTRUCTION GROUP, LLC": 50.0
+      }
+    },
+    {
+      "itemCode": "0734 6002",
+      "description": "LITTER REMOVAL",
+      "unit": "CYC",
+      "quantity": 11.0,
+      "engEstUnit": 1410.0,
+      "lowUnit": 2000.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2000.0,
+        "WEBBER, LLC": 800.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 603.89
+      }
+    },
+    {
+      "itemCode": "0735 6001",
+      "description": "DEBRIS REMOVAL (CNTR MEDIANS/MAINLANES)",
+      "unit": "CYC",
+      "quantity": 88.0,
+      "engEstUnit": 1200.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 600.0,
+        "WEBBER, LLC": 700.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1234.99
+      }
+    },
+    {
+      "itemCode": "0738 6001",
+      "description": "CLEANING / SWEEPING (CENTER MEDIAN)",
+      "unit": "CYC",
+      "quantity": 88.0,
+      "engEstUnit": 785.0,
+      "lowUnit": 1000.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1000.0,
+        "WEBBER, LLC": 700.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "0738 6003",
+      "description": "CLEANING / SWEEPING (OUTSIDE MAIN LANE)",
+      "unit": "CYC",
+      "quantity": 88.0,
+      "engEstUnit": 1340.0,
+      "lowUnit": 1100.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1100.0,
+        "WEBBER, LLC": 700.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 500.0
+      }
+    },
+    {
+      "itemCode": "3021 6001",
+      "description": "WIDE FLANGE PAVEMENT TERMINALS",
+      "unit": "LF",
+      "quantity": 245.0,
+      "engEstUnit": 260.0,
+      "lowUnit": 361.51,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 361.51,
+        "WEBBER, LLC": 460.86,
+        "JAMES CONSTRUCTION GROUP, LLC": 479.22
+      }
+    },
+    {
+      "itemCode": "3076 6001",
+      "description": "D-GR HMA TY-B PG64-22",
+      "unit": "TON",
+      "quantity": 541.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 81.93,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 81.93,
+        "WEBBER, LLC": 83.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 111.25
+      }
+    },
+    {
+      "itemCode": "3076 6024",
+      "description": "D-GR HMA TY-C SAC-A PG70-22",
+      "unit": "TON",
+      "quantity": 343.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 103.93,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 103.93,
+        "WEBBER, LLC": 105.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 158.92
+      }
+    },
+    {
+      "itemCode": "3076 6027",
+      "description": "D-GR HMA TY-C PG70-22 (LEVEL-UP)",
+      "unit": "TON",
+      "quantity": 76.0,
+      "engEstUnit": 80.0,
+      "lowUnit": 116.93,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 116.93,
+        "WEBBER, LLC": 118.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 213.41
+      }
+    },
+    {
+      "itemCode": "3076 6041",
+      "description": "D-GR HMA TY-D SAC-A PG70-22",
+      "unit": "TON",
+      "quantity": 192.1,
+      "engEstUnit": 85.0,
+      "lowUnit": 109.93,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 109.93,
+        "WEBBER, LLC": 111.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 153.25
+      }
+    },
+    {
+      "itemCode": "3076 6066",
+      "description": "TACK COAT",
+      "unit": "GAL",
+      "quantity": 1010.9,
+      "engEstUnit": 4.4,
+      "lowUnit": 2.3,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.3,
+        "WEBBER, LLC": 2.25,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.27
+      }
+    },
+    {
+      "itemCode": "4006 6006",
+      "description": "SOUND WALL (12 FT)",
+      "unit": "LF",
+      "quantity": 9344.0,
+      "engEstUnit": 350.0,
+      "lowUnit": 337.79,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 337.79,
+        "WEBBER, LLC": 300.74,
+        "JAMES CONSTRUCTION GROUP, LLC": 324.07
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 690.0,
+      "engEstUnit": 35.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 100.0,
+        "WEBBER, LLC": 175.77,
+        "JAMES CONSTRUCTION GROUP, LLC": 52.17
+      }
+    },
+    {
+      "itemCode": "6004 6031",
+      "description": "ITS COM CBL (ETHERNET)",
+      "unit": "LF",
+      "quantity": 1590.0,
+      "engEstUnit": 3.0,
+      "lowUnit": 1.62,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1.62,
+        "WEBBER, LLC": 1.64,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.25
+      }
+    },
+    {
+      "itemCode": "6004 6058",
+      "description": "ITS COM CBL (UNDRGRND)(22 AWG/6 PR)",
+      "unit": "LF",
+      "quantity": 1941.0,
+      "engEstUnit": 7.0,
+      "lowUnit": 2.33,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.33,
+        "WEBBER, LLC": 1.58,
+        "JAMES CONSTRUCTION GROUP, LLC": 2.15
+      }
+    },
+    {
+      "itemCode": "6007 6010",
+      "description": "FIBER OPTIC CBL (SNGLE-MODE)(6 FIBER)",
+      "unit": "LF",
+      "quantity": 68869.0,
+      "engEstUnit": 1.0,
+      "lowUnit": 1.64,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1.64,
+        "WEBBER, LLC": 1.01,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.03
+      }
+    },
+    {
+      "itemCode": "6007 6011",
+      "description": "FIBER OPTIC CBL (SNGLE-MODE)(12 FIBER)",
+      "unit": "LF",
+      "quantity": 45460.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.67,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1.67,
+        "WEBBER, LLC": 1.02,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.29
+      }
+    },
+    {
+      "itemCode": "6007 6017",
+      "description": "FIBER OPTIC CBL (SNGLE-MODE)(144 FIBER)",
+      "unit": "LF",
+      "quantity": 42721.0,
+      "engEstUnit": 4.0,
+      "lowUnit": 3.23,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3.23,
+        "WEBBER, LLC": 2.16,
+        "JAMES CONSTRUCTION GROUP, LLC": 3.46
+      }
+    },
+    {
+      "itemCode": "6007 6022",
+      "description": "FIBER OPTIC PATCH PANEL (6 POSITION)",
+      "unit": "EA",
+      "quantity": 34.0,
+      "engEstUnit": 1250.0,
+      "lowUnit": 1061.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1061.0,
+        "WEBBER, LLC": 302.97,
+        "JAMES CONSTRUCTION GROUP, LLC": 1135.0
+      }
+    },
+    {
+      "itemCode": "6007 6023",
+      "description": "FIBER OPTIC PATCH PANEL (12 POSITION)",
+      "unit": "EA",
+      "quantity": 35.0,
+      "engEstUnit": 1020.0,
+      "lowUnit": 1079.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1079.0,
+        "WEBBER, LLC": 320.67,
+        "JAMES CONSTRUCTION GROUP, LLC": 1395.0
+      }
+    },
+    {
+      "itemCode": "6007 6027",
+      "description": "FIBER OPTIC PATCH PANEL (144 POSITION)",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 3330.0,
+      "lowUnit": 1762.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1762.0,
+        "WEBBER, LLC": 739.57,
+        "JAMES CONSTRUCTION GROUP, LLC": 2405.0
+      }
+    },
+    {
+      "itemCode": "6007 6087",
+      "description": "FO SPLICE ENCLOSURE (TYPE 1)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 1352.0,
+      "lowUnit": 2110.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2110.0,
+        "WEBBER, LLC": 594.14,
+        "JAMES CONSTRUCTION GROUP, LLC": 2135.0
+      }
+    },
+    {
+      "itemCode": "6007 6094",
+      "description": "FIBER OPTIC FUSION SPLICE",
+      "unit": "EA",
+      "quantity": 397.0,
+      "engEstUnit": 63.0,
+      "lowUnit": 22.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 22.0,
+        "WEBBER, LLC": 1.17,
+        "JAMES CONSTRUCTION GROUP, LLC": 65.6
+      }
+    },
+    {
+      "itemCode": "6008 6043",
+      "description": "ITS GRND MNT CAB (TY 6) (CONF 2)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 11900.0,
+      "lowUnit": 9256.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 9256.0,
+        "WEBBER, LLC": 8773.3,
+        "JAMES CONSTRUCTION GROUP, LLC": 12375.0
+      }
+    },
+    {
+      "itemCode": "6010 6001",
+      "description": "CCTV FIELD EQUIPMENT (ANALOG)",
+      "unit": "EA",
+      "quantity": 17.0,
+      "engEstUnit": 6093.0,
+      "lowUnit": 6778.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 6778.0,
+        "WEBBER, LLC": 6174.65,
+        "JAMES CONSTRUCTION GROUP, LLC": 6660.0
+      }
+    },
+    {
+      "itemCode": "6010 6004",
+      "description": "CCTV MOUNT (POLE)",
+      "unit": "EA",
+      "quantity": 16.0,
+      "engEstUnit": 561.0,
+      "lowUnit": 130.92,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 130.92,
+        "WEBBER, LLC": 425.69,
+        "JAMES CONSTRUCTION GROUP, LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "6016 6008",
+      "description": "ITS MULTI-DUCT CND (PVC-40)(CONC ENCSE)",
+      "unit": "LF",
+      "quantity": 34423.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 21.9,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 21.9,
+        "WEBBER, LLC": 16.14,
+        "JAMES CONSTRUCTION GROUP, LLC": 21.32
+      }
+    },
+    {
+      "itemCode": "6016 6011",
+      "description": "ITS MULTI-DUCT CND (PVC-80)(BORE)",
+      "unit": "LF",
+      "quantity": 5715.0,
+      "engEstUnit": 33.0,
+      "lowUnit": 16.55,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 16.55,
+        "WEBBER, LLC": 21.95,
+        "JAMES CONSTRUCTION GROUP, LLC": 26.9
+      }
+    },
+    {
+      "itemCode": "6016 6013",
+      "description": "ITS MULTI-DUCT CND (RMC)",
+      "unit": "LF",
+      "quantity": 130.0,
+      "engEstUnit": 70.0,
+      "lowUnit": 97.11,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 97.11,
+        "WEBBER, LLC": 23.22,
+        "JAMES CONSTRUCTION GROUP, LLC": 102.57
+      }
+    },
+    {
+      "itemCode": "6017 6001",
+      "description": "COMMUNICATION HUB BUILDING",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 22772.0,
+      "lowUnit": 31710.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 31710.0,
+        "WEBBER, LLC": 20500.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 22730.0
+      }
+    },
+    {
+      "itemCode": "6027 6003",
+      "description": "CONDUIT (PREPARE)",
+      "unit": "LF",
+      "quantity": 10.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 0.73,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.73,
+        "WEBBER, LLC": 4.53,
+        "JAMES CONSTRUCTION GROUP, LLC": 25.0
+      }
+    },
+    {
+      "itemCode": "6028 6002",
+      "description": "INSTALL DMS (FOUNDATION MTD CABINET)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10200.0,
+      "lowUnit": 7597.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 7597.0,
+        "WEBBER, LLC": 10300.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 10759.0
+      }
+    },
+    {
+      "itemCode": "6035 6001",
+      "description": "FIBER OPTIC VIDEO DATA TRANSMITTER",
+      "unit": "EA",
+      "quantity": 17.0,
+      "engEstUnit": 1147.0,
+      "lowUnit": 1104.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1104.0,
+        "WEBBER, LLC": 1050.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1225.0
+      }
+    },
+    {
+      "itemCode": "6035 6002",
+      "description": "FIBER OPTIC VIDEO DATA RECEIVER",
+      "unit": "EA",
+      "quantity": 17.0,
+      "engEstUnit": 1237.0,
+      "lowUnit": 1104.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1104.0,
+        "WEBBER, LLC": 1100.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1225.0
+      }
+    },
+    {
+      "itemCode": "6038 6004",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(SLD)",
+      "unit": "LF",
+      "quantity": 2332.0,
+      "engEstUnit": 0.7,
+      "lowUnit": 0.38,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.38,
+        "WEBBER, LLC": 0.38,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.66
+      }
+    },
+    {
+      "itemCode": "6038 6005",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(BRK)",
+      "unit": "LF",
+      "quantity": 24682.0,
+      "engEstUnit": 0.7,
+      "lowUnit": 0.4,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.4,
+        "WEBBER, LLC": 0.4,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.66
+      }
+    },
+    {
+      "itemCode": "6038 6006",
+      "description": "MULTIPOLYMER PAV MRK (W)(6\")(DOT)",
+      "unit": "LF",
+      "quantity": 818.0,
+      "engEstUnit": 1.3,
+      "lowUnit": 0.5,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.5,
+        "WEBBER, LLC": 0.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.36
+      }
+    },
+    {
+      "itemCode": "6038 6007",
+      "description": "MULTIPOLYMER PAV MRK (W)(8\")(SLD)",
+      "unit": "LF",
+      "quantity": 30318.0,
+      "engEstUnit": 1.1,
+      "lowUnit": 0.75,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.75,
+        "WEBBER, LLC": 0.75,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.11
+      }
+    },
+    {
+      "itemCode": "6038 6009",
+      "description": "MULTIPOLYMER PAV MRK (W)(8\")(DOT)",
+      "unit": "LF",
+      "quantity": 106.0,
+      "engEstUnit": 2.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1.0,
+        "WEBBER, LLC": 1.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.47
+      }
+    },
+    {
+      "itemCode": "6038 6011",
+      "description": "MULTIPOLYMER PAV MRK (W)(12\")(SLD)",
+      "unit": "LF",
+      "quantity": 5322.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 2.5,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2.5,
+        "WEBBER, LLC": 2.5,
+        "JAMES CONSTRUCTION GROUP, LLC": 3.31
+      }
+    },
+    {
+      "itemCode": "6038 6013",
+      "description": "MULTIPOLYMER PAV MRK (W)(24\")(SLD)",
+      "unit": "LF",
+      "quantity": 9177.0,
+      "engEstUnit": 7.2,
+      "lowUnit": 5.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 5.0,
+        "WEBBER, LLC": 5.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 6.63
+      }
+    },
+    {
+      "itemCode": "6038 6014",
+      "description": "MULTIPOLYMER PAV MRK (Y)(4\")(SLD)",
+      "unit": "LF",
+      "quantity": 4519.0,
+      "engEstUnit": 0.7,
+      "lowUnit": 0.36,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.36,
+        "WEBBER, LLC": 0.36,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.56
+      }
+    },
+    {
+      "itemCode": "6038 6017",
+      "description": "MULTIPOLYMER PAV MRK (Y)(6\")(SLD)",
+      "unit": "LF",
+      "quantity": 1161.0,
+      "engEstUnit": 0.65,
+      "lowUnit": 0.38,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.38,
+        "WEBBER, LLC": 0.38,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.66
+      }
+    },
+    {
+      "itemCode": "6038 6020",
+      "description": "MULTIPOLYMER PAV MRK (Y)(8\")(SLD)",
+      "unit": "LF",
+      "quantity": 1973.0,
+      "engEstUnit": 2.5,
+      "lowUnit": 0.75,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.75,
+        "WEBBER, LLC": 0.75,
+        "JAMES CONSTRUCTION GROUP, LLC": 1.13
+      }
+    },
+    {
+      "itemCode": "6038 6022",
+      "description": "MULTIPOLYMER PAV MRK (Y)(24\")(SLD)",
+      "unit": "LF",
+      "quantity": 896.0,
+      "engEstUnit": 4.8,
+      "lowUnit": 5.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 5.0,
+        "WEBBER, LLC": 5.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 6.63
+      }
+    },
+    {
+      "itemCode": "6038 6024",
+      "description": "MULTIPOLYMER PAV MRK (BLK)(6\")(BRK)",
+      "unit": "LF",
+      "quantity": 24682.0,
+      "engEstUnit": 0.85,
+      "lowUnit": 0.43,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 0.43,
+        "WEBBER, LLC": 0.43,
+        "JAMES CONSTRUCTION GROUP, LLC": 0.78
+      }
+    },
+    {
+      "itemCode": "6038 6028",
+      "description": "MULTIPOLYMER PAV MRK (W) 36\" YLD TRI",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 30.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 30.0,
+        "WEBBER, LLC": 30.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 55.0
+      }
+    },
+    {
+      "itemCode": "6038 6029",
+      "description": "MULTIPOLYMER PAV MRK  (W)(U-TURN ARROW)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 150.0,
+        "WEBBER, LLC": 150.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 300.0
+      }
+    },
+    {
+      "itemCode": "6058 6001",
+      "description": "BBU SYSTEM (EXTERNAL BATT CABINET)",
+      "unit": "EA",
+      "quantity": 13.0,
+      "engEstUnit": 6500.0,
+      "lowUnit": 6324.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 6324.0,
+        "WEBBER, LLC": 5790.26,
+        "JAMES CONSTRUCTION GROUP, LLC": 6650.0
+      }
+    },
+    {
+      "itemCode": "6064 6047",
+      "description": "ITS POLE (55 FT)(110 MPH)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 11606.0,
+      "lowUnit": 18607.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 18607.0,
+        "WEBBER, LLC": 17988.52,
+        "JAMES CONSTRUCTION GROUP, LLC": 15570.0
+      }
+    },
+    {
+      "itemCode": "6064 6080",
+      "description": "ITS POLE MNT CAB (TY 2)(CONF 1)",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 4839.0,
+      "lowUnit": 5521.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 5521.0,
+        "WEBBER, LLC": 3136.44,
+        "JAMES CONSTRUCTION GROUP, LLC": 3956.0
+      }
+    },
+    {
+      "itemCode": "6186 6002",
+      "description": "ITS GND BOX(PCAST) TY 1 (243636)W/APRN",
+      "unit": "EA",
+      "quantity": 112.0,
+      "engEstUnit": 2493.0,
+      "lowUnit": 2877.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 2877.0,
+        "WEBBER, LLC": 2879.8,
+        "JAMES CONSTRUCTION GROUP, LLC": 2958.0
+      }
+    },
+    {
+      "itemCode": "6186 6008",
+      "description": "ITS GND BOX(PCAST) TY 2 (366036)W/APRN",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 6300.0,
+      "lowUnit": 3384.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3384.0,
+        "WEBBER, LLC": 3050.9,
+        "JAMES CONSTRUCTION GROUP, LLC": 5505.0
+      }
+    },
+    {
+      "itemCode": "6292 6004",
+      "description": "RVDS(PRESENCE DET ONLY)(INSTALL ONLY)",
+      "unit": "EA",
+      "quantity": 58.0,
+      "engEstUnit": 667.0,
+      "lowUnit": 731.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 731.0,
+        "WEBBER, LLC": 271.69,
+        "JAMES CONSTRUCTION GROUP, LLC": 1115.51
+      }
+    },
+    {
+      "itemCode": "6292 6005",
+      "description": "RVDS(ADVANCE DET ONLY)(INSTALL ONLY)",
+      "unit": "EA",
+      "quantity": 38.0,
+      "engEstUnit": 772.0,
+      "lowUnit": 731.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 731.0,
+        "WEBBER, LLC": 271.69,
+        "JAMES CONSTRUCTION GROUP, LLC": 1271.71
+      }
+    },
+    {
+      "itemCode": "6304 6001",
+      "description": "ITS RVSD (DATA COLLECT ONLY) SYS",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 9000.0,
+      "lowUnit": 5652.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 5652.0,
+        "WEBBER, LLC": 5408.54,
+        "JAMES CONSTRUCTION GROUP, LLC": 5680.0
+      }
+    },
+    {
+      "itemCode": "6306 6006",
+      "description": "VIVDS TEMPORARY",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 12158.0,
+      "lowUnit": 10512.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 10512.0,
+        "WEBBER, LLC": 9267.43,
+        "JAMES CONSTRUCTION GROUP, LLC": 13261.67
+      }
+    },
+    {
+      "itemCode": "7017 6005",
+      "description": "SANITARY SEWER (8IN) (PVC) (C900)",
+      "unit": "LF",
+      "quantity": 167.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 94.76,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 94.76,
+        "WEBBER, LLC": 102.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 98.7
+      }
+    },
+    {
+      "itemCode": "7017 6018",
+      "description": "SANITARY SEWER (10 IN) (PVC) (SDR 26)",
+      "unit": "LF",
+      "quantity": 367.0,
+      "engEstUnit": 110.0,
+      "lowUnit": 124.63,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 124.63,
+        "WEBBER, LLC": 116.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 129.82
+      }
+    },
+    {
+      "itemCode": "7017 6051",
+      "description": "MANHOLE (SAN SEWER) ( 4' DIA)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 7000.0,
+      "lowUnit": 4635.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 4635.0,
+        "WEBBER, LLC": 9400.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 4827.91
+      }
+    },
+    {
+      "itemCode": "7017 6066",
+      "description": "JCK BOR OR TUN CSNG(STL)(SAN SWR)(16IN)",
+      "unit": "LF",
+      "quantity": 140.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 135.96,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 135.96,
+        "WEBBER, LLC": 575.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 141.62
+      }
+    },
+    {
+      "itemCode": "7017 6094",
+      "description": "REMOVE EXISTING MANHOLE(SANITARY SEWER)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 900.0,
+      "lowUnit": 824.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 824.0,
+        "WEBBER, LLC": 2800.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 858.29
+      }
+    },
+    {
+      "itemCode": "7017 6113",
+      "description": "REMOVE EXIST SAN SWR PIPE (10\")",
+      "unit": "LF",
+      "quantity": 330.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 46.35,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 46.35,
+        "WEBBER, LLC": 20.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 48.28
+      }
+    },
+    {
+      "itemCode": "7017 6128",
+      "description": "REMOVE EXIST SAN SWR PIPE (6IN)",
+      "unit": "LF",
+      "quantity": 168.0,
+      "engEstUnit": 11.0,
+      "lowUnit": 24.72,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 24.72,
+        "WEBBER, LLC": 23.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 25.75
+      }
+    },
+    {
+      "itemCode": "7049 6005",
+      "description": "WATER MAIN PIPE (PVC) (8IN)",
+      "unit": "LF",
+      "quantity": 857.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 65.92,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 65.92,
+        "WEBBER, LLC": 84.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 68.66
+      }
+    },
+    {
+      "itemCode": "7049 6007",
+      "description": "WATER MAIN PIPE (PVC) (12IN)",
+      "unit": "LF",
+      "quantity": 4696.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 81.37,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 81.37,
+        "WEBBER, LLC": 98.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 84.76
+      }
+    },
+    {
+      "itemCode": "7049 6020",
+      "description": "WTR MAIN PIPE (PVC)(RESTRAINED JT) 8IN",
+      "unit": "LF",
+      "quantity": 120.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 75.19,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 75.19,
+        "WEBBER, LLC": 80.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 78.32
+      }
+    },
+    {
+      "itemCode": "7049 6021",
+      "description": "WTR MAIN PIPE (PVC)(RESTRAINED JT) 12IN",
+      "unit": "LF",
+      "quantity": 318.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 86.52,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 86.52,
+        "WEBBER, LLC": 126.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 90.12
+      }
+    },
+    {
+      "itemCode": "7049 6046",
+      "description": "CASING STEEL (20IN)",
+      "unit": "LF",
+      "quantity": 20.0,
+      "engEstUnit": 220.0,
+      "lowUnit": 762.2,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 762.2,
+        "WEBBER, LLC": 258.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 793.92
+      }
+    },
+    {
+      "itemCode": "7049 6066",
+      "description": "JCK TUN BOR OR AUG CSG (STL) (12IN)",
+      "unit": "LF",
+      "quantity": 100.0,
+      "engEstUnit": 60.0,
+      "lowUnit": 169.95,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 169.95,
+        "WEBBER, LLC": 430.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 177.02
+      }
+    },
+    {
+      "itemCode": "7049 6068",
+      "description": "JCK TUN BOR OR AUG CSG (STL) (16IN)",
+      "unit": "LF",
+      "quantity": 149.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 226.6,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 226.6,
+        "WEBBER, LLC": 490.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 236.03
+      }
+    },
+    {
+      "itemCode": "7049 6074",
+      "description": "SERVICE LINE (SHORT SIDE) (5/8\" TO 1\")",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 1025.0,
+      "lowUnit": 669.5,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 669.5,
+        "WEBBER, LLC": 1250.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 697.36
+      }
+    },
+    {
+      "itemCode": "7049 6076",
+      "description": "SERVICE LINE (SHORT SIDE) (1-1/2\"TO 2\")",
+      "unit": "EA",
+      "quantity": 13.0,
+      "engEstUnit": 1750.0,
+      "lowUnit": 1905.5,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1905.5,
+        "WEBBER, LLC": 2350.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1984.81
+      }
+    },
+    {
+      "itemCode": "7049 6104",
+      "description": "FIRE HYDRANT ASSEMBLY",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 5562.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 5562.0,
+        "WEBBER, LLC": 6900.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 5793.49
+      }
+    },
+    {
+      "itemCode": "7049 6105",
+      "description": "WATER METER AND VAULT",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 2000.0,
+      "lowUnit": 6715.6,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 6715.6,
+        "WEBBER, LLC": 2600.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 6995.1
+      }
+    },
+    {
+      "itemCode": "7049 6114",
+      "description": "REMOVING FIRE HYDRANT",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 310.0,
+      "lowUnit": 741.6,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 741.6,
+        "WEBBER, LLC": 395.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 772.47
+      }
+    },
+    {
+      "itemCode": "7049 6115",
+      "description": "REMOVING WATER VALVE AND BOX",
+      "unit": "EA",
+      "quantity": 7.0,
+      "engEstUnit": 155.0,
+      "lowUnit": 618.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 618.0,
+        "WEBBER, LLC": 235.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 643.72
+      }
+    },
+    {
+      "itemCode": "7049 6119",
+      "description": "REMOVING AND SALVAGING FIRE HYDRANT",
+      "unit": "EA",
+      "quantity": 6.0,
+      "engEstUnit": 435.0,
+      "lowUnit": 741.6,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 741.6,
+        "WEBBER, LLC": 270.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 772.47
+      }
+    },
+    {
+      "itemCode": "7049 6129",
+      "description": "CUT AND PLUG WATER MAIN (12IN)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 1750.0,
+      "lowUnit": 1133.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1133.0,
+        "WEBBER, LLC": 830.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1180.16
+      }
+    },
+    {
+      "itemCode": "7049 6140",
+      "description": "WET CONNECTION (8IN)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 2100.0,
+      "lowUnit": 844.6,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 844.6,
+        "WEBBER, LLC": 3700.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 879.75
+      }
+    },
+    {
+      "itemCode": "7049 6142",
+      "description": "WET CONNECTION (12IN)",
+      "unit": "EA",
+      "quantity": 8.0,
+      "engEstUnit": 3750.0,
+      "lowUnit": 1339.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 1339.0,
+        "WEBBER, LLC": 1500.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 1394.73
+      }
+    },
+    {
+      "itemCode": "7049 6160",
+      "description": "JCK TUN BOR OR AUG CSG (STL) (20IN)",
+      "unit": "LF",
+      "quantity": 225.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 262.65,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 262.65,
+        "WEBBER, LLC": 605.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 273.58
+      }
+    },
+    {
+      "itemCode": "7049 6161",
+      "description": "REMOVE AND RELOCATE FIRE HYDRANT",
+      "unit": "EA",
+      "quantity": 14.0,
+      "engEstUnit": 1725.0,
+      "lowUnit": 3090.0,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 3090.0,
+        "WEBBER, LLC": 3150.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 3218.6
+      }
+    },
+    {
+      "itemCode": "7049 6185",
+      "description": "CASING STEEL (16 IN)",
+      "unit": "LF",
+      "quantity": 20.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 129.78,
+      "bidders": {
+        "ZACHRY CONSTRUCTION CORPORATION": 129.78,
+        "WEBBER, LLC": 235.0,
+        "JAMES CONSTRUCTION GROUP, LLC": 135.18
+      }
+    }
+  ]
+}

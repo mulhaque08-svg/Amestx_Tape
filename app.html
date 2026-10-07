@@ -2988,7 +2988,7 @@
                 }
 
                 if (!rawData) {
-                    throw new Error(`Could not load monthly cache data for ${monthCode}`);
+                    rawData = [];
                 }
 
                 const list = Array.isArray(rawData) ? rawData : (rawData && typeof rawData === 'object' ? [rawData] : []);
@@ -3279,6 +3279,26 @@
             if (preBidData) {
                 return preBidData;
             }
+
+            // 3. Fallback to static JSON bidtab file (downloads/bidtab_${cleanCSJ}.json)
+            const btPaths = [
+                `downloads/bidtab_${cleanCSJ}.json`,
+                `/downloads/bidtab_${cleanCSJ}.json`,
+                `public/downloads/bidtab_${cleanCSJ}.json`,
+                `/public/downloads/bidtab_${cleanCSJ}.json`
+            ];
+            for (const p of btPaths) {
+                try {
+                    const bRes = await fetch(`${p}?_t=${Date.now()}`);
+                    if (bRes.ok) {
+                        const bObj = await bRes.json();
+                        if (bObj && (bObj.bidders || bObj.items)) {
+                            return bObj;
+                        }
+                    }
+                } catch (e) {}
+            }
+
             return null;
         }
 
@@ -3613,8 +3633,26 @@
                 }
 
                 const ftpUrls = getTxDOTFtpUrls(csj, item ? item.county : '', item ? item.letDate : '', item ? item.projectType : '');
-                const fallbackPropUrl = (ftpUrls[ftpUrls.primaryCat] && ftpUrls[ftpUrls.primaryCat].proposalsFolder) ? ftpUrls[ftpUrls.primaryCat].proposalsFolder : ftpUrls.construction.proposalsFolder;
-                const fallbackPlanUrl = (ftpUrls[ftpUrls.primaryCat] && ftpUrls[ftpUrls.primaryCat].plansFolder) ? ftpUrls[ftpUrls.primaryCat].plansFolder : ftpUrls.construction.plansFolder;
+                
+                let projectYear = 2026;
+                if (m && typeof m === 'string' && m.includes('-')) {
+                    const py = parseInt(m.split('-')[0], 10);
+                    if (!isNaN(py)) projectYear = py;
+                }
+                if (item && item.letDate && typeof item.letDate === 'string') {
+                    const parts = item.letDate.split('/');
+                    if (parts.length === 3) {
+                        const py = parseInt(parts[2], 10);
+                        if (!isNaN(py)) projectYear = py;
+                    }
+                }
+                const isHistoricalProject = projectYear < 2025;
+                const activeTableauUrl = `https://tableau.txdot.gov/views/OfficialandUnofficialBidItems4_8x2/OfficialUnofficialBidItems?:embed=y&:isGuestRedirectFromVizportal=y&Proposal%20Status=Official&CONTROLLING%20PROJECT%20ID%20(CCSJ)=${encodeURIComponent(csj)}`;
+                const historicalTableauUrl = `https://tableau.txdot.gov/views/HistoricalProjectInformation/HistoricalProjectInformation?:embed=y&:isGuestRedirectFromVizportal=y&Controlling%20Project%20Id%20(Ccsj)=${encodeURIComponent(csj)}`;
+                const defaultTableauUrl = isHistoricalProject ? historicalTableauUrl : activeTableauUrl;
+
+                const fallbackPropUrl = (foundPropUrl && foundPropUrl.length > 5) ? foundPropUrl : defaultTableauUrl;
+                const fallbackPlanUrl = (foundPlanUrl && foundPlanUrl.length > 5) ? foundPlanUrl : defaultTableauUrl;
 
                 const isDirectPropPdf = Boolean(foundPropUrl && (foundPropUrl.toLowerCase().endsWith('.pdf') || foundPropUrl.toLowerCase().includes('.pdf')));
                 const isDirectPlanPdf = Boolean(foundPlanUrl && (foundPlanUrl.toLowerCase().endsWith('.pdf') || foundPlanUrl.toLowerCase().includes('.pdf')));

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6384-15-001",
+    "county": "Milam",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638415001",
+    "projectType": "PICNIC AREA MAINTENANCE",
+    "letDate": "07/13/21",
+    "engEstTotal": 37320.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ABOVE ALL CONSTRUCTION",
+      "totalBidAmount": 33950.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "BA NEWTON'S ENTERPRISES LLC",
+      "totalBidAmount": 59992.32
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0745 6061",
+      "description": "GROUNDS MAINT (MOWING / TRIMMING)",
+      "unit": "CYC",
+      "quantity": 15.0,
+      "engEstUnit": 200.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "ABOVE ALL CONSTRUCTION": 10.0,
+        "BA NEWTON'S ENTERPRISES LLC": 1600.0
+      }
+    },
+    {
+      "itemCode": "0745 6154",
+      "description": "JANITORIAL MAINT (PICNIC AREAS)",
+      "unit": "CYC",
+      "quantity": 104.0,
+      "engEstUnit": 330.0,
+      "lowUnit": 325.0,
+      "bidders": {
+        "ABOVE ALL CONSTRUCTION": 325.0,
+        "BA NEWTON'S ENTERPRISES LLC": 346.08
+      }
+    }
+  ]
+}

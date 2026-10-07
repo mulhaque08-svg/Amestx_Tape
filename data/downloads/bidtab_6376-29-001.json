@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "csj": "6376-29-001",
+    "county": "Fort Bend",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637629001",
+    "projectType": "ASPHALT PAVEMENT REPAIR",
+    "letDate": "03/09/21",
+    "engEstTotal": 137936.35,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FORDE CONSTRUCTION COMPANY, INC.",
+      "totalBidAmount": 168330.8
+    },
+    {
+      "rank": 2,
+      "vendorName": "MAIN LANE INDUSTRIES LTD.",
+      "totalBidAmount": 180055.83
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0104 6001",
+      "description": "REMOVING CONC (PAV)",
+      "unit": "SY",
+      "quantity": 1887.96,
+      "engEstUnit": 10.0,
+      "lowUnit": 16.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 16.0,
+        "MAIN LANE INDUSTRIES LTD.": 10.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 14.22,
+      "engEstUnit": 30.0,
+      "lowUnit": 74.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 74.0,
+        "MAIN LANE INDUSTRIES LTD.": 40.0
+      }
+    },
+    {
+      "itemCode": "0292 6002",
+      "description": "ASPHALT STAB BASE (GR 2)(PG 64)",
+      "unit": "TON",
+      "quantity": 692.55,
+      "engEstUnit": 100.0,
+      "lowUnit": 97.75,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 97.75,
+        "MAIN LANE INDUSTRIES LTD.": 135.0
+      }
+    },
+    {
+      "itemCode": "0305 6015",
+      "description": "SALV, HAUL & STKPL RCL APH PV (1 1/2\")",
+      "unit": "SY",
+      "quantity": 583.23,
+      "engEstUnit": 5.0,
+      "lowUnit": 7.5,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 7.5,
+        "MAIN LANE INDUSTRIES LTD.": 20.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 16800.0,
+      "bidders": {
+        "FORDE CONSTRUCTION COMPANY, INC.": 16800.0,
+        "MAIN LANE INDUSTRIES LTD.": 14500.0
+      }
+    }
+  ]
+}

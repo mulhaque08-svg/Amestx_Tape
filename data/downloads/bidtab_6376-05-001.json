@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "csj": "6376-05-001",
+    "county": "Atascosa",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BPM - 637605001",
+    "projectType": "BRIDGE SUBSTRUCTURE REPAIR",
+    "letDate": "03/17/21",
+    "engEstTotal": 63412.2,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SJ&J CONSTRUCTION, LLC",
+      "totalBidAmount": 60160.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "K-BAR SERVICES, INC.",
+      "totalBidAmount": 62393.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DELGADO'S CONTRACTORS, LLC",
+      "totalBidAmount": 71110.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "B & MS CONSTRUCTION, INC.",
+      "totalBidAmount": 72130.6
+    },
+    {
+      "rank": 5,
+      "vendorName": "DBI SERVICES, LLC",
+      "totalBidAmount": 74510.0
+    },
+    {
+      "rank": 6,
+      "vendorName": "TASCOSA BRIDGE CO., LC",
+      "totalBidAmount": 75645.28
+    },
+    {
+      "rank": 7,
+      "vendorName": "BLACKSMITH VENTURES LLC",
+      "totalBidAmount": 76890.0
+    },
+    {
+      "rank": 8,
+      "vendorName": "BECK-REIT & SONS, LTD.",
+      "totalBidAmount": 77948.0
+    },
+    {
+      "rank": 9,
+      "vendorName": "TIERRA LEASE SERVICE, LLC",
+      "totalBidAmount": 86070.0
+    },
+    {
+      "rank": 10,
+      "vendorName": "FNH CONSTRUCTION, LLC",
+      "totalBidAmount": 144210.0
+    },
+    {
+      "rank": 11,
+      "vendorName": "SALINAS CONSTRUCTION TECHNOLOGIES, LTD.",
+      "totalBidAmount": 147707.43
+    },
+    {
+      "rank": 12,
+      "vendorName": "RESTEK, INC.",
+      "totalBidAmount": 156976.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 1.0,
+      "engEstUnit": 1755.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 500.0,
+        "K-BAR SERVICES, INC.": 2000.0,
+        "DELGADO'S CONTRACTORS, LLC": 3000.0,
+        "B & MS CONSTRUCTION, INC.": 500.0,
+        "DBI SERVICES, LLC": 3500.0,
+        "TASCOSA BRIDGE CO., LC": 8360.0
+      }
+    },
+    {
+      "itemCode": "0420 6158",
+      "description": "CL C CONC(PILE ENCASEMENT)",
+      "unit": "LF",
+      "quantity": 56.0,
+      "engEstUnit": 550.0,
+      "lowUnit": 250.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 250.0,
+        "K-BAR SERVICES, INC.": 200.0,
+        "DELGADO'S CONTRACTORS, LLC": 500.0,
+        "B & MS CONSTRUCTION, INC.": 385.0,
+        "DBI SERVICES, LLC": 350.0,
+        "TASCOSA BRIDGE CO., LC": 414.28
+      }
+    },
+    {
+      "itemCode": "0459 6007",
+      "description": "GABION MATTRESSES (GALV)(12 IN)",
+      "unit": "SY",
+      "quantity": 136.0,
+      "engEstUnit": 90.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 100.0,
+        "K-BAR SERVICES, INC.": 173.0,
+        "DELGADO'S CONTRACTORS, LLC": 135.0,
+        "B & MS CONSTRUCTION, INC.": 135.0,
+        "DBI SERVICES, LLC": 135.0,
+        "TASCOSA BRIDGE CO., LC": 94.0
+      }
+    },
+    {
+      "itemCode": "0459 6010",
+      "description": "GABIONS (PVC)( 3FT X 3 FT)",
+      "unit": "CY",
+      "quantity": 12.0,
+      "engEstUnit": 400.0,
+      "lowUnit": 360.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 360.0,
+        "K-BAR SERVICES, INC.": 179.25,
+        "DELGADO'S CONTRACTORS, LLC": 350.0,
+        "B & MS CONSTRUCTION, INC.": 500.25,
+        "DBI SERVICES, LLC": 500.0,
+        "TASCOSA BRIDGE CO., LC": 432.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 3952.2,
+      "lowUnit": 12000.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 12000.0,
+        "K-BAR SERVICES, INC.": 5300.0,
+        "DELGADO'S CONTRACTORS, LLC": 7000.0,
+        "B & MS CONSTRUCTION, INC.": 10000.0,
+        "DBI SERVICES, LLC": 10000.0,
+        "TASCOSA BRIDGE CO., LC": 7000.0
+      }
+    },
+    {
+      "itemCode": "0510 6002",
+      "description": "ONE-WAY TRAF CONT (PILOT CAR)",
+      "unit": "HR",
+      "quantity": 50.0,
+      "engEstUnit": 75.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "SJ&J CONSTRUCTION, LLC": 100.0,
+        "K-BAR SERVICES, INC.": 75.0,
+        "DELGADO'S CONTRACTORS, LLC": 75.0,
+        "B & MS CONSTRUCTION, INC.": 65.0,
+        "DBI SERVICES, LLC": 125.0,
+        "TASCOSA BRIDGE CO., LC": 105.0
+      }
+    }
+  ]
+}

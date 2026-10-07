@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "csj": "6377-54-001",
+    "county": "San Jacinto",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637754001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/17/21",
+    "engEstTotal": 202918.44,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "L & M MOWING CONTRACTORS, LLC",
+      "totalBidAmount": 136408.96
+    },
+    {
+      "rank": 2,
+      "vendorName": "AARON A CRUZ",
+      "totalBidAmount": 149999.8
+    },
+    {
+      "rank": 3,
+      "vendorName": "SALAZAR CONTRACTING LLC",
+      "totalBidAmount": 198745.8
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0730 6001",
+      "description": "STRIP MOWING",
+      "unit": "AC",
+      "quantity": 128.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "L & M MOWING CONTRACTORS, LLC": 1.0,
+        "AARON A CRUZ": 0.001,
+        "SALAZAR CONTRACTING LLC": 55.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 4500.92,
+      "engEstUnit": 35.0,
+      "lowUnit": 24.94,
+      "bidders": {
+        "L & M MOWING CONTRACTORS, LLC": 24.94,
+        "AARON A CRUZ": 26.05,
+        "SALAZAR CONTRACTING LLC": 33.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 81.46,
+      "engEstUnit": 40.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "L & M MOWING CONTRACTORS, LLC": 1.0,
+        "AARON A CRUZ": 0.001,
+        "SALAZAR CONTRACTING LLC": 60.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 2977.32,
+      "engEstUnit": 12.0,
+      "lowUnit": 8.0,
+      "bidders": {
+        "L & M MOWING CONTRACTORS, LLC": 8.0,
+        "AARON A CRUZ": 11.0,
+        "SALAZAR CONTRACTING LLC": 12.0
+      }
+    },
+    {
+      "itemCode": "0734 6003",
+      "description": "LITTER REMOVAL (SPOT)",
+      "unit": "AC",
+      "quantity": 128.0,
+      "engEstUnit": 10.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "L & M MOWING CONTRACTORS, LLC": 1.0,
+        "AARON A CRUZ": 0.001,
+        "SALAZAR CONTRACTING LLC": 20.0
+      }
+    }
+  ]
+}

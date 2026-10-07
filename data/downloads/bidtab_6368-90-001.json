@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6368-90-001",
+    "county": "Gillespie",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 636890001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "03/09/21",
+    "engEstTotal": 202220.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "P-VILLE, INCORPORATED",
+      "totalBidAmount": 170079.84
+    },
+    {
+      "rank": 2,
+      "vendorName": "ABESCAPE LANDSCAPING, LLC",
+      "totalBidAmount": 170328.04
+    },
+    {
+      "rank": 3,
+      "vendorName": "AARON A CRUZ",
+      "totalBidAmount": 201732.12
+    },
+    {
+      "rank": 4,
+      "vendorName": "CLASSIC IRRIGATION & LANDSCAPE LLC",
+      "totalBidAmount": 218420.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 275.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 1.0,
+        "ABESCAPE LANDSCAPING, LLC": 0.01,
+        "AARON A CRUZ": 1.0,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6002",
+      "description": "FULL - WIDTH MOWING",
+      "unit": "AC",
+      "quantity": 6304.0,
+      "engEstUnit": 30.0,
+      "lowUnit": 26.96,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 26.96,
+        "ABESCAPE LANDSCAPING, LLC": 27.0,
+        "AARON A CRUZ": 32.0,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 34.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 120.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "P-VILLE, INCORPORATED": 1.0,
+        "ABESCAPE LANDSCAPING, LLC": 1.0,
+        "AARON A CRUZ": 0.001,
+        "CLASSIC IRRIGATION & LANDSCAPE LLC": 34.0
+      }
+    }
+  ]
+}

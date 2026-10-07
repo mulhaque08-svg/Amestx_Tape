@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "csj": "6380-95-001",
+    "county": "Ector",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638095001",
+    "projectType": "SWEEPING AND DEBRIS REMOVAL",
+    "letDate": "06/04/21",
+    "engEstTotal": 368469.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "STAR SWEEPING USA INC.",
+      "totalBidAmount": 256264.74
+    },
+    {
+      "rank": 2,
+      "vendorName": "J-MEN CONCRETE CONSTRUCTION",
+      "totalBidAmount": 296561.85
+    },
+    {
+      "rank": 3,
+      "vendorName": "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.",
+      "totalBidAmount": 297786.9
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 9.0,
+      "engEstUnit": 5000.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "STAR SWEEPING USA INC.": 500.0,
+        "J-MEN CONCRETE CONSTRUCTION": 5000.0,
+        "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.": 2233.0
+      }
+    },
+    {
+      "itemCode": "0738 6002",
+      "description": "CLEANING / SWEEPING (CENTER MEDIAN)",
+      "unit": "MI",
+      "quantity": 116.55,
+      "engEstUnit": 300.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "STAR SWEEPING USA INC.": 200.0,
+        "J-MEN CONCRETE CONSTRUCTION": 250.0,
+        "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.": 285.0
+      }
+    },
+    {
+      "itemCode": "0738 6004",
+      "description": "CLEANING / SWEEPING (OUTSIDE MAIN LANE)",
+      "unit": "MI",
+      "quantity": 745.29,
+      "engEstUnit": 300.0,
+      "lowUnit": 225.0,
+      "bidders": {
+        "STAR SWEEPING USA INC.": 225.0,
+        "J-MEN CONCRETE CONSTRUCTION": 265.0,
+        "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.": 285.0
+      }
+    },
+    {
+      "itemCode": "0738 6006",
+      "description": "CLEANING / SWEEPING (FRONTAGE ROAD)",
+      "unit": "MI",
+      "quantity": 23.85,
+      "engEstUnit": 300.0,
+      "lowUnit": 145.0,
+      "bidders": {
+        "STAR SWEEPING USA INC.": 145.0,
+        "J-MEN CONCRETE CONSTRUCTION": 250.0,
+        "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.": 350.0
+      }
+    },
+    {
+      "itemCode": "0738 6008",
+      "description": "CLEANING / SWEEPING(ENTRANCE/EXIT RAMP)",
+      "unit": "MI",
+      "quantity": 50.04,
+      "engEstUnit": 300.0,
+      "lowUnit": 156.0,
+      "bidders": {
+        "STAR SWEEPING USA INC.": 156.0,
+        "J-MEN CONCRETE CONSTRUCTION": 250.0,
+        "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.": 200.0
+      }
+    },
+    {
+      "itemCode": "0738 6010",
+      "description": "CLEANING / SWEEPING (SPOT)",
+      "unit": "MI",
+      "quantity": 90.0,
+      "engEstUnit": 300.0,
+      "lowUnit": 200.0,
+      "bidders": {
+        "STAR SWEEPING USA INC.": 200.0,
+        "J-MEN CONCRETE CONSTRUCTION": 25.0,
+        "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.": 150.0
+      }
+    }
+  ]
+}

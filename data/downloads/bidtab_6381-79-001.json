@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "csj": "6381-79-001",
+    "county": "Dewitt",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 638179001",
+    "projectType": "HOT MIX",
+    "letDate": "06/07/21",
+    "engEstTotal": 288000.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BRAUNTEX MATERIALS, INC.",
+      "totalBidAmount": 265500.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CENTURY ASPHALT, LTD.",
+      "totalBidAmount": 267750.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "QUALITY HOT MIX, INC.",
+      "totalBidAmount": 315000.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "COLORADO MATERIALS, LTD.",
+      "totalBidAmount": 320940.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "LONE STAR PAVING COMPANY",
+      "totalBidAmount": 324000.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8011 6042",
+      "description": "D-GR HMA (SQ)(TY-D PG 64-22 SAC-B)(DEL)",
+      "unit": "TON",
+      "quantity": 4500.0,
+      "engEstUnit": 64.0,
+      "lowUnit": 59.0,
+      "bidders": {
+        "BRAUNTEX MATERIALS, INC.": 59.0,
+        "CENTURY ASPHALT, LTD.": 59.5,
+        "QUALITY HOT MIX, INC.": 70.0,
+        "COLORADO MATERIALS, LTD.": 71.32,
+        "LONE STAR PAVING COMPANY": 72.0
+      }
+    }
+  ]
+}

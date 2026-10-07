@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6379-05-001",
+    "county": "Collin",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637905001",
+    "projectType": "CLEANING AND SWEEPING HIGHWAYS",
+    "letDate": "06/03/21",
+    "engEstTotal": 572715.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 472425.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "PANNELL INDUSTRIES, INC.",
+      "totalBidAmount": 671202.4
+    },
+    {
+      "rank": 3,
+      "vendorName": "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.",
+      "totalBidAmount": 847667.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 12000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 1.0,
+        "PANNELL INDUSTRIES, INC.": 1000.0,
+        "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.": 100000.0
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 3.0,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "SHALOM SERVICES CORPORATION": 1.0,
+        "PANNELL INDUSTRIES, INC.": 100.0,
+        "SWEEPING SERVICES OF TEXAS - OPERATING, L.P.": 1000.0
+      }
+    }
+  ]
+}

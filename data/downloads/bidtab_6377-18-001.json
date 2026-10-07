@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "csj": "6377-18-001",
+    "county": "Tarrant",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637718001",
+    "projectType": "MOWING HIGHWAY RIGHT OF WAY",
+    "letDate": "06/04/21",
+    "engEstTotal": 978294.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "JASCO",
+      "totalBidAmount": 959779.48
+    },
+    {
+      "rank": 2,
+      "vendorName": "SHALOM SERVICES CORPORATION",
+      "totalBidAmount": 1208945.8
+    },
+    {
+      "rank": 3,
+      "vendorName": "CROSS PLUS CONSTRUCTION, LLC",
+      "totalBidAmount": 1567527.94
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 500.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "JASCO": 100.0,
+        "SHALOM SERVICES CORPORATION": 16000.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "0730 6003",
+      "description": "SPOT MOWING",
+      "unit": "AC",
+      "quantity": 100.0,
+      "engEstUnit": 42.0,
+      "lowUnit": 44.0,
+      "bidders": {
+        "JASCO": 44.0,
+        "SHALOM SERVICES CORPORATION": 97.2,
+        "CROSS PLUS CONSTRUCTION, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0730 6105",
+      "description": "FULL-WIDTH MOWING (URBAN)",
+      "unit": "AC",
+      "quantity": 10428.0,
+      "engEstUnit": 46.0,
+      "lowUnit": 44.0,
+      "bidders": {
+        "JASCO": 44.0,
+        "SHALOM SERVICES CORPORATION": 53.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 79.0
+      }
+    },
+    {
+      "itemCode": "0731 6007",
+      "description": "PAVEMENT EDGES, STRUCTURES & FIXTURES",
+      "unit": "MI",
+      "quantity": 249.14,
+      "engEstUnit": 500.0,
+      "lowUnit": 543.0,
+      "bidders": {
+        "JASCO": 543.0,
+        "SHALOM SERVICES CORPORATION": 750.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 267.0
+      }
+    },
+    {
+      "itemCode": "0731 6011",
+      "description": "BROADCAST APPLICATION",
+      "unit": "AC",
+      "quantity": 2949.34,
+      "engEstUnit": 75.0,
+      "lowUnit": 69.0,
+      "bidders": {
+        "JASCO": 69.0,
+        "SHALOM SERVICES CORPORATION": 20.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 134.0
+      }
+    },
+    {
+      "itemCode": "0734 6001",
+      "description": "LITTER REMOVAL",
+      "unit": "AC",
+      "quantity": 10428.0,
+      "engEstUnit": 12.0,
+      "lowUnit": 15.0,
+      "bidders": {
+        "JASCO": 15.0,
+        "SHALOM SERVICES CORPORATION": 20.0,
+        "CROSS PLUS CONSTRUCTION, LLC": 19.0
+      }
+    }
+  ]
+}

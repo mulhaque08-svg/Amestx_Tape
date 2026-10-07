@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6376-83-001",
+    "county": "Hidalgo",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637683001",
+    "projectType": "CRACK SEAL",
+    "letDate": "06/03/21",
+    "engEstTotal": 946606.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BOEN LANDSCAPING & IRRIGATION, LLC",
+      "totalBidAmount": 780644.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 907519.27
+    },
+    {
+      "rank": 3,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 931011.08
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 80000.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 500.0,
+        "D & M CONTRACTORS, LLC": 30000.0,
+        "TALBRAN ENTERPRISES LLC": 133000.0
+      }
+    },
+    {
+      "itemCode": "0712 6008",
+      "description": "JT / CRCK SEAL (RUBBER - ASPHALT)",
+      "unit": "LMI",
+      "quantity": 1293.24,
+      "engEstUnit": 650.0,
+      "lowUnit": 600.0,
+      "bidders": {
+        "BOEN LANDSCAPING & IRRIGATION, LLC": 600.0,
+        "D & M CONTRACTORS, LLC": 677.77,
+        "TALBRAN ENTERPRISES LLC": 617.0
+      }
+    }
+  ]
+}

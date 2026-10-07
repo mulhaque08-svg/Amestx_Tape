@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "csj": "6378-00-001",
+    "county": "Bexar",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637800001",
+    "projectType": "EMULSION",
+    "letDate": "06/16/21",
+    "engEstTotal": 279600.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "ERGON ASPHALT & EMULSIONS, INC.",
+      "totalBidAmount": 265140.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "MARTIN RESOURCE MANAGEMENT CORPORATION",
+      "totalBidAmount": 286650.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8010 6005",
+      "description": "EMULSION (CHFRS-2P) (DEL)",
+      "unit": "GAL",
+      "quantity": 60000.0,
+      "engEstUnit": 2.7,
+      "lowUnit": 2.6,
+      "bidders": {
+        "ERGON ASPHALT & EMULSIONS, INC.": 2.6,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.82
+      }
+    },
+    {
+      "itemCode": "8010 6006",
+      "description": "EMULSION (CHFRS-2P) (PICKUP)",
+      "unit": "GAL",
+      "quantity": 3000.0,
+      "engEstUnit": 2.55,
+      "lowUnit": 2.45,
+      "bidders": {
+        "ERGON ASPHALT & EMULSIONS, INC.": 2.45,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.5
+      }
+    },
+    {
+      "itemCode": "8010 6007",
+      "description": "EMULSION (CSS-1H) (DEL)",
+      "unit": "GAL",
+      "quantity": 45000.0,
+      "engEstUnit": 2.3,
+      "lowUnit": 2.13,
+      "bidders": {
+        "ERGON ASPHALT & EMULSIONS, INC.": 2.13,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 2.32
+      }
+    },
+    {
+      "itemCode": "8010 6008",
+      "description": "EMULSION (CSS-1H) (PICKUP)",
+      "unit": "GAL",
+      "quantity": 3000.0,
+      "engEstUnit": 2.15,
+      "lowUnit": 1.98,
+      "bidders": {
+        "ERGON ASPHALT & EMULSIONS, INC.": 1.98,
+        "MARTIN RESOURCE MANAGEMENT CORPORATION": 1.85
+      }
+    }
+  ]
+}

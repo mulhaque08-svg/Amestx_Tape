@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "csj": "0906-00-188",
+    "county": "Ector",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "C 906-00-188",
+    "projectType": "PREVENTIVE MAINTENANCE",
+    "letDate": "03/04/21",
+    "engEstTotal": 846825.66,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "CENTERLINE TECHNOLOGIES, LLC",
+      "totalBidAmount": 691043.54
+    },
+    {
+      "rank": 2,
+      "vendorName": "STRIPE-A-ZONE, INC.",
+      "totalBidAmount": 759906.22
+    },
+    {
+      "rank": 3,
+      "vendorName": "STRIPE LINES, INC.",
+      "totalBidAmount": 795988.32
+    },
+    {
+      "rank": 4,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 839143.47
+    },
+    {
+      "rank": 5,
+      "vendorName": "DOUBLE A CONTRACTING, L.P.",
+      "totalBidAmount": 879775.82
+    },
+    {
+      "rank": 6,
+      "vendorName": "BATTERSON, LLP",
+      "totalBidAmount": 890357.63
+    },
+    {
+      "rank": 7,
+      "vendorName": "PMI PAVEMENT MARKING, LLC",
+      "totalBidAmount": 986546.92
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 71470.12,
+      "lowUnit": 1.0,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 1.0,
+        "STRIPE-A-ZONE, INC.": 1.0,
+        "STRIPE LINES, INC.": 1000.0,
+        "TRP CONSTRUCTION GROUP, LLC": 30000.0,
+        "DOUBLE A CONTRACTING, L.P.": 84000.0,
+        "BATTERSON, LLP": 43500.0
+      }
+    },
+    {
+      "itemCode": "0668 6092",
+      "description": "PREFAB PAV MRK TY C (W) (36\")(YLD TRI)",
+      "unit": "EA",
+      "quantity": 38.0,
+      "engEstUnit": 30.94,
+      "lowUnit": 30.0,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 30.0,
+        "STRIPE-A-ZONE, INC.": 45.0,
+        "STRIPE LINES, INC.": 25.0,
+        "TRP CONSTRUCTION GROUP, LLC": 60.0,
+        "DOUBLE A CONTRACTING, L.P.": 25.0,
+        "BATTERSON, LLP": 35.0
+      }
+    },
+    {
+      "itemCode": "0672 6008",
+      "description": "REFL PAV MRKR TY I-R",
+      "unit": "EA",
+      "quantity": 756.0,
+      "engEstUnit": 4.87,
+      "lowUnit": 5.0,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 5.0,
+        "STRIPE-A-ZONE, INC.": 3.05,
+        "STRIPE LINES, INC.": 3.5,
+        "TRP CONSTRUCTION GROUP, LLC": 3.5,
+        "DOUBLE A CONTRACTING, L.P.": 2.75,
+        "BATTERSON, LLP": 3.25
+      }
+    },
+    {
+      "itemCode": "0672 6010",
+      "description": "REFL PAV MRKR TY II-C-R",
+      "unit": "EA",
+      "quantity": 13571.0,
+      "engEstUnit": 3.34,
+      "lowUnit": 3.0,
+      "bidders": {
+        "CENTERLINE TECHNOLOGIES, LLC": 3.0,
+        "STRIPE-A-ZONE, INC.": 3.05,
+        "STRIPE LINES, INC.": 3.0,
+        "TRP CONSTRUCTION GROUP, LLC": 3.5,
+        "DOUBLE A CONTRACTING, L.P.": 2.75,
+        "BATTERSON, LLP": 3.25
+      }
+    }
+  ]
+}

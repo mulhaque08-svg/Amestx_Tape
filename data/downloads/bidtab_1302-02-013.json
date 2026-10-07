@@ -1,0 +1,525 @@
+{
+  "metadata": {
+    "csj": "1302-02-013",
+    "county": "Wharton",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "BR 2021(350)",
+    "projectType": "BRIDGE REPLACEMENT",
+    "letDate": "02/04/21",
+    "engEstTotal": 1273087.5,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "SEFBO PIPELINE BRIDGE, INCORPORATED",
+      "totalBidAmount": 1267616.62
+    },
+    {
+      "rank": 2,
+      "vendorName": "TREVWAY, INC.",
+      "totalBidAmount": 1421584.13
+    },
+    {
+      "rank": 3,
+      "vendorName": "SB CONTRACTORS LLC",
+      "totalBidAmount": 1483940.69
+    },
+    {
+      "rank": 4,
+      "vendorName": "JOHN REED AND COMPANY, LLC",
+      "totalBidAmount": 1560502.4
+    },
+    {
+      "rank": 5,
+      "vendorName": "ISI CONTRACTING, INC.",
+      "totalBidAmount": 1573755.45
+    },
+    {
+      "rank": 6,
+      "vendorName": "STATELINE CONSTRUCTION, LLC",
+      "totalBidAmount": 1727698.5
+    },
+    {
+      "rank": 7,
+      "vendorName": "FUQUA CONSTRUCTION CO., INC.",
+      "totalBidAmount": 1736451.65
+    },
+    {
+      "rank": 8,
+      "vendorName": "A GREATER AUSTIN DEVELOPMENT COMPANY, INC.",
+      "totalBidAmount": 1791229.7
+    },
+    {
+      "rank": 9,
+      "vendorName": "3LW CIVIL LLC",
+      "totalBidAmount": 1958103.3
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0100 6002",
+      "description": "PREPARING ROW",
+      "unit": "STA",
+      "quantity": 4.0,
+      "engEstUnit": 5500.0,
+      "lowUnit": 5000.0,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 5000.0,
+        "TREVWAY, INC.": 1000.0,
+        "SB CONTRACTORS LLC": 3000.0,
+        "JOHN REED AND COMPANY, LLC": 6000.0,
+        "ISI CONTRACTING, INC.": 5000.0,
+        "STATELINE CONSTRUCTION, LLC": 6500.0
+      }
+    },
+    {
+      "itemCode": "0110 6001",
+      "description": "EXCAVATION (ROADWAY)",
+      "unit": "CY",
+      "quantity": 2023.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 9.31,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 9.31,
+        "TREVWAY, INC.": 6.0,
+        "SB CONTRACTORS LLC": 11.2,
+        "JOHN REED AND COMPANY, LLC": 20.0,
+        "ISI CONTRACTING, INC.": 20.0,
+        "STATELINE CONSTRUCTION, LLC": 14.0
+      }
+    },
+    {
+      "itemCode": "0132 6005",
+      "description": "EMBANKMENT (FINAL)(ORD COMP)(TY C)",
+      "unit": "CY",
+      "quantity": 1725.0,
+      "engEstUnit": 15.0,
+      "lowUnit": 11.24,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 11.24,
+        "TREVWAY, INC.": 7.0,
+        "SB CONTRACTORS LLC": 16.8,
+        "JOHN REED AND COMPANY, LLC": 24.0,
+        "ISI CONTRACTING, INC.": 29.0,
+        "STATELINE CONSTRUCTION, LLC": 17.0
+      }
+    },
+    {
+      "itemCode": "0150 6002",
+      "description": "BLADING",
+      "unit": "HR",
+      "quantity": 14.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 500.0,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 500.0,
+        "TREVWAY, INC.": 25.0,
+        "SB CONTRACTORS LLC": 89.07,
+        "JOHN REED AND COMPANY, LLC": 25.0,
+        "ISI CONTRACTING, INC.": 60.0,
+        "STATELINE CONSTRUCTION, LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "0160 6005",
+      "description": "FURNISHING AND PLACING TOPSOIL",
+      "unit": "CY",
+      "quantity": 100.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 29.7,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 29.7,
+        "TREVWAY, INC.": 10.0,
+        "SB CONTRACTORS LLC": 45.93,
+        "JOHN REED AND COMPANY, LLC": 120.0,
+        "ISI CONTRACTING, INC.": 25.0,
+        "STATELINE CONSTRUCTION, LLC": 41.0
+      }
+    },
+    {
+      "itemCode": "0164 6021",
+      "description": "CELL FBR MLCH SEED(PERM)(RURAL)(SANDY)",
+      "unit": "SY",
+      "quantity": 2667.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 1.79,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 1.79,
+        "TREVWAY, INC.": 1.26,
+        "SB CONTRACTORS LLC": 0.84,
+        "JOHN REED AND COMPANY, LLC": 0.5,
+        "ISI CONTRACTING, INC.": 1.1,
+        "STATELINE CONSTRUCTION, LLC": 3.0
+      }
+    },
+    {
+      "itemCode": "0164 6029",
+      "description": "CELL FBR MLCH SEED(TEMP)(WARM)",
+      "unit": "SY",
+      "quantity": 667.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 1.77,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 1.77,
+        "TREVWAY, INC.": 1.0,
+        "SB CONTRACTORS LLC": 1.81,
+        "JOHN REED AND COMPANY, LLC": 1.2,
+        "ISI CONTRACTING, INC.": 1.1,
+        "STATELINE CONSTRUCTION, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0164 6031",
+      "description": "CELL FBR MLCH SEED(TEMP)(COOL)",
+      "unit": "SY",
+      "quantity": 667.0,
+      "engEstUnit": 0.5,
+      "lowUnit": 1.83,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 1.83,
+        "TREVWAY, INC.": 0.25,
+        "SB CONTRACTORS LLC": 1.81,
+        "JOHN REED AND COMPANY, LLC": 1.2,
+        "ISI CONTRACTING, INC.": 1.1,
+        "STATELINE CONSTRUCTION, LLC": 2.0
+      }
+    },
+    {
+      "itemCode": "0168 6001",
+      "description": "VEGETATIVE WATERING",
+      "unit": "MG",
+      "quantity": 41.0,
+      "engEstUnit": 25.0,
+      "lowUnit": 81.4,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 81.4,
+        "TREVWAY, INC.": 1.0,
+        "SB CONTRACTORS LLC": 62.85,
+        "JOHN REED AND COMPANY, LLC": 30.0,
+        "ISI CONTRACTING, INC.": 14.0,
+        "STATELINE CONSTRUCTION, LLC": 5.0
+      }
+    },
+    {
+      "itemCode": "0260 6012",
+      "description": "LIME(HYD,COM OR QK)(SLRY)OR QK(DRY)",
+      "unit": "TON",
+      "quantity": 54.3,
+      "engEstUnit": 175.0,
+      "lowUnit": 194.0,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 194.0,
+        "TREVWAY, INC.": 150.0,
+        "SB CONTRACTORS LLC": 194.29,
+        "JOHN REED AND COMPANY, LLC": 152.0,
+        "ISI CONTRACTING, INC.": 164.0,
+        "STATELINE CONSTRUCTION, LLC": 265.0
+      }
+    },
+    {
+      "itemCode": "0260 6027",
+      "description": "LIME TRT (EXST MATL)(8\")",
+      "unit": "SY",
+      "quantity": 3399.0,
+      "engEstUnit": 3.5,
+      "lowUnit": 6.5,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 6.5,
+        "TREVWAY, INC.": 4.0,
+        "SB CONTRACTORS LLC": 6.15,
+        "JOHN REED AND COMPANY, LLC": 4.0,
+        "ISI CONTRACTING, INC.": 5.0,
+        "STATELINE CONSTRUCTION, LLC": 9.0
+      }
+    },
+    {
+      "itemCode": "0400 6005",
+      "description": "CEM STABIL BKFL",
+      "unit": "CY",
+      "quantity": 96.2,
+      "engEstUnit": 150.0,
+      "lowUnit": 180.0,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 180.0,
+        "TREVWAY, INC.": 95.0,
+        "SB CONTRACTORS LLC": 164.12,
+        "JOHN REED AND COMPANY, LLC": 60.0,
+        "ISI CONTRACTING, INC.": 95.0,
+        "STATELINE CONSTRUCTION, LLC": 265.0
+      }
+    },
+    {
+      "itemCode": "0409 6004",
+      "description": "PRESTR CONC PIL (24 IN SQ)",
+      "unit": "LF",
+      "quantity": 2028.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 116.0,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 116.0,
+        "TREVWAY, INC.": 315.0,
+        "SB CONTRACTORS LLC": 260.09,
+        "JOHN REED AND COMPANY, LLC": 200.0,
+        "ISI CONTRACTING, INC.": 225.0,
+        "STATELINE CONSTRUCTION, LLC": 290.0
+      }
+    },
+    {
+      "itemCode": "0420 6013",
+      "description": "CL C CONC (ABUT)",
+      "unit": "CY",
+      "quantity": 48.9,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1185.8,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 1185.8,
+        "TREVWAY, INC.": 600.0,
+        "SB CONTRACTORS LLC": 669.23,
+        "JOHN REED AND COMPANY, LLC": 1500.0,
+        "ISI CONTRACTING, INC.": 1025.0,
+        "STATELINE CONSTRUCTION, LLC": 1150.0
+      }
+    },
+    {
+      "itemCode": "0420 6025",
+      "description": "CL C CONC (BENT)",
+      "unit": "CY",
+      "quantity": 34.6,
+      "engEstUnit": 1000.0,
+      "lowUnit": 1077.47,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 1077.47,
+        "TREVWAY, INC.": 600.0,
+        "SB CONTRACTORS LLC": 999.11,
+        "JOHN REED AND COMPANY, LLC": 1500.0,
+        "ISI CONTRACTING, INC.": 1050.0,
+        "STATELINE CONSTRUCTION, LLC": 1400.0
+      }
+    },
+    {
+      "itemCode": "0422 6001",
+      "description": "REINF CONC SLAB",
+      "unit": "SF",
+      "quantity": 7220.0,
+      "engEstUnit": 17.0,
+      "lowUnit": 40.0,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 40.0,
+        "TREVWAY, INC.": 14.25,
+        "SB CONTRACTORS LLC": 18.75,
+        "JOHN REED AND COMPANY, LLC": 19.0,
+        "ISI CONTRACTING, INC.": 20.0,
+        "STATELINE CONSTRUCTION, LLC": 24.5
+      }
+    },
+    {
+      "itemCode": "0425 6035",
+      "description": "PRESTR CONC GIRDER (TX28)",
+      "unit": "LF",
+      "quantity": 942.5,
+      "engEstUnit": 160.0,
+      "lowUnit": 126.0,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 126.0,
+        "TREVWAY, INC.": 138.0,
+        "SB CONTRACTORS LLC": 156.84,
+        "JOHN REED AND COMPANY, LLC": 200.0,
+        "ISI CONTRACTING, INC.": 158.0,
+        "STATELINE CONSTRUCTION, LLC": 195.0
+      }
+    },
+    {
+      "itemCode": "0432 6032",
+      "description": "RIPRAP (STONE PROTECTION)(15 IN)",
+      "unit": "CY",
+      "quantity": 342.0,
+      "engEstUnit": 165.0,
+      "lowUnit": 112.2,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 112.2,
+        "TREVWAY, INC.": 58.0,
+        "SB CONTRACTORS LLC": 134.17,
+        "JOHN REED AND COMPANY, LLC": 75.0,
+        "ISI CONTRACTING, INC.": 190.0,
+        "STATELINE CONSTRUCTION, LLC": 125.0
+      }
+    },
+    {
+      "itemCode": "0450 6054",
+      "description": "RAIL  (TY SSTR) (W/DRAIN SLOTS)",
+      "unit": "LF",
+      "quantity": 428.0,
+      "engEstUnit": 120.0,
+      "lowUnit": 60.5,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 60.5,
+        "TREVWAY, INC.": 100.0,
+        "SB CONTRACTORS LLC": 85.68,
+        "JOHN REED AND COMPANY, LLC": 80.0,
+        "ISI CONTRACTING, INC.": 80.0,
+        "STATELINE CONSTRUCTION, LLC": 135.0
+      }
+    },
+    {
+      "itemCode": "0454 6018",
+      "description": "SEALED EXPANSION JOINT (4 IN) (SEJ - M)",
+      "unit": "LF",
+      "quantity": 74.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 83.6,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 83.6,
+        "TREVWAY, INC.": 200.0,
+        "SB CONTRACTORS LLC": 114.05,
+        "JOHN REED AND COMPANY, LLC": 80.0,
+        "ISI CONTRACTING, INC.": 110.0,
+        "STATELINE CONSTRUCTION, LLC": 95.0
+      }
+    },
+    {
+      "itemCode": "0496 6010",
+      "description": "REMOV STR (BRIDGE 100 - 499 FT LENGTH)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 55000.0,
+      "lowUnit": 50182.0,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 50182.0,
+        "TREVWAY, INC.": 25000.0,
+        "SB CONTRACTORS LLC": 24273.77,
+        "JOHN REED AND COMPANY, LLC": 160000.0,
+        "ISI CONTRACTING, INC.": 100000.0,
+        "STATELINE CONSTRUCTION, LLC": 18950.0
+      }
+    },
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 110000.0,
+      "lowUnit": 45000.0,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 45000.0,
+        "TREVWAY, INC.": 140000.0,
+        "SB CONTRACTORS LLC": 148000.0,
+        "JOHN REED AND COMPANY, LLC": 157000.0,
+        "ISI CONTRACTING, INC.": 150000.0,
+        "STATELINE CONSTRUCTION, LLC": 115000.0
+      }
+    },
+    {
+      "itemCode": "0544 6001",
+      "description": "GUARDRAIL END TREATMENT (INSTALL)",
+      "unit": "EA",
+      "quantity": 4.0,
+      "engEstUnit": 2800.0,
+      "lowUnit": 2117.5,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 2117.5,
+        "TREVWAY, INC.": 2459.1,
+        "SB CONTRACTORS LLC": 3028.64,
+        "JOHN REED AND COMPANY, LLC": 2600.0,
+        "ISI CONTRACTING, INC.": 3000.0,
+        "STATELINE CONSTRUCTION, LLC": 2650.0
+      }
+    },
+    {
+      "itemCode": "0644 6076",
+      "description": "REMOVE SM RD SN SUP&AM",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 3850.0,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 3850.0,
+        "TREVWAY, INC.": 1.0,
+        "SB CONTRACTORS LLC": 171.42,
+        "JOHN REED AND COMPANY, LLC": 100.0,
+        "ISI CONTRACTING, INC.": 85.0,
+        "STATELINE CONSTRUCTION, LLC": 200.0
+      }
+    },
+    {
+      "itemCode": "0658 6014",
+      "description": "INSTL DEL ASSM (D-SW)SZ (BRF)CTB (BI)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 20.0,
+      "lowUnit": 33.66,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 33.66,
+        "TREVWAY, INC.": 12.0,
+        "SB CONTRACTORS LLC": 22.86,
+        "JOHN REED AND COMPANY, LLC": 10.0,
+        "ISI CONTRACTING, INC.": 9.0,
+        "STATELINE CONSTRUCTION, LLC": 45.0
+      }
+    },
+    {
+      "itemCode": "0658 6060",
+      "description": "REMOVE DELIN & OBJECT MARKER ASSMS",
+      "unit": "EA",
+      "quantity": 15.0,
+      "engEstUnit": 40.0,
+      "lowUnit": 36.67,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 36.67,
+        "TREVWAY, INC.": 1.0,
+        "SB CONTRACTORS LLC": 22.86,
+        "JOHN REED AND COMPANY, LLC": 15.0,
+        "ISI CONTRACTING, INC.": 10.0,
+        "STATELINE CONSTRUCTION, LLC": 10.0
+      }
+    },
+    {
+      "itemCode": "0658 6062",
+      "description": "INSTL DEL ASSM (D-SW)SZ 1(BRF)GF2(BI)",
+      "unit": "EA",
+      "quantity": 20.0,
+      "engEstUnit": 27.0,
+      "lowUnit": 33.66,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 33.66,
+        "TREVWAY, INC.": 11.37,
+        "SB CONTRACTORS LLC": 46.81,
+        "JOHN REED AND COMPANY, LLC": 25.0,
+        "ISI CONTRACTING, INC.": 9.0,
+        "STATELINE CONSTRUCTION, LLC": 45.0
+      }
+    },
+    {
+      "itemCode": "0672 6009",
+      "description": "REFL PAV MRKR TY II-A-A",
+      "unit": "EA",
+      "quantity": 24.0,
+      "engEstUnit": 6.0,
+      "lowUnit": 42.74,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 42.74,
+        "TREVWAY, INC.": 12.63,
+        "SB CONTRACTORS LLC": 11.42,
+        "JOHN REED AND COMPANY, LLC": 14.0,
+        "ISI CONTRACTING, INC.": 11.0,
+        "STATELINE CONSTRUCTION, LLC": 6.0
+      }
+    },
+    {
+      "itemCode": "6001 6002",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 14300.0,
+      "bidders": {
+        "SEFBO PIPELINE BRIDGE, INCORPORATED": 14300.0,
+        "TREVWAY, INC.": 6500.0,
+        "SB CONTRACTORS LLC": 8000.0,
+        "JOHN REED AND COMPANY, LLC": 1200.0,
+        "ISI CONTRACTING, INC.": 8000.0,
+        "STATELINE CONSTRUCTION, LLC": 15000.0
+      }
+    }
+  ]
+}

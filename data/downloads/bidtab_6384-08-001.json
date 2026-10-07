@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6384-08-001",
+    "county": "Burleson",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638408001",
+    "projectType": "TREE TRIMMING AND BRUSH REMOVAL",
+    "letDate": "07/14/21",
+    "engEstTotal": 113951.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "AZA CONSTRUCTION INC",
+      "totalBidAmount": 87449.1
+    },
+    {
+      "rank": 2,
+      "vendorName": "TREE GUY LLC",
+      "totalBidAmount": 101575.02
+    },
+    {
+      "rank": 3,
+      "vendorName": "ROAD SOLUTIONS L.L.C.",
+      "totalBidAmount": 130221.5
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 13500.0,
+      "lowUnit": 20000.0,
+      "bidders": {
+        "AZA CONSTRUCTION INC": 20000.0,
+        "TREE GUY LLC": 10000.0,
+        "ROAD SOLUTIONS L.L.C.": 30000.0
+      }
+    },
+    {
+      "itemCode": "0752 6003",
+      "description": "TREE TRIMMING / BRUSH REMOVAL",
+      "unit": "MI",
+      "quantity": 28.617,
+      "engEstUnit": 3000.0,
+      "lowUnit": 2300.0,
+      "bidders": {
+        "AZA CONSTRUCTION INC": 2300.0,
+        "TREE GUY LLC": 3200.0,
+        "ROAD SOLUTIONS L.L.C.": 3500.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 32.0,
+      "engEstUnit": 175.0,
+      "lowUnit": 50.0,
+      "bidders": {
+        "AZA CONSTRUCTION INC": 50.0,
+        "TREE GUY LLC": 0.01,
+        "ROAD SOLUTIONS L.L.C.": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "csj": "6380-25-001",
+    "county": "Waller",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638025001",
+    "projectType": "DITCH CLEANING AND RESHAPING",
+    "letDate": "07/13/21",
+    "engEstTotal": 126075.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "TEXAS DRAINAGE INC.",
+      "totalBidAmount": 99950.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "RELIANT SAND AND CONSTRUCTION, INC.",
+      "totalBidAmount": 108699.13
+    },
+    {
+      "rank": 3,
+      "vendorName": "GV LANDSCAPE AND CONSTRUCTION LLC",
+      "totalBidAmount": 114500.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 12.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 100.0,
+        "RELIANT SAND AND CONSTRUCTION, INC.": 99.99,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 1500.0
+      }
+    },
+    {
+      "itemCode": "0760 6001",
+      "description": "DITCH CLEANING AND RESHAPING (FOOT)",
+      "unit": "LF",
+      "quantity": 100000.0,
+      "engEstUnit": 1.2,
+      "lowUnit": 0.98,
+      "bidders": {
+        "TEXAS DRAINAGE INC.": 0.98,
+        "RELIANT SAND AND CONSTRUCTION, INC.": 1.0,
+        "GV LANDSCAPE AND CONSTRUCTION LLC": 0.89
+      }
+    }
+  ]
+}

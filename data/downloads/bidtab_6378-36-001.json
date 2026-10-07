@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "csj": "6378-36-001",
+    "county": "Randall",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "MMC - 637836001",
+    "projectType": "PAINT AND BEADS",
+    "letDate": "07/20/21",
+    "engEstTotal": 294375.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "BARRICADES UNLIMITED",
+      "totalBidAmount": 290625.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "TOUCHSTONE RESOURCES, LLC",
+      "totalBidAmount": 311000.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "DIGG COMMERCIAL, LLC",
+      "totalBidAmount": 312750.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "8003 6001",
+      "description": "TRAFFIC PAINT (W)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 3900.0,
+      "lowUnit": 4100.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 4100.0,
+        "TOUCHSTONE RESOURCES, LLC": 3650.0,
+        "DIGG COMMERCIAL, LLC": 4080.0
+      }
+    },
+    {
+      "itemCode": "8003 6002",
+      "description": "TRAFFIC PAINT (Y)",
+      "unit": "EA",
+      "quantity": 25.0,
+      "engEstUnit": 3900.0,
+      "lowUnit": 4000.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 4000.0,
+        "TOUCHSTONE RESOURCES, LLC": 3690.0,
+        "DIGG COMMERCIAL, LLC": 4080.0
+      }
+    },
+    {
+      "itemCode": "8003 6003",
+      "description": "GLASS BEADS (TY III)",
+      "unit": "EA",
+      "quantity": 75.0,
+      "engEstUnit": 1325.0,
+      "lowUnit": 1175.0,
+      "bidders": {
+        "BARRICADES UNLIMITED": 1175.0,
+        "TOUCHSTONE RESOURCES, LLC": 1700.0,
+        "DIGG COMMERCIAL, LLC": 1450.0
+      }
+    }
+  ]
+}

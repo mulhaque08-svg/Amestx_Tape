@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "csj": "6378-08-001",
+    "county": "Tarrant",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637808001",
+    "projectType": "CRACK SEAL",
+    "letDate": "07/15/21",
+    "engEstTotal": 207650.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 195230.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 245772.55
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 5.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 100.0,
+        "CRACKSEAL OF TEXAS, LLC": 1.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 23.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 150.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 150.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.05
+      }
+    },
+    {
+      "itemCode": "6185 6002",
+      "description": "TMA (STATIONARY)",
+      "unit": "DAY",
+      "quantity": 48.0,
+      "engEstUnit": 100.0,
+      "lowUnit": 10.0,
+      "bidders": {
+        "D & M CONTRACTORS, LLC": 10.0,
+        "CRACKSEAL OF TEXAS, LLC": 0.05
+      }
+    }
+  ]
+}

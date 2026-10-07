@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "csj": "6377-19-001",
+    "county": "Tarrant",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637719001",
+    "projectType": "FLEXIBLE PAVEMENT STRUCTURE REPAIR",
+    "letDate": "07/02/21",
+    "engEstTotal": 1960500.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FOUTSCO PAVING COMPANY, LLC",
+      "totalBidAmount": 1680326.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "PEACHTREE CONSTRUCTION, LTD.",
+      "totalBidAmount": 1732050.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "JAGOE-PUBLIC COMPANY",
+      "totalBidAmount": 2072310.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "TEXAS MATERIALS GROUP, INC.",
+      "totalBidAmount": 2923872.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0351 6051",
+      "description": "FLEX PAVEMENT STRUCTURE REPAIR (2\"-6\")",
+      "unit": "SY",
+      "quantity": 40000.0,
+      "engEstUnit": 48.5,
+      "lowUnit": 42.0,
+      "bidders": {
+        "FOUTSCO PAVING COMPANY, LLC": 42.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 42.4,
+        "JAGOE-PUBLIC COMPANY": 50.0,
+        "TEXAS MATERIALS GROUP, INC.": 72.14
+      }
+    },
+    {
+      "itemCode": "0500 6033",
+      "description": "MOBILIZATION (CALLOUT)",
+      "unit": "EA",
+      "quantity": 2.0,
+      "engEstUnit": 3000.0,
+      "lowUnit": 100.0,
+      "bidders": {
+        "FOUTSCO PAVING COMPANY, LLC": 100.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 10000.0,
+        "JAGOE-PUBLIC COMPANY": 32000.0,
+        "TEXAS MATERIALS GROUP, INC.": 5000.0
+      }
+    },
+    {
+      "itemCode": "6001 6001",
+      "description": "PORTABLE CHANGEABLE MESSAGE SIGN",
+      "unit": "DAY",
+      "quantity": 38.0,
+      "engEstUnit": 150.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FOUTSCO PAVING COMPANY, LLC": 1.0,
+        "PEACHTREE CONSTRUCTION, LTD.": 75.0,
+        "JAGOE-PUBLIC COMPANY": 45.0,
+        "TEXAS MATERIALS GROUP, INC.": 84.0
+      }
+    }
+  ]
+}

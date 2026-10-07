@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "csj": "6382-95-001",
+    "county": "Polk",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 638295001",
+    "projectType": "CRACK SEAL",
+    "letDate": "07/21/21",
+    "engEstTotal": 283700.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY",
+      "totalBidAmount": 192606.22
+    },
+    {
+      "rank": 2,
+      "vendorName": "D & M CONTRACTORS, LLC",
+      "totalBidAmount": 206345.39
+    },
+    {
+      "rank": 3,
+      "vendorName": "CRACKSEAL OF TEXAS, LLC",
+      "totalBidAmount": 236419.8
+    },
+    {
+      "rank": 4,
+      "vendorName": "TALBRAN ENTERPRISES LLC",
+      "totalBidAmount": 276744.59
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 19141.0,
+      "lowUnit": 2750.0,
+      "bidders": {
+        "GREENPAK SOLUTIONS, LIMITED LIABILITY COMPANY": 2750.0,
+        "D & M CONTRACTORS, LLC": 4000.0,
+        "CRACKSEAL OF TEXAS, LLC": 1.0,
+        "TALBRAN ENTERPRISES LLC": 10000.0
+      }
+    }
+  ]
+}

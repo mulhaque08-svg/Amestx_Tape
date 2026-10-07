@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "csj": "6379-49-001",
+    "county": "Taylor",
+    "highway": "JOB CTY DIV\r\n                                            TEXAS DEPARTMENT OF TRANSPORTATION",
+    "projectName": "RMC - 637949001",
+    "projectType": "PAVEMENT MARKINGS",
+    "letDate": "07/08/21",
+    "engEstTotal": 299210.0,
+    "isPreBid": false
+  },
+  "bidders": [
+    {
+      "rank": 1,
+      "vendorName": "FLAT LINE, INC.",
+      "totalBidAmount": 199194.0
+    },
+    {
+      "rank": 2,
+      "vendorName": "STRIPE-A-ZONE, INC.",
+      "totalBidAmount": 218525.0
+    },
+    {
+      "rank": 3,
+      "vendorName": "STRIPING TECHNOLOGY, L.P.",
+      "totalBidAmount": 270850.0
+    },
+    {
+      "rank": 4,
+      "vendorName": "TOTAL HIGHWAY MAINTENANCE, LLC",
+      "totalBidAmount": 310388.0
+    },
+    {
+      "rank": 5,
+      "vendorName": "TRP CONSTRUCTION GROUP, LLC",
+      "totalBidAmount": 393600.0
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "0500 6001",
+      "description": "MOBILIZATION",
+      "unit": "LS",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 1.0,
+      "bidders": {
+        "FLAT LINE, INC.": 1.0,
+        "STRIPE-A-ZONE, INC.": 1.0,
+        "STRIPING TECHNOLOGY, L.P.": 1.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 2500.0,
+        "TRP CONSTRUCTION GROUP, LLC": 5500.0
+      }
+    },
+    {
+      "itemCode": "0500 6003",
+      "description": "MOBILIZATION (CALLOUT 1)",
+      "unit": "EA",
+      "quantity": 1.0,
+      "engEstUnit": 10000.0,
+      "lowUnit": 2500.0,
+      "bidders": {
+        "FLAT LINE, INC.": 2500.0,
+        "STRIPE-A-ZONE, INC.": 1.0,
+        "STRIPING TECHNOLOGY, L.P.": 1.0,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 2500.0,
+        "TRP CONSTRUCTION GROUP, LLC": 3500.0
+      }
+    },
+    {
+      "itemCode": "0533 6001",
+      "description": "RUMBLE STRIPS (SHOULDER)",
+      "unit": "LF",
+      "quantity": 215000.0,
+      "engEstUnit": 0.26,
+      "lowUnit": 0.12,
+      "bidders": {
+        "FLAT LINE, INC.": 0.12,
+        "STRIPE-A-ZONE, INC.": 0.12,
+        "STRIPING TECHNOLOGY, L.P.": 0.12,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 0.18,
+        "TRP CONSTRUCTION GROUP, LLC": 0.25
+      }
+    },
+    {
+      "itemCode": "0533 6002",
+      "description": "RUMBLE STRIPS (CENTERLINE)",
+      "unit": "LF",
+      "quantity": 107500.0,
+      "engEstUnit": 0.26,
+      "lowUnit": 0.15,
+      "bidders": {
+        "FLAT LINE, INC.": 0.15,
+        "STRIPE-A-ZONE, INC.": 0.12,
+        "STRIPING TECHNOLOGY, L.P.": 0.12,
+        "TOTAL HIGHWAY MAINTENANCE, LLC": 0.18,
+        "TRP CONSTRUCTION GROUP, LLC": 0.3
+      }
+    }
+  ]
+}
